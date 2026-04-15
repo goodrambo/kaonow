@@ -27,7 +27,7 @@
   --shadow-lg:0 4px 20px rgba(0,0,0,0.08);
   --shadow-xl:0 12px 48px rgba(0,0,0,0.1);
   --transition:0.22s cubic-bezier(0.4,0,0.2,1);
-  --header-h:52px;
+  --header-h:60px;
 }
 html{scroll-behavior:smooth}
 body{font-family:'Noto Sans TC',-apple-system,BlinkMacSystemFont,sans-serif;background:var(--bg);color:var(--text);line-height:1.7;min-height:100vh;-webkit-font-smoothing:antialiased}
@@ -399,6 +399,28 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;font-size:
 .cloud-badge{display:inline-flex;align-items:center;gap:4px;
   font-size:11px;color:var(--accent);background:var(--accent-light);
   padding:2px 8px;border-radius:999px;font-weight:600;margin-left:6px}
+
+/* ── QUESTION SOURCE BADGE ── */
+.q-meta{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:12px;flex-wrap:wrap}
+.q-badge{font-size:11px;font-weight:600;padding:3px 10px;border-radius:999px;letter-spacing:0.3px;white-space:nowrap}
+.badge-official{background:var(--accent-light);color:var(--accent)}
+.badge-ai{background:#F3E8FF;color:#6B21A8}
+.badge-community{background:#FFF8E1;color:#B45309}
+
+/* ── COUNTDOWN TIMER (mock exam) ── */
+.countdown{
+  position:fixed;top:calc(var(--header-h) + 8px);right:20px;z-index:60;
+  background:var(--text);color:#fff;padding:8px 16px;border-radius:999px;
+  font-size:15px;font-weight:700;font-variant-numeric:tabular-nums;
+  box-shadow:0 4px 14px rgba(0,0,0,0.2);display:none;
+  letter-spacing:1px;
+}
+.countdown.show{display:block}
+.countdown.warn{background:var(--wrong);animation:pulse 1s infinite}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.05)}}
+
+/* ── QUIZ MODE CARDS 美化 ── */
+.mode-card{min-height:92px;display:flex;flex-direction:column;gap:4px}
 </style>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
 <meta name="supabase-url" content="https://myvfboezhnzgovowhaff.supabase.co">
@@ -438,6 +460,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;font-size:
 </header>
 
 <!-- HOME -->
+<div class="countdown" id="countdown-timer"></div>
 <section id="screen-home" class="screen active">
   <div class="container">
     <div class="hero-landing">
@@ -966,12 +989,80 @@ const cloud = (() => {
     }
   }
 
+  // ── 依來源篩選載入（隨機測驗 / AI 考題用） ──────────────
+  async function loadQuestionsBySource(examId, sources) {
+    // sources: Array of 'official' | 'ai_generated' | 'community'
+    const all = await loadQuestions(examId);
+    if (!sources || !sources.length) return all;
+    return all.filter(q => sources.includes(q.source));
+  }
+
+  // ── 弱點加強：依 chapter_progress + 錯題挑題 ──────────────
+  async function loadWeakPoints(examId, limit = 10) {
+    const uid = userId();
+    if (!uid) return { ok: false, reason: 'not_logged_in', questions: [] };
+
+    // 1. 讀章節進度，找弱章節（正確率 < 70%，且至少做過 3 題）
+    const cpR = await request(
+      'chapter_progress?user_id=eq.' + uid + '&exam_id=eq.' + examId +
+      '&select=chapter_id,total_attempts,correct_attempts'
+    );
+    const weakChapters = (cpR.ok ? cpR.data : [])
+      .filter(r => r.total_attempts >= 3 && (r.correct_attempts / r.total_attempts) < 0.7)
+      .map(r => r.chapter_id);
+
+    // 2. 讀錯題清單（最近 100 筆錯題）
+    const waR = await request(
+      'question_attempts?user_id=eq.' + uid + '&exam_id=eq.' + examId +
+      '&is_correct=eq.false&order=attempted_at.desc&limit=100&select=question_id'
+    );
+    const wrongIds = new Set((waR.ok ? waR.data : []).map(r => r.question_id));
+
+    // 資料不夠就回報
+    if (weakChapters.length === 0 && wrongIds.size === 0) {
+      return { ok: false, reason: 'no_history', questions: [] };
+    }
+
+    // 3. 載入題庫並排優先序
+    const all = await loadQuestions(examId);
+    const wrongQs = all.filter(q => wrongIds.has(q.id));
+    const weakQs = all.filter(q =>
+      !wrongIds.has(q.id) &&
+      q.ch !== null &&
+      weakChapters.includes(examId + '-ch' + q.ch)
+    );
+
+    // 4. 混合：30% 錯題（再練一次）+ 70% 弱章節新題
+    const wrongTake = Math.min(wrongQs.length, Math.ceil(limit * 0.3));
+    const weakTake = limit - wrongTake;
+    const pool = [
+      ...shuffleArr(wrongQs).slice(0, wrongTake),
+      ...shuffleArr(weakQs).slice(0, weakTake)
+    ];
+    // 如果還不夠，用全庫填
+    if (pool.length < limit) {
+      const rest = shuffleArr(all.filter(q => !pool.find(p => p.id === q.id)))
+        .slice(0, limit - pool.length);
+      pool.push(...rest);
+    }
+    return { ok: true, questions: shuffleArr(pool).slice(0, limit) };
+  }
+
+  function shuffleArr(arr) {
+    const a = [...arr];
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+  }
+
   return {
     // 狀態查詢
     isLoggedIn, currentUser, userId,
     // 資料操作
     saveSession, loadProgress, mergeAndSync,
-    loadQuestions, clearQuestionCache,
+    loadQuestions, loadQuestionsBySource, loadWeakPoints, clearQuestionCache,
     // 生命週期
     logout, init, flushQueue,
     // 底層（內部使用）
@@ -1740,10 +1831,26 @@ function renderBankPane(exam){
   const el=document.getElementById('exam-tab-bank');
   if(!exam.available){el.innerHTML=`<div class="placeholder-card"><span class="emoji">📝</span><h3>題庫建置中</h3><p>即將上線。</p></div>`;return;}
   el.innerHTML=`<div class="mode-grid">
-    <button class="mode-card" onclick="startQuiz('random')"><div class="mode-icon">🎲</div><div class="mode-title">隨機測驗</div><div class="mode-desc">10 題跨章隨機抽題</div></button>
-    <button class="mode-card" onclick="startQuiz('mock')"><div class="mode-icon">🏆</div><div class="mode-title">模擬考試</div><div class="mode-desc">50 題完整模擬正式考</div></button>
-    <button class="mode-card" onclick="startQuiz('weak')"><div class="mode-icon">🎯</div><div class="mode-title">弱點加強</div><div class="mode-desc">針對最弱章節強化練習</div></button>
-    <button class="mode-card" onclick="startQuiz('all-random')"><div class="mode-icon">🔀</div><div class="mode-title">大量練習</div><div class="mode-desc">20 題加強版隨機測驗</div></button>
+    <button class="mode-card" onclick="startQuiz('random')">
+      <div class="mode-icon">🎲</div>
+      <div class="mode-title">隨機測驗</div>
+      <div class="mode-desc">歷年官方考古題 10 題</div>
+    </button>
+    <button class="mode-card" onclick="startQuiz('mock')">
+      <div class="mode-icon">🏆</div>
+      <div class="mode-title">模擬考試</div>
+      <div class="mode-desc">${exam.mock_question_count||40} 題 · ${exam.mock_time_minutes||60} 分鐘限時</div>
+    </button>
+    <button class="mode-card" onclick="startQuiz('weak')">
+      <div class="mode-icon">🎯</div>
+      <div class="mode-title">弱點加強</div>
+      <div class="mode-desc">AI 分析你的答題紀錄</div>
+    </button>
+    <button class="mode-card" onclick="startQuiz('ai')">
+      <div class="mode-icon">🤖</div>
+      <div class="mode-title">AI 考題</div>
+      <div class="mode-desc">AI 從講義產出的新鮮題</div>
+    </button>
   </div>
   <h3 style="font-size:15px;font-weight:700;margin:8px 0 12px;display:flex;align-items:center;gap:8px"><span style="width:3px;height:16px;background:var(--accent);border-radius:2px;display:inline-block"></span>依章節練習</h3>
   <div class="chapter-list">${(exam.chapters||[]).map(ch=>`<div class="chapter-item" onclick="startChapter(${ch.id})"><div><div class="chapter-title">第 ${ch.id+1} 章 · ${ch.name}</div><div class="chapter-meta">約 ${ch.count} 題 · 10 題隨機</div></div><span style="color:var(--text-tertiary)">→</span></div>`).join('')}</div>`;
@@ -1763,14 +1870,54 @@ function renderNewsPane(exam){
 // ===== QUIZ =====
 function shuffle(arr){const a=[...arr];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
 async function startQuiz(mode){
-  showToast('載入題目中...');
-  const bank = await cloud.loadQuestions(state.currentExamId);
-  if(!bank || !bank.length){alert('此考試題庫尚未上線');return;}
+  const examObj = exams.find(e => e.id === state.currentExamId);
   state.mode = mode;
-  let pool;
-  if(mode==='mock') pool=shuffle(bank).slice(0,Math.min(50,bank.length));
-  else if(mode==='all-random') pool=shuffle(bank).slice(0,Math.min(20,bank.length));
-  else pool=shuffle(bank).slice(0,10);
+  showToast('載入題目中...');
+  let pool = [], meta = {};
+
+  try {
+    if (mode === 'random') {
+      // 只抽 official 題
+      const q = await cloud.loadQuestionsBySource(state.currentExamId, ['official']);
+      if (!q.length) { alert('目前沒有官方題庫，請選其他模式'); return; }
+      pool = shuffle(q).slice(0, 10);
+    }
+    else if (mode === 'ai') {
+      // 只抽 AI 題
+      const q = await cloud.loadQuestionsBySource(state.currentExamId, ['ai_generated']);
+      if (!q.length) { alert('🤖 AI 題目準備中，敬請期待！\n\n(當管理員用 generate_ai_questions.py 產出題目並審核後會自動出現)'); return; }
+      pool = shuffle(q).slice(0, Math.min(10, q.length));
+    }
+    else if (mode === 'weak') {
+      // 弱點加強
+      const r = await cloud.loadWeakPoints(state.currentExamId, 10);
+      if (!r.ok) {
+        if (r.reason === 'not_logged_in') alert('請先登入才能使用弱點加強');
+        else alert('先做幾次隨機測驗或模擬考，累積紀錄後就能啟用「弱點加強」');
+        return;
+      }
+      pool = r.questions;
+    }
+    else if (mode === 'mock') {
+      // 模擬考 — 依考試規則
+      const all = await cloud.loadQuestions(state.currentExamId);
+      const n = examObj?.mock_question_count || 40;
+      if (all.length < n) {
+        alert(`模擬考需要 ${n} 題，目前題庫只有 ${all.length} 題，建議先用隨機測驗累積`);
+        return;
+      }
+      pool = shuffle(all).slice(0, n);
+      meta.timeLimitSeconds = (examObj?.mock_time_minutes || 60) * 60;
+      meta.passScore = examObj?.mock_pass_score || 60;
+    }
+  } catch(e) {
+    console.error(e);
+    alert('載入題目失敗：' + e.message);
+    return;
+  }
+
+  if (!pool.length) { alert('題目不足'); return; }
+  state.mockMeta = meta;
   initQuiz(pool);
 }
 async function startChapter(ch){
@@ -1783,9 +1930,50 @@ async function startChapter(ch){
   initQuiz(pool);
 }
 function initQuiz(questions){
-  state.questions=questions;state.currentIdx=0;state.answers=new Array(questions.length).fill(null);state.startTime=Date.now();
-  nav('quiz');renderDots();renderQuestion();
+  state.questions = questions;
+  state.currentIdx = 0;
+  state.answers = new Array(questions.length).fill(null);
+  state.startTime = Date.now();
+  // 啟動倒數（模擬考才有）
+  if (state.mockMeta?.timeLimitSeconds) {
+    state.mockDeadline = Date.now() + state.mockMeta.timeLimitSeconds * 1000;
+    startCountdown();
+  } else {
+    state.mockDeadline = null;
+    stopCountdown();
+  }
+  nav('quiz');
+  renderDots();
+  renderQuestion();
 }
+
+let _countdownInterval = null;
+function startCountdown() {
+  stopCountdown();
+  const el0 = document.getElementById('countdown-timer'); if (el0) el0.classList.add('show');
+  const tick = () => {
+    const el = document.getElementById('countdown-timer');
+    if (!el) return;
+    const remain = Math.max(0, state.mockDeadline - Date.now());
+    if (remain <= 0) {
+      stopCountdown();
+      showToast('時間到！自動交卷');
+      setTimeout(() => showResult(), 800);
+      return;
+    }
+    const m = Math.floor(remain / 60000);
+    const s = Math.floor((remain % 60000) / 1000);
+    el.textContent = String(m).padStart(2,'0') + ':' + String(s).padStart(2,'0');
+    el.classList.toggle('warn', remain < 5 * 60 * 1000);  // <5分鐘警告色
+  };
+  tick();
+  _countdownInterval = setInterval(tick, 500);
+}
+function stopCountdown() {
+  if (_countdownInterval) { clearInterval(_countdownInterval); _countdownInterval = null; }
+  const el0 = document.getElementById('countdown-timer'); if (el0) el0.classList.remove('show');
+}
+
 function renderDots(){
   const wrap=document.getElementById('quiz-dots');wrap.innerHTML='';
   state.questions.forEach((_,i)=>{
@@ -1795,13 +1983,22 @@ function renderDots(){
   });
 }
 function goToQuestion(i){state.currentIdx=i;renderQuestion();renderDots();}
+function sourceBadge(src) {
+  if (src === 'ai_generated') return '<span class="q-badge badge-ai">🤖 AI 生成題</span>';
+  if (src === 'community') return '<span class="q-badge badge-community">👥 社群</span>';
+  if (src === 'official') return '<span class="q-badge badge-official">📝 官方考古題</span>';
+  return '';
+}
+
 function renderQuestion(){
   const idx=state.currentIdx,q=state.questions[idx],total=state.questions.length,answered=state.answers[idx];
   document.getElementById('q-current').textContent=idx+1;
   document.getElementById('q-total').textContent=total;
   document.getElementById('quiz-progress').style.width=((idx+1)/total*100)+'%';
+  // Source badge
+  const badge = sourceBadge(q.source);
   const letters=['A','B','C','D'];
-  let html=`<div class="question-card"><div class="q-number">第 ${idx+1} 題，共 ${total} 題</div><div class="q-text">${q.q}</div><div class="options">`;
+  let html=`<div class="question-card"><div class="q-meta"><div class="q-number">第 ${idx+1} 題，共 ${total} 題</div>${badge}</div><div class="q-text">${q.q}</div><div class="options">`;
   q.opts.forEach((opt,oi)=>{
     let cls='option-btn';
     if(answered!==null){cls+=' disabled';if(oi===q.ans)cls+=' correct';else if(oi===answered.selected&&!answered.correct)cls+=' wrong';}
@@ -1827,6 +2024,7 @@ function selectAnswer(oi){
 }
 function nextQuestion(){if(state.currentIdx<state.questions.length-1){state.currentIdx++;renderQuestion();window.scrollTo(0,0);}}
 function confirmExit(){
+  stopCountdown();
   const u=state.answers.filter(a=>a===null).length;
   if(u>0&&u<state.questions.length&&!confirm(`還有 ${u} 題未作答，確定要離開？`))return;
   nav('exam/'+state.currentExamId);
