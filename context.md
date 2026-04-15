@@ -1,6 +1,6 @@
 # KaoNow 專案記憶檔
 
-> 最後更新：2026-04-16
+> 最後更新：2026-04-16（v6 subjects 架構 + 6 大系統擴充）
 > 使用方式：每次開啟新對話時，請我先讀這份檔案即可快速接上進度。
 > 維護：每完成一個階段後，請我「更新 context.md」。
 
@@ -66,9 +66,9 @@
 - Magic Link（Email 登入連結）
 - Site URL 與 Redirect URL 都設為 `https://kaonow.com`
 
-### 3.4 資料庫 Schema（23 張表）
+### 3.4 資料庫 Schema（25 張表）
 
-**內容表**：`exam_categories`、`exams`、`chapters`、`questions`、`lectures`、`exam_news`、`promo_codes`
+**內容表**：`exam_categories`、`exams`、`subjects`、`exam_subjects`、`chapters`、`questions`、`lectures`、`exam_news`、`promo_codes`
 
 **用戶與訂閱**：`profiles`、`subscriptions`、`payment_transactions`
 
@@ -77,6 +77,49 @@
 **個人化**：`bookmarks`、`exam_reminders`、`study_plans`、`notifications`
 
 **系統**：`webhook_events`、`user_events`、`admin_users`、`app_settings`
+
+### 3.5 v6 Subjects 架構（2026-04 新增）
+
+解決「高考三級/學測/普考等考試有多個類科、不同類科考不同科目」的架構問題，並讓題庫可跨考試共用。
+
+**新增兩張表：**
+
+- `subjects`（60 筆）：題庫歸屬的最細單位
+  - 分類：`common`（6 共同科目）、`professional`（19 公職專業）、`academic`（18 升學）、`language`（13 語言）、`misc`（4 其他）
+  - 例：`sub-admin-law`（行政法）、`sub-gsat-chinese`（學測國文）、`sub-toeic-l`（TOEIC Listening）
+
+- `exam_subjects`（99 筆）：考試 ↔ 科目 M:N 關聯 + 類科欄位
+  - 欄位：`exam_id`、`subject_id`、`track_name`（類科，nullable）、`is_required`、`weight`、`sort_order`
+  - UNIQUE(exam_id, subject_id, track_name)
+
+**擴充兩張表：**
+
+- `chapters` 加 `subject_id`（可選），`exam_id` 改為 nullable
+- `questions` 加 `subject_id`（可選），`exam_id` 改為 nullable
+- 向下相容：甲種職安衛現有 153 題不受影響（仍綁 exam_id）
+
+**類科邏輯：**
+
+- `track_name IS NULL` = 共同科目（所有類科都要考）
+- `track_name = '一般行政'` = 只有這個類科才要考
+
+**已 seed 考試（18 個）：**
+
+| 考試 | 類科 | 範例科目 |
+|---|---|---|
+| 高考三級 | 4 類科 | 共同 3 + 一般行政/民政/人事/財稅 各 4 科 |
+| 普考 | 2 類科 | 共同 2 + 一般行政/人事行政 各 4 科 |
+| 警察三等 | 2 類科 | 共同 2 + 行政/刑事警察 |
+| 司法三等 | 2 類科 | 共同 2 + 書記官/檢察事務官 |
+| 學測 | 2 組 | 共同國英 + 自然組(數A+自然) / 社會組(數B+社會) |
+| 分科測驗 | 2 組 | 自然組 4 科 / 社會組 3 科 |
+| TOEIC/IELTS/GEPT | 無類科 | Listening/Reading/... 分科 |
+| 甲/乙/丙種職安衛 | 無類科 | 單一整合科目 |
+| 律師/會計師/記帳士 | 無類科 | 多科共考 |
+
+**跨考試共用範例：**
+
+`sub-admin-law`（行政法）被 5 個考試引用：高考三級、普考、警察三等（行政警察）、司法三等、律師。未來這個科目一次建好題庫，5 個考試都能抽到。
 
 特色：
 - 原始資料（`*_attempts`）與聚合（`*_progress`）分離，trigger 自動同步
@@ -96,7 +139,10 @@
 6. **金融 / 商業證照**（金管會）— 信託、內控、證券、保險
 7. **資訊科技國際認證** — TQC+、AWS、Security+、PMP
 
-目前 `exams` 表有 **58 筆考試 metadata**，其中只有「甲種職業安全衛生業務主管」有完整題庫（153 題官方 + 1 測試 AI 題）。
+目前 `exams` 表有 **158 筆考試 metadata**（專技 25 + 技術士 39 + 公職 23 + 語言 17 + 升學 8 + 金融 21 + IT 認證 25），其中只有「甲種職業安全衛生業務主管」有完整題庫（153 題官方 + 1 測試 AI 題）。其餘 157 筆顯示「📚 資料完整，題庫建置中」。
+
+**重要 category ID 命名**（不要再踩雷）：
+- `tech-cert`、`prof-exam`、`civil`、`language`、**`academic`**（不是 entrance）、`finance`、`it-cert`
 
 ---
 
@@ -160,8 +206,12 @@
 | `supabase_schema_v2.sql` | v2 — AI 題目欄位（source、source_meta、reviewed_by、reviewed_at、questions_published view）|
 | `supabase_schema_v3.sql` | v3 — 模擬考設定欄位（mock_question_count、mock_time_minutes、mock_pass_score）|
 | `supabase_schema_v4.sql` | v4 — 25 個專技考試 seed + 4 張表補 updated_at |
+| `supabase_schema_v5.sql` | v5 — 6 大系統 133 個考試 seed + 533 章節 |
+| `supabase_schema_v6.sql` | v6 — subjects + exam_subjects 架構 + 60 科目 + 99 關聯 |
 | `verify_schema.py` | 自動驗證 JS vs SQL schema 對齊 |
 | `generate_ai_questions.py` | AI 批次產題模板（支援 OpenAI / Anthropic）|
+| `outputs/generate_six_systems.py` | 6 大系統考試生成器（可重跑） |
+| `outputs/generate_subjects.py` | Subjects 架構生成器（可重跑）|
 | `EXAM_ROADMAP.md` | 7 大系統完整路線圖 |
 | `TECH_CERT_RESEARCH.md` | 技術士考試詳細研究資料 |
 
@@ -172,7 +222,8 @@
 - ✅ kaonow.com 正式上線並綁定 DNS
 - ✅ 首頁、考試目錄、個人中心、定價頁
 - ✅ 7 大系統分類架構
-- ✅ 58 個考試 metadata（含 25 個專技考試）
+- ✅ **158 個考試 metadata 全線完成**（專技 25 + 技術士 39 + 公職 23 + 語言 17 + 升學 8 + 金融 21 + IT 25）
+- ✅ 所有考試都有：簡介、發證單位、考試形式、訓練時數、年報考人數、官方連結、模擬考規則、章節結構
 - ✅ 甲種職安衛 153 題完整題庫 + 5 章講義 + 6 則新聞
 - ✅ Supabase Auth（Google OAuth + Magic Link）
 - ✅ 23 張資料表 schema（含 RLS、triggers、indexes）
@@ -184,10 +235,23 @@
 - ✅ 狀態 3 態 badge
 - ✅ AI 題目端到端流程驗證（INSERT → 審核 → 前端抽到 → 答題）
 - ✅ 自動化 schema 驗證腳本
+- ✅ Header 垂直置中 bug 修復（flex 嵌套循環高度問題）
+- ✅ **v6 Subjects 架構**：60 科目 + 99 exam_subjects 關聯，支援類科與跨考試題庫共用（僅 DB 層，UI 未整合）
 
 ---
 
 ## 10. 待辦事項
+
+### 🔥 最優先（UI 整合 v6 Subjects 架構）
+**下一個對話的主要任務。Schema 已就緒，但前端完全未使用。**
+- [ ] 考試詳情頁偵測 `exam_subjects`：
+  - 無關聯 → 保持現狀（甲種職安衛流程）
+  - 有關聯且有多個 `track_name` → 先顯示「選擇類科」selector
+  - 選完類科後列出該類科的 subjects（共同科目 + 該類科專業科目）
+- [ ] 科目卡片：顯示「共同」/「專業」badge
+- [ ] 點科目 → 進科目詳情頁（類似現在的考試詳情，但顯示章節/題庫/講義）
+- [ ] `cloud.loadQuestions(subjectId)`：新增依 subject 載題功能
+- [ ] 模擬考模式：依科目組合決定抽題（例如選了「高考三級-行政」就抽 3 共同 + 4 行政專業科目的題）
 
 ### 近期（Phase B：付費分層）
 - [ ] 讀取 `profiles.current_tier` 判斷訂閱狀態
@@ -197,9 +261,14 @@
 
 ### 中期（內容擴充）
 - [ ] 批次產 AI 題（實際跑 `generate_ai_questions.py`，需 OpenAI API Key）
-- [ ] 擴充其他 6 大系統題庫（技術士、公職、語言、升學、金融、IT）
-- [ ] 乙種/丙種職安衛題庫（架構與甲種一致，最快複用）
-- [ ] 室內配線丙級、中餐烹調丙級（技術士人氣最高）
+- [x] ~~擴充其他 6 大系統 metadata~~ ✅ 已完成（133 個新考試）
+- [ ] 為高優先考試建立真題題庫：
+  - 乙種/丙種職安衛（架構與甲種一致，最快複用）
+  - 室內配線丙級（技術士年考人數最多，15萬+）
+  - 中餐烹調丙級（餐飲業必備，10萬+）
+  - TOEIC、全民英檢中級（語言測驗熱門）
+  - 護理師、高考三級（專技 / 公職熱門）
+- [ ] 後期校準冷門考試 metadata（URL、報考人數等）
 
 ### 架構升級
 - [ ] `exams` / `categories` 改為從 Supabase 動態讀取（目前前端 hardcode）
@@ -255,6 +324,21 @@
 10. **驗證腳本是保命符**
     每次改 JS 與 Supabase 互動時跑 `python3 verify_schema.py`，確保表名/欄位對齊。
 
+11. **Category ID 命名陷阱**
+    升學類別 DB 是 `academic` 不是 `entrance`。INSERT 時 FK 會擋下錯誤 ID。v5 第一次跑失敗就是這個原因。
+
+12. **pbcopy 後要開新 query tab**
+    在 Supabase SQL Editor 貼新內容時務必點「+ New query」開新 tab，不要編輯舊 query tab，否則會跑到舊 SQL。
+
+13. **flex 嵌套循環高度 bug**
+    `.app-header { height: 80px }` + `.container`（無高度）+ `.header-inner { height: 100% }` 造成循環引用。修法：讓 `.app-header` 本身變 flex 容器（display:flex; align-items:center），並從 header-inner 移除 `height:100%`。
+
+14. **Schema 抽象層級陷阱**
+    不要把「考試」當成題庫最細單位。實際上一個考試（如高考三級）可能有多類科，不同類科考不同科目，同樣的科目（如行政法）會在多個考試出現。v6 的 subjects 架構就是解這個。切勿退回舊架構把「高考三級-行政」當獨立 exam，那會造成題庫重複維護噩夢。
+
+15. **STRING_AGG 顯示截斷**
+    Supabase SQL Editor 的 table 顯示會截斷長字串。驗證類科數量時用 `GROUP BY + COUNT` 分行顯示，不要用 STRING_AGG。
+
 ---
 
 ## 12. 常用指令速查
@@ -287,4 +371,18 @@ python3 generate_ai_questions.py
 **清理測試 AI 題**（在 Supabase SQL Editor）：
 ```sql
 DELETE FROM public.questions WHERE id = 'osh-a-ch0-ai001';
+```
+
+**查詢某考試的類科結構**（v6 架構常用）：
+```sql
+-- 看高考三級有哪些類科
+SELECT DISTINCT track_name FROM public.exam_subjects WHERE exam_id = 'gaokao-3';
+
+-- 看「高考三級行政類科」要考哪些科目
+SELECT s.name, es.sort_order
+FROM public.exam_subjects es
+JOIN public.subjects s ON s.id = es.subject_id
+WHERE es.exam_id = 'gaokao-3' 
+  AND (es.track_name = '一般行政' OR es.track_name IS NULL)
+ORDER BY es.sort_order;
 ```
