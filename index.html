@@ -631,7 +631,15 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;font-size:
 // ╚══════════════════════════════════════════════════════════╝
 const SUPA_URL = 'https://myvfboezhnzgovowhaff.supabase.co';
 const SUPA_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im15dmZib2V6aG56Z292b3doYWZmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzYyNDE3NTIsImV4cCI6MjA5MTgxNzc1Mn0.yPU7NXWOHO8zTFywGBflCuBoiwEZda-FYhQcnszWLOQ';
-const supa = supabase.createClient(SUPA_URL, SUPA_KEY);
+const supa = supabase.createClient(SUPA_URL, SUPA_KEY, {
+  auth: {
+    persistSession: true,
+    autoRefreshToken: true,
+    detectSessionInUrl: true,
+    // 自訂 lock：繞過 navigator.locks 死鎖問題
+    lock: async (name, timeout, fn) => await fn()
+  }
+});
 
 let currentUser = null;
 
