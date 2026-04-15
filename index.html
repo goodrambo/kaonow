@@ -361,16 +361,16 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;font-size:
   <div class="container">
     <div class="hero-landing">
       <div class="hero-label">🎯 台灣人專屬的考試備考平台</div>
-      <h1>備考不用東拼西湊<br><span>一站搞定所有考試</span></h1>
-      <p class="hero-sub">整合證照、英檢、高普考、技術士等各類題庫，搭配講義與時事整合，讓你把有限的時間用在刀口上。</p>
+      <h1>7 大考試系統<br><span>全部整合在這裡</span></h1>
+      <p class="hero-sub">技術士、公職、語言、升學、金融、IT 認證——不用再四處找題庫，一個平台搞定所有備考需求。</p>
       <div class="hero-actions">
         <button class="btn-primary" onclick="nav('catalog')">瀏覽所有考試 →</button>
         <button class="btn-secondary" onclick="nav('exam/osh-a')">試用甲種職安衛</button>
       </div>
       <div class="hero-trust">
-        <span>📚 <b id="meta-exams">18</b> 種考試</span>
-        <span>🎯 <b id="meta-questions">155</b>+ 題</span>
-        <span>📱 方案從 <b>NT$0</b> 起</span>
+        <span>🗂 <b>7</b> 大考試系統</span>
+        <span>📚 <b id="meta-exams">35</b>+ 種考試</span>
+        <span>🎯 <b id="meta-questions">153</b>+ 題（持續更新）</span>
       </div>
     </div>
   </div>
@@ -386,7 +386,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;font-size:
     </div>
 
     <div class="section">
-      <div class="section-head"><div class="section-label">EXAM CATEGORIES</div><h2>涵蓋台灣人最常考的項目</h2><p>點擊類別查看所有考試</p></div>
+      <div class="section-head"><div class="section-label">7 大考試系統</div><h2>找到你的考試方向</h2><p>點擊系統類別，瀏覽下方所有科目</p></div>
       <div class="category-grid" id="home-categories"></div>
     </div>
 
@@ -546,16 +546,78 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;font-size:
 <script>
 // ===== DATA =====
 const examCategories=[
-  {id:'all',name:'全部',icon:'🗂',color:'#E8F0E8',tc:'#2D5F2D'},
-  {id:'gov',name:'政府機關證照',icon:'🏛',color:'#E8F0E8',tc:'#2D5F2D'},
-  {id:'tech',name:'國家技術士',icon:'🔧',color:'#FFF3E0',tc:'#E65100'},
-  {id:'english',name:'英文檢定',icon:'🌐',color:'#E3F2FD',tc:'#1565C0'},
-  {id:'civil',name:'高普考',icon:'📋',color:'#F3E5F5',tc:'#6A1B9A'},
-  {id:'edu',name:'升學考試',icon:'🎓',color:'#E8F5E9',tc:'#2E7D32'},
-  {id:'finance',name:'金融/商業',icon:'💼',color:'#FFF8E1',tc:'#F57F17'},
+  {id:'all',name:'全部考試',icon:'🗂',color:'#F0F0ED',tc:'#555'},
+  {id:'tech-cert',name:'國家技術士技能檢定',icon:'🔧',color:'#FFF3E0',tc:'#BF5300',
+   desc:'勞動部主管，246種職類（甲/乙/丙/單一級），每年3梯次，含室內配線、中餐烹調、電腦應用、烘焙等'},
+  {id:'prof-exam',name:'專門職業及技術人員考試',icon:'🏛',color:'#E8F0E8',tc:'#2D5F2D',
+   desc:'考選部主管，律師、醫師、護理師、建築師、地政士、導遊領隊等特定職業執業資格'},
+  {id:'civil',name:'公務人員考試',icon:'📋',color:'#EDE8F5',tc:'#5B21B6',
+   desc:'考選部主管，高考三級、普考、初等考試及各類特考（警察、司法、鐵路等）'},
+  {id:'language',name:'語言能力檢定',icon:'🌐',color:'#E3F2FD',tc:'#1565C0',
+   desc:'TOEIC多益、GEPT全民英檢、IELTS雅思、TOEFL托福、JLPT日語等，用於升學求職移民'},
+  {id:'academic',name:'升學考試',icon:'🎓',color:'#E8F5E9',tc:'#1B5E20',
+   desc:'學測、分科測驗、統測（技職）、國中教育會考，影響每年逾50萬名考生'},
+  {id:'finance',name:'金融商業證照',icon:'💼',color:'#FFF8E1',tc:'#B45309',
+   desc:'金管會認可，含信託業務人員、內控稽核、證券商業務員、保險業務員及CFP等'},
+  {id:'it-cert',name:'資訊科技國際認證',icon:'💻',color:'#F3E8FF',tc:'#6B21A8',
+   desc:'TQC/TQC+、AWS雲端認證、CompTIA Security+、Cisco CCNA、PMP等，IT職涯必備'},
 ];
 const exams=[
-  {id:'osh-a',categoryId:'gov',available:true,name:'甲種職業安全衛生業務主管',short:'甲種職安衛',
+  // ── 國家技術士技能檢定 ──────────────────────────────────────────────────
+  {id:'elec-c',categoryId:'tech-cert',available:false,
+   name:'室內配線（屋內線路裝修）丙級',short:'室內配線丙級',
+   desc:'全台年報考人數最多的技術士職類（逾15萬人/年），電工從業基本門檻，涵蓋電氣符號、配管配線、配電箱裝配等19工作項目。',
+   issuer:'勞動力發展署技能檢定中心',examFormat:'學科＋術科',
+   links:{official:'https://skill.tcte.edu.tw',bank:'http://slhs.tw/bestcontent.asp?examid=t00700',reg:'https://gov.tw/USV'}},
+  {id:'cooking-c',categoryId:'tech-cert',available:false,
+   name:'中餐烹調丙級',short:'中餐烹調丙級',
+   desc:'年考生逾10萬人，餐飲業從業人員基本門檻。術科須在4小時內完成2道指定菜餚，含工作報告及環境整潔。',
+   issuer:'勞動力發展署技能檢定中心',examFormat:'學科＋術科',
+   links:{official:'https://skill.tcte.edu.tw',bank:'https://onlinetest.tw',reg:'https://gov.tw/USV'}},
+  {id:'cs-c',categoryId:'tech-cert',available:false,
+   name:'電腦軟體應用丙級',short:'電腦軟體應用丙級',
+   desc:'年考生逾8萬人，學生族群最多，涵蓋中英文輸入、文書處理、試算表、簡報製作等辦公室常用軟體操作。',
+   issuer:'勞動力發展署技能檢定中心',examFormat:'學科＋術科',
+   links:{official:'https://skill.tcte.edu.tw',bank:'https://techbank.wdasec.gov.tw',reg:'https://gov.tw/USV'}},
+  {id:'baking-c',categoryId:'tech-cert',available:false,
+   name:'烘焙食品丙級',short:'烘焙食品丙級',
+   desc:'年考生逾5萬人，麵包、西點、中式糕餅三項可選擇，術科須於時限內完成指定品項，題庫約470題。',
+   issuer:'勞動力發展署技能檢定中心',examFormat:'學科＋術科',
+   links:{official:'https://skill.tcte.edu.tw',bank:'https://onlinetest1-2.slhs.tp.edu.tw/bestcontent.asp?examid=t07700',reg:'https://gov.tw/USV'}},
+  {id:'hair-c',categoryId:'tech-cert',available:false,
+   name:'女子美髮丙級',short:'女子美髮丙級',
+   desc:'年考生逾6萬人，美髮業從業人員必備，涵蓋剪髮、燙髮、染髮、吹整等技術及衛生消毒知識。',
+   issuer:'勞動力發展署技能檢定中心',examFormat:'學科＋術科',
+   links:{official:'https://skill.tcte.edu.tw',bank:'https://techbank.wdasec.gov.tw',reg:'https://gov.tw/USV'}},
+  {id:'auto-c',categoryId:'tech-cert',available:false,
+   name:'汽車修護丙級',short:'汽車修護丙級',
+   desc:'年考生逾4萬人，汽車修護業基本認證，涵蓋引擎、底盤、電系等系統的基礎診斷與維修能力。',
+   issuer:'勞動力發展署技能檢定中心',examFormat:'學科＋術科',
+   links:{official:'https://skill.tcte.edu.tw',bank:'https://techbank.wdasec.gov.tw',reg:'https://gov.tw/USV'}},
+  {id:'hvac-c',categoryId:'tech-cert',available:false,
+   name:'冷凍空調裝修丙級',short:'冷凍空調丙級',
+   desc:'年考生逾3萬人，家用及小型商用冷凍空調設備（輸入功率≤3KW）安裝維修認證。',
+   issuer:'勞動力發展署技能檢定中心',examFormat:'學科＋術科',
+   links:{official:'https://skill.tcte.edu.tw',bank:'https://onlinetest.tw/bestcontent.asp?examid=t00100',reg:'https://gov.tw/USV'}},
+  {id:'weld-c',categoryId:'tech-cert',available:false,
+   name:'一般手工電焊丙級',short:'電焊丙級',
+   desc:'年考生逾3萬人，製造業及建築業基礎焊接技能認證，涵蓋工具使用、焊接施工與檢驗。',
+   issuer:'勞動力發展署技能檢定中心',examFormat:'學科＋術科',
+   links:{official:'https://skill.tcte.edu.tw',bank:'https://techbank.wdasec.gov.tw',reg:'https://gov.tw/USV'}},
+  {id:'beauty-c',categoryId:'tech-cert',available:false,
+   name:'美容丙級',short:'美容丙級',
+   desc:'年考生逾4萬人，美容業從業人員必備，涵蓋臉部護理、皮膚分析、衛生消毒及化妝技術。',
+   issuer:'勞動力發展署技能檢定中心',examFormat:'學科＋術科',
+   links:{official:'https://skill.tcte.edu.tw',bank:'https://techbank.wdasec.gov.tw',reg:'https://gov.tw/USV'}},
+  {id:'moto-c',categoryId:'tech-cert',available:false,
+   name:'機車修護丙級',short:'機車修護丙級',
+   desc:'年考生逾3萬人，機車修護業基礎認證，涵蓋引擎、傳動系統、電氣系統等基礎維修知識。',
+   issuer:'勞動力發展署技能檢定中心',examFormat:'學科＋術科',
+   links:{official:'https://skill.tcte.edu.tw',bank:'https://techbank.wdasec.gov.tw',reg:'https://gov.tw/USV'}},
+
+  // ── 專門職業及技術人員考試 ──────────────────────────────────────────────
+  {id:'osh-a',categoryId:'prof-exam',available:true,
+   name:'甲種職業安全衛生業務主管',short:'甲種職安衛',
    desc:'勞動部認證，事業單位負責人必備。5大章節、42小時訓練時數，涵蓋法規、管理、危害預防、健康保護與教育訓練。',
    issuer:'勞動部職業安全衛生署',durationHours:42,examFormat:'筆試・選擇題',
    chapters:[
@@ -565,23 +627,109 @@ const exams=[
      {id:3,name:'衛生管理與健康保護',count:30},
      {id:4,name:'職業安全衛生教育訓練',count:20},
    ]},
-  {id:'osh-b',categoryId:'gov',available:false,name:'乙種職業安全衛生業務主管',short:'乙種職安衛',desc:'中小型事業單位安全衛生管理人員，訓練時數35小時。'},
-  {id:'osh-c',categoryId:'gov',available:false,name:'丙種職業安全衛生業務主管',short:'丙種職安衛',desc:'小型事業單位基礎職安衛證照，訓練時數21小時。'},
-  {id:'ai-planner',categoryId:'gov',available:false,name:'AI應用規劃師',short:'AI應用規劃師',desc:'經濟部產發署推出的AI產業人才認證，涵蓋AI應用導入與專案管理。'},
-  {id:'tech-elec',categoryId:'tech',available:false,name:'丙級室內配線技術士',short:'丙級室內配線',desc:'勞動部技能檢定，電工基礎門檻。'},
-  {id:'tech-cook',categoryId:'tech',available:false,name:'丙級中餐烹調技術士',short:'丙級中餐',desc:'餐飲業從業基本技能認證。'},
-  {id:'tech-cs',categoryId:'tech',available:false,name:'乙級電腦軟體應用技術士',short:'乙級電腦軟體',desc:'資訊應用能力國家認證。'},
-  {id:'ielts',categoryId:'english',available:false,name:'IELTS 雅思',short:'IELTS',desc:'國際英語能力認證，留學移民必考。'},
-  {id:'toefl',categoryId:'english',available:false,name:'TOEFL iBT 托福',short:'TOEFL',desc:'美加留學主要英文能力測試。'},
-  {id:'toeic',categoryId:'english',available:false,name:'TOEIC 多益',short:'TOEIC',desc:'職場英文溝通能力測驗。'},
-  {id:'gept',categoryId:'english',available:false,name:'全民英檢 GEPT',short:'GEPT',desc:'國內最普及的英語能力分級檢定。'},
-  {id:'civil-3',categoryId:'civil',available:false,name:'高考三級一般行政',short:'高考三級',desc:'公務人員高等考試三級，大學以上學歷可報考。'},
-  {id:'civil-4',categoryId:'civil',available:false,name:'普考一般行政',short:'普考',desc:'公務人員普通考試，高中職以上學歷可報考。'},
-  {id:'gsat',categoryId:'edu',available:false,name:'學科能力測驗 學測',short:'學測',desc:'大學入學主要管道，考國英數社自。'},
-  {id:'tcat',categoryId:'edu',available:false,name:'統一入學測驗 統測',short:'統測',desc:'技職院校入學測驗。'},
-  {id:'cap',categoryId:'edu',available:false,name:'國中教育會考',short:'會考',desc:'國中升高中職的主要升學測驗。'},
-  {id:'pmp',categoryId:'finance',available:false,name:'PMP 國際專案管理師',short:'PMP',desc:'PMI發行的國際專案管理認證。'},
-  {id:'fp',categoryId:'finance',available:false,name:'理財規劃人員',short:'理財規劃',desc:'金融研訓院認證，銀行理專必備。'},
+  {id:'osh-b',categoryId:'prof-exam',available:false,
+   name:'乙種職業安全衛生業務主管',short:'乙種職安衛',
+   desc:'中小型事業單位安全衛生管理人員，訓練時數35小時。'},
+  {id:'osh-c',categoryId:'prof-exam',available:false,
+   name:'丙種職業安全衛生業務主管',short:'丙種職安衛',
+   desc:'小型事業單位基礎職安衛證照，訓練時數21小時。'},
+  {id:'ai-planner',categoryId:'prof-exam',available:false,
+   name:'AI應用規劃師',short:'AI應用規劃師',
+   desc:'經濟部產發署推出的AI產業人才認證，涵蓋AI應用導入與專案管理，2024年起積極推動。'},
+  {id:'nurse',categoryId:'prof-exam',available:false,
+   name:'護理師',short:'護理師',
+   desc:'考選部專技考試，護理學系畢業後的執業資格認證，分高考及普考（助理護理師）。'},
+  {id:'land-agent',categoryId:'prof-exam',available:false,
+   name:'地政士（土地代書）',short:'地政士',
+   desc:'辦理土地登記、不動產買賣及契約書撰擬的專業人員，俗稱代書，市場需求穩定。'},
+  {id:'real-estate',categoryId:'prof-exam',available:false,
+   name:'不動產經紀人',short:'不動產經紀人',
+   desc:'房仲業從業必備，可與地政士組成「黃金雙照」，大幅提升職場競爭力。'},
+  {id:'guide',categoryId:'prof-exam',available:false,
+   name:'導遊人員（華語/外語）',short:'導遊領隊',
+   desc:'交通部觀光署主管，觀光業必備證照，分華語導遊、外語導遊、領隊三類，每年約1次考試。'},
+  {id:'bookkeeper',categoryId:'prof-exam',available:false,
+   name:'記帳士',short:'記帳士',
+   desc:'普考等級，協助中小企業辦理記帳及報稅業務，考科含租稅申報實務、財務報表分析等。'},
+
+  // ── 公務人員考試 ────────────────────────────────────────────────────────
+  {id:'civil-3',categoryId:'civil',available:false,
+   name:'高考三級（一般行政）',short:'高考三級',
+   desc:'公務人員高等考試三級，大學以上學歷可報考，錄取後任薦任官等，是晉升中高層公職的主要管道。'},
+  {id:'civil-4',categoryId:'civil',available:false,
+   name:'普通考試（一般行政）',short:'普考',
+   desc:'公務人員普通考試，高中職以上學歷可報考，錄取後任委任官等，是最多人報考的公職考試之一。'},
+  {id:'civil-5',categoryId:'civil',available:false,
+   name:'初等考試',short:'初等考試',
+   desc:'無學歷限制，全部為選擇題，競爭相對較低，適合剛入門的公職考生。'},
+  {id:'railway',categoryId:'civil',available:false,
+   name:'台灣鐵路特考',short:'鐵路特考',
+   desc:'台鐵人員招募考試，分營運、技術等職系，是鐵路迷和穩定就業族群的熱門選擇。'},
+  {id:'police',categoryId:'civil',available:false,
+   name:'警察特考',short:'警察特考',
+   desc:'分基層行政警察、交通警察等職系，為警察人員任用主要管道，每年定期辦理。'},
+
+  // ── 語言能力檢定 ────────────────────────────────────────────────────────
+  {id:'toeic',categoryId:'language',available:false,
+   name:'TOEIC 多益',short:'多益',
+   desc:'台灣最多人考的英文測驗，分聽讀（990分制）和口說寫作，逾14,000家企業採認，求職升遷的英文能力證明。'},
+  {id:'gept',categoryId:'language',available:false,
+   name:'GEPT 全民英語能力分級檢定',short:'全民英檢',
+   desc:'語測中心主辦，分初級到優級5個等級，政府公職晉升、大學申請及教師資格普遍採認。'},
+  {id:'ielts',categoryId:'language',available:false,
+   name:'IELTS 雅思',short:'雅思',
+   desc:'留學英國、澳洲、紐西蘭、加拿大的必備英語能力證明，分學術組（AC）和一般訓練組（GT）。'},
+  {id:'toefl',categoryId:'language',available:false,
+   name:'TOEFL iBT 托福',short:'托福',
+   desc:'申請美加大學的主流英文考試，網路測驗形式，滿分120分，涵蓋閱讀、聽力、口說、寫作。'},
+  {id:'jlpt',categoryId:'language',available:false,
+   name:'JLPT 日本語能力試驗',short:'日檢',
+   desc:'日本國際交流基金主辦，N1-N5五個等級，赴日工作或留學的必備語言認證，台灣每年約8萬人報考。'},
+
+  // ── 升學考試 ────────────────────────────────────────────────────────────
+  {id:'gsat',categoryId:'academic',available:false,
+   name:'學科能力測驗（學測）',short:'學測',
+   desc:'大考中心主辦，每年1月下旬，考國英數社自五科，是繁星推薦和個人申請的入學依據，影響逾13萬考生。'},
+  {id:'asat',categoryId:'academic',available:false,
+   name:'分科測驗',short:'分科測驗',
+   desc:'大考中心主辦，每年7月，以分科測驗成績申請分發入學，為學測未如願考生的第二志願管道。'},
+  {id:'tcat',categoryId:'academic',available:false,
+   name:'統一入學測驗（統測）',short:'統測',
+   desc:'技專校院招生委員會主辦，每年5月，高職生和綜高生的主要入學管道，考普通科目和專業科目。'},
+  {id:'capf',categoryId:'academic',available:false,
+   name:'國中教育會考',short:'會考',
+   desc:'教育部主辦，每年5月，9年級生的升學依據，考國英數社自及作文，分精熟、基礎、待加強三等級。'},
+
+  // ── 金融商業證照 ────────────────────────────────────────────────────────
+  {id:'trust',categoryId:'finance',available:false,
+   name:'信託業務人員',short:'信託業務員',
+   desc:'金融研訓院辦理，銀行信託業務法定必考證照，分業務人員和管理人員兩類，是銀行員必備的第一張證照。'},
+  {id:'icp',categoryId:'finance',available:false,
+   name:'內部控制與稽核',short:'內控稽核',
+   desc:'金融研訓院辦理，銀行業及上市上櫃公司法定必考，是金融業最基本且應用最廣的入門證照。'},
+  {id:'securities',categoryId:'finance',available:false,
+   name:'證券商業務員',short:'證券業務員',
+   desc:'證券商業務員資格考試，進入證券業的門票，分投信投顧和證券兩大類，每年開考多次。'},
+  {id:'insurance-life',categoryId:'finance',available:false,
+   name:'人壽保險業務員',short:'壽險業務員',
+   desc:'保險業法定資格考試，投入壽險業的入門證照，合格後才能向客戶銷售人壽保險商品。'},
+  {id:'cfp',categoryId:'finance',available:false,
+   name:'理財規劃人員（AFP）',short:'AFP理財規劃',
+   desc:'FPAT主辦，進入財富管理的核心證照，銀行理專、財富管理人員必備，進一步可取得CFP認證。'},
+
+  // ── 資訊科技國際認證 ────────────────────────────────────────────────────
+  {id:'tqc',categoryId:'it-cert',available:false,
+   name:'TQC+ 電腦技能認證',short:'TQC+',
+   desc:'電腦技能基金會主辦，台灣最普及的資訊應用認證，涵蓋辦公室應用、程式設計、網路管理等，職場和升學廣泛採認。'},
+  {id:'aws-saa',categoryId:'it-cert',available:false,
+   name:'AWS Solutions Architect Associate',short:'AWS SAA',
+   desc:'Amazon雲端服務架構師認證，台灣雲端工程師職缺的主流加分認證，是最具含金量的雲端入門認證之一。'},
+  {id:'security-plus',categoryId:'it-cert',available:false,
+   name:'CompTIA Security+',short:'Security+',
+   desc:'全球認可的資安入門認證，列入台灣政府資安人員認可清單，適合準備進入資安領域的IT人員。'},
+  {id:'pmp',categoryId:'it-cert',available:false,
+   name:'PMP 國際專案管理師',short:'PMP',
+   desc:'PMI主辦的全球最重要專案管理認證，台灣科技業和製造業廣泛要求，年薪可提升15-30%。'},
 ];
 
 // ===== QUESTION BANK (155 questions) =====
@@ -1081,7 +1229,7 @@ function renderHome(){
     const el=document.createElement('div');
     el.className='category-card';
     el.onclick=()=>{state.catalogFilter=cat.id;nav('catalog')};
-    el.innerHTML=`<div class="category-icon" style="background:${cat.color};color:${cat.tc}">${cat.icon}</div><div class="category-name">${cat.name}</div><div class="category-count">${count} 種考試</div>`;
+    el.innerHTML=`<div class="category-icon" style="background:${cat.color};color:${cat.tc}">${cat.icon}</div><div class="category-name">${cat.name}</div><div class="category-count">${count} 種考試</div>${cat.desc?`<div style="font-size:11.5px;color:var(--text-tertiary);margin-top:8px;line-height:1.55">${cat.desc.substring(0,60)}…</div>`:''}`;
     wrap.appendChild(el);
   });
 }
@@ -1111,7 +1259,7 @@ function renderCatalog(){
       <span class="exam-category">${cat?cat.name:''}</span>
       <div class="exam-name">${exam.name}</div>
       <div class="exam-desc">${exam.desc}</div>
-      <div class="exam-meta">${exam.available?`<span>📚 ${bank.length} 題</span><span>📖 ${(exam.chapters||[]).length} 章</span>`:'<span>⏳ 建置中</span>'}</div>`;
+      <div class="exam-meta">${exam.available?`<span>📚 ${bank.length} 題</span><span>📖 ${(exam.chapters||[]).length} 章</span>`:'<span>⏳ 建置中</span>'}${exam.links?`<span style="margin-left:auto"><a href="${exam.links.official}" target="_blank" rel="noopener" onclick="event.stopPropagation()" style="color:var(--accent);font-size:11px">官網 ↗</a></span>`:''}</div>`;
     grid.appendChild(card);
   });
 }
@@ -1146,7 +1294,12 @@ function switchTab(id){
 }
 function renderOverviewPane(exam){
   const el=document.getElementById('exam-tab-overview');
-  if(!exam.available){el.innerHTML=`<div class="placeholder-card"><span class="emoji">🛠️</span><h3>建置中</h3><p>${exam.name} 的題庫與講義正在整理，敬請期待。</p></div>`;return;}
+  if(!exam.available){
+    const lk=exam.links||{};
+    const linksHtml=Object.keys(lk).length?`<div style="margin-top:20px;display:flex;flex-wrap:wrap;gap:10px;justify-content:center">${lk.official?`<a href="${lk.official}" target="_blank" rel="noopener" style="padding:9px 18px;border-radius:8px;border:1.5px solid var(--border);font-size:13px;font-weight:600;color:var(--text);background:var(--surface)">🏛 官方網站 ↗</a>`:''} ${lk.reg?`<a href="${lk.reg}" target="_blank" rel="noopener" style="padding:9px 18px;border-radius:8px;border:1.5px solid var(--border);font-size:13px;font-weight:600;color:var(--text);background:var(--surface)">📝 線上報名 ↗</a>`:''} ${lk.bank?`<a href="${lk.bank}" target="_blank" rel="noopener" style="padding:9px 18px;border-radius:8px;border:1.5px solid var(--border);font-size:13px;font-weight:600;color:var(--accent);background:var(--accent-light)">📚 官方題庫 ↗</a>`:''}</div>`:''
+    el.innerHTML=`<div class="placeholder-card"><span class="emoji">🛠️</span><h3>${exam.name}</h3><p>題庫與講義建置中，敬請期待。<br>可先到官方網站查詢考試資訊。</p>${linksHtml}</div>`;
+    return;
+  }
   el.innerHTML=`<div class="panel"><h2>📋 考試簡介</h2><p style="font-size:14.5px;color:var(--text-secondary);line-height:1.8">${exam.desc}</p></div>
     <div class="panel"><h2>📚 章節一覽</h2><div class="chapter-list">${(exam.chapters||[]).map(ch=>`<div class="chapter-item" onclick="switchTab('bank')"><div><div class="chapter-title">第 ${ch.id+1} 章 · ${ch.name}</div><div class="chapter-meta">約 ${ch.count} 題</div></div><span style="color:var(--text-tertiary)">→</span></div>`).join('')}</div></div>
     <div style="display:flex;gap:10px;justify-content:center;margin-top:16px">
