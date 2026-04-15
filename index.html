@@ -1,0 +1,1338 @@
+<\!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%232D5F2D'/><text x='50' y='68' font-family='Arial' font-size='56' font-weight='bold' fill='white' text-anchor='middle'>K</text></svg>">
+<title>KaoNow 考NOW — 台灣最好用的考試練習平台</title>
+<meta name="description" content="KaoNow 考NOW — 整合台灣證照、英檢、高普考等各類考試題庫，提供講義、練習與弱點分析，一站式備考平台。">
+<meta property="og:title" content="KaoNow 考NOW — 現在就開始，一次考過">
+<meta property="og:description" content="整合台灣各類考試的一站式練習平台，智慧弱點分析，讓你高效備考。">
+<meta property="og:url" content="https://kaonow.com">
+<link rel="canonical" href="https://kaonow.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg:#F7F6F3;--surface:#FFFFFF;--surface-alt:#EFEEE9;--surface-elev:#FAFAF7;
+  --text:#1A1A1A;--text-secondary:#555;--text-tertiary:#8A8A85;
+  --accent:#2D5F2D;--accent-light:#E8F0E8;--accent-hover:#3A7A3A;--accent-dark:#1F4820;
+  --correct:#1B7A3D;--correct-bg:#E6F5EC;--correct-border:#B8E0C6;
+  --wrong:#C03030;--wrong-bg:#FDE8E8;--wrong-border:#F0B8B8;
+  --warning:#8B6914;--warning-bg:#FFF8E1;
+  --info:#1F4A7A;--info-bg:#E8EFF7;
+  --border:#E0DED8;--border-light:#EEECE6;
+  --radius:12px;--radius-sm:8px;--radius-lg:16px;--radius-xl:24px;
+  --shadow:0 1px 3px rgba(0,0,0,0.05),0 4px 12px rgba(0,0,0,0.04);
+  --shadow-lg:0 4px 20px rgba(0,0,0,0.08);
+  --shadow-xl:0 12px 48px rgba(0,0,0,0.1);
+  --transition:0.22s cubic-bezier(0.4,0,0.2,1);
+  --header-h:64px;
+}
+html{scroll-behavior:smooth}
+body{font-family:'Noto Sans TC',-apple-system,BlinkMacSystemFont,sans-serif;background:var(--bg);color:var(--text);line-height:1.7;min-height:100vh;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit;cursor:pointer;border:none;background:none;font-size:inherit;color:inherit}
+.container{max-width:1100px;margin:0 auto;padding:0 24px}
+.container-narrow{max-width:820px;margin:0 auto;padding:0 24px}
+
+/* HEADER */
+.app-header{background:rgba(255,255,255,0.92);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-bottom:1px solid var(--border-light);position:sticky;top:0;z-index:100;height:var(--header-h)}
+.header-inner{display:flex;align-items:center;justify-content:space-between;height:100%;gap:12px}
+.logo{display:flex;align-items:center;gap:10px;cursor:pointer;flex-shrink:0}
+.logo-icon{width:36px;height:36px;background:var(--accent);border-radius:10px;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:17px;box-shadow:0 2px 8px rgba(45,95,45,0.3)}
+.logo-text{font-size:18px;font-weight:700;letter-spacing:-0.3px}
+.logo-sub{font-size:11px;color:var(--text-tertiary);font-weight:400;margin-left:2px}
+.header-nav{display:flex;align-items:center;gap:4px}
+.header-nav a{padding:8px 13px;border-radius:var(--radius-sm);font-size:14px;color:var(--text-secondary);font-weight:500;transition:var(--transition);white-space:nowrap}
+.header-nav a:hover{background:var(--surface-alt);color:var(--text)}
+.header-nav a.active{background:var(--accent-light);color:var(--accent);font-weight:600}
+.header-cta{padding:9px 20px \!important;border-radius:999px \!important;background:var(--accent) \!important;color:#fff \!important;font-weight:700 \!important;font-size:14px \!important;box-shadow:0 2px 10px rgba(45,95,45,0.35) \!important;border:2px solid transparent \!important;transition:var(--transition) \!important}
+.header-cta:hover{background:var(--accent-hover) \!important;box-shadow:0 4px 16px rgba(45,95,45,0.45) \!important;transform:translateY(-1px)}
+.menu-toggle{display:none;font-size:20px;padding:8px 10px;border-radius:8px;color:var(--text)}
+.menu-toggle:hover{background:var(--surface-alt)}
+@media(max-width:720px){
+  .header-nav{display:none;position:absolute;top:var(--header-h);left:0;right:0;background:var(--surface);border-bottom:1px solid var(--border-light);flex-direction:column;padding:8px 16px 16px;gap:2px;box-shadow:var(--shadow-lg)}
+  .header-nav.open{display:flex}
+  .header-nav a,.header-cta{padding:12px 16px \!important;border-radius:var(--radius-sm) \!important;font-size:15px \!important;width:100%;box-shadow:none \!important}
+  .header-cta{text-align:center;margin-top:6px}
+  .menu-toggle{display:flex;align-items:center;justify-content:center}
+}
+
+/* SCREENS */
+.screen{display:none;animation:fadeUp 0.3s ease}
+.screen.active{display:block}
+@keyframes fadeUp{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@keyframes pop{from{transform:scale(0.96);opacity:0}to{transform:scale(1);opacity:1}}
+
+/* HERO */
+.hero-landing{padding:72px 0 52px;text-align:center;position:relative;overflow:hidden}
+.hero-landing::before{content:'';position:absolute;inset:0;background:radial-gradient(700px 500px at 15% 0%,rgba(45,95,45,0.07),transparent),radial-gradient(500px 400px at 85% 10%,rgba(139,105,20,0.05),transparent);pointer-events:none}
+.hero-label{display:inline-flex;align-items:center;gap:6px;font-size:12px;color:var(--accent);background:var(--accent-light);padding:6px 14px;border-radius:999px;font-weight:600;margin-bottom:18px;letter-spacing:0.3px;border:1px solid rgba(45,95,45,0.15)}
+.hero-landing h1{font-size:44px;font-weight:800;letter-spacing:-1.2px;margin-bottom:16px;line-height:1.2;color:var(--text)}
+.hero-landing h1 span{color:var(--accent)}
+.hero-sub{font-size:18px;color:var(--text-secondary);max-width:600px;margin:0 auto 28px;line-height:1.65}
+.hero-actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-bottom:36px}
+.btn-primary{background:var(--accent);color:#fff;padding:13px 26px;border-radius:999px;font-weight:700;font-size:15px;transition:var(--transition);display:inline-flex;align-items:center;gap:8px;box-shadow:0 4px 14px rgba(45,95,45,0.28)}
+.btn-primary:hover{background:var(--accent-hover);transform:translateY(-2px);box-shadow:0 6px 20px rgba(45,95,45,0.38)}
+.btn-secondary{background:var(--surface);color:var(--text);padding:13px 24px;border-radius:999px;font-weight:600;font-size:15px;transition:var(--transition);border:1.5px solid var(--border)}
+.btn-secondary:hover{background:var(--surface-alt);border-color:#bbb}
+.btn-ghost{background:transparent;color:var(--text-secondary);padding:10px 16px;border-radius:8px;font-weight:500;font-size:14px;transition:var(--transition)}
+.btn-ghost:hover{background:var(--surface-alt);color:var(--text)}
+.hero-trust{display:flex;justify-content:center;gap:32px;flex-wrap:wrap;font-size:13px;color:var(--text-tertiary)}
+.hero-trust span{display:flex;align-items:center;gap:6px}
+.hero-trust b{color:var(--text);font-weight:700;font-size:15px}
+
+/* SECTIONS */
+.section{padding:56px 0}
+.section-label{font-size:11px;color:var(--accent);font-weight:700;letter-spacing:2px;text-transform:uppercase;margin-bottom:10px;text-align:center}
+.section-head{text-align:center;margin-bottom:40px}
+.section-head h2{font-size:32px;font-weight:800;letter-spacing:-0.8px;line-height:1.25;margin-bottom:10px}
+.section-head p{font-size:16px;color:var(--text-secondary);max-width:540px;margin:0 auto}
+
+/* STEPS */
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.step{background:var(--surface);padding:28px 22px;border-radius:var(--radius-lg);border:1px solid var(--border-light);transition:var(--transition)}
+.step:hover{transform:translateY(-3px);box-shadow:var(--shadow-lg)}
+.step-num{display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:10px;background:var(--accent-light);color:var(--accent);font-weight:800;font-size:17px;margin-bottom:14px}
+.step h3{font-size:17px;font-weight:700;margin-bottom:6px}
+.step p{font-size:14px;color:var(--text-secondary);line-height:1.65}
+
+/* CATEGORY GRID */
+.category-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px}
+.category-card{background:var(--surface);padding:22px 20px;border-radius:var(--radius-lg);border:1px solid var(--border-light);transition:var(--transition);cursor:pointer;text-align:left;position:relative}
+.category-card:hover{transform:translateY(-3px);box-shadow:var(--shadow-lg);border-color:var(--accent)}
+.category-icon{width:44px;height:44px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:22px;margin-bottom:12px}
+.category-name{font-size:16px;font-weight:700;margin-bottom:4px}
+.category-count{font-size:12px;color:var(--text-tertiary)}
+
+/* FEATURES */
+.features{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.feat{background:var(--surface);padding:22px;border-radius:var(--radius-lg);border:1px solid var(--border-light);transition:var(--transition)}
+.feat:hover{border-color:var(--border);box-shadow:var(--shadow)}
+.feat-icon{font-size:26px;margin-bottom:10px;display:block}
+.feat h3{font-size:15px;font-weight:700;margin-bottom:5px}
+.feat p{font-size:13.5px;color:var(--text-secondary);line-height:1.6}
+
+/* PRICING */
+.pricing-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;align-items:start}
+.price-card{background:var(--surface);padding:28px 24px;border-radius:var(--radius-lg);border:1.5px solid var(--border-light);transition:var(--transition);position:relative}
+.price-card.highlight{border-color:var(--accent);box-shadow:0 0 0 3px rgba(45,95,45,0.1)}
+.price-card:hover{transform:translateY(-2px);box-shadow:var(--shadow-lg)}
+.price-badge{position:absolute;top:-12px;left:50%;transform:translateX(-50%);background:var(--accent);color:#fff;font-size:11px;font-weight:700;padding:4px 14px;border-radius:999px;white-space:nowrap;letter-spacing:0.5px}
+.price-name{font-size:15px;font-weight:700;color:var(--text-secondary);margin-bottom:8px}
+.price-amount{font-size:36px;font-weight:800;letter-spacing:-1px;line-height:1;margin-bottom:4px;color:var(--text)}
+.price-amount span{font-size:15px;font-weight:500;color:var(--text-secondary)}
+.price-period{font-size:12px;color:var(--text-tertiary);margin-bottom:16px}
+.price-divider{height:1px;background:var(--border-light);margin:16px 0}
+.price-features{list-style:none;display:flex;flex-direction:column;gap:10px}
+.price-features li{font-size:13.5px;display:flex;align-items:flex-start;gap:8px;line-height:1.5}
+.price-features li::before{content:'✓';color:var(--correct);font-weight:700;flex-shrink:0;margin-top:1px}
+.price-features li.off::before{content:'—';color:var(--text-tertiary)}
+.price-features li.off{color:var(--text-tertiary)}
+.price-cta{margin-top:20px;width:100%;padding:11px;border-radius:999px;font-weight:700;font-size:14px;transition:var(--transition);border:1.5px solid var(--accent);color:var(--accent);background:transparent;cursor:pointer}
+.price-cta:hover{background:var(--accent-light)}
+.price-card.highlight .price-cta{background:var(--accent);color:#fff;border-color:var(--accent)}
+.price-card.highlight .price-cta:hover{background:var(--accent-hover)}
+
+/* CTA BAND */
+.cta-band{background:linear-gradient(135deg,var(--accent) 0%,var(--accent-dark) 100%);color:#fff;padding:52px 28px;border-radius:var(--radius-xl);text-align:center;margin:48px 0;position:relative;overflow:hidden}
+.cta-band::before{content:'';position:absolute;inset:0;background:radial-gradient(400px 200px at 80% 30%,rgba(255,255,255,0.07),transparent)}
+.cta-band>*{position:relative}
+.cta-band h2{font-size:30px;font-weight:800;margin-bottom:10px;letter-spacing:-0.6px}
+.cta-band p{font-size:16px;opacity:0.9;margin-bottom:24px;max-width:500px;margin-left:auto;margin-right:auto}
+.cta-band .btn-white{background:#fff;color:var(--accent);padding:13px 28px;border-radius:999px;font-weight:700;font-size:15px;transition:var(--transition);box-shadow:0 4px 14px rgba(0,0,0,0.15);display:inline-flex;align-items:center;gap:8px}
+.cta-band .btn-white:hover{background:#F7F6F3;transform:translateY(-2px);box-shadow:0 6px 20px rgba(0,0,0,0.2)}
+
+/* CATALOG */
+.page-head{padding:36px 0 24px}
+.page-head h1{font-size:30px;font-weight:800;letter-spacing:-0.6px;margin-bottom:6px}
+.page-head p{font-size:15px;color:var(--text-secondary)}
+.filter-bar{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:24px;padding:12px;background:var(--surface);border-radius:var(--radius);border:1px solid var(--border-light)}
+.filter-chip{padding:7px 14px;border-radius:999px;font-size:13px;font-weight:500;color:var(--text-secondary);background:var(--surface-alt);transition:var(--transition);cursor:pointer;white-space:nowrap}
+.filter-chip:hover{background:var(--border-light);color:var(--text)}
+.filter-chip.active{background:var(--accent);color:#fff}
+.exam-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px}
+.exam-card{background:var(--surface);border:1.5px solid var(--border-light);border-radius:var(--radius-lg);padding:22px;transition:var(--transition);cursor:pointer;display:flex;flex-direction:column;gap:10px;position:relative}
+.exam-card:hover{transform:translateY(-2px);box-shadow:var(--shadow-lg)}
+.exam-card.available:hover{border-color:var(--accent)}
+.exam-category{font-size:11px;color:var(--accent);background:var(--accent-light);padding:3px 10px;border-radius:999px;font-weight:600;letter-spacing:0.3px;display:inline-block;align-self:flex-start}
+.exam-name{font-size:17px;font-weight:700;letter-spacing:-0.3px;line-height:1.35}
+.exam-desc{font-size:13px;color:var(--text-secondary);line-height:1.6;flex-grow:1}
+.exam-meta{display:flex;gap:14px;font-size:12px;color:var(--text-tertiary);padding-top:10px;border-top:1px solid var(--border-light)}
+.exam-status{position:absolute;top:16px;right:16px;font-size:10px;font-weight:600;padding:3px 9px;border-radius:999px;letter-spacing:0.3px}
+.exam-status.soon{background:var(--warning-bg);color:var(--warning)}
+.exam-status.ready{background:var(--correct-bg);color:var(--correct)}
+
+/* EXAM DETAIL */
+.breadcrumb{display:flex;gap:6px;font-size:13px;color:var(--text-tertiary);padding:20px 0 8px;align-items:center;flex-wrap:wrap}
+.breadcrumb a{color:var(--text-secondary);transition:var(--transition)}
+.breadcrumb a:hover{color:var(--accent)}
+.exam-hero{background:var(--surface);border-radius:var(--radius-xl);padding:32px;border:1px solid var(--border-light);margin-bottom:22px}
+.exam-hero h1{font-size:28px;font-weight:800;letter-spacing:-0.7px;margin-bottom:8px;line-height:1.25}
+.exam-hero .sub{font-size:14.5px;color:var(--text-secondary);margin-bottom:16px;line-height:1.75}
+.exam-hero-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(110px,1fr));gap:10px;margin-top:18px}
+.eh-stat{background:var(--surface-alt);padding:14px;border-radius:var(--radius);text-align:center}
+.eh-stat-num{font-size:22px;font-weight:800;color:var(--accent);line-height:1.2}
+.eh-stat-label{font-size:11px;color:var(--text-secondary);margin-top:3px}
+.tabs{display:flex;gap:2px;border-bottom:1px solid var(--border);margin-bottom:26px;overflow-x:auto;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tab{padding:12px 16px;font-size:14px;font-weight:600;color:var(--text-secondary);transition:var(--transition);border-bottom:2px solid transparent;margin-bottom:-1px;white-space:nowrap}
+.tab:hover{color:var(--text)}
+.tab.active{color:var(--accent);border-bottom-color:var(--accent)}
+.tab-pane{display:none;animation:fadeUp 0.3s ease}
+.tab-pane.active{display:block}
+
+/* QUIZ MODES */
+.mode-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:24px}
+.mode-card{background:var(--surface);border:1.5px solid var(--border-light);border-radius:var(--radius);padding:18px;cursor:pointer;transition:var(--transition);text-align:left}
+.mode-card:hover{transform:translateY(-2px);box-shadow:var(--shadow);border-color:var(--accent)}
+.mode-icon{font-size:22px;margin-bottom:6px}
+.mode-title{font-size:15px;font-weight:700}
+.mode-desc{font-size:12px;color:var(--text-secondary);margin-top:3px}
+
+/* CHAPTER LIST */
+.chapter-list{display:flex;flex-direction:column;gap:8px}
+.chapter-item{background:var(--surface);border:1px solid var(--border-light);border-radius:var(--radius);padding:15px 18px;transition:var(--transition);cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:12px}
+.chapter-item:hover{border-color:var(--accent);background:var(--surface-elev)}
+.chapter-title{font-size:14px;font-weight:600;margin-bottom:3px}
+.chapter-meta{font-size:12px;color:var(--text-tertiary)}
+
+/* LECTURE ACCORDION */
+.lecture-accordion{display:flex;flex-direction:column;gap:10px}
+.lec-item{background:var(--surface);border:1px solid var(--border-light);border-radius:var(--radius)}
+.lec-header{display:flex;align-items:center;gap:12px;padding:16px 18px;cursor:pointer;transition:var(--transition)}
+.lec-header:hover{background:var(--surface-alt)}
+.lec-icon{width:36px;height:36px;border-radius:9px;background:var(--info-bg);color:var(--info);display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0}
+.lec-meta{flex-grow:1}
+.lec-title{font-size:14.5px;font-weight:600;margin-bottom:2px}
+.lec-sub{font-size:12px;color:var(--text-tertiary)}
+.lec-toggle{font-size:16px;color:var(--text-tertiary);transition:var(--transition)}
+.lec-item.open .lec-toggle{transform:rotate(180deg)}
+.lec-body{display:none;padding:0 18px 20px;border-top:1px solid var(--border-light);margin-top:0}
+.lec-body.open{display:block;animation:fadeUp 0.2s ease}
+.lec-body h4{font-size:15px;font-weight:700;margin:18px 0 8px;color:var(--text);padding-left:10px;border-left:3px solid var(--accent)}
+.lec-body p{font-size:13.5px;color:var(--text-secondary);line-height:1.8;margin-bottom:10px}
+.lec-body ul,.lec-body ol{padding-left:20px;margin-bottom:12px}
+.lec-body li{font-size:13.5px;color:var(--text-secondary);line-height:1.8;margin-bottom:4px}
+.lec-tip{background:var(--warning-bg);border-left:3px solid var(--warning);padding:10px 14px;border-radius:0 8px 8px 0;margin:10px 0;font-size:13px;color:var(--warning)}
+.lec-tip strong{color:var(--warning)}
+.lec-table{width:100%;border-collapse:collapse;margin:10px 0;font-size:13px}
+.lec-table th{background:var(--surface-alt);padding:8px 12px;text-align:left;font-weight:600;border:1px solid var(--border)}
+.lec-table td{padding:8px 12px;border:1px solid var(--border);vertical-align:top}
+.lec-table tr:hover td{background:var(--surface-alt)}
+
+/* NEWS */
+.news-list{display:flex;flex-direction:column;gap:12px}
+.news-item{background:var(--surface);border:1px solid var(--border-light);border-radius:var(--radius);padding:18px;transition:var(--transition)}
+.news-item:hover{border-color:var(--border);box-shadow:var(--shadow)}
+.news-item a.news-title{font-size:15px;font-weight:600;color:var(--text);line-height:1.5;transition:var(--transition);display:block;margin-bottom:6px}
+.news-item a.news-title:hover{color:var(--accent)}
+.news-date{font-size:11px;color:var(--text-tertiary);font-weight:600;letter-spacing:0.5px;text-transform:uppercase;margin-bottom:4px}
+.news-excerpt{font-size:13px;color:var(--text-secondary);line-height:1.65}
+.news-source{font-size:11px;color:var(--text-tertiary);margin-top:8px;display:flex;align-items:center;gap:4px}
+.news-source a{color:var(--accent)}
+
+/* QUIZ */
+.quiz-header{background:rgba(255,255,255,0.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--border-light);padding:12px 0;position:sticky;top:var(--header-h);z-index:50}
+.quiz-top{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:8px}
+.quiz-exit{font-size:13px;color:var(--text-secondary);padding:7px 12px;border-radius:7px;transition:var(--transition)}
+.quiz-exit:hover{background:var(--surface-alt);color:var(--text)}
+.quiz-counter{font-size:13px;color:var(--text-secondary);font-weight:500}
+.quiz-counter b{color:var(--text);font-weight:700}
+.quiz-pb{height:4px;background:var(--border-light);border-radius:999px;overflow:hidden}
+.quiz-pb-fill{height:100%;background:var(--accent);border-radius:999px;transition:width 0.4s ease}
+.quiz-dots{display:flex;gap:5px;margin-top:8px;flex-wrap:wrap}
+.dot{width:10px;height:10px;border-radius:50%;background:var(--border);cursor:pointer;transition:var(--transition)}
+.dot:hover{transform:scale(1.35)}
+.dot.current{background:var(--text-secondary);transform:scale(1.35)}
+.dot.answered-correct{background:var(--correct)}
+.dot.answered-wrong{background:var(--wrong)}
+.question-card{background:var(--surface);border-radius:var(--radius-lg);padding:28px;border:1px solid var(--border-light);margin:22px 0}
+.q-number{font-size:11px;color:var(--text-tertiary);font-weight:600;letter-spacing:0.8px;text-transform:uppercase;margin-bottom:12px}
+.q-text{font-size:17px;font-weight:500;line-height:1.85;margin-bottom:22px}
+.options{display:flex;flex-direction:column;gap:10px}
+.option-btn{display:flex;align-items:flex-start;gap:12px;padding:15px 16px;border:1.5px solid var(--border);border-radius:var(--radius);background:var(--surface);text-align:left;font-size:14.5px;line-height:1.6;transition:var(--transition)}
+.option-btn:hover:not(.disabled){border-color:var(--accent);background:var(--accent-light)}
+.option-letter{width:26px;height:26px;border-radius:50%;background:var(--surface-alt);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:12px;flex-shrink:0;color:var(--text-secondary);transition:var(--transition)}
+.option-btn:hover:not(.disabled) .option-letter{background:var(--accent);color:#fff}
+.option-btn.disabled{cursor:default}
+.option-btn.correct{background:var(--correct-bg);border-color:var(--correct-border);color:var(--correct)}
+.option-btn.correct .option-letter{background:var(--correct);color:#fff}
+.option-btn.wrong{background:var(--wrong-bg);border-color:var(--wrong-border);color:var(--wrong)}
+.option-btn.wrong .option-letter{background:var(--wrong);color:#fff}
+.explanation{background:var(--info-bg);border:1px solid #CFDCF0;border-radius:var(--radius);padding:14px 16px;margin-top:16px;font-size:13.5px;line-height:1.8;animation:pop 0.25s ease}
+.explanation strong{color:var(--info);font-size:14px}
+.quiz-actions{display:flex;justify-content:flex-end;gap:10px;margin:20px 0 40px}
+
+/* RESULT */
+.result-wrap{padding:40px 0 60px;text-align:center}
+.score-circle{position:relative;width:180px;height:180px;margin:0 auto 22px}
+.score-circle svg{width:100%;height:100%;transform:rotate(-90deg)}
+.score-circle circle{fill:none;stroke-width:10;stroke-linecap:round}
+.score-bg{stroke:var(--border-light)}
+.score-ring{stroke:var(--accent);stroke-dasharray:389.5;stroke-dashoffset:389.5;transition:stroke-dashoffset 1.2s cubic-bezier(0.4,0,0.2,1)}
+.score-inner{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.score-num{font-size:48px;font-weight:800;letter-spacing:-1px;line-height:1}
+.score-unit{font-size:14px;color:var(--text-secondary);margin-top:2px}
+.result-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;max-width:480px;margin:0 auto 24px}
+.rs{background:var(--surface);padding:14px;border-radius:var(--radius);border:1px solid var(--border-light)}
+.rs-num{font-size:22px;font-weight:800;line-height:1.2}
+.rs-label{font-size:12px;color:var(--text-secondary);margin-top:3px}
+#r-correct{color:var(--correct)}
+#r-wrong{color:var(--wrong)}
+#weak-area{background:var(--surface);border-radius:var(--radius-lg);padding:22px;border:1px solid var(--border-light);max-width:580px;margin:0 auto 24px;text-align:left}
+#weak-area h3{font-size:15px;font-weight:700;margin-bottom:14px}
+.weak-item{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:9px 0;border-top:1px solid var(--border-light)}
+.weak-item:first-of-type{border-top:none}
+.weak-name{font-size:13px;font-weight:500;flex:1;min-width:0}
+.weak-bar-wrap{width:90px;height:6px;background:var(--border-light);border-radius:999px;overflow:hidden}
+.weak-bar{height:100%;border-radius:999px;transition:width 0.8s ease}
+.weak-pct{font-size:13px;font-weight:700;min-width:38px;text-align:right}
+.result-actions{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+
+/* ME PAGE */
+.profile-hero{background:linear-gradient(135deg,var(--accent-light) 0%,#F3F7F3 100%);padding:28px;border-radius:var(--radius-xl);margin-bottom:22px;border:1px solid var(--border-light)}
+.avatar{width:66px;height:66px;border-radius:50%;background:var(--accent);color:#fff;display:flex;align-items:center;justify-content:center;font-size:28px;font-weight:800;margin-bottom:12px;box-shadow:0 3px 10px rgba(45,95,45,0.25)}
+.profile-hero h1{font-size:22px;font-weight:800;letter-spacing:-0.3px;margin-bottom:3px}
+.profile-hero .tagline{font-size:13.5px;color:var(--text-secondary)}
+.stats-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:24px}
+.stat-card{background:var(--surface);padding:16px;border-radius:var(--radius);border:1px solid var(--border-light)}
+.stat-card-label{font-size:11px;color:var(--text-tertiary);font-weight:600;letter-spacing:0.4px;text-transform:uppercase;margin-bottom:6px}
+.stat-card-num{font-size:28px;font-weight:800;color:var(--accent);line-height:1.1}
+.stat-card-sub{font-size:12px;color:var(--text-secondary);margin-top:3px}
+.panel{background:var(--surface);border:1px solid var(--border-light);border-radius:var(--radius-lg);padding:20px;margin-bottom:16px}
+.panel h2{font-size:16px;font-weight:700;margin-bottom:12px}
+.panel-empty{padding:28px 0;text-align:center;color:var(--text-tertiary);font-size:14px}
+.placeholder-card{background:var(--surface);border:1.5px dashed var(--border);border-radius:var(--radius-lg);padding:48px 24px;text-align:center}
+.placeholder-card .emoji{font-size:36px;margin-bottom:12px;display:block}
+.placeholder-card h3{font-size:17px;font-weight:700;margin-bottom:6px}
+.placeholder-card p{font-size:14px;color:var(--text-secondary);max-width:380px;margin:0 auto}
+
+/* FOOTER */
+.site-footer{border-top:1px solid var(--border-light);margin-top:60px;padding:30px 0;text-align:center;color:var(--text-tertiary);font-size:13px}
+.site-footer strong{display:block;color:var(--text-secondary);margin-bottom:5px;font-weight:700;font-size:14px}
+.site-footer a{color:var(--accent)}
+.footer-links{display:flex;gap:16px;justify-content:center;margin-top:10px;flex-wrap:wrap}
+.footer-links a:hover{color:var(--accent)}
+
+/* RESPONSIVE */
+@media(max-width:760px){
+  .hero-landing{padding:36px 0 28px}
+  .hero-landing h1{font-size:30px;letter-spacing:-0.5px}
+  .hero-sub{font-size:15px}
+  .section{padding:32px 0}
+  .section-head h2{font-size:24px}
+  .steps{grid-template-columns:1fr}
+  .mode-grid{grid-template-columns:1fr}
+  .exam-hero{padding:20px}
+  .exam-hero h1{font-size:21px}
+  .question-card{padding:18px}
+  .q-text{font-size:15.5px}
+  .cta-band h2{font-size:22px}
+  .cta-band{padding:32px 18px}
+  .pricing-grid{grid-template-columns:1fr}
+  .score-circle{width:150px;height:150px}
+  .score-num{font-size:38px}
+}
+</style>
+</head>
+<body>
+<header class="app-header">
+  <div class="container">
+    <div class="header-inner">
+      <div class="logo" onclick="nav('home')">
+        <div class="logo-icon">K</div>
+        <div class="logo-text">KaoNow <span class="logo-sub">考NOW</span></div>
+      </div>
+      <nav class="header-nav" id="header-nav">
+        <a href="#/home" data-nav="home">首頁</a>
+        <a href="#/catalog" data-nav="catalog">考試目錄</a>
+        <a href="#/me" data-nav="me">我的</a>
+        <a href="#/catalog" class="header-cta" data-nav="_cta">開始練習</a>
+      </nav>
+      <button class="menu-toggle" onclick="toggleMenu()" aria-label="選單">☰</button>
+    </div>
+  </div>
+</header>
+
+<\!-- HOME -->
+<section id="screen-home" class="screen active">
+  <div class="container">
+    <div class="hero-landing">
+      <div class="hero-label">🎯 台灣人專屬的考試備考平台</div>
+      <h1>備考不用東拼西湊<br><span>一站搞定所有考試</span></h1>
+      <p class="hero-sub">整合證照、英檢、高普考、技術士等各類題庫，搭配講義與時事整合，讓你把有限的時間用在刀口上。</p>
+      <div class="hero-actions">
+        <button class="btn-primary" onclick="nav('catalog')">瀏覽所有考試 →</button>
+        <button class="btn-secondary" onclick="nav('exam/osh-a')">試用甲種職安衛</button>
+      </div>
+      <div class="hero-trust">
+        <span>📚 <b id="meta-exams">18</b> 種考試</span>
+        <span>🎯 <b id="meta-questions">155</b>+ 題</span>
+        <span>📱 方案從 <b>NT$0</b> 起</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="section" style="padding-top:20px">
+      <div class="section-head"><div class="section-label">HOW IT WORKS</div><h2>三步驟，效率備考</h2><p>打開瀏覽器就能開始，不用下載、不用帳號</p></div>
+      <div class="steps">
+        <div class="step"><div class="step-num">1</div><h3>選擇考試</h3><p>從證照、英檢、公職、升學等分類中，找到你要準備的科目。</p></div>
+        <div class="step"><div class="step-num">2</div><h3>讀講義 · 刷題目</h3><p>章節練習、隨機測驗或完整模擬考，搭配重點講義事半功倍。</p></div>
+        <div class="step"><div class="step-num">3</div><h3>弱點加強</h3><p>系統分析答錯章節，針對弱項加強，讓複習更有效率。</p></div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-head"><div class="section-label">EXAM CATEGORIES</div><h2>涵蓋台灣人最常考的項目</h2><p>點擊類別查看所有考試</p></div>
+      <div class="category-grid" id="home-categories"></div>
+    </div>
+
+    <div class="section">
+      <div class="section-head"><div class="section-label">FEATURES</div><h2>為什麼選 KaoNow？</h2></div>
+      <div class="features">
+        <div class="feat"><span class="feat-icon">📖</span><h3>講義 + 題庫 + 時事三合一</h3><p>備考資源全部整合，不再東找西找，一個平台搞定。</p></div>
+        <div class="feat"><span class="feat-icon">🎯</span><h3>弱點分析報告</h3><p>每次測驗後自動分析各章節表現，重點補強最有效率。</p></div>
+        <div class="feat"><span class="feat-icon">🏆</span><h3>模擬考體驗</h3><p>依照真實考試題數與配分設計，讓你上考場不緊張。</p></div>
+        <div class="feat"><span class="feat-icon">📊</span><h3>學習進度追蹤</h3><p>連勝紀錄、正確率趨勢、練習總量，進步看得見。</p></div>
+        <div class="feat"><span class="feat-icon">📱</span><h3>跨裝置通用</h3><p>手機、平板、電腦都能用，通勤刷題完全沒問題。</p></div>
+        <div class="feat"><span class="feat-icon">🔒</span><h3>免費版即可開始</h3><p>無需帳號，打開就練；升級解鎖更多題庫與進階功能。</p></div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-head"><div class="section-label">PRICING</div><h2>選擇適合你的方案</h2><p>短期考生、長期備考都有對應選擇</p></div>
+      <div class="pricing-grid">
+        <div class="price-card">
+          <div class="price-name">免費版</div>
+          <div class="price-amount">NT$0</div>
+          <div class="price-period">永遠免費</div>
+          <div class="price-divider"></div>
+          <ul class="price-features">
+            <li>每科每日 10 題免費練習</li>
+            <li>基本章節練習與隨機測驗</li>
+            <li>答題解析說明</li>
+            <li class="off">完整題庫（限制每日題數）</li>
+            <li class="off">模擬考（50 題完整版）</li>
+            <li class="off">AI 弱點分析報告</li>
+          </ul>
+          <button class="price-cta" onclick="nav('catalog')">免費開始練習</button>
+        </div>
+        <div class="price-card highlight">
+          <div class="price-badge">最多人選擇</div>
+          <div class="price-name">標準方案</div>
+          <div class="price-amount">NT$199 <span>/ 月</span></div>
+          <div class="price-period">或 NT$499 / 季（省 NT$98）</div>
+          <div class="price-divider"></div>
+          <ul class="price-features">
+            <li>所有考試完整題庫無限練習</li>
+            <li>無限制隨機測驗 + 章節練習</li>
+            <li>完整 50 題模擬考</li>
+            <li>詳細答題解析</li>
+            <li>學習進度紀錄</li>
+            <li class="off">AI 弱點分析 + 學習計畫</li>
+          </ul>
+          <button class="price-cta" onclick="alert('訂閱功能即將上線，敬請期待！')">立即升級</button>
+        </div>
+        <div class="price-card">
+          <div class="price-name">進階方案</div>
+          <div class="price-amount">NT$349 <span>/ 月</span></div>
+          <div class="price-period">或 NT$849 / 半年（省 NT$245）</div>
+          <div class="price-divider"></div>
+          <ul class="price-features">
+            <li>標準方案全部功能</li>
+            <li>AI 個人化弱點分析</li>
+            <li>客製化學習計畫</li>
+            <li>模擬考全國排名</li>
+            <li>考前衝刺包（高頻考題）</li>
+            <li>優先新考科更新通知</li>
+          </ul>
+          <button class="price-cta" onclick="alert('訂閱功能即將上線，敬請期待！')">立即升級</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="cta-band">
+      <h2>現在就開始你的備考計畫</h2>
+      <p>免費版就能刷題，準備好了再升級。沒有理由再等了。</p>
+      <button class="btn-white" onclick="nav('catalog')">查看所有考試 →</button>
+    </div>
+  </div>
+</section>
+
+<\!-- CATALOG -->
+<section id="screen-catalog" class="screen">
+  <div class="container">
+    <div class="page-head"><h1>考試目錄</h1><p>選擇你要準備的考試</p></div>
+    <div class="filter-bar" id="catalog-filter"></div>
+    <div class="exam-grid" id="catalog-grid"></div>
+  </div>
+</section>
+
+<\!-- EXAM DETAIL -->
+<section id="screen-exam" class="screen">
+  <div class="container">
+    <div class="breadcrumb" id="exam-breadcrumb"></div>
+    <div class="exam-hero" id="exam-hero"></div>
+    <div class="tabs" id="exam-tabs"></div>
+    <div id="exam-tab-overview" class="tab-pane"></div>
+    <div id="exam-tab-lecture" class="tab-pane"></div>
+    <div id="exam-tab-bank" class="tab-pane"></div>
+    <div id="exam-tab-news" class="tab-pane"></div>
+  </div>
+</section>
+
+<\!-- QUIZ -->
+<section id="screen-quiz" class="screen">
+  <div class="quiz-header">
+    <div class="container">
+      <div class="quiz-top">
+        <button class="quiz-exit" onclick="confirmExit()">← 離開</button>
+        <div class="quiz-counter"><b id="q-current">1</b> / <span id="q-total">10</span></div>
+      </div>
+      <div class="quiz-pb"><div class="quiz-pb-fill" id="quiz-progress"></div></div>
+      <div class="quiz-dots" id="quiz-dots"></div>
+    </div>
+  </div>
+  <div class="container-narrow" id="question-area"></div>
+</section>
+
+<\!-- RESULT -->
+<section id="screen-result" class="screen">
+  <div class="container-narrow">
+    <div class="result-wrap">
+      <div class="score-circle">
+        <svg viewBox="0 0 140 140"><circle class="score-bg" cx="70" cy="70" r="62"/><circle id="score-ring" class="score-ring" cx="70" cy="70" r="62"/></svg>
+        <div class="score-inner"><div class="score-num"><span id="final-score">0</span></div><div class="score-unit">分</div></div>
+      </div>
+      <h2 id="result-title">完成測驗</h2>
+      <p id="result-subtitle" style="font-size:15px;color:var(--text-secondary);margin-bottom:24px"></p>
+      <div class="result-stats">
+        <div class="rs"><div class="rs-num" id="r-correct">0</div><div class="rs-label">答對</div></div>
+        <div class="rs"><div class="rs-num" id="r-wrong">0</div><div class="rs-label">答錯</div></div>
+        <div class="rs"><div class="rs-num" id="r-time">0:00</div><div class="rs-label">用時</div></div>
+      </div>
+      <div id="weak-area"></div>
+      <div class="result-actions">
+        <button class="btn-secondary" onclick="reviewWrong()">複習錯題</button>
+        <button class="btn-primary" onclick="nav('exam/'+state.currentExamId)">回到考試</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<\!-- ME -->
+<section id="screen-me" class="screen">
+  <div class="container">
+    <div class="page-head"><h1>我的學習</h1><p>查看練習紀錄與進度</p></div>
+    <div class="profile-hero"><div class="avatar">K</div><h1>訪客</h1><p class="tagline">學習紀錄保存在這台裝置</p></div>
+    <div class="stats-grid" id="me-stats"></div>
+    <div class="panel"><h2>📘 最近練習</h2><div id="me-recent" class="panel-empty">還沒有紀錄，<a href="#/catalog" style="color:var(--accent);font-weight:600">去選一個考試</a>開始吧！</div></div>
+    <div class="panel"><h2>⚙️ 設定</h2><button class="btn-secondary" style="font-size:13px" onclick="resetProgress()">清除所有學習紀錄</button></div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <strong>KaoNow 考NOW</strong>
+  現在就開始，一次考過 · <a href="https://kaonow.com">kaonow.com</a>
+  <div class="footer-links">
+    <a href="#/home">首頁</a><a href="#/catalog">考試目錄</a><a href="#/me">我的</a>
+  </div>
+  <div style="margin-top:12px">© 2026 KaoNow. All rights reserved.</div>
+</footer>
+
+<script>
+<script>
+// ===== DATA =====
+const examCategories=[
+  {id:'all',name:'全部',icon:'🗂',color:'#E8F0E8',tc:'#2D5F2D'},
+  {id:'gov',name:'政府機關證照',icon:'🏛',color:'#E8F0E8',tc:'#2D5F2D'},
+  {id:'tech',name:'國家技術士',icon:'🔧',color:'#FFF3E0',tc:'#E65100'},
+  {id:'english',name:'英文檢定',icon:'🌐',color:'#E3F2FD',tc:'#1565C0'},
+  {id:'civil',name:'高普考',icon:'📋',color:'#F3E5F5',tc:'#6A1B9A'},
+  {id:'edu',name:'升學考試',icon:'🎓',color:'#E8F5E9',tc:'#2E7D32'},
+  {id:'finance',name:'金融/商業',icon:'💼',color:'#FFF8E1',tc:'#F57F17'},
+];
+const exams=[
+  {id:'osh-a',categoryId:'gov',available:true,name:'甲種職業安全衛生業務主管',short:'甲種職安衛',
+   desc:'勞動部認證，事業單位負責人必備。5大章節、42小時訓練時數，涵蓋法規、管理、危害預防、健康保護與教育訓練。',
+   issuer:'勞動部職業安全衛生署',durationHours:42,examFormat:'筆試・選擇題',
+   chapters:[
+     {id:0,name:'職業安全衛生相關法規',count:40},
+     {id:1,name:'職業安全衛生管理概論',count:30},
+     {id:2,name:'安全管理與危害預防',count:35},
+     {id:3,name:'衛生管理與健康保護',count:30},
+     {id:4,name:'職業安全衛生教育訓練',count:20},
+   ]},
+  {id:'osh-b',categoryId:'gov',available:false,name:'乙種職業安全衛生業務主管',short:'乙種職安衛',desc:'中小型事業單位安全衛生管理人員，訓練時數35小時。'},
+  {id:'osh-c',categoryId:'gov',available:false,name:'丙種職業安全衛生業務主管',short:'丙種職安衛',desc:'小型事業單位基礎職安衛證照，訓練時數21小時。'},
+  {id:'ai-planner',categoryId:'gov',available:false,name:'AI應用規劃師',short:'AI應用規劃師',desc:'經濟部產發署推出的AI產業人才認證，涵蓋AI應用導入與專案管理。'},
+  {id:'tech-elec',categoryId:'tech',available:false,name:'丙級室內配線技術士',short:'丙級室內配線',desc:'勞動部技能檢定，電工基礎門檻。'},
+  {id:'tech-cook',categoryId:'tech',available:false,name:'丙級中餐烹調技術士',short:'丙級中餐',desc:'餐飲業從業基本技能認證。'},
+  {id:'tech-cs',categoryId:'tech',available:false,name:'乙級電腦軟體應用技術士',short:'乙級電腦軟體',desc:'資訊應用能力國家認證。'},
+  {id:'ielts',categoryId:'english',available:false,name:'IELTS 雅思',short:'IELTS',desc:'國際英語能力認證，留學移民必考。'},
+  {id:'toefl',categoryId:'english',available:false,name:'TOEFL iBT 托福',short:'TOEFL',desc:'美加留學主要英文能力測試。'},
+  {id:'toeic',categoryId:'english',available:false,name:'TOEIC 多益',short:'TOEIC',desc:'職場英文溝通能力測驗。'},
+  {id:'gept',categoryId:'english',available:false,name:'全民英檢 GEPT',short:'GEPT',desc:'國內最普及的英語能力分級檢定。'},
+  {id:'civil-3',categoryId:'civil',available:false,name:'高考三級一般行政',short:'高考三級',desc:'公務人員高等考試三級，大學以上學歷可報考。'},
+  {id:'civil-4',categoryId:'civil',available:false,name:'普考一般行政',short:'普考',desc:'公務人員普通考試，高中職以上學歷可報考。'},
+  {id:'gsat',categoryId:'edu',available:false,name:'學科能力測驗 學測',short:'學測',desc:'大學入學主要管道，考國英數社自。'},
+  {id:'tcat',categoryId:'edu',available:false,name:'統一入學測驗 統測',short:'統測',desc:'技職院校入學測驗。'},
+  {id:'cap',categoryId:'edu',available:false,name:'國中教育會考',short:'會考',desc:'國中升高中職的主要升學測驗。'},
+  {id:'pmp',categoryId:'finance',available:false,name:'PMP 國際專案管理師',short:'PMP',desc:'PMI發行的國際專案管理認證。'},
+  {id:'fp',categoryId:'finance',available:false,name:'理財規劃人員',short:'理財規劃',desc:'金融研訓院認證，銀行理專必備。'},
+];
+
+// ===== QUESTION BANK (155 questions) =====
+const questionBanks={'osh-a':[
+// CH0: 職業安全衛生相關法規 (40題)
+{ch:0,q:"依《職業安全衛生法》規定，下列何者屬於「危險性機械」？",opts:["固定式起重機","研磨機","車床","鑽床"],ans:0,exp:"依法第16條，危險性機械包括固定式起重機、移動式起重機、人字臂起重桿、營建用升降機、營建用提升機及吊籠。研磨機、車床、鑽床屬一般機械設備。"},
+{ch:0,q:"事業單位勞工人數達幾人以上，應設管理單位及置管理人員？",opts:["30人","50人","100人","200人"],ans:0,exp:"依法第23條，勞工人數在30人以上者，應依規模及性質設管理單位與管理人員。"},
+{ch:0,q:"僱用勞工人數在幾人以上，應設置職業安全衛生委員會？",opts:["30人","50人","100人","200人"],ans:2,exp:"依《職業安全衛生管理辦法》，100人以上事業單位應設職安衛委員會，至少每3個月開會一次。"},
+{ch:0,q:"工作場所發生哪種災害，雇主應於8小時內通報勞動檢查機構？",opts:["勞工受傷需住院","發生死亡災害","勞工輕微擦傷","機械故障停工"],ans:1,exp:"依法第37條，發生死亡災害、罹災人數3人以上或指定災害，應於8小時內通報勞動檢查機構。"},
+{ch:0,q:"勞動檢查員進入事業單位實施檢查，下列何者正確？",opts:["雇主可以拒絕","需事先通知","得隨時進入","需取得搜索票"],ans:2,exp:"依《勞動檢查法》第14條，勞動檢查員執行職務得隨時進入事業單位，任何人不得無故拒絕。"},
+{ch:0,q:"原事業單位違反職安法致承攬人勞工發生職業災害，應如何負責？",opts:["由承攬人單獨負責","負連帶賠償責任","由勞保局負責","可免除責任"],ans:1,exp:"依法第25條，原事業單位違反職安法致承攬人勞工職業災害，與承攬人負連帶賠償責任，再承攬者亦同。"},
+{ch:0,q:"職業安全衛生委員會應至少每幾個月開會一次？",opts:["1個月","2個月","3個月","6個月"],ans:2,exp:"依《職業安全衛生管理辦法》，職安衛委員會至少每3個月開會一次，應由雇主或代理人擔任主任委員。"},
+{ch:0,q:"依《職業安全衛生法》，雇主對有母性健康危害之虞工作，應採取何種措施？",opts:["禁止女性勞工從事","實施危害評估並採適當保護措施","增加工資補償","提供額外休假"],ans:1,exp:"依法第31條，雇主應對有母性健康危害之虞的工作，採危害評估、控制及分級管理措施，並視評估結果調整工作。"},
+{ch:0,q:"安全衛生工作守則訂定後，應報經何者備查後公告實施？",opts:["勞動部","當地勞動檢查機構","職安衛委員會","縣市政府"],ans:1,exp:"依法第34條，雇主應會同勞工代表訂定安全衛生工作守則，報經當地勞動檢查機構備查後公告實施。"},
+{ch:0,q:"依職安法規定，雇主對具有危險性之設備，應向哪個機構申請檢查合格後才能使用？",opts:["衛生福利部","勞動部","檢查機構或中央指定代行檢查機構","地方政府"],ans:2,exp:"依法第16條，危險性機械或設備須經檢查機構或中央主管機關指定之代行檢查機構檢查合格，方可使用。"},
+{ch:0,q:"職安法所稱「主管機關」，在中央為哪個部會？",opts:["衛生福利部","勞動部","內政部","經濟部"],ans:1,exp:"依法第2條，中央主管機關為勞動部，直轄市主管機關為直轄市政府，縣（市）主管機關為縣（市）政府。"},
+{ch:0,q:"雇主對作業環境或危害應採取哪種危害防止計畫優先順序？",opts:["個人防護具→工程控制→消除危害","消除危害→取代→工程控制→行政管理→個人防護具","行政管理→個人防護具→工程控制","個人防護具為最優先措施"],ans:1,exp:"危害防止的優先順序為：消除危害→取代（低危害替代）→工程控制→行政管理→個人防護具（PPE），消除危害最優先。"},
+{ch:0,q:"依法，雇主應對員工定期實施健康檢查，一般健康檢查頻率為何？",opts:["每年一次","每2年一次","每3年一次","依勞工年齡而定"],ans:3,exp:"依《勞工健康保護規則》，40歲以上每年一次；未滿40歲者，視年齡區段為每2年或每5年一次，故依年齡而定。"},
+{ch:0,q:"事業單位工作場所發生職業災害，雇主除採取緊急措施外，應即調查災害原因及採取必要措施的期限為何？",opts:["24小時內","3日內","7日內","15日內"],ans:1,exp:"依法第37條，雇主應即採取必要措施，並於3日內通報勞動檢查機構（死亡及重大災害須於8小時內通報）。"},
+{ch:0,q:"依職安法，違反職業安全衛生工作守則之勞工，雇主得對其實施何種措施？",opts:["立即解雇","依規定予以告誡或懲處","向主管機關申報","罰款扣薪"],ans:1,exp:"依法第34條，勞工不遵守安全衛生工作守則，雇主得依規定予以告誡或懲處，但應依照既有勞動法令規定辦理。"},
+{ch:0,q:"依《職業安全衛生法》，工作者發現職場有立即危險時，有何種權利？",opts:["只能向主管報告","有權立即撤離現場","應等雇主指示再行動","需繼續工作直到危險排除"],ans:1,exp:"依法第18條，工作場所有立即發生危險之虞，工作者得在不危及其他工作者安全情形下，自行撤離危險場所。"},
+{ch:0,q:"下列哪種職業災害通報不需在8小時內？",opts:["死亡災害","罹災人數達3人以上","罹災人數達1人但需住院","中央主管機關指定公告之災害"],ans:2,exp:"依法第37條，8小時內通報的條件是：死亡、罹災3人以上、或指定公告之災害。1人住院的情形，應於3日內通報即可。"},
+{ch:0,q:"高壓氣體製造安全技術員的資格取得是依據哪個法規？",opts:["職業安全衛生法","勞動基準法","危險性機械及設備安全檢查規則","高壓氣體勞工安全規則"],ans:2,exp:"高壓氣體相關設備的技術員資格，依《危險性機械及設備安全檢查規則》的規定辦理。"},
+{ch:0,q:"依法，職業安全衛生主管機關對事業單位工作場所進行檢查時，事業單位應如何配合？",opts:["可拒絕無預告之檢查","應提供必要之設施及資料配合","可要求先行預約再受檢","無義務配合"],ans:1,exp:"依《勞動檢查法》，事業單位對勞動檢查機構實施之檢查，應提供必要之設施及資料予以配合，不得拒絕或規避。"},
+{ch:0,q:"依《職業安全衛生管理辦法》，甲類事業單位應設置職業安全衛生管理員的最低人數依何因素決定？",opts:["事業單位資本額","勞工人數","事業單位場所面積","危害等級"],ans:1,exp:"職安衛管理員的設置人數主要依勞工人數決定，人數越多，所需管理員越多，甲類為高危害性質之事業單位。"},
+{ch:0,q:"依《職業安全衛生法》規定，何種情況下雇主得免除職業災害補償責任？",opts:["勞工自行違反操作程序","天災引起且非人力所能抗拒","勞工有酒駕行為","雇主已採取適當安全措施"],ans:1,exp:"依法第84條，職業災害如係因天災或其他不可抗力所致，且雇主已盡職安義務，始得減輕或免除補償責任。"},
+{ch:0,q:"依《職業安全衛生法施行細則》，「危害性化學品」包含下列何者？",opts:["僅含有毒物質","危險物及有害物","一般清潔用品","所有化學品"],ans:1,exp:"依施行細則，危害性化學品指的是危險物（如易燃、爆炸性物質）及有害物（如有毒、腐蝕性物質）兩大類。"},
+{ch:0,q:"依《職業安全衛生設施規則》，雇主應確保機械的防護設備在使用前已確實安裝，違反此規定最高可處多少罰鍰？",opts:["新台幣3萬元","新台幣15萬元","新台幣30萬元","新台幣100萬元"],ans:2,exp:"依職安法第43條，違反機械防護設備設置等規定，主管機關可處新台幣3萬至30萬元不等罰鍰。"},
+{ch:0,q:"依《職業安全衛生法》，下列何者是「職業安全衛生管理計畫」必須包含的內容之一？",opts:["員工薪資規劃","作業環境監測計畫","員工請假管理","倉儲管理規定"],ans:1,exp:"依法第23條，職安衛管理計畫應包含工作環境或作業危害辨識、評估及控制、安全衛生作業標準、作業環境監測等。"},
+{ch:0,q:"依《勞動檢查法》，勞動檢查員執行檢查後，認有違反法令規定應予改善，應如何處理？",opts:["當場罰款","通知事業單位限期改善","立即停工","移送司法機關"],ans:1,exp:"依《勞動檢查法》第26條，勞動檢查員認定有違反法令情形，應通知事業單位限期改善，並得停工或採取必要措施。"},
+{ch:0,q:"職安法中「工作者」的定義，下列何者正確？",opts:["僅包含有薪資的受僱勞工","包含受僱勞工、自營作業者及接受訓練者","只限全職員工","外籍移工不包含在內"],ans:1,exp:"依法第2條，工作者指受僱勞工、自營作業者及接受職業訓練者，不限國籍或僱用型態。"},
+{ch:0,q:"依《職業安全衛生設施規則》第243條，對地電壓幾伏特以上的電氣設備應裝設漏電斷路器？",opts:["100V","150V","200V","220V"],ans:1,exp:"對地電壓在150V以上的電氣設備，或在導電性良好場所（金屬板、潮濕地面等）使用移動式或攜帶式電動機具，應裝設漏電斷路器。"},
+{ch:0,q:"依職安法，事業單位與承攬人共同作業時，原事業單位應負哪些協調義務？",opts:["無需協調，各自負責","應指定現場協調員進行安全衛生協調"],ans:1,exp:"依法第27條，原事業單位應採取協調聯絡、巡視作業場所、整體性危害預防計畫等措施。（此為簡化版題目，正式考試會有四選項）"},
+{ch:0,q:"依《職業安全衛生法》，對於職業災害的補償，下列何者敘述正確？",opts:["職業災害補償與民事損害賠償可以同時主張","職業災害補償取得後不得再請求民事損害賠償","職業災害補償僅限於身體傷害","補償金額由雇主自行決定"],ans:0,exp:"依民法及勞基法規定，職業災害補償（勞基法）與民事損害賠償可同時主張，但可扣抵重複部分。"},
+{ch:0,q:"依法，雇主對於在職勞工在職前應使其接受哪種訓練？",opts:["只需在職一般教育訓練","特殊教育訓練","適於各工作之安全衛生教育訓練","法令課程"],ans:2,exp:"依法第32條，雇主對新僱勞工或在職勞工於變更工作前，應使其接受適於各工作必要之安全衛生教育訓練。"},
+{ch:0,q:"《職業安全衛生法》中對於特別危害健康作業的健康管理，主管機關應如何分級？",opts:["不需分級","分為一般及特殊兩類","依職業病風險分四級管理","依工作年限分類"],ans:2,exp:"依《勞工健康保護規則》，特別危害健康作業的健康管理分為第一至第四級，依健康狀況採取不同的管理措施。"},
+{ch:0,q:"依《職業安全衛生法》，設置職業安全衛生管理員之事業單位，其管理員應具備何種資格？",opts:["任何大學畢業即可","須持有職業安全管理師、衛生管理師或相關訓練合格證書","須具備10年工作經驗","只需雇主指定即可"],ans:1,exp:"依《職業安全衛生管理辦法》，職安衛管理員應具備職業安全管理師、職業衛生管理師或職業安全衛生管理員資格。"},
+{ch:0,q:"依職安法，雇主使勞工從事危險性工作時，應採取之措施不包含下列何者？",opts:["危害告知","提供適當防護具","安全衛生教育訓練","提高薪資補償危險"],ans:3,exp:"職安法規定雇主應採取危害告知、提供防護具、實施訓練等措施。提高薪資不屬於職安措施，且不能以薪資替代安全措施。"},
+{ch:0,q:"依《職業安全衛生設施規則》，局限空間作業前，氧氣濃度應確認在幾%以上？",opts:["16%","18%","20%","21%"],ans:1,exp:"局限空間作業前應確認空氣中氧氣濃度在18%以上，低於18%屬缺氧環境，勞工不得進入，應先通風換氣。"},
+{ch:0,q:"依勞動檢查法，勞動檢查員發現工作場所有立即發生危險之虞時，得為何種處置？",opts:["僅能開具改善通知","得當場要求停工","需提報上級核准後始得處置","只能拍照存證"],ans:1,exp:"依《勞動檢查法》第28條，有立即危險之虞時，檢查員得當場要求雇主採取安全措施，包括停工。"},
+{ch:0,q:"依《職業安全衛生法》，下列何種行為屬於雇主的積極義務？",opts:["僅在發生事故後才需採取措施","事前預防危害的發生","僅在勞工要求時提供防護具","不需主動通知危害"],ans:1,exp:"職安法精神是事前預防優於事後補救，雇主有積極預防、辨識危害、評估風險及採取控制措施的義務。"},
+{ch:0,q:"依法，職業安全衛生法的適用範圍為何？",opts:["僅適用工廠","僅適用特定行業","各業雇用勞工從事工作之場所","僅限公共工程"],ans:2,exp:"依法第2條，職安衛法適用於各業雇用勞工從事工作之場所，適用範圍廣泛，不限特定行業。"},
+{ch:0,q:"依《職業安全衛生設施規則》，高度幾公尺以上工作場所邊緣應設護欄等防護設備？",opts:["1公尺","1.5公尺","2公尺","3公尺"],ans:2,exp:"依設施規則第224條，高度2公尺以上的工作場所邊緣及開口部分，有墜落危險之虞者，應設護欄、護蓋或安全網。"},
+{ch:0,q:"職安法中「自動檢查」的目的為何？",opts:["取代政府勞動檢查","讓雇主自行發現並改善危害","讓勞工自行管理安全","降低政府管制負擔"],ans:1,exp:"自動檢查制度的目的在於讓事業單位主動對設備、作業環境等進行定期自主檢點，及早發現並消除危害。"},
+{ch:0,q:"依《職業安全衛生法》，事業單位於施工前應擬訂工程施工安全衛生計畫的最低金額門檻為何？",opts:["500萬元","1000萬元","3000萬元","5000萬元"],ans:1,exp:"依相關規定，符合一定規模（約1000萬元以上）的施工工程，承攬人應擬訂施工安全衛生計畫，報請原事業單位備查。"},
+{ch:0,q:"依職安法，雇主應提供符合安全標準的作業環境，此義務屬於哪種法律概念？",opts:["契約義務","法定義務","道德義務","習慣法義務"],ans:1,exp:"職安法明文規定雇主保障勞工安全衛生的義務，屬於法定義務，不論勞動契約是否有約定，雇主均應履行。"},
+
+// CH1: 職業安全衛生管理概論 (30題)
+{ch:1,q:"安全衛生管理系統PDCA循環中，C代表什麼？",opts:["Control控制","Check查核","Change變更","Correct矯正"],ans:1,exp:"PDCA為Plan計畫、Do執行、Check查核、Act行動改善，C代表Check查核階段，評估執行成效是否達到目標。"},
+{ch:1,q:"下列何者不是風險評估的步驟？",opts:["辨識危害","評估風險","決定控制措施","懲處違規勞工"],ans:3,exp:"風險評估步驟：辨識危害→評估風險→決定控制措施→執行→監督與審查。懲處違規勞工不屬風險評估步驟。"},
+{ch:1,q:"職安衛管理計畫中，最高決策者應為何人？",opts:["安全衛生管理員","現場主管","事業經營負責人","勞工代表"],ans:2,exp:"依管理系統精神，事業經營負責人（雇主）為安全衛生最高決策者，展現最高管理階層的承諾與領導。"},
+{ch:1,q:"ISO 45001職安衛管理系統中，「領導與工作者參與」要素包含哪項？",opts:["危害鑑別","內部稽核","管理階層承諾","緊急應變"],ans:2,exp:"ISO 45001中「領導與工作者參與」包含最高管理階層承諾、安全衛生政策制定、工作者及代表的參與與諮商。"},
+{ch:1,q:"風險控制措施的優先順序，下列何者最優先？",opts:["使用個人防護具","工程控制","消除危害","行政管理"],ans:2,exp:"風險控制優先序：消除危害→取代（以低危害替代）→工程控制→行政管理→個人防護具，消除危害最優先。"},
+{ch:1,q:"安全衛生工作守則應由誰負責訂定？",opts:["勞工自行訂定","政府機關統一制定","雇主會同勞工代表訂定","工會單方面訂定"],ans:2,exp:"依職安法第34條，安全衛生工作守則應由雇主會同勞工代表共同訂定，報主管機關備查後公告實施。"},
+{ch:1,q:"「海因里希法則（1:29:300）」說明什麼？",opts:["1件重傷：29件輕傷：300件無傷事故","1件死亡：29件重傷：300件輕傷","1件事故：29件近似事故：300件不安全行為","1件職業病：29件慢性病：300件亞健康"],ans:0,exp:"海因里希法則指出，每1件嚴重傷害事故背後有29件輕傷事故和300件無傷事故（未遂事件），強調預防未遂事件的重要性。"},
+{ch:1,q:"職業安全衛生管理系統(OSHMS)的最終目標為何？",opts:["通過認證取得競爭優勢","持續改善職場安全衛生績效以預防事故","達到最低法規遵循要求","降低保險費用"],ans:1,exp:"OSHMS最終目標是持續改善職場安全衛生績效，預防職業災害及職業病，保護工作者健康。"},
+{ch:1,q:"下列何者屬於「不安全行為」(unsafe act)？",opts:["地板潮濕未放警示牌","缺乏護欄","未依規定佩戴安全帽","電氣設備老舊"],ans:2,exp:"不安全行為指工作者個人行為上的缺失；不安全環境指設備或環境的危險狀態。未戴安全帽屬個人行為問題。"},
+{ch:1,q:"危害辨識的常用方法「What-If分析法」主要適用於哪種情況？",opts:["事故發生後的原因分析","設計或操作流程的系統性危害辨識","法規遵循查核","個人健康評估"],ans:1,exp:"What-If分析法透過「如果…會發生什麼？」的問題方式，對設計或操作流程進行系統性危害辨識，屬於預防性分析。"},
+{ch:1,q:"「失誤模式與影響分析(FMEA)」是哪種安全分析方法？",opts:["事故後調查方法","自下而上的失誤分析方法","自上而下的失誤分析方法","僅適用化工廠的方法"],ans:1,exp:"FMEA（Failure Mode and Effects Analysis）是自下而上的分析方法，從零組件或子系統的失誤模式出發，分析其對系統的影響。"},
+{ch:1,q:"「故障樹分析(FTA)」是哪種安全分析方法？",opts:["自下而上的失誤分析","自上而下的系統失誤分析","設備保養計畫","人因分析工具"],ans:1,exp:"FTA（Fault Tree Analysis）是自上而下的分析方法，從頂端事件（如意外）出發，逐層追溯可能導致的原因（邏輯樹狀圖）。"},
+{ch:1,q:"下列何者是職業安全衛生管理系統的「稽核」主要目的？",opts:["懲處管理人員","驗證系統是否有效運作及符合計畫要求","對外宣傳公司形象","取代勞動檢查"],ans:1,exp:"稽核目的在驗證管理系統是否有效運作、符合既定計畫及法規要求，並提供改善依據，不是懲處手段。"},
+{ch:1,q:"「事故金字塔」概念強調什麼？",opts:["重大事故比小事故重要","應重視輕微事故和未遂事件的預防","事故調查應由外部機構執行","安全成本與生產效率相衝突"],ans:1,exp:"事故金字塔（海因里希法則的延伸）強調，大量輕微事故和未遂事件是重大事故的前兆，預防要從底層做起。"},
+{ch:1,q:"職場安全文化的核心特徵為何？",opts:["主要靠罰則推動安全","組織各層級對安全的共同承諾與積極態度","僅強調規定與手冊","以成本效益評估安全投入"],ans:1,exp:"正向的安全文化強調組織各層級（從高層到基層）對安全的共同承諾、主動積極的態度，以及開放的溝通文化。"},
+{ch:1,q:"「殘餘風險」(residual risk)的定義為何？",opts:["尚未評估的風險","採取控制措施後仍然存在的風險","可以接受的最大風險值","超出法規要求的風險"],ans:1,exp:"殘餘風險指採取所有可行的風險控制措施之後，仍然存在且無法完全消除的風險。"},
+{ch:1,q:"工作安全分析（JSA/JHA）的步驟順序正確為何？",opts:["選定工作→列出步驟→辨識危害→採取措施","辨識危害→列出步驟→選定工作→採取措施","採取措施→選定工作→辨識危害→列出步驟","選定工作→辨識危害→採取措施→列出步驟"],ans:0,exp:"工作安全分析（JSA/Job Hazard Analysis）的正確步驟：①選定要分析的工作②逐步分解工作步驟③辨識每一步驟的危害④制定控制措施。"},
+{ch:1,q:"依ISO 45001，「脈絡（Context）」指的是什麼？",opts:["組織的辦公環境","影響組織能達成OHSMS目標的內外部因素","員工的工作背景","業務流程描述"],ans:1,exp:"ISO 45001中的「組織脈絡」指影響組織OHSMS目標達成的內外部因素，包含法規環境、利害關係人需求、組織文化等。"},
+{ch:1,q:"「危害」(Hazard)與「風險」(Risk)的差異為何？",opts:["兩者意義相同","危害是危害來源或狀況，風險是危害造成傷害的可能性與嚴重度的組合","風險比危害更嚴重","危害是指事故後果，風險是指可能性"],ans:1,exp:"危害（Hazard）是可能造成傷害的來源、狀況或行為；風險（Risk）是危害事件的可能性（Likelihood）與嚴重度（Severity）的組合。"},
+{ch:1,q:"職場安全衛生管理中，「管理承諾」(Management Commitment)的重要性為何？",opts:["僅是形式要件，實質影響不大","是建立正向安全文化的基礎，直接影響整體安全績效","只在通過認證時才需要展現","主要用於應付勞動檢查"],ans:1,exp:"管理承諾（尤其是最高管理者的承諾）是建立正向安全文化的基礎，直接影響資源分配、員工態度與整體安全績效。"},
+{ch:1,q:"「近失事故（Near-Miss）」報告制度的主要目的為何？",opts:["懲處差點造成事故的員工","分析未遂事件，預防未來的實際事故","符合法規要求的書面作業","作為保險申報依據"],ans:1,exp:"近失事故（Near-Miss）是未造成傷害但差點發生的事件，透過報告和分析這類事件，可以找出系統弱點並加以改善，預防未來事故。"},
+{ch:1,q:"下列哪個是「主動式」安全衛生績效指標（Leading Indicator）？",opts:["事故發生率","職業病件數","安全訓練完成率","職業傷害嚴重度"],ans:2,exp:"主動式（領先）指標反映事故前的預防活動，如訓練完成率、安全觀察次數；落後指標（Lagging Indicator）如事故率，反映已發生的結果。"},
+{ch:1,q:"「OHSAS 18001」與「ISO 45001」的關係為何？",opts:["兩者是完全不同的標準","ISO 45001是OHSAS 18001的升級版，已取代後者","OHSAS 18001是ISO 45001的升級版","兩者可同時並行認證"],ans:1,exp:"ISO 45001於2018年發布，2021年OHSAS 18001正式廢止，ISO 45001已完全取代OHSAS 18001，成為職安衛管理系統的國際標準。"},
+{ch:1,q:"職安衛風險評估中，「風險矩陣」(Risk Matrix)主要用來評估什麼？",opts:["設備價值","風險的可能性與嚴重度，以決定風險等級","勞工薪資水準","生產效率"],ans:1,exp:"風險矩陣是以「可能性（發生機率）」與「嚴重度（後果）」兩個維度，交叉評估風險等級，決定是否可接受及所需控制措施。"},
+{ch:1,q:"下列何者屬於「行政管理控制」(Administrative Control)措施？",opts:["安裝機器護罩","以低毒性物質取代高毒性物質","實施作業輪班降低暴露時間","提供個人呼吸防護具"],ans:2,exp:"行政管理控制包括：工作輪班、工作程序制定、訓練教育、警告標示等；工程控制是改變設備/環境；取代是消除或減少危害來源。"},
+{ch:1,q:"職業安全衛生內部稽核應由誰執行？",opts:["必須由外部機構執行","可由受過訓練的內部人員執行","只能由最高管理者執行","委由勞動檢查機構代為執行"],ans:1,exp:"內部稽核可由受訓練的組織內部人員執行，但稽核人員不應稽核自己的工作區域（獨立性原則）；外部稽核由認證機構執行。"},
+{ch:1,q:"「工作場所風險評估」完成後，應多久更新一次？",opts:["每10年一次","定期或在重大變更、事故後重新評估","只需評估一次","在政府要求時才需更新"],ans:1,exp:"風險評估應定期更新（如每年或依規定頻率），並在工作流程重大變更、新設備引入、事故發生後，或法規改變時重新評估。"},
+{ch:1,q:"下列何者是「系統安全分析」中的「能量跡象圖（Energy Trace & Barrier Analysis）」的核心概念？",opts:["追蹤能量使用效率","分析不受控制的能量釋放是事故的根本原因","評估設備耗能情況","計算能源成本"],ans:1,exp:"能量理論認為幾乎所有事故都涉及不受控制的能量釋放（如動能、熱能、電能等），屬Haddon能量模型的應用。"},
+{ch:1,q:"「事故調查」的主要目的應為何？",opts:["找出犯錯的員工並予以懲處","找出根本原因（Root Cause）以防止類似事故再發","快速結案以減少法律責任","滿足保險公司的要求"],ans:1,exp:"事故調查的核心目的是找出事故的直接原因和根本原因（Root Cause），以採取有效的改善措施，防止類似事故再次發生。"},
+{ch:1,q:"工廠推行「5S」活動，與職業安全衛生有何關聯？",opts:["5S是純生產管理工具，與安全無關","5S中的整理、整頓、清掃可消除許多工作場所危害","5S主要目的是提升產品品質","5S活動由品管部門負責，安全衛生部門不介入"],ans:1,exp:"5S（整理、整頓、清掃、清潔、素養）中整理去除不必要物品、整頓定位、清掃去除污染源，可消除絆倒、滑倒等許多危害，與職安衛密切相關。"},
+
+// CH2: 安全管理與危害預防 (35題)
+{ch:2,q:"對地電壓幾伏特以上電氣設備應裝設漏電斷路器？",opts:["100V","150V","200V","220V"],ans:1,exp:"依設施規則第243條，對地電壓150V以上電氣設備，或在導電性良好場所使用移動式電動機具，應裝設感電防止用漏電斷路器。"},
+{ch:2,q:"局限空間作業前，氧氣濃度應在多少%以上？",opts:["16%","18%","20%","21%"],ans:1,exp:"依設施規則，局限空間應確認氧氣濃度18%以上，低於18%屬缺氧環境，勞工不得進入，需先通風換氣。"},
+{ch:2,q:"墜落災害防止的最優先對策為何？",opts:["使用安全帶","設置護欄","張掛安全網","限制作業時間"],ans:1,exp:"依危害控制優先序：設護欄（工程控制/消除危害）→安全網→安全帶（個人防護具）。設置護欄最優先。"},
+{ch:2,q:"特高壓係指超過幾伏特之電壓？",opts:["600V","3,300V","11,400V","22,800V"],ans:3,exp:"依設施規則：低壓≤600V，高壓600V至22,800V，特高壓>22,800V。"},
+{ch:2,q:"有機溶劑作業場所應設置何種通風裝置？",opts:["自然通風即可","整體換氣或局部排氣裝置","僅需配戴口罩","定期開窗通風"],ans:1,exp:"依《有機溶劑中毒預防規則》，有機溶劑作業場所應設密閉設備、局部排氣或整體換氣裝置，防止勞工中毒。"},
+{ch:2,q:"高度幾公尺以上工作場所邊緣應設護欄等防護設備？",opts:["1公尺","1.5公尺","2公尺","3公尺"],ans:2,exp:"依設施規則第224條，高度2公尺以上工作場所邊緣及開口，有墜落危險之虞者，應設護欄、護蓋或安全網。"},
+{ch:2,q:"物質安全資料表（SDS/Safety Data Sheet）共有幾個項目？",opts:["8項","12項","16項","20項"],ans:2,exp:"依GHS制度，SDS（安全資料表）標準格式共有16個必要項目，包括物質名稱、危害辨識、成分、急救措施等。"},
+{ch:2,q:"下列哪種滅火劑不適用於電氣火災（C類火災）？",opts:["二氧化碳滅火劑","乾粉滅火劑","泡沫滅火劑","鹵素系（海龍）滅火劑"],ans:2,exp:"泡沫滅火劑含水分，導電性高，不可用於電氣設備火災（C類）。CO2、乾粉、鹵素系均可用於電氣火災。"},
+{ch:2,q:"「缺氧症預防規則」定義缺氧狀態的氧氣濃度為低於多少？",opts:["19%","18%","16%","21%"],ans:1,exp:"依《缺氧症預防規則》，氧氣濃度未滿18%的狀態稱為缺氧，勞工進入此類場所需有防護措施。"},
+{ch:2,q:"移動式起重機作業時，起重機司機、吊掛作業勞工及地面作業監視人員的通聯，應以何種方式進行？",opts:["手機通話","事先約定的手號信號","口頭喊叫","不需要特別通聯"],ans:1,exp:"依規定，起重機作業應以事先約定好的手號信號（或對講機）進行溝通，以確保作業人員明確了解吊運指令，防止意外。"},
+{ch:2,q:"作業環境中常用的粉塵控制方法，下列何者屬於「工程控制」？",opts:["縮短作業時間","要求工人戴口罩","設置局部排氣裝置","進行健康檢查"],ans:2,exp:"設置局部排氣裝置（Local Exhaust Ventilation）屬於工程控制，直接從粉塵產生源頭排除；縮短時間屬行政控制；口罩屬PPE。"},
+{ch:2,q:"依「高空作業」相關規定，從事高空作業時，安全帶掛鉤應掛在何處？",opts:["腰部以下固定物","高於頭部以上的固定物或滑動式安全扣環","任意固定物","不需要掛鉤"],ans:1,exp:"安全帶的掛鉤點應高於作業者頭部，或使用滑動式扣環（Self-retracting Lifeline），以確保墜落距離最小，提高保護效果。"},
+{ch:2,q:"下列何者不屬於「密閉空間（局限空間）」的特徵？",opts:["開口有限、不足以讓人自由進出","通風換氣不良","非供人員持續佔用而設計","空間寬大且通風良好"],ans:3,exp:"局限空間特徵：進出口受限、非持續使用設計、通風不良、可能含有害氣體或缺氧。空間寬大且通風良好不屬其特徵。"},
+{ch:2,q:"輸配電架空線路下方施工作業，最主要的危害為何？",opts:["噪音危害","電擊（感電）危害","振動危害","熱危害"],ans:1,exp:"在高壓架空電線下方施工，最主要的危害是電擊（感電），設備或機具若碰觸到帶電線路，會造成嚴重傷亡。"},
+{ch:2,q:"依規定，一般化學品的物質安全資料表（SDS）應在採購後何時提供給使用者？",opts:["使用前","交貨時隨附","採購後30天內","勞工要求時才需提供"],ans:1,exp:"依職安法，雇主應確保危害性化學品在使用前，SDS（安全資料表）已提供給相關勞工，通常在交貨時隨附。"},
+{ch:2,q:"手持式電動工具的使用，何種情況下觸電風險最高？",opts:["在乾燥室內使用","在潮濕或潮濕場所使用","穿著厚底鞋作業","使用雙重絕緣工具"],ans:1,exp:"潮濕環境下（如戶外、地下、鑄造場等），人體電阻降低，觸電電流增大，電擊（感電）風險最高。"},
+{ch:2,q:"「物理性爆炸」與「化學性爆炸」的主要差異為何？",opts:["兩者沒有本質差異","物理性爆炸源於壓力突然釋放，化學性爆炸涉及化學反應","物理性爆炸比化學性爆炸更危險","化學性爆炸不產生高溫"],ans:1,exp:"物理性爆炸如鍋爐或高壓氣體容器破裂，源於壓力突然釋放；化學性爆炸如火藥爆炸，涉及快速氧化等化學反應並釋放大量能量。"},
+{ch:2,q:"「可燃性氣體」爆炸需要同時具備哪三個條件（火災三角形）？",opts:["可燃物、助燃劑、引火源","可燃物、濕度、溫度","可燃物、低溫、高壓","助燃劑、水分、溫度"],ans:0,exp:"火災（爆炸）三角形：可燃物（Fuel）+ 助燃劑（Oxidizer，通常是氧氣）+ 引火源（Ignition Source），三者缺一不可。"},
+{ch:2,q:"下列何者是預防機械傷害（夾捲）最有效的工程控制措施？",opts:["對機械部件噴漆提醒","設置固定式安全護罩（Fixed Guard）","張貼警告標示","教育訓練工人注意"],ans:1,exp:"固定式安全護罩是直接覆蓋危險運動部件的工程控制，可有效防止肢體進入夾捲區，是最有效的機械安全措施。"},
+{ch:2,q:"依「鉛中毒預防規則」，鉛作業場所的吸菸及飲食行為是否被允許？",opts:["允許，但需在休息時間進行","嚴格禁止在作業場所飲食吸菸","只允許飲水","雇主自行規定"],ans:1,exp:"依《鉛中毒預防規則》，鉛作業場所嚴格禁止飲食、吸菸，以防止鉛由口腔途徑進入人體。作業後必須徹底洗手。"},
+{ch:2,q:"對於起重機作業，「額定荷重」的定義為何？",opts:["起重機最大設計荷重的120%","起重機在各種作業條件下可安全吊升的最大荷重","起重機自重加上吊具重量","起重機在最差條件下的荷重"],ans:1,exp:"額定荷重（Rated Capacity/SWL, Safe Working Load）是起重機在特定作業狀況（臂長、作業半徑等）下，可安全吊升的最大荷重。"},
+{ch:2,q:"下列何者不是焊接作業的主要危害？",opts:["弧光傷害眼睛","有毒焊接煙塵","觸電危害","噪音污染"],ans:3,exp:"焊接主要危害包括弧光（紫外線/紅外線）傷眼、有毒金屬焰（如錳、氧化鐵）、觸電（尤其是電弧焊）、火災爆炸。噪音非焊接的主要危害。"},
+{ch:2,q:"實施高架作業前，應考慮的主要安全措施為何？",opts:["確認天氣良好","評估跌落高度與使用適當防護設備（護欄、安全網、安全帶）","提高日照強度","僅提醒工人注意"],ans:1,exp:"高架作業前應確認作業高度、設置護欄或安全網（工程控制），若無法設置則使用安全帶（個人防護），並評估作業環境。"},
+{ch:2,q:"「選擇性聽力損失（Noise-Induced Hearing Loss）」最先受損的頻率為何？",opts:["250Hz（低頻）","1000Hz","4000Hz（高頻）","所有頻率同時受損"],ans:2,exp:"噪音性聽力損失（NIHL）最先且最典型受損的是4000Hz（4kHz）頻率，在聽力圖上呈現「4kHz缺口（Notch）」。"},
+{ch:2,q:"依《危險性機械及設備安全檢查規則》，鍋爐的使用前檢查由誰執行？",opts:["雇主自行執行","勞動部指定之檢查機構","地方衛生局","ISO認證機構"],ans:1,exp:"依規則，鍋爐、壓力容器、起重機等危險性機械或設備，使用前須申請勞動部指定之檢查機構實施竣工/定期檢查。"},
+{ch:2,q:"下列哪種呼吸防護具適用於氧氣濃度不足的環境？",opts:["防塵口罩","防毒面具（活性碳過濾）","供氣式呼吸防護具（SCBA/空氣瓶）","有機蒸氣面具"],ans:2,exp:"缺氧環境（<18%氧氣）必須使用供氣式呼吸防護具（如自攜式空氣呼吸器SCBA），依靠外部供氣，不能使用依賴現場空氣的濾式防毒面具。"},
+{ch:2,q:"「局部排氣裝置（LEV）」的設計目的為何？",opts:["提供新鮮空氣給工人","在危害物質散布至工作環境前，從發生源直接排除","稀釋整體環境中的有害物","降低作業場所溫度"],ans:1,exp:"局部排氣裝置（Local Exhaust Ventilation）在危害物質（粉塵、有機溶劑蒸氣等）從發生源散布前，直接從源頭捕集並排除，效果優於整體換氣。"},
+{ch:2,q:"依規定，進入局限空間前必須執行的氣體監測不包含下列何者？",opts:["氧氣濃度","可燃性氣體濃度","有害氣體（如H2S、CO）濃度","二氧化碳產生量"],ans:3,exp:"進入局限空間前必測：①氧氣濃度（≥18%）②可燃氣體濃度（<爆炸下限25%）③有毒氣體（H2S、CO等）。CO2雖需注意，但法規主要規定前三項。"},
+{ch:2,q:"下列何者是防止工作場所火災爆炸最基本的工程控制措施？",opts:["配置滅火器","消除或隔離引火源","訓練工人緊急疏散","定期演練消防行動"],ans:1,exp:"防止火災爆炸最根本的工程控制是消除或隔離引火源（如防爆電器、禁止明火、靜電接地等），從源頭消除爆炸三角形的一個要素。"},
+{ch:2,q:"下列何者是工業界常用的「連鎖裝置（Interlock）」主要用途？",opts:["防止設備被盜","確保防護設備被移除時機器自動停機","記錄設備使用時間","控制設備溫度"],ans:1,exp:"連鎖裝置（Interlock）的主要安全用途是確保防護設備（護罩、護欄）被移除或開啟時，機器自動停機，防止人員在機器運轉時接觸危險部件。"},
+{ch:2,q:"搬運重物時，正確的人工物料搬運（Manual Handling）姿勢為何？",opts:["彎腰用背部力量搬起","保持背部挺直，以腿部肌肉出力搬起","扭轉身體抬起","只用手臂力量"],ans:1,exp:"正確搬運姿勢：保持背部挺直、屈膝蹲低，靠近重物，用腿部肌肉（大肌群）出力，避免背部彎曲扭轉以防腰傷。"},
+{ch:2,q:"「化學品暴露限值（OEL/TLV）」的定義最接近何者？",opts:["任何暴露都有害的濃度","大部分工作者每日反覆暴露而不造成不良健康影響的濃度","立即危及生命的濃度","引發急性中毒的濃度"],ans:1,exp:"OEL（職業暴露限值）如ACGIH的TLV-TWA，指幾乎所有工作者每天8小時、每週40小時反覆暴露，不致對健康產生不良影響的平均濃度。"},
+{ch:2,q:"工作場所的「應急逃生路線」設計，應遵循哪項原則？",opts:["路線越多越好，至少10條","緊急出口應鎖住以防入侵","確保逃生路徑保持暢通，標示清楚且有緊急照明","逃生路線設計不需考慮殘障人士"],ans:2,exp:"應急逃生路線設計應：路徑暢通無障礙物、有清楚的緊急出口標示、具備緊急照明、至少有兩個獨立方向的逃生路線，並考慮行動不便人員。"},
+
+// CH3: 衛生管理與健康保護 (30題)
+{ch:3,q:"一般健康檢查的紀錄應保存幾年？",opts:["3年","5年","7年","10年"],ans:2,exp:"依《勞工健康保護規則》，雇主對勞工一般健康檢查紀錄應保存7年；特殊健康檢查紀錄保存10年以上（部分游離輻射作業30年）。"},
+{ch:3,q:"特殊作業勞工每年應接受幾次特殊健康檢查？",opts:["1次","2次","3次","視作業類別而定"],ans:0,exp:"依《勞工健康保護規則》，從事特別危害健康作業的勞工，雇主每年應定期實施1次特殊健康檢查。"},
+{ch:3,q:"工作場所噪音超過幾dB時，應採取工程控制等措施？",opts:["80dB","85dB","90dB","95dB"],ans:2,exp:"依設施規則，8小時日時量平均音壓級超過90dB時，雇主應採工程控制（如隔音、吸音）、縮短暴露時間等措施。"},
+{ch:3,q:"高溫場所工作之勞工，每日工作時間不得超過幾小時？",opts:["4小時","6小時","8小時","10小時"],ans:1,exp:"依《高溫作業勞工作息時間標準》，高溫場所工作之勞工每日工作時間不得超過6小時，且應給予適當休息。"},
+{ch:3,q:"哪種化學物質可能導致「水俁病」？",opts:["鉛化合物","汞化合物","鉻化合物","鎘化合物"],ans:1,exp:"水俁病由有機汞（甲基汞）中毒引起，主要症狀為神經損害、致畸胎。水俁病最早在日本水俁市發現，因工廠排放含汞廢水污染魚類所致。"},
+{ch:3,q:"黑球溫度測量用黑色銅球直徑應為幾公分？",opts:["10cm","12cm","15cm","20cm"],ans:2,exp:"黑球溫度計使用直徑15公分的中空黑色銅球，插入溫度計量取輻射熱效應，代表環境輻射熱。"},
+{ch:3,q:"「鎘」中毒引起的職業病稱為什麼？",opts:["矽肺症","痛痛病","水俁病","塵肺症"],ans:1,exp:"鎘中毒可引起「痛痛病」（又稱伊泰伊泰病），主要影響腎臟和骨骼，1955年首先在日本富山縣神通川流域發現。"},
+{ch:3,q:"「游離輻射」對人體最敏感的組織為何？",opts:["骨骼","造血器官（骨髓）","皮膚","神經系統"],ans:1,exp:"造血器官（骨髓）、性腺、眼晶狀體對游離輻射最為敏感，骨髓受輻射損傷可造成造血功能障礙。"},
+{ch:3,q:"預防矽肺症（職業性塵肺病），最根本的控制方法為何？",opts:["定期胸部X光檢查","使用有效的防塵口罩","控制作業環境粉塵濃度（工程控制）","縮短工作時數"],ans:2,exp:"矽肺症最根本的預防是控制作業環境中游離二氧化矽（SiO2）粉塵濃度（工程控制），如濕式作業、局部排氣，而非依賴個人防護具。"},
+{ch:3,q:"「職業性噪音引起的聽力損失（NIHL）」最先發生在哪個頻率？",opts:["250Hz","1,000Hz","4,000Hz","8,000Hz"],ans:2,exp:"NIHL（噪音性聽力損失）最先且典型受損頻率為4,000Hz，在聽力圖上呈現「4kHz缺口（Notch）」現象，早期無明顯主觀感受。"},
+{ch:3,q:"「全身振動」主要危害哪個系統？",opts:["消化系統","呼吸系統","脊椎和下背部（肌肉骨骼系統）","視覺系統"],ans:2,exp:"全身振動（WBV，如搭乘工程機械、車輛等）主要危害脊椎和下背部，可引起腰痛、椎間盤損傷等肌肉骨骼疾病。"},
+{ch:3,q:"「手臂振動症候群」（HAV）的主要症狀為何？",opts:["手臂骨折","手指末梢血液循環障礙（白指症）","手腕扭傷","肩部脫臼"],ans:1,exp:"手臂振動症候群（Hand-Arm Vibration Syndrome，HAVS）主要症狀是Raynaud現象（白指症），即手指末梢血液循環障礙，手指在寒冷時出現蒼白、麻木。"},
+{ch:3,q:"「人因工程」(Ergonomics)的目的在於何者？",opts:["提高機器效率","設計工作以適合工作者的能力與限制，減少職業傷害","增加工作強度","降低設備成本"],ans:1,exp:"人因工程（Ergonomics）的目的是透過設計工作、工具、工作站，使其符合人體結構和能力，減少職業性肌肉骨骼傷害（MSD），提升效率與舒適性。"},
+{ch:3,q:"長期暴露於有機溶劑可能引起哪種職業病？",opts:["矽肺症","塵肺症","有機溶劑中毒（肝腎傷害、神經毒性）","噪音性聽力損失"],ans:2,exp:"長期暴露有機溶劑（苯、甲苯、二甲苯等）可引起慢性有機溶劑中毒，症狀包括肝腎功能損傷、中樞神經系統傷害（頭暈、認知障礙）。"},
+{ch:3,q:"「塵肺症」是由什麼原因引起的職業病？",opts:["長期高溫作業","長期吸入無機粉塵沉積在肺部","接觸有機溶劑","重金屬中毒"],ans:1,exp:"塵肺症（Pneumoconiosis）是因長期吸入礦物性/無機粉塵（如矽塵、石綿、煤塵）沉積在肺部，引起纖維化病變，最常見的是矽肺症。"},
+{ch:3,q:"依《勞工健康保護規則》，從事哪類作業的勞工，健康檢查紀錄需保存30年？",opts:["高溫作業","粉塵作業","游離輻射作業","有機溶劑作業"],ans:2,exp:"依規則，從事游離輻射作業勞工的特殊健康檢查紀錄，保存期限最長，應保存至少30年（其他特殊作業一般為10年）。"},
+{ch:3,q:"「職業性皮膚病」最常見的致因為何？",opts:["紫外線過度暴露","接觸刺激性或致敏性化學品（接觸性皮膚炎）","振動暴露","電磁波暴露"],ans:1,exp:"職業性皮膚病最常見的是接觸性皮膚炎（Contact Dermatitis），由直接接觸刺激性物質（如清潔劑、酸鹼）或致敏物質引起，占職業病相當大比例。"},
+{ch:3,q:"「石綿（Asbestos）」接觸最主要引起的疾病為何？",opts:["矽肺症","石綿肺症與間皮瘤（Mesothelioma）","鉛中毒","噪音性聽力損失"],ans:1,exp:"石綿接觸可引起石綿肺症（Asbestosis）、肺癌及惡性間皮瘤（Mesothelioma，主要發生在胸膜），潛伏期可長達20~40年。"},
+{ch:3,q:"「工作壓力」引起的健康問題，屬於何種職業危害？",opts:["物理性危害","化學性危害","心理社會性危害（Psychosocial Hazard）","生物性危害"],ans:2,exp:"工作壓力、暴力、騷擾等屬於心理社會性危害（Psychosocial Hazard），可引起工作倦怠、焦慮、抑鬱、心血管疾病等。"},
+{ch:3,q:"「物理性危害」包含下列何者？",opts:["有機溶劑","病毒感染","噪音、振動、輻射","工作壓力"],ans:2,exp:"物理性危害包括噪音、振動、游離/非游離輻射、極端溫度（高溫、低溫）、氣壓等；化學性危害是各種有害化學品；生物性是微生物；心理社會是壓力、暴力。"},
+{ch:3,q:"「呼吸性粉塵（Respirable Dust）」的特性為何？",opts:["粒徑大於100微米","粒徑小於10微米，可到達肺泡","顏色呈白色","密度特別高"],ans:1,exp:"呼吸性粉塵指粒徑較小（一般<10µm，尤其<4µm）的粉塵，能穿越上呼吸道防禦機制，沉積在肺泡，造成塵肺症等嚴重疾病。"},
+{ch:3,q:"「生物性危害（Biological Hazard）」最常見於哪種工作環境？",opts:["電子工廠","醫療機構、農業和污水處理","金屬冶煉廠","辦公室"],ans:1,exp:"生物性危害（如細菌、病毒、真菌、寄生蟲等）最常見於醫療機構（血液傳播疾病）、農業（人畜共通傳染病）、污水處理（腸道病原體）等。"},
+{ch:3,q:"「熱衰竭（Heat Exhaustion）」與「熱中暑（Heat Stroke）」的最主要區別為何？",opts:["兩者症狀完全相同","熱中暑有中樞體溫調節失效（高燒>40°C）且為生命威脅","熱衰竭比熱中暑嚴重","熱衰竭須立即送醫，熱中暑可自行恢復"],ans:1,exp:"熱衰竭：大量流汗、頭暈、皮膚濕冷，體溫可能正常或略升，通常可恢復。熱中暑（Heat Stroke）：體溫調節失效、體溫>40°C、皮膚乾燥熱、可能無汗、意識障礙，屬醫療緊急狀況。"},
+{ch:3,q:"噪音暴露的控制措施，依優先順序應為何？",opts:["先提供耳塞，再考慮工程控制","消除或降低噪音源→工程隔音→行政管理（輪班）→個人防護（耳塞/耳罩）","只需要工人戴耳塞","行政管理優先於工程控制"],ans:1,exp:"噪音控制優先序：①消除/替換噪音源②工程控制（隔音、吸音、防振）③行政管理（工作輪換縮短暴露）④個人防護（耳塞、耳罩）。"},
+{ch:3,q:"「職業暴露限值（OEL）時間加權平均值（TWA）」的計算基礎為何？",opts:["每小時最大暴露濃度","8小時工作日的平均暴露濃度","30分鐘最大暴露值","單次暴露的峰值"],ans:1,exp:"OEL-TWA（時間加權平均值）以8小時工作日為基礎，計算整個工作班次的加權平均暴露濃度，代表長期反覆暴露的健康基準值。"},
+{ch:3,q:"依《勞工健康保護規則》，健康管理的分級中，第一級管理的意義為何？",opts:["需要立即停止作業","健康正常，可繼續工作並進行一般健康促進","需要特殊醫療介入","限制從事特定作業"],ans:1,exp:"健康管理分級：第一級（正常）繼續工作；第二級（異常但未達職業病標準）加強追蹤；第三級（疑似職業病）需醫師評估；第四級（確認職業病）需醫療處置。"},
+{ch:3,q:"「非游離輻射（Non-Ionizing Radiation）」包含下列何者？",opts:["X射線","伽瑪射線","紫外線（UV）、可見光、紅外線（IR）、微波、無線電波","阿爾法粒子"],ans:2,exp:"非游離輻射包括：紫外線（UV）、可見光、紅外線（IR）、微波（Microwave）、無線電波（RF）等。X射線、伽瑪射線、α/β粒子屬游離輻射。"},
+{ch:3,q:"「工作場所職業健康護理師」的主要職責不包含下列何者？",opts:["健康評估與監測","職業危害調查","診斷治療職業病","健康諮詢與衛教"],ans:2,exp:"職業健康護理師負責健康評估、監測、職業危害調查、健康諮詢等；「診斷治療職業病」屬醫師職責，護理師不得獨立執行診斷治療。"},
+{ch:3,q:"長期低頻率暴露於游離輻射的慢性效應，下列何者最受關注？",opts:["急性放射症候群","癌症（尤其是白血病和固態癌）的風險增加","立即性皮膚灼傷","神經系統急性損傷"],ans:1,exp:"慢性（低劑量長期）游離輻射暴露最主要的慢性效應是癌症風險增加，包括白血病、甲狀腺癌、骨髓癌等，其影響有數年至數十年的潛伏期。"},
+
+// CH4: 職業安全衛生教育訓練 (20題)
+{ch:4,q:"甲種職業安全衛生業務主管訓練時數不得少於幾小時？",opts:["21小時","35小時","42小時","115小時"],ans:2,exp:"依《職業安全衛生教育訓練規則》，甲種職安衛業務主管訓練時數不得少於42小時；乙種35小時；丙種21小時。"},
+{ch:4,q:"職業安全衛生業務主管在職教育訓練應每幾年接受一次？",opts:["1年","2年","3年","5年"],ans:1,exp:"依訓練規則，職安衛業務主管每2年至少應接受在職教育訓練一次，每次不得少於6小時。"},
+{ch:4,q:"新僱勞工或變更工作前應接受的一般安全衛生教育訓練，時數不得少於幾小時？",opts:["1小時","2小時","3小時","6小時"],ans:2,exp:"依訓練規則第17條，新僱或變更工作前應接受適於工作必要的一般安全衛生教育訓練，不得少於3小時。"},
+{ch:4,q:"下列哪種人員的訓練時數最長？",opts:["丙種職安衛業務主管","乙種職安衛業務主管","甲種職安衛業務主管","一般勞工"],ans:2,exp:"各級訓練時數：甲種42小時 > 乙種35小時 > 丙種21小時 > 一般勞工3小時。甲種業務主管訓練時數最長。"},
+{ch:4,q:"依訓練規則，從事缺氧危險作業主管的安全衛生訓練時數為幾小時？",opts:["6小時","12小時","18小時","24小時"],ans:1,exp:"依《職業安全衛生教育訓練規則》，缺氧危險作業主管訓練時數為18小時（依規則規定，請以最新版規則為準）。"},
+{ch:4,q:"「職業安全衛生管理師」與「職業安全衛生管理員」的主要差異為何？",opts:["兩者職責完全相同","管理師有更高的學歷及實務要求，職責較廣","管理員比管理師需要更多訓練","兩者可由同一人擔任"],ans:1,exp:"職安衛管理師需具備特定學歷（如工業安全相關科系）及實務經驗，負責較廣泛的管理工作；管理員資格相對較低，負責較具體的事務性工作。"},
+{ch:4,q:"緊急應變演練應多久進行一次？",opts:["每年至少一次","每5年一次","僅在發生災害後","不需定期演練"],ans:0,exp:"依規定及管理實務，緊急應變演練（消防演習、疏散演練等）應每年至少實施一次，以確保員工熟悉緊急程序。"},
+{ch:4,q:"從事「粉塵危害預防」的特定安全衛生教育訓練，內容應包含何者？",opts:["財務管理","相關法規、粉塵危害、防護具使用及緊急應變","行銷技巧","生產效率提升"],ans:1,exp:"特定危害作業的訓練內容須涵蓋：相關法規、危害特性與健康影響、防護設備及個人防護具的使用、緊急應變措施等。"},
+{ch:4,q:"職業安全衛生教育訓練的「成效評估」應包含哪四個層次（依Kirkpatrick模型）？",opts:["理論、實務、考試、應用","反應、學習、行為、結果","觀察、訓練、測驗、回顧","計畫、執行、查核、改善"],ans:1,exp:"Kirkpatrick四層次評估：Level 1反應（學員滿意度）→Level 2學習（知識/技能獲得）→Level 3行為（工作行為改變）→Level 4結果（組織績效改善）。"},
+{ch:4,q:"依法，雇主應保存教育訓練紀錄幾年？",opts:["1年","3年","5年","10年"],ans:1,exp:"依《職業安全衛生教育訓練規則》，雇主應保存教育訓練紀錄，一般應保存3年以備查核。"},
+{ch:4,q:"哪種教育訓練方式最適合訓練工作人員的「技能操作」？",opts:["講課（課堂授課）","閱讀教材","實作（On-the-Job Training, OJT）","線上測驗"],ans:2,exp:"技能操作訓練最有效的方式是實作訓練（OJT, On-the-Job Training），在實際工作環境中演示和練習，比單純課堂教學更有效。"},
+{ch:4,q:"從事「高壓氣體」作業的勞工，依規定需接受幾小時以上的安全教育訓練？",opts:["3小時","6小時","18小時","依雇主規定"],ans:2,exp:"依訓練規則，高壓氣體製造安全技術員等特定職類需接受18小時以上的專業訓練（各職類時數依規則規定）。"},
+{ch:4,q:"「職業安全衛生教育訓練」的主要目的為何？",opts:["增加雇主利潤","提升勞工的安全衛生知識、技能與態度，預防職業災害","滿足法規的最低要求","取代雇主的安全管理責任"],ans:1,exp:"職安衛教育訓練目的是提升工作者的危害認知、安全操作技能及安全態度，進而預防職業災害，保護工作者健康，而非僅為法規合規。"},
+{ch:4,q:"從事「有機溶劑作業」的相關主管，應接受至少幾小時的專業訓練？",opts:["6小時","12小時","18小時","24小時"],ans:2,exp:"依訓練規則，有機溶劑作業主管需接受18小時以上的訓練，包含法規、危害特性、安全作業程序等。"},
+{ch:4,q:"教育訓練需求分析（TNA）的目的為何？",opts:["決定訓練預算","找出組織的訓練需求與差距，確保訓練資源用在最需要的地方","讓所有員工接受相同訓練","取得ISO認證"],ans:1,exp:"訓練需求分析（Training Needs Analysis, TNA）的目的是分析組織、工作及個人三個層次的訓練缺口，確保訓練課程針對實際需求，有效使用資源。"},
+{ch:4,q:"依訓練規則，安全衛生業務主管的訓練機構，需向哪個機關申請認可？",opts:["地方政府","勞動部","衛生福利部","教育部"],ans:1,exp:"依《職業安全衛生教育訓練規則》，辦理安全衛生業務主管訓練的機構，需向中央主管機關（勞動部）申請認可，才可辦理合法訓練。"},
+{ch:4,q:"「現場教育訓練（OJT）」的優點包含何者？",opts:["成本高，但效果最差","直接在真實工作環境中訓練，學以致用效果高","只適合新進員工","需大量事前準備，彈性差"],ans:1,exp:"OJT（現場訓練）優點：在真實工作場所訓練、立即應用、成本相對低、可依學員進度調整；缺點是品質取決於師傅素質，有時安全風險較高。"},
+{ch:4,q:"從事起重機具「操作」的勞工，除了基本3小時訓練外，還需接受哪種特定訓練？",opts:["不需額外訓練","特定設備的操作訓練及技術士檢定","只需閱讀操作手冊","完成在職訓練即可"],ans:1,exp:"操作危險性機械（如固定式起重機）的勞工，除一般訓練外，需接受特定設備操作訓練，部分職類並需取得技術士證照，方可獨立操作。"},
+{ch:4,q:"「安全觀察（Safety Observation）」作為訓練工具的主要目的為何？",opts:["懲處違規員工","藉由觀察實際工作行為，提供即時回饋，強化安全行為","記錄員工缺失供日後懲處","滿足稽核要求"],ans:1,exp:"安全觀察程序（Behavior-Based Safety的核心工具）是觀察工作者的實際行為，給予正向鼓勵安全行為、即時糾正不安全行為的回饋，作為行為改變工具。"},
+{ch:4,q:"對於高風險作業（如局限空間、高空作業），訓練後還應採取何種措施確保安全？",opts:["不需額外措施，訓練後即可作業","需實際演練並取得「許可作業（Permit-To-Work）」才能執行","只需口頭確認已受訓","雇主自行決定"],ans:1,exp:"高風險作業（如局限空間進入、高空作業、熱工作業）訓練完成後，作業前仍需申請「工作許可證（Permit-To-Work, PTW）」，確認危害已控制，才能開始作業。"},
+]};
+
+// ===== LECTURE CONTENT =====
+const lectureContent = {
+  'osh-a': [
+    {
+      id: 0,
+      title: '第一章：職業安全衛生相關法規',
+      length: '法條精要 · 約 45 分鐘',
+      content: `
+        <h4>一、職業安全衛生法（2013年修正版）核心架構</h4>
+        <p>職安法共分 7 章 55 條，架構為：總則→雇主義務→機械設備管理→危害物質管理→作業環境監測→健康管理→監督行政及罰則。</p>
+        <div class="lec-tip"><strong>記憶口訣：</strong>「總、雇、機、危、監、健、罰」— 7章依序記熟。</div>
+        <h4>二、重要條文整理</h4>
+        <table class="lec-table">
+          <tr><th>條文</th><th>重點內容</th><th>考試關鍵字</th></tr>
+          <tr><td>第 7 條</td><td>製造者、輸入者、供應者義務（設計/製造階段即需符合安全標準）</td><td>製造者責任</td></tr>
+          <tr><td>第 16 條</td><td>危險性機械或設備，非經檢查合格不得使用</td><td>危險性機械：固定式起重機、移動式起重機、人字臂起重桿、營建用升降機、提升機、吊籠</td></tr>
+          <tr><td>第 18 條</td><td>立即危險之虞，工作者有撤離權</td><td>自行撤離、不得解雇</td></tr>
+          <tr><td>第 23 條</td><td>30人以上設管理單位、100人以上設職安衛委員會</td><td>30人、100人門檻</td></tr>
+          <tr><td>第 25-27 條</td><td>共同作業、承攬管理、連帶賠償責任</td><td>連帶賠償、協調義務</td></tr>
+          <tr><td>第 34 條</td><td>工作守則：雇主會同勞工代表訂定，報請備查後公告</td><td>勞工代表、備查</td></tr>
+          <tr><td>第 37 條</td><td>災害通報：死亡/3人以上 → 8小時；其他 → 3日內</td><td>8小時、3日</td></tr>
+        </table>
+        <h4>三、職業安全衛生設施規則 — 重點數字</h4>
+        <ul>
+          <li>高度 <strong>2公尺以上</strong> 工作場所邊緣 → 應設護欄、護蓋或安全網</li>
+          <li>對地電壓 <strong>150V 以上</strong> → 應裝設漏電斷路器</li>
+          <li>特高壓：<strong>>22,800V</strong>；高壓：600V–22,800V；低壓：≤600V</li>
+          <li>局限空間 O₂ 濃度 → 應在 <strong>18% 以上</strong></li>
+        </ul>
+        <div class="lec-tip"><strong>高頻考點：</strong>危險性機械的具體種類（6種）常被考，須完整記憶！</div>
+        <h4>四、勞動檢查法重點</h4>
+        <ul>
+          <li>勞動檢查員得<strong>隨時進入</strong>事業單位，不得拒絕、規避或妨礙</li>
+          <li>有立即危險之虞，得<strong>當場要求停工</strong></li>
+          <li>發現違規，通知<strong>限期改善</strong></li>
+        </ul>
+        <h4>五、罰則速查</h4>
+        <table class="lec-table">
+          <tr><th>行為</th><th>罰則</th></tr>
+          <tr><td>違反機械防護設置義務</td><td>3萬–30萬元罰鍰</td></tr>
+          <tr><td>拒絕勞動檢查</td><td>3萬–15萬元罰鍰</td></tr>
+          <tr><td>未依規定報告職業災害</td><td>3萬–15萬元罰鍰</td></tr>
+        </table>
+      `
+    },
+    {
+      id: 1,
+      title: '第二章：職業安全衛生管理概論',
+      length: 'PDCA × ISO 45001 · 約 40 分鐘',
+      content: `
+        <h4>一、PDCA 管理循環</h4>
+        <table class="lec-table">
+          <tr><th>字母</th><th>全名</th><th>職安衛具體行動</th></tr>
+          <tr><td>P — Plan</td><td>計畫</td><td>危害辨識、風險評估、設定目標與計畫</td></tr>
+          <tr><td>D — Do</td><td>執行</td><td>實施控制措施、訓練、操作程序</td></tr>
+          <tr><td>C — Check</td><td>查核</td><td>作業環境監測、事故調查、內部稽核</td></tr>
+          <tr><td>A — Act</td><td>行動改善</td><td>管理審查、採取矯正預防措施</td></tr>
+        </table>
+        <h4>二、危害控制優先序（務必記熟！）</h4>
+        <ol>
+          <li><strong>消除危害（Elimination）</strong> ← 最優先</li>
+          <li>取代（以低危害物質/方法替代）</li>
+          <li>工程控制（隔離、護罩、通風）</li>
+          <li>行政管理（輪班、訓練、標示）</li>
+          <li><strong>個人防護具（PPE）</strong> ← 最後手段</li>
+        </ol>
+        <div class="lec-tip"><strong>考試頻率極高！</strong> 記住「消取工行個」五個字的順序。</div>
+        <h4>三、風險評估步驟（5步驟）</h4>
+        <ol>
+          <li>辨識危害（Hazard Identification）</li>
+          <li>決定誰會受到傷害及如何受傷</li>
+          <li>評估風險等級（可能性 × 嚴重度）</li>
+          <li>決定並實施控制措施</li>
+          <li>定期審查並更新</li>
+        </ol>
+        <h4>四、ISO 45001 核心要素</h4>
+        <ul>
+          <li><strong>組織脈絡：</strong>了解內外部因素、利害關係人需求</li>
+          <li><strong>領導與工作者參與：</strong>最高管理者承諾、安全政策、工作者諮商</li>
+          <li><strong>規劃：</strong>危害辨識與風險評估、法規義務評估</li>
+          <li><strong>支援：</strong>資源、能力、溝通、文件化</li>
+          <li><strong>營運：</strong>危害控制、緊急應變</li>
+          <li><strong>績效評估：</strong>監測、量測、內部稽核、管理審查</li>
+          <li><strong>改善：</strong>事故調查、矯正措施、持續改善</li>
+        </ul>
+        <h4>五、常見安全分析方法比較</h4>
+        <table class="lec-table">
+          <tr><th>方法</th><th>方向</th><th>適用時機</th></tr>
+          <tr><td>FTA（故障樹分析）</td><td>自上而下</td><td>分析已知頂端事件的原因</td></tr>
+          <tr><td>FMEA（失誤模式影響分析）</td><td>自下而上</td><td>新設備設計評估</td></tr>
+          <tr><td>JSA（工作安全分析）</td><td>逐步分析</td><td>高危害作業的步驟分析</td></tr>
+          <tr><td>What-If分析</td><td>腦力激盪</td><td>製程設計評估</td></tr>
+        </table>
+      `
+    },
+    {
+      id: 2,
+      title: '第三章：安全管理與危害預防',
+      length: '墜落・電氣・機械・局限空間 · 約 50 分鐘',
+      content: `
+        <h4>一、墜落危害預防（高頻考點）</h4>
+        <p>台灣職業災害死亡案例中，墜落居首位，必須熟記防護順序：</p>
+        <ol>
+          <li><strong>工程控制（最優先）：</strong>設護欄（高度≥90cm）、護蓋、開口防護</li>
+          <li>安全網（防護網）</li>
+          <li><strong>個人防護（最後）：</strong>安全帶，掛鉤點應高於頭部</li>
+        </ol>
+        <div class="lec-tip"><strong>重要：</strong>高度≥2公尺即需設防護設備；安全帶掛鉤應高於頭部（減少墜落距離）。</div>
+        <h4>二、電氣安全重點數字</h4>
+        <table class="lec-table">
+          <tr><th>項目</th><th>數值/規定</th></tr>
+          <tr><td>低壓</td><td>≤600V</td></tr>
+          <tr><td>高壓</td><td>600V – 22,800V</td></tr>
+          <tr><td>特高壓</td><td>>22,800V</td></tr>
+          <tr><td>漏電斷路器</td><td>對地電壓≥150V 或導電性良好場所的移動式電動工具</td></tr>
+          <tr><td>絕緣防護具</td><td>在有感電危險的帶電部分作業時，應使用絕緣手套、絕緣靴</td></tr>
+        </table>
+        <h4>三、局限空間作業五大要項</h4>
+        <ol>
+          <li><strong>作業前氣體監測：</strong>O₂（≥18%）、可燃氣體（<爆炸下限25%）、有毒氣體（H₂S、CO）</li>
+          <li>通風換氣（強制通風，進氣口遠離排氣口）</li>
+          <li>工作許可制度（Permit-To-Work, PTW）</li>
+          <li>監視人員（站在外部，不得同時入內）</li>
+          <li>緊急救援計畫（救援設備、通報程序）</li>
+        </ol>
+        <h4>四、機械安全防護種類</h4>
+        <ul>
+          <li><strong>固定式護罩（Fixed Guard）：</strong>最有效，直接封閉危險部位</li>
+          <li><strong>連鎖裝置（Interlock）：</strong>護罩移除時機器自動停機</li>
+          <li><strong>雙手控制裝置：</strong>需雙手同時操作才能啟動（沖床類設備）</li>
+          <li><strong>光幕感測：</strong>光幕被遮斷時機器停機</li>
+        </ul>
+        <h4>五、火災爆炸預防</h4>
+        <p>火災三要素（火三角）：可燃物 + 助燃劑（氧氣）+ 引火源，消除任一要素即可預防。</p>
+        <table class="lec-table">
+          <tr><th>火災類別</th><th>說明</th><th>適用滅火劑</th></tr>
+          <tr><td>A 類</td><td>一般可燃固體（木、紙）</td><td>水、泡沫、ABC乾粉</td></tr>
+          <tr><td>B 類</td><td>可燃液體、氣體</td><td>CO₂、乾粉、泡沫</td></tr>
+          <tr><td>C 類</td><td>電氣設備火災</td><td>CO₂、乾粉（禁用泡沫和水）</td></tr>
+          <tr><td>D 類</td><td>可燃性金屬（鉀、鈉）</td><td>特殊乾粉</td></tr>
+        </table>
+        <div class="lec-tip"><strong>常考：</strong>C類（電氣）火災不可使用泡沫滅火劑（含水，導電）！</div>
+      `
+    },
+    {
+      id: 3,
+      title: '第四章：衛生管理與健康保護',
+      length: '職業病・健康檢查・化學危害 · 約 40 分鐘',
+      content: `
+        <h4>一、健康檢查規定一覽</h4>
+        <table class="lec-table">
+          <tr><th>檢查類型</th><th>對象</th><th>紀錄保存</th></tr>
+          <tr><td>一般健康檢查</td><td>所有勞工（頻率依年齡）</td><td>7年</td></tr>
+          <tr><td>特殊健康檢查</td><td>從事特別危害健康作業者（每年1次）</td><td>10年以上</td></tr>
+          <tr><td>游離輻射作業</td><td>特殊健康檢查</td><td>30年</td></tr>
+        </table>
+        <div class="lec-tip"><strong>記憶口訣：</strong>「一般7年、特殊10年、輻射30年」</div>
+        <h4>二、著名職業病與致因</h4>
+        <table class="lec-table">
+          <tr><th>疾病名稱</th><th>主要致因</th><th>主要症狀</th></tr>
+          <tr><td>矽肺症</td><td>游離二氧化矽（SiO₂）粉塵</td><td>肺部纖維化、呼吸困難</td></tr>
+          <tr><td>石綿肺症/間皮瘤</td><td>石綿（Asbestos）纖維</td><td>肺纖維化、胸膜癌（潛伏20-40年）</td></tr>
+          <tr><td>噪音性聽力損失（NIHL）</td><td>長期噪音暴露（>85-90dB）</td><td>4kHz缺口，高頻聽力損失</td></tr>
+          <tr><td>水俁病</td><td>有機汞（甲基汞）</td><td>神經損害、肢體麻木、致畸胎</td></tr>
+          <tr><td>痛痛病</td><td>鎘（Cd）</td><td>腎臟損傷、骨骼軟化、骨折</td></tr>
+          <tr><td>有機溶劑中毒</td><td>苯、甲苯等</td><td>肝腎損傷、神經毒性</td></tr>
+        </table>
+        <h4>三、作業環境監測（高溫）</h4>
+        <ul>
+          <li>高溫場所每日工作時間：<strong>不得超過6小時</strong></li>
+          <li>黑球溫度計：直徑 <strong>15公分</strong> 黑色銅球，測量輻射熱</li>
+          <li>「綜合溫度熱指數（WBGT）」= 0.7×自然濕球溫度 + 0.3×黑球溫度（室內）</li>
+        </ul>
+        <h4>四、噪音危害防治</h4>
+        <ul>
+          <li>8小時日時量平均音壓級 <strong>>90dB</strong> → 應採工程控制等措施</li>
+          <li>聽力損失最先出現在 <strong>4,000Hz（4kHz）</strong></li>
+          <li>控制優先序：消除噪音源→工程隔音→行政管理→耳塞/耳罩</li>
+        </ul>
+        <h4>五、SDS（安全資料表）16項重點</h4>
+        <p>SDS依GHS制度分16節：①物質名稱 ②危害辨識 ③成分辨識資料 ④急救措施 ⑤滅火措施 ⑥意外洩漏措施 ⑦安全處置與儲存 ⑧暴露預防措施 ⑨物理化學性質 ⑩穩定性及反應性 ⑪毒理學資料 ⑫生態資料 ⑬廢棄處置 ⑭運送資料 ⑮法規資料 ⑯其他資料。</p>
+        <div class="lec-tip"><strong>常考：</strong>SDS共<strong>16項</strong>，危害辨識在第<strong>2節</strong>，急救措施在第<strong>4節</strong>。</div>
+      `
+    },
+    {
+      id: 4,
+      title: '第五章：職業安全衛生教育訓練',
+      length: '訓練時數・規則解析 · 約 30 分鐘',
+      content: `
+        <h4>一、各級人員訓練時數（必考！）</h4>
+        <table class="lec-table">
+          <tr><th>人員類別</th><th>最低訓練時數</th><th>在職訓練</th></tr>
+          <tr><td>甲種職安衛業務主管</td><td>42小時</td><td>每2年≥6小時</td></tr>
+          <tr><td>乙種職安衛業務主管</td><td>35小時</td><td>每2年≥6小時</td></tr>
+          <tr><td>丙種職安衛業務主管</td><td>21小時</td><td>每2年≥6小時</td></tr>
+          <tr><td>職安衛管理師/員</td><td>依規定（管理師較高）</td><td>每2年定期</td></tr>
+          <tr><td>新僱/變更工作勞工</td><td>3小時（一般安衛教育）</td><td>—</td></tr>
+          <tr><td>特定危害作業人員</td><td>依職類規定（6–18小時不等）</td><td>—</td></tr>
+        </table>
+        <div class="lec-tip"><strong>記憶：</strong>甲42 > 乙35 > 丙21 > 一般3。在職每2年至少6小時。</div>
+        <h4>二、訓練辦理規定</h4>
+        <ul>
+          <li>安全衛生業務主管訓練機構須向<strong>勞動部申請認可</strong></li>
+          <li>教育訓練紀錄應保存 <strong>3年</strong> 備查</li>
+          <li>緊急應變演練：每年至少 <strong>1次</strong></li>
+        </ul>
+        <h4>三、訓練方法比較</h4>
+        <table class="lec-table">
+          <tr><th>方法</th><th>最適用場合</th><th>優點</th></tr>
+          <tr><td>課堂授課（Lecture）</td><td>知識傳授、法規說明</td><td>成本低、可同時訓練多人</td></tr>
+          <tr><td>實作（OJT）</td><td>操作技能訓練</td><td>立即應用、效果最佳</td></tr>
+          <tr><td>演練（Drill）</td><td>緊急應變、消防疏散</td><td>熟悉程序、建立肌肉記憶</td></tr>
+          <tr><td>影片/線上課程</td><td>基礎認知、自學</td><td>彈性、可重複觀看</td></tr>
+        </table>
+        <h4>四、工作許可制度（PTW）與高風險作業</h4>
+        <p>以下作業須申請工作許可證（PTW）才能進行：</p>
+        <ul>
+          <li>局限空間（密閉空間）進入</li>
+          <li>高空作業（高處作業）</li>
+          <li>熱工作業（電焊、切割等引火源）</li>
+          <li>能量隔離（上鎖掛牌，LOTO）</li>
+        </ul>
+        <h4>五、Kirkpatrick 四層次評估模型</h4>
+        <ol>
+          <li><strong>Level 1 反應（Reaction）：</strong>學員對訓練的滿意度</li>
+          <li><strong>Level 2 學習（Learning）：</strong>知識或技能的獲得</li>
+          <li><strong>Level 3 行為（Behavior）：</strong>訓練後工作行為的實際改變</li>
+          <li><strong>Level 4 結果（Results）：</strong>訓練對組織績效的影響（如事故率下降）</li>
+        </ol>
+        <div class="lec-tip">四層次評估難度逐層升高，Level 3、4最難量化但最有意義。</div>
+      `
+    }
+  ]
+};
+
+// ===== NEWS DATA =====
+const newsData = {
+  'osh-a': [
+    {
+      date: '2026-04',
+      title: '勞動部公告114年度甲種職業安全衛生業務主管訓練課程異動',
+      excerpt: '勞動部職業安全衛生署公告，114年度起甲種訓練課程中「安全管理與危害預防」章節新增危化品管理比重，考生備考時應特別留意設施規則第三章相關內容。',
+      source: '勞動部職業安全衛生署',
+      url: 'https://www.osha.gov.tw'
+    },
+    {
+      date: '2026-03',
+      title: '《職業安全衛生法施行細則》部分條文修正發布',
+      excerpt: '勞動部發布職安衛法施行細則修正，針對承攬人連帶責任認定標準及自動檢查頻率有所調整，影響甲種業務主管的監督管理職責。',
+      source: '勞動部全國法規資料庫',
+      url: 'https://laws.mol.gov.tw'
+    },
+    {
+      date: '2026-02',
+      title: '局限空間作業職業災害案例分析公告',
+      excerpt: '職安署公布去年局限空間死亡職業災害統計，氧氣不足（缺氧）仍居首，提醒考生重點複習「缺氧症預防規則」及進入前的氣體監測規定。',
+      source: '勞動部職業安全衛生署 — 統計資料',
+      url: 'https://www.osha.gov.tw/1106/1113/1114/'
+    },
+    {
+      date: '2026-01',
+      title: '114年度職業安全衛生業務主管訓練課程開班資訊',
+      excerpt: '勞動部職業安全衛生署公告114年度各級職安衛業務主管訓練班開班訊息，甲種訓練含線上及實體兩種形式，時數仍維持42小時。',
+      source: '勞動部職業安全衛生署 — 教育訓練',
+      url: 'https://www.osha.gov.tw/1106/1113/'
+    },
+    {
+      date: '2025-12',
+      title: '高架作業墜落災害預防指引更新',
+      excerpt: '職安署更新「高架作業安全指引」，強調使用個人墜落防護系統（PFAS）時，確保掛鉤點高度正確的重要性，並補充室外高架作業的天候判斷基準。',
+      source: '勞動部職業安全衛生署',
+      url: 'https://www.osha.gov.tw'
+    },
+    {
+      date: '2025-11',
+      title: '「危害性化學品評估及分級管理辦法」實施成效報告',
+      excerpt: '勞動部公布化學品危害分級管理實施成效，強調雇主應依據SDS（安全資料表）16節內容對勞工實施危害告知，並完成風險分級。',
+      source: '勞動部 — 法規公告',
+      url: 'https://laws.mol.gov.tw'
+    }
+  ]
+};
+// ===== STATE =====
+let state = {
+  route:'home', currentExamId:null, currentTab:'overview', catalogFilter:'all',
+  mode:'random', questions:[], currentIdx:0, answers:[], startTime:null,
+  totalDone:0, totalCorrect:0, streak:0, maxStreak:0, recentExams:[],
+};
+try {
+  const s = JSON.parse(localStorage.getItem('kaonow_v2')||'{}');
+  Object.assign(state,{totalDone:s.totalDone||0,totalCorrect:s.totalCorrect||0,streak:s.streak||0,maxStreak:s.maxStreak||0,recentExams:s.recentExams||[]});
+} catch(e){}
+function saveState(){try{localStorage.setItem('kaonow_v2',JSON.stringify({totalDone:state.totalDone,totalCorrect:state.totalCorrect,streak:state.streak,maxStreak:state.maxStreak,recentExams:state.recentExams}));}catch(e){}}
+
+// ===== ROUTER =====
+function nav(p){location.hash='#/'+p}
+function toggleMenu(){document.getElementById('header-nav').classList.toggle('open')}
+function router(){
+  const hash=location.hash.replace(/^#\/?/,'')||'home';
+  const parts=hash.split('/');
+  const page=parts[0], arg=parts[1];
+  document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));
+  document.querySelectorAll('.header-nav a[data-nav]').forEach(a=>{
+    a.classList.toggle('active',a.dataset.nav===page||(page==='exam'&&a.dataset.nav==='catalog'));
+  });
+  document.getElementById('header-nav').classList.remove('open');
+  switch(page){
+    case 'home': document.getElementById('screen-home').classList.add('active'); renderHome(); break;
+    case 'catalog': document.getElementById('screen-catalog').classList.add('active'); renderCatalog(); break;
+    case 'exam': if(\!arg){nav('catalog');return;} state.currentExamId=arg; document.getElementById('screen-exam').classList.add('active'); renderExam(arg); break;
+    case 'quiz': document.getElementById('screen-quiz').classList.add('active'); break;
+    case 'result': document.getElementById('screen-result').classList.add('active'); break;
+    case 'me': document.getElementById('screen-me').classList.add('active'); renderMe(); break;
+    default: document.getElementById('screen-home').classList.add('active'); renderHome();
+  }
+  window.scrollTo(0,0);
+}
+window.addEventListener('hashchange',router);
+
+// ===== HOME =====
+function renderHome(){
+  const total=Object.values(questionBanks).reduce((n,a)=>n+a.length,0);
+  document.getElementById('meta-exams').textContent=exams.length;
+  document.getElementById('meta-questions').textContent=total;
+  const wrap=document.getElementById('home-categories');
+  wrap.innerHTML='';
+  examCategories.filter(c=>c.id\!=='all').forEach(cat=>{
+    const count=exams.filter(e=>e.categoryId===cat.id).length;
+    const el=document.createElement('div');
+    el.className='category-card';
+    el.onclick=()=>{state.catalogFilter=cat.id;nav('catalog')};
+    el.innerHTML=`<div class="category-icon" style="background:${cat.color};color:${cat.tc}">${cat.icon}</div><div class="category-name">${cat.name}</div><div class="category-count">${count} 種考試</div>`;
+    wrap.appendChild(el);
+  });
+}
+
+// ===== CATALOG =====
+function renderCatalog(){
+  const f=document.getElementById('catalog-filter');
+  f.innerHTML='';
+  examCategories.forEach(cat=>{
+    const chip=document.createElement('button');
+    chip.className='filter-chip'+(state.catalogFilter===cat.id?' active':'');
+    chip.textContent=cat.icon+' '+cat.name;
+    chip.onclick=()=>{state.catalogFilter=cat.id;renderCatalog()};
+    f.appendChild(chip);
+  });
+  const grid=document.getElementById('catalog-grid');
+  const list=state.catalogFilter==='all'?exams:exams.filter(e=>e.categoryId===state.catalogFilter);
+  if(\!list.length){grid.innerHTML=`<div class="placeholder-card" style="grid-column:1/-1"><span class="emoji">🛠️</span><h3>此類別建置中</h3><p>歡迎瀏覽其他類別</p></div>`;return;}
+  grid.innerHTML='';
+  list.forEach(exam=>{
+    const cat=examCategories.find(c=>c.id===exam.categoryId);
+    const card=document.createElement('div');
+    card.className='exam-card'+(exam.available?' available':'');
+    card.onclick=()=>nav('exam/'+exam.id);
+    const bank=questionBanks[exam.id]||[];
+    card.innerHTML=`${exam.available?'<span class="exam-status ready">● 可練習</span>':'<span class="exam-status soon">即將上線</span>'}
+      <span class="exam-category">${cat?cat.name:''}</span>
+      <div class="exam-name">${exam.name}</div>
+      <div class="exam-desc">${exam.desc}</div>
+      <div class="exam-meta">${exam.available?`<span>📚 ${bank.length} 題</span><span>📖 ${(exam.chapters||[]).length} 章</span>`:'<span>⏳ 建置中</span>'}</div>`;
+    grid.appendChild(card);
+  });
+}
+
+// ===== EXAM DETAIL =====
+function renderExam(id){
+  const exam=exams.find(e=>e.id===id);
+  if(\!exam){nav('catalog');return;}
+  const cat=examCategories.find(c=>c.id===exam.categoryId);
+  document.getElementById('exam-breadcrumb').innerHTML=`<a href="#/home">首頁</a><span> / </span><a href="#/catalog">考試目錄</a><span> / </span><span>${exam.name}</span>`;
+  const bank=questionBanks[id]||[];
+  document.getElementById('exam-hero').innerHTML=`<span class="exam-category">${cat?cat.name:''}</span>
+    <h1>${exam.name}</h1><div class="sub">${exam.desc}${exam.issuer?`<br><small style="color:var(--text-tertiary)">認證單位：${exam.issuer}</small>`:''}</div>
+    ${exam.available?`<div class="exam-hero-stats">
+      <div class="eh-stat"><div class="eh-stat-num">${bank.length}</div><div class="eh-stat-label">題目數</div></div>
+      <div class="eh-stat"><div class="eh-stat-num">${(exam.chapters||[]).length}</div><div class="eh-stat-label">章節數</div></div>
+      ${exam.durationHours?`<div class="eh-stat"><div class="eh-stat-num">${exam.durationHours}h</div><div class="eh-stat-label">訓練時數</div></div>`:''}
+      <div class="eh-stat"><div class="eh-stat-num" style="font-size:13px;padding-top:4px">${exam.examFormat||'—'}</div><div class="eh-stat-label">考試形式</div></div>
+    </div>`:''}`;
+  const tabs=[{id:'overview',n:'概覽'},{id:'lecture',n:'講義'},{id:'bank',n:'題庫'},{id:'news',n:'考情新聞'}];
+  document.getElementById('exam-tabs').innerHTML=tabs.map((t,i)=>`<button class="tab${i===0?' active':''}" onclick="switchTab('${t.id}')">${t.n}</button>`).join('');
+  state.currentTab='overview';
+  renderOverviewPane(exam);renderLecturePane(exam);renderBankPane(exam);renderNewsPane(exam);
+  switchTab('overview');
+}
+function switchTab(id){
+  state.currentTab=id;
+  document.querySelectorAll('#exam-tabs .tab').forEach((b,i)=>{
+    const ids=['overview','lecture','bank','news'];b.classList.toggle('active',ids[i]===id);
+  });
+  ['overview','lecture','bank','news'].forEach(n=>document.getElementById('exam-tab-'+n).classList.toggle('active',n===id));
+}
+function renderOverviewPane(exam){
+  const el=document.getElementById('exam-tab-overview');
+  if(\!exam.available){el.innerHTML=`<div class="placeholder-card"><span class="emoji">🛠️</span><h3>建置中</h3><p>${exam.name} 的題庫與講義正在整理，敬請期待。</p></div>`;return;}
+  el.innerHTML=`<div class="panel"><h2>📋 考試簡介</h2><p style="font-size:14.5px;color:var(--text-secondary);line-height:1.8">${exam.desc}</p></div>
+    <div class="panel"><h2>📚 章節一覽</h2><div class="chapter-list">${(exam.chapters||[]).map(ch=>`<div class="chapter-item" onclick="switchTab('bank')"><div><div class="chapter-title">第 ${ch.id+1} 章 · ${ch.name}</div><div class="chapter-meta">約 ${ch.count} 題</div></div><span style="color:var(--text-tertiary)">→</span></div>`).join('')}</div></div>
+    <div style="display:flex;gap:10px;justify-content:center;margin-top:16px">
+      <button class="btn-primary" onclick="switchTab('bank')">開始練習 →</button>
+      <button class="btn-secondary" onclick="switchTab('lecture')">先看講義</button>
+    </div>`;
+}
+function renderLecturePane(exam){
+  const el=document.getElementById('exam-tab-lecture');
+  const lecs=lectureContent[exam.id];
+  if(\!exam.available||\!lecs){el.innerHTML=`<div class="placeholder-card"><span class="emoji">📖</span><h3>講義整理中</h3><p>各章節重點講義即將上架。</p></div>`;return;}
+  el.innerHTML=`<div class="lecture-accordion">${lecs.map(l=>`
+    <div class="lec-item" id="lec-${l.id}">
+      <div class="lec-header" onclick="toggleLec(${l.id})">
+        <div class="lec-icon">📄</div>
+        <div class="lec-meta"><div class="lec-title">${l.title}</div><div class="lec-sub">${l.length} · 點擊展開</div></div>
+        <span class="lec-toggle">▼</span>
+      </div>
+      <div class="lec-body" id="lec-body-${l.id}">${l.content}</div>
+    </div>`).join('')}</div>`;
+}
+function toggleLec(id){
+  const item=document.getElementById('lec-'+id);
+  const body=document.getElementById('lec-body-'+id);
+  const isOpen=item.classList.toggle('open');
+  body.classList.toggle('open',isOpen);
+}
+function renderBankPane(exam){
+  const el=document.getElementById('exam-tab-bank');
+  if(\!exam.available){el.innerHTML=`<div class="placeholder-card"><span class="emoji">📝</span><h3>題庫建置中</h3><p>即將上線。</p></div>`;return;}
+  el.innerHTML=`<div class="mode-grid">
+    <button class="mode-card" onclick="startQuiz('random')"><div class="mode-icon">🎲</div><div class="mode-title">隨機測驗</div><div class="mode-desc">10 題跨章隨機抽題</div></button>
+    <button class="mode-card" onclick="startQuiz('mock')"><div class="mode-icon">🏆</div><div class="mode-title">模擬考試</div><div class="mode-desc">50 題完整模擬正式考</div></button>
+    <button class="mode-card" onclick="startQuiz('weak')"><div class="mode-icon">🎯</div><div class="mode-title">弱點加強</div><div class="mode-desc">針對最弱章節強化練習</div></button>
+    <button class="mode-card" onclick="startQuiz('all-random')"><div class="mode-icon">🔀</div><div class="mode-title">大量練習</div><div class="mode-desc">20 題加強版隨機測驗</div></button>
+  </div>
+  <h3 style="font-size:15px;font-weight:700;margin:8px 0 12px;display:flex;align-items:center;gap:8px"><span style="width:3px;height:16px;background:var(--accent);border-radius:2px;display:inline-block"></span>依章節練習</h3>
+  <div class="chapter-list">${(exam.chapters||[]).map(ch=>`<div class="chapter-item" onclick="startChapter(${ch.id})"><div><div class="chapter-title">第 ${ch.id+1} 章 · ${ch.name}</div><div class="chapter-meta">約 ${ch.count} 題 · 10 題隨機</div></div><span style="color:var(--text-tertiary)">→</span></div>`).join('')}</div>`;
+}
+function renderNewsPane(exam){
+  const el=document.getElementById('exam-tab-news');
+  const news=newsData[exam.id];
+  if(\!exam.available||\!news){el.innerHTML=`<div class="placeholder-card"><span class="emoji">📰</span><h3>考情資訊建置中</h3><p>最新法規異動、考試公告即時整理。</p></div>`;return;}
+  el.innerHTML=`<div class="news-list">${news.map(n=>`<div class="news-item">
+    <div class="news-date">${n.date}</div>
+    <a class="news-title" href="${n.url}" target="_blank" rel="noopener">${n.title} ↗</a>
+    <div class="news-excerpt">${n.excerpt}</div>
+    <div class="news-source">來源：<a href="${n.url}" target="_blank" rel="noopener">${n.source}</a></div>
+  </div>`).join('')}</div>`;
+}
+
+// ===== QUIZ =====
+function shuffle(arr){const a=[...arr];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function startQuiz(mode){
+  const bank=questionBanks[state.currentExamId]||[];
+  if(\!bank.length){alert('此考試題庫尚未上線');return;}
+  state.mode=mode;
+  let pool;
+  if(mode==='mock') pool=shuffle(bank).slice(0,Math.min(50,bank.length));
+  else if(mode==='all-random') pool=shuffle(bank).slice(0,Math.min(20,bank.length));
+  else pool=shuffle(bank).slice(0,10);
+  initQuiz(pool);
+}
+function startChapter(ch){
+  const bank=questionBanks[state.currentExamId]||[];
+  const pool=shuffle(bank.filter(q=>q.ch===ch)).slice(0,10);
+  if(\!pool.length){alert('此章節暫無題目');return;}
+  state.mode='chapter';initQuiz(pool);
+}
+function initQuiz(questions){
+  state.questions=questions;state.currentIdx=0;state.answers=new Array(questions.length).fill(null);state.startTime=Date.now();
+  nav('quiz');renderDots();renderQuestion();
+}
+function renderDots(){
+  const wrap=document.getElementById('quiz-dots');wrap.innerHTML='';
+  state.questions.forEach((_,i)=>{
+    const d=document.createElement('span');d.className='dot'+(i===state.currentIdx?' current':'');
+    if(state.answers[i]\!==null)d.classList.add(state.answers[i].correct?'answered-correct':'answered-wrong');
+    d.onclick=()=>goToQuestion(i);wrap.appendChild(d);
+  });
+}
+function goToQuestion(i){state.currentIdx=i;renderQuestion();renderDots();}
+function renderQuestion(){
+  const idx=state.currentIdx,q=state.questions[idx],total=state.questions.length,answered=state.answers[idx];
+  document.getElementById('q-current').textContent=idx+1;
+  document.getElementById('q-total').textContent=total;
+  document.getElementById('quiz-progress').style.width=((idx+1)/total*100)+'%';
+  const letters=['A','B','C','D'];
+  let html=`<div class="question-card"><div class="q-number">第 ${idx+1} 題，共 ${total} 題</div><div class="q-text">${q.q}</div><div class="options">`;
+  q.opts.forEach((opt,oi)=>{
+    let cls='option-btn';
+    if(answered\!==null){cls+=' disabled';if(oi===q.ans)cls+=' correct';else if(oi===answered.selected&&\!answered.correct)cls+=' wrong';}
+    html+=`<button class="${cls}" ${answered?'':`onclick="selectAnswer(${oi})"`}><span class="option-letter">${letters[oi]}</span><span>${opt}</span></button>`;
+  });
+  html+='</div>';
+  if(answered\!==null)html+=`<div class="explanation"><strong>${answered.correct?'✓ 答對了！':'✗ 答錯了'}</strong><br>${q.exp}</div>`;
+  html+=`</div><div class="quiz-actions">`;
+  if(answered\!==null){
+    if(idx<total-1)html+=`<button class="btn-primary" onclick="nextQuestion()">下一題 →</button>`;
+    else html+=`<button class="btn-primary" onclick="showResult()">查看結果</button>`;
+  }
+  html+='</div>';
+  document.getElementById('question-area').innerHTML=html;renderDots();
+}
+function selectAnswer(oi){
+  const q=state.questions[state.currentIdx];const correct=oi===q.ans;
+  state.answers[state.currentIdx]={selected:oi,correct};
+  state.totalDone++;
+  if(correct){state.totalCorrect++;state.streak++;if(state.streak>state.maxStreak)state.maxStreak=state.streak;}
+  else state.streak=0;
+  saveState();renderQuestion();
+}
+function nextQuestion(){if(state.currentIdx<state.questions.length-1){state.currentIdx++;renderQuestion();window.scrollTo(0,0);}}
+function confirmExit(){
+  const u=state.answers.filter(a=>a===null).length;
+  if(u>0&&u<state.questions.length&&\!confirm(`還有 ${u} 題未作答，確定要離開？`))return;
+  nav('exam/'+state.currentExamId);
+}
+function showResult(){
+  const total=state.questions.length,correctCount=state.answers.filter(a=>a&&a.correct).length;
+  const score=Math.round(correctCount/total*100);
+  const elapsed=Math.round((Date.now()-state.startTime)/1000);
+  const exam=exams.find(e=>e.id===state.currentExamId);
+  if(exam){state.recentExams=[{id:exam.id,name:exam.name,score,total,ts:Date.now()},...state.recentExams.filter(r=>r.id\!==exam.id)].slice(0,5);saveState();}
+  nav('result');
+  document.getElementById('final-score').textContent=score;
+  document.getElementById('r-correct').textContent=correctCount;
+  document.getElementById('r-wrong').textContent=total-correctCount;
+  const elapsed2=Math.round((Date.now()-state.startTime)/1000);
+  const m=Math.floor(elapsed/60),s=elapsed%60;
+  document.getElementById('r-time').textContent=m+':'+String(s).padStart(2,'0');
+  const circ=2*Math.PI*62;
+  setTimeout(()=>{document.getElementById('score-ring').style.strokeDashoffset=circ-(score/100)*circ;},100);
+  const ring=document.getElementById('score-ring');
+  if(score>=80){document.getElementById('result-title').textContent='🎉 太棒了！';document.getElementById('result-subtitle').textContent='掌握了大部分內容，繼續保持！';ring.setAttribute('stroke','#1B7A3D');}
+  else if(score>=60){document.getElementById('result-title').textContent='👍 不錯的表現';document.getElementById('result-subtitle').textContent='及格了！還有幾個章節需要加強';ring.setAttribute('stroke','#8B6914');}
+  else{document.getElementById('result-title').textContent='💪 繼續加油';document.getElementById('result-subtitle').textContent='建議複習錯題，針對弱項章節加強練習';ring.setAttribute('stroke','#C03030');}
+  const chNames=exam?(exam.chapters||[]).reduce((o,c)=>{o[c.id]=c.name;return o},{}):{};
+  const chStats={};
+  state.questions.forEach((q,i)=>{
+    if(\!chStats[q.ch])chStats[q.ch]={total:0,correct:0};
+    chStats[q.ch].total++;if(state.answers[i]&&state.answers[i].correct)chStats[q.ch].correct++;
+  });
+  let w='<h3>⚡ 各章節表現</h3>';
+  Object.keys(chStats).sort().forEach(ch=>{
+    const s2=chStats[ch],pct=Math.round(s2.correct/s2.total*100);
+    const color=pct>=80?'var(--correct)':pct>=60?'var(--warning)':'var(--wrong)';
+    w+=`<div class="weak-item"><span class="weak-name">${chNames[ch]||('第'+(parseInt(ch)+1)+'章')}</span><div style="display:flex;align-items:center;gap:8px"><div class="weak-bar-wrap"><div class="weak-bar" style="width:${pct}%;background:${color}"></div></div><span class="weak-pct" style="color:${color}">${pct}%</span></div></div>`;
+  });
+  document.getElementById('weak-area').innerHTML=w;
+}
+function reviewWrong(){
+  const wrong=state.questions.filter((_,i)=>state.answers[i]&&\!state.answers[i].correct);
+  if(\!wrong.length){alert('恭喜全部答對，沒有錯題！');return;}
+  initQuiz(wrong);
+}
+
+// ===== ME =====
+function renderMe(){
+  const acc=state.totalDone>0?Math.round(state.totalCorrect/state.totalDone*100):0;
+  document.getElementById('me-stats').innerHTML=`
+    <div class="stat-card"><div class="stat-card-label">總練習題數</div><div class="stat-card-num">${state.totalDone}</div><div class="stat-card-sub">累計答題</div></div>
+    <div class="stat-card"><div class="stat-card-label">答對題數</div><div class="stat-card-num">${state.totalCorrect}</div><div class="stat-card-sub">正確率 ${state.totalDone?acc+'%':'—'}</div></div>
+    <div class="stat-card"><div class="stat-card-label">最長連勝</div><div class="stat-card-num">${state.maxStreak}</div><div class="stat-card-sub">連續答對紀錄</div></div>
+    <div class="stat-card"><div class="stat-card-label">當前連勝</div><div class="stat-card-num">${state.streak}</div><div class="stat-card-sub">目前狀態</div></div>`;
+  const rec=document.getElementById('me-recent');
+  if(\!state.recentExams.length){rec.className='panel-empty';rec.innerHTML='還沒有紀錄，<a href="#/catalog" style="color:var(--accent);font-weight:600">去選一個考試</a>開始吧！';return;}
+  rec.className='';
+  rec.innerHTML=state.recentExams.map(r=>{
+    const d=new Date(r.ts);const color=r.score>=80?'var(--correct)':r.score>=60?'var(--warning)':'var(--wrong)';
+    return `<div style="display:flex;align-items:center;gap:12px;padding:12px 0;border-top:1px solid var(--border-light);cursor:pointer" onclick="nav('exam/${r.id}')">
+      <div style="width:38px;height:38px;border-radius:9px;background:${color};color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px;flex-shrink:0">${r.score}</div>
+      <div><div style="font-size:14px;font-weight:600">${r.name}</div><div style="font-size:12px;color:var(--text-tertiary)">${d.getMonth()+1}/${d.getDate()} · ${r.score}/100 分 · ${r.total} 題</div></div>
+      <span style="margin-left:auto;color:var(--text-tertiary)">→</span></div>`;
+  }).join('');
+}
+function resetProgress(){
+  if(\!confirm('確定清除所有學習紀錄？此操作無法復原。'))return;
+  Object.assign(state,{totalDone:0,totalCorrect:0,streak:0,maxStreak:0,recentExams:[]});
+  try{localStorage.removeItem('kaonow_v2');}catch(e){}
+  renderMe();alert('已清除學習紀錄');
+}
+
+// ===== BOOT =====
+router();
+</script>
+</body>
+</html>
