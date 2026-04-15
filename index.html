@@ -646,15 +646,16 @@ let currentUser = null;
 // ── Auth state listener ──────────────────────────────────────
 supa.auth.onAuthStateChange(async (event, session) => {
   currentUser = session?.user ?? null;
-  updateAuthUI();
+  // Only manipulate UI if DOM is ready
+  if (document.readyState !== 'loading') updateAuthUI();
   if (event === 'SIGNED_IN') {
     showToast('登入成功！正在同步學習紀錄...');
     await mergeAndSyncProgress();
-    if (state.route === 'me') renderMe();
+    if (typeof state !== 'undefined' && state.route === 'me') renderMe();
   }
   if (event === 'SIGNED_OUT') {
     showToast('已登出');
-    if (state.route === 'me') renderMe();
+    if (typeof state !== 'undefined' && state.route === 'me') renderMe();
   }
 });
 
@@ -851,19 +852,27 @@ async function saveSessionToCloud(examId, examName, score, total, mode) {
 let _toastTimer;
 function showToast(msg) {
   const t = document.getElementById('toast');
+  if (!t) { console.log('[Toast]', msg); return; }
   t.textContent = msg;
   t.classList.add('show');
   clearTimeout(_toastTimer);
   _toastTimer = setTimeout(() => t.classList.remove('show'), 3000);
 }
 
-// ── Init: restore session on page load ───────────────────────
-(async () => {
-  const {data:{session}} = await supa.auth.getSession();
-  currentUser = session?.user ?? null;
-  updateAuthUI();
-  if (currentUser) await mergeAndSyncProgress();
-})();
+// ── Init: restore session on page load (wait for DOM) ────────
+function bootAuth() {
+  (async () => {
+    const {data:{session}} = await supa.auth.getSession();
+    currentUser = session?.user ?? null;
+    updateAuthUI();
+    if (currentUser) await mergeAndSyncProgress();
+  })();
+}
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', bootAuth);
+} else {
+  bootAuth();
+}
 
 
 // ===== DATA =====
