@@ -335,7 +335,74 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;font-size:
   .score-circle{width:150px;height:150px}
   .score-num{font-size:38px}
 }
+
+/* ── AUTH ── */
+.auth-area{display:flex;align-items:center;gap:8px;flex-shrink:0}
+.login-btn{padding:7px 16px;border-radius:999px;font-size:13px;font-weight:600;
+  background:var(--accent-light);color:var(--accent);border:1.5px solid rgba(45,95,45,0.2);
+  cursor:pointer;transition:var(--transition)}
+.login-btn:hover{background:var(--accent);color:#fff}
+.user-pill{display:flex;align-items:center;gap:8px;padding:4px 12px 4px 4px;
+  border-radius:999px;background:var(--surface-alt);cursor:pointer;
+  transition:var(--transition);border:1px solid var(--border-light)}
+.user-pill:hover{background:var(--border-light)}
+.user-avatar{width:28px;height:28px;border-radius:50%;object-fit:cover;
+  display:flex;align-items:center;justify-content:center;
+  background:var(--accent);color:#fff;font-size:12px;font-weight:700;flex-shrink:0}
+.user-avatar img{width:28px;height:28px;border-radius:50%;object-fit:cover}
+.user-name{font-size:13px;font-weight:600;color:var(--text);
+  max-width:72px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+/* LOGIN MODAL */
+.modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.45);
+  z-index:200;align-items:center;justify-content:center;padding:16px}
+.modal-overlay.open{display:flex}
+.modal{background:var(--surface);border-radius:var(--radius-xl);padding:36px 32px;
+  max-width:380px;width:100%;text-align:center;animation:pop 0.3s ease;position:relative}
+.modal-logo{width:48px;height:48px;background:var(--accent);border-radius:14px;
+  display:flex;align-items:center;justify-content:center;
+  color:#fff;font-size:22px;font-weight:800;margin:0 auto 16px}
+.modal h2{font-size:22px;font-weight:800;margin-bottom:8px;letter-spacing:-0.4px}
+.modal .modal-sub{font-size:14px;color:var(--text-secondary);margin-bottom:24px;line-height:1.6}
+.google-btn{display:flex;align-items:center;justify-content:center;gap:10px;
+  width:100%;padding:13px;border-radius:var(--radius);
+  border:1.5px solid var(--border);font-size:15px;font-weight:600;
+  cursor:pointer;transition:var(--transition);background:var(--surface);margin-bottom:12px}
+.google-btn:hover{background:var(--surface-alt);border-color:#aaa}
+.google-btn svg{flex-shrink:0}
+.modal-divider{display:flex;align-items:center;gap:10px;margin:16px 0;color:var(--text-tertiary);font-size:13px}
+.modal-divider::before,.modal-divider::after{content:'';flex:1;height:1px;background:var(--border)}
+.modal-close{position:absolute;top:14px;right:16px;font-size:22px;
+  color:var(--text-tertiary);cursor:pointer;line-height:1}
+.modal-close:hover{color:var(--text)}
+.modal-terms{font-size:11.5px;color:var(--text-tertiary);margin-top:16px;line-height:1.6}
+/* USER DROPDOWN */
+.user-dropdown{position:absolute;top:calc(100% + 8px);right:0;
+  background:var(--surface);border:1px solid var(--border-light);
+  border-radius:var(--radius);padding:8px;min-width:180px;
+  box-shadow:var(--shadow-lg);z-index:150;display:none}
+.user-dropdown.open{display:block;animation:fadeUp 0.2s ease}
+.dropdown-item{display:flex;align-items:center;gap:10px;
+  padding:10px 12px;border-radius:var(--radius-sm);font-size:14px;
+  cursor:pointer;transition:var(--transition);color:var(--text)}
+.dropdown-item:hover{background:var(--surface-alt)}
+.dropdown-item.danger{color:var(--wrong)}
+.dropdown-item.danger:hover{background:var(--wrong-bg)}
+.dropdown-sep{height:1px;background:var(--border-light);margin:4px 0}
+/* TOAST */
+.toast{position:fixed;bottom:28px;left:50%;
+  transform:translateX(-50%) translateY(100px);
+  background:#1A1A1A;color:#fff;padding:12px 22px;border-radius:999px;
+  font-size:14px;font-weight:500;z-index:400;
+  transition:transform 0.35s cubic-bezier(0.4,0,0.2,1);white-space:nowrap;
+  pointer-events:none;box-shadow:0 4px 20px rgba(0,0,0,0.25)}
+.toast.show{transform:translateX(-50%) translateY(0)}
+.cloud-badge{display:inline-flex;align-items:center;gap:4px;
+  font-size:11px;color:var(--accent);background:var(--accent-light);
+  padding:2px 8px;border-radius:999px;font-weight:600;margin-left:6px}
 </style>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+<meta name="supabase-url" content="https://myvfboezhnzgovowhaff.supabase.co">
+<meta name="supabase-key" content="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im15dmZib2V6aG56Z292b3doYWZmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzYyNDE3NTIsImV4cCI6MjA5MTgxNzc1Mn0.yPU7NXWOHO8zTFywGBflCuBoiwEZda-FYhQcnszWLOQ">
 </head>
 <body>
 <header class="app-header">
@@ -351,6 +418,20 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;font-size:
         <a href="#/me" data-nav="me">我的</a>
         <a href="#/catalog" class="header-cta" data-nav="_cta">開始練習</a>
       </nav>
+  <div class="auth-area" id="auth-area">
+    <button class="login-btn" id="login-btn" onclick="openLoginModal()">登入 / 註冊</button>
+    <div class="user-pill" id="user-pill" style="display:none" onclick="toggleDropdown()">
+      <div class="user-avatar" id="user-avatar"></div>
+      <span class="user-name" id="user-name"></span>
+    </div>
+    <div style="position:relative">
+      <div class="user-dropdown" id="user-dropdown">
+        <div class="dropdown-item" onclick="nav('me');toggleDropdown(false)">📊 我的學習</div>
+        <div class="dropdown-sep"></div>
+        <div class="dropdown-item danger" onclick="signOut()">登出</div>
+      </div>
+    </div>
+  </div>
       <button class="menu-toggle" onclick="toggleMenu()" aria-label="選單">☰</button>
     </div>
   </div>
@@ -527,7 +608,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;font-size:
 <section id="screen-me" class="screen">
   <div class="container">
     <div class="page-head"><h1>我的學習</h1><p>查看練習紀錄與進度</p></div>
-    <div class="profile-hero"><div class="avatar">K</div><h1>訪客</h1><p class="tagline">學習紀錄保存在這台裝置</p></div>
+    <div class="profile-hero"><div id="profile-hero-content"><div class="avatar">K</div><h1>訪客</h1><p class="tagline">學習紀錄保存在這台裝置</p></div></div>
     <div class="stats-grid" id="me-stats"></div>
     <div class="panel"><h2>📘 最近練習</h2><div id="me-recent" class="panel-empty">還沒有紀錄，<a href="#/catalog" style="color:var(--accent);font-weight:600">去選一個考試</a>開始吧！</div></div>
     <div class="panel"><h2>⚙️ 設定</h2><button class="btn-secondary" style="font-size:13px" onclick="resetProgress()">清除所有學習紀錄</button></div>
@@ -544,6 +625,206 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;font-size:
 </footer>
 
 <script>
+
+// ╔══════════════════════════════════════════════════════════╗
+// ║  SUPABASE AUTH + SYNC                                    ║
+// ╚══════════════════════════════════════════════════════════╝
+const SUPA_URL = 'https://myvfboezhnzgovowhaff.supabase.co';
+const SUPA_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im15dmZib2V6aG56Z292b3doYWZmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzYyNDE3NTIsImV4cCI6MjA5MTgxNzc1Mn0.yPU7NXWOHO8zTFywGBflCuBoiwEZda-FYhQcnszWLOQ';
+const supa = supabase.createClient(SUPA_URL, SUPA_KEY);
+
+let currentUser = null;
+
+// ── Auth state listener ──────────────────────────────────────
+supa.auth.onAuthStateChange(async (event, session) => {
+  currentUser = session?.user ?? null;
+  updateAuthUI();
+  if (event === 'SIGNED_IN') {
+    showToast('登入成功！正在同步學習紀錄...');
+    await mergeAndSyncProgress();
+    if (state.route === 'me') renderMe();
+  }
+  if (event === 'SIGNED_OUT') {
+    showToast('已登出');
+    if (state.route === 'me') renderMe();
+  }
+});
+
+// ── Update header UI ─────────────────────────────────────────
+function updateAuthUI() {
+  const loginBtn = document.getElementById('login-btn');
+  const userPill = document.getElementById('user-pill');
+  const userAvatar = document.getElementById('user-avatar');
+  const userName = document.getElementById('user-name');
+  if (!loginBtn) return;
+  if (currentUser) {
+    loginBtn.style.display = 'none';
+    userPill.style.display = 'flex';
+    const meta = currentUser.user_metadata || {};
+    const name = meta.full_name || meta.name || currentUser.email.split('@')[0];
+    const avatar = meta.avatar_url || meta.picture;
+    userName.textContent = name.split(' ')[0];
+    if (avatar) {
+      userAvatar.innerHTML = `<img src="${avatar}" alt="${name}">`;
+    } else {
+      userAvatar.textContent = name.charAt(0).toUpperCase();
+    }
+  } else {
+    loginBtn.style.display = '';
+    userPill.style.display = 'none';
+    userAvatar.textContent = '';
+  }
+}
+
+// ── Login modal ──────────────────────────────────────────────
+function openLoginModal() {
+  document.getElementById('login-modal').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeLoginModal(e) {
+  if (e && e.target !== document.getElementById('login-modal')) return;
+  document.getElementById('login-modal').classList.remove('open');
+  document.body.style.overflow = '';
+}
+function toggleDropdown(force) {
+  const d = document.getElementById('user-dropdown');
+  const isOpen = d.classList.contains('open');
+  d.classList.toggle('open', force !== undefined ? force : !isOpen);
+  if (!isOpen) {
+    setTimeout(() => document.addEventListener('click', () => toggleDropdown(false), {once:true}), 0);
+  }
+}
+
+// ── Google OAuth ─────────────────────────────────────────────
+async function signInWithGoogle() {
+  const {error} = await supa.auth.signInWithOAuth({
+    provider: 'google',
+    options: {redirectTo: window.location.origin + window.location.pathname}
+  });
+  if (error) showToast('登入失敗：' + error.message);
+}
+
+// ── Magic Link ───────────────────────────────────────────────
+async function sendMagicLink() {
+  const email = document.getElementById('magic-email').value.trim();
+  if (!email || !email.includes('@')) { showToast('請輸入有效的 Email'); return; }
+  const btn = document.getElementById('magic-btn');
+  btn.textContent = '寄送中...';
+  btn.disabled = true;
+  const {error} = await supa.auth.signInWithOtp({
+    email,
+    options: {emailRedirectTo: window.location.origin + window.location.pathname}
+  });
+  if (error) {
+    showToast('寄送失敗：' + error.message);
+    btn.textContent = '寄送登入連結';
+    btn.disabled = false;
+  } else {
+    document.getElementById('magic-link-form').innerHTML =
+      `<div style="background:var(--correct-bg);border:1px solid var(--correct-border);border-radius:var(--radius);padding:16px;font-size:14px;color:var(--correct);line-height:1.7">
+        ✅ 登入連結已寄到<br><strong>${email}</strong><br>請到信箱點擊連結完成登入。
+      </div>`;
+  }
+}
+
+// ── Sign out ─────────────────────────────────────────────────
+async function signOut() {
+  toggleDropdown(false);
+  await supa.auth.signOut();
+}
+
+// ── Progress sync ─────────────────────────────────────────────
+// Merge local state into cloud, then load cloud state
+async function mergeAndSyncProgress() {
+  if (!currentUser) return;
+  try {
+    // Load cloud progress
+    const {data: cloudRows} = await supa
+      .from('user_progress')
+      .select('*')
+      .eq('user_id', currentUser.id);
+
+    // Merge: take max of local vs cloud
+    const local = {
+      totalDone: state.totalDone || 0,
+      totalCorrect: state.totalCorrect || 0,
+      maxStreak: state.maxStreak || 0,
+    };
+    const cloud = cloudRows && cloudRows.length > 0 ? {
+      totalDone: cloudRows.reduce((s,r) => s + (r.total_done||0), 0),
+      totalCorrect: cloudRows.reduce((s,r) => s + (r.total_correct||0), 0),
+      maxStreak: Math.max(...cloudRows.map(r => r.max_streak||0), 0),
+    } : {totalDone:0, totalCorrect:0, maxStreak:0};
+
+    state.totalDone    = Math.max(local.totalDone, cloud.totalDone);
+    state.totalCorrect = Math.max(local.totalCorrect, cloud.totalCorrect);
+    state.maxStreak    = Math.max(local.maxStreak, cloud.maxStreak);
+
+    // Merge recent exams from cloud sessions
+    const {data: sessions} = await supa
+      .from('exam_sessions')
+      .select('exam_id, exam_name, score, total_questions, completed_at')
+      .eq('user_id', currentUser.id)
+      .order('completed_at', {ascending:false})
+      .limit(5);
+    if (sessions && sessions.length > 0) {
+      const cloudRecent = sessions.map(s => ({
+        id: s.exam_id, name: s.exam_name,
+        score: s.score, total: s.total_questions,
+        ts: new Date(s.completed_at).getTime()
+      }));
+      // Merge with local, deduplicate by exam_id, sort by date
+      const merged = [...cloudRecent, ...state.recentExams]
+        .filter((v,i,a) => a.findIndex(x=>x.id===v.id) === i)
+        .sort((a,b) => b.ts - a.ts)
+        .slice(0,5);
+      state.recentExams = merged;
+    }
+    saveState();
+  } catch(e) { console.warn('Sync error:', e); }
+}
+
+// Save result to Supabase after quiz
+async function saveSessionToCloud(examId, examName, score, total, mode) {
+  if (!currentUser) return;
+  try {
+    await supa.from('exam_sessions').insert({
+      user_id: currentUser.id,
+      exam_id: examId,
+      exam_name: examName,
+      score, total_questions: total, mode
+    });
+    await supa.from('user_progress').upsert({
+      user_id: currentUser.id,
+      exam_id: examId,
+      total_done: state.totalDone,
+      total_correct: state.totalCorrect,
+      streak: state.streak,
+      max_streak: state.maxStreak,
+      updated_at: new Date().toISOString()
+    }, {onConflict: 'user_id,exam_id'});
+  } catch(e) { console.warn('Cloud save error:', e); }
+}
+
+// ── Toast ────────────────────────────────────────────────────
+let _toastTimer;
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  clearTimeout(_toastTimer);
+  _toastTimer = setTimeout(() => t.classList.remove('show'), 3000);
+}
+
+// ── Init: restore session on page load ───────────────────────
+(async () => {
+  const {data:{session}} = await supa.auth.getSession();
+  currentUser = session?.user ?? null;
+  updateAuthUI();
+  if (currentUser) await mergeAndSyncProgress();
+})();
+
+
 // ===== DATA =====
 const examCategories=[
   {id:'all',name:'全部考試',icon:'🗂',color:'#F0F0ED',tc:'#555'},
@@ -1459,6 +1740,23 @@ function reviewWrong(){
 
 // ===== ME =====
 function renderMe(){
+  // Update profile section
+  const ph = document.getElementById('profile-hero-content');
+  if (ph) {
+    if (currentUser) {
+      const meta = currentUser.user_metadata || {};
+      const name = meta.full_name || meta.name || currentUser.email.split('@')[0];
+      const avatar = meta.avatar_url || meta.picture;
+      const avatarHtml = avatar
+        ? `<img src="${avatar}" style="width:66px;height:66px;border-radius:50%;object-fit:cover;margin-bottom:12px;box-shadow:0 3px 10px rgba(45,95,45,0.25)">`
+        : `<div class="avatar">${name.charAt(0).toUpperCase()}</div>`;
+      ph.innerHTML = `${avatarHtml}<h1>${name}</h1><p class="tagline">${currentUser.email} <span class="cloud-badge">☁ 雲端同步</span></p>`;
+    } else {
+      ph.innerHTML = `<div class="avatar">K</div><h1>訪客</h1>
+        <p class="tagline">學習紀錄保存在此裝置</p>
+        <button onclick="openLoginModal()" class="btn-primary" style="margin-top:12px;font-size:13px;padding:9px 20px">登入以啟用雲端同步</button>`;
+    }
+  }
   const acc=state.totalDone>0?Math.round(state.totalCorrect/state.totalDone*100):0;
   document.getElementById('me-stats').innerHTML=`
     <div class="stat-card"><div class="stat-card-label">總練習題數</div><div class="stat-card-num">${state.totalDone}</div><div class="stat-card-sub">累計答題</div></div>
@@ -1486,5 +1784,35 @@ function resetProgress(){
 // ===== BOOT =====
 router();
 </script>
+
+<!-- LOGIN MODAL -->
+<div class="modal-overlay" id="login-modal" onclick="closeLoginModal(event)">
+  <div class="modal">
+    <button class="modal-close" onclick="closeLoginModal()">×</button>
+    <div class="modal-logo">K</div>
+    <h2>歡迎來到 KaoNow</h2>
+    <p class="modal-sub">登入後學習紀錄自動同步，<br>換裝置也不會遺失進度。</p>
+    <button class="google-btn" onclick="signInWithGoogle()">
+      <svg width="20" height="20" viewBox="0 0 48 48"><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.18 1.48-4.97 2.29-8.16 2.29-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/></svg>
+      使用 Google 帳號登入
+    </button>
+    <div class="modal-divider">或</div>
+    <div id="magic-link-form">
+      <input type="email" id="magic-email" placeholder="輸入你的 Email"
+        style="width:100%;padding:12px 14px;border:1.5px solid var(--border);border-radius:var(--radius);font-size:15px;font-family:inherit;margin-bottom:10px;outline:none;transition:var(--transition)"
+        onfocus="this.style.borderColor='var(--accent)'" onblur="this.style.borderColor='var(--border)'"
+        onkeydown="if(event.key==='Enter')sendMagicLink()">
+      <button onclick="sendMagicLink()" id="magic-btn"
+        style="width:100%;padding:12px;border-radius:var(--radius);background:var(--accent);color:#fff;font-size:15px;font-weight:700;cursor:pointer;border:none;transition:var(--transition)">
+        寄送登入連結
+      </button>
+    </div>
+    <p class="modal-terms">登入即代表你同意我們的服務條款與隱私政策。<br>我們不會傳送垃圾郵件。</p>
+  </div>
+</div>
+
+<!-- TOAST -->
+<div class="toast" id="toast"></div>
+
 </body>
 </html>
