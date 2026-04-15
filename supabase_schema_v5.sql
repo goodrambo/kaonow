@@ -2413,9 +2413,9 @@ INSERT INTO public.chapters (id, exam_id, chapter_number, name, question_count, 
   ('hsk-ch2', 'hsk', 2, '書寫', 34, 2)
 ON CONFLICT (id) DO UPDATE SET name = EXCLUDED.name, question_count = EXCLUDED.question_count, updated_at = NOW();
 
--- ── entrance (8 筆) ──
+-- ── academic (8 筆) ──
 INSERT INTO public.exams (id, category_id, name, short_name, description, issuer, exam_format, duration_hours, target_audience, difficulty, annual_candidates, is_available, tier_requirement, free_daily_question_limit, official_url, registration_url, official_bank_url, mock_question_count, mock_time_minutes, mock_pass_score) VALUES
-  ('gsat', 'entrance', '大學學科能力測驗', '學測', '大學申請入學主要依據', '大學入學考試中心', '筆試', 0, '高中三年級生', 4, 130000, FALSE, 'free', 10, 'https://www.ceec.edu.tw/', 'https://www.ceec.edu.tw/', NULL, 60, 80, 60)
+  ('gsat', 'academic', '大學學科能力測驗', '學測', '大學申請入學主要依據', '大學入學考試中心', '筆試', 0, '高中三年級生', 4, 130000, FALSE, 'free', 10, 'https://www.ceec.edu.tw/', 'https://www.ceec.edu.tw/', NULL, 60, 80, 60)
 ON CONFLICT (id) DO UPDATE SET
   category_id = EXCLUDED.category_id,
   name = EXCLUDED.name,
@@ -2449,7 +2449,7 @@ INSERT INTO public.chapters (id, exam_id, chapter_number, name, question_count, 
   ('gsat-ch4', 'gsat', 4, '國語文寫作', 20, 4)
 ON CONFLICT (id) DO UPDATE SET name = EXCLUDED.name, question_count = EXCLUDED.question_count, updated_at = NOW();
 INSERT INTO public.exams (id, category_id, name, short_name, description, issuer, exam_format, duration_hours, target_audience, difficulty, annual_candidates, is_available, tier_requirement, free_daily_question_limit, official_url, registration_url, official_bank_url, mock_question_count, mock_time_minutes, mock_pass_score) VALUES
-  ('ast', 'entrance', '分科測驗', '分科', '大學分發入學採計（原指考）', '大學入學考試中心', '筆試', 0, '高中三年級生', 5, 40000, FALSE, 'free', 10, 'https://www.ceec.edu.tw/', 'https://www.ceec.edu.tw/', NULL, 60, 80, 60)
+  ('ast', 'academic', '分科測驗', '分科', '大學分發入學採計（原指考）', '大學入學考試中心', '筆試', 0, '高中三年級生', 5, 40000, FALSE, 'free', 10, 'https://www.ceec.edu.tw/', 'https://www.ceec.edu.tw/', NULL, 60, 80, 60)
 ON CONFLICT (id) DO UPDATE SET
   category_id = EXCLUDED.category_id,
   name = EXCLUDED.name,
@@ -2480,7 +2480,7 @@ INSERT INTO public.chapters (id, exam_id, chapter_number, name, question_count, 
   ('ast-ch3', 'ast', 3, '專業科目', 25, 3)
 ON CONFLICT (id) DO UPDATE SET name = EXCLUDED.name, question_count = EXCLUDED.question_count, updated_at = NOW();
 INSERT INTO public.exams (id, category_id, name, short_name, description, issuer, exam_format, duration_hours, target_audience, difficulty, annual_candidates, is_available, tier_requirement, free_daily_question_limit, official_url, registration_url, official_bank_url, mock_question_count, mock_time_minutes, mock_pass_score) VALUES
-  ('tcat', 'entrance', '四技二專統一入學測驗', '統測', '技職體系升學主要管道', '技專校院入學測驗中心', '筆試', 0, '高職三年級生', 4, 110000, FALSE, 'free', 10, 'https://www.tcte.edu.tw/', 'https://www.tcte.edu.tw/', NULL, 80, 100, 60)
+  ('tcat', 'academic', '四技二專統一入學測驗', '統測', '技職體系升學主要管道', '技專校院入學測驗中心', '筆試', 0, '高職三年級生', 4, 110000, FALSE, 'free', 10, 'https://www.tcte.edu.tw/', 'https://www.tcte.edu.tw/', NULL, 80, 100, 60)
 ON CONFLICT (id) DO UPDATE SET
   category_id = EXCLUDED.category_id,
   name = EXCLUDED.name,
@@ -2508,7 +2508,7 @@ INSERT INTO public.chapters (id, exam_id, chapter_number, name, question_count, 
   ('tcat-ch2', 'tcat', 2, '專業科目（二）', 35, 2)
 ON CONFLICT (id) DO UPDATE SET name = EXCLUDED.name, question_count = EXCLUDED.question_count, updated_at = NOW();
 INSERT INTO public.exams (id, category_id, name, short_name, description, issuer, exam_format, duration_hours, target_audience, difficulty, annual_candidates, is_available, tier_requirement, free_daily_question_limit, official_url, registration_url, official_bank_url, mock_question_count, mock_time_minutes, mock_pass_score) VALUES
-  ('cap', 'entrance', '國中教育會考', '會考', '國中生升高中職重要依據', '國中教育會考推動工作委員會', '筆試', 0, '國三學生', 3, 190000, FALSE, 'free', 10, 'https://cap.rcpet.edu.tw/', 'https://cap.rcpet.edu.tw/', NULL, 48, 70, 60)
+  ('cap', 'academic', '國中教育會考', '會考', '國中生升高中職重要依據', '國中教育會考推動工作委員會', '筆試', 0, '國三學生', 3, 190000, FALSE, 'free', 10, 'https://cap.rcpet.edu.tw/', 'https://cap.rcpet.edu.tw/', NULL, 48, 70, 60)
 ON CONFLICT (id) DO UPDATE SET
   category_id = EXCLUDED.category_id,
   name = EXCLUDED.name,
@@ -2542,7 +2542,7 @@ INSERT INTO public.chapters (id, exam_id, chapter_number, name, question_count, 
   ('cap-ch4', 'cap', 4, '自然', 20, 4)
 ON CONFLICT (id) DO UPDATE SET name = EXCLUDED.name, question_count = EXCLUDED.question_count, updated_at = NOW();
 INSERT INTO public.exams (id, category_id, name, short_name, description, issuer, exam_format, duration_hours, target_audience, difficulty, annual_candidates, is_available, tier_requirement, free_daily_question_limit, official_url, registration_url, official_bank_url, mock_question_count, mock_time_minutes, mock_pass_score) VALUES
-  ('english-listening', 'entrance', '高中英語聽力測驗', '英聽', '大學入學採計之英聽測驗', '大學入學考試中心', '聽力筆試', 0, '高中三年級生', 3, 110000, FALSE, 'free', 10, 'https://www.ceec.edu.tw/', 'https://www.ceec.edu.tw/', NULL, 40, 60, 60)
+  ('english-listening', 'academic', '高中英語聽力測驗', '英聽', '大學入學採計之英聽測驗', '大學入學考試中心', '聽力筆試', 0, '高中三年級生', 3, 110000, FALSE, 'free', 10, 'https://www.ceec.edu.tw/', 'https://www.ceec.edu.tw/', NULL, 40, 60, 60)
 ON CONFLICT (id) DO UPDATE SET
   category_id = EXCLUDED.category_id,
   name = EXCLUDED.name,
@@ -2573,7 +2573,7 @@ INSERT INTO public.chapters (id, exam_id, chapter_number, name, question_count, 
   ('english-listening-ch3', 'english-listening', 3, '綜合測驗', 25, 3)
 ON CONFLICT (id) DO UPDATE SET name = EXCLUDED.name, question_count = EXCLUDED.question_count, updated_at = NOW();
 INSERT INTO public.exams (id, category_id, name, short_name, description, issuer, exam_format, duration_hours, target_audience, difficulty, annual_candidates, is_available, tier_requirement, free_daily_question_limit, official_url, registration_url, official_bank_url, mock_question_count, mock_time_minutes, mock_pass_score) VALUES
-  ('transfer-2', 'entrance', '二技入學測驗', '二技統測', '專科升二技入學管道', '技專校院入學測驗中心', '筆試', 0, '二專畢業生', 3, 20000, FALSE, 'free', 10, 'https://www.tcte.edu.tw/', 'https://www.tcte.edu.tw/', NULL, 80, 100, 60)
+  ('transfer-2', 'academic', '二技入學測驗', '二技統測', '專科升二技入學管道', '技專校院入學測驗中心', '筆試', 0, '二專畢業生', 3, 20000, FALSE, 'free', 10, 'https://www.tcte.edu.tw/', 'https://www.tcte.edu.tw/', NULL, 80, 100, 60)
 ON CONFLICT (id) DO UPDATE SET
   category_id = EXCLUDED.category_id,
   name = EXCLUDED.name,
@@ -2601,7 +2601,7 @@ INSERT INTO public.chapters (id, exam_id, chapter_number, name, question_count, 
   ('transfer-2-ch2', 'transfer-2', 2, '專業科目（二）', 34, 2)
 ON CONFLICT (id) DO UPDATE SET name = EXCLUDED.name, question_count = EXCLUDED.question_count, updated_at = NOW();
 INSERT INTO public.exams (id, category_id, name, short_name, description, issuer, exam_format, duration_hours, target_audience, difficulty, annual_candidates, is_available, tier_requirement, free_daily_question_limit, official_url, registration_url, official_bank_url, mock_question_count, mock_time_minutes, mock_pass_score) VALUES
-  ('public-scholar', 'entrance', '公費留學考試', '公費留學', '教育部公費留學人才選拔', '教育部', '筆試', 0, '大學畢業以上', 5, 1000, FALSE, 'free', 10, 'https://ws.moe.edu.tw/', 'https://ws.moe.edu.tw/', NULL, 60, 120, 60)
+  ('public-scholar', 'academic', '公費留學考試', '公費留學', '教育部公費留學人才選拔', '教育部', '筆試', 0, '大學畢業以上', 5, 1000, FALSE, 'free', 10, 'https://ws.moe.edu.tw/', 'https://ws.moe.edu.tw/', NULL, 60, 120, 60)
 ON CONFLICT (id) DO UPDATE SET
   category_id = EXCLUDED.category_id,
   name = EXCLUDED.name,
@@ -2632,7 +2632,7 @@ INSERT INTO public.chapters (id, exam_id, chapter_number, name, question_count, 
   ('public-scholar-ch3', 'public-scholar', 3, '專門科目二', 25, 3)
 ON CONFLICT (id) DO UPDATE SET name = EXCLUDED.name, question_count = EXCLUDED.question_count, updated_at = NOW();
 INSERT INTO public.exams (id, category_id, name, short_name, description, issuer, exam_format, duration_hours, target_audience, difficulty, annual_candidates, is_available, tier_requirement, free_daily_question_limit, official_url, registration_url, official_bank_url, mock_question_count, mock_time_minutes, mock_pass_score) VALUES
-  ('high-ent', 'entrance', '高中特色招生考試', '特招', '高中特色班級招生測驗', '各直轄市教育局', '筆試', 0, '國三學生', 3, 15000, FALSE, 'free', 10, 'https://www.k12ea.gov.tw/', 'https://www.k12ea.gov.tw/', NULL, 60, 90, 60)
+  ('high-ent', 'academic', '高中特色招生考試', '特招', '高中特色班級招生測驗', '各直轄市教育局', '筆試', 0, '國三學生', 3, 15000, FALSE, 'free', 10, 'https://www.k12ea.gov.tw/', 'https://www.k12ea.gov.tw/', NULL, 60, 90, 60)
 ON CONFLICT (id) DO UPDATE SET
   category_id = EXCLUDED.category_id,
   name = EXCLUDED.name,
