@@ -180,6 +180,21 @@ def main():
     js_qids = set(re.findall(r'id:"([a-z0-9\-]+)"', html))
     all_sql = '\n'.join(open(p).read() for p in SQL_FILES if os.path.exists(p))
     sql_qids = set(re.findall(r"INSERT INTO public\.questions[^;]*?VALUES\s*\('([^']+)'", all_sql, re.DOTALL))
+
+    # 新架構：JS 不寫死題目，改由 cloud.loadQuestions() 從 Supabase 動態載入
+    if len(js_qids) == 0 and 'cloud.loadQuestions' in html:
+        print('JS 題目數量：0（改由 Supabase 動態載入）')
+        print(f'SQL 題目數量：{len(sql_qids)} 筆種子資料')
+        print('  [OK] 運行時題庫來源：Supabase questions_published view')
+        print('  [OK] 這是正確的新架構，不需要 JS/SQL ID 對齊')
+        print('\n' + '='*50)
+        if errors:
+            print(f'發現 {len(errors)} 個問題：')
+            for e in errors:
+                print(f'  - {e}')
+            return 1
+        print('全部通過 ✓')
+        return 0
     missing_in_sql = js_qids - sql_qids
     missing_in_js = sql_qids - js_qids
     print(f'JS 題目 ID 數量：{len(js_qids)}')
