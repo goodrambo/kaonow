@@ -739,10 +739,12 @@ async function mergeAndSyncProgress() {
   if (!currentUser) return;
   try {
     // Load cloud progress
-    const {data: cloudRows} = await supa
-      .from('user_progress')
-      .select('*')
-      .eq('user_id', currentUser.id);
+    // 從 user_stats 讀取雲端總統計
+    const {data: cloudStats} = await supa
+      .from('user_stats')
+      .select('total_questions_answered, total_correct, max_streak')
+      .eq('user_id', currentUser.id)
+      .single();
 
     // Merge: take max of local vs cloud
     const local = {
@@ -750,10 +752,10 @@ async function mergeAndSyncProgress() {
       totalCorrect: state.totalCorrect || 0,
       maxStreak: state.maxStreak || 0,
     };
-    const cloud = cloudRows && cloudRows.length > 0 ? {
-      totalDone: cloudRows.reduce((s,r) => s + (r.total_done||0), 0),
-      totalCorrect: cloudRows.reduce((s,r) => s + (r.total_correct||0), 0),
-      maxStreak: Math.max(...cloudRows.map(r => r.max_streak||0), 0),
+    const cloud = cloudStats ? {
+      totalDone: cloudStats.total_questions_answered || 0,
+      totalCorrect: cloudStats.total_correct || 0,
+      maxStreak: cloudStats.max_streak || 0,
     } : {totalDone:0, totalCorrect:0, maxStreak:0};
 
     state.totalDone    = Math.max(local.totalDone, cloud.totalDone);
@@ -763,16 +765,21 @@ async function mergeAndSyncProgress() {
     // Merge recent exams from cloud sessions
     const {data: sessions} = await supa
       .from('exam_sessions')
-      .select('exam_id, exam_name, score, total_questions, completed_at')
+      .select('exam_id, score_percent, total_questions, completed_at')
       .eq('user_id', currentUser.id)
+      .eq('is_completed', true)
       .order('completed_at', {ascending:false})
       .limit(5);
     if (sessions && sessions.length > 0) {
-      const cloudRecent = sessions.map(s => ({
-        id: s.exam_id, name: s.exam_name,
-        score: s.score, total: s.total_questions,
-        ts: new Date(s.completed_at).getTime()
-      }));
+      const cloudRecent = sessions.map(s => {
+        const examObj = exams.find(e => e.id === s.exam_id);
+        return {
+          id: s.exam_id,
+          name: examObj ? examObj.name : s.exam_id,
+          score: s.score_percent, total: s.total_questions,
+          ts: new Date(s.completed_at).getTime()
+        };
+      });
       // Merge with local, deduplicate by exam_id, sort by date
       const merged = [...cloudRecent, ...state.recentExams]
         .filter((v,i,a) => a.findIndex(x=>x.id===v.id) === i)
@@ -788,22 +795,48 @@ async function mergeAndSyncProgress() {
 async function saveSessionToCloud(examId, examName, score, total, mode) {
   if (!currentUser) return;
   try {
-    await supa.from('exam_sessions').insert({
+    const correctCount = state.answers.filter(a=>a&&a.correct).length;
+    const {data: sessionData, error: sErr} = await supa.from("exam_sessions").insert({
+      user_id: currentUser.id, exam_id: examId, mode: (mode==="all-random"?"random":mode),
+      total_questions: total, correct_count: correctCount,
+      score_percent: score, is_completed: true,
+      completed_at: new Date().toISOString()
+    }).select().single();
+    if (sErr) console.warn("exam_sessions error:", sErr);
+
+    await supa.from("exam_progress").upsert({
+      user_id: currentUser.id, exam_id: examId,
+      total_attempts: state.totalDone, correct_attempts: state.totalCorrect,
+      current_streak: state.streak, max_streak: state.maxStreak,
+      last_practiced_at: new Date().toISOString(), updated_at: new Date().toISOString()
+    }, {onConflict: "user_id,exam_id"});
+
+    await supa.from("user_stats").upsert({
       user_id: currentUser.id,
-      exam_id: examId,
-      exam_name: examName,
-      score, total_questions: total, mode
-    });
-    await supa.from('user_progress').upsert({
-      user_id: currentUser.id,
-      exam_id: examId,
-      total_done: state.totalDone,
-      total_correct: state.totalCorrect,
-      streak: state.streak,
-      max_streak: state.maxStreak,
+      total_questions_answered: state.totalDone, total_correct: state.totalCorrect,
+      current_streak: state.streak, max_streak: state.maxStreak,
       updated_at: new Date().toISOString()
-    }, {onConflict: 'user_id,exam_id'});
-  } catch(e) { console.warn('Cloud save error:', e); }
+    }, {onConflict: "user_id"});
+
+    if (sessionData && state.questions.length > 0) {
+      const attempts = state.questions.map((q,i) => {
+        const ans = state.answers[i];
+        if (!ans) return null;
+        return {
+          session_id: sessionData.id, user_id: currentUser.id,
+          question_id: q.id || (examId+"-q"+String(i+1).padStart(3,"0")),
+          exam_id: examId, chapter_id: examId+"-ch"+q.ch,
+          selected_answer: ans.selected, is_correct: ans.correct,
+          attempted_at: new Date().toISOString()
+        };
+      }).filter(Boolean);
+      if (attempts.length) {
+        const {error: aErr} = await supa.from("question_attempts").insert(attempts);
+        if (aErr) console.warn("question_attempts error:", aErr);
+      }
+    }
+    console.log("Cloud save OK: session", sessionData?.id);
+  } catch(e) { console.warn("Cloud save error:", e); }
 }
 
 // ── Toast ────────────────────────────────────────────────────
