@@ -80,9 +80,9 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;font-size:
 .btn-secondary:hover{background:var(--surface-alt);border-color:#bbb}
 .btn-ghost{background:transparent;color:var(--text-secondary);padding:10px 16px;border-radius:8px;font-weight:500;font-size:14px;transition:var(--transition)}
 .btn-ghost:hover{background:var(--surface-alt);color:var(--text)}
-.hero-trust{display:flex;justify-content:center;gap:32px;flex-wrap:wrap;font-size:13px;color:var(--text-tertiary)}
-.hero-trust span{display:flex;align-items:center;gap:6px}
-.hero-trust b{color:var(--text);font-weight:700;font-size:15px}
+.hero-trust{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;font-size:13px;color:var(--text-tertiary);margin-top:8px}
+.hero-trust span{display:inline-flex;align-items:center;gap:6px;padding:8px 16px;background:var(--surface);border:1px solid var(--border-light);border-radius:999px;box-shadow:0 1px 2px rgba(0,0,0,0.03)}
+.hero-trust b{color:var(--accent);font-weight:800;font-size:15px}
 
 /* SECTIONS */
 .section{padding:56px 0}
@@ -99,16 +99,21 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;font-size:
 .step h3{font-size:17px;font-weight:700;margin-bottom:6px}
 .step p{font-size:14px;color:var(--text-secondary);line-height:1.65}
 
-/* CATEGORY GRID */
-.category-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px}
-.category-card{background:var(--surface);padding:22px 20px;border-radius:var(--radius-lg);border:1px solid var(--border-light);transition:var(--transition);cursor:pointer;text-align:left;position:relative}
+/* CATEGORY GRID — flex 居中，讓 7 張卡自動排成 4+3 不留空洞 */
+.category-grid{display:flex;flex-wrap:wrap;justify-content:center;gap:14px;max-width:1000px;margin:0 auto}
+.category-card{background:var(--surface);padding:22px 20px;border-radius:var(--radius-lg);border:1px solid var(--border-light);transition:var(--transition);cursor:pointer;text-align:left;position:relative;flex:1 1 210px;min-width:200px;max-width:236px;display:flex;flex-direction:column;gap:4px}
 .category-card:hover{transform:translateY(-3px);box-shadow:var(--shadow-lg);border-color:var(--accent)}
+.category-card::after{content:'→';position:absolute;top:22px;right:20px;font-size:16px;color:var(--text-tertiary);opacity:0;transition:var(--transition)}
+.category-card:hover::after{opacity:1;color:var(--accent);transform:translateX(3px)}
 .category-icon{width:44px;height:44px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:22px;margin-bottom:12px}
-.category-name{font-size:16px;font-weight:700;margin-bottom:4px}
-.category-count{font-size:12px;color:var(--text-tertiary)}
+.category-name{font-size:16px;font-weight:700;margin-bottom:2px}
+.category-count{font-size:12px;color:var(--accent);font-weight:600}
+.category-desc{font-size:12px;color:var(--text-tertiary);line-height:1.55;margin-top:6px}
 
 /* FEATURES */
-.features{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.features{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;max-width:1100px;margin:0 auto}
+@media (max-width:880px){.features{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:560px){.features{grid-template-columns:1fr}}
 .feat{background:var(--surface);padding:22px;border-radius:var(--radius-lg);border:1px solid var(--border-light);transition:var(--transition)}
 .feat:hover{border-color:var(--border);box-shadow:var(--shadow)}
 .feat-icon{font-size:26px;margin-bottom:10px;display:block}
@@ -150,7 +155,38 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;font-size:
 html{scroll-padding-top:calc(var(--header-h) + 16px)}
 .page-head h1{font-size:30px;font-weight:800;letter-spacing:-0.6px;margin-bottom:6px}
 .page-head p{font-size:15px;color:var(--text-secondary)}
-.filter-bar{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:24px;padding:12px;background:var(--surface);border-radius:var(--radius);border:1px solid var(--border-light)}
+.filter-bar{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px;padding:12px;background:var(--surface);border-radius:var(--radius);border:1px solid var(--border-light)}
+.filter-bar:empty{display:none}
+
+/* Catalog search */
+.catalog-search{position:relative;margin-bottom:16px}
+.catalog-search input{width:100%;padding:14px 44px 14px 18px;font-size:15px;font-family:inherit;border:1.5px solid var(--border);border-radius:999px;background:var(--surface);transition:var(--transition);outline:none}
+.catalog-search input:focus{border-color:var(--accent);box-shadow:0 0 0 4px rgba(45,95,45,0.08)}
+.catalog-search input::placeholder{color:var(--text-tertiary)}
+.catalog-search-clear{position:absolute;right:8px;top:50%;transform:translateY(-50%);width:28px;height:28px;border-radius:50%;border:none;background:var(--border-light);color:var(--text-secondary);font-size:18px;cursor:pointer;display:none;align-items:center;justify-content:center;line-height:1}
+.catalog-search-clear.show{display:inline-flex}
+.catalog-search-clear:hover{background:var(--border);color:var(--text)}
+
+/* Catalog section (hot / recent / bookmarks above the main grid) */
+.catalog-section{margin-bottom:24px}
+.catalog-section-head{display:flex;align-items:center;gap:8px;margin-bottom:12px;font-size:14px;font-weight:700;color:var(--text)}
+.catalog-section-head .bar{width:3px;height:16px;background:var(--accent);border-radius:2px}
+.catalog-section-head .count{font-size:12px;color:var(--text-tertiary);font-weight:500;margin-left:auto}
+
+/* Empty state */
+.empty-state{text-align:center;padding:60px 20px;color:var(--text-tertiary)}
+.empty-state .emoji{font-size:48px;display:block;margin-bottom:12px}
+.empty-state h3{font-size:16px;font-weight:700;color:var(--text);margin-bottom:6px}
+.empty-state p{font-size:13.5px;line-height:1.7}
+.empty-state a{color:var(--accent);font-weight:600}
+
+/* Bookmark button on exam cards */
+.bookmark-btn{position:absolute;top:12px;right:12px;width:32px;height:32px;border-radius:50%;background:rgba(255,255,255,0.85);backdrop-filter:blur(4px);border:1px solid var(--border-light);color:var(--text-tertiary);cursor:pointer;display:inline-flex;align-items:center;justify-content:center;font-size:16px;transition:var(--transition);z-index:2;line-height:1}
+.bookmark-btn:hover{color:#D4A017;border-color:#D4A017;transform:scale(1.08)}
+.bookmark-btn.active{color:#D4A017;background:#FFF8E5;border-color:#E8C468}
+.bookmark-btn.active:hover{color:#B8860B}
+/* when bookmark button exists, push exam-status left */
+.exam-card .bookmark-btn + .exam-status{right:52px}
 .filter-chip{padding:7px 14px;border-radius:999px;font-size:13px;font-weight:500;color:var(--text-secondary);background:var(--surface-alt);transition:var(--transition);cursor:pointer;white-space:nowrap}
 .filter-chip:hover{background:var(--border-light);color:var(--text)}
 .filter-chip.active{background:var(--accent);color:#fff}
@@ -166,6 +202,10 @@ html{scroll-padding-top:calc(var(--header-h) + 16px)}
 .exam-status.soon{background:var(--warning-bg);color:var(--warning)}
 .exam-status.ready{background:var(--correct-bg);color:var(--correct)}
 .exam-status.info{background:var(--info-bg);color:var(--info)}
+/* v6 subject badges */
+.subj-badge{position:absolute;top:14px;right:14px;font-size:10px;font-weight:700;padding:3px 9px;border-radius:999px;letter-spacing:0.3px}
+.subj-badge.common{background:#E8F1EB;color:#1B7A3D}
+.subj-badge.pro{background:#FFF4E5;color:#B36B00}
 
 /* EXAM DETAIL */
 .breadcrumb{display:flex;gap:6px;font-size:13px;color:var(--text-tertiary);padding:20px 0 8px;align-items:center;flex-wrap:wrap}
@@ -469,21 +509,23 @@ html{scroll-padding-top:calc(var(--header-h) + 16px)}
   <div class="container">
     <div class="hero-landing">
       <div class="hero-label">🎯 台灣人專屬的考試備考平台</div>
-      <h1>7 大考試系統<br><span>全部整合在這裡</span></h1>
-      <p class="hero-sub">技術士、公職、語言、升學、金融、IT 認證——不用再四處找題庫，一個平台搞定所有備考需求。</p>
+      <h1>一個平台<br><span>搞定所有備考</span></h1>
+      <p class="hero-sub">技術士、公職、語言、升學、金融、IT 認證——講義、題庫、模擬考、弱點分析全整合，不用再四處蒐集資料。</p>
       <div class="hero-actions">
         <button class="btn-primary" onclick="nav('catalog')">瀏覽所有考試 →</button>
-        <button class="btn-secondary" onclick="nav('exam/osh-a')">試用甲種職安衛</button>
       </div>
       <div class="hero-trust">
         <span>🗂 <b>7</b> 大考試系統</span>
-        <span>📚 <b id="meta-exams">35</b>+ 種考試</span>
-        <span>🎯 <b id="meta-questions">153</b>+ 題（持續更新）</span>
+        <span>📚 <b id="meta-exams">158</b> 種考試</span>
+        <span>🎯 <b id="meta-questions">154</b> 題（持續更新）</span>
       </div>
     </div>
   </div>
 
   <div class="container">
+    <!-- 個人化區塊：登入用戶顯示收藏、未登入顯示最近瀏覽（若有） -->
+    <div id="home-personal"></div>
+
     <div class="section" style="padding-top:20px">
       <div class="section-head"><div class="section-label">HOW IT WORKS</div><h2>三步驟，效率備考</h2><p>打開瀏覽器就能開始，不用下載、不用帳號</p></div>
       <div class="steps">
@@ -494,7 +536,7 @@ html{scroll-padding-top:calc(var(--header-h) + 16px)}
     </div>
 
     <div class="section">
-      <div class="section-head"><div class="section-label">7 大考試系統</div><h2>找到你的考試方向</h2><p>點擊系統類別，瀏覽下方所有科目</p></div>
+      <div class="section-head"><div class="section-label">EXAM CATEGORIES</div><h2>找到你的考試方向</h2><p>7 大系統涵蓋全台主流證照與考試，點擊類別看詳細列表</p></div>
       <div class="category-grid" id="home-categories"></div>
     </div>
 
@@ -574,8 +616,15 @@ html{scroll-padding-top:calc(var(--header-h) + 16px)}
 <section id="screen-catalog" class="screen">
   <div class="container">
     <div class="page-head"><h1>考試目錄</h1><p>選擇你要準備的考試</p></div>
+    <div class="catalog-search">
+      <input type="search" id="catalog-search-input" placeholder="🔍 搜尋考試（名稱、英文縮寫、發證單位…）" autocomplete="off" oninput="onCatalogSearch(event)" />
+      <button class="catalog-search-clear" id="catalog-search-clear" type="button" onclick="clearCatalogSearch()" aria-label="清除搜尋">×</button>
+    </div>
     <div class="filter-bar" id="catalog-filter"></div>
+    <div class="filter-bar" id="catalog-subfilter"></div>
+    <div id="catalog-sections"></div>
     <div class="exam-grid" id="catalog-grid"></div>
+    <div id="catalog-empty" class="empty-state" style="display:none"></div>
   </div>
 </section>
 
@@ -589,6 +638,18 @@ html{scroll-padding-top:calc(var(--header-h) + 16px)}
     <div id="exam-tab-lecture" class="tab-pane"></div>
     <div id="exam-tab-bank" class="tab-pane"></div>
     <div id="exam-tab-news" class="tab-pane"></div>
+  </div>
+</section>
+
+<!-- SUBJECT DETAIL (v6 架構：考試 → 類科 → 科目 → 章節) -->
+<section id="screen-subject" class="screen">
+  <div class="container">
+    <div class="breadcrumb" id="subject-breadcrumb"></div>
+    <div class="exam-hero" id="subject-hero"></div>
+    <div class="tabs" id="subject-tabs"></div>
+    <div id="subject-tab-overview" class="tab-pane"></div>
+    <div id="subject-tab-lecture" class="tab-pane"></div>
+    <div id="subject-tab-bank" class="tab-pane"></div>
   </div>
 </section>
 
@@ -620,12 +681,12 @@ html{scroll-padding-top:calc(var(--header-h) + 16px)}
       <div class="result-stats">
         <div class="rs"><div class="rs-num" id="r-correct">0</div><div class="rs-label">答對</div></div>
         <div class="rs"><div class="rs-num" id="r-wrong">0</div><div class="rs-label">答錯</div></div>
-        <div class="rs"><div class="rs-num" id="r-time">0:00</div><div class="rs-label">用時</div></div>
+        <div class="rs"><div class="rs-num" id="r-time">—</div><div class="rs-label">用時</div></div>
       </div>
       <div id="weak-area"></div>
       <div class="result-actions">
         <button class="btn-secondary" onclick="reviewWrong()">複習錯題</button>
-        <button class="btn-primary" onclick="nav('exam/'+state.currentExamId)">回到考試</button>
+        <button class="btn-primary" onclick="navBackToScope()">回到學習</button>
       </div>
     </div>
   </div>
@@ -637,6 +698,7 @@ html{scroll-padding-top:calc(var(--header-h) + 16px)}
     <div class="page-head"><h1>我的學習</h1><p>查看練習紀錄與進度</p></div>
     <div class="profile-hero"><div id="profile-hero-content"><div class="avatar">K</div><h1>訪客</h1><p class="tagline">學習紀錄保存在這台裝置</p></div></div>
     <div class="stats-grid" id="me-stats"></div>
+    <div class="panel"><h2>⭐ 我的收藏</h2><div id="me-bookmarks"></div></div>
     <div class="panel"><h2>📘 最近練習</h2><div id="me-recent" class="panel-empty">還沒有紀錄，<a href="#/catalog" style="color:var(--accent);font-weight:600">去選一個考試</a>開始吧！</div></div>
     <div class="panel"><h2>⚙️ 設定</h2><button class="btn-secondary" style="font-size:13px" onclick="resetProgress()">清除所有學習紀錄</button></div>
   </div>
@@ -932,6 +994,8 @@ const cloud = (() => {
       : null;
     return {
       id: row.id, ch,
+      exam_id: row.exam_id || null,
+      subject_id: row.subject_id || null,
       q: row.question_text,
       opts: Array.isArray(row.options)
         ? row.options.map(o => typeof o === 'string' ? o : o.text)
@@ -964,7 +1028,7 @@ const cloud = (() => {
 
     // 3. 從 Supabase 取（questions_published view：已過濾未審核的 AI 題）
     const r = await request(
-      'questions_published?exam_id=eq.' + examId + '&order=id.asc&select=id,chapter_id,question_text,options,correct_answer,explanation,source,difficulty'
+      'questions_published?exam_id=eq.' + examId + '&order=id.asc&select=id,exam_id,subject_id,chapter_id,question_text,options,correct_answer,explanation,source,difficulty'
     );
     if (!r.ok || !Array.isArray(r.data)) {
       warn('loadQuestions failed', examId, r);
@@ -1061,12 +1125,176 @@ const cloud = (() => {
     return a;
   }
 
+  // ╔══════════════════════════════════════════════════════╗
+  // ║ v6 subjects 架構：exam_subjects / subjects / chapters ║
+  // ║ 跟題庫一樣用「記憶體 + localStorage」雙層快取 ─ 6h TTL   ║
+  // ╚══════════════════════════════════════════════════════╝
+  const V6_CACHE_PREFIX = 'kaonow_v6_';
+  const V6_CACHE_TTL = 6 * 3600 * 1000;
+  const v6MemCache = {};
+
+  function _v6GetCached(key) {
+    if (v6MemCache[key] !== undefined) return v6MemCache[key];
+    try {
+      const raw = localStorage.getItem(V6_CACHE_PREFIX + key);
+      if (raw) {
+        const { ts, data } = JSON.parse(raw);
+        if (Date.now() - ts < V6_CACHE_TTL) {
+          v6MemCache[key] = data;
+          return data;
+        }
+      }
+    } catch (e) {}
+    return undefined;
+  }
+  function _v6SetCached(key, data) {
+    v6MemCache[key] = data;
+    try {
+      localStorage.setItem(V6_CACHE_PREFIX + key, JSON.stringify({ ts: Date.now(), data }));
+    } catch (e) {}
+  }
+  function clearV6Cache() {
+    Object.keys(v6MemCache).forEach(k => delete v6MemCache[k]);
+    try {
+      Object.keys(localStorage)
+        .filter(k => k.startsWith(V6_CACHE_PREFIX))
+        .forEach(k => localStorage.removeItem(k));
+    } catch (e) {}
+  }
+
+  // 取某考試的所有 exam_subjects（含 subject 基本資料）
+  // 回傳：Array<{ id, exam_id, subject_id, track_name, is_required, weight, sort_order,
+  //              subject:{ id, name, category, description } }>
+  async function loadExamSubjects(examId) {
+    const key = 'es:' + examId;
+    const cached = _v6GetCached(key);
+    if (cached !== undefined) return cached;
+
+    const r = await request(
+      'exam_subjects?exam_id=eq.' + examId +
+      '&order=sort_order.asc&select=' +
+      'id,exam_id,subject_id,track_name,is_required,weight,sort_order,' +
+      'subject:subjects(id,name,category,description)'
+    );
+    if (!r.ok || !Array.isArray(r.data)) {
+      warn('loadExamSubjects failed', examId, r);
+      _v6SetCached(key, []);
+      return [];
+    }
+    _v6SetCached(key, r.data);
+    log('loadExamSubjects', examId, r.data.length);
+    return r.data;
+  }
+
+  // 取單一科目資訊
+  async function loadSubject(subjectId) {
+    const key = 'sub:' + subjectId;
+    const cached = _v6GetCached(key);
+    if (cached !== undefined) return cached;
+
+    const r = await request(
+      'subjects?id=eq.' + subjectId +
+      '&select=id,name,short_name,description,category,icon&limit=1'
+    );
+    const data = (r.ok && r.data && r.data[0]) || null;
+    _v6SetCached(key, data);
+    return data;
+  }
+
+  // 哪些考試會用到這個科目（跨考試共用用）
+  async function loadSubjectExams(subjectId) {
+    const key = 'sube:' + subjectId;
+    const cached = _v6GetCached(key);
+    if (cached !== undefined) return cached;
+    const r = await request(
+      'exam_subjects?subject_id=eq.' + subjectId +
+      '&select=exam_id,track_name,exam:exams(id,name)'
+    );
+    const data = (r.ok && Array.isArray(r.data)) ? r.data : [];
+    _v6SetCached(key, data);
+    return data;
+  }
+
+  // 取某科目的章節（沒 chapters 資料就回空陣列）
+  async function loadSubjectChapters(subjectId) {
+    const key = 'subch:' + subjectId;
+    const cached = _v6GetCached(key);
+    if (cached !== undefined) return cached;
+    const r = await request(
+      'chapters?subject_id=eq.' + subjectId +
+      '&order=sort_order.asc&select=id,name,chapter_number,question_count,sort_order'
+    );
+    const data = (r.ok && Array.isArray(r.data)) ? r.data : [];
+    _v6SetCached(key, data);
+    return data;
+  }
+
+  // 依 subject_id 抓題（走 questions_published view，需 v6.1 patch 已套）
+  async function loadQuestionsBySubject(subjectId, opts = {}) {
+    const cacheKey = 'subq:' + subjectId;
+    if (!opts.force) {
+      const c = _v6GetCached(cacheKey);
+      if (c !== undefined) return c;
+    }
+    const r = await request(
+      'questions_published?subject_id=eq.' + subjectId +
+      '&order=id.asc&select=id,chapter_id,subject_id,question_text,options,correct_answer,explanation,source,difficulty'
+    );
+    if (!r.ok || !Array.isArray(r.data)) {
+      warn('loadQuestionsBySubject failed', subjectId, r);
+      _v6SetCached(cacheKey, []);
+      return [];
+    }
+    const mapped = r.data.map(_mapDbQuestion);
+    _v6SetCached(cacheKey, mapped);
+    log('loadQuestionsBySubject', subjectId, mapped.length);
+    return mapped;
+  }
+
+  async function loadQuestionsBySubjectAndSource(subjectId, sources) {
+    const all = await loadQuestionsBySubject(subjectId);
+    if (!sources || !sources.length) return all;
+    return all.filter(q => sources.includes(q.source));
+  }
+
+  // ── 考試收藏 exam_bookmarks（需 v7 schema）──
+  async function loadExamBookmarks() {
+    const uid = userId();
+    if (!uid) return [];
+    const r = await request('exam_bookmarks?user_id=eq.' + uid + '&select=exam_id,created_at&order=created_at.desc');
+    if (!r.ok || !Array.isArray(r.data)) return [];
+    return r.data.map(x => x.exam_id);
+  }
+
+  async function addExamBookmark(examId) {
+    const uid = userId();
+    if (!uid) return { ok: false, error: 'not_logged_in' };
+    return await request('exam_bookmarks', {
+      method: 'POST',
+      body: JSON.stringify({ user_id: uid, exam_id: examId }),
+      headers: { 'Prefer': 'resolution=merge-duplicates,return=minimal' }
+    });
+  }
+
+  async function removeExamBookmark(examId) {
+    const uid = userId();
+    if (!uid) return { ok: false, error: 'not_logged_in' };
+    return await request('exam_bookmarks?user_id=eq.' + uid + '&exam_id=eq.' + encodeURIComponent(examId), {
+      method: 'DELETE'
+    });
+  }
+
   return {
     // 狀態查詢
     isLoggedIn, currentUser, userId,
     // 資料操作
     saveSession, loadProgress, mergeAndSync,
     loadQuestions, loadQuestionsBySource, loadWeakPoints, clearQuestionCache,
+    // v6 subjects
+    loadExamSubjects, loadSubject, loadSubjectExams, loadSubjectChapters,
+    loadQuestionsBySubject, loadQuestionsBySubjectAndSource, clearV6Cache,
+    // v7 exam bookmarks
+    loadExamBookmarks, addExamBookmark, removeExamBookmark,
     // 生命週期
     logout, init, flushQueue,
     // 底層（內部使用）
@@ -1081,10 +1309,19 @@ supa.auth.onAuthStateChange(async (event, session) => {
   if (event === 'SIGNED_IN') {
     showToast('登入成功，正在同步紀錄...');
     await cloud.init();
-    if (typeof state !== 'undefined' && state.route === 'me') renderMe();
+    if (typeof syncCloudBookmarks === 'function') await syncCloudBookmarks();
+    // 登入後重繪目前頁，收藏狀態才會更新
+    if (typeof router === 'function') {
+      const h = location.hash || '';
+      if (h.startsWith('#/catalog')) renderCatalog();
+      else if (h.startsWith('#/me')) renderMe();
+      else if (h === '' || h === '#/' || h.startsWith('#/home')) renderHome();
+    }
   }
   if (event === 'SIGNED_OUT') {
     showToast('已登出');
+    // 登出清掉本地收藏（避免下一個登入用戶看到別人的）
+    try { localStorage.removeItem('kaonow_bookmarks'); } catch(e) {}
     if (typeof state !== 'undefined' && state.route === 'me') renderMe();
   }
 });
@@ -1691,6 +1928,10 @@ const newsData = {
 // ===== STATE =====
 let state = {
   route:'home', currentExamId:null, currentTab:'overview', catalogFilter:'all',
+  // v6 subjects scope
+  currentSubjectId:null, currentSubjectTab:'overview',
+  currentExamSubjects:null, currentTrack:null,
+  fromExamId:null, fromTrack:null, quizScope:null,
   mode:'random', questions:[], currentIdx:0, answers:[], startTime:null,
   totalDone:0, totalCorrect:0, streak:0, maxStreak:0, recentExams:[],
 };
@@ -1716,6 +1957,7 @@ function router(){
     case 'home': document.getElementById('screen-home').classList.add('active'); renderHome(); break;
     case 'catalog': document.getElementById('screen-catalog').classList.add('active'); renderCatalog(); break;
     case 'exam': if(!arg){nav('catalog');return;} state.currentExamId=arg; document.getElementById('screen-exam').classList.add('active'); renderExam(arg); break;
+    case 'subject': if(!arg){nav('catalog');return;} state.currentSubjectId=arg; document.getElementById('screen-subject').classList.add('active'); renderSubject(arg); break;
     case 'quiz': document.getElementById('screen-quiz').classList.add('active'); break;
     case 'result': document.getElementById('screen-result').classList.add('active'); break;
     case 'me': document.getElementById('screen-me').classList.add('active'); renderMe(); break;
@@ -1726,10 +1968,21 @@ function router(){
 window.addEventListener('hashchange',router);
 
 // ===== HOME =====
-function renderHome(){
-  const total=Object.values(questionBanks).reduce((n,a)=>n+a.length,0);
+async function renderHome(){
   document.getElementById('meta-exams').textContent=exams.length;
-  document.getElementById('meta-questions').textContent=total;
+  // 題目總數：用 Supabase count header 拿精確數字
+  (async () => {
+    try {
+      const SUPA_URL = document.querySelector('meta[name="supabase-url"]').content;
+      const SUPA_KEY = document.querySelector('meta[name="supabase-anon-key"]').content;
+      const r = await fetch(`${SUPA_URL}/rest/v1/questions_published?select=id`, {
+        headers: { apikey: SUPA_KEY, Authorization: 'Bearer '+SUPA_KEY, Prefer: 'count=exact', Range: '0-0' }
+      });
+      const cr = r.headers.get('content-range') || '';
+      const total = parseInt(cr.split('/')[1]);
+      if (!isNaN(total)) document.getElementById('meta-questions').textContent = total;
+    } catch(e) { /* 保持 HTML 預設 154 */ }
+  })();
   const wrap=document.getElementById('home-categories');
   wrap.innerHTML='';
   examCategories.filter(c=>c.id!=='all').forEach(cat=>{
@@ -1737,57 +1990,365 @@ function renderHome(){
     const el=document.createElement('div');
     el.className='category-card';
     el.onclick=()=>{state.catalogFilter=cat.id;nav('catalog')};
-    el.innerHTML=`<div class="category-icon" style="background:${cat.color};color:${cat.tc}">${cat.icon}</div><div class="category-name">${cat.name}</div><div class="category-count">${count} 種考試</div>${cat.desc?`<div style="font-size:11.5px;color:var(--text-tertiary);margin-top:8px;line-height:1.55">${cat.desc.substring(0,60)}…</div>`:''}`;
+    el.innerHTML=`
+      <div class="category-icon" style="background:${cat.color};color:${cat.tc}">${cat.icon}</div>
+      <div class="category-name">${cat.name}</div>
+      <div class="category-count">${count} 種考試</div>
+      ${cat.desc?`<div class="category-desc">${cat.desc.substring(0,50)}</div>`:''}`;
     wrap.appendChild(el);
+  });
+
+  // 個人化區塊
+  renderHomePersonal();
+}
+
+function renderHomePersonal() {
+  const host = document.getElementById('home-personal');
+  if (!host) return;
+  const bookmarkSet = getBookmarkSet();
+  loadRecentViewed();
+  const recentIds = (state.recentViewed || []).slice(0, 6);
+  const bookmarkIds = [...bookmarkSet].slice(0, 6);
+
+  let html = '';
+  // 收藏（登入後才有意義）
+  if (cloud.isLoggedIn() && bookmarkIds.length) {
+    const bookmarkExams = bookmarkIds.map(id => exams.find(e=>e.id===id)).filter(Boolean);
+    html += `<div class="section" style="padding-top:28px;padding-bottom:0">
+      <div class="section-head" style="margin-bottom:20px">
+        <div class="section-label">MY BOOKMARKS</div>
+        <h2 style="font-size:26px">⭐ 我的收藏</h2>
+        <p>你關注的 ${bookmarkExams.length} 個考試，隨時回來繼續</p>
+      </div>
+      <div class="exam-grid" style="max-width:1100px;margin:0 auto">${bookmarkExams.map(e => examCardHTML(e, bookmarkSet)).join('')}</div>
+    </div>`;
+  }
+  // 註：最近瀏覽已移至 catalog 頁，home 不重複顯示
+
+  host.innerHTML = html;
+  // 綁事件
+  host.querySelectorAll('.bookmark-btn').forEach(btn => {
+    btn.onclick = (ev) => { ev.stopPropagation(); toggleBookmark(btn.dataset.examId); };
+  });
+  host.querySelectorAll('.exam-card').forEach(card => {
+    card.onclick = (ev) => {
+      if (ev.target.closest('.bookmark-btn')) return;
+      if (ev.target.closest('a')) return;
+      pushRecentViewed(card.dataset.examId);
+      nav('exam/'+card.dataset.examId);
+    };
   });
 }
 
 // ===== CATALOG =====
+// 子分類規則（從考試名稱推導，免改 DB）
+function deriveSubCategory(exam) {
+  const n = exam.name || '';
+  if (exam.categoryId === 'tech-cert') {
+    if (/甲[種級]/.test(n)) return '甲級';
+    if (/乙[種級]/.test(n)) return '乙級';
+    if (/丙[種級]/.test(n)) return '丙級';
+    if (/單一級/.test(n)) return '單一級';
+    return '其他';
+  }
+  if (exam.categoryId === 'civil') {
+    if (/高考|三級/.test(n)) return '高考/三級';
+    if (/普考|四級/.test(n)) return '普考/四級';
+    if (/初等|五等/.test(n)) return '初等/五等';
+    if (/警察/.test(n)) return '警察特考';
+    if (/司法/.test(n)) return '司法特考';
+    if (/鐵路|鐵特/.test(n)) return '鐵路特考';
+    if (/外交|海巡|移民|調查|國安/.test(n)) return '其他特考';
+    return '其他';
+  }
+  if (exam.categoryId === 'language') {
+    if (/TOEIC|多益/i.test(n)) return 'TOEIC';
+    if (/TOEFL|托福/i.test(n)) return 'TOEFL';
+    if (/IELTS|雅思/i.test(n)) return 'IELTS';
+    if (/GEPT|全民英檢/i.test(n)) return 'GEPT';
+    if (/JLPT|日檢/i.test(n)) return '日文';
+    return '其他';
+  }
+  if (exam.categoryId === 'academic') {
+    if (/學測/.test(n)) return '學測';
+    if (/分科/.test(n)) return '分科測驗';
+    if (/統測|統一入學/.test(n)) return '統測';
+    if (/會考|教育會考/.test(n)) return '國中會考';
+    return '其他';
+  }
+  return null;
+}
+
+function getSubCategories(categoryId) {
+  const subs = new Set();
+  exams.filter(e => e.categoryId === categoryId).forEach(e => {
+    const s = deriveSubCategory(e);
+    if (s) subs.add(s);
+  });
+  // 排序邏輯：特定順序優先
+  const order = ['甲級','乙級','丙級','單一級','高考/三級','普考/四級','初等/五等','警察特考','司法特考','鐵路特考','其他特考','TOEIC','TOEFL','IELTS','GEPT','日文','學測','分科測驗','統測','國中會考','其他'];
+  return [...subs].sort((a,b) => order.indexOf(a) - order.indexOf(b));
+}
+
+// 搜尋打分：name/short 命中優先；太短的英文 query 不碰 desc/issuer（避免 "AI" 誤中 "Taiwan"）
+function searchScore(exam, q) {
+  if (!q) return 1;
+  const lq = q.toLowerCase().trim();
+  const lname   = (exam.name   || '').toLowerCase();
+  const lshort  = (exam.short  || '').toLowerCase();
+  const ldesc   = (exam.desc   || '').toLowerCase();
+  const lissuer = (exam.issuer || '').toLowerCase();
+  // 最強：name 或 short 開頭
+  if (lname.startsWith(lq) || lshort.startsWith(lq)) return 100;
+  // 次強：name 或 short 內含
+  if (lname.includes(lq) || lshort.includes(lq))     return 50;
+  // 短英數 query（≤2 字母/數字）：就此打住，不碰 desc/issuer
+  // 例：「AI」不要去 match「ETS Taiwan」裡的 "ai"
+  if (lq.length <= 2 && /^[a-z0-9]+$/.test(lq))      return 0;
+  // 一般查詢才 fallback 到 desc / issuer
+  if (ldesc.includes(lq) || lissuer.includes(lq))    return 10;
+  return 0;
+}
+function matchesSearch(exam, q) { return searchScore(exam, q) > 0; }
+
+function onCatalogSearch(e) {
+  state.catalogSearch = e.target.value.trim();
+  document.getElementById('catalog-search-clear').classList.toggle('show', !!state.catalogSearch);
+  renderCatalog();
+}
+function clearCatalogSearch() {
+  state.catalogSearch = '';
+  const inp = document.getElementById('catalog-search-input');
+  if (inp) inp.value = '';
+  document.getElementById('catalog-search-clear').classList.remove('show');
+  renderCatalog();
+}
+
 function renderCatalog(){
+  // 同步搜尋框顯示
+  const inp = document.getElementById('catalog-search-input');
+  if (inp && inp.value !== (state.catalogSearch || '')) inp.value = state.catalogSearch || '';
+  document.getElementById('catalog-search-clear').classList.toggle('show', !!state.catalogSearch);
+
+  // 主分類 chips（加一個「⭐ 我的收藏」虛擬分類）
   const f=document.getElementById('catalog-filter');
   f.innerHTML='';
+  const bookmarkSet = getBookmarkSet();
+  const bookmarkChip = document.createElement('button');
+  bookmarkChip.className='filter-chip'+(state.catalogFilter==='__bookmark'?' active':'');
+  bookmarkChip.innerHTML = `⭐ 我的收藏${bookmarkSet.size?` · ${bookmarkSet.size}`:''}`;
+  bookmarkChip.onclick = () => { state.catalogFilter='__bookmark'; state.catalogSubFilter=null; renderCatalog(); };
+  f.appendChild(bookmarkChip);
   examCategories.forEach(cat=>{
     const chip=document.createElement('button');
     chip.className='filter-chip'+(state.catalogFilter===cat.id?' active':'');
     chip.textContent=cat.icon+' '+cat.name;
-    chip.onclick=()=>{state.catalogFilter=cat.id;renderCatalog()};
+    chip.onclick=()=>{state.catalogFilter=cat.id;state.catalogSubFilter=null;renderCatalog()};
     f.appendChild(chip);
   });
-  const grid=document.getElementById('catalog-grid');
-  const list=state.catalogFilter==='all'?exams:exams.filter(e=>e.categoryId===state.catalogFilter);
-  if(!list.length){grid.innerHTML=`<div class="placeholder-card" style="grid-column:1/-1"><span class="emoji">🛠️</span><h3>此類別建置中</h3><p>歡迎瀏覽其他類別</p></div>`;return;}
-  grid.innerHTML='';
-  list.forEach(exam=>{
-    const cat=examCategories.find(c=>c.id===exam.categoryId);
-    const card=document.createElement('div');
-    card.className='exam-card'+(exam.available?' available':'');
-    card.onclick=()=>nav('exam/'+exam.id);
-    const totalQs = (exam.chapters||[]).reduce((s,c)=>s+(c.count||0),0) || (exam.totalQuestions||0);
-    card.innerHTML=`${
-        exam.available
-          ? '<span class="exam-status ready">● 可練習</span>'
-          : ((exam.chapters && exam.chapters.length > 0)
-            ? '<span class="exam-status info">📚 資料完整</span>'
-            : '<span class="exam-status soon">⏳ 建置中</span>')
-      }
-      <span class="exam-category">${cat?cat.name:''}</span>
-      <div class="exam-name">${exam.name}</div>
-      <div class="exam-desc">${exam.desc}</div>
-      <div class="exam-meta">${
-        exam.available
-          ? `<span>📚 ${totalQs} 題</span><span>📖 ${(exam.chapters||[]).length} 章</span>`
-          : (exam.chapters && exam.chapters.length > 0
-            ? `<span>📖 ${exam.chapters.length} 章</span>${exam.durationHours?`<span>⏱ ${exam.durationHours}h</span>`:''}`
-            : '<span>建置中</span>')
-      }${exam.links?.official?`<span style="margin-left:auto"><a href="${exam.links.official}" target="_blank" rel="noopener" onclick="event.stopPropagation()" style="color:var(--accent);font-size:11px">官網 ↗</a></span>`:''}</div>`;
-    grid.appendChild(card);
+
+  // 子分類 chips：只有選了有子類的主分類時顯示
+  const sf = document.getElementById('catalog-subfilter');
+  sf.innerHTML = '';
+  const needsSub = ['tech-cert','civil','language','academic'].includes(state.catalogFilter);
+  if (needsSub) {
+    const subs = getSubCategories(state.catalogFilter);
+    if (subs.length > 1) {
+      const allChip = document.createElement('button');
+      allChip.className = 'filter-chip' + (!state.catalogSubFilter ? ' active' : '');
+      allChip.textContent = '全部';
+      allChip.onclick = () => { state.catalogSubFilter=null; renderCatalog(); };
+      sf.appendChild(allChip);
+      subs.forEach(s => {
+        const chip = document.createElement('button');
+        chip.className = 'filter-chip' + (state.catalogSubFilter===s ? ' active' : '');
+        chip.textContent = s;
+        chip.onclick = () => { state.catalogSubFilter=s; renderCatalog(); };
+        sf.appendChild(chip);
+      });
+    }
+  }
+
+  // ── 候選清單 ──
+  let list;
+  if (state.catalogFilter === '__bookmark') {
+    list = exams.filter(e => bookmarkSet.has(e.id));
+  } else if (state.catalogFilter === 'all' || !state.catalogFilter) {
+    list = exams;
+  } else {
+    list = exams.filter(e => e.categoryId === state.catalogFilter);
+  }
+  if (state.catalogSubFilter) {
+    list = list.filter(e => deriveSubCategory(e) === state.catalogSubFilter);
+  }
+  if (state.catalogSearch) {
+    const q = state.catalogSearch;
+    list = list
+      .map(e => ({ e, s: searchScore(e, q) }))
+      .filter(x => x.s > 0)
+      .sort((a,b) => b.s - a.s)
+      .map(x => x.e);
+  }
+
+  // ── 頂端 sections（只在 all + 無搜尋 時顯示）──
+  const sections = document.getElementById('catalog-sections');
+  sections.innerHTML = '';
+  if (state.catalogFilter === 'all' && !state.catalogSearch) {
+    // 🔥 熱門考試（hardcoded：台灣最多人考的前 6 個）
+    const hotIds = ['toeic','gept-int','osh-a','osh-b','gaokao-3','gsat'];
+    const hotExams = hotIds.map(id => exams.find(e => e.id===id)).filter(Boolean);
+    if (hotExams.length) {
+      sections.innerHTML += `<div class="catalog-section">
+        <div class="catalog-section-head"><span class="bar"></span>🔥 熱門考試<span class="count">${hotExams.length} 個</span></div>
+        <div class="exam-grid">${hotExams.map(e => examCardHTML(e, bookmarkSet)).join('')}</div>
+      </div>`;
+    }
+    // 📍 最近瀏覽
+    const recentIds = (state.recentViewed || []).slice(0, 6);
+    const recentExams = recentIds.map(id => exams.find(e => e.id===id)).filter(Boolean);
+    if (recentExams.length) {
+      sections.innerHTML += `<div class="catalog-section">
+        <div class="catalog-section-head"><span class="bar"></span>📍 最近瀏覽<span class="count">${recentExams.length} 個</span></div>
+        <div class="exam-grid">${recentExams.map(e => examCardHTML(e, bookmarkSet)).join('')}</div>
+      </div>`;
+    }
+    // 主清單的小標題
+    if (hotExams.length || recentExams.length) {
+      sections.innerHTML += `<div class="catalog-section-head" style="margin:8px 0 12px"><span class="bar"></span>所有考試<span class="count">${exams.length} 個</span></div>`;
+    }
+  }
+
+  // ── 主清單 ──
+  const grid = document.getElementById('catalog-grid');
+  const empty = document.getElementById('catalog-empty');
+  if (!list.length) {
+    grid.style.display='none';
+    empty.style.display='block';
+    if (state.catalogFilter === '__bookmark') {
+      empty.innerHTML = `<span class="emoji">⭐</span><h3>還沒有收藏任何考試</h3><p>在考試卡片點右上角 ⭐ 把關注的考試加入收藏。</p>`;
+    } else if (state.catalogSearch) {
+      empty.innerHTML = `<span class="emoji">🔍</span><h3>找不到「${state.catalogSearch}」相關考試</h3><p>試試其他關鍵字，或 <a onclick="clearCatalogSearch()" style="cursor:pointer">清除搜尋</a> 看完整列表。</p>`;
+    } else {
+      empty.innerHTML = `<span class="emoji">🛠️</span><h3>此類別建置中</h3><p>歡迎瀏覽其他類別</p>`;
+    }
+    return;
+  }
+  empty.style.display='none';
+  grid.style.display='grid';
+  grid.innerHTML = list.map(e => examCardHTML(e, bookmarkSet)).join('');
+  // 綁定 bookmark button click（用事件委派避免 onclick 內部引號問題）
+  grid.querySelectorAll('.bookmark-btn').forEach(btn => {
+    btn.onclick = (ev) => { ev.stopPropagation(); toggleBookmark(btn.dataset.examId); };
+  });
+  // 卡片整體點擊（排除 bookmark btn）
+  grid.querySelectorAll('.exam-card').forEach(card => {
+    card.onclick = (ev) => {
+      if (ev.target.closest('.bookmark-btn')) return;
+      if (ev.target.closest('a')) return;
+      pushRecentViewed(card.dataset.examId);
+      nav('exam/'+card.dataset.examId);
+    };
+  });
+  // 同樣綁 sections 內的 buttons
+  sections.querySelectorAll('.bookmark-btn').forEach(btn => {
+    btn.onclick = (ev) => { ev.stopPropagation(); toggleBookmark(btn.dataset.examId); };
+  });
+  sections.querySelectorAll('.exam-card').forEach(card => {
+    card.onclick = (ev) => {
+      if (ev.target.closest('.bookmark-btn')) return;
+      if (ev.target.closest('a')) return;
+      pushRecentViewed(card.dataset.examId);
+      nav('exam/'+card.dataset.examId);
+    };
   });
 }
 
+// 產生考試卡 HTML（模板化，讓 sections 與 grid 共用）
+function examCardHTML(exam, bookmarkSet) {
+  const cat = examCategories.find(c => c.id === exam.categoryId);
+  const totalQs = (exam.chapters||[]).reduce((s,c)=>s+(c.count||0),0) || (exam.totalQuestions||0);
+  const status = exam.available
+    ? '<span class="exam-status ready">● 可練習</span>'
+    : ((exam.chapters && exam.chapters.length > 0)
+      ? '<span class="exam-status info">📚 資料完整</span>'
+      : '<span class="exam-status soon">⏳ 建置中</span>');
+  const bookmarked = bookmarkSet && bookmarkSet.has(exam.id);
+  const bookmarkBtn = `<button class="bookmark-btn${bookmarked?' active':''}" data-exam-id="${exam.id}" title="${bookmarked?'取消收藏':'加入收藏'}" aria-label="${bookmarked?'取消收藏':'加入收藏'}">${bookmarked?'★':'☆'}</button>`;
+  const meta = exam.available
+    ? `<span>📚 ${totalQs} 題</span><span>📖 ${(exam.chapters||[]).length} 章</span>`
+    : (exam.chapters && exam.chapters.length > 0
+      ? `<span>📖 ${exam.chapters.length} 章</span>${exam.durationHours?`<span>⏱ ${exam.durationHours}h</span>`:''}`
+      : '<span>建置中</span>');
+  const officialLink = exam.links?.official
+    ? `<span style="margin-left:auto"><a href="${exam.links.official}" target="_blank" rel="noopener" onclick="event.stopPropagation()" style="color:var(--accent);font-size:11px">官網 ↗</a></span>`
+    : '';
+  return `<div class="exam-card${exam.available?' available':''}" data-exam-id="${exam.id}">
+    ${bookmarkBtn}${status}
+    <span class="exam-category">${cat?cat.name:''}</span>
+    <div class="exam-name">${exam.name}</div>
+    <div class="exam-desc">${exam.desc||''}</div>
+    <div class="exam-meta">${meta}${officialLink}</div>
+  </div>`;
+}
+
+// ── 收藏：localStorage 暫存 + 雲端同步 ──
+const BM_LOCAL_KEY = 'kaonow_bookmarks';
+function getBookmarkSet() {
+  try {
+    const raw = localStorage.getItem(BM_LOCAL_KEY);
+    return new Set(raw ? JSON.parse(raw) : []);
+  } catch(e) { return new Set(); }
+}
+function saveBookmarkSet(set) {
+  try { localStorage.setItem(BM_LOCAL_KEY, JSON.stringify([...set])); } catch(e) {}
+}
+async function toggleBookmark(examId) {
+  if (!cloud.isLoggedIn()) {
+    showToast('⭐ 登入後才能收藏，登入狀態會同步到所有裝置');
+    openLoginModal();
+    return;
+  }
+  const set = getBookmarkSet();
+  if (set.has(examId)) {
+    set.delete(examId);
+    saveBookmarkSet(set);
+    showToast('已取消收藏');
+    const r = await cloud.removeExamBookmark(examId);
+    if (!r.ok) console.warn('[removeExamBookmark]', r);
+  } else {
+    set.add(examId);
+    saveBookmarkSet(set);
+    showToast('⭐ 已加入收藏');
+    const r = await cloud.addExamBookmark(examId);
+    if (!r.ok) console.warn('[addExamBookmark]', r);
+  }
+  // 重繪目前頁
+  if (state.route === 'catalog' || location.hash.startsWith('#/catalog')) renderCatalog();
+  if (location.hash.startsWith('#/home') || location.hash === '' || location.hash === '#/') renderHome();
+  if (location.hash.startsWith('#/me')) renderMe();
+}
+
+// ── 最近瀏覽（localStorage，不需登入）──
+const RV_KEY = 'kaonow_recent_viewed';
+const RV_MAX = 8;
+function loadRecentViewed() {
+  try {
+    const raw = localStorage.getItem(RV_KEY);
+    state.recentViewed = raw ? JSON.parse(raw) : [];
+  } catch(e) { state.recentViewed = []; }
+}
+function pushRecentViewed(examId) {
+  if (!examId) return;
+  loadRecentViewed();
+  state.recentViewed = [examId, ...state.recentViewed.filter(x => x !== examId)].slice(0, RV_MAX);
+  try { localStorage.setItem(RV_KEY, JSON.stringify(state.recentViewed)); } catch(e) {}
+}
+
 // ===== EXAM DETAIL =====
-function renderExam(id){
+async function renderExam(id){
   const exam=exams.find(e=>e.id===id);
   if(!exam){nav('catalog');return;}
+  pushRecentViewed(id);
   const cat=examCategories.find(c=>c.id===exam.categoryId);
   document.getElementById('exam-breadcrumb').innerHTML=`<a href="#/home">首頁</a><span> / </span><a href="#/catalog">考試目錄</a><span> / </span><span>${exam.name}</span>`;
   const totalQs = (exam.chapters||[]).reduce((s,c)=>s+(c.count||0),0) || (exam.totalQuestions||0);
@@ -1802,8 +2363,159 @@ function renderExam(id){
   const tabs=[{id:'overview',n:'概覽'},{id:'lecture',n:'講義'},{id:'bank',n:'題庫'},{id:'news',n:'考情新聞'}];
   document.getElementById('exam-tabs').innerHTML=tabs.map((t,i)=>`<button class="tab${i===0?' active':''}" onclick="switchTab('${t.id}')">${t.n}</button>`).join('');
   state.currentTab='overview';
-  renderOverviewPane(exam);renderLecturePane(exam);renderBankPane(exam);renderNewsPane(exam);
+  // 先畫 overview/lecture/news（不受 v6 影響），bank 等待檢查 v6 結果
+  renderOverviewPane(exam); renderLecturePane(exam); renderNewsPane(exam);
+  const bankEl = document.getElementById('exam-tab-bank');
+  bankEl.innerHTML = `<div style="padding:40px 0;text-align:center;color:var(--text-tertiary);font-size:13px">載入考試結構…</div>`;
   switchTab('overview');
+  try {
+    const es = await cloud.loadExamSubjects(id);
+    const isSingleNoTrack = es && es.length === 1 && es[0].track_name === null;
+    if (es && es.length && !isSingleNoTrack) {
+      // 真的多科目或多類科 → 類科選擇器 + 科目卡片
+      state.currentExamSubjects = es;
+      const tracks = Array.from(new Set(es.map(r => r.track_name))).filter(t => t !== null);
+      state.currentTrack = tracks.length ? tracks[0] : null;
+      renderExamSubjectsPane(exam, es);
+    } else {
+      // 無關聯 或 單科無類科（如甲種職安衛）→ 走舊版四模式 UI（不強迫多一次點擊）
+      state.currentExamSubjects = null;
+      state.currentTrack = null;
+      renderBankPane(exam);
+      // 單科無類科：在 overview 補一行小提示引導去科目頁
+      if (isSingleNoTrack) {
+        const s = es[0].subject;
+        const ov = document.getElementById('exam-tab-overview');
+        if (ov && s) {
+          const tip = document.createElement('div');
+          tip.style.cssText = 'background:var(--accent-light);border:1px solid var(--accent-border,#CFDCF0);border-radius:10px;padding:10px 14px;margin-top:12px;font-size:12.5px;color:var(--accent)';
+          tip.innerHTML = `🔗 本考試對應科目：<a href="#/subject/${s.id}" style="color:var(--accent);font-weight:600">${s.name}</a>`;
+          ov.appendChild(tip);
+        }
+      }
+    }
+  } catch(e) {
+    console.warn('[exam_subjects load]', e);
+    renderBankPane(exam);     // 出錯也回退到舊 flow
+  }
+}
+
+// 在考試詳情頁塞「類科選擇 + 科目卡片」（覆蓋 overview/bank pane）
+function renderExamSubjectsPane(exam, es) {
+  const tracks = Array.from(new Set(es.map(r => r.track_name))).filter(t => t !== null);
+  const hasTracks = tracks.length > 0;
+  const selectedTrack = state.currentTrack;
+  const visible = hasTracks
+    ? es.filter(r => r.track_name === null || r.track_name === selectedTrack)
+    : es;
+  const sorted = [...visible].sort((a,b) => {
+    const ak = (a.track_name===null?0:1), bk = (b.track_name===null?0:1);
+    if (ak !== bk) return ak - bk;
+    return (a.sort_order||0) - (b.sort_order||0);
+  });
+
+  const trackChips = hasTracks ? `
+    <div style="margin-bottom:16px">
+      <div style="font-size:13px;color:var(--text-tertiary);margin-bottom:8px;display:flex;align-items:center;gap:8px">
+        <span style="width:3px;height:14px;background:var(--accent);border-radius:2px;display:inline-block"></span>
+        選擇類科（共 ${tracks.length} 類）
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:8px">
+        ${tracks.map((t, i) => `
+          <button class="filter-chip${t===selectedTrack?' active':''}"
+                  data-track-idx="${i}" onclick="selectExamTrackByIdx(${i})">${t}</button>
+        `).join('')}
+      </div>
+    </div>` : '';
+
+  const subjectCards = sorted.map(row => {
+    const s = row.subject || {};
+    const isCommon = row.track_name === null;
+    const badge = isCommon
+      ? '<span class="subj-badge common">共同</span>'
+      : '<span class="subj-badge pro">專業</span>';
+    const name = s.name || row.subject_id;
+    const desc = (s.description || '').replace(/"/g,'&quot;');
+    return `
+      <div class="exam-card available" onclick="navToSubject('${row.subject_id}')" style="cursor:pointer">
+        ${badge}
+        <div class="exam-name" style="margin-top:4px">${name}</div>
+        <div class="exam-desc" style="min-height:auto">${desc || '點擊進入科目學習 →'}</div>
+        <div class="exam-meta" style="margin-top:8px">
+          <span>📚 題庫 / 章節</span>
+          <span style="margin-left:auto;color:var(--accent);font-weight:600">進入 →</span>
+        </div>
+      </div>`;
+  }).join('');
+
+  const bankEl = document.getElementById('exam-tab-bank');
+  bankEl.innerHTML = `
+    <div style="background:linear-gradient(135deg,#F0F7F2 0%,#E8F1EB 100%);border:1px solid #CFE2D4;border-radius:12px;padding:16px 18px;margin-bottom:18px">
+      <div style="font-size:14px;font-weight:700;color:var(--accent);margin-bottom:6px">📐 本考試含多個科目</div>
+      <div style="font-size:13px;color:var(--text-secondary);line-height:1.7">
+        ${hasTracks
+          ? `此考試有 <b>${tracks.length}</b> 個類科，共 <b>${es.length}</b> 筆科目關聯。請先選類科，再挑科目進入題庫。`
+          : `此考試由 <b>${es.length}</b> 個科目組成，點科目進入題庫。`}
+      </div>
+    </div>
+    ${trackChips}
+    <h3 style="font-size:15px;font-weight:700;margin:4px 0 12px;display:flex;align-items:center;gap:8px">
+      <span style="width:3px;height:16px;background:var(--accent);border-radius:2px;display:inline-block"></span>
+      科目列表（${sorted.length}）
+    </h3>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:14px">
+      ${subjectCards}
+    </div>`;
+
+  const ov = document.getElementById('exam-tab-overview');
+  const lk = exam.links || {};
+  const linksRow = Object.keys(lk).length ? `
+    <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:16px">
+      ${lk.official ? `<a href="${lk.official}" target="_blank" rel="noopener" style="padding:8px 14px;border-radius:8px;border:1px solid var(--border);font-size:13px;color:var(--text);background:var(--surface)">🏛 官網 ↗</a>` : ''}
+      ${lk.reg ? `<a href="${lk.reg}" target="_blank" rel="noopener" style="padding:8px 14px;border-radius:8px;border:1px solid var(--border);font-size:13px;color:var(--text);background:var(--surface)">📝 報名 ↗</a>` : ''}
+      ${lk.bank ? `<a href="${lk.bank}" target="_blank" rel="noopener" style="padding:8px 14px;border-radius:8px;border:1px solid var(--border);font-size:13px;color:var(--accent);background:var(--accent-light)">📚 官方題庫 ↗</a>` : ''}
+    </div>` : '';
+  ov.innerHTML = `
+    <div class="panel"><h2>📋 考試簡介</h2>
+      <p style="font-size:14.5px;color:var(--text-secondary);line-height:1.8">${exam.desc}</p>
+      ${exam.issuer ? `<p style="font-size:13px;color:var(--text-tertiary);margin-top:10px">發證單位：${exam.issuer}${exam.examFormat?` · ${exam.examFormat}`:''}${exam.durationHours?` · 訓練時數 ${exam.durationHours} 小時`:''}</p>` : ''}
+      ${linksRow}
+    </div>
+    <div class="panel">
+      <h2>🧭 考試科目組成</h2>
+      <div style="font-size:13.5px;color:var(--text-secondary);line-height:1.8">
+        ${hasTracks
+          ? `本考試有 <b>${tracks.length}</b> 個類科：${tracks.map(t=>`<span class="filter-chip" style="padding:4px 10px;font-size:12px;margin:2px">${t}</span>`).join('')}<br>
+             題庫依科目獨立維護，行政法、憲法等共同科目可跨考試共用。`
+          : `本考試由 <b>${es.length}</b> 個科目組成，各科題庫可獨立練習。`}
+      </div>
+      <div style="margin-top:14px;text-align:center">
+        <button class="btn-primary" onclick="switchTab('bank')">前往科目列表 →</button>
+      </div>
+    </div>`;
+}
+
+function navToSubject(subjectId) {
+  // 記住來源考試，subject 頁可顯示麵包屑
+  state.fromExamId = state.currentExamId;
+  state.fromTrack = state.currentTrack;
+  nav('subject/' + subjectId);
+}
+
+function selectExamTrack(track) {
+  state.currentTrack = track;
+  const exam = exams.find(e => e.id === state.currentExamId);
+  if (!exam || !state.currentExamSubjects) return;
+  renderExamSubjectsPane(exam, state.currentExamSubjects);
+  switchTab('bank');
+}
+function selectExamTrackByIdx(i) {
+  const es = state.currentExamSubjects;
+  if (!es) return;
+  const tracks = Array.from(new Set(es.map(r => r.track_name))).filter(t => t !== null);
+  const track = tracks[i];
+  if (track === undefined) return;
+  selectExamTrack(track);
 }
 function switchTab(id){
   state.currentTab=id;
@@ -1930,11 +2642,219 @@ function renderNewsPane(exam){
   </div>`).join('')}</div>`;
 }
 
+// ===== SUBJECT DETAIL (v6) =====
+async function renderSubject(subjectId) {
+  const hero = document.getElementById('subject-hero');
+  const crumb = document.getElementById('subject-breadcrumb');
+  hero.innerHTML = '<div style="padding:20px 0;color:var(--text-tertiary)">載入科目中…</div>';
+  crumb.innerHTML = `<a href="#/home">首頁</a><span> / </span><a href="#/catalog">考試目錄</a><span> / </span><span>載入中…</span>`;
+
+  // 並行拉 subject / questions / chapters / cross-exam
+  const [subj, questions, chapters, crossExams] = await Promise.all([
+    cloud.loadSubject(subjectId),
+    cloud.loadQuestionsBySubject(subjectId),
+    cloud.loadSubjectChapters(subjectId),
+    cloud.loadSubjectExams(subjectId)
+  ]);
+
+  if (!subj) {
+    hero.innerHTML = `<h1>科目不存在</h1><div class="sub">找不到 ${subjectId}。<a href="#/catalog">返回考試目錄 →</a></div>`;
+    crumb.innerHTML = `<a href="#/home">首頁</a><span> / </span><a href="#/catalog">考試目錄</a>`;
+    return;
+  }
+
+  // 驗證 state.fromExamId 是否真的涵蓋這個科目，否則清掉（避免跨科目導航殘留的錯誤 crumb）
+  const validFromExam = state.fromExamId && (crossExams || []).some(r => r.exam_id === state.fromExamId);
+  if (!validFromExam) { state.fromExamId = null; state.fromTrack = null; }
+  const fromExam = state.fromExamId ? exams.find(e => e.id === state.fromExamId) : null;
+  crumb.innerHTML = `<a href="#/home">首頁</a><span> / </span><a href="#/catalog">考試目錄</a>${
+    fromExam ? `<span> / </span><a href="#/exam/${fromExam.id}">${fromExam.name}</a>${state.fromTrack?`<span> / ${state.fromTrack}</span>`:''}` : ''
+  }<span> / </span><span>${subj.name}</span>`;
+
+  const categoryLabel = {
+    common: '共同科目', professional: '公職專業', academic: '升學',
+    language: '語言', misc: '其他'
+  }[subj.category] || subj.category || '科目';
+
+  const hasQuestions = questions.length > 0;
+  const officialCount = questions.filter(q => q.source === 'official').length;
+  const aiCount = questions.filter(q => q.source === 'ai_generated').length;
+
+  hero.innerHTML = `
+    <span class="exam-category" style="background:var(--accent-light);color:var(--accent)">${categoryLabel}</span>
+    <h1>${subj.name}</h1>
+    <div class="sub">${subj.description || '科目描述建置中'}</div>
+    <div class="exam-hero-stats">
+      <div class="eh-stat"><div class="eh-stat-num">${questions.length}</div><div class="eh-stat-label">題目總數</div></div>
+      <div class="eh-stat"><div class="eh-stat-num">${officialCount}</div><div class="eh-stat-label">官方題</div></div>
+      <div class="eh-stat"><div class="eh-stat-num">${aiCount}</div><div class="eh-stat-label">AI 題</div></div>
+      <div class="eh-stat"><div class="eh-stat-num">${chapters.length}</div><div class="eh-stat-label">章節</div></div>
+    </div>`;
+
+  const tabs = [{id:'overview',n:'概覽'},{id:'lecture',n:'講義'},{id:'bank',n:'題庫'}];
+  document.getElementById('subject-tabs').innerHTML = tabs.map((t,i)=>`
+    <button class="tab${i===0?' active':''}" onclick="switchSubjectTab('${t.id}')">${t.n}</button>
+  `).join('');
+  state.currentSubjectTab = 'overview';
+
+  renderSubjectOverviewPane(subj, questions, chapters, crossExams);
+  renderSubjectLecturePane(subj);
+  renderSubjectBankPane(subj, questions, chapters);
+  switchSubjectTab('overview');
+}
+
+function switchSubjectTab(id) {
+  state.currentSubjectTab = id;
+  document.querySelectorAll('#subject-tabs .tab').forEach((b,i)=>{
+    const ids=['overview','lecture','bank'];b.classList.toggle('active',ids[i]===id);
+  });
+  ['overview','lecture','bank'].forEach(n=>
+    document.getElementById('subject-tab-'+n).classList.toggle('active',n===id));
+}
+
+function renderSubjectOverviewPane(subj, questions, chapters, crossExams) {
+  const el = document.getElementById('subject-tab-overview');
+  const hasQs = questions.length > 0;
+
+  // 跨考試引用（去重 exam_id）
+  const uniqueExams = [];
+  const seen = new Set();
+  (crossExams || []).forEach(r => {
+    if (!r.exam) return;
+    if (seen.has(r.exam.id)) return;
+    seen.add(r.exam.id);
+    uniqueExams.push({ id: r.exam.id, name: r.exam.name, track: r.track_name });
+  });
+
+  const readinessNotice = hasQs ? '' : `
+    <div style="background:var(--info-bg);border:1px solid #CFDCF0;border-radius:12px;padding:14px 16px;margin-bottom:18px;font-size:13.5px;line-height:1.7;color:var(--info)">
+      <strong>⏳ 題庫建置中</strong><br>
+      此科目尚無題目，先看講義或到相關考試的官方題庫練習。
+    </div>`;
+
+  const crossPanel = uniqueExams.length > 1 ? `
+    <div class="panel">
+      <h2>🔗 這個科目會出現在（${uniqueExams.length} 個考試）</h2>
+      <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:10px">
+        ${uniqueExams.map(e => `
+          <a href="#/exam/${e.id}" class="filter-chip" style="text-decoration:none;padding:7px 14px">
+            ${e.name}${e.track?` · ${e.track}`:''}
+          </a>
+        `).join('')}
+      </div>
+      <p style="font-size:12.5px;color:var(--text-tertiary);margin-top:12px">
+        本科目題庫一次建好，多個考試都能練到。
+      </p>
+    </div>` : '';
+
+  el.innerHTML = `
+    ${readinessNotice}
+    <div class="panel">
+      <h2>📋 科目簡介</h2>
+      <p style="font-size:14.5px;color:var(--text-secondary);line-height:1.8">${subj.description || '科目描述建置中，請先瀏覽題庫或講義。'}</p>
+    </div>
+    ${chapters.length ? `
+      <div class="panel">
+        <h2>📚 章節（${chapters.length}）</h2>
+        <div class="chapter-list">
+          ${chapters.map(ch => `
+            <div class="chapter-item" onclick="switchSubjectTab('bank')">
+              <div>
+                <div class="chapter-title">${(ch.name || ch.id) + (ch.question_count ? ' · ' + ch.question_count + ' 題' : '')}</div>
+                <div class="chapter-meta">點擊查看題庫</div>
+              </div>
+              <span style="color:var(--text-tertiary)">→</span>
+            </div>
+          `).join('')}
+        </div>
+      </div>` : ''}
+    ${crossPanel}
+    <div style="display:flex;gap:10px;justify-content:center;margin-top:16px">
+      ${hasQs
+        ? `<button class="btn-primary" onclick="switchSubjectTab('bank')">開始練習 →</button>
+           <button class="btn-secondary" onclick="switchSubjectTab('lecture')">先看講義</button>`
+        : `<button class="btn-secondary" onclick="switchSubjectTab('lecture')">查看講義</button>`}
+    </div>`;
+}
+
+function renderSubjectLecturePane(subj) {
+  const el = document.getElementById('subject-tab-lecture');
+  // 科目層的講義還沒有實際內容，顯示 placeholder
+  el.innerHTML = `
+    <div class="placeholder-card">
+      <span class="emoji">📖</span>
+      <h3>「${subj.name}」講義整理中</h3>
+      <p>科目層級的講義將在近期上架。<br>目前可到「題庫」直接練題，或參考相關考試的講義。</p>
+    </div>`;
+}
+
+function renderSubjectBankPane(subj, questions, chapters) {
+  const el = document.getElementById('subject-tab-bank');
+  const total = questions.length;
+
+  if (!total) {
+    el.innerHTML = `
+      <div class="placeholder-card">
+        <span class="emoji">📝</span>
+        <h3>題庫建置中</h3>
+        <p>「${subj.name}」尚未有題目上架。</p>
+      </div>`;
+    return;
+  }
+
+  // 四模式（單科作用域）
+  const mockCount = Math.min(total, 30);
+  const modeGrid = `
+    <div class="mode-grid">
+      <button class="mode-card" onclick="startSubjectQuiz('random')">
+        <div class="mode-icon">🎲</div>
+        <div class="mode-title">隨機測驗</div>
+        <div class="mode-desc">官方考古題 10 題</div>
+      </button>
+      <button class="mode-card" onclick="startSubjectQuiz('mock')">
+        <div class="mode-icon">🏆</div>
+        <div class="mode-title">科目模擬考</div>
+        <div class="mode-desc">${mockCount} 題 · 45 分鐘限時</div>
+      </button>
+      <button class="mode-card" onclick="startSubjectQuiz('weak')">
+        <div class="mode-icon">🎯</div>
+        <div class="mode-title">弱點加強</div>
+        <div class="mode-desc">AI 分析答題紀錄</div>
+      </button>
+      <button class="mode-card" onclick="startSubjectQuiz('ai')">
+        <div class="mode-icon">🤖</div>
+        <div class="mode-title">AI 考題</div>
+        <div class="mode-desc">AI 從講義產出的新鮮題</div>
+      </button>
+    </div>`;
+
+  // 章節（若有）
+  const chapterList = chapters.length ? `
+    <h3 style="font-size:15px;font-weight:700;margin:8px 0 12px;display:flex;align-items:center;gap:8px">
+      <span style="width:3px;height:16px;background:var(--accent);border-radius:2px;display:inline-block"></span>
+      依章節練習
+    </h3>
+    <div class="chapter-list">
+      ${chapters.map(ch => `
+        <div class="chapter-item" onclick="startSubjectChapter('${ch.id}')">
+          <div>
+            <div class="chapter-title">${(ch.name || ch.id) + (ch.question_count ? ' · ' + ch.question_count + ' 題' : '')}</div>
+            <div class="chapter-meta">10 題隨機</div>
+          </div>
+          <span style="color:var(--text-tertiary)">→</span>
+        </div>
+      `).join('')}
+    </div>` : '';
+
+  el.innerHTML = modeGrid + chapterList;
+}
+
 // ===== QUIZ =====
 function shuffle(arr){const a=[...arr];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
 async function startQuiz(mode){
   const examObj = exams.find(e => e.id === state.currentExamId);
   state.mode = mode;
+  state.quizScope = { kind:'exam', id: state.currentExamId };
   showToast('載入題目中...');
   let pool = [], meta = {};
 
@@ -1990,6 +2910,85 @@ async function startChapter(ch){
   const pool = shuffle(bank.filter(q => q.ch === ch)).slice(0,10);
   if(!pool.length){alert('此章節暫無題目');return;}
   state.mode = 'chapter';
+  state.quizScope = { kind:'exam', id: state.currentExamId };
+  initQuiz(pool);
+}
+
+// ── v6：科目作用域的四模式 ──────────────────────────
+async function startSubjectQuiz(mode) {
+  const subjectId = state.currentSubjectId;
+  if (!subjectId) return;
+  state.mode = mode;
+  state.quizScope = { kind:'subject', id: subjectId };
+  showToast('載入題目中...');
+
+  let pool = [], meta = {};
+  try {
+    if (mode === 'random') {
+      const q = await cloud.loadQuestionsBySubjectAndSource(subjectId, ['official']);
+      if (!q.length) { alert('此科目目前沒有官方題庫，請選其他模式'); return; }
+      pool = shuffle(q).slice(0, 10);
+    }
+    else if (mode === 'ai') {
+      const q = await cloud.loadQuestionsBySubjectAndSource(subjectId, ['ai_generated']);
+      if (!q.length) { alert('🤖 此科目的 AI 題目準備中，敬請期待！'); return; }
+      pool = shuffle(q).slice(0, Math.min(10, q.length));
+    }
+    else if (mode === 'weak') {
+      // 科目層弱點：先用相關考試的 loadWeakPoints 取出池，再過濾本科目的題
+      const examId = state.fromExamId || state.currentExamId;
+      if (!examId) { alert('先從考試進入科目，才能啟用弱點加強'); return; }
+      const r = await cloud.loadWeakPoints(examId, 30);  // 多要一點，再依 subject 過濾
+      if (!r.ok) {
+        if (r.reason === 'not_logged_in') alert('請先登入才能使用弱點加強');
+        else alert('先做幾次隨機測驗或模擬考，累積紀錄後就能啟用「弱點加強」');
+        return;
+      }
+      const filtered = (r.questions || []).filter(q => q.subject_id === subjectId);
+      if (filtered.length < 3) {
+        alert('此科目目前累積的弱點資料不足，多做幾次練習後再來！');
+        return;
+      }
+      pool = filtered.slice(0, 10);
+    }
+    else if (mode === 'mock') {
+      const all = await cloud.loadQuestionsBySubject(subjectId);
+      const n = Math.min(30, all.length);
+      if (all.length < 10) {
+        alert(`模擬考至少需要 10 題，目前只有 ${all.length} 題`);
+        return;
+      }
+      pool = shuffle(all).slice(0, n);
+      meta.timeLimitSeconds = 45 * 60; // 單科 45 分鐘
+      meta.passScore = 60;
+    }
+  } catch(e) {
+    console.error(e);
+    alert('載入題目失敗：' + e.message);
+    return;
+  }
+
+  if (!pool.length) { alert('題目不足'); return; }
+  state.mockMeta = meta;
+  initQuiz(pool);
+}
+
+async function startSubjectChapter(chapterId) {
+  const subjectId = state.currentSubjectId;
+  if (!subjectId) return;
+  showToast('載入題目中...');
+  const all = await cloud.loadQuestionsBySubject(subjectId);
+  const pool = shuffle(all.filter(q => {
+    // chapter_id 形如 'sub-xxx-ch2'；這裡精確比對原始 chapter_id
+    // 但 _mapDbQuestion 只留了 ch (數字)。改比對原始：從 all 其實沒有原始字串。
+    // 退而求其次：若 chapter.id 可解析為 -ch(N) 格式，就比對 q.ch。
+    const m = String(chapterId).match(/-ch(\d+)$/);
+    if (m) return q.ch === parseInt(m[1]);
+    return false;
+  })).slice(0, 10);
+  if (!pool.length) { alert('此章節暫無題目'); return; }
+  state.mode = 'chapter';
+  state.quizScope = { kind:'subject', id: subjectId };
   initQuiz(pool);
 }
 function initQuiz(questions){
@@ -2090,15 +3089,35 @@ function confirmExit(){
   stopCountdown();
   const u=state.answers.filter(a=>a===null).length;
   if(u>0&&u<state.questions.length&&!confirm(`還有 ${u} 題未作答，確定要離開？`))return;
-  nav('exam/'+state.currentExamId);
+  navBackToScope();
+}
+function navBackToScope() {
+  const sc = state.quizScope;
+  if (sc && sc.kind === 'subject' && sc.id) nav('subject/'+sc.id);
+  else if (state.currentExamId) nav('exam/'+state.currentExamId);
+  else nav('catalog');
 }
 function showResult(){
   const total=state.questions.length,correctCount=state.answers.filter(a=>a&&a.correct).length;
   const score=Math.round(correctCount/total*100);
   const elapsed=Math.round((Date.now()-state.startTime)/1000);
   const exam=exams.find(e=>e.id===state.currentExamId);
-  if(exam){
-    state.recentExams=[{id:exam.id,name:exam.name,score,total,ts:Date.now()},...state.recentExams.filter(r=>r.id!==exam.id)].slice(0,5);
+  const sc = state.quizScope || {};
+  // v6：記 subject-scoped 紀錄（名稱從 state.currentSubjectId 反查）
+  if (sc.kind === 'subject' && sc.id) {
+    const subjName = (document.querySelector('#subject-hero h1')?.textContent) || sc.id;
+    state.recentExams = [
+      { kind:'subject', id: sc.id, name: subjName + ' (科目)', score, total, ts: Date.now() },
+      ...state.recentExams.filter(r => !(r.kind === 'subject' && r.id === sc.id))
+    ].slice(0, 5);
+    saveState();
+    // 後端：用關聯的 exam_id 存（subject-scoped 紀錄可後續再優化 schema）
+    const backExamId = state.fromExamId || state.currentExamId || null;
+    if (backExamId) {
+      cloud.saveSession({examId:backExamId,score,total,mode:state.mode+'-subj-'+sc.id,questions:state.questions,answers:state.answers}).then(r=>{if(!r.ok)console.warn('[save fail]',r.error);});
+    }
+  } else if (exam) {
+    state.recentExams=[{kind:'exam',id:exam.id,name:exam.name,score,total,ts:Date.now()},...state.recentExams.filter(r=>!(r.id===exam.id && (r.kind||'exam')==='exam'))].slice(0,5);
     saveState();
     cloud.saveSession({examId:exam.id,score,total,mode:state.mode,questions:state.questions,answers:state.answers}).then(r=>{if(!r.ok)console.warn('[save fail]',r.error);});
   }
@@ -2108,7 +3127,12 @@ function showResult(){
   document.getElementById('r-wrong').textContent=total-correctCount;
   const elapsed2=Math.round((Date.now()-state.startTime)/1000);
   const m=Math.floor(elapsed/60),s=elapsed%60;
-  document.getElementById('r-time').textContent=m+':'+String(s).padStart(2,'0');
+  const timeText = elapsed < 60
+    ? `${s} 秒`
+    : elapsed < 3600
+      ? `${m} 分 ${s} 秒`
+      : `${Math.floor(elapsed/3600)} 時 ${Math.floor((elapsed%3600)/60)} 分`;
+  document.getElementById('r-time').textContent = timeText;
   const circ=2*Math.PI*62;
   setTimeout(()=>{document.getElementById('score-ring').style.strokeDashoffset=circ-(score/100)*circ;},100);
   const ring=document.getElementById('score-ring');
@@ -2160,12 +3184,41 @@ function renderMe(){
     <div class="stat-card"><div class="stat-card-label">答對題數</div><div class="stat-card-num">${state.totalCorrect}</div><div class="stat-card-sub">正確率 ${state.totalDone?acc+'%':'—'}</div></div>
     <div class="stat-card"><div class="stat-card-label">最長連勝</div><div class="stat-card-num">${state.maxStreak}</div><div class="stat-card-sub">連續答對紀錄</div></div>
     <div class="stat-card"><div class="stat-card-label">當前連勝</div><div class="stat-card-num">${state.streak}</div><div class="stat-card-sub">目前狀態</div></div>`;
+  // 我的收藏 section
+  const bmHost = document.getElementById('me-bookmarks');
+  if (bmHost) {
+    const bmSet = getBookmarkSet();
+    if (!cloud.isLoggedIn()) {
+      bmHost.className = 'panel-empty';
+      bmHost.innerHTML = '登入後才能收藏考試。<a onclick="openLoginModal()" style="color:var(--accent);font-weight:600;cursor:pointer">立即登入</a>';
+    } else if (!bmSet.size) {
+      bmHost.className = 'panel-empty';
+      bmHost.innerHTML = '還沒收藏任何考試。去 <a href="#/catalog" style="color:var(--accent);font-weight:600">考試目錄</a> 點右上角 ⭐ 開始收藏。';
+    } else {
+      const bmExams = [...bmSet].map(id => exams.find(e=>e.id===id)).filter(Boolean);
+      bmHost.className = '';
+      bmHost.innerHTML = `<div class="exam-grid">${bmExams.map(e => examCardHTML(e, bmSet)).join('')}</div>`;
+      bmHost.querySelectorAll('.bookmark-btn').forEach(btn => {
+        btn.onclick = (ev) => { ev.stopPropagation(); toggleBookmark(btn.dataset.examId); };
+      });
+      bmHost.querySelectorAll('.exam-card').forEach(card => {
+        card.onclick = (ev) => {
+          if (ev.target.closest('.bookmark-btn')) return;
+          if (ev.target.closest('a')) return;
+          pushRecentViewed(card.dataset.examId);
+          nav('exam/'+card.dataset.examId);
+        };
+      });
+    }
+  }
+
   const rec=document.getElementById('me-recent');
   if(!state.recentExams.length){rec.className='panel-empty';rec.innerHTML='還沒有紀錄，<a href="#/catalog" style="color:var(--accent);font-weight:600">去選一個考試</a>開始吧！';return;}
   rec.className='';
   rec.innerHTML=state.recentExams.map(r=>{
     const d=new Date(r.ts);const color=r.score>=80?'var(--correct)':r.score>=60?'var(--warning)':'var(--wrong)';
-    return `<div style="display:flex;align-items:center;gap:12px;padding:12px 0;border-top:1px solid var(--border-light);cursor:pointer" onclick="nav('exam/${r.id}')">
+    const route = (r.kind === 'subject') ? ('subject/'+r.id) : ('exam/'+r.id);
+    return `<div style="display:flex;align-items:center;gap:12px;padding:12px 0;border-top:1px solid var(--border-light);cursor:pointer" onclick="nav('${route}')">
       <div style="width:38px;height:38px;border-radius:9px;background:${color};color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px;flex-shrink:0">${r.score}</div>
       <div><div style="font-size:14px;font-weight:600">${r.name}</div><div style="font-size:12px;color:var(--text-tertiary)">${d.getMonth()+1}/${d.getDate()} · ${r.score}/100 分 · ${r.total} 題</div></div>
       <span style="margin-left:auto;color:var(--text-tertiary)">→</span></div>`;
@@ -2179,6 +3232,21 @@ function resetProgress(){
 }
 
 // ===== BOOT =====
+loadRecentViewed();
+// 登入後把雲端收藏合併到 localStorage
+async function syncCloudBookmarks() {
+  if (!cloud.isLoggedIn()) return;
+  try {
+    const cloudIds = await cloud.loadExamBookmarks();
+    const local = getBookmarkSet();
+    const merged = new Set([...local, ...cloudIds]);
+    saveBookmarkSet(merged);
+    // local 有而 cloud 沒有的 → 補上雲端
+    const missing = [...local].filter(id => !cloudIds.includes(id));
+    for (const id of missing) { await cloud.addExamBookmark(id); }
+  } catch(e) { console.warn('[syncCloudBookmarks]', e); }
+}
+syncCloudBookmarks();
 router();
 </script>
 

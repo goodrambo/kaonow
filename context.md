@@ -1,6 +1,6 @@
 # KaoNow 專案記憶檔
 
-> 最後更新：2026-04-16（v6 subjects 架構 + 6 大系統擴充）
+> 最後更新：2026-04-16（v6 subjects UI 整合完成）
 > 使用方式：每次開啟新對話時，請我先讀這份檔案即可快速接上進度。
 > 維護：每完成一個階段後，請我「更新 context.md」。
 
@@ -119,7 +119,7 @@
 
 **跨考試共用範例：**
 
-`sub-admin-law`（行政法）被 5 個考試引用：高考三級、普考、警察三等（行政警察）、司法三等、律師。未來這個科目一次建好題庫，5 個考試都能抽到。
+`sub-admin-law`（行政法）被 4 個考試引用（7 個 exam_subjects 列，因類科展開）：高考三級（行政/民政/人事 3 類科）、普考（行政/人事 2 類科）、警察三等（行政警察）、律師。未來這個科目一次建好題庫，4 個考試都能抽到。
 
 特色：
 - 原始資料（`*_attempts`）與聚合（`*_progress`）分離，trigger 自動同步
@@ -208,6 +208,8 @@
 | `supabase_schema_v4.sql` | v4 — 25 個專技考試 seed + 4 張表補 updated_at |
 | `supabase_schema_v5.sql` | v5 — 6 大系統 133 個考試 seed + 533 章節 |
 | `supabase_schema_v6.sql` | v6 — subjects + exam_subjects 架構 + 60 科目 + 99 關聯 |
+| `supabase_schema_v6_1.sql` | v6.1 — 補丁：`questions_published` view 補上 `subject_id` 欄位 |
+| `supabase_schema_v6_2.sql` | v6.2 — 資料遷移：單科 exam（甲種職安衛）的 questions/chapters 補 subject_id |
 | `verify_schema.py` | 自動驗證 JS vs SQL schema 對齊 |
 | `generate_ai_questions.py` | AI 批次產題模板（支援 OpenAI / Anthropic）|
 | `outputs/generate_six_systems.py` | 6 大系統考試生成器（可重跑） |
@@ -236,22 +238,33 @@
 - ✅ AI 題目端到端流程驗證（INSERT → 審核 → 前端抽到 → 答題）
 - ✅ 自動化 schema 驗證腳本
 - ✅ Header 垂直置中 bug 修復（flex 嵌套循環高度問題）
-- ✅ **v6 Subjects 架構**：60 科目 + 99 exam_subjects 關聯，支援類科與跨考試題庫共用（僅 DB 層，UI 未整合）
+- ✅ **v6 Subjects 架構**：60 科目 + 99 exam_subjects 關聯，支援類科與跨考試題庫共用
+- ✅ **v6 Subjects UI 整合**（2026-04-16）：
+  - `#/subject/:id` 新路由 + 獨立 `screen-subject` 區塊（概覽/講義/題庫三 tab）
+  - 考試詳情頁偵測 `exam_subjects`：有關聯 → 題庫 pane 變成「類科選擇 + 科目卡片」；無關聯 → 維持舊流程（甲種職安衛）
+  - 科目卡片標示共同/專業 badge（`.subj-badge`）
+  - 科目頁顯示：題目總數、官方/AI 題數、章節、跨考試引用清單
+  - 科目層四模式：隨機（依官方題）/ 單科模擬考（上限 30 題 · 45 分）/ 弱點（過濾本科目題）/ AI 題
+  - cloud 模組新增：`loadExamSubjects / loadSubject / loadSubjectExams / loadSubjectChapters / loadQuestionsBySubject / loadQuestionsBySubjectAndSource`（6 h TTL 雙層快取）
+  - `questions_published` view 補上 `subject_id`（須套 `supabase_schema_v6_1.sql`）
+  - `state.quizScope` 區分 exam/subject 範圍，結果頁「回到學習」自動導回對應頁
+  - 最近練習紀錄加上 `kind` 欄位，支援 subject-scoped 紀錄
+  - 單科無類科的考試（如甲種職安衛）自動走舊版 4 模式 UI，不強迫多一次點擊；只在 overview 底端加個「🔗 本考試對應科目」小提示
+  - v6.2 migration（`supabase_schema_v6_2.sql`）：把舊有 exam-bound 的 questions/chapters 補 subject_id
 
 ---
 
 ## 10. 待辦事項
 
-### 🔥 最優先（UI 整合 v6 Subjects 架構）
-**下一個對話的主要任務。Schema 已就緒，但前端完全未使用。**
-- [ ] 考試詳情頁偵測 `exam_subjects`：
-  - 無關聯 → 保持現狀（甲種職安衛流程）
-  - 有關聯且有多個 `track_name` → 先顯示「選擇類科」selector
-  - 選完類科後列出該類科的 subjects（共同科目 + 該類科專業科目）
-- [ ] 科目卡片：顯示「共同」/「專業」badge
-- [ ] 點科目 → 進科目詳情頁（類似現在的考試詳情，但顯示章節/題庫/講義）
-- [ ] `cloud.loadQuestions(subjectId)`：新增依 subject 載題功能
-- [ ] 模擬考模式：依科目組合決定抽題（例如選了「高考三級-行政」就抽 3 共同 + 4 行政專業科目的題）
+### 🔥 最優先（UI 整合 v6 Subjects 架構）✅ 已完成（2026-04-16）
+- [x] 考試詳情頁偵測 `exam_subjects` → 類科選擇器 + 科目卡片
+- [x] 科目卡片：共同/專業 badge
+- [x] 點科目 → `#/subject/:id` 科目詳情頁（概覽 / 講義 / 題庫）
+- [x] `cloud.loadQuestionsBySubject(subjectId)` 新增
+- [x] 單科模擬考模式（45 分 · 上限 30 題）
+- [x] `supabase_schema_v6_1.sql` 補 `questions_published.subject_id`
+- [ ] 跨科整卷模擬（例：高考三級-行政 7 科聯合卷）— 之後再做，等有題庫
+- [ ] 科目層級講義內容 seed（目前是 placeholder）
 
 ### 近期（Phase B：付費分層）
 - [ ] 讀取 `profiles.current_tier` 判斷訂閱狀態
@@ -338,6 +351,18 @@
 
 15. **STRING_AGG 顯示截斷**
     Supabase SQL Editor 的 table 顯示會截斷長字串。驗證類科數量時用 `GROUP BY + COUNT` 分行顯示，不要用 STRING_AGG。
+
+16. **chapters 表欄位名**
+    是 `name` 不是 `title`、有 `chapter_number`/`question_count`/`sort_order`。第一次寫 `loadSubjectChapters` 時把欄位打錯導致章節 0 的 bug，已修。
+
+17. **HTML attribute 塞 JSON.stringify 會爆**
+    `onclick="foo(${JSON.stringify(str)})"` 會產生 `onclick="foo("中文")"`，攻破屬性雙引號。用 data-* + index 或單引號字串代替。類科切換第一版就踩雷。
+
+18. **CREATE OR REPLACE VIEW 不能改欄位順序**
+    PostgreSQL 限制：同位置不能改欄位名。在中間插欄位要先 `DROP VIEW` 再 `CREATE VIEW`。v6.1 patch 第一版踩到。
+
+19. **state 殘留影響 render**
+    `state.fromExamId` 跨路由不清空會導致科目頁的麵包屑顯示錯的父考試。每次 `renderSubject` 先驗證 `fromExamId` 是否真的引用本科目，否則清掉。
 
 ---
 
