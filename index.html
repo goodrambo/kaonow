@@ -339,7 +339,8 @@ html{scroll-padding-top:calc(var(--header-h) + 16px)}
 }
 
 /* ── AUTH ── */
-.auth-area{display:flex;align-items:center;gap:8px;flex-shrink:0}
+.auth-area{display:flex;align-items:center;gap:8px;flex-shrink:0;align-self:center}
+.user-pill-wrap{position:relative;display:flex;align-items:center}
 .login-btn{padding:7px 16px;border-radius:999px;font-size:13px;font-weight:600;
   background:var(--accent-light);color:var(--accent);border:1.5px solid rgba(45,95,45,0.2);
   cursor:pointer;transition:var(--transition)}
@@ -442,20 +443,20 @@ html{scroll-padding-top:calc(var(--header-h) + 16px)}
         <a href="#/me" data-nav="me">我的</a>
         <a href="#/catalog" class="header-cta" data-nav="_cta">開始練習</a>
       </nav>
-  <div class="auth-area" id="auth-area">
-    <button class="login-btn" id="login-btn" onclick="openLoginModal()">登入 / 註冊</button>
-    <div class="user-pill" id="user-pill" style="display:none" onclick="toggleDropdown()">
-      <div class="user-avatar" id="user-avatar"></div>
-      <span class="user-name" id="user-name"></span>
-    </div>
-    <div style="position:relative">
-      <div class="user-dropdown" id="user-dropdown">
-        <div class="dropdown-item" onclick="nav('me');toggleDropdown(false)">📊 我的學習</div>
-        <div class="dropdown-sep"></div>
-        <div class="dropdown-item danger" onclick="signOut()">登出</div>
+      <div class="auth-area" id="auth-area">
+        <button class="login-btn" id="login-btn" onclick="openLoginModal()">登入 / 註冊</button>
+        <div class="user-pill-wrap" id="user-pill-wrap" style="display:none">
+          <div class="user-pill" id="user-pill" onclick="toggleDropdown()">
+            <div class="user-avatar" id="user-avatar"></div>
+            <span class="user-name" id="user-name"></span>
+          </div>
+          <div class="user-dropdown" id="user-dropdown">
+            <div class="dropdown-item" onclick="nav('me');toggleDropdown(false)">📊 我的學習</div>
+            <div class="dropdown-sep"></div>
+            <div class="dropdown-item danger" onclick="signOut()">登出</div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
       <button class="menu-toggle" onclick="toggleMenu()" aria-label="選單">☰</button>
     </div>
   </div>
@@ -1090,13 +1091,13 @@ supa.auth.onAuthStateChange(async (event, session) => {
 // ── Update header UI ─────────────────────────────────────────
 function updateAuthUI() {
   const loginBtn = document.getElementById('login-btn');
-  const userPill = document.getElementById('user-pill');
+  const userPillWrap = document.getElementById('user-pill-wrap');
   const userAvatar = document.getElementById('user-avatar');
   const userName = document.getElementById('user-name');
   if (!loginBtn) return;
   if (currentUser) {
     loginBtn.style.display = 'none';
-    userPill.style.display = 'flex';
+    userPillWrap.style.display = 'flex';
     const meta = currentUser.user_metadata || {};
     const name = meta.full_name || meta.name || currentUser.email.split('@')[0];
     const avatar = meta.avatar_url || meta.picture;
@@ -1108,7 +1109,7 @@ function updateAuthUI() {
     }
   } else {
     loginBtn.style.display = '';
-    userPill.style.display = 'none';
+    userPillWrap.style.display = 'none';
     userAvatar.textContent = '';
   }
 }
