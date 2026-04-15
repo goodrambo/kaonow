@@ -644,13 +644,273 @@ const supa = supabase.createClient(SUPA_URL, SUPA_KEY, {
 let currentUser = null;
 
 // ── Auth state listener ──────────────────────────────────────
+
+// ╔══════════════════════════════════════════════════════════════════╗
+// ║  KaoNow 集中化雲端模組                                          ║
+// ║  所有 Supabase 互動的唯一進出口。外部只呼叫 cloud.xxx，          ║
+// ║  不再直接碰 supa 或 fetch。                                     ║
+// ║  內建：token 管理、失敗重試、offline queue、統一 log。            ║
+// ╚══════════════════════════════════════════════════════════════════╝
+const cloud = (() => {
+  const URL_BASE = SUPA_URL + '/rest/v1/';
+  const TOKEN_KEY = 'sb-myvfboezhnzgovowhaff-auth-token';
+  const QUEUE_KEY = 'kaonow_offline_queue';
+  const LOG_PREFIX = '[cloud]';
+
+  // ── log 輔助 ────────────────────────────────────────────────────
+  function log(...a) { console.log(LOG_PREFIX, ...a); }
+  function warn(...a) { console.warn(LOG_PREFIX, ...a); }
+
+  // ── token / 用戶 ────────────────────────────────────────────────
+  function readToken() {
+    try {
+      const raw = localStorage.getItem(TOKEN_KEY);
+      if (!raw) return null;
+      const tok = JSON.parse(raw);
+      if (tok.expires_at && Date.now() >= tok.expires_at * 1000) return null;
+      return tok;
+    } catch (e) { return null; }
+  }
+  function clearToken() {
+    try {
+      Object.keys(localStorage).filter(k => k.startsWith('sb-')).forEach(k => localStorage.removeItem(k));
+    } catch (e) {}
+  }
+  function currentUser() {
+    const t = readToken();
+    return t?.user || null;
+  }
+  function userId() { return currentUser()?.id || null; }
+  function isLoggedIn() { return !!userId(); }
+
+  // ── 核心 fetch 包裝（含重試） ──────────────────────────────────
+  async function request(path, opts = {}, retries = 2) {
+    const tok = readToken();
+    const headers = {
+      'apikey': SUPA_KEY,
+      'Authorization': 'Bearer ' + (tok?.access_token || SUPA_KEY),
+      'Content-Type': 'application/json',
+      'Prefer': 'return=representation',
+      ...(opts.headers || {})
+    };
+    let lastErr = null;
+    for (let i = 0; i <= retries; i++) {
+      try {
+        const r = await fetch(URL_BASE + path, { ...opts, headers });
+        const txt = await r.text();
+        let data = null;
+        try { data = txt ? JSON.parse(txt) : null; } catch (e) {}
+        if (r.ok) return { ok: true, status: r.status, data };
+        // 401: session 失效，不重試
+        if (r.status === 401) {
+          warn('session expired on', path);
+          return { ok: false, status: 401, data, error: 'unauthorized' };
+        }
+        // 4xx 客戶端錯誤不重試
+        if (r.status >= 400 && r.status < 500) {
+          warn(path, r.status, data);
+          return { ok: false, status: r.status, data, error: 'client_error' };
+        }
+        lastErr = { status: r.status, data };
+      } catch (e) {
+        lastErr = { error: e.message };
+      }
+      if (i < retries) await new Promise(r => setTimeout(r, 300 * Math.pow(2, i)));
+    }
+    warn('request failed after retries:', path, lastErr);
+    return { ok: false, ...lastErr };
+  }
+
+  // ── Offline queue（網路斷時暫存，上線後重送） ────────────────
+  function enqueue(op) {
+    try {
+      const q = JSON.parse(localStorage.getItem(QUEUE_KEY) || '[]');
+      q.push({ ...op, ts: Date.now() });
+      localStorage.setItem(QUEUE_KEY, JSON.stringify(q.slice(-100))); // cap at 100
+      log('queued:', op.kind);
+    } catch (e) {}
+  }
+  async function flushQueue() {
+    try {
+      const q = JSON.parse(localStorage.getItem(QUEUE_KEY) || '[]');
+      if (!q.length) return;
+      log('flushing', q.length, 'queued operations');
+      const remaining = [];
+      for (const op of q) {
+        const r = await request(op.path, op.opts);
+        if (!r.ok && r.error !== 'client_error') {
+          remaining.push(op); // keep retrying transient errors
+        }
+      }
+      localStorage.setItem(QUEUE_KEY, JSON.stringify(remaining));
+    } catch (e) { warn('flush error:', e); }
+  }
+
+  // ── 公開 API ────────────────────────────────────────────────────
+
+  // 儲存一次測驗結果（exam_sessions + question_attempts + 聚合）
+  async function saveSession({ examId, score, total, mode, questions, answers }) {
+    const uid = userId();
+    if (!uid) { log('not logged in, skip saveSession'); return { ok: false, error: 'not_logged_in' }; }
+
+    const correctCount = answers.filter(a => a && a.correct).length;
+    const normalizedMode = mode === 'all-random' ? 'random' : mode;
+
+    // 1. exam_sessions
+    const r1 = await request('exam_sessions', {
+      method: 'POST',
+      body: JSON.stringify({
+        user_id: uid, exam_id: examId, mode: normalizedMode,
+        total_questions: total, correct_count: correctCount,
+        score_percent: score, is_completed: true,
+        completed_at: new Date().toISOString()
+      })
+    });
+    if (!r1.ok) {
+      // 失敗就進 offline queue
+      enqueue({
+        kind: 'save_session', path: 'exam_sessions',
+        opts: { method: 'POST', body: JSON.stringify({
+          user_id: uid, exam_id: examId, mode: normalizedMode,
+          total_questions: total, correct_count: correctCount,
+          score_percent: score, is_completed: true,
+          completed_at: new Date().toISOString()
+        })}
+      });
+      return { ok: false, error: 'session_failed' };
+    }
+    const sessionId = r1.data?.[0]?.id;
+    log('session saved', sessionId);
+
+    // 2. exam_progress（upsert）
+    await request('exam_progress?on_conflict=user_id,exam_id', {
+      method: 'POST',
+      headers: { 'Prefer': 'resolution=merge-duplicates,return=representation' },
+      body: JSON.stringify({
+        user_id: uid, exam_id: examId,
+        total_attempts: state.totalDone, correct_attempts: state.totalCorrect,
+        current_streak: state.streak, max_streak: state.maxStreak,
+        last_practiced_at: new Date().toISOString(),
+        updated_at: new Date().toISOString()
+      })
+    });
+
+    // 3. user_stats（upsert）
+    await request('user_stats?on_conflict=user_id', {
+      method: 'POST',
+      headers: { 'Prefer': 'resolution=merge-duplicates,return=representation' },
+      body: JSON.stringify({
+        user_id: uid,
+        total_questions_answered: state.totalDone,
+        total_correct: state.totalCorrect,
+        current_streak: state.streak, max_streak: state.maxStreak,
+        updated_at: new Date().toISOString()
+      })
+    });
+
+    // 4. question_attempts（每題一筆）
+    if (sessionId && questions.length > 0) {
+      const attempts = questions.map((q, i) => {
+        const ans = answers[i];
+        if (!ans) return null;
+        return {
+          session_id: sessionId, user_id: uid,
+          question_id: q.id,                    // 現在必定有
+          exam_id: examId, chapter_id: examId + '-ch' + q.ch,
+          selected_answer: ans.selected, is_correct: ans.correct,
+          attempted_at: new Date().toISOString()
+        };
+      }).filter(Boolean);
+      if (attempts.length > 0) {
+        const r4 = await request('question_attempts', {
+          method: 'POST', body: JSON.stringify(attempts)
+        });
+        if (r4.ok) log(attempts.length, 'attempts saved');
+        else warn('attempts failed:', r4);
+      }
+    }
+    return { ok: true, sessionId };
+  }
+
+  // 讀取用戶進度 + 最近考試（登入時呼叫）
+  async function loadProgress() {
+    const uid = userId();
+    if (!uid) return null;
+    const [statsR, sessR] = await Promise.all([
+      request('user_stats?user_id=eq.' + uid + '&select=*'),
+      request('exam_sessions?user_id=eq.' + uid +
+        '&is_completed=eq.true&order=completed_at.desc&limit=5' +
+        '&select=exam_id,score_percent,total_questions,completed_at')
+    ]);
+    return {
+      stats: statsR.ok && statsR.data?.[0] ? statsR.data[0] : null,
+      recentSessions: sessR.ok ? (sessR.data || []) : []
+    };
+  }
+
+  // 合併 local + cloud 狀態到 state
+  async function mergeAndSync() {
+    try {
+      const p = await loadProgress();
+      if (!p) return;
+      if (p.stats) {
+        state.totalDone = Math.max(state.totalDone || 0, p.stats.total_questions_answered || 0);
+        state.totalCorrect = Math.max(state.totalCorrect || 0, p.stats.total_correct || 0);
+        state.maxStreak = Math.max(state.maxStreak || 0, p.stats.max_streak || 0);
+      }
+      if (p.recentSessions.length > 0) {
+        const cloudRecent = p.recentSessions.map(s => {
+          const ex = exams.find(e => e.id === s.exam_id);
+          return {
+            id: s.exam_id, name: ex ? ex.name : s.exam_id,
+            score: s.score_percent, total: s.total_questions,
+            ts: new Date(s.completed_at).getTime()
+          };
+        });
+        state.recentExams = [...cloudRecent, ...(state.recentExams || [])]
+          .filter((v, i, a) => a.findIndex(x => x.id === v.id) === i)
+          .sort((a, b) => b.ts - a.ts).slice(0, 5);
+      }
+      saveState();
+      log('sync complete');
+    } catch (e) { warn('sync error:', e); }
+  }
+
+  // 登出：清 token、清 queue、重設 state 顯示
+  async function logout() {
+    try { await supa.auth.signOut(); } catch (e) {}
+    clearToken();
+    try { localStorage.removeItem(QUEUE_KEY); } catch (e) {}
+    log('logged out');
+  }
+
+  // 應用啟動時呼叫：還原 session、拉雲端資料、flush queue
+  async function init() {
+    if (isLoggedIn()) {
+      await mergeAndSync();
+      await flushQueue();
+    }
+  }
+
+  return {
+    // 狀態查詢
+    isLoggedIn, currentUser, userId,
+    // 資料操作
+    saveSession, loadProgress, mergeAndSync,
+    // 生命週期
+    logout, init, flushQueue,
+    // 底層（內部使用）
+    _request: request
+  };
+})();
+
+
 supa.auth.onAuthStateChange(async (event, session) => {
   currentUser = session?.user ?? null;
-  // Only manipulate UI if DOM is ready
   if (document.readyState !== 'loading') updateAuthUI();
   if (event === 'SIGNED_IN') {
-    showToast('登入成功！正在同步學習紀錄...');
-    await mergeAndSyncProgress();
+    showToast('登入成功，正在同步紀錄...');
+    await cloud.init();
     if (typeof state !== 'undefined' && state.route === 'me') renderMe();
   }
   if (event === 'SIGNED_OUT') {
@@ -739,113 +999,11 @@ async function sendMagicLink() {
 // ── Sign out ─────────────────────────────────────────────────
 async function signOut() {
   toggleDropdown(false);
-  await supa.auth.signOut();
-}
-
-// ── Progress sync ─────────────────────────────────────────────
-// Merge local state into cloud, then load cloud state
-async function mergeAndSyncProgress() {
-  if (!currentUser) return;
-  try {
-    // Load cloud progress
-    // 從 user_stats 讀取雲端總統計
-    const {data: cloudStats} = await supa
-      .from('user_stats')
-      .select('total_questions_answered, total_correct, max_streak')
-      .eq('user_id', currentUser.id)
-      .single();
-
-    // Merge: take max of local vs cloud
-    const local = {
-      totalDone: state.totalDone || 0,
-      totalCorrect: state.totalCorrect || 0,
-      maxStreak: state.maxStreak || 0,
-    };
-    const cloud = cloudStats ? {
-      totalDone: cloudStats.total_questions_answered || 0,
-      totalCorrect: cloudStats.total_correct || 0,
-      maxStreak: cloudStats.max_streak || 0,
-    } : {totalDone:0, totalCorrect:0, maxStreak:0};
-
-    state.totalDone    = Math.max(local.totalDone, cloud.totalDone);
-    state.totalCorrect = Math.max(local.totalCorrect, cloud.totalCorrect);
-    state.maxStreak    = Math.max(local.maxStreak, cloud.maxStreak);
-
-    // Merge recent exams from cloud sessions
-    const {data: sessions} = await supa
-      .from('exam_sessions')
-      .select('exam_id, score_percent, total_questions, completed_at')
-      .eq('user_id', currentUser.id)
-      .eq('is_completed', true)
-      .order('completed_at', {ascending:false})
-      .limit(5);
-    if (sessions && sessions.length > 0) {
-      const cloudRecent = sessions.map(s => {
-        const examObj = exams.find(e => e.id === s.exam_id);
-        return {
-          id: s.exam_id,
-          name: examObj ? examObj.name : s.exam_id,
-          score: s.score_percent, total: s.total_questions,
-          ts: new Date(s.completed_at).getTime()
-        };
-      });
-      // Merge with local, deduplicate by exam_id, sort by date
-      const merged = [...cloudRecent, ...state.recentExams]
-        .filter((v,i,a) => a.findIndex(x=>x.id===v.id) === i)
-        .sort((a,b) => b.ts - a.ts)
-        .slice(0,5);
-      state.recentExams = merged;
-    }
-    saveState();
-  } catch(e) { console.warn('Sync error:', e); }
-}
-
-// Save result to Supabase after quiz
-async function saveSessionToCloud(examId, examName, score, total, mode) {
-  if (!currentUser) return;
-  try {
-    const correctCount = state.answers.filter(a=>a&&a.correct).length;
-    const {data: sessionData, error: sErr} = await supa.from("exam_sessions").insert({
-      user_id: currentUser.id, exam_id: examId, mode: (mode==="all-random"?"random":mode),
-      total_questions: total, correct_count: correctCount,
-      score_percent: score, is_completed: true,
-      completed_at: new Date().toISOString()
-    }).select().single();
-    if (sErr) console.warn("exam_sessions error:", sErr);
-
-    await supa.from("exam_progress").upsert({
-      user_id: currentUser.id, exam_id: examId,
-      total_attempts: state.totalDone, correct_attempts: state.totalCorrect,
-      current_streak: state.streak, max_streak: state.maxStreak,
-      last_practiced_at: new Date().toISOString(), updated_at: new Date().toISOString()
-    }, {onConflict: "user_id,exam_id"});
-
-    await supa.from("user_stats").upsert({
-      user_id: currentUser.id,
-      total_questions_answered: state.totalDone, total_correct: state.totalCorrect,
-      current_streak: state.streak, max_streak: state.maxStreak,
-      updated_at: new Date().toISOString()
-    }, {onConflict: "user_id"});
-
-    if (sessionData && state.questions.length > 0) {
-      const attempts = state.questions.map((q,i) => {
-        const ans = state.answers[i];
-        if (!ans) return null;
-        return {
-          session_id: sessionData.id, user_id: currentUser.id,
-          question_id: q.id || (examId+"-q"+String(i+1).padStart(3,"0")),
-          exam_id: examId, chapter_id: examId+"-ch"+q.ch,
-          selected_answer: ans.selected, is_correct: ans.correct,
-          attempted_at: new Date().toISOString()
-        };
-      }).filter(Boolean);
-      if (attempts.length) {
-        const {error: aErr} = await supa.from("question_attempts").insert(attempts);
-        if (aErr) console.warn("question_attempts error:", aErr);
-      }
-    }
-    console.log("Cloud save OK: session", sessionData?.id);
-  } catch(e) { console.warn("Cloud save error:", e); }
+  await cloud.logout();
+  currentUser = null;
+  updateAuthUI();
+  showToast('已登出');
+  if (typeof state !== 'undefined' && state.route === 'me') renderMe();
 }
 
 // ── Toast ────────────────────────────────────────────────────
@@ -861,11 +1019,19 @@ function showToast(msg) {
 
 // ── Init: restore session on page load (wait for DOM) ────────
 function bootAuth() {
-  (async () => {
-    const {data:{session}} = await supa.auth.getSession();
-    currentUser = session?.user ?? null;
+  if (cloud.isLoggedIn()) {
+    currentUser = cloud.currentUser();
     updateAuthUI();
-    if (currentUser) await mergeAndSyncProgress();
+    cloud.init();
+    return;
+  }
+  (async () => {
+    try {
+      const r = await supa.auth.getSession();
+      currentUser = r?.data?.session?.user ?? null;
+      updateAuthUI();
+      if (currentUser) await cloud.init();
+    } catch(e) { console.warn('Auth boot error:', e); updateAuthUI(); }
   })();
 }
 if (document.readyState === 'loading') {
@@ -1064,169 +1230,160 @@ const exams=[
 ];
 
 // ===== QUESTION BANK (155 questions) =====
-const questionBanks={'osh-a':[
-// CH0: 職業安全衛生相關法規 (40題)
-{ch:0,q:"依《職業安全衛生法》規定，下列何者屬於「危險性機械」？",opts:["固定式起重機","研磨機","車床","鑽床"],ans:0,exp:"依法第16條，危險性機械包括固定式起重機、移動式起重機、人字臂起重桿、營建用升降機、營建用提升機及吊籠。研磨機、車床、鑽床屬一般機械設備。"},
-{ch:0,q:"事業單位勞工人數達幾人以上，應設管理單位及置管理人員？",opts:["30人","50人","100人","200人"],ans:0,exp:"依法第23條，勞工人數在30人以上者，應依規模及性質設管理單位與管理人員。"},
-{ch:0,q:"僱用勞工人數在幾人以上，應設置職業安全衛生委員會？",opts:["30人","50人","100人","200人"],ans:2,exp:"依《職業安全衛生管理辦法》，100人以上事業單位應設職安衛委員會，至少每3個月開會一次。"},
-{ch:0,q:"工作場所發生哪種災害，雇主應於8小時內通報勞動檢查機構？",opts:["勞工受傷需住院","發生死亡災害","勞工輕微擦傷","機械故障停工"],ans:1,exp:"依法第37條，發生死亡災害、罹災人數3人以上或指定災害，應於8小時內通報勞動檢查機構。"},
-{ch:0,q:"勞動檢查員進入事業單位實施檢查，下列何者正確？",opts:["雇主可以拒絕","需事先通知","得隨時進入","需取得搜索票"],ans:2,exp:"依《勞動檢查法》第14條，勞動檢查員執行職務得隨時進入事業單位，任何人不得無故拒絕。"},
-{ch:0,q:"原事業單位違反職安法致承攬人勞工發生職業災害，應如何負責？",opts:["由承攬人單獨負責","負連帶賠償責任","由勞保局負責","可免除責任"],ans:1,exp:"依法第25條，原事業單位違反職安法致承攬人勞工職業災害，與承攬人負連帶賠償責任，再承攬者亦同。"},
-{ch:0,q:"職業安全衛生委員會應至少每幾個月開會一次？",opts:["1個月","2個月","3個月","6個月"],ans:2,exp:"依《職業安全衛生管理辦法》，職安衛委員會至少每3個月開會一次，應由雇主或代理人擔任主任委員。"},
-{ch:0,q:"依《職業安全衛生法》，雇主對有母性健康危害之虞工作，應採取何種措施？",opts:["禁止女性勞工從事","實施危害評估並採適當保護措施","增加工資補償","提供額外休假"],ans:1,exp:"依法第31條，雇主應對有母性健康危害之虞的工作，採危害評估、控制及分級管理措施，並視評估結果調整工作。"},
-{ch:0,q:"安全衛生工作守則訂定後，應報經何者備查後公告實施？",opts:["勞動部","當地勞動檢查機構","職安衛委員會","縣市政府"],ans:1,exp:"依法第34條，雇主應會同勞工代表訂定安全衛生工作守則，報經當地勞動檢查機構備查後公告實施。"},
-{ch:0,q:"依職安法規定，雇主對具有危險性之設備，應向哪個機構申請檢查合格後才能使用？",opts:["衛生福利部","勞動部","檢查機構或中央指定代行檢查機構","地方政府"],ans:2,exp:"依法第16條，危險性機械或設備須經檢查機構或中央主管機關指定之代行檢查機構檢查合格，方可使用。"},
-{ch:0,q:"職安法所稱「主管機關」，在中央為哪個部會？",opts:["衛生福利部","勞動部","內政部","經濟部"],ans:1,exp:"依法第2條，中央主管機關為勞動部，直轄市主管機關為直轄市政府，縣（市）主管機關為縣（市）政府。"},
-{ch:0,q:"雇主對作業環境或危害應採取哪種危害防止計畫優先順序？",opts:["個人防護具→工程控制→消除危害","消除危害→取代→工程控制→行政管理→個人防護具","行政管理→個人防護具→工程控制","個人防護具為最優先措施"],ans:1,exp:"危害防止的優先順序為：消除危害→取代（低危害替代）→工程控制→行政管理→個人防護具（PPE），消除危害最優先。"},
-{ch:0,q:"依法，雇主應對員工定期實施健康檢查，一般健康檢查頻率為何？",opts:["每年一次","每2年一次","每3年一次","依勞工年齡而定"],ans:3,exp:"依《勞工健康保護規則》，40歲以上每年一次；未滿40歲者，視年齡區段為每2年或每5年一次，故依年齡而定。"},
-{ch:0,q:"事業單位工作場所發生職業災害，雇主除採取緊急措施外，應即調查災害原因及採取必要措施的期限為何？",opts:["24小時內","3日內","7日內","15日內"],ans:1,exp:"依法第37條，雇主應即採取必要措施，並於3日內通報勞動檢查機構（死亡及重大災害須於8小時內通報）。"},
-{ch:0,q:"依職安法，違反職業安全衛生工作守則之勞工，雇主得對其實施何種措施？",opts:["立即解雇","依規定予以告誡或懲處","向主管機關申報","罰款扣薪"],ans:1,exp:"依法第34條，勞工不遵守安全衛生工作守則，雇主得依規定予以告誡或懲處，但應依照既有勞動法令規定辦理。"},
-{ch:0,q:"依《職業安全衛生法》，工作者發現職場有立即危險時，有何種權利？",opts:["只能向主管報告","有權立即撤離現場","應等雇主指示再行動","需繼續工作直到危險排除"],ans:1,exp:"依法第18條，工作場所有立即發生危險之虞，工作者得在不危及其他工作者安全情形下，自行撤離危險場所。"},
-{ch:0,q:"下列哪種職業災害通報不需在8小時內？",opts:["死亡災害","罹災人數達3人以上","罹災人數達1人但需住院","中央主管機關指定公告之災害"],ans:2,exp:"依法第37條，8小時內通報的條件是：死亡、罹災3人以上、或指定公告之災害。1人住院的情形，應於3日內通報即可。"},
-{ch:0,q:"高壓氣體製造安全技術員的資格取得是依據哪個法規？",opts:["職業安全衛生法","勞動基準法","危險性機械及設備安全檢查規則","高壓氣體勞工安全規則"],ans:2,exp:"高壓氣體相關設備的技術員資格，依《危險性機械及設備安全檢查規則》的規定辦理。"},
-{ch:0,q:"依法，職業安全衛生主管機關對事業單位工作場所進行檢查時，事業單位應如何配合？",opts:["可拒絕無預告之檢查","應提供必要之設施及資料配合","可要求先行預約再受檢","無義務配合"],ans:1,exp:"依《勞動檢查法》，事業單位對勞動檢查機構實施之檢查，應提供必要之設施及資料予以配合，不得拒絕或規避。"},
-{ch:0,q:"依《職業安全衛生管理辦法》，甲類事業單位應設置職業安全衛生管理員的最低人數依何因素決定？",opts:["事業單位資本額","勞工人數","事業單位場所面積","危害等級"],ans:1,exp:"職安衛管理員的設置人數主要依勞工人數決定，人數越多，所需管理員越多，甲類為高危害性質之事業單位。"},
-{ch:0,q:"依《職業安全衛生法》規定，何種情況下雇主得免除職業災害補償責任？",opts:["勞工自行違反操作程序","天災引起且非人力所能抗拒","勞工有酒駕行為","雇主已採取適當安全措施"],ans:1,exp:"依法第84條，職業災害如係因天災或其他不可抗力所致，且雇主已盡職安義務，始得減輕或免除補償責任。"},
-{ch:0,q:"依《職業安全衛生法施行細則》，「危害性化學品」包含下列何者？",opts:["僅含有毒物質","危險物及有害物","一般清潔用品","所有化學品"],ans:1,exp:"依施行細則，危害性化學品指的是危險物（如易燃、爆炸性物質）及有害物（如有毒、腐蝕性物質）兩大類。"},
-{ch:0,q:"依《職業安全衛生設施規則》，雇主應確保機械的防護設備在使用前已確實安裝，違反此規定最高可處多少罰鍰？",opts:["新台幣3萬元","新台幣15萬元","新台幣30萬元","新台幣100萬元"],ans:2,exp:"依職安法第43條，違反機械防護設備設置等規定，主管機關可處新台幣3萬至30萬元不等罰鍰。"},
-{ch:0,q:"依《職業安全衛生法》，下列何者是「職業安全衛生管理計畫」必須包含的內容之一？",opts:["員工薪資規劃","作業環境監測計畫","員工請假管理","倉儲管理規定"],ans:1,exp:"依法第23條，職安衛管理計畫應包含工作環境或作業危害辨識、評估及控制、安全衛生作業標準、作業環境監測等。"},
-{ch:0,q:"依《勞動檢查法》，勞動檢查員執行檢查後，認有違反法令規定應予改善，應如何處理？",opts:["當場罰款","通知事業單位限期改善","立即停工","移送司法機關"],ans:1,exp:"依《勞動檢查法》第26條，勞動檢查員認定有違反法令情形，應通知事業單位限期改善，並得停工或採取必要措施。"},
-{ch:0,q:"職安法中「工作者」的定義，下列何者正確？",opts:["僅包含有薪資的受僱勞工","包含受僱勞工、自營作業者及接受訓練者","只限全職員工","外籍移工不包含在內"],ans:1,exp:"依法第2條，工作者指受僱勞工、自營作業者及接受職業訓練者，不限國籍或僱用型態。"},
-{ch:0,q:"依《職業安全衛生設施規則》第243條，對地電壓幾伏特以上的電氣設備應裝設漏電斷路器？",opts:["100V","150V","200V","220V"],ans:1,exp:"對地電壓在150V以上的電氣設備，或在導電性良好場所（金屬板、潮濕地面等）使用移動式或攜帶式電動機具，應裝設漏電斷路器。"},
-{ch:0,q:"依職安法，事業單位與承攬人共同作業時，原事業單位應負哪些協調義務？",opts:["無需協調，各自負責","應指定現場協調員進行安全衛生協調"],ans:1,exp:"依法第27條，原事業單位應採取協調聯絡、巡視作業場所、整體性危害預防計畫等措施。（此為簡化版題目，正式考試會有四選項）"},
-{ch:0,q:"依《職業安全衛生法》，對於職業災害的補償，下列何者敘述正確？",opts:["職業災害補償與民事損害賠償可以同時主張","職業災害補償取得後不得再請求民事損害賠償","職業災害補償僅限於身體傷害","補償金額由雇主自行決定"],ans:0,exp:"依民法及勞基法規定，職業災害補償（勞基法）與民事損害賠償可同時主張，但可扣抵重複部分。"},
-{ch:0,q:"依法，雇主對於在職勞工在職前應使其接受哪種訓練？",opts:["只需在職一般教育訓練","特殊教育訓練","適於各工作之安全衛生教育訓練","法令課程"],ans:2,exp:"依法第32條，雇主對新僱勞工或在職勞工於變更工作前，應使其接受適於各工作必要之安全衛生教育訓練。"},
-{ch:0,q:"《職業安全衛生法》中對於特別危害健康作業的健康管理，主管機關應如何分級？",opts:["不需分級","分為一般及特殊兩類","依職業病風險分四級管理","依工作年限分類"],ans:2,exp:"依《勞工健康保護規則》，特別危害健康作業的健康管理分為第一至第四級，依健康狀況採取不同的管理措施。"},
-{ch:0,q:"依《職業安全衛生法》，設置職業安全衛生管理員之事業單位，其管理員應具備何種資格？",opts:["任何大學畢業即可","須持有職業安全管理師、衛生管理師或相關訓練合格證書","須具備10年工作經驗","只需雇主指定即可"],ans:1,exp:"依《職業安全衛生管理辦法》，職安衛管理員應具備職業安全管理師、職業衛生管理師或職業安全衛生管理員資格。"},
-{ch:0,q:"依職安法，雇主使勞工從事危險性工作時，應採取之措施不包含下列何者？",opts:["危害告知","提供適當防護具","安全衛生教育訓練","提高薪資補償危險"],ans:3,exp:"職安法規定雇主應採取危害告知、提供防護具、實施訓練等措施。提高薪資不屬於職安措施，且不能以薪資替代安全措施。"},
-{ch:0,q:"依《職業安全衛生設施規則》，局限空間作業前，氧氣濃度應確認在幾%以上？",opts:["16%","18%","20%","21%"],ans:1,exp:"局限空間作業前應確認空氣中氧氣濃度在18%以上，低於18%屬缺氧環境，勞工不得進入，應先通風換氣。"},
-{ch:0,q:"依勞動檢查法，勞動檢查員發現工作場所有立即發生危險之虞時，得為何種處置？",opts:["僅能開具改善通知","得當場要求停工","需提報上級核准後始得處置","只能拍照存證"],ans:1,exp:"依《勞動檢查法》第28條，有立即危險之虞時，檢查員得當場要求雇主採取安全措施，包括停工。"},
-{ch:0,q:"依《職業安全衛生法》，下列何種行為屬於雇主的積極義務？",opts:["僅在發生事故後才需採取措施","事前預防危害的發生","僅在勞工要求時提供防護具","不需主動通知危害"],ans:1,exp:"職安法精神是事前預防優於事後補救，雇主有積極預防、辨識危害、評估風險及採取控制措施的義務。"},
-{ch:0,q:"依法，職業安全衛生法的適用範圍為何？",opts:["僅適用工廠","僅適用特定行業","各業雇用勞工從事工作之場所","僅限公共工程"],ans:2,exp:"依法第2條，職安衛法適用於各業雇用勞工從事工作之場所，適用範圍廣泛，不限特定行業。"},
-{ch:0,q:"依《職業安全衛生設施規則》，高度幾公尺以上工作場所邊緣應設護欄等防護設備？",opts:["1公尺","1.5公尺","2公尺","3公尺"],ans:2,exp:"依設施規則第224條，高度2公尺以上的工作場所邊緣及開口部分，有墜落危險之虞者，應設護欄、護蓋或安全網。"},
-{ch:0,q:"職安法中「自動檢查」的目的為何？",opts:["取代政府勞動檢查","讓雇主自行發現並改善危害","讓勞工自行管理安全","降低政府管制負擔"],ans:1,exp:"自動檢查制度的目的在於讓事業單位主動對設備、作業環境等進行定期自主檢點，及早發現並消除危害。"},
-{ch:0,q:"依《職業安全衛生法》，事業單位於施工前應擬訂工程施工安全衛生計畫的最低金額門檻為何？",opts:["500萬元","1000萬元","3000萬元","5000萬元"],ans:1,exp:"依相關規定，符合一定規模（約1000萬元以上）的施工工程，承攬人應擬訂施工安全衛生計畫，報請原事業單位備查。"},
-{ch:0,q:"依職安法，雇主應提供符合安全標準的作業環境，此義務屬於哪種法律概念？",opts:["契約義務","法定義務","道德義務","習慣法義務"],ans:1,exp:"職安法明文規定雇主保障勞工安全衛生的義務，屬於法定義務，不論勞動契約是否有約定，雇主均應履行。"},
-
-// CH1: 職業安全衛生管理概論 (30題)
-{ch:1,q:"安全衛生管理系統PDCA循環中，C代表什麼？",opts:["Control控制","Check查核","Change變更","Correct矯正"],ans:1,exp:"PDCA為Plan計畫、Do執行、Check查核、Act行動改善，C代表Check查核階段，評估執行成效是否達到目標。"},
-{ch:1,q:"下列何者不是風險評估的步驟？",opts:["辨識危害","評估風險","決定控制措施","懲處違規勞工"],ans:3,exp:"風險評估步驟：辨識危害→評估風險→決定控制措施→執行→監督與審查。懲處違規勞工不屬風險評估步驟。"},
-{ch:1,q:"職安衛管理計畫中，最高決策者應為何人？",opts:["安全衛生管理員","現場主管","事業經營負責人","勞工代表"],ans:2,exp:"依管理系統精神，事業經營負責人（雇主）為安全衛生最高決策者，展現最高管理階層的承諾與領導。"},
-{ch:1,q:"ISO 45001職安衛管理系統中，「領導與工作者參與」要素包含哪項？",opts:["危害鑑別","內部稽核","管理階層承諾","緊急應變"],ans:2,exp:"ISO 45001中「領導與工作者參與」包含最高管理階層承諾、安全衛生政策制定、工作者及代表的參與與諮商。"},
-{ch:1,q:"風險控制措施的優先順序，下列何者最優先？",opts:["使用個人防護具","工程控制","消除危害","行政管理"],ans:2,exp:"風險控制優先序：消除危害→取代（以低危害替代）→工程控制→行政管理→個人防護具，消除危害最優先。"},
-{ch:1,q:"安全衛生工作守則應由誰負責訂定？",opts:["勞工自行訂定","政府機關統一制定","雇主會同勞工代表訂定","工會單方面訂定"],ans:2,exp:"依職安法第34條，安全衛生工作守則應由雇主會同勞工代表共同訂定，報主管機關備查後公告實施。"},
-{ch:1,q:"「海因里希法則（1:29:300）」說明什麼？",opts:["1件重傷：29件輕傷：300件無傷事故","1件死亡：29件重傷：300件輕傷","1件事故：29件近似事故：300件不安全行為","1件職業病：29件慢性病：300件亞健康"],ans:0,exp:"海因里希法則指出，每1件嚴重傷害事故背後有29件輕傷事故和300件無傷事故（未遂事件），強調預防未遂事件的重要性。"},
-{ch:1,q:"職業安全衛生管理系統(OSHMS)的最終目標為何？",opts:["通過認證取得競爭優勢","持續改善職場安全衛生績效以預防事故","達到最低法規遵循要求","降低保險費用"],ans:1,exp:"OSHMS最終目標是持續改善職場安全衛生績效，預防職業災害及職業病，保護工作者健康。"},
-{ch:1,q:"下列何者屬於「不安全行為」(unsafe act)？",opts:["地板潮濕未放警示牌","缺乏護欄","未依規定佩戴安全帽","電氣設備老舊"],ans:2,exp:"不安全行為指工作者個人行為上的缺失；不安全環境指設備或環境的危險狀態。未戴安全帽屬個人行為問題。"},
-{ch:1,q:"危害辨識的常用方法「What-If分析法」主要適用於哪種情況？",opts:["事故發生後的原因分析","設計或操作流程的系統性危害辨識","法規遵循查核","個人健康評估"],ans:1,exp:"What-If分析法透過「如果…會發生什麼？」的問題方式，對設計或操作流程進行系統性危害辨識，屬於預防性分析。"},
-{ch:1,q:"「失誤模式與影響分析(FMEA)」是哪種安全分析方法？",opts:["事故後調查方法","自下而上的失誤分析方法","自上而下的失誤分析方法","僅適用化工廠的方法"],ans:1,exp:"FMEA（Failure Mode and Effects Analysis）是自下而上的分析方法，從零組件或子系統的失誤模式出發，分析其對系統的影響。"},
-{ch:1,q:"「故障樹分析(FTA)」是哪種安全分析方法？",opts:["自下而上的失誤分析","自上而下的系統失誤分析","設備保養計畫","人因分析工具"],ans:1,exp:"FTA（Fault Tree Analysis）是自上而下的分析方法，從頂端事件（如意外）出發，逐層追溯可能導致的原因（邏輯樹狀圖）。"},
-{ch:1,q:"下列何者是職業安全衛生管理系統的「稽核」主要目的？",opts:["懲處管理人員","驗證系統是否有效運作及符合計畫要求","對外宣傳公司形象","取代勞動檢查"],ans:1,exp:"稽核目的在驗證管理系統是否有效運作、符合既定計畫及法規要求，並提供改善依據，不是懲處手段。"},
-{ch:1,q:"「事故金字塔」概念強調什麼？",opts:["重大事故比小事故重要","應重視輕微事故和未遂事件的預防","事故調查應由外部機構執行","安全成本與生產效率相衝突"],ans:1,exp:"事故金字塔（海因里希法則的延伸）強調，大量輕微事故和未遂事件是重大事故的前兆，預防要從底層做起。"},
-{ch:1,q:"職場安全文化的核心特徵為何？",opts:["主要靠罰則推動安全","組織各層級對安全的共同承諾與積極態度","僅強調規定與手冊","以成本效益評估安全投入"],ans:1,exp:"正向的安全文化強調組織各層級（從高層到基層）對安全的共同承諾、主動積極的態度，以及開放的溝通文化。"},
-{ch:1,q:"「殘餘風險」(residual risk)的定義為何？",opts:["尚未評估的風險","採取控制措施後仍然存在的風險","可以接受的最大風險值","超出法規要求的風險"],ans:1,exp:"殘餘風險指採取所有可行的風險控制措施之後，仍然存在且無法完全消除的風險。"},
-{ch:1,q:"工作安全分析（JSA/JHA）的步驟順序正確為何？",opts:["選定工作→列出步驟→辨識危害→採取措施","辨識危害→列出步驟→選定工作→採取措施","採取措施→選定工作→辨識危害→列出步驟","選定工作→辨識危害→採取措施→列出步驟"],ans:0,exp:"工作安全分析（JSA/Job Hazard Analysis）的正確步驟：①選定要分析的工作②逐步分解工作步驟③辨識每一步驟的危害④制定控制措施。"},
-{ch:1,q:"依ISO 45001，「脈絡（Context）」指的是什麼？",opts:["組織的辦公環境","影響組織能達成OHSMS目標的內外部因素","員工的工作背景","業務流程描述"],ans:1,exp:"ISO 45001中的「組織脈絡」指影響組織OHSMS目標達成的內外部因素，包含法規環境、利害關係人需求、組織文化等。"},
-{ch:1,q:"「危害」(Hazard)與「風險」(Risk)的差異為何？",opts:["兩者意義相同","危害是危害來源或狀況，風險是危害造成傷害的可能性與嚴重度的組合","風險比危害更嚴重","危害是指事故後果，風險是指可能性"],ans:1,exp:"危害（Hazard）是可能造成傷害的來源、狀況或行為；風險（Risk）是危害事件的可能性（Likelihood）與嚴重度（Severity）的組合。"},
-{ch:1,q:"職場安全衛生管理中，「管理承諾」(Management Commitment)的重要性為何？",opts:["僅是形式要件，實質影響不大","是建立正向安全文化的基礎，直接影響整體安全績效","只在通過認證時才需要展現","主要用於應付勞動檢查"],ans:1,exp:"管理承諾（尤其是最高管理者的承諾）是建立正向安全文化的基礎，直接影響資源分配、員工態度與整體安全績效。"},
-{ch:1,q:"「近失事故（Near-Miss）」報告制度的主要目的為何？",opts:["懲處差點造成事故的員工","分析未遂事件，預防未來的實際事故","符合法規要求的書面作業","作為保險申報依據"],ans:1,exp:"近失事故（Near-Miss）是未造成傷害但差點發生的事件，透過報告和分析這類事件，可以找出系統弱點並加以改善，預防未來事故。"},
-{ch:1,q:"下列哪個是「主動式」安全衛生績效指標（Leading Indicator）？",opts:["事故發生率","職業病件數","安全訓練完成率","職業傷害嚴重度"],ans:2,exp:"主動式（領先）指標反映事故前的預防活動，如訓練完成率、安全觀察次數；落後指標（Lagging Indicator）如事故率，反映已發生的結果。"},
-{ch:1,q:"「OHSAS 18001」與「ISO 45001」的關係為何？",opts:["兩者是完全不同的標準","ISO 45001是OHSAS 18001的升級版，已取代後者","OHSAS 18001是ISO 45001的升級版","兩者可同時並行認證"],ans:1,exp:"ISO 45001於2018年發布，2021年OHSAS 18001正式廢止，ISO 45001已完全取代OHSAS 18001，成為職安衛管理系統的國際標準。"},
-{ch:1,q:"職安衛風險評估中，「風險矩陣」(Risk Matrix)主要用來評估什麼？",opts:["設備價值","風險的可能性與嚴重度，以決定風險等級","勞工薪資水準","生產效率"],ans:1,exp:"風險矩陣是以「可能性（發生機率）」與「嚴重度（後果）」兩個維度，交叉評估風險等級，決定是否可接受及所需控制措施。"},
-{ch:1,q:"下列何者屬於「行政管理控制」(Administrative Control)措施？",opts:["安裝機器護罩","以低毒性物質取代高毒性物質","實施作業輪班降低暴露時間","提供個人呼吸防護具"],ans:2,exp:"行政管理控制包括：工作輪班、工作程序制定、訓練教育、警告標示等；工程控制是改變設備/環境；取代是消除或減少危害來源。"},
-{ch:1,q:"職業安全衛生內部稽核應由誰執行？",opts:["必須由外部機構執行","可由受過訓練的內部人員執行","只能由最高管理者執行","委由勞動檢查機構代為執行"],ans:1,exp:"內部稽核可由受訓練的組織內部人員執行，但稽核人員不應稽核自己的工作區域（獨立性原則）；外部稽核由認證機構執行。"},
-{ch:1,q:"「工作場所風險評估」完成後，應多久更新一次？",opts:["每10年一次","定期或在重大變更、事故後重新評估","只需評估一次","在政府要求時才需更新"],ans:1,exp:"風險評估應定期更新（如每年或依規定頻率），並在工作流程重大變更、新設備引入、事故發生後，或法規改變時重新評估。"},
-{ch:1,q:"下列何者是「系統安全分析」中的「能量跡象圖（Energy Trace & Barrier Analysis）」的核心概念？",opts:["追蹤能量使用效率","分析不受控制的能量釋放是事故的根本原因","評估設備耗能情況","計算能源成本"],ans:1,exp:"能量理論認為幾乎所有事故都涉及不受控制的能量釋放（如動能、熱能、電能等），屬Haddon能量模型的應用。"},
-{ch:1,q:"「事故調查」的主要目的應為何？",opts:["找出犯錯的員工並予以懲處","找出根本原因（Root Cause）以防止類似事故再發","快速結案以減少法律責任","滿足保險公司的要求"],ans:1,exp:"事故調查的核心目的是找出事故的直接原因和根本原因（Root Cause），以採取有效的改善措施，防止類似事故再次發生。"},
-{ch:1,q:"工廠推行「5S」活動，與職業安全衛生有何關聯？",opts:["5S是純生產管理工具，與安全無關","5S中的整理、整頓、清掃可消除許多工作場所危害","5S主要目的是提升產品品質","5S活動由品管部門負責，安全衛生部門不介入"],ans:1,exp:"5S（整理、整頓、清掃、清潔、素養）中整理去除不必要物品、整頓定位、清掃去除污染源，可消除絆倒、滑倒等許多危害，與職安衛密切相關。"},
-
-// CH2: 安全管理與危害預防 (35題)
-{ch:2,q:"對地電壓幾伏特以上電氣設備應裝設漏電斷路器？",opts:["100V","150V","200V","220V"],ans:1,exp:"依設施規則第243條，對地電壓150V以上電氣設備，或在導電性良好場所使用移動式電動機具，應裝設感電防止用漏電斷路器。"},
-{ch:2,q:"局限空間作業前，氧氣濃度應在多少%以上？",opts:["16%","18%","20%","21%"],ans:1,exp:"依設施規則，局限空間應確認氧氣濃度18%以上，低於18%屬缺氧環境，勞工不得進入，需先通風換氣。"},
-{ch:2,q:"墜落災害防止的最優先對策為何？",opts:["使用安全帶","設置護欄","張掛安全網","限制作業時間"],ans:1,exp:"依危害控制優先序：設護欄（工程控制/消除危害）→安全網→安全帶（個人防護具）。設置護欄最優先。"},
-{ch:2,q:"特高壓係指超過幾伏特之電壓？",opts:["600V","3,300V","11,400V","22,800V"],ans:3,exp:"依設施規則：低壓≤600V，高壓600V至22,800V，特高壓>22,800V。"},
-{ch:2,q:"有機溶劑作業場所應設置何種通風裝置？",opts:["自然通風即可","整體換氣或局部排氣裝置","僅需配戴口罩","定期開窗通風"],ans:1,exp:"依《有機溶劑中毒預防規則》，有機溶劑作業場所應設密閉設備、局部排氣或整體換氣裝置，防止勞工中毒。"},
-{ch:2,q:"高度幾公尺以上工作場所邊緣應設護欄等防護設備？",opts:["1公尺","1.5公尺","2公尺","3公尺"],ans:2,exp:"依設施規則第224條，高度2公尺以上工作場所邊緣及開口，有墜落危險之虞者，應設護欄、護蓋或安全網。"},
-{ch:2,q:"物質安全資料表（SDS/Safety Data Sheet）共有幾個項目？",opts:["8項","12項","16項","20項"],ans:2,exp:"依GHS制度，SDS（安全資料表）標準格式共有16個必要項目，包括物質名稱、危害辨識、成分、急救措施等。"},
-{ch:2,q:"下列哪種滅火劑不適用於電氣火災（C類火災）？",opts:["二氧化碳滅火劑","乾粉滅火劑","泡沫滅火劑","鹵素系（海龍）滅火劑"],ans:2,exp:"泡沫滅火劑含水分，導電性高，不可用於電氣設備火災（C類）。CO2、乾粉、鹵素系均可用於電氣火災。"},
-{ch:2,q:"「缺氧症預防規則」定義缺氧狀態的氧氣濃度為低於多少？",opts:["19%","18%","16%","21%"],ans:1,exp:"依《缺氧症預防規則》，氧氣濃度未滿18%的狀態稱為缺氧，勞工進入此類場所需有防護措施。"},
-{ch:2,q:"移動式起重機作業時，起重機司機、吊掛作業勞工及地面作業監視人員的通聯，應以何種方式進行？",opts:["手機通話","事先約定的手號信號","口頭喊叫","不需要特別通聯"],ans:1,exp:"依規定，起重機作業應以事先約定好的手號信號（或對講機）進行溝通，以確保作業人員明確了解吊運指令，防止意外。"},
-{ch:2,q:"作業環境中常用的粉塵控制方法，下列何者屬於「工程控制」？",opts:["縮短作業時間","要求工人戴口罩","設置局部排氣裝置","進行健康檢查"],ans:2,exp:"設置局部排氣裝置（Local Exhaust Ventilation）屬於工程控制，直接從粉塵產生源頭排除；縮短時間屬行政控制；口罩屬PPE。"},
-{ch:2,q:"依「高空作業」相關規定，從事高空作業時，安全帶掛鉤應掛在何處？",opts:["腰部以下固定物","高於頭部以上的固定物或滑動式安全扣環","任意固定物","不需要掛鉤"],ans:1,exp:"安全帶的掛鉤點應高於作業者頭部，或使用滑動式扣環（Self-retracting Lifeline），以確保墜落距離最小，提高保護效果。"},
-{ch:2,q:"下列何者不屬於「密閉空間（局限空間）」的特徵？",opts:["開口有限、不足以讓人自由進出","通風換氣不良","非供人員持續佔用而設計","空間寬大且通風良好"],ans:3,exp:"局限空間特徵：進出口受限、非持續使用設計、通風不良、可能含有害氣體或缺氧。空間寬大且通風良好不屬其特徵。"},
-{ch:2,q:"輸配電架空線路下方施工作業，最主要的危害為何？",opts:["噪音危害","電擊（感電）危害","振動危害","熱危害"],ans:1,exp:"在高壓架空電線下方施工，最主要的危害是電擊（感電），設備或機具若碰觸到帶電線路，會造成嚴重傷亡。"},
-{ch:2,q:"依規定，一般化學品的物質安全資料表（SDS）應在採購後何時提供給使用者？",opts:["使用前","交貨時隨附","採購後30天內","勞工要求時才需提供"],ans:1,exp:"依職安法，雇主應確保危害性化學品在使用前，SDS（安全資料表）已提供給相關勞工，通常在交貨時隨附。"},
-{ch:2,q:"手持式電動工具的使用，何種情況下觸電風險最高？",opts:["在乾燥室內使用","在潮濕或潮濕場所使用","穿著厚底鞋作業","使用雙重絕緣工具"],ans:1,exp:"潮濕環境下（如戶外、地下、鑄造場等），人體電阻降低，觸電電流增大，電擊（感電）風險最高。"},
-{ch:2,q:"「物理性爆炸」與「化學性爆炸」的主要差異為何？",opts:["兩者沒有本質差異","物理性爆炸源於壓力突然釋放，化學性爆炸涉及化學反應","物理性爆炸比化學性爆炸更危險","化學性爆炸不產生高溫"],ans:1,exp:"物理性爆炸如鍋爐或高壓氣體容器破裂，源於壓力突然釋放；化學性爆炸如火藥爆炸，涉及快速氧化等化學反應並釋放大量能量。"},
-{ch:2,q:"「可燃性氣體」爆炸需要同時具備哪三個條件（火災三角形）？",opts:["可燃物、助燃劑、引火源","可燃物、濕度、溫度","可燃物、低溫、高壓","助燃劑、水分、溫度"],ans:0,exp:"火災（爆炸）三角形：可燃物（Fuel）+ 助燃劑（Oxidizer，通常是氧氣）+ 引火源（Ignition Source），三者缺一不可。"},
-{ch:2,q:"下列何者是預防機械傷害（夾捲）最有效的工程控制措施？",opts:["對機械部件噴漆提醒","設置固定式安全護罩（Fixed Guard）","張貼警告標示","教育訓練工人注意"],ans:1,exp:"固定式安全護罩是直接覆蓋危險運動部件的工程控制，可有效防止肢體進入夾捲區，是最有效的機械安全措施。"},
-{ch:2,q:"依「鉛中毒預防規則」，鉛作業場所的吸菸及飲食行為是否被允許？",opts:["允許，但需在休息時間進行","嚴格禁止在作業場所飲食吸菸","只允許飲水","雇主自行規定"],ans:1,exp:"依《鉛中毒預防規則》，鉛作業場所嚴格禁止飲食、吸菸，以防止鉛由口腔途徑進入人體。作業後必須徹底洗手。"},
-{ch:2,q:"對於起重機作業，「額定荷重」的定義為何？",opts:["起重機最大設計荷重的120%","起重機在各種作業條件下可安全吊升的最大荷重","起重機自重加上吊具重量","起重機在最差條件下的荷重"],ans:1,exp:"額定荷重（Rated Capacity/SWL, Safe Working Load）是起重機在特定作業狀況（臂長、作業半徑等）下，可安全吊升的最大荷重。"},
-{ch:2,q:"下列何者不是焊接作業的主要危害？",opts:["弧光傷害眼睛","有毒焊接煙塵","觸電危害","噪音污染"],ans:3,exp:"焊接主要危害包括弧光（紫外線/紅外線）傷眼、有毒金屬焰（如錳、氧化鐵）、觸電（尤其是電弧焊）、火災爆炸。噪音非焊接的主要危害。"},
-{ch:2,q:"實施高架作業前，應考慮的主要安全措施為何？",opts:["確認天氣良好","評估跌落高度與使用適當防護設備（護欄、安全網、安全帶）","提高日照強度","僅提醒工人注意"],ans:1,exp:"高架作業前應確認作業高度、設置護欄或安全網（工程控制），若無法設置則使用安全帶（個人防護），並評估作業環境。"},
-{ch:2,q:"「選擇性聽力損失（Noise-Induced Hearing Loss）」最先受損的頻率為何？",opts:["250Hz（低頻）","1000Hz","4000Hz（高頻）","所有頻率同時受損"],ans:2,exp:"噪音性聽力損失（NIHL）最先且最典型受損的是4000Hz（4kHz）頻率，在聽力圖上呈現「4kHz缺口（Notch）」。"},
-{ch:2,q:"依《危險性機械及設備安全檢查規則》，鍋爐的使用前檢查由誰執行？",opts:["雇主自行執行","勞動部指定之檢查機構","地方衛生局","ISO認證機構"],ans:1,exp:"依規則，鍋爐、壓力容器、起重機等危險性機械或設備，使用前須申請勞動部指定之檢查機構實施竣工/定期檢查。"},
-{ch:2,q:"下列哪種呼吸防護具適用於氧氣濃度不足的環境？",opts:["防塵口罩","防毒面具（活性碳過濾）","供氣式呼吸防護具（SCBA/空氣瓶）","有機蒸氣面具"],ans:2,exp:"缺氧環境（<18%氧氣）必須使用供氣式呼吸防護具（如自攜式空氣呼吸器SCBA），依靠外部供氣，不能使用依賴現場空氣的濾式防毒面具。"},
-{ch:2,q:"「局部排氣裝置（LEV）」的設計目的為何？",opts:["提供新鮮空氣給工人","在危害物質散布至工作環境前，從發生源直接排除","稀釋整體環境中的有害物","降低作業場所溫度"],ans:1,exp:"局部排氣裝置（Local Exhaust Ventilation）在危害物質（粉塵、有機溶劑蒸氣等）從發生源散布前，直接從源頭捕集並排除，效果優於整體換氣。"},
-{ch:2,q:"依規定，進入局限空間前必須執行的氣體監測不包含下列何者？",opts:["氧氣濃度","可燃性氣體濃度","有害氣體（如H2S、CO）濃度","二氧化碳產生量"],ans:3,exp:"進入局限空間前必測：①氧氣濃度（≥18%）②可燃氣體濃度（<爆炸下限25%）③有毒氣體（H2S、CO等）。CO2雖需注意，但法規主要規定前三項。"},
-{ch:2,q:"下列何者是防止工作場所火災爆炸最基本的工程控制措施？",opts:["配置滅火器","消除或隔離引火源","訓練工人緊急疏散","定期演練消防行動"],ans:1,exp:"防止火災爆炸最根本的工程控制是消除或隔離引火源（如防爆電器、禁止明火、靜電接地等），從源頭消除爆炸三角形的一個要素。"},
-{ch:2,q:"下列何者是工業界常用的「連鎖裝置（Interlock）」主要用途？",opts:["防止設備被盜","確保防護設備被移除時機器自動停機","記錄設備使用時間","控制設備溫度"],ans:1,exp:"連鎖裝置（Interlock）的主要安全用途是確保防護設備（護罩、護欄）被移除或開啟時，機器自動停機，防止人員在機器運轉時接觸危險部件。"},
-{ch:2,q:"搬運重物時，正確的人工物料搬運（Manual Handling）姿勢為何？",opts:["彎腰用背部力量搬起","保持背部挺直，以腿部肌肉出力搬起","扭轉身體抬起","只用手臂力量"],ans:1,exp:"正確搬運姿勢：保持背部挺直、屈膝蹲低，靠近重物，用腿部肌肉（大肌群）出力，避免背部彎曲扭轉以防腰傷。"},
-{ch:2,q:"「化學品暴露限值（OEL/TLV）」的定義最接近何者？",opts:["任何暴露都有害的濃度","大部分工作者每日反覆暴露而不造成不良健康影響的濃度","立即危及生命的濃度","引發急性中毒的濃度"],ans:1,exp:"OEL（職業暴露限值）如ACGIH的TLV-TWA，指幾乎所有工作者每天8小時、每週40小時反覆暴露，不致對健康產生不良影響的平均濃度。"},
-{ch:2,q:"工作場所的「應急逃生路線」設計，應遵循哪項原則？",opts:["路線越多越好，至少10條","緊急出口應鎖住以防入侵","確保逃生路徑保持暢通，標示清楚且有緊急照明","逃生路線設計不需考慮殘障人士"],ans:2,exp:"應急逃生路線設計應：路徑暢通無障礙物、有清楚的緊急出口標示、具備緊急照明、至少有兩個獨立方向的逃生路線，並考慮行動不便人員。"},
-
-// CH3: 衛生管理與健康保護 (30題)
-{ch:3,q:"一般健康檢查的紀錄應保存幾年？",opts:["3年","5年","7年","10年"],ans:2,exp:"依《勞工健康保護規則》，雇主對勞工一般健康檢查紀錄應保存7年；特殊健康檢查紀錄保存10年以上（部分游離輻射作業30年）。"},
-{ch:3,q:"特殊作業勞工每年應接受幾次特殊健康檢查？",opts:["1次","2次","3次","視作業類別而定"],ans:0,exp:"依《勞工健康保護規則》，從事特別危害健康作業的勞工，雇主每年應定期實施1次特殊健康檢查。"},
-{ch:3,q:"工作場所噪音超過幾dB時，應採取工程控制等措施？",opts:["80dB","85dB","90dB","95dB"],ans:2,exp:"依設施規則，8小時日時量平均音壓級超過90dB時，雇主應採工程控制（如隔音、吸音）、縮短暴露時間等措施。"},
-{ch:3,q:"高溫場所工作之勞工，每日工作時間不得超過幾小時？",opts:["4小時","6小時","8小時","10小時"],ans:1,exp:"依《高溫作業勞工作息時間標準》，高溫場所工作之勞工每日工作時間不得超過6小時，且應給予適當休息。"},
-{ch:3,q:"哪種化學物質可能導致「水俁病」？",opts:["鉛化合物","汞化合物","鉻化合物","鎘化合物"],ans:1,exp:"水俁病由有機汞（甲基汞）中毒引起，主要症狀為神經損害、致畸胎。水俁病最早在日本水俁市發現，因工廠排放含汞廢水污染魚類所致。"},
-{ch:3,q:"黑球溫度測量用黑色銅球直徑應為幾公分？",opts:["10cm","12cm","15cm","20cm"],ans:2,exp:"黑球溫度計使用直徑15公分的中空黑色銅球，插入溫度計量取輻射熱效應，代表環境輻射熱。"},
-{ch:3,q:"「鎘」中毒引起的職業病稱為什麼？",opts:["矽肺症","痛痛病","水俁病","塵肺症"],ans:1,exp:"鎘中毒可引起「痛痛病」（又稱伊泰伊泰病），主要影響腎臟和骨骼，1955年首先在日本富山縣神通川流域發現。"},
-{ch:3,q:"「游離輻射」對人體最敏感的組織為何？",opts:["骨骼","造血器官（骨髓）","皮膚","神經系統"],ans:1,exp:"造血器官（骨髓）、性腺、眼晶狀體對游離輻射最為敏感，骨髓受輻射損傷可造成造血功能障礙。"},
-{ch:3,q:"預防矽肺症（職業性塵肺病），最根本的控制方法為何？",opts:["定期胸部X光檢查","使用有效的防塵口罩","控制作業環境粉塵濃度（工程控制）","縮短工作時數"],ans:2,exp:"矽肺症最根本的預防是控制作業環境中游離二氧化矽（SiO2）粉塵濃度（工程控制），如濕式作業、局部排氣，而非依賴個人防護具。"},
-{ch:3,q:"「職業性噪音引起的聽力損失（NIHL）」最先發生在哪個頻率？",opts:["250Hz","1,000Hz","4,000Hz","8,000Hz"],ans:2,exp:"NIHL（噪音性聽力損失）最先且典型受損頻率為4,000Hz，在聽力圖上呈現「4kHz缺口（Notch）」現象，早期無明顯主觀感受。"},
-{ch:3,q:"「全身振動」主要危害哪個系統？",opts:["消化系統","呼吸系統","脊椎和下背部（肌肉骨骼系統）","視覺系統"],ans:2,exp:"全身振動（WBV，如搭乘工程機械、車輛等）主要危害脊椎和下背部，可引起腰痛、椎間盤損傷等肌肉骨骼疾病。"},
-{ch:3,q:"「手臂振動症候群」（HAV）的主要症狀為何？",opts:["手臂骨折","手指末梢血液循環障礙（白指症）","手腕扭傷","肩部脫臼"],ans:1,exp:"手臂振動症候群（Hand-Arm Vibration Syndrome，HAVS）主要症狀是Raynaud現象（白指症），即手指末梢血液循環障礙，手指在寒冷時出現蒼白、麻木。"},
-{ch:3,q:"「人因工程」(Ergonomics)的目的在於何者？",opts:["提高機器效率","設計工作以適合工作者的能力與限制，減少職業傷害","增加工作強度","降低設備成本"],ans:1,exp:"人因工程（Ergonomics）的目的是透過設計工作、工具、工作站，使其符合人體結構和能力，減少職業性肌肉骨骼傷害（MSD），提升效率與舒適性。"},
-{ch:3,q:"長期暴露於有機溶劑可能引起哪種職業病？",opts:["矽肺症","塵肺症","有機溶劑中毒（肝腎傷害、神經毒性）","噪音性聽力損失"],ans:2,exp:"長期暴露有機溶劑（苯、甲苯、二甲苯等）可引起慢性有機溶劑中毒，症狀包括肝腎功能損傷、中樞神經系統傷害（頭暈、認知障礙）。"},
-{ch:3,q:"「塵肺症」是由什麼原因引起的職業病？",opts:["長期高溫作業","長期吸入無機粉塵沉積在肺部","接觸有機溶劑","重金屬中毒"],ans:1,exp:"塵肺症（Pneumoconiosis）是因長期吸入礦物性/無機粉塵（如矽塵、石綿、煤塵）沉積在肺部，引起纖維化病變，最常見的是矽肺症。"},
-{ch:3,q:"依《勞工健康保護規則》，從事哪類作業的勞工，健康檢查紀錄需保存30年？",opts:["高溫作業","粉塵作業","游離輻射作業","有機溶劑作業"],ans:2,exp:"依規則，從事游離輻射作業勞工的特殊健康檢查紀錄，保存期限最長，應保存至少30年（其他特殊作業一般為10年）。"},
-{ch:3,q:"「職業性皮膚病」最常見的致因為何？",opts:["紫外線過度暴露","接觸刺激性或致敏性化學品（接觸性皮膚炎）","振動暴露","電磁波暴露"],ans:1,exp:"職業性皮膚病最常見的是接觸性皮膚炎（Contact Dermatitis），由直接接觸刺激性物質（如清潔劑、酸鹼）或致敏物質引起，占職業病相當大比例。"},
-{ch:3,q:"「石綿（Asbestos）」接觸最主要引起的疾病為何？",opts:["矽肺症","石綿肺症與間皮瘤（Mesothelioma）","鉛中毒","噪音性聽力損失"],ans:1,exp:"石綿接觸可引起石綿肺症（Asbestosis）、肺癌及惡性間皮瘤（Mesothelioma，主要發生在胸膜），潛伏期可長達20~40年。"},
-{ch:3,q:"「工作壓力」引起的健康問題，屬於何種職業危害？",opts:["物理性危害","化學性危害","心理社會性危害（Psychosocial Hazard）","生物性危害"],ans:2,exp:"工作壓力、暴力、騷擾等屬於心理社會性危害（Psychosocial Hazard），可引起工作倦怠、焦慮、抑鬱、心血管疾病等。"},
-{ch:3,q:"「物理性危害」包含下列何者？",opts:["有機溶劑","病毒感染","噪音、振動、輻射","工作壓力"],ans:2,exp:"物理性危害包括噪音、振動、游離/非游離輻射、極端溫度（高溫、低溫）、氣壓等；化學性危害是各種有害化學品；生物性是微生物；心理社會是壓力、暴力。"},
-{ch:3,q:"「呼吸性粉塵（Respirable Dust）」的特性為何？",opts:["粒徑大於100微米","粒徑小於10微米，可到達肺泡","顏色呈白色","密度特別高"],ans:1,exp:"呼吸性粉塵指粒徑較小（一般<10µm，尤其<4µm）的粉塵，能穿越上呼吸道防禦機制，沉積在肺泡，造成塵肺症等嚴重疾病。"},
-{ch:3,q:"「生物性危害（Biological Hazard）」最常見於哪種工作環境？",opts:["電子工廠","醫療機構、農業和污水處理","金屬冶煉廠","辦公室"],ans:1,exp:"生物性危害（如細菌、病毒、真菌、寄生蟲等）最常見於醫療機構（血液傳播疾病）、農業（人畜共通傳染病）、污水處理（腸道病原體）等。"},
-{ch:3,q:"「熱衰竭（Heat Exhaustion）」與「熱中暑（Heat Stroke）」的最主要區別為何？",opts:["兩者症狀完全相同","熱中暑有中樞體溫調節失效（高燒>40°C）且為生命威脅","熱衰竭比熱中暑嚴重","熱衰竭須立即送醫，熱中暑可自行恢復"],ans:1,exp:"熱衰竭：大量流汗、頭暈、皮膚濕冷，體溫可能正常或略升，通常可恢復。熱中暑（Heat Stroke）：體溫調節失效、體溫>40°C、皮膚乾燥熱、可能無汗、意識障礙，屬醫療緊急狀況。"},
-{ch:3,q:"噪音暴露的控制措施，依優先順序應為何？",opts:["先提供耳塞，再考慮工程控制","消除或降低噪音源→工程隔音→行政管理（輪班）→個人防護（耳塞/耳罩）","只需要工人戴耳塞","行政管理優先於工程控制"],ans:1,exp:"噪音控制優先序：①消除/替換噪音源②工程控制（隔音、吸音、防振）③行政管理（工作輪換縮短暴露）④個人防護（耳塞、耳罩）。"},
-{ch:3,q:"「職業暴露限值（OEL）時間加權平均值（TWA）」的計算基礎為何？",opts:["每小時最大暴露濃度","8小時工作日的平均暴露濃度","30分鐘最大暴露值","單次暴露的峰值"],ans:1,exp:"OEL-TWA（時間加權平均值）以8小時工作日為基礎，計算整個工作班次的加權平均暴露濃度，代表長期反覆暴露的健康基準值。"},
-{ch:3,q:"依《勞工健康保護規則》，健康管理的分級中，第一級管理的意義為何？",opts:["需要立即停止作業","健康正常，可繼續工作並進行一般健康促進","需要特殊醫療介入","限制從事特定作業"],ans:1,exp:"健康管理分級：第一級（正常）繼續工作；第二級（異常但未達職業病標準）加強追蹤；第三級（疑似職業病）需醫師評估；第四級（確認職業病）需醫療處置。"},
-{ch:3,q:"「非游離輻射（Non-Ionizing Radiation）」包含下列何者？",opts:["X射線","伽瑪射線","紫外線（UV）、可見光、紅外線（IR）、微波、無線電波","阿爾法粒子"],ans:2,exp:"非游離輻射包括：紫外線（UV）、可見光、紅外線（IR）、微波（Microwave）、無線電波（RF）等。X射線、伽瑪射線、α/β粒子屬游離輻射。"},
-{ch:3,q:"「工作場所職業健康護理師」的主要職責不包含下列何者？",opts:["健康評估與監測","職業危害調查","診斷治療職業病","健康諮詢與衛教"],ans:2,exp:"職業健康護理師負責健康評估、監測、職業危害調查、健康諮詢等；「診斷治療職業病」屬醫師職責，護理師不得獨立執行診斷治療。"},
-{ch:3,q:"長期低頻率暴露於游離輻射的慢性效應，下列何者最受關注？",opts:["急性放射症候群","癌症（尤其是白血病和固態癌）的風險增加","立即性皮膚灼傷","神經系統急性損傷"],ans:1,exp:"慢性（低劑量長期）游離輻射暴露最主要的慢性效應是癌症風險增加，包括白血病、甲狀腺癌、骨髓癌等，其影響有數年至數十年的潛伏期。"},
-
-// CH4: 職業安全衛生教育訓練 (20題)
-{ch:4,q:"甲種職業安全衛生業務主管訓練時數不得少於幾小時？",opts:["21小時","35小時","42小時","115小時"],ans:2,exp:"依《職業安全衛生教育訓練規則》，甲種職安衛業務主管訓練時數不得少於42小時；乙種35小時；丙種21小時。"},
-{ch:4,q:"職業安全衛生業務主管在職教育訓練應每幾年接受一次？",opts:["1年","2年","3年","5年"],ans:1,exp:"依訓練規則，職安衛業務主管每2年至少應接受在職教育訓練一次，每次不得少於6小時。"},
-{ch:4,q:"新僱勞工或變更工作前應接受的一般安全衛生教育訓練，時數不得少於幾小時？",opts:["1小時","2小時","3小時","6小時"],ans:2,exp:"依訓練規則第17條，新僱或變更工作前應接受適於工作必要的一般安全衛生教育訓練，不得少於3小時。"},
-{ch:4,q:"下列哪種人員的訓練時數最長？",opts:["丙種職安衛業務主管","乙種職安衛業務主管","甲種職安衛業務主管","一般勞工"],ans:2,exp:"各級訓練時數：甲種42小時 > 乙種35小時 > 丙種21小時 > 一般勞工3小時。甲種業務主管訓練時數最長。"},
-{ch:4,q:"依訓練規則，從事缺氧危險作業主管的安全衛生訓練時數為幾小時？",opts:["6小時","12小時","18小時","24小時"],ans:1,exp:"依《職業安全衛生教育訓練規則》，缺氧危險作業主管訓練時數為18小時（依規則規定，請以最新版規則為準）。"},
-{ch:4,q:"「職業安全衛生管理師」與「職業安全衛生管理員」的主要差異為何？",opts:["兩者職責完全相同","管理師有更高的學歷及實務要求，職責較廣","管理員比管理師需要更多訓練","兩者可由同一人擔任"],ans:1,exp:"職安衛管理師需具備特定學歷（如工業安全相關科系）及實務經驗，負責較廣泛的管理工作；管理員資格相對較低，負責較具體的事務性工作。"},
-{ch:4,q:"緊急應變演練應多久進行一次？",opts:["每年至少一次","每5年一次","僅在發生災害後","不需定期演練"],ans:0,exp:"依規定及管理實務，緊急應變演練（消防演習、疏散演練等）應每年至少實施一次，以確保員工熟悉緊急程序。"},
-{ch:4,q:"從事「粉塵危害預防」的特定安全衛生教育訓練，內容應包含何者？",opts:["財務管理","相關法規、粉塵危害、防護具使用及緊急應變","行銷技巧","生產效率提升"],ans:1,exp:"特定危害作業的訓練內容須涵蓋：相關法規、危害特性與健康影響、防護設備及個人防護具的使用、緊急應變措施等。"},
-{ch:4,q:"職業安全衛生教育訓練的「成效評估」應包含哪四個層次（依Kirkpatrick模型）？",opts:["理論、實務、考試、應用","反應、學習、行為、結果","觀察、訓練、測驗、回顧","計畫、執行、查核、改善"],ans:1,exp:"Kirkpatrick四層次評估：Level 1反應（學員滿意度）→Level 2學習（知識/技能獲得）→Level 3行為（工作行為改變）→Level 4結果（組織績效改善）。"},
-{ch:4,q:"依法，雇主應保存教育訓練紀錄幾年？",opts:["1年","3年","5年","10年"],ans:1,exp:"依《職業安全衛生教育訓練規則》，雇主應保存教育訓練紀錄，一般應保存3年以備查核。"},
-{ch:4,q:"哪種教育訓練方式最適合訓練工作人員的「技能操作」？",opts:["講課（課堂授課）","閱讀教材","實作（On-the-Job Training, OJT）","線上測驗"],ans:2,exp:"技能操作訓練最有效的方式是實作訓練（OJT, On-the-Job Training），在實際工作環境中演示和練習，比單純課堂教學更有效。"},
-{ch:4,q:"從事「高壓氣體」作業的勞工，依規定需接受幾小時以上的安全教育訓練？",opts:["3小時","6小時","18小時","依雇主規定"],ans:2,exp:"依訓練規則，高壓氣體製造安全技術員等特定職類需接受18小時以上的專業訓練（各職類時數依規則規定）。"},
-{ch:4,q:"「職業安全衛生教育訓練」的主要目的為何？",opts:["增加雇主利潤","提升勞工的安全衛生知識、技能與態度，預防職業災害","滿足法規的最低要求","取代雇主的安全管理責任"],ans:1,exp:"職安衛教育訓練目的是提升工作者的危害認知、安全操作技能及安全態度，進而預防職業災害，保護工作者健康，而非僅為法規合規。"},
-{ch:4,q:"從事「有機溶劑作業」的相關主管，應接受至少幾小時的專業訓練？",opts:["6小時","12小時","18小時","24小時"],ans:2,exp:"依訓練規則，有機溶劑作業主管需接受18小時以上的訓練，包含法規、危害特性、安全作業程序等。"},
-{ch:4,q:"教育訓練需求分析（TNA）的目的為何？",opts:["決定訓練預算","找出組織的訓練需求與差距，確保訓練資源用在最需要的地方","讓所有員工接受相同訓練","取得ISO認證"],ans:1,exp:"訓練需求分析（Training Needs Analysis, TNA）的目的是分析組織、工作及個人三個層次的訓練缺口，確保訓練課程針對實際需求，有效使用資源。"},
-{ch:4,q:"依訓練規則，安全衛生業務主管的訓練機構，需向哪個機關申請認可？",opts:["地方政府","勞動部","衛生福利部","教育部"],ans:1,exp:"依《職業安全衛生教育訓練規則》，辦理安全衛生業務主管訓練的機構，需向中央主管機關（勞動部）申請認可，才可辦理合法訓練。"},
-{ch:4,q:"「現場教育訓練（OJT）」的優點包含何者？",opts:["成本高，但效果最差","直接在真實工作環境中訓練，學以致用效果高","只適合新進員工","需大量事前準備，彈性差"],ans:1,exp:"OJT（現場訓練）優點：在真實工作場所訓練、立即應用、成本相對低、可依學員進度調整；缺點是品質取決於師傅素質，有時安全風險較高。"},
-{ch:4,q:"從事起重機具「操作」的勞工，除了基本3小時訓練外，還需接受哪種特定訓練？",opts:["不需額外訓練","特定設備的操作訓練及技術士檢定","只需閱讀操作手冊","完成在職訓練即可"],ans:1,exp:"操作危險性機械（如固定式起重機）的勞工，除一般訓練外，需接受特定設備操作訓練，部分職類並需取得技術士證照，方可獨立操作。"},
-{ch:4,q:"「安全觀察（Safety Observation）」作為訓練工具的主要目的為何？",opts:["懲處違規員工","藉由觀察實際工作行為，提供即時回饋，強化安全行為","記錄員工缺失供日後懲處","滿足稽核要求"],ans:1,exp:"安全觀察程序（Behavior-Based Safety的核心工具）是觀察工作者的實際行為，給予正向鼓勵安全行為、即時糾正不安全行為的回饋，作為行為改變工具。"},
-{ch:4,q:"對於高風險作業（如局限空間、高空作業），訓練後還應採取何種措施確保安全？",opts:["不需額外措施，訓練後即可作業","需實際演練並取得「許可作業（Permit-To-Work）」才能執行","只需口頭確認已受訓","雇主自行決定"],ans:1,exp:"高風險作業（如局限空間進入、高空作業、熱工作業）訓練完成後，作業前仍需申請「工作許可證（Permit-To-Work, PTW）」，確認危害已控制，才能開始作業。"},
+const questionBanks={"osh-a":[
+  {id:"osh-a-ch0-001",ch:0,q:"依《職業安全衛生法》規定，下列何者屬於「危險性機械」？",opts:["固定式起重機","研磨機","車床","鑽床"],ans:0,exp:"依法第16條，危險性機械包括固定式起重機、移動式起重機、人字臂起重桿、營建用升降機、營建用提升機及吊籠。研磨機、車床、鑽床屬一般機械設備。"},
+  {id:"osh-a-ch0-002",ch:0,q:"事業單位勞工人數達幾人以上，應設管理單位及置管理人員？",opts:["30人","50人","100人","200人"],ans:0,exp:"依法第23條，勞工人數在30人以上者，應依規模及性質設管理單位與管理人員。"},
+  {id:"osh-a-ch0-003",ch:0,q:"僱用勞工人數在幾人以上，應設置職業安全衛生委員會？",opts:["30人","50人","100人","200人"],ans:2,exp:"依《職業安全衛生管理辦法》，100人以上事業單位應設職安衛委員會，至少每3個月開會一次。"},
+  {id:"osh-a-ch0-004",ch:0,q:"工作場所發生哪種災害，雇主應於8小時內通報勞動檢查機構？",opts:["勞工受傷需住院","發生死亡災害","勞工輕微擦傷","機械故障停工"],ans:1,exp:"依法第37條，發生死亡災害、罹災人數3人以上或指定災害，應於8小時內通報勞動檢查機構。"},
+  {id:"osh-a-ch0-005",ch:0,q:"勞動檢查員進入事業單位實施檢查，下列何者正確？",opts:["雇主可以拒絕","需事先通知","得隨時進入","需取得搜索票"],ans:2,exp:"依《勞動檢查法》第14條，勞動檢查員執行職務得隨時進入事業單位，任何人不得無故拒絕。"},
+  {id:"osh-a-ch0-006",ch:0,q:"原事業單位違反職安法致承攬人勞工發生職業災害，應如何負責？",opts:["由承攬人單獨負責","負連帶賠償責任","由勞保局負責","可免除責任"],ans:1,exp:"依法第25條，原事業單位違反職安法致承攬人勞工職業災害，與承攬人負連帶賠償責任，再承攬者亦同。"},
+  {id:"osh-a-ch0-007",ch:0,q:"職業安全衛生委員會應至少每幾個月開會一次？",opts:["1個月","2個月","3個月","6個月"],ans:2,exp:"依《職業安全衛生管理辦法》，職安衛委員會至少每3個月開會一次，應由雇主或代理人擔任主任委員。"},
+  {id:"osh-a-ch0-008",ch:0,q:"依《職業安全衛生法》，雇主對有母性健康危害之虞工作，應採取何種措施？",opts:["禁止女性勞工從事","實施危害評估並採適當保護措施","增加工資補償","提供額外休假"],ans:1,exp:"依法第31條，雇主應對有母性健康危害之虞的工作，採危害評估、控制及分級管理措施，並視評估結果調整工作。"},
+  {id:"osh-a-ch0-009",ch:0,q:"安全衛生工作守則訂定後，應報經何者備查後公告實施？",opts:["勞動部","當地勞動檢查機構","職安衛委員會","縣市政府"],ans:1,exp:"依法第34條，雇主應會同勞工代表訂定安全衛生工作守則，報經當地勞動檢查機構備查後公告實施。"},
+  {id:"osh-a-ch0-010",ch:0,q:"依職安法規定，雇主對具有危險性之設備，應向哪個機構申請檢查合格後才能使用？",opts:["衛生福利部","勞動部","檢查機構或中央指定代行檢查機構","地方政府"],ans:2,exp:"依法第16條，危險性機械或設備須經檢查機構或中央主管機關指定之代行檢查機構檢查合格，方可使用。"},
+  {id:"osh-a-ch0-011",ch:0,q:"職安法所稱「主管機關」，在中央為哪個部會？",opts:["衛生福利部","勞動部","內政部","經濟部"],ans:1,exp:"依法第2條，中央主管機關為勞動部，直轄市主管機關為直轄市政府，縣（市）主管機關為縣（市）政府。"},
+  {id:"osh-a-ch0-012",ch:0,q:"雇主對作業環境或危害應採取哪種危害防止計畫優先順序？",opts:["個人防護具→工程控制→消除危害","消除危害→取代→工程控制→行政管理→個人防護具","行政管理→個人防護具→工程控制","個人防護具為最優先措施"],ans:1,exp:"危害防止的優先順序為：消除危害→取代（低危害替代）→工程控制→行政管理→個人防護具（PPE），消除危害最優先。"},
+  {id:"osh-a-ch0-013",ch:0,q:"依法，雇主應對員工定期實施健康檢查，一般健康檢查頻率為何？",opts:["每年一次","每2年一次","每3年一次","依勞工年齡而定"],ans:3,exp:"依《勞工健康保護規則》，40歲以上每年一次；未滿40歲者，視年齡區段為每2年或每5年一次，故依年齡而定。"},
+  {id:"osh-a-ch0-014",ch:0,q:"事業單位工作場所發生職業災害，雇主除採取緊急措施外，應即調查災害原因及採取必要措施的期限為何？",opts:["24小時內","3日內","7日內","15日內"],ans:1,exp:"依法第37條，雇主應即採取必要措施，並於3日內通報勞動檢查機構（死亡及重大災害須於8小時內通報）。"},
+  {id:"osh-a-ch0-015",ch:0,q:"依職安法，違反職業安全衛生工作守則之勞工，雇主得對其實施何種措施？",opts:["立即解雇","依規定予以告誡或懲處","向主管機關申報","罰款扣薪"],ans:1,exp:"依法第34條，勞工不遵守安全衛生工作守則，雇主得依規定予以告誡或懲處，但應依照既有勞動法令規定辦理。"},
+  {id:"osh-a-ch0-016",ch:0,q:"依《職業安全衛生法》，工作者發現職場有立即危險時，有何種權利？",opts:["只能向主管報告","有權立即撤離現場","應等雇主指示再行動","需繼續工作直到危險排除"],ans:1,exp:"依法第18條，工作場所有立即發生危險之虞，工作者得在不危及其他工作者安全情形下，自行撤離危險場所。"},
+  {id:"osh-a-ch0-017",ch:0,q:"下列哪種職業災害通報不需在8小時內？",opts:["死亡災害","罹災人數達3人以上","罹災人數達1人但需住院","中央主管機關指定公告之災害"],ans:2,exp:"依法第37條，8小時內通報的條件是：死亡、罹災3人以上、或指定公告之災害。1人住院的情形，應於3日內通報即可。"},
+  {id:"osh-a-ch0-018",ch:0,q:"高壓氣體製造安全技術員的資格取得是依據哪個法規？",opts:["職業安全衛生法","勞動基準法","危險性機械及設備安全檢查規則","高壓氣體勞工安全規則"],ans:2,exp:"高壓氣體相關設備的技術員資格，依《危險性機械及設備安全檢查規則》的規定辦理。"},
+  {id:"osh-a-ch0-019",ch:0,q:"依法，職業安全衛生主管機關對事業單位工作場所進行檢查時，事業單位應如何配合？",opts:["可拒絕無預告之檢查","應提供必要之設施及資料配合","可要求先行預約再受檢","無義務配合"],ans:1,exp:"依《勞動檢查法》，事業單位對勞動檢查機構實施之檢查，應提供必要之設施及資料予以配合，不得拒絕或規避。"},
+  {id:"osh-a-ch0-020",ch:0,q:"依《職業安全衛生管理辦法》，甲類事業單位應設置職業安全衛生管理員的最低人數依何因素決定？",opts:["事業單位資本額","勞工人數","事業單位場所面積","危害等級"],ans:1,exp:"職安衛管理員的設置人數主要依勞工人數決定，人數越多，所需管理員越多，甲類為高危害性質之事業單位。"},
+  {id:"osh-a-ch0-021",ch:0,q:"依《職業安全衛生法》規定，何種情況下雇主得免除職業災害補償責任？",opts:["勞工自行違反操作程序","天災引起且非人力所能抗拒","勞工有酒駕行為","雇主已採取適當安全措施"],ans:1,exp:"依法第84條，職業災害如係因天災或其他不可抗力所致，且雇主已盡職安義務，始得減輕或免除補償責任。"},
+  {id:"osh-a-ch0-022",ch:0,q:"依《職業安全衛生法施行細則》，「危害性化學品」包含下列何者？",opts:["僅含有毒物質","危險物及有害物","一般清潔用品","所有化學品"],ans:1,exp:"依施行細則，危害性化學品指的是危險物（如易燃、爆炸性物質）及有害物（如有毒、腐蝕性物質）兩大類。"},
+  {id:"osh-a-ch0-023",ch:0,q:"依《職業安全衛生設施規則》，雇主應確保機械的防護設備在使用前已確實安裝，違反此規定最高可處多少罰鍰？",opts:["新台幣3萬元","新台幣15萬元","新台幣30萬元","新台幣100萬元"],ans:2,exp:"依職安法第43條，違反機械防護設備設置等規定，主管機關可處新台幣3萬至30萬元不等罰鍰。"},
+  {id:"osh-a-ch0-024",ch:0,q:"依《職業安全衛生法》，下列何者是「職業安全衛生管理計畫」必須包含的內容之一？",opts:["員工薪資規劃","作業環境監測計畫","員工請假管理","倉儲管理規定"],ans:1,exp:"依法第23條，職安衛管理計畫應包含工作環境或作業危害辨識、評估及控制、安全衛生作業標準、作業環境監測等。"},
+  {id:"osh-a-ch0-025",ch:0,q:"依《勞動檢查法》，勞動檢查員執行檢查後，認有違反法令規定應予改善，應如何處理？",opts:["當場罰款","通知事業單位限期改善","立即停工","移送司法機關"],ans:1,exp:"依《勞動檢查法》第26條，勞動檢查員認定有違反法令情形，應通知事業單位限期改善，並得停工或採取必要措施。"},
+  {id:"osh-a-ch0-026",ch:0,q:"職安法中「工作者」的定義，下列何者正確？",opts:["僅包含有薪資的受僱勞工","包含受僱勞工、自營作業者及接受訓練者","只限全職員工","外籍移工不包含在內"],ans:1,exp:"依法第2條，工作者指受僱勞工、自營作業者及接受職業訓練者，不限國籍或僱用型態。"},
+  {id:"osh-a-ch0-027",ch:0,q:"依《職業安全衛生設施規則》第243條，對地電壓幾伏特以上的電氣設備應裝設漏電斷路器？",opts:["100V","150V","200V","220V"],ans:1,exp:"對地電壓在150V以上的電氣設備，或在導電性良好場所（金屬板、潮濕地面等）使用移動式或攜帶式電動機具，應裝設漏電斷路器。"},
+  {id:"osh-a-ch0-028",ch:0,q:"依職安法，事業單位與承攬人共同作業時，原事業單位應負哪些協調義務？",opts:["無需協調，各自負責","應指定現場協調員進行安全衛生協調"],ans:1,exp:"依法第27條，原事業單位應採取協調聯絡、巡視作業場所、整體性危害預防計畫等措施。（此為簡化版題目，正式考試會有四選項）"},
+  {id:"osh-a-ch0-029",ch:0,q:"依《職業安全衛生法》，對於職業災害的補償，下列何者敘述正確？",opts:["職業災害補償與民事損害賠償可以同時主張","職業災害補償取得後不得再請求民事損害賠償","職業災害補償僅限於身體傷害","補償金額由雇主自行決定"],ans:0,exp:"依民法及勞基法規定，職業災害補償（勞基法）與民事損害賠償可同時主張，但可扣抵重複部分。"},
+  {id:"osh-a-ch0-030",ch:0,q:"依法，雇主對於在職勞工在職前應使其接受哪種訓練？",opts:["只需在職一般教育訓練","特殊教育訓練","適於各工作之安全衛生教育訓練","法令課程"],ans:2,exp:"依法第32條，雇主對新僱勞工或在職勞工於變更工作前，應使其接受適於各工作必要之安全衛生教育訓練。"},
+  {id:"osh-a-ch0-031",ch:0,q:"《職業安全衛生法》中對於特別危害健康作業的健康管理，主管機關應如何分級？",opts:["不需分級","分為一般及特殊兩類","依職業病風險分四級管理","依工作年限分類"],ans:2,exp:"依《勞工健康保護規則》，特別危害健康作業的健康管理分為第一至第四級，依健康狀況採取不同的管理措施。"},
+  {id:"osh-a-ch0-032",ch:0,q:"依《職業安全衛生法》，設置職業安全衛生管理員之事業單位，其管理員應具備何種資格？",opts:["任何大學畢業即可","須持有職業安全管理師、衛生管理師或相關訓練合格證書","須具備10年工作經驗","只需雇主指定即可"],ans:1,exp:"依《職業安全衛生管理辦法》，職安衛管理員應具備職業安全管理師、職業衛生管理師或職業安全衛生管理員資格。"},
+  {id:"osh-a-ch0-033",ch:0,q:"依職安法，雇主使勞工從事危險性工作時，應採取之措施不包含下列何者？",opts:["危害告知","提供適當防護具","安全衛生教育訓練","提高薪資補償危險"],ans:3,exp:"職安法規定雇主應採取危害告知、提供防護具、實施訓練等措施。提高薪資不屬於職安措施，且不能以薪資替代安全措施。"},
+  {id:"osh-a-ch0-034",ch:0,q:"依《職業安全衛生設施規則》，局限空間作業前，氧氣濃度應確認在幾%以上？",opts:["16%","18%","20%","21%"],ans:1,exp:"局限空間作業前應確認空氣中氧氣濃度在18%以上，低於18%屬缺氧環境，勞工不得進入，應先通風換氣。"},
+  {id:"osh-a-ch0-035",ch:0,q:"依勞動檢查法，勞動檢查員發現工作場所有立即發生危險之虞時，得為何種處置？",opts:["僅能開具改善通知","得當場要求停工","需提報上級核准後始得處置","只能拍照存證"],ans:1,exp:"依《勞動檢查法》第28條，有立即危險之虞時，檢查員得當場要求雇主採取安全措施，包括停工。"},
+  {id:"osh-a-ch0-036",ch:0,q:"依《職業安全衛生法》，下列何種行為屬於雇主的積極義務？",opts:["僅在發生事故後才需採取措施","事前預防危害的發生","僅在勞工要求時提供防護具","不需主動通知危害"],ans:1,exp:"職安法精神是事前預防優於事後補救，雇主有積極預防、辨識危害、評估風險及採取控制措施的義務。"},
+  {id:"osh-a-ch0-037",ch:0,q:"依法，職業安全衛生法的適用範圍為何？",opts:["僅適用工廠","僅適用特定行業","各業雇用勞工從事工作之場所","僅限公共工程"],ans:2,exp:"依法第2條，職安衛法適用於各業雇用勞工從事工作之場所，適用範圍廣泛，不限特定行業。"},
+  {id:"osh-a-ch0-038",ch:0,q:"依《職業安全衛生設施規則》，高度幾公尺以上工作場所邊緣應設護欄等防護設備？",opts:["1公尺","1.5公尺","2公尺","3公尺"],ans:2,exp:"依設施規則第224條，高度2公尺以上的工作場所邊緣及開口部分，有墜落危險之虞者，應設護欄、護蓋或安全網。"},
+  {id:"osh-a-ch0-039",ch:0,q:"職安法中「自動檢查」的目的為何？",opts:["取代政府勞動檢查","讓雇主自行發現並改善危害","讓勞工自行管理安全","降低政府管制負擔"],ans:1,exp:"自動檢查制度的目的在於讓事業單位主動對設備、作業環境等進行定期自主檢點，及早發現並消除危害。"},
+  {id:"osh-a-ch0-040",ch:0,q:"依《職業安全衛生法》，事業單位於施工前應擬訂工程施工安全衛生計畫的最低金額門檻為何？",opts:["500萬元","1000萬元","3000萬元","5000萬元"],ans:1,exp:"依相關規定，符合一定規模（約1000萬元以上）的施工工程，承攬人應擬訂施工安全衛生計畫，報請原事業單位備查。"},
+  {id:"osh-a-ch0-041",ch:0,q:"依職安法，雇主應提供符合安全標準的作業環境，此義務屬於哪種法律概念？",opts:["契約義務","法定義務","道德義務","習慣法義務"],ans:1,exp:"職安法明文規定雇主保障勞工安全衛生的義務，屬於法定義務，不論勞動契約是否有約定，雇主均應履行。"},
+  {id:"osh-a-ch1-001",ch:1,q:"安全衛生管理系統PDCA循環中，C代表什麼？",opts:["Control控制","Check查核","Change變更","Correct矯正"],ans:1,exp:"PDCA為Plan計畫、Do執行、Check查核、Act行動改善，C代表Check查核階段，評估執行成效是否達到目標。"},
+  {id:"osh-a-ch1-002",ch:1,q:"下列何者不是風險評估的步驟？",opts:["辨識危害","評估風險","決定控制措施","懲處違規勞工"],ans:3,exp:"風險評估步驟：辨識危害→評估風險→決定控制措施→執行→監督與審查。懲處違規勞工不屬風險評估步驟。"},
+  {id:"osh-a-ch1-003",ch:1,q:"職安衛管理計畫中，最高決策者應為何人？",opts:["安全衛生管理員","現場主管","事業經營負責人","勞工代表"],ans:2,exp:"依管理系統精神，事業經營負責人（雇主）為安全衛生最高決策者，展現最高管理階層的承諾與領導。"},
+  {id:"osh-a-ch1-004",ch:1,q:"ISO 45001職安衛管理系統中，「領導與工作者參與」要素包含哪項？",opts:["危害鑑別","內部稽核","管理階層承諾","緊急應變"],ans:2,exp:"ISO 45001中「領導與工作者參與」包含最高管理階層承諾、安全衛生政策制定、工作者及代表的參與與諮商。"},
+  {id:"osh-a-ch1-005",ch:1,q:"風險控制措施的優先順序，下列何者最優先？",opts:["使用個人防護具","工程控制","消除危害","行政管理"],ans:2,exp:"風險控制優先序：消除危害→取代（以低危害替代）→工程控制→行政管理→個人防護具，消除危害最優先。"},
+  {id:"osh-a-ch1-006",ch:1,q:"安全衛生工作守則應由誰負責訂定？",opts:["勞工自行訂定","政府機關統一制定","雇主會同勞工代表訂定","工會單方面訂定"],ans:2,exp:"依職安法第34條，安全衛生工作守則應由雇主會同勞工代表共同訂定，報主管機關備查後公告實施。"},
+  {id:"osh-a-ch1-007",ch:1,q:"「海因里希法則（1:29:300）」說明什麼？",opts:["1件重傷：29件輕傷：300件無傷事故","1件死亡：29件重傷：300件輕傷","1件事故：29件近似事故：300件不安全行為","1件職業病：29件慢性病：300件亞健康"],ans:0,exp:"海因里希法則指出，每1件嚴重傷害事故背後有29件輕傷事故和300件無傷事故（未遂事件），強調預防未遂事件的重要性。"},
+  {id:"osh-a-ch1-008",ch:1,q:"職業安全衛生管理系統(OSHMS)的最終目標為何？",opts:["通過認證取得競爭優勢","持續改善職場安全衛生績效以預防事故","達到最低法規遵循要求","降低保險費用"],ans:1,exp:"OSHMS最終目標是持續改善職場安全衛生績效，預防職業災害及職業病，保護工作者健康。"},
+  {id:"osh-a-ch1-009",ch:1,q:"下列何者屬於「不安全行為」(unsafe act)？",opts:["地板潮濕未放警示牌","缺乏護欄","未依規定佩戴安全帽","電氣設備老舊"],ans:2,exp:"不安全行為指工作者個人行為上的缺失；不安全環境指設備或環境的危險狀態。未戴安全帽屬個人行為問題。"},
+  {id:"osh-a-ch1-010",ch:1,q:"危害辨識的常用方法「What-If分析法」主要適用於哪種情況？",opts:["事故發生後的原因分析","設計或操作流程的系統性危害辨識","法規遵循查核","個人健康評估"],ans:1,exp:"What-If分析法透過「如果…會發生什麼？」的問題方式，對設計或操作流程進行系統性危害辨識，屬於預防性分析。"},
+  {id:"osh-a-ch1-011",ch:1,q:"「失誤模式與影響分析(FMEA)」是哪種安全分析方法？",opts:["事故後調查方法","自下而上的失誤分析方法","自上而下的失誤分析方法","僅適用化工廠的方法"],ans:1,exp:"FMEA（Failure Mode and Effects Analysis）是自下而上的分析方法，從零組件或子系統的失誤模式出發，分析其對系統的影響。"},
+  {id:"osh-a-ch1-012",ch:1,q:"「故障樹分析(FTA)」是哪種安全分析方法？",opts:["自下而上的失誤分析","自上而下的系統失誤分析","設備保養計畫","人因分析工具"],ans:1,exp:"FTA（Fault Tree Analysis）是自上而下的分析方法，從頂端事件（如意外）出發，逐層追溯可能導致的原因（邏輯樹狀圖）。"},
+  {id:"osh-a-ch1-013",ch:1,q:"下列何者是職業安全衛生管理系統的「稽核」主要目的？",opts:["懲處管理人員","驗證系統是否有效運作及符合計畫要求","對外宣傳公司形象","取代勞動檢查"],ans:1,exp:"稽核目的在驗證管理系統是否有效運作、符合既定計畫及法規要求，並提供改善依據，不是懲處手段。"},
+  {id:"osh-a-ch1-014",ch:1,q:"「事故金字塔」概念強調什麼？",opts:["重大事故比小事故重要","應重視輕微事故和未遂事件的預防","事故調查應由外部機構執行","安全成本與生產效率相衝突"],ans:1,exp:"事故金字塔（海因里希法則的延伸）強調，大量輕微事故和未遂事件是重大事故的前兆，預防要從底層做起。"},
+  {id:"osh-a-ch1-015",ch:1,q:"職場安全文化的核心特徵為何？",opts:["主要靠罰則推動安全","組織各層級對安全的共同承諾與積極態度","僅強調規定與手冊","以成本效益評估安全投入"],ans:1,exp:"正向的安全文化強調組織各層級（從高層到基層）對安全的共同承諾、主動積極的態度，以及開放的溝通文化。"},
+  {id:"osh-a-ch1-016",ch:1,q:"「殘餘風險」(residual risk)的定義為何？",opts:["尚未評估的風險","採取控制措施後仍然存在的風險","可以接受的最大風險值","超出法規要求的風險"],ans:1,exp:"殘餘風險指採取所有可行的風險控制措施之後，仍然存在且無法完全消除的風險。"},
+  {id:"osh-a-ch1-017",ch:1,q:"工作安全分析（JSA/JHA）的步驟順序正確為何？",opts:["選定工作→列出步驟→辨識危害→採取措施","辨識危害→列出步驟→選定工作→採取措施","採取措施→選定工作→辨識危害→列出步驟","選定工作→辨識危害→採取措施→列出步驟"],ans:0,exp:"工作安全分析（JSA/Job Hazard Analysis）的正確步驟：①選定要分析的工作②逐步分解工作步驟③辨識每一步驟的危害④制定控制措施。"},
+  {id:"osh-a-ch1-018",ch:1,q:"依ISO 45001，「脈絡（Context）」指的是什麼？",opts:["組織的辦公環境","影響組織能達成OHSMS目標的內外部因素","員工的工作背景","業務流程描述"],ans:1,exp:"ISO 45001中的「組織脈絡」指影響組織OHSMS目標達成的內外部因素，包含法規環境、利害關係人需求、組織文化等。"},
+  {id:"osh-a-ch1-019",ch:1,q:"「危害」(Hazard)與「風險」(Risk)的差異為何？",opts:["兩者意義相同","危害是危害來源或狀況，風險是危害造成傷害的可能性與嚴重度的組合","風險比危害更嚴重","危害是指事故後果，風險是指可能性"],ans:1,exp:"危害（Hazard）是可能造成傷害的來源、狀況或行為；風險（Risk）是危害事件的可能性（Likelihood）與嚴重度（Severity）的組合。"},
+  {id:"osh-a-ch1-020",ch:1,q:"職場安全衛生管理中，「管理承諾」(Management Commitment)的重要性為何？",opts:["僅是形式要件，實質影響不大","是建立正向安全文化的基礎，直接影響整體安全績效","只在通過認證時才需要展現","主要用於應付勞動檢查"],ans:1,exp:"管理承諾（尤其是最高管理者的承諾）是建立正向安全文化的基礎，直接影響資源分配、員工態度與整體安全績效。"},
+  {id:"osh-a-ch1-021",ch:1,q:"「近失事故（Near-Miss）」報告制度的主要目的為何？",opts:["懲處差點造成事故的員工","分析未遂事件，預防未來的實際事故","符合法規要求的書面作業","作為保險申報依據"],ans:1,exp:"近失事故（Near-Miss）是未造成傷害但差點發生的事件，透過報告和分析這類事件，可以找出系統弱點並加以改善，預防未來事故。"},
+  {id:"osh-a-ch1-022",ch:1,q:"下列哪個是「主動式」安全衛生績效指標（Leading Indicator）？",opts:["事故發生率","職業病件數","安全訓練完成率","職業傷害嚴重度"],ans:2,exp:"主動式（領先）指標反映事故前的預防活動，如訓練完成率、安全觀察次數；落後指標（Lagging Indicator）如事故率，反映已發生的結果。"},
+  {id:"osh-a-ch1-023",ch:1,q:"「OHSAS 18001」與「ISO 45001」的關係為何？",opts:["兩者是完全不同的標準","ISO 45001是OHSAS 18001的升級版，已取代後者","OHSAS 18001是ISO 45001的升級版","兩者可同時並行認證"],ans:1,exp:"ISO 45001於2018年發布，2021年OHSAS 18001正式廢止，ISO 45001已完全取代OHSAS 18001，成為職安衛管理系統的國際標準。"},
+  {id:"osh-a-ch1-024",ch:1,q:"職安衛風險評估中，「風險矩陣」(Risk Matrix)主要用來評估什麼？",opts:["設備價值","風險的可能性與嚴重度，以決定風險等級","勞工薪資水準","生產效率"],ans:1,exp:"風險矩陣是以「可能性（發生機率）」與「嚴重度（後果）」兩個維度，交叉評估風險等級，決定是否可接受及所需控制措施。"},
+  {id:"osh-a-ch1-025",ch:1,q:"下列何者屬於「行政管理控制」(Administrative Control)措施？",opts:["安裝機器護罩","以低毒性物質取代高毒性物質","實施作業輪班降低暴露時間","提供個人呼吸防護具"],ans:2,exp:"行政管理控制包括：工作輪班、工作程序制定、訓練教育、警告標示等；工程控制是改變設備/環境；取代是消除或減少危害來源。"},
+  {id:"osh-a-ch1-026",ch:1,q:"職業安全衛生內部稽核應由誰執行？",opts:["必須由外部機構執行","可由受過訓練的內部人員執行","只能由最高管理者執行","委由勞動檢查機構代為執行"],ans:1,exp:"內部稽核可由受訓練的組織內部人員執行，但稽核人員不應稽核自己的工作區域（獨立性原則）；外部稽核由認證機構執行。"},
+  {id:"osh-a-ch1-027",ch:1,q:"「工作場所風險評估」完成後，應多久更新一次？",opts:["每10年一次","定期或在重大變更、事故後重新評估","只需評估一次","在政府要求時才需更新"],ans:1,exp:"風險評估應定期更新（如每年或依規定頻率），並在工作流程重大變更、新設備引入、事故發生後，或法規改變時重新評估。"},
+  {id:"osh-a-ch1-028",ch:1,q:"下列何者是「系統安全分析」中的「能量跡象圖（Energy Trace & Barrier Analysis）」的核心概念？",opts:["追蹤能量使用效率","分析不受控制的能量釋放是事故的根本原因","評估設備耗能情況","計算能源成本"],ans:1,exp:"能量理論認為幾乎所有事故都涉及不受控制的能量釋放（如動能、熱能、電能等），屬Haddon能量模型的應用。"},
+  {id:"osh-a-ch1-029",ch:1,q:"「事故調查」的主要目的應為何？",opts:["找出犯錯的員工並予以懲處","找出根本原因（Root Cause）以防止類似事故再發","快速結案以減少法律責任","滿足保險公司的要求"],ans:1,exp:"事故調查的核心目的是找出事故的直接原因和根本原因（Root Cause），以採取有效的改善措施，防止類似事故再次發生。"},
+  {id:"osh-a-ch1-030",ch:1,q:"工廠推行「5S」活動，與職業安全衛生有何關聯？",opts:["5S是純生產管理工具，與安全無關","5S中的整理、整頓、清掃可消除許多工作場所危害","5S主要目的是提升產品品質","5S活動由品管部門負責，安全衛生部門不介入"],ans:1,exp:"5S（整理、整頓、清掃、清潔、素養）中整理去除不必要物品、整頓定位、清掃去除污染源，可消除絆倒、滑倒等許多危害，與職安衛密切相關。"},
+  {id:"osh-a-ch2-001",ch:2,q:"對地電壓幾伏特以上電氣設備應裝設漏電斷路器？",opts:["100V","150V","200V","220V"],ans:1,exp:"依設施規則第243條，對地電壓150V以上電氣設備，或在導電性良好場所使用移動式電動機具，應裝設感電防止用漏電斷路器。"},
+  {id:"osh-a-ch2-002",ch:2,q:"局限空間作業前，氧氣濃度應在多少%以上？",opts:["16%","18%","20%","21%"],ans:1,exp:"依設施規則，局限空間應確認氧氣濃度18%以上，低於18%屬缺氧環境，勞工不得進入，需先通風換氣。"},
+  {id:"osh-a-ch2-003",ch:2,q:"墜落災害防止的最優先對策為何？",opts:["使用安全帶","設置護欄","張掛安全網","限制作業時間"],ans:1,exp:"依危害控制優先序：設護欄（工程控制/消除危害）→安全網→安全帶（個人防護具）。設置護欄最優先。"},
+  {id:"osh-a-ch2-004",ch:2,q:"特高壓係指超過幾伏特之電壓？",opts:["600V","3,300V","11,400V","22,800V"],ans:3,exp:"依設施規則：低壓≤600V，高壓600V至22,800V，特高壓>22,800V。"},
+  {id:"osh-a-ch2-005",ch:2,q:"有機溶劑作業場所應設置何種通風裝置？",opts:["自然通風即可","整體換氣或局部排氣裝置","僅需配戴口罩","定期開窗通風"],ans:1,exp:"依《有機溶劑中毒預防規則》，有機溶劑作業場所應設密閉設備、局部排氣或整體換氣裝置，防止勞工中毒。"},
+  {id:"osh-a-ch2-006",ch:2,q:"高度幾公尺以上工作場所邊緣應設護欄等防護設備？",opts:["1公尺","1.5公尺","2公尺","3公尺"],ans:2,exp:"依設施規則第224條，高度2公尺以上工作場所邊緣及開口，有墜落危險之虞者，應設護欄、護蓋或安全網。"},
+  {id:"osh-a-ch2-007",ch:2,q:"物質安全資料表（SDS/Safety Data Sheet）共有幾個項目？",opts:["8項","12項","16項","20項"],ans:2,exp:"依GHS制度，SDS（安全資料表）標準格式共有16個必要項目，包括物質名稱、危害辨識、成分、急救措施等。"},
+  {id:"osh-a-ch2-008",ch:2,q:"下列哪種滅火劑不適用於電氣火災（C類火災）？",opts:["二氧化碳滅火劑","乾粉滅火劑","泡沫滅火劑","鹵素系（海龍）滅火劑"],ans:2,exp:"泡沫滅火劑含水分，導電性高，不可用於電氣設備火災（C類）。CO2、乾粉、鹵素系均可用於電氣火災。"},
+  {id:"osh-a-ch2-009",ch:2,q:"「缺氧症預防規則」定義缺氧狀態的氧氣濃度為低於多少？",opts:["19%","18%","16%","21%"],ans:1,exp:"依《缺氧症預防規則》，氧氣濃度未滿18%的狀態稱為缺氧，勞工進入此類場所需有防護措施。"},
+  {id:"osh-a-ch2-010",ch:2,q:"移動式起重機作業時，起重機司機、吊掛作業勞工及地面作業監視人員的通聯，應以何種方式進行？",opts:["手機通話","事先約定的手號信號","口頭喊叫","不需要特別通聯"],ans:1,exp:"依規定，起重機作業應以事先約定好的手號信號（或對講機）進行溝通，以確保作業人員明確了解吊運指令，防止意外。"},
+  {id:"osh-a-ch2-011",ch:2,q:"作業環境中常用的粉塵控制方法，下列何者屬於「工程控制」？",opts:["縮短作業時間","要求工人戴口罩","設置局部排氣裝置","進行健康檢查"],ans:2,exp:"設置局部排氣裝置（Local Exhaust Ventilation）屬於工程控制，直接從粉塵產生源頭排除；縮短時間屬行政控制；口罩屬PPE。"},
+  {id:"osh-a-ch2-012",ch:2,q:"依「高空作業」相關規定，從事高空作業時，安全帶掛鉤應掛在何處？",opts:["腰部以下固定物","高於頭部以上的固定物或滑動式安全扣環","任意固定物","不需要掛鉤"],ans:1,exp:"安全帶的掛鉤點應高於作業者頭部，或使用滑動式扣環（Self-retracting Lifeline），以確保墜落距離最小，提高保護效果。"},
+  {id:"osh-a-ch2-013",ch:2,q:"下列何者不屬於「密閉空間（局限空間）」的特徵？",opts:["開口有限、不足以讓人自由進出","通風換氣不良","非供人員持續佔用而設計","空間寬大且通風良好"],ans:3,exp:"局限空間特徵：進出口受限、非持續使用設計、通風不良、可能含有害氣體或缺氧。空間寬大且通風良好不屬其特徵。"},
+  {id:"osh-a-ch2-014",ch:2,q:"輸配電架空線路下方施工作業，最主要的危害為何？",opts:["噪音危害","電擊（感電）危害","振動危害","熱危害"],ans:1,exp:"在高壓架空電線下方施工，最主要的危害是電擊（感電），設備或機具若碰觸到帶電線路，會造成嚴重傷亡。"},
+  {id:"osh-a-ch2-015",ch:2,q:"依規定，一般化學品的物質安全資料表（SDS）應在採購後何時提供給使用者？",opts:["使用前","交貨時隨附","採購後30天內","勞工要求時才需提供"],ans:1,exp:"依職安法，雇主應確保危害性化學品在使用前，SDS（安全資料表）已提供給相關勞工，通常在交貨時隨附。"},
+  {id:"osh-a-ch2-016",ch:2,q:"手持式電動工具的使用，何種情況下觸電風險最高？",opts:["在乾燥室內使用","在潮濕或潮濕場所使用","穿著厚底鞋作業","使用雙重絕緣工具"],ans:1,exp:"潮濕環境下（如戶外、地下、鑄造場等），人體電阻降低，觸電電流增大，電擊（感電）風險最高。"},
+  {id:"osh-a-ch2-017",ch:2,q:"「物理性爆炸」與「化學性爆炸」的主要差異為何？",opts:["兩者沒有本質差異","物理性爆炸源於壓力突然釋放，化學性爆炸涉及化學反應","物理性爆炸比化學性爆炸更危險","化學性爆炸不產生高溫"],ans:1,exp:"物理性爆炸如鍋爐或高壓氣體容器破裂，源於壓力突然釋放；化學性爆炸如火藥爆炸，涉及快速氧化等化學反應並釋放大量能量。"},
+  {id:"osh-a-ch2-018",ch:2,q:"「可燃性氣體」爆炸需要同時具備哪三個條件（火災三角形）？",opts:["可燃物、助燃劑、引火源","可燃物、濕度、溫度","可燃物、低溫、高壓","助燃劑、水分、溫度"],ans:0,exp:"火災（爆炸）三角形：可燃物（Fuel）+ 助燃劑（Oxidizer，通常是氧氣）+ 引火源（Ignition Source），三者缺一不可。"},
+  {id:"osh-a-ch2-019",ch:2,q:"下列何者是預防機械傷害（夾捲）最有效的工程控制措施？",opts:["對機械部件噴漆提醒","設置固定式安全護罩（Fixed Guard）","張貼警告標示","教育訓練工人注意"],ans:1,exp:"固定式安全護罩是直接覆蓋危險運動部件的工程控制，可有效防止肢體進入夾捲區，是最有效的機械安全措施。"},
+  {id:"osh-a-ch2-020",ch:2,q:"依「鉛中毒預防規則」，鉛作業場所的吸菸及飲食行為是否被允許？",opts:["允許，但需在休息時間進行","嚴格禁止在作業場所飲食吸菸","只允許飲水","雇主自行規定"],ans:1,exp:"依《鉛中毒預防規則》，鉛作業場所嚴格禁止飲食、吸菸，以防止鉛由口腔途徑進入人體。作業後必須徹底洗手。"},
+  {id:"osh-a-ch2-021",ch:2,q:"對於起重機作業，「額定荷重」的定義為何？",opts:["起重機最大設計荷重的120%","起重機在各種作業條件下可安全吊升的最大荷重","起重機自重加上吊具重量","起重機在最差條件下的荷重"],ans:1,exp:"額定荷重（Rated Capacity/SWL, Safe Working Load）是起重機在特定作業狀況（臂長、作業半徑等）下，可安全吊升的最大荷重。"},
+  {id:"osh-a-ch2-022",ch:2,q:"下列何者不是焊接作業的主要危害？",opts:["弧光傷害眼睛","有毒焊接煙塵","觸電危害","噪音污染"],ans:3,exp:"焊接主要危害包括弧光（紫外線/紅外線）傷眼、有毒金屬焰（如錳、氧化鐵）、觸電（尤其是電弧焊）、火災爆炸。噪音非焊接的主要危害。"},
+  {id:"osh-a-ch2-023",ch:2,q:"實施高架作業前，應考慮的主要安全措施為何？",opts:["確認天氣良好","評估跌落高度與使用適當防護設備（護欄、安全網、安全帶）","提高日照強度","僅提醒工人注意"],ans:1,exp:"高架作業前應確認作業高度、設置護欄或安全網（工程控制），若無法設置則使用安全帶（個人防護），並評估作業環境。"},
+  {id:"osh-a-ch2-024",ch:2,q:"「選擇性聽力損失（Noise-Induced Hearing Loss）」最先受損的頻率為何？",opts:["250Hz（低頻）","1000Hz","4000Hz（高頻）","所有頻率同時受損"],ans:2,exp:"噪音性聽力損失（NIHL）最先且最典型受損的是4000Hz（4kHz）頻率，在聽力圖上呈現「4kHz缺口（Notch）」。"},
+  {id:"osh-a-ch2-025",ch:2,q:"依《危險性機械及設備安全檢查規則》，鍋爐的使用前檢查由誰執行？",opts:["雇主自行執行","勞動部指定之檢查機構","地方衛生局","ISO認證機構"],ans:1,exp:"依規則，鍋爐、壓力容器、起重機等危險性機械或設備，使用前須申請勞動部指定之檢查機構實施竣工/定期檢查。"},
+  {id:"osh-a-ch2-026",ch:2,q:"下列哪種呼吸防護具適用於氧氣濃度不足的環境？",opts:["防塵口罩","防毒面具（活性碳過濾）","供氣式呼吸防護具（SCBA/空氣瓶）","有機蒸氣面具"],ans:2,exp:"缺氧環境（<18%氧氣）必須使用供氣式呼吸防護具（如自攜式空氣呼吸器SCBA），依靠外部供氣，不能使用依賴現場空氣的濾式防毒面具。"},
+  {id:"osh-a-ch2-027",ch:2,q:"「局部排氣裝置（LEV）」的設計目的為何？",opts:["提供新鮮空氣給工人","在危害物質散布至工作環境前，從發生源直接排除","稀釋整體環境中的有害物","降低作業場所溫度"],ans:1,exp:"局部排氣裝置（Local Exhaust Ventilation）在危害物質（粉塵、有機溶劑蒸氣等）從發生源散布前，直接從源頭捕集並排除，效果優於整體換氣。"},
+  {id:"osh-a-ch2-028",ch:2,q:"依規定，進入局限空間前必須執行的氣體監測不包含下列何者？",opts:["氧氣濃度","可燃性氣體濃度","有害氣體（如H2S、CO）濃度","二氧化碳產生量"],ans:3,exp:"進入局限空間前必測：①氧氣濃度（≥18%）②可燃氣體濃度（<爆炸下限25%）③有毒氣體（H2S、CO等）。CO2雖需注意，但法規主要規定前三項。"},
+  {id:"osh-a-ch2-029",ch:2,q:"下列何者是防止工作場所火災爆炸最基本的工程控制措施？",opts:["配置滅火器","消除或隔離引火源","訓練工人緊急疏散","定期演練消防行動"],ans:1,exp:"防止火災爆炸最根本的工程控制是消除或隔離引火源（如防爆電器、禁止明火、靜電接地等），從源頭消除爆炸三角形的一個要素。"},
+  {id:"osh-a-ch2-030",ch:2,q:"下列何者是工業界常用的「連鎖裝置（Interlock）」主要用途？",opts:["防止設備被盜","確保防護設備被移除時機器自動停機","記錄設備使用時間","控制設備溫度"],ans:1,exp:"連鎖裝置（Interlock）的主要安全用途是確保防護設備（護罩、護欄）被移除或開啟時，機器自動停機，防止人員在機器運轉時接觸危險部件。"},
+  {id:"osh-a-ch2-031",ch:2,q:"搬運重物時，正確的人工物料搬運（Manual Handling）姿勢為何？",opts:["彎腰用背部力量搬起","保持背部挺直，以腿部肌肉出力搬起","扭轉身體抬起","只用手臂力量"],ans:1,exp:"正確搬運姿勢：保持背部挺直、屈膝蹲低，靠近重物，用腿部肌肉（大肌群）出力，避免背部彎曲扭轉以防腰傷。"},
+  {id:"osh-a-ch2-032",ch:2,q:"「化學品暴露限值（OEL/TLV）」的定義最接近何者？",opts:["任何暴露都有害的濃度","大部分工作者每日反覆暴露而不造成不良健康影響的濃度","立即危及生命的濃度","引發急性中毒的濃度"],ans:1,exp:"OEL（職業暴露限值）如ACGIH的TLV-TWA，指幾乎所有工作者每天8小時、每週40小時反覆暴露，不致對健康產生不良影響的平均濃度。"},
+  {id:"osh-a-ch2-033",ch:2,q:"工作場所的「應急逃生路線」設計，應遵循哪項原則？",opts:["路線越多越好，至少10條","緊急出口應鎖住以防入侵","確保逃生路徑保持暢通，標示清楚且有緊急照明","逃生路線設計不需考慮殘障人士"],ans:2,exp:"應急逃生路線設計應：路徑暢通無障礙物、有清楚的緊急出口標示、具備緊急照明、至少有兩個獨立方向的逃生路線，並考慮行動不便人員。"},
+  {id:"osh-a-ch3-001",ch:3,q:"一般健康檢查的紀錄應保存幾年？",opts:["3年","5年","7年","10年"],ans:2,exp:"依《勞工健康保護規則》，雇主對勞工一般健康檢查紀錄應保存7年；特殊健康檢查紀錄保存10年以上（部分游離輻射作業30年）。"},
+  {id:"osh-a-ch3-002",ch:3,q:"特殊作業勞工每年應接受幾次特殊健康檢查？",opts:["1次","2次","3次","視作業類別而定"],ans:0,exp:"依《勞工健康保護規則》，從事特別危害健康作業的勞工，雇主每年應定期實施1次特殊健康檢查。"},
+  {id:"osh-a-ch3-003",ch:3,q:"工作場所噪音超過幾dB時，應採取工程控制等措施？",opts:["80dB","85dB","90dB","95dB"],ans:2,exp:"依設施規則，8小時日時量平均音壓級超過90dB時，雇主應採工程控制（如隔音、吸音）、縮短暴露時間等措施。"},
+  {id:"osh-a-ch3-004",ch:3,q:"高溫場所工作之勞工，每日工作時間不得超過幾小時？",opts:["4小時","6小時","8小時","10小時"],ans:1,exp:"依《高溫作業勞工作息時間標準》，高溫場所工作之勞工每日工作時間不得超過6小時，且應給予適當休息。"},
+  {id:"osh-a-ch3-005",ch:3,q:"哪種化學物質可能導致「水俁病」？",opts:["鉛化合物","汞化合物","鉻化合物","鎘化合物"],ans:1,exp:"水俁病由有機汞（甲基汞）中毒引起，主要症狀為神經損害、致畸胎。水俁病最早在日本水俁市發現，因工廠排放含汞廢水污染魚類所致。"},
+  {id:"osh-a-ch3-006",ch:3,q:"黑球溫度測量用黑色銅球直徑應為幾公分？",opts:["10cm","12cm","15cm","20cm"],ans:2,exp:"黑球溫度計使用直徑15公分的中空黑色銅球，插入溫度計量取輻射熱效應，代表環境輻射熱。"},
+  {id:"osh-a-ch3-007",ch:3,q:"「鎘」中毒引起的職業病稱為什麼？",opts:["矽肺症","痛痛病","水俁病","塵肺症"],ans:1,exp:"鎘中毒可引起「痛痛病」（又稱伊泰伊泰病），主要影響腎臟和骨骼，1955年首先在日本富山縣神通川流域發現。"},
+  {id:"osh-a-ch3-008",ch:3,q:"「游離輻射」對人體最敏感的組織為何？",opts:["骨骼","造血器官（骨髓）","皮膚","神經系統"],ans:1,exp:"造血器官（骨髓）、性腺、眼晶狀體對游離輻射最為敏感，骨髓受輻射損傷可造成造血功能障礙。"},
+  {id:"osh-a-ch3-009",ch:3,q:"預防矽肺症（職業性塵肺病），最根本的控制方法為何？",opts:["定期胸部X光檢查","使用有效的防塵口罩","控制作業環境粉塵濃度（工程控制）","縮短工作時數"],ans:2,exp:"矽肺症最根本的預防是控制作業環境中游離二氧化矽（SiO2）粉塵濃度（工程控制），如濕式作業、局部排氣，而非依賴個人防護具。"},
+  {id:"osh-a-ch3-010",ch:3,q:"「職業性噪音引起的聽力損失（NIHL）」最先發生在哪個頻率？",opts:["250Hz","1,000Hz","4,000Hz","8,000Hz"],ans:2,exp:"NIHL（噪音性聽力損失）最先且典型受損頻率為4,000Hz，在聽力圖上呈現「4kHz缺口（Notch）」現象，早期無明顯主觀感受。"},
+  {id:"osh-a-ch3-011",ch:3,q:"「全身振動」主要危害哪個系統？",opts:["消化系統","呼吸系統","脊椎和下背部（肌肉骨骼系統）","視覺系統"],ans:2,exp:"全身振動（WBV，如搭乘工程機械、車輛等）主要危害脊椎和下背部，可引起腰痛、椎間盤損傷等肌肉骨骼疾病。"},
+  {id:"osh-a-ch3-012",ch:3,q:"「手臂振動症候群」（HAV）的主要症狀為何？",opts:["手臂骨折","手指末梢血液循環障礙（白指症）","手腕扭傷","肩部脫臼"],ans:1,exp:"手臂振動症候群（Hand-Arm Vibration Syndrome，HAVS）主要症狀是Raynaud現象（白指症），即手指末梢血液循環障礙，手指在寒冷時出現蒼白、麻木。"},
+  {id:"osh-a-ch3-013",ch:3,q:"「人因工程」(Ergonomics)的目的在於何者？",opts:["提高機器效率","設計工作以適合工作者的能力與限制，減少職業傷害","增加工作強度","降低設備成本"],ans:1,exp:"人因工程（Ergonomics）的目的是透過設計工作、工具、工作站，使其符合人體結構和能力，減少職業性肌肉骨骼傷害（MSD），提升效率與舒適性。"},
+  {id:"osh-a-ch3-014",ch:3,q:"長期暴露於有機溶劑可能引起哪種職業病？",opts:["矽肺症","塵肺症","有機溶劑中毒（肝腎傷害、神經毒性）","噪音性聽力損失"],ans:2,exp:"長期暴露有機溶劑（苯、甲苯、二甲苯等）可引起慢性有機溶劑中毒，症狀包括肝腎功能損傷、中樞神經系統傷害（頭暈、認知障礙）。"},
+  {id:"osh-a-ch3-015",ch:3,q:"「塵肺症」是由什麼原因引起的職業病？",opts:["長期高溫作業","長期吸入無機粉塵沉積在肺部","接觸有機溶劑","重金屬中毒"],ans:1,exp:"塵肺症（Pneumoconiosis）是因長期吸入礦物性/無機粉塵（如矽塵、石綿、煤塵）沉積在肺部，引起纖維化病變，最常見的是矽肺症。"},
+  {id:"osh-a-ch3-016",ch:3,q:"依《勞工健康保護規則》，從事哪類作業的勞工，健康檢查紀錄需保存30年？",opts:["高溫作業","粉塵作業","游離輻射作業","有機溶劑作業"],ans:2,exp:"依規則，從事游離輻射作業勞工的特殊健康檢查紀錄，保存期限最長，應保存至少30年（其他特殊作業一般為10年）。"},
+  {id:"osh-a-ch3-017",ch:3,q:"「職業性皮膚病」最常見的致因為何？",opts:["紫外線過度暴露","接觸刺激性或致敏性化學品（接觸性皮膚炎）","振動暴露","電磁波暴露"],ans:1,exp:"職業性皮膚病最常見的是接觸性皮膚炎（Contact Dermatitis），由直接接觸刺激性物質（如清潔劑、酸鹼）或致敏物質引起，占職業病相當大比例。"},
+  {id:"osh-a-ch3-018",ch:3,q:"「石綿（Asbestos）」接觸最主要引起的疾病為何？",opts:["矽肺症","石綿肺症與間皮瘤（Mesothelioma）","鉛中毒","噪音性聽力損失"],ans:1,exp:"石綿接觸可引起石綿肺症（Asbestosis）、肺癌及惡性間皮瘤（Mesothelioma，主要發生在胸膜），潛伏期可長達20~40年。"},
+  {id:"osh-a-ch3-019",ch:3,q:"「工作壓力」引起的健康問題，屬於何種職業危害？",opts:["物理性危害","化學性危害","心理社會性危害（Psychosocial Hazard）","生物性危害"],ans:2,exp:"工作壓力、暴力、騷擾等屬於心理社會性危害（Psychosocial Hazard），可引起工作倦怠、焦慮、抑鬱、心血管疾病等。"},
+  {id:"osh-a-ch3-020",ch:3,q:"「物理性危害」包含下列何者？",opts:["有機溶劑","病毒感染","噪音、振動、輻射","工作壓力"],ans:2,exp:"物理性危害包括噪音、振動、游離/非游離輻射、極端溫度（高溫、低溫）、氣壓等；化學性危害是各種有害化學品；生物性是微生物；心理社會是壓力、暴力。"},
+  {id:"osh-a-ch3-021",ch:3,q:"「呼吸性粉塵（Respirable Dust）」的特性為何？",opts:["粒徑大於100微米","粒徑小於10微米，可到達肺泡","顏色呈白色","密度特別高"],ans:1,exp:"呼吸性粉塵指粒徑較小（一般<10µm，尤其<4µm）的粉塵，能穿越上呼吸道防禦機制，沉積在肺泡，造成塵肺症等嚴重疾病。"},
+  {id:"osh-a-ch3-022",ch:3,q:"「生物性危害（Biological Hazard）」最常見於哪種工作環境？",opts:["電子工廠","醫療機構、農業和污水處理","金屬冶煉廠","辦公室"],ans:1,exp:"生物性危害（如細菌、病毒、真菌、寄生蟲等）最常見於醫療機構（血液傳播疾病）、農業（人畜共通傳染病）、污水處理（腸道病原體）等。"},
+  {id:"osh-a-ch3-023",ch:3,q:"「熱衰竭（Heat Exhaustion）」與「熱中暑（Heat Stroke）」的最主要區別為何？",opts:["兩者症狀完全相同","熱中暑有中樞體溫調節失效（高燒>40°C）且為生命威脅","熱衰竭比熱中暑嚴重","熱衰竭須立即送醫，熱中暑可自行恢復"],ans:1,exp:"熱衰竭：大量流汗、頭暈、皮膚濕冷，體溫可能正常或略升，通常可恢復。熱中暑（Heat Stroke）：體溫調節失效、體溫>40°C、皮膚乾燥熱、可能無汗、意識障礙，屬醫療緊急狀況。"},
+  {id:"osh-a-ch3-024",ch:3,q:"噪音暴露的控制措施，依優先順序應為何？",opts:["先提供耳塞，再考慮工程控制","消除或降低噪音源→工程隔音→行政管理（輪班）→個人防護（耳塞/耳罩）","只需要工人戴耳塞","行政管理優先於工程控制"],ans:1,exp:"噪音控制優先序：①消除/替換噪音源②工程控制（隔音、吸音、防振）③行政管理（工作輪換縮短暴露）④個人防護（耳塞、耳罩）。"},
+  {id:"osh-a-ch3-025",ch:3,q:"「職業暴露限值（OEL）時間加權平均值（TWA）」的計算基礎為何？",opts:["每小時最大暴露濃度","8小時工作日的平均暴露濃度","30分鐘最大暴露值","單次暴露的峰值"],ans:1,exp:"OEL-TWA（時間加權平均值）以8小時工作日為基礎，計算整個工作班次的加權平均暴露濃度，代表長期反覆暴露的健康基準值。"},
+  {id:"osh-a-ch3-026",ch:3,q:"依《勞工健康保護規則》，健康管理的分級中，第一級管理的意義為何？",opts:["需要立即停止作業","健康正常，可繼續工作並進行一般健康促進","需要特殊醫療介入","限制從事特定作業"],ans:1,exp:"健康管理分級：第一級（正常）繼續工作；第二級（異常但未達職業病標準）加強追蹤；第三級（疑似職業病）需醫師評估；第四級（確認職業病）需醫療處置。"},
+  {id:"osh-a-ch3-027",ch:3,q:"「非游離輻射（Non-Ionizing Radiation）」包含下列何者？",opts:["X射線","伽瑪射線","紫外線（UV）、可見光、紅外線（IR）、微波、無線電波","阿爾法粒子"],ans:2,exp:"非游離輻射包括：紫外線（UV）、可見光、紅外線（IR）、微波（Microwave）、無線電波（RF）等。X射線、伽瑪射線、α/β粒子屬游離輻射。"},
+  {id:"osh-a-ch3-028",ch:3,q:"「工作場所職業健康護理師」的主要職責不包含下列何者？",opts:["健康評估與監測","職業危害調查","診斷治療職業病","健康諮詢與衛教"],ans:2,exp:"職業健康護理師負責健康評估、監測、職業危害調查、健康諮詢等；「診斷治療職業病」屬醫師職責，護理師不得獨立執行診斷治療。"},
+  {id:"osh-a-ch3-029",ch:3,q:"長期低頻率暴露於游離輻射的慢性效應，下列何者最受關注？",opts:["急性放射症候群","癌症（尤其是白血病和固態癌）的風險增加","立即性皮膚灼傷","神經系統急性損傷"],ans:1,exp:"慢性（低劑量長期）游離輻射暴露最主要的慢性效應是癌症風險增加，包括白血病、甲狀腺癌、骨髓癌等，其影響有數年至數十年的潛伏期。"},
+  {id:"osh-a-ch4-001",ch:4,q:"甲種職業安全衛生業務主管訓練時數不得少於幾小時？",opts:["21小時","35小時","42小時","115小時"],ans:2,exp:"依《職業安全衛生教育訓練規則》，甲種職安衛業務主管訓練時數不得少於42小時；乙種35小時；丙種21小時。"},
+  {id:"osh-a-ch4-002",ch:4,q:"職業安全衛生業務主管在職教育訓練應每幾年接受一次？",opts:["1年","2年","3年","5年"],ans:1,exp:"依訓練規則，職安衛業務主管每2年至少應接受在職教育訓練一次，每次不得少於6小時。"},
+  {id:"osh-a-ch4-003",ch:4,q:"新僱勞工或變更工作前應接受的一般安全衛生教育訓練，時數不得少於幾小時？",opts:["1小時","2小時","3小時","6小時"],ans:2,exp:"依訓練規則第17條，新僱或變更工作前應接受適於工作必要的一般安全衛生教育訓練，不得少於3小時。"},
+  {id:"osh-a-ch4-004",ch:4,q:"下列哪種人員的訓練時數最長？",opts:["丙種職安衛業務主管","乙種職安衛業務主管","甲種職安衛業務主管","一般勞工"],ans:2,exp:"各級訓練時數：甲種42小時 > 乙種35小時 > 丙種21小時 > 一般勞工3小時。甲種業務主管訓練時數最長。"},
+  {id:"osh-a-ch4-005",ch:4,q:"依訓練規則，從事缺氧危險作業主管的安全衛生訓練時數為幾小時？",opts:["6小時","12小時","18小時","24小時"],ans:1,exp:"依《職業安全衛生教育訓練規則》，缺氧危險作業主管訓練時數為18小時（依規則規定，請以最新版規則為準）。"},
+  {id:"osh-a-ch4-006",ch:4,q:"「職業安全衛生管理師」與「職業安全衛生管理員」的主要差異為何？",opts:["兩者職責完全相同","管理師有更高的學歷及實務要求，職責較廣","管理員比管理師需要更多訓練","兩者可由同一人擔任"],ans:1,exp:"職安衛管理師需具備特定學歷（如工業安全相關科系）及實務經驗，負責較廣泛的管理工作；管理員資格相對較低，負責較具體的事務性工作。"},
+  {id:"osh-a-ch4-007",ch:4,q:"緊急應變演練應多久進行一次？",opts:["每年至少一次","每5年一次","僅在發生災害後","不需定期演練"],ans:0,exp:"依規定及管理實務，緊急應變演練（消防演習、疏散演練等）應每年至少實施一次，以確保員工熟悉緊急程序。"},
+  {id:"osh-a-ch4-008",ch:4,q:"從事「粉塵危害預防」的特定安全衛生教育訓練，內容應包含何者？",opts:["財務管理","相關法規、粉塵危害、防護具使用及緊急應變","行銷技巧","生產效率提升"],ans:1,exp:"特定危害作業的訓練內容須涵蓋：相關法規、危害特性與健康影響、防護設備及個人防護具的使用、緊急應變措施等。"},
+  {id:"osh-a-ch4-009",ch:4,q:"職業安全衛生教育訓練的「成效評估」應包含哪四個層次（依Kirkpatrick模型）？",opts:["理論、實務、考試、應用","反應、學習、行為、結果","觀察、訓練、測驗、回顧","計畫、執行、查核、改善"],ans:1,exp:"Kirkpatrick四層次評估：Level 1反應（學員滿意度）→Level 2學習（知識/技能獲得）→Level 3行為（工作行為改變）→Level 4結果（組織績效改善）。"},
+  {id:"osh-a-ch4-010",ch:4,q:"依法，雇主應保存教育訓練紀錄幾年？",opts:["1年","3年","5年","10年"],ans:1,exp:"依《職業安全衛生教育訓練規則》，雇主應保存教育訓練紀錄，一般應保存3年以備查核。"},
+  {id:"osh-a-ch4-011",ch:4,q:"哪種教育訓練方式最適合訓練工作人員的「技能操作」？",opts:["講課（課堂授課）","閱讀教材","實作（On-the-Job Training, OJT）","線上測驗"],ans:2,exp:"技能操作訓練最有效的方式是實作訓練（OJT, On-the-Job Training），在實際工作環境中演示和練習，比單純課堂教學更有效。"},
+  {id:"osh-a-ch4-012",ch:4,q:"從事「高壓氣體」作業的勞工，依規定需接受幾小時以上的安全教育訓練？",opts:["3小時","6小時","18小時","依雇主規定"],ans:2,exp:"依訓練規則，高壓氣體製造安全技術員等特定職類需接受18小時以上的專業訓練（各職類時數依規則規定）。"},
+  {id:"osh-a-ch4-013",ch:4,q:"「職業安全衛生教育訓練」的主要目的為何？",opts:["增加雇主利潤","提升勞工的安全衛生知識、技能與態度，預防職業災害","滿足法規的最低要求","取代雇主的安全管理責任"],ans:1,exp:"職安衛教育訓練目的是提升工作者的危害認知、安全操作技能及安全態度，進而預防職業災害，保護工作者健康，而非僅為法規合規。"},
+  {id:"osh-a-ch4-014",ch:4,q:"從事「有機溶劑作業」的相關主管，應接受至少幾小時的專業訓練？",opts:["6小時","12小時","18小時","24小時"],ans:2,exp:"依訓練規則，有機溶劑作業主管需接受18小時以上的訓練，包含法規、危害特性、安全作業程序等。"},
+  {id:"osh-a-ch4-015",ch:4,q:"教育訓練需求分析（TNA）的目的為何？",opts:["決定訓練預算","找出組織的訓練需求與差距，確保訓練資源用在最需要的地方","讓所有員工接受相同訓練","取得ISO認證"],ans:1,exp:"訓練需求分析（Training Needs Analysis, TNA）的目的是分析組織、工作及個人三個層次的訓練缺口，確保訓練課程針對實際需求，有效使用資源。"},
+  {id:"osh-a-ch4-016",ch:4,q:"依訓練規則，安全衛生業務主管的訓練機構，需向哪個機關申請認可？",opts:["地方政府","勞動部","衛生福利部","教育部"],ans:1,exp:"依《職業安全衛生教育訓練規則》，辦理安全衛生業務主管訓練的機構，需向中央主管機關（勞動部）申請認可，才可辦理合法訓練。"},
+  {id:"osh-a-ch4-017",ch:4,q:"「現場教育訓練（OJT）」的優點包含何者？",opts:["成本高，但效果最差","直接在真實工作環境中訓練，學以致用效果高","只適合新進員工","需大量事前準備，彈性差"],ans:1,exp:"OJT（現場訓練）優點：在真實工作場所訓練、立即應用、成本相對低、可依學員進度調整；缺點是品質取決於師傅素質，有時安全風險較高。"},
+  {id:"osh-a-ch4-018",ch:4,q:"從事起重機具「操作」的勞工，除了基本3小時訓練外，還需接受哪種特定訓練？",opts:["不需額外訓練","特定設備的操作訓練及技術士檢定","只需閱讀操作手冊","完成在職訓練即可"],ans:1,exp:"操作危險性機械（如固定式起重機）的勞工，除一般訓練外，需接受特定設備操作訓練，部分職類並需取得技術士證照，方可獨立操作。"},
+  {id:"osh-a-ch4-019",ch:4,q:"「安全觀察（Safety Observation）」作為訓練工具的主要目的為何？",opts:["懲處違規員工","藉由觀察實際工作行為，提供即時回饋，強化安全行為","記錄員工缺失供日後懲處","滿足稽核要求"],ans:1,exp:"安全觀察程序（Behavior-Based Safety的核心工具）是觀察工作者的實際行為，給予正向鼓勵安全行為、即時糾正不安全行為的回饋，作為行為改變工具。"},
+  {id:"osh-a-ch4-020",ch:4,q:"對於高風險作業（如局限空間、高空作業），訓練後還應採取何種措施確保安全？",opts:["不需額外措施，訓練後即可作業","需實際演練並取得「許可作業（Permit-To-Work）」才能執行","只需口頭確認已受訓","雇主自行決定"],ans:1,exp:"高風險作業（如局限空間進入、高空作業、熱工作業）訓練完成後，作業前仍需申請「工作許可證（Permit-To-Work, PTW）」，確認危害已控制，才能開始作業。"},
 ]};
 
 // ===== LECTURE CONTENT =====
@@ -1754,7 +1911,11 @@ function showResult(){
   const score=Math.round(correctCount/total*100);
   const elapsed=Math.round((Date.now()-state.startTime)/1000);
   const exam=exams.find(e=>e.id===state.currentExamId);
-  if(exam){state.recentExams=[{id:exam.id,name:exam.name,score,total,ts:Date.now()},...state.recentExams.filter(r=>r.id!==exam.id)].slice(0,5);saveState();}
+  if(exam){
+    state.recentExams=[{id:exam.id,name:exam.name,score,total,ts:Date.now()},...state.recentExams.filter(r=>r.id!==exam.id)].slice(0,5);
+    saveState();
+    cloud.saveSession({examId:exam.id,score,total,mode:state.mode,questions:state.questions,answers:state.answers}).then(r=>{if(!r.ok)console.warn('[save fail]',r.error);});
+  }
   nav('result');
   document.getElementById('final-score').textContent=score;
   document.getElementById('r-correct').textContent=correctCount;
