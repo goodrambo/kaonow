@@ -67,13 +67,13 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;font-size:
 @keyframes pop{from{transform:scale(0.96);opacity:0}to{transform:scale(1);opacity:1}}
 
 /* HERO */
-.hero-landing{padding:72px 0 52px;text-align:center;position:relative;overflow:hidden}
+.hero-landing{padding:48px 0 36px;text-align:center;position:relative;overflow:hidden}
 .hero-landing::before{content:'';position:absolute;inset:0;background:radial-gradient(700px 500px at 15% 0%,rgba(45,95,45,0.07),transparent),radial-gradient(500px 400px at 85% 10%,rgba(139,105,20,0.05),transparent);pointer-events:none}
 .hero-label{display:inline-flex;align-items:center;gap:6px;font-size:12px;color:var(--accent);background:var(--accent-light);padding:6px 14px;border-radius:999px;font-weight:600;margin-bottom:18px;letter-spacing:0.3px;border:1px solid rgba(45,95,45,0.15)}
 .hero-landing h1{font-size:44px;font-weight:800;letter-spacing:-1.2px;margin-bottom:16px;line-height:1.2;color:var(--text)}
 .hero-landing h1 span{color:var(--accent)}
-.hero-sub{font-size:18px;color:var(--text-secondary);max-width:600px;margin:0 auto 28px;line-height:1.65}
-.hero-actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-bottom:36px}
+.hero-sub{font-size:17px;color:var(--text-secondary);max-width:580px;margin:0 auto 24px;line-height:1.6}
+.hero-actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-bottom:24px}
 .btn-primary{background:var(--accent);color:#fff;padding:13px 26px;border-radius:999px;font-weight:700;font-size:15px;transition:var(--transition);display:inline-flex;align-items:center;gap:8px;box-shadow:0 4px 14px rgba(45,95,45,0.28)}
 .btn-primary:hover{background:var(--accent-hover);transform:translateY(-2px);box-shadow:0 6px 20px rgba(45,95,45,0.38)}
 .btn-secondary{background:var(--surface);color:var(--text);padding:13px 24px;border-radius:999px;font-weight:600;font-size:15px;transition:var(--transition);border:1.5px solid var(--border)}
@@ -132,6 +132,9 @@ button[disabled]:hover,button:disabled:hover{transform:none;background:inherit}
 .price-amount{font-size:36px;font-weight:800;letter-spacing:-1px;line-height:1;margin-bottom:4px;color:var(--text)}
 .price-amount span{font-size:15px;font-weight:500;color:var(--text-secondary)}
 .price-period{font-size:12px;color:var(--text-tertiary);margin-bottom:16px}
+.price-period.has-discount{font-size:13px;color:var(--text);font-weight:600}
+.price-period .discount-tag{display:inline-block;background:#E74C3C;color:#fff;font-size:11px;font-weight:700;padding:2px 8px;border-radius:4px;margin-left:6px;letter-spacing:0.3px;animation:pulse-discount 2s ease-in-out infinite}
+@keyframes pulse-discount{0%,100%{transform:scale(1)}50%{transform:scale(1.05)}}
 .price-divider{height:1px;background:var(--border-light);margin:16px 0}
 .price-features{list-style:none;display:flex;flex-direction:column;gap:10px}
 .price-features li{font-size:13.5px;display:flex;align-items:flex-start;gap:8px;line-height:1.5}
@@ -549,11 +552,11 @@ html{scroll-padding-top:calc(var(--header-h) + 16px)}
     <div id="home-personal"></div>
 
     <div class="section" style="padding-top:20px">
-      <div class="section-head"><div class="section-label">HOW IT WORKS</div><h2>三步驟，效率備考</h2><p>打開瀏覽器就能開始，不用下載、不用帳號</p></div>
+      <div class="section-head"><div class="section-label">HOW IT WORKS</div><h2>三步驟，效率備考</h2><p>免費註冊即可開始，手機電腦都能用</p></div>
       <div class="steps">
         <div class="step"><div class="step-num">1</div><h3>選擇考試</h3><p>從證照、英檢、公職、升學等分類中，找到你要準備的科目。</p></div>
-        <div class="step"><div class="step-num">2</div><h3>讀講義 · 刷題目</h3><p>章節練習、隨機測驗或完整模擬考，搭配重點講義事半功倍。</p></div>
-        <div class="step"><div class="step-num">3</div><h3>弱點加強</h3><p>系統分析答錯章節，針對弱項加強，讓複習更有效率。</p></div>
+        <div class="step"><div class="step-num">2</div><h3>讀講義 · 刷題目</h3><p>主題練習、隨機測驗或完整模擬考，搭配重點講義事半功倍。</p></div>
+        <div class="step"><div class="step-num">3</div><h3>弱點加強</h3><p>系統自動分析你的弱項，精準推薦題目，讓複習更有效率。</p></div>
       </div>
     </div>
 
@@ -570,7 +573,7 @@ html{scroll-padding-top:calc(var(--header-h) + 16px)}
         <div class="feat"><span class="feat-icon">🏆</span><h3>模擬考體驗</h3><p>依照真實考試題數與配分設計，讓你上考場不緊張。</p></div>
         <div class="feat"><span class="feat-icon">📊</span><h3>學習進度追蹤</h3><p>連勝紀錄、正確率趨勢、練習總量，進步看得見。</p></div>
         <div class="feat"><span class="feat-icon">📱</span><h3>跨裝置通用</h3><p>手機、平板、電腦都能用，通勤刷題完全沒問題。</p></div>
-        <div class="feat"><span class="feat-icon">🔒</span><h3>免費版即可開始</h3><p>無需帳號，打開就練；升級解鎖更多題庫與進階功能。</p></div>
+        <div class="feat"><span class="feat-icon">🔒</span><h3>免費版即可開始</h3><p>免費註冊立即練習；升級 Pro 解鎖完整題庫與 AI 功能。</p></div>
       </div>
     </div>
 
@@ -584,23 +587,23 @@ html{scroll-padding-top:calc(var(--header-h) + 16px)}
           <div class="price-divider"></div>
           <ul class="price-features">
             <li>每科每日 10 題免費練習</li>
-            <li>基本章節練習與隨機測驗</li>
+            <li>基本主題練習與隨機測驗</li>
             <li>答題解析說明</li>
             <li class="off">完整題庫無限練習</li>
             <li class="off">完整模擬考（80 題）</li>
             <li class="off">AI 弱點分析 + 學習計畫</li>
           </ul>
-          <button class="price-cta" onclick="nav('catalog')">免費開始練習</button>
+          <button class="price-cta" onclick="openLoginModal()">免費註冊開始</button>
         </div>
         <div class="price-card highlight">
           <div class="price-badge">最划算</div>
           <div class="price-name">Pro</div>
           <div class="price-amount">NT$129 <span>/ 月</span></div>
-          <div class="price-period">或 NT$349 / 季（省 NT$38）</div>
+          <div class="price-period has-discount">季繳 NT$349 <span style="text-decoration:line-through;color:var(--text-tertiary);font-weight:400">NT$387</span> <span class="discount-tag">省 10%</span></div>
           <div class="price-divider"></div>
           <ul class="price-features">
             <li>所有考試完整題庫無限練習</li>
-            <li>無限制隨機測驗 + 章節練習</li>
+            <li>無限制隨機測驗 + 主題練習</li>
             <li>完整 80 題模擬考</li>
             <li>詳細答題解析 + AI 補充說明</li>
             <li>AI 個人化弱點分析 + 學習計畫</li>
