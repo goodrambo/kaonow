@@ -80,6 +80,8 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;font-size:
 .btn-secondary:hover{background:var(--surface-alt);border-color:#bbb}
 .btn-ghost{background:transparent;color:var(--text-secondary);padding:10px 16px;border-radius:8px;font-weight:500;font-size:14px;transition:var(--transition)}
 .btn-ghost:hover{background:var(--surface-alt);color:var(--text)}
+button[disabled],button:disabled{cursor:not-allowed;opacity:0.55}
+button[disabled]:hover,button:disabled:hover{transform:none;background:inherit}
 .hero-trust{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;font-size:13px;color:var(--text-tertiary);margin-top:8px}
 .hero-trust span{display:inline-flex;align-items:center;gap:6px;padding:8px 16px;background:var(--surface);border:1px solid var(--border-light);border-radius:999px;box-shadow:0 1px 2px rgba(0,0,0,0.03)}
 .hero-trust b{color:var(--accent);font-weight:800;font-size:15px}
@@ -140,6 +142,10 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;font-size:
 .price-cta:hover{background:var(--accent-light)}
 .price-card.highlight .price-cta{background:var(--accent);color:#fff;border-color:var(--accent)}
 .price-card.highlight .price-cta:hover{background:var(--accent-hover)}
+.price-cta.coming{background:#F3F4F6;color:var(--text-secondary);border-color:var(--border-light);cursor:not-allowed}
+.price-cta.coming:hover{background:#F3F4F6}
+.price-card.highlight .price-cta.coming{background:#F3F4F6;color:var(--text-secondary);border-color:var(--border-light)}
+.price-card.highlight .price-cta.coming:hover{background:#F3F4F6}
 
 /* CTA BAND */
 .cta-band{background:linear-gradient(135deg,var(--accent) 0%,var(--accent-dark) 100%);color:#fff;padding:52px 28px;border-radius:var(--radius-xl);text-align:center;margin:48px 0;position:relative;overflow:hidden}
@@ -238,6 +244,7 @@ html{scroll-padding-top:calc(var(--header-h) + 16px)}
 .chapter-list{display:flex;flex-direction:column;gap:8px}
 .chapter-item{background:var(--surface);border:1px solid var(--border-light);border-radius:var(--radius);padding:15px 18px;transition:var(--transition);cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:12px}
 .chapter-item:hover{border-color:var(--accent);background:var(--surface-elev)}
+.chapter-item.is-placeholder,.chapter-item.is-placeholder:hover{cursor:default;opacity:0.75;border-color:var(--border-light);background:var(--surface);pointer-events:none}
 .chapter-title{font-size:14px;font-weight:600;margin-bottom:3px}
 .chapter-meta{font-size:12px;color:var(--text-tertiary)}
 
@@ -367,7 +374,12 @@ html{scroll-padding-top:calc(var(--header-h) + 16px)}
   .section{padding:32px 0}
   .section-head h2{font-size:24px}
   .steps{grid-template-columns:1fr}
-  .mode-grid{grid-template-columns:1fr}
+  /* .mode-grid 保持 2 欄，但縮小 gap/padding，避免單欄造成過度捲動 */
+  .mode-grid{gap:8px}
+  .mode-card{padding:14px;min-height:84px}
+  .mode-icon{font-size:20px}
+  .mode-title{font-size:14px}
+  .mode-desc{font-size:11.5px;line-height:1.4}
   .exam-hero{padding:20px}
   .exam-hero h1{font-size:21px}
   .question-card{padding:18px}
@@ -450,6 +462,16 @@ html{scroll-padding-top:calc(var(--header-h) + 16px)}
 .badge-official{background:var(--accent-light);color:var(--accent)}
 .badge-ai{background:#F3E8FF;color:#6B21A8}
 .badge-community{background:#FFF8E1;color:#B45309}
+
+/* ── SOURCE NOTICE (bank pane) ── */
+.source-notice{
+  display:flex;gap:10px;align-items:flex-start;
+  background:#FAFBFC;border:1px solid var(--border-light);
+  border-radius:10px;padding:12px 14px;margin-bottom:16px;
+  font-size:13px;line-height:1.7;color:var(--text-secondary);
+}
+.source-notice .sn-icon{font-size:15px;flex-shrink:0;margin-top:1px}
+.source-notice .sn-body strong{color:var(--text);font-weight:700;margin-right:4px}
 
 /* ── COUNTDOWN TIMER (mock exam) ── */
 .countdown{
@@ -584,7 +606,7 @@ html{scroll-padding-top:calc(var(--header-h) + 16px)}
             <li>學習進度紀錄</li>
             <li class="off">AI 弱點分析 + 學習計畫</li>
           </ul>
-          <button class="price-cta" onclick="alert('訂閱功能即將上線，敬請期待！')">立即升級</button>
+          <button class="price-cta coming" disabled>即將上線</button>
         </div>
         <div class="price-card">
           <div class="price-name">進階方案</div>
@@ -599,7 +621,7 @@ html{scroll-padding-top:calc(var(--header-h) + 16px)}
             <li>考前衝刺包（高頻考題）</li>
             <li>優先新考科更新通知</li>
           </ul>
-          <button class="price-cta" onclick="alert('訂閱功能即將上線，敬請期待！')">立即升級</button>
+          <button class="price-cta coming" disabled>即將上線</button>
         </div>
       </div>
     </div>
@@ -685,7 +707,7 @@ html{scroll-padding-top:calc(var(--header-h) + 16px)}
       </div>
       <div id="weak-area"></div>
       <div class="result-actions">
-        <button class="btn-secondary" onclick="reviewWrong()">複習錯題</button>
+        <button class="btn-secondary" id="result-review-btn" onclick="reviewWrong()">複習錯題</button>
         <button class="btn-primary" onclick="navBackToScope()">回到學習</button>
       </div>
     </div>
@@ -700,7 +722,7 @@ html{scroll-padding-top:calc(var(--header-h) + 16px)}
     <div class="stats-grid" id="me-stats"></div>
     <div class="panel"><h2>⭐ 我的收藏</h2><div id="me-bookmarks"></div></div>
     <div class="panel"><h2>📘 最近練習</h2><div id="me-recent" class="panel-empty">還沒有紀錄，<a href="#/catalog" style="color:var(--accent);font-weight:600">去選一個考試</a>開始吧！</div></div>
-    <div class="panel"><h2>⚙️ 設定</h2><button class="btn-secondary" style="font-size:13px" onclick="resetProgress()">清除所有學習紀錄</button></div>
+    <div class="panel"><h2>⚙️ 設定</h2><div id="me-settings"></div></div>
   </div>
 </section>
 
@@ -982,7 +1004,7 @@ const cloud = (() => {
   }
 
   // ── 題庫載入（含快取，24h TTL） ─────────────────────────
-  const Q_CACHE_PREFIX = 'kaonow_q_';
+  const Q_CACHE_PREFIX = 'kaonow_q2_';  // v8: 換 key 讓舊 cache 失效，拉到新的 source 標記
   const Q_CACHE_TTL = 24 * 3600 * 1000;
   const qMemCache = {};  // 記憶體快取，避免同一 session 重複打
 
@@ -1382,8 +1404,17 @@ async function signInWithGoogle() {
 
 // ── Magic Link ───────────────────────────────────────────────
 async function sendMagicLink() {
-  const email = document.getElementById('magic-email').value.trim();
-  if (!email || !email.includes('@')) { showToast('請輸入有效的 Email'); return; }
+  const input = document.getElementById('magic-email');
+  const email = input.value.trim();
+  // 前端格式檢查：basic RFC-like，catch 常見輸入錯誤
+  const emailRe = /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/;
+  if (!emailRe.test(email)) {
+    showToast('請輸入有效的 Email 格式');
+    input.focus();
+    input.style.borderColor = 'var(--wrong)';
+    setTimeout(() => { input.style.borderColor = 'var(--border)'; }, 2000);
+    return;
+  }
   const btn = document.getElementById('magic-btn');
   btn.textContent = '寄送中...';
   btn.disabled = true;
@@ -1415,13 +1446,31 @@ async function signOut() {
 
 // ── Toast ────────────────────────────────────────────────────
 let _toastTimer;
+let _toastQueue = [];
+let _toastShowing = false;
 function showToast(msg) {
+  // 連續呼叫時排隊，避免前一則被覆蓋看不到
   const t = document.getElementById('toast');
   if (!t) { console.log('[Toast]', msg); return; }
+  // 若與正在顯示的訊息相同，略過（避免 double-tap 連按）
+  if (_toastShowing && t.textContent === msg) return;
+  _toastQueue.push(String(msg));
+  if (_toastShowing) return;
+  _showNextToast();
+}
+function _showNextToast() {
+  const t = document.getElementById('toast');
+  if (!t || !_toastQueue.length) { _toastShowing = false; return; }
+  _toastShowing = true;
+  const msg = _toastQueue.shift();
   t.textContent = msg;
   t.classList.add('show');
   clearTimeout(_toastTimer);
-  _toastTimer = setTimeout(() => t.classList.remove('show'), 3000);
+  // 每則 2.5 秒，隊列中的後續訊息間隔 250ms
+  _toastTimer = setTimeout(() => {
+    t.classList.remove('show');
+    setTimeout(_showNextToast, 250);
+  }, 2500);
 }
 
 // ── Init: restore session on page load (wait for DOM) ────────
@@ -1441,10 +1490,15 @@ function bootAuth() {
     } catch(e) { console.warn('Auth boot error:', e); updateAuthUI(); }
   })();
 }
-if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', bootAuth);
-} else {
+function bootApp() {
   bootAuth();
+  // 延後一拍：等 DOM / router 啟動後，再檢查是否有未完成的模擬考
+  setTimeout(() => { try { checkResumeQuiz(); } catch(e) { console.warn('[resume check fail]', e); } }, 400);
+}
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', bootApp);
+} else {
+  bootApp();
 }
 
 
@@ -1989,7 +2043,7 @@ async function renderHome(){
     const count=exams.filter(e=>e.categoryId===cat.id).length;
     const el=document.createElement('div');
     el.className='category-card';
-    el.onclick=()=>{state.catalogFilter=cat.id;nav('catalog')};
+    el.onclick=()=>{state.catalogFilter=cat.id;state.catalogSubFilter=null;state.catalogSearch='';nav('catalog')};
     el.innerHTML=`
       <div class="category-icon" style="background:${cat.color};color:${cat.tc}">${cat.icon}</div>
       <div class="category-name">${cat.name}</div>
@@ -2137,13 +2191,13 @@ function renderCatalog(){
   const bookmarkChip = document.createElement('button');
   bookmarkChip.className='filter-chip'+(state.catalogFilter==='__bookmark'?' active':'');
   bookmarkChip.innerHTML = `⭐ 我的收藏${bookmarkSet.size?` · ${bookmarkSet.size}`:''}`;
-  bookmarkChip.onclick = () => { state.catalogFilter='__bookmark'; state.catalogSubFilter=null; renderCatalog(); };
+  bookmarkChip.onclick = () => { state.catalogFilter='__bookmark'; state.catalogSubFilter=null; state.catalogSearch=''; renderCatalog(); };
   f.appendChild(bookmarkChip);
   examCategories.forEach(cat=>{
     const chip=document.createElement('button');
     chip.className='filter-chip'+(state.catalogFilter===cat.id?' active':'');
     chip.textContent=cat.icon+' '+cat.name;
-    chip.onclick=()=>{state.catalogFilter=cat.id;state.catalogSubFilter=null;renderCatalog()};
+    chip.onclick=()=>{state.catalogFilter=cat.id;state.catalogSubFilter=null;state.catalogSearch='';renderCatalog()};
     f.appendChild(chip);
   });
 
@@ -2273,7 +2327,7 @@ function examCardHTML(exam, bookmarkSet) {
       ? '<span class="exam-status info">📚 資料完整</span>'
       : '<span class="exam-status soon">⏳ 建置中</span>');
   const bookmarked = bookmarkSet && bookmarkSet.has(exam.id);
-  const bookmarkBtn = `<button class="bookmark-btn${bookmarked?' active':''}" data-exam-id="${exam.id}" title="${bookmarked?'取消收藏':'加入收藏'}" aria-label="${bookmarked?'取消收藏':'加入收藏'}">${bookmarked?'★':'☆'}</button>`;
+  const bookmarkBtn = `<button class="bookmark-btn${bookmarked?' active':''}" data-exam-id="${exam.id}" title="${bookmarked?'取消收藏':'加入收藏'}" aria-label="${bookmarked?'取消收藏':'加入收藏'}" aria-pressed="${bookmarked?'true':'false'}">${bookmarked?'★':'☆'}</button>`;
   const meta = exam.available
     ? `<span>📚 ${totalQs} 題</span><span>📖 ${(exam.chapters||[]).length} 章</span>`
     : (exam.chapters && exam.chapters.length > 0
@@ -2355,11 +2409,39 @@ async function renderExam(id){
   document.getElementById('exam-hero').innerHTML=`<span class="exam-category">${cat?cat.name:''}</span>
     <h1>${exam.name}</h1><div class="sub">${exam.desc}${exam.issuer?`<br><small style="color:var(--text-tertiary)">認證單位：${exam.issuer}</small>`:''}</div>
     ${exam.available?`<div class="exam-hero-stats">
-      <div class="eh-stat"><div class="eh-stat-num">${totalQs}</div><div class="eh-stat-label">題目數</div></div>
+      <div class="eh-stat"><div class="eh-stat-num" id="eh-stat-total">${totalQs}</div><div class="eh-stat-label" id="eh-stat-total-label">題目數</div></div>
       <div class="eh-stat"><div class="eh-stat-num">${(exam.chapters||[]).length}</div><div class="eh-stat-label">章節數</div></div>
       ${exam.durationHours?`<div class="eh-stat"><div class="eh-stat-num">${exam.durationHours}h</div><div class="eh-stat-label">訓練時數</div></div>`:''}
       <div class="eh-stat"><div class="eh-stat-num" style="font-size:13px;padding-top:4px">${exam.examFormat||'—'}</div><div class="eh-stat-label">考試形式</div></div>
     </div>`:''}`;
+  // 異步補上題庫來源細節（AI / 官方 / 社群）
+  if (exam.available) {
+    (async () => {
+      try {
+        const qs = await cloud.loadQuestions(id);
+        if (!qs || !qs.length) return;
+        // 確認使用者還在同一個考試頁面
+        if (state.currentExamId !== id) return;
+        const ai = qs.filter(q => q.source === 'ai_generated').length;
+        const off = qs.filter(q => q.source === 'official').length;
+        const com = qs.filter(q => q.source === 'community').length;
+        const numEl = document.getElementById('eh-stat-total');
+        const labEl = document.getElementById('eh-stat-total-label');
+        if (!numEl || !labEl) return;
+        numEl.textContent = qs.length;
+        // 組 label：顯示實際 source 分佈
+        const parts = [];
+        if (off) parts.push(`${off} 官方`);
+        if (ai)  parts.push(`${ai} AI 生成`);
+        if (com) parts.push(`${com} 社群`);
+        if (parts.length > 1) {
+          labEl.innerHTML = `題目數 <span style="color:var(--text-tertiary);font-size:11px">(${parts.join(' / ')})</span>`;
+        } else if (ai && !off && !com) {
+          labEl.innerHTML = `題目數 <span style="color:var(--text-tertiary);font-size:11px">(AI 生成題)</span>`;
+        }
+      } catch(e) { /* 忽略，hero 仍顯示 static 總數 */ }
+    })();
+  }
   const tabs=[{id:'overview',n:'概覽'},{id:'lecture',n:'講義'},{id:'bank',n:'題庫'},{id:'news',n:'考情新聞'}];
   document.getElementById('exam-tabs').innerHTML=tabs.map((t,i)=>`<button class="tab${i===0?' active':''}" onclick="switchTab('${t.id}')">${t.n}</button>`).join('');
   state.currentTab='overview';
@@ -2590,7 +2672,7 @@ function renderBankPane(exam){
     const chaptersHtml = (exam.chapters && exam.chapters.length > 0)
       ? `<h3 style="font-size:15px;font-weight:700;margin:18px 0 12px">未來將覆蓋的章節</h3>
          <div class="chapter-list">${exam.chapters.map(ch => `
-           <div class="chapter-item" style="cursor:default;opacity:0.75">
+           <div class="chapter-item is-placeholder">
              <div><div class="chapter-title">第 ${(ch.id!==undefined?ch.id:ch.n)+1} 章 · ${ch.name}</div>
              <div class="chapter-meta">${ch.count?`預計 ${ch.count} 題`:'題目整理中'}</div></div>
            </div>`).join('')}</div>`
@@ -2605,11 +2687,22 @@ function renderBankPane(exam){
       ${chaptersHtml}`;
     return;
   }
-  el.innerHTML=`<div class="mode-grid">
+  el.innerHTML=`
+  <div class="source-notice">
+    <span class="sn-icon">ℹ️</span>
+    <div class="sn-body">
+      <strong>題庫來源說明</strong>：每題下方會標示來源 —
+      <span class="q-badge badge-official" style="margin:0 2px">📝 官方考古題</span>
+      來自官方釋出歷屆試題；
+      <span class="q-badge badge-ai" style="margin:0 2px">🤖 AI 生成題</span>
+      由 Claude 依該考試法規與訓練知識生成，可能與最新修法有小幅落差。
+    </div>
+  </div>
+  <div class="mode-grid">
     <button class="mode-card" onclick="startQuiz('random')">
       <div class="mode-icon">🎲</div>
       <div class="mode-title">隨機測驗</div>
-      <div class="mode-desc">歷年官方考古題 10 題</div>
+      <div class="mode-desc">從題庫隨機抽 10 題</div>
     </button>
     <button class="mode-card" onclick="startQuiz('mock')">
       <div class="mode-icon">🏆</div>
@@ -2619,12 +2712,12 @@ function renderBankPane(exam){
     <button class="mode-card" onclick="startQuiz('weak')">
       <div class="mode-icon">🎯</div>
       <div class="mode-title">弱點加強</div>
-      <div class="mode-desc">AI 分析你的答題紀錄</div>
+      <div class="mode-desc">依錯題與弱章節加強</div>
     </button>
     <button class="mode-card" onclick="startQuiz('ai')">
       <div class="mode-icon">🤖</div>
       <div class="mode-title">AI 考題</div>
-      <div class="mode-desc">AI 從講義產出的新鮮題</div>
+      <div class="mode-desc">AI 生成練習題</div>
     </button>
   </div>
   <h3 style="font-size:15px;font-weight:700;margin:8px 0 12px;display:flex;align-items:center;gap:8px"><span style="width:3px;height:16px;background:var(--accent);border-radius:2px;display:inline-block"></span>依章節練習</h3>
@@ -2804,12 +2897,25 @@ function renderSubjectBankPane(subj, questions, chapters) {
 
   // 四模式（單科作用域）
   const mockCount = Math.min(total, 30);
+  const aiInBank = questions.filter(q => q.source === 'ai_generated').length;
+  const officialInBank = questions.filter(q => q.source === 'official').length;
+  const sourceNotice = `
+    <div class="source-notice">
+      <span class="sn-icon">ℹ️</span>
+      <div class="sn-body">
+        <strong>題庫組成</strong>：
+        <span class="q-badge badge-official" style="margin:0 2px">📝 官方考古題</span> ${officialInBank} 題 ·
+        <span class="q-badge badge-ai" style="margin:0 2px">🤖 AI 生成題</span> ${aiInBank} 題。
+        每題下方會標示來源；AI 生成題由 Claude 依該科法規與訓練知識生成，可能與最新修法有小幅落差。
+      </div>
+    </div>`;
   const modeGrid = `
+    ${sourceNotice}
     <div class="mode-grid">
       <button class="mode-card" onclick="startSubjectQuiz('random')">
         <div class="mode-icon">🎲</div>
         <div class="mode-title">隨機測驗</div>
-        <div class="mode-desc">官方考古題 10 題</div>
+        <div class="mode-desc">從題庫隨機抽 10 題</div>
       </button>
       <button class="mode-card" onclick="startSubjectQuiz('mock')">
         <div class="mode-icon">🏆</div>
@@ -2819,12 +2925,12 @@ function renderSubjectBankPane(subj, questions, chapters) {
       <button class="mode-card" onclick="startSubjectQuiz('weak')">
         <div class="mode-icon">🎯</div>
         <div class="mode-title">弱點加強</div>
-        <div class="mode-desc">AI 分析答題紀錄</div>
+        <div class="mode-desc">依錯題與弱章節加強</div>
       </button>
       <button class="mode-card" onclick="startSubjectQuiz('ai')">
         <div class="mode-icon">🤖</div>
         <div class="mode-title">AI 考題</div>
-        <div class="mode-desc">AI 從講義產出的新鮮題</div>
+        <div class="mode-desc">AI 生成練習題</div>
       </button>
     </div>`;
 
@@ -2860,23 +2966,23 @@ async function startQuiz(mode){
 
   try {
     if (mode === 'random') {
-      // 只抽 official 題
-      const q = await cloud.loadQuestionsBySource(state.currentExamId, ['official']);
-      if (!q.length) { alert('目前沒有官方題庫，請選其他模式'); return; }
-      pool = shuffle(q).slice(0, 10);
+      // 隨機：從全部已上架題抽（不分 source，每題右上角 badge 會標示來源）
+      const q = await cloud.loadQuestions(state.currentExamId);
+      if (!q.length) { showToast('此考試尚無題庫，題庫建置中'); return; }
+      pool = shuffle(q).slice(0, Math.min(10, q.length));
     }
     else if (mode === 'ai') {
       // 只抽 AI 題
       const q = await cloud.loadQuestionsBySource(state.currentExamId, ['ai_generated']);
-      if (!q.length) { alert('🤖 AI 題目準備中，敬請期待！\n\n(當管理員用 generate_ai_questions.py 產出題目並審核後會自動出現)'); return; }
+      if (!q.length) { showToast('🤖 AI 題目準備中，敬請期待！'); return; }
       pool = shuffle(q).slice(0, Math.min(10, q.length));
     }
     else if (mode === 'weak') {
       // 弱點加強
       const r = await cloud.loadWeakPoints(state.currentExamId, 10);
       if (!r.ok) {
-        if (r.reason === 'not_logged_in') alert('請先登入才能使用弱點加強');
-        else alert('先做幾次隨機測驗或模擬考，累積紀錄後就能啟用「弱點加強」');
+        if (r.reason === 'not_logged_in') showToast('請先登入才能使用弱點加強');
+        else showToast('先做幾次練習，累積紀錄後就能啟用弱點加強');
         return;
       }
       pool = r.questions;
@@ -2886,7 +2992,7 @@ async function startQuiz(mode){
       const all = await cloud.loadQuestions(state.currentExamId);
       const n = examObj?.mock_question_count || 40;
       if (all.length < n) {
-        alert(`模擬考需要 ${n} 題，目前題庫只有 ${all.length} 題，建議先用隨機測驗累積`);
+        showToast(`模擬考需要 ${n} 題，目前題庫只有 ${all.length} 題`);
         return;
       }
       pool = shuffle(all).slice(0, n);
@@ -2895,20 +3001,20 @@ async function startQuiz(mode){
     }
   } catch(e) {
     console.error(e);
-    alert('載入題目失敗：' + e.message);
+    showToast('載入題目失敗：' + e.message);
     return;
   }
 
-  if (!pool.length) { alert('題目不足'); return; }
+  if (!pool.length) { showToast('題目不足'); return; }
   state.mockMeta = meta;
   initQuiz(pool);
 }
 async function startChapter(ch){
   showToast('載入題目中...');
   const bank = await cloud.loadQuestions(state.currentExamId);
-  if(!bank){alert('題庫載入失敗');return;}
+  if(!bank){showToast('題庫載入失敗，請稍後再試');return;}
   const pool = shuffle(bank.filter(q => q.ch === ch)).slice(0,10);
-  if(!pool.length){alert('此章節暫無題目');return;}
+  if(!pool.length){showToast('此章節暫無題目');return;}
   state.mode = 'chapter';
   state.quizScope = { kind:'exam', id: state.currentExamId };
   initQuiz(pool);
@@ -2925,28 +3031,29 @@ async function startSubjectQuiz(mode) {
   let pool = [], meta = {};
   try {
     if (mode === 'random') {
-      const q = await cloud.loadQuestionsBySubjectAndSource(subjectId, ['official']);
-      if (!q.length) { alert('此科目目前沒有官方題庫，請選其他模式'); return; }
-      pool = shuffle(q).slice(0, 10);
+      // 隨機：從本科目全部已上架題抽（不分 source，每題右上角 badge 會標示來源）
+      const q = await cloud.loadQuestionsBySubject(subjectId);
+      if (!q.length) { showToast('此科目尚無題庫，題庫建置中'); return; }
+      pool = shuffle(q).slice(0, Math.min(10, q.length));
     }
     else if (mode === 'ai') {
       const q = await cloud.loadQuestionsBySubjectAndSource(subjectId, ['ai_generated']);
-      if (!q.length) { alert('🤖 此科目的 AI 題目準備中，敬請期待！'); return; }
+      if (!q.length) { showToast('🤖 此科目的 AI 題目準備中，敬請期待！'); return; }
       pool = shuffle(q).slice(0, Math.min(10, q.length));
     }
     else if (mode === 'weak') {
       // 科目層弱點：先用相關考試的 loadWeakPoints 取出池，再過濾本科目的題
       const examId = state.fromExamId || state.currentExamId;
-      if (!examId) { alert('先從考試進入科目，才能啟用弱點加強'); return; }
+      if (!examId) { showToast('先從考試進入科目，才能啟用弱點加強'); return; }
       const r = await cloud.loadWeakPoints(examId, 30);  // 多要一點，再依 subject 過濾
       if (!r.ok) {
-        if (r.reason === 'not_logged_in') alert('請先登入才能使用弱點加強');
-        else alert('先做幾次隨機測驗或模擬考，累積紀錄後就能啟用「弱點加強」');
+        if (r.reason === 'not_logged_in') showToast('請先登入才能使用弱點加強');
+        else showToast('先做幾次練習，累積紀錄後就能啟用弱點加強');
         return;
       }
       const filtered = (r.questions || []).filter(q => q.subject_id === subjectId);
       if (filtered.length < 3) {
-        alert('此科目目前累積的弱點資料不足，多做幾次練習後再來！');
+        showToast('此科目累積的弱點資料不足，多做幾次練習後再來！');
         return;
       }
       pool = filtered.slice(0, 10);
@@ -2955,7 +3062,7 @@ async function startSubjectQuiz(mode) {
       const all = await cloud.loadQuestionsBySubject(subjectId);
       const n = Math.min(30, all.length);
       if (all.length < 10) {
-        alert(`模擬考至少需要 10 題，目前只有 ${all.length} 題`);
+        showToast(`模擬考至少需要 10 題，目前只有 ${all.length} 題`);
         return;
       }
       pool = shuffle(all).slice(0, n);
@@ -2964,11 +3071,11 @@ async function startSubjectQuiz(mode) {
     }
   } catch(e) {
     console.error(e);
-    alert('載入題目失敗：' + e.message);
+    showToast('載入題目失敗：' + e.message);
     return;
   }
 
-  if (!pool.length) { alert('題目不足'); return; }
+  if (!pool.length) { showToast('題目不足'); return; }
   state.mockMeta = meta;
   initQuiz(pool);
 }
@@ -2986,16 +3093,89 @@ async function startSubjectChapter(chapterId) {
     if (m) return q.ch === parseInt(m[1]);
     return false;
   })).slice(0, 10);
-  if (!pool.length) { alert('此章節暫無題目'); return; }
+  if (!pool.length) { showToast('此章節暫無題目'); return; }
   state.mode = 'chapter';
   state.quizScope = { kind:'subject', id: subjectId };
   initQuiz(pool);
 }
+// ── Quiz snapshot（只對 mock 模擬考；刷新/切 tab 回來可續練）─────
+const QUIZ_SNAPSHOT_KEY = 'kaonow_active_quiz';
+function saveQuizSnapshot() {
+  if (state.mode !== 'mock') return;
+  if (!state.questions || !state.questions.length) return;
+  try {
+    sessionStorage.setItem(QUIZ_SNAPSHOT_KEY, JSON.stringify({
+      questions: state.questions,
+      answers: state.answers,
+      currentIdx: state.currentIdx,
+      mockDeadline: state.mockDeadline,
+      startTime: state.startTime,
+      mode: state.mode,
+      quizScope: state.quizScope,
+      currentExamId: state.currentExamId,
+      currentSubjectId: state.currentSubjectId,
+      mockMeta: state.mockMeta,
+      savedAt: Date.now()
+    }));
+  } catch(e) { console.warn('[snapshot] save fail', e); }
+}
+function clearQuizSnapshot() {
+  try { sessionStorage.removeItem(QUIZ_SNAPSHOT_KEY); } catch(e) {}
+}
+function loadQuizSnapshot() {
+  try {
+    const raw = sessionStorage.getItem(QUIZ_SNAPSHOT_KEY);
+    if (!raw) return null;
+    const s = JSON.parse(raw);
+    // deadline 已過 → 視為作廢
+    if (!s.mockDeadline || s.mockDeadline <= Date.now()) {
+      clearQuizSnapshot();
+      return null;
+    }
+    return s;
+  } catch(e) { clearQuizSnapshot(); return null; }
+}
+function resumeQuizFromSnapshot(s) {
+  Object.assign(state, {
+    questions: s.questions,
+    answers: s.answers,
+    currentIdx: s.currentIdx,
+    mockDeadline: s.mockDeadline,
+    startTime: s.startTime,
+    mode: s.mode,
+    quizScope: s.quizScope,
+    currentExamId: s.currentExamId,
+    currentSubjectId: s.currentSubjectId,
+    mockMeta: s.mockMeta,
+    quizFrozen: false
+  });
+  if (state.mockMeta?.timeLimitSeconds) startCountdown();
+  nav('quiz');
+  renderDots();
+  renderQuestion();
+}
+// 進站時檢查是否有未完成的模擬考
+function checkResumeQuiz() {
+  const s = loadQuizSnapshot();
+  if (!s) return;
+  const remainMs = s.mockDeadline - Date.now();
+  const remainMin = Math.max(1, Math.ceil(remainMs / 60000));
+  const total = s.questions.length;
+  const answered = s.answers.filter(a => a !== null).length;
+  if (confirm(`發現未完成的模擬考（${answered}/${total} 題已作答，剩約 ${remainMin} 分鐘）\n\n要繼續嗎？\n  確定 → 接著考\n  取消 → 放棄這份`)) {
+    resumeQuizFromSnapshot(s);
+  } else {
+    clearQuizSnapshot();
+  }
+}
+
 function initQuiz(questions){
   state.questions = questions;
   state.currentIdx = 0;
   state.answers = new Array(questions.length).fill(null);
   state.startTime = Date.now();
+  state.quizFrozen = false;  // reset freeze flag on new quiz
+  clearQuizSnapshot();  // 新 quiz 開始 → 清舊快照
   // 啟動倒數（模擬考才有）
   if (state.mockMeta?.timeLimitSeconds) {
     state.mockDeadline = Date.now() + state.mockMeta.timeLimitSeconds * 1000;
@@ -3007,6 +3187,7 @@ function initQuiz(questions){
   nav('quiz');
   renderDots();
   renderQuestion();
+  saveQuizSnapshot();  // 初始化後寫一次（包含 mock 的 deadline）
 }
 
 let _countdownInterval = null;
@@ -3019,8 +3200,16 @@ function startCountdown() {
     const remain = Math.max(0, state.mockDeadline - Date.now());
     if (remain <= 0) {
       stopCountdown();
-      showToast('時間到！自動交卷');
-      setTimeout(() => showResult(), 800);
+      // 凍結作答區，避免 1.2 秒間還能亂點
+      state.quizFrozen = true;
+      const qa = document.getElementById('question-area');
+      if (qa) { qa.style.opacity = '0.55'; qa.style.pointerEvents = 'none'; }
+      showToast('⏰ 時間到！正在計算結果…');
+      setTimeout(() => {
+        state.quizFrozen = false;
+        if (qa) { qa.style.opacity = ''; qa.style.pointerEvents = ''; }
+        showResult();
+      }, 1200);
       return;
     }
     const m = Math.floor(remain / 60000);
@@ -3044,7 +3233,7 @@ function renderDots(){
     d.onclick=()=>goToQuestion(i);wrap.appendChild(d);
   });
 }
-function goToQuestion(i){state.currentIdx=i;renderQuestion();renderDots();}
+function goToQuestion(i){state.currentIdx=i;renderQuestion();renderDots();saveQuizSnapshot();}
 function sourceBadge(src) {
   if (src === 'ai_generated') return '<span class="q-badge badge-ai">🤖 AI 生成題</span>';
   if (src === 'community') return '<span class="q-badge badge-community">👥 社群</span>';
@@ -3069,6 +3258,8 @@ function renderQuestion(){
   html+='</div>';
   if(answered!==null)html+=`<div class="explanation"><strong>${answered.correct?'✓ 答對了！':'✗ 答錯了'}</strong><br>${q.exp}</div>`;
   html+=`</div><div class="quiz-actions">`;
+  // 上一題：idx>0 就顯示（不管答過沒，允許翻回去看）；用 margin-right:auto 擠到最左
+  if(idx>0) html+=`<button class="btn-secondary" style="margin-right:auto" onclick="prevQuestion()">← 上一題</button>`;
   if(answered!==null){
     if(idx<total-1)html+=`<button class="btn-primary" onclick="nextQuestion()">下一題 →</button>`;
     else html+=`<button class="btn-primary" onclick="showResult()">查看結果</button>`;
@@ -3077,18 +3268,21 @@ function renderQuestion(){
   document.getElementById('question-area').innerHTML=html;renderDots();
 }
 function selectAnswer(oi){
+  if (state.quizFrozen) return;  // 時間到 / 凍結期間不接受新作答
   const q=state.questions[state.currentIdx];const correct=oi===q.ans;
   state.answers[state.currentIdx]={selected:oi,correct};
   state.totalDone++;
   if(correct){state.totalCorrect++;state.streak++;if(state.streak>state.maxStreak)state.maxStreak=state.streak;}
   else state.streak=0;
-  saveState();renderQuestion();
+  saveState();renderQuestion();saveQuizSnapshot();
 }
-function nextQuestion(){if(state.currentIdx<state.questions.length-1){state.currentIdx++;renderQuestion();window.scrollTo(0,0);}}
+function nextQuestion(){if(state.currentIdx<state.questions.length-1){state.currentIdx++;renderQuestion();window.scrollTo(0,0);saveQuizSnapshot();}}
+function prevQuestion(){if(state.currentIdx>0){state.currentIdx--;renderQuestion();window.scrollTo(0,0);saveQuizSnapshot();}}
 function confirmExit(){
   stopCountdown();
   const u=state.answers.filter(a=>a===null).length;
   if(u>0&&u<state.questions.length&&!confirm(`還有 ${u} 題未作答，確定要離開？`))return;
+  clearQuizSnapshot();  // 主動離開 → 作廢快照
   navBackToScope();
 }
 function navBackToScope() {
@@ -3098,6 +3292,7 @@ function navBackToScope() {
   else nav('catalog');
 }
 function showResult(){
+  clearQuizSnapshot();  // 結果出來 → 快照使命已完成
   const total=state.questions.length,correctCount=state.answers.filter(a=>a&&a.correct).length;
   const score=Math.round(correctCount/total*100);
   const elapsed=Math.round((Date.now()-state.startTime)/1000);
@@ -3125,6 +3320,9 @@ function showResult(){
   document.getElementById('final-score').textContent=score;
   document.getElementById('r-correct').textContent=correctCount;
   document.getElementById('r-wrong').textContent=total-correctCount;
+  // 全對就沒錯題可複習，隱藏按鈕
+  const reviewBtn = document.getElementById('result-review-btn');
+  if (reviewBtn) reviewBtn.style.display = (total - correctCount) > 0 ? '' : 'none';
   const elapsed2=Math.round((Date.now()-state.startTime)/1000);
   const m=Math.floor(elapsed/60),s=elapsed%60;
   const timeText = elapsed < 60
@@ -3140,22 +3338,38 @@ function showResult(){
   else if(score>=60){document.getElementById('result-title').textContent='👍 不錯的表現';document.getElementById('result-subtitle').textContent='及格了！還有幾個章節需要加強';ring.setAttribute('stroke','#8B6914');}
   else{document.getElementById('result-title').textContent='💪 繼續加油';document.getElementById('result-subtitle').textContent='建議複習錯題，針對弱項章節加強練習';ring.setAttribute('stroke','#C03030');}
   const chNames=exam?(exam.chapters||[]).reduce((o,c)=>{o[c.id]=c.name;return o},{}):{};
+  const UNCAT='__uncategorized';
   const chStats={};
   state.questions.forEach((q,i)=>{
-    if(!chStats[q.ch])chStats[q.ch]={total:0,correct:0};
-    chStats[q.ch].total++;if(state.answers[i]&&state.answers[i].correct)chStats[q.ch].correct++;
+    // q.ch 可能為 null（無 chapter_id）或 -1（chapter_id 無法解析）
+    const chNum = (q.ch==null || isNaN(q.ch) || q.ch<0) ? UNCAT : q.ch;
+    if(!chStats[chNum])chStats[chNum]={total:0,correct:0};
+    chStats[chNum].total++;
+    if(state.answers[i]&&state.answers[i].correct)chStats[chNum].correct++;
   });
-  let w='<h3>⚡ 各章節表現</h3>';
-  Object.keys(chStats).sort().forEach(ch=>{
-    const s2=chStats[ch],pct=Math.round(s2.correct/s2.total*100);
-    const color=pct>=80?'var(--correct)':pct>=60?'var(--warning)':'var(--wrong)';
-    w+=`<div class="weak-item"><span class="weak-name">${chNames[ch]||('第'+(parseInt(ch)+1)+'章')}</span><div style="display:flex;align-items:center;gap:8px"><div class="weak-bar-wrap"><div class="weak-bar" style="width:${pct}%;background:${color}"></div></div><span class="weak-pct" style="color:${color}">${pct}%</span></div></div>`;
+  // 排序：數字章節在前（升冪），未分類放最後
+  const keys=Object.keys(chStats).sort((a,b)=>{
+    if(a===UNCAT)return 1;
+    if(b===UNCAT)return -1;
+    return Number(a)-Number(b);
   });
-  document.getElementById('weak-area').innerHTML=w;
+  // 只有一種桶且是 __uncategorized → 章節分析沒意義，直接隱藏整塊
+  if(keys.length===1 && keys[0]===UNCAT){
+    document.getElementById('weak-area').innerHTML='';
+  }else{
+    let w='<h3>⚡ 各章節表現</h3>';
+    keys.forEach(ch=>{
+      const s2=chStats[ch],pct=Math.round(s2.correct/s2.total*100);
+      const color=pct>=80?'var(--correct)':pct>=60?'var(--warning)':'var(--wrong)';
+      const label=ch===UNCAT?'綜合／其他':(chNames[ch]||('第'+(parseInt(ch)+1)+'章'));
+      w+=`<div class="weak-item"><span class="weak-name">${label}</span><div style="display:flex;align-items:center;gap:8px"><div class="weak-bar-wrap"><div class="weak-bar" style="width:${pct}%;background:${color}"></div></div><span class="weak-pct" style="color:${color}">${pct}%</span></div></div>`;
+    });
+    document.getElementById('weak-area').innerHTML=w;
+  }
 }
 function reviewWrong(){
   const wrong=state.questions.filter((_,i)=>state.answers[i]&&!state.answers[i].correct);
-  if(!wrong.length){alert('恭喜全部答對，沒有錯題！');return;}
+  if(!wrong.length){showToast('🎉 恭喜全部答對，沒有錯題！');return;}
   initQuiz(wrong);
 }
 
@@ -3212,6 +3426,20 @@ function renderMe(){
     }
   }
 
+  // 設定區：清除本機紀錄 + 登入/登出按鈕
+  const settings = document.getElementById('me-settings');
+  if (settings) {
+    const hasLocal = state.totalDone > 0 || state.recentExams.length > 0;
+    const clearBtn = hasLocal
+      ? `<button class="btn-secondary" style="font-size:13px" onclick="resetProgress()">清除本機學習紀錄</button>`
+      : `<button class="btn-secondary" style="font-size:13px;opacity:0.5;cursor:not-allowed" disabled title="沒有可清除的本機紀錄">清除本機學習紀錄</button>`;
+    const authBtn = currentUser
+      ? `<button class="btn-secondary" style="font-size:13px" onclick="signOut()">登出</button>`
+      : `<button class="btn-secondary" style="font-size:13px" onclick="openLoginModal()">登入 / 註冊</button>`;
+    settings.innerHTML = `<div style="display:flex;gap:10px;flex-wrap:wrap">${authBtn}${clearBtn}</div>
+      ${currentUser ? '' : '<p style="font-size:12px;color:var(--text-tertiary);margin-top:10px;line-height:1.6">未登入時練習紀錄僅保存在這台裝置。登入後可在不同裝置間同步收藏與答題紀錄。</p>'}`;
+  }
+
   const rec=document.getElementById('me-recent');
   if(!state.recentExams.length){rec.className='panel-empty';rec.innerHTML='還沒有紀錄，<a href="#/catalog" style="color:var(--accent);font-weight:600">去選一個考試</a>開始吧！';return;}
   rec.className='';
@@ -3225,10 +3453,15 @@ function renderMe(){
   }).join('');
 }
 function resetProgress(){
-  if(!confirm('確定清除所有學習紀錄？此操作無法復原。'))return;
+  const isLoggedIn = !!currentUser;
+  const msg = isLoggedIn
+    ? '清除本機的練習統計與最近紀錄？（雲端同步的收藏與答題歷史不會受影響）'
+    : '確定清除本機所有學習紀錄？此操作無法復原。';
+  if(!confirm(msg))return;
   Object.assign(state,{totalDone:0,totalCorrect:0,streak:0,maxStreak:0,recentExams:[]});
   try{localStorage.removeItem('kaonow_v2');}catch(e){}
-  renderMe();alert('已清除學習紀錄');
+  renderMe();
+  showToast('已清除本機學習紀錄');
 }
 
 // ===== BOOT =====
@@ -3263,7 +3496,7 @@ router();
     </button>
     <div class="modal-divider">或</div>
     <div id="magic-link-form">
-      <input type="email" id="magic-email" placeholder="輸入你的 Email"
+      <input type="email" id="magic-email" placeholder="輸入你的 Email" required autocomplete="email" inputmode="email"
         style="width:100%;padding:12px 14px;border:1.5px solid var(--border);border-radius:var(--radius);font-size:15px;font-family:inherit;margin-bottom:10px;outline:none;transition:var(--transition)"
         onfocus="this.style.borderColor='var(--accent)'" onblur="this.style.borderColor='var(--border)'"
         onkeydown="if(event.key==='Enter')sendMagicLink()">

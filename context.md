@@ -214,6 +214,7 @@
 | `supabase_schema_v6_1.sql` | v6.1 — 補丁：`questions_published` view 補上 `subject_id` 欄位 |
 | `supabase_schema_v6_2.sql` | v6.2 — 資料遷移：單科 exam（甲種職安衛）的 questions/chapters 補 subject_id |
 | `supabase_schema_v7.sql` | v7 — 考試收藏 `exam_bookmarks` 表 + RLS |
+| `supabase_schema_v8.sql` | v8 — 誠實標註：osh-a 153 題 `source` 從 official 改 `ai_generated`（原為 Claude 依法規知識手寫，非官方考古題） |
 | `QUESTION_BANK_ROADMAP.md` | 🆕 題庫建置 spec：ID 規則、SQL template、workflow、優先序、進度表 |
 | `BATCH_PROMPTS.md` | 🆕 74 批預備好的 session prompt，一鍵複製開工 |
 | `DATA_COLLECTION_PROMPT.md` | 🆕 給 openclaw/Computer Use 的 megaprompt，自動抓 158 個考試原始資料到 `raw/` |
@@ -260,6 +261,37 @@
   - 最近練習紀錄加上 `kind` 欄位，支援 subject-scoped 紀錄
   - 單科無類科的考試（如甲種職安衛）自動走舊版 4 模式 UI，不強迫多一次點擊；只在 overview 底端加個「🔗 本考試對應科目」小提示
   - v6.2 migration（`supabase_schema_v6_2.sql`）：把舊有 exam-bound 的 questions/chapters 補 subject_id
+- ✅ **題庫來源誠實標註**（2026-04-16）：
+  - 背景發現：v1 手刻的 153 題 osh-a 是 Claude 依法規訓練知識生成，非官方考古題；卻被 v2 誤標 source='official'
+  - v8 SQL 把 osh-a 全數改為 `source='ai_generated'`，補 `reviewed_at=NOW()`、更新 `source_meta` 附免責聲明
+  - 前端：考試/科目「題庫」tab 加題庫來源說明橫幅（`.source-notice`）；兩個隨機測驗 mode card 文案移除「官方考古題」誤導字眼；`Q_CACHE_PREFIX` 換版讓舊快取失效
+  - 未來：真正官方題目透過 openclaw 抓進來後，`source_type='official'` 自動和 AI 題分流顯示
+- ✅ **UX 審查回修批次 1（P0 + P1）**（2026-04-16）：
+  - **P0-1 隨機測驗 source filter 修掉**：v8 把 osh-a 改成 ai_generated 後，`startQuiz('random')` / `startSubjectQuiz('random')` 還在只抽 `source='official'` → 直接讓「隨機測驗」按鈕壞掉。改成 `cloud.loadQuestions()` / `cloud.loadQuestionsBySubject()`（不分來源），靠每題右上 badge 標示來源
+  - **P0-2 alert 內部字串清乾淨**：刪掉 `generate_ai_questions.py`、「用管理員產出題目」等洩漏腳本名稱的字樣；所有 `alert()` 改 `showToast()`
+  - **P0-3 定價頁「立即升級」改「即將上線」**：標準 / 進階方案兩顆按鈕改 `disabled` + `.price-cta.coming` 灰態；先前的 `alert('訂閱功能即將上線')` 假 CTA 全移除
+  - **P1-1 mode card 文案誠實化**：
+    - 弱點加強「AI 分析你的答題紀錄」→「依錯題與弱章節加強」（現在是規則式不是 AI）
+    - AI 考題「AI 從講義產出的新鮮題」→「AI 生成練習題」（講義還沒全量建置）
+    - 兩處（exam bank + subject bank）同步改
+  - **P1-6 考試 hero 補題源分佈**：hero 「題目數」stat 載入後異步抓 `cloud.loadQuestions()` 統計，若同時有 official / ai 會在 label 下補 `(N 官方 / M AI 生成)`；只有 AI 時補 `(AI 生成題)`
+- ✅ **UX 審查回修批次 4（Mock 續考 + 結果頁 + a11y + 行動版）**（2026-04-16）：
+  - **P0 Mock 模擬考快照續考**：刷新 / 誤關頁會整份掉光的最大痛點修掉。新增 `QUIZ_SNAPSHOT_KEY = 'kaonow_active_quiz'` 用 `sessionStorage` 存（tab 關掉自然清，不污染 localStorage）。`saveQuizSnapshot()` 只在 `state.mode === 'mock'` 存，內容含 questions、answers、currentIdx、mockDeadline、mode、quizScope、mockMeta 等；hooks：`initQuiz` 結尾 save、`selectAnswer` / `nextQuestion` / `prevQuestion` / `goToQuestion` 每次切換 save；`clearQuizSnapshot()` hooks：`initQuiz` 開頭（清舊）、`showResult`、`confirmExit`。頁面 boot 改用 `bootApp()` wrapper：先 `bootAuth()`，400ms 後 `checkResumeQuiz()` 讀快照，若 `mockDeadline` 還沒過就 `confirm("發現未完成的模擬考（N/M 題已作答，剩約 X 分鐘）")` 詢問續考；拒絕則清掉。續考會自動接回倒數（`startCountdown()`）
+  - **P2 結果頁章節分析 無 ch fallback**：`showResult` 裡 `chStats[q.ch]` 當 `q.ch` 是 null / NaN / -1 時會跑出「第 NaN 章」。改成 bucket 到 `UNCAT = '__uncategorized'`，label 顯示「綜合／其他」；排序邏輯把 UNCAT 放最後；若整份題目只有 UNCAT 一桶（全無 chapter_id），整個「各章節表現」區直接隱藏，不再勉強顯示一格沒意義的分析
+  - **P1 行動版 mode-grid 保持 2×2**：原本 `@media(max-width:760px)` 把 `.mode-grid` 改 `1fr` 單欄，造成 4 個模式卡片在手機上要捲很多。改回維持 2 欄，只縮 gap 到 8px、mode-card padding 14px、min-height 84px、icon/title/desc font-size 微縮，在 iPhone SE 寬度也放得下且更易點
+  - **P3 Bookmark 按鈕 a11y**：`.bookmark-btn` 原本只有 `aria-label`，加上 `aria-pressed="true/false"`（收藏 = true、未收藏 = false），screen reader 會明確播報「切換按鈕」狀態；`toggleBookmark` 既有的 re-render 流程（renderCatalog / renderHome / renderMe）會自動重建 DOM，不用另外做 DOM patch
+- ✅ **UX 審查回修批次 3（Quiz + Catalog + Toast）**（2026-04-16）：
+  - **時間到自動交卷凍結作答**：`_countdownInterval` tick 到 `remain<=0` 時，設 `state.quizFrozen=true`、把 `question-area` opacity 壓到 0.55 + `pointer-events:none`，showToast「⏰ 時間到！正在計算結果…」，1.2 秒後才呼叫 `showResult()`；`selectAnswer` 加 guard 避免在這 1.2 秒還能偷答；`initQuiz` 進場時重設 flag 避免後續測驗卡住
+  - **結果頁「複習錯題」動態隱藏**：全對時直接不顯示按鈕（`#result-review-btn` 的 `display:none`），不再跳 alert；若硬點也改 `showToast('🎉 恭喜全部答對...')`
+  - **Catalog 分類切換自動清 search**：三處 onclick（home category card、`__bookmark` chip、一般 category chip）都補 `state.catalogSearch=''`，避免「切分類還殘留搜尋字 → 空白列表」的困惑
+  - **Toast 排隊**：原本 `showToast` 連續呼叫會被覆蓋。改為 `_toastQueue` 陣列 + `_toastShowing` flag：每則顯示 2.5 秒，隊列下一則間隔 250ms；相同文字的 back-to-back 呼叫會略過（避免 double-tap）。整個系統向後相容，呼叫方式不變
+- ✅ **UX 審查回修批次 2（P1 + P2）**（2026-04-16）：
+  - **Quiz 加「上一題」按鈕**：`prevQuestion()` 新函式 + `renderQuestion` 時在 idx>0 顯示「← 上一題」；用 `margin-right:auto` 推到左邊，下一題留右邊；dots 仍可跨跳但現在有明顯按鈕，不必精準點小圓點
+  - **殘留 alert 清光**：`startChapter`、`startSubjectChapter` 內「題庫載入失敗 / 此章節暫無題目」全改 `showToast`；`resetProgress` 的 alert 也改
+  - **Me 頁設定區重構**：原本只有一顆「清除所有學習紀錄」按鈕。現在是動態卡片：未登入 → 顯示「登入 / 註冊」+ 解釋文字；已登入 → 顯示「登出」；清除按鈕文字改「清除本機學習紀錄」，沒紀錄時 disabled；confirm 文字依登入狀態變（已登入會說明雲端資料不受影響）
+  - **建置中章節 hover 誤導修掉**：新增 `.chapter-item.is-placeholder` class 含 `pointer-events:none`；把 inline style 的 placeholder 改成用 class；hover 不再變色
+  - **全域 disabled 按鈕 cursor**：加 `button[disabled],button:disabled{cursor:not-allowed;opacity:0.55}` + 停用 hover transform，解決 disabled 按鈕視覺上仍像可點的問題
+  - **Email 輸入強化**：magic-email input 加 `required autocomplete="email" inputmode="email"`；`sendMagicLink` 改用完整 regex 驗證（`^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$`），失敗時 border 變紅 2 秒並 focus 回 input，提早擋住無效輸入不等 server 回 reject
 
 ---
 
