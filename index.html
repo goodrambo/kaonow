@@ -402,6 +402,7 @@ html{scroll-padding-top:calc(var(--header-h) + 16px)}
   .pricing-grid{grid-template-columns:1fr}
   .score-circle{width:150px;height:150px}
   .score-num{font-size:38px}
+  .result-stats{grid-template-columns:1fr;max-width:100%}
 }
 
 /* ── AUTH ── */
@@ -1466,6 +1467,24 @@ async function signOut() {
 let _toastTimer;
 let _toastQueue = [];
 let _toastShowing = false;
+/* ── Confirm Modal（取代原生 confirm）── */
+let _confirmResolve = null;
+function showConfirm(msg, {title='確認', okText='確定', cancelText='取消', icon='⚠️'}={}) {
+  return new Promise(resolve => {
+    _confirmResolve = resolve;
+    document.getElementById('confirm-icon').textContent = icon;
+    document.getElementById('confirm-title').textContent = title;
+    document.getElementById('confirm-msg').textContent = msg;
+    document.getElementById('confirm-ok').textContent = okText;
+    document.getElementById('confirm-cancel').textContent = cancelText;
+    document.getElementById('confirm-modal').style.display = 'flex';
+  });
+}
+function resolveConfirm(val) {
+  document.getElementById('confirm-modal').style.display = 'none';
+  if (_confirmResolve) { _confirmResolve(val); _confirmResolve = null; }
+}
+
 function showToast(msg) {
   // 連續呼叫時排隊，避免前一則被覆蓋看不到
   const t = document.getElementById('toast');
@@ -2067,15 +2086,13 @@ async function renderHome(){
   // 題目總數：用 Supabase count header 拿精確數字
   (async () => {
     try {
-      const SUPA_URL = document.querySelector('meta[name="supabase-url"]').content;
-      const SUPA_KEY = document.querySelector('meta[name="supabase-anon-key"]').content;
       const r = await fetch(`${SUPA_URL}/rest/v1/questions_published?select=id`, {
         headers: { apikey: SUPA_KEY, Authorization: 'Bearer '+SUPA_KEY, Prefer: 'count=exact', Range: '0-0' }
       });
       const cr = r.headers.get('content-range') || '';
       const total = parseInt(cr.split('/')[1]);
-      if (!isNaN(total)) document.getElementById('meta-questions').textContent = total;
-    } catch(e) { /* 保持 HTML 預設 154 */ }
+      if (!isNaN(total)) document.getElementById('meta-questions').textContent = total.toLocaleString();
+    } catch(e) { /* 保持 HTML 預設值 */ }
   })();
   const wrap=document.getElementById('home-categories');
   wrap.innerHTML='';
@@ -3195,18 +3212,18 @@ function resumeQuizFromSnapshot(s) {
   renderQuestion();
 }
 // 進站時檢查是否有未完成的模擬考
-function checkResumeQuiz() {
+async function checkResumeQuiz() {
   const s = loadQuizSnapshot();
   if (!s) return;
   const remainMs = s.mockDeadline - Date.now();
   const remainMin = Math.max(1, Math.ceil(remainMs / 60000));
   const total = s.questions.length;
   const answered = s.answers.filter(a => a !== null).length;
-  if (confirm(`發現未完成的模擬考（${answered}/${total} 題已作答，剩約 ${remainMin} 分鐘）\n\n要繼續嗎？\n  確定 → 接著考\n  取消 → 放棄這份`)) {
-    resumeQuizFromSnapshot(s);
-  } else {
-    clearQuizSnapshot();
-  }
+  const ok = await showConfirm(
+    `發現未完成的模擬考（${answered}/${total} 題已作答，剩約 ${remainMin} 分鐘）\n\n要繼續嗎？`,
+    { title: '繼續模擬考？', okText: '接著考', cancelText: '放棄這份', icon: '📝' }
+  );
+  if (ok) { resumeQuizFromSnapshot(s); } else { clearQuizSnapshot(); }
 }
 
 function initQuiz(questions){
@@ -3318,10 +3335,13 @@ function selectAnswer(oi){
 }
 function nextQuestion(){if(state.currentIdx<state.questions.length-1){state.currentIdx++;renderQuestion();window.scrollTo(0,0);saveQuizSnapshot();}}
 function prevQuestion(){if(state.currentIdx>0){state.currentIdx--;renderQuestion();window.scrollTo(0,0);saveQuizSnapshot();}}
-function confirmExit(){
+async function confirmExit(){
   stopCountdown();
   const u=state.answers.filter(a=>a===null).length;
-  if(u>0&&u<state.questions.length&&!confirm(`還有 ${u} 題未作答，確定要離開？`))return;
+  if(u>0&&u<state.questions.length){
+    const ok=await showConfirm(`還有 ${u} 題未作答，確定要離開？`,{title:'離開測驗？',okText:'離開',cancelText:'繼續作答',icon:'🚪'});
+    if(!ok)return;
+  }
   clearQuizSnapshot();  // 主動離開 → 作廢快照
   navBackToScope();
 }
@@ -3492,12 +3512,13 @@ function renderMe(){
       <span style="margin-left:auto;color:var(--text-tertiary)">→</span></div>`;
   }).join('');
 }
-function resetProgress(){
+async function resetProgress(){
   const isLoggedIn = !!currentUser;
   const msg = isLoggedIn
     ? '清除本機的練習統計與最近紀錄？（雲端同步的收藏與答題歷史不會受影響）'
     : '確定清除本機所有學習紀錄？此操作無法復原。';
-  if(!confirm(msg))return;
+  const ok=await showConfirm(msg,{title:'清除學習紀錄',okText:'清除',cancelText:'取消',icon:'🗑️'});
+  if(!ok)return;
   Object.assign(state,{totalDone:0,totalCorrect:0,streak:0,maxStreak:0,recentExams:[]});
   try{localStorage.removeItem('kaonow_v2');}catch(e){}
   renderMe();
@@ -3545,7 +3566,20 @@ router();
         寄送登入連結
       </button>
     </div>
-    <p class="modal-terms">登入即代表你同意我們的服務條款與隱私政策。<br>我們不會傳送垃圾郵件。</p>
+    <p class="modal-terms">登入即代表你同意我們的<a href="#/terms" style="color:var(--text-tertiary);text-decoration:underline">服務條款</a>與<a href="#/privacy" style="color:var(--text-tertiary);text-decoration:underline">隱私政策</a>。<br>我們不會傳送垃圾郵件。</p>
+  </div>
+</div>
+
+<!-- CONFIRM MODAL -->
+<div class="modal-overlay" id="confirm-modal" style="display:none">
+  <div class="modal" style="max-width:340px">
+    <div id="confirm-icon" style="font-size:28px;margin-bottom:12px">⚠️</div>
+    <h2 id="confirm-title" style="font-size:18px;margin-bottom:8px"></h2>
+    <p id="confirm-msg" style="font-size:14px;color:var(--text-secondary);line-height:1.6;margin-bottom:24px;white-space:pre-line"></p>
+    <div style="display:flex;gap:10px">
+      <button id="confirm-cancel" style="flex:1;padding:12px;border-radius:var(--radius);border:1.5px solid var(--border);background:var(--surface);font-size:14px;font-weight:600;cursor:pointer" onclick="resolveConfirm(false)">取消</button>
+      <button id="confirm-ok" style="flex:1;padding:12px;border-radius:var(--radius);border:none;background:var(--accent);color:#fff;font-size:14px;font-weight:600;cursor:pointer" onclick="resolveConfirm(true)">確定</button>
+    </div>
   </div>
 </div>
 
