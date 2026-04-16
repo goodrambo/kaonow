@@ -1,0 +1,14 @@
+{
+  "name": "KaoNow 考NOW",
+  "short_name": "KaoNow",
+  "description": "台灣最好用的考試練習平台 — 備考不拖延，現在就開始",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F7F6F3",
+  "theme_color": "#2D5F2D",
+  "icons": [
+    { "src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
