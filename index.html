@@ -3279,7 +3279,7 @@ function renderQuestion(){
     html+=`<button class="${cls}" ${answered?'':`onclick="selectAnswer(${oi})"`}><span class="option-letter">${letters[oi]}</span><span>${opt}</span></button>`;
   });
   html+='</div>';
-  if(answered!==null)html+=`<div class="explanation"><strong>${answered.correct?'✓ 答對了！':'✗ 答錯了'}</strong><br>${q.exp}</div>`;
+  if(answered!==null)html+=`<div class="explanation"><strong>${answered.correct?'✓ 答對了！':'✗ 答錯了'}</strong>${q.exp?'<br>'+q.exp:''}</div>`;
   html+=`</div><div class="quiz-actions">`;
   // 上一題：idx>0 就顯示（不管答過沒，允許翻回去看）；用 margin-right:auto 擠到最左
   if(idx>0) html+=`<button class="btn-secondary" style="margin-right:auto" onclick="prevQuestion()">← 上一題</button>`;
