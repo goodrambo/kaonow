@@ -1,8 +1,11 @@
 # KaoNow 專案記憶檔
 
-> 最後更新：2026-04-16（v6 subjects UI 整合完成）
+> 最後更新：2026-04-16（v6 UI + UX polish + 發現機制 全上線 kaonow.com）
 > 使用方式：每次開啟新對話時，請我先讀這份檔案即可快速接上進度。
 > 維護：每完成一個階段後，請我「更新 context.md」。
+>
+> **🎯 下一步主軸**：題庫內容建置（詳見 `QUESTION_BANK_ROADMAP.md` + `BATCH_PROMPTS.md`）
+> 直接從 `BATCH_PROMPTS.md` 選一批複製貼上就能開工，共 74 批覆蓋全 158 個考試。
 
 ---
 
@@ -210,6 +213,10 @@
 | `supabase_schema_v6.sql` | v6 — subjects + exam_subjects 架構 + 60 科目 + 99 關聯 |
 | `supabase_schema_v6_1.sql` | v6.1 — 補丁：`questions_published` view 補上 `subject_id` 欄位 |
 | `supabase_schema_v6_2.sql` | v6.2 — 資料遷移：單科 exam（甲種職安衛）的 questions/chapters 補 subject_id |
+| `supabase_schema_v7.sql` | v7 — 考試收藏 `exam_bookmarks` 表 + RLS |
+| `QUESTION_BANK_ROADMAP.md` | 🆕 題庫建置 spec：ID 規則、SQL template、workflow、優先序、進度表 |
+| `BATCH_PROMPTS.md` | 🆕 74 批預備好的 session prompt，一鍵複製開工 |
+| `DATA_COLLECTION_PROMPT.md` | 🆕 給 openclaw/Computer Use 的 megaprompt，自動抓 158 個考試原始資料到 `raw/` |
 | `verify_schema.py` | 自動驗證 JS vs SQL schema 對齊 |
 | `generate_ai_questions.py` | AI 批次產題模板（支援 OpenAI / Anthropic）|
 | `outputs/generate_six_systems.py` | 6 大系統考試生成器（可重跑） |
@@ -239,6 +246,8 @@
 - ✅ 自動化 schema 驗證腳本
 - ✅ Header 垂直置中 bug 修復（flex 嵌套循環高度問題）
 - ✅ **v6 Subjects 架構**：60 科目 + 99 exam_subjects 關聯，支援類科與跨考試題庫共用
+- ✅ **發現機制**（2026-04-16）：catalog 搜尋（優先級打分，短英文不誤中 desc/issuer）、子分類（技術士/公職/語言/升學）、熱門考試 section、最近瀏覽（localStorage）、⭐ 考試收藏（localStorage + 雲端同步 `exam_bookmarks`，未登入點擊彈 modal）
+- ✅ **首頁 UX polish**（2026-04-16）：hero 單一 CTA、trust pill、category grid 4+3 置中、features 3×2、時間顯示改「X 分 Y 秒」、對外術語去 v6 jargon
 - ✅ **v6 Subjects UI 整合**（2026-04-16）：
   - `#/subject/:id` 新路由 + 獨立 `screen-subject` 區塊（概覽/講義/題庫三 tab）
   - 考試詳情頁偵測 `exam_subjects`：有關聯 → 題庫 pane 變成「類科選擇 + 科目卡片」；無關聯 → 維持舊流程（甲種職安衛）
@@ -256,7 +265,18 @@
 
 ## 10. 待辦事項
 
-### 🔥 最優先（UI 整合 v6 Subjects 架構）✅ 已完成（2026-04-16）
+### 🔥 最優先（題庫內容建置）— 見 `QUESTION_BANK_ROADMAP.md`
+**下一波主軸。架構/UI 已就位，現在只差「內容」。**
+- [ ] 乙種職安衛（osh-b）— 複用甲種 schema 最快
+- [ ] 丙種職安衛（osh-c）
+- [ ] 行政法（sub-admin-law）— 共用科目，4 考試都受益
+- [ ] 憲法（sub-constitution）
+- [ ] 室內配線丙級
+- [ ] 中餐烹調丙級
+- [ ] 全民英檢中級
+- [ ] 每做一個 commit 一次，更新 roadmap 的進度表
+
+### 舊 v6 整合相關（✅ 已完成 2026-04-16）
 - [x] 考試詳情頁偵測 `exam_subjects` → 類科選擇器 + 科目卡片
 - [x] 科目卡片：共同/專業 badge
 - [x] 點科目 → `#/subject/:id` 科目詳情頁（概覽 / 講義 / 題庫）
@@ -264,7 +284,7 @@
 - [x] 單科模擬考模式（45 分 · 上限 30 題）
 - [x] `supabase_schema_v6_1.sql` 補 `questions_published.subject_id`
 - [ ] 跨科整卷模擬（例：高考三級-行政 7 科聯合卷）— 之後再做，等有題庫
-- [ ] 科目層級講義內容 seed（目前是 placeholder）
+- [ ] 科目層級講義內容 seed（跟題庫一起建）
 
 ### 近期（Phase B：付費分層）
 - [ ] 讀取 `profiles.current_tier` 判斷訂閱狀態
