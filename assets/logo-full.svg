@@ -8,15 +8,17 @@
   <!-- Icon -->
   <g transform="translate(10, 8)">
     <rect x="0" y="0" width="84" height="84" rx="19" fill="url(#g9)"/>
-    <line x1="20" y1="23" x2="64" y2="23" stroke="#fff" stroke-width="4.2" stroke-linecap="round"/>
-    <line x1="42" y1="23" x2="42" y2="45" stroke="#fff" stroke-width="4.2" stroke-linecap="round"/>
-    <line x1="23" y1="39" x2="61" y2="39" stroke="#fff" stroke-width="3.2" stroke-linecap="round" opacity="0.7"/>
-    <path d="M33,45 C33,45 33,62 46,62 C59,62 59,51 59,51" fill="none" stroke="#fff" stroke-width="4.2" stroke-linecap="round" opacity="0.9"/>
-    <circle cx="67" cy="14" r="4" fill="#4ADE80"/>
-    <line x1="67" y1="7.5" x2="67" y2="10.5" stroke="#4ADE80" stroke-width="1.6" stroke-linecap="round"/>
-    <line x1="67" y1="17.5" x2="67" y2="20.5" stroke="#4ADE80" stroke-width="1.6" stroke-linecap="round"/>
-    <line x1="72.5" y1="14" x2="74.5" y2="14" stroke="#4ADE80" stroke-width="1.6" stroke-linecap="round"/>
-    <line x1="59.5" y1="14" x2="61.5" y2="14" stroke="#4ADE80" stroke-width="1.6" stroke-linecap="round"/>
+    <g transform="translate(-2.5, 4)">
+      <line x1="20" y1="23" x2="64" y2="23" stroke="#fff" stroke-width="4.2" stroke-linecap="round"/>
+      <line x1="42" y1="23" x2="42" y2="45" stroke="#fff" stroke-width="4.2" stroke-linecap="round"/>
+      <line x1="23" y1="39" x2="61" y2="39" stroke="#fff" stroke-width="3.2" stroke-linecap="round" opacity="0.7"/>
+      <path d="M33,45 C33,45 33,62 46,62 C59,62 59,51 59,51" fill="none" stroke="#fff" stroke-width="4.2" stroke-linecap="round" opacity="0.9"/>
+      <circle cx="67" cy="14" r="4" fill="#4ADE80"/>
+      <line x1="67" y1="7.5" x2="67" y2="10.5" stroke="#4ADE80" stroke-width="1.6" stroke-linecap="round"/>
+      <line x1="67" y1="17.5" x2="67" y2="20.5" stroke="#4ADE80" stroke-width="1.6" stroke-linecap="round"/>
+      <line x1="72.5" y1="14" x2="74.5" y2="14" stroke="#4ADE80" stroke-width="1.6" stroke-linecap="round"/>
+      <line x1="59.5" y1="14" x2="61.5" y2="14" stroke="#4ADE80" stroke-width="1.6" stroke-linecap="round"/>
+    </g>
   </g>
   <!-- KaoNow wordmark -->
   <text x="110" y="52" font-family="'Helvetica Neue', Arial, sans-serif" font-size="48" font-weight="800" letter-spacing="-1.5">
