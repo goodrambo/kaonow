@@ -1,0 +1,11 @@
+{
+  "source_pdf": "content/sources/mech-elec-c/questions/mech-elec-c_q_ntpc_20260416.pdf",
+  "exam_id": "mech-elec-c",
+  "pages": 8,
+  "chars": 13327,
+  "chars_per_page": 1665,
+  "status": "extracted",
+  "extractor": "pdftotext -layout",
+  "extracted_at": "2026-04-16T13:59:57.424328",
+  "notes": ""
+}

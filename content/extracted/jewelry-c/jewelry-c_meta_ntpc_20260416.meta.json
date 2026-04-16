@@ -1,0 +1,11 @@
+{
+  "source_pdf": "content/sources/jewelry-c/misc/jewelry-c_meta_ntpc_20260416.pdf",
+  "exam_id": "jewelry-c",
+  "pages": 6,
+  "chars": 12347,
+  "chars_per_page": 2057,
+  "status": "extracted",
+  "extractor": "pdftotext -layout",
+  "extracted_at": "2026-04-16T13:59:57.320675",
+  "notes": ""
+}

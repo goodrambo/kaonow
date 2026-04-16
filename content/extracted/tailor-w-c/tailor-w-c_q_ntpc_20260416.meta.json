@@ -1,0 +1,11 @@
+{
+  "source_pdf": "content/sources/tailor-w-c/questions/tailor-w-c_q_ntpc_20260416.pdf",
+  "exam_id": "tailor-w-c",
+  "pages": 9,
+  "chars": 13184,
+  "chars_per_page": 1464,
+  "status": "extracted",
+  "extractor": "pdftotext -layout",
+  "extracted_at": "2026-04-16T13:59:57.835174",
+  "notes": ""
+}

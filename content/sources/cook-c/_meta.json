@@ -1,0 +1,41 @@
+{
+  "exam_id": "cook-c",
+  "exam_name": "中餐烹調(葷食)丙級",
+  "category": "tech-cert",
+  "scope_kind": "exam",
+  "is_new_exam": false,
+  "chapters": [],
+  "files": [
+    {
+      "filename": "cook-c_q_ntpc_20260416.pdf",
+      "original_filename": "中餐烹調(葷食)丙級證照輔導班(1)-原住民優先班（07602 中餐烹調─葷食丙級題庫.pdf，1 MB）.pdf",
+      "type": "q",
+      "source": "ntpc",
+      "source_url": "https://ilabor.ntpc.gov.tw/cloud/VocTraining/exam",
+      "downloaded_at": "2026-04-16T00:00:00+08:00",
+      "copyright": "official_public",
+      "license_note": "新北市政府勞工局公開資料",
+      "md5": "7f86605245278a5c5c2e6ed414b761ef",
+      "size_bytes": 1325283,
+      "status": "extracted",
+      "chapter_hint": null,
+      "notes": "",
+      "extracted_at": "2026-04-16T13:59:57.086917",
+      "chars_extracted": 14212
+    },
+    {
+      "filename": null,
+      "original_filename": "中餐烹調(葷食)丙級證照輔導班(2)-新住民優先班(一般身分也可報名)（07602 中餐烹調─葷食丙級題庫.pdf，1 MB）.pdf",
+      "type": "q",
+      "source": "ntpc",
+      "source_url": "https://ilabor.ntpc.gov.tw/cloud/VocTraining/exam",
+      "downloaded_at": "2026-04-16T00:00:00+08:00",
+      "copyright": "official_public",
+      "md5": "7f86605245278a5c5c2e6ed414b761ef",
+      "size_bytes": 1325283,
+      "status": "deduplicated",
+      "dedup_kept": "中餐烹調(葷食)丙級證照輔導班(1)-原住民優先班（07602 中餐烹調─葷食丙級題庫.pdf，1 MB）.pdf",
+      "notes": "與另一份 hash 相同，已去重（保留 中餐烹調(葷食)丙級證照輔導班(1)-原住民優先班（07602 中餐烹調─葷食丙級題庫.pdf，1 MB）.pdf）"
+    }
+  ]
+}

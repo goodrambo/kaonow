@@ -1,0 +1,55 @@
+{
+  "exam_id": "forklift",
+  "exam_name": "堆高機操作",
+  "category": "tech-cert",
+  "scope_kind": "exam",
+  "is_new_exam": false,
+  "chapters": [],
+  "files": [
+    {
+      "filename": "forklift_q_ntpc_20260416.pdf",
+      "original_filename": "堆高機操作實務課程-平日(1)（學科.pdf，1 MB）.pdf",
+      "type": "q",
+      "source": "ntpc",
+      "source_url": "https://ilabor.ntpc.gov.tw/cloud/VocTraining/exam",
+      "downloaded_at": "2026-04-16T00:00:00+08:00",
+      "copyright": "official_public",
+      "license_note": "新北市政府勞工局公開資料",
+      "md5": "0f57ed44ae6438df2e26da89970f6537",
+      "size_bytes": 1562946,
+      "status": "extracted",
+      "chapter_hint": null,
+      "notes": "",
+      "extracted_at": "2026-04-16T13:59:57.211772",
+      "chars_extracted": 45855
+    },
+    {
+      "filename": null,
+      "original_filename": "荷重在1公噸以上之堆高機操作人員安全衛生教育訓練班-假日(1)（學科.pdf，1 MB）.pdf",
+      "type": "q",
+      "source": "ntpc",
+      "source_url": "https://ilabor.ntpc.gov.tw/cloud/VocTraining/exam",
+      "downloaded_at": "2026-04-16T00:00:00+08:00",
+      "copyright": "official_public",
+      "md5": "0f57ed44ae6438df2e26da89970f6537",
+      "size_bytes": 1562946,
+      "status": "deduplicated",
+      "dedup_kept": "堆高機操作實務課程-平日(1)（學科.pdf，1 MB）.pdf",
+      "notes": "與另一份 hash 相同，已去重（保留 堆高機操作實務課程-平日(1)（學科.pdf，1 MB）.pdf）"
+    },
+    {
+      "filename": null,
+      "original_filename": "荷重在1公噸以上之堆高機操作人員安全衛生教育訓練班-假日(2)中高齡優先（學科.pdf，1 MB）.pdf",
+      "type": "q",
+      "source": "ntpc",
+      "source_url": "https://ilabor.ntpc.gov.tw/cloud/VocTraining/exam",
+      "downloaded_at": "2026-04-16T00:00:00+08:00",
+      "copyright": "official_public",
+      "md5": "0f57ed44ae6438df2e26da89970f6537",
+      "size_bytes": 1562946,
+      "status": "deduplicated",
+      "dedup_kept": "堆高機操作實務課程-平日(1)（學科.pdf，1 MB）.pdf",
+      "notes": "與另一份 hash 相同，已去重（保留 堆高機操作實務課程-平日(1)（學科.pdf，1 MB）.pdf）"
+    }
+  ]
+}

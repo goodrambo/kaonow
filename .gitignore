@@ -22,3 +22,36 @@ yarn-error.log*
 # Build / bundler outputs (reserved)
 dist/
 build/
+
+# Content pipeline — 原始下載檔 & OCR 中間產物不入版控（檔案太大 + 版權）
+# 只保留 manifest / classifier / .gitkeep 做索引
+content/sources/**
+!content/sources/**/
+!content/sources/_classifier.md
+!content/sources/_folders.md
+!content/sources/**/_meta.json
+!content/sources/**/_progress.md
+!content/sources/**/.gitkeep
+# Layer 2 抽取結果 — .txt 不入版控（版權跟原 PDF 一致）
+# 但白名單 metadata / 進度 / OCR 指令，方便追蹤狀態
+content/extracted/**
+!content/extracted/**/
+!content/extracted/_progress.md
+!content/extracted/**/*.meta.json
+!content/extracted/**/OCR_INSTRUCTIONS.md
+!content/extracted/**/.gitkeep
+
+# Layer 3 解析結果 — questions.json 不入版控（版權敏感、檔案大）
+# 但白名單 parse_report.json + _progress.md 追蹤進度
+content/parsed/**
+!content/parsed/**/
+!content/parsed/_progress.md
+!content/parsed/**/parse_report.json
+!content/parsed/**/.gitkeep
+
+# Layer 4 SQL — seed SQL 太大(5MB+) 不入版控，但白名單 stats
+content/sql/**
+!content/sql/**/
+!content/sql/layer4_stats.json
+!content/sql/.gitkeep
+

@@ -1,0 +1,27 @@
+{
+  "exam_id": "bread-loaf-c",
+  "exam_name": "烘焙食品(麵包類)丙級",
+  "category": "tech-cert",
+  "scope_kind": "exam",
+  "is_new_exam": true,
+  "chapters": [],
+  "files": [
+    {
+      "filename": "bread-loaf-c_q_ntpc_20260416.pdf",
+      "original_filename": "烘焙食品(麵包類)丙級證照輔導班(1)－新住民優先班（07721烘焙食品─麵包題庫.pdf，969 KB）.pdf",
+      "type": "q",
+      "source": "ntpc",
+      "source_url": "https://ilabor.ntpc.gov.tw/cloud/VocTraining/exam",
+      "downloaded_at": "2026-04-16T00:00:00+08:00",
+      "copyright": "official_public",
+      "license_note": "新北市政府勞工局公開資料",
+      "md5": "a2e0957d9ee3146651312c0b71e37e1d",
+      "size_bytes": 992691,
+      "status": "extracted",
+      "chapter_hint": null,
+      "notes": "",
+      "extracted_at": "2026-04-16T13:59:57.065376",
+      "chars_extracted": 12876
+    }
+  ]
+}

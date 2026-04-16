@@ -1,0 +1,11 @@
+{
+  "source_pdf": "content/sources/osh-mgr-b/questions/osh-mgr-b_q_ntpc_20260416.pdf",
+  "exam_id": "osh-mgr-b",
+  "pages": 68,
+  "chars": 104853,
+  "chars_per_page": 1541,
+  "status": "extracted",
+  "extractor": "pdftotext -layout",
+  "extracted_at": "2026-04-16T13:59:57.690136",
+  "notes": ""
+}

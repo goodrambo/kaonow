@@ -1,0 +1,11 @@
+{
+  "source_pdf": "content/sources/interior-design-b/questions/interior-design-b_q_ntpc_20260416.pdf",
+  "exam_id": "interior-design-b",
+  "pages": 8,
+  "chars": 16618,
+  "chars_per_page": 2077,
+  "status": "extracted",
+  "extractor": "pdftotext -layout",
+  "extracted_at": "2026-04-16T13:59:57.299209",
+  "notes": ""
+}

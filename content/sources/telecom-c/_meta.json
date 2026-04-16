@@ -1,0 +1,27 @@
+{
+  "exam_id": "telecom-c",
+  "exam_name": "通信技術(電信線路)丙級",
+  "category": "tech-cert",
+  "scope_kind": "exam",
+  "is_new_exam": true,
+  "chapters": [],
+  "files": [
+    {
+      "filename": "telecom-c_q_ntpc_20260416.pdf",
+      "original_filename": "通信技術(電信線路)丙級證照輔導班（通信丙-題庫.pdf，1 MB）.pdf",
+      "type": "q",
+      "source": "ntpc",
+      "source_url": "https://ilabor.ntpc.gov.tw/cloud/VocTraining/exam",
+      "downloaded_at": "2026-04-16T00:00:00+08:00",
+      "copyright": "official_public",
+      "license_note": "新北市政府勞工局公開資料",
+      "md5": "e30d8633e90ed2fcb40945e9418ef388",
+      "size_bytes": 1311363,
+      "status": "extracted",
+      "chapter_hint": null,
+      "notes": "",
+      "extracted_at": "2026-04-16T13:59:57.858628",
+      "chars_extracted": 14636
+    }
+  ]
+}

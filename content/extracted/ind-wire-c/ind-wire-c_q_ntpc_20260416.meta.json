@@ -1,0 +1,11 @@
+{
+  "source_pdf": "content/sources/ind-wire-c/questions/ind-wire-c_q_ntpc_20260416.pdf",
+  "exam_id": "ind-wire-c",
+  "pages": 6,
+  "chars": 13809,
+  "chars_per_page": 2301,
+  "status": "extracted",
+  "extractor": "pdftotext -layout",
+  "extracted_at": "2026-04-16T13:59:57.274665",
+  "notes": ""
+}

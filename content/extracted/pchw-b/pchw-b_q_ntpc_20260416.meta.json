@@ -1,0 +1,11 @@
+{
+  "source_pdf": "content/sources/pchw-b/questions/pchw-b_q_ntpc_20260416.pdf",
+  "exam_id": "pchw-b",
+  "pages": 10,
+  "chars": 18227,
+  "chars_per_page": 1822,
+  "status": "extracted",
+  "extractor": "pdftotext -layout",
+  "extracted_at": "2026-04-16T13:59:57.716662",
+  "notes": ""
+}

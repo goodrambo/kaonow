@@ -1,0 +1,11 @@
+{
+  "source_pdf": "content/sources/hair-c/questions/hair-c_q_ntpc_20260416.pdf",
+  "exam_id": "hair-c",
+  "pages": 6,
+  "chars": 11806,
+  "chars_per_page": 1967,
+  "status": "extracted",
+  "extractor": "pdftotext -layout",
+  "extracted_at": "2026-04-16T13:59:57.232526",
+  "notes": ""
+}

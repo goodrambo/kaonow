@@ -1,0 +1,27 @@
+{
+  "exam_id": "hvac-c",
+  "exam_name": "冷凍空調裝修丙級",
+  "category": "tech-cert",
+  "scope_kind": "exam",
+  "is_new_exam": false,
+  "chapters": [],
+  "files": [
+    {
+      "filename": "hvac-c_q_ntpc_20260416.pdf",
+      "original_filename": "冷凍空調裝修丙級證照輔導班(1)-原住民優先班（冷凍(1)-題庫.pdf，1 MB）.pdf",
+      "type": "q",
+      "source": "ntpc",
+      "source_url": "https://ilabor.ntpc.gov.tw/cloud/VocTraining/exam",
+      "downloaded_at": "2026-04-16T00:00:00+08:00",
+      "copyright": "official_public",
+      "license_note": "新北市政府勞工局公開資料",
+      "md5": "26a5ea8c7437a13e0a5de5da7ee23f0b",
+      "size_bytes": 1272895,
+      "status": "extracted",
+      "chapter_hint": null,
+      "notes": "",
+      "extracted_at": "2026-04-16T13:59:57.254477",
+      "chars_extracted": 13497
+    }
+  ]
+}

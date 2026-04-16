@@ -1,0 +1,11 @@
+{
+  "source_pdf": "content/sources/accounting-c/questions/accounting-c_q_ntpc_20260416.pdf",
+  "exam_id": "accounting-c",
+  "pages": 8,
+  "chars": 16761,
+  "chars_per_page": 2095,
+  "status": "extracted",
+  "extractor": "pdftotext -layout",
+  "extracted_at": "2026-04-16T13:59:56.908838",
+  "notes": ""
+}

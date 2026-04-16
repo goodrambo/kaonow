@@ -1,0 +1,204 @@
+{
+  "generated_at": "2026-04-16T14:35:23.153843",
+  "exams_processed": 39,
+  "total_parsed": 7246,
+  "total_inserted": 6931,
+  "total_skipped_image": 315,
+  "by_exam": {
+    "accounting-b": {
+      "parsed": 119,
+      "inserted": 118,
+      "skipped_image": 1
+    },
+    "accounting-c": {
+      "parsed": 159,
+      "inserted": 159,
+      "skipped_image": 0
+    },
+    "archi-cad-c": {
+      "parsed": 160,
+      "inserted": 136,
+      "skipped_image": 24
+    },
+    "auto-b": {
+      "parsed": 120,
+      "inserted": 111,
+      "skipped_image": 9
+    },
+    "auto-c": {
+      "parsed": 160,
+      "inserted": 150,
+      "skipped_image": 10
+    },
+    "barber-c": {
+      "parsed": 160,
+      "inserted": 159,
+      "skipped_image": 1
+    },
+    "beauty-c": {
+      "parsed": 160,
+      "inserted": 159,
+      "skipped_image": 1
+    },
+    "bread-cookie-c": {
+      "parsed": 157,
+      "inserted": 157,
+      "skipped_image": 0
+    },
+    "bread-loaf-c": {
+      "parsed": 160,
+      "inserted": 160,
+      "skipped_image": 0
+    },
+    "cook-c": {
+      "parsed": 158,
+      "inserted": 158,
+      "skipped_image": 0
+    },
+    "cook-v-c": {
+      "parsed": 80,
+      "inserted": 80,
+      "skipped_image": 0
+    },
+    "elec-c": {
+      "parsed": 159,
+      "inserted": 152,
+      "skipped_image": 7
+    },
+    "employment-svc-b": {
+      "parsed": 120,
+      "inserted": 120,
+      "skipped_image": 0
+    },
+    "forklift": {
+      "parsed": 598,
+      "inserted": 560,
+      "skipped_image": 38
+    },
+    "hair-c": {
+      "parsed": 160,
+      "inserted": 160,
+      "skipped_image": 0
+    },
+    "hvac-c": {
+      "parsed": 160,
+      "inserted": 153,
+      "skipped_image": 7
+    },
+    "ind-wire-c": {
+      "parsed": 160,
+      "inserted": 138,
+      "skipped_image": 22
+    },
+    "interior-design-b": {
+      "parsed": 120,
+      "inserted": 115,
+      "skipped_image": 5
+    },
+    "jewelry-c": {
+      "parsed": 159,
+      "inserted": 157,
+      "skipped_image": 2
+    },
+    "mason-brick-c": {
+      "parsed": 606,
+      "inserted": 543,
+      "skipped_image": 63
+    },
+    "mason-tile-c": {
+      "parsed": 158,
+      "inserted": 149,
+      "skipped_image": 9
+    },
+    "mech-elec-c": {
+      "parsed": 160,
+      "inserted": 128,
+      "skipped_image": 32
+    },
+    "moto-c": {
+      "parsed": 159,
+      "inserted": 150,
+      "skipped_image": 9
+    },
+    "nail-art-c": {
+      "parsed": 160,
+      "inserted": 155,
+      "skipped_image": 5
+    },
+    "netinstall-b": {
+      "parsed": 120,
+      "inserted": 115,
+      "skipped_image": 5
+    },
+    "netinstall-c": {
+      "parsed": 160,
+      "inserted": 157,
+      "skipped_image": 3
+    },
+    "noodle-oil-c": {
+      "parsed": 160,
+      "inserted": 160,
+      "skipped_image": 0
+    },
+    "noodle-water-c": {
+      "parsed": 80,
+      "inserted": 80,
+      "skipped_image": 0
+    },
+    "osh-common": {
+      "parsed": 100,
+      "inserted": 100,
+      "skipped_image": 0
+    },
+    "osh-mgr-b": {
+      "parsed": 837,
+      "inserted": 835,
+      "skipped_image": 2
+    },
+    "pchw-b": {
+      "parsed": 120,
+      "inserted": 112,
+      "skipped_image": 8
+    },
+    "pchw-c": {
+      "parsed": 160,
+      "inserted": 157,
+      "skipped_image": 3
+    },
+    "swapp-b": {
+      "parsed": 120,
+      "inserted": 120,
+      "skipped_image": 0
+    },
+    "swapp-c": {
+      "parsed": 160,
+      "inserted": 160,
+      "skipped_image": 0
+    },
+    "tailor-w-b": {
+      "parsed": 119,
+      "inserted": 116,
+      "skipped_image": 3
+    },
+    "tailor-w-c": {
+      "parsed": 159,
+      "inserted": 138,
+      "skipped_image": 21
+    },
+    "telecom-c": {
+      "parsed": 159,
+      "inserted": 140,
+      "skipped_image": 19
+    },
+    "water-pipe-c": {
+      "parsed": 160,
+      "inserted": 154,
+      "skipped_image": 6
+    },
+    "western-c": {
+      "parsed": 160,
+      "inserted": 160,
+      "skipped_image": 0
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "source_pdf": "content/sources/mason-tile-c/questions/mason-tile-c_q_ntpc_20260416.pdf",
+  "exam_id": "mason-tile-c",
+  "pages": 7,
+  "chars": 11682,
+  "chars_per_page": 1668,
+  "status": "extracted",
+  "extractor": "pdftotext -layout",
+  "extracted_at": "2026-04-16T13:59:57.400774",
+  "notes": ""
+}

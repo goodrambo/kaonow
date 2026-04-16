@@ -1,0 +1,41 @@
+{
+  "exam_id": "bread-cookie-c",
+  "exam_name": "烘焙食品(餅乾類)丙級",
+  "category": "tech-cert",
+  "scope_kind": "exam",
+  "is_new_exam": true,
+  "chapters": [],
+  "files": [
+    {
+      "filename": "bread-cookie-c_q_ntpc_20260416.pdf",
+      "original_filename": "烘焙食品(餅乾類)丙級證照輔導班(1)（07725烘焙食品─餅乾丙級題庫.pdf，1 MB）.pdf",
+      "type": "q",
+      "source": "ntpc",
+      "source_url": "https://ilabor.ntpc.gov.tw/cloud/VocTraining/exam",
+      "downloaded_at": "2026-04-16T00:00:00+08:00",
+      "copyright": "official_public",
+      "license_note": "新北市政府勞工局公開資料",
+      "md5": "a0440c76001b51027fd764bff804dbee",
+      "size_bytes": 1262324,
+      "status": "extracted",
+      "chapter_hint": null,
+      "notes": "",
+      "extracted_at": "2026-04-16T13:59:57.043015",
+      "chars_extracted": 14173
+    },
+    {
+      "filename": null,
+      "original_filename": "烘焙食品(餅乾類)丙級證照輔導班(2)（07725烘焙食品─餅乾丙級題庫.pdf，1 MB）.pdf",
+      "type": "q",
+      "source": "ntpc",
+      "source_url": "https://ilabor.ntpc.gov.tw/cloud/VocTraining/exam",
+      "downloaded_at": "2026-04-16T00:00:00+08:00",
+      "copyright": "official_public",
+      "md5": "a0440c76001b51027fd764bff804dbee",
+      "size_bytes": 1262324,
+      "status": "deduplicated",
+      "dedup_kept": "烘焙食品(餅乾類)丙級證照輔導班(1)（07725烘焙食品─餅乾丙級題庫.pdf，1 MB）.pdf",
+      "notes": "與另一份 hash 相同，已去重（保留 烘焙食品(餅乾類)丙級證照輔導班(1)（07725烘焙食品─餅乾丙級題庫.pdf，1 MB）.pdf）"
+    }
+  ]
+}

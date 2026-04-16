@@ -1,0 +1,11 @@
+{
+  "source_pdf": "content/sources/western-c/questions/western-c_q_ntpc_20260416.pdf",
+  "exam_id": "western-c",
+  "pages": 8,
+  "chars": 13955,
+  "chars_per_page": 1744,
+  "status": "extracted",
+  "extractor": "pdftotext -layout",
+  "extracted_at": "2026-04-16T13:59:57.903771",
+  "notes": ""
+}

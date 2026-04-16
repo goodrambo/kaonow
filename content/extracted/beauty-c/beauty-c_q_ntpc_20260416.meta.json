@@ -1,0 +1,11 @@
+{
+  "source_pdf": "content/sources/beauty-c/questions/beauty-c_q_ntpc_20260416.pdf",
+  "exam_id": "beauty-c",
+  "pages": 6,
+  "chars": 11589,
+  "chars_per_page": 1931,
+  "status": "extracted",
+  "extractor": "pdftotext -layout",
+  "extracted_at": "2026-04-16T13:59:57.020192",
+  "notes": ""
+}

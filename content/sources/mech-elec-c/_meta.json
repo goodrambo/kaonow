@@ -1,0 +1,27 @@
+{
+  "exam_id": "mech-elec-c",
+  "exam_name": "機電整合丙級",
+  "category": "tech-cert",
+  "scope_kind": "exam",
+  "is_new_exam": true,
+  "chapters": [],
+  "files": [
+    {
+      "filename": "mech-elec-c_q_ntpc_20260416.pdf",
+      "original_filename": "機電整合丙級證照輔導班 (1)（機電整合(1)-題庫.pdf，1 MB）.pdf",
+      "type": "q",
+      "source": "ntpc",
+      "source_url": "https://ilabor.ntpc.gov.tw/cloud/VocTraining/exam",
+      "downloaded_at": "2026-04-16T00:00:00+08:00",
+      "copyright": "official_public",
+      "license_note": "新北市政府勞工局公開資料",
+      "md5": "d6a555470abd4072e94a98c7b1db9bed",
+      "size_bytes": 1539526,
+      "status": "extracted",
+      "chapter_hint": null,
+      "notes": "",
+      "extracted_at": "2026-04-16T13:59:57.425087",
+      "chars_extracted": 13327
+    }
+  ]
+}

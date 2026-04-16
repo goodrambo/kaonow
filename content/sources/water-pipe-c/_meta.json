@@ -1,0 +1,27 @@
+{
+  "exam_id": "water-pipe-c",
+  "exam_name": "自來水管配管丙級",
+  "category": "tech-cert",
+  "scope_kind": "exam",
+  "is_new_exam": true,
+  "chapters": [],
+  "files": [
+    {
+      "filename": "water-pipe-c_q_ntpc_20260416.pdf",
+      "original_filename": "自來水管配管丙級證照輔導班(1)-女性優先班（自來水丙-女性優先題庫(160題).pdf，1 MB）.pdf",
+      "type": "q",
+      "source": "ntpc",
+      "source_url": "https://ilabor.ntpc.gov.tw/cloud/VocTraining/exam",
+      "downloaded_at": "2026-04-16T00:00:00+08:00",
+      "copyright": "official_public",
+      "license_note": "新北市政府勞工局公開資料",
+      "md5": "f517437d170488cd9ab4f0176190e747",
+      "size_bytes": 1313505,
+      "status": "extracted",
+      "chapter_hint": null,
+      "notes": "",
+      "extracted_at": "2026-04-16T13:59:57.880960",
+      "chars_extracted": 12699
+    }
+  ]
+}

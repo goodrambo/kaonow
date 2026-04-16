@@ -535,7 +535,7 @@ html{scroll-padding-top:calc(var(--header-h) + 16px)}
     <div class="hero-landing">
       <div class="hero-label">🎯 台灣人專屬的考試備考平台</div>
       <h1>一個平台<br><span>搞定所有備考</span></h1>
-      <p class="hero-sub">技術士、公職、語言、升學、金融、IT 認證——講義、題庫、模擬考、弱點分析全整合，不用再四處蒐集資料。</p>
+      <p class="hero-sub">技術士證照、專技考試、公職、語言、升學、金融、IT 認證——題庫、模擬考、弱點分析全整合，不用再四處蒐集資料。</p>
       <div class="hero-actions">
         <button class="btn-primary" onclick="nav('catalog')">瀏覽所有考試 →</button>
       </div>
@@ -602,13 +602,13 @@ html{scroll-padding-top:calc(var(--header-h) + 16px)}
           <div class="price-period has-discount">季繳 NT$179 <span style="text-decoration:line-through;color:var(--text-tertiary);font-weight:400">NT$207</span> <span class="discount-tag">省 14%</span></div>
           <div class="price-divider"></div>
           <ul class="price-features">
-            <li>任選 1 科技術士檢定無限練習</li>
+            <li>任選 1 科技術士證照無限練習</li>
             <li>該科完整模擬考（80 題）</li>
             <li>詳細答題解析</li>
             <li>AI 弱點分析</li>
             <li>學習進度報告</li>
             <li>考前衝刺包（高頻考題）</li>
-            <li class="off">僅限技術士技能檢定類考試</li>
+            <li class="off">僅限技術士證照類考試</li>
           </ul>
           <button class="price-cta coming" disabled>即將上線</button>
           <div style="text-align:center;margin-top:10px;font-size:11px;color:var(--text-tertiary)">可隨時升級為完整方案</div>
@@ -1513,20 +1513,20 @@ if (document.readyState === 'loading') {
 // ===== DATA =====
 const examCategories=[
   {id:'all',name:'全部考試',icon:'🗂',color:'#F0F0ED',tc:'#555'},
-  {id:'tech-cert',name:'國家技術士技能檢定',icon:'🔧',color:'#FFF3E0',tc:'#BF5300',
-   desc:'勞動部主管，246種職類（甲/乙/丙/單一級），每年3梯次，含室內配線、中餐烹調、電腦應用、烘焙等'},
-  {id:'prof-exam',name:'專門職業及技術人員考試',icon:'🏛',color:'#E8F0E8',tc:'#2D5F2D',
-   desc:'考選部主管，律師、醫師、護理師、建築師、地政士、導遊領隊等特定職業執業資格'},
-  {id:'civil',name:'公務人員考試',icon:'📋',color:'#EDE8F5',tc:'#5B21B6',
-   desc:'考選部主管，高考三級、普考、初等考試及各類特考（警察、司法、鐵路等）'},
-  {id:'language',name:'語言能力檢定',icon:'🌐',color:'#E3F2FD',tc:'#1565C0',
-   desc:'TOEIC多益、GEPT全民英檢、IELTS雅思、TOEFL托福、JLPT日語等，用於升學求職移民'},
+  {id:'tech-cert',name:'技術士證照',icon:'🔧',color:'#FFF3E0',tc:'#BF5300',
+   desc:'甲級・乙級・丙級｜室內配線、中餐烹調、電腦應用、烘焙、美容美髮等 246 職類'},
+  {id:'prof-exam',name:'專技人員考試',icon:'🏛',color:'#E8F0E8',tc:'#2D5F2D',
+   desc:'醫師・律師・會計師・建築師・護理師・導遊領隊等執業資格考試'},
+  {id:'civil',name:'公職考試',icon:'📋',color:'#EDE8F5',tc:'#5B21B6',
+   desc:'高考・普考・初考・地方特考・警察特考・司法特考・鐵路特考等'},
+  {id:'language',name:'語言檢定',icon:'🌐',color:'#E3F2FD',tc:'#1565C0',
+   desc:'多益 TOEIC・全民英檢・雅思・托福・JLPT 日語・TOPIK 韓語等'},
   {id:'academic',name:'升學考試',icon:'🎓',color:'#E8F5E9',tc:'#1B5E20',
-   desc:'學測、分科測驗、統測（技職）、國中教育會考，影響每年逾50萬名考生'},
-  {id:'finance',name:'金融商業證照',icon:'💼',color:'#FFF8E1',tc:'#B45309',
-   desc:'金管會認可，含信託業務人員、內控稽核、證券商業務員、保險業務員及CFP等'},
-  {id:'it-cert',name:'資訊科技國際認證',icon:'💻',color:'#F3E8FF',tc:'#6B21A8',
-   desc:'TQC/TQC+、AWS雲端認證、CompTIA Security+、Cisco CCNA、PMP等，IT職涯必備'},
+   desc:'學測・分科測驗・統測・國中教育會考'},
+  {id:'finance',name:'金融證照',icon:'💼',color:'#FFF8E1',tc:'#B45309',
+   desc:'信託・證券・期貨・保險業務員、銀行內控、CFP/AFP 理財規劃等'},
+  {id:'it-cert',name:'IT 國際認證',icon:'💻',color:'#F3E8FF',tc:'#6B21A8',
+   desc:'AWS・Azure・GCP 雲端、CompTIA、Cisco CCNA、PMP、TQC+ 等'},
 ];
 const exams=[
 

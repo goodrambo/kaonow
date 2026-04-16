@@ -1,0 +1,11 @@
+{
+  "source_pdf": "content/sources/archi-cad-c/questions/archi-cad-c_q_ntpc_20260416.pdf",
+  "exam_id": "archi-cad-c",
+  "pages": 7,
+  "chars": 13312,
+  "chars_per_page": 1901,
+  "status": "extracted",
+  "extractor": "pdftotext -layout",
+  "extracted_at": "2026-04-16T13:59:56.930927",
+  "notes": ""
+}

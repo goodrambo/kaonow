@@ -1,0 +1,27 @@
+{
+  "exam_id": "nail-art-c",
+  "exam_name": "指甲彩繪初級",
+  "category": "tech-cert",
+  "scope_kind": "exam",
+  "is_new_exam": true,
+  "chapters": [],
+  "files": [
+    {
+      "filename": "nail-art-c_q_ntpc_20260416.pdf",
+      "original_filename": "指甲彩繪初級證書輔導班（甄試題庫.pdf，968 KB）.pdf",
+      "type": "q",
+      "source": "ntpc",
+      "source_url": "https://ilabor.ntpc.gov.tw/cloud/VocTraining/exam",
+      "downloaded_at": "2026-04-16T00:00:00+08:00",
+      "copyright": "official_public",
+      "license_note": "新北市政府勞工局公開資料",
+      "md5": "b28d38a584cb72650eef5dff6632a768",
+      "size_bytes": 991450,
+      "status": "extracted",
+      "chapter_hint": null,
+      "notes": "",
+      "extracted_at": "2026-04-16T13:59:57.483601",
+      "chars_extracted": 15252
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "source_pdf": "content/sources/telecom-c/questions/telecom-c_q_ntpc_20260416.pdf",
+  "exam_id": "telecom-c",
+  "pages": 8,
+  "chars": 14636,
+  "chars_per_page": 1829,
+  "status": "extracted",
+  "extractor": "pdftotext -layout",
+  "extracted_at": "2026-04-16T13:59:57.857896",
+  "notes": ""
+}

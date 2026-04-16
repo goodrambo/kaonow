@@ -1,0 +1,27 @@
+{
+  "exam_id": "noodle-water-c",
+  "exam_name": "中式麵食加工-水調(和)麵類丙級",
+  "category": "tech-cert",
+  "scope_kind": "exam",
+  "is_new_exam": true,
+  "chapters": [],
+  "files": [
+    {
+      "filename": "noodle-water-c_q_ntpc_20260416.pdf",
+      "original_filename": "中式麵食加工-水調(和)麵類丙級證照輔導班-原住民優先班（09601中式麵食加工-水調(和)麵類丙級115年題庫.pdf，681 KB）.pdf",
+      "type": "q",
+      "source": "ntpc",
+      "source_url": "https://ilabor.ntpc.gov.tw/cloud/VocTraining/exam",
+      "downloaded_at": "2026-04-16T00:00:00+08:00",
+      "copyright": "official_public",
+      "license_note": "新北市政府勞工局公開資料",
+      "md5": "c116715be7ed0df33ee6a6e42b4e8081",
+      "size_bytes": 698060,
+      "status": "extracted",
+      "chapter_hint": null,
+      "notes": "",
+      "extracted_at": "2026-04-16T13:59:57.568710",
+      "chars_extracted": 6763
+    }
+  ]
+}

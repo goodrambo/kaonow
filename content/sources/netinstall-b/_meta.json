@@ -1,0 +1,27 @@
+{
+  "exam_id": "netinstall-b",
+  "exam_name": "網路架設乙級",
+  "category": "tech-cert",
+  "scope_kind": "exam",
+  "is_new_exam": true,
+  "chapters": [],
+  "files": [
+    {
+      "filename": "netinstall-b_q_ntpc_20260416.pdf",
+      "original_filename": "網路架設乙級證照輔導班（網架乙-題庫.pdf，1 MB）.pdf",
+      "type": "q",
+      "source": "ntpc",
+      "source_url": "https://ilabor.ntpc.gov.tw/cloud/VocTraining/exam",
+      "downloaded_at": "2026-04-16T00:00:00+08:00",
+      "copyright": "official_public",
+      "license_note": "新北市政府勞工局公開資料",
+      "md5": "34da7f3fee5a8023c2ccab5621dcc314",
+      "size_bytes": 1215303,
+      "status": "extracted",
+      "chapter_hint": null,
+      "notes": "",
+      "extracted_at": "2026-04-16T13:59:57.508618",
+      "chars_extracted": 22186
+    }
+  ]
+}

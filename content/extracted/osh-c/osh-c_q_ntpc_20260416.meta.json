@@ -1,0 +1,11 @@
+{
+  "source_pdf": "content/sources/osh-c/questions/osh-c_q_ntpc_20260416.pdf",
+  "exam_id": "osh-c",
+  "pages": 5,
+  "chars": 5,
+  "chars_per_page": 1,
+  "status": "ocr_pending",
+  "extractor": null,
+  "extracted_at": "2026-04-16T13:59:57.575093",
+  "notes": "純影像 PDF，需 OCR（chi_tra tessdata 在本 sandbox 不可用；請在本機跑 ocrmypdf 或 tesseract）"
+}

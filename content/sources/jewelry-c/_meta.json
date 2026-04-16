@@ -1,0 +1,27 @@
+{
+  "exam_id": "jewelry-c",
+  "exam_name": "金銀珠寶飾品加工丙級",
+  "category": "tech-cert",
+  "scope_kind": "exam",
+  "is_new_exam": true,
+  "chapters": [],
+  "files": [
+    {
+      "filename": "jewelry-c_meta_ntpc_20260416.pdf",
+      "original_filename": "金銀珠寶飾品加工丙級證照輔導班－中高年齡優先班(一般生也可報名)（金銀珠寶-簡章.pdf，1 MB）.pdf",
+      "type": "meta",
+      "source": "ntpc",
+      "source_url": "https://ilabor.ntpc.gov.tw/cloud/VocTraining/exam",
+      "downloaded_at": "2026-04-16T00:00:00+08:00",
+      "copyright": "official_public",
+      "license_note": "新北市政府勞工局公開資料",
+      "md5": "d16193ed09aef31674ecad392d66b820",
+      "size_bytes": 1079217,
+      "status": "extracted",
+      "chapter_hint": null,
+      "notes": "",
+      "extracted_at": "2026-04-16T13:59:57.321380",
+      "chars_extracted": 12347
+    }
+  ]
+}

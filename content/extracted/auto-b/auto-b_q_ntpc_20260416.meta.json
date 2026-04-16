@@ -1,0 +1,11 @@
+{
+  "source_pdf": "content/sources/auto-b/questions/auto-b_q_ntpc_20260416.pdf",
+  "exam_id": "auto-b",
+  "pages": 11,
+  "chars": 18124,
+  "chars_per_page": 1647,
+  "status": "extracted",
+  "extractor": "pdftotext -layout",
+  "extracted_at": "2026-04-16T13:59:56.955647",
+  "notes": ""
+}

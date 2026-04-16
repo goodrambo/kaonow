@@ -1,0 +1,27 @@
+{
+  "exam_id": "archi-cad-c",
+  "exam_name": "建築製圖應用-電腦繪圖丙級",
+  "category": "tech-cert",
+  "scope_kind": "exam",
+  "is_new_exam": true,
+  "chapters": [],
+  "files": [
+    {
+      "filename": "archi-cad-c_q_ntpc_20260416.pdf",
+      "original_filename": "建築製圖應用-電腦繪圖丙級證照輔導班(1)（建築製圖電腦繪圖(1)-題庫.pdf，1 MB）.pdf",
+      "type": "q",
+      "source": "ntpc",
+      "source_url": "https://ilabor.ntpc.gov.tw/cloud/VocTraining/exam",
+      "downloaded_at": "2026-04-16T00:00:00+08:00",
+      "copyright": "official_public",
+      "license_note": "新北市政府勞工局公開資料",
+      "md5": "a08b68e8bc1580a49f63c6739d5698aa",
+      "size_bytes": 1326573,
+      "status": "extracted",
+      "chapter_hint": null,
+      "notes": "",
+      "extracted_at": "2026-04-16T13:59:56.931402",
+      "chars_extracted": 13312
+    }
+  ]
+}

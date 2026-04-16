@@ -1,0 +1,11 @@
+{
+  "source_pdf": "content/sources/water-pipe-c/questions/water-pipe-c_q_ntpc_20260416.pdf",
+  "exam_id": "water-pipe-c",
+  "pages": 8,
+  "chars": 12699,
+  "chars_per_page": 1587,
+  "status": "extracted",
+  "extractor": "pdftotext -layout",
+  "extracted_at": "2026-04-16T13:59:57.880297",
+  "notes": ""
+}

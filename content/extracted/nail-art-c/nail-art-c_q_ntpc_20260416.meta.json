@@ -1,0 +1,11 @@
+{
+  "source_pdf": "content/sources/nail-art-c/questions/nail-art-c_q_ntpc_20260416.pdf",
+  "exam_id": "nail-art-c",
+  "pages": 15,
+  "chars": 15252,
+  "chars_per_page": 1016,
+  "status": "extracted",
+  "extractor": "pdftotext -layout",
+  "extracted_at": "2026-04-16T13:59:57.482986",
+  "notes": ""
+}

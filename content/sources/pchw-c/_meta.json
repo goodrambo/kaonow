@@ -1,0 +1,27 @@
+{
+  "exam_id": "pchw-c",
+  "exam_name": "電腦硬體裝修丙級",
+  "category": "tech-cert",
+  "scope_kind": "exam",
+  "is_new_exam": false,
+  "chapters": [],
+  "files": [
+    {
+      "filename": "pchw-c_q_ntpc_20260416.pdf",
+      "original_filename": "電腦硬體裝修丙級證照輔導班(1)-中高齡優先班（電腦硬體裝修丙題庫 (160題).pdf，1 MB）.pdf",
+      "type": "q",
+      "source": "ntpc",
+      "source_url": "https://ilabor.ntpc.gov.tw/cloud/VocTraining/exam",
+      "downloaded_at": "2026-04-16T00:00:00+08:00",
+      "copyright": "official_public",
+      "license_note": "新北市政府勞工局公開資料",
+      "md5": "3df98fbe9bd31053a4eb23dd93b0b336",
+      "size_bytes": 1129299,
+      "status": "extracted",
+      "chapter_hint": null,
+      "notes": "",
+      "extracted_at": "2026-04-16T13:59:57.739753",
+      "chars_extracted": 17388
+    }
+  ]
+}

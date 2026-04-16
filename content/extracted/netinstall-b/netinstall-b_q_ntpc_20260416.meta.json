@@ -1,0 +1,11 @@
+{
+  "source_pdf": "content/sources/netinstall-b/questions/netinstall-b_q_ntpc_20260416.pdf",
+  "exam_id": "netinstall-b",
+  "pages": 10,
+  "chars": 22186,
+  "chars_per_page": 2218,
+  "status": "extracted",
+  "extractor": "pdftotext -layout",
+  "extracted_at": "2026-04-16T13:59:57.507996",
+  "notes": ""
+}

@@ -1,0 +1,1856 @@
+{
+  "total_uploaded": 308,
+  "total_failed": 0,
+  "bucket": "question-images",
+  "project_url": "https://myvfboezhnzgovowhaff.supabase.co",
+  "images": [
+    {
+      "question_id": "accounting-b-013",
+      "exam_id": "accounting-b",
+      "remote_path": "accounting-b/accounting-b-013.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/accounting-b/accounting-b-013.png"
+    },
+    {
+      "question_id": "archi-cad-c-018",
+      "exam_id": "archi-cad-c",
+      "remote_path": "archi-cad-c/archi-cad-c-018.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/archi-cad-c/archi-cad-c-018.png"
+    },
+    {
+      "question_id": "archi-cad-c-021",
+      "exam_id": "archi-cad-c",
+      "remote_path": "archi-cad-c/archi-cad-c-021.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/archi-cad-c/archi-cad-c-021.png"
+    },
+    {
+      "question_id": "archi-cad-c-022",
+      "exam_id": "archi-cad-c",
+      "remote_path": "archi-cad-c/archi-cad-c-022.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/archi-cad-c/archi-cad-c-022.png"
+    },
+    {
+      "question_id": "archi-cad-c-034",
+      "exam_id": "archi-cad-c",
+      "remote_path": "archi-cad-c/archi-cad-c-034.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/archi-cad-c/archi-cad-c-034.png"
+    },
+    {
+      "question_id": "archi-cad-c-049",
+      "exam_id": "archi-cad-c",
+      "remote_path": "archi-cad-c/archi-cad-c-049.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/archi-cad-c/archi-cad-c-049.png"
+    },
+    {
+      "question_id": "archi-cad-c-052",
+      "exam_id": "archi-cad-c",
+      "remote_path": "archi-cad-c/archi-cad-c-052.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/archi-cad-c/archi-cad-c-052.png"
+    },
+    {
+      "question_id": "archi-cad-c-064",
+      "exam_id": "archi-cad-c",
+      "remote_path": "archi-cad-c/archi-cad-c-064.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/archi-cad-c/archi-cad-c-064.png"
+    },
+    {
+      "question_id": "archi-cad-c-074",
+      "exam_id": "archi-cad-c",
+      "remote_path": "archi-cad-c/archi-cad-c-074.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/archi-cad-c/archi-cad-c-074.png"
+    },
+    {
+      "question_id": "archi-cad-c-077",
+      "exam_id": "archi-cad-c",
+      "remote_path": "archi-cad-c/archi-cad-c-077.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/archi-cad-c/archi-cad-c-077.png"
+    },
+    {
+      "question_id": "archi-cad-c-080",
+      "exam_id": "archi-cad-c",
+      "remote_path": "archi-cad-c/archi-cad-c-080.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/archi-cad-c/archi-cad-c-080.png"
+    },
+    {
+      "question_id": "archi-cad-c-081",
+      "exam_id": "archi-cad-c",
+      "remote_path": "archi-cad-c/archi-cad-c-081.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/archi-cad-c/archi-cad-c-081.png"
+    },
+    {
+      "question_id": "archi-cad-c-092",
+      "exam_id": "archi-cad-c",
+      "remote_path": "archi-cad-c/archi-cad-c-092.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/archi-cad-c/archi-cad-c-092.png"
+    },
+    {
+      "question_id": "archi-cad-c-094",
+      "exam_id": "archi-cad-c",
+      "remote_path": "archi-cad-c/archi-cad-c-094.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/archi-cad-c/archi-cad-c-094.png"
+    },
+    {
+      "question_id": "archi-cad-c-096",
+      "exam_id": "archi-cad-c",
+      "remote_path": "archi-cad-c/archi-cad-c-096.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/archi-cad-c/archi-cad-c-096.png"
+    },
+    {
+      "question_id": "archi-cad-c-097",
+      "exam_id": "archi-cad-c",
+      "remote_path": "archi-cad-c/archi-cad-c-097.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/archi-cad-c/archi-cad-c-097.png"
+    },
+    {
+      "question_id": "archi-cad-c-098",
+      "exam_id": "archi-cad-c",
+      "remote_path": "archi-cad-c/archi-cad-c-098.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/archi-cad-c/archi-cad-c-098.png"
+    },
+    {
+      "question_id": "archi-cad-c-113",
+      "exam_id": "archi-cad-c",
+      "remote_path": "archi-cad-c/archi-cad-c-113.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/archi-cad-c/archi-cad-c-113.png"
+    },
+    {
+      "question_id": "archi-cad-c-122",
+      "exam_id": "archi-cad-c",
+      "remote_path": "archi-cad-c/archi-cad-c-122.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/archi-cad-c/archi-cad-c-122.png"
+    },
+    {
+      "question_id": "archi-cad-c-129",
+      "exam_id": "archi-cad-c",
+      "remote_path": "archi-cad-c/archi-cad-c-129.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/archi-cad-c/archi-cad-c-129.png"
+    },
+    {
+      "question_id": "archi-cad-c-130",
+      "exam_id": "archi-cad-c",
+      "remote_path": "archi-cad-c/archi-cad-c-130.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/archi-cad-c/archi-cad-c-130.png"
+    },
+    {
+      "question_id": "archi-cad-c-131",
+      "exam_id": "archi-cad-c",
+      "remote_path": "archi-cad-c/archi-cad-c-131.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/archi-cad-c/archi-cad-c-131.png"
+    },
+    {
+      "question_id": "archi-cad-c-139",
+      "exam_id": "archi-cad-c",
+      "remote_path": "archi-cad-c/archi-cad-c-139.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/archi-cad-c/archi-cad-c-139.png"
+    },
+    {
+      "question_id": "archi-cad-c-153",
+      "exam_id": "archi-cad-c",
+      "remote_path": "archi-cad-c/archi-cad-c-153.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/archi-cad-c/archi-cad-c-153.png"
+    },
+    {
+      "question_id": "archi-cad-c-154",
+      "exam_id": "archi-cad-c",
+      "remote_path": "archi-cad-c/archi-cad-c-154.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/archi-cad-c/archi-cad-c-154.png"
+    },
+    {
+      "question_id": "auto-b-026",
+      "exam_id": "auto-b",
+      "remote_path": "auto-b/auto-b-026.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/auto-b/auto-b-026.png"
+    },
+    {
+      "question_id": "auto-b-034",
+      "exam_id": "auto-b",
+      "remote_path": "auto-b/auto-b-034.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/auto-b/auto-b-034.png"
+    },
+    {
+      "question_id": "auto-b-038",
+      "exam_id": "auto-b",
+      "remote_path": "auto-b/auto-b-038.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/auto-b/auto-b-038.png"
+    },
+    {
+      "question_id": "auto-b-066",
+      "exam_id": "auto-b",
+      "remote_path": "auto-b/auto-b-066.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/auto-b/auto-b-066.png"
+    },
+    {
+      "question_id": "auto-b-082",
+      "exam_id": "auto-b",
+      "remote_path": "auto-b/auto-b-082.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/auto-b/auto-b-082.png"
+    },
+    {
+      "question_id": "auto-b-084",
+      "exam_id": "auto-b",
+      "remote_path": "auto-b/auto-b-084.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/auto-b/auto-b-084.png"
+    },
+    {
+      "question_id": "auto-b-094",
+      "exam_id": "auto-b",
+      "remote_path": "auto-b/auto-b-094.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/auto-b/auto-b-094.png"
+    },
+    {
+      "question_id": "auto-b-104",
+      "exam_id": "auto-b",
+      "remote_path": "auto-b/auto-b-104.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/auto-b/auto-b-104.png"
+    },
+    {
+      "question_id": "auto-b-116",
+      "exam_id": "auto-b",
+      "remote_path": "auto-b/auto-b-116.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/auto-b/auto-b-116.png"
+    },
+    {
+      "question_id": "auto-c-005",
+      "exam_id": "auto-c",
+      "remote_path": "auto-c/auto-c-005.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/auto-c/auto-c-005.png"
+    },
+    {
+      "question_id": "auto-c-025",
+      "exam_id": "auto-c",
+      "remote_path": "auto-c/auto-c-025.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/auto-c/auto-c-025.png"
+    },
+    {
+      "question_id": "auto-c-029",
+      "exam_id": "auto-c",
+      "remote_path": "auto-c/auto-c-029.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/auto-c/auto-c-029.png"
+    },
+    {
+      "question_id": "auto-c-050",
+      "exam_id": "auto-c",
+      "remote_path": "auto-c/auto-c-050.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/auto-c/auto-c-050.png"
+    },
+    {
+      "question_id": "auto-c-086",
+      "exam_id": "auto-c",
+      "remote_path": "auto-c/auto-c-086.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/auto-c/auto-c-086.png"
+    },
+    {
+      "question_id": "auto-c-098",
+      "exam_id": "auto-c",
+      "remote_path": "auto-c/auto-c-098.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/auto-c/auto-c-098.png"
+    },
+    {
+      "question_id": "auto-c-105",
+      "exam_id": "auto-c",
+      "remote_path": "auto-c/auto-c-105.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/auto-c/auto-c-105.png"
+    },
+    {
+      "question_id": "auto-c-119",
+      "exam_id": "auto-c",
+      "remote_path": "auto-c/auto-c-119.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/auto-c/auto-c-119.png"
+    },
+    {
+      "question_id": "auto-c-124",
+      "exam_id": "auto-c",
+      "remote_path": "auto-c/auto-c-124.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/auto-c/auto-c-124.png"
+    },
+    {
+      "question_id": "auto-c-156",
+      "exam_id": "auto-c",
+      "remote_path": "auto-c/auto-c-156.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/auto-c/auto-c-156.png"
+    },
+    {
+      "question_id": "barber-c-007",
+      "exam_id": "barber-c",
+      "remote_path": "barber-c/barber-c-007.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/barber-c/barber-c-007.png"
+    },
+    {
+      "question_id": "beauty-c-095",
+      "exam_id": "beauty-c",
+      "remote_path": "beauty-c/beauty-c-095.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/beauty-c/beauty-c-095.png"
+    },
+    {
+      "question_id": "elec-c-024",
+      "exam_id": "elec-c",
+      "remote_path": "elec-c/elec-c-024.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/elec-c/elec-c-024.png"
+    },
+    {
+      "question_id": "elec-c-033",
+      "exam_id": "elec-c",
+      "remote_path": "elec-c/elec-c-033.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/elec-c/elec-c-033.png"
+    },
+    {
+      "question_id": "elec-c-047",
+      "exam_id": "elec-c",
+      "remote_path": "elec-c/elec-c-047.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/elec-c/elec-c-047.png"
+    },
+    {
+      "question_id": "elec-c-066",
+      "exam_id": "elec-c",
+      "remote_path": "elec-c/elec-c-066.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/elec-c/elec-c-066.png"
+    },
+    {
+      "question_id": "elec-c-073",
+      "exam_id": "elec-c",
+      "remote_path": "elec-c/elec-c-073.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/elec-c/elec-c-073.png"
+    },
+    {
+      "question_id": "elec-c-140",
+      "exam_id": "elec-c",
+      "remote_path": "elec-c/elec-c-140.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/elec-c/elec-c-140.png"
+    },
+    {
+      "question_id": "elec-c-148",
+      "exam_id": "elec-c",
+      "remote_path": "elec-c/elec-c-148.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/elec-c/elec-c-148.png"
+    },
+    {
+      "question_id": "forklift-093",
+      "exam_id": "forklift",
+      "remote_path": "forklift/forklift-093.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/forklift/forklift-093.png"
+    },
+    {
+      "question_id": "forklift-094",
+      "exam_id": "forklift",
+      "remote_path": "forklift/forklift-094.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/forklift/forklift-094.png"
+    },
+    {
+      "question_id": "forklift-174",
+      "exam_id": "forklift",
+      "remote_path": "forklift/forklift-174.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/forklift/forklift-174.png"
+    },
+    {
+      "question_id": "forklift-175",
+      "exam_id": "forklift",
+      "remote_path": "forklift/forklift-175.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/forklift/forklift-175.png"
+    },
+    {
+      "question_id": "forklift-176",
+      "exam_id": "forklift",
+      "remote_path": "forklift/forklift-176.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/forklift/forklift-176.png"
+    },
+    {
+      "question_id": "forklift-208",
+      "exam_id": "forklift",
+      "remote_path": "forklift/forklift-208.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/forklift/forklift-208.png"
+    },
+    {
+      "question_id": "forklift-209",
+      "exam_id": "forklift",
+      "remote_path": "forklift/forklift-209.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/forklift/forklift-209.png"
+    },
+    {
+      "question_id": "forklift-210",
+      "exam_id": "forklift",
+      "remote_path": "forklift/forklift-210.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/forklift/forklift-210.png"
+    },
+    {
+      "question_id": "forklift-211",
+      "exam_id": "forklift",
+      "remote_path": "forklift/forklift-211.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/forklift/forklift-211.png"
+    },
+    {
+      "question_id": "forklift-212",
+      "exam_id": "forklift",
+      "remote_path": "forklift/forklift-212.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/forklift/forklift-212.png"
+    },
+    {
+      "question_id": "forklift-213",
+      "exam_id": "forklift",
+      "remote_path": "forklift/forklift-213.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/forklift/forklift-213.png"
+    },
+    {
+      "question_id": "forklift-289",
+      "exam_id": "forklift",
+      "remote_path": "forklift/forklift-289.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/forklift/forklift-289.png"
+    },
+    {
+      "question_id": "forklift-290",
+      "exam_id": "forklift",
+      "remote_path": "forklift/forklift-290.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/forklift/forklift-290.png"
+    },
+    {
+      "question_id": "forklift-291",
+      "exam_id": "forklift",
+      "remote_path": "forklift/forklift-291.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/forklift/forklift-291.png"
+    },
+    {
+      "question_id": "forklift-293",
+      "exam_id": "forklift",
+      "remote_path": "forklift/forklift-293.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/forklift/forklift-293.png"
+    },
+    {
+      "question_id": "forklift-294",
+      "exam_id": "forklift",
+      "remote_path": "forklift/forklift-294.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/forklift/forklift-294.png"
+    },
+    {
+      "question_id": "forklift-296",
+      "exam_id": "forklift",
+      "remote_path": "forklift/forklift-296.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/forklift/forklift-296.png"
+    },
+    {
+      "question_id": "forklift-297",
+      "exam_id": "forklift",
+      "remote_path": "forklift/forklift-297.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/forklift/forklift-297.png"
+    },
+    {
+      "question_id": "forklift-298",
+      "exam_id": "forklift",
+      "remote_path": "forklift/forklift-298.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/forklift/forklift-298.png"
+    },
+    {
+      "question_id": "forklift-299",
+      "exam_id": "forklift",
+      "remote_path": "forklift/forklift-299.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/forklift/forklift-299.png"
+    },
+    {
+      "question_id": "forklift-300",
+      "exam_id": "forklift",
+      "remote_path": "forklift/forklift-300.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/forklift/forklift-300.png"
+    },
+    {
+      "question_id": "forklift-301",
+      "exam_id": "forklift",
+      "remote_path": "forklift/forklift-301.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/forklift/forklift-301.png"
+    },
+    {
+      "question_id": "forklift-346",
+      "exam_id": "forklift",
+      "remote_path": "forklift/forklift-346.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/forklift/forklift-346.png"
+    },
+    {
+      "question_id": "forklift-354",
+      "exam_id": "forklift",
+      "remote_path": "forklift/forklift-354.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/forklift/forklift-354.png"
+    },
+    {
+      "question_id": "forklift-355",
+      "exam_id": "forklift",
+      "remote_path": "forklift/forklift-355.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/forklift/forklift-355.png"
+    },
+    {
+      "question_id": "forklift-508",
+      "exam_id": "forklift",
+      "remote_path": "forklift/forklift-508.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/forklift/forklift-508.png"
+    },
+    {
+      "question_id": "forklift-509",
+      "exam_id": "forklift",
+      "remote_path": "forklift/forklift-509.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/forklift/forklift-509.png"
+    },
+    {
+      "question_id": "forklift-510",
+      "exam_id": "forklift",
+      "remote_path": "forklift/forklift-510.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/forklift/forklift-510.png"
+    },
+    {
+      "question_id": "forklift-511",
+      "exam_id": "forklift",
+      "remote_path": "forklift/forklift-511.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/forklift/forklift-511.png"
+    },
+    {
+      "question_id": "forklift-512",
+      "exam_id": "forklift",
+      "remote_path": "forklift/forklift-512.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/forklift/forklift-512.png"
+    },
+    {
+      "question_id": "forklift-513",
+      "exam_id": "forklift",
+      "remote_path": "forklift/forklift-513.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/forklift/forklift-513.png"
+    },
+    {
+      "question_id": "forklift-514",
+      "exam_id": "forklift",
+      "remote_path": "forklift/forklift-514.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/forklift/forklift-514.png"
+    },
+    {
+      "question_id": "forklift-515",
+      "exam_id": "forklift",
+      "remote_path": "forklift/forklift-515.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/forklift/forklift-515.png"
+    },
+    {
+      "question_id": "forklift-516",
+      "exam_id": "forklift",
+      "remote_path": "forklift/forklift-516.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/forklift/forklift-516.png"
+    },
+    {
+      "question_id": "forklift-517",
+      "exam_id": "forklift",
+      "remote_path": "forklift/forklift-517.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/forklift/forklift-517.png"
+    },
+    {
+      "question_id": "forklift-531",
+      "exam_id": "forklift",
+      "remote_path": "forklift/forklift-531.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/forklift/forklift-531.png"
+    },
+    {
+      "question_id": "forklift-532",
+      "exam_id": "forklift",
+      "remote_path": "forklift/forklift-532.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/forklift/forklift-532.png"
+    },
+    {
+      "question_id": "forklift-533",
+      "exam_id": "forklift",
+      "remote_path": "forklift/forklift-533.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/forklift/forklift-533.png"
+    },
+    {
+      "question_id": "hvac-c-024",
+      "exam_id": "hvac-c",
+      "remote_path": "hvac-c/hvac-c-024.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/hvac-c/hvac-c-024.png"
+    },
+    {
+      "question_id": "hvac-c-045",
+      "exam_id": "hvac-c",
+      "remote_path": "hvac-c/hvac-c-045.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/hvac-c/hvac-c-045.png"
+    },
+    {
+      "question_id": "hvac-c-055",
+      "exam_id": "hvac-c",
+      "remote_path": "hvac-c/hvac-c-055.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/hvac-c/hvac-c-055.png"
+    },
+    {
+      "question_id": "hvac-c-076",
+      "exam_id": "hvac-c",
+      "remote_path": "hvac-c/hvac-c-076.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/hvac-c/hvac-c-076.png"
+    },
+    {
+      "question_id": "hvac-c-082",
+      "exam_id": "hvac-c",
+      "remote_path": "hvac-c/hvac-c-082.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/hvac-c/hvac-c-082.png"
+    },
+    {
+      "question_id": "hvac-c-100",
+      "exam_id": "hvac-c",
+      "remote_path": "hvac-c/hvac-c-100.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/hvac-c/hvac-c-100.png"
+    },
+    {
+      "question_id": "hvac-c-128",
+      "exam_id": "hvac-c",
+      "remote_path": "hvac-c/hvac-c-128.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/hvac-c/hvac-c-128.png"
+    },
+    {
+      "question_id": "ind-wire-c-003",
+      "exam_id": "ind-wire-c",
+      "remote_path": "ind-wire-c/ind-wire-c-003.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/ind-wire-c/ind-wire-c-003.png"
+    },
+    {
+      "question_id": "ind-wire-c-007",
+      "exam_id": "ind-wire-c",
+      "remote_path": "ind-wire-c/ind-wire-c-007.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/ind-wire-c/ind-wire-c-007.png"
+    },
+    {
+      "question_id": "ind-wire-c-016",
+      "exam_id": "ind-wire-c",
+      "remote_path": "ind-wire-c/ind-wire-c-016.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/ind-wire-c/ind-wire-c-016.png"
+    },
+    {
+      "question_id": "ind-wire-c-017",
+      "exam_id": "ind-wire-c",
+      "remote_path": "ind-wire-c/ind-wire-c-017.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/ind-wire-c/ind-wire-c-017.png"
+    },
+    {
+      "question_id": "ind-wire-c-020",
+      "exam_id": "ind-wire-c",
+      "remote_path": "ind-wire-c/ind-wire-c-020.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/ind-wire-c/ind-wire-c-020.png"
+    },
+    {
+      "question_id": "ind-wire-c-032",
+      "exam_id": "ind-wire-c",
+      "remote_path": "ind-wire-c/ind-wire-c-032.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/ind-wire-c/ind-wire-c-032.png"
+    },
+    {
+      "question_id": "ind-wire-c-033",
+      "exam_id": "ind-wire-c",
+      "remote_path": "ind-wire-c/ind-wire-c-033.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/ind-wire-c/ind-wire-c-033.png"
+    },
+    {
+      "question_id": "ind-wire-c-054",
+      "exam_id": "ind-wire-c",
+      "remote_path": "ind-wire-c/ind-wire-c-054.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/ind-wire-c/ind-wire-c-054.png"
+    },
+    {
+      "question_id": "ind-wire-c-066",
+      "exam_id": "ind-wire-c",
+      "remote_path": "ind-wire-c/ind-wire-c-066.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/ind-wire-c/ind-wire-c-066.png"
+    },
+    {
+      "question_id": "ind-wire-c-067",
+      "exam_id": "ind-wire-c",
+      "remote_path": "ind-wire-c/ind-wire-c-067.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/ind-wire-c/ind-wire-c-067.png"
+    },
+    {
+      "question_id": "ind-wire-c-076",
+      "exam_id": "ind-wire-c",
+      "remote_path": "ind-wire-c/ind-wire-c-076.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/ind-wire-c/ind-wire-c-076.png"
+    },
+    {
+      "question_id": "ind-wire-c-081",
+      "exam_id": "ind-wire-c",
+      "remote_path": "ind-wire-c/ind-wire-c-081.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/ind-wire-c/ind-wire-c-081.png"
+    },
+    {
+      "question_id": "ind-wire-c-083",
+      "exam_id": "ind-wire-c",
+      "remote_path": "ind-wire-c/ind-wire-c-083.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/ind-wire-c/ind-wire-c-083.png"
+    },
+    {
+      "question_id": "ind-wire-c-092",
+      "exam_id": "ind-wire-c",
+      "remote_path": "ind-wire-c/ind-wire-c-092.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/ind-wire-c/ind-wire-c-092.png"
+    },
+    {
+      "question_id": "ind-wire-c-094",
+      "exam_id": "ind-wire-c",
+      "remote_path": "ind-wire-c/ind-wire-c-094.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/ind-wire-c/ind-wire-c-094.png"
+    },
+    {
+      "question_id": "ind-wire-c-099",
+      "exam_id": "ind-wire-c",
+      "remote_path": "ind-wire-c/ind-wire-c-099.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/ind-wire-c/ind-wire-c-099.png"
+    },
+    {
+      "question_id": "ind-wire-c-107",
+      "exam_id": "ind-wire-c",
+      "remote_path": "ind-wire-c/ind-wire-c-107.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/ind-wire-c/ind-wire-c-107.png"
+    },
+    {
+      "question_id": "ind-wire-c-111",
+      "exam_id": "ind-wire-c",
+      "remote_path": "ind-wire-c/ind-wire-c-111.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/ind-wire-c/ind-wire-c-111.png"
+    },
+    {
+      "question_id": "ind-wire-c-138",
+      "exam_id": "ind-wire-c",
+      "remote_path": "ind-wire-c/ind-wire-c-138.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/ind-wire-c/ind-wire-c-138.png"
+    },
+    {
+      "question_id": "ind-wire-c-141",
+      "exam_id": "ind-wire-c",
+      "remote_path": "ind-wire-c/ind-wire-c-141.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/ind-wire-c/ind-wire-c-141.png"
+    },
+    {
+      "question_id": "ind-wire-c-142",
+      "exam_id": "ind-wire-c",
+      "remote_path": "ind-wire-c/ind-wire-c-142.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/ind-wire-c/ind-wire-c-142.png"
+    },
+    {
+      "question_id": "ind-wire-c-144",
+      "exam_id": "ind-wire-c",
+      "remote_path": "ind-wire-c/ind-wire-c-144.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/ind-wire-c/ind-wire-c-144.png"
+    },
+    {
+      "question_id": "interior-design-b-003",
+      "exam_id": "interior-design-b",
+      "remote_path": "interior-design-b/interior-design-b-003.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/interior-design-b/interior-design-b-003.png"
+    },
+    {
+      "question_id": "interior-design-b-025",
+      "exam_id": "interior-design-b",
+      "remote_path": "interior-design-b/interior-design-b-025.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/interior-design-b/interior-design-b-025.png"
+    },
+    {
+      "question_id": "interior-design-b-095",
+      "exam_id": "interior-design-b",
+      "remote_path": "interior-design-b/interior-design-b-095.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/interior-design-b/interior-design-b-095.png"
+    },
+    {
+      "question_id": "interior-design-b-098",
+      "exam_id": "interior-design-b",
+      "remote_path": "interior-design-b/interior-design-b-098.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/interior-design-b/interior-design-b-098.png"
+    },
+    {
+      "question_id": "interior-design-b-120",
+      "exam_id": "interior-design-b",
+      "remote_path": "interior-design-b/interior-design-b-120.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/interior-design-b/interior-design-b-120.png"
+    },
+    {
+      "question_id": "mason-brick-c-001",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-001.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-001.png"
+    },
+    {
+      "question_id": "mason-brick-c-002",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-002.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-002.png"
+    },
+    {
+      "question_id": "mason-brick-c-003",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-003.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-003.png"
+    },
+    {
+      "question_id": "mason-brick-c-004",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-004.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-004.png"
+    },
+    {
+      "question_id": "mason-brick-c-005",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-005.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-005.png"
+    },
+    {
+      "question_id": "mason-brick-c-010",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-010.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-010.png"
+    },
+    {
+      "question_id": "mason-brick-c-012",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-012.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-012.png"
+    },
+    {
+      "question_id": "mason-brick-c-013",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-013.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-013.png"
+    },
+    {
+      "question_id": "mason-brick-c-017",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-017.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-017.png"
+    },
+    {
+      "question_id": "mason-brick-c-019",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-019.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-019.png"
+    },
+    {
+      "question_id": "mason-brick-c-026",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-026.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-026.png"
+    },
+    {
+      "question_id": "mason-brick-c-028",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-028.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-028.png"
+    },
+    {
+      "question_id": "mason-brick-c-029",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-029.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-029.png"
+    },
+    {
+      "question_id": "mason-brick-c-030",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-030.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-030.png"
+    },
+    {
+      "question_id": "mason-brick-c-031",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-031.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-031.png"
+    },
+    {
+      "question_id": "mason-brick-c-039",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-039.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-039.png"
+    },
+    {
+      "question_id": "mason-brick-c-040",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-040.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-040.png"
+    },
+    {
+      "question_id": "mason-brick-c-041",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-041.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-041.png"
+    },
+    {
+      "question_id": "mason-brick-c-042",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-042.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-042.png"
+    },
+    {
+      "question_id": "mason-brick-c-063",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-063.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-063.png"
+    },
+    {
+      "question_id": "mason-brick-c-065",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-065.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-065.png"
+    },
+    {
+      "question_id": "mason-brick-c-066",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-066.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-066.png"
+    },
+    {
+      "question_id": "mason-brick-c-067",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-067.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-067.png"
+    },
+    {
+      "question_id": "mason-brick-c-069",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-069.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-069.png"
+    },
+    {
+      "question_id": "mason-brick-c-086",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-086.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-086.png"
+    },
+    {
+      "question_id": "mason-brick-c-087",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-087.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-087.png"
+    },
+    {
+      "question_id": "mason-brick-c-094",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-094.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-094.png"
+    },
+    {
+      "question_id": "mason-brick-c-108",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-108.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-108.png"
+    },
+    {
+      "question_id": "mason-brick-c-162",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-162.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-162.png"
+    },
+    {
+      "question_id": "mason-brick-c-213",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-213.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-213.png"
+    },
+    {
+      "question_id": "mason-brick-c-214",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-214.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-214.png"
+    },
+    {
+      "question_id": "mason-brick-c-215",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-215.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-215.png"
+    },
+    {
+      "question_id": "mason-brick-c-223",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-223.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-223.png"
+    },
+    {
+      "question_id": "mason-brick-c-241",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-241.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-241.png"
+    },
+    {
+      "question_id": "mason-brick-c-245",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-245.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-245.png"
+    },
+    {
+      "question_id": "mason-brick-c-254",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-254.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-254.png"
+    },
+    {
+      "question_id": "mason-brick-c-255",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-255.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-255.png"
+    },
+    {
+      "question_id": "mason-brick-c-256",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-256.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-256.png"
+    },
+    {
+      "question_id": "mason-brick-c-261",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-261.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-261.png"
+    },
+    {
+      "question_id": "mason-brick-c-266",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-266.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-266.png"
+    },
+    {
+      "question_id": "mason-brick-c-267",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-267.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-267.png"
+    },
+    {
+      "question_id": "mason-brick-c-268",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-268.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-268.png"
+    },
+    {
+      "question_id": "mason-brick-c-269",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-269.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-269.png"
+    },
+    {
+      "question_id": "mason-brick-c-270",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-270.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-270.png"
+    },
+    {
+      "question_id": "mason-brick-c-271",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-271.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-271.png"
+    },
+    {
+      "question_id": "mason-brick-c-272",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-272.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-272.png"
+    },
+    {
+      "question_id": "mason-brick-c-273",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-273.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-273.png"
+    },
+    {
+      "question_id": "mason-brick-c-274",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-274.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-274.png"
+    },
+    {
+      "question_id": "mason-brick-c-275",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-275.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-275.png"
+    },
+    {
+      "question_id": "mason-brick-c-277",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-277.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-277.png"
+    },
+    {
+      "question_id": "mason-brick-c-278",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-278.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-278.png"
+    },
+    {
+      "question_id": "mason-brick-c-279",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-279.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-279.png"
+    },
+    {
+      "question_id": "mason-brick-c-280",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-280.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-280.png"
+    },
+    {
+      "question_id": "mason-brick-c-283",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-283.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-283.png"
+    },
+    {
+      "question_id": "mason-brick-c-286",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-286.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-286.png"
+    },
+    {
+      "question_id": "mason-brick-c-288",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-288.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-288.png"
+    },
+    {
+      "question_id": "mason-brick-c-309",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-309.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-309.png"
+    },
+    {
+      "question_id": "mason-brick-c-429",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-429.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-429.png"
+    },
+    {
+      "question_id": "mason-brick-c-436",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-436.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-436.png"
+    },
+    {
+      "question_id": "mason-brick-c-475",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-475.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-475.png"
+    },
+    {
+      "question_id": "mason-brick-c-483",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-483.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-483.png"
+    },
+    {
+      "question_id": "mason-brick-c-484",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-484.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-484.png"
+    },
+    {
+      "question_id": "mason-brick-c-485",
+      "exam_id": "mason-brick-c",
+      "remote_path": "mason-brick-c/mason-brick-c-485.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-brick-c/mason-brick-c-485.png"
+    },
+    {
+      "question_id": "mason-tile-c-011",
+      "exam_id": "mason-tile-c",
+      "remote_path": "mason-tile-c/mason-tile-c-011.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-tile-c/mason-tile-c-011.png"
+    },
+    {
+      "question_id": "mason-tile-c-047",
+      "exam_id": "mason-tile-c",
+      "remote_path": "mason-tile-c/mason-tile-c-047.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-tile-c/mason-tile-c-047.png"
+    },
+    {
+      "question_id": "mason-tile-c-077",
+      "exam_id": "mason-tile-c",
+      "remote_path": "mason-tile-c/mason-tile-c-077.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-tile-c/mason-tile-c-077.png"
+    },
+    {
+      "question_id": "mason-tile-c-088",
+      "exam_id": "mason-tile-c",
+      "remote_path": "mason-tile-c/mason-tile-c-088.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-tile-c/mason-tile-c-088.png"
+    },
+    {
+      "question_id": "mason-tile-c-137",
+      "exam_id": "mason-tile-c",
+      "remote_path": "mason-tile-c/mason-tile-c-137.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-tile-c/mason-tile-c-137.png"
+    },
+    {
+      "question_id": "mason-tile-c-152",
+      "exam_id": "mason-tile-c",
+      "remote_path": "mason-tile-c/mason-tile-c-152.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-tile-c/mason-tile-c-152.png"
+    },
+    {
+      "question_id": "mason-tile-c-154",
+      "exam_id": "mason-tile-c",
+      "remote_path": "mason-tile-c/mason-tile-c-154.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-tile-c/mason-tile-c-154.png"
+    },
+    {
+      "question_id": "mason-tile-c-156",
+      "exam_id": "mason-tile-c",
+      "remote_path": "mason-tile-c/mason-tile-c-156.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-tile-c/mason-tile-c-156.png"
+    },
+    {
+      "question_id": "mason-tile-c-157",
+      "exam_id": "mason-tile-c",
+      "remote_path": "mason-tile-c/mason-tile-c-157.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mason-tile-c/mason-tile-c-157.png"
+    },
+    {
+      "question_id": "mech-elec-c-005",
+      "exam_id": "mech-elec-c",
+      "remote_path": "mech-elec-c/mech-elec-c-005.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mech-elec-c/mech-elec-c-005.png"
+    },
+    {
+      "question_id": "mech-elec-c-008",
+      "exam_id": "mech-elec-c",
+      "remote_path": "mech-elec-c/mech-elec-c-008.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mech-elec-c/mech-elec-c-008.png"
+    },
+    {
+      "question_id": "mech-elec-c-009",
+      "exam_id": "mech-elec-c",
+      "remote_path": "mech-elec-c/mech-elec-c-009.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mech-elec-c/mech-elec-c-009.png"
+    },
+    {
+      "question_id": "mech-elec-c-012",
+      "exam_id": "mech-elec-c",
+      "remote_path": "mech-elec-c/mech-elec-c-012.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mech-elec-c/mech-elec-c-012.png"
+    },
+    {
+      "question_id": "mech-elec-c-014",
+      "exam_id": "mech-elec-c",
+      "remote_path": "mech-elec-c/mech-elec-c-014.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mech-elec-c/mech-elec-c-014.png"
+    },
+    {
+      "question_id": "mech-elec-c-017",
+      "exam_id": "mech-elec-c",
+      "remote_path": "mech-elec-c/mech-elec-c-017.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mech-elec-c/mech-elec-c-017.png"
+    },
+    {
+      "question_id": "mech-elec-c-018",
+      "exam_id": "mech-elec-c",
+      "remote_path": "mech-elec-c/mech-elec-c-018.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mech-elec-c/mech-elec-c-018.png"
+    },
+    {
+      "question_id": "mech-elec-c-022",
+      "exam_id": "mech-elec-c",
+      "remote_path": "mech-elec-c/mech-elec-c-022.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mech-elec-c/mech-elec-c-022.png"
+    },
+    {
+      "question_id": "mech-elec-c-025",
+      "exam_id": "mech-elec-c",
+      "remote_path": "mech-elec-c/mech-elec-c-025.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mech-elec-c/mech-elec-c-025.png"
+    },
+    {
+      "question_id": "mech-elec-c-027",
+      "exam_id": "mech-elec-c",
+      "remote_path": "mech-elec-c/mech-elec-c-027.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mech-elec-c/mech-elec-c-027.png"
+    },
+    {
+      "question_id": "mech-elec-c-041",
+      "exam_id": "mech-elec-c",
+      "remote_path": "mech-elec-c/mech-elec-c-041.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mech-elec-c/mech-elec-c-041.png"
+    },
+    {
+      "question_id": "mech-elec-c-043",
+      "exam_id": "mech-elec-c",
+      "remote_path": "mech-elec-c/mech-elec-c-043.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mech-elec-c/mech-elec-c-043.png"
+    },
+    {
+      "question_id": "mech-elec-c-044",
+      "exam_id": "mech-elec-c",
+      "remote_path": "mech-elec-c/mech-elec-c-044.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mech-elec-c/mech-elec-c-044.png"
+    },
+    {
+      "question_id": "mech-elec-c-045",
+      "exam_id": "mech-elec-c",
+      "remote_path": "mech-elec-c/mech-elec-c-045.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mech-elec-c/mech-elec-c-045.png"
+    },
+    {
+      "question_id": "mech-elec-c-061",
+      "exam_id": "mech-elec-c",
+      "remote_path": "mech-elec-c/mech-elec-c-061.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mech-elec-c/mech-elec-c-061.png"
+    },
+    {
+      "question_id": "mech-elec-c-065",
+      "exam_id": "mech-elec-c",
+      "remote_path": "mech-elec-c/mech-elec-c-065.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mech-elec-c/mech-elec-c-065.png"
+    },
+    {
+      "question_id": "mech-elec-c-069",
+      "exam_id": "mech-elec-c",
+      "remote_path": "mech-elec-c/mech-elec-c-069.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mech-elec-c/mech-elec-c-069.png"
+    },
+    {
+      "question_id": "mech-elec-c-074",
+      "exam_id": "mech-elec-c",
+      "remote_path": "mech-elec-c/mech-elec-c-074.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mech-elec-c/mech-elec-c-074.png"
+    },
+    {
+      "question_id": "mech-elec-c-088",
+      "exam_id": "mech-elec-c",
+      "remote_path": "mech-elec-c/mech-elec-c-088.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mech-elec-c/mech-elec-c-088.png"
+    },
+    {
+      "question_id": "mech-elec-c-092",
+      "exam_id": "mech-elec-c",
+      "remote_path": "mech-elec-c/mech-elec-c-092.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mech-elec-c/mech-elec-c-092.png"
+    },
+    {
+      "question_id": "mech-elec-c-111",
+      "exam_id": "mech-elec-c",
+      "remote_path": "mech-elec-c/mech-elec-c-111.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mech-elec-c/mech-elec-c-111.png"
+    },
+    {
+      "question_id": "mech-elec-c-112",
+      "exam_id": "mech-elec-c",
+      "remote_path": "mech-elec-c/mech-elec-c-112.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mech-elec-c/mech-elec-c-112.png"
+    },
+    {
+      "question_id": "mech-elec-c-113",
+      "exam_id": "mech-elec-c",
+      "remote_path": "mech-elec-c/mech-elec-c-113.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mech-elec-c/mech-elec-c-113.png"
+    },
+    {
+      "question_id": "mech-elec-c-121",
+      "exam_id": "mech-elec-c",
+      "remote_path": "mech-elec-c/mech-elec-c-121.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mech-elec-c/mech-elec-c-121.png"
+    },
+    {
+      "question_id": "mech-elec-c-123",
+      "exam_id": "mech-elec-c",
+      "remote_path": "mech-elec-c/mech-elec-c-123.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mech-elec-c/mech-elec-c-123.png"
+    },
+    {
+      "question_id": "mech-elec-c-131",
+      "exam_id": "mech-elec-c",
+      "remote_path": "mech-elec-c/mech-elec-c-131.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mech-elec-c/mech-elec-c-131.png"
+    },
+    {
+      "question_id": "mech-elec-c-135",
+      "exam_id": "mech-elec-c",
+      "remote_path": "mech-elec-c/mech-elec-c-135.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mech-elec-c/mech-elec-c-135.png"
+    },
+    {
+      "question_id": "mech-elec-c-139",
+      "exam_id": "mech-elec-c",
+      "remote_path": "mech-elec-c/mech-elec-c-139.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mech-elec-c/mech-elec-c-139.png"
+    },
+    {
+      "question_id": "mech-elec-c-143",
+      "exam_id": "mech-elec-c",
+      "remote_path": "mech-elec-c/mech-elec-c-143.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mech-elec-c/mech-elec-c-143.png"
+    },
+    {
+      "question_id": "mech-elec-c-149",
+      "exam_id": "mech-elec-c",
+      "remote_path": "mech-elec-c/mech-elec-c-149.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mech-elec-c/mech-elec-c-149.png"
+    },
+    {
+      "question_id": "mech-elec-c-153",
+      "exam_id": "mech-elec-c",
+      "remote_path": "mech-elec-c/mech-elec-c-153.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mech-elec-c/mech-elec-c-153.png"
+    },
+    {
+      "question_id": "mech-elec-c-160",
+      "exam_id": "mech-elec-c",
+      "remote_path": "mech-elec-c/mech-elec-c-160.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/mech-elec-c/mech-elec-c-160.png"
+    },
+    {
+      "question_id": "moto-c-004",
+      "exam_id": "moto-c",
+      "remote_path": "moto-c/moto-c-004.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/moto-c/moto-c-004.png"
+    },
+    {
+      "question_id": "moto-c-034",
+      "exam_id": "moto-c",
+      "remote_path": "moto-c/moto-c-034.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/moto-c/moto-c-034.png"
+    },
+    {
+      "question_id": "moto-c-057",
+      "exam_id": "moto-c",
+      "remote_path": "moto-c/moto-c-057.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/moto-c/moto-c-057.png"
+    },
+    {
+      "question_id": "moto-c-097",
+      "exam_id": "moto-c",
+      "remote_path": "moto-c/moto-c-097.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/moto-c/moto-c-097.png"
+    },
+    {
+      "question_id": "moto-c-098",
+      "exam_id": "moto-c",
+      "remote_path": "moto-c/moto-c-098.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/moto-c/moto-c-098.png"
+    },
+    {
+      "question_id": "moto-c-114",
+      "exam_id": "moto-c",
+      "remote_path": "moto-c/moto-c-114.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/moto-c/moto-c-114.png"
+    },
+    {
+      "question_id": "moto-c-126",
+      "exam_id": "moto-c",
+      "remote_path": "moto-c/moto-c-126.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/moto-c/moto-c-126.png"
+    },
+    {
+      "question_id": "moto-c-132",
+      "exam_id": "moto-c",
+      "remote_path": "moto-c/moto-c-132.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/moto-c/moto-c-132.png"
+    },
+    {
+      "question_id": "moto-c-138",
+      "exam_id": "moto-c",
+      "remote_path": "moto-c/moto-c-138.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/moto-c/moto-c-138.png"
+    },
+    {
+      "question_id": "netinstall-b-012",
+      "exam_id": "netinstall-b",
+      "remote_path": "netinstall-b/netinstall-b-012.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/netinstall-b/netinstall-b-012.png"
+    },
+    {
+      "question_id": "netinstall-b-049",
+      "exam_id": "netinstall-b",
+      "remote_path": "netinstall-b/netinstall-b-049.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/netinstall-b/netinstall-b-049.png"
+    },
+    {
+      "question_id": "netinstall-b-061",
+      "exam_id": "netinstall-b",
+      "remote_path": "netinstall-b/netinstall-b-061.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/netinstall-b/netinstall-b-061.png"
+    },
+    {
+      "question_id": "netinstall-b-103",
+      "exam_id": "netinstall-b",
+      "remote_path": "netinstall-b/netinstall-b-103.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/netinstall-b/netinstall-b-103.png"
+    },
+    {
+      "question_id": "netinstall-b-111",
+      "exam_id": "netinstall-b",
+      "remote_path": "netinstall-b/netinstall-b-111.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/netinstall-b/netinstall-b-111.png"
+    },
+    {
+      "question_id": "netinstall-c-004",
+      "exam_id": "netinstall-c",
+      "remote_path": "netinstall-c/netinstall-c-004.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/netinstall-c/netinstall-c-004.png"
+    },
+    {
+      "question_id": "netinstall-c-078",
+      "exam_id": "netinstall-c",
+      "remote_path": "netinstall-c/netinstall-c-078.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/netinstall-c/netinstall-c-078.png"
+    },
+    {
+      "question_id": "netinstall-c-114",
+      "exam_id": "netinstall-c",
+      "remote_path": "netinstall-c/netinstall-c-114.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/netinstall-c/netinstall-c-114.png"
+    },
+    {
+      "question_id": "osh-mgr-b-188",
+      "exam_id": "osh-mgr-b",
+      "remote_path": "osh-mgr-b/osh-mgr-b-188.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/osh-mgr-b/osh-mgr-b-188.png"
+    },
+    {
+      "question_id": "osh-mgr-b-192",
+      "exam_id": "osh-mgr-b",
+      "remote_path": "osh-mgr-b/osh-mgr-b-192.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/osh-mgr-b/osh-mgr-b-192.png"
+    },
+    {
+      "question_id": "pchw-b-024",
+      "exam_id": "pchw-b",
+      "remote_path": "pchw-b/pchw-b-024.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/pchw-b/pchw-b-024.png"
+    },
+    {
+      "question_id": "pchw-b-027",
+      "exam_id": "pchw-b",
+      "remote_path": "pchw-b/pchw-b-027.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/pchw-b/pchw-b-027.png"
+    },
+    {
+      "question_id": "pchw-b-037",
+      "exam_id": "pchw-b",
+      "remote_path": "pchw-b/pchw-b-037.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/pchw-b/pchw-b-037.png"
+    },
+    {
+      "question_id": "pchw-b-067",
+      "exam_id": "pchw-b",
+      "remote_path": "pchw-b/pchw-b-067.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/pchw-b/pchw-b-067.png"
+    },
+    {
+      "question_id": "pchw-b-091",
+      "exam_id": "pchw-b",
+      "remote_path": "pchw-b/pchw-b-091.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/pchw-b/pchw-b-091.png"
+    },
+    {
+      "question_id": "pchw-b-114",
+      "exam_id": "pchw-b",
+      "remote_path": "pchw-b/pchw-b-114.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/pchw-b/pchw-b-114.png"
+    },
+    {
+      "question_id": "pchw-b-115",
+      "exam_id": "pchw-b",
+      "remote_path": "pchw-b/pchw-b-115.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/pchw-b/pchw-b-115.png"
+    },
+    {
+      "question_id": "pchw-b-117",
+      "exam_id": "pchw-b",
+      "remote_path": "pchw-b/pchw-b-117.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/pchw-b/pchw-b-117.png"
+    },
+    {
+      "question_id": "pchw-c-041",
+      "exam_id": "pchw-c",
+      "remote_path": "pchw-c/pchw-c-041.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/pchw-c/pchw-c-041.png"
+    },
+    {
+      "question_id": "pchw-c-114",
+      "exam_id": "pchw-c",
+      "remote_path": "pchw-c/pchw-c-114.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/pchw-c/pchw-c-114.png"
+    },
+    {
+      "question_id": "pchw-c-140",
+      "exam_id": "pchw-c",
+      "remote_path": "pchw-c/pchw-c-140.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/pchw-c/pchw-c-140.png"
+    },
+    {
+      "question_id": "tailor-w-b-054",
+      "exam_id": "tailor-w-b",
+      "remote_path": "tailor-w-b/tailor-w-b-054.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/tailor-w-b/tailor-w-b-054.png"
+    },
+    {
+      "question_id": "tailor-w-b-059",
+      "exam_id": "tailor-w-b",
+      "remote_path": "tailor-w-b/tailor-w-b-059.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/tailor-w-b/tailor-w-b-059.png"
+    },
+    {
+      "question_id": "tailor-w-b-086",
+      "exam_id": "tailor-w-b",
+      "remote_path": "tailor-w-b/tailor-w-b-086.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/tailor-w-b/tailor-w-b-086.png"
+    },
+    {
+      "question_id": "tailor-w-c-004",
+      "exam_id": "tailor-w-c",
+      "remote_path": "tailor-w-c/tailor-w-c-004.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/tailor-w-c/tailor-w-c-004.png"
+    },
+    {
+      "question_id": "tailor-w-c-009",
+      "exam_id": "tailor-w-c",
+      "remote_path": "tailor-w-c/tailor-w-c-009.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/tailor-w-c/tailor-w-c-009.png"
+    },
+    {
+      "question_id": "tailor-w-c-013",
+      "exam_id": "tailor-w-c",
+      "remote_path": "tailor-w-c/tailor-w-c-013.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/tailor-w-c/tailor-w-c-013.png"
+    },
+    {
+      "question_id": "tailor-w-c-028",
+      "exam_id": "tailor-w-c",
+      "remote_path": "tailor-w-c/tailor-w-c-028.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/tailor-w-c/tailor-w-c-028.png"
+    },
+    {
+      "question_id": "tailor-w-c-032",
+      "exam_id": "tailor-w-c",
+      "remote_path": "tailor-w-c/tailor-w-c-032.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/tailor-w-c/tailor-w-c-032.png"
+    },
+    {
+      "question_id": "tailor-w-c-033",
+      "exam_id": "tailor-w-c",
+      "remote_path": "tailor-w-c/tailor-w-c-033.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/tailor-w-c/tailor-w-c-033.png"
+    },
+    {
+      "question_id": "tailor-w-c-056",
+      "exam_id": "tailor-w-c",
+      "remote_path": "tailor-w-c/tailor-w-c-056.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/tailor-w-c/tailor-w-c-056.png"
+    },
+    {
+      "question_id": "tailor-w-c-059",
+      "exam_id": "tailor-w-c",
+      "remote_path": "tailor-w-c/tailor-w-c-059.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/tailor-w-c/tailor-w-c-059.png"
+    },
+    {
+      "question_id": "tailor-w-c-064",
+      "exam_id": "tailor-w-c",
+      "remote_path": "tailor-w-c/tailor-w-c-064.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/tailor-w-c/tailor-w-c-064.png"
+    },
+    {
+      "question_id": "tailor-w-c-066",
+      "exam_id": "tailor-w-c",
+      "remote_path": "tailor-w-c/tailor-w-c-066.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/tailor-w-c/tailor-w-c-066.png"
+    },
+    {
+      "question_id": "tailor-w-c-074",
+      "exam_id": "tailor-w-c",
+      "remote_path": "tailor-w-c/tailor-w-c-074.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/tailor-w-c/tailor-w-c-074.png"
+    },
+    {
+      "question_id": "tailor-w-c-083",
+      "exam_id": "tailor-w-c",
+      "remote_path": "tailor-w-c/tailor-w-c-083.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/tailor-w-c/tailor-w-c-083.png"
+    },
+    {
+      "question_id": "tailor-w-c-092",
+      "exam_id": "tailor-w-c",
+      "remote_path": "tailor-w-c/tailor-w-c-092.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/tailor-w-c/tailor-w-c-092.png"
+    },
+    {
+      "question_id": "tailor-w-c-096",
+      "exam_id": "tailor-w-c",
+      "remote_path": "tailor-w-c/tailor-w-c-096.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/tailor-w-c/tailor-w-c-096.png"
+    },
+    {
+      "question_id": "tailor-w-c-098",
+      "exam_id": "tailor-w-c",
+      "remote_path": "tailor-w-c/tailor-w-c-098.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/tailor-w-c/tailor-w-c-098.png"
+    },
+    {
+      "question_id": "tailor-w-c-107",
+      "exam_id": "tailor-w-c",
+      "remote_path": "tailor-w-c/tailor-w-c-107.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/tailor-w-c/tailor-w-c-107.png"
+    },
+    {
+      "question_id": "tailor-w-c-109",
+      "exam_id": "tailor-w-c",
+      "remote_path": "tailor-w-c/tailor-w-c-109.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/tailor-w-c/tailor-w-c-109.png"
+    },
+    {
+      "question_id": "tailor-w-c-121",
+      "exam_id": "tailor-w-c",
+      "remote_path": "tailor-w-c/tailor-w-c-121.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/tailor-w-c/tailor-w-c-121.png"
+    },
+    {
+      "question_id": "tailor-w-c-133",
+      "exam_id": "tailor-w-c",
+      "remote_path": "tailor-w-c/tailor-w-c-133.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/tailor-w-c/tailor-w-c-133.png"
+    },
+    {
+      "question_id": "tailor-w-c-152",
+      "exam_id": "tailor-w-c",
+      "remote_path": "tailor-w-c/tailor-w-c-152.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/tailor-w-c/tailor-w-c-152.png"
+    },
+    {
+      "question_id": "tailor-w-c-153",
+      "exam_id": "tailor-w-c",
+      "remote_path": "tailor-w-c/tailor-w-c-153.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/tailor-w-c/tailor-w-c-153.png"
+    },
+    {
+      "question_id": "telecom-c-002",
+      "exam_id": "telecom-c",
+      "remote_path": "telecom-c/telecom-c-002.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/telecom-c/telecom-c-002.png"
+    },
+    {
+      "question_id": "telecom-c-020",
+      "exam_id": "telecom-c",
+      "remote_path": "telecom-c/telecom-c-020.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/telecom-c/telecom-c-020.png"
+    },
+    {
+      "question_id": "telecom-c-034",
+      "exam_id": "telecom-c",
+      "remote_path": "telecom-c/telecom-c-034.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/telecom-c/telecom-c-034.png"
+    },
+    {
+      "question_id": "telecom-c-040",
+      "exam_id": "telecom-c",
+      "remote_path": "telecom-c/telecom-c-040.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/telecom-c/telecom-c-040.png"
+    },
+    {
+      "question_id": "telecom-c-052",
+      "exam_id": "telecom-c",
+      "remote_path": "telecom-c/telecom-c-052.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/telecom-c/telecom-c-052.png"
+    },
+    {
+      "question_id": "telecom-c-067",
+      "exam_id": "telecom-c",
+      "remote_path": "telecom-c/telecom-c-067.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/telecom-c/telecom-c-067.png"
+    },
+    {
+      "question_id": "telecom-c-071",
+      "exam_id": "telecom-c",
+      "remote_path": "telecom-c/telecom-c-071.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/telecom-c/telecom-c-071.png"
+    },
+    {
+      "question_id": "telecom-c-078",
+      "exam_id": "telecom-c",
+      "remote_path": "telecom-c/telecom-c-078.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/telecom-c/telecom-c-078.png"
+    },
+    {
+      "question_id": "telecom-c-085",
+      "exam_id": "telecom-c",
+      "remote_path": "telecom-c/telecom-c-085.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/telecom-c/telecom-c-085.png"
+    },
+    {
+      "question_id": "telecom-c-093",
+      "exam_id": "telecom-c",
+      "remote_path": "telecom-c/telecom-c-093.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/telecom-c/telecom-c-093.png"
+    },
+    {
+      "question_id": "telecom-c-094",
+      "exam_id": "telecom-c",
+      "remote_path": "telecom-c/telecom-c-094.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/telecom-c/telecom-c-094.png"
+    },
+    {
+      "question_id": "telecom-c-096",
+      "exam_id": "telecom-c",
+      "remote_path": "telecom-c/telecom-c-096.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/telecom-c/telecom-c-096.png"
+    },
+    {
+      "question_id": "telecom-c-097",
+      "exam_id": "telecom-c",
+      "remote_path": "telecom-c/telecom-c-097.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/telecom-c/telecom-c-097.png"
+    },
+    {
+      "question_id": "telecom-c-099",
+      "exam_id": "telecom-c",
+      "remote_path": "telecom-c/telecom-c-099.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/telecom-c/telecom-c-099.png"
+    },
+    {
+      "question_id": "telecom-c-134",
+      "exam_id": "telecom-c",
+      "remote_path": "telecom-c/telecom-c-134.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/telecom-c/telecom-c-134.png"
+    },
+    {
+      "question_id": "telecom-c-136",
+      "exam_id": "telecom-c",
+      "remote_path": "telecom-c/telecom-c-136.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/telecom-c/telecom-c-136.png"
+    },
+    {
+      "question_id": "telecom-c-137",
+      "exam_id": "telecom-c",
+      "remote_path": "telecom-c/telecom-c-137.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/telecom-c/telecom-c-137.png"
+    },
+    {
+      "question_id": "telecom-c-144",
+      "exam_id": "telecom-c",
+      "remote_path": "telecom-c/telecom-c-144.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/telecom-c/telecom-c-144.png"
+    },
+    {
+      "question_id": "telecom-c-155",
+      "exam_id": "telecom-c",
+      "remote_path": "telecom-c/telecom-c-155.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/telecom-c/telecom-c-155.png"
+    },
+    {
+      "question_id": "water-pipe-c-066",
+      "exam_id": "water-pipe-c",
+      "remote_path": "water-pipe-c/water-pipe-c-066.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/water-pipe-c/water-pipe-c-066.png"
+    },
+    {
+      "question_id": "water-pipe-c-102",
+      "exam_id": "water-pipe-c",
+      "remote_path": "water-pipe-c/water-pipe-c-102.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/water-pipe-c/water-pipe-c-102.png"
+    },
+    {
+      "question_id": "water-pipe-c-111",
+      "exam_id": "water-pipe-c",
+      "remote_path": "water-pipe-c/water-pipe-c-111.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/water-pipe-c/water-pipe-c-111.png"
+    },
+    {
+      "question_id": "water-pipe-c-120",
+      "exam_id": "water-pipe-c",
+      "remote_path": "water-pipe-c/water-pipe-c-120.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/water-pipe-c/water-pipe-c-120.png"
+    },
+    {
+      "question_id": "water-pipe-c-142",
+      "exam_id": "water-pipe-c",
+      "remote_path": "water-pipe-c/water-pipe-c-142.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/water-pipe-c/water-pipe-c-142.png"
+    },
+    {
+      "question_id": "water-pipe-c-159",
+      "exam_id": "water-pipe-c",
+      "remote_path": "water-pipe-c/water-pipe-c-159.png",
+      "public_url": "https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/water-pipe-c/water-pipe-c-159.png"
+    }
+  ]
+}

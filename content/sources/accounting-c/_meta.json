@@ -1,0 +1,25 @@
+{
+  "exam_id": "accounting-c",
+  "exam_name": "會計事務資訊丙級",
+  "category": "tech-cert",
+  "scope_kind": "exam",
+  "is_new_exam": true,
+  "chapters": [],
+  "files": [
+    {
+      "filename": "accounting-c_q_ntpc_20260416_v2.pdf",
+      "original_filename": "會計事務資訊丙級證照輔導班(2)-中高齡優先班（題庫.pdf，1 MB）.pdf",
+      "type": "q",
+      "source": "ntpc",
+      "source_url": "https://ilabor.ntpc.gov.tw/cloud/VocTraining/exam",
+      "downloaded_at": "2026-04-16T00:00:00+08:00",
+      "copyright": "official_public",
+      "license_note": "新北市政府勞工局公開資料",
+      "md5": "0b03b79204be58ad70e5a1f5b232e302",
+      "size_bytes": 1087238,
+      "status": "raw",
+      "chapter_hint": null,
+      "notes": ""
+    }
+  ]
+}
