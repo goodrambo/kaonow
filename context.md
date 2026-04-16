@@ -1,11 +1,12 @@
 # KaoNow 專案記憶檔
 
-> 最後更新：2026-04-16（v6 UI + UX polish + 發現機制 全上線 kaonow.com）
+> 最後更新：2026-04-17（前端大修：40 考試題庫上線 + 25 新考試加入 + 圖片題顯示 + questions_published view 加 image_url。總題庫 7,393 題 across 182 exams）
 > 使用方式：每次開啟新對話時，請我先讀這份檔案即可快速接上進度。
 > 維護：每完成一個階段後，請我「更新 context.md」。
 >
-> **🎯 下一步主軸**：題庫內容建置（詳見 `QUESTION_BANK_ROADMAP.md` + `BATCH_PROMPTS.md`）
+> **🎯 下一步主軸**：題庫內容建置（詳見 `QUESTION_BANK_ROADMAP.md` + `BATCH_PROMPTS.md` + `content/sources/_classifier.md`）
 > 直接從 `BATCH_PROMPTS.md` 選一批複製貼上就能開工，共 74 批覆蓋全 158 個考試。
+> 新工作流：user 從官網抓 PDF 丟 `content/sources/_inbox/` → Claude 自動分類歸檔 → Layer 2 OCR/extract → Layer 3 parse → Supabase。
 
 ---
 
@@ -24,9 +25,11 @@
 **品牌**：KaoNow
 **網域**：kaonow.com（已上線）、kaonow.app（已購）
 **GitHub**：https://github.com/goodrambo/kaonow（public repo）
-**Supabase 專案**：kaonow（Tokyo region，免費方案）
+**Supabase 專案**：kaonow（Tokyo region，免費方案，PostgreSQL 17.6）
+- Project ID：`myvfboezhnzgovowhaff`
 - Project URL：`https://myvfboezhnzgovowhaff.supabase.co`
 - anon key 儲存於 `index.html`（前端公開，靠 RLS 保護）
+- **Supabase MCP 已連接**：可從 Claude 直接 `execute_sql`、`list_tables`、`apply_migration` 等，不需手動貼 SQL Editor
 
 ---
 
@@ -142,7 +145,7 @@
 6. **金融 / 商業證照**（金管會）— 信託、內控、證券、保險
 7. **資訊科技國際認證** — TQC+、AWS、Security+、PMP
 
-目前 `exams` 表有 **158 筆考試 metadata**（專技 25 + 技術士 39 + 公職 23 + 語言 17 + 升學 8 + 金融 21 + IT 認證 25），其中只有「甲種職業安全衛生業務主管」有完整題庫（153 題官方 + 1 測試 AI 題）。其餘 157 筆顯示「📚 資料完整，題庫建置中」。
+目前 `exams` 表有 **182 筆考試 metadata**（原 159 + Layer 4 新增 23 個技術士丙級），其中 **40 個考試有完整官方題庫**（甲種職安衛 153 題 + 39 個新北勞動雲批次 6,931 題 = 共 7,085 題）。其餘顯示「📚 資料完整，題庫建置中」。
 
 **重要 category ID 命名**（不要再踩雷）：
 - `tech-cert`、`prof-exam`、`civil`、`language`、**`academic`**（不是 entrance）、`finance`、`it-cert`
@@ -285,6 +288,52 @@
   - **結果頁「複習錯題」動態隱藏**：全對時直接不顯示按鈕（`#result-review-btn` 的 `display:none`），不再跳 alert；若硬點也改 `showToast('🎉 恭喜全部答對...')`
   - **Catalog 分類切換自動清 search**：三處 onclick（home category card、`__bookmark` chip、一般 category chip）都補 `state.catalogSearch=''`，避免「切分類還殘留搜尋字 → 空白列表」的困惑
   - **Toast 排隊**：原本 `showToast` 連續呼叫會被覆蓋。改為 `_toastQueue` 陣列 + `_toastShowing` flag：每則顯示 2.5 秒，隊列下一則間隔 250ms；相同文字的 back-to-back 呼叫會略過（避免 double-tap）。整個系統向後相容，呼叫方式不變
+- ✅ **Content Pipeline Layer 3 — 文字 → 結構化題目 JSON**（2026-04-16）：
+  - **腳本**：`outputs/parse_layer3.py`
+  - **支援 4 種 PDF 題庫格式**（從實戰中歸納）：
+    - 格式 A「年度試題×2」：多數技術士丙級，2 年份共 160 題（auto-c / elec-c / hvac-c / …）
+    - 格式 B「單年度」：80 題（cook-v-c / noodle-water-c）
+    - 格式 C「工作項目分章」：forklift（4 章 598 題）/ mason-brick-c（11 章 606 題）/ osh-mgr-b（7 章 837 題）/ osh-common（100 題）
+    - 格式 D「alt format」：`(答案)   題號    題幹\n   選項`（nail-art-c 獨有）
+  - **題目正則**：standard 用 `^\s*(\d+)\.\s*\((\d)\)\s*(.+?)` 多行 + DOTALL；alt 用 `^\s*\((\d)\)\s+(\d+)\s+(.+?)`
+  - **選項切分**：依 ①②③④ 全形字切 4 段；`tighten_cjk_spaces` 壓掉 pdftotext 斷行殘留的中中空格
+  - **倒裝題處理**：台灣特殊題式「N.(A) ①選1 ②選2 ③選3 ④選4  XXXX（題幹接在最後）」—— 在原始（未 normalize）的 `④` 之後偵測 `\s{2,}` 分隔，把後半段當真題幹。例：`44. (3) ①髮蠟 ②燙髮劑 ③生髮水 ④染髮劑     非屬化粧品管理。` → Q="非屬化粧品管理" opts=["髮蠟","燙髮劑","生髮水","染髮劑"] ans=3
+  - **章節偵測**：`年度` / `工作項目 NN：名稱` 兩類自動標註到每題的 `sections[]`
+  - **題目去重**：MD5(question + options) 當 key；**圖片題**（`has_image`：題幹含「下圖/下表」等關鍵字，或任一選項為空→判定選項是電路圖/波形等圖像）改用 `(section, raw_qnum)` 當 key，避免誤合併視覺不同的題
+  - **成果統計**：
+    - 39 考試解析成功（osh-c 待 OCR 除外），全部 0 parser issues
+    - 總 **7,246 題** 獨特題目
+    - 其中 315 題（4.3%）標 `has_image`，需人工補圖源，但結構欄位（答案/已抽到的選項文字）仍保留
+    - 格式分佈：38 standard + 1 alt
+  - **產物**：`content/parsed/{exam_id}/questions.json`（完整題目）+ `parse_report.json`（健檢摘要）+ `_progress.md` 總表
+  - **JSON 欄位**（每題）：`id` / `exam_id` / `question` / `options[4]` / `answer` / `sections` / `raw_qnums` / `occurrences` / `has_image` / `needs_manual_review` / `answer_conflicts`
+  - **.gitignore**：`content/parsed/**` 忽略 `questions.json` 本體，白名單 `parse_report.json` + `_progress.md`
+- ✅ **Content Pipeline Layer 2 — PDF → 純文字抽取**（2026-04-16）：
+  - **工具**：Poppler `pdftotext -layout`（有文字層）+ Tesseract OCR 方案（影像 PDF，需本機跑）
+  - **腳本**：`outputs/extract_layer2.py` — 自動判斷 chars/page < 100 就標 `ocr_pending`，否則 pdftotext 抽文字
+  - **產物**：`content/extracted/{exam_id}/{stem}.txt` + `.meta.json`（pages / chars / extractor / status）+ `_progress.md` 總表
+  - **成果**：40 份 PDF 中 **39 份成功抽取**（pdftotext 直接抽，格式完美：`數字. (答案) 題幹 ①選項1 ②選項2 ③選項3 ④選項4`，題目 + 答案同行，結構清晰好 parse）
+  - **osh-c 例外**：5 頁 PDF 只抽到 5 字元（iLovePDF producer，純影像掃描版）→ 標 `ocr_pending`，寫 `content/extracted/osh-c/OCR_INSTRUCTIONS.md` 指引 user 在 Mac 上用 `brew install ocrmypdf tesseract-lang` + `ocrmypdf -l chi_tra` 處理（sandbox 因 sudo 被禁、`ports.ubuntu.com` 網路 allowlist 外無法自己裝繁中 tessdata）
+  - **技術士 PDF 結構發現**：多數新北勞動雲檔是「共同科目 80 題 + 專業科目 80 題 = 160 題」雙 section 結構（題號各自 1-80），Layer 3 parser 需切 section 並用偏移量分配題號
+  - **.gitignore 擴充**：`content/extracted/**` 忽略原文，白名單 `_progress.md` / `*.meta.json` / `OCR_INSTRUCTIONS.md`
+- ✅ **Content Pipeline Layer 1 — Inbox 分類系統上線**（2026-04-16）：
+  - **架構**：`content/sources/` 三層 pipeline：Layer 1 原始檔歸檔 → Layer 2 `content/extracted/` OCR/文字抽取 → Layer 3 `content/parsed/` 結構化題目 JSON → Supabase
+  - **新增檔案**：
+    - `content/sources/_inbox/` — user 下載檔暫存區（原檔名原封不動）
+    - `content/sources/_classifier.md` — 分類工作流手冊 + 已知考試對照表（類型代碼、來源代碼、命名規則）
+    - `content/sources/_folders.md` — 自動生成的 `exam_id ↔ 考試名稱` 對照表（每次分類後更新）
+    - `outputs/migrate_inbox.py` — sandbox 內的 inbox 分類腳本（filename pattern match + MD5 dedup + 自動建資料夾 + 寫 `_meta.json` + 生成 `_folders.md`）
+    - `.gitignore` 新增 whitelist 模式：`content/sources/**` 全忽略，但白名單保留所有子資料夾 + `_meta.json` + `_classifier.md` + `_folders.md` + `.gitkeep`（原始 PDF 因版權 + 檔案大小不入版控）
+  - **檔名約定**：`{exam_id}_{type}_{source}_{yyyymmdd}.{ext}`
+    - `type`：q（題庫）/ qa（含答案）/ sim（模擬）/ lec（講義）/ syl（課綱）/ law（法規）/ img（附圖）/ meta（簡章）/ ref（參考）
+    - `source`：ntpc（新北勞動雲）/ osha（勞動部職安署）/ istsha / moe / ceec / lttc / tcte…
+  - **每考試資料夾結構**：`{exam_id}/questions|lectures|images|legal|misc/` 五個子夾 + `_meta.json` 記錄所有檔案 metadata（原檔名、MD5、size、source URL、授權、status 狀態機：raw → extracted → parsed → inserted）
+  - **首批成果**（新北勞動雲 職訓補給站題庫下載 48 份 PDF）：
+    - 40 個考試資料夾建立，涵蓋 osh-c / osh-common / osh-mgr-b / 及 37 個技術士考試
+    - 39 份獨特 PDF 歸位 + 7 份 MD5 重複檔去重（`_meta.json` 記 `status: "deduplicated"`）
+    - 命中率 100%（PATTERNS 表 40 筆規則，全部自動分類無需人工介入）
+    - 15 個「新考試」標記 ⚠️（等累積到一定數量批次補 `exams` seed + schema）
+  - **Sandbox 限制踩雷**：session mount 禁止 `unlink` / `rm` / `mv` 覆寫。對策：腳本從 `shutil.move` 改 `shutil.copy2`（inbox 留原檔當備份），user 自行清理 inbox
 - ✅ **UX 審查回修批次 2（P1 + P2）**（2026-04-16）：
   - **Quiz 加「上一題」按鈕**：`prevQuestion()` 新函式 + `renderQuestion` 時在 idx>0 顯示「← 上一題」；用 `margin-right:auto` 推到左邊，下一題留右邊；dots 仍可跨跳但現在有明顯按鈕，不必精準點小圓點
   - **殘留 alert 清光**：`startChapter`、`startSubjectChapter` 內「題庫載入失敗 / 此章節暫無題目」全改 `showToast`；`resetProgress` 的 alert 也改
@@ -297,16 +346,45 @@
 
 ## 10. 待辦事項
 
-### 🔥 最優先（題庫內容建置）— 見 `QUESTION_BANK_ROADMAP.md`
-**下一波主軸。架構/UI 已就位，現在只差「內容」。**
-- [ ] 乙種職安衛（osh-b）— 複用甲種 schema 最快
-- [ ] 丙種職安衛（osh-c）
+### 🔥 最優先（題庫內容建置）— 見 `QUESTION_BANK_ROADMAP.md` + `content/sources/_classifier.md`
+**Layer 1-4 全部完成並部署到 Supabase。✅**
+
+- [x] **Layer 1**：inbox 分類系統 + 40 考試原始 PDF 歸檔（新北勞動雲批）
+- [x] **Layer 2**：pdftotext 抽 39/40 考試成功；osh-c 1 份影像 PDF 待 user 本機 OCR
+- [x] **Layer 3**：解析 7,246 題結構化 JSON，涵蓋 4 種 PDF 格式 + 倒裝題處理 + 圖片題標記
+- [x] **Layer 4**：JSON → Supabase — 6,931 題 + 23 新考試 + 18 章節（工作項目制）已全部寫入 Supabase ✅
+  - SQL 產出 5.1 MB（冪等 ON CONFLICT），因 SQL Editor 大小限制分拆成 9 份 `content/sql/split/layer4_part{01-09}.sql`
+  - 驗證通過：182 exams / 7,085 questions / 663 chapters / 全部 published
+  - Supabase MCP 連接器已啟用（project ID: `myvfboezhnzgovowhaff`），可直接從 Claude 執行 SQL
+- [x] **Layer 4.5**：308 題圖片題完成 ✅（2026-04-17）
+  - `pdftoppm -r 200` 把 26 個考試 PDF 轉 326 頁 PNG → Pillow 裁切題目區域 → 308 張圖
+  - Supabase Storage bucket `question-images`（public，1MB limit，png/jpg/webp）
+  - 上傳腳本 `content/images/upload_to_supabase.py`（需 Mac 本機跑，因 sandbox 網路擋 supabase.co）
+  - Public URL 格式：`https://myvfboezhnzgovowhaff.supabase.co/storage/v1/object/public/question-images/{exam_id}/{question_id}.png`
+  - `questions` 表新增 `image_url TEXT` 欄位
+  - 7 題仍缺圖：jewelry-c 2 題（無 PDF）+ nail-art-c 5 題（無 extracted text）
+  - 最終：**7,393 題**（7,085 文字題 + 308 圖片題），24 個考試有圖片題
+- [x] **前端大修**（2026-04-17）— 解決題庫上線但前端顯示「建置中」的問題
+  - 16 個已有題目的考試 `available:false` → `available:true`（elec-c, hvac-c, forklift, cook-c 等）
+  - 25 個新考試加入前端 exams array（mason-brick-c, nail-art-c, telecom-c, water-pipe-c 等 DB 有題但前端沒 entry 的）
+  - `osh-b` 改 ID 為 `osh-mgr-b`（對齊 DB exam_id，837 題）
+  - `questions_published` view 加 `image_url` 欄位（migration: `add_image_url_to_questions_published`）
+  - 前端 SELECT 加 `image_url`、`_mapDbQuestion` 加 `img` 欄位、`renderQuestion` 加 `<img>` 渲染（點擊可放大）
+  - 首頁預設題數 154 → 7,393（Supabase API 動態 count 也正常回 7,393）
+  - **需 `git push` 部署到 GitHub Pages 才能生效**
+- [ ] 乙種職安衛（osh-b / osh-mgr-b）— 題庫已有 837 題 ✅，但 inbox 原始 PDF 還可補更多
+- [ ] 丙種職安衛（osh-c）— Layer 1 ✅ Layer 2 ⏳（user 需本機 OCR，見 `content/extracted/osh-c/OCR_INSTRUCTIONS.md`）
 - [ ] 行政法（sub-admin-law）— 共用科目，4 考試都受益
 - [ ] 憲法（sub-constitution）
-- [ ] 室內配線丙級
-- [ ] 中餐烹調丙級
+- [ ] 室內配線丙級（elec-c）— Layer 1 ✅
+- [ ] 中餐烹調（葷食/素食）丙級（cook-c / cook-v-c）— Layer 1 ✅
 - [ ] 全民英檢中級
 - [ ] 每做一個 commit 一次，更新 roadmap 的進度表
+
+### 📥 Inbox 管理 TODO
+- [ ] User 手動刪 `content/sources/accounting-c/questions/accounting-c_q_ntpc_20260416_v2.pdf`（第一次 script 崩潰的殘檔，sandbox 無法自刪）
+- [ ] User 驗證後清空 `content/sources/_inbox/新北市勞動雲 職訓補給站題庫下載/`（48 份原檔已 copy 到對應考試）
+- [ ] 累積 ⚠️ 新考試（15 個）達量後批次補 `exams` seed
 
 ### 舊 v6 整合相關（✅ 已完成 2026-04-16）
 - [x] 考試詳情頁偵測 `exam_subjects` → 類科選擇器 + 科目卡片
@@ -416,6 +494,36 @@
 19. **state 殘留影響 render**
     `state.fromExamId` 跨路由不清空會導致科目頁的麵包屑顯示錯的父考試。每次 `renderSubject` 先驗證 `fromExamId` 是否真的引用本科目，否則清掉。
 
+20. **Sandbox mount 禁止 unlink / rm / mv 覆寫**
+    session mnt 下的檔案只能新建/讀，不能刪除或原地覆寫（連剛建的檔都不行）。第一次跑 inbox 分類時 `shutil.move` 炸 `Operation not permitted`。對策：改 `shutil.copy2` 讓原檔留在 inbox 當備份；重複執行 script 的目標檔若已存在會自動 `_v2` 後綴避免覆寫錯誤，但也會留下孤兒檔需 user 手動清。
+
+21. **.gitignore 白名單要先 un-ignore 目錄**
+    `content/sources/**` 會把子目錄也視為 ignored，造成 `!content/sources/**/_meta.json` 失效（Git 根本沒進到那個目錄）。必須先加 `!content/sources/**/` un-ignore 所有子目錄，再白名單個別檔案。驗證指令：`git check-ignore -v <path>`。
+
+22. **PDF 檔名辨識順序**
+    `match_pattern` 用 substring 比對，`"丙種職業安全衛生業務主管教育訓練班(1)"` 會被更長的 `"丙種職業安全衛生業務主管教育訓練班(2)"` 搶先命中。PATTERNS 列表順序必須「更具體的先、更廣的後」，否則會錯歸檔。
+
+23. **台灣考題的倒裝題式**
+    很多考試會出現「①選1 ②選2 ③選3 ④選4  題幹」這種題幹在最後的格式，例：`44. (3) ①髮蠟 ②燙髮劑 ③生髮水 ④染髮劑     非屬化粧品管理。` 這在 pdftotext 抽出後，因為 normalize 會吃掉多餘空格，單純依 `①` 前當題幹會抓到空字串。解法：在原始（未 normalize）的 `④` 之後偵測 `\s{2,}` 分隔，後半段才是真題幹。
+
+24. **圖片題 / 電路圖題的選項抽不到**
+    ind-wire-c、mech-elec-c、archi-cad-c 的電路圖題，選項 ①②③④ 本身是電路圖 / 波形 / 建築圖，pdftotext 抽不到文字→四個選項都是空字串。對策：判斷 `任一選項為空` 或 `題幹含「下圖/下表/圖示」`→ 標 `has_image=true` + `needs_manual_review=true`，且 dedup key 改用 `(section, raw_qnum)` 避免誤合併題幹相同但指不同圖的題。Layer 4.5 要另跑 pdftoppm 切圖 + 人工上傳 CDN 後補 `question.image_url`。
+
+25. **技術士 PDF 通常是「2 年份試題 × 80 題」而非「共同 + 專業」**
+    第一次估錯結構，以為是 80 題共同 + 80 題專業。實際多數檔是 113 年度 80 題 + 114 年度 80 題兩梯次歷屆試題疊在一起，兩個年份的 80 題大致獨立（跨年度重複率 < 5%）。forklift / mason-brick-c / osh-mgr-b 則是按「工作項目」章節分組。
+
+26. **pdftotext 末題選項尾巴沾 PDF 頁腳/頁首**
+    每頁最後一題的最後一個選項（④ 之後）會黏到 PDF 頁腳文字（如 `114 汽車修護丙 5 -5 (序 0 02)`）或下一頁頁首（年度+試題標題行）。共 46 題受影響（0.6%）。Layer 4 用 `RE_PAGE_NOISE` regex 在 SQL 生成時自動清除。
+
+27. **Layer 4 章節策略：年份制 vs 工作項目制**
+    年份型 sections（如 `113 年度`、`114 年度`）不建立新 chapters，questions.chapter_id = NULL。工作項目型（forklift 3 章 / mason-brick-c 11 章 / osh-common 1 章 / osh-mgr-b 3 章）才建 chapters。理由：v5 schema 已有以技術主題命名的 ch0-ch3（如 auto-c 的「引擎系統」「底盤系統」），年份不是主題維度，混在一起反而亂。
+
+28. **Supabase SQL Editor 有大小限制**
+    5.1 MB 的 SQL 檔會報 `Error: Query is too large to be run via the SQL Editor`。對策：用腳本分拆成 9 份 120-420 KB 的檔（每份自帶 `BEGIN; ... COMMIT;`），逐份在 SQL Editor 執行。或用 Supabase MCP `execute_sql` 直接從 Claude 推（但單次 payload 也有限制，適合中小量操作）。
+
+29. **Sandbox 網路無法直連 Supabase**
+    sandbox 的 curl 打 `supabase.co` 回 HTTP 000（exit 56），被網路 allowlist 擋。無法從 sandbox 用 REST API 推資料。對策：用 Supabase MCP 連接器（走 Cowork 的 MCP bridge，不受 sandbox 限制）或讓 user 在本機/SQL Editor 手動執行。
+
 ---
 
 ## 12. 常用指令速查
@@ -450,7 +558,61 @@ python3 generate_ai_questions.py
 DELETE FROM public.questions WHERE id = 'osh-a-ch0-ai001';
 ```
 
-**查詢某考試的類科結構**（v6 架構常用）：
+**跑 inbox 分類**（sandbox 內，Layer 1）：
+```bash
+python3 /sessions/funny-gracious-wozniak/mnt/outputs/migrate_inbox.py
+```
+
+**跑 Layer 2 抽取**（sandbox 內）：
+```bash
+python3 /sessions/funny-gracious-wozniak/mnt/outputs/extract_layer2.py
+```
+
+**跑 Layer 3 解析**（sandbox 內）：
+```bash
+# 全量
+python3 /sessions/funny-gracious-wozniak/mnt/outputs/parse_layer3.py
+# 指定考試
+python3 /sessions/funny-gracious-wozniak/mnt/outputs/parse_layer3.py auto-c nail-art-c
+```
+
+**查某考試有哪些原始檔**：
+```bash
+cat content/sources/osh-c/_meta.json | jq '.files[] | {filename, type, status, size_bytes}'
+```
+
+**查抽取進度**：
+```bash
+cat content/extracted/_progress.md
+```
+
+**跑 Layer 4 SQL 生成**（sandbox 內）：
+```bash
+# 全量（39 考試 → 6,931 題 SQL）
+python3 /sessions/funny-gracious-wozniak/mnt/outputs/generate_layer4_sql.py
+# 指定考試
+python3 /sessions/funny-gracious-wozniak/mnt/outputs/generate_layer4_sql.py auto-c forklift
+```
+
+**貼 Layer 4 SQL 到 Supabase**（Mac 本機）：
+```bash
+cat ~/Documents/Claude/Projects/KaoNow/content/sql/layer4_seed.sql | pbcopy
+# 然後到 Supabase Dashboard → SQL Editor → 貼上 → Run
+```
+
+**Mac 本機 OCR osh-c**（掃描版 PDF）：
+```bash
+brew install ocrmypdf tesseract-lang
+cd ~/Documents/Claude/Projects/KaoNow
+ocrmypdf -l chi_tra \
+  content/sources/osh-c/questions/osh-c_q_ntpc_20260416.pdf \
+  content/sources/osh-c/questions/osh-c_q_ntpc_20260416_ocr.pdf
+pdftotext -layout \
+  content/sources/osh-c/questions/osh-c_q_ntpc_20260416_ocr.pdf \
+  content/extracted/osh-c/osh-c_q_ntpc_20260416.txt
+```
+
+**查某考試的類科結構**（v6 架構常用）：
 ```sql
 -- 看高考三級有哪些類科
 SELECT DISTINCT track_name FROM public.exam_subjects WHERE exam_id = 'gaokao-3';
