@@ -123,7 +123,7 @@ button[disabled]:hover,button:disabled:hover{transform:none;background:inherit}
 .feat p{font-size:13.5px;color:var(--text-secondary);line-height:1.6}
 
 /* PRICING */
-.pricing-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;align-items:start}
+.pricing-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:24px;align-items:start;max-width:680px;margin:0 auto}
 .price-card{background:var(--surface);padding:28px 24px;border-radius:var(--radius-lg);border:1.5px solid var(--border-light);transition:var(--transition);position:relative}
 .price-card.highlight{border-color:var(--accent);box-shadow:0 0 0 3px rgba(45,95,45,0.1)}
 .price-card:hover{transform:translateY(-2px);box-shadow:var(--shadow-lg)}
@@ -575,7 +575,7 @@ html{scroll-padding-top:calc(var(--header-h) + 16px)}
     </div>
 
     <div class="section">
-      <div class="section-head"><div class="section-label">PRICING</div><h2>選擇適合你的方案</h2><p>短期考生、長期備考都有對應選擇</p></div>
+      <div class="section-head"><div class="section-label">PRICING</div><h2>選擇適合你的方案</h2><p>免費就能開始刷題，升級 Pro 解鎖全部功能</p></div>
       <div class="pricing-grid">
         <div class="price-card">
           <div class="price-name">免費版</div>
@@ -586,40 +586,26 @@ html{scroll-padding-top:calc(var(--header-h) + 16px)}
             <li>每科每日 10 題免費練習</li>
             <li>基本章節練習與隨機測驗</li>
             <li>答題解析說明</li>
-            <li class="off">完整題庫（限制每日題數）</li>
-            <li class="off">模擬考（50 題完整版）</li>
-            <li class="off">AI 弱點分析報告</li>
+            <li class="off">完整題庫無限練習</li>
+            <li class="off">完整模擬考（80 題）</li>
+            <li class="off">AI 弱點分析 + 學習計畫</li>
           </ul>
           <button class="price-cta" onclick="nav('catalog')">免費開始練習</button>
         </div>
         <div class="price-card highlight">
-          <div class="price-badge">最多人選擇</div>
-          <div class="price-name">標準方案</div>
-          <div class="price-amount">NT$199 <span>/ 月</span></div>
-          <div class="price-period">或 NT$499 / 季（省 NT$98）</div>
+          <div class="price-badge">最划算</div>
+          <div class="price-name">Pro</div>
+          <div class="price-amount">NT$129 <span>/ 月</span></div>
+          <div class="price-period">或 NT$349 / 季（省 NT$38）</div>
           <div class="price-divider"></div>
           <ul class="price-features">
             <li>所有考試完整題庫無限練習</li>
             <li>無限制隨機測驗 + 章節練習</li>
-            <li>完整 50 題模擬考</li>
-            <li>詳細答題解析</li>
-            <li>學習進度紀錄</li>
-            <li class="off">AI 弱點分析 + 學習計畫</li>
-          </ul>
-          <button class="price-cta coming" disabled>即將上線</button>
-        </div>
-        <div class="price-card">
-          <div class="price-name">進階方案</div>
-          <div class="price-amount">NT$349 <span>/ 月</span></div>
-          <div class="price-period">或 NT$849 / 半年（省 NT$245）</div>
-          <div class="price-divider"></div>
-          <ul class="price-features">
-            <li>標準方案全部功能</li>
-            <li>AI 個人化弱點分析</li>
-            <li>客製化學習計畫</li>
-            <li>模擬考全國排名</li>
+            <li>完整 80 題模擬考</li>
+            <li>詳細答題解析 + AI 補充說明</li>
+            <li>AI 個人化弱點分析 + 學習計畫</li>
+            <li>學習進度紀錄 + 全國排名</li>
             <li>考前衝刺包（高頻考題）</li>
-            <li>優先新考科更新通知</li>
           </ul>
           <button class="price-cta coming" disabled>即將上線</button>
         </div>
