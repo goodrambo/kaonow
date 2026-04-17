@@ -501,6 +501,28 @@ html{scroll-padding-top:calc(var(--header-h) + 16px)}
 
 /* ── QUIZ MODE CARDS 美化 ── */
 .mode-card{min-height:92px;display:flex;flex-direction:column;gap:4px}
+
+/* ── PAYWALL MODAL ── */
+#kn-paywall-modal{position:fixed;inset:0;z-index:9999;display:flex;align-items:center;justify-content:center;padding:20px}
+#kn-paywall-modal .kn-paywall-backdrop{position:absolute;inset:0;background:rgba(0,0,0,0.55);backdrop-filter:blur(4px)}
+#kn-paywall-modal .kn-paywall-card{position:relative;background:#fff;border-radius:16px;max-width:580px;width:100%;padding:28px;box-shadow:0 20px 60px rgba(0,0,0,0.3)}
+#kn-paywall-modal .kn-paywall-title{font-size:22px;font-weight:700;color:var(--text-primary,#1a1a1a);margin-bottom:8px}
+#kn-paywall-modal .kn-paywall-sub{font-size:14px;color:var(--text-secondary,#555);margin-bottom:20px;line-height:1.5}
+#kn-paywall-modal .kn-paywall-plans{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:20px}
+@media (max-width:520px){#kn-paywall-modal .kn-paywall-plans{grid-template-columns:1fr}}
+#kn-paywall-modal .kn-paywall-plan{border:1px solid #e5e5e5;border-radius:12px;padding:16px;position:relative}
+#kn-paywall-modal .kn-pp-highlight{border-color:var(--color-accent,#2D5F2D);background:rgba(45,95,45,0.03)}
+#kn-paywall-modal .kn-pp-badge{position:absolute;top:-10px;right:12px;background:var(--color-accent,#2D5F2D);color:#fff;font-size:11px;padding:3px 10px;border-radius:12px}
+#kn-paywall-modal .kn-pp-head{font-size:14px;color:var(--text-secondary,#555);font-weight:600}
+#kn-paywall-modal .kn-pp-price{font-size:24px;font-weight:700;color:var(--text-primary,#1a1a1a);margin:4px 0}
+#kn-paywall-modal .kn-pp-price small{font-size:12px;color:var(--text-tertiary,#999);font-weight:400}
+#kn-paywall-modal .kn-pp-sub{font-size:12px;color:var(--text-secondary,#666);margin-bottom:12px}
+#kn-paywall-modal .kn-pp-alt{text-align:center;margin-top:8px;font-size:12px}
+#kn-paywall-modal .kn-pp-alt a{color:var(--color-accent,#2D5F2D);cursor:pointer;text-decoration:underline}
+#kn-paywall-modal button{width:100%;padding:10px;border:none;background:var(--color-accent,#2D5F2D);color:#fff;border-radius:8px;font-weight:600;cursor:pointer;font-size:14px}
+#kn-paywall-modal button:hover{opacity:0.9}
+#kn-paywall-modal .kn-paywall-close{text-align:center;font-size:13px;color:var(--text-tertiary,#999);cursor:pointer;padding:8px}
+#kn-paywall-modal .kn-paywall-close:hover{color:var(--text-secondary)}
 </style>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
 <meta name="supabase-url" content="https://myvfboezhnzgovowhaff.supabase.co">
@@ -621,7 +643,7 @@ html{scroll-padding-top:calc(var(--header-h) + 16px)}
             <li class="off">僅限技術士證照及金融證照類考試</li>
             <li class="off">不含考前衝刺包</li>
           </ul>
-          <button class="price-cta coming" disabled>即將上線</button>
+          <button class="price-cta" onclick="billing.openPaywallModal()">選購單科</button>
           <div style="text-align:center;margin-top:10px;font-size:11px;color:var(--text-tertiary)">可隨時升級為完整方案</div>
         </div>
         <div class="price-card highlight">
@@ -639,7 +661,8 @@ html{scroll-padding-top:calc(var(--header-h) + 16px)}
             <li>學習進度報告 + 全國排名</li>
             <li>考前衝刺包（高頻考題）</li>
           </ul>
-          <button class="price-cta coming" disabled>即將上線</button>
+          <button class="price-cta" onclick="billing.startCheckout('pro_monthly')">升級完整方案</button>
+          <div style="text-align:center;margin-top:10px;font-size:11px;color:var(--text-tertiary)"><a style="color:var(--color-accent);cursor:pointer" onclick="billing.startCheckout('pro_quarterly')">季繳 NT$599（省 20%）</a></div>
         </div>
       </div>
     </div>
@@ -1344,12 +1367,203 @@ const cloud = (() => {
 })();
 
 
+// ───── billing module (tier gate + ECPay checkout) ─────
+const billing = (() => {
+  const FREE_DAILY_LIMIT = 10;
+  const LS_DAILY_KEY = 'kaonow_daily_count';
+  const LS_TIER_KEY  = 'kaonow_user_tier';
+  const CHECKOUT_ENDPOINT = SUPA_URL + '/functions/v1/checkout-ecpay';
+
+  function today() {
+    const d = new Date();
+    return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+  }
+  function getDailyCount() {
+    try {
+      const raw = JSON.parse(localStorage.getItem(LS_DAILY_KEY) || '{}');
+      if (raw.date !== today()) return 0;
+      return raw.count || 0;
+    } catch(e) { return 0; }
+  }
+  function bumpDailyCount(n = 1) {
+    const c = getDailyCount();
+    localStorage.setItem(LS_DAILY_KEY, JSON.stringify({ date: today(), count: c + n }));
+    return c + n;
+  }
+
+  async function refreshTier() {
+    if (!currentUser) {
+      localStorage.removeItem(LS_TIER_KEY);
+      return { tier: 'free' };
+    }
+    try {
+      const { data: prof } = await supa.from('profiles')
+        .select('current_tier, current_subscription_id')
+        .eq('id', currentUser.id).maybeSingle();
+      const tier = prof?.current_tier || 'free';
+      let unlocked_exams = [];
+      let current_period_end = null;
+      if (prof?.current_subscription_id) {
+        const { data: sub } = await supa.from('subscriptions')
+          .select('tier, current_period_end, meta, status')
+          .eq('id', prof.current_subscription_id).maybeSingle();
+        if (sub && sub.status === 'active') {
+          current_period_end = sub.current_period_end;
+          unlocked_exams = sub.meta?.unlocked_exams || [];
+        }
+      }
+      const state = { tier, current_period_end, unlocked_exams, fetched_at: Date.now() };
+      localStorage.setItem(LS_TIER_KEY, JSON.stringify(state));
+      return state;
+    } catch(e) {
+      console.warn('[billing] refreshTier failed', e);
+      return { tier: 'free' };
+    }
+  }
+
+  function getTier() {
+    try {
+      const raw = JSON.parse(localStorage.getItem(LS_TIER_KEY) || '{}');
+      if (raw.current_period_end && new Date(raw.current_period_end) < new Date()) {
+        return { tier: 'free' };
+      }
+      return raw;
+    } catch(e) { return { tier: 'free' }; }
+  }
+
+  function canStartQuiz(examId) {
+    const s = getTier();
+    if (s.tier === 'pro') return { ok: true };
+    if (s.tier === 'standard' && (s.unlocked_exams || []).includes(examId)) {
+      return { ok: true };
+    }
+    const used = getDailyCount();
+    if (used >= FREE_DAILY_LIMIT) {
+      return { ok: false, reason: 'daily_limit_reached', used, limit: FREE_DAILY_LIMIT };
+    }
+    return { ok: true, remaining: FREE_DAILY_LIMIT - used };
+  }
+
+  async function startCheckout(planCode, examId = null) {
+    if (!currentUser) {
+      showToast('請先登入才能購買');
+      if (typeof openLoginModal === 'function') openLoginModal();
+      return;
+    }
+    const { data: sess } = await supa.auth.getSession();
+    const token = sess?.session?.access_token;
+    if (!token) { showToast('登入狀態異常，請重新登入'); return; }
+
+    showToast('轉至綠界支付中...');
+    try {
+      const res = await fetch(CHECKOUT_ENDPOINT, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${token}`,
+        },
+        body: JSON.stringify({ plan_code: planCode, exam_id: examId }),
+      });
+      const body = await res.json();
+      if (!res.ok) {
+        showToast('Checkout 失敗：' + (body.error || res.status));
+        return;
+      }
+      document.open();
+      document.write(body.form_html);
+      document.close();
+    } catch(e) {
+      console.error(e);
+      showToast('Checkout 錯誤：' + e.message);
+    }
+  }
+
+  async function handlePaymentReturn() {
+    const url = new URL(location.href);
+    if (url.searchParams.get('payment') !== 'return') return;
+    const tradeNo = url.searchParams.get('no');
+    showToast('確認付款狀態中...');
+    let attempts = 0;
+    const poll = setInterval(async () => {
+      attempts++;
+      const { data: pay } = await supa.from('payment_transactions')
+        .select('status').eq('gateway_order_id', tradeNo).maybeSingle();
+      if (pay?.status === 'succeeded') {
+        clearInterval(poll);
+        await refreshTier();
+        showToast('付款成功！已解鎖對應內容');
+        url.searchParams.delete('payment'); url.searchParams.delete('no');
+        history.replaceState({}, '', url);
+        if (typeof nav === 'function') nav('home');
+      } else if (pay?.status === 'failed') {
+        clearInterval(poll);
+        showToast('付款未完成或失敗，請再試一次');
+        url.searchParams.delete('payment'); url.searchParams.delete('no');
+        history.replaceState({}, '', url);
+      } else if (attempts > 6) {
+        clearInterval(poll);
+        showToast('付款結果尚未同步，請過幾分鐘重新整理');
+        url.searchParams.delete('payment'); url.searchParams.delete('no');
+        history.replaceState({}, '', url);
+      }
+    }, 1500);
+  }
+
+  function openPaywallModal(opts = {}) {
+    const examId = opts.examId || null;
+    const existing = document.getElementById('kn-paywall-modal');
+    if (existing) existing.remove();
+    const modal = document.createElement('div');
+    modal.id = 'kn-paywall-modal';
+    modal.innerHTML = `
+      <div class="kn-paywall-backdrop" onclick="document.getElementById('kn-paywall-modal').remove()"></div>
+      <div class="kn-paywall-card">
+        <div class="kn-paywall-title">今日免費配額已用完</div>
+        <div class="kn-paywall-sub">免費版每日 10 題。升級即可整天無限練習，加速通過考試。</div>
+        <div class="kn-paywall-plans">
+          <div class="kn-paywall-plan">
+            <div class="kn-pp-head">單科方案</div>
+            <div class="kn-pp-price">NT$99 <small>/月</small></div>
+            <div class="kn-pp-sub">選 1 科目 30 天無限練習</div>
+            <button onclick="billing.startCheckout('standard_monthly', '${examId || ''}')">立即購買</button>
+            <div class="kn-pp-alt"><a onclick="billing.startCheckout('standard_quarterly', '${examId || ''}')">季繳 NT$249（省 16%）</a></div>
+          </div>
+          <div class="kn-paywall-plan kn-pp-highlight">
+            <div class="kn-pp-badge">最多功能</div>
+            <div class="kn-pp-head">完整方案</div>
+            <div class="kn-pp-price">NT$249 <small>/月</small></div>
+            <div class="kn-pp-sub">全部考試 30 天無限練習</div>
+            <button onclick="billing.startCheckout('pro_monthly')">立即購買</button>
+            <div class="kn-pp-alt"><a onclick="billing.startCheckout('pro_quarterly')">季繳 NT$599（省 20%）</a></div>
+          </div>
+        </div>
+        <div class="kn-paywall-close" onclick="document.getElementById('kn-paywall-modal').remove()">之後再說</div>
+      </div>
+    `;
+    document.body.appendChild(modal);
+  }
+
+  async function init() {
+    await refreshTier();
+    handlePaymentReturn();
+  }
+
+  return {
+    canStartQuiz, bumpDailyCount, getDailyCount, getTier,
+    refreshTier, startCheckout, openPaywallModal, init,
+    FREE_DAILY_LIMIT,
+  };
+})();
+window.billing = billing;
+
+
 supa.auth.onAuthStateChange(async (event, session) => {
   currentUser = session?.user ?? null;
   if (document.readyState !== 'loading') updateAuthUI();
   if (event === 'SIGNED_IN') {
     showToast('登入成功，正在同步紀錄...');
     await cloud.init();
+    if (typeof billing !== 'undefined') await billing.refreshTier();
     if (typeof syncCloudBookmarks === 'function') await syncCloudBookmarks();
     // 登入後重繪目前頁，收藏狀態才會更新
     if (typeof router === 'function') {
@@ -1529,6 +1743,8 @@ function bootAuth() {
 }
 function bootApp() {
   bootAuth();
+  // 啟動 billing：refresh tier 狀態 + 檢查是否從綠界跳回
+  try { billing.init(); } catch(e) { console.warn('[billing init fail]', e); }
   // 延後一拍：等 DOM / router 啟動後，再檢查是否有未完成的模擬考
   setTimeout(() => { try { checkResumeQuiz(); } catch(e) { console.warn('[resume check fail]', e); } }, 400);
 }
@@ -3016,6 +3232,15 @@ function renderSubjectBankPane(subj, questions, chapters) {
 function shuffle(arr){const a=[...arr];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
 async function startQuiz(mode){
   const examObj = exams.find(e => e.id === state.currentExamId);
+  // ── tier gate：檢查每日免費配額 / 訂閱 ──
+  const gate = billing.canStartQuiz(state.currentExamId);
+  if (!gate.ok && gate.reason === 'daily_limit_reached') {
+    billing.openPaywallModal({ examId: state.currentExamId });
+    return;
+  }
+  if (gate.remaining && gate.remaining <= 3) {
+    showToast(`今日剩 ${gate.remaining} 題免費額度`);
+  }
   state.mode = mode;
   state.quizScope = { kind:'exam', id: state.currentExamId };
   showToast('載入題目中...');
@@ -3067,6 +3292,15 @@ async function startQuiz(mode){
   initQuiz(pool);
 }
 async function startChapter(ch){
+  // ── tier gate ──
+  const gate = billing.canStartQuiz(state.currentExamId);
+  if (!gate.ok && gate.reason === 'daily_limit_reached') {
+    billing.openPaywallModal({ examId: state.currentExamId });
+    return;
+  }
+  if (gate.remaining && gate.remaining <= 3) {
+    showToast(`今日剩 ${gate.remaining} 題免費額度`);
+  }
   showToast('載入題目中...');
   const bank = await cloud.loadQuestions(state.currentExamId);
   if(!bank){showToast('題庫載入失敗，請稍後再試');return;}
@@ -3081,6 +3315,15 @@ async function startChapter(ch){
 async function startSubjectQuiz(mode) {
   const subjectId = state.currentSubjectId;
   if (!subjectId) return;
+  // ── tier gate：subject 作用域仍看 exam 層級的配額 ──
+  const gate = billing.canStartQuiz(state.currentExamId);
+  if (!gate.ok && gate.reason === 'daily_limit_reached') {
+    billing.openPaywallModal({ examId: state.currentExamId });
+    return;
+  }
+  if (gate.remaining && gate.remaining <= 3) {
+    showToast(`今日剩 ${gate.remaining} 題免費額度`);
+  }
   state.mode = mode;
   state.quizScope = { kind:'subject', id: subjectId };
   showToast('載入題目中...');
@@ -3327,10 +3570,23 @@ function renderQuestion(){
 function selectAnswer(oi){
   if (state.quizFrozen) return;  // 時間到 / 凍結期間不接受新作答
   const q=state.questions[state.currentIdx];const correct=oi===q.ans;
+  // 避免同一題重複 bump：只有第一次選答時才計算
+  const firstTime = !state.answers[state.currentIdx];
   state.answers[state.currentIdx]={selected:oi,correct};
   state.totalDone++;
   if(correct){state.totalCorrect++;state.streak++;if(state.streak>state.maxStreak)state.maxStreak=state.streak;}
   else state.streak=0;
+  // bump 每日配額（只對 free / standard-未解鎖本科 的用戶生效；pro/standard-已解鎖 也計但無上限）
+  if (firstTime) {
+    try {
+      const tier = billing.getTier();
+      const examId = state.currentExamId;
+      const unlockedThis = (tier.unlocked_exams || []).includes(examId);
+      if (!(tier.tier === 'pro' || (tier.tier === 'standard' && unlockedThis))) {
+        billing.bumpDailyCount(1);
+      }
+    } catch(e) { /* billing not ready, skip */ }
+  }
   saveState();renderQuestion();saveQuizSnapshot();
 }
 function nextQuestion(){if(state.currentIdx<state.questions.length-1){state.currentIdx++;renderQuestion();window.scrollTo(0,0);saveQuizSnapshot();}}
