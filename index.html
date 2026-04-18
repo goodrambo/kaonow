@@ -259,11 +259,21 @@ html{scroll-padding-top:calc(var(--header-h) + 16px)}
 .cat-card.feature .cat-chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px;margin-bottom:4px}
 .cat-card.feature .cat-chips span{padding:3px 10px;font-size:11px;font-weight:500;color:var(--feat-text, #333);background:rgba(255,255,255,0.7);border:1px solid rgba(0,0,0,0.06);border-radius:999px}
 .cat-card.feature .badge-hot{position:absolute;top:14px;right:16px;padding:3px 10px;font-size:10px;font-weight:700;letter-spacing:0.5px;background:var(--feat-accent, #333);color:#fff;border-radius:999px;white-space:nowrap;z-index:1}
+/* Breadcrumb for filtered/search views (replaces giant chip bar) */
+.catalog-crumb{display:flex;align-items:center;gap:12px;padding:12px 16px;background:var(--surface);border:1px solid var(--border-light);border-radius:var(--radius);margin-bottom:16px;flex-wrap:wrap}
+.catalog-crumb .back{color:var(--accent);font-weight:600;cursor:pointer;font-size:14px;padding:6px 12px;border-radius:8px;background:transparent;border:none;font-family:inherit;transition:.15s}
+.catalog-crumb .back:hover{background:var(--accent-light)}
+.catalog-crumb .sep{color:var(--text-tertiary);font-size:14px}
+.catalog-crumb .title{font-weight:700;font-size:15px;color:var(--text)}
+.catalog-crumb .count{color:var(--text-tertiary);font-size:13px;margin-left:auto}
+/* Match hot-grid's 4-col layout on catalog page only (preserves .exam-grid default elsewhere) */
+#catalog-grid{grid-template-columns:repeat(4,1fr);gap:14px}
 @media (max-width:900px){
   .hero-wrap{grid-template-columns:1fr}
   .hot-grid{grid-template-columns:repeat(2,1fr)}
   .cat-grid{grid-template-columns:repeat(2,1fr)}
   .cat-card.feature{grid-column:span 2}
+  #catalog-grid{grid-template-columns:repeat(2,1fr)}
 }
 
 /* EXAM DETAIL */
@@ -2902,22 +2912,11 @@ function renderCatalog(){
   if (inp && inp.value !== (state.catalogSearch || '')) inp.value = state.catalogSearch || '';
   document.getElementById('catalog-search-clear').classList.toggle('show', !!state.catalogSearch);
 
-  // 主分類 chips（加一個「⭐ 我的收藏」虛擬分類）
-  const f=document.getElementById('catalog-filter');
-  f.innerHTML='';
+  // bookmarkSet 下方都會用到（landing 的 tile、filtered 的清單）
   const bookmarkSet = getBookmarkSet();
-  const bookmarkChip = document.createElement('button');
-  bookmarkChip.className='filter-chip'+(state.catalogFilter==='__bookmark'?' active':'');
-  bookmarkChip.innerHTML = `⭐ 我的收藏${bookmarkSet.size?` · ${bookmarkSet.size}`:''}`;
-  bookmarkChip.onclick = () => { state.catalogFilter='__bookmark'; state.catalogSubFilter=null; state.catalogSearch=''; renderCatalog(); };
-  f.appendChild(bookmarkChip);
-  examCategories.forEach(cat=>{
-    const chip=document.createElement('button');
-    chip.className='filter-chip'+(state.catalogFilter===cat.id?' active':'');
-    chip.textContent=cat.icon+' '+cat.name;
-    chip.onclick=()=>{state.catalogFilter=cat.id;state.catalogSubFilter=null;state.catalogSearch='';renderCatalog()};
-    f.appendChild(chip);
-  });
+  // 主分類大 chip bar 已被 bento 取代，永遠隱藏
+  const f=document.getElementById('catalog-filter');
+  if (f) { f.innerHTML=''; f.style.display='none'; }
 
   // 子分類 chips：只有選了有子類的主分類時顯示
   const sf = document.getElementById('catalog-subfilter');
@@ -2966,9 +2965,6 @@ function renderCatalog(){
   const sections = document.getElementById('catalog-sections');
   sections.innerHTML = '';
   const isLanding = state.catalogFilter === 'all' && !state.catalogSearch;
-  // Landing 時隱藏 filter chips（bento 就是分類選擇器）
-  const filterBar = document.getElementById('catalog-filter');
-  if (filterBar) filterBar.style.display = isLanding ? 'none' : '';
 
   if (isLanding) {
     // ── Hero tiles：繼續上次 / 收藏 / 最近瀏覽 ──
@@ -3101,6 +3097,36 @@ function renderCatalog(){
     });
     return; // landing 完成
   }
+
+  // ── 非 landing：breadcrumb（取代大 chip bar）──
+  let crumbTitle = '', crumbCount = '';
+  if (state.catalogSearch) {
+    crumbTitle = `🔍 「${state.catalogSearch}」的搜尋結果`;
+    crumbCount = `${list.length} 個結果`;
+  } else if (state.catalogFilter === '__bookmark') {
+    crumbTitle = '⭐ 我的收藏';
+    crumbCount = `${list.length} 個考試`;
+  } else {
+    const cat = examCategories.find(c => c.id === state.catalogFilter);
+    crumbTitle = cat ? `${cat.icon} ${cat.name}` : '考試列表';
+    crumbCount = `${list.length} 個考試`;
+  }
+  sections.innerHTML = `<div class="catalog-crumb">
+    <button class="back" id="catalog-crumb-back">← 所有類別</button>
+    <span class="sep">·</span>
+    <span class="title">${crumbTitle}</span>
+    <span class="count">${crumbCount}</span>
+  </div>`;
+  const backBtn = document.getElementById('catalog-crumb-back');
+  if (backBtn) backBtn.onclick = () => {
+    state.catalogFilter = 'all';
+    state.catalogSubFilter = null;
+    state.catalogSearch = '';
+    const inp2 = document.getElementById('catalog-search-input');
+    if (inp2) inp2.value = '';
+    renderCatalog();
+    window.scrollTo({top:0, behavior:'smooth'});
+  };
 
   // ── 主清單 ──
   const grid = document.getElementById('catalog-grid');
