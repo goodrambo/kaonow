@@ -226,6 +226,46 @@ html{scroll-padding-top:calc(var(--header-h) + 16px)}
 .subj-badge.common{background:#E8F1EB;color:#1B7A3D}
 .subj-badge.pro{background:#FFF4E5;color:#B36B00}
 
+/* Catalog landing (C1 discovery-first) */
+.hero-wrap{display:grid;grid-template-columns:2fr 1fr 1fr;gap:14px;margin-bottom:24px}
+.hero-wrap .tile{background:var(--surface);border:1px solid var(--border-light);border-radius:var(--radius-lg);padding:20px;display:flex;flex-direction:column;gap:6px;cursor:pointer;transition:var(--transition);min-height:112px}
+.hero-wrap .tile:hover{transform:translateY(-2px);box-shadow:var(--shadow-lg)}
+.hero-wrap .tile h3{margin:0;font-size:12px;font-weight:600;color:var(--text-tertiary);text-transform:uppercase;letter-spacing:0.5px}
+.hero-wrap .tile .big{font-size:17px;font-weight:700;line-height:1.3}
+.hero-wrap .tile .sub{font-size:13px;color:var(--text-secondary);margin-top:auto}
+.hero-wrap .tile.resume{background:linear-gradient(135deg,#E8F0E8,#F3F9F3);border-color:#C9DFC9}
+.hero-wrap .tile.resume .big{color:var(--accent-dark)}
+.hero-wrap .tile.bookmarks{background:#FFF8E1;border-color:#F5E1A8}
+.hero-wrap .tile.bookmarks .big{color:#7a5a14}
+/* Hot grid: fixed 4-col, no scroll */
+.hot-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+/* Category bento */
+.cat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.cat-card{background:var(--surface);border:1.5px solid var(--border-light);border-radius:var(--radius-lg);padding:20px;cursor:pointer;transition:.2s;display:flex;flex-direction:column;gap:8px;min-height:150px;position:relative;overflow:hidden}
+.cat-card:hover{transform:translateY(-2px);box-shadow:var(--shadow-lg);border-color:var(--accent-light)}
+.cat-card .cat-icon{font-size:26px;line-height:1}
+.cat-card .cat-name{font-size:16px;font-weight:700;letter-spacing:-0.2px}
+.cat-card .cat-desc{font-size:12px;color:var(--text-secondary);line-height:1.5;flex:1;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.cat-card .cat-foot{font-size:12px;color:var(--accent);font-weight:600;margin-top:auto;display:flex;align-items:center;gap:6px}
+.cat-card .cat-foot .dot{width:4px;height:4px;border-radius:50%;background:var(--accent)}
+/* Feature card (spans 2 cols, palette via CSS vars) */
+.cat-card.feature{grid-column:span 2;min-height:180px;padding:24px 26px;background:linear-gradient(135deg, var(--feat-bg-1, #F5F1EB) 0%, var(--feat-bg-2, #EDE4D5) 100%);border-color:var(--feat-border, #D9CFBF)}
+.cat-card.feature::before{content:"";position:absolute;top:-60px;right:-60px;width:200px;height:200px;background:radial-gradient(circle, var(--feat-glow, rgba(0,0,0,0.08)), transparent 60%);pointer-events:none}
+.cat-card.feature .cat-icon{font-size:34px}
+.cat-card.feature .cat-name{font-size:19px;color:var(--feat-text, #333)}
+.cat-card.feature .cat-desc{color:var(--feat-desc, #555);-webkit-line-clamp:2;margin-bottom:4px}
+.cat-card.feature .cat-foot{color:var(--feat-accent, #333)}
+.cat-card.feature .cat-foot .dot{background:var(--feat-accent, #333)}
+.cat-card.feature .cat-chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px;margin-bottom:4px}
+.cat-card.feature .cat-chips span{padding:3px 10px;font-size:11px;font-weight:500;color:var(--feat-text, #333);background:rgba(255,255,255,0.7);border:1px solid rgba(0,0,0,0.06);border-radius:999px}
+.cat-card.feature .badge-hot{position:absolute;top:14px;right:16px;padding:3px 10px;font-size:10px;font-weight:700;letter-spacing:0.5px;background:var(--feat-accent, #333);color:#fff;border-radius:999px;white-space:nowrap;z-index:1}
+@media (max-width:900px){
+  .hero-wrap{grid-template-columns:1fr}
+  .hot-grid{grid-template-columns:repeat(2,1fr)}
+  .cat-grid{grid-template-columns:repeat(2,1fr)}
+  .cat-card.feature{grid-column:span 2}
+}
+
 /* EXAM DETAIL */
 .breadcrumb{display:flex;gap:6px;font-size:13px;color:var(--text-tertiary);padding:20px 0 8px;align-items:center;flex-wrap:wrap}
 .breadcrumb a{color:var(--text-secondary);transition:var(--transition)}
@@ -802,7 +842,7 @@ html:not(.auth-ready) [data-when]{display:none}
 <!-- CATALOG -->
 <section id="screen-catalog" class="screen">
   <div class="container">
-    <div class="page-head"><h1>考試目錄</h1><p>選擇你要準備的考試</p></div>
+    <div class="page-head"><h1>考試專區</h1><p>選擇你要準備的考試</p></div>
     <div class="catalog-search">
       <input type="search" id="catalog-search-input" placeholder="🔍 搜尋考試（名稱、英文縮寫、發證單位…）" autocomplete="off" oninput="onCatalogSearch(event)" />
       <button class="catalog-search-clear" id="catalog-search-clear" type="button" onclick="clearCatalogSearch()" aria-label="清除搜尋">×</button>
@@ -2816,6 +2856,46 @@ function clearCatalogSearch() {
   renderCatalog();
 }
 
+// ── C1 bento landing: category preview chips + palette + feature picker ──
+const CAT_PREVIEW = {
+  'tech-cert': ['室內配線','中餐烹調','電腦軟體應用','汽車修護','冷凍空調','烘焙食品'],
+  'prof-exam': ['甲種職安衛','護理師','律師','會計師','建築師','醫師'],
+  'civil':     ['高考三級','普考','初考','警察特考','司法特考','鐵路特考'],
+  'language':  ['TOEIC 多益','全民英檢','IELTS 雅思','TOEFL 托福','JLPT 日語','TOPIK 韓語'],
+  'academic':  ['學測','分科測驗','統測','國中會考'],
+  'finance':   ['證券業務員','信託業務員','期貨業務員','CFP 理財顧問','保險業務員'],
+  'it-cert':   ['AWS SAA','Azure Admin','Cisco CCNA','PMP','CompTIA','GCP'],
+};
+const CAT_PALETTE = {
+  'tech-cert':{bg1:'#FFF8F0',bg2:'#FFEBD8',border:'#F5D5B0',text:'#7A3500',desc:'#9C5C20',accent:'#BF5300',glow:'rgba(191,83,0,0.12)'},
+  'prof-exam':{bg1:'#F2F7F2',bg2:'#DDEBDD',border:'#B8D5B8',text:'#1F4820',desc:'#446944',accent:'#2D5F2D',glow:'rgba(45,95,45,0.14)'},
+  'civil':    {bg1:'#F6F3FB',bg2:'#E5DDF3',border:'#C9BBDE',text:'#3B1A7A',desc:'#5B3FA0',accent:'#5B21B6',glow:'rgba(91,33,182,0.12)'},
+  'language': {bg1:'#F0F7FD',bg2:'#D7E9F7',border:'#ABC8E6',text:'#0D3A66',desc:'#2F5E8F',accent:'#1565C0',glow:'rgba(21,101,192,0.12)'},
+  'academic': {bg1:'#F2F8F2',bg2:'#DBEBDB',border:'#B3D4B3',text:'#0F3F10',desc:'#356236',accent:'#1B5E20',glow:'rgba(27,94,32,0.14)'},
+  'finance':  {bg1:'#FFFBED',bg2:'#FCEFC4',border:'#E8D89B',text:'#6E4A0B',desc:'#8B6914',accent:'#B45309',glow:'rgba(180,83,9,0.12)'},
+  'it-cert':  {bg1:'#F7F0FD',bg2:'#E8D7F7',border:'#CBAEE6',text:'#4A1080',desc:'#7235A8',accent:'#6B21A8',glow:'rgba(107,33,168,0.12)'},
+};
+// 動態挑 feature card 類別。優先序：收藏最多 > 最近瀏覽最多 > 預設
+function pickFeatureCategory(bookmarkSet) {
+  const tally = (ids) => {
+    const c = {};
+    ids.forEach(id => { const e = exams.find(x => x.id === id); if (e) c[e.categoryId] = (c[e.categoryId]||0) + 1; });
+    const top = Object.entries(c).sort((a,b) => b[1]-a[1])[0];
+    return top ? { catId: top[0], count: top[1] } : null;
+  };
+  const bmIds = bookmarkSet ? [...bookmarkSet] : [];
+  if (bmIds.length >= 2) {
+    const t = tally(bmIds);
+    if (t && t.count >= 2) return { catId: t.catId, badge:'⭐ 你收藏最多', reason:`你在此類收藏了 ${t.count} 個考試` };
+  }
+  const recent = state.recentViewed || [];
+  if (recent.length >= 2) {
+    const t = tally(recent);
+    if (t && t.count >= 2) return { catId: t.catId, badge:'📍 你最近在看', reason:'根據你最近的瀏覽紀錄' };
+  }
+  return { catId: 'prof-exam', badge:'🔥 最熱門', reason:'台灣人最多在準備的類別' };
+}
+
 function renderCatalog(){
   // 同步搜尋框顯示
   const inp = document.getElementById('catalog-search-input');
@@ -2882,32 +2962,144 @@ function renderCatalog(){
       .map(x => x.e);
   }
 
-  // ── 頂端 sections（只在 all + 無搜尋 時顯示）──
+  // ── 頂端 sections ──
   const sections = document.getElementById('catalog-sections');
   sections.innerHTML = '';
-  if (state.catalogFilter === 'all' && !state.catalogSearch) {
-    // 🔥 熱門考試（hardcoded：台灣最多人考的前 6 個）
+  const isLanding = state.catalogFilter === 'all' && !state.catalogSearch;
+  // Landing 時隱藏 filter chips（bento 就是分類選擇器）
+  const filterBar = document.getElementById('catalog-filter');
+  if (filterBar) filterBar.style.display = isLanding ? 'none' : '';
+
+  if (isLanding) {
+    // ── Hero tiles：繼續上次 / 收藏 / 最近瀏覽 ──
+    let lastExam = null;
+    try {
+      const raw = localStorage.getItem(LAST_EXAM_KEY);
+      if (raw) { const { examId } = JSON.parse(raw); lastExam = exams.find(e => e.id === examId) || null; }
+    } catch(e) {}
+    const bmArr = [...bookmarkSet];
+    const bmNames = bmArr.map(id => exams.find(e => e.id === id)).filter(Boolean).slice(0,3)
+      .map(e => (e.short || e.name || '').replace(/業務主管$/,'')).join('、');
+    const recentArr = (state.recentViewed || []).filter(id => exams.find(e => e.id === id)).slice(0,3);
+    const recentNames = recentArr.map(id => exams.find(e => e.id === id)).map(e => e.short || e.name).join('、');
+
+    const resumeTile = lastExam
+      ? `<div class="tile resume" data-nav="exam/${lastExam.id}">
+           <h3>🕑 繼續上次</h3>
+           <div class="big">${lastExam.name}</div>
+           <div class="sub">點擊繼續練習 →</div>
+         </div>`
+      : `<div class="tile resume" data-scroll="hot">
+           <h3>🚀 開始準備</h3>
+           <div class="big">挑一個考試開始刷題</div>
+           <div class="sub">從下方熱門考試挑一個 →</div>
+         </div>`;
+    const bmTile = bmArr.length
+      ? `<div class="tile bookmarks" data-filter="__bookmark">
+           <h3>⭐ 我的收藏</h3>
+           <div class="big">${bmArr.length} 個考試</div>
+           <div class="sub">${bmNames}${bmArr.length>3?'…':''}</div>
+         </div>`
+      : `<div class="tile">
+           <h3>⭐ 我的收藏</h3>
+           <div class="big">—</div>
+           <div class="sub">點卡片右上角 ★ 加入收藏</div>
+         </div>`;
+    const recentTile = recentArr.length
+      ? `<div class="tile">
+           <h3>📍 最近瀏覽</h3>
+           <div class="big">${recentArr.length} 個考試</div>
+           <div class="sub">${recentNames}</div>
+         </div>`
+      : `<div class="tile">
+           <h3>📍 最近瀏覽</h3>
+           <div class="big">—</div>
+           <div class="sub">你的瀏覽紀錄會出現在這</div>
+         </div>`;
+    sections.innerHTML += `<div class="hero-wrap">${resumeTile}${bmTile}${recentTile}</div>`;
+
+    // ── 🔥 熱門考試：固定 4 欄 grid，不滑動 ──
     const hotIds = ['toeic','gept-int','osh-a','osh-b','gaokao-3','gsat'];
-    const hotExams = hotIds.map(id => exams.find(e => e.id===id)).filter(Boolean);
+    const hotExams = hotIds.map(id => exams.find(e => e.id===id)).filter(Boolean).slice(0,4);
     if (hotExams.length) {
-      sections.innerHTML += `<div class="catalog-section">
+      sections.innerHTML += `<div class="catalog-section" id="catalog-hot">
         <div class="catalog-section-head"><span class="bar"></span>🔥 熱門考試<span class="count">${hotExams.length} 個</span></div>
-        <div class="exam-grid">${hotExams.map(e => examCardHTML(e, bookmarkSet)).join('')}</div>
+        <div class="hot-grid">${hotExams.map(e => examCardHTML(e, bookmarkSet)).join('')}</div>
       </div>`;
     }
-    // 📍 最近瀏覽
-    const recentIds = (state.recentViewed || []).slice(0, 6);
-    const recentExams = recentIds.map(id => exams.find(e => e.id===id)).filter(Boolean);
-    if (recentExams.length) {
-      sections.innerHTML += `<div class="catalog-section">
-        <div class="catalog-section-head"><span class="bar"></span>📍 最近瀏覽<span class="count">${recentExams.length} 個</span></div>
-        <div class="exam-grid">${recentExams.map(e => examCardHTML(e, bookmarkSet)).join('')}</div>
+
+    // ── 瀏覽類別（bento + 動態 feature card）──
+    const feat = pickFeatureCategory(bookmarkSet);
+    const featCat = examCategories.find(c => c.id === feat.catId) || examCategories.find(c => c.id === 'prof-exam');
+    const otherCats = examCategories.filter(c => c.id !== 'all' && c.id !== featCat.id);
+    const p = CAT_PALETTE[featCat.id] || CAT_PALETTE['prof-exam'];
+    const featPalette = `--feat-bg-1:${p.bg1};--feat-bg-2:${p.bg2};--feat-border:${p.border};--feat-text:${p.text};--feat-desc:${p.desc};--feat-accent:${p.accent};--feat-glow:${p.glow}`;
+    const countFor = (cid) => exams.filter(e => e.categoryId === cid).length;
+    const catCards = [featCat, ...otherCats].map((c,i) => {
+      const count = countFor(c.id);
+      if (i === 0) {
+        const chips = (CAT_PREVIEW[c.id]||[]).slice(0,6).map(s => `<span>${s}</span>`).join('');
+        const extra = count > 6 ? `<span>+${count-6} 種</span>` : '';
+        return `<div class="cat-card feature" style="${featPalette}" data-cat-id="${c.id}">
+          <span class="badge-hot">${feat.badge}</span>
+          <div class="cat-icon">${c.icon}</div>
+          <div class="cat-name">${c.name}</div>
+          <div class="cat-desc">${c.desc||''}</div>
+          <div class="cat-chips">${chips}${extra}</div>
+          <div class="cat-foot"><span class="dot"></span>${count} 個考試 →</div>
+        </div>`;
+      }
+      return `<div class="cat-card" data-cat-id="${c.id}">
+        <div class="cat-icon">${c.icon}</div>
+        <div class="cat-name">${c.name}</div>
+        <div class="cat-desc">${c.desc||''}</div>
+        <div class="cat-foot"><span class="dot"></span>${count} 個考試 →</div>
       </div>`;
-    }
-    // 主清單的小標題
-    if (hotExams.length || recentExams.length) {
-      sections.innerHTML += `<div class="catalog-section-head" style="margin:8px 0 12px"><span class="bar"></span>所有考試<span class="count">${exams.length} 個</span></div>`;
-    }
+    }).join('');
+    sections.innerHTML += `<div class="catalog-section" style="margin-top:28px">
+      <div class="catalog-section-head"><span class="bar"></span>瀏覽類別<span class="count">共 ${exams.length} 個考試</span></div>
+      <div class="cat-grid">${catCards}</div>
+    </div>`;
+
+    // 主清單在 landing 不顯示
+    document.getElementById('catalog-grid').style.display = 'none';
+    document.getElementById('catalog-empty').style.display = 'none';
+
+    // 綁定互動
+    sections.querySelectorAll('.tile').forEach(tile => {
+      tile.onclick = () => {
+        if (tile.dataset.nav) { nav(tile.dataset.nav); return; }
+        if (tile.dataset.filter) {
+          state.catalogFilter = tile.dataset.filter;
+          state.catalogSubFilter = null; state.catalogSearch = '';
+          renderCatalog(); window.scrollTo({top:0,behavior:'smooth'});
+          return;
+        }
+        if (tile.dataset.scroll === 'hot') {
+          const el = document.getElementById('catalog-hot');
+          if (el) el.scrollIntoView({behavior:'smooth', block:'start'});
+        }
+      };
+    });
+    sections.querySelectorAll('.cat-card').forEach(card => {
+      card.onclick = () => {
+        state.catalogFilter = card.dataset.catId;
+        state.catalogSubFilter = null; state.catalogSearch = '';
+        renderCatalog(); window.scrollTo({top:0,behavior:'smooth'});
+      };
+    });
+    sections.querySelectorAll('.hot-grid .bookmark-btn').forEach(btn => {
+      btn.onclick = (ev) => { ev.stopPropagation(); toggleBookmark(btn.dataset.examId); };
+    });
+    sections.querySelectorAll('.hot-grid .exam-card').forEach(card => {
+      card.onclick = (ev) => {
+        if (ev.target.closest('.bookmark-btn')) return;
+        if (ev.target.closest('a')) return;
+        pushRecentViewed(card.dataset.examId);
+        nav('exam/' + card.dataset.examId);
+      };
+    });
+    return; // landing 完成
   }
 
   // ── 主清單 ──
@@ -3042,7 +3234,7 @@ async function renderExam(id){
   if(!exam){nav('catalog');return;}
   pushRecentViewed(id);
   const cat=examCategories.find(c=>c.id===exam.categoryId);
-  document.getElementById('exam-breadcrumb').innerHTML=`<a href="#/home">首頁</a><span> / </span><a href="#/catalog">考試目錄</a><span> / </span><span>${exam.name}</span>`;
+  document.getElementById('exam-breadcrumb').innerHTML=`<a href="#/home">首頁</a><span> / </span><a href="#/catalog">考試專區</a><span> / </span><span>${exam.name}</span>`;
   const totalQs = (exam.chapters||[]).reduce((s,c)=>s+(c.count||0),0) || (exam.totalQuestions||0);
   document.getElementById('exam-hero').innerHTML=`<span class="exam-category">${cat?cat.name:''}</span>
     <h1>${exam.name}</h1><div class="sub">${exam.desc}${exam.issuer?`<br><small style="color:var(--text-tertiary)">認證單位：${exam.issuer}</small>`:''}</div>
@@ -3378,7 +3570,7 @@ async function renderSubject(subjectId) {
   const hero = document.getElementById('subject-hero');
   const crumb = document.getElementById('subject-breadcrumb');
   hero.innerHTML = '<div style="padding:20px 0;color:var(--text-tertiary)">載入科目中…</div>';
-  crumb.innerHTML = `<a href="#/home">首頁</a><span> / </span><a href="#/catalog">考試目錄</a><span> / </span><span>載入中…</span>`;
+  crumb.innerHTML = `<a href="#/home">首頁</a><span> / </span><a href="#/catalog">考試專區</a><span> / </span><span>載入中…</span>`;
 
   // 並行拉 subject / questions / chapters / cross-exam
   const [subj, questions, chapters, crossExams] = await Promise.all([
@@ -3389,8 +3581,8 @@ async function renderSubject(subjectId) {
   ]);
 
   if (!subj) {
-    hero.innerHTML = `<h1>科目不存在</h1><div class="sub">找不到 ${subjectId}。<a href="#/catalog">返回考試目錄 →</a></div>`;
-    crumb.innerHTML = `<a href="#/home">首頁</a><span> / </span><a href="#/catalog">考試目錄</a>`;
+    hero.innerHTML = `<h1>科目不存在</h1><div class="sub">找不到 ${subjectId}。<a href="#/catalog">返回考試專區 →</a></div>`;
+    crumb.innerHTML = `<a href="#/home">首頁</a><span> / </span><a href="#/catalog">考試專區</a>`;
     return;
   }
 
@@ -3398,7 +3590,7 @@ async function renderSubject(subjectId) {
   const validFromExam = state.fromExamId && (crossExams || []).some(r => r.exam_id === state.fromExamId);
   if (!validFromExam) { state.fromExamId = null; state.fromTrack = null; }
   const fromExam = state.fromExamId ? exams.find(e => e.id === state.fromExamId) : null;
-  crumb.innerHTML = `<a href="#/home">首頁</a><span> / </span><a href="#/catalog">考試目錄</a>${
+  crumb.innerHTML = `<a href="#/home">首頁</a><span> / </span><a href="#/catalog">考試專區</a>${
     fromExam ? `<span> / </span><a href="#/exam/${fromExam.id}">${fromExam.name}</a>${state.fromTrack?`<span> / ${state.fromTrack}</span>`:''}` : ''
   }<span> / </span><span>${subj.name}</span>`;
 
