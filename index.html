@@ -1869,9 +1869,15 @@ function closeLoginModal(e) {
 }
 function toggleDropdown(force) {
   const d = document.getElementById('user-dropdown');
-  const isOpen = d.classList.contains('open');
-  d.classList.toggle('open', force !== undefined ? force : !isOpen);
-  if (!isOpen) {
+  const wasOpen = d.classList.contains('open');
+  const willBeOpen = force !== undefined ? !!force : !wasOpen;
+  d.classList.toggle('open', willBeOpen);
+  // Only register an outside-click closer when we actually transition closed → open.
+  // Previously `if (!isOpen)` used the pre-toggle state, so every call like
+  // toggleDropdown(false) on an already-closed dropdown queued an extra once-listener.
+  // Those stale listeners then ate the very next avatar click, making the menu
+  // appear "unresponsive" after a couple of open/close cycles.
+  if (willBeOpen && !wasOpen) {
     setTimeout(() => document.addEventListener('click', () => toggleDropdown(false), {once:true}), 0);
   }
 }
@@ -1920,23 +1926,25 @@ async function sendMagicLink() {
 // ── Sign out ─────────────────────────────────────────────────
 async function signOut() {
   toggleDropdown(false);
-  try {
-    await cloud.logout();
-  } catch (e) {
-    console.error('[signOut] cloud.logout failed:', e);
-    showToast('登出時發生錯誤：' + (e?.message || e));
-  }
-  // Force-clear auth state regardless of cloud.logout outcome
+  // Clear local auth state FIRST so the UI updates immediately — don't make the
+  // user wait on (or block on) cloud.logout, which can hang on flaky networks.
   currentUser = null;
-  try { localStorage.removeItem('sb-myvfboezhnzgovowhaff-auth-token'); } catch (e) {}
+  try {
+    Object.keys(localStorage).filter(k => k.startsWith('sb-')).forEach(k => localStorage.removeItem(k));
+  } catch (e) {}
   updateAuthUI();
   showToast('已登出');
-  // Redirect to home so user never lingers on a protected page after logout
   if (location.hash !== '#/home') {
     location.hash = '#/home';
-  } else {
-    // Already on home: force a re-render to refresh personalized blocks
-    if (typeof renderHome === 'function') renderHome();
+  } else if (typeof renderHome === 'function') {
+    renderHome();
+  }
+  // Fire cloud.logout in the background — any error here is informational, the
+  // local session is already gone. Don't await it on the UX-critical path.
+  try {
+    cloud.logout().catch(e => console.warn('[signOut] cloud.logout failed:', e));
+  } catch (e) {
+    console.warn('[signOut] cloud.logout threw sync:', e);
   }
 }
 
@@ -4115,65 +4123,72 @@ async function renderMe() {
     return;
   }
   document.getElementById('me-view-guest').style.display = 'none';
-
-  const firstName = getUserFirstName();
-  const target = loadTargetExam();
-
-  // ── 未設定目標考試：空狀態 ──
-  if (!target || !target.examId) {
-    document.getElementById('me-view-dashboard').style.display = 'none';
-    document.getElementById('me-view-empty').style.display = '';
-    const g = document.getElementById('me-greeting-empty');
-    if (g) g.textContent = firstName ? `嗨 ${firstName}` : '嗨';
-    // 第一次登入尚未關閉彈窗 → 自動彈出
-    try {
-      const dismissedKey = 'kaonow_welcome_dismissed';
-      if (!localStorage.getItem(dismissedKey)) {
-        openWelcomeModal(false);
-      }
-    } catch (e) {}
-    return;
-  }
-
-  // ── 有目標考試：完整 dashboard ──
+  // 永遠顯示 dashboard：就算沒設定目標考試，使用者也可以直接看進度 / 錯題 / 收藏。
+  // 只有登出時才退回 guest；設定目標考試改為 dashboard 內的可選 CTA。
   document.getElementById('me-view-empty').style.display = 'none';
   document.getElementById('me-view-dashboard').style.display = '';
 
-  const greeting = document.getElementById('me-greeting');
-  if (greeting) greeting.textContent = firstName ? `嗨 ${firstName}，今天繼續囉` : '嗨，今天繼續囉';
+  const firstName = getUserFirstName();
+  const target = loadTargetExam();
+  const hasTarget = !!(target && target.examId);
 
-  // Widget 1: 目標考試 header bar
-  const exam = exams.find(e => e.id === target.examId);
-  const examName = exam ? exam.name : target.examId;
-  const days = target.examDate ? daysBetween(target.examDate) : null;
+  const greeting = document.getElementById('me-greeting');
+  if (greeting) {
+    greeting.textContent = firstName
+      ? (hasTarget ? `嗨 ${firstName}，今天繼續囉` : `嗨 ${firstName}`)
+      : (hasTarget ? '嗨，今天繼續囉' : '嗨');
+  }
+
+  // Widget 1: 目標考試 header bar（或未設定時的 soft CTA）
+  const exam = hasTarget ? exams.find(e => e.id === target.examId) : null;
+  const examName = exam ? exam.name : (hasTarget ? target.examId : '');
+  const days = hasTarget && target.examDate ? daysBetween(target.examDate) : null;
   const bar = document.getElementById('me-target-bar');
-  bar.innerHTML = `
-    <div class="me-target-left">
-      <div class="me-target-icon">📋</div>
-      <div>
-        <div class="me-target-label">目標考試</div>
-        <div class="me-target-name">${examName}</div>
+  if (hasTarget) {
+    bar.innerHTML = `
+      <div class="me-target-left">
+        <div class="me-target-icon">📋</div>
+        <div>
+          <div class="me-target-label">目標考試</div>
+          <div class="me-target-name">${examName}</div>
+        </div>
       </div>
-    </div>
-    <div class="me-target-right">
-      ${target.examDate ? `
-        <div class="me-target-date">
-          <div class="me-target-label">考試日期</div>
-          <div style="font-size:13px;font-weight:500;color:var(--dash-ink-700)">${formatExamDate(target.examDate)}</div>
+      <div class="me-target-right">
+        ${target.examDate ? `
+          <div class="me-target-date">
+            <div class="me-target-label">考試日期</div>
+            <div style="font-size:13px;font-weight:500;color:var(--dash-ink-700)">${formatExamDate(target.examDate)}</div>
+          </div>
+          <div class="me-target-sep"></div>
+          <div class="me-target-days">
+            <div class="me-target-label">距離考試</div>
+            <div class="me-target-days-num">${days !== null && days >= 0 ? days : '—'}<small>天</small></div>
+          </div>
+        ` : `
+          <div class="me-target-date">
+            <div class="me-target-label">考試日期</div>
+            <a onclick="openWelcomeModal(true)" style="font-size:13px;color:var(--dash-brand-dark);cursor:pointer;text-decoration:underline">設定日期</a>
+          </div>
+        `}
+      </div>
+    `;
+  } else {
+    bar.innerHTML = `
+      <div class="me-target-left">
+        <div class="me-target-icon">🎯</div>
+        <div>
+          <div class="me-target-label">目標考試</div>
+          <div class="me-target-name" style="color:var(--dash-ink-500);font-weight:500">尚未設定</div>
         </div>
-        <div class="me-target-sep"></div>
-        <div class="me-target-days">
-          <div class="me-target-label">距離考試</div>
-          <div class="me-target-days-num">${days !== null && days >= 0 ? days : '—'}<small>天</small></div>
-        </div>
-      ` : `
-        <div class="me-target-date">
-          <div class="me-target-label">考試日期</div>
-          <a onclick="openWelcomeModal(true)" style="font-size:13px;color:var(--dash-brand-dark);cursor:pointer;text-decoration:underline">設定日期</a>
-        </div>
-      `}
-    </div>
-  `;
+      </div>
+      <div class="me-target-right">
+        <button onclick="openWelcomeModal(false)"
+          style="background:var(--dash-brand);color:#fff;border:0;border-radius:8px;padding:8px 14px;font-size:13px;font-weight:500;cursor:pointer">
+          設定目標考試
+        </button>
+      </div>
+    `;
+  }
 
   // Widget 2: 繼續上次練習
   try {
@@ -4184,7 +4199,9 @@ async function renderMe() {
       const lastExam = exams.find(e => e.id === last.examId);
       if (sub && lastExam) sub.textContent = `最近練習：${lastExam.name}`;
     } else if (sub) {
-      sub.textContent = `尚未開始練習，從 ${examName} 開始`;
+      sub.textContent = hasTarget
+        ? `尚未開始練習，從 ${examName} 開始`
+        : `從考試專區挑一科就能開始刷題`;
     }
   } catch (e) {}
 
@@ -4196,86 +4213,112 @@ async function renderMe() {
 
   try {
     const uid = currentUser.id;
+    // 有目標：只算該考試；無目標：聚合所有考試
+    const cpFilter = hasTarget ? `&exam_id=eq.${target.examId}` : '';
+    const epFilter = hasTarget ? `&exam_id=eq.${target.examId}` : '';
     const [cpR, epR] = await Promise.all([
-      fetch(`${SUPA_URL}/rest/v1/chapter_progress?user_id=eq.${uid}&exam_id=eq.${target.examId}&select=chapter_id,total_attempts,correct_attempts`,
+      fetch(`${SUPA_URL}/rest/v1/chapter_progress?user_id=eq.${uid}${cpFilter}&select=chapter_id,total_attempts,correct_attempts`,
         { headers: { apikey: SUPA_KEY, Authorization: 'Bearer ' + SUPA_KEY }}).then(r => r.json()).catch(() => []),
-      fetch(`${SUPA_URL}/rest/v1/exam_progress?user_id=eq.${uid}&exam_id=eq.${target.examId}&select=total_attempts,correct_attempts,last_practiced_at`,
+      fetch(`${SUPA_URL}/rest/v1/exam_progress?user_id=eq.${uid}${epFilter}&select=total_attempts,correct_attempts,last_practiced_at`,
         { headers: { apikey: SUPA_KEY, Authorization: 'Bearer ' + SUPA_KEY }}).then(r => r.json()).catch(() => [])
     ]);
     const cp = Array.isArray(cpR) ? cpR : [];
-    const ep = Array.isArray(epR) && epR.length ? epR[0] : null;
+    const epArr = Array.isArray(epR) ? epR : [];
+    const ep = hasTarget ? (epArr.length ? epArr[0] : null) : null;
+    // 無目標時：aggregate 所有 exam_progress 列
+    const totalAttempts = hasTarget
+      ? (ep?.total_attempts || 0)
+      : epArr.reduce((s, r) => s + (r.total_attempts || 0), 0);
+    const totalCorrect = hasTarget
+      ? (ep?.correct_attempts || 0)
+      : epArr.reduce((s, r) => s + (r.correct_attempts || 0), 0);
+    const lastPracticed = hasTarget
+      ? ep?.last_practiced_at
+      : epArr.map(r => r.last_practiced_at).filter(Boolean).sort().pop();
 
     // Widget 3: 總進度
-    // 用 exam_progress.total_attempts / 該考試題庫總題數
-    const examTotalQ = exam?.totalQuestions || exam?.question_count || null;
-    const doneCount = ep?.total_attempts || 0;
-    const pct = examTotalQ ? Math.min(100, Math.round(doneCount / examTotalQ * 100)) : null;
+    const examTotalQ = hasTarget ? (exam?.totalQuestions || exam?.question_count || null) : null;
+    const pct = examTotalQ ? Math.min(100, Math.round(totalAttempts / examTotalQ * 100)) : null;
     progressHost.innerHTML = `
       <div class="me-progress-top">
         <div>
-          <div class="me-eyebrow">總進度</div>
+          <div class="me-eyebrow">${hasTarget ? '總進度' : '累積練習'}</div>
           <div class="me-progress-nums">
-            <span class="big">${doneCount}</span>
+            <span class="big">${totalAttempts}</span>
             <span class="small">${examTotalQ ? '/ ' + examTotalQ + ' 題' : '題'}</span>
             ${pct !== null ? `<span class="me-chip">${pct}%</span>` : ''}
           </div>
         </div>
         <div class="me-progress-meta">
-          <div>累計答對 <b>${ep?.correct_attempts || 0}</b> 題</div>
-          ${ep?.last_practiced_at ? `<div style="margin-top:2px">最近練習：${new Date(ep.last_practiced_at).toLocaleDateString('zh-TW')}</div>` : ''}
+          <div>累計答對 <b>${totalCorrect}</b> 題</div>
+          ${lastPracticed ? `<div style="margin-top:2px">最近練習：${new Date(lastPracticed).toLocaleDateString('zh-TW')}</div>` : ''}
         </div>
       </div>
-      <div class="me-progress-track"><div class="me-progress-bar" style="width:${pct || 0}%"></div></div>
+      ${pct !== null ? `<div class="me-progress-track"><div class="me-progress-bar" style="width:${pct}%"></div></div>` : ''}
     `;
 
-    // Widget 4: 弱點章節 TOP 3
-    const weak = cp
-      .filter(r => (r.total_attempts || 0) >= 3)
-      .map(r => ({
-        id: r.chapter_id,
-        total: r.total_attempts,
-        correct: r.correct_attempts,
-        pct: Math.round((r.correct_attempts / r.total_attempts) * 100)
-      }))
-      .sort((a, b) => a.pct - b.pct)
-      .slice(0, 3);
-    if (!weak.length) {
+    // Widget 4: 弱點章節 TOP 3（只在有目標考試時有意義）
+    if (!hasTarget) {
       weakHost.innerHTML = `
         <div class="me-weak-head">
           <div>
             <div class="me-eyebrow">弱點章節</div>
-            <h3>還沒有足夠資料</h3>
+            <h3>設定目標考試後開啟</h3>
           </div>
         </div>
         <div style="font-size:13px;color:var(--dash-ink-500);line-height:1.6">
-          至少練過每章 3 題以後，這裡會顯示需要加強的章節。<br>
-          <a onclick="nav('exam/${target.examId}')" style="color:var(--dash-brand-dark);cursor:pointer;text-decoration:underline">前往練習 →</a>
+          針對單一考試累積 3 題以上後，這裡會列出需要加強的章節。<br>
+          <a onclick="openWelcomeModal(false)" style="color:var(--dash-brand-dark);cursor:pointer;text-decoration:underline">設定目標 →</a>
         </div>`;
     } else {
-      const colors = ['#c85d48','#e8923b','#caa23c'];
-      weakHost.innerHTML = `
-        <div class="me-weak-head">
-          <div>
-            <div class="me-eyebrow">弱點章節</div>
-            <h3>這${weak.length === 1 ? '章' : weak.length + '章'}需要多練</h3>
+      const weak = cp
+        .filter(r => (r.total_attempts || 0) >= 3)
+        .map(r => ({
+          id: r.chapter_id,
+          total: r.total_attempts,
+          correct: r.correct_attempts,
+          pct: Math.round((r.correct_attempts / r.total_attempts) * 100)
+        }))
+        .sort((a, b) => a.pct - b.pct)
+        .slice(0, 3);
+      if (!weak.length) {
+        weakHost.innerHTML = `
+          <div class="me-weak-head">
+            <div>
+              <div class="me-eyebrow">弱點章節</div>
+              <h3>還沒有足夠資料</h3>
+            </div>
           </div>
-          <a class="me-weak-link" onclick="nav('exam/${target.examId}')">看全部</a>
-        </div>
-        <ul class="me-weak-list">
-          ${weak.map((w, i) => {
-            const chNum = (w.id || '').split('-ch').pop() || '?';
-            return `<li class="me-weak-item">
-              <div class="me-weak-idx i${i+1}">${i+1}</div>
-              <div class="me-weak-row">
-                <div class="me-weak-top">
-                  <span class="me-weak-name">第 ${chNum} 章</span>
-                  <span class="me-weak-pct" style="color:${colors[i]}">${w.pct}%</span>
+          <div style="font-size:13px;color:var(--dash-ink-500);line-height:1.6">
+            至少練過每章 3 題以後，這裡會顯示需要加強的章節。<br>
+            <a onclick="nav('exam/${target.examId}')" style="color:var(--dash-brand-dark);cursor:pointer;text-decoration:underline">前往練習 →</a>
+          </div>`;
+      } else {
+        const colors = ['#c85d48','#e8923b','#caa23c'];
+        weakHost.innerHTML = `
+          <div class="me-weak-head">
+            <div>
+              <div class="me-eyebrow">弱點章節</div>
+              <h3>這${weak.length === 1 ? '章' : weak.length + '章'}需要多練</h3>
+            </div>
+            <a class="me-weak-link" onclick="nav('exam/${target.examId}')">看全部</a>
+          </div>
+          <ul class="me-weak-list">
+            ${weak.map((w, i) => {
+              const chNum = (w.id || '').split('-ch').pop() || '?';
+              return `<li class="me-weak-item">
+                <div class="me-weak-idx i${i+1}">${i+1}</div>
+                <div class="me-weak-row">
+                  <div class="me-weak-top">
+                    <span class="me-weak-name">第 ${chNum} 章</span>
+                    <span class="me-weak-pct" style="color:${colors[i]}">${w.pct}%</span>
+                  </div>
+                  <div class="me-weak-bar"><span style="width:${w.pct}%;background:${colors[i]}"></span></div>
                 </div>
-                <div class="me-weak-bar"><span style="width:${w.pct}%;background:${colors[i]}"></span></div>
-              </div>
-            </li>`;
-          }).join('')}
-        </ul>`;
+              </li>`;
+            }).join('')}
+          </ul>`;
+      }
     }
   } catch (e) {
     console.error('[renderMe] progress/weak load failed:', e);
@@ -4283,14 +4326,15 @@ async function renderMe() {
     weakHost.innerHTML = `<div style="font-size:13px;color:var(--dash-ink-500);padding:4px 0">載入章節資料失敗</div>`;
   }
 
-  // Widget 5: 重點複習（錯題 + 收藏）
+  // Widget 5: 重點複習（錯題 + 收藏）—— 無目標時聚合所有考試
   const reviewHost = document.getElementById('me-review');
   try {
     const uid = currentUser.id;
+    const reviewFilter = hasTarget ? `&exam_id=eq.${target.examId}` : '';
     const [wrongR, bmR] = await Promise.all([
-      fetch(`${SUPA_URL}/rest/v1/question_attempts?user_id=eq.${uid}&exam_id=eq.${target.examId}&is_correct=eq.false&select=question_id`,
+      fetch(`${SUPA_URL}/rest/v1/question_attempts?user_id=eq.${uid}${reviewFilter}&is_correct=eq.false&select=question_id`,
         { headers: { apikey: SUPA_KEY, Authorization: 'Bearer ' + SUPA_KEY, Prefer: 'count=exact', Range: '0-0' }}).catch(() => null),
-      fetch(`${SUPA_URL}/rest/v1/bookmarks?user_id=eq.${uid}&exam_id=eq.${target.examId}&select=question_id`,
+      fetch(`${SUPA_URL}/rest/v1/bookmarks?user_id=eq.${uid}${reviewFilter}&select=question_id`,
         { headers: { apikey: SUPA_KEY, Authorization: 'Bearer ' + SUPA_KEY, Prefer: 'count=exact', Range: '0-0' }}).catch(() => null)
     ]);
     const wrongCount = wrongR ? parseInt((wrongR.headers.get('content-range') || '0/0').split('/')[1]) || 0 : 0;
