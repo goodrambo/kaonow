@@ -523,6 +523,122 @@ html{scroll-padding-top:calc(var(--header-h) + 16px)}
 #kn-paywall-modal button:hover{opacity:0.9}
 #kn-paywall-modal .kn-paywall-close{text-align:center;font-size:13px;color:var(--text-tertiary,#999);cursor:pointer;padding:8px}
 #kn-paywall-modal .kn-paywall-close:hover{color:var(--text-secondary)}
+
+/* Hide logged-in nav items by default (JS shows them post-auth) to avoid FOUC */
+[data-when="logged-in"]{display:none}
+
+/* ==================== ME Dashboard (new) ==================== */
+#screen-me{--dash-brand-dark:#1f5e3a;--dash-brand:#2a7a4a;--dash-brand-soft:#e8f2ec;--dash-brand-softer:#f3f9f5;--dash-ink-900:#0f1d16;--dash-ink-700:#334c3f;--dash-ink-500:#667a6e;--dash-ink-300:#a5b4ac;--dash-line:#e6ebe7;--dash-bg:#f7f8f6}
+#screen-me .container{max-width:960px}
+#screen-me .me-dash-head{display:flex;align-items:flex-end;justify-content:space-between;padding-bottom:8px;margin-bottom:24px}
+#screen-me .me-eyebrow{font-size:11px;letter-spacing:0.16em;color:var(--dash-ink-500);font-weight:500;margin-bottom:8px;text-transform:uppercase}
+#screen-me .me-title{font-size:28px;font-weight:700;color:var(--dash-ink-900);margin:0}
+#screen-me .me-btn-ghost{display:inline-flex;align-items:center;gap:6px;color:var(--dash-ink-700);padding:8px 16px;border-radius:999px;font-size:13px;background:transparent;border:none;cursor:pointer;transition:background 120ms}
+#screen-me .me-btn-ghost:hover{background:#edf1ee}
+#screen-me .me-card{background:#fff;border:1px solid var(--dash-line);border-radius:16px;box-shadow:0 1px 2px rgba(10,30,20,0.04),0 4px 14px rgba(10,30,20,0.04);margin-bottom:20px}
+#screen-me .me-target-bar{display:flex;align-items:center;justify-content:space-between;padding:18px 22px;gap:16px;flex-wrap:wrap}
+#screen-me .me-target-bar .me-target-left{display:flex;align-items:center;gap:16px}
+#screen-me .me-target-bar .me-target-icon{width:44px;height:44px;border-radius:12px;background:var(--dash-brand-soft);display:flex;align-items:center;justify-content:center;font-size:22px}
+#screen-me .me-target-bar .me-target-label{font-size:11px;color:var(--dash-ink-500);margin-bottom:2px}
+#screen-me .me-target-bar .me-target-name{font-size:15px;font-weight:600;color:var(--dash-ink-900)}
+#screen-me .me-target-bar .me-target-right{display:flex;align-items:center;gap:20px}
+#screen-me .me-target-bar .me-target-sep{width:1px;height:40px;background:var(--dash-line)}
+#screen-me .me-target-bar .me-target-date{text-align:right}
+#screen-me .me-target-bar .me-target-days{text-align:right}
+#screen-me .me-target-bar .me-target-days-num{font-size:28px;font-weight:700;color:var(--dash-brand-dark);line-height:1}
+#screen-me .me-target-bar .me-target-days-num small{font-size:14px;font-weight:500;margin-left:2px}
+#screen-me .me-continue{padding:28px;display:flex;align-items:center;justify-content:space-between;background:linear-gradient(135deg,#1f5e3a 0%,#2a7a4a 100%);color:#fff;border:none;gap:16px;flex-wrap:wrap}
+#screen-me .me-continue h2{font-size:22px;font-weight:700;margin:0 0 6px;color:#fff}
+#screen-me .me-continue .me-continue-eyebrow{color:rgba(255,255,255,0.75);margin-bottom:6px}
+#screen-me .me-continue .me-continue-sub{font-size:13px;opacity:0.9}
+#screen-me .me-btn-cta-white{display:inline-flex;align-items:center;gap:8px;background:#fff;color:var(--dash-brand-dark);font-weight:600;padding:12px 22px;border-radius:999px;border:none;cursor:pointer;font-size:14px;transition:transform 120ms,box-shadow 120ms}
+#screen-me .me-btn-cta-white:hover{transform:translateY(-1px);box-shadow:0 8px 22px rgba(0,0,0,0.18)}
+#screen-me .me-btn-cta{display:inline-flex;align-items:center;gap:8px;background:var(--dash-brand-dark);color:#fff;font-weight:600;padding:12px 26px;border-radius:999px;border:none;cursor:pointer;font-size:15px;transition:transform 120ms,box-shadow 120ms}
+#screen-me .me-btn-cta:hover{transform:translateY(-1px);box-shadow:0 8px 22px rgba(31,94,58,0.22)}
+#screen-me .me-progress{padding:22px 24px}
+#screen-me .me-progress-top{display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:14px;gap:12px;flex-wrap:wrap}
+#screen-me .me-progress-nums{display:flex;align-items:baseline;gap:8px}
+#screen-me .me-progress-nums .big{font-size:26px;font-weight:700;color:var(--dash-ink-900)}
+#screen-me .me-progress-nums .small{font-size:13px;color:var(--dash-ink-500)}
+#screen-me .me-chip{display:inline-flex;align-items:center;padding:3px 10px;border-radius:999px;font-size:11px;letter-spacing:0.04em;background:var(--dash-brand-soft);color:var(--dash-brand-dark);font-weight:500;margin-left:8px}
+#screen-me .me-progress-meta{text-align:right;font-size:11px;color:var(--dash-ink-500);line-height:1.6}
+#screen-me .me-progress-meta b{color:var(--dash-ink-900);font-weight:600}
+#screen-me .me-progress-meta .up{color:#0a8c44;font-weight:600}
+#screen-me .me-progress-track{height:8px;background:#edf1ee;border-radius:999px;overflow:hidden}
+#screen-me .me-progress-bar{height:100%;background:var(--dash-brand);border-radius:999px;transition:width 320ms}
+#screen-me .me-grid{display:grid;grid-template-columns:3fr 2fr;gap:20px;margin-bottom:20px}
+@media(max-width:720px){#screen-me .me-grid{grid-template-columns:1fr}}
+#screen-me .me-weak{padding:22px 24px}
+#screen-me .me-weak-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:18px}
+#screen-me .me-weak-head h3{font-size:16px;font-weight:600;color:var(--dash-ink-900);margin:0 0 2px}
+#screen-me .me-weak-link{font-size:13px;color:var(--dash-brand-dark);cursor:pointer;text-decoration:none}
+#screen-me .me-weak-link:hover{text-decoration:underline}
+#screen-me .me-weak-list{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:14px}
+#screen-me .me-weak-item{display:flex;align-items:center;gap:14px}
+#screen-me .me-weak-idx{width:26px;height:26px;border-radius:9px;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:600;flex-shrink:0}
+#screen-me .me-weak-idx.i1{background:#fee7e3;color:#c85d48}
+#screen-me .me-weak-idx.i2{background:#feefdd;color:#e8923b}
+#screen-me .me-weak-idx.i3{background:#fef5de;color:#caa23c}
+#screen-me .me-weak-row{flex:1}
+#screen-me .me-weak-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:5px;font-size:13px}
+#screen-me .me-weak-name{font-weight:500;color:var(--dash-ink-900)}
+#screen-me .me-weak-pct{font-weight:600}
+#screen-me .me-weak-bar{height:6px;border-radius:999px;background:#edf1ee;overflow:hidden}
+#screen-me .me-weak-bar>span{display:block;height:100%;border-radius:999px}
+#screen-me .me-review{padding:22px 24px;display:flex;flex-direction:column}
+#screen-me .me-review-head{margin-bottom:18px}
+#screen-me .me-review-head h3{font-size:16px;font-weight:600;color:var(--dash-ink-900);margin:0}
+#screen-me .me-review-items{display:flex;flex-direction:column;gap:10px;margin-bottom:16px}
+#screen-me .me-review-item{display:flex;align-items:center;justify-content:space-between;padding:12px 14px;border-radius:12px;background:var(--dash-brand-softer)}
+#screen-me .me-review-item-left{display:flex;align-items:center;gap:10px}
+#screen-me .me-review-item-ic{width:30px;height:30px;border-radius:9px;background:#fff;display:flex;align-items:center;justify-content:center;font-size:14px}
+#screen-me .me-review-item-label{font-size:13px;font-weight:500;color:var(--dash-ink-900)}
+#screen-me .me-review-item-num{font-size:18px;font-weight:700;color:var(--dash-ink-900)}
+#screen-me .me-review-cta{margin-top:auto;width:100%;padding:12px;border-radius:999px;background:var(--dash-brand-soft);color:var(--dash-brand-dark);font-weight:600;font-size:13px;border:none;cursor:pointer;transition:all 120ms}
+#screen-me .me-review-cta:hover{background:var(--dash-brand-dark);color:#fff}
+#screen-me .me-footnote{text-align:center;font-size:11px;color:var(--dash-ink-300);padding-top:12px}
+#screen-me .me-empty-main{padding:56px 24px;text-align:center;position:relative;overflow:hidden}
+#screen-me .me-empty-deco1{position:absolute;top:-80px;right:-80px;width:220px;height:220px;border-radius:50%;background:var(--dash-brand-soft);opacity:0.6}
+#screen-me .me-empty-deco2{position:absolute;bottom:-60px;left:-60px;width:170px;height:170px;border-radius:50%;background:var(--dash-brand-softer);opacity:0.8}
+#screen-me .me-empty-inner{position:relative}
+#screen-me .me-empty-icon{width:62px;height:62px;border-radius:18px;background:var(--dash-brand-soft);display:flex;align-items:center;justify-content:center;font-size:28px;margin:0 auto 22px}
+#screen-me .me-empty-main h2{font-size:22px;font-weight:700;color:var(--dash-ink-900);margin:0 0 8px}
+#screen-me .me-empty-main p{font-size:13px;color:var(--dash-ink-500);margin:0 0 28px}
+#screen-me .me-empty-alt{text-align:center;font-size:13px;color:var(--dash-ink-500);padding-top:6px}
+#screen-me .me-empty-alt a{color:var(--dash-ink-700);text-decoration:underline;cursor:pointer}
+
+/* ==================== Welcome modal ==================== */
+.welcome-modal{position:fixed;inset:0;z-index:9998;display:flex;align-items:center;justify-content:center;padding:20px}
+.welcome-modal .welcome-backdrop{position:absolute;inset:0;background:rgba(9,22,15,0.45);backdrop-filter:blur(4px)}
+.welcome-modal .welcome-card{position:relative;background:#fff;border-radius:18px;box-shadow:0 24px 60px rgba(0,0,0,0.28);width:100%;max-width:520px;overflow:hidden;animation:wmIn 180ms ease}
+@keyframes wmIn{from{opacity:0;transform:translateY(10px) scale(.98)}to{opacity:1;transform:none}}
+.welcome-modal .welcome-head{display:flex;align-items:center;justify-content:space-between;padding:28px 28px 4px}
+.welcome-modal .welcome-icon{width:48px;height:48px;border-radius:14px;background:#e8f2ec;display:flex;align-items:center;justify-content:center;font-size:24px}
+.welcome-modal .welcome-close{width:32px;height:32px;border-radius:999px;background:transparent;border:none;font-size:20px;color:#667a6e;cursor:pointer;transition:background 120ms}
+.welcome-modal .welcome-close:hover{background:#f3f4f6}
+.welcome-modal .welcome-title{font-size:20px;font-weight:700;color:#0f1d16;margin:12px 28px 6px}
+.welcome-modal .welcome-sub{font-size:14px;color:#334c3f;margin:0 28px 20px;line-height:1.6}
+.welcome-modal .welcome-body{padding:0 28px 20px;display:flex;flex-direction:column;gap:14px}
+.welcome-modal .welcome-field label{display:block;font-size:12px;font-weight:500;color:#334c3f;margin-bottom:6px}
+.welcome-modal .welcome-field input[type="text"],
+.welcome-modal .welcome-field input[type="date"]{width:100%;padding:12px 16px;border-radius:12px;border:1px solid #e6ebe7;font-size:13px;font-family:inherit;color:#0f1d16;background:#fff}
+.welcome-modal .welcome-field input:focus{outline:none;border-color:#2a7a4a;box-shadow:0 0 0 3px rgba(42,122,74,0.12)}
+.welcome-modal .welcome-search-wrap{position:relative}
+.welcome-modal .welcome-exam-list{position:absolute;top:calc(100% + 4px);left:0;right:0;max-height:220px;overflow-y:auto;background:#fff;border:1px solid #e6ebe7;border-radius:12px;box-shadow:0 12px 32px rgba(0,0,0,0.12);display:none;z-index:10}
+.welcome-modal .welcome-exam-list.open{display:block}
+.welcome-modal .welcome-exam-list .ex-item{padding:10px 14px;cursor:pointer;font-size:13px;color:#0f1d16;border-bottom:1px solid #f3f4f6}
+.welcome-modal .welcome-exam-list .ex-item:last-child{border-bottom:none}
+.welcome-modal .welcome-exam-list .ex-item:hover{background:#f3f9f5}
+.welcome-modal .welcome-exam-list .ex-item .ex-cat{font-size:11px;color:#667a6e;margin-top:2px}
+.welcome-modal .welcome-exam-list .ex-empty{padding:14px;text-align:center;color:#667a6e;font-size:12px}
+.welcome-modal .welcome-selected{padding:10px 14px;border-radius:10px;background:#f3f9f5;font-size:13px;color:#1f5e3a;display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:8px}
+.welcome-modal .welcome-selected .clear{background:none;border:none;color:#667a6e;cursor:pointer;font-size:14px}
+.welcome-modal .welcome-footer{display:flex;align-items:center;justify-content:space-between;padding:16px 28px;background:#f3f9f5;gap:12px}
+.welcome-modal .welcome-skip{background:transparent;border:none;color:#667a6e;font-size:13px;cursor:pointer;padding:8px 10px;border-radius:8px}
+.welcome-modal .welcome-skip:hover{color:#0f1d16}
+.welcome-modal .welcome-submit{background:#1f5e3a;color:#fff;border:none;padding:10px 22px;border-radius:999px;font-weight:600;font-size:14px;cursor:pointer;transition:transform 120ms,box-shadow 120ms}
+.welcome-modal .welcome-submit:hover{transform:translateY(-1px);box-shadow:0 8px 20px rgba(31,94,58,0.22)}
+.welcome-modal .welcome-submit:disabled{opacity:0.5;cursor:not-allowed;transform:none;box-shadow:none}
 </style>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
 <meta name="supabase-url" content="https://myvfboezhnzgovowhaff.supabase.co">
@@ -537,10 +653,15 @@ html{scroll-padding-top:calc(var(--header-h) + 16px)}
         <div class="logo-text">KaoNow <span class="logo-sub">考NOW</span></div>
       </div>
       <nav class="header-nav" id="header-nav">
-        <a href="#/home" data-nav="home">首頁</a>
-        <a href="#/catalog" data-nav="catalog">考試目錄</a>
-        <a href="#/me" data-nav="me">我的</a>
-        <a href="#/catalog" class="header-cta" data-nav="_cta">開始練習</a>
+        <!-- 登出版：只有在未登入時顯示 -->
+        <a href="#/home" data-nav="home" data-when="logged-out">首頁</a>
+        <a href="#/catalog" data-nav="catalog" data-when="logged-out">考試專區</a>
+        <a href="#/pricing" data-nav="pricing" data-when="logged-out">訂閱方案</a>
+        <!-- 登入版：只有在已登入時顯示 -->
+        <a href="#/me" data-nav="me" data-when="logged-in">我的學習</a>
+        <a href="#/catalog" data-nav="catalog" data-when="logged-in">考試專區</a>
+        <a href="#/review" data-nav="review" data-when="logged-in">重點複習</a>
+        <a href="#" class="header-cta" data-nav="_cta" data-when="logged-in" onclick="resumeLastQuiz(event)">繼續練習</a>
       </nav>
       <div class="auth-area" id="auth-area">
         <button class="login-btn" id="login-btn" onclick="openLoginModal()">登入 / 註冊</button>
@@ -551,6 +672,8 @@ html{scroll-padding-top:calc(var(--header-h) + 16px)}
           </div>
           <div class="user-dropdown" id="user-dropdown">
             <div class="dropdown-item" onclick="nav('me');toggleDropdown(false)">📊 我的學習</div>
+            <div class="dropdown-item" onclick="nav('review');toggleDropdown(false)">⭐ 重點複習</div>
+            <div class="dropdown-item" onclick="nav('pricing');toggleDropdown(false)">💎 訂閱方案</div>
             <div class="dropdown-sep"></div>
             <div class="dropdown-item danger" onclick="signOut()">登出</div>
           </div>
@@ -755,15 +878,128 @@ html{scroll-padding-top:calc(var(--header-h) + 16px)}
   </div>
 </section>
 
-<!-- ME -->
+<!-- ME (新 dashboard) -->
 <section id="screen-me" class="screen">
+  <div class="container" id="me-dash-root">
+    <!-- 有目標考試：完整 dashboard -->
+    <div id="me-view-dashboard" class="me-view">
+      <header class="me-dash-head">
+        <div>
+          <div class="me-eyebrow">MY LEARNING</div>
+          <h1 class="me-title" id="me-greeting">嗨，今天繼續囉</h1>
+        </div>
+        <button class="me-btn-ghost" onclick="openWelcomeModal(true)">
+          <span>🔄</span> 切換目標考試
+        </button>
+      </header>
+
+      <!-- Widget 1: 目標考試 header bar -->
+      <section class="me-card me-target-bar" id="me-target-bar"></section>
+
+      <!-- Widget 2: 繼續上次練習 -->
+      <section class="me-card me-continue" id="me-continue">
+        <div class="me-continue-text">
+          <div class="me-eyebrow me-continue-eyebrow">CONTINUE</div>
+          <h2>繼續上次的練習</h2>
+          <div class="me-continue-sub" id="me-continue-sub">還沒開始練習，從選擇章節或隨機測驗開始</div>
+        </div>
+        <button class="me-btn-cta-white" id="me-continue-btn" onclick="resumeLastQuiz(event)">
+          開始 <span>→</span>
+        </button>
+      </section>
+
+      <!-- Widget 3: 總進度 -->
+      <section class="me-card me-progress" id="me-progress"></section>
+
+      <!-- Widget 4 + 5: 弱點章節 + 重點複習 -->
+      <section class="me-grid">
+        <div class="me-card me-weak" id="me-weak"></div>
+        <div class="me-card me-review" id="me-review"></div>
+      </section>
+
+      <div class="me-footnote" id="me-footnote"></div>
+    </div>
+
+    <!-- 沒有目標考試：空狀態 -->
+    <div id="me-view-empty" class="me-view" style="display:none">
+      <header class="me-dash-head">
+        <div>
+          <div class="me-eyebrow">MY LEARNING</div>
+          <h1 class="me-title" id="me-greeting-empty">嗨</h1>
+        </div>
+      </header>
+      <section class="me-card me-empty-main">
+        <div class="me-empty-deco1"></div>
+        <div class="me-empty-deco2"></div>
+        <div class="me-empty-inner">
+          <div class="me-empty-icon">⏱</div>
+          <h2>距離你的考試還有幾天？</h2>
+          <p>設定目標考試後，KaoNow 會幫你把時間花在該練的題目上。</p>
+          <button class="me-btn-cta" onclick="openWelcomeModal(false)">
+            設定目標考試 <span>→</span>
+          </button>
+        </div>
+      </section>
+      <div class="me-empty-alt">
+        還沒想好？先 <a href="#/catalog">逛逛考試專區</a> 看看有哪些考試
+      </div>
+    </div>
+
+    <!-- 未登入 -->
+    <div id="me-view-guest" class="me-view" style="display:none">
+      <div class="profile-hero"><div class="avatar">K</div><h1>訪客</h1>
+        <p class="tagline">學習紀錄保存在這台裝置</p>
+        <button onclick="openLoginModal()" class="btn-primary" style="margin-top:12px;font-size:13px;padding:9px 20px">登入以啟用雲端同步</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Welcome modal -->
+<div id="welcome-modal" class="welcome-modal" style="display:none">
+  <div class="welcome-backdrop" onclick="closeWelcomeModal()"></div>
+  <div class="welcome-card">
+    <div class="welcome-head">
+      <div class="welcome-icon">🎯</div>
+      <button class="welcome-close" onclick="closeWelcomeModal()" aria-label="關閉">×</button>
+    </div>
+    <h2 class="welcome-title" id="welcome-title">歡迎加入 KaoNow 👋</h2>
+    <p class="welcome-sub" id="welcome-sub">告訴我們你要考什麼、什麼時候考，我們陪你倒數每一天。</p>
+    <div class="welcome-body">
+      <div class="welcome-field">
+        <label>目標考試</label>
+        <div class="welcome-search-wrap">
+          <input type="text" id="welcome-exam-input" placeholder="搜尋考試名稱，例如：職業安全、會計師、高普考" autocomplete="off" oninput="onWelcomeExamSearch()" onfocus="onWelcomeExamSearch()">
+          <div id="welcome-exam-list" class="welcome-exam-list"></div>
+        </div>
+        <div id="welcome-exam-selected" class="welcome-selected" style="display:none"></div>
+      </div>
+      <div class="welcome-field">
+        <label>預計考試日期</label>
+        <input type="date" id="welcome-exam-date">
+      </div>
+    </div>
+    <div class="welcome-footer">
+      <button class="welcome-skip" onclick="closeWelcomeModal()">先不設定</button>
+      <button class="welcome-submit" id="welcome-submit" onclick="submitWelcomeTarget()">開始備考 →</button>
+    </div>
+  </div>
+</div>
+
+<!-- REVIEW -->
+<section id="screen-review" class="screen">
   <div class="container">
-    <div class="page-head"><h1>我的學習</h1><p>查看練習紀錄與進度</p></div>
-    <div class="profile-hero"><div id="profile-hero-content"><div class="avatar">K</div><h1>訪客</h1><p class="tagline">學習紀錄保存在這台裝置</p></div></div>
-    <div class="stats-grid" id="me-stats"></div>
-    <div class="panel"><h2>⭐ 我的收藏</h2><div id="me-bookmarks"></div></div>
-    <div class="panel"><h2>📘 最近練習</h2><div id="me-recent" class="panel-empty">還沒有紀錄，<a href="#/catalog" style="color:var(--accent);font-weight:600">去選一個考試</a>開始吧！</div></div>
-    <div class="panel"><h2>⚙️ 設定</h2><div id="me-settings"></div></div>
+    <div class="page-head"><h1>重點複習</h1><p>錯過的題目和收藏的題目，一次整理好</p></div>
+    <div class="panel"><h2>📝 錯題回顧</h2><div id="review-wrongs" class="panel-empty">最近沒有錯題，繼續保持！</div></div>
+    <div class="panel"><h2>⭐ 收藏題目</h2><div id="review-bookmarks" class="panel-empty">還沒有收藏的題目，在練習時點擊右上角 ⭐ 就可以加入收藏。</div></div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section id="screen-pricing" class="screen">
+  <div class="container">
+    <div class="page-head"><h1>訂閱方案</h1><p>免費就能開始刷題，依需求升級解鎖更多功能</p></div>
+    <div id="pricing-plans-mount"></div>
   </div>
 </section>
 
@@ -771,7 +1007,7 @@ html{scroll-padding-top:calc(var(--header-h) + 16px)}
   <strong>KaoNow 考NOW</strong>
   備考不拖延，現在就開始 · <a href="https://kaonow.com">kaonow.com</a>
   <div class="footer-links">
-    <a href="#/home">首頁</a><a href="#/catalog">考試目錄</a><a href="#/me">我的</a>
+    <a href="#/home">首頁</a><a href="#/catalog">考試專區</a><a href="#/pricing">訂閱方案</a><a href="#/me">我的學習</a>
   </div>
   <div style="margin-top:12px">© 2026 KaoNow. All rights reserved.</div>
 </footer>
@@ -962,14 +1198,17 @@ const cloud = (() => {
 
     // 4. question_attempts（每題一筆）
     if (sessionId && questions.length > 0) {
+      const timings = (typeof state !== 'undefined' && state.questionTimings) || {};
       const attempts = questions.map((q, i) => {
         const ans = answers[i];
         if (!ans) return null;
+        const t = timings[q.id];
         return {
           session_id: sessionId, user_id: uid,
           question_id: q.id,                    // 現在必定有
           exam_id: examId, chapter_id: examId + '-ch' + q.ch,
           selected_answer: ans.selected, is_correct: ans.correct,
+          time_spent_seconds: (typeof t === 'number' && t >= 0) ? t : null,
           attempted_at: new Date().toISOString()
         };
       }).filter(Boolean);
@@ -1588,6 +1827,14 @@ function updateAuthUI() {
   const userAvatar = document.getElementById('user-avatar');
   const userName = document.getElementById('user-name');
   if (!loginBtn) return;
+  // Toggle nav items based on login state
+  const isLoggedIn = !!currentUser;
+  document.querySelectorAll('[data-when="logged-in"]').forEach(el => {
+    el.style.display = isLoggedIn ? '' : 'none';
+  });
+  document.querySelectorAll('[data-when="logged-out"]').forEach(el => {
+    el.style.display = isLoggedIn ? 'none' : '';
+  });
   if (currentUser) {
     loginBtn.style.display = 'none';
     userPillWrap.style.display = 'flex';
@@ -1670,11 +1917,104 @@ async function sendMagicLink() {
 // ── Sign out ─────────────────────────────────────────────────
 async function signOut() {
   toggleDropdown(false);
-  await cloud.logout();
+  try {
+    await cloud.logout();
+  } catch (e) {
+    console.error('[signOut] cloud.logout failed:', e);
+    showToast('登出時發生錯誤：' + (e?.message || e));
+  }
+  // Force-clear auth state regardless of cloud.logout outcome
   currentUser = null;
+  try { localStorage.removeItem('sb-myvfboezhnzgovowhaff-auth-token'); } catch (e) {}
   updateAuthUI();
   showToast('已登出');
-  if (typeof state !== 'undefined' && state.route === 'me') renderMe();
+  // Redirect to home so user never lingers on a protected page after logout
+  if (location.hash !== '#/home') {
+    location.hash = '#/home';
+  } else {
+    // Already on home: force a re-render to refresh personalized blocks
+    if (typeof renderHome === 'function') renderHome();
+  }
+}
+
+// ── Resume last quiz (for 繼續練習 CTA) ───────────────────────
+const LAST_EXAM_KEY = 'kaonow_last_exam';
+function trackLastExam(examId, subjectId) {
+  try {
+    localStorage.setItem(LAST_EXAM_KEY, JSON.stringify({
+      examId, subjectId: subjectId || null, ts: Date.now()
+    }));
+  } catch (e) {}
+}
+function resumeLastQuiz(ev) {
+  if (ev) ev.preventDefault();
+  // 1) 優先恢復未完成的模擬考
+  const snap = (typeof loadQuizSnapshot === 'function') ? loadQuizSnapshot() : null;
+  if (snap) { resumeQuizFromSnapshot(snap); return; }
+  // 2) 否則回到上次練習過的考試
+  try {
+    const raw = localStorage.getItem(LAST_EXAM_KEY);
+    if (raw) {
+      const { examId, subjectId } = JSON.parse(raw);
+      if (subjectId) { nav('subject/' + subjectId); return; }
+      if (examId) { nav('exam/' + examId); return; }
+    }
+  } catch (e) {}
+  // 3) 都沒有 → 帶去考試專區
+  nav('catalog');
+}
+
+// ── Review & Pricing page stubs ──────────────────────────────
+function renderReview() {
+  const wrongsHost = document.getElementById('review-wrongs');
+  const bmHost = document.getElementById('review-bookmarks');
+  if (!wrongsHost || !bmHost) return;
+  // 錯題：從 localStorage 裡的 state 抓所有標記為 wrong 的題
+  try {
+    const wrongs = (state.wrongQuestions && state.wrongQuestions.length)
+      ? state.wrongQuestions.slice(0, 20)
+      : [];
+    if (wrongs.length) {
+      wrongsHost.className = '';
+      wrongsHost.innerHTML = wrongs.map(q =>
+        `<div class="bookmark-item">
+          <div class="bookmark-q">${(q.question || q.stem || '').slice(0, 80)}...</div>
+        </div>`
+      ).join('');
+    } else {
+      wrongsHost.className = 'panel-empty';
+      wrongsHost.textContent = '最近沒有錯題，繼續保持！';
+    }
+  } catch (e) {
+    wrongsHost.className = 'panel-empty';
+    wrongsHost.textContent = '載入錯題時發生錯誤';
+  }
+  // 收藏：復用 getBookmarkSet 的資料
+  try {
+    const bookmarks = (typeof getBookmarkSet === 'function') ? Array.from(getBookmarkSet()) : [];
+    if (bookmarks.length) {
+      bmHost.className = '';
+      bmHost.innerHTML = `<div style="font-size:14px;color:var(--text-secondary)">共 ${bookmarks.length} 題已收藏</div>`;
+    } else {
+      bmHost.className = 'panel-empty';
+      bmHost.textContent = '還沒有收藏的題目，在練習時點擊右上角 ⭐ 就可以加入收藏。';
+    }
+  } catch (e) {
+    bmHost.className = 'panel-empty';
+    bmHost.textContent = '還沒有收藏';
+  }
+}
+function renderPricing() {
+  const host = document.getElementById('pricing-plans-mount');
+  if (!host || host._rendered) return;
+  // 直接把 home 頁的 pricing-grid clone 過來
+  const src = document.querySelector('#screen-home .pricing-grid');
+  if (src) {
+    host.innerHTML = src.outerHTML;
+    host._rendered = true;
+  } else {
+    host.innerHTML = '<p style="text-align:center;color:var(--text-secondary)">方案資訊載入中…</p>';
+  }
 }
 
 // ── Toast ────────────────────────────────────────────────────
@@ -2290,6 +2630,8 @@ function router(){
     case 'quiz': document.getElementById('screen-quiz').classList.add('active'); break;
     case 'result': document.getElementById('screen-result').classList.add('active'); break;
     case 'me': document.getElementById('screen-me').classList.add('active'); renderMe(); break;
+    case 'review': document.getElementById('screen-review').classList.add('active'); if (typeof renderReview === 'function') renderReview(); break;
+    case 'pricing': document.getElementById('screen-pricing').classList.add('active'); if (typeof renderPricing === 'function') renderPricing(); break;
     default: document.getElementById('screen-home').classList.add('active'); renderHome();
   }
   window.scrollTo(0,0);
@@ -3474,7 +3816,15 @@ function initQuiz(questions){
   state.currentIdx = 0;
   state.answers = new Array(questions.length).fill(null);
   state.startTime = Date.now();
+  state.questionStartTs = Date.now();  // 埋點：目前題目開始作答時間
+  state.questionTimings = {};  // 埋點：{questionId: elapsedSeconds}
   state.quizFrozen = false;  // reset freeze flag on new quiz
+  // 記錄最近練習的考試（給 header 的「繼續練習」CTA 用）
+  try {
+    if (state.currentExamId || state.currentSubjectId) {
+      trackLastExam(state.currentExamId, state.currentSubjectId);
+    }
+  } catch (e) {}
   clearQuizSnapshot();  // 新 quiz 開始 → 清舊快照
   // 啟動倒數（模擬考才有）
   if (state.mockMeta?.timeLimitSeconds) {
@@ -3533,7 +3883,7 @@ function renderDots(){
     d.onclick=()=>goToQuestion(i);wrap.appendChild(d);
   });
 }
-function goToQuestion(i){state.currentIdx=i;renderQuestion();renderDots();saveQuizSnapshot();}
+function goToQuestion(i){state.currentIdx=i;state.questionStartTs=Date.now();renderQuestion();renderDots();saveQuizSnapshot();}
 function sourceBadge(src) {
   if (src === 'ai_generated') return '<span class="q-badge badge-ai">🤖 AI 生成題</span>';
   if (src === 'community') return '<span class="q-badge badge-community">👥 社群</span>';
@@ -3572,6 +3922,15 @@ function selectAnswer(oi){
   const q=state.questions[state.currentIdx];const correct=oi===q.ans;
   // 避免同一題重複 bump：只有第一次選答時才計算
   const firstTime = !state.answers[state.currentIdx];
+  // 埋點：記錄本題作答花費秒數（首次選答才記，避免換選項時被覆蓋）
+  if (firstTime && state.questionStartTs) {
+    try {
+      state.questionTimings = state.questionTimings || {};
+      const elapsed = Math.max(0, Math.round((Date.now() - state.questionStartTs) / 1000));
+      // 只收合理範圍（0..1800 秒）；避免久置後產生離群值
+      state.questionTimings[q.id] = Math.min(1800, elapsed);
+    } catch (e) {}
+  }
   state.answers[state.currentIdx]={selected:oi,correct};
   state.totalDone++;
   if(correct){state.totalCorrect++;state.streak++;if(state.streak>state.maxStreak)state.maxStreak=state.streak;}
@@ -3589,8 +3948,8 @@ function selectAnswer(oi){
   }
   saveState();renderQuestion();saveQuizSnapshot();
 }
-function nextQuestion(){if(state.currentIdx<state.questions.length-1){state.currentIdx++;renderQuestion();window.scrollTo(0,0);saveQuizSnapshot();}}
-function prevQuestion(){if(state.currentIdx>0){state.currentIdx--;renderQuestion();window.scrollTo(0,0);saveQuizSnapshot();}}
+function nextQuestion(){if(state.currentIdx<state.questions.length-1){state.currentIdx++;state.questionStartTs=Date.now();renderQuestion();window.scrollTo(0,0);saveQuizSnapshot();}}
+function prevQuestion(){if(state.currentIdx>0){state.currentIdx--;state.questionStartTs=Date.now();renderQuestion();window.scrollTo(0,0);saveQuizSnapshot();}}
 async function confirmExit(){
   stopCountdown();
   const u=state.answers.filter(a=>a===null).length;
@@ -3689,85 +4048,394 @@ function reviewWrong(){
   initQuiz(wrong);
 }
 
-// ===== ME =====
-function renderMe(){
-  // Update profile section
-  const ph = document.getElementById('profile-hero-content');
-  if (ph) {
-    if (currentUser) {
-      const meta = currentUser.user_metadata || {};
-      const name = meta.full_name || meta.name || currentUser.email.split('@')[0];
-      const avatar = meta.avatar_url || meta.picture;
-      const avatarHtml = avatar
-        ? `<img src="${avatar}" style="width:66px;height:66px;border-radius:50%;object-fit:cover;margin-bottom:12px;box-shadow:0 3px 10px rgba(45,95,45,0.25)">`
-        : `<div class="avatar">${name.charAt(0).toUpperCase()}</div>`;
-      ph.innerHTML = `${avatarHtml}<h1>${name}</h1><p class="tagline">${currentUser.email} <span class="cloud-badge">☁ 雲端同步</span></p>`;
-    } else {
-      ph.innerHTML = `<div class="avatar">K</div><h1>訪客</h1>
-        <p class="tagline">學習紀錄保存在此裝置</p>
-        <button onclick="openLoginModal()" class="btn-primary" style="margin-top:12px;font-size:13px;padding:9px 20px">登入以啟用雲端同步</button>`;
-    }
-  }
-  const acc=state.totalDone>0?Math.round(state.totalCorrect/state.totalDone*100):0;
-  document.getElementById('me-stats').innerHTML=`
-    <div class="stat-card"><div class="stat-card-label">總練習題數</div><div class="stat-card-num">${state.totalDone}</div><div class="stat-card-sub">累計答題</div></div>
-    <div class="stat-card"><div class="stat-card-label">答對題數</div><div class="stat-card-num">${state.totalCorrect}</div><div class="stat-card-sub">正確率 ${state.totalDone?acc+'%':'—'}</div></div>
-    <div class="stat-card"><div class="stat-card-label">最長連勝</div><div class="stat-card-num">${state.maxStreak}</div><div class="stat-card-sub">連續答對紀錄</div></div>
-    <div class="stat-card"><div class="stat-card-label">當前連勝</div><div class="stat-card-num">${state.streak}</div><div class="stat-card-sub">目前狀態</div></div>`;
-  // 我的收藏 section
-  const bmHost = document.getElementById('me-bookmarks');
-  if (bmHost) {
-    const bmSet = getBookmarkSet();
-    if (!cloud.isLoggedIn()) {
-      bmHost.className = 'panel-empty';
-      bmHost.innerHTML = '登入後才能收藏考試。<a onclick="openLoginModal()" style="color:var(--accent);font-weight:600;cursor:pointer">立即登入</a>';
-    } else if (!bmSet.size) {
-      bmHost.className = 'panel-empty';
-      bmHost.innerHTML = '還沒收藏任何考試。去 <a href="#/catalog" style="color:var(--accent);font-weight:600">考試目錄</a> 點右上角 ⭐ 開始收藏。';
-    } else {
-      const bmExams = [...bmSet].map(id => exams.find(e=>e.id===id)).filter(Boolean);
-      bmHost.className = '';
-      bmHost.innerHTML = `<div class="exam-grid">${bmExams.map(e => examCardHTML(e, bmSet)).join('')}</div>`;
-      bmHost.querySelectorAll('.bookmark-btn').forEach(btn => {
-        btn.onclick = (ev) => { ev.stopPropagation(); toggleBookmark(btn.dataset.examId); };
-      });
-      bmHost.querySelectorAll('.exam-card').forEach(card => {
-        card.onclick = (ev) => {
-          if (ev.target.closest('.bookmark-btn')) return;
-          if (ev.target.closest('a')) return;
-          pushRecentViewed(card.dataset.examId);
-          nav('exam/'+card.dataset.examId);
-        };
-      });
-    }
-  }
-
-  // 設定區：清除本機紀錄 + 登入/登出按鈕
-  const settings = document.getElementById('me-settings');
-  if (settings) {
-    const hasLocal = state.totalDone > 0 || state.recentExams.length > 0;
-    const clearBtn = hasLocal
-      ? `<button class="btn-secondary" style="font-size:13px" onclick="resetProgress()">清除本機學習紀錄</button>`
-      : `<button class="btn-secondary" style="font-size:13px;opacity:0.5;cursor:not-allowed" disabled title="沒有可清除的本機紀錄">清除本機學習紀錄</button>`;
-    const authBtn = currentUser
-      ? `<button class="btn-secondary" style="font-size:13px" onclick="signOut()">登出</button>`
-      : `<button class="btn-secondary" style="font-size:13px" onclick="openLoginModal()">登入 / 註冊</button>`;
-    settings.innerHTML = `<div style="display:flex;gap:10px;flex-wrap:wrap">${authBtn}${clearBtn}</div>
-      ${currentUser ? '' : '<p style="font-size:12px;color:var(--text-tertiary);margin-top:10px;line-height:1.6">未登入時練習紀錄僅保存在這台裝置。登入後可在不同裝置間同步收藏與答題紀錄。</p>'}`;
-  }
-
-  const rec=document.getElementById('me-recent');
-  if(!state.recentExams.length){rec.className='panel-empty';rec.innerHTML='還沒有紀錄，<a href="#/catalog" style="color:var(--accent);font-weight:600">去選一個考試</a>開始吧！';return;}
-  rec.className='';
-  rec.innerHTML=state.recentExams.map(r=>{
-    const d=new Date(r.ts);const color=r.score>=80?'var(--correct)':r.score>=60?'var(--warning)':'var(--wrong)';
-    const route = (r.kind === 'subject') ? ('subject/'+r.id) : ('exam/'+r.id);
-    return `<div style="display:flex;align-items:center;gap:12px;padding:12px 0;border-top:1px solid var(--border-light);cursor:pointer" onclick="nav('${route}')">
-      <div style="width:38px;height:38px;border-radius:9px;background:${color};color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px;flex-shrink:0">${r.score}</div>
-      <div><div style="font-size:14px;font-weight:600">${r.name}</div><div style="font-size:12px;color:var(--text-tertiary)">${d.getMonth()+1}/${d.getDate()} · ${r.score}/100 分 · ${r.total} 題</div></div>
-      <span style="margin-left:auto;color:var(--text-tertiary)">→</span></div>`;
-  }).join('');
+// ===== ME Dashboard =====
+const TARGET_EXAM_KEY = 'kaonow_target_exam';
+function loadTargetExam() {
+  try {
+    const raw = localStorage.getItem(TARGET_EXAM_KEY);
+    if (!raw) return null;
+    const t = JSON.parse(raw);
+    if (!t || !t.examId) return null;
+    return t;
+  } catch (e) { return null; }
 }
+function saveTargetExam(examId, examDate) {
+  try {
+    localStorage.setItem(TARGET_EXAM_KEY, JSON.stringify({ examId, examDate: examDate || null, ts: Date.now() }));
+  } catch (e) {}
+}
+function clearTargetExam() {
+  try { localStorage.removeItem(TARGET_EXAM_KEY); } catch (e) {}
+}
+function getUserFirstName() {
+  if (!currentUser) return '';
+  const meta = currentUser.user_metadata || {};
+  const name = meta.full_name || meta.name || currentUser.email.split('@')[0];
+  return name.split(' ')[0];
+}
+function daysBetween(dateStr) {
+  try {
+    const d = new Date(dateStr + 'T00:00:00');
+    if (isNaN(d.getTime())) return null;
+    const now = new Date();
+    now.setHours(0,0,0,0);
+    return Math.ceil((d - now) / 86400000);
+  } catch (e) { return null; }
+}
+function formatExamDate(dateStr) {
+  try {
+    const d = new Date(dateStr + 'T00:00:00');
+    if (isNaN(d.getTime())) return dateStr;
+    const wk = ['週日','週一','週二','週三','週四','週五','週六'][d.getDay()];
+    return `${d.getFullYear()} / ${String(d.getMonth()+1).padStart(2,'0')} / ${String(d.getDate()).padStart(2,'0')}（${wk}）`;
+  } catch (e) { return dateStr; }
+}
+
+async function renderMe() {
+  // ── 未登入：顯示 guest view ──
+  if (!currentUser) {
+    document.getElementById('me-view-dashboard').style.display = 'none';
+    document.getElementById('me-view-empty').style.display = 'none';
+    document.getElementById('me-view-guest').style.display = '';
+    return;
+  }
+  document.getElementById('me-view-guest').style.display = 'none';
+
+  const firstName = getUserFirstName();
+  const target = loadTargetExam();
+
+  // ── 未設定目標考試：空狀態 ──
+  if (!target || !target.examId) {
+    document.getElementById('me-view-dashboard').style.display = 'none';
+    document.getElementById('me-view-empty').style.display = '';
+    const g = document.getElementById('me-greeting-empty');
+    if (g) g.textContent = firstName ? `嗨 ${firstName}` : '嗨';
+    // 第一次登入尚未關閉彈窗 → 自動彈出
+    try {
+      const dismissedKey = 'kaonow_welcome_dismissed';
+      if (!localStorage.getItem(dismissedKey)) {
+        openWelcomeModal(false);
+      }
+    } catch (e) {}
+    return;
+  }
+
+  // ── 有目標考試：完整 dashboard ──
+  document.getElementById('me-view-empty').style.display = 'none';
+  document.getElementById('me-view-dashboard').style.display = '';
+
+  const greeting = document.getElementById('me-greeting');
+  if (greeting) greeting.textContent = firstName ? `嗨 ${firstName}，今天繼續囉` : '嗨，今天繼續囉';
+
+  // Widget 1: 目標考試 header bar
+  const exam = exams.find(e => e.id === target.examId);
+  const examName = exam ? exam.name : target.examId;
+  const days = target.examDate ? daysBetween(target.examDate) : null;
+  const bar = document.getElementById('me-target-bar');
+  bar.innerHTML = `
+    <div class="me-target-left">
+      <div class="me-target-icon">📋</div>
+      <div>
+        <div class="me-target-label">目標考試</div>
+        <div class="me-target-name">${examName}</div>
+      </div>
+    </div>
+    <div class="me-target-right">
+      ${target.examDate ? `
+        <div class="me-target-date">
+          <div class="me-target-label">考試日期</div>
+          <div style="font-size:13px;font-weight:500;color:var(--dash-ink-700)">${formatExamDate(target.examDate)}</div>
+        </div>
+        <div class="me-target-sep"></div>
+        <div class="me-target-days">
+          <div class="me-target-label">距離考試</div>
+          <div class="me-target-days-num">${days !== null && days >= 0 ? days : '—'}<small>天</small></div>
+        </div>
+      ` : `
+        <div class="me-target-date">
+          <div class="me-target-label">考試日期</div>
+          <a onclick="openWelcomeModal(true)" style="font-size:13px;color:var(--dash-brand-dark);cursor:pointer;text-decoration:underline">設定日期</a>
+        </div>
+      `}
+    </div>
+  `;
+
+  // Widget 2: 繼續上次練習
+  try {
+    const lastRaw = localStorage.getItem(LAST_EXAM_KEY);
+    const sub = document.getElementById('me-continue-sub');
+    if (lastRaw) {
+      const last = JSON.parse(lastRaw);
+      const lastExam = exams.find(e => e.id === last.examId);
+      if (sub && lastExam) sub.textContent = `最近練習：${lastExam.name}`;
+    } else if (sub) {
+      sub.textContent = `尚未開始練習，從 ${examName} 開始`;
+    }
+  } catch (e) {}
+
+  // Widget 3 & 4：讀取 chapter_progress / exam_progress
+  const progressHost = document.getElementById('me-progress');
+  const weakHost = document.getElementById('me-weak');
+  progressHost.innerHTML = `<div style="font-size:13px;color:var(--dash-ink-500);padding:4px 0">載入中…</div>`;
+  weakHost.innerHTML = `<div style="font-size:13px;color:var(--dash-ink-500);padding:4px 0">載入中…</div>`;
+
+  try {
+    const uid = currentUser.id;
+    const [cpR, epR] = await Promise.all([
+      fetch(`${SUPA_URL}/rest/v1/chapter_progress?user_id=eq.${uid}&exam_id=eq.${target.examId}&select=chapter_id,total_attempts,correct_attempts`,
+        { headers: { apikey: SUPA_KEY, Authorization: 'Bearer ' + SUPA_KEY }}).then(r => r.json()).catch(() => []),
+      fetch(`${SUPA_URL}/rest/v1/exam_progress?user_id=eq.${uid}&exam_id=eq.${target.examId}&select=total_attempts,correct_attempts,last_practiced_at`,
+        { headers: { apikey: SUPA_KEY, Authorization: 'Bearer ' + SUPA_KEY }}).then(r => r.json()).catch(() => [])
+    ]);
+    const cp = Array.isArray(cpR) ? cpR : [];
+    const ep = Array.isArray(epR) && epR.length ? epR[0] : null;
+
+    // Widget 3: 總進度
+    // 用 exam_progress.total_attempts / 該考試題庫總題數
+    const examTotalQ = exam?.totalQuestions || exam?.question_count || null;
+    const doneCount = ep?.total_attempts || 0;
+    const pct = examTotalQ ? Math.min(100, Math.round(doneCount / examTotalQ * 100)) : null;
+    progressHost.innerHTML = `
+      <div class="me-progress-top">
+        <div>
+          <div class="me-eyebrow">總進度</div>
+          <div class="me-progress-nums">
+            <span class="big">${doneCount}</span>
+            <span class="small">${examTotalQ ? '/ ' + examTotalQ + ' 題' : '題'}</span>
+            ${pct !== null ? `<span class="me-chip">${pct}%</span>` : ''}
+          </div>
+        </div>
+        <div class="me-progress-meta">
+          <div>累計答對 <b>${ep?.correct_attempts || 0}</b> 題</div>
+          ${ep?.last_practiced_at ? `<div style="margin-top:2px">最近練習：${new Date(ep.last_practiced_at).toLocaleDateString('zh-TW')}</div>` : ''}
+        </div>
+      </div>
+      <div class="me-progress-track"><div class="me-progress-bar" style="width:${pct || 0}%"></div></div>
+    `;
+
+    // Widget 4: 弱點章節 TOP 3
+    const weak = cp
+      .filter(r => (r.total_attempts || 0) >= 3)
+      .map(r => ({
+        id: r.chapter_id,
+        total: r.total_attempts,
+        correct: r.correct_attempts,
+        pct: Math.round((r.correct_attempts / r.total_attempts) * 100)
+      }))
+      .sort((a, b) => a.pct - b.pct)
+      .slice(0, 3);
+    if (!weak.length) {
+      weakHost.innerHTML = `
+        <div class="me-weak-head">
+          <div>
+            <div class="me-eyebrow">弱點章節</div>
+            <h3>還沒有足夠資料</h3>
+          </div>
+        </div>
+        <div style="font-size:13px;color:var(--dash-ink-500);line-height:1.6">
+          至少練過每章 3 題以後，這裡會顯示需要加強的章節。<br>
+          <a onclick="nav('exam/${target.examId}')" style="color:var(--dash-brand-dark);cursor:pointer;text-decoration:underline">前往練習 →</a>
+        </div>`;
+    } else {
+      const colors = ['#c85d48','#e8923b','#caa23c'];
+      weakHost.innerHTML = `
+        <div class="me-weak-head">
+          <div>
+            <div class="me-eyebrow">弱點章節</div>
+            <h3>這${weak.length === 1 ? '章' : weak.length + '章'}需要多練</h3>
+          </div>
+          <a class="me-weak-link" onclick="nav('exam/${target.examId}')">看全部</a>
+        </div>
+        <ul class="me-weak-list">
+          ${weak.map((w, i) => {
+            const chNum = (w.id || '').split('-ch').pop() || '?';
+            return `<li class="me-weak-item">
+              <div class="me-weak-idx i${i+1}">${i+1}</div>
+              <div class="me-weak-row">
+                <div class="me-weak-top">
+                  <span class="me-weak-name">第 ${chNum} 章</span>
+                  <span class="me-weak-pct" style="color:${colors[i]}">${w.pct}%</span>
+                </div>
+                <div class="me-weak-bar"><span style="width:${w.pct}%;background:${colors[i]}"></span></div>
+              </div>
+            </li>`;
+          }).join('')}
+        </ul>`;
+    }
+  } catch (e) {
+    console.error('[renderMe] progress/weak load failed:', e);
+    progressHost.innerHTML = `<div style="font-size:13px;color:var(--dash-ink-500);padding:4px 0">載入進度失敗</div>`;
+    weakHost.innerHTML = `<div style="font-size:13px;color:var(--dash-ink-500);padding:4px 0">載入章節資料失敗</div>`;
+  }
+
+  // Widget 5: 重點複習（錯題 + 收藏）
+  const reviewHost = document.getElementById('me-review');
+  try {
+    const uid = currentUser.id;
+    const [wrongR, bmR] = await Promise.all([
+      fetch(`${SUPA_URL}/rest/v1/question_attempts?user_id=eq.${uid}&exam_id=eq.${target.examId}&is_correct=eq.false&select=question_id`,
+        { headers: { apikey: SUPA_KEY, Authorization: 'Bearer ' + SUPA_KEY, Prefer: 'count=exact', Range: '0-0' }}).catch(() => null),
+      fetch(`${SUPA_URL}/rest/v1/bookmarks?user_id=eq.${uid}&exam_id=eq.${target.examId}&select=question_id`,
+        { headers: { apikey: SUPA_KEY, Authorization: 'Bearer ' + SUPA_KEY, Prefer: 'count=exact', Range: '0-0' }}).catch(() => null)
+    ]);
+    const wrongCount = wrongR ? parseInt((wrongR.headers.get('content-range') || '0/0').split('/')[1]) || 0 : 0;
+    const bmCount = bmR ? parseInt((bmR.headers.get('content-range') || '0/0').split('/')[1]) || 0 : 0;
+    reviewHost.innerHTML = `
+      <div class="me-review-head">
+        <div class="me-eyebrow">重點複習</div>
+        <h3>等你回來看</h3>
+      </div>
+      <div class="me-review-items">
+        <div class="me-review-item">
+          <div class="me-review-item-left">
+            <div class="me-review-item-ic" style="color:#c85d48">✗</div>
+            <span class="me-review-item-label">未訂正錯題</span>
+          </div>
+          <span class="me-review-item-num">${wrongCount}</span>
+        </div>
+        <div class="me-review-item">
+          <div class="me-review-item-left">
+            <div class="me-review-item-ic" style="color:#e8a33b">★</div>
+            <span class="me-review-item-label">我的收藏</span>
+          </div>
+          <span class="me-review-item-num">${bmCount}</span>
+        </div>
+      </div>
+      <button class="me-review-cta" onclick="nav('review')">進入重點複習 →</button>
+    `;
+  } catch (e) {
+    reviewHost.innerHTML = `
+      <div class="me-review-head"><h3>重點複習</h3></div>
+      <button class="me-review-cta" onclick="nav('review')">進入重點複習 →</button>
+    `;
+  }
+
+  // Footnote（預留給未來的「今日目標」進度條）
+  const fn = document.getElementById('me-footnote');
+  if (fn) fn.textContent = '';
+}
+
+// ── Welcome modal ───────────────────────────────────────────
+function openWelcomeModal(isSwitching) {
+  const m = document.getElementById('welcome-modal');
+  if (!m) return;
+  m.style.display = 'flex';
+  document.body.style.overflow = 'hidden';
+  const title = document.getElementById('welcome-title');
+  const sub = document.getElementById('welcome-sub');
+  if (isSwitching) {
+    title.textContent = '切換目標考試';
+    sub.textContent = '重新設定目標考試與日期，學習 dashboard 會跟著更新。';
+  } else {
+    title.textContent = '歡迎加入 KaoNow 👋';
+    sub.textContent = '告訴我們你要考什麼、什麼時候考，我們陪你倒數每一天。';
+  }
+  // pre-fill 如果已有目標
+  const cur = loadTargetExam();
+  const input = document.getElementById('welcome-exam-input');
+  const dateIn = document.getElementById('welcome-exam-date');
+  const selHost = document.getElementById('welcome-exam-selected');
+  if (cur && cur.examId) {
+    const exam = exams.find(e => e.id === cur.examId);
+    if (exam) {
+      window._welcomeSelectedExam = exam;
+      input.value = '';
+      selHost.style.display = 'flex';
+      selHost.innerHTML = `<span>✓ ${exam.name}</span><button class="clear" onclick="clearWelcomeSelection()">更換</button>`;
+    }
+    if (cur.examDate) dateIn.value = cur.examDate;
+  } else {
+    window._welcomeSelectedExam = null;
+    input.value = '';
+    selHost.style.display = 'none';
+    dateIn.value = '';
+  }
+  validateWelcomeSubmit();
+  setTimeout(() => input.focus(), 100);
+}
+function closeWelcomeModal() {
+  const m = document.getElementById('welcome-modal');
+  if (!m) return;
+  m.style.display = 'none';
+  document.body.style.overflow = '';
+  // 記下「關閉過」以免 renderMe 再自動彈出
+  try { localStorage.setItem('kaonow_welcome_dismissed', '1'); } catch (e) {}
+  const listEl = document.getElementById('welcome-exam-list');
+  if (listEl) listEl.classList.remove('open');
+}
+function onWelcomeExamSearch() {
+  const input = document.getElementById('welcome-exam-input');
+  const list = document.getElementById('welcome-exam-list');
+  if (!input || !list) return;
+  const q = input.value.trim().toLowerCase();
+  // 用既有的 exams 全域陣列
+  const pool = (typeof exams !== 'undefined' && Array.isArray(exams)) ? exams : [];
+  let matches;
+  if (!q) {
+    matches = pool.slice(0, 30);
+  } else {
+    matches = pool.filter(e =>
+      (e.name || '').toLowerCase().includes(q) ||
+      (e.shortName || '').toLowerCase().includes(q) ||
+      (e.issuer || '').toLowerCase().includes(q)
+    ).slice(0, 30);
+  }
+  if (!matches.length) {
+    list.innerHTML = `<div class="ex-empty">找不到符合的考試</div>`;
+  } else {
+    list.innerHTML = matches.map(e => {
+      const cat = examCategories && examCategories.find(c => c.id === e.categoryId);
+      return `<div class="ex-item" onclick="pickWelcomeExam('${e.id}')">
+        <div>${e.name}</div>
+        ${cat ? `<div class="ex-cat">${cat.name}</div>` : ''}
+      </div>`;
+    }).join('');
+  }
+  list.classList.add('open');
+}
+function pickWelcomeExam(examId) {
+  const exam = exams.find(e => e.id === examId);
+  if (!exam) return;
+  window._welcomeSelectedExam = exam;
+  const input = document.getElementById('welcome-exam-input');
+  const list = document.getElementById('welcome-exam-list');
+  const selHost = document.getElementById('welcome-exam-selected');
+  input.value = '';
+  list.classList.remove('open');
+  selHost.style.display = 'flex';
+  selHost.innerHTML = `<span>✓ ${exam.name}</span><button class="clear" onclick="clearWelcomeSelection()">更換</button>`;
+  validateWelcomeSubmit();
+}
+function clearWelcomeSelection() {
+  window._welcomeSelectedExam = null;
+  const selHost = document.getElementById('welcome-exam-selected');
+  if (selHost) { selHost.style.display = 'none'; selHost.innerHTML = ''; }
+  const input = document.getElementById('welcome-exam-input');
+  if (input) input.focus();
+  validateWelcomeSubmit();
+}
+function validateWelcomeSubmit() {
+  const btn = document.getElementById('welcome-submit');
+  if (!btn) return;
+  btn.disabled = !window._welcomeSelectedExam;
+}
+function submitWelcomeTarget() {
+  const exam = window._welcomeSelectedExam;
+  if (!exam) { showToast('請先選擇目標考試'); return; }
+  const date = document.getElementById('welcome-exam-date').value;
+  saveTargetExam(exam.id, date || null);
+  try { localStorage.setItem('kaonow_welcome_dismissed', '1'); } catch (e) {}
+  closeWelcomeModal();
+  showToast('目標考試已設定');
+  renderMe();
+}
+// 點擊 modal 外部關閉搜尋結果
+document.addEventListener('click', (ev) => {
+  const list = document.getElementById('welcome-exam-list');
+  const wrap = ev.target.closest('.welcome-search-wrap');
+  if (list && !wrap) list.classList.remove('open');
+});
+
 async function resetProgress(){
   const isLoggedIn = !!currentUser;
   const msg = isLoggedIn

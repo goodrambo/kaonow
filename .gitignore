@@ -58,3 +58,15 @@ content/sql/**
 
 # payment integration notes (contains merchant id discussion)
 payment/
+
+# 內部工作筆記 / session handoff / 驗證報告（不公開）
+MEMORY.md
+SESSION_*.md
+*-report.md
+explanation-pilot-*.md
+
+# 題目解析生成產物（中間檔，最終會寫回 DB，不進版控）
+explanations/
+
+# Logo 設計草稿（只保留最終採用版，歷次稿不公開）
+logo-v*.svg
