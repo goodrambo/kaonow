@@ -1858,7 +1858,7 @@ supa.auth.onAuthStateChange(async (event, session) => {
     // 登入後重繪目前頁，收藏狀態才會更新
     if (typeof router === 'function') {
       const h = location.hash || '';
-      if (h.startsWith('#/catalog')) renderCatalog();
+      if (h.startsWith('#/catalog') || h.startsWith('#/category')) renderCatalog();
       else if (h.startsWith('#/me')) renderMe();
       else if (h === '' || h === '#/' || h.startsWith('#/home')) renderHome();
     }
@@ -2133,7 +2133,7 @@ function rerenderAfterAuth() {
   if (!currentUser) return;
   const h = location.hash || '';
   if (h.startsWith('#/me')) { if (typeof renderMe === 'function') renderMe(); }
-  else if (h.startsWith('#/catalog')) { if (typeof renderCatalog === 'function') renderCatalog(); }
+  else if (h.startsWith('#/catalog') || h.startsWith('#/category')) { if (typeof renderCatalog === 'function') renderCatalog(); }
   else if (h.startsWith('#/review')) { if (typeof renderReview === 'function') renderReview(); }
   else if (h === '' || h === '#/' || h.startsWith('#/home')) { if (typeof renderHome === 'function') renderHome(); }
 }
@@ -2692,12 +2692,32 @@ function router(){
   const page=parts[0], arg=parts[1];
   document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));
   document.querySelectorAll('.header-nav a[data-nav]').forEach(a=>{
-    a.classList.toggle('active',a.dataset.nav===page||(page==='exam'&&a.dataset.nav==='catalog'));
+    a.classList.toggle('active',a.dataset.nav===page||(page==='exam'&&a.dataset.nav==='catalog')||(page==='category'&&a.dataset.nav==='catalog'));
   });
   document.getElementById('header-nav').classList.remove('open');
   switch(page){
     case 'home': document.getElementById('screen-home').classList.add('active'); renderHome(); break;
-    case 'catalog': document.getElementById('screen-catalog').classList.add('active'); renderCatalog(); break;
+    case 'catalog': {
+      document.getElementById('screen-catalog').classList.add('active');
+      state.catalogFilter = (arg === 'bookmark') ? '__bookmark' : 'all';
+      state.catalogSubFilter = null;
+      state.catalogSearch = '';
+      const inp = document.getElementById('catalog-search-input');
+      if (inp) inp.value = '';
+      renderCatalog();
+      break;
+    }
+    case 'category': {
+      if (!arg) { nav('catalog'); return; }
+      document.getElementById('screen-catalog').classList.add('active');
+      state.catalogFilter = arg;
+      state.catalogSubFilter = null;
+      state.catalogSearch = '';
+      const inp = document.getElementById('catalog-search-input');
+      if (inp) inp.value = '';
+      renderCatalog();
+      break;
+    }
     case 'exam': if(!arg){nav('catalog');return;} state.currentExamId=arg; document.getElementById('screen-exam').classList.add('active'); renderExam(arg); break;
     case 'subject': if(!arg){nav('catalog');return;} state.currentSubjectId=arg; document.getElementById('screen-subject').classList.add('active'); renderSubject(arg); break;
     case 'quiz': document.getElementById('screen-quiz').classList.add('active'); break;
@@ -2731,7 +2751,7 @@ async function renderHome(){
     const count=exams.filter(e=>e.categoryId===cat.id).length;
     const el=document.createElement('div');
     el.className='category-card';
-    el.onclick=()=>{state.catalogFilter=cat.id;state.catalogSubFilter=null;state.catalogSearch='';nav('catalog')};
+    el.onclick=()=>nav('category/'+cat.id);
     el.innerHTML=`
       <div class="category-icon" style="background:${cat.color};color:${cat.tc}">${cat.icon}</div>
       <div class="category-name">${cat.name}</div>
@@ -3065,12 +3085,7 @@ function renderCatalog(){
     sections.querySelectorAll('.tile').forEach(tile => {
       tile.onclick = () => {
         if (tile.dataset.nav) { nav(tile.dataset.nav); return; }
-        if (tile.dataset.filter) {
-          state.catalogFilter = tile.dataset.filter;
-          state.catalogSubFilter = null; state.catalogSearch = '';
-          renderCatalog(); window.scrollTo({top:0,behavior:'smooth'});
-          return;
-        }
+        if (tile.dataset.filter === '__bookmark') { nav('catalog/bookmark'); return; }
         if (tile.dataset.scroll === 'hot') {
           const el = document.getElementById('catalog-hot');
           if (el) el.scrollIntoView({behavior:'smooth', block:'start'});
@@ -3078,11 +3093,7 @@ function renderCatalog(){
       };
     });
     sections.querySelectorAll('.cat-card').forEach(card => {
-      card.onclick = () => {
-        state.catalogFilter = card.dataset.catId;
-        state.catalogSubFilter = null; state.catalogSearch = '';
-        renderCatalog(); window.scrollTo({top:0,behavior:'smooth'});
-      };
+      card.onclick = () => nav('category/' + card.dataset.catId);
     });
     sections.querySelectorAll('.hot-grid .bookmark-btn').forEach(btn => {
       btn.onclick = (ev) => { ev.stopPropagation(); toggleBookmark(btn.dataset.examId); };
@@ -3118,15 +3129,7 @@ function renderCatalog(){
     <span class="count">${crumbCount}</span>
   </div>`;
   const backBtn = document.getElementById('catalog-crumb-back');
-  if (backBtn) backBtn.onclick = () => {
-    state.catalogFilter = 'all';
-    state.catalogSubFilter = null;
-    state.catalogSearch = '';
-    const inp2 = document.getElementById('catalog-search-input');
-    if (inp2) inp2.value = '';
-    renderCatalog();
-    window.scrollTo({top:0, behavior:'smooth'});
-  };
+  if (backBtn) backBtn.onclick = () => nav('catalog');
 
   // ── 主清單 ──
   const grid = document.getElementById('catalog-grid');
@@ -3233,7 +3236,7 @@ async function toggleBookmark(examId) {
     if (!r.ok) console.warn('[addExamBookmark]', r);
   }
   // 重繪目前頁
-  if (state.route === 'catalog' || location.hash.startsWith('#/catalog')) renderCatalog();
+  if (state.route === 'catalog' || location.hash.startsWith('#/catalog') || location.hash.startsWith('#/category')) renderCatalog();
   if (location.hash.startsWith('#/home') || location.hash === '' || location.hash === '#/') renderHome();
   if (location.hash.startsWith('#/me')) renderMe();
 }
