@@ -4014,21 +4014,28 @@ function _renderSubjectPickerContent() {
   });
 
   const subjEl = document.getElementById('spk-subjects');
+  const hasTracks = tracks.length > 0;
   if (subjEl) {
     subjEl.innerHTML = sorted.map(row => {
       const s = row.subject || {};
       const name = s.name || row.subject_id;
       const isCommon = row.track_name === null;
-      const badge = isCommon
-        ? '<span class="subj-badge common">共同</span>'
-        : '<span class="subj-badge pro">專業</span>';
-      const meta = row.track_name ? `類科：${row.track_name}` : '跨類科共同科目';
+      // 只在真的有多類科時才顯示 共同/專業 區分（否則語意模糊）
+      const badge = hasTracks
+        ? (isCommon
+            ? '<span class="subj-badge common" style="position:static;margin-right:6px">共同</span>'
+            : '<span class="subj-badge pro" style="position:static;margin-right:6px">專業</span>')
+        : '';
+      const meta = hasTracks
+        ? (row.track_name ? `類科：${row.track_name}` : '跨類科共同科目')
+        : (s.description || '');
       return `
-        <div class="chapter-item" onclick="pickSubjectAndStart('${row.subject_id}')" style="cursor:pointer">
+        <div class="chapter-item" onclick="pickSubjectAndStart('${row.subject_id}')" style="cursor:pointer;position:relative">
           <div style="flex:1;min-width:0">
-            ${badge}
-            <div class="chapter-title" style="margin-top:4px">${name}</div>
-            <div class="chapter-meta">${meta}</div>
+            <div style="display:flex;align-items:center;flex-wrap:wrap">
+              ${badge}<span class="chapter-title">${name}</span>
+            </div>
+            ${meta ? `<div class="chapter-meta" style="margin-top:3px">${meta}</div>` : ''}
           </div>
           <span style="color:var(--accent);font-weight:600;flex-shrink:0">開始 →</span>
         </div>`;
@@ -4102,12 +4109,16 @@ function _examPageSections(exam, es, news, flags) {
           `).join('')}
         </div>
       </div>` : '';
+    const hasTracks = tracks.length > 0;
     const subjectCards = sorted.map(row => {
       const s = row.subject || {};
       const isCommon = row.track_name === null;
-      const badge = isCommon
-        ? '<span class="subj-badge common">共同</span>'
-        : '<span class="subj-badge pro">專業</span>';
+      // 只有真的有多類科時才顯示 共同/專業 badge
+      const badge = hasTracks
+        ? (isCommon
+            ? '<span class="subj-badge common">共同</span>'
+            : '<span class="subj-badge pro">專業</span>')
+        : '';
       const name = s.name || row.subject_id;
       const desc = (s.description || '').replace(/"/g,'&quot;');
       return `
