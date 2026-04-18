@@ -524,8 +524,9 @@ html{scroll-padding-top:calc(var(--header-h) + 16px)}
 #kn-paywall-modal .kn-paywall-close{text-align:center;font-size:13px;color:var(--text-tertiary,#999);cursor:pointer;padding:8px}
 #kn-paywall-modal .kn-paywall-close:hover{color:var(--text-secondary)}
 
-/* Hide logged-in nav items by default (JS shows them post-auth) to avoid FOUC */
-[data-when="logged-in"]{display:none}
+/* Hide nav items until JS resolves auth state (avoid FOUC). Gated by .auth-ready
+   on <html> so JS can fully take over with explicit inline display values. */
+html:not(.auth-ready) [data-when]{display:none}
 
 /* ==================== ME Dashboard (new) ==================== */
 #screen-me{--dash-brand-dark:#1f5e3a;--dash-brand:#2a7a4a;--dash-brand-soft:#e8f2ec;--dash-brand-softer:#f3f9f5;--dash-ink-900:#0f1d16;--dash-ink-700:#334c3f;--dash-ink-500:#667a6e;--dash-ink-300:#a5b4ac;--dash-line:#e6ebe7;--dash-bg:#f7f8f6}
@@ -1835,6 +1836,8 @@ function updateAuthUI() {
   document.querySelectorAll('[data-when="logged-out"]').forEach(el => {
     el.style.display = isLoggedIn ? 'none' : '';
   });
+  // Lift FOUC guard now that inline display is set authoritatively
+  document.documentElement.classList.add('auth-ready');
   if (currentUser) {
     loginBtn.style.display = 'none';
     userPillWrap.style.display = 'flex';
