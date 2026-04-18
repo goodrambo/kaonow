@@ -2158,6 +2158,17 @@ const billing = (() => {
 })();
 window.billing = billing;
 
+// ───── Legal page TOC anchor (delegate clicks so SPA hash routing isn't broken) ─────
+document.addEventListener('click', (e) => {
+  const a = e.target.closest('.legal-toc a[href^="#"]');
+  if (!a) return;
+  const id = a.getAttribute('href').slice(1);
+  const target = document.getElementById(id);
+  if (!target) return;
+  e.preventDefault();
+  target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+});
+
 // ───── Cookie Consent ─────
 const cookieConsent = (() => {
   const LS_KEY = 'kaonow_cookie_consent';
