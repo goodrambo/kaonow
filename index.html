@@ -981,7 +981,7 @@ html:not(.auth-ready) [data-when]{display:none}
       </div>
     </div>
     <div class="welcome-footer">
-      <button class="welcome-skip" onclick="closeWelcomeModal()">先不設定</button>
+      <button class="welcome-skip" onclick="skipWelcomeModal()">先不設定</button>
       <button class="welcome-submit" id="welcome-submit" onclick="submitWelcomeTarget()">開始備考 →</button>
     </div>
   </div>
@@ -4378,6 +4378,8 @@ async function renderMe() {
 function openWelcomeModal(isSwitching) {
   const m = document.getElementById('welcome-modal');
   if (!m) return;
+  // Track mode so the "先不設定" skip button knows whether to clear existing target
+  window._welcomeIsSwitching = !!isSwitching;
   m.style.display = 'flex';
   document.body.style.overflow = 'hidden';
   const title = document.getElementById('welcome-title');
@@ -4421,6 +4423,22 @@ function closeWelcomeModal() {
   try { localStorage.setItem('kaonow_welcome_dismissed', '1'); } catch (e) {}
   const listEl = document.getElementById('welcome-exam-list');
   if (listEl) listEl.classList.remove('open');
+}
+// 「先不設定」按鈕：切換模式下清掉既有目標考試＋日期後再關閉
+function skipWelcomeModal() {
+  const wasSwitching = !!window._welcomeIsSwitching;
+  if (wasSwitching) {
+    clearTargetExam();
+    window._welcomeSelectedExam = null;
+  }
+  closeWelcomeModal();
+  if (wasSwitching) {
+    // 立刻重繪 dashboard 成未設定目標狀態
+    if (location.hash.startsWith('#/me') && typeof renderMe === 'function') {
+      try { renderMe(); } catch (e) { console.warn('[skipWelcomeModal] renderMe failed:', e); }
+    }
+    if (typeof showToast === 'function') showToast('已清除目標考試');
+  }
 }
 function onWelcomeExamSearch() {
   const input = document.getElementById('welcome-exam-input');
