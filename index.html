@@ -417,6 +417,9 @@ html{scroll-padding-top:calc(var(--header-h) + 16px)}
 .panel{background:var(--surface);border:1px solid var(--border-light);border-radius:var(--radius-lg);padding:20px;margin-bottom:16px}
 .panel h2{font-size:16px;font-weight:700;margin-bottom:12px}
 .panel-empty{padding:28px 0;text-align:center;color:var(--text-tertiary);font-size:14px}
+.bookmark-item{padding:12px 14px;border:1px solid var(--border-light);border-radius:10px;margin-bottom:8px;background:var(--surface);transition:background .15s,border-color .15s}
+.bookmark-item[onclick]:hover{background:var(--surface-subtle,#f8fafc);border-color:var(--accent)}
+.bookmark-q{font-size:14px;line-height:1.55;color:var(--text)}
 .placeholder-card{background:var(--surface);border:1.5px dashed var(--border);border-radius:var(--radius-lg);padding:48px 24px;text-align:center}
 .placeholder-card .emoji{font-size:36px;margin-bottom:12px;display:block}
 .placeholder-card h3{font-size:17px;font-weight:700;margin-bottom:6px}
@@ -428,6 +431,71 @@ html{scroll-padding-top:calc(var(--header-h) + 16px)}
 .site-footer a{color:var(--accent)}
 .footer-links{display:flex;gap:16px;justify-content:center;margin-top:10px;flex-wrap:wrap}
 .footer-links a:hover{color:var(--accent)}
+
+/* LEGAL DOCS（服務條款 / 隱私權政策 / 聯絡我們） */
+.legal-doc{padding:40px 44px;line-height:1.85;font-size:15px;color:var(--text)}
+.legal-doc > :first-child{margin-top:0}
+.legal-doc h2{font-size:19px;font-weight:700;margin:36px 0 14px;letter-spacing:-0.2px;color:var(--text);scroll-margin-top:80px}
+.legal-doc h3{font-size:15px;font-weight:700;margin:22px 0 8px;color:var(--text-secondary)}
+.legal-doc p{margin:0 0 12px}
+.legal-doc p + p{margin-top:-2px}
+.legal-doc ul,.legal-doc ol{margin:8px 0 16px;padding-left:22px}
+.legal-doc li{margin-bottom:8px}
+.legal-doc li::marker{color:var(--text-tertiary)}
+.legal-doc strong{font-weight:700;color:var(--text)}
+.legal-doc a{color:var(--accent);word-break:break-all}
+.legal-doc .legal-meta{color:var(--text-tertiary);font-size:13px;margin:0 0 28px;padding-bottom:20px;border-bottom:1px solid var(--border-light)}
+.legal-doc .legal-toc{background:var(--info-bg,#f0f6ff);border:1px solid var(--border-light);border-radius:10px;padding:16px 20px;margin:0 0 32px;font-size:14px}
+.legal-doc .legal-toc-title{font-size:12px;font-weight:700;letter-spacing:1px;color:var(--text-tertiary);margin-bottom:10px;text-transform:uppercase}
+.legal-doc .legal-toc ol{margin:0;padding-left:20px;columns:2;column-gap:24px}
+.legal-doc .legal-toc li{margin-bottom:4px;break-inside:avoid}
+.legal-doc .legal-toc a{color:var(--text-secondary);text-decoration:none}
+.legal-doc .legal-toc a:hover{color:var(--accent);text-decoration:underline}
+.legal-doc .legal-callout{background:var(--info-bg,#f0f6ff);border-left:3px solid var(--accent);border-radius:8px;padding:14px 18px;margin:16px 0;font-size:14px;line-height:1.75}
+.legal-doc .legal-callout strong{display:block;margin-bottom:4px}
+.legal-doc .legal-divider{height:1px;background:var(--border-light);margin:32px 0;border:0}
+.legal-doc table{width:100%;border-collapse:collapse;margin:12px 0 18px;font-size:14px}
+.legal-doc th,.legal-doc td{border:1px solid var(--border-light);padding:10px 12px;text-align:left;vertical-align:top}
+.legal-doc th{background:var(--info-bg,#f0f6ff);font-weight:700;font-size:13px}
+@media(max-width:720px){
+  .legal-doc{padding:28px 22px;font-size:14.5px}
+  .legal-doc h2{font-size:17px;margin:28px 0 12px}
+  .legal-doc .legal-toc ol{columns:1}
+}
+
+/* COOKIE CONSENT BANNER */
+.cookie-banner{position:fixed;left:16px;right:16px;bottom:16px;max-width:980px;margin:0 auto;background:var(--surface);border:1px solid var(--border);border-radius:14px;box-shadow:0 12px 40px rgba(15,23,42,.16),0 2px 8px rgba(15,23,42,.08);padding:20px 22px;z-index:9000;display:none;flex-wrap:wrap;gap:16px;align-items:center}
+.cookie-banner.show{display:flex}
+.cookie-banner .cb-body{flex:1 1 320px;min-width:0;font-size:14px;line-height:1.7;color:var(--text-secondary)}
+.cookie-banner .cb-body strong{display:block;font-size:15px;color:var(--text);margin-bottom:4px;font-weight:700}
+.cookie-banner .cb-body a{color:var(--accent)}
+.cookie-banner .cb-actions{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.cookie-banner .cb-btn{border:0;border-radius:8px;padding:10px 18px;font-size:14px;font-weight:600;cursor:pointer;font-family:inherit;white-space:nowrap;transition:opacity .15s,background .15s}
+.cookie-banner .cb-btn:hover{opacity:.88}
+.cookie-banner .cb-btn-primary{background:var(--accent);color:#fff}
+.cookie-banner .cb-btn-secondary{background:transparent;color:var(--text-secondary);border:1px solid var(--border)}
+.cookie-banner .cb-btn-link{background:transparent;color:var(--text-tertiary);padding:10px 8px;font-size:13px;font-weight:500}
+.cookie-prefs-backdrop{position:fixed;inset:0;background:rgba(15,23,42,.5);z-index:9500;display:none;align-items:center;justify-content:center;padding:20px}
+.cookie-prefs-backdrop.show{display:flex}
+.cookie-prefs{background:var(--surface);border-radius:16px;max-width:520px;width:100%;max-height:90vh;overflow:auto;padding:28px}
+.cookie-prefs h3{font-size:20px;font-weight:700;margin:0 0 6px}
+.cookie-prefs > p{font-size:14px;color:var(--text-secondary);line-height:1.7;margin:0 0 20px}
+.cookie-prefs .cp-row{padding:14px 0;border-top:1px solid var(--border-light);display:flex;justify-content:space-between;gap:14px;align-items:flex-start}
+.cookie-prefs .cp-row:first-of-type{border-top:0}
+.cookie-prefs .cp-row-main{flex:1;min-width:0}
+.cookie-prefs .cp-row-title{font-size:14.5px;font-weight:700;margin-bottom:4px}
+.cookie-prefs .cp-row-desc{font-size:13px;color:var(--text-secondary);line-height:1.65}
+.cookie-prefs .cp-required{font-size:12px;color:var(--text-tertiary);padding:4px 10px;border:1px solid var(--border);border-radius:999px;white-space:nowrap}
+.cookie-prefs .cp-toggle{position:relative;width:40px;height:22px;background:var(--border);border-radius:999px;cursor:pointer;flex-shrink:0;transition:background .2s}
+.cookie-prefs .cp-toggle::after{content:'';position:absolute;left:2px;top:2px;width:18px;height:18px;background:#fff;border-radius:50%;box-shadow:0 1px 3px rgba(0,0,0,.2);transition:left .2s}
+.cookie-prefs .cp-toggle.on{background:var(--accent)}
+.cookie-prefs .cp-toggle.on::after{left:20px}
+.cookie-prefs .cp-actions{display:flex;gap:8px;justify-content:flex-end;margin-top:22px;flex-wrap:wrap}
+@media(max-width:640px){
+  .cookie-banner{left:12px;right:12px;bottom:12px;padding:16px 18px}
+  .cookie-banner .cb-actions{width:100%;justify-content:stretch}
+  .cookie-banner .cb-btn,.cookie-banner .cb-btn-link{flex:1;text-align:center}
+}
 
 /* RESPONSIVE */
 @media(max-width:760px){
@@ -1054,13 +1122,257 @@ html:not(.auth-ready) [data-when]{display:none}
   </div>
 </section>
 
+<!-- TERMS -->
+<section id="screen-terms" class="screen">
+  <div class="container" style="max-width:780px">
+    <div class="page-head"><h1>服務條款</h1><p>適用於所有使用 KaoNow 考NOW 服務之使用者</p></div>
+    <div class="panel legal-doc">
+      <p class="legal-meta">最後更新日期：2026 年 4 月 19 日 · 生效日：2026 年 4 月 19 日</p>
+
+      <div class="legal-toc">
+        <div class="legal-toc-title">章節目錄</div>
+        <ol>
+          <li><a href="#terms-1">關於本服務</a></li>
+          <li><a href="#terms-2">帳號註冊與使用</a></li>
+          <li><a href="#terms-3">付費方案與退訂</a></li>
+          <li><a href="#terms-4">題庫與內容</a></li>
+          <li><a href="#terms-5">智慧財產權</a></li>
+          <li><a href="#terms-6">使用者行為規範</a></li>
+          <li><a href="#terms-7">服務變更與中止</a></li>
+          <li><a href="#terms-8">免責聲明與責任限制</a></li>
+          <li><a href="#terms-9">條款修改</a></li>
+          <li><a href="#terms-10">準據法與管轄法院</a></li>
+          <li><a href="#terms-11">聯絡我們</a></li>
+        </ol>
+      </div>
+
+      <h2 id="terms-1">1. 關於本服務</h2>
+      <p>歡迎使用 KaoNow 考NOW（以下簡稱「本服務」）。本服務由 KaoNow 團隊（以下簡稱「我們」）經營，提供台灣各類證照、公職、語言及升學考試的題庫、練習、模擬考與學習進度追蹤等線上備考功能。</p>
+      <p>使用本服務前，請您仔細閱讀本條款全部內容。<strong>當您註冊帳號、訂閱付費方案或實際使用本服務時，即視為您已閱讀、理解並同意受本條款拘束</strong>；若您不同意本條款之任何部分，請勿使用本服務。</p>
+
+      <h2 id="terms-2">2. 帳號註冊與使用</h2>
+      <p>您可選擇以訪客身分瀏覽公開內容，或註冊帳號以使用完整學習功能。註冊時請提供真實、正確的資料，並妥善保管您的登入資訊與驗證連結；因帳號管理不當（如將帳號密碼告知他人、使用不安全的網路環境等）所生之損失，由您自行負責。</p>
+      <p>若您為未滿 20 歲之限制行為能力人，請於法定代理人同意並陪同下使用本服務；若您為未滿 7 歲之無行為能力人，不得使用本服務。</p>
+      <p>我們保留於您違反本條款、法令、公序良俗或影響其他使用者權益時，以書面、電子郵件或站內通知之方式，限制或終止您帳號使用之權利。</p>
+
+      <h2 id="terms-3">3. 付費方案與退訂</h2>
+      <p>本服務提供免費版、單科方案、完整方案等訂閱方案，實際價格、週期與功能內容以本服務網站所示為準。付款流程委託第三方金流服務商<strong>綠界科技股份有限公司</strong>處理；本服務不蒐集、不儲存您的信用卡號或金融帳戶資料。</p>
+      <p>訂閱採「先付費後使用」並自動續約模式，您可於任一期間屆滿前自行取消訂閱，以避免下一期自動扣款。</p>
+
+      <div class="legal-callout">
+        <strong>關於 7 日鑑賞期</strong>
+        依《消費者保護法》第 19 條及<em>通訊交易解除權合理例外情事適用準則</em>第 2 條規定，線上即時提供、一經啟用無法返還之數位內容與線上服務，於消費者事先同意下得為鑑賞期之例外。<strong>您完成付款並啟用訂閱服務時，即表示同意放棄 7 日鑑賞期</strong>；除法令另有規定或本服務有重大瑕疵者外，已開通之週期費用恕不退還。
+      </div>
+
+      <h2 id="terms-4">4. 題庫與內容</h2>
+      <p>本服務提供之題目、解析與學習資料來源說明如下：</p>
+      <ul>
+        <li><strong>官方考古題：</strong>源自各主管機關公開釋出之歷屆試題，屬政府著作，依著作權法得為非營利重製使用，解析文字為本服務原創。</li>
+        <li><strong>AI 生成題：</strong>由大型語言模型依該考試之法規範圍與訓練知識生成，每題均有「🤖 AI 生成題」標示，可能與最新修法有小幅落差。</li>
+      </ul>
+      <p>所有題目、解析與學習資料<strong>僅供備考練習參考之用</strong>，不保證與未來實際考試題目或官方標準答案完全一致；應試之標準以各發證機關、考選機關當次公告為準。若您發現題目或答案有誤，歡迎透過站內檢舉功能或 <a href="mailto:admin@kaonow.com">admin@kaonow.com</a> 與我們聯繫，我們將儘速核實處理。</p>
+
+      <h2 id="terms-5">5. 智慧財產權</h2>
+      <p>本服務之介面設計、程式碼、自製題目、原創解析、圖示、文案、品牌商標等，其著作權、商標權及相關智慧財產權歸本服務或原始權利人所有，並受中華民國《著作權法》、《商標法》及相關法令保護。</p>
+      <p>除法令另有規定或本服務另行書面授權外，<strong>未經事前書面同意，請勿複製、改作、公開傳輸、散布、出租、販售或用於商業用途</strong>。</p>
+      <p>您於本服務發表之使用者內容（如評論、檢舉等），著作權仍歸您所有；惟您同意授予本服務於提供服務必要範圍內之非專屬、無償、可轉授權之使用權。</p>
+
+      <h2 id="terms-6">6. 使用者行為規範</h2>
+      <p>使用本服務時，您同意不從事下列任一行為：</p>
+      <ul>
+        <li>以爬蟲、自動化程式、多重帳號等方式大量擷取本服務內容或繞過使用限制；</li>
+        <li>刻意干擾、破壞本服務正常運作，或以反向工程等方式嘗試取得原始碼；</li>
+        <li>規避、破解本服務之付費機制或權限控管；</li>
+        <li>上傳、散布違法、色情、暴力、誹謗或侵害他人權益之內容；</li>
+        <li>冒用他人身分、偽造帳號資料或共用帳號以逃避付費；</li>
+        <li>其他違反法令、公序良俗或本條款之行為。</li>
+      </ul>
+
+      <h2 id="terms-7">7. 服務變更與中止</h2>
+      <p>本服務得因業務、技術、法令變動或不可抗力事件（如天災、戰爭、電信中斷、政府命令等）之需要，隨時新增、修改、暫停或終止全部或部分服務之提供。若該變動將實質影響您已購買之付費方案權益，我們將於變動前 7 日內以電子郵件或站內公告通知；您得於通知到達後 30 日內請求按未使用期間比例退還已繳費用。</p>
+
+      <h2 id="terms-8">8. 免責聲明與責任限制</h2>
+      <p>本服務內容係為協助備考而提供，<strong>不構成任何法律、投資、醫療或其他專業建議</strong>。使用本服務所得之學習結果因人而異，本服務不對特定考試之通過率、錄取率或任何學習成效作出任何明示或默示之擔保。</p>
+      <p>於法令容許之最大範圍內，本服務對您或任何第三方因使用、無法使用本服務所生之間接、衍生、懲罰性損害（包括但不限於利潤損失、資料遺失等）概不負責；本服務就本條款所負賠償責任之總額，以您於請求事由發生前 12 個月內實際支付予本服務之費用為上限。</p>
+
+      <h2 id="terms-9">9. 條款修改</h2>
+      <p>本服務保留隨時修改本條款之權利。<strong>如有重大變更（例如付費條件、責任限制條款之修改），我們將於生效日前至少 7 日，以電子郵件或站內通知方式告知</strong>；其餘非重大調整將即時公告於本頁面並更新「最後更新日期」。若您於修改生效後繼續使用本服務，視為同意修改後之條款；若您不同意，應停止使用本服務。</p>
+
+      <h2 id="terms-10">10. 準據法與管轄法院</h2>
+      <p>本條款之解釋與適用，以及因本條款所生之爭議，均以<strong>中華民國法律</strong>為準據法（不含其涉外民事法律適用法之規定）。因本服務所生之訴訟，雙方合意以<strong>臺灣臺北地方法院</strong>為第一審管轄法院，但不影響消費者依《消費者保護法》或其他法令應有之訴訟權益。</p>
+
+      <h2 id="terms-11">11. 聯絡我們</h2>
+      <p>若您對本條款有任何疑問、爭議或權利行使之需求，請來信：<a href="mailto:admin@kaonow.com">admin@kaonow.com</a>，我們將於 7 個工作天內回覆。</p>
+    </div>
+  </div>
+</section>
+
+<!-- PRIVACY -->
+<section id="screen-privacy" class="screen">
+  <div class="container" style="max-width:780px">
+    <div class="page-head"><h1>隱私權政策</h1><p>我們如何蒐集、處理、利用與保護您的個人資料</p></div>
+    <div class="panel legal-doc">
+      <p class="legal-meta">最後更新日期：2026 年 4 月 19 日 · 生效日：2026 年 4 月 19 日</p>
+
+      <div class="legal-toc">
+        <div class="legal-toc-title">章節目錄</div>
+        <ol>
+          <li><a href="#priv-1">政策宗旨與適用範圍</a></li>
+          <li><a href="#priv-2">蒐集之個人資料類別</a></li>
+          <li><a href="#priv-3">蒐集目的與法定特定目的代號</a></li>
+          <li><a href="#priv-4">利用期間、地區、對象及方式</a></li>
+          <li><a href="#priv-5">境外傳輸</a></li>
+          <li><a href="#priv-6">您對個人資料的權利</a></li>
+          <li><a href="#priv-7">Cookie 與瀏覽器儲存</a></li>
+          <li><a href="#priv-8">資料安全</a></li>
+          <li><a href="#priv-9">兒童與未成年人隱私</a></li>
+          <li><a href="#priv-10">政策修訂</a></li>
+          <li><a href="#priv-11">聯絡方式</a></li>
+        </ol>
+      </div>
+
+      <h2 id="priv-1">1. 政策宗旨與適用範圍</h2>
+      <p>KaoNow 考NOW（以下簡稱「本服務」）重視您的個人資料保護。本政策依中華民國《個人資料保護法》（下稱「個資法」）及其施行細則制定，說明您在使用本服務時，本服務如何蒐集、處理、利用與保護您的個人資料。</p>
+      <p>本政策適用於本服務網站（kaonow.com 及相關子網域）及其行動裝置介面；不適用於本服務連結之外部第三方網站或 App，請您於使用時另行參閱其隱私權政策。</p>
+
+      <h2 id="priv-2">2. 蒐集之個人資料類別</h2>
+      <p>本服務僅於提供服務所必要之範圍內，蒐集下列類別之個人資料：</p>
+      <ul>
+        <li><strong>帳號識別資料：</strong>電子郵件、顯示名稱、頭像；若您透過第三方（Google、Apple 等）登入，會取得該平台提供之公開個人資訊與使用者識別碼。</li>
+        <li><strong>學習行為資料：</strong>練習紀錄、答題結果、收藏題目、錯題紀錄、目標考試、考試日期、學習進度等。</li>
+        <li><strong>付費交易資料：</strong>訂閱方案、訂單編號、付款狀態、發票資訊（如有）。<strong>本服務不蒐集、不儲存您的信用卡號、金融帳戶或其他金融認證資料</strong>，該等資訊由綠界科技股份有限公司依其隱私權政策處理。</li>
+        <li><strong>裝置與連線資料：</strong>瀏覽器類型與版本、作業系統、裝置型號、螢幕大小、IP 位址、存取時間與連線來源等 Log 資訊。</li>
+        <li><strong>Cookie 與瀏覽器儲存資料：</strong>詳見第 7 節。</li>
+      </ul>
+
+      <h2 id="priv-3">3. 蒐集目的與法定特定目的代號</h2>
+      <p>依個資法施行細則，本服務蒐集您個人資料之特定目的包括：</p>
+      <ul>
+        <li><strong>〇六三</strong> 非公務機關依法定義務所進行個人資料之蒐集處理及利用；</li>
+        <li><strong>〇九〇</strong> 消費者、客戶管理與服務；</li>
+        <li><strong>一三五</strong> 資（通）訊服務；</li>
+        <li><strong>一五七</strong> 調查、統計與研究分析。</li>
+      </ul>
+      <p>具體用途如下：</p>
+      <ul>
+        <li>提供帳號登入、學習進度同步、跨裝置存取等核心功能；</li>
+        <li>產生個人化的弱點分析、模擬考報告與學習建議；</li>
+        <li>處理訂閱、付款、發票、客戶服務與爭議處理；</li>
+        <li>服務品質改善、異常監控、防弊與資訊安全維護；</li>
+        <li>依法令應配合主管機關查詢、調閱之情形。</li>
+      </ul>
+      <p><strong>本服務不會將您的個人資料提供予任何第三方作為行銷用途</strong>。</p>
+
+      <h2 id="priv-4">4. 利用期間、地區、對象及方式</h2>
+      <p><strong>利用期間：</strong>自您建立帳號或首次使用本服務起，至您刪除帳號、依法應銷毀或依您請求停止利用時止。帳號刪除後，為遵守稅務、會計法令之必要，付費交易紀錄可能依法保存至少 5 年。</p>
+      <p><strong>利用對象：</strong>本服務內部授權人員；並基於服務運作必要，於最小必要原則下與下列受委託廠商分享：</p>
+      <table>
+        <tr><th>委外廠商</th><th>用途</th><th>資料範圍</th></tr>
+        <tr><td>Supabase, Inc.</td><td>資料庫、帳號驗證、檔案儲存</td><td>帳號識別、學習行為、付費交易資料</td></tr>
+        <tr><td>綠界科技股份有限公司</td><td>金流處理、發票服務</td><td>訂單編號、付款金額與狀態</td></tr>
+        <tr><td>Anthropic, PBC（Claude API）</td><td>AI 功能之即時推論</td><td>當次 AI 請求之內容，<strong>不用於模型訓練</strong></td></tr>
+      </table>
+      <p><strong>利用方式：</strong>於符合蒐集目的之必要範圍內，以電子檔案或書面方式處理、利用，並採取適當之技術與管理措施以確保資料安全。</p>
+
+      <h2 id="priv-5">5. 境外傳輸</h2>
+      <p>由於本服務使用之雲端基礎設施與 API 服務商（Supabase、Anthropic）伺服器位於<strong>美國、新加坡等中華民國境外地區</strong>，您的個人資料於處理過程中可能被傳輸至該等境外區域。我們已審慎評估上述廠商之資料保護水準，並透過合約條款（含資料處理協議、加密傳輸、存取控制等）確保其提供不低於國內之保護水準。</p>
+      <p>若主管機關（如數位發展部）依個資法第 21 條限制特定境外傳輸，本服務將依指示調整傳輸方式。</p>
+
+      <h2 id="priv-6">6. 您對個人資料的權利</h2>
+      <p>您得依個資法第 3 條規定，就本服務保有您之個人資料，行使下列權利，本服務不得拒絕：</p>
+      <ol>
+        <li>查詢或請求閱覽；</li>
+        <li>請求製給複製本；</li>
+        <li>請求補充或更正；</li>
+        <li>請求停止蒐集、處理或利用；</li>
+        <li>請求刪除。</li>
+      </ol>
+      <p>請來信 <a href="mailto:admin@kaonow.com">admin@kaonow.com</a>，並說明行使權利之類型與必要之身分驗證資訊，我們將於收到請求後 30 日內（必要時得延長 30 日，並以書面通知您）回覆；本服務就查詢或請求閱覽、製給複製本得依法收取必要成本費用。</p>
+      <p>若您請求刪除或停止利用，可能導致本服務部分或全部功能無法繼續使用，此部分風險由您自行承擔。</p>
+
+      <h2 id="priv-7">7. Cookie 與瀏覽器儲存</h2>
+      <p>本服務於您瀏覽時，會透過 Cookie 與瀏覽器 LocalStorage／SessionStorage 儲存必要資料，依用途可分為：</p>
+      <ul>
+        <li><strong>必要性（Necessary）：</strong>維持登入狀態、安全驗證、練習暫存、CSRF 防護等。此類資料為服務運作所必需，無法停用。</li>
+        <li><strong>偏好設定（Preferences）：</strong>記住您選擇的目標考試、收藏、最近瀏覽、主題偏好等，以提供個人化體驗。</li>
+        <li><strong>分析統計（Analytics）：</strong>匿名或經去識別化之使用統計，以協助我們瞭解使用情形並改善產品。</li>
+      </ul>
+      <p>您於首次造訪時可透過 Cookie 同意橫幅選擇「全部同意」、「僅必要」或自訂偏好；您亦得於瀏覽器設定中隨時清除或停用 Cookie、LocalStorage，惟停用後部分功能（如自動登入、學習進度暫存）可能無法正常使用。</p>
+      <p><strong>本服務目前不使用廣告追蹤、跨站 Cookie 或第三方廣告網路。</strong></p>
+
+      <h2 id="priv-8">8. 資料安全</h2>
+      <p>本服務採取下列措施保護您的個人資料：</p>
+      <ul>
+        <li>全站 HTTPS（TLS 1.2 以上）加密傳輸；</li>
+        <li>Supabase Row-Level Security（RLS）存取控制，確保使用者僅能存取自身資料；</li>
+        <li>敏感操作採 Token 驗證與伺服器端簽章（Edge Function）處理；</li>
+        <li>定期備份與異常監控、最小權限原則、存取紀錄保留。</li>
+      </ul>
+      <p>惟網路傳輸與雲端儲存無法保證絕對安全；若發生資料外洩事件，本服務將於知悉後儘速依法令通知您及相關主管機關，並採取必要之補救措施。</p>
+
+      <h2 id="priv-9">9. 兒童與未成年人隱私</h2>
+      <p>本服務主要面向成年備考者。我們不會刻意蒐集 13 歲以下兒童之個人資料；若您為其法定代理人並發現我們誤蒐集相關資料，請來信我們，我們將儘速刪除。</p>
+      <p>未滿 20 歲之限制行為能力人使用本服務並進行付費訂閱，應取得法定代理人之事前同意。</p>
+
+      <h2 id="priv-10">10. 政策修訂</h2>
+      <p>本政策將隨服務演進、法令變動或業務調整而適度修訂。如有重大變更（例如新增蒐集類別、改變委外廠商），我們將於生效日前至少 7 日以電子郵件或站內公告通知您；其餘非重大調整將即時公告於本頁面並更新「最後更新日期」。</p>
+
+      <h2 id="priv-11">11. 聯絡方式</h2>
+      <p>如有任何隱私權相關疑問或權利行使需求，請來信：<a href="mailto:admin@kaonow.com">admin@kaonow.com</a>，我們將儘速回覆。</p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="screen-contact" class="screen">
+  <div class="container" style="max-width:720px">
+    <div class="page-head"><h1>聯絡我們</h1><p>任何建議、題目勘誤、付費問題都歡迎寫信給我們</p></div>
+    <div class="panel legal-doc">
+
+      <h2 style="margin-top:0">📧 客服信箱</h2>
+      <p style="font-size:20px;font-weight:600;margin:4px 0 10px"><a href="mailto:admin@kaonow.com">admin@kaonow.com</a></p>
+      <p style="color:var(--text-secondary);font-size:13.5px;margin-bottom:0">
+        服務時間：週一至週五 10:00–18:00（國定假日除外）<br>
+        一般問題將於 1–3 個工作天內回覆；付費相關問題請附上訂單編號，我們會優先處理。
+      </p>
+
+      <hr class="legal-divider">
+
+      <h2>📝 常見情境</h2>
+      <ul>
+        <li><strong>題目或解析有誤：</strong>來信請附上考試名稱、題號（或題目前 10 字）、選項，以及您認為正確的答案與依據；能附上截圖更好。</li>
+        <li><strong>訂閱與付款：</strong>需退款、發票、切換方案等，請附上<strong>訂單編號</strong>與購買方案名稱；退款請於交易後 7 日內提出申請。</li>
+        <li><strong>帳號異常：</strong>無法登入、資料同步問題，請說明裝置、作業系統、瀏覽器版本，以及錯誤訊息或截圖。</li>
+        <li><strong>資料權利行使：</strong>查詢、更正、刪除個人資料等需求，請參閱<a href="#/privacy">隱私權政策</a>並來信說明。</li>
+        <li><strong>合作與媒體：</strong>歡迎教學機構、補習班、媒體、內容創作者洽談合作。</li>
+      </ul>
+
+      <hr class="legal-divider">
+
+      <h2>🏢 服務營運者</h2>
+      <p>
+        <strong>KaoNow 考NOW 團隊</strong><br>
+        電子郵件：<a href="mailto:admin@kaonow.com">admin@kaonow.com</a><br>
+        網站：<a href="https://kaonow.com">https://kaonow.com</a>
+      </p>
+      <p style="color:var(--text-tertiary);font-size:13px;margin-top:14px">
+        為保障雙方權益，所有往來均以電子郵件為主；請勿透過社群平台私訊傳遞帳號、付款資訊或個人敏感資料。
+      </p>
+    </div>
+  </div>
+</section>
+
 <footer class="site-footer">
   <strong>KaoNow 考NOW</strong>
   備考不拖延，現在就開始 · <a href="https://kaonow.com">kaonow.com</a>
   <div class="footer-links">
     <a href="#/home">首頁</a><a href="#/catalog">考試專區</a><a href="#/pricing">訂閱方案</a><a href="#/me">我的學習</a>
   </div>
-  <div style="margin-top:12px">© 2026 KaoNow. All rights reserved.</div>
+  <div class="footer-links" style="margin-top:6px">
+    <a href="#/terms">服務條款</a><a href="#/privacy">隱私權政策</a><a href="#/contact">聯絡我們</a><a href="javascript:void(0)" onclick="cookieConsent.openPrefs()">Cookie 偏好</a>
+  </div>
+  <div style="margin-top:12px">客服信箱：<a href="mailto:admin@kaonow.com">admin@kaonow.com</a></div>
+  <div style="margin-top:8px">© 2026 KaoNow. All rights reserved.</div>
 </footer>
 
 <script>
@@ -1744,7 +2056,7 @@ const billing = (() => {
     const token = sess?.session?.access_token;
     if (!token) { showToast('登入狀態異常，請重新登入'); return; }
 
-    showToast('轉至綠界支付中...');
+    showToast('正在前往綠界付款…');
     try {
       const res = await fetch(CHECKOUT_ENDPOINT, {
         method: 'POST',
@@ -1756,7 +2068,7 @@ const billing = (() => {
       });
       const body = await res.json();
       if (!res.ok) {
-        showToast('Checkout 失敗：' + (body.error || res.status));
+        showToast('結帳失敗：' + (body.error || res.status));
         return;
       }
       document.open();
@@ -1764,7 +2076,7 @@ const billing = (() => {
       document.close();
     } catch(e) {
       console.error(e);
-      showToast('Checkout 錯誤：' + e.message);
+      showToast('結帳發生錯誤：' + e.message);
     }
   }
 
@@ -1772,7 +2084,7 @@ const billing = (() => {
     const url = new URL(location.href);
     if (url.searchParams.get('payment') !== 'return') return;
     const tradeNo = url.searchParams.get('no');
-    showToast('確認付款狀態中...');
+    showToast('正在確認付款狀態…');
     let attempts = 0;
     const poll = setInterval(async () => {
       attempts++;
@@ -1845,6 +2157,88 @@ const billing = (() => {
   };
 })();
 window.billing = billing;
+
+// ───── Cookie Consent ─────
+const cookieConsent = (() => {
+  const LS_KEY = 'kaonow_cookie_consent';
+  const VERSION = 1; // 遇到重大政策修訂時 +1，會讓舊使用者再次看到橫幅
+  const DEFAULT_PREFS = { preferences: true, analytics: true };
+  let pending = { ...DEFAULT_PREFS };
+
+  function getStored() {
+    try {
+      const raw = JSON.parse(localStorage.getItem(LS_KEY) || 'null');
+      if (!raw || raw.version !== VERSION) return null;
+      return raw;
+    } catch(e) { return null; }
+  }
+
+  function save(prefs, how) {
+    const payload = {
+      version: VERSION,
+      necessary: true,
+      preferences: !!prefs.preferences,
+      analytics: !!prefs.analytics,
+      acceptedAt: new Date().toISOString(),
+      how, // 'all' | 'necessary' | 'custom'
+    };
+    try { localStorage.setItem(LS_KEY, JSON.stringify(payload)); } catch(e) {}
+    hideBanner();
+    closePrefs();
+  }
+
+  function showBanner() {
+    const el = document.getElementById('cookie-banner');
+    if (el) el.classList.add('show');
+  }
+  function hideBanner() {
+    const el = document.getElementById('cookie-banner');
+    if (el) el.classList.remove('show');
+  }
+
+  function openPrefs() {
+    const stored = getStored();
+    pending = stored
+      ? { preferences: !!stored.preferences, analytics: !!stored.analytics }
+      : { ...DEFAULT_PREFS };
+    const p = document.getElementById('cp-toggle-prefs');
+    const a = document.getElementById('cp-toggle-analytics');
+    if (p) p.classList.toggle('on', pending.preferences);
+    if (a) a.classList.toggle('on', pending.analytics);
+    const bd = document.getElementById('cookie-prefs-backdrop');
+    if (bd) bd.classList.add('show');
+  }
+  function closePrefs() {
+    const bd = document.getElementById('cookie-prefs-backdrop');
+    if (bd) bd.classList.remove('show');
+  }
+  function togglePref(key, el) {
+    pending[key] = !pending[key];
+    if (el) el.classList.toggle('on', pending[key]);
+  }
+  function savePrefs() { save(pending, 'custom'); }
+  function acceptAll() { save({ preferences: true, analytics: true }, 'all'); }
+  function acceptNecessary() { save({ preferences: false, analytics: false }, 'necessary'); }
+
+  function init() {
+    const stored = getStored();
+    if (!stored) {
+      // 首次造訪或清除本地資料 → 顯示橫幅
+      setTimeout(showBanner, 600); // 稍後顯示，避免阻擋首屏
+    }
+  }
+
+  // 查詢目前偏好（其他模組可使用，例如未來接分析工具時先判斷）
+  function has(category) {
+    const stored = getStored();
+    if (!stored) return false; // 尚未同意 → 保守處理：視為未同意
+    if (category === 'necessary') return true;
+    return !!stored[category];
+  }
+
+  return { init, showBanner, hideBanner, openPrefs, closePrefs, togglePref, savePrefs, acceptAll, acceptNecessary, has };
+})();
+window.cookieConsent = cookieConsent;
 
 
 supa.auth.onAuthStateChange(async (event, session) => {
@@ -2026,56 +2420,177 @@ function resumeLastQuiz(ev) {
 }
 
 // ── Review & Pricing page stubs ──────────────────────────────
-function renderReview() {
+async function renderReview() {
   const wrongsHost = document.getElementById('review-wrongs');
   const bmHost = document.getElementById('review-bookmarks');
   if (!wrongsHost || !bmHost) return;
-  // 錯題：從 localStorage 裡的 state 抓所有標記為 wrong 的題
+
+  // 未登入：請先登入
+  if (!currentUser) {
+    wrongsHost.className = 'panel-empty';
+    wrongsHost.innerHTML = '登入後這裡會彙整你最近答錯的題目。<br><a style="color:var(--accent);cursor:pointer" onclick="openLoginModal()">立即登入 →</a>';
+    bmHost.className = 'panel-empty';
+    bmHost.innerHTML = '登入後這裡會彙整你收藏的題目。<br><a style="color:var(--accent);cursor:pointer" onclick="openLoginModal()">立即登入 →</a>';
+    return;
+  }
+
+  wrongsHost.className = 'panel-empty';
+  wrongsHost.textContent = '載入中…';
+  bmHost.className = 'panel-empty';
+  bmHost.textContent = '載入中…';
+
+  const uid = currentUser.id;
+  const hdrs = { apikey: SUPA_KEY, Authorization: 'Bearer ' + SUPA_KEY };
+
+  // 小工具：依 question_id 陣列批次抓題幹 / 所屬考試
+  async function fetchQuestions(qids) {
+    if (!qids.length) return {};
+    const uniq = [...new Set(qids)];
+    // 避免 URL 過長，一次 50 筆
+    const chunks = [];
+    for (let i = 0; i < uniq.length; i += 50) chunks.push(uniq.slice(i, i + 50));
+    const map = {};
+    for (const ch of chunks) {
+      const inList = ch.map(encodeURIComponent).join(',');
+      try {
+        const r = await fetch(`${SUPA_URL}/rest/v1/questions_published?id=in.(${inList})&select=id,stem,exam_id,chapter_id`, { headers: hdrs });
+        const rows = await r.json();
+        if (Array.isArray(rows)) rows.forEach(q => { map[q.id] = q; });
+      } catch(e) { console.warn('[renderReview] fetchQuestions chunk failed', e); }
+    }
+    return map;
+  }
+
+  function examNameOf(examId) {
+    if (!examId) return '';
+    const e = exams.find(x => x.id === examId);
+    return e ? e.name : examId;
+  }
+
+  function itemHTML(q, metaRight) {
+    if (!q) return '';
+    const stem = (q.stem || '').replace(/<[^>]+>/g, '').slice(0, 80);
+    const examId = q.exam_id;
+    const name = examNameOf(examId);
+    const onclick = examId ? `onclick="nav('exam/${examId}')" style="cursor:pointer"` : '';
+    return `<div class="bookmark-item" ${onclick}>
+      <div class="bookmark-q">${stem}${stem.length >= 80 ? '…' : ''}</div>
+      <div style="font-size:12px;color:var(--text-tertiary);margin-top:4px;display:flex;justify-content:space-between;gap:8px">
+        <span>${name ? '📋 ' + name : ''}</span>
+        <span>${metaRight || ''}</span>
+      </div>
+    </div>`;
+  }
+
+  // ── 錯題 ──
   try {
-    const wrongs = (state.wrongQuestions && state.wrongQuestions.length)
-      ? state.wrongQuestions.slice(0, 20)
-      : [];
-    if (wrongs.length) {
-      wrongsHost.className = '';
-      wrongsHost.innerHTML = wrongs.map(q =>
-        `<div class="bookmark-item">
-          <div class="bookmark-q">${(q.question || q.stem || '').slice(0, 80)}...</div>
-        </div>`
-      ).join('');
-    } else {
+    const r = await fetch(
+      `${SUPA_URL}/rest/v1/question_attempts?user_id=eq.${uid}&is_correct=eq.false&select=question_id,answered_at&order=answered_at.desc&limit=20`,
+      { headers: hdrs }
+    );
+    const rows = await r.json();
+    const wrongs = Array.isArray(rows) ? rows : [];
+    if (!wrongs.length) {
       wrongsHost.className = 'panel-empty';
       wrongsHost.textContent = '最近沒有錯題，繼續保持！';
+    } else {
+      // 去重：每題只保留最近一筆
+      const seen = new Set();
+      const latest = [];
+      for (const w of wrongs) { if (!seen.has(w.question_id)) { seen.add(w.question_id); latest.push(w); } }
+      const qmap = await fetchQuestions(latest.map(w => w.question_id));
+      const items = latest.slice(0, 10).map(w => {
+        const q = qmap[w.question_id];
+        const d = w.answered_at ? new Date(w.answered_at).toLocaleDateString('zh-TW') : '';
+        return itemHTML(q, d ? '答錯於 ' + d : '');
+      }).filter(Boolean).join('');
+      wrongsHost.className = '';
+      wrongsHost.innerHTML = items || '<div class="panel-empty">題目資料載入中…</div>';
     }
   } catch (e) {
+    console.warn('[renderReview] wrong fetch failed', e);
     wrongsHost.className = 'panel-empty';
-    wrongsHost.textContent = '載入錯題時發生錯誤';
+    wrongsHost.textContent = '載入錯題時發生錯誤，請稍後再試';
   }
-  // 收藏：復用 getBookmarkSet 的資料
+
+  // ── 收藏題目（題目層級，bookmarks 表；非考試層級的 exam_bookmarks）──
   try {
-    const bookmarks = (typeof getBookmarkSet === 'function') ? Array.from(getBookmarkSet()) : [];
-    if (bookmarks.length) {
-      bmHost.className = '';
-      bmHost.innerHTML = `<div style="font-size:14px;color:var(--text-secondary)">共 ${bookmarks.length} 題已收藏</div>`;
-    } else {
+    const r = await fetch(
+      `${SUPA_URL}/rest/v1/bookmarks?user_id=eq.${uid}&select=question_id,created_at&order=created_at.desc&limit=50`,
+      { headers: hdrs }
+    );
+    const rows = await r.json();
+    const bms = Array.isArray(rows) ? rows : [];
+    if (!bms.length) {
       bmHost.className = 'panel-empty';
       bmHost.textContent = '還沒有收藏的題目，在練習時點擊右上角 ⭐ 就可以加入收藏。';
+    } else {
+      const qmap = await fetchQuestions(bms.map(b => b.question_id));
+      const items = bms.slice(0, 20).map(b => {
+        const q = qmap[b.question_id];
+        const d = b.created_at ? new Date(b.created_at).toLocaleDateString('zh-TW') : '';
+        return itemHTML(q, d ? '⭐ 收藏於 ' + d : '⭐ 已收藏');
+      }).filter(Boolean).join('');
+      bmHost.className = '';
+      bmHost.innerHTML = items || '<div class="panel-empty">題目資料載入中…</div>';
     }
   } catch (e) {
+    console.warn('[renderReview] bookmark fetch failed', e);
     bmHost.className = 'panel-empty';
-    bmHost.textContent = '還沒有收藏';
+    bmHost.textContent = '載入收藏時發生錯誤，請稍後再試';
   }
 }
 function renderPricing() {
   const host = document.getElementById('pricing-plans-mount');
-  if (!host || host._rendered) return;
+  if (!host) return;
   // 直接把 home 頁的 pricing-grid clone 過來
   const src = document.querySelector('#screen-home .pricing-grid');
-  if (src) {
-    host.innerHTML = src.outerHTML;
-    host._rendered = true;
-  } else {
+  if (!src) {
     host.innerHTML = '<p style="text-align:center;color:var(--text-secondary)">方案資訊載入中…</p>';
+    return;
   }
+  host.innerHTML = src.outerHTML;
+  // 依登入狀態 / 目前訂閱階層調整 CTA
+  try {
+    const loggedIn = (typeof cloud !== 'undefined') && cloud.isLoggedIn && cloud.isLoggedIn();
+    const tier = loggedIn && typeof billing !== 'undefined' && billing.getTier
+      ? (billing.getTier().tier || 'free') : null; // null = 未登入
+    const ctas = host.querySelectorAll('.price-cta');
+    if (ctas.length >= 3) {
+      const [freeBtn, stdBtn, proBtn] = ctas;
+      const setCurrent = (btn) => {
+        btn.textContent = '目前方案';
+        btn.disabled = true;
+        btn.style.cursor = 'default';
+        btn.style.opacity = '0.6';
+        btn.onclick = null;
+        btn.removeAttribute('onclick');
+      };
+      if (tier === 'free') {
+        setCurrent(freeBtn);
+      } else if (tier === 'standard') {
+        setCurrent(stdBtn);
+        freeBtn.textContent = '已啟用帳號';
+        freeBtn.disabled = true;
+        freeBtn.style.opacity = '0.6';
+        freeBtn.onclick = null;
+        freeBtn.removeAttribute('onclick');
+      } else if (tier === 'pro') {
+        setCurrent(proBtn);
+        freeBtn.textContent = '已啟用帳號';
+        freeBtn.disabled = true;
+        freeBtn.style.opacity = '0.6';
+        freeBtn.onclick = null;
+        freeBtn.removeAttribute('onclick');
+        stdBtn.textContent = '已涵蓋於完整方案';
+        stdBtn.disabled = true;
+        stdBtn.style.opacity = '0.6';
+        stdBtn.onclick = null;
+        stdBtn.removeAttribute('onclick');
+      }
+      // 未登入 tier===null：保留預設按鈕（免費註冊/選購/升級）
+    }
+  } catch (e) { console.warn('[renderPricing] tier adjust failed:', e); }
 }
 
 // ── Toast ────────────────────────────────────────────────────
@@ -2158,6 +2673,8 @@ function bootApp() {
   bootAuth();
   // 啟動 billing：refresh tier 狀態 + 檢查是否從綠界跳回
   try { billing.init(); } catch(e) { console.warn('[billing init fail]', e); }
+  // Cookie 同意橫幅：新裝置或尚未做過選擇時顯示
+  try { cookieConsent.init(); } catch(e) { console.warn('[cookie consent init fail]', e); }
   // 延後一拍：等 DOM / router 啟動後，再檢查是否有未完成的模擬考
   setTimeout(() => { try { checkResumeQuiz(); } catch(e) { console.warn('[resume check fail]', e); } }, 400);
 }
@@ -2742,6 +3259,9 @@ function router(){
     case 'me': document.getElementById('screen-me').classList.add('active'); renderMe(); break;
     case 'review': document.getElementById('screen-review').classList.add('active'); if (typeof renderReview === 'function') renderReview(); break;
     case 'pricing': document.getElementById('screen-pricing').classList.add('active'); if (typeof renderPricing === 'function') renderPricing(); break;
+    case 'terms': { const s=document.getElementById('screen-terms'); if(s){s.classList.add('active');} else {nav('home');return;} break; }
+    case 'privacy': { const s=document.getElementById('screen-privacy'); if(s){s.classList.add('active');} else {nav('home');return;} break; }
+    case 'contact': { const s=document.getElementById('screen-contact'); if(s){s.classList.add('active');} else {nav('home');return;} break; }
     default: document.getElementById('screen-home').classList.add('active'); renderHome();
   }
   window.scrollTo(0,0);
@@ -2796,7 +3316,7 @@ function renderHomePersonal() {
     html += `<div class="section" style="padding-top:28px;padding-bottom:0">
       <div class="section-head" style="margin-bottom:20px">
         <div class="section-label">MY BOOKMARKS</div>
-        <h2 style="font-size:26px">⭐ 我的收藏</h2>
+        <h2 style="font-size:26px">⭐ 關注中的考試</h2>
         <p>你關注的 ${bookmarkExams.length} 個考試，隨時回來繼續</p>
       </div>
       <div class="exam-grid" style="max-width:1100px;margin:0 auto">${bookmarkExams.map(e => examCardHTML(e, bookmarkSet)).join('')}</div>
@@ -3029,14 +3549,14 @@ function renderCatalog(){
          </div>`;
     const bmTile = bmArr.length
       ? `<div class="tile bookmarks" data-filter="__bookmark">
-           <h3>⭐ 我的收藏</h3>
+           <h3>⭐ 關注中的考試</h3>
            <div class="big">${bmArr.length} 個考試</div>
            <div class="sub">${bmNames}${bmArr.length>3?'…':''}</div>
          </div>`
       : `<div class="tile">
-           <h3>⭐ 我的收藏</h3>
+           <h3>⭐ 關注中的考試</h3>
            <div class="big">—</div>
-           <div class="sub">點卡片右上角 ★ 加入收藏</div>
+           <div class="sub">點卡片右上角 ★ 即可關注</div>
          </div>`;
     const recentTile = recentArr.length
       ? `<div class="tile">
@@ -3132,7 +3652,7 @@ function renderCatalog(){
     crumbTitle = `🔍 「${state.catalogSearch}」的搜尋結果`;
     crumbCount = `${list.length} 個結果`;
   } else if (state.catalogFilter === '__bookmark') {
-    crumbTitle = '⭐ 我的收藏';
+    crumbTitle = '⭐ 關注中的考試';
     crumbCount = `${list.length} 個考試`;
   } else {
     const cat = examCategories.find(c => c.id === state.catalogFilter);
@@ -3200,7 +3720,7 @@ function examCardHTML(exam, bookmarkSet) {
   const status = exam.available
     ? '<span class="exam-status ready">● 可練習</span>'
     : ((exam.chapters && exam.chapters.length > 0)
-      ? '<span class="exam-status info">📚 資料完整</span>'
+      ? '<span class="exam-status info">📚 題庫建置中</span>'
       : '<span class="exam-status soon">⏳ 建置中</span>');
   const bookmarked = bookmarkSet && bookmarkSet.has(exam.id);
   const bookmarkBtn = `<button class="bookmark-btn${bookmarked?' active':''}" data-exam-id="${exam.id}" title="${bookmarked?'取消收藏':'加入收藏'}" aria-label="${bookmarked?'取消收藏':'加入收藏'}" aria-pressed="${bookmarked?'true':'false'}">${bookmarked?'★':'☆'}</button>`;
@@ -3571,7 +4091,7 @@ function renderBankPane(exam){
       <span class="q-badge badge-official" style="margin:0 2px">📝 官方考古題</span>
       來自官方釋出歷屆試題；
       <span class="q-badge badge-ai" style="margin:0 2px">🤖 AI 生成題</span>
-      由 Claude 依該考試法規與訓練知識生成，可能與最新修法有小幅落差。
+      由大型語言模型依該考試法規與訓練知識生成，可能與最新修法有小幅落差。
     </div>
   </div>
   <div class="mode-grid">
@@ -3782,7 +4302,7 @@ function renderSubjectBankPane(subj, questions, chapters) {
         <strong>題庫組成</strong>：
         <span class="q-badge badge-official" style="margin:0 2px">📝 官方考古題</span> ${officialInBank} 題 ·
         <span class="q-badge badge-ai" style="margin:0 2px">🤖 AI 生成題</span> ${aiInBank} 題。
-        每題下方會標示來源；AI 生成題由 Claude 依該科法規與訓練知識生成，可能與最新修法有小幅落差。
+        每題下方會標示來源；AI 生成題由大型語言模型依該科法規與訓練知識生成，可能與最新修法有小幅落差。
       </div>
     </div>`;
   const modeGrid = `
@@ -4464,15 +4984,23 @@ async function renderMe() {
     const epArr = Array.isArray(epR) ? epR : [];
     const ep = hasTarget ? (epArr.length ? epArr[0] : null) : null;
     // 無目標時：aggregate 所有 exam_progress 列
-    const totalAttempts = hasTarget
+    let totalAttempts = hasTarget
       ? (ep?.total_attempts || 0)
       : epArr.reduce((s, r) => s + (r.total_attempts || 0), 0);
-    const totalCorrect = hasTarget
+    let totalCorrect = hasTarget
       ? (ep?.correct_attempts || 0)
       : epArr.reduce((s, r) => s + (r.correct_attempts || 0), 0);
     const lastPracticed = hasTarget
       ? ep?.last_practiced_at
       : epArr.map(r => r.last_practiced_at).filter(Boolean).sort().pop();
+
+    // Local fallback：雲端尚未同步完成時（saveSession 是非同步），
+    // 用 state.totalDone / totalCorrect 頂一下，避免剛做完一次測驗看到 0/0
+    // 只在「無目標考試」（聚合全部）時套用，避免跨考試數字誤填
+    if (!hasTarget && totalAttempts === 0 && (state.totalDone || 0) > 0) {
+      totalAttempts = state.totalDone || 0;
+      totalCorrect = state.totalCorrect || 0;
+    }
 
     // Widget 3: 總進度
     const examTotalQ = hasTarget ? (exam?.totalQuestions || exam?.question_count || null) : null;
@@ -4520,15 +5048,20 @@ async function renderMe() {
         .sort((a, b) => a.pct - b.pct)
         .slice(0, 3);
       if (!weak.length) {
+        // 顯示已開始但尚未累積足夠的章節數
+        const started = cp.filter(r => (r.total_attempts || 0) > 0).length;
+        const hint = started > 0
+          ? `目前已練過 ${started} 個章節，每章累積 3 題後就會出現弱點排序。`
+          : `每章練過 3 題以後，這裡會顯示需要加強的章節。`;
         weakHost.innerHTML = `
           <div class="me-weak-head">
             <div>
               <div class="me-eyebrow">弱點章節</div>
-              <h3>還沒有足夠資料</h3>
+              <h3>再多練一點就看得到</h3>
             </div>
           </div>
           <div style="font-size:13px;color:var(--dash-ink-500);line-height:1.6">
-            至少練過每章 3 題以後，這裡會顯示需要加強的章節。<br>
+            ${hint}<br>
             <a onclick="nav('exam/${target.examId}')" style="color:var(--dash-brand-dark);cursor:pointer;text-decoration:underline">前往練習 →</a>
           </div>`;
       } else {
@@ -4824,6 +5357,56 @@ router();
 
 <!-- TOAST -->
 <div class="toast" id="toast"></div>
+
+<!-- COOKIE CONSENT BANNER -->
+<div class="cookie-banner" id="cookie-banner" role="dialog" aria-label="Cookie 使用同意">
+  <div class="cb-body">
+    <strong>🍪 關於 Cookie 與資料儲存</strong>
+    本服務使用 Cookie 與瀏覽器 LocalStorage 維持登入狀態、記住學習偏好，並蒐集去識別化使用統計以改善服務。詳細說明請參閱<a href="#/privacy">隱私權政策</a>。
+  </div>
+  <div class="cb-actions">
+    <button class="cb-btn cb-btn-link" onclick="cookieConsent.openPrefs()">自訂偏好</button>
+    <button class="cb-btn cb-btn-secondary" onclick="cookieConsent.acceptNecessary()">僅必要</button>
+    <button class="cb-btn cb-btn-primary" onclick="cookieConsent.acceptAll()">全部同意</button>
+  </div>
+</div>
+
+<!-- COOKIE PREFERENCES MODAL -->
+<div class="cookie-prefs-backdrop" id="cookie-prefs-backdrop" onclick="if(event.target===this)cookieConsent.closePrefs()">
+  <div class="cookie-prefs" role="dialog" aria-label="Cookie 偏好設定">
+    <h3>Cookie 偏好設定</h3>
+    <p>您可以逐項選擇允許本服務使用之 Cookie 類別。必要性 Cookie 為服務運作所必需，無法停用。</p>
+
+    <div class="cp-row">
+      <div class="cp-row-main">
+        <div class="cp-row-title">必要性 Cookie</div>
+        <div class="cp-row-desc">維持登入狀態、練習暫存、安全驗證。停用將導致服務無法運作。</div>
+      </div>
+      <span class="cp-required">必要</span>
+    </div>
+
+    <div class="cp-row">
+      <div class="cp-row-main">
+        <div class="cp-row-title">偏好設定 Cookie</div>
+        <div class="cp-row-desc">記住目標考試、收藏、主題偏好，提供個人化體驗。</div>
+      </div>
+      <div class="cp-toggle on" id="cp-toggle-prefs" onclick="cookieConsent.togglePref('preferences', this)"></div>
+    </div>
+
+    <div class="cp-row">
+      <div class="cp-row-main">
+        <div class="cp-row-title">分析統計 Cookie</div>
+        <div class="cp-row-desc">匿名使用行為分析，協助改善產品；不含個人識別資訊，不用於廣告。</div>
+      </div>
+      <div class="cp-toggle on" id="cp-toggle-analytics" onclick="cookieConsent.togglePref('analytics', this)"></div>
+    </div>
+
+    <div class="cp-actions">
+      <button class="cb-btn cb-btn-secondary" onclick="cookieConsent.closePrefs()">取消</button>
+      <button class="cb-btn cb-btn-primary" onclick="cookieConsent.savePrefs()">儲存偏好</button>
+    </div>
+  </div>
+</div>
 
 </body>
 </html>
