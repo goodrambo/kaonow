@@ -2068,11 +2068,23 @@ function _showNextToast() {
 }
 
 // ── Init: restore session on page load (wait for DOM) ────────
+// Re-render the currently-active screen after auth resolves, so screens
+// that branch on currentUser (e.g. #/me guest vs dashboard) don't get stuck
+// showing the pre-auth state.
+function rerenderAfterAuth() {
+  if (!currentUser) return;
+  const h = location.hash || '';
+  if (h.startsWith('#/me')) { if (typeof renderMe === 'function') renderMe(); }
+  else if (h.startsWith('#/catalog')) { if (typeof renderCatalog === 'function') renderCatalog(); }
+  else if (h.startsWith('#/review')) { if (typeof renderReview === 'function') renderReview(); }
+  else if (h === '' || h === '#/' || h.startsWith('#/home')) { if (typeof renderHome === 'function') renderHome(); }
+}
 function bootAuth() {
   if (cloud.isLoggedIn()) {
     currentUser = cloud.currentUser();
     updateAuthUI();
     cloud.init();
+    rerenderAfterAuth();
     return;
   }
   (async () => {
@@ -2080,7 +2092,7 @@ function bootAuth() {
       const r = await supa.auth.getSession();
       currentUser = r?.data?.session?.user ?? null;
       updateAuthUI();
-      if (currentUser) await cloud.init();
+      if (currentUser) { await cloud.init(); rerenderAfterAuth(); }
     } catch(e) { console.warn('Auth boot error:', e); updateAuthUI(); }
   })();
 }
