@@ -627,6 +627,37 @@ html{scroll-padding-top:calc(var(--header-h) + 16px)}
 .countdown.warn{background:var(--wrong);animation:pulse 1s infinite}
 @keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.05)}}
 
+/* ── 試用 Banner（註冊送 7 天 Pro 時顯示） ── */
+.trial-banner{
+  background:linear-gradient(90deg, #FFF5E0 0%, #FFE9B8 100%);
+  border-bottom:1px solid #F5D48A;
+  color:#5C4215;font-size:13.5px;line-height:1.5;
+  padding:10px 20px;text-align:center;font-weight:500;
+}
+.trial-banner .tb-label{
+  display:inline-block;background:#D4921A;color:#fff;
+  font-size:11px;font-weight:700;letter-spacing:0.5px;
+  padding:2px 8px;border-radius:4px;margin-right:10px;vertical-align:1px;
+}
+.trial-banner .tb-meta{color:#5C4215;font-weight:600}
+.trial-banner .tb-sep{color:#B89153;margin:0 8px}
+.trial-banner .tb-cta{
+  display:inline-block;margin-left:14px;padding:4px 12px;
+  background:#5C4215;color:#FFF5E0;border-radius:999px;
+  font-size:12px;font-weight:700;text-decoration:none;cursor:pointer;
+  transition:transform 0.15s ease, background 0.15s ease;
+}
+.trial-banner .tb-cta:hover{background:#3D2B0D;transform:translateY(-1px)}
+.trial-banner.urgent{
+  background:linear-gradient(90deg, #FFE4D6 0%, #FFCFB5 100%);
+  border-bottom-color:#F0A278;
+}
+.trial-banner.urgent .tb-label{background:#D55A1A}
+@media (max-width: 640px){
+  .trial-banner{font-size:12.5px;padding:8px 12px}
+  .trial-banner .tb-cta{display:block;margin:6px auto 0;width:fit-content}
+}
+
 /* ── QUIZ MODE CARDS 美化 ── */
 .mode-card{min-height:92px;display:flex;flex-direction:column;gap:4px}
 
@@ -795,6 +826,44 @@ html:not(.auth-ready) [data-when]{display:none}
 .welcome-modal .welcome-submit{background:#1f5e3a;color:#fff;border:none;padding:10px 22px;border-radius:999px;font-weight:600;font-size:14px;cursor:pointer;transition:transform 120ms,box-shadow 120ms}
 .welcome-modal .welcome-submit:hover{transform:translateY(-1px);box-shadow:0 8px 20px rgba(31,94,58,0.22)}
 .welcome-modal .welcome-submit:disabled{opacity:0.5;cursor:not-allowed;transform:none;box-shadow:none}
+
+/* ── 推薦好友頁（#/referral） ───────────────────────────── */
+.ref-hero{background:linear-gradient(135deg,#F3F9F5 0%,#E7F3EC 100%);border:1px solid #CFE4D6;border-radius:var(--radius-lg);padding:28px 24px;margin-bottom:20px}
+.ref-hero-row{display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between}
+.ref-hero-title{font-size:15px;color:#1f5e3a;font-weight:600;margin-bottom:6px}
+.ref-hero-sub{font-size:13px;color:#3e6b4f;line-height:1.6}
+.ref-link-box{display:flex;align-items:stretch;gap:8px;background:#fff;border:1px solid #CFE4D6;border-radius:999px;padding:6px 6px 6px 18px;flex:1 1 320px;min-width:0}
+.ref-link-box input{flex:1;min-width:0;background:transparent;border:none;outline:none;font-size:14px;color:#0f1d16;font-family:'Menlo','Monaco','Courier New',monospace}
+.ref-link-box .ref-copy-btn{background:var(--accent);color:#fff;border:none;padding:8px 18px;border-radius:999px;font-size:13px;font-weight:600;cursor:pointer;white-space:nowrap;transition:background 120ms}
+.ref-link-box .ref-copy-btn:hover{background:var(--accent-hover)}
+.ref-link-box .ref-copy-btn.copied{background:#3a8a5a}
+.ref-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:20px}
+.ref-stat-card{background:var(--surface);border:1px solid var(--border-light);border-radius:var(--radius-lg);padding:20px 16px;text-align:center}
+.ref-stat-num{font-size:28px;font-weight:800;color:#1f5e3a;letter-spacing:-0.5px;line-height:1.1}
+.ref-stat-label{font-size:12.5px;color:var(--text-secondary);margin-top:6px}
+@media(max-width:520px){
+  .ref-stats{grid-template-columns:1fr 1fr;gap:10px}
+  .ref-stat-card:nth-child(3){grid-column:span 2}
+  .ref-stat-num{font-size:24px}
+}
+.ref-how{background:var(--surface);border:1px solid var(--border-light);border-radius:var(--radius-lg);padding:20px 22px;margin-bottom:20px}
+.ref-how h3{font-size:15px;font-weight:700;margin-bottom:10px;color:var(--text)}
+.ref-how ol{margin:0;padding-left:20px;color:var(--text-secondary);font-size:13.5px;line-height:1.85}
+.ref-how li::marker{color:var(--accent);font-weight:700}
+.ref-list{background:var(--surface);border:1px solid var(--border-light);border-radius:var(--radius-lg);padding:18px 22px}
+.ref-list h3{font-size:15px;font-weight:700;margin-bottom:10px;color:var(--text)}
+.ref-row{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 0;border-bottom:1px solid var(--border-light);font-size:13px}
+.ref-row:last-child{border-bottom:none}
+.ref-row-main{color:var(--text);font-weight:500}
+.ref-row-date{color:var(--text-secondary);font-size:12px;margin-top:2px}
+.ref-row-tag{padding:3px 10px;border-radius:999px;font-size:11.5px;font-weight:600;white-space:nowrap}
+.ref-row-tag.tag-registered{background:#FFF4E0;color:#8A5B12}
+.ref-row-tag.tag-rewarded{background:#E7F3EC;color:#1f5e3a}
+.ref-empty{padding:28px 8px;text-align:center;color:var(--text-secondary);font-size:13px}
+.ref-gate{background:var(--surface);border:1px solid var(--border-light);border-radius:var(--radius-lg);padding:32px 24px;text-align:center}
+.ref-gate-title{font-size:17px;font-weight:700;color:var(--text);margin-bottom:8px}
+.ref-gate-sub{font-size:13.5px;color:var(--text-secondary);line-height:1.7;margin-bottom:16px}
+.ref-gate .btn-primary{margin-top:4px}
 </style>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
 <meta name="supabase-url" content="https://myvfboezhnzgovowhaff.supabase.co">
@@ -830,6 +899,7 @@ html:not(.auth-ready) [data-when]{display:none}
             <div class="dropdown-item" onclick="nav('me');toggleDropdown(false)">📊 我的學習</div>
             <div class="dropdown-item" onclick="nav('review');toggleDropdown(false)">⭐ 重點複習</div>
             <div class="dropdown-item" onclick="nav('pricing');toggleDropdown(false)">💎 訂閱方案</div>
+            <div class="dropdown-item" onclick="nav('referral');toggleDropdown(false)">💝 邀請好友拿 14 天</div>
             <div class="dropdown-sep"></div>
             <div class="dropdown-item danger" onclick="signOut()">登出</div>
           </div>
@@ -839,6 +909,9 @@ html:not(.auth-ready) [data-when]{display:none}
     </div>
   </div>
 </header>
+
+<!-- Pro 試用 banner（僅試用中顯示，由 renderTrialBanner() 控制） -->
+<div class="trial-banner" id="trial-banner" style="display:none"></div>
 
 <!-- HOME -->
 <div class="countdown" id="countdown-timer"></div>
@@ -891,6 +964,7 @@ html:not(.auth-ready) [data-when]{display:none}
 
     <div class="section">
       <div class="section-head"><div class="section-label">PRICING</div><h2>選擇適合你的方案</h2><p>免費就能開始刷題，依需求升級解鎖更多功能</p></div>
+      <div style="max-width:720px;margin:0 auto 28px;padding:14px 20px;background:linear-gradient(90deg,#FFF5E0 0%,#FFE9B8 100%);border:1px solid #F5D48A;border-radius:12px;text-align:center;font-size:14px;color:#5C4215;line-height:1.6"><strong style="color:#3D2B0D">🎁 新用戶註冊自動送 7 天 Pro 試用</strong><br><span style="font-size:13px">註冊完成即開通 7 天完整方案體驗（最多 200 題），試用到期自動回到免費版，不會自動扣款</span></div>
       <div class="pricing-grid">
         <div class="price-card">
           <div class="price-name">免費版</div>
@@ -905,12 +979,12 @@ html:not(.auth-ready) [data-when]{display:none}
             <li class="off">模擬考</li>
             <li class="off">AI 弱點分析</li>
           </ul>
-          <button class="price-cta" onclick="openLoginModal()">免費註冊開始</button>
+          <button class="price-cta" onclick="openLoginModal()">免費註冊 · 送 7 天 Pro</button>
         </div>
         <div class="price-card">
           <div class="price-name">標準方案</div>
-          <div class="price-amount">NT$99 <span>/ 月</span></div>
-          <div class="price-period has-discount">季繳 NT$249 <span style="text-decoration:line-through;color:var(--text-tertiary);font-weight:400">NT$297</span> <span class="discount-tag">省 16%</span></div>
+          <div class="price-amount">NT$99 <span>/ 30 天</span></div>
+          <div class="price-period has-discount">90 天 NT$249 <span style="text-decoration:line-through;color:var(--text-tertiary);font-weight:400">NT$297</span> <span class="discount-tag">省 16%</span></div>
           <div class="price-divider"></div>
           <ul class="price-features">
             <li>技術士 + 金融證照無限練習</li>
@@ -926,8 +1000,8 @@ html:not(.auth-ready) [data-when]{display:none}
         <div class="price-card highlight">
           <div class="price-badge">最多功能</div>
           <div class="price-name">完整方案</div>
-          <div class="price-amount">NT$249 <span>/ 月</span></div>
-          <div class="price-period has-discount">季繳 NT$599 <span style="text-decoration:line-through;color:var(--text-tertiary);font-weight:400">NT$747</span> <span class="discount-tag">省 20%</span></div>
+          <div class="price-amount">NT$249 <span>/ 30 天</span></div>
+          <div class="price-period has-discount">90 天 NT$599 <span style="text-decoration:line-through;color:var(--text-tertiary);font-weight:400">NT$747</span> <span class="discount-tag">省 20%</span></div>
           <div class="price-divider"></div>
           <ul class="price-features">
             <li>10 大類考試完整題庫無限練習</li>
@@ -938,7 +1012,7 @@ html:not(.auth-ready) [data-when]{display:none}
             <li>適合跨類別備考者</li>
           </ul>
           <button class="price-cta" onclick="billing.startCheckout('pro_monthly')">升級完整方案</button>
-          <div style="text-align:center;margin-top:10px;font-size:11px;color:var(--text-tertiary)"><a style="color:var(--color-accent);cursor:pointer" onclick="billing.startCheckout('pro_quarterly')">季繳 NT$599（省 20%）</a></div>
+          <div style="text-align:center;margin-top:10px;font-size:11px;color:var(--text-tertiary)"><a style="color:var(--color-accent);cursor:pointer" onclick="billing.startCheckout('pro_quarterly')">90 天 NT$599（省 20%）</a></div>
         </div>
       </div>
     </div>
@@ -1156,6 +1230,19 @@ html:not(.auth-ready) [data-when]{display:none}
   <div class="container">
     <div class="page-head"><h1>訂閱方案</h1><p>免費就能開始刷題，依需求升級解鎖更多功能</p></div>
     <div id="pricing-plans-mount"></div>
+  </div>
+</section>
+
+<!-- REFERRAL -->
+<section id="screen-referral" class="screen">
+  <div class="container" style="max-width:880px">
+    <div class="page-head">
+      <h1>💝 邀請好友，雙方各拿 14 天</h1>
+      <p>把你的專屬連結分享給正在準備考試的朋友。對方首次付費後，你和對方的訂閱各自自動延長 14 天。</p>
+    </div>
+    <div id="referral-mount">
+      <div class="panel-empty" style="padding:40px 20px;text-align:center">讀取中…</div>
+    </div>
   </div>
 </section>
 
@@ -2079,6 +2166,10 @@ const billing = (() => {
     return c + n;
   }
 
+  // 試用額度上限：與 supabase_schema_v13_trial.sql 的 increment_trial_question() 內的 200 一致。
+  // 若要調整，兩邊都要同步改（前端 UI 顯示、後端 RPC 判斷）。
+  const TRIAL_QUOTA = 200;
+
   async function refreshTier() {
     if (!currentUser) {
       localStorage.removeItem(LS_TIER_KEY);
@@ -2086,7 +2177,7 @@ const billing = (() => {
     }
     try {
       const { data: prof } = await supa.from('profiles')
-        .select('current_tier, current_subscription_id')
+        .select('current_tier, current_subscription_id, trial_expires_at, trial_questions_used')
         .eq('id', currentUser.id).maybeSingle();
       const tier = prof?.current_tier || 'free';
       let unlocked_exams = [];
@@ -2100,7 +2191,14 @@ const billing = (() => {
           unlocked_exams = sub.meta?.unlocked_exams || [];
         }
       }
-      const state = { tier, current_period_end, unlocked_exams, fetched_at: Date.now() };
+      const state = {
+        tier,
+        current_period_end,
+        unlocked_exams,
+        trial_expires_at: prof?.trial_expires_at || null,
+        trial_questions_used: prof?.trial_questions_used || 0,
+        fetched_at: Date.now(),
+      };
       localStorage.setItem(LS_TIER_KEY, JSON.stringify(state));
       return state;
     } catch(e) {
@@ -2109,14 +2207,69 @@ const billing = (() => {
     }
   }
 
+  // 回傳 effective tier：
+  //   - 已付費（standard/pro）且未過期 → 原 tier
+  //   - 否則試用中（trial_expires_at > now 且 used < 200）→ 'pro' + isTrial 旗標
+  //   - 否則 → 'free'
+  //
+  // 試用是「覆蓋式」疊加：current_tier 在 DB 仍為 'free'，只在前端 UI 層視為 pro。
+  // 用戶付費後 DB 的 current_tier 會被 webhook 改為 'standard' / 'pro'，試用自然失效。
   function getTier() {
     try {
       const raw = JSON.parse(localStorage.getItem(LS_TIER_KEY) || '{}');
-      if (raw.current_period_end && new Date(raw.current_period_end) < new Date()) {
-        return { tier: 'free' };
+      const paidTier = raw.tier || 'free';
+      if (paidTier !== 'free') {
+        // 付費訂閱過期 → 降回 free，再看試用
+        if (raw.current_period_end && new Date(raw.current_period_end) < new Date()) {
+          // Fall through 到試用判斷（下方）
+        } else {
+          return raw;
+        }
       }
-      return raw;
+      const trialExp = raw.trial_expires_at ? new Date(raw.trial_expires_at) : null;
+      const trialUsed = raw.trial_questions_used || 0;
+      if (trialExp && trialExp > new Date() && trialUsed < TRIAL_QUOTA) {
+        const msLeft = trialExp.getTime() - Date.now();
+        const daysLeft = Math.max(0, Math.ceil(msLeft / (24 * 60 * 60 * 1000)));
+        return {
+          tier: 'pro',
+          isTrial: true,
+          trialDaysLeft: daysLeft,
+          trialQuotaLeft: Math.max(0, TRIAL_QUOTA - trialUsed),
+          trial_expires_at: raw.trial_expires_at,
+          unlocked_exams: [],
+        };
+      }
+      return { tier: 'free' };
     } catch(e) { return { tier: 'free' }; }
+  }
+
+  // 試用中答題時呼叫，透過 RPC 原子遞增 trial_questions_used
+  async function bumpTrialQuota(n = 1) {
+    if (!currentUser) return;
+    const s = getTier();
+    if (!s.isTrial) return; // 只有試用中才打 RPC
+    try {
+      const { data, error } = await supa.rpc('increment_trial_question', { p_count: n });
+      if (error) { console.warn('[billing] bumpTrialQuota failed', error); return; }
+      const row = Array.isArray(data) ? data[0] : data;
+      if (!row) return;
+      // 同步本地 cache
+      const raw = JSON.parse(localStorage.getItem(LS_TIER_KEY) || '{}');
+      raw.trial_questions_used = row.trial_questions_used;
+      raw.trial_expires_at = row.trial_expires_at;
+      localStorage.setItem(LS_TIER_KEY, JSON.stringify(raw));
+      // 剛結束試用 → 提示 + 彈 paywall
+      if (!row.still_in_trial) {
+        if (typeof showToast === 'function') showToast('Pro 試用已用完，升級可繼續無限練習');
+        setTimeout(() => openPaywallModal({ reason: 'trial_ended' }), 800);
+        // 更新 header badge
+        if (typeof renderTrialBanner === 'function') renderTrialBanner();
+      } else {
+        // 還在試用中但數值有變 → 重畫 banner
+        if (typeof renderTrialBanner === 'function') renderTrialBanner();
+      }
+    } catch (e) { console.warn('[billing] bumpTrialQuota exception', e); }
   }
 
   // 標準方案涵蓋範圍：技術士 + 金融證照
@@ -2226,13 +2379,25 @@ const billing = (() => {
   }
 
   // 不同的 gate reason 顯示不同標題與副文案
-  // reason: 'daily_limit_reached' | 'mode_locked' | 'tier_scope'
+  // reason: 'daily_limit_reached' | 'mode_locked' | 'tier_scope' | 'trial_ended'
   function paywallCopy(reason, mode) {
     const modeLabel = ({
       mock: '模擬考',
       weak: '弱點加強',
       ai:   'AI 補充題',
     })[mode] || '此功能';
+    if (reason === 'trial_ended') {
+      return {
+        title: 'Pro 試用已結束',
+        sub: '7 天 / 200 題試用額度已用完。訂閱方案可繼續無限練習，考前衝刺不中斷。',
+      };
+    }
+    if (reason === 'trial_upgrade') {
+      return {
+        title: '選擇適合你的方案',
+        sub: '試用中升級立即生效，不浪費剩餘額度。隨買隨算，不綁月份。',
+      };
+    }
     if (reason === 'mode_locked') {
       return {
         title: `${modeLabel}需要付費方案`,
@@ -2274,18 +2439,18 @@ const billing = (() => {
           ${showStandard ? `
           <div class="kn-paywall-plan">
             <div class="kn-pp-head">標準方案</div>
-            <div class="kn-pp-price">NT$99 <small>/月</small></div>
+            <div class="kn-pp-price">NT$99 <small>/ 30 天</small></div>
             <div class="kn-pp-sub">技術士 + 金融證照 30 天無限練習</div>
             <button onclick="billing.startCheckout('standard_monthly')">立即購買</button>
-            <div class="kn-pp-alt"><a onclick="billing.startCheckout('standard_quarterly')">季繳 NT$249（省 16%）</a></div>
+            <div class="kn-pp-alt"><a onclick="billing.startCheckout('standard_quarterly')">90 天 NT$249（省 16%）</a></div>
           </div>` : ''}
           <div class="kn-paywall-plan kn-pp-highlight">
             <div class="kn-pp-badge">最多功能</div>
             <div class="kn-pp-head">完整方案</div>
-            <div class="kn-pp-price">NT$249 <small>/月</small></div>
+            <div class="kn-pp-price">NT$249 <small>/ 30 天</small></div>
             <div class="kn-pp-sub">10 大類考試 30 天全部無限練習</div>
             <button onclick="billing.startCheckout('pro_monthly')">立即購買</button>
-            <div class="kn-pp-alt"><a onclick="billing.startCheckout('pro_quarterly')">季繳 NT$599（省 20%）</a></div>
+            <div class="kn-pp-alt"><a onclick="billing.startCheckout('pro_quarterly')">90 天 NT$599（省 20%）</a></div>
           </div>
         </div>
         <div class="kn-paywall-close" onclick="document.getElementById('kn-paywall-modal').remove()">之後再說</div>
@@ -2297,11 +2462,14 @@ const billing = (() => {
   async function init() {
     await refreshTier();
     handlePaymentReturn();
+    // 依最新 tier 狀態顯示 / 隱藏試用 banner
+    try { if (typeof renderTrialBanner === 'function') renderTrialBanner(); } catch(e) {}
   }
 
   return {
     canStartQuiz, bumpDailyCount, getDailyCount, getTier,
     refreshTier, startCheckout, openPaywallModal, init,
+    bumpTrialQuota, TRIAL_QUOTA,
     FREE_DAILY_LIMIT,
   };
 })();
@@ -2401,6 +2569,47 @@ const cookieConsent = (() => {
 window.cookieConsent = cookieConsent;
 
 
+// ── 推薦碼捕獲（v14）──────────────────────────────────────
+// 朋友點 ?ref=CODE 的連結進站 → 存 localStorage，等登入/註冊完成後用
+// 在這裡就把 query param 清掉（replaceState），避免被 bookmark 意外帶進來
+(function captureReferralCode() {
+  try {
+    const url = new URL(location.href);
+    const ref = url.searchParams.get('ref');
+    if (ref && /^[A-Z0-9]{4,16}$/i.test(ref)) {
+      // 已有 pending（尚未使用）就保留第一個，避免被新連結覆蓋
+      if (!localStorage.getItem('kaonow_ref_pending')) {
+        localStorage.setItem('kaonow_ref_pending', ref.toUpperCase());
+      }
+      url.searchParams.delete('ref');
+      history.replaceState({}, '', url.toString());
+    }
+  } catch(e) { /* 不阻擋主流程 */ }
+})();
+
+// 嘗試用 pending 推薦碼呼叫 RPC claim_referral
+// 注意：RPC 自己會擋掉「已綁定 / 自己的碼 / referrer 未付費」等情況，回 ok=false + reason
+// 成功後清掉 localStorage；失敗但原因是 already_bound / invalid_code 等「永久拒絕」也清掉
+async function tryClaimReferral() {
+  const code = localStorage.getItem('kaonow_ref_pending');
+  if (!code || !currentUser) return;
+  try {
+    const { data, error } = await supa.rpc('claim_referral', { p_ref_code: code });
+    if (error) { console.warn('[claim_referral] error', error); return; }
+    const row = Array.isArray(data) ? data[0] : data;
+    const reason = row?.reason || '';
+    if (row?.ok) {
+      console.log('[claim_referral] registered under', code);
+      localStorage.removeItem('kaonow_ref_pending');
+    } else if (['already_referred','invalid_code','self_referral','referrer_not_paid'].includes(reason)) {
+      // 永久失敗 → 清掉，避免下次登入重試
+      localStorage.removeItem('kaonow_ref_pending');
+      console.log('[claim_referral] discarded:', reason);
+    }
+    // 其他短期錯誤保留 pending，下次登入再試
+  } catch (e) { console.warn('[claim_referral] exception', e); }
+}
+
 supa.auth.onAuthStateChange(async (event, session) => {
   currentUser = session?.user ?? null;
   if (document.readyState !== 'loading') updateAuthUI();
@@ -2409,11 +2618,14 @@ supa.auth.onAuthStateChange(async (event, session) => {
     await cloud.init();
     if (typeof billing !== 'undefined') await billing.refreshTier();
     if (typeof syncCloudBookmarks === 'function') await syncCloudBookmarks();
+    // v14：若有 pending 推薦碼，嘗試綁定（RPC 內部會處理各種失敗情況）
+    try { await tryClaimReferral(); } catch(e) {}
     // 登入後重繪目前頁，收藏狀態才會更新
     if (typeof router === 'function') {
       const h = location.hash || '';
       if (h.startsWith('#/catalog') || h.startsWith('#/my/bookmarks')) renderCatalog();
       else if (h.startsWith('#/me')) renderMe();
+      else if (h.startsWith('#/referral')) renderReferralPage();
       else if (h === '' || h === '#/' || h.startsWith('#/home')) renderHome();
     }
   }
@@ -2459,6 +2671,38 @@ function updateAuthUI() {
     userPillWrap.style.display = 'none';
     userAvatar.textContent = '';
   }
+  // 登入/登出狀態切換時同步 banner（避免登出後 banner 殘留）
+  try { renderTrialBanner(); } catch(e) {}
+}
+
+// ── Pro 試用 Banner 渲染（v13） ──────────────────────────────
+// 只在試用中用戶顯示；已付費 / 未登入 / 試用結束皆隱藏
+// billing.init() 完成 refreshTier 後會呼叫一次；答題時 bumpTrialQuota 也會重繪
+function renderTrialBanner() {
+  const el = document.getElementById('trial-banner');
+  if (!el) return;
+  if (!currentUser || typeof billing === 'undefined') {
+    el.style.display = 'none';
+    return;
+  }
+  const s = billing.getTier();
+  if (!s.isTrial) {
+    el.style.display = 'none';
+    return;
+  }
+  const days = s.trialDaysLeft;
+  const quota = s.trialQuotaLeft;
+  // 剩 1 天或剩不到 30 題 → 緊迫配色
+  const urgent = (days <= 1) || (quota <= 30);
+  el.className = 'trial-banner' + (urgent ? ' urgent' : '');
+  el.innerHTML = `
+    <span class="tb-label">Pro 試用中</span>
+    <span class="tb-meta">剩 ${days} 天</span>
+    <span class="tb-sep">·</span>
+    <span class="tb-meta">剩 ${quota} 題</span>
+    <a class="tb-cta" onclick="billing.openPaywallModal({reason:'trial_upgrade'})">立刻升級 →</a>
+  `;
+  el.style.display = 'block';
 }
 
 // ── Login modal ──────────────────────────────────────────────
@@ -2753,6 +2997,162 @@ function renderPricing() {
   } catch (e) { console.warn('[renderPricing] tier adjust failed:', e); }
 }
 
+// ── 推薦好友頁（#/referral） ──────────────────────────────
+// 規則（v14）：
+//   1. 未登入 → 提示登入
+//   2. 登入但未付費（含試用中）→ 顯示「需先付費才能邀請」的 CTA
+//   3. 已付費 → 顯示連結 + 統計 + 邀請紀錄
+async function renderReferralPage() {
+  const mount = document.getElementById('referral-mount');
+  if (!mount) return;
+
+  // ── Gate 1：未登入 ──
+  if (!currentUser) {
+    mount.innerHTML = `
+      <div class="ref-gate">
+        <div class="ref-gate-title">請先登入</div>
+        <div class="ref-gate-sub">登入後即可取得你的專屬邀請連結。</div>
+        <button class="btn-primary" onclick="openLoginModal()">登入 / 註冊</button>
+      </div>`;
+    return;
+  }
+
+  // ── Gate 2：未付費 / 試用中 皆不能邀請 ──
+  // 規則：只有「正式付費」且訂閱 active 的用戶可以邀請
+  const tier = (typeof billing !== 'undefined' && billing.getTier) ? billing.getTier() : { tier: 'free' };
+  const isPaid = !tier.isTrial && (tier.tier === 'standard' || tier.tier === 'pro');
+  if (!isPaid) {
+    mount.innerHTML = `
+      <div class="ref-gate">
+        <div class="ref-gate-title">升級後就能邀請好友</div>
+        <div class="ref-gate-sub">為了避免機器人刷單，邀請功能僅限正式付費用戶使用。<br>升級到標準或完整方案，就能把連結分享給朋友，雙方各拿 14 天。</div>
+        <button class="btn-primary" onclick="nav('pricing')">查看方案 →</button>
+      </div>`;
+    return;
+  }
+
+  // ── 讀取統計（RPC）──
+  mount.innerHTML = `<div class="panel-empty" style="padding:40px 20px;text-align:center">讀取推薦資料…</div>`;
+  let stats = null;
+  try {
+    const { data, error } = await supa.rpc('get_my_referral_stats');
+    if (error) throw error;
+    stats = Array.isArray(data) ? data[0] : data;
+  } catch (e) {
+    console.warn('[renderReferralPage] get_my_referral_stats failed', e);
+    mount.innerHTML = `
+      <div class="ref-gate">
+        <div class="ref-gate-title">讀取失敗</div>
+        <div class="ref-gate-sub">請稍後再試，或重新整理頁面。</div>
+      </div>`;
+    return;
+  }
+
+  const code = stats?.referral_code || '';
+  const invited = stats?.total_invited || 0;
+  const rewarded = stats?.total_rewarded || 0;
+  const bonus = stats?.total_bonus_days || 0;
+  const list = Array.isArray(stats?.recent_list) ? stats.recent_list : [];
+
+  // 邀請連結：base origin + path + ?ref=CODE
+  const base = window.location.origin + window.location.pathname;
+  const link = base + '?ref=' + encodeURIComponent(code);
+
+  // 列表 HTML
+  // recent_list 每筆由 RPC 回傳：{nickname, status, created_at, rewarded_at}
+  // nickname 已被 SQL 遮罩為「首字+**」以保護被推薦人隱私
+  const listHTML = list.length
+    ? list.map(r => {
+        const tag = r.status === 'rewarded'
+          ? '<span class="ref-row-tag tag-rewarded">已獲得 14 天</span>'
+          : '<span class="ref-row-tag tag-registered">已註冊 · 待付費</span>';
+        const name = r.nickname || '新朋友';
+        const d = r.created_at ? new Date(r.created_at).toLocaleDateString('zh-TW') : '';
+        return `
+          <div class="ref-row">
+            <div>
+              <div class="ref-row-main">${name}</div>
+              <div class="ref-row-date">${d}</div>
+            </div>
+            ${tag}
+          </div>`;
+      }).join('')
+    : '<div class="ref-empty">還沒有邀請紀錄，把連結分享給朋友就開始囉 👇</div>';
+
+  mount.innerHTML = `
+    <div class="ref-hero">
+      <div class="ref-hero-row">
+        <div style="flex:1 1 260px;min-width:0">
+          <div class="ref-hero-title">你的專屬邀請連結</div>
+          <div class="ref-hero-sub">邀請碼 <strong>${code}</strong>｜對方首次付費 → 雙方訂閱各自延長 14 天</div>
+        </div>
+      </div>
+      <div class="ref-link-box" style="margin-top:14px">
+        <input id="ref-link-input" type="text" readonly value="${link}">
+        <button class="ref-copy-btn" id="ref-copy-btn" onclick="copyReferralLink()">複製連結</button>
+      </div>
+    </div>
+
+    <div class="ref-stats">
+      <div class="ref-stat-card">
+        <div class="ref-stat-num">${invited}</div>
+        <div class="ref-stat-label">已邀請人數</div>
+      </div>
+      <div class="ref-stat-card">
+        <div class="ref-stat-num">${rewarded}</div>
+        <div class="ref-stat-label">成功付費人數</div>
+      </div>
+      <div class="ref-stat-card">
+        <div class="ref-stat-num">+${bonus}</div>
+        <div class="ref-stat-label">累積獲得天數</div>
+      </div>
+    </div>
+
+    <div class="ref-how">
+      <h3>怎麼玩？</h3>
+      <ol>
+        <li>把上方連結傳給朋友（LINE、Messenger、IG 都可以）</li>
+        <li>朋友點連結註冊新帳號（自動綁定你為推薦人）</li>
+        <li>朋友完成第一次付費（標準或完整方案皆可）</li>
+        <li>系統自動幫你和朋友的訂閱各延長 14 天 🎉</li>
+      </ol>
+    </div>
+
+    <div class="ref-list">
+      <h3>邀請紀錄</h3>
+      ${listHTML}
+    </div>
+  `;
+}
+
+// 複製邀請連結（clipboard API + fallback）
+async function copyReferralLink() {
+  const input = document.getElementById('ref-link-input');
+  const btn = document.getElementById('ref-copy-btn');
+  if (!input) return;
+  const text = input.value;
+  try {
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      await navigator.clipboard.writeText(text);
+    } else {
+      input.select();
+      document.execCommand('copy');
+      window.getSelection && window.getSelection().removeAllRanges();
+    }
+    if (btn) {
+      btn.textContent = '已複製 ✓';
+      btn.classList.add('copied');
+      setTimeout(() => { btn.textContent = '複製連結'; btn.classList.remove('copied'); }, 1800);
+    }
+    if (typeof showToast === 'function') showToast('已複製，快去分享給朋友！');
+  } catch (e) {
+    console.warn('[copyReferralLink] failed', e);
+    if (typeof showToast === 'function') showToast('複製失敗，請長按連結手動複製');
+  }
+}
+window.renderReferralPage = renderReferralPage;
+window.copyReferralLink = copyReferralLink;
+
 // ── Toast ────────────────────────────────────────────────────
 let _toastTimer;
 let _toastQueue = [];
@@ -2810,6 +3210,7 @@ function rerenderAfterAuth() {
   if (h.startsWith('#/me')) { if (typeof renderMe === 'function') renderMe(); }
   else if (h.startsWith('#/catalog') || h.startsWith('#/my/bookmarks')) { if (typeof renderCatalog === 'function') renderCatalog(); }
   else if (h.startsWith('#/review')) { if (typeof renderReview === 'function') renderReview(); }
+  else if (h.startsWith('#/referral')) { if (typeof renderReferralPage === 'function') renderReferralPage(); }
   else if (h === '' || h === '#/' || h.startsWith('#/home')) { if (typeof renderHome === 'function') renderHome(); }
 }
 function bootAuth() {
@@ -2818,6 +3219,8 @@ function bootAuth() {
     updateAuthUI();
     cloud.init();
     rerenderAfterAuth();
+    // v14：已登入狀態下若帶 ?ref=，也嘗試綁定（例如已註冊用戶點朋友的連結）
+    try { tryClaimReferral(); } catch(e) {}
     return;
   }
   (async () => {
@@ -2825,7 +3228,11 @@ function bootAuth() {
       const r = await supa.auth.getSession();
       currentUser = r?.data?.session?.user ?? null;
       updateAuthUI();
-      if (currentUser) { await cloud.init(); rerenderAfterAuth(); }
+      if (currentUser) {
+        await cloud.init();
+        rerenderAfterAuth();
+        try { tryClaimReferral(); } catch(e) {}
+      }
     } catch(e) { console.warn('Auth boot error:', e); updateAuthUI(); }
   })();
 }
@@ -3428,6 +3835,7 @@ function router(){
     case 'me': document.getElementById('screen-me').classList.add('active'); renderMe(); break;
     case 'review': document.getElementById('screen-review').classList.add('active'); if (typeof renderReview === 'function') renderReview(); break;
     case 'pricing': document.getElementById('screen-pricing').classList.add('active'); if (typeof renderPricing === 'function') renderPricing(); break;
+    case 'referral': document.getElementById('screen-referral').classList.add('active'); if (typeof renderReferralPage === 'function') renderReferralPage(); break;
     case 'terms': { const s=document.getElementById('screen-terms'); if(s){s.classList.add('active');} else {nav('home');return;} break; }
     case 'privacy': { const s=document.getElementById('screen-privacy'); if(s){s.classList.add('active');} else {nav('home');return;} break; }
     case 'contact': { const s=document.getElementById('screen-contact'); if(s){s.classList.add('active');} else {nav('home');return;} break; }
@@ -5305,11 +5713,18 @@ function _recordAnswer(selected, correct) {
     state.totalCorrect++; state.streak++;
     if (state.streak > state.maxStreak) state.maxStreak = state.streak;
   } else state.streak = 0;
-  // bump 每日配額：free 才計；pro / standard 不受限
+  // bump 答題計數：
+  //   - 試用中 → 遞增試用額度（最多 200 題，用完即結束試用）
+  //   - 免費版 → 吃每日 10 題配額
+  //   - 已付費 standard/pro → 不限
   if (firstTime) {
     try {
       const tier = billing.getTier();
-      if (tier.tier !== 'pro' && tier.tier !== 'standard') billing.bumpDailyCount(1);
+      if (tier.isTrial) {
+        billing.bumpTrialQuota(1);
+      } else if (tier.tier !== 'pro' && tier.tier !== 'standard') {
+        billing.bumpDailyCount(1);
+      }
     } catch(e) {}
   }
   saveState(); renderQuestion(); saveQuizSnapshot();
@@ -5941,7 +6356,7 @@ router();
     <button class="modal-close" onclick="closeLoginModal()">×</button>
     <div class="modal-logo">K</div>
     <h2>歡迎來到 KaoNow</h2>
-    <p class="modal-sub">登入後學習紀錄自動同步，<br>換裝置也不會遺失進度。</p>
+    <p class="modal-sub">🎁 新用戶註冊自動送 7 天 Pro 試用，<br>學習紀錄跨裝置同步，不會遺失。</p>
     <button class="google-btn" onclick="signInWithGoogle()">
       <svg width="20" height="20" viewBox="0 0 48 48"><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.18 1.48-4.97 2.29-8.16 2.29-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/></svg>
       使用 Google 帳號登入
