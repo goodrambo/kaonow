@@ -836,7 +836,7 @@ html:not(.auth-ready) [data-when]{display:none}
     </div>
 
     <div class="section">
-      <div class="section-head"><div class="section-label">EXAM CATEGORIES</div><h2>找到你的考試方向</h2><p>7 大系統涵蓋全台主流證照與考試，點擊類別看詳細列表</p></div>
+      <div class="section-head"><div class="section-label">EXAM CATEGORIES</div><h2>找到你的考試方向</h2><p>10 大系統涵蓋全台主流證照與考試，點擊類別看詳細列表</p></div>
       <div class="category-grid" id="home-categories"></div>
     </div>
 
@@ -2720,21 +2720,30 @@ if (document.readyState === 'loading') {
 
 
 // ===== DATA =====
+// 類別視覺統一：淡米灰底 (#EFEEE9) + 單色 icon (#555)。未來若要加類別不用再挑色。
+// 新增 3 類（2026-04-19）：soe 國營事業、teacher 教師、military-police 軍警。
+// academic 保留 id（向後相容舊書籤 #/catalog/academic），涵蓋大學+研究所升學考試。
 const examCategories=[
-  {id:'all',name:'全部考試',icon:'🗂',color:'#F0F0ED',tc:'#555'},
-  {id:'tech-cert',name:'技術士證照',icon:'🔧',color:'#FFF3E0',tc:'#BF5300',
+  {id:'all',name:'全部考試',icon:'🗂',color:'#EFEEE9',tc:'#555'},
+  {id:'tech-cert',name:'技術士證照',icon:'🔧',color:'#EFEEE9',tc:'#555',
    desc:'甲級・乙級・丙級｜室內配線、中餐烹調、電腦應用、烘焙、美容美髮等 246 職類'},
-  {id:'prof-exam',name:'專技人員考試',icon:'🏛',color:'#E8F0E8',tc:'#2D5F2D',
+  {id:'prof-exam',name:'專技人員考試',icon:'🏛',color:'#EFEEE9',tc:'#555',
    desc:'醫師・律師・會計師・建築師・護理師・導遊領隊等執業資格考試'},
-  {id:'civil',name:'公職考試',icon:'📋',color:'#EDE8F5',tc:'#5B21B6',
-   desc:'高考・普考・初考・地方特考・警察特考・司法特考・鐵路特考等'},
-  {id:'language',name:'語言檢定',icon:'🌐',color:'#E3F2FD',tc:'#1565C0',
+  {id:'civil',name:'公職考試',icon:'📋',color:'#EFEEE9',tc:'#555',
+   desc:'高考・普考・初考・地方特考・司法特考・鐵路特考等'},
+  {id:'soe',name:'國營事業',icon:'🏢',color:'#EFEEE9',tc:'#555',
+   desc:'台電・中油・台水・台糖聯招、台鐵營運・中鋼・中華電信・中華郵政等事業機構招考'},
+  {id:'teacher',name:'教師資格與甄試',icon:'🍎',color:'#EFEEE9',tc:'#555',
+   desc:'教師資格考（教檢）、各縣市教師甄試（教甄）、代理代課'},
+  {id:'military-police',name:'軍警校院',icon:'🛡',color:'#EFEEE9',tc:'#555',
+   desc:'警察特考、警專、軍校聯招、志願役入營考試'},
+  {id:'language',name:'語言檢定',icon:'🌐',color:'#EFEEE9',tc:'#555',
    desc:'多益 TOEIC・全民英檢・雅思・托福・JLPT 日語・TOPIK 韓語等'},
-  {id:'academic',name:'升學考試',icon:'🎓',color:'#E8F5E9',tc:'#1B5E20',
-   desc:'學測・分科測驗・統測・國中教育會考'},
-  {id:'finance',name:'金融證照',icon:'💼',color:'#FFF8E1',tc:'#B45309',
+  {id:'academic',name:'升學考試',icon:'🎓',color:'#EFEEE9',tc:'#555',
+   desc:'學測・分科測驗・統測・國中教育會考、研究所推甄與一般考試'},
+  {id:'finance',name:'金融證照',icon:'💼',color:'#EFEEE9',tc:'#555',
    desc:'信託・證券・期貨・保險業務員、銀行內控、CFP/AFP 理財規劃等'},
-  {id:'it-cert',name:'IT 國際認證',icon:'💻',color:'#F3E8FF',tc:'#6B21A8',
+  {id:'it-cert',name:'IT 國際認證',icon:'💻',color:'#EFEEE9',tc:'#555',
    desc:'AWS・Azure・GCP 雲端、CompTIA、Cisco CCNA、PMP、TQC+ 等'},
 ];
 const exams=[
@@ -3336,41 +3345,11 @@ async function renderHome(){
 }
 
 function renderHomePersonal() {
+  // 2026-04-19：首頁不再重複顯示「關注中的考試」，用戶可到考試專區看。
+  // 此函數保留（renderHome 仍呼叫）但目前不渲染任何內容；未來若要加登入後個人化 widget 再展開。
   const host = document.getElementById('home-personal');
   if (!host) return;
-  const bookmarkSet = getBookmarkSet();
-  loadRecentViewed();
-  const recentIds = (state.recentViewed || []).slice(0, 6);
-  const bookmarkIds = [...bookmarkSet].slice(0, 6);
-
-  let html = '';
-  // 收藏（登入後才有意義）
-  if (cloud.isLoggedIn() && bookmarkIds.length) {
-    const bookmarkExams = bookmarkIds.map(id => exams.find(e=>e.id===id)).filter(Boolean);
-    html += `<div class="section" style="padding-top:28px;padding-bottom:0">
-      <div class="section-head" style="margin-bottom:20px">
-        <div class="section-label">MY BOOKMARKS</div>
-        <h2 style="font-size:26px">⭐ 關注中的考試</h2>
-        <p>你關注的 ${bookmarkExams.length} 個考試，隨時回來繼續</p>
-      </div>
-      <div class="exam-grid" style="max-width:1100px;margin:0 auto">${bookmarkExams.map(e => examCardHTML(e, bookmarkSet)).join('')}</div>
-    </div>`;
-  }
-  // 註：最近瀏覽已移至 catalog 頁，home 不重複顯示
-
-  host.innerHTML = html;
-  // 綁事件
-  host.querySelectorAll('.bookmark-btn').forEach(btn => {
-    btn.onclick = (ev) => { ev.stopPropagation(); toggleBookmark(btn.dataset.examId); };
-  });
-  host.querySelectorAll('.exam-card').forEach(card => {
-    card.onclick = (ev) => {
-      if (ev.target.closest('.bookmark-btn')) return;
-      if (ev.target.closest('a')) return;
-      pushRecentViewed(card.dataset.examId);
-      nav('exam/'+card.dataset.examId);
-    };
-  });
+  host.innerHTML = '';
 }
 
 // ===== CATALOG =====
