@@ -70,3 +70,21 @@ explanations/
 
 # Logo 設計草稿（只保留最終採用版，歷次稿不公開）
 logo-v*.svg
+
+# UI mockups / 稽核報告 / 內部 setup 指引（本地工作檔，不入版控）
+mockups/
+dashboard-mockup.html
+audit-report-*/
+email-setup-guide.md
+
+# 題庫原始資料與爬蟲工具（版權敏感 + 本地工具，跟 content/sources 同性質）
+raw/
+tools/
+
+# local work-in-progress / audits / mockups
+audit-report-*/
+dashboard-mockup.html
+email-setup-guide.md
+mockups/
+raw/publiccom-pilot/
+tools/
