@@ -9,7 +9,7 @@
 <link rel="icon" href="assets/logo-icon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <title>KaoNow 考NOW — 備考不拖延，現在就開始</title>
-<meta name="description" content="KaoNow 考NOW — 整合台灣證照、英檢、高普考等各類考試題庫，提供講義、練習與弱點分析，一站式備考平台。備考不拖延，現在就開始。">
+<meta name="description" content="KaoNow 考NOW — 整合台灣技術士、公職、國營、教甄、語檢、升學等各類考試題庫，提供講義、練習與弱點分析，一站搞定備考。備考不拖延，現在就開始。">
 <meta property="og:title" content="KaoNow 考NOW — 備考不拖延，現在就開始">
 <meta property="og:description" content="整合台灣各類考試的一站式練習平台，智慧弱點分析，讓你高效備考。">
 <meta property="og:image" content="https://kaonow.com/assets/og-image.png">
@@ -111,7 +111,7 @@ button[disabled]:hover,button:disabled:hover{transform:none;background:inherit}
 .step h3{font-size:17px;font-weight:700;margin-bottom:6px}
 .step p{font-size:14px;color:var(--text-secondary);line-height:1.65}
 
-/* CATEGORY GRID — flex 居中，讓 7 張卡自動排成 4+3 不留空洞 */
+/* CATEGORY GRID — flex 居中，10 張卡自動排成 4+4+2 末行置中 */
 .category-grid{display:flex;flex-wrap:wrap;justify-content:center;gap:14px;max-width:1000px;margin:0 auto}
 .category-card{background:var(--surface);padding:22px 20px;border-radius:var(--radius-lg);border:1px solid var(--border-light);transition:var(--transition);cursor:pointer;text-align:left;position:relative;flex:1 1 210px;min-width:200px;max-width:236px;display:flex;flex-direction:column;gap:4px}
 .category-card:hover{transform:translateY(-3px);box-shadow:var(--shadow-lg);border-color:var(--accent)}
@@ -810,12 +810,12 @@ html:not(.auth-ready) [data-when]{display:none}
     <div class="hero-landing">
       <div class="hero-label">🎯 台灣人專屬的考試備考平台</div>
       <h1>一個平台<br><span>搞定所有備考</span></h1>
-      <p class="hero-sub">技術士證照、專技考試、公職、語言、升學、金融、IT 認證——題庫、模擬考、弱點分析全整合，不用再四處蒐集資料。</p>
+      <p class="hero-sub">技術士、專技、公職、國營、教甄、軍警、語檢、升學、金融、IT 認證——題庫、模擬考、弱點分析一次搞定，不用再到處翻資料。</p>
       <div class="hero-actions">
         <button class="btn-primary" onclick="nav('catalog')">瀏覽所有考試 →</button>
       </div>
       <div class="hero-trust">
-        <span>🗂 <b>7</b> 大考試系統</span>
+        <span>🗂 <b>10</b> 大考試系統</span>
         <span>📚 <b id="meta-exams">158</b> 種考試</span>
         <span>🎯 <b id="meta-questions">7,393</b> 題（持續更新）</span>
       </div>
@@ -829,7 +829,7 @@ html:not(.auth-ready) [data-when]{display:none}
     <div class="section" style="padding-top:20px">
       <div class="section-head"><div class="section-label">HOW IT WORKS</div><h2>三步驟，效率備考</h2><p>免費註冊即可開始，手機電腦都能用</p></div>
       <div class="steps">
-        <div class="step"><div class="step-num">1</div><h3>選擇考試</h3><p>從證照、英檢、公職、升學等分類中，找到你要準備的科目。</p></div>
+        <div class="step"><div class="step-num">1</div><h3>選擇考試</h3><p>從證照、公職、升學、語檢等分類中，找到你要準備的考試。</p></div>
         <div class="step"><div class="step-num">2</div><h3>讀講義 · 刷題目</h3><p>主題練習、隨機測驗或完整模擬考，搭配重點講義事半功倍。</p></div>
         <div class="step"><div class="step-num">3</div><h3>弱點加強</h3><p>系統自動分析你的弱項，精準推薦題目，讓複習更有效率。</p></div>
       </div>
@@ -911,7 +911,7 @@ html:not(.auth-ready) [data-when]{display:none}
 
     <div class="cta-band">
       <h2>備考不拖延，現在就開始</h2>
-      <p>免費註冊就能刷題，準備好了再升級。沒有理由再等了。</p>
+      <p>免費註冊就能刷題，練起來再決定要不要升級。</p>
       <button class="btn-white" onclick="nav('catalog')">查看所有考試 →</button>
     </div>
   </div>
@@ -1091,7 +1091,7 @@ html:not(.auth-ready) [data-when]{display:none}
       <div class="welcome-field">
         <label>目標考試</label>
         <div class="welcome-search-wrap">
-          <input type="text" id="welcome-exam-input" placeholder="搜尋考試名稱，例如：職業安全、會計師、高普考" autocomplete="off" oninput="onWelcomeExamSearch()" onfocus="onWelcomeExamSearch()">
+          <input type="text" id="welcome-exam-input" placeholder="搜尋考試名稱，例如：會計師、高普考、教甄、台電" autocomplete="off" oninput="onWelcomeExamSearch()" onfocus="onWelcomeExamSearch()">
           <div id="welcome-exam-list" class="welcome-exam-list"></div>
         </div>
         <div id="welcome-exam-selected" class="welcome-selected" style="display:none"></div>
