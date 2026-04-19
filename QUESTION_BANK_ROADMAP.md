@@ -175,6 +175,40 @@ VALUES
 - 章節名稱 ≤ 15 字
 - `chapter_number` 從 0 開始，`sort_order` 從 1 開始（歷史包袱，不改）
 
+### 3.5 `correct_answer` 索引慣例（硬規則，違反會炸事故）
+
+**Ground truth：所有 `correct_answer` 一律 0-indexed，A=0 / B=1 / C=2 / D=3。**
+
+轉換規則：
+
+- **Raw JSON 的 `correct_answer_key: "B"`**（字母）→ DB 的 `correct_answer: 1`（整數）
+- 換算：`correct_answer = ord(letter) - ord('A')`，結果永遠在 0-3 之間
+- 不要用 1-indexed 的中間格式，不要手抄 dict，寫 validator 時直接從 `raw/*.json` 的 `correct_answer_key` 推算
+
+**匯入新批次前的 pre-flight check**（必跑）：
+
+```sql
+-- 新批次進 DB 後，立刻確認所有新科目都是 0-indexed
+SELECT exam_id, MIN(correct_answer) AS min_ans, MAX(correct_answer) AS max_ans, COUNT(*) AS n
+FROM public.questions
+WHERE exam_id IN ('<new-exam-1>', '<new-exam-2>')
+GROUP BY exam_id;
+-- 預期：每個 exam_id 的 min_ans=0 且 max_ans=3
+-- 若 min_ans=1 或 max_ans=4 → 匯入時用錯慣例，立刻 rollback
+```
+
+**若日後需要做跨考試 `correct_answer` 的大批遷移**（例如 schema 結構調整）：
+
+```sql
+-- 絕對不能寫「WHERE correct_answer IN (1,2,3,4) 全部 -1」這種粗判準
+-- 必須先 per-exam 分類，只改 1-indexed 的科，0-indexed 的碰就是誤傷
+SELECT exam_id, MIN(correct_answer) AS min_ans
+FROM public.questions GROUP BY exam_id
+ORDER BY min_ans;  -- 先看哪些 min=0（已是 0-indexed，不要動）、哪些 min=1（待轉）
+```
+
+**歷史事故（2026-04-17）**：一次粗判準的 mass `correct_answer - 1` migration 誤傷了 osh-a（全庫唯一 0-indexed 科），146/154 題偏移。2026-04-19 從 `_backup_correct_answer_20260417` 還原（見 `supabase_schema_v9.sql`）。教訓：任何 `correct_answer` 的 bulk UPDATE 前，都要先 per-exam 檢查 MIN 值。
+
 ---
 
 ## 4. 三階段 Workflow
@@ -194,7 +228,8 @@ VALUES
 4. 自行 lint：
    - 所有 id 符合命名規則
    - `options` 剛好 4 個
-   - `correct_answer` 在 0-3 之間
+   - `correct_answer` 在 0-3 之間（**0-indexed 硬規則，見 §3.5**）
+   - validator 必須從 raw JSON 的 `correct_answer_key` 推算，不可手抄 dict
    - 沒有 SQL 注入風險（單引號 escape）
 
 **【階段 3】Rambo：審核 + 匯入**
