@@ -642,6 +642,33 @@ html{scroll-padding-top:calc(var(--header-h) + 16px)}
 #kn-paywall-modal .kn-paywall-close{text-align:center;font-size:13px;color:var(--text-tertiary,#999);cursor:pointer;padding:8px}
 #kn-paywall-modal .kn-paywall-close:hover{color:var(--text-secondary)}
 
+/* ── REPORT QUESTION MODAL & trigger ── */
+.q-report-btn{background:none;border:none;color:var(--text-tertiary,#999);font-size:12px;cursor:pointer;padding:4px 8px;border-radius:6px;display:inline-flex;align-items:center;gap:4px;transition:background 120ms,color 120ms}
+.q-report-btn:hover{background:#f4f4f4;color:var(--text-secondary,#555)}
+.q-report-btn.reported{color:var(--color-accent,#2D5F2D);cursor:default}
+.q-report-btn.reported:hover{background:transparent}
+.q-report-row{display:flex;justify-content:flex-end;margin-top:10px}
+#kn-report-modal{position:fixed;inset:0;z-index:9999;display:flex;align-items:center;justify-content:center;padding:20px}
+#kn-report-modal .kn-rm-backdrop{position:absolute;inset:0;background:rgba(0,0,0,0.45);backdrop-filter:blur(4px)}
+#kn-report-modal .kn-rm-card{position:relative;background:#fff;border-radius:14px;max-width:440px;width:100%;padding:22px 22px 18px;box-shadow:0 16px 48px rgba(0,0,0,0.24)}
+#kn-report-modal .kn-rm-title{font-size:17px;font-weight:700;color:var(--text-primary,#1a1a1a);margin-bottom:4px}
+#kn-report-modal .kn-rm-sub{font-size:13px;color:var(--text-secondary,#666);margin-bottom:14px;line-height:1.5}
+#kn-report-modal .kn-rm-types{display:flex;flex-direction:column;gap:8px;margin-bottom:14px}
+#kn-report-modal .kn-rm-type{display:flex;align-items:center;gap:10px;padding:10px 12px;border:1px solid #e5e5e5;border-radius:10px;cursor:pointer;font-size:14px;color:var(--text-primary,#222);transition:border-color 120ms,background 120ms}
+#kn-report-modal .kn-rm-type:hover{border-color:#bcbcbc}
+#kn-report-modal .kn-rm-type input{margin:0}
+#kn-report-modal .kn-rm-type.active{border-color:var(--color-accent,#2D5F2D);background:rgba(45,95,45,0.04)}
+#kn-report-modal textarea{width:100%;min-height:80px;padding:10px;border:1px solid #e5e5e5;border-radius:8px;font-size:13px;font-family:inherit;resize:vertical;line-height:1.5;box-sizing:border-box}
+#kn-report-modal textarea:focus{outline:none;border-color:var(--color-accent,#2D5F2D)}
+#kn-report-modal .kn-rm-count{font-size:11px;color:var(--text-tertiary,#999);text-align:right;margin-top:2px}
+#kn-report-modal .kn-rm-actions{display:flex;gap:8px;margin-top:14px;justify-content:flex-end}
+#kn-report-modal .kn-rm-btn{padding:9px 16px;border-radius:8px;font-size:13px;font-weight:600;cursor:pointer;border:none}
+#kn-report-modal .kn-rm-btn.primary{background:var(--color-accent,#2D5F2D);color:#fff}
+#kn-report-modal .kn-rm-btn.primary:disabled{opacity:0.5;cursor:not-allowed}
+#kn-report-modal .kn-rm-btn.primary:hover:not(:disabled){opacity:0.9}
+#kn-report-modal .kn-rm-btn.secondary{background:#f2f2f2;color:var(--text-secondary,#555)}
+#kn-report-modal .kn-rm-btn.secondary:hover{background:#e6e6e6}
+
 /* Hide nav items until JS resolves auth state (avoid FOUC). Gated by .auth-ready
    on <html> so JS can fully take over with explicit inline display values. */
 html:not(.auth-ready) [data-when]{display:none}
@@ -861,31 +888,29 @@ html:not(.auth-ready) [data-when]{display:none}
           <div class="price-period">永遠免費</div>
           <div class="price-divider"></div>
           <ul class="price-features">
-            <li>所有考試每日 10 題練習</li>
-            <li>基本主題練習與隨機測驗</li>
-            <li>答題解析說明</li>
-            <li class="off">完整題庫無限練習</li>
+            <li>全站每日 10 題練習</li>
+            <li>隨機測驗、章節練習</li>
+            <li>完整答題解析</li>
+            <li>題目收藏</li>
             <li class="off">模擬考</li>
             <li class="off">AI 弱點分析</li>
-            <li class="off">考前衝刺包</li>
           </ul>
           <button class="price-cta" onclick="openLoginModal()">免費註冊開始</button>
         </div>
         <div class="price-card">
-          <div class="price-name">單科方案</div>
+          <div class="price-name">標準方案</div>
           <div class="price-amount">NT$99 <span>/ 月</span></div>
           <div class="price-period has-discount">季繳 NT$249 <span style="text-decoration:line-through;color:var(--text-tertiary);font-weight:400">NT$297</span> <span class="discount-tag">省 16%</span></div>
           <div class="price-divider"></div>
           <ul class="price-features">
-            <li>任選 1 科技術士或金融證照無限練習</li>
-            <li>該科完整模擬考</li>
-            <li>詳細答題解析</li>
+            <li>技術士 + 金融證照無限練習</li>
+            <li>該範圍內完整模擬考</li>
+            <li>完整答題解析</li>
             <li>AI 弱點分析</li>
-            <li>學習進度報告</li>
-            <li class="off">僅限技術士證照及金融證照類考試</li>
-            <li class="off">不含考前衝刺包</li>
+            <li>題目收藏</li>
+            <li class="off">其他 8 大類無法練習</li>
           </ul>
-          <button class="price-cta" onclick="billing.openPaywallModal()">選購單科</button>
+          <button class="price-cta" onclick="billing.startCheckout('standard_monthly')">選購標準方案</button>
           <div style="text-align:center;margin-top:10px;font-size:11px;color:var(--text-tertiary)">可隨時升級為完整方案</div>
         </div>
         <div class="price-card highlight">
@@ -895,13 +920,12 @@ html:not(.auth-ready) [data-when]{display:none}
           <div class="price-period has-discount">季繳 NT$599 <span style="text-decoration:line-through;color:var(--text-tertiary);font-weight:400">NT$747</span> <span class="discount-tag">省 20%</span></div>
           <div class="price-divider"></div>
           <ul class="price-features">
-            <li>所有考試完整題庫無限練習</li>
-            <li>無限制隨機測驗 + 主題練習</li>
-            <li>完整模擬考</li>
-            <li>詳細答題解析 + AI 補充說明</li>
-            <li>AI 個人化弱點分析 + 學習計畫</li>
-            <li>學習進度報告 + 全國排名</li>
-            <li>考前衝刺包（高頻考題）</li>
+            <li>10 大類考試完整題庫無限練習</li>
+            <li>全站完整模擬考</li>
+            <li>完整答題解析 + AI 補充說明</li>
+            <li>AI 弱點分析</li>
+            <li>題目收藏</li>
+            <li>適合跨類別備考者</li>
           </ul>
           <button class="price-cta" onclick="billing.startCheckout('pro_monthly')">升級完整方案</button>
           <div style="text-align:center;margin-top:10px;font-size:11px;color:var(--text-tertiary)"><a style="color:var(--color-accent);cursor:pointer" onclick="billing.startCheckout('pro_quarterly')">季繳 NT$599（省 20%）</a></div>
@@ -1159,7 +1183,7 @@ html:not(.auth-ready) [data-when]{display:none}
       <p>我們保留於您違反本條款、法令、公序良俗或影響其他使用者權益時，以書面、電子郵件或站內通知之方式，限制或終止您帳號使用之權利。</p>
 
       <h2 id="terms-3">3. 付費方案與退訂</h2>
-      <p>本服務提供免費版、單科方案、完整方案等訂閱方案，實際價格、週期與功能內容以本服務網站所示為準。付款流程委託第三方金流服務商<strong>綠界科技股份有限公司</strong>處理；本服務不蒐集、不儲存您的信用卡號或金融帳戶資料。</p>
+      <p>本服務提供免費版、標準方案、完整方案等訂閱方案，實際價格、週期與功能內容以本服務網站所示為準。付款流程委託第三方金流服務商<strong>綠界科技股份有限公司</strong>處理；本服務不蒐集、不儲存您的信用卡號或金融帳戶資料。</p>
       <p>訂閱採「先付費後使用」並自動續約模式，您可於任一期間屆滿前自行取消訂閱，以避免下一期自動扣款。</p>
 
       <div class="legal-callout">
@@ -1971,6 +1995,26 @@ const cloud = (() => {
     return data;
   }
 
+  // ── 題目回報（v10 question_reports）──────────────────────────────
+  // payload: { questionId, reportType, description?, snapshot? }
+  //   reportType: 'wrong_answer' | 'unclear' | 'other'
+  async function insertQuestionReport({ questionId, reportType, description, snapshot }) {
+    if (!currentUser) return { ok: false, error: 'not_logged_in' };
+    if (!questionId || !reportType) return { ok: false, error: 'bad_payload' };
+    const body = {
+      question_id: questionId,
+      user_id: currentUser.id,
+      report_type: reportType,
+      description: (description || null)?.slice(0, 500) || null,
+      question_snapshot: snapshot || null,
+    };
+    const r = await request('question_reports', {
+      method: 'POST',
+      body: JSON.stringify(body),
+    });
+    return r.ok ? { ok: true, id: r.data?.[0]?.id } : { ok: false, error: r.error || 'server_error' };
+  }
+
   return {
     // 狀態查詢
     isLoggedIn, currentUser, userId,
@@ -1984,6 +2028,8 @@ const cloud = (() => {
     loadExamBookmarks, addExamBookmark, removeExamBookmark,
     // 考情新聞
     loadExamNews,
+    // v10 題目回報
+    insertQuestionReport,
     // 生命週期
     logout, init, flushQueue,
     // 底層（內部使用）
@@ -2056,15 +2102,43 @@ const billing = (() => {
     } catch(e) { return { tier: 'free' }; }
   }
 
-  function canStartQuiz(examId) {
+  // 標準方案涵蓋範圍：技術士 + 金融證照
+  // 若未來調整請同步 paywall 文案、pricing UI、terms 描述
+  const STANDARD_CATEGORIES = ['tech-cert', 'finance'];
+
+  // 進階功能（模擬考 / 弱點加強 / AI 補充題），付費（在範圍內）才能用；
+  // 'practice' 指隨機 / 章節練習，免費版可做但有每日配額
+  const PAID_MODES = new Set(['mock', 'weak', 'ai']);
+
+  function examCategoryId(examId) {
+    if (typeof exams === 'undefined' || !examId) return null;
+    const ex = exams.find(e => e.id === examId);
+    return ex?.categoryId || null;
+  }
+
+  // mode: 'practice' | 'mock' | 'weak' | 'ai'，省略視為 practice
+  function canStartQuiz(examId, mode = 'practice') {
     const s = getTier();
+    const catId = examCategoryId(examId);
+
+    // Pro：全站無限
     if (s.tier === 'pro') return { ok: true };
-    if (s.tier === 'standard' && (s.unlocked_exams || []).includes(examId)) {
-      return { ok: true };
+
+    // Standard：僅限技+金 類別，範圍內無限（含進階模式）；範圍外一律擋
+    if (s.tier === 'standard') {
+      if (catId && STANDARD_CATEGORIES.includes(catId)) return { ok: true };
+      return { ok: false, reason: 'tier_scope', tier: 'standard', examId };
     }
+
+    // Free：進階功能一律擋（不吃每日配額）
+    if (PAID_MODES.has(mode)) {
+      return { ok: false, reason: 'mode_locked', mode, examId };
+    }
+
+    // Free：隨機 / 章節練習 → 吃每日配額
     const used = getDailyCount();
     if (used >= FREE_DAILY_LIMIT) {
-      return { ok: false, reason: 'daily_limit_reached', used, limit: FREE_DAILY_LIMIT };
+      return { ok: false, reason: 'daily_limit_reached', used, limit: FREE_DAILY_LIMIT, examId };
     }
     return { ok: true, remaining: FREE_DAILY_LIMIT - used };
   }
@@ -2134,8 +2208,42 @@ const billing = (() => {
     }, 1500);
   }
 
+  // 不同的 gate reason 顯示不同標題與副文案
+  // reason: 'daily_limit_reached' | 'mode_locked' | 'tier_scope'
+  function paywallCopy(reason, mode) {
+    const modeLabel = ({
+      mock: '模擬考',
+      weak: '弱點加強',
+      ai:   'AI 補充題',
+    })[mode] || '此功能';
+    if (reason === 'mode_locked') {
+      return {
+        title: `${modeLabel}需要付費方案`,
+        sub: '免費版開放隨機與章節練習；模擬考、弱點加強、AI 題需要升級到標準或完整方案。',
+      };
+    }
+    if (reason === 'tier_scope') {
+      return {
+        title: '此類別不在你的方案範圍',
+        sub: '標準方案目前涵蓋技術士 + 金融證照。要練其他類別，請升級到完整方案。',
+      };
+    }
+    // daily_limit_reached（預設）
+    return {
+      title: '今日免費配額已用完',
+      sub: '免費版每日 10 題。升級就能整天無限練習，加速通過考試。',
+    };
+  }
+
   function openPaywallModal(opts = {}) {
     const examId = opts.examId || null;
+    const reason = opts.reason || 'daily_limit_reached';
+    const mode = opts.mode || 'practice';
+    const copy = paywallCopy(reason, mode);
+
+    // 已是 Standard 但想用其他類別 → 只推 Pro；其他情況都兩個方案都列
+    const showStandard = !(reason === 'tier_scope' && getTier().tier === 'standard');
+
     const existing = document.getElementById('kn-paywall-modal');
     if (existing) existing.remove();
     const modal = document.createElement('div');
@@ -2143,21 +2251,22 @@ const billing = (() => {
     modal.innerHTML = `
       <div class="kn-paywall-backdrop" onclick="document.getElementById('kn-paywall-modal').remove()"></div>
       <div class="kn-paywall-card">
-        <div class="kn-paywall-title">今日免費配額已用完</div>
-        <div class="kn-paywall-sub">免費版每日 10 題。升級即可整天無限練習，加速通過考試。</div>
+        <div class="kn-paywall-title">${copy.title}</div>
+        <div class="kn-paywall-sub">${copy.sub}</div>
         <div class="kn-paywall-plans">
+          ${showStandard ? `
           <div class="kn-paywall-plan">
-            <div class="kn-pp-head">單科方案</div>
+            <div class="kn-pp-head">標準方案</div>
             <div class="kn-pp-price">NT$99 <small>/月</small></div>
-            <div class="kn-pp-sub">選 1 科目 30 天無限練習</div>
-            <button onclick="billing.startCheckout('standard_monthly', '${examId || ''}')">立即購買</button>
-            <div class="kn-pp-alt"><a onclick="billing.startCheckout('standard_quarterly', '${examId || ''}')">季繳 NT$249（省 16%）</a></div>
-          </div>
+            <div class="kn-pp-sub">技術士 + 金融證照 30 天無限練習</div>
+            <button onclick="billing.startCheckout('standard_monthly')">立即購買</button>
+            <div class="kn-pp-alt"><a onclick="billing.startCheckout('standard_quarterly')">季繳 NT$249（省 16%）</a></div>
+          </div>` : ''}
           <div class="kn-paywall-plan kn-pp-highlight">
             <div class="kn-pp-badge">最多功能</div>
             <div class="kn-pp-head">完整方案</div>
             <div class="kn-pp-price">NT$249 <small>/月</small></div>
-            <div class="kn-pp-sub">全部考試 30 天無限練習</div>
+            <div class="kn-pp-sub">10 大類考試 30 天全部無限練習</div>
             <button onclick="billing.startCheckout('pro_monthly')">立即購買</button>
             <div class="kn-pp-alt"><a onclick="billing.startCheckout('pro_quarterly')">季繳 NT$599（省 20%）</a></div>
           </div>
@@ -4700,10 +4809,10 @@ function renderSubjectBankPane(subj, questions, chapters) {
 function shuffle(arr){const a=[...arr];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
 async function startQuiz(mode){
   const examObj = exams.find(e => e.id === state.currentExamId);
-  // ── tier gate：檢查每日免費配額 / 訂閱 ──
-  const gate = billing.canStartQuiz(state.currentExamId);
-  if (!gate.ok && gate.reason === 'daily_limit_reached') {
-    billing.openPaywallModal({ examId: state.currentExamId });
+  // ── tier gate：檢查訂閱範圍 / 模式權限 / 每日免費配額 ──
+  const gate = billing.canStartQuiz(state.currentExamId, mode);
+  if (!gate.ok) {
+    billing.openPaywallModal({ examId: state.currentExamId, reason: gate.reason, mode });
     return;
   }
   if (gate.remaining && gate.remaining <= 3) {
@@ -4760,10 +4869,10 @@ async function startQuiz(mode){
   initQuiz(pool);
 }
 async function startChapter(ch){
-  // ── tier gate ──
-  const gate = billing.canStartQuiz(state.currentExamId);
-  if (!gate.ok && gate.reason === 'daily_limit_reached') {
-    billing.openPaywallModal({ examId: state.currentExamId });
+  // ── tier gate（章節練習視為 practice）──
+  const gate = billing.canStartQuiz(state.currentExamId, 'practice');
+  if (!gate.ok) {
+    billing.openPaywallModal({ examId: state.currentExamId, reason: gate.reason, mode: 'practice' });
     return;
   }
   if (gate.remaining && gate.remaining <= 3) {
@@ -4783,10 +4892,10 @@ async function startChapter(ch){
 async function startSubjectQuiz(mode) {
   const subjectId = state.currentSubjectId;
   if (!subjectId) return;
-  // ── tier gate：subject 作用域仍看 exam 層級的配額 ──
-  const gate = billing.canStartQuiz(state.currentExamId);
-  if (!gate.ok && gate.reason === 'daily_limit_reached') {
-    billing.openPaywallModal({ examId: state.currentExamId });
+  // ── tier gate：subject 作用域仍看 exam 層級的配額與模式權限 ──
+  const gate = billing.canStartQuiz(state.currentExamId, mode);
+  if (!gate.ok) {
+    billing.openPaywallModal({ examId: state.currentExamId, reason: gate.reason, mode });
     return;
   }
   if (gate.remaining && gate.remaining <= 3) {
@@ -5033,6 +5142,13 @@ function renderQuestion(){
   });
   html+='</div>';
   if(answered!==null)html+=`<div class="explanation"><strong>${answered.correct?'✓ 答對了！':'✗ 答錯了'}</strong>${q.exp?'<br>'+q.exp:''}</div>`;
+  // 🚩 題目回報（右下角小按鈕，不干擾主流程）
+  const reported = (state.reportedQuestionIds || new Set()).has(q.id);
+  html += `<div class="q-report-row">
+    <button class="q-report-btn${reported?' reported':''}" ${reported?'disabled':`onclick="openReportModal('${q.id.replace(/'/g,"\\'")}')"`} title="${reported?'你已回報過這題':'題目有問題？回報給我們'}">
+      🚩 ${reported?'已回報':'回報題目'}
+    </button>
+  </div>`;
   html+=`</div><div class="quiz-actions">`;
   // 上一題：idx>0 就顯示（不管答過沒，允許翻回去看）；用 margin-right:auto 擠到最左
   if(idx>0) html+=`<button class="btn-secondary" style="margin-right:auto" onclick="prevQuestion()">← 上一題</button>`;
@@ -5043,6 +5159,80 @@ function renderQuestion(){
   html+='</div>';
   document.getElementById('question-area').innerHTML=html;renderDots();
 }
+
+// ── 題目回報 modal（v10 question_reports）──────────────────────────
+function openReportModal(questionId) {
+  if (!cloud.isLoggedIn()) {
+    showToast('請先登入才能回報題目');
+    if (typeof openLoginModal === 'function') openLoginModal();
+    return;
+  }
+  const q = (state.questions || []).find(x => x.id === questionId);
+  const existing = document.getElementById('kn-report-modal');
+  if (existing) existing.remove();
+  const modal = document.createElement('div');
+  modal.id = 'kn-report-modal';
+  modal.innerHTML = `
+    <div class="kn-rm-backdrop" onclick="closeReportModal()"></div>
+    <div class="kn-rm-card" role="dialog" aria-modal="true" aria-labelledby="kn-rm-title">
+      <div class="kn-rm-title" id="kn-rm-title">回報這題</div>
+      <div class="kn-rm-sub">這題哪裡有問題？送出後站方會檢視並處理，謝謝你的回報。</div>
+      <div class="kn-rm-types" id="kn-rm-types">
+        <label class="kn-rm-type"><input type="radio" name="kn-rm-type" value="wrong_answer"><span>答案好像錯了</span></label>
+        <label class="kn-rm-type"><input type="radio" name="kn-rm-type" value="unclear"><span>題目或選項不清楚</span></label>
+        <label class="kn-rm-type"><input type="radio" name="kn-rm-type" value="other"><span>其他問題</span></label>
+      </div>
+      <textarea id="kn-rm-desc" placeholder="補充說明（選填，最多 500 字）" maxlength="500" oninput="document.getElementById('kn-rm-count').textContent = this.value.length + ' / 500'"></textarea>
+      <div class="kn-rm-count" id="kn-rm-count">0 / 500</div>
+      <div class="kn-rm-actions">
+        <button class="kn-rm-btn secondary" onclick="closeReportModal()">取消</button>
+        <button class="kn-rm-btn primary" id="kn-rm-submit" disabled onclick="submitQuestionReport('${questionId.replace(/'/g,"\\'")}')">送出回報</button>
+      </div>
+    </div>
+  `;
+  document.body.appendChild(modal);
+  // 選到 type 才允許送出，並加 .active 視覺樣式
+  modal.querySelectorAll('input[name="kn-rm-type"]').forEach(inp => {
+    inp.addEventListener('change', () => {
+      modal.querySelectorAll('.kn-rm-type').forEach(l => l.classList.toggle('active', l.contains(inp) && inp.checked));
+      document.getElementById('kn-rm-submit').disabled = !modal.querySelector('input[name="kn-rm-type"]:checked');
+    });
+  });
+  // 把當下題目 snapshot 存到 modal dataset，送出時一併上傳
+  if (q) modal.dataset.snapshot = JSON.stringify({ q: q.q, opts: q.opts, ans: q.ans, exam_id: state.currentExamId });
+}
+function closeReportModal() {
+  const m = document.getElementById('kn-report-modal');
+  if (m) m.remove();
+}
+async function submitQuestionReport(questionId) {
+  const modal = document.getElementById('kn-report-modal');
+  if (!modal) return;
+  const btn = document.getElementById('kn-rm-submit');
+  const checked = modal.querySelector('input[name="kn-rm-type"]:checked');
+  if (!checked) return;
+  const desc = (document.getElementById('kn-rm-desc')?.value || '').trim();
+  let snapshot = null;
+  try { snapshot = modal.dataset.snapshot ? JSON.parse(modal.dataset.snapshot) : null; } catch(e) {}
+  btn.disabled = true;
+  btn.textContent = '送出中…';
+  const r = await cloud.insertQuestionReport({
+    questionId, reportType: checked.value, description: desc || null, snapshot,
+  });
+  if (r.ok) {
+    state.reportedQuestionIds = state.reportedQuestionIds || new Set();
+    state.reportedQuestionIds.add(questionId);
+    closeReportModal();
+    showToast('已收到回報，謝謝！');
+    // 更新按鈕為「已回報」
+    try { renderQuestion(); } catch(e) {}
+  } else {
+    btn.disabled = false;
+    btn.textContent = '送出回報';
+    showToast(r.error === 'not_logged_in' ? '請先登入' : '送出失敗，請稍後再試');
+  }
+}
+
 function selectAnswer(oi){
   if (state.quizFrozen) return;  // 時間到 / 凍結期間不接受新作答
   const q=state.questions[state.currentIdx];const correct=oi===q.ans;
@@ -5061,13 +5251,12 @@ function selectAnswer(oi){
   state.totalDone++;
   if(correct){state.totalCorrect++;state.streak++;if(state.streak>state.maxStreak)state.maxStreak=state.streak;}
   else state.streak=0;
-  // bump 每日配額（只對 free / standard-未解鎖本科 的用戶生效；pro/standard-已解鎖 也計但無上限）
+  // bump 每日配額：只計 free 用戶；pro / standard（範圍內）不受限所以不計
+  // Standard 範圍外本來就被 canStartQuiz 擋掉，不會走到這裡
   if (firstTime) {
     try {
       const tier = billing.getTier();
-      const examId = state.currentExamId;
-      const unlockedThis = (tier.unlocked_exams || []).includes(examId);
-      if (!(tier.tier === 'pro' || (tier.tier === 'standard' && unlockedThis))) {
+      if (tier.tier !== 'pro' && tier.tier !== 'standard') {
         billing.bumpDailyCount(1);
       }
     } catch(e) { /* billing not ready, skip */ }
