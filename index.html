@@ -5409,6 +5409,7 @@ function saveQuizSnapshot() {
     sessionStorage.setItem(QUIZ_SNAPSHOT_KEY, JSON.stringify({
       questions: state.questions,
       answers: state.answers,
+      multiPending: state.multiPending || {},  // v12: 保留複選題中的暫存勾選
       currentIdx: state.currentIdx,
       mockDeadline: state.mockDeadline,
       startTime: state.startTime,
@@ -5441,6 +5442,7 @@ function resumeQuizFromSnapshot(s) {
   Object.assign(state, {
     questions: s.questions,
     answers: s.answers,
+    multiPending: s.multiPending || {},  // v12: 還原複選題中的暫存勾選
     currentIdx: s.currentIdx,
     mockDeadline: s.mockDeadline,
     startTime: s.startTime,
@@ -5475,6 +5477,7 @@ function initQuiz(questions){
   state.questions = questions;
   state.currentIdx = 0;
   state.answers = new Array(questions.length).fill(null);
+  state.multiPending = {};  // v12: 每次新 quiz 清空複選暫存，避免舊選項殘留
   state.startTime = Date.now();
   state.questionStartTs = Date.now();  // 埋點：目前題目開始作答時間
   state.questionTimings = {};  // 埋點：{questionId: elapsedSeconds}
