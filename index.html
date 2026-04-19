@@ -374,6 +374,16 @@ html{scroll-padding-top:calc(var(--header-h) + 16px)}
 .option-btn.correct .option-letter{background:var(--correct);color:#fff}
 .option-btn.wrong{background:var(--wrong-bg);border-color:var(--wrong-border);color:var(--wrong)}
 .option-btn.wrong .option-letter{background:var(--wrong);color:#fff}
+/* v12: 複選 UI */
+.option-btn.multi .option-letter{width:22px;height:22px;border-radius:5px;font-size:14px;font-weight:600}
+.option-btn.multi.picked{border-color:var(--accent);background:var(--accent-light)}
+.option-btn.multi.picked .option-letter{background:var(--accent);color:#fff}
+.option-btn.multi.missed{background:#FFF7E5;border-color:#F2CF78;color:#8B5A00}
+.option-btn.multi.missed .option-letter{background:#E0A800;color:#fff}
+.q-type-tag{display:inline-block;padding:2px 8px;border-radius:10px;background:#E8F0FE;color:#2D5CB3;font-size:11px;font-weight:600;margin-left:6px;vertical-align:middle}
+.multi-submit-row{display:flex;align-items:center;gap:12px;margin-top:16px}
+.multi-submit-row .multi-hint{font-size:12.5px;color:var(--text-tertiary,#999)}
+.btn-primary.multi-submit.disabled,.btn-primary.multi-submit:disabled{opacity:.55;cursor:not-allowed}
 .explanation{background:var(--info-bg);border:1px solid #CFDCF0;border-radius:var(--radius);padding:14px 16px;margin-top:16px;font-size:13.5px;line-height:1.8;white-space:pre-wrap;animation:pop 0.25s ease}
 .explanation strong{color:var(--info);font-size:14px}
 .quiz-actions{display:flex;justify-content:flex-end;gap:10px;margin:20px 0 40px}
@@ -1593,11 +1603,15 @@ const cloud = (() => {
         const ans = answers[i];
         if (!ans) return null;
         const t = timings[q.id];
+        // v12: 多選 / 其他題型寫 selected_answer_json；單選維持 selected_answer(int)
+        const isArrayAns = Array.isArray(ans.selected);
         return {
           session_id: sessionId, user_id: uid,
           question_id: q.id,                    // 現在必定有
           exam_id: examId, chapter_id: examId + '-ch' + q.ch,
-          selected_answer: ans.selected, is_correct: ans.correct,
+          selected_answer: isArrayAns ? null : ans.selected,
+          selected_answer_json: isArrayAns ? ans.selected : null,
+          is_correct: ans.correct,
           time_spent_seconds: (typeof t === 'number' && t >= 0) ? t : null,
           attempted_at: new Date().toISOString()
         };
@@ -1674,7 +1688,7 @@ const cloud = (() => {
   }
 
   // ── 題庫載入（含快取，24h TTL） ─────────────────────────
-  const Q_CACHE_PREFIX = 'kaonow_q2_';  // v8: 換 key 讓舊 cache 失效，拉到新的 source 標記
+  const Q_CACHE_PREFIX = 'kaonow_q3_';  // v12: 換 key 讓舊 cache 失效，拉到 question_type / correct_answer_json 欄位
   const Q_CACHE_TTL = 24 * 3600 * 1000;
   const qMemCache = {};  // 記憶體快取，避免同一 session 重複打
 
@@ -1693,6 +1707,9 @@ const cloud = (() => {
         ? row.options.map(o => typeof o === 'string' ? o : o.text)
         : [],
       ans: row.correct_answer,
+      // v12: 題型 + 複選/其他題型答案
+      type: row.question_type || 'single_choice',
+      ans_json: row.correct_answer_json || null,
       exp: row.explanation,
       source: row.source,
       difficulty: row.difficulty,
@@ -1721,7 +1738,7 @@ const cloud = (() => {
 
     // 3. 從 Supabase 取（questions_published view：已過濾未審核的 AI 題）
     const r = await request(
-      'questions_published?exam_id=eq.' + examId + '&order=id.asc&select=id,exam_id,subject_id,chapter_id,question_text,options,correct_answer,explanation,source,difficulty,image_url'
+      'questions_published?exam_id=eq.' + examId + '&order=id.asc&select=id,exam_id,subject_id,chapter_id,question_text,options,correct_answer,correct_answer_json,question_type,explanation,source,difficulty,image_url'
     );
     if (!r.ok || !Array.isArray(r.data)) {
       warn('loadQuestions failed', examId, r);
@@ -1931,7 +1948,7 @@ const cloud = (() => {
     }
     const r = await request(
       'questions_published?subject_id=eq.' + subjectId +
-      '&order=id.asc&select=id,chapter_id,subject_id,question_text,options,correct_answer,explanation,source,difficulty,image_url'
+      '&order=id.asc&select=id,chapter_id,subject_id,question_text,options,correct_answer,correct_answer_json,question_type,explanation,source,difficulty,image_url'
     );
     if (!r.ok || !Array.isArray(r.data)) {
       warn('loadQuestionsBySubject failed', subjectId, r);
@@ -5133,14 +5150,50 @@ function renderQuestion(){
   document.getElementById('quiz-progress').style.width=((idx+1)/total*100)+'%';
   // Source badge
   const badge = sourceBadge(q.source);
-  const letters=['A','B','C','D'];
-  let html=`<div class="question-card"><div class="q-meta"><div class="q-number">第 ${idx+1} 題，共 ${total} 題</div>${badge}</div><div class="q-text">${q.q}</div>${q.img ? `<div class="q-image"><img src="${q.img}" alt="題目圖片" loading="lazy" style="max-width:100%;border-radius:8px;border:1px solid var(--border-light);margin-bottom:16px;cursor:pointer" onclick="this.style.maxWidth=this.style.maxWidth==='100%'?'150%':'100%'"></div>` : ''}<div class="options">`;
-  q.opts.forEach((opt,oi)=>{
-    let cls='option-btn';
-    if(answered!==null){cls+=' disabled';if(oi===q.ans)cls+=' correct';else if(oi===answered.selected&&!answered.correct)cls+=' wrong';}
-    html+=`<button class="${cls}" ${answered?'':`onclick="selectAnswer(${oi})"`}><span class="option-letter">${letters[oi]}</span><span>${opt}</span></button>`;
-  });
-  html+='</div>';
+  const letters=['A','B','C','D','E','F'];
+  // v12: 複選 or 單選分流
+  const isMulti = q.type === 'multiple_choice' && Array.isArray(q.ans_json);
+  const typeTag = isMulti ? '<span class="q-type-tag">📋 複選題</span>' : '';
+  let html=`<div class="question-card"><div class="q-meta"><div class="q-number">第 ${idx+1} 題，共 ${total} 題</div>${typeTag}${badge}</div><div class="q-text">${q.q}</div>${q.img ? `<div class="q-image"><img src="${q.img}" alt="題目圖片" loading="lazy" style="max-width:100%;border-radius:8px;border:1px solid var(--border-light);margin-bottom:16px;cursor:pointer" onclick="this.style.maxWidth=this.style.maxWidth==='100%'?'150%':'100%'"></div>` : ''}`;
+  if (isMulti) {
+    // ── 複選：checkbox + 送出鈕 ─────────────────────────────
+    state.multiPending = state.multiPending || {};
+    if (!answered && !state.multiPending[idx]) state.multiPending[idx] = [];
+    const pending = answered ? (Array.isArray(answered.selected) ? answered.selected : []) : (state.multiPending[idx] || []);
+    const pendingSet = new Set(pending);
+    const correctSet = new Set(q.ans_json);
+    html += '<div class="options">';
+    q.opts.forEach((opt,oi)=>{
+      let cls='option-btn multi';
+      const isPicked = pendingSet.has(oi);
+      if (answered !== null) {
+        cls += ' disabled';
+        if (correctSet.has(oi) && isPicked) cls += ' correct';
+        else if (correctSet.has(oi) && !isPicked) cls += ' missed';
+        else if (!correctSet.has(oi) && isPicked) cls += ' wrong';
+      } else if (isPicked) {
+        cls += ' picked';
+      }
+      const box = (answered !== null)
+        ? (isPicked ? '☑' : (correctSet.has(oi) ? '◉' : '☐'))
+        : (isPicked ? '☑' : '☐');
+      html += `<button class="${cls}" ${answered?'':`onclick="toggleMulti(${oi})"`}><span class="option-letter">${box}</span><span><strong>${letters[oi]}.</strong> ${opt}</span></button>`;
+    });
+    html += '</div>';
+    if (answered === null) {
+      const n = pending.length;
+      html += `<div class="multi-submit-row"><button class="btn-primary multi-submit${n===0?' disabled':''}" ${n===0?'disabled':''} onclick="submitMulti()">送出答案${n>0?`（已選 ${n} 項）`:''}</button><span class="multi-hint">選出所有正確選項後按送出</span></div>`;
+    }
+  } else {
+    // ── 單選：維持原本的即選即提交 ────────────────────────
+    html += '<div class="options">';
+    q.opts.forEach((opt,oi)=>{
+      let cls='option-btn';
+      if(answered!==null){cls+=' disabled';if(oi===q.ans)cls+=' correct';else if(oi===answered.selected&&!answered.correct)cls+=' wrong';}
+      html+=`<button class="${cls}" ${answered?'':`onclick="selectAnswer(${oi})"`}><span class="option-letter">${letters[oi]}</span><span>${opt}</span></button>`;
+    });
+    html+='</div>';
+  }
   if(answered!==null)html+=`<div class="explanation"><strong>${answered.correct?'✓ 答對了！':'✗ 答錯了'}</strong>${q.exp?'<br>'+q.exp:''}</div>`;
   // 🚩 題目回報（右下角小按鈕，不干擾主流程）
   const reported = (state.reportedQuestionIds || new Set()).has(q.id);
@@ -5199,7 +5252,7 @@ function openReportModal(questionId) {
     });
   });
   // 把當下題目 snapshot 存到 modal dataset，送出時一併上傳
-  if (q) modal.dataset.snapshot = JSON.stringify({ q: q.q, opts: q.opts, ans: q.ans, exam_id: state.currentExamId });
+  if (q) modal.dataset.snapshot = JSON.stringify({ q: q.q, opts: q.opts, ans: q.ans, ans_json: q.ans_json || null, type: q.type || 'single_choice', exam_id: state.currentExamId });
 }
 function closeReportModal() {
   const m = document.getElementById('kn-report-modal');
@@ -5233,35 +5286,67 @@ async function submitQuestionReport(questionId) {
   }
 }
 
-function selectAnswer(oi){
-  if (state.quizFrozen) return;  // 時間到 / 凍結期間不接受新作答
-  const q=state.questions[state.currentIdx];const correct=oi===q.ans;
-  // 避免同一題重複 bump：只有第一次選答時才計算
-  const firstTime = !state.answers[state.currentIdx];
-  // 埋點：記錄本題作答花費秒數（首次選答才記，避免換選項時被覆蓋）
+// v12: 作答落地共用邏輯（單選/複選共用）
+function _recordAnswer(selected, correct) {
+  const idx = state.currentIdx;
+  const q = state.questions[idx];
+  const firstTime = !state.answers[idx];
+  // 埋點：記錄本題作答花費秒數（首次落地才記）
   if (firstTime && state.questionStartTs) {
     try {
       state.questionTimings = state.questionTimings || {};
       const elapsed = Math.max(0, Math.round((Date.now() - state.questionStartTs) / 1000));
-      // 只收合理範圍（0..1800 秒）；避免久置後產生離群值
       state.questionTimings[q.id] = Math.min(1800, elapsed);
     } catch (e) {}
   }
-  state.answers[state.currentIdx]={selected:oi,correct};
+  state.answers[idx] = { selected, correct };
   state.totalDone++;
-  if(correct){state.totalCorrect++;state.streak++;if(state.streak>state.maxStreak)state.maxStreak=state.streak;}
-  else state.streak=0;
-  // bump 每日配額：只計 free 用戶；pro / standard（範圍內）不受限所以不計
-  // Standard 範圍外本來就被 canStartQuiz 擋掉，不會走到這裡
+  if (correct) {
+    state.totalCorrect++; state.streak++;
+    if (state.streak > state.maxStreak) state.maxStreak = state.streak;
+  } else state.streak = 0;
+  // bump 每日配額：free 才計；pro / standard 不受限
   if (firstTime) {
     try {
       const tier = billing.getTier();
-      if (tier.tier !== 'pro' && tier.tier !== 'standard') {
-        billing.bumpDailyCount(1);
-      }
-    } catch(e) { /* billing not ready, skip */ }
+      if (tier.tier !== 'pro' && tier.tier !== 'standard') billing.bumpDailyCount(1);
+    } catch(e) {}
   }
-  saveState();renderQuestion();saveQuizSnapshot();
+  saveState(); renderQuestion(); saveQuizSnapshot();
+}
+function selectAnswer(oi){
+  if (state.quizFrozen) return;
+  const q = state.questions[state.currentIdx];
+  // 保險：如果現在題目是複選題，不應該走 selectAnswer（以防 onclick 路由錯誤）
+  if (q.type === 'multiple_choice') return;
+  _recordAnswer(oi, oi === q.ans);
+}
+// v12: 複選暫存切換（尚未送出）
+function toggleMulti(oi){
+  if (state.quizFrozen) return;
+  const idx = state.currentIdx;
+  if (state.answers[idx]) return;  // 已送出就不讓改
+  state.multiPending = state.multiPending || {};
+  const cur = state.multiPending[idx] || [];
+  const pos = cur.indexOf(oi);
+  if (pos >= 0) cur.splice(pos, 1);
+  else cur.push(oi);
+  state.multiPending[idx] = cur;
+  renderQuestion();
+}
+// v12: 複選送出（必須至少選 1 項）
+function submitMulti(){
+  if (state.quizFrozen) return;
+  const idx = state.currentIdx;
+  if (state.answers[idx]) return;
+  const q = state.questions[idx];
+  const pending = (state.multiPending && state.multiPending[idx]) || [];
+  if (pending.length === 0) return;
+  const sortedPick = pending.slice().sort((a,b)=>a-b);
+  const sortedCorrect = (q.ans_json || []).slice().sort((a,b)=>a-b);
+  const correct = sortedPick.length === sortedCorrect.length
+    && sortedPick.every((v,i)=>v === sortedCorrect[i]);
+  _recordAnswer(sortedPick, correct);
 }
 function nextQuestion(){if(state.currentIdx<state.questions.length-1){state.currentIdx++;state.questionStartTs=Date.now();renderQuestion();window.scrollTo(0,0);saveQuizSnapshot();}}
 function prevQuestion(){if(state.currentIdx>0){state.currentIdx--;state.questionStartTs=Date.now();renderQuestion();window.scrollTo(0,0);saveQuizSnapshot();}}
