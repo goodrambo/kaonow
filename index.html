@@ -11,13 +11,13 @@
 <title>KaoNow 考NOW — 備考不拖延，現在就開始</title>
 <meta name="description" content="KaoNow 考NOW — 整合台灣技術士、公職、國營、教甄、語檢、升學等各類考試題庫，提供講義、練習與弱點分析，一站搞定備考。備考不拖延，現在就開始。">
 <meta property="og:title" content="KaoNow 考NOW — 備考不拖延，現在就開始">
-<meta property="og:description" content="整合台灣各類考試的一站式練習平台，智慧弱點分析，讓你高效備考。">
+<meta property="og:description" content="整合台灣各類考試的一站式練習平台，弱點分析報告，讓你高效備考。">
 <meta property="og:image" content="https://kaonow.com/assets/og-image.png">
 <meta property="og:url" content="https://kaonow.com">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="KaoNow 考NOW — 備考不拖延，現在就開始">
-<meta name="twitter:description" content="整合台灣各類考試的一站式練習平台，智慧弱點分析，讓你高效備考。">
+<meta name="twitter:description" content="整合台灣各類考試的一站式練習平台，弱點分析報告，讓你高效備考。">
 <meta name="twitter:image" content="https://kaonow.com/assets/og-image.png">
 <link rel="canonical" href="https://kaonow.com">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -381,6 +381,38 @@ html{scroll-padding-top:calc(var(--header-h) + 16px)}
 .option-btn.multi.missed{background:#FFF7E5;border-color:#F2CF78;color:#8B5A00}
 .option-btn.multi.missed .option-letter{background:#E0A800;color:#fff}
 .q-type-tag{display:inline-block;padding:2px 8px;border-radius:10px;background:#E8F0FE;color:#2D5CB3;font-size:11px;font-weight:600;margin-left:6px;vertical-align:middle}
+.q-type-tag.readonly{background:#F2F2F2;color:#6B6B6B}
+/* v17: readonly dot（申論/短答/計算「已瀏覽」狀態）*/
+.dot.readonly-viewed{background:#C4C4C4;position:relative}
+.dot.readonly-viewed::after{content:'📝';position:absolute;top:-6px;right:-4px;font-size:9px}
+/* v17: passage 區塊（reading_passage parent 的題幹內文）*/
+.q-passage{background:#FAFAF7;border-left:3px solid #D9D4C4;padding:14px 16px;margin:0 0 14px;border-radius:4px;font-size:13.5px;line-height:1.85;white-space:pre-wrap;color:#333}
+.q-passage-toggle{font-size:12px;color:#6B7B99;background:none;border:none;cursor:pointer;padding:4px 0;margin-bottom:6px;font-weight:600}
+.q-passage-toggle:hover{text-decoration:underline}
+.q-passage.collapsed{max-height:72px;overflow:hidden;position:relative}
+.q-passage.collapsed::after{content:'';position:absolute;bottom:0;left:0;right:0;height:30px;background:linear-gradient(transparent,#FAFAF7)}
+/* v17: readonly 作答區（essay/short_answer/calculation） */
+.q-readonly-box{background:#FCFAF4;border:1px solid #E8E2CF;border-radius:var(--radius);padding:16px;margin-top:4px}
+.q-readonly-box textarea{width:100%;min-height:120px;padding:10px;border:1px solid var(--border-light);border-radius:6px;font-family:inherit;font-size:13.5px;line-height:1.7;resize:vertical;box-sizing:border-box}
+.q-sub-questions{margin:8px 0 14px;padding-left:18px}
+.q-sub-questions li{margin-bottom:6px;font-size:13px;line-height:1.65}
+.q-sub-questions .q-points{color:#A36B1F;font-size:11.5px;font-weight:600;margin-left:4px}
+.q-model-toggle{display:inline-flex;align-items:center;gap:6px;padding:7px 14px;background:#FFF;border:1px solid #D9D4C4;border-radius:6px;font-size:12.5px;font-weight:600;color:#6B5B3D;cursor:pointer;margin-top:10px}
+.q-model-toggle:hover{background:#FAF7F0}
+.q-model-answer{margin-top:10px;padding:12px 14px;background:#FFF;border:1px dashed #D9D4C4;border-radius:6px;font-size:13px;line-height:1.8;white-space:pre-wrap;color:#4A4A4A}
+.q-model-answer.hidden{display:none}
+.q-readonly-hint{font-size:12px;color:#8B7D5C;margin-top:6px}
+/* v17: true_false 大按鈕 */
+.tf-row{display:flex;gap:12px;margin-top:8px}
+.tf-btn{flex:1;padding:18px;font-size:16px;font-weight:600;border:2px solid var(--border-light);background:#FFF;border-radius:var(--radius);cursor:pointer;transition:all .15s}
+.tf-btn:hover:not(.disabled){border-color:var(--accent);background:var(--accent-light)}
+.tf-btn.disabled{cursor:default;opacity:.85}
+.tf-btn.correct{background:var(--correct-bg);border-color:var(--correct);color:var(--correct)}
+.tf-btn.wrong{background:var(--wrong-bg);border-color:var(--wrong);color:var(--wrong)}
+/* v17: calculation 數字輸入 */
+.q-calc-row{display:flex;gap:10px;margin-top:8px;align-items:stretch}
+.q-calc-row input{flex:1;padding:12px 14px;font-size:15px;border:1px solid var(--border-light);border-radius:6px;font-family:inherit}
+.q-calc-row .q-calc-unit{display:flex;align-items:center;padding:0 10px;color:var(--text-tertiary,#999);font-size:13px}
 .multi-submit-row{display:flex;align-items:center;gap:12px;margin-top:16px}
 .multi-submit-row .multi-hint{font-size:12.5px;color:var(--text-tertiary,#999)}
 .btn-primary.multi-submit.disabled,.btn-primary.multi-submit:disabled{opacity:.55;cursor:not-allowed}
@@ -958,7 +990,7 @@ html:not(.auth-ready) [data-when]{display:none}
         <div class="feat"><span class="feat-icon">🏆</span><h3>模擬考體驗</h3><p>依照真實考試題數與配分設計，讓你上考場不緊張。</p></div>
         <div class="feat"><span class="feat-icon">📊</span><h3>學習進度追蹤</h3><p>連勝紀錄、正確率趨勢、練習總量，進步看得見。</p></div>
         <div class="feat"><span class="feat-icon">📱</span><h3>跨裝置通用</h3><p>手機、平板、電腦都能用，通勤刷題完全沒問題。</p></div>
-        <div class="feat"><span class="feat-icon">🔒</span><h3>免費版即可開始</h3><p>免費註冊立即練習；升級 Pro 解鎖完整題庫與 AI 功能。</p></div>
+        <div class="feat"><span class="feat-icon">🔒</span><h3>免費版即可開始</h3><p>免費註冊立即練習；升級 Pro 解鎖完整題庫與進階功能。</p></div>
       </div>
     </div>
 
@@ -977,7 +1009,7 @@ html:not(.auth-ready) [data-when]{display:none}
             <li>完整答題解析</li>
             <li>題目收藏</li>
             <li class="off">模擬考</li>
-            <li class="off">AI 弱點分析</li>
+            <li class="off">弱點加強</li>
           </ul>
           <button class="price-cta" onclick="openLoginModal()">免費註冊 · 送 7 天 Pro</button>
         </div>
@@ -990,7 +1022,7 @@ html:not(.auth-ready) [data-when]{display:none}
             <li>技術士 + 金融證照無限練習</li>
             <li>該範圍內完整模擬考</li>
             <li>完整答題解析</li>
-            <li>AI 弱點分析</li>
+            <li>弱點加強練習</li>
             <li>題目收藏</li>
             <li class="off">其他 8 大類無法練習</li>
           </ul>
@@ -1006,8 +1038,8 @@ html:not(.auth-ready) [data-when]{display:none}
           <ul class="price-features">
             <li>10 大類考試完整題庫無限練習</li>
             <li>全站完整模擬考</li>
-            <li>完整答題解析 + AI 補充說明</li>
-            <li>AI 弱點分析</li>
+            <li>完整答題解析</li>
+            <li>弱點加強練習</li>
             <li>題目收藏</li>
             <li>適合跨類別備考者</li>
           </ul>
@@ -1292,7 +1324,6 @@ html:not(.auth-ready) [data-when]{display:none}
       <p>本服務提供之題目、解析與學習資料來源說明如下：</p>
       <ul>
         <li><strong>官方考古題：</strong>源自各主管機關公開釋出之歷屆試題，屬政府著作，依著作權法得為非營利重製使用，解析文字為本服務原創。</li>
-        <li><strong>AI 生成題：</strong>由大型語言模型依該考試之法規範圍與訓練知識生成，每題均有「🤖 AI 生成題」標示，可能與最新修法有小幅落差。</li>
       </ul>
       <p>所有題目、解析與學習資料<strong>僅供備考練習參考之用</strong>，不保證與未來實際考試題目或官方標準答案完全一致；應試之標準以各發證機關、考選機關當次公告為準。若您發現題目或答案有誤，歡迎透過站內檢舉功能或 <a href="mailto:admin@kaonow.com">admin@kaonow.com</a> 與我們聯繫，我們將儘速核實處理。</p>
 
@@ -1394,12 +1425,11 @@ html:not(.auth-ready) [data-when]{display:none}
         <tr><th>委外廠商</th><th>用途</th><th>資料範圍</th></tr>
         <tr><td>Supabase, Inc.</td><td>資料庫、帳號驗證、檔案儲存</td><td>帳號識別、學習行為、付費交易資料</td></tr>
         <tr><td>綠界科技股份有限公司</td><td>金流處理、發票服務</td><td>訂單編號、付款金額與狀態</td></tr>
-        <tr><td>Anthropic, PBC（Claude API）</td><td>AI 功能之即時推論</td><td>當次 AI 請求之內容，<strong>不用於模型訓練</strong></td></tr>
       </table>
       <p><strong>利用方式：</strong>於符合蒐集目的之必要範圍內，以電子檔案或書面方式處理、利用，並採取適當之技術與管理措施以確保資料安全。</p>
 
       <h2 id="priv-5">5. 境外傳輸</h2>
-      <p>由於本服務使用之雲端基礎設施與 API 服務商（Supabase、Anthropic）伺服器位於<strong>美國、新加坡等中華民國境外地區</strong>，您的個人資料於處理過程中可能被傳輸至該等境外區域。我們已審慎評估上述廠商之資料保護水準，並透過合約條款（含資料處理協議、加密傳輸、存取控制等）確保其提供不低於國內之保護水準。</p>
+      <p>由於本服務使用之雲端基礎設施與 API 服務商（Supabase）伺服器位於<strong>美國、新加坡等中華民國境外地區</strong>，您的個人資料於處理過程中可能被傳輸至該等境外區域。我們已審慎評估上述廠商之資料保護水準，並透過合約條款（含資料處理協議、加密傳輸、存取控制等）確保其提供不低於國內之保護水準。</p>
       <p>若主管機關（如數位發展部）依個資法第 21 條限制特定境外傳輸，本服務將依指示調整傳輸方式。</p>
 
       <h2 id="priv-6">6. 您對個人資料的權利</h2>
@@ -1689,6 +1719,8 @@ const cloud = (() => {
       const attempts = questions.map((q, i) => {
         const ans = answers[i];
         if (!ans) return null;
+        // v17: 閱覽型（readonly）沒有 correct 狀態，不寫 question_attempts
+        if (ans.readonly || ans.correct === null) return null;
         const t = timings[q.id];
         // v12: 多選 / 其他題型寫 selected_answer_json；單選維持 selected_answer(int)
         const isArrayAns = Array.isArray(ans.selected);
@@ -1775,7 +1807,7 @@ const cloud = (() => {
   }
 
   // ── 題庫載入（含快取，24h TTL） ─────────────────────────
-  const Q_CACHE_PREFIX = 'kaonow_q3_';  // v12: 換 key 讓舊 cache 失效，拉到 question_type / correct_answer_json 欄位
+  const Q_CACHE_PREFIX = 'kaonow_q4_';  // v17: 換 key 讓舊 cache 失效，拉到 auto_gradable / parent_question_id / paper_id / media / source_meta
   const Q_CACHE_TTL = 24 * 3600 * 1000;
   const qMemCache = {};  // 記憶體快取，避免同一 session 重複打
 
@@ -1800,8 +1832,39 @@ const cloud = (() => {
       exp: row.explanation,
       source: row.source,
       difficulty: row.difficulty,
-      img: row.image_url || null
+      img: row.image_url || null,
+      // v17: 多題型 + 題組 + 試卷維度
+      auto_gradable: row.auto_gradable !== false,  // default true (未帶欄位時當可自動批改)
+      parent_id: row.parent_question_id || null,
+      paper_id: row.paper_id || null,
+      media: row.media || null,
+      source_meta: row.source_meta || null
     };
+  }
+
+  // v17: 把 reading_passage / listening_passage parent 的 passage 內容
+  //      attach 到 children 的 q._passage，parent 本身自 list 過濾掉（不獨立渲染）。
+  function _attachPassagesAndFilter(list) {
+    if (!Array.isArray(list) || list.length === 0) return list;
+    const parents = {};
+    for (const q of list) {
+      if (q.type === 'reading_passage' || q.type === 'listening_passage' || q.type === 'stem_shared') {
+        parents[q.id] = q;
+      }
+    }
+    // 若沒有 parent → 無變化
+    if (Object.keys(parents).length === 0) return list;
+    const out = [];
+    for (const q of list) {
+      if (parents[q.id]) continue;  // parent 不進 list
+      if (q.parent_id && parents[q.parent_id]) {
+        const p = parents[q.parent_id];
+        q._passage = (p.media && (p.media.passage_text || p.media.passage_md)) || p.q || null;
+        q._passage_stem = p.q || null;  // parent 的題幹（「閱讀下文回答第 X 至 Y 題」）
+      }
+      out.push(q);
+    }
+    return out;
   }
 
   async function loadQuestions(examId, opts = {}) {
@@ -1825,13 +1888,13 @@ const cloud = (() => {
 
     // 3. 從 Supabase 取（questions_published view：已過濾未審核的 AI 題）
     const r = await request(
-      'questions_published?exam_id=eq.' + examId + '&order=id.asc&select=id,exam_id,subject_id,chapter_id,question_text,options,correct_answer,correct_answer_json,question_type,explanation,source,difficulty,image_url'
+      'questions_published?exam_id=eq.' + examId + '&order=id.asc&select=id,exam_id,subject_id,chapter_id,question_text,options,correct_answer,correct_answer_json,question_type,explanation,source,difficulty,image_url,auto_gradable,parent_question_id,paper_id,media,source_meta'
     );
     if (!r.ok || !Array.isArray(r.data)) {
       warn('loadQuestions failed', examId, r);
       return [];
     }
-    const mapped = r.data.map(_mapDbQuestion);
+    const mapped = _attachPassagesAndFilter(r.data.map(_mapDbQuestion));
     qMemCache[examId] = mapped;
     try {
       localStorage.setItem(Q_CACHE_PREFIX + examId, JSON.stringify({
@@ -2035,14 +2098,14 @@ const cloud = (() => {
     }
     const r = await request(
       'questions_published?subject_id=eq.' + subjectId +
-      '&order=id.asc&select=id,chapter_id,subject_id,question_text,options,correct_answer,correct_answer_json,question_type,explanation,source,difficulty,image_url'
+      '&order=id.asc&select=id,chapter_id,subject_id,question_text,options,correct_answer,correct_answer_json,question_type,explanation,source,difficulty,image_url,auto_gradable,parent_question_id,paper_id,media,source_meta'
     );
     if (!r.ok || !Array.isArray(r.data)) {
       warn('loadQuestionsBySubject failed', subjectId, r);
       _v6SetCached(cacheKey, []);
       return [];
     }
-    const mapped = r.data.map(_mapDbQuestion);
+    const mapped = _attachPassagesAndFilter(r.data.map(_mapDbQuestion));
     _v6SetCached(cacheKey, mapped);
     log('loadQuestionsBySubject', subjectId, mapped.length);
     return mapped;
@@ -2384,7 +2447,6 @@ const billing = (() => {
     const modeLabel = ({
       mock: '模擬考',
       weak: '弱點加強',
-      ai:   'AI 補充題',
     })[mode] || '此功能';
     if (reason === 'trial_ended') {
       return {
@@ -2401,7 +2463,7 @@ const billing = (() => {
     if (reason === 'mode_locked') {
       return {
         title: `${modeLabel}需要付費方案`,
-        sub: '免費版開放隨機與章節練習；模擬考、弱點加強、AI 題需要升級到標準或完整方案。',
+        sub: '免費版開放隨機與章節練習；模擬考、弱點加強需要升級到標準或完整方案。',
       };
     }
     if (reason === 'tier_scope') {
@@ -4362,14 +4424,13 @@ async function renderExam(id){
        <div class="eh-stat"><div class="eh-stat-num" style="font-size:13px;padding-top:4px">${exam.examFormat||'—'}</div><div class="eh-stat-label">考試形式</div></div>
      </div>`:''}`;
 
-  // 異步補上題庫來源細節（AI / 官方 / 社群）
+  // 異步補上題庫來源細節（官方 / 社群）
   if (exam.available) {
     (async () => {
       try {
         const qs = await cloud.loadQuestions(id);
         if (!qs || !qs.length) return;
         if (state.currentExamId !== id) return;
-        const ai  = qs.filter(q => q.source === 'ai_generated').length;
         const off = qs.filter(q => q.source === 'official').length;
         const com = qs.filter(q => q.source === 'community').length;
         const numEl = document.getElementById('eh-stat-total');
@@ -4378,12 +4439,9 @@ async function renderExam(id){
         numEl.textContent = qs.length;
         const parts = [];
         if (off) parts.push(`${off} 官方`);
-        if (ai)  parts.push(`${ai} AI 生成`);
         if (com) parts.push(`${com} 社群`);
         if (parts.length > 1) {
           labEl.innerHTML = `題目數 <span style="color:var(--text-tertiary);font-size:11px">(${parts.join(' / ')})</span>`;
-        } else if (ai && !off && !com) {
-          labEl.innerHTML = `題目數 <span style="color:var(--text-tertiary);font-size:11px">(AI 生成題)</span>`;
         }
       } catch(e) {}
     })();
@@ -4966,11 +5024,9 @@ function renderBankPane(exam){
   <div class="source-notice">
     <span class="sn-icon">ℹ️</span>
     <div class="sn-body">
-      <strong>題庫來源說明</strong>：每題下方會標示來源 —
+      <strong>題庫來源說明</strong>：題目來自
       <span class="q-badge badge-official" style="margin:0 2px">📝 官方考古題</span>
-      來自官方釋出歷屆試題；
-      <span class="q-badge badge-ai" style="margin:0 2px">🤖 AI 生成題</span>
-      由大型語言模型依該考試法規與訓練知識生成，可能與最新修法有小幅落差。
+      官方釋出之歷屆試題；解析文字為本服務原創整理。
     </div>
   </div>
   <div class="mode-grid">
@@ -4988,11 +5044,6 @@ function renderBankPane(exam){
       <div class="mode-icon">🎯</div>
       <div class="mode-title">弱點加強</div>
       <div class="mode-desc">依錯題與弱章節加強</div>
-    </button>
-    <button class="mode-card" onclick="startQuiz('ai')">
-      <div class="mode-icon">🤖</div>
-      <div class="mode-title">AI 考題</div>
-      <div class="mode-desc">AI 生成練習題</div>
     </button>
   </div>
   <h3 style="font-size:15px;font-weight:700;margin:8px 0 12px;display:flex;align-items:center;gap:8px"><span style="width:3px;height:16px;background:var(--accent);border-radius:2px;display:inline-block"></span>依章節練習</h3>
@@ -5055,7 +5106,6 @@ async function renderSubject(subjectId) {
     <div class="exam-hero-stats">
       <div class="eh-stat"><div class="eh-stat-num">${questions.length}</div><div class="eh-stat-label">題目總數</div></div>
       <div class="eh-stat"><div class="eh-stat-num">${officialCount}</div><div class="eh-stat-label">官方題</div></div>
-      <div class="eh-stat"><div class="eh-stat-num">${aiCount}</div><div class="eh-stat-label">AI 題</div></div>
       <div class="eh-stat"><div class="eh-stat-num">${chapters.length}</div><div class="eh-stat-label">章節</div></div>
     </div>`;
 
@@ -5170,18 +5220,16 @@ function renderSubjectBankPane(subj, questions, chapters) {
     return;
   }
 
-  // 四模式（單科作用域）
+  // 三模式（單科作用域）
   const mockCount = Math.min(total, 30);
-  const aiInBank = questions.filter(q => q.source === 'ai_generated').length;
   const officialInBank = questions.filter(q => q.source === 'official').length;
   const sourceNotice = `
     <div class="source-notice">
       <span class="sn-icon">ℹ️</span>
       <div class="sn-body">
         <strong>題庫組成</strong>：
-        <span class="q-badge badge-official" style="margin:0 2px">📝 官方考古題</span> ${officialInBank} 題 ·
-        <span class="q-badge badge-ai" style="margin:0 2px">🤖 AI 生成題</span> ${aiInBank} 題。
-        每題下方會標示來源；AI 生成題由大型語言模型依該科法規與訓練知識生成，可能與最新修法有小幅落差。
+        <span class="q-badge badge-official" style="margin:0 2px">📝 官方考古題</span> ${officialInBank} 題。
+        解析文字為本服務原創整理。
       </div>
     </div>`;
   const modeGrid = `
@@ -5201,11 +5249,6 @@ function renderSubjectBankPane(subj, questions, chapters) {
         <div class="mode-icon">🎯</div>
         <div class="mode-title">弱點加強</div>
         <div class="mode-desc">依錯題與弱章節加強</div>
-      </button>
-      <button class="mode-card" onclick="startSubjectQuiz('ai')">
-        <div class="mode-icon">🤖</div>
-        <div class="mode-title">AI 考題</div>
-        <div class="mode-desc">AI 生成練習題</div>
       </button>
     </div>`;
 
@@ -5542,16 +5585,91 @@ function renderDots(){
   const wrap=document.getElementById('quiz-dots');wrap.innerHTML='';
   state.questions.forEach((_,i)=>{
     const d=document.createElement('span');d.className='dot'+(i===state.currentIdx?' current':'');
-    if(state.answers[i]!==null)d.classList.add(state.answers[i].correct?'answered-correct':'answered-wrong');
+    const a = state.answers[i];
+    if(a!==null){
+      if (a.readonly) d.classList.add('readonly-viewed');
+      else d.classList.add(a.correct?'answered-correct':'answered-wrong');
+    }
     d.onclick=()=>goToQuestion(i);wrap.appendChild(d);
   });
 }
 function goToQuestion(i){state.currentIdx=i;state.questionStartTs=Date.now();renderQuestion();renderDots();saveQuizSnapshot();}
 function sourceBadge(src) {
-  if (src === 'ai_generated') return '<span class="q-badge badge-ai">🤖 AI 生成題</span>';
+  // AI 生成題暫不顯示 badge（金流審核期間）
+  if (src === 'ai_generated') return '';
   if (src === 'community') return '<span class="q-badge badge-community">👥 社群</span>';
   if (src === 'official') return '<span class="q-badge badge-official">📝 官方考古題</span>';
   return '';
+}
+
+// v17: 題型 helpers ──────────────────────────────────────────
+const READONLY_TYPES = ['essay','short_answer','reading_passage','listening_passage','composite_paper','stem_shared','image_ref'];
+function _isReadonlyType(type) { return READONLY_TYPES.includes(type); }
+function _isAutoGradableQ(q) {
+  return q && q.auto_gradable !== false && !_isReadonlyType(q.type);
+}
+function _countAutoGradable(list) {
+  return (list || []).filter(_isAutoGradableQ).length;
+}
+function _questionTypeLabel(type) {
+  const map = {
+    multiple_choice: { txt: '📋 複選題', readonly: false },
+    true_false:      { txt: '✓✗ 是非題', readonly: false },
+    essay:           { txt: '📝 申論題（閱覽）', readonly: true },
+    short_answer:    { txt: '📝 簡答題（閱覽）', readonly: true },
+    calculation:     { txt: '🔢 計算題', readonly: false },
+    fill_blank:      { txt: '✏️ 填空題', readonly: false },
+    ordering:        { txt: '🔀 排序題', readonly: false },
+    matching:        { txt: '🔗 配對題', readonly: false },
+    image_ref:       { txt: '🖼 圖示題', readonly: true },
+    reading_passage: { txt: '📖 閱讀題組', readonly: true },
+    listening_passage:{ txt: '🎧 聽力題組', readonly: true },
+    composite_paper: { txt: '📄 整卷', readonly: true },
+    stem_shared:     { txt: '📖 閱讀題組', readonly: true },
+  };
+  return map[type] || null;
+}
+function _escHtml(s){
+  if (s == null) return '';
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+}
+function togglePassage(btn) {
+  const pbox = btn.nextElementSibling;
+  if (!pbox) return;
+  pbox.classList.toggle('collapsed');
+  btn.textContent = pbox.classList.contains('collapsed') ? '📖 展開閱讀文本' : '📖 收起閱讀文本';
+}
+function toggleModelAnswer(btn) {
+  const box = document.getElementById('kn-model-answer-box');
+  if (!box) return;
+  box.classList.toggle('hidden');
+  btn.innerHTML = box.classList.contains('hidden') ? '📖 顯示模範答案' : '📖 收起模範答案';
+}
+function _markReadonlyViewed() {
+  // 非 auto_gradable 題目按「我已閱覽，下一題」時標為已瀏覽（不計分、不扣 quota、不計入錯題）
+  if (state.quizFrozen) return;
+  const idx = state.currentIdx;
+  if (state.answers[idx]) return;
+  state.answers[idx] = { selected: null, correct: null, readonly: true, viewed: true };
+  state.totalDone++;
+  saveState(); renderQuestion(); saveQuizSnapshot();
+}
+function submitCalculation() {
+  if (state.quizFrozen) return;
+  const idx = state.currentIdx;
+  if (state.answers[idx]) return;
+  const q = state.questions[idx];
+  const inputEl = document.getElementById('kn-calc-input');
+  if (!inputEl) return;
+  const userStr = (inputEl.value || '').trim();
+  if (!userStr) return;
+  const caj = (q.ans_json && typeof q.ans_json === 'object' && !Array.isArray(q.ans_json)) ? q.ans_json : {};
+  const target = parseFloat(caj.final_answer);
+  const tol = parseFloat(caj.tolerance) || 0;
+  const userNum = parseFloat(userStr);
+  const correct = !Number.isNaN(target) && !Number.isNaN(userNum)
+                  && Math.abs(userNum - target) <= tol + 1e-9;
+  _recordAnswer(userStr, correct);
 }
 
 function renderQuestion(){
@@ -5559,69 +5677,191 @@ function renderQuestion(){
   document.getElementById('q-current').textContent=idx+1;
   document.getElementById('q-total').textContent=total;
   document.getElementById('quiz-progress').style.width=((idx+1)/total*100)+'%';
-  // Source badge
+  // Common chrome
   const badge = sourceBadge(q.source);
-  const letters=['A','B','C','D','E','F'];
-  // v12: 複選 or 單選分流
-  const isMulti = q.type === 'multiple_choice' && Array.isArray(q.ans_json);
-  const typeTag = isMulti ? '<span class="q-type-tag">📋 複選題</span>' : '';
-  let html=`<div class="question-card"><div class="q-meta"><div class="q-number">第 ${idx+1} 題，共 ${total} 題</div>${typeTag}${badge}</div><div class="q-text">${q.q}</div>${q.img ? `<div class="q-image"><img src="${q.img}" alt="題目圖片" loading="lazy" style="max-width:100%;border-radius:8px;border:1px solid var(--border-light);margin-bottom:16px;cursor:pointer" onclick="this.style.maxWidth=this.style.maxWidth==='100%'?'150%':'100%'"></div>` : ''}`;
-  if (isMulti) {
-    // ── 複選：checkbox + 送出鈕 ─────────────────────────────
-    state.multiPending = state.multiPending || {};
-    if (!answered && !state.multiPending[idx]) state.multiPending[idx] = [];
-    const pending = answered ? (Array.isArray(answered.selected) ? answered.selected : []) : (state.multiPending[idx] || []);
-    const pendingSet = new Set(pending);
-    const correctSet = new Set(q.ans_json);
-    html += '<div class="options">';
-    q.opts.forEach((opt,oi)=>{
-      let cls='option-btn multi';
-      const isPicked = pendingSet.has(oi);
-      if (answered !== null) {
-        cls += ' disabled';
-        if (correctSet.has(oi) && isPicked) cls += ' correct';
-        else if (correctSet.has(oi) && !isPicked) cls += ' missed';
-        else if (!correctSet.has(oi) && isPicked) cls += ' wrong';
-      } else if (isPicked) {
-        cls += ' picked';
-      }
-      const box = (answered !== null)
-        ? (isPicked ? '☑' : (correctSet.has(oi) ? '◉' : '☐'))
-        : (isPicked ? '☑' : '☐');
-      html += `<button class="${cls}" ${answered?'':`onclick="toggleMulti(${oi})"`}><span class="option-letter">${box}</span><span><strong>${letters[oi]}.</strong> ${opt}</span></button>`;
-    });
-    html += '</div>';
-    if (answered === null) {
-      const n = pending.length;
-      html += `<div class="multi-submit-row"><button class="btn-primary multi-submit${n===0?' disabled':''}" ${n===0?'disabled':''} onclick="submitMulti()">送出答案${n>0?`（已選 ${n} 項）`:''}</button><span class="multi-hint">選出所有正確選項後按送出</span></div>`;
-    }
-  } else {
-    // ── 單選：維持原本的即選即提交 ────────────────────────
-    html += '<div class="options">';
-    q.opts.forEach((opt,oi)=>{
-      let cls='option-btn';
-      if(answered!==null){cls+=' disabled';if(oi===q.ans)cls+=' correct';else if(oi===answered.selected&&!answered.correct)cls+=' wrong';}
-      html+=`<button class="${cls}" ${answered?'':`onclick="selectAnswer(${oi})"`}><span class="option-letter">${letters[oi]}</span><span>${opt}</span></button>`;
-    });
-    html+='</div>';
+  const tmeta = _questionTypeLabel(q.type);
+  const typeTag = tmeta
+    ? `<span class="q-type-tag${tmeta.readonly?' readonly':''}">${tmeta.txt}</span>`
+    : '';
+  let html = `<div class="question-card"><div class="q-meta"><div class="q-number">第 ${idx+1} 題，共 ${total} 題</div>${typeTag}${badge}</div>`;
+  // v17: reading_passage child 的文本附於題幹上方
+  if (q._passage) {
+    html += `<button type="button" class="q-passage-toggle" onclick="togglePassage(this)">📖 展開閱讀文本</button>`;
+    html += `<div class="q-passage collapsed">${_escHtml(q._passage)}</div>`;
   }
-  if(answered!==null)html+=`<div class="explanation"><strong>${answered.correct?'✓ 答對了！':'✗ 答錯了'}</strong>${q.exp?'<br>'+q.exp:''}</div>`;
-  // 🚩 題目回報（右下角小按鈕，不干擾主流程）
+  html += `<div class="q-text">${q.q}</div>${q.img ? `<div class="q-image"><img src="${q.img}" alt="題目圖片" loading="lazy" style="max-width:100%;border-radius:8px;border:1px solid var(--border-light);margin-bottom:16px;cursor:pointer" onclick="this.style.maxWidth=this.style.maxWidth==='100%'?'150%':'100%'"></div>` : ''}`;
+
+  // ── type-specific body ─────────────────────────────────
+  const t = q.type || 'single_choice';
+  if (t === 'multiple_choice' && Array.isArray(q.ans_json)) {
+    html += _renderMultipleChoice(q, idx, answered);
+  } else if (t === 'true_false') {
+    html += _renderTrueFalse(q, answered);
+  } else if (t === 'calculation' && q.auto_gradable !== false) {
+    html += _renderCalculation(q, answered);
+  } else if (_isReadonlyType(t) || q.auto_gradable === false) {
+    html += _renderReadonly(q, answered);
+  } else {
+    // single_choice 及 fallback（unknown type / 暫不支援的 auto_gradable 型）
+    html += _renderSingleChoice(q, answered);
+  }
+
+  // ── explanation / readonly footer ────────────────────
+  if (answered !== null) {
+    if (answered.readonly) {
+      // 閱覽題：已完成瀏覽標示（不顯示對錯）
+      html += `<div class="explanation" style="background:#FAF7F0;border-color:#D9D4C4"><strong style="color:#8B7D5C">📝 已閱覽</strong>${q.exp?'<br>'+_escHtml(q.exp):''}</div>`;
+    } else {
+      html += `<div class="explanation"><strong>${answered.correct?'✓ 答對了！':'✗ 答錯了'}</strong>${q.exp?'<br>'+q.exp:''}</div>`;
+    }
+  }
+  // 🚩 題目回報
   const reported = (state.reportedQuestionIds || new Set()).has(q.id);
   html += `<div class="q-report-row">
     <button class="q-report-btn${reported?' reported':''}" ${reported?'disabled':`onclick="openReportModal('${q.id.replace(/'/g,"\\'")}')"`} title="${reported?'你已回報過這題':'題目有問題？回報給我們'}">
       🚩 ${reported?'已回報':'回報題目'}
     </button>
   </div>`;
-  html+=`</div><div class="quiz-actions">`;
-  // 上一題：idx>0 就顯示（不管答過沒，允許翻回去看）；用 margin-right:auto 擠到最左
-  if(idx>0) html+=`<button class="btn-secondary" style="margin-right:auto" onclick="prevQuestion()">← 上一題</button>`;
-  if(answered!==null){
-    if(idx<total-1)html+=`<button class="btn-primary" onclick="nextQuestion()">下一題 →</button>`;
-    else html+=`<button class="btn-primary" onclick="showResult()">查看結果</button>`;
+  html += `</div><div class="quiz-actions">`;
+  if (idx > 0) html += `<button class="btn-secondary" style="margin-right:auto" onclick="prevQuestion()">← 上一題</button>`;
+  if (answered !== null) {
+    if (idx < total-1) html += `<button class="btn-primary" onclick="nextQuestion()">下一題 →</button>`;
+    else html += `<button class="btn-primary" onclick="showResult()">查看結果</button>`;
+  } else if (_isReadonlyType(t) || q.auto_gradable === false) {
+    // 閱覽型題：提供「我已閱覽」按鈕推進（以免卡死）
+    html += `<button class="btn-primary" onclick="_markReadonlyViewed()">我已閱覽，下一題 →</button>`;
   }
-  html+='</div>';
-  document.getElementById('question-area').innerHTML=html;renderDots();
+  html += '</div>';
+  document.getElementById('question-area').innerHTML = html;
+  renderDots();
+}
+
+// ── 單選（原 Wave 0 邏輯不動）────────────────────────────
+function _renderSingleChoice(q, answered) {
+  const letters=['A','B','C','D','E','F'];
+  let html = '<div class="options">';
+  q.opts.forEach((opt,oi)=>{
+    let cls='option-btn';
+    if (answered !== null) {
+      cls += ' disabled';
+      if (oi === q.ans) cls += ' correct';
+      else if (oi === answered.selected && !answered.correct) cls += ' wrong';
+    }
+    html += `<button class="${cls}" ${answered?'':`onclick="selectAnswer(${oi})"`}><span class="option-letter">${letters[oi]}</span><span>${opt}</span></button>`;
+  });
+  html += '</div>';
+  return html;
+}
+
+// ── 複選（原 v12 邏輯不動）───────────────────────────────
+function _renderMultipleChoice(q, idx, answered) {
+  const letters=['A','B','C','D','E','F'];
+  state.multiPending = state.multiPending || {};
+  if (!answered && !state.multiPending[idx]) state.multiPending[idx] = [];
+  const pending = answered ? (Array.isArray(answered.selected) ? answered.selected : []) : (state.multiPending[idx] || []);
+  const pendingSet = new Set(pending);
+  const correctSet = new Set(q.ans_json);
+  let html = '<div class="options">';
+  q.opts.forEach((opt,oi)=>{
+    let cls='option-btn multi';
+    const isPicked = pendingSet.has(oi);
+    if (answered !== null) {
+      cls += ' disabled';
+      if (correctSet.has(oi) && isPicked) cls += ' correct';
+      else if (correctSet.has(oi) && !isPicked) cls += ' missed';
+      else if (!correctSet.has(oi) && isPicked) cls += ' wrong';
+    } else if (isPicked) cls += ' picked';
+    const box = (answered !== null)
+      ? (isPicked ? '☑' : (correctSet.has(oi) ? '◉' : '☐'))
+      : (isPicked ? '☑' : '☐');
+    html += `<button class="${cls}" ${answered?'':`onclick="toggleMulti(${oi})"`}><span class="option-letter">${box}</span><span><strong>${letters[oi]}.</strong> ${opt}</span></button>`;
+  });
+  html += '</div>';
+  if (answered === null) {
+    const n = pending.length;
+    html += `<div class="multi-submit-row"><button class="btn-primary multi-submit${n===0?' disabled':''}" ${n===0?'disabled':''} onclick="submitMulti()">送出答案${n>0?`（已選 ${n} 項）`:''}</button><span class="multi-hint">選出所有正確選項後按送出</span></div>`;
+  }
+  return html;
+}
+
+// ── 是非題：兩顆大按鈕 ─────────────────────────────────
+function _renderTrueFalse(q, answered) {
+  // correct_answer: 1=是 / 0=否（依 §4.1 慣例）；若 ans_json.answer boolean 也接受
+  let rightIdx = q.ans;
+  if (q.ans_json && typeof q.ans_json === 'object' && !Array.isArray(q.ans_json) && q.ans_json.answer != null) {
+    rightIdx = q.ans_json.answer ? 1 : 0;
+  }
+  const labels = ['否','是'];  // index 0=否 / 1=是
+  let html = '<div class="tf-row">';
+  [1,0].forEach(oi => {  // 顯示順序：是(1) 先、否(0) 後
+    let cls = 'tf-btn';
+    if (answered !== null) {
+      cls += ' disabled';
+      if (oi === rightIdx) cls += ' correct';
+      else if (oi === answered.selected && !answered.correct) cls += ' wrong';
+    }
+    html += `<button class="${cls}" ${answered?'':`onclick="selectTrueFalse(${oi}, ${rightIdx})"`}>${labels[oi]}</button>`;
+  });
+  html += '</div>';
+  return html;
+}
+
+// ── 計算題：自由輸入 + final_answer ± tolerance 比對 ───
+function _renderCalculation(q, answered) {
+  const caj = (q.ans_json && typeof q.ans_json === 'object' && !Array.isArray(q.ans_json)) ? q.ans_json : {};
+  const unit = caj.unit || '';
+  let html = '<div class="q-calc-row">';
+  if (answered === null) {
+    html += `<input type="text" id="kn-calc-input" placeholder="輸入你的答案${unit?'（'+unit+'）':''}" autocomplete="off" onkeydown="if(event.key==='Enter'){event.preventDefault();submitCalculation();}">`;
+    if (unit) html += `<span class="q-calc-unit">${_escHtml(unit)}</span>`;
+    html += `<button class="btn-primary" onclick="submitCalculation()">送出答案</button>`;
+  } else {
+    const userDisp = (answered.selected != null) ? _escHtml(String(answered.selected)) : '—';
+    const finalDisp = (caj.final_answer != null) ? _escHtml(String(caj.final_answer)) + (unit?' '+_escHtml(unit):'') : '（未提供）';
+    html += `<div style="flex:1;padding:10px 14px;border:1px solid var(--border-light);border-radius:6px;background:#FAFAFA">你的答案：<strong>${userDisp}</strong></div>`;
+    html += `</div><div style="margin-top:10px;font-size:13px;color:var(--text-secondary,#666)">正確答案：<strong style="color:var(--correct)">${finalDisp}</strong>`;
+    if (caj.steps_markdown) {
+      html += `<div style="margin-top:8px;padding:12px;background:#FAFAF7;border-left:3px solid #D9D4C4;border-radius:4px;white-space:pre-wrap;line-height:1.8">${_escHtml(caj.steps_markdown)}</div>`;
+    }
+    html += `</div>`;
+    return html;
+  }
+  html += '</div>';
+  return html;
+}
+
+// ── 申論 / 簡答 / 閱覽型：只顯示題幹 + 模範答案 toggle ─
+function _renderReadonly(q, answered) {
+  const caj = (q.ans_json && typeof q.ans_json === 'object' && !Array.isArray(q.ans_json)) ? q.ans_json : {};
+  let html = '<div class="q-readonly-box">';
+  // 子題（申論常有「(一)、(二)」）
+  if (Array.isArray(caj.sub_questions) && caj.sub_questions.length > 0) {
+    html += '<ol class="q-sub-questions">';
+    caj.sub_questions.forEach(s => {
+      const txt = _escHtml(s.text || '');
+      const pts = s.points != null ? `<span class="q-points">（${s.points} 分）</span>` : '';
+      html += `<li>${txt}${pts}</li>`;
+    });
+    html += '</ol>';
+  }
+  // textarea 讓使用者試寫（簡答只給短框）
+  if (answered === null && (q.type === 'essay' || q.type === 'short_answer')) {
+    const minH = q.type === 'short_answer' ? 60 : 140;
+    html += `<textarea placeholder="可在此試寫你的答案（不會自動批改）…" style="min-height:${minH}px"></textarea>`;
+    html += `<div class="q-readonly-hint">此題為閱覽型，不自動批改${caj.total_points?'；本題配分 '+caj.total_points+' 分':''}${caj.word_limit?'；字數限制 '+caj.word_limit+' 字':''}</div>`;
+  } else if (answered === null) {
+    html += `<div class="q-readonly-hint">此題為閱覽型，不自動批改</div>`;
+  }
+  // 模範答案 toggle
+  if (caj.model_answer) {
+    html += `<button class="q-model-toggle" onclick="toggleModelAnswer(this)">📖 顯示模範答案</button>`;
+    html += `<div id="kn-model-answer-box" class="q-model-answer hidden">${_escHtml(caj.model_answer)}</div>`;
+  } else if (caj.keywords && Array.isArray(caj.keywords) && caj.keywords.length > 0) {
+    html += `<button class="q-model-toggle" onclick="toggleModelAnswer(this)">🔑 顯示關鍵字</button>`;
+    html += `<div id="kn-model-answer-box" class="q-model-answer hidden">關鍵字：${caj.keywords.map(_escHtml).join('、')}</div>`;
+  }
+  html += '</div>';
+  return html;
 }
 
 // ── 題目回報 modal（v10 question_reports）──────────────────────────
@@ -5737,7 +5977,16 @@ function selectAnswer(oi){
   const q = state.questions[state.currentIdx];
   // 保險：如果現在題目是複選題，不應該走 selectAnswer（以防 onclick 路由錯誤）
   if (q.type === 'multiple_choice') return;
+  // 保險：是非題也別走 selectAnswer（答案規則不同）
+  if (q.type === 'true_false') return;
   _recordAnswer(oi, oi === q.ans);
+}
+// v17: 是非題作答（true_false）
+function selectTrueFalse(oi, rightIdx){
+  if (state.quizFrozen) return;
+  const q = state.questions[state.currentIdx];
+  if (q.type !== 'true_false') return;
+  _recordAnswer(oi, oi === rightIdx);
 }
 // v12: 複選暫存切換（尚未送出）
 function toggleMulti(oi){
@@ -5787,7 +6036,11 @@ function navBackToScope() {
 function showResult(){
   clearQuizSnapshot();  // 結果出來 → 快照使命已完成
   const total=state.questions.length,correctCount=state.answers.filter(a=>a&&a.correct).length;
-  const score=Math.round(correctCount/total*100);
+  // v17: 計分分母改成「auto_gradable 題數」，避免申論/閱覽題稀釋分數
+  // 若整卷都是閱覽型（countAuto=0），退回 total 避免除零
+  const countAuto=_countAutoGradable(state.questions);
+  const scoreDenom=countAuto>0?countAuto:total;
+  const score=Math.round(correctCount/scoreDenom*100);
   const elapsed=Math.round((Date.now()-state.startTime)/1000);
   const exam=exams.find(e=>e.id===state.currentExamId);
   const sc = state.quizScope || {};
@@ -5810,12 +6063,14 @@ function showResult(){
     cloud.saveSession({examId:exam.id,score,total,mode:state.mode,questions:state.questions,answers:state.answers}).then(r=>{if(!r.ok)console.warn('[save fail]',r.error);});
   }
   nav('result');
+  // v17: 錯題數 = auto_gradable 分母 - 答對數（閱覽型不算錯題）
+  const wrongCount = Math.max(0, scoreDenom - correctCount);
   document.getElementById('final-score').textContent=score;
   document.getElementById('r-correct').textContent=correctCount;
-  document.getElementById('r-wrong').textContent=total-correctCount;
+  document.getElementById('r-wrong').textContent=wrongCount;
   // 全對就沒錯題可複習，隱藏按鈕
   const reviewBtn = document.getElementById('result-review-btn');
-  if (reviewBtn) reviewBtn.style.display = (total - correctCount) > 0 ? '' : 'none';
+  if (reviewBtn) reviewBtn.style.display = wrongCount > 0 ? '' : 'none';
   const elapsed2=Math.round((Date.now()-state.startTime)/1000);
   const m=Math.floor(elapsed/60),s=elapsed%60;
   const timeText = elapsed < 60
@@ -5834,6 +6089,8 @@ function showResult(){
   const UNCAT='__uncategorized';
   const chStats={};
   state.questions.forEach((q,i)=>{
+    // v17: 閱覽型（非 auto_gradable）不計入章節強弱統計
+    if (!_isAutoGradableQ(q)) return;
     // q.ch 可能為 null（無 chapter_id）或 -1（chapter_id 無法解析）
     const chNum = (q.ch==null || isNaN(q.ch) || q.ch<0) ? UNCAT : q.ch;
     if(!chStats[chNum])chStats[chNum]={total:0,correct:0};
@@ -5861,7 +6118,11 @@ function showResult(){
   }
 }
 function reviewWrong(){
-  const wrong=state.questions.filter((_,i)=>state.answers[i]&&!state.answers[i].correct);
+  // v17: 閱覽型（readonly / correct=null）不算錯題，不進複習
+  const wrong=state.questions.filter((_,i)=>{
+    const a=state.answers[i];
+    return a && !a.readonly && a.correct === false;
+  });
   if(!wrong.length){showToast('🎉 恭喜全部答對，沒有錯題！');return;}
   initQuiz(wrong);
 }
