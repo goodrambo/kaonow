@@ -261,6 +261,12 @@ html{scroll-padding-top:calc(var(--header-h) + 16px)}
 .cat-card.feature .cat-chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px;margin-bottom:4px}
 .cat-card.feature .cat-chips span{padding:3px 10px;font-size:11px;font-weight:500;color:var(--feat-text, #333);background:rgba(255,255,255,0.7);border:1px solid rgba(0,0,0,0.06);border-radius:999px}
 .cat-card.feature .badge-hot{position:absolute;top:14px;right:16px;padding:3px 10px;font-size:10px;font-weight:700;letter-spacing:0.5px;background:var(--feat-accent, #333);color:#fff;border-radius:999px;white-space:nowrap;z-index:1}
+/* Building state: 題庫尚未建置的類別卡 */
+.cat-card.building{opacity:.6;background:var(--surface)}
+.cat-card.building:hover{transform:none;box-shadow:none;border-color:var(--border-light);opacity:.8}
+.cat-card.building .cat-foot{color:var(--text-secondary)}
+.cat-card.building .cat-foot .dot{background:var(--text-secondary)}
+.cat-card.feature.building{background:linear-gradient(135deg,#F5F1EB 0%,#EDE4D5 100%);border-color:#D9CFBF}
 /* Breadcrumb for filtered/search views (replaces giant chip bar) */
 .catalog-crumb{display:flex;align-items:center;gap:12px;padding:12px 16px;background:var(--surface);border:1px solid var(--border-light);border-radius:var(--radius);margin-bottom:16px;flex-wrap:wrap}
 .catalog-crumb .back{color:var(--accent);font-weight:600;cursor:pointer;font-size:14px;padding:6px 12px;border-radius:8px;background:transparent;border:none;font-family:inherit;transition:.15s}
@@ -4407,23 +4413,27 @@ function renderCatalog(){
     const countFor = (cid) => exams.filter(e => e.categoryId === cid).length;
     const catCards = [featCat, ...otherCats].map((c,i) => {
       const count = countFor(c.id);
+      const isBuilding = count === 0;
+      const footContent = isBuilding
+        ? `<span class="dot"></span>🔧 建置中`
+        : `<span class="dot"></span>${count} 個考試 →`;
       if (i === 0) {
         const chips = (CAT_PREVIEW[c.id]||[]).slice(0,6).map(s => `<span>${s}</span>`).join('');
         const extra = count > 6 ? `<span>+${count-6} 種</span>` : '';
-        return `<div class="cat-card feature" style="${featPalette}" data-cat-id="${c.id}">
+        return `<div class="cat-card feature${isBuilding?' building':''}" style="${featPalette}" data-cat-id="${c.id}">
           <span class="badge-hot">${feat.badge}</span>
           <div class="cat-icon">${c.icon}</div>
           <div class="cat-name">${c.name}</div>
           <div class="cat-desc">${c.desc||''}</div>
           <div class="cat-chips">${chips}${extra}</div>
-          <div class="cat-foot"><span class="dot"></span>${count} 個考試 →</div>
+          <div class="cat-foot">${footContent}</div>
         </div>`;
       }
-      return `<div class="cat-card" data-cat-id="${c.id}">
+      return `<div class="cat-card${isBuilding?' building':''}" data-cat-id="${c.id}">
         <div class="cat-icon">${c.icon}</div>
         <div class="cat-name">${c.name}</div>
         <div class="cat-desc">${c.desc||''}</div>
-        <div class="cat-foot"><span class="dot"></span>${count} 個考試 →</div>
+        <div class="cat-foot">${footContent}</div>
       </div>`;
     }).join('');
     sections.innerHTML += `<div class="catalog-section" style="margin-top:28px">
@@ -4598,7 +4608,7 @@ function examCardHTML(exam, bookmarkSet) {
   const bookmarked = bookmarkSet && bookmarkSet.has(exam.id);
   const bookmarkBtn = `<button class="bookmark-btn${bookmarked?' active':''}" data-exam-id="${exam.id}" title="${bookmarked?'取消收藏':'加入收藏'}" aria-label="${bookmarked?'取消收藏':'加入收藏'}" aria-pressed="${bookmarked?'true':'false'}">${bookmarked?'★':'☆'}</button>`;
   const meta = exam.available
-    ? `<span>📚 ${totalQs} 題</span><span>📖 ${(exam.chapters||[]).length} 章</span>`
+    ? `${totalQs>0?`<span>📚 ${totalQs} 題</span>`:''}<span>📖 ${(exam.chapters||[]).length} 章</span>`
     : (exam.chapters && exam.chapters.length > 0
       ? `<span>📖 ${exam.chapters.length} 章</span>${exam.durationHours?`<span>⏱ ${exam.durationHours}h</span>`:''}`
       : '<span>建置中</span>');
