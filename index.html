@@ -3343,7 +3343,7 @@ const examCategories=[
 ];
 const exams=[
 
-  {id:'osh-a',categoryId:'prof-exam',available:true,
+  {id:'osh-a',categoryId:'tech-cert',available:true,
    name:'甲種職業安全衛生業務主管',short:'甲種職安衛',
    desc:'勞動部認證，事業單位負責人必備。5大章節、42小時訓練時數，涵蓋法規、管理、危害預防、健康保護與教育訓練。',
    issuer:'勞動部職業安全衛生署',durationHours:42,examFormat:'筆試・選擇題',
@@ -3356,8 +3356,8 @@ const exams=[
      {id:4,name:'職業安全衛生教育訓練',count:20},
    ]},
 
-  {id:'osh-mgr-b',categoryId:'prof-exam',available:true,name:'乙種職業安全衛生業務主管',short:'乙種職安衛',desc:'中小型事業單位安全衛生管理人員必備，訓練時數 35 小時。是甲種之前的準備證照，內容涵蓋面較廣但深度較淺。',issuer:'勞動部職業安全衛生署',examFormat:'筆試・選擇題',durationHours:35,mock_question_count:40,mock_time_minutes:60,mock_pass_score:80,links:{official:'https://www.osha.gov.tw',reg:'https://www.osha.gov.tw',bank:'https://www.osha.gov.tw'},chapters:[{id:0,name:"職業安全衛生相關法規"},{id:1,name:"職業安全衛生管理概論"},{id:2,name:"安全管理與危害預防"},{id:3,name:"衛生管理與健康保護"}]},
-  {id:'osh-c',categoryId:'prof-exam',available:false,name:'丙種職業安全衛生業務主管',short:'丙種職安衛',desc:'小型事業單位基礎職安衛證照，訓練時數 21 小時。適合入門職安衛管理的人員。',issuer:'勞動部職業安全衛生署',examFormat:'筆試・選擇題',durationHours:21,mock_question_count:40,mock_time_minutes:60,mock_pass_score:80,links:{official:'https://www.osha.gov.tw',reg:'https://www.osha.gov.tw',bank:'https://www.osha.gov.tw'},chapters:[{id:0,name:"職業安全衛生法規基礎"},{id:1,name:"事業單位安全衛生管理"},{id:2,name:"職業災害案例分析"}]},
+  {id:'osh-mgr-b',categoryId:'tech-cert',available:true,name:'乙種職業安全衛生業務主管',short:'乙種職安衛',desc:'中小型事業單位安全衛生管理人員必備，訓練時數 35 小時。是甲種之前的準備證照，內容涵蓋面較廣但深度較淺。',issuer:'勞動部職業安全衛生署',examFormat:'筆試・選擇題',durationHours:35,mock_question_count:40,mock_time_minutes:60,mock_pass_score:80,links:{official:'https://www.osha.gov.tw',reg:'https://www.osha.gov.tw',bank:'https://www.osha.gov.tw'},chapters:[{id:0,name:"職業安全衛生相關法規"},{id:1,name:"職業安全衛生管理概論"},{id:2,name:"安全管理與危害預防"},{id:3,name:"衛生管理與健康保護"}]},
+  {id:'osh-c',categoryId:'tech-cert',available:false,name:'丙種職業安全衛生業務主管',short:'丙種職安衛',desc:'小型事業單位基礎職安衛證照，訓練時數 21 小時。適合入門職安衛管理的人員。',issuer:'勞動部職業安全衛生署',examFormat:'筆試・選擇題',durationHours:21,mock_question_count:40,mock_time_minutes:60,mock_pass_score:80,links:{official:'https://www.osha.gov.tw',reg:'https://www.osha.gov.tw',bank:'https://www.osha.gov.tw'},chapters:[{id:0,name:"職業安全衛生法規基礎"},{id:1,name:"事業單位安全衛生管理"},{id:2,name:"職業災害案例分析"}]},
   {id:'lawyer',categoryId:'prof-exam',available:false,name:'律師考試',short:'律師',desc:'考選部辦理，分三階段（選擇題→申論題→錄取）。通過後尚須實習 6 個月才能執業，是法學院畢業生主要職涯起點。',issuer:'考選部',examFormat:'筆試（兩階段）',mock_question_count:50,mock_time_minutes:90,mock_pass_score:60,links:{official:'https://wwwc.moex.gov.tw/main/exam/wFrmExamInformation.aspx',reg:'https://register.moex.gov.tw',bank:'https://wwwq.moex.gov.tw'},chapters:[{id:0,name:"公法（憲法、行政法）"},{id:1,name:"民法與民事訴訟法"},{id:2,name:"刑法與刑事訴訟法"},{id:3,name:"商事法（公司、票據、保險）"},{id:4,name:"國文（作文與測驗）"}]},
   {id:'cpa',categoryId:'prof-exam',available:false,name:'會計師考試',short:'會計師',desc:'考選部辦理，通過後可簽證財務報表，是財會專業的頂點。5 科筆試，每科平均 50 分以上且有 4 科通過才算考過。',issuer:'考選部',examFormat:'筆試・申論題',mock_question_count:50,mock_time_minutes:90,mock_pass_score:50,links:{official:'https://wwwc.moex.gov.tw/main/exam/wFrmExamInformation.aspx',reg:'https://register.moex.gov.tw',bank:'https://wwwq.moex.gov.tw'},chapters:[{id:0,name:"中級會計學"},{id:1,name:"高級會計學"},{id:2,name:"審計學"},{id:3,name:"成本與管理會計"},{id:4,name:"稅務法規"}]},
   {id:'bookkeeper',categoryId:'prof-exam',available:false,name:'記帳士',short:'記帳士',desc:'協助中小企業辦理帳務、報稅。普考等級，門檻較會計師低，但也是進入財會行業的入門證照。',issuer:'考選部',examFormat:'筆試',mock_question_count:50,mock_time_minutes:90,mock_pass_score:60,links:{official:'https://wwwc.moex.gov.tw/main/exam/wFrmExamInformation.aspx',reg:'https://register.moex.gov.tw',bank:'https://wwwq.moex.gov.tw'},chapters:[{id:0,name:"國文（作文、測驗）"},{id:1,name:"會計學概要"},{id:2,name:"租稅申報實務"},{id:3,name:"稅務相關法規概要"},{id:4,name:"記帳相關法規概要"}]},
@@ -3449,16 +3449,16 @@ const exams=[
   {id:'railway-senior',categoryId:'civil',available:false,name:"鐵路特考高員級",short:"鐵高員",desc:"鐵路系統高階主管任用",issuer:"考選部",examFormat:"筆試",mock_question_count:80,mock_time_minutes:120,mock_pass_score:50,links:{official:'https://wwwq.moex.gov.tw/',reg:'https://register.moex.gov.tw/',bank:'https://wwwq.moex.gov.tw/'},chapters:[{id:0,name:"共同科目",count:25},{id:1,name:"鐵路法規",count:25},{id:2,name:"運輸管理",count:25},{id:3,name:"專業科目",count:25}]},
   {id:'railway-junior',categoryId:'civil',available:false,name:"鐵路特考員級",short:"鐵員級",desc:"鐵路系統主要人力管道",issuer:"考選部",examFormat:"筆試",mock_question_count:80,mock_time_minutes:120,mock_pass_score:50,links:{official:'https://wwwq.moex.gov.tw/',reg:'https://register.moex.gov.tw/',bank:'https://wwwq.moex.gov.tw/'},chapters:[{id:0,name:"共同科目",count:25},{id:1,name:"鐵路法規",count:25},{id:2,name:"運輸學",count:25},{id:3,name:"專業科目",count:25}]},
   {id:'railway-assistant',categoryId:'civil',available:false,name:"鐵路特考佐級",short:"鐵佐級",desc:"鐵路站務/運務基層人員",issuer:"考選部",examFormat:"筆試",mock_question_count:100,mock_time_minutes:120,mock_pass_score:50,links:{official:'https://wwwq.moex.gov.tw/',reg:'https://register.moex.gov.tw/',bank:'https://wwwq.moex.gov.tw/'},chapters:[{id:0,name:"國文",count:25},{id:1,name:"英文",count:25},{id:2,name:"公民",count:25},{id:3,name:"專業科目",count:25}]},
-  {id:'police-3',categoryId:'civil',available:false,name:"警察特考三等",short:"警特三等",desc:"警察大學畢業之警官任用",issuer:"內政部警政署",examFormat:"筆試＋體能測驗",mock_question_count:80,mock_time_minutes:120,mock_pass_score:50,links:{official:'https://wwwq.moex.gov.tw/',reg:'https://register.moex.gov.tw/',bank:'https://wwwq.moex.gov.tw/'},chapters:[{id:0,name:"警察法規",count:25},{id:1,name:"刑事訴訟法",count:25},{id:2,name:"犯罪學",count:25},{id:3,name:"警察實務",count:25}]},
-  {id:'police-4',categoryId:'civil',available:false,name:"警察特考四等",short:"警特四等",desc:"警專畢業之基層警員",issuer:"內政部警政署",examFormat:"筆試＋體能測驗",mock_question_count:80,mock_time_minutes:120,mock_pass_score:50,links:{official:'https://wwwq.moex.gov.tw/',reg:'https://register.moex.gov.tw/',bank:'https://wwwq.moex.gov.tw/'},chapters:[{id:0,name:"警察法規",count:25},{id:1,name:"中華民國憲法",count:25},{id:2,name:"法學緒論",count:25},{id:3,name:"刑法概要",count:25}]},
-  {id:'police-gen-3',categoryId:'civil',available:false,name:"一般警察特考三等",short:"一般警三",desc:"一般生報考之警官",issuer:"內政部警政署",examFormat:"筆試＋體能測驗",mock_question_count:80,mock_time_minutes:120,mock_pass_score:50,links:{official:'https://wwwq.moex.gov.tw/',reg:'https://register.moex.gov.tw/',bank:'https://wwwq.moex.gov.tw/'},chapters:[{id:0,name:"警察法規",count:25},{id:1,name:"刑事訴訟法",count:25},{id:2,name:"犯罪學",count:25},{id:3,name:"警察情境實務",count:25}]},
-  {id:'police-gen-4',categoryId:'civil',available:false,name:"一般警察特考四等",short:"一般警四",desc:"一般生基層警員管道",issuer:"內政部警政署",examFormat:"筆試＋體能測驗",mock_question_count:80,mock_time_minutes:120,mock_pass_score:50,links:{official:'https://wwwq.moex.gov.tw/',reg:'https://register.moex.gov.tw/',bank:'https://wwwq.moex.gov.tw/'},chapters:[{id:0,name:"警察法規",count:25},{id:1,name:"憲法與刑法概要",count:25},{id:2,name:"英文",count:25},{id:3,name:"警察情境實務",count:25}]},
+  {id:'police-3',categoryId:'military-police',available:false,name:"警察特考三等",short:"警特三等",desc:"警察大學畢業之警官任用",issuer:"內政部警政署",examFormat:"筆試＋體能測驗",mock_question_count:80,mock_time_minutes:120,mock_pass_score:50,links:{official:'https://wwwq.moex.gov.tw/',reg:'https://register.moex.gov.tw/',bank:'https://wwwq.moex.gov.tw/'},chapters:[{id:0,name:"警察法規",count:25},{id:1,name:"刑事訴訟法",count:25},{id:2,name:"犯罪學",count:25},{id:3,name:"警察實務",count:25}]},
+  {id:'police-4',categoryId:'military-police',available:false,name:"警察特考四等",short:"警特四等",desc:"警專畢業之基層警員",issuer:"內政部警政署",examFormat:"筆試＋體能測驗",mock_question_count:80,mock_time_minutes:120,mock_pass_score:50,links:{official:'https://wwwq.moex.gov.tw/',reg:'https://register.moex.gov.tw/',bank:'https://wwwq.moex.gov.tw/'},chapters:[{id:0,name:"警察法規",count:25},{id:1,name:"中華民國憲法",count:25},{id:2,name:"法學緒論",count:25},{id:3,name:"刑法概要",count:25}]},
+  {id:'police-gen-3',categoryId:'military-police',available:false,name:"一般警察特考三等",short:"一般警三",desc:"一般生報考之警官",issuer:"內政部警政署",examFormat:"筆試＋體能測驗",mock_question_count:80,mock_time_minutes:120,mock_pass_score:50,links:{official:'https://wwwq.moex.gov.tw/',reg:'https://register.moex.gov.tw/',bank:'https://wwwq.moex.gov.tw/'},chapters:[{id:0,name:"警察法規",count:25},{id:1,name:"刑事訴訟法",count:25},{id:2,name:"犯罪學",count:25},{id:3,name:"警察情境實務",count:25}]},
+  {id:'police-gen-4',categoryId:'military-police',available:false,name:"一般警察特考四等",short:"一般警四",desc:"一般生基層警員管道",issuer:"內政部警政署",examFormat:"筆試＋體能測驗",mock_question_count:80,mock_time_minutes:120,mock_pass_score:50,links:{official:'https://wwwq.moex.gov.tw/',reg:'https://register.moex.gov.tw/',bank:'https://wwwq.moex.gov.tw/'},chapters:[{id:0,name:"警察法規",count:25},{id:1,name:"憲法與刑法概要",count:25},{id:2,name:"英文",count:25},{id:3,name:"警察情境實務",count:25}]},
   {id:'judicial-3',categoryId:'civil',available:false,name:"司法特考三等",short:"司法三等",desc:"法官助理、書記官等司法人員",issuer:"考選部",examFormat:"筆試",mock_question_count:80,mock_time_minutes:120,mock_pass_score:50,links:{official:'https://wwwq.moex.gov.tw/',reg:'https://register.moex.gov.tw/',bank:'https://wwwq.moex.gov.tw/'},chapters:[{id:0,name:"憲法",count:25},{id:1,name:"刑法與刑事訴訟法",count:25},{id:2,name:"民法與民事訴訟法",count:25},{id:3,name:"專業科目",count:25}]},
   {id:'judicial-4',categoryId:'civil',available:false,name:"司法特考四等",short:"司法四等",desc:"法警、執達員、監所管理員",issuer:"考選部",examFormat:"筆試",mock_question_count:80,mock_time_minutes:120,mock_pass_score:50,links:{official:'https://wwwq.moex.gov.tw/',reg:'https://register.moex.gov.tw/',bank:'https://wwwq.moex.gov.tw/'},chapters:[{id:0,name:"國文",count:25},{id:1,name:"法學知識",count:25},{id:2,name:"刑法概要",count:25},{id:3,name:"專業科目",count:25}]},
   {id:'judicial-5',categoryId:'civil',available:false,name:"司法特考五等",short:"司法五等",desc:"錄事、庭務員等基層司法",issuer:"考選部",examFormat:"筆試",mock_question_count:100,mock_time_minutes:120,mock_pass_score:50,links:{official:'https://wwwq.moex.gov.tw/',reg:'https://register.moex.gov.tw/',bank:'https://wwwq.moex.gov.tw/'},chapters:[{id:0,name:"國文",count:25},{id:1,name:"公民與英文",count:25},{id:2,name:"法學大意",count:25},{id:3,name:"專業科目",count:25}]},
   {id:'customs-3',categoryId:'civil',available:false,name:"關務特考三等",short:"關務三等",desc:"海關稅務主管",issuer:"考選部",examFormat:"筆試",mock_question_count:80,mock_time_minutes:120,mock_pass_score:50,links:{official:'https://wwwq.moex.gov.tw/',reg:'https://register.moex.gov.tw/',bank:'https://wwwq.moex.gov.tw/'},chapters:[{id:0,name:"國際貿易",count:25},{id:1,name:"關稅法",count:25},{id:2,name:"英文",count:25},{id:3,name:"專業科目",count:25}]},
   {id:'customs-4',categoryId:'civil',available:false,name:"關務特考四等",short:"關務四等",desc:"海關基層人員",issuer:"考選部",examFormat:"筆試",mock_question_count:80,mock_time_minutes:120,mock_pass_score:50,links:{official:'https://wwwq.moex.gov.tw/',reg:'https://register.moex.gov.tw/',bank:'https://wwwq.moex.gov.tw/'},chapters:[{id:0,name:"國文英文",count:25},{id:1,name:"關稅法規",count:25},{id:2,name:"貿易實務",count:25},{id:3,name:"專業科目",count:25}]},
-  {id:'coastguard-3',categoryId:'civil',available:false,name:"海巡特考三等",short:"海巡三等",desc:"海巡署高階任用",issuer:"考選部",examFormat:"筆試＋體能測驗",mock_question_count:80,mock_time_minutes:120,mock_pass_score:50,links:{official:'https://wwwq.moex.gov.tw/',reg:'https://register.moex.gov.tw/',bank:'https://wwwq.moex.gov.tw/'},chapters:[{id:0,name:"海巡法規",count:25},{id:1,name:"刑事法",count:25},{id:2,name:"海洋政策",count:25},{id:3,name:"專業科目",count:25}]},
+  {id:'coastguard-3',categoryId:'military-police',available:false,name:"海巡特考三等",short:"海巡三等",desc:"海巡署高階任用",issuer:"考選部",examFormat:"筆試＋體能測驗",mock_question_count:80,mock_time_minutes:120,mock_pass_score:50,links:{official:'https://wwwq.moex.gov.tw/',reg:'https://register.moex.gov.tw/',bank:'https://wwwq.moex.gov.tw/'},chapters:[{id:0,name:"海巡法規",count:25},{id:1,name:"刑事法",count:25},{id:2,name:"海洋政策",count:25},{id:3,name:"專業科目",count:25}]},
   {id:'diplomatic',categoryId:'civil',available:false,name:"外交特考三等",short:"外交特考",desc:"外交官晉用管道",issuer:"考選部",examFormat:"筆試",mock_question_count:60,mock_time_minutes:120,mock_pass_score:50,links:{official:'https://wwwq.moex.gov.tw/',reg:'https://register.moex.gov.tw/',bank:'https://wwwq.moex.gov.tw/'},chapters:[{id:0,name:"國際法",count:25},{id:1,name:"國際關係",count:25},{id:2,name:"外國語",count:25},{id:3,name:"專業科目",count:25}]},
   {id:'local-3',categoryId:'civil',available:false,name:"地方特考三等",short:"地特三等",desc:"地方政府公務員",issuer:"考選部",examFormat:"筆試",mock_question_count:80,mock_time_minutes:120,mock_pass_score:50,links:{official:'https://wwwq.moex.gov.tw/',reg:'https://register.moex.gov.tw/',bank:'https://wwwq.moex.gov.tw/'},chapters:[{id:0,name:"共同科目",count:25},{id:1,name:"地方自治法規",count:25},{id:2,name:"專業科目一",count:25},{id:3,name:"專業科目二",count:25}]},
   {id:'local-4',categoryId:'civil',available:false,name:"地方特考四等",short:"地特四等",desc:"地方政府中階人員",issuer:"考選部",examFormat:"筆試",mock_question_count:80,mock_time_minutes:120,mock_pass_score:50,links:{official:'https://wwwq.moex.gov.tw/',reg:'https://register.moex.gov.tw/',bank:'https://wwwq.moex.gov.tw/'},chapters:[{id:0,name:"共同科目",count:25},{id:1,name:"法學知識",count:25},{id:2,name:"專業科目一",count:25},{id:3,name:"專業科目二",count:25}]},
@@ -3998,6 +3998,212 @@ function getSubCategories(categoryId) {
   return [...subs].sort((a,b) => order.indexOf(a) - order.indexOf(b));
 }
 
+// ── 領域/職涯 分群規格（10 大類 × 72 groups，詳見 docs/modules/content-taxonomy.md）──
+// 設計哲學：2nd-level 用「領域 / 職涯」分群，不用「等級」分群；等級是 attribute，UI 用 badge 呈現。
+const examGroups = [
+  // civil (8)
+  {slug:'civil-admin', cat:'civil', name:'行政類'},
+  {slug:'civil-legal', cat:'civil', name:'法律類'},
+  {slug:'civil-finance', cat:'civil', name:'財經類'},
+  {slug:'civil-tech', cat:'civil', name:'技術工程類'},
+  {slug:'civil-social', cat:'civil', name:'社會行政/教育/新聞'},
+  {slug:'civil-health', cat:'civil', name:'衛生醫療類'},
+  {slug:'civil-justice', cat:'civil', name:'司法/法務'},
+  {slug:'civil-other', cat:'civil', name:'其他特考'},
+  // military-police (6)
+  {slug:'mp-police-academy', cat:'military-police', name:'警察院校(警專/警大)'},
+  {slug:'mp-police-exam', cat:'military-police', name:'警察特考/一般警察'},
+  {slug:'mp-fire', cat:'military-police', name:'消防警察'},
+  {slug:'mp-military-academy', cat:'military-police', name:'軍校(官校/預校/國防)'},
+  {slug:'mp-military-exam', cat:'military-police', name:'軍人特考/國防轉任'},
+  {slug:'mp-coast', cat:'military-police', name:'海巡特考'},
+  // soe (6)
+  {slug:'soe-taipower', cat:'soe', name:'台電'},
+  {slug:'soe-cpc', cat:'soe', name:'中油/台糖'},
+  {slug:'soe-water', cat:'soe', name:'台水'},
+  {slug:'soe-bank', cat:'soe', name:'公股銀行'},
+  {slug:'soe-post', cat:'soe', name:'中華郵政'},
+  {slug:'soe-other', cat:'soe', name:'其他國營'},
+  // teacher (5)
+  {slug:'tchr-prep', cat:'teacher', name:'師資培育/教檢'},
+  {slug:'tchr-recruit', cat:'teacher', name:'教甄(公立中小學)'},
+  {slug:'tchr-private', cat:'teacher', name:'私校聯招'},
+  {slug:'tchr-preschool', cat:'teacher', name:'幼教師資'},
+  {slug:'tchr-special', cat:'teacher', name:'特教/輔導'},
+  // prof-exam (8)
+  {slug:'prof-medical', cat:'prof-exam', name:'醫事人員(醫/藥/護/獸醫等)'},
+  {slug:'prof-engineering', cat:'prof-exam', name:'技師(土木/電機/機械等)'},
+  {slug:'prof-legal', cat:'prof-exam', name:'律師/司法專技'},
+  {slug:'prof-accounting', cat:'prof-exam', name:'會計師/記帳士'},
+  {slug:'prof-architect', cat:'prof-exam', name:'建築師'},
+  {slug:'prof-realestate', cat:'prof-exam', name:'不動產估價/地政士'},
+  {slug:'prof-insurance', cat:'prof-exam', name:'保險代理/經紀/公證'},
+  {slug:'prof-other', cat:'prof-exam', name:'其他專技(社工/心理/營養等)'},
+  // tech-cert (10)
+  {slug:'tech-safety', cat:'tech-cert', name:'職業安全衛生'},
+  {slug:'tech-construction', cat:'tech-cert', name:'建築/土木/營建'},
+  {slug:'tech-electrical', cat:'tech-cert', name:'電機/電子/電腦軟硬體'},
+  {slug:'tech-mechanical', cat:'tech-cert', name:'機械/動力'},
+  {slug:'tech-food', cat:'tech-cert', name:'食品/餐飲/美容'},
+  {slug:'tech-auto', cat:'tech-cert', name:'汽車/車輛'},
+  {slug:'tech-chem', cat:'tech-cert', name:'化工/化學/紡織'},
+  {slug:'tech-agri', cat:'tech-cert', name:'農林漁牧'},
+  {slug:'tech-service', cat:'tech-cert', name:'服務業(物流/旅遊/門市)'},
+  {slug:'tech-other', cat:'tech-cert', name:'其他職類'},
+  // finance (7)
+  {slug:'fin-securities', cat:'finance', name:'證券/期貨/投信投顧'},
+  {slug:'fin-banking', cat:'finance', name:'銀行內控/理財'},
+  {slug:'fin-insurance', cat:'finance', name:'保險業務員'},
+  {slug:'fin-planner', cat:'finance', name:'理財規劃/CFP'},
+  {slug:'fin-risk', cat:'finance', name:'風險管理/信託'},
+  {slug:'fin-intl', cat:'finance', name:'國際證照(CFA/FRM)'},
+  {slug:'fin-other', cat:'finance', name:'其他金融'},
+  // it-cert (10)
+  {slug:'it-aws', cat:'it-cert', name:'AWS'},
+  {slug:'it-azure', cat:'it-cert', name:'Microsoft Azure'},
+  {slug:'it-gcp', cat:'it-cert', name:'Google Cloud'},
+  {slug:'it-cisco', cat:'it-cert', name:'Cisco 網路'},
+  {slug:'it-security', cat:'it-cert', name:'資安(CISSP/CEH)'},
+  {slug:'it-data', cat:'it-cert', name:'資料/AI'},
+  {slug:'it-pm', cat:'it-cert', name:'PM(PMP/Scrum)'},
+  {slug:'it-dev', cat:'it-cert', name:'開發/軟體'},
+  {slug:'it-tw', cat:'it-cert', name:'台灣本土(TQC/MTA)'},
+  {slug:'it-other', cat:'it-cert', name:'其他 IT'},
+  // language (6)
+  {slug:'lang-en', cat:'language', name:'英語(TOEIC/TOEFL/IELTS/GEPT)'},
+  {slug:'lang-jp', cat:'language', name:'日語(JLPT)'},
+  {slug:'lang-ko', cat:'language', name:'韓語(TOPIK)'},
+  {slug:'lang-zh', cat:'language', name:'華語/TOCFL'},
+  {slug:'lang-eu', cat:'language', name:'歐語(德/法/西)'},
+  {slug:'lang-other', cat:'language', name:'其他語言'},
+  // academic (6)
+  {slug:'acad-gsat', cat:'academic', name:'學測'},
+  {slug:'acad-ast', cat:'academic', name:'分科測驗/指考'},
+  {slug:'acad-statutory', cat:'academic', name:'統測(四技二專)'},
+  {slug:'acad-graduate', cat:'academic', name:'研究所'},
+  {slug:'acad-highschool', cat:'academic', name:'會考/國中教育會考'},
+  {slug:'acad-other', cat:'academic', name:'其他升學(轉學考/二技)'}
+];
+const __examGroupOrder = new Map(examGroups.map((g,i) => [g.slug, i]));
+function groupLabel(slug) {
+  const g = examGroups.find(x => x.slug === slug);
+  return g ? g.name : (slug || '其他');
+}
+
+// deriveGroup(exam) → group slug（或 null 代表該類無 regex 規則 / 未分類）
+// 規則設計：從具體到一般；先 early-return 高確定性的關鍵字，最後 fallback 到兜底 group。
+function deriveGroup(exam) {
+  const n = (exam && exam.name) || '';
+  const c = (exam && exam.categoryId) || '';
+
+  if (c === 'civil') {
+    if (/司法|檢察事務|監所|執達員|書記官|法警|法律政風|執行員/.test(n)) return 'civil-justice';
+    if (/法制|法律廉政/.test(n)) return 'civil-legal';
+    if (/衛生技術|衛生行政|食品衛生/.test(n)) return 'civil-health';
+    if (/關務/.test(n)) return 'civil-other';
+    if (/財稅|金融|經建|統計|會計|審計|商業/.test(n)) return 'civil-finance';
+    if (/地政/.test(n)) return 'civil-other';
+    if (/土木|水利|機械|電機|電子|環工|環境工程|化學工程|資訊|資料處理|測量|農業|林業|交通行政|公路|建築|工業/.test(n)) return 'civil-tech';
+    if (/社會行政|教育行政|新聞|勞工行政|原住民/.test(n)) return 'civil-social';
+    if (/外交|僑務|調查|國家安全|移民/.test(n)) return 'civil-other';
+    return 'civil-admin';
+  }
+
+  if (c === 'military-police') {
+    if (/消防/.test(n)) return 'mp-fire';
+    if (/警專|警察大學|警大/.test(n)) return 'mp-police-academy';
+    if (/警察特考|一般警察/.test(n)) return 'mp-police-exam';
+    if (/海巡/.test(n)) return 'mp-coast';
+    if (/軍官|官校|預校|國防|政戰/.test(n)) return 'mp-military-academy';
+    return 'mp-military-exam';
+  }
+
+  if (c === 'soe') {
+    if (/台電/.test(n)) return 'soe-taipower';
+    if (/中油|台糖/.test(n)) return 'soe-cpc';
+    if (/台水|自來水/.test(n)) return 'soe-water';
+    if (/公股銀行|合作金庫|彰銀|土銀|一銀|華銀|兆豐|臺銀|台銀|臺灣銀行/.test(n)) return 'soe-bank';
+    if (/郵政|中華郵政/.test(n)) return 'soe-post';
+    return 'soe-other';
+  }
+
+  if (c === 'teacher') {
+    if (/教檢|教師資格|師資培育/.test(n)) return 'tchr-prep';
+    if (/幼教|幼兒園|幼稚園/.test(n)) return 'tchr-preschool';
+    if (/特教|輔導|身心障礙/.test(n)) return 'tchr-special';
+    if (/私校|私立/.test(n)) return 'tchr-private';
+    return 'tchr-recruit';
+  }
+
+  if (c === 'prof-exam') {
+    if (/醫師|藥師|護理師|助產|獸醫|牙醫|中醫|物理治療|職能治療|醫事|放射|心理師|諮商|臨床|營養師|語言治療|聽力|呼吸/.test(n)) return 'prof-medical';
+    if (/技師/.test(n)) return 'prof-engineering';
+    if (/律師|司法官|民間公證/.test(n)) return 'prof-legal';
+    if (/會計師|記帳士|記帳/.test(n)) return 'prof-accounting';
+    if (/建築師/.test(n)) return 'prof-architect';
+    if (/不動產估價|地政士|不動產經紀/.test(n)) return 'prof-realestate';
+    if (/保險代理人|保險經紀人|保險公證|保險代理|保險經紀/.test(n)) return 'prof-insurance';
+    return 'prof-other';
+  }
+
+  if (c === 'tech-cert') {
+    if (/職業安全|勞工安全|甲種職業|乙種職業|職業衛生|急救人員|鍋爐|危害|職安衛/.test(n)) return 'tech-safety';
+    if (/建築|建築物|土木|營造|測量|工地主任|結構|室內裝修|室內設計|建築製圖|泥水|砌磚|粉刷|用水裝置|排水配管/.test(n)) return 'tech-construction';
+    if (/電機|電子|工業配線|室內配線|自動化|儀電|用電設備|變電|電力|電器|電信|冷凍空調|電腦軟體|電腦硬體|網頁|視聽|網路管理|資訊|程式|網管|通信技術|電腦網路架設/.test(n)) return 'tech-electrical';
+    if (/機械|車床|銑床|鉗工|模具|機電整合|CNC|焊接|電銲|氬氣|板金|鑄造|製圖|堆高機/.test(n)) return 'tech-mechanical';
+    if (/食品|中餐|西餐|烘焙|烹調|調酒|飲料|美容|美髮|美甲|紋繡|廚師|烹飪|中式麵食|中式米食|麵食|米食|餅乾|麵包|理髮/.test(n)) return 'tech-food';
+    if (/汽車|機車|車輛|引擎/.test(n)) return 'tech-auto';
+    if (/化學|化工|印刷|塗裝|橡膠|紡織/.test(n)) return 'tech-chem';
+    if (/園藝|造園|畜牧|水產|林業|農業|農場|花藝/.test(n)) return 'tech-agri';
+    if (/倉儲|物流|門市|導遊|領隊|旅遊|客服|禮儀|殯葬|保母|照顧服務|就業服務/.test(n)) return 'tech-service';
+    return 'tech-other';
+  }
+
+  if (c === 'finance') {
+    if (/證券|期貨|投信|投顧|債券|衍生性|證券商|證券投資/.test(n)) return 'fin-securities';
+    if (/信託/.test(n)) return 'fin-risk';
+    if (/CFP|AFP|理財規劃/.test(n)) return 'fin-planner';
+    if (/銀行|授信|徵信|理財專員|個人理財|金融科技/.test(n)) return 'fin-banking';
+    if (/保險業務員|人身保險|財產保險|投資型保險/.test(n)) return 'fin-insurance';
+    if (/風險管理|內部控制|內控|內稽|反洗錢|AML|防制洗錢/.test(n)) return 'fin-risk';
+    if (/CFA|FRM|特許金融|FINRA/.test(n)) return 'fin-intl';
+    return 'fin-other';
+  }
+
+  if (c === 'it-cert') {
+    if (/AWS|Amazon/.test(n)) return 'it-aws';
+    if (/Azure|Microsoft/.test(n)) return 'it-azure';
+    if (/Google Cloud|GCP|Google Professional/.test(n)) return 'it-gcp';
+    if (/Cisco|CCNA|CCNP|CCIE/.test(n)) return 'it-cisco';
+    if (/CISSP|CEH|Security\+|資安|ISO 27001|CISA|CISM/.test(n)) return 'it-security';
+    if (/資料|Data|AI|機器學習|TensorFlow|深度學習|分析/.test(n)) return 'it-data';
+    if (/PMP|Scrum|Agile|PMI|專案管理|CSM/.test(n)) return 'it-pm';
+    if (/Java|Python|開發人員|Developer|OCJP|Oracle/.test(n)) return 'it-dev';
+    if (/TQC|MTA|MOS|電腦技能|ITE/.test(n)) return 'it-tw';
+    return 'it-other';
+  }
+
+  if (c === 'language') {
+    if (/TOEIC|TOEFL|IELTS|GEPT|多益|托福|雅思|全民英檢|英語|英文/.test(n)) return 'lang-en';
+    if (/JLPT|日語|日檢|日文/.test(n)) return 'lang-jp';
+    if (/TOPIK|韓語|韓檢|韓文/.test(n)) return 'lang-ko';
+    if (/TOCFL|華語|對外華語|中文/.test(n)) return 'lang-zh';
+    if (/德語|法語|西班牙|DELF|DELE|TestDaF|德文|法文|西文/.test(n)) return 'lang-eu';
+    return 'lang-other';
+  }
+
+  if (c === 'academic') {
+    if (/會考|教育會考/.test(n)) return 'acad-highschool';
+    if (/分科測驗|指考|指定科目/.test(n)) return 'acad-ast';
+    if (/統測|四技二專/.test(n)) return 'acad-statutory';
+    if (/研究所|碩士|博士班/.test(n)) return 'acad-graduate';
+    if (/學測|學科能力測驗/.test(n)) return 'acad-gsat';
+    return 'acad-other';
+  }
+
+  return null;
+}
+
 // 搜尋打分：name/short 命中優先；太短的英文 query 不碰 desc/issuer（避免 "AI" 誤中 "Taiwan"）
 function searchScore(exam, q) {
   if (!q) return 1;
@@ -4293,8 +4499,37 @@ function renderCatalog(){
     return;
   }
   empty.style.display='none';
-  grid.style.display='grid';
-  grid.innerHTML = list.map(e => examCardHTML(e, bookmarkSet)).join('');
+
+  // ── 單一類別頁 + 無 subfilter + 無 search → 按領域分群渲染（2nd-level taxonomy）──
+  const canGroup = state.catalogFilter
+    && state.catalogFilter !== 'all'
+    && state.catalogFilter !== '__bookmark'
+    && !state.catalogSearch
+    && !state.catalogSubFilter;
+  if (canGroup) {
+    grid.style.display = 'none';
+    const groupMap = new Map();
+    list.forEach(e => {
+      const g = deriveGroup(e) || 'uncategorized';
+      if (!groupMap.has(g)) groupMap.set(g, []);
+      groupMap.get(g).push(e);
+    });
+    const sortedGroups = [...groupMap.entries()].sort((a, b) => {
+      const ai = __examGroupOrder.has(a[0]) ? __examGroupOrder.get(a[0]) : 999;
+      const bi = __examGroupOrder.has(b[0]) ? __examGroupOrder.get(b[0]) : 999;
+      return ai - bi;
+    });
+    sections.innerHTML += sortedGroups.map(([slug, items]) => {
+      const label = slug === 'uncategorized' ? '其他' : groupLabel(slug);
+      return `<div class="catalog-section" style="margin-top:24px" data-group="${slug}">
+        <div class="catalog-section-head"><span class="bar"></span>${label}<span class="count">${items.length} 個</span></div>
+        <div class="hot-grid">${items.map(e => examCardHTML(e, bookmarkSet)).join('')}</div>
+      </div>`;
+    }).join('');
+  } else {
+    grid.style.display='grid';
+    grid.innerHTML = list.map(e => examCardHTML(e, bookmarkSet)).join('');
+  }
   // 綁定 bookmark button click（用事件委派避免 onclick 內部引號問題）
   grid.querySelectorAll('.bookmark-btn').forEach(btn => {
     btn.onclick = (ev) => { ev.stopPropagation(); toggleBookmark(btn.dataset.examId); };
