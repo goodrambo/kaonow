@@ -20,6 +20,54 @@
 <meta name="twitter:description" content="整合台灣各類考試的一站式練習平台，弱點分析報告，讓你高效備考。">
 <meta name="twitter:image" content="https://kaonow.com/assets/og-image.png">
 <link rel="canonical" href="https://kaonow.com">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "KaoNow 考NOW",
+  "alternateName": "考NOW",
+  "url": "https://kaonow.com",
+  "inLanguage": "zh-TW",
+  "description": "整合台灣技術士、公職、國營、教甄、語檢、升學等各類考試題庫，提供講義、練習與弱點分析，一站搞定備考。",
+  "publisher": {
+    "@type": "Organization",
+    "name": "KaoNow 考NOW",
+    "url": "https://kaonow.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://kaonow.com/assets/logo-icon.svg"
+    }
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://kaonow.com/#/catalog?q={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "KaoNow 考試類別",
+  "description": "KaoNow 涵蓋的 10 大考試類別",
+  "itemListElement": [
+    {"@type":"ListItem","position":1,"name":"技術士證照","url":"https://kaonow.com/#/catalog/tech-cert"},
+    {"@type":"ListItem","position":2,"name":"專技人員考試","url":"https://kaonow.com/#/catalog/prof-exam"},
+    {"@type":"ListItem","position":3,"name":"公職考試","url":"https://kaonow.com/#/catalog/civil"},
+    {"@type":"ListItem","position":4,"name":"國營事業","url":"https://kaonow.com/#/catalog/soe"},
+    {"@type":"ListItem","position":5,"name":"教師資格與甄試","url":"https://kaonow.com/#/catalog/teacher"},
+    {"@type":"ListItem","position":6,"name":"軍警校院","url":"https://kaonow.com/#/catalog/military-police"},
+    {"@type":"ListItem","position":7,"name":"語言檢定","url":"https://kaonow.com/#/catalog/language"},
+    {"@type":"ListItem","position":8,"name":"升學考試","url":"https://kaonow.com/#/catalog/academic"},
+    {"@type":"ListItem","position":9,"name":"金融證照","url":"https://kaonow.com/#/catalog/finance"},
+    {"@type":"ListItem","position":10,"name":"IT 國際認證","url":"https://kaonow.com/#/catalog/it-cert"}
+  ]
+}
+</script>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
@@ -3867,10 +3915,64 @@ function saveState(){try{localStorage.setItem('kaonow_v2',JSON.stringify({totalD
 // ===== ROUTER =====
 function nav(p){location.hash='#/'+p}
 function toggleMenu(){document.getElementById('header-nav').classList.toggle('open')}
+
+// 動態更新 <title> 和 meta description，幫助 SEO + 瀏覽器分頁標題
+// 雖然 GitHub Pages hash routing 不會讓 Google 分開索引子頁，但：
+// (1) 社交分享時抓的是當下 head，(2) 使用者加書籤會用正確標題，(3) 切分頁時容易辨識
+const SITE_NAME = 'KaoNow 考NOW';
+const DEFAULT_DESC = 'KaoNow 考NOW — 整合台灣技術士、公職、國營、教甄、語檢、升學等各類考試題庫，提供講義、練習與弱點分析，一站搞定備考。備考不拖延，現在就開始。';
+function setPageMeta(title, desc){
+  const fullTitle = title ? `${title} — ${SITE_NAME}` : `${SITE_NAME} — 備考不拖延，現在就開始`;
+  document.title = fullTitle;
+  const metaDesc = document.querySelector('meta[name="description"]');
+  if (metaDesc) metaDesc.setAttribute('content', desc || DEFAULT_DESC);
+  const ogTitle = document.querySelector('meta[property="og:title"]');
+  if (ogTitle) ogTitle.setAttribute('content', fullTitle);
+  const ogDesc = document.querySelector('meta[property="og:description"]');
+  if (ogDesc) ogDesc.setAttribute('content', desc || DEFAULT_DESC);
+  const twTitle = document.querySelector('meta[name="twitter:title"]');
+  if (twTitle) twTitle.setAttribute('content', fullTitle);
+  const twDesc = document.querySelector('meta[name="twitter:description"]');
+  if (twDesc) twDesc.setAttribute('content', desc || DEFAULT_DESC);
+  // canonical: 帶 hash，Bing/其他搜尋引擎仍會分開處理
+  const canonical = document.querySelector('link[rel="canonical"]');
+  if (canonical) {
+    const h = location.hash || '';
+    canonical.setAttribute('href', 'https://kaonow.com' + (h ? '/' + h : ''));
+  }
+}
+function updateRouteMeta(page, arg){
+  switch(page){
+    case 'home': return setPageMeta('', DEFAULT_DESC);
+    case 'catalog': {
+      if (!arg || arg === 'all') return setPageMeta('考試目錄', '瀏覽 KaoNow 所有考試類別：技術士、公職、國營、教甄、語檢、升學、金融、IT 等 10 大類、180+ 考試。');
+      const cat = examCategories.find(c => c.id === arg);
+      if (cat) return setPageMeta(cat.name, (cat.desc || `${cat.name} — 題庫、講義、模擬試題與弱點分析`) + ' | KaoNow 考NOW');
+      return setPageMeta('考試目錄', DEFAULT_DESC);
+    }
+    case 'my': if (arg === 'bookmarks') return setPageMeta('我的收藏', '在 KaoNow 收藏的考試，隨時回來繼續練習。'); break;
+    case 'exam': {
+      const ex = (typeof exams !== 'undefined') ? exams.find(e => e.id === arg) : null;
+      if (ex) return setPageMeta(ex.name, (ex.desc || ex.name + ' — 題庫、講義、模擬試題') + ' | KaoNow 考NOW');
+      return setPageMeta('考試詳情', DEFAULT_DESC);
+    }
+    case 'me': return setPageMeta('我的主頁', '查看你的備考進度、答題統計與連續練習天數。');
+    case 'review': return setPageMeta('我的複習', '複習答錯題目、已收藏的題目，強化弱點。');
+    case 'pricing': return setPageMeta('訂閱方案', 'KaoNow 訂閱方案 — 解鎖完整題庫與弱點分析。');
+    case 'referral': return setPageMeta('推薦獎勵', '邀請好友使用 KaoNow，雙方都可獲得訂閱獎勵。');
+    case 'terms': return setPageMeta('服務條款', 'KaoNow 服務條款。');
+    case 'privacy': return setPageMeta('隱私政策', 'KaoNow 隱私政策。');
+    case 'contact': return setPageMeta('聯絡我們', '聯絡 KaoNow 團隊。');
+    default: return setPageMeta('', DEFAULT_DESC);
+  }
+  return setPageMeta('', DEFAULT_DESC);
+}
+
 function router(){
   const hash=location.hash.replace(/^#\/?/,'')||'home';
   const parts=hash.split('/');
   const page=parts[0], arg=parts[1];
+  try { updateRouteMeta(page, arg); } catch(e) { /* meta update should never break navigation */ }
   document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));
   document.querySelectorAll('.header-nav a[data-nav]').forEach(a=>{
     a.classList.toggle('active',a.dataset.nav===page||(page==='exam'&&a.dataset.nav==='catalog'));

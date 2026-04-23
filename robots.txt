@@ -1,0 +1,7 @@
+# robots.txt — kaonow.com
+# 允許所有合規搜尋引擎爬取
+User-agent: *
+Allow: /
+
+# sitemap
+Sitemap: https://kaonow.com/sitemap.xml
