@@ -354,6 +354,17 @@ html{scroll-padding-top:calc(var(--header-h) + 16px)}
 .breadcrumb{display:flex;gap:6px;font-size:13px;color:var(--text-tertiary);padding:20px 0 8px;align-items:center;flex-wrap:wrap}
 .breadcrumb a{color:var(--text-secondary);transition:var(--transition)}
 .breadcrumb a:hover{color:var(--accent)}
+/* 手機版精簡麵包屑：只顯示 ← 返回 + 當前頁 pill */
+.breadcrumb .bc-full{display:contents}
+.breadcrumb .bc-mobile{display:none;align-items:center;gap:10px;width:100%}
+.bc-back{display:inline-flex;align-items:center;gap:4px;padding:6px 12px;border-radius:999px;background:var(--surface-alt);color:var(--text-secondary);font-size:13px;font-weight:600;text-decoration:none;transition:var(--transition);white-space:nowrap}
+.bc-back:hover{background:var(--surface-elev);color:var(--accent)}
+.bc-pill{padding:6px 12px;border-radius:999px;background:var(--accent-light);color:var(--accent);font-size:12.5px;font-weight:700;letter-spacing:0.2px;max-width:60vw;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+@media(max-width:640px){
+  .breadcrumb{padding:14px 0 6px}
+  .breadcrumb .bc-full{display:none}
+  .breadcrumb .bc-mobile{display:flex}
+}
 .exam-hero{background:var(--surface);border-radius:var(--radius-xl);padding:32px;border:1px solid var(--border-light);margin-bottom:22px}
 .exam-hero h1{font-size:28px;font-weight:800;letter-spacing:-0.7px;margin-bottom:8px;line-height:1.25}
 .exam-hero .sub{font-size:14.5px;color:var(--text-secondary);margin-bottom:16px;line-height:1.75}
@@ -370,7 +381,7 @@ html{scroll-padding-top:calc(var(--header-h) + 16px)}
 .tab-pane.active{display:block}
 
 /* QUIZ MODES */
-.mode-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:24px}
+.mode-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-bottom:24px}
 .mode-card{background:var(--surface);border:1.5px solid var(--border-light);border-radius:var(--radius);padding:18px;cursor:pointer;transition:var(--transition);text-align:left}
 .mode-card:hover{transform:translateY(-2px);box-shadow:var(--shadow);border-color:var(--accent)}
 .mode-icon{font-size:22px;margin-bottom:6px}
@@ -384,6 +395,21 @@ html{scroll-padding-top:calc(var(--header-h) + 16px)}
 .chapter-item.is-placeholder,.chapter-item.is-placeholder:hover{cursor:default;opacity:0.75;border-color:var(--border-light);background:var(--surface);pointer-events:none}
 .chapter-title{font-size:14px;font-weight:600;margin-bottom:3px}
 .chapter-meta{font-size:12px;color:var(--text-tertiary)}
+/* 章節狀態圓點 + mini 進度 */
+.chapter-item .ch-main{flex:1;min-width:0}
+.chapter-item .ch-row{display:flex;align-items:center;gap:8px;margin-bottom:3px}
+.chapter-item .ch-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0;background:#D5D5D0}
+.chapter-item .ch-dot.dot-good{background:#2E7D4F}
+.chapter-item .ch-dot.dot-warn{background:#D4921A}
+.chapter-item .ch-dot.dot-bad{background:#B85450}
+.chapter-item .ch-dot.dot-none{background:#D5D5D0}
+.chapter-item .ch-mini{margin-top:6px;height:4px;border-radius:999px;background:rgba(0,0,0,0.06);overflow:hidden;max-width:260px}
+.chapter-item .ch-mini-fill{height:100%;border-radius:999px;background:var(--accent);transition:width 0.3s ease}
+.chapter-item .ch-mini-fill.fill-good{background:#2E7D4F}
+.chapter-item .ch-mini-fill.fill-warn{background:#D4921A}
+.chapter-item .ch-mini-fill.fill-bad{background:#B85450}
+.chapter-item .ch-stats{font-size:11.5px;color:var(--text-tertiary);margin-top:3px;display:flex;gap:10px;flex-wrap:wrap}
+.chapter-item .ch-stats b{color:var(--text-secondary);font-weight:700}
 
 /* LECTURE ACCORDION */
 .lecture-accordion{display:flex;flex-direction:column;gap:10px}
@@ -720,6 +746,61 @@ html{scroll-padding-top:calc(var(--header-h) + 16px)}
 }
 .source-notice .sn-icon{font-size:15px;flex-shrink:0;margin-top:1px}
 .source-notice .sn-body strong{color:var(--text);font-weight:700;margin-right:4px}
+
+/* ── SUBJECT HERO 主控台三卡（登入態） ── */
+.shc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:18px}
+.shc-card{background:var(--surface-alt);border:1px solid var(--border-light);border-radius:var(--radius);padding:14px 16px;display:flex;flex-direction:column;gap:6px;min-height:124px;position:relative;transition:var(--transition)}
+.shc-card:hover{border-color:var(--accent);background:var(--surface)}
+.shc-card.shc-mastery{background:linear-gradient(135deg,#F3F9F5 0%,#E8F1EB 100%);border-color:#CFE2D4}
+.shc-card.shc-last{background:linear-gradient(135deg,#FAFBFC 0%,#F3F5F7 100%);border-color:#DCE3E8}
+.shc-card.shc-today{background:linear-gradient(135deg,#FFF9EC 0%,#FFF1D6 100%);border-color:#F0D79A}
+.shc-head{display:flex;align-items:center;gap:6px;font-size:11.5px;color:var(--text-tertiary);font-weight:600;letter-spacing:0.3px}
+.shc-icon{font-size:15px;line-height:1}
+.shc-value{font-size:18px;font-weight:800;color:var(--text);letter-spacing:-0.3px;line-height:1.25}
+.shc-value .shc-unit{font-size:12px;font-weight:600;color:var(--text-secondary);margin-left:4px}
+.shc-sub{font-size:11.5px;color:var(--text-secondary);line-height:1.5}
+.shc-progress{height:6px;border-radius:999px;background:rgba(45,95,45,0.12);overflow:hidden}
+.shc-progress .shc-bar{height:100%;background:linear-gradient(90deg,var(--accent),var(--accent-hover));border-radius:999px;transition:width 0.4s ease}
+.shc-cta{margin-top:auto;padding:7px 12px;border-radius:8px;font-size:12.5px;font-weight:700;background:var(--accent);color:#fff;cursor:pointer;border:none;transition:var(--transition);text-align:center;align-self:stretch}
+.shc-cta:hover{background:var(--accent-hover);transform:translateY(-1px)}
+.shc-card.shc-today .shc-cta{background:#D4921A}
+.shc-card.shc-today .shc-cta:hover{background:#B8800F}
+.shc-card.shc-last .shc-cta{background:var(--text);color:#fff}
+.shc-card.shc-last .shc-cta:hover{background:#000}
+.shc-card .shc-empty{font-size:12px;color:var(--text-tertiary);margin-top:auto;line-height:1.5}
+.shc-skel{min-height:124px;background:linear-gradient(90deg,#F0EEE8 0%,#FAFAF7 50%,#F0EEE8 100%);background-size:200% 100%;animation:shc-shimmer 1.2s infinite;border-radius:var(--radius)}
+@keyframes shc-shimmer{0%{background-position:200% 0}100%{background-position:-200% 0}}
+@media(max-width:640px){
+  .shc-grid{grid-template-columns:1fr;gap:8px}
+  .shc-card{min-height:auto;padding:12px 14px}
+}
+
+/* ── 本科目「我的題目」deep-link（W2-5） ── */
+.subj-my-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin-top:10px}
+.subj-my-card{display:flex;align-items:center;gap:12px;padding:14px;border:1px solid var(--border-light);border-radius:var(--radius);background:var(--surface);transition:var(--transition)}
+.subj-my-card.is-active{border-color:var(--border);background:var(--surface-alt)}
+.subj-my-card .subj-my-icon{width:40px;height:40px;border-radius:10px;display:inline-flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0}
+.subj-my-card .subj-my-body{flex:1;min-width:0}
+.subj-my-card .subj-my-num{font-size:22px;font-weight:800;color:var(--text);line-height:1.1}
+.subj-my-card .subj-my-num span{font-size:12px;font-weight:600;color:var(--text-tertiary);margin-left:4px}
+.subj-my-card .subj-my-label{font-size:12.5px;color:var(--text-secondary);margin-top:2px}
+.subj-my-card .subj-my-cta{padding:8px 14px;border-radius:999px;background:var(--accent);color:#fff;font-size:12.5px;font-weight:700;border:none;cursor:pointer;flex-shrink:0;transition:var(--transition);white-space:nowrap}
+.subj-my-card .subj-my-cta:hover{background:var(--accent-hover);transform:translateY(-1px)}
+.subj-my-card .subj-my-cta:disabled{background:var(--border);color:var(--text-tertiary);cursor:not-allowed;transform:none}
+@media(max-width:640px){
+  .subj-my-grid{grid-template-columns:1fr}
+  .subj-my-card{padding:12px}
+}
+
+/* ── SUBJECT STICKY CTA（手機底部） ── */
+.subject-sticky{position:fixed;left:0;right:0;bottom:0;z-index:80;background:rgba(255,255,255,0.97);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-top:1px solid var(--border);padding:10px 16px calc(10px + env(safe-area-inset-bottom));display:none;align-items:center;gap:10px;box-shadow:0 -4px 18px rgba(0,0,0,0.06)}
+.subject-sticky.show{display:flex;animation:fadeUp 0.25s ease}
+.subject-sticky .ss-info{flex:1;min-width:0}
+.subject-sticky .ss-name{font-size:13px;font-weight:700;color:var(--text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.subject-sticky .ss-meta{font-size:11px;color:var(--text-tertiary);margin-top:1px}
+.subject-sticky .ss-cta{padding:10px 16px;border-radius:999px;background:var(--accent);color:#fff;font-size:13px;font-weight:700;flex-shrink:0;min-height:40px;border:none;cursor:pointer;transition:var(--transition)}
+.subject-sticky .ss-cta:hover{background:var(--accent-hover)}
+@media(min-width:761px){.subject-sticky{display:none !important}}
 
 /* ── COUNTDOWN TIMER (mock exam) ── */
 .countdown{
@@ -1168,11 +1249,9 @@ html:not(.auth-ready) [data-when]{display:none}
   <div class="container">
     <div class="breadcrumb" id="subject-breadcrumb"></div>
     <div class="exam-hero" id="subject-hero"></div>
-    <div class="tabs" id="subject-tabs"></div>
-    <div id="subject-tab-overview" class="tab-pane"></div>
-    <div id="subject-tab-lecture" class="tab-pane"></div>
-    <div id="subject-tab-bank" class="tab-pane"></div>
+    <div id="subject-body"></div>
   </div>
+  <div class="subject-sticky" id="subject-sticky"></div>
 </section>
 
 <!-- QUIZ -->
@@ -1397,7 +1476,7 @@ html:not(.auth-ready) [data-when]{display:none}
       <h2 id="terms-4">4. 題庫與內容</h2>
       <p>本服務提供之題目、解析與學習資料來源說明如下：</p>
       <ul>
-        <li><strong>官方考古題：</strong>源自各主管機關公開釋出之歷屆試題，屬政府著作，依著作權法得為非營利重製使用，解析文字為本服務原創。</li>
+        <li><strong>歷屆考題：</strong>源自各主管機關公開釋出之歷屆試題，屬政府著作，依著作權法得為非營利重製使用，解析文字為本服務原創。</li>
       </ul>
       <p>所有題目、解析與學習資料<strong>僅供備考練習參考之用</strong>，不保證與未來實際考試題目或官方標準答案完全一致；應試之標準以各發證機關、考選機關當次公告為準。若您發現題目或答案有誤，歡迎透過站內檢舉功能或 <a href="mailto:admin@kaonow.com">admin@kaonow.com</a> 與我們聯繫，我們將儘速核實處理。</p>
 
@@ -2059,6 +2138,211 @@ const cloud = (() => {
     return a;
   }
 
+  // ── Subject Dashboard（Hero 三卡主控台用）──
+  // 回傳：{ mastery:{pct,level,total,correct}, lastAttempt, suggestion:{mode,label,reason} }
+  // 未登入 / 未做過 → 各欄位為 null；由 UI 自行 fallback 成現行統計卡
+  async function loadSubjectDashboard(subjectId) {
+    const uid = userId();
+    if (!uid) return { mastery: null, lastAttempt: null, suggestion: null };
+
+    // 先拿 subject chapters + questions（走 v6 cache，便宜）
+    const [chapters, questions] = await Promise.all([
+      loadSubjectChapters(subjectId),
+      loadQuestionsBySubject(subjectId)
+    ]);
+    const chIds = (chapters || []).map(c => c.id).filter(Boolean);
+    const qIds = new Set((questions || []).map(q => q.id));
+
+    // 預設結果
+    let mastery = null, lastAttempt = null, suggestion = null;
+
+    // 1. 章節熟練度（chapter_progress by chapter_id 集合）
+    if (chIds.length > 0) {
+      const idList = chIds.map(s => '"' + s + '"').join(',');
+      const cpR = await request(
+        'chapter_progress?user_id=eq.' + uid +
+        '&chapter_id=in.(' + idList + ')' +
+        '&select=chapter_id,total_attempts,correct_attempts,last_attempted_at'
+      );
+      const rows = cpR.ok ? cpR.data : [];
+      if (rows.length > 0) {
+        let total = 0, correct = 0, latestTs = 0;
+        rows.forEach(r => {
+          total += r.total_attempts || 0;
+          correct += r.correct_attempts || 0;
+          const ts = r.last_attempted_at ? new Date(r.last_attempted_at).getTime() : 0;
+          if (ts > latestTs) latestTs = ts;
+        });
+        if (total > 0) {
+          const pct = Math.round((correct / total) * 100);
+          let level = '新手';
+          if (pct >= 75) level = '熟練';
+          else if (pct >= 40) level = '中階';
+          mastery = { pct, level, total, correct, lastAt: latestTs || null };
+        }
+      }
+    }
+
+    // 2. 上次練習（question_attempts 最新一筆，範圍限本科題目）
+    if (qIds.size > 0) {
+      // PostgREST 的 in 過濾若題目數太多 URL 會爆；上限 400，取最近一筆就夠
+      const sampleIds = [...qIds].slice(0, 400);
+      const idList = sampleIds.map(s => '"' + s + '"').join(',');
+      const waR = await request(
+        'question_attempts?user_id=eq.' + uid +
+        '&question_id=in.(' + idList + ')' +
+        '&order=attempted_at.desc&limit=1' +
+        '&select=question_id,is_correct,attempted_at'
+      );
+      if (waR.ok && waR.data && waR.data[0]) {
+        lastAttempt = {
+          questionId: waR.data[0].question_id,
+          at: waR.data[0].attempted_at,
+          isCorrect: waR.data[0].is_correct
+        };
+      }
+    }
+
+    // 3. 今日建議：弱點章節 ≥ 1 條 → 建議弱點 10 題；否則 → 隨機 10 題
+    //    完全沒做過 → 開始第一輪
+    if (!mastery) {
+      suggestion = { mode: 'random', label: '開始第一輪', reason: 'first_time' };
+    } else {
+      // 看 chapter_progress 有沒有弱章節
+      const idList2 = chIds.map(s => '"' + s + '"').join(',');
+      const cpR2 = await request(
+        'chapter_progress?user_id=eq.' + uid +
+        '&chapter_id=in.(' + idList2 + ')' +
+        '&select=total_attempts,correct_attempts'
+      );
+      const hasWeak = (cpR2.ok ? cpR2.data : []).some(r =>
+        (r.total_attempts || 0) >= 3 &&
+        ((r.correct_attempts || 0) / (r.total_attempts || 1)) < 0.7
+      );
+      if (hasWeak) suggestion = { mode: 'weak', label: '弱點 10 題', reason: 'has_weak' };
+      else suggestion = { mode: 'random', label: '隨機 10 題', reason: 'all_good' };
+    }
+
+    return { mastery, lastAttempt, suggestion };
+  }
+
+  // 本科目收藏/錯題統計（W2-5 deep-link）
+  // 回傳 { ok, bookmarks:{count, questionIds}, wrongs:{count, questionIds} }
+  async function loadSubjectReviewCounts(subjectId) {
+    const uid = userId();
+    if (!uid) return { ok: false, reason: 'not_logged_in' };
+    const all = await loadQuestionsBySubject(subjectId);
+    if (!all.length) return { ok: false, reason: 'no_questions' };
+    // URL 太長會爆；題目多時只取前 400 作統計代表（提示：本科目大多 < 400 題）
+    const ids = all.slice(0, 400).map(q => q.id);
+    const idList = ids.map(s => '"' + s + '"').join(',');
+    const [bmR, waR] = await Promise.all([
+      request('bookmarks?user_id=eq.' + uid + '&question_id=in.(' + idList + ')&select=question_id'),
+      request('question_attempts?user_id=eq.' + uid + '&is_correct=eq.false' +
+              '&question_id=in.(' + idList + ')&select=question_id&limit=400'),
+    ]);
+    const bmIds = bmR.ok ? [...new Set(bmR.data.map(r => r.question_id))] : [];
+    const wrongIds = waR.ok ? [...new Set(waR.data.map(r => r.question_id))] : [];
+    return {
+      ok: true,
+      bookmarks: { count: bmIds.length, questionIds: bmIds },
+      wrongs: { count: wrongIds.length, questionIds: wrongIds },
+    };
+  }
+
+  // 取指定章節的進度（回傳 Map：chapterId → {total, correct, lastAt}）
+  async function loadChapterProgress(chapterIds) {
+    const uid = userId();
+    if (!uid || !chapterIds || !chapterIds.length) return {};
+    const idList = chapterIds.map(s => '"' + s + '"').join(',');
+    const r = await request(
+      'chapter_progress?user_id=eq.' + uid +
+      '&chapter_id=in.(' + idList + ')' +
+      '&select=chapter_id,total_attempts,correct_attempts,last_attempted_at'
+    );
+    const map = {};
+    (r.ok ? r.data : []).forEach(row => {
+      map[row.chapter_id] = {
+        total: row.total_attempts || 0,
+        correct: row.correct_attempts || 0,
+        lastAt: row.last_attempted_at || null,
+      };
+    });
+    return map;
+  }
+
+  // ── 弱點加強（subject 作用域）：不需要 examId，直接用 subject 的章節集合 ──
+  // 讓使用者從書籤/URL 直達 subject 頁時也能用弱點加強
+  async function loadWeakPointsBySubject(subjectId, limit = 10) {
+    const uid = userId();
+    if (!uid) return { ok: false, reason: 'not_logged_in', questions: [] };
+
+    // 1. 先拿本科目題庫（含 chapter_id）
+    const all = await loadQuestionsBySubject(subjectId);
+    if (!all.length) return { ok: false, reason: 'no_questions', questions: [] };
+    const subjectQIdSet = new Set(all.map(q => q.id));
+
+    // 2. 本科目的章節 id 集合（chapters schema 中 id 形如 'sub-xxx-chN'）
+    const chapters = await loadSubjectChapters(subjectId);
+    const subjChapterIds = new Set((chapters || []).map(c => c.id).filter(Boolean));
+
+    // 3. 查使用者在本科目章節上的 chapter_progress（跨 exam 聚合，因為同 chapter_id 共用）
+    let weakChapterIds = new Set();
+    if (subjChapterIds.size > 0) {
+      const idList = [...subjChapterIds].map(s => '"' + s + '"').join(',');
+      const cpR = await request(
+        'chapter_progress?user_id=eq.' + uid +
+        '&chapter_id=in.(' + idList + ')' +
+        '&select=chapter_id,total_attempts,correct_attempts'
+      );
+      (cpR.ok ? cpR.data : [])
+        .filter(r => r.total_attempts >= 3 && (r.correct_attempts / r.total_attempts) < 0.7)
+        .forEach(r => weakChapterIds.add(r.chapter_id));
+    }
+
+    // 4. 查使用者最近的錯題（限制在本科目題目集合）
+    const waR = await request(
+      'question_attempts?user_id=eq.' + uid +
+      '&is_correct=eq.false&order=attempted_at.desc&limit=300' +
+      '&select=question_id'
+    );
+    const wrongIds = new Set(
+      (waR.ok ? waR.data : [])
+        .map(r => r.question_id)
+        .filter(qid => subjectQIdSet.has(qid))
+    );
+
+    // 資料不夠 → 呼叫端要降級為 random
+    if (weakChapterIds.size === 0 && wrongIds.size === 0) {
+      return { ok: false, reason: 'no_history', questions: [] };
+    }
+
+    // 5. 混題：30% 錯題（再練一次）+ 70% 弱章節新題
+    const wrongQs = all.filter(q => wrongIds.has(q.id));
+    const weakQs = all.filter(q => {
+      if (wrongIds.has(q.id)) return false;
+      if (q.ch === null || q.ch === undefined) return false;
+      // 比對 chapter_id：chapters 表的 id 是 'sub-xxx-chN'，match q.ch
+      return [...weakChapterIds].some(cid => {
+        const m = String(cid).match(/-ch(\d+)$/);
+        return m && parseInt(m[1], 10) === q.ch;
+      });
+    });
+
+    const wrongTake = Math.min(wrongQs.length, Math.ceil(limit * 0.3));
+    const weakTake = limit - wrongTake;
+    const pool = [
+      ...shuffleArr(wrongQs).slice(0, wrongTake),
+      ...shuffleArr(weakQs).slice(0, weakTake)
+    ];
+    if (pool.length < limit) {
+      const rest = shuffleArr(all.filter(q => !pool.find(p => p.id === q.id)))
+        .slice(0, limit - pool.length);
+      pool.push(...rest);
+    }
+    return { ok: true, questions: shuffleArr(pool).slice(0, limit) };
+  }
+
   // ╔══════════════════════════════════════════════════════╗
   // ║ v6 subjects 架構：exam_subjects / subjects / chapters ║
   // ║ 跟題庫一樣用「記憶體 + localStorage」雙層快取 ─ 6h TTL   ║
@@ -2261,7 +2545,7 @@ const cloud = (() => {
     isLoggedIn, currentUser, userId,
     // 資料操作
     saveSession, loadProgress, mergeAndSync,
-    loadQuestions, loadQuestionsBySource, loadWeakPoints, clearQuestionCache,
+    loadQuestions, loadQuestionsBySource, loadWeakPoints, loadWeakPointsBySubject, loadSubjectDashboard, loadChapterProgress, loadSubjectReviewCounts, clearQuestionCache,
     // v6 subjects
     loadExamSubjects, loadSubject, loadSubjectExams, loadSubjectChapters,
     loadQuestionsBySubject, loadQuestionsBySubjectAndSource, clearV6Cache,
@@ -4803,7 +5087,7 @@ async function renderExam(id){
        <div class="eh-stat"><div class="eh-stat-num" style="font-size:13px;padding-top:4px">${exam.examFormat||'—'}</div><div class="eh-stat-label">考試形式</div></div>
      </div>`:''}`;
 
-  // 異步補上題庫來源細節（官方 / 社群）
+  // 異步補上題庫來源細節（歷屆 / 社群）
   if (exam.available) {
     (async () => {
       try {
@@ -4817,7 +5101,7 @@ async function renderExam(id){
         if (!numEl || !labEl) return;
         numEl.textContent = qs.length;
         const parts = [];
-        if (off) parts.push(`${off} 官方`);
+        if (off) parts.push(`${off} 歷屆`);
         if (com) parts.push(`${com} 社群`);
         if (parts.length > 1) {
           labEl.innerHTML = `題目數 <span style="color:var(--text-tertiary);font-size:11px">(${parts.join(' / ')})</span>`;
@@ -5404,7 +5688,7 @@ function renderBankPane(exam){
     <span class="sn-icon">ℹ️</span>
     <div class="sn-body">
       <strong>題庫來源說明</strong>：題目來自
-      <span class="q-badge badge-official" style="margin:0 2px">📝 官方考古題</span>
+      <span class="q-badge badge-official" style="margin:0 2px">📝 歷屆考題</span>
       官方釋出之歷屆試題；解析文字為本服務原創整理。
     </div>
   </div>
@@ -5457,7 +5741,10 @@ async function renderSubject(subjectId) {
 
   if (!subj) {
     hero.innerHTML = `<h1>科目不存在</h1><div class="sub">找不到 ${subjectId}。<a href="#/catalog">返回考試專區 →</a></div>`;
-    crumb.innerHTML = `<a href="#/home">首頁</a><span> / </span><a href="#/catalog">考試專區</a>`;
+    crumb.innerHTML = `<span class="bc-full"><a href="#/home">首頁</a><span> / </span><a href="#/catalog">考試專區</a></span>
+                       <div class="bc-mobile"><a class="bc-back" href="#/catalog">← 返回考試專區</a></div>`;
+    const body = document.getElementById('subject-body');
+    if (body) body.innerHTML = '';
     return;
   }
 
@@ -5465,9 +5752,18 @@ async function renderSubject(subjectId) {
   const validFromExam = state.fromExamId && (crossExams || []).some(r => r.exam_id === state.fromExamId);
   if (!validFromExam) { state.fromExamId = null; state.fromTrack = null; }
   const fromExam = state.fromExamId ? exams.find(e => e.id === state.fromExamId) : null;
-  crumb.innerHTML = `<a href="#/home">首頁</a><span> / </span><a href="#/catalog">考試專區</a>${
-    fromExam ? `<span> / </span><a href="#/exam/${fromExam.id}">${fromExam.name}</a>${state.fromTrack?`<span> / ${state.fromTrack}</span>`:''}` : ''
-  }<span> / </span><span>${subj.name}</span>`;
+  const backHref = fromExam ? `#/exam/${fromExam.id}` : '#/catalog';
+  const backLabel = fromExam ? (fromExam.name.length > 10 ? '返回考試' : ('返回 ' + fromExam.name)) : '返回考試專區';
+  crumb.innerHTML = `
+    <span class="bc-full">
+      <a href="#/home">首頁</a><span> / </span><a href="#/catalog">考試專區</a>${
+        fromExam ? `<span> / </span><a href="#/exam/${fromExam.id}">${fromExam.name}</a>${state.fromTrack?`<span> / ${state.fromTrack}</span>`:''}` : ''
+      }<span> / </span><span>${subj.name}</span>
+    </span>
+    <div class="bc-mobile">
+      <a class="bc-back" href="${backHref}">← ${backLabel}</a>
+      <span class="bc-pill">${subj.name}</span>
+    </div>`;
 
   const categoryLabel = {
     common: '共同科目', professional: '公職專業', academic: '升學',
@@ -5476,44 +5772,194 @@ async function renderSubject(subjectId) {
 
   const hasQuestions = questions.length > 0;
   const officialCount = questions.filter(q => q.source === 'official').length;
-  const aiCount = questions.filter(q => q.source === 'ai_generated').length;
+
+  const loggedIn = cloud.isLoggedIn();
+  // 登入態：先渲染骨架，之後 async 填入熟練度 / 上次練習 / 今日建議
+  const heroCardsArea = loggedIn
+    ? `<div class="shc-grid" id="subject-hero-cards">
+         <div class="shc-card shc-skel"><div class="shc-skel-line"></div><div class="shc-skel-line"></div></div>
+         <div class="shc-card shc-skel"><div class="shc-skel-line"></div><div class="shc-skel-line"></div></div>
+         <div class="shc-card shc-skel"><div class="shc-skel-line"></div><div class="shc-skel-line"></div></div>
+       </div>`
+    : `<div class="exam-hero-stats">
+         <div class="eh-stat"><div class="eh-stat-num">${questions.length}</div><div class="eh-stat-label">題目總數</div></div>
+         <div class="eh-stat"><div class="eh-stat-num">${officialCount}</div><div class="eh-stat-label">歷屆考題</div></div>
+         <div class="eh-stat"><div class="eh-stat-num">${chapters.length}</div><div class="eh-stat-label">章節</div></div>
+       </div>`;
 
   hero.innerHTML = `
     <span class="exam-category" style="background:var(--accent-light);color:var(--accent)">${categoryLabel}</span>
     <h1>${subj.name}</h1>
     <div class="sub">${subj.description || '科目描述建置中'}</div>
-    <div class="exam-hero-stats">
-      <div class="eh-stat"><div class="eh-stat-num">${questions.length}</div><div class="eh-stat-label">題目總數</div></div>
-      <div class="eh-stat"><div class="eh-stat-num">${officialCount}</div><div class="eh-stat-label">官方題</div></div>
-      <div class="eh-stat"><div class="eh-stat-num">${chapters.length}</div><div class="eh-stat-label">章節</div></div>
-    </div>`;
+    ${heroCardsArea}`;
 
-  const tabs = [{id:'overview',n:'概覽'},{id:'lecture',n:'講義'},{id:'bank',n:'題庫'}];
-  document.getElementById('subject-tabs').innerHTML = tabs.map((t,i)=>`
-    <button class="tab${i===0?' active':''}" onclick="switchSubjectTab('${t.id}')">${t.n}</button>
-  `).join('');
-  state.currentSubjectTab = 'overview';
+  // 整頁 scroll 版 body（取代 tabs）
+  const body = document.getElementById('subject-body');
+  body.innerHTML = _subjectPageSections(subj, questions, chapters, crossExams);
 
-  renderSubjectOverviewPane(subj, questions, chapters, crossExams);
-  renderSubjectLecturePane(subj);
-  renderSubjectBankPane(subj, questions, chapters);
-  switchSubjectTab('overview');
+  // 章節進度（W1-2）
+  if (chapters.length && loggedIn) enrichSubjectChapterProgress(chapters);
+
+  // 登入態 → async 載入主控台 + 本科目收藏/錯題
+  if (loggedIn) {
+    renderSubjectHeroCards(subjectId, subj, questions);
+    renderSubjectReviewPanel(subjectId);
+  }
+  renderSubjectSticky(subj, questions);
 }
 
+// switchSubjectTab 保留為相容 shim —— 改為 anchor scroll（原本的 onclick 不動）
 function switchSubjectTab(id) {
   state.currentSubjectTab = id;
-  document.querySelectorAll('#subject-tabs .tab').forEach((b,i)=>{
-    const ids=['overview','lecture','bank'];b.classList.toggle('active',ids[i]===id);
-  });
-  ['overview','lecture','bank'].forEach(n=>
-    document.getElementById('subject-tab-'+n).classList.toggle('active',n===id));
+  const anchor = ({
+    overview: 'subj-section-overview',
+    bank:     'subj-section-bank',
+    lecture:  'subj-section-lecture',
+  })[id] || 'subj-section-overview';
+  const el = document.getElementById(anchor);
+  if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
-function renderSubjectOverviewPane(subj, questions, chapters, crossExams) {
-  const el = document.getElementById('subject-tab-overview');
-  const hasQs = questions.length > 0;
+// ── Hero 三卡主控台（登入態）：熟練度 / 上次練習 / 今日建議 ──
+async function renderSubjectHeroCards(subjectId, subj, questions) {
+  const host = document.getElementById('subject-hero-cards');
+  if (!host) return;
+  let data;
+  try {
+    data = await cloud.loadSubjectDashboard(subjectId);
+  } catch (e) {
+    // 失敗就 fallback 到統計卡，確保畫面不空
+    host.outerHTML = `
+      <div class="exam-hero-stats">
+        <div class="eh-stat"><div class="eh-stat-num">${questions.length}</div><div class="eh-stat-label">題目總數</div></div>
+        <div class="eh-stat"><div class="eh-stat-num">${questions.filter(q=>q.source==='official').length}</div><div class="eh-stat-label">歷屆考題</div></div>
+        <div class="eh-stat"><div class="eh-stat-num">—</div><div class="eh-stat-label">主控台</div></div>
+      </div>`;
+    return;
+  }
+  // 如果科目頁已經切走了，別覆蓋別人的 DOM
+  if (state.currentSubjectId !== subjectId) return;
+  if (!document.getElementById('screen-subject')?.classList.contains('active')) return;
 
-  // 跨考試引用（去重 exam_id）
+  const { mastery, lastAttempt, suggestion } = data || {};
+  const fmtAt = (ts) => {
+    if (!ts) return '';
+    const d = new Date(ts);
+    const now = Date.now();
+    const diff = now - d.getTime();
+    if (diff < 60000) return '剛才';
+    if (diff < 3600000) return Math.floor(diff/60000) + ' 分鐘前';
+    if (diff < 86400000) return Math.floor(diff/3600000) + ' 小時前';
+    if (diff < 7*86400000) return Math.floor(diff/86400000) + ' 天前';
+    return `${d.getMonth()+1}/${d.getDate()}`;
+  };
+
+  // Card 1：熟練度
+  let masteryCard;
+  if (mastery && mastery.total > 0) {
+    const lvColor = mastery.pct >= 75 ? '#2E7D4F' : (mastery.pct >= 40 ? '#D4921A' : '#B85450');
+    masteryCard = `
+      <div class="shc-card shc-mastery">
+        <div class="shc-head"><span class="shc-icon">📊</span>熟練度</div>
+        <div class="shc-value" style="color:${lvColor}">${mastery.pct}<span style="font-size:14px;font-weight:600">%</span></div>
+        <div class="shc-sub">${mastery.level} · 已做 ${mastery.total} 題</div>
+        <div class="shc-progress"><div class="shc-bar" style="width:${mastery.pct}%;background:${lvColor}"></div></div>
+        <button class="shc-cta" onclick="startSubjectQuiz('weak')">精準練習 →</button>
+      </div>`;
+  } else {
+    masteryCard = `
+      <div class="shc-card shc-mastery">
+        <div class="shc-head"><span class="shc-icon">📊</span>熟練度</div>
+        <div class="shc-value" style="color:var(--text-tertiary);font-size:22px">尚未練習</div>
+        <div class="shc-empty">開始第一輪即可累積熟練度</div>
+        <button class="shc-cta" onclick="startSubjectQuiz('random')">立即開始 →</button>
+      </div>`;
+  }
+
+  // Card 2：上次練習
+  let lastCard;
+  if (lastAttempt && lastAttempt.at) {
+    const icon = lastAttempt.isCorrect ? '✅' : '❌';
+    const status = lastAttempt.isCorrect ? '答對' : '答錯';
+    lastCard = `
+      <div class="shc-card shc-last">
+        <div class="shc-head"><span class="shc-icon">⏱</span>上次練習</div>
+        <div class="shc-value" style="font-size:22px">${fmtAt(lastAttempt.at)}</div>
+        <div class="shc-sub">最後一題：${icon} ${status}</div>
+        <button class="shc-cta" onclick="startSubjectQuiz('random')">繼續練習 →</button>
+      </div>`;
+  } else {
+    lastCard = `
+      <div class="shc-card shc-last">
+        <div class="shc-head"><span class="shc-icon">⏱</span>上次練習</div>
+        <div class="shc-value" style="color:var(--text-tertiary);font-size:22px">—</div>
+        <div class="shc-empty">還沒練習過這個科目</div>
+        <button class="shc-cta" onclick="switchSubjectTab('bank')">瀏覽題庫 →</button>
+      </div>`;
+  }
+
+  // Card 3：今日建議
+  const sug = suggestion || { mode: 'random', label: '隨機 10 題', reason: 'default' };
+  const sugDesc = ({
+    first_time: '先做一輪累積紀錄',
+    has_weak: '有弱點章節，優先補強',
+    all_good: '維持手感、保持連續',
+  })[sug.reason] || '推薦今日份練習';
+  const todayCard = `
+    <div class="shc-card shc-today">
+      <div class="shc-head"><span class="shc-icon">🎯</span>今日建議</div>
+      <div class="shc-value" style="font-size:20px">${sug.label}</div>
+      <div class="shc-sub">${sugDesc}</div>
+      <button class="shc-cta" onclick="startSubjectQuiz('${sug.mode}')">開始練習 →</button>
+    </div>`;
+
+  host.innerHTML = masteryCard + lastCard + todayCard;
+}
+
+// ── 手機底部 sticky CTA（捲過 hero 才出現） ──
+function renderSubjectSticky(subj, questions) {
+  const bar = document.getElementById('subject-sticky');
+  if (!bar) return;
+  if (!questions || !questions.length) {
+    bar.classList.remove('show');
+    bar.innerHTML = '';
+    return;
+  }
+  bar.innerHTML = `
+    <div class="ss-info">
+      <div class="ss-name">${subj.name}</div>
+      <div class="ss-meta">${questions.length} 題 · 點擊開始隨機 10 題</div>
+    </div>
+    <button class="ss-cta" onclick="startSubjectQuiz('random')">開始練習 →</button>`;
+
+  // 捲動監聽：hero 捲出視窗後才顯示
+  if (window.__subjectStickyHandler) {
+    window.removeEventListener('scroll', window.__subjectStickyHandler);
+  }
+  const hero = document.getElementById('subject-hero');
+  const handler = () => {
+    // 只有 subject 頁 active 才顯示
+    const scr = document.getElementById('screen-subject');
+    if (!scr || !scr.classList.contains('active')) { bar.classList.remove('show'); return; }
+    if (!hero) return;
+    const rect = hero.getBoundingClientRect();
+    // hero 底部已滾出視窗上緣才顯示
+    if (rect.bottom < 40) bar.classList.add('show');
+    else bar.classList.remove('show');
+  };
+  window.__subjectStickyHandler = handler;
+  window.addEventListener('scroll', handler, { passive: true });
+  handler();
+}
+
+// 整頁 scroll 版 subject body — 回傳 HTML 字串（對齊 _examPageSections）
+function _subjectPageSections(subj, questions, chapters, crossExams) {
+  const hasQs = questions.length > 0;
+  const total = questions.length;
+  const mockCount = Math.min(total, 30);
+  const officialInBank = questions.filter(q => q.source === 'official').length;
+
+  // 跨考試引用（去重）
   const uniqueExams = [];
   const seen = new Set();
   (crossExams || []).forEach(r => {
@@ -5529,8 +5975,89 @@ function renderSubjectOverviewPane(subj, questions, chapters, crossExams) {
       此科目尚無題目，先看講義或到相關考試的官方題庫練習。
     </div>`;
 
+  // 1. 科目簡介
+  const overviewPanel = `
+    <div class="panel" id="subj-section-overview">
+      <h2>📋 科目簡介</h2>
+      <p style="font-size:14.5px;color:var(--text-secondary);line-height:1.8">${subj.description || '科目描述建置中，請先瀏覽題庫或講義。'}</p>
+    </div>`;
+
+  // 2. 快速入口（mode-grid）— 若無題目則顯示 placeholder
+  const bankPanel = hasQs ? `
+    <div class="panel" id="subj-section-bank">
+      <h2>⚡ 開始練習</h2>
+      <div class="source-notice">
+        <span class="sn-icon">ℹ️</span>
+        <div class="sn-body">
+          <strong>題庫組成</strong>：
+          <span class="q-badge badge-official" style="margin:0 2px">📝 歷屆考題</span> ${officialInBank} 題。
+          解析文字為本服務原創整理。
+        </div>
+      </div>
+      <div class="mode-grid">
+        <button class="mode-card" onclick="startSubjectQuiz('random')">
+          <div class="mode-icon">🎲</div>
+          <div class="mode-title">隨機測驗</div>
+          <div class="mode-desc">從題庫隨機抽 10 題</div>
+        </button>
+        <button class="mode-card" onclick="startSubjectQuiz('mock')">
+          <div class="mode-icon">🏆</div>
+          <div class="mode-title">科目模擬考</div>
+          <div class="mode-desc">${mockCount} 題 · 45 分鐘限時</div>
+        </button>
+        <button class="mode-card" onclick="startSubjectQuiz('weak')">
+          <div class="mode-icon">🎯</div>
+          <div class="mode-title">弱點加強</div>
+          <div class="mode-desc">依錯題與弱章節加強</div>
+        </button>
+      </div>
+    </div>` : `
+    <div class="panel" id="subj-section-bank">
+      <h2>⚡ 開始練習</h2>
+      <div class="placeholder-card" style="margin:0">
+        <span class="emoji">📝</span>
+        <h3>題庫建置中</h3>
+        <p>「${subj.name}」尚未有題目上架。</p>
+      </div>
+    </div>`;
+
+  // 3. 章節清單（含進度）
+  const chapterPanel = chapters.length ? `
+    <div class="panel" id="subj-section-chapters">
+      <h2>📚 依章節練習（${chapters.length}）</h2>
+      <div class="chapter-list" id="subject-chapter-list">
+        ${chapters.map(ch => `
+          <div class="chapter-item" data-chapter-id="${ch.id}" onclick="startSubjectChapter('${ch.id}')">
+            <div class="ch-main">
+              <div class="ch-row">
+                <span class="ch-dot dot-none" data-ch-dot></span>
+                <div class="chapter-title">${(ch.name || ch.id) + (ch.question_count ? ' · ' + ch.question_count + ' 題' : '')}</div>
+              </div>
+              <div class="chapter-meta" data-ch-meta>10 題隨機</div>
+            </div>
+            <span style="color:var(--text-tertiary)">→</span>
+          </div>
+        `).join('')}
+      </div>
+    </div>` : '';
+
+  // 4. 本科目收藏/錯題 deep-link（W2-5）— 登入態才顯示；先 placeholder 由 renderSubjectReviewPanel 填入
+  const reviewPanel = `<div id="subj-section-my"></div>`;
+
+  // 5. 講義（placeholder — 科目層級講義尚未上架）
+  const lecturePanel = `
+    <div class="panel" id="subj-section-lecture">
+      <h2>📖 科目講義</h2>
+      <div class="placeholder-card" style="margin:0">
+        <span class="emoji">📖</span>
+        <h3>「${subj.name}」講義整理中</h3>
+        <p>科目層級的講義將在近期上架。<br>目前可到「開始練習」直接練題，或參考相關考試的講義。</p>
+      </div>
+    </div>`;
+
+  // 6. 跨考試引用
   const crossPanel = uniqueExams.length > 1 ? `
-    <div class="panel">
+    <div class="panel" id="subj-section-cross">
       <h2>🔗 這個科目會出現在（${uniqueExams.length} 個考試）</h2>
       <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:10px">
         ${uniqueExams.map(e => `
@@ -5544,112 +6071,108 @@ function renderSubjectOverviewPane(subj, questions, chapters, crossExams) {
       </p>
     </div>` : '';
 
-  el.innerHTML = `
-    ${readinessNotice}
-    <div class="panel">
-      <h2>📋 科目簡介</h2>
-      <p style="font-size:14.5px;color:var(--text-secondary);line-height:1.8">${subj.description || '科目描述建置中，請先瀏覽題庫或講義。'}</p>
-    </div>
-    ${chapters.length ? `
-      <div class="panel">
-        <h2>📚 章節（${chapters.length}）</h2>
-        <div class="chapter-list">
-          ${chapters.map(ch => `
-            <div class="chapter-item" onclick="switchSubjectTab('bank')">
-              <div>
-                <div class="chapter-title">${(ch.name || ch.id) + (ch.question_count ? ' · ' + ch.question_count + ' 題' : '')}</div>
-                <div class="chapter-meta">點擊查看題庫</div>
-              </div>
-              <span style="color:var(--text-tertiary)">→</span>
-            </div>
-          `).join('')}
+  return readinessNotice + overviewPanel + bankPanel + chapterPanel + reviewPanel + lecturePanel + crossPanel;
+}
+
+// 本科目收藏/錯題 deep-link 面板（W2-5）
+async function renderSubjectReviewPanel(subjectId) {
+  const host = document.getElementById('subj-section-my');
+  if (!host) return;
+  let r;
+  try { r = await cloud.loadSubjectReviewCounts(subjectId); }
+  catch (_) { return; }
+  if (!r || !r.ok) return;
+  if (state.currentSubjectId !== subjectId) return;
+
+  const b = r.bookmarks?.count || 0;
+  const w = r.wrongs?.count || 0;
+  if (b === 0 && w === 0) return; // 沒資料就不佔版面
+
+  host.innerHTML = `
+    <div class="panel subj-my-panel">
+      <h2>📌 本科目的我的題目</h2>
+      <div class="subj-my-grid">
+        <div class="subj-my-card ${b>0?'is-active':''}">
+          <div class="subj-my-icon" style="background:#FFF8E5;color:#D4A017">⭐</div>
+          <div class="subj-my-body">
+            <div class="subj-my-num">${b}<span>題</span></div>
+            <div class="subj-my-label">已收藏</div>
+          </div>
+          <button class="subj-my-cta" ${b===0?'disabled':''} onclick="startSubjectReview('${subjectId}','bookmarks')">
+            ${b>0?'開始複習 →':'尚無資料'}
+          </button>
         </div>
-      </div>` : ''}
-    ${crossPanel}
-    <div style="display:flex;gap:10px;justify-content:center;margin-top:16px">
-      ${hasQs
-        ? `<button class="btn-primary" onclick="switchSubjectTab('bank')">開始練習 →</button>
-           <button class="btn-secondary" onclick="switchSubjectTab('lecture')">先看講義</button>`
-        : `<button class="btn-secondary" onclick="switchSubjectTab('lecture')">查看講義</button>`}
-    </div>`;
-}
-
-function renderSubjectLecturePane(subj) {
-  const el = document.getElementById('subject-tab-lecture');
-  // 科目層的講義還沒有實際內容，顯示 placeholder
-  el.innerHTML = `
-    <div class="placeholder-card">
-      <span class="emoji">📖</span>
-      <h3>「${subj.name}」講義整理中</h3>
-      <p>科目層級的講義將在近期上架。<br>目前可到「題庫」直接練題，或參考相關考試的講義。</p>
-    </div>`;
-}
-
-function renderSubjectBankPane(subj, questions, chapters) {
-  const el = document.getElementById('subject-tab-bank');
-  const total = questions.length;
-
-  if (!total) {
-    el.innerHTML = `
-      <div class="placeholder-card">
-        <span class="emoji">📝</span>
-        <h3>題庫建置中</h3>
-        <p>「${subj.name}」尚未有題目上架。</p>
-      </div>`;
-    return;
-  }
-
-  // 三模式（單科作用域）
-  const mockCount = Math.min(total, 30);
-  const officialInBank = questions.filter(q => q.source === 'official').length;
-  const sourceNotice = `
-    <div class="source-notice">
-      <span class="sn-icon">ℹ️</span>
-      <div class="sn-body">
-        <strong>題庫組成</strong>：
-        <span class="q-badge badge-official" style="margin:0 2px">📝 官方考古題</span> ${officialInBank} 題。
-        解析文字為本服務原創整理。
+        <div class="subj-my-card ${w>0?'is-active':''}">
+          <div class="subj-my-icon" style="background:#FFECEE;color:#B85450">❌</div>
+          <div class="subj-my-body">
+            <div class="subj-my-num">${w}<span>題</span></div>
+            <div class="subj-my-label">錯題庫</div>
+          </div>
+          <button class="subj-my-cta" ${w===0?'disabled':''} onclick="startSubjectReview('${subjectId}','wrongs')">
+            ${w>0?'一鍵複習 →':'尚無資料'}
+          </button>
+        </div>
+      </div>
+      <div style="font-size:12px;color:var(--text-tertiary);margin-top:12px">
+        ⭐ 練習時點題目右上角即可加入收藏。錯題會自動收進錯題庫。
       </div>
     </div>`;
-  const modeGrid = `
-    ${sourceNotice}
-    <div class="mode-grid">
-      <button class="mode-card" onclick="startSubjectQuiz('random')">
-        <div class="mode-icon">🎲</div>
-        <div class="mode-title">隨機測驗</div>
-        <div class="mode-desc">從題庫隨機抽 10 題</div>
-      </button>
-      <button class="mode-card" onclick="startSubjectQuiz('mock')">
-        <div class="mode-icon">🏆</div>
-        <div class="mode-title">科目模擬考</div>
-        <div class="mode-desc">${mockCount} 題 · 45 分鐘限時</div>
-      </button>
-      <button class="mode-card" onclick="startSubjectQuiz('weak')">
-        <div class="mode-icon">🎯</div>
-        <div class="mode-title">弱點加強</div>
-        <div class="mode-desc">依錯題與弱章節加強</div>
-      </button>
-    </div>`;
+}
 
-  // 章節（若有）
-  const chapterList = chapters.length ? `
-    <h3 style="font-size:15px;font-weight:700;margin:8px 0 12px;display:flex;align-items:center;gap:8px">
-      <span style="width:3px;height:16px;background:var(--accent);border-radius:2px;display:inline-block"></span>
-      依章節練習
-    </h3>
-    <div class="chapter-list">
-      ${chapters.map(ch => `
-        <div class="chapter-item" onclick="startSubjectChapter('${ch.id}')">
-          <div>
-            <div class="chapter-title">${(ch.name || ch.id) + (ch.question_count ? ' · ' + ch.question_count + ' 題' : '')}</div>
-            <div class="chapter-meta">10 題隨機</div>
-          </div>
-          <span style="color:var(--text-tertiary)">→</span>
+// 開始本科目收藏/錯題複習
+async function startSubjectReview(subjectId, kind) {
+  if (!cloud.isLoggedIn()) { showToast('請先登入'); return; }
+  showToast('載入題目中…');
+  const r = await cloud.loadSubjectReviewCounts(subjectId);
+  if (!r.ok) { showToast('載入失敗，稍後再試'); return; }
+  const idSet = new Set(kind === 'bookmarks' ? r.bookmarks.questionIds : r.wrongs.questionIds);
+  if (!idSet.size) { showToast(kind === 'bookmarks' ? '尚未收藏題目' : '沒有錯題'); return; }
+  const all = await cloud.loadQuestionsBySubject(subjectId);
+  const pool = shuffle(all.filter(q => idSet.has(q.id))).slice(0, Math.min(20, idSet.size));
+  if (!pool.length) { showToast('題目已不存在'); return; }
+  state.mode = kind === 'bookmarks' ? 'bookmark_review' : 'wrong_review';
+  state.quizScope = { kind: 'subject', id: subjectId };
+  state.currentSubjectId = subjectId;
+  initQuiz(pool);
+}
+
+// 填入章節進度（正確率／圓點／mini 進度條）
+async function enrichSubjectChapterProgress(chapters) {
+  const listEl = document.getElementById('subject-chapter-list');
+  if (!listEl) return;
+  const ids = chapters.map(c => c.id).filter(Boolean);
+  if (!ids.length) return;
+  let progressMap = {};
+  try {
+    progressMap = await cloud.loadChapterProgress(ids);
+  } catch (_) { return; }
+  if (!listEl.isConnected) return; // 頁面已切走
+  chapters.forEach(ch => {
+    const p = progressMap[ch.id];
+    const node = listEl.querySelector(`[data-chapter-id="${ch.id}"]`);
+    if (!node) return;
+    const dot = node.querySelector('[data-ch-dot]');
+    const meta = node.querySelector('[data-ch-meta]');
+    if (!p || !p.total) {
+      if (dot) { dot.className = 'ch-dot dot-none'; dot.title = '尚未練習'; }
+      if (meta) meta.innerHTML = `<span style="color:var(--text-tertiary)">尚未練習</span> · 10 題隨機`;
+      return;
+    }
+    const pct = Math.round((p.correct / p.total) * 100);
+    let cls = 'dot-bad', fillCls = 'fill-bad';
+    if (pct >= 75) { cls = 'dot-good'; fillCls = 'fill-good'; }
+    else if (pct >= 50) { cls = 'dot-warn'; fillCls = 'fill-warn'; }
+    if (dot) { dot.className = 'ch-dot ' + cls; dot.title = `正確率 ${pct}%`; }
+    if (meta) {
+      meta.innerHTML = `
+        <div class="ch-stats">
+          <span>正確率 <b>${pct}%</b></span>
+          <span>已做 <b>${p.total}</b> 題</span>
+          <span>10 題隨機</span>
         </div>
-      `).join('')}
-    </div>` : '';
-
-  el.innerHTML = modeGrid + chapterList;
+        <div class="ch-mini"><div class="ch-mini-fill ${fillCls}" style="width:${pct}%"></div></div>`;
+    }
+  });
 }
 
 // ===== QUIZ =====
@@ -5766,21 +6289,27 @@ async function startSubjectQuiz(mode) {
       pool = shuffle(q).slice(0, Math.min(10, q.length));
     }
     else if (mode === 'weak') {
-      // 科目層弱點：先用相關考試的 loadWeakPoints 取出池，再過濾本科目的題
-      const examId = state.fromExamId || state.currentExamId;
-      if (!examId) { showToast('先從考試進入科目，才能啟用弱點加強'); return; }
-      const r = await cloud.loadWeakPoints(examId, 30);  // 多要一點，再依 subject 過濾
+      // 科目層弱點：直接用 subject_id + chapter_progress 決定弱點，不綁 examId
+      // 讓使用者從書籤/URL 直達 subject 頁時也能用弱點加強
+      const r = await cloud.loadWeakPointsBySubject(subjectId, 10);
       if (!r.ok) {
-        if (r.reason === 'not_logged_in') showToast('請先登入才能使用弱點加強');
-        else showToast('先做幾次練習，累積紀錄後就能啟用弱點加強');
-        return;
+        if (r.reason === 'not_logged_in') {
+          showToast('請先登入才能使用弱點加強');
+          return;
+        }
+        if (r.reason === 'no_questions') {
+          showToast('此科目尚無題庫，題庫建置中');
+          return;
+        }
+        // no_history → 降級為隨機測驗（Wave 1 決議）
+        showToast('還沒累積錯題，先做一輪隨機測驗吧 🎲');
+        state.mode = 'random';
+        const q = await cloud.loadQuestionsBySubject(subjectId);
+        if (!q.length) { showToast('此科目尚無題庫，題庫建置中'); return; }
+        pool = shuffle(q).slice(0, Math.min(10, q.length));
+      } else {
+        pool = r.questions;
       }
-      const filtered = (r.questions || []).filter(q => q.subject_id === subjectId);
-      if (filtered.length < 3) {
-        showToast('此科目累積的弱點資料不足，多做幾次練習後再來！');
-        return;
-      }
-      pool = filtered.slice(0, 10);
     }
     else if (mode === 'mock') {
       const all = await cloud.loadQuestionsBySubject(subjectId);
@@ -5977,7 +6506,7 @@ function sourceBadge(src) {
   // AI 生成題暫不顯示 badge（金流審核期間）
   if (src === 'ai_generated') return '';
   if (src === 'community') return '<span class="q-badge badge-community">👥 社群</span>';
-  if (src === 'official') return '<span class="q-badge badge-official">📝 官方考古題</span>';
+  if (src === 'official') return '<span class="q-badge badge-official">📝 歷屆考題</span>';
   return '';
 }
 
