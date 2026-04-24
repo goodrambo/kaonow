@@ -1960,7 +1960,7 @@ const cloud = (() => {
   }
 
   // ── 題庫載入（含快取，24h TTL） ─────────────────────────
-  const Q_CACHE_PREFIX = 'kaonow_q4_';  // v17: 換 key 讓舊 cache 失效，拉到 auto_gradable / parent_question_id / paper_id / media / source_meta
+  const Q_CACHE_PREFIX = 'kaonow_q5_';  // bump 2026-04-25：loadQuestionsBySubject select 加 exam_id，用於年度 panel
   const Q_CACHE_TTL = 24 * 3600 * 1000;
   const qMemCache = {};  // 記憶體快取，避免同一 session 重複打
 
@@ -2347,7 +2347,7 @@ const cloud = (() => {
   // ║ v6 subjects 架構：exam_subjects / subjects / chapters ║
   // ║ 跟題庫一樣用「記憶體 + localStorage」雙層快取 ─ 6h TTL   ║
   // ╚══════════════════════════════════════════════════════╝
-  const V6_CACHE_PREFIX = 'kaonow_v6_';
+  const V6_CACHE_PREFIX = 'kaonow_v7_';  // bump: 2026-04-25 加入 chapter question_count trigger + loadQuestionsBySubject 加 exam_id
   const V6_CACHE_TTL = 6 * 3600 * 1000;
   const v6MemCache = {};
 
@@ -2478,7 +2478,7 @@ const cloud = (() => {
     }
     const r = await request(
       'questions_published?subject_id=eq.' + subjectId +
-      '&order=id.asc&select=id,chapter_id,subject_id,question_text,options,correct_answer,correct_answer_json,question_type,explanation,source,difficulty,image_url,auto_gradable,parent_question_id,paper_id,media,source_meta'
+      '&order=id.asc&select=id,exam_id,chapter_id,subject_id,question_text,options,correct_answer,correct_answer_json,question_type,explanation,source,difficulty,image_url,auto_gradable,parent_question_id,paper_id,media,source_meta'
     );
     if (!r.ok || !Array.isArray(r.data)) {
       warn('loadQuestionsBySubject failed', subjectId, r);
