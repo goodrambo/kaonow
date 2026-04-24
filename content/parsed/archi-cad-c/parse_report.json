@@ -1,9 +1,79 @@
 {
   "exam_id": "archi-cad-c",
-  "parsed_at": "2026-04-16T14:15:00.155400",
-  "format": "standard",
+  "parser_version": "ntpc_v1.1",
+  "parsed_at": "2026-04-20T18:56:40+00:00",
+  "format": "ntpc_standard_v1.1",
   "question_count": 160,
-  "sections": 2,
-  "issues": [],
-  "issues_total": 0
+  "type_counts": {
+    "single_choice": 160
+  },
+  "issues": [
+    {
+      "id": "archi-cad-c-011",
+      "raw_qnums": [
+        11
+      ],
+      "flags": [
+        "no_options_parsed",
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": []
+    },
+    {
+      "id": "archi-cad-c-034",
+      "raw_qnums": [
+        34
+      ],
+      "flags": [
+        "no_options_parsed",
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": []
+    },
+    {
+      "id": "archi-cad-c-039",
+      "raw_qnums": [
+        39
+      ],
+      "flags": [
+        "no_options_parsed",
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": []
+    },
+    {
+      "id": "archi-cad-c-048",
+      "raw_qnums": [
+        48
+      ],
+      "flags": [
+        "no_options_parsed",
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": []
+    },
+    {
+      "id": "archi-cad-c-050",
+      "raw_qnums": [
+        50
+      ],
+      "flags": [
+        "no_options_parsed",
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": []
+    },
+    {
+      "id": "archi-cad-c-051",
+      "raw_qnums": [
+        51
+      ],
+      "flags": [
+        "no_options_parsed",
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": []
+    }
+  ],
+  "issues_total": 6
 }

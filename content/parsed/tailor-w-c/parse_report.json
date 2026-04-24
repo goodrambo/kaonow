@@ -1,9 +1,129 @@
 {
   "exam_id": "tailor-w-c",
-  "parsed_at": "2026-04-16T14:15:00.439954",
-  "format": "standard",
-  "question_count": 159,
-  "sections": 2,
-  "issues": [],
-  "issues_total": 0
+  "parser_version": "ntpc_v1.1",
+  "parsed_at": "2026-04-20T18:56:43+00:00",
+  "format": "ntpc_standard_v1.1",
+  "question_count": 158,
+  "type_counts": {
+    "single_choice": 158
+  },
+  "issues": [
+    {
+      "id": "tailor-w-c-004",
+      "raw_qnums": [
+        4
+      ],
+      "flags": [
+        "no_options_parsed",
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": []
+    },
+    {
+      "id": "tailor-w-c-009",
+      "raw_qnums": [
+        9
+      ],
+      "flags": [
+        "no_options_parsed",
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": []
+    },
+    {
+      "id": "tailor-w-c-032",
+      "raw_qnums": [
+        32
+      ],
+      "flags": [
+        "no_options_parsed",
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": []
+    },
+    {
+      "id": "tailor-w-c-033",
+      "raw_qnums": [
+        33
+      ],
+      "flags": [
+        "no_options_parsed",
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": []
+    },
+    {
+      "id": "tailor-w-c-056",
+      "raw_qnums": [
+        56,
+        74
+      ],
+      "flags": [
+        "no_options_parsed",
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": [
+        {
+          "this": 1,
+          "raw_qnum": 74
+        }
+      ]
+    },
+    {
+      "id": "tailor-w-c-059",
+      "raw_qnums": [
+        59
+      ],
+      "flags": [
+        "no_options_parsed",
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": []
+    },
+    {
+      "id": "tailor-w-c-064",
+      "raw_qnums": [
+        64
+      ],
+      "flags": [
+        "no_options_parsed",
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": []
+    },
+    {
+      "id": "tailor-w-c-083",
+      "raw_qnums": [
+        4
+      ],
+      "flags": [
+        "no_options_parsed",
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": []
+    },
+    {
+      "id": "tailor-w-c-098",
+      "raw_qnums": [
+        19
+      ],
+      "flags": [
+        "no_options_parsed",
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": []
+    },
+    {
+      "id": "tailor-w-c-121",
+      "raw_qnums": [
+        42
+      ],
+      "flags": [
+        "no_options_parsed",
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": []
+    }
+  ],
+  "issues_total": 10
 }

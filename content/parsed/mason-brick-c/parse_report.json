@@ -1,9 +1,46 @@
 {
   "exam_id": "mason-brick-c",
-  "parsed_at": "2026-04-16T14:15:00.288310",
-  "format": "standard",
+  "parser_version": "ntpc_v1.1",
+  "parsed_at": "2026-04-20T18:56:41+00:00",
+  "format": "ntpc_standard_v1.1",
   "question_count": 606,
-  "sections": 11,
-  "issues": [],
-  "issues_total": 0
+  "type_counts": {
+    "single_choice": 606
+  },
+  "issues": [
+    {
+      "id": "mason-brick-c-004",
+      "raw_qnums": [
+        4
+      ],
+      "flags": [
+        "no_options_parsed",
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": []
+    },
+    {
+      "id": "mason-brick-c-060",
+      "raw_qnums": [
+        60
+      ],
+      "flags": [
+        "no_options_parsed",
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": []
+    },
+    {
+      "id": "mason-brick-c-238",
+      "raw_qnums": [
+        24
+      ],
+      "flags": [
+        "no_options_parsed",
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": []
+    }
+  ],
+  "issues_total": 3
 }

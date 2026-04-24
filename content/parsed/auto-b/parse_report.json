@@ -1,9 +1,36 @@
 {
   "exam_id": "auto-b",
-  "parsed_at": "2026-04-16T14:15:00.162182",
-  "format": "standard",
-  "question_count": 120,
-  "sections": 2,
-  "issues": [],
-  "issues_total": 0
+  "parser_version": "ntpc_v1.1",
+  "parsed_at": "2026-04-20T18:56:40+00:00",
+  "format": "ntpc_standard_v1.1",
+  "question_count": 160,
+  "type_counts": {
+    "single_choice": 120,
+    "multiple_choice": 40
+  },
+  "issues": [
+    {
+      "id": "auto-b-039",
+      "raw_qnums": [
+        39
+      ],
+      "flags": [
+        "no_options_parsed",
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": []
+    },
+    {
+      "id": "auto-b-137",
+      "raw_qnums": [
+        57
+      ],
+      "flags": [
+        "no_options_parsed",
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": []
+    }
+  ],
+  "issues_total": 2
 }

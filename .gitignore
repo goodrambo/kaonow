@@ -88,3 +88,8 @@ email-setup-guide.md
 mockups/
 raw/publiccom-pilot/
 tools/
+
+# 2026-04-25 wave1 re-ingest
+/outputs/ntpc_ingest/
+/content/cache/
+/_trash_20260425/

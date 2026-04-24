@@ -1,9 +1,45 @@
 {
   "exam_id": "water-pipe-c",
-  "parsed_at": "2026-04-16T14:15:00.453315",
-  "format": "standard",
+  "parser_version": "ntpc_v1.1",
+  "parsed_at": "2026-04-20T18:56:43+00:00",
+  "format": "ntpc_standard_v1.1",
   "question_count": 160,
-  "sections": 2,
-  "issues": [],
-  "issues_total": 0
+  "type_counts": {
+    "single_choice": 160
+  },
+  "issues": [
+    {
+      "id": "water-pipe-c-032",
+      "raw_qnums": [
+        32
+      ],
+      "flags": [
+        "no_options_parsed",
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": []
+    },
+    {
+      "id": "water-pipe-c-065",
+      "raw_qnums": [
+        65
+      ],
+      "flags": [
+        "no_options_parsed",
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": []
+    },
+    {
+      "id": "water-pipe-c-147",
+      "raw_qnums": [
+        67
+      ],
+      "flags": [
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": []
+    }
+  ],
+  "issues_total": 3
 }

@@ -1,9 +1,46 @@
 {
   "exam_id": "netinstall-c",
-  "parsed_at": "2026-04-16T14:15:00.337754",
-  "format": "standard",
+  "parser_version": "ntpc_v1.1",
+  "parsed_at": "2026-04-20T18:56:42+00:00",
+  "format": "ntpc_standard_v1.1",
   "question_count": 160,
-  "sections": 2,
-  "issues": [],
-  "issues_total": 0
+  "type_counts": {
+    "single_choice": 160
+  },
+  "issues": [
+    {
+      "id": "netinstall-c-004",
+      "raw_qnums": [
+        4
+      ],
+      "flags": [
+        "no_options_parsed",
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": []
+    },
+    {
+      "id": "netinstall-c-078",
+      "raw_qnums": [
+        78
+      ],
+      "flags": [
+        "no_options_parsed",
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": []
+    },
+    {
+      "id": "netinstall-c-115",
+      "raw_qnums": [
+        35
+      ],
+      "flags": [
+        "no_options_parsed",
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": []
+    }
+  ],
+  "issues_total": 3
 }

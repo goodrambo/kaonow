@@ -1,9 +1,107 @@
 {
   "exam_id": "ind-wire-c",
-  "parsed_at": "2026-04-16T14:15:00.261745",
-  "format": "standard",
-  "question_count": 160,
-  "sections": 2,
-  "issues": [],
-  "issues_total": 0
+  "parser_version": "ntpc_v1.1",
+  "parsed_at": "2026-04-20T18:56:41+00:00",
+  "format": "ntpc_standard_v1.1",
+  "question_count": 159,
+  "type_counts": {
+    "single_choice": 159
+  },
+  "issues": [
+    {
+      "id": "ind-wire-c-014",
+      "raw_qnums": [
+        14,
+        20
+      ],
+      "flags": [
+        "no_options_parsed",
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": [
+        {
+          "this": 1,
+          "raw_qnum": 20
+        }
+      ]
+    },
+    {
+      "id": "ind-wire-c-019",
+      "raw_qnums": [
+        19
+      ],
+      "flags": [
+        "no_options_parsed",
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": []
+    },
+    {
+      "id": "ind-wire-c-027",
+      "raw_qnums": [
+        27
+      ],
+      "flags": [
+        "no_options_parsed",
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": []
+    },
+    {
+      "id": "ind-wire-c-031",
+      "raw_qnums": [
+        31
+      ],
+      "flags": [
+        "no_options_parsed",
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": []
+    },
+    {
+      "id": "ind-wire-c-060",
+      "raw_qnums": [
+        60
+      ],
+      "flags": [
+        "no_options_parsed",
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": []
+    },
+    {
+      "id": "ind-wire-c-096",
+      "raw_qnums": [
+        16
+      ],
+      "flags": [
+        "no_options_parsed",
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": []
+    },
+    {
+      "id": "ind-wire-c-097",
+      "raw_qnums": [
+        17
+      ],
+      "flags": [
+        "no_options_parsed",
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": []
+    },
+    {
+      "id": "ind-wire-c-112",
+      "raw_qnums": [
+        33
+      ],
+      "flags": [
+        "no_options_parsed",
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": []
+    }
+  ],
+  "issues_total": 8
 }

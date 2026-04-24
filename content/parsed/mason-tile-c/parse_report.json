@@ -1,9 +1,41 @@
 {
   "exam_id": "mason-tile-c",
-  "parsed_at": "2026-04-16T14:15:00.305036",
-  "format": "standard",
-  "question_count": 158,
-  "sections": 2,
-  "issues": [],
-  "issues_total": 0
+  "parser_version": "ntpc_v1.1",
+  "parsed_at": "2026-04-20T18:56:41+00:00",
+  "format": "ntpc_standard_v1.1",
+  "question_count": 157,
+  "type_counts": {
+    "single_choice": 157
+  },
+  "issues": [
+    {
+      "id": "mason-tile-c-012",
+      "raw_qnums": [
+        12
+      ],
+      "flags": [
+        "no_options_parsed",
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": []
+    },
+    {
+      "id": "mason-tile-c-063",
+      "raw_qnums": [
+        63,
+        49
+      ],
+      "flags": [
+        "no_options_parsed",
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": [
+        {
+          "this": 0,
+          "raw_qnum": 49
+        }
+      ]
+    }
+  ],
+  "issues_total": 2
 }

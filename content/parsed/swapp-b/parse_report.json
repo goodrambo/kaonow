@@ -1,9 +1,13 @@
 {
   "exam_id": "swapp-b",
-  "parsed_at": "2026-04-16T14:15:00.421236",
-  "format": "standard",
-  "question_count": 120,
-  "sections": 2,
+  "parser_version": "ntpc_v1.1",
+  "parsed_at": "2026-04-20T18:56:43+00:00",
+  "format": "ntpc_standard_v1.1",
+  "question_count": 160,
+  "type_counts": {
+    "single_choice": 120,
+    "multiple_choice": 40
+  },
   "issues": [],
   "issues_total": 0
 }

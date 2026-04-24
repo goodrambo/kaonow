@@ -1,9 +1,13 @@
 {
   "exam_id": "accounting-b",
-  "parsed_at": "2026-04-16T14:15:00.140381",
-  "format": "standard",
-  "question_count": 119,
-  "sections": 2,
+  "parser_version": "ntpc_v1.1",
+  "parsed_at": "2026-04-20T18:56:40+00:00",
+  "format": "ntpc_standard_v1.1",
+  "question_count": 159,
+  "type_counts": {
+    "single_choice": 119,
+    "multiple_choice": 40
+  },
   "issues": [],
   "issues_total": 0
 }

@@ -1,9 +1,12 @@
 {
   "exam_id": "bread-cookie-c",
-  "parsed_at": "2026-04-16T14:15:00.187867",
-  "format": "standard",
+  "parser_version": "ntpc_v1.1",
+  "parsed_at": "2026-04-20T18:56:40+00:00",
+  "format": "ntpc_standard_v1.1",
   "question_count": 157,
-  "sections": 2,
+  "type_counts": {
+    "single_choice": 157
+  },
   "issues": [],
   "issues_total": 0
 }

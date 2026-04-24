@@ -1,9 +1,35 @@
 {
   "exam_id": "telecom-c",
-  "parsed_at": "2026-04-16T14:15:00.446942",
-  "format": "standard",
-  "question_count": 159,
-  "sections": 2,
-  "issues": [],
-  "issues_total": 0
+  "parser_version": "ntpc_v1.1",
+  "parsed_at": "2026-04-20T18:56:43+00:00",
+  "format": "ntpc_standard_v1.1",
+  "question_count": 160,
+  "type_counts": {
+    "single_choice": 160
+  },
+  "issues": [
+    {
+      "id": "telecom-c-129",
+      "raw_qnums": [
+        49
+      ],
+      "flags": [
+        "no_options_parsed",
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": []
+    },
+    {
+      "id": "telecom-c-149",
+      "raw_qnums": [
+        69
+      ],
+      "flags": [
+        "no_options_parsed",
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": []
+    }
+  ],
+  "issues_total": 2
 }

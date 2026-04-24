@@ -8,6 +8,7 @@
 
 | 日期 | 檔案 | 主題 |
 |---|---|---|
+| 2026-04-20 | [SESSION_HANDOFF_2026-04-20_P3.3_browser_test.md](SESSION_HANDOFF_2026-04-20_P3.3_browser_test.md) | P3.3 pilot 六題正式站實測 pass + multiPending 兩 bug 修（commit `b5bd8df` 未 push） |
 | 2026-04-20 | [SESSION_HANDOFF_2026-04-20_v13_v14_trial_referral.md](SESSION_HANDOFF_2026-04-20_v13_v14_trial_referral.md) | v13 註冊送 7 天試用 / v14 邀請好友 +14 天 / 定價文案 30 天 90 天 · commit `d81f7b1` 已 ship |
 | 2026-04-20 | [SESSION_HANDOFF_2026-04-20_P1_P3.md](SESSION_HANDOFF_2026-04-20_P1_P3.md) | P1 付費方案邊界 + P3.3/P3.4 multiple_choice 端到端 pilot + collection prompt 擴充 |
 | 2026-04-19 | [SESSION_20260419_HANDOFF.md](SESSION_20260419_HANDOFF.md) | 考試頁 Phase 2 single-scroll 重構 + Phase 3 多科目 picker modal |

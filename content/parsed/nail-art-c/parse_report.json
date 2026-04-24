@@ -1,9 +1,57 @@
 {
   "exam_id": "nail-art-c",
-  "parsed_at": "2026-04-16T14:15:00.324559",
-  "format": "alt",
+  "parser_version": "ntpc_v1.1",
+  "parsed_at": "2026-04-20T18:56:42+00:00",
+  "format": "ntpc_ansfirst_v1.1",
   "question_count": 160,
-  "sections": 0,
-  "issues": [],
-  "issues_total": 0
+  "type_counts": {
+    "single_choice": 160
+  },
+  "issues": [
+    {
+      "id": "nail-art-c-032",
+      "raw_qnums": [
+        32
+      ],
+      "flags": [
+        "no_options_parsed",
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": []
+    },
+    {
+      "id": "nail-art-c-053",
+      "raw_qnums": [
+        53
+      ],
+      "flags": [
+        "no_options_parsed",
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": []
+    },
+    {
+      "id": "nail-art-c-082",
+      "raw_qnums": [
+        22
+      ],
+      "flags": [
+        "no_options_parsed",
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": []
+    },
+    {
+      "id": "nail-art-c-106",
+      "raw_qnums": [
+        46
+      ],
+      "flags": [
+        "no_options_parsed",
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": []
+    }
+  ],
+  "issues_total": 4
 }

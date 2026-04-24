@@ -1,12 +1,10 @@
 {
-  "exam_id": "noodle-oil-c",
+  "exam_id": "osh-c",
   "parser_version": "ntpc_v1.1",
   "parsed_at": "2026-04-20T18:56:42+00:00",
   "format": "ntpc_standard_v1.1",
-  "question_count": 160,
-  "type_counts": {
-    "single_choice": 160
-  },
+  "question_count": 0,
+  "type_counts": {},
   "issues": [],
   "issues_total": 0
 }

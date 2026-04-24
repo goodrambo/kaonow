@@ -1,9 +1,12 @@
 {
   "exam_id": "osh-common",
-  "parsed_at": "2026-04-16T14:15:00.355649",
-  "format": "standard",
+  "parser_version": "ntpc_v1.1",
+  "parsed_at": "2026-04-20T18:56:42+00:00",
+  "format": "ntpc_standard_v1.1",
   "question_count": 100,
-  "sections": 1,
+  "type_counts": {
+    "single_choice": 100
+  },
   "issues": [],
   "issues_total": 0
 }

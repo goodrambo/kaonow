@@ -1,9 +1,35 @@
 {
   "exam_id": "elec-c",
-  "parsed_at": "2026-04-16T14:15:00.211399",
-  "format": "standard",
+  "parser_version": "ntpc_v1.1",
+  "parsed_at": "2026-04-20T18:56:40+00:00",
+  "format": "ntpc_standard_v1.1",
   "question_count": 159,
-  "sections": 2,
-  "issues": [],
-  "issues_total": 0
+  "type_counts": {
+    "single_choice": 159
+  },
+  "issues": [
+    {
+      "id": "elec-c-070",
+      "raw_qnums": [
+        70
+      ],
+      "flags": [
+        "no_options_parsed",
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": []
+    },
+    {
+      "id": "elec-c-145",
+      "raw_qnums": [
+        66
+      ],
+      "flags": [
+        "no_options_parsed",
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": []
+    }
+  ],
+  "issues_total": 2
 }

@@ -1,9 +1,96 @@
 {
   "exam_id": "mech-elec-c",
-  "parsed_at": "2026-04-16T14:15:00.311471",
-  "format": "standard",
-  "question_count": 160,
-  "sections": 2,
-  "issues": [],
-  "issues_total": 0
+  "parser_version": "ntpc_v1.1",
+  "parsed_at": "2026-04-20T18:56:41+00:00",
+  "format": "ntpc_standard_v1.1",
+  "question_count": 159,
+  "type_counts": {
+    "single_choice": 159
+  },
+  "issues": [
+    {
+      "id": "mech-elec-c-014",
+      "raw_qnums": [
+        14
+      ],
+      "flags": [
+        "no_options_parsed",
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": []
+    },
+    {
+      "id": "mech-elec-c-023",
+      "raw_qnums": [
+        23,
+        22
+      ],
+      "flags": [
+        "no_options_parsed",
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": [
+        {
+          "this": 0,
+          "raw_qnum": 22
+        }
+      ]
+    },
+    {
+      "id": "mech-elec-c-061",
+      "raw_qnums": [
+        61
+      ],
+      "flags": [
+        "no_options_parsed",
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": []
+    },
+    {
+      "id": "mech-elec-c-062",
+      "raw_qnums": [
+        62
+      ],
+      "flags": [
+        "no_options_parsed",
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": []
+    },
+    {
+      "id": "mech-elec-c-075",
+      "raw_qnums": [
+        75
+      ],
+      "flags": [
+        "no_options_parsed",
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": []
+    },
+    {
+      "id": "mech-elec-c-089",
+      "raw_qnums": [
+        9
+      ],
+      "flags": [
+        "no_options_parsed",
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": []
+    },
+    {
+      "id": "mech-elec-c-091",
+      "raw_qnums": [
+        11
+      ],
+      "flags": [
+        "no_options_parsed",
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": []
+    }
+  ],
+  "issues_total": 7
 }

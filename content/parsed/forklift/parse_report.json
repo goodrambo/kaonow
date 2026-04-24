@@ -1,9 +1,57 @@
 {
   "exam_id": "forklift",
-  "parsed_at": "2026-04-16T14:15:00.232270",
-  "format": "standard",
-  "question_count": 598,
-  "sections": 3,
-  "issues": [],
-  "issues_total": 0
+  "parser_version": "ntpc_v1.1",
+  "parsed_at": "2026-04-20T18:56:40+00:00",
+  "format": "ntpc_standard_v1.1",
+  "question_count": 595,
+  "type_counts": {
+    "single_choice": 595
+  },
+  "issues": [
+    {
+      "id": "forklift-172",
+      "raw_qnums": [
+        15
+      ],
+      "flags": [
+        "no_options_parsed",
+        "answer_out_of_range"
+      ],
+      "answer_conflicts": []
+    },
+    {
+      "id": "forklift-204",
+      "raw_qnums": [
+        47,
+        48
+      ],
+      "flags": [],
+      "answer_conflicts": [
+        {
+          "this": 2,
+          "raw_qnum": 48
+        }
+      ]
+    },
+    {
+      "id": "forklift-206",
+      "raw_qnums": [
+        50,
+        51,
+        52
+      ],
+      "flags": [],
+      "answer_conflicts": [
+        {
+          "this": 1,
+          "raw_qnum": 51
+        },
+        {
+          "this": 3,
+          "raw_qnum": 52
+        }
+      ]
+    }
+  ],
+  "issues_total": 3
 }

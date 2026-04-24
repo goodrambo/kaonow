@@ -1145,13 +1145,13 @@ html:not(.auth-ready) [data-when]{display:none}
         <div class="feat"><span class="feat-icon">🏆</span><h3>模擬考體驗</h3><p>依照真實考試題數與配分設計，讓你上考場不緊張。</p></div>
         <div class="feat"><span class="feat-icon">📊</span><h3>學習進度追蹤</h3><p>連勝紀錄、正確率趨勢、練習總量，進步看得見。</p></div>
         <div class="feat"><span class="feat-icon">📱</span><h3>跨裝置通用</h3><p>手機、平板、電腦都能用，通勤刷題完全沒問題。</p></div>
-        <div class="feat"><span class="feat-icon">🔒</span><h3>免費版即可開始</h3><p>免費註冊立即練習；升級 Pro 解鎖完整題庫與進階功能。</p></div>
+        <div class="feat"><span class="feat-icon">🔒</span><h3>免費版即可開始</h3><p>免費註冊立即練習；升級完整方案解鎖完整題庫與進階功能。</p></div>
       </div>
     </div>
 
     <div class="section">
       <div class="section-head"><div class="section-label">PRICING</div><h2>選擇適合你的方案</h2><p>免費就能開始刷題，依需求升級解鎖更多功能</p></div>
-      <div style="max-width:720px;margin:0 auto 28px;padding:14px 20px;background:linear-gradient(90deg,#FFF5E0 0%,#FFE9B8 100%);border:1px solid #F5D48A;border-radius:12px;text-align:center;font-size:14px;color:#5C4215;line-height:1.6"><strong style="color:#3D2B0D">🎁 新用戶註冊自動送 7 天 Pro 試用</strong><br><span style="font-size:13px">註冊完成即開通 7 天完整方案體驗（最多 200 題），試用到期自動回到免費版，不會自動扣款</span></div>
+      <div style="max-width:720px;margin:0 auto 28px;padding:14px 20px;background:linear-gradient(90deg,#FFF5E0 0%,#FFE9B8 100%);border:1px solid #F5D48A;border-radius:12px;text-align:center;font-size:14px;color:#5C4215;line-height:1.6"><strong style="color:#3D2B0D">🎁 新用戶註冊自動送 7 天完整方案試用</strong><br><span style="font-size:13px">註冊完成即開通 7 天完整方案體驗（最多 200 題），試用到期自動回到免費版，不會自動扣款</span></div>
       <div class="pricing-grid">
         <div class="price-card">
           <div class="price-name">免費版</div>
@@ -1166,7 +1166,7 @@ html:not(.auth-ready) [data-when]{display:none}
             <li class="off">模擬考</li>
             <li class="off">弱點加強</li>
           </ul>
-          <button class="price-cta" onclick="openLoginModal()">免費註冊 · 送 7 天 Pro</button>
+          <button class="price-cta" onclick="openLoginModal()">免費註冊 · 送 7 天完整方案</button>
         </div>
         <div class="price-card">
           <div class="price-name">標準方案</div>
@@ -2682,7 +2682,7 @@ const billing = (() => {
       localStorage.setItem(LS_TIER_KEY, JSON.stringify(raw));
       // 剛結束試用 → 提示 + 彈 paywall
       if (!row.still_in_trial) {
-        if (typeof showToast === 'function') showToast('Pro 試用已用完，升級可繼續無限練習');
+        if (typeof showToast === 'function') showToast('完整方案試用已用完，升級可繼續無限練習');
         setTimeout(() => openPaywallModal({ reason: 'trial_ended' }), 800);
         // 更新 header badge
         if (typeof renderTrialBanner === 'function') renderTrialBanner();
@@ -2808,7 +2808,7 @@ const billing = (() => {
     })[mode] || '此功能';
     if (reason === 'trial_ended') {
       return {
-        title: 'Pro 試用已結束',
+        title: '完整方案試用已結束',
         sub: '7 天 / 200 題試用額度已用完。訂閱方案可繼續無限練習，考前衝刺不中斷。',
       };
     }
@@ -3116,7 +3116,7 @@ function renderTrialBanner() {
   const urgent = (days <= 1) || (quota <= 30);
   el.className = 'trial-banner' + (urgent ? ' urgent' : '');
   el.innerHTML = `
-    <span class="tb-label">Pro 試用中</span>
+    <span class="tb-label">完整方案試用中</span>
     <span class="tb-meta">剩 ${days} 天</span>
     <span class="tb-sep">·</span>
     <span class="tb-meta">剩 ${quota} 題</span>
@@ -6251,7 +6251,14 @@ async function startChapter(ch){
   showToast('載入題目中...');
   const bank = await cloud.loadQuestions(state.currentExamId);
   if(!bank){showToast('題庫載入失敗，請稍後再試');return;}
-  const pool = shuffle(bank.filter(q => q.ch === ch)).slice(0,10);
+  // 正常路徑：依 chapter filter
+  let pool = shuffle(bank.filter(q => q.ch === ch)).slice(0,10);
+  // Fallback：章節尚未分類（chapter_id=NULL）→ 從整 exam 抽題，避免整章空白
+  // 下一步做 chapter_classifier 後可移除此 fallback
+  if (!pool.length) {
+    pool = shuffle(bank).slice(0, 10);
+    if (pool.length) showToast('章節分類建置中，先從全題庫抽題');
+  }
   if(!pool.length){showToast('此章節暫無題目');return;}
   state.mode = 'chapter';
   state.quizScope = { kind:'exam', id: state.currentExamId };
@@ -6338,7 +6345,7 @@ async function startSubjectChapter(chapterId) {
   if (!subjectId) return;
   showToast('載入題目中...');
   const all = await cloud.loadQuestionsBySubject(subjectId);
-  const pool = shuffle(all.filter(q => {
+  let pool = shuffle(all.filter(q => {
     // chapter_id 形如 'sub-xxx-ch2'；這裡精確比對原始 chapter_id
     // 但 _mapDbQuestion 只留了 ch (數字)。改比對原始：從 all 其實沒有原始字串。
     // 退而求其次：若 chapter.id 可解析為 -ch(N) 格式，就比對 q.ch。
@@ -6346,6 +6353,11 @@ async function startSubjectChapter(chapterId) {
     if (m) return q.ch === parseInt(m[1]);
     return false;
   })).slice(0, 10);
+  // Fallback：chapter_id=NULL 時（章節分類尚未建置）從整 subject 抽題
+  if (!pool.length && all.length) {
+    pool = shuffle(all).slice(0, 10);
+    if (pool.length) showToast('章節分類建置中，先從全題庫抽題');
+  }
   if (!pool.length) { showToast('此章節暫無題目'); return; }
   state.mode = 'chapter';
   state.quizScope = { kind:'subject', id: subjectId };
@@ -7528,7 +7540,7 @@ router();
     <button class="modal-close" onclick="closeLoginModal()">×</button>
     <div class="modal-logo">K</div>
     <h2>歡迎來到 KaoNow</h2>
-    <p class="modal-sub">🎁 新用戶註冊自動送 7 天 Pro 試用，<br>學習紀錄跨裝置同步，不會遺失。</p>
+    <p class="modal-sub">🎁 新用戶註冊自動送 7 天完整方案試用，<br>學習紀錄跨裝置同步，不會遺失。</p>
     <button class="google-btn" onclick="signInWithGoogle()">
       <svg width="20" height="20" viewBox="0 0 48 48"><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.18 1.48-4.97 2.29-8.16 2.29-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/></svg>
       使用 Google 帳號登入
