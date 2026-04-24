@@ -2447,6 +2447,16 @@ const cloud = (() => {
     return data;
   }
 
+  // 每 exam DB 實際題數（從 exam_papers.question_count 聚合）— 輕量 payload
+  // 回傳 { exam_id: total_count }，失敗時回 {}
+  async function loadExamQuestionCounts() {
+    const r = await request('exam_papers?select=exam_id,question_count&is_active=eq.true&limit=5000');
+    if (!r.ok || !Array.isArray(r.data)) { warn('loadExamQuestionCounts failed', r); return {}; }
+    const counts = {};
+    r.data.forEach(p => { counts[p.exam_id] = (counts[p.exam_id] || 0) + (p.question_count || 0); });
+    return counts;
+  }
+
   // 依 subject_id 抓題（走 questions_published view，需 v6.1 patch 已套）
   async function loadQuestionsBySubject(subjectId, opts = {}) {
     const cacheKey = 'subq:' + subjectId;
@@ -2546,6 +2556,7 @@ const cloud = (() => {
     // 資料操作
     saveSession, loadProgress, mergeAndSync,
     loadQuestions, loadQuestionsBySource, loadWeakPoints, loadWeakPointsBySubject, loadSubjectDashboard, loadChapterProgress, loadSubjectReviewCounts, clearQuestionCache,
+    loadExamQuestionCounts,
     // v6 subjects
     loadExamSubjects, loadSubject, loadSubjectExams, loadSubjectChapters,
     loadQuestionsBySubject, loadQuestionsBySubjectAndSource, clearV6Cache,
@@ -3664,6 +3675,26 @@ function bootApp() {
   try { cookieConsent.init(); } catch(e) { console.warn('[cookie consent init fail]', e); }
   // 延後一拍：等 DOM / router 啟動後，再檢查是否有未完成的模擬考
   setTimeout(() => { try { checkResumeQuiz(); } catch(e) { console.warn('[resume check fail]', e); } }, 400);
+  // 預取各 exam 的 DB 題數 → 讓 catalog card / exam hero 顯示真實狀態
+  // 載好後視需要重繪當前頁，避免「可練習」假狀態
+  (async () => {
+    try {
+      const counts = await cloud.loadExamQuestionCounts();
+      exams.forEach(e => { e.dbQuestionCount = counts[e.id] || 0; });
+      window.__examCountsReady = true;
+      // 重繪 home / catalog / exam overview（僅當前顯示的那張）
+      const screens = {
+        'screen-home': () => typeof renderHome === 'function' && renderHome(),
+        'screen-catalog': () => typeof renderCatalog === 'function' && renderCatalog(),
+        'screen-exam': () => (state && state.currentExamId && typeof renderExam === 'function')
+          ? renderExam(state.currentExamId) : null,
+      };
+      for (const [sid, fn] of Object.entries(screens)) {
+        const el = document.getElementById(sid);
+        if (el && el.classList.contains('active')) { try { fn(); } catch(e) {} }
+      }
+    } catch(e) { console.warn('[exam counts load fail]', e); }
+  })();
 }
 if (document.readyState === 'loading') {
   document.addEventListener('DOMContentLoaded', bootApp);
@@ -4985,9 +5016,17 @@ function renderCatalog(){
 // 產生考試卡 HTML（模板化，讓 sections 與 grid 共用）
 function examCardHTML(exam, bookmarkSet) {
   const cat = examCategories.find(c => c.id === exam.categoryId);
-  const totalQs = (exam.chapters||[]).reduce((s,c)=>s+(c.count||0),0) || (exam.totalQuestions||0);
+  // 題數：DB 實際題數優先（exam.dbQuestionCount，由 bootApp loadExamQuestionCounts 注入）
+  // 若 DB count 還沒載好（undefined）→ fallback chapters 規劃數，避免空白
+  const dbCount = exam.dbQuestionCount;
+  const plannedCount = (exam.chapters||[]).reduce((s,c)=>s+(c.count||0),0) || (exam.totalQuestions||0);
+  const totalQs = (dbCount !== undefined) ? dbCount : plannedCount;
+  // 「可練習」必須同時滿足：available 旗標為 true AND DB 題庫有題
+  const hasDbQuestions = (dbCount !== undefined) ? dbCount > 0 : true;  // 未載入前樂觀假定有題
   const status = exam.available
-    ? '<span class="exam-status ready">● 可練習</span>'
+    ? (hasDbQuestions
+        ? '<span class="exam-status ready">● 可練習</span>'
+        : '<span class="exam-status info">📚 題庫建置中</span>')
     : ((exam.chapters && exam.chapters.length > 0)
       ? '<span class="exam-status info">📚 題庫建置中</span>'
       : '<span class="exam-status soon">⏳ 建置中</span>');
@@ -5075,7 +5114,10 @@ async function renderExam(id){
   document.getElementById('exam-breadcrumb').innerHTML =
     `<a href="#/home">首頁</a><span> / </span><a href="#/catalog">考試專區</a><span> / </span><span>${exam.name}</span>`;
 
-  const totalQs = (exam.chapters||[]).reduce((s,c)=>s+(c.count||0),0) || (exam.totalQuestions||0);
+  // 題數：優先用 DB 實際數（由 bootApp loadExamQuestionCounts 注入），未載入則 fallback chapters 規劃
+  const _dbCount = exam.dbQuestionCount;
+  const _plannedCount = (exam.chapters||[]).reduce((s,c)=>s+(c.count||0),0) || (exam.totalQuestions||0);
+  const totalQs = (_dbCount !== undefined) ? _dbCount : _plannedCount;
   document.getElementById('exam-hero').innerHTML =
     `<span class="exam-category">${cat?cat.name:''}</span>
      <h1>${exam.name}</h1>
