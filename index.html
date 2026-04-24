@@ -2457,6 +2457,18 @@ const cloud = (() => {
     return counts;
   }
 
+  // 某 exam 的所有 papers（依年度 / 梯次分）— 給「依年度練習」用
+  // roc_year 最新的排前面，無年度的放最後
+  async function loadExamPapers(examId) {
+    const r = await request(
+      'exam_papers?exam_id=eq.' + examId + '&is_active=eq.true' +
+      '&select=id,roc_year,paper_title,question_count,source_family' +
+      '&order=roc_year.desc.nullslast,id.asc&limit=50'
+    );
+    if (!r.ok || !Array.isArray(r.data)) { warn('loadExamPapers failed', examId, r); return []; }
+    return r.data;
+  }
+
   // 依 subject_id 抓題（走 questions_published view，需 v6.1 patch 已套）
   async function loadQuestionsBySubject(subjectId, opts = {}) {
     const cacheKey = 'subq:' + subjectId;
@@ -2556,7 +2568,7 @@ const cloud = (() => {
     // 資料操作
     saveSession, loadProgress, mergeAndSync,
     loadQuestions, loadQuestionsBySource, loadWeakPoints, loadWeakPointsBySubject, loadSubjectDashboard, loadChapterProgress, loadSubjectReviewCounts, clearQuestionCache,
-    loadExamQuestionCounts,
+    loadExamQuestionCounts, loadExamPapers,
     // v6 subjects
     loadExamSubjects, loadSubject, loadSubjectExams, loadSubjectChapters,
     loadQuestionsBySubject, loadQuestionsBySubjectAndSource, clearV6Cache,
@@ -5753,6 +5765,58 @@ function renderBankPane(exam){
   </div>
   <h3 style="font-size:15px;font-weight:700;margin:8px 0 12px;display:flex;align-items:center;gap:8px"><span style="width:3px;height:16px;background:var(--accent);border-radius:2px;display:inline-block"></span>依章節練習</h3>
   <div class="chapter-list">${(exam.chapters||[]).map(ch=>`<div class="chapter-item" onclick="startChapter(${ch.id})"><div><div class="chapter-title">第 ${ch.id+1} 章 · ${ch.name}</div><div class="chapter-meta">約 ${ch.count} 題 · 10 題隨機</div></div><span style="color:var(--text-tertiary)">→</span></div>`).join('')}</div>`;
+
+  // 「📅 依年度練習」— async append（有多張 exam_papers 時才顯示）
+  (async () => {
+    try {
+      const papers = await cloud.loadExamPapers(exam.id);
+      if (!papers || papers.length === 0) return;
+      // 至少 2 張 paper 才有必要分年度（單張題庫走上面的隨機/模擬考就好）
+      if (papers.length < 2) return;
+      const items = papers.map(p => {
+        const title = p.roc_year
+          ? `${p.roc_year} 年度`
+          : (p.paper_title || '綜合題庫');
+        const hasQs = (p.question_count || 0) > 0;
+        const meta = hasQs ? `${p.question_count} 題 · 10 題隨機` : '題庫建置中';
+        const style = hasQs ? '' : 'style="opacity:.55;cursor:not-allowed"';
+        const onclick = hasQs ? `onclick="startQuizByPaper('${p.id}','${exam.id}')"` : '';
+        return `<div class="chapter-item" ${style} ${onclick}>
+          <div><div class="chapter-title">${title}</div><div class="chapter-meta">${meta}</div></div>
+          ${hasQs ? '<span style="color:var(--text-tertiary)">→</span>' : ''}
+        </div>`;
+      }).join('');
+      const yearPanel = `
+        <h3 style="font-size:15px;font-weight:700;margin:22px 0 12px;display:flex;align-items:center;gap:8px">
+          <span style="width:3px;height:16px;background:var(--accent);border-radius:2px;display:inline-block"></span>
+          📅 依年度練習
+        </h3>
+        <div class="chapter-list">${items}</div>`;
+      // 只在當前 exam 未換頁時插入
+      if (state.currentExamId === exam.id) {
+        el.insertAdjacentHTML('beforeend', yearPanel);
+      }
+    } catch (e) { console.warn('[year panel]', e); }
+  })();
+}
+
+// 依年度 paper 抽 10 題練習（走 loadQuestions + filter paper_id）
+async function startQuizByPaper(paperId, examId) {
+  const targetExamId = examId || state.currentExamId;
+  const gate = billing.canStartQuiz(targetExamId, 'practice');
+  if (!gate.ok) {
+    billing.openPaywallModal({ examId: targetExamId, reason: gate.reason, mode: 'practice' });
+    return;
+  }
+  if (gate.remaining && gate.remaining <= 3) showToast(`今日剩 ${gate.remaining} 題免費額度`);
+  showToast('載入題目中...');
+  const bank = await cloud.loadQuestions(targetExamId);
+  if (!bank || !bank.length) { showToast('題庫載入失敗，請稍後再試'); return; }
+  const pool = shuffle(bank.filter(q => q.paper_id === paperId)).slice(0, 10);
+  if (!pool.length) { showToast('此年度題庫暫無題目'); return; }
+  state.mode = 'paper';
+  state.quizScope = { kind: 'exam', id: targetExamId };
+  initQuiz(pool);
 }
 function renderNewsPane(exam){
   const el=document.getElementById('exam-tab-news');
@@ -5848,6 +5912,8 @@ async function renderSubject(subjectId) {
     renderSubjectReviewPanel(subjectId);
   }
   renderSubjectSticky(subj, questions);
+  // 依年度練習 panel（非登入也顯示，讓使用者直接看題庫有幾年）
+  renderSubjectYearPanel(subjectId, questions);
 }
 
 // switchSubjectTab 保留為相容 shim —— 改為 anchor scroll（原本的 onclick 不動）
@@ -6073,7 +6139,7 @@ function _subjectPageSections(subj, questions, chapters, crossExams) {
             <div class="ch-main">
               <div class="ch-row">
                 <span class="ch-dot dot-none" data-ch-dot></span>
-                <div class="chapter-title">${(ch.name || ch.id) + (ch.question_count ? ' · ' + ch.question_count + ' 題' : '')}</div>
+                <div class="chapter-title">${(ch.name || ch.id)}${ch.question_count ? ` · ${ch.question_count} 題` : ' · <span style="color:var(--text-tertiary);font-weight:400">分類建置中</span>'}</div>
               </div>
               <div class="chapter-meta" data-ch-meta>10 題隨機</div>
             </div>
@@ -6113,7 +6179,48 @@ function _subjectPageSections(subj, questions, chapters, crossExams) {
       </p>
     </div>` : '';
 
-  return readinessNotice + overviewPanel + bankPanel + chapterPanel + reviewPanel + lecturePanel + crossPanel;
+  // 「📅 依年度練習」panel — placeholder，renderSubjectYearPanel 非同步填入
+  const yearPanelPlaceholder = `<div id="subj-section-years"></div>`;
+
+  return readinessNotice + overviewPanel + bankPanel + chapterPanel + yearPanelPlaceholder + reviewPanel + lecturePanel + crossPanel;
+}
+
+// 年度練習 panel（async 拉 exam_papers，subject 對到的 exam 有多張年度卷時顯示）
+async function renderSubjectYearPanel(subjectId, questions) {
+  const host = document.getElementById('subj-section-years');
+  if (!host || !questions || !questions.length) return;
+  // subject 對到的 exam_id（ntpc 1-to-1）
+  const examId = questions[0]?.exam_id;
+  if (!examId) return;
+  let papers;
+  try { papers = await cloud.loadExamPapers(examId); }
+  catch(_) { return; }
+  if (!papers || papers.length < 2) return;  // 單張 paper 不用分年度
+  if (state.currentSubjectId !== subjectId) return;  // 已切頁
+
+  const items = papers.map(p => {
+    const title = p.roc_year ? `${p.roc_year} 年度` : (p.paper_title || '綜合題庫');
+    const hasQs = (p.question_count || 0) > 0;
+    const meta = hasQs ? `${p.question_count} 題 · 10 題隨機` : '題庫建置中';
+    const style = hasQs ? '' : 'style="opacity:.55;cursor:not-allowed"';
+    const onclick = hasQs ? `onclick="startQuizByPaper('${p.id}','${examId}')"` : '';
+    return `<div class="chapter-item" ${style} ${onclick}>
+      <div class="ch-main">
+        <div class="ch-row">
+          <span class="ch-dot dot-none"></span>
+          <div class="chapter-title">${title}</div>
+        </div>
+        <div class="chapter-meta">${meta}</div>
+      </div>
+      ${hasQs ? '<span style="color:var(--text-tertiary)">→</span>' : ''}
+    </div>`;
+  }).join('');
+
+  host.innerHTML = `
+    <div class="panel" id="subj-section-years-panel">
+      <h2>📅 依年度練習（${papers.length}）</h2>
+      <div class="chapter-list">${items}</div>
+    </div>`;
 }
 
 // 本科目收藏/錯題 deep-link 面板（W2-5）
