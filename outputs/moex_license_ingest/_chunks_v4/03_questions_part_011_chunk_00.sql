@@ -1,0 +1,58 @@
+INSERT INTO public.questions (id, exam_id, paper_id, subject_id, chapter_id, question_type, question_text, options, correct_answer, correct_answer_json, auto_gradable, source, is_active, version, source_meta, explanation)
+VALUES
+  ('cpa-moex-00501', 'cpa', 'cpa-moex-110-0e802df0', 'sub-cpa-03', NULL, 'single_choice', '受查公司之員工薪資支票係由電腦自動列印，在此情況下，如何防止或及早偵知繼續列印已 離職員工之薪資支票？', '["以人事部門所列管之打卡單工作時數彙總作為總數控制，比對列印支票所附之總工時數", "請財務部門將空白支票預先編號，俾就支票開立總張數比較其序號是否正確", "針對員工編號檢查碼作檢查控制，防止虛構之可能性", "規定員工均需親自向所屬部門發薪人員當面領取，並收回未領之支票"]'::jsonb, 0, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:06+00:00", "source_pdf_sha1": "63d2fcb4aaa6", "answer_pdf_sha1": "142833232a16", "source_family": "moex-gov-tw", "moex": {"exam_code": "110140", "c": "803", "s": "0201", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "審計學", "year": "110", "exam_name": "110年專門職業及技術人員高等考試會計師、不動產估價師、專利師考試", "original_question_number": 19, "answer_corrected": false, "flags": [], "slug": "accountant", "db_exam_id": "cpa"}'::jsonb, NULL),
+  ('cpa-moex-00502', 'cpa', 'cpa-moex-110-0e802df0', 'sub-cpa-03', NULL, 'single_choice', '當會計師核閱財務報表時，發生核閱範圍受限的情況，下列敘述何者正確？', '["會計師應出具保留結論之核閱報告", "核閱範圍受限制對財務報表之可能影響係屬重大且廣泛，會計師應出具保留結論之核閱報告", "核閱範圍受限制對財務報表之可能影響係屬重大且廣泛時，會計師不可終止委任", "核閱範圍受限制對財務報表之可能影響係屬不重大，會計師應出具無保留結論之核閱報告"]'::jsonb, 3, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:06+00:00", "source_pdf_sha1": "63d2fcb4aaa6", "answer_pdf_sha1": "142833232a16", "source_family": "moex-gov-tw", "moex": {"exam_code": "110140", "c": "803", "s": "0201", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "審計學", "year": "110", "exam_name": "110年專門職業及技術人員高等考試會計師、不動產估價師、專利師考試", "original_question_number": 20, "answer_corrected": false, "flags": [], "slug": "accountant", "db_exam_id": "cpa"}'::jsonb, NULL),
+  ('cpa-moex-00503', 'cpa', 'cpa-moex-110-0e802df0', 'sub-cpa-03', NULL, 'single_choice', '有關比較財務報表查核，下列敘述何者錯誤？', '["查核人員應確認上期與本期採用之會計政策是否一致", "繼續查核時，查核人員不得修改對上期財務報表原表示之查核意見", "首次受託查核時，若上期財務報表未經前任會計師查核，查核人員應於查核報告中說明上 期報表未經查核", "首次受託查核時，若上期報表經其他會計師簽證且因未允當表達而表示保留意見，該保留 原因於本期仍未適當解決，致對本期「期初餘額」及「本期報表」之允當表達均產生重大 之影響，則查核人員對本期查核報告應出具保留或否定意見之查核報告"]'::jsonb, 1, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:06+00:00", "source_pdf_sha1": "63d2fcb4aaa6", "answer_pdf_sha1": "142833232a16", "source_family": "moex-gov-tw", "moex": {"exam_code": "110140", "c": "803", "s": "0201", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "審計學", "year": "110", "exam_name": "110年專門職業及技術人員高等考試會計師、不動產估價師、專利師考試", "original_question_number": 21, "answer_corrected": false, "flags": [], "slug": "accountant", "db_exam_id": "cpa"}'::jsonb, NULL),
+  ('cpa-moex-00504', 'cpa', 'cpa-moex-110-0e802df0', 'sub-cpa-03', NULL, 'single_choice', '甲公司X2年的銷貨比X1年成長10%，而X2年期末應收帳款比X1年期末應收帳款增加20%。 查核人員最不可能優先執行下列那一項查核程序？', '["加強查核X2年底應收帳款的可收回性", "加強查核X2年銷貨是否虛增", "查核X2年銷貨授信政策是否放寬", "檢視前十大銷售客戶是否變動"]'::jsonb, 0, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:06+00:00", "source_pdf_sha1": "63d2fcb4aaa6", "answer_pdf_sha1": "142833232a16", "source_family": "moex-gov-tw", "moex": {"exam_code": "110140", "c": "803", "s": "0201", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "審計學", "year": "110", "exam_name": "110年專門職業及技術人員高等考試會計師、不動產估價師、專利師考試", "original_question_number": 22, "answer_corrected": false, "flags": [], "slug": "accountant", "db_exam_id": "cpa"}'::jsonb, NULL),
+  ('cpa-moex-00505', 'cpa', 'cpa-moex-110-0e802df0', 'sub-cpa-03', NULL, 'single_choice', '集團主辦會計師如決定於集團查核報告提及組成個體查核人員之查核，則須於查核報告中那', '["查核意見", "查核意見之基礎", "關鍵查核事項", "強調事項 ⑤其他事項  ⑥會計師查核合併報表之責任"]'::jsonb, 1, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:06+00:00", "source_pdf_sha1": "63d2fcb4aaa6", "answer_pdf_sha1": "142833232a16", "source_family": "moex-gov-tw", "moex": {"exam_code": "110140", "c": "803", "s": "0201", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "審計學", "year": "110", "exam_name": "110年專門職業及技術人員高等考試會計師、不動產估價師、專利師考試", "original_question_number": 23, "answer_corrected": false, "flags": [], "slug": "accountant", "db_exam_id": "cpa"}'::jsonb, NULL),
+  ('cpa-moex-00506', 'cpa', 'cpa-moex-110-0e802df0', 'sub-cpa-03', NULL, 'single_choice', '會計師對A公司X1年財務報表表示無保留意見，X2年則因為經營虧損，負債大於資產，會 計師推斷使受查者繼續經營之能力存在重大不確定性，惟A公司已於財務報表適當揭露，會 計師應出具何種類型之查核意見？', '["對X1年及X2年出具無保留意見並納入「繼續經營有關之重大不確定性」段", "對X1年及X2年均表示無保留意見，為因應新的情況變更，則以說明段說明更新理由", "對X1年及X2年出具無保留意見並納入「強調事項」段", "對X1年出具無保留意見，X2年出具保留意見"]'::jsonb, 0, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:06+00:00", "source_pdf_sha1": "63d2fcb4aaa6", "answer_pdf_sha1": "142833232a16", "source_family": "moex-gov-tw", "moex": {"exam_code": "110140", "c": "803", "s": "0201", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "審計學", "year": "110", "exam_name": "110年專門職業及技術人員高等考試會計師、不動產估價師、專利師考試", "original_question_number": 24, "answer_corrected": false, "flags": [], "slug": "accountant", "db_exam_id": "cpa"}'::jsonb, NULL),
+  ('cpa-moex-00507', 'cpa', 'cpa-moex-110-0e802df0', 'sub-cpa-03', NULL, 'single_choice', '非財務資訊查核或核閱之確信案件，無須遵循下列何項規範或程序？', '["執業人員之職業道德規範", "依照一般公認審計準則查核", "辨認及評估標的資訊之重大不實表達風險", "期後事項對標的資訊及確信報告影響之考量及因應"]'::jsonb, 1, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:06+00:00", "source_pdf_sha1": "63d2fcb4aaa6", "answer_pdf_sha1": "142833232a16", "source_family": "moex-gov-tw", "moex": {"exam_code": "110140", "c": "803", "s": "0201", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "審計學", "year": "110", "exam_name": "110年專門職業及技術人員高等考試會計師、不動產估價師、專利師考試", "original_question_number": 25, "answer_corrected": false, "flags": [], "slug": "accountant", "db_exam_id": "cpa"}'::jsonb, NULL),
+  ('cpa-moex-00508', 'cpa', 'cpa-moex-110-17b9ba7b', 'sub-cpa-04', NULL, 'essay', '甲公司是一家專櫃連鎖零售業者，其產品平均單位售價$30，平均單
+位成本$18。最近有家大型量販店即將開張，甲公司行銷經理探詢在
+量販店設置專櫃的租金成本，獲得以下資訊：
+方案一 每個月支付的固定租金費用是$15,000。
+方案二 每個月支付的固定租金費用是$9,000，加上當月銷貨收入的10%。
+每個月支付的固定租金費用是$4,800，加上當月銷貨收入的20%
+方案三
+（此變動租金的部分，上限為$25,000）。
+試問：
+各個方案要損益平衡，其銷售量每個月應該多少？各個方案損益平
+衡時的租金是多少？（12分）
+銷售量若從零開始起算，至5,000單位為止。對甲公司而言，三種方
+案各別最有利的銷售級距為何？請輔以計算說明之。（8分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:06+00:00", "source_pdf_sha1": "c826e989d219", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "110140", "c": "803", "s": "0205", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "成本會計與管理會計", "year": "110", "exam_name": "110年專門職業及技術人員高等考試會計師、不動產估價師、專利師考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "slug": "accountant", "db_exam_id": "cpa"}'::jsonb, NULL),
+  ('cpa-moex-00509', 'cpa', 'cpa-moex-110-17b9ba7b', 'sub-cpa-04', NULL, 'essay', '大星公司採行利潤中心制度，旗下的「製造部門」生產主機板，供
+應「產銷部門」組裝成筆記型電腦，每台主機板的變動製造成本為
+$1,100，轉撥價格參考現行市價，訂為$1,500，製造部門現有閒置產
+能。產銷部門每組裝一台筆記型電腦需再投入變動成本$3,200（未含
+轉撥價格），筆記型電腦每台售價為$5,500。
+產銷部門負責組裝與行銷，擬提出電競比賽網路促銷計畫，期能提高
+筆記型電腦銷售量；各方案之銷售增量，皆未超過各部門的產能上限。
+以下是各方案的行銷支出與預計銷售增量表：
+方案A 方案B 方案C 方案D
+行銷支出 $650,000 $950,000 $1,200,000 $1,450,000
+銷售增量（台） 1,000 1,400 1,750 1,980
+試作：（請詳列計算過程，否則不予計分）（每小題5分，共20分）
+站在產銷部門的立場，那個方案可使部門利益最大？
+站在製造部門的立場，那個方案可使部門利益最大？
+站在大星公司的立場，那個方案可使公司利益最大？
+大星公司的轉撥計價政策如何改善，方能使公司與部門之間利益一致？', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:06+00:00", "source_pdf_sha1": "c826e989d219", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "110140", "c": "803", "s": "0205", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "成本會計與管理會計", "year": "110", "exam_name": "110年專門職業及技術人員高等考試會計師、不動產估價師、專利師考試", "original_question_number": "二", "answer_corrected": false, "flags": [], "slug": "accountant", "db_exam_id": "cpa"}'::jsonb, NULL),
+  ('cpa-moex-00510', 'cpa', 'cpa-moex-110-17b9ba7b', 'sub-cpa-04', NULL, 'essay', '健康藥房是一間座落於都會區、每天營業24小時、全年無休的社區藥
+局。為因應都會區的快速生活步調，該藥房隨時保有3位藥劑師在店
+裡提供服務，也設有取藥得來速（Drive-through）的窗口讓服務方式
+更多元也更便捷。該藥房於今年採用時間導向的作業基礎成本制度
+（time-drivenABC），在該制度下，對藥劑師進行訪查和觀察，得到每
+項作業活動耗費的時間如下：
+作業活動 單位作業活動耗費時間
+顧客訂單處理 5分鐘
+顧客諮詢服務 15分鐘
+顧客配藥作業 10分鐘
+該藥房今年九月所產生之間接成本為$648,000，其他之相關資料如
+下：
+作業活動 作業數量 成本動因
+顧客訂單處理 7,000筆 訂單數量
+顧客諮詢服務 4,500人次 詢問次數
+顧客配藥作業 2,500張 處方箋數量
+試作：（請詳列計算過程，否則不予計分）
+計算該藥房今年九月各作業活動之成本動因率。（6分）
+計算該藥房今年九月之閒置產能及閒置產能損失。（4分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:06+00:00", "source_pdf_sha1": "c826e989d219", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "110140", "c": "803", "s": "0205", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "成本會計與管理會計", "year": "110", "exam_name": "110年專門職業及技術人員高等考試會計師、不動產估價師、專利師考試", "original_question_number": "三", "answer_corrected": false, "flags": [], "slug": "accountant", "db_exam_id": "cpa"}'::jsonb, NULL)
+ON CONFLICT (id) DO NOTHING;

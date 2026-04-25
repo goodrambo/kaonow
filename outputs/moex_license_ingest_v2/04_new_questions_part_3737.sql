@@ -1,0 +1,44 @@
+-- W1.4 new questions batch 3737/4739 (10)
+
+INSERT INTO public.questions (id, exam_id, paper_id, subject_id, chapter_id, question_type, question_text, options, correct_answer, correct_answer_json, auto_gradable, source, is_active, version, source_meta, explanation)
+VALUES
+  ('fire-eq-eng-moex-00673', 'fire-eq-eng', 'fire-eq-eng-moex-106-39ca095a', 'sub-fire-eq-eng-05', NULL, 'essay', '請說明高壓氣體爆炸和BLEVE的定義和現象有何相異之處。（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T07:11:17+00:00", "source_pdf_sha1": "1a89a88719be", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "106060", "c": "501", "s": "0901", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "火災學", "year": "106", "exam_name": "106年專技人員高等考試大地工程技師考試分階段考試、驗船師、引水人、第一次食品技師考試、高等暨普通考試消防設備人員考試、普通考試地政士、專責...", "original_question_number": "二", "answer_corrected": false, "flags": [], "slug": "fire-equipment-engineer", "db_exam_id": "fire-eq-eng"}'::jsonb, NULL),
+  ('fire-eq-eng-moex-00674', 'fire-eq-eng', 'fire-eq-eng-moex-106-39ca095a', 'sub-fire-eq-eng-05', NULL, 'essay', '何謂沿面放電？請說明其發生的時機。（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T07:11:17+00:00", "source_pdf_sha1": "1a89a88719be", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "106060", "c": "501", "s": "0901", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "火災學", "year": "106", "exam_name": "106年專技人員高等考試大地工程技師考試分階段考試、驗船師、引水人、第一次食品技師考試、高等暨普通考試消防設備人員考試、普通考試地政士、專責...", "original_question_number": "三", "answer_corrected": false, "flags": [], "slug": "fire-equipment-engineer", "db_exam_id": "fire-eq-eng"}'::jsonb, NULL),
+  ('fire-eq-eng-moex-00675', 'fire-eq-eng', 'fire-eq-eng-moex-106-39ca095a', 'sub-fire-eq-eng-05', NULL, 'essay', '依照木材和木炭的燃燒原理，說明何者有分解燃燒的過程？又為何此等材質在消防
+安全上有深層燃燒的特殊考量？（25分）
+（請接背面）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T07:11:17+00:00", "source_pdf_sha1": "1a89a88719be", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "106060", "c": "501", "s": "0901", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "火災學", "year": "106", "exam_name": "106年專技人員高等考試大地工程技師考試分階段考試、驗船師、引水人、第一次食品技師考試、高等暨普通考試消防設備人員考試、普通考試地政士、專責...", "original_question_number": "四", "answer_corrected": false, "flags": [], "slug": "fire-equipment-engineer", "db_exam_id": "fire-eq-eng"}'::jsonb, NULL),
+  ('fire-eq-eng-moex-00676', 'fire-eq-eng', 'fire-eq-eng-moex-106-7acb2db0', 'sub-fire-eq-eng-06', NULL, 'essay', '某會議室長度 16 公尺、寬度 16 公尺、天花板高度 5 公尺，依照「各類場所消防安
+全設備設置標準」之規定，請問：至少應如何配置該空間緊急廣播設備之揚聲器？
+（10 分）若考量室內設計之需求，揚聲器僅能垂直設置於會議室正中央天花板一
+處，且已知揚聲器音響功率為 95分貝、指向係數為 1，廣播區域之平均吸音率為 0.28，
+請檢討目前配置方案是否符合規定？（15分）
+參考數據：
+10-0.9874=0.10294，10-1.889=0.01292，10-2.321=0.004775，10-3.257=0.0005529', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T07:11:17+00:00", "source_pdf_sha1": "8bff985c1151", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "106060", "c": "501", "s": "0903", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "警報系統消防安全設備", "year": "106", "exam_name": "106年專技人員高等考試大地工程技師考試分階段考試、驗船師、引水人、第一次食品技師考試、高等暨普通考試消防設備人員考試、普通考試地政士、專責...", "original_question_number": "一", "answer_corrected": false, "flags": [], "slug": "fire-equipment-engineer", "db_exam_id": "fire-eq-eng"}'::jsonb, NULL),
+  ('fire-eq-eng-moex-00677', 'fire-eq-eng', 'fire-eq-eng-moex-106-7acb2db0', 'sub-fire-eq-eng-06', NULL, 'essay', '內政部於 105 年 11 月 22 日於「各類場所消防安全設備檢修及申報作業基準」增訂
+第 26 章耐燃耐熱配線及其檢查表，請問：今如以 250 伏特的絕緣電阻計測定前
+述配線之絕緣電阻值時，其性能檢查之檢查方法及判定合格標準為何？（15 分）
+106 年 7 月 1 日起，耐燃耐熱配線檢查結果表將納入各類場所消防安全設備檢修
+申報作業中，請問未來相關人員在執行此項業務時，可能會面對的爭議與挑戰為何？
+（10分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T07:11:17+00:00", "source_pdf_sha1": "8bff985c1151", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "106060", "c": "501", "s": "0903", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "警報系統消防安全設備", "year": "106", "exam_name": "106年專技人員高等考試大地工程技師考試分階段考試、驗船師、引水人、第一次食品技師考試、高等暨普通考試消防設備人員考試、普通考試地政士、專責...", "original_question_number": "二", "answer_corrected": false, "flags": [], "slug": "fire-equipment-engineer", "db_exam_id": "fire-eq-eng"}'::jsonb, NULL),
+  ('fire-eq-eng-moex-00678', 'fire-eq-eng', 'fire-eq-eng-moex-106-7acb2db0', 'sub-fire-eq-eng-06', NULL, 'essay', '某展覽廳探測器裝置面高度為17公尺，有效探測範圍為 500平方公尺，裝置偵煙式
+局限蓄積型探測器其標稱蓄積時間合計為 25 秒，請問：該區域至少應裝置探測器
+的數目？及進行性能檢查時其合格動作時間最長為多少？（10分）依照「各類場所
+消防安全設備檢修及申報作業基準」，說明該展覽廳火警自動警報設備的綜合檢查之
+相關規定為何？（15分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T07:11:17+00:00", "source_pdf_sha1": "8bff985c1151", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "106060", "c": "501", "s": "0903", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "警報系統消防安全設備", "year": "106", "exam_name": "106年專技人員高等考試大地工程技師考試分階段考試、驗船師、引水人、第一次食品技師考試、高等暨普通考試消防設備人員考試、普通考試地政士、專責...", "original_question_number": "三", "answer_corrected": false, "flags": [], "slug": "fire-equipment-engineer", "db_exam_id": "fire-eq-eng"}'::jsonb, NULL),
+  ('fire-eq-eng-moex-00679', 'fire-eq-eng', 'fire-eq-eng-moex-106-7acb2db0', 'sub-fire-eq-eng-06', NULL, 'essay', '請依「潔淨區消防安全設備設置要點」之規定，說明何謂潔淨區的潔淨室
+（Cleanroom）、上回風層與下回風層（Air  Plenum/Return  Air  Plenum）、回風豎井
+（Return Air Shaft）、風機過濾機組（Fan Filter Unit）、自動物料搬運系統（Automated
+Material  Handling  System）？另請問前述潔淨區的警報設備之相關設置規定為何？
+（25分）
+（請接背面）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T07:11:17+00:00", "source_pdf_sha1": "8bff985c1151", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "106060", "c": "501", "s": "0903", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "警報系統消防安全設備", "year": "106", "exam_name": "106年專技人員高等考試大地工程技師考試分階段考試、驗船師、引水人、第一次食品技師考試、高等暨普通考試消防設備人員考試、普通考試地政士、專責...", "original_question_number": "四", "answer_corrected": false, "flags": [], "slug": "fire-equipment-engineer", "db_exam_id": "fire-eq-eng"}'::jsonb, NULL),
+  ('fire-eq-eng-moex-00680', 'fire-eq-eng', 'fire-eq-eng-moex-106-3477581a', 'sub-fire-eq-eng-07', NULL, 'essay', '緊急供電系統乃是消防安全設備能否在火災中維持正常功能的關鍵角色，請說明各
+項消防安全設備與緊急電源的連接方式？（何種線材？直接或經由控制盤或受信總
+機連接緊急電源？）（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T07:11:17+00:00", "source_pdf_sha1": "285e353ea10a", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "106060", "c": "501", "s": "0904", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "避難系統消防安全設備", "year": "106", "exam_name": "106年專技人員高等考試大地工程技師考試分階段考試、驗船師、引水人、第一次食品技師考試、高等暨普通考試消防設備人員考試、普通考試地政士、專責...", "original_question_number": "一", "answer_corrected": false, "flags": [], "slug": "fire-equipment-engineer", "db_exam_id": "fire-eq-eng"}'::jsonb, NULL),
+  ('fire-eq-eng-moex-00681', 'fire-eq-eng', 'fire-eq-eng-moex-106-3477581a', 'sub-fire-eq-eng-07', NULL, 'essay', '救助袋為消防避難器具之一，依其審核認可須知規定，救助袋測試項目有各種強度
+試驗及動作試驗，請說明斜降式救助袋之動作試驗內容及合格基準。（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T07:11:17+00:00", "source_pdf_sha1": "285e353ea10a", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "106060", "c": "501", "s": "0904", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "避難系統消防安全設備", "year": "106", "exam_name": "106年專技人員高等考試大地工程技師考試分階段考試、驗船師、引水人、第一次食品技師考試、高等暨普通考試消防設備人員考試、普通考試地政士、專責...", "original_question_number": "二", "answer_corrected": false, "flags": [], "slug": "fire-equipment-engineer", "db_exam_id": "fire-eq-eng"}'::jsonb, NULL),
+  ('fire-eq-eng-moex-00682', 'fire-eq-eng', 'fire-eq-eng-moex-106-3477581a', 'sub-fire-eq-eng-07', NULL, 'essay', '依各類場所消防安全設備設置標準規定，排煙口應設於天花板或其下方  80  公分範
+圍內，惟遇下列特殊場合之天花板時，其排煙口設置範圍應如何決定？
+斜屋頂建築物。（5分）
+建築物天花板或斜屋頂與牆壁交接處高度在 5公尺以上者。（5分）
+同一防煙區劃之天花板高度不同時。（15分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T07:11:17+00:00", "source_pdf_sha1": "285e353ea10a", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "106060", "c": "501", "s": "0904", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "避難系統消防安全設備", "year": "106", "exam_name": "106年專技人員高等考試大地工程技師考試分階段考試、驗船師、引水人、第一次食品技師考試、高等暨普通考試消防設備人員考試、普通考試地政士、專責...", "original_question_number": "三", "answer_corrected": false, "flags": [], "slug": "fire-equipment-engineer", "db_exam_id": "fire-eq-eng"}'::jsonb, NULL)
+ON CONFLICT (id) DO NOTHING;

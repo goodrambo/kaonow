@@ -1,0 +1,174 @@
+{
+  "slug": "fire-equipment-technician",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T07:11:27+00:00",
+  "paper_count": 55,
+  "paper_with_questions": 55,
+  "question_count": 2337,
+  "type_counts": {
+    "essay": 62,
+    "single_choice": 2275
+  },
+  "issues": [
+    {
+      "year": "099",
+      "subject": "水與化學系統消防安全設備概要",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 42,
+      "answers": 0
+    },
+    {
+      "year": "099",
+      "subject": "消防法規概要",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 41,
+      "answers": 0
+    },
+    {
+      "year": "099",
+      "subject": "火災學概要",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 40,
+      "answers": 0
+    },
+    {
+      "year": "099",
+      "subject": "警報與避難系統消防安全設備概要",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 40,
+      "answers": 0
+    },
+    {
+      "year": "098",
+      "subject": "水災與化學系統消防安全設備概要",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 41,
+      "answers": 0
+    },
+    {
+      "year": "098",
+      "subject": "水與化學系統消防安全設備概要",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 40,
+      "answers": 0
+    },
+    {
+      "year": "098",
+      "subject": "消防法規概要",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 40,
+      "answers": 0
+    },
+    {
+      "year": "098",
+      "subject": "消防法規概要",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 41,
+      "answers": 0
+    },
+    {
+      "year": "098",
+      "subject": "火災學概要",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 41,
+      "answers": 0
+    },
+    {
+      "year": "098",
+      "subject": "火災學概要",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 45,
+      "answers": 0
+    },
+    {
+      "year": "098",
+      "subject": "警報與避難系統消防安全設備概要",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 40,
+      "answers": 0
+    },
+    {
+      "year": "098",
+      "subject": "警報與避難系統消防安全設備概要",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 42,
+      "answers": 0
+    },
+    {
+      "year": "097",
+      "subject": "水與化學系統消防安全設備概要",
+      "status": "ok",
+      "format": "mixed",
+      "raw_q": 42,
+      "answers": 0
+    },
+    {
+      "year": "097",
+      "subject": "水與化學系統消防安全設備概要",
+      "status": "ok",
+      "format": "mixed",
+      "raw_q": 42,
+      "answers": 0
+    },
+    {
+      "year": "097",
+      "subject": "消防法規概要",
+      "status": "ok",
+      "format": "mixed",
+      "raw_q": 42,
+      "answers": 0
+    },
+    {
+      "year": "097",
+      "subject": "消防法規概要",
+      "status": "ok",
+      "format": "mixed",
+      "raw_q": 42,
+      "answers": 0
+    },
+    {
+      "year": "097",
+      "subject": "火災學概要",
+      "status": "ok",
+      "format": "mixed",
+      "raw_q": 44,
+      "answers": 0
+    },
+    {
+      "year": "097",
+      "subject": "火災學概要",
+      "status": "ok",
+      "format": "mixed",
+      "raw_q": 42,
+      "answers": 0
+    },
+    {
+      "year": "097",
+      "subject": "警報與避難系統消防安全設備概要",
+      "status": "ok",
+      "format": "mixed",
+      "raw_q": 42,
+      "answers": 0
+    },
+    {
+      "year": "097",
+      "subject": "警報與避難系統消防安全設備概要",
+      "status": "ok",
+      "format": "mixed",
+      "raw_q": 42,
+      "answers": 0
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+-- moex_license_ingest questions batch 94/330 (50 rows)
+
+INSERT INTO public.questions (id, exam_id, paper_id, subject_id, chapter_id, question_type, question_text, options, correct_answer, correct_answer_json, auto_gradable, source, is_active, version, source_meta, explanation)
+VALUES
+('real-estate-moex-00784', 'real-estate', 'real-estate-moex-107-ec2e292a', 'sub-real-estate-02', NULL, 'single_choice', '首次請領不動產經紀人證書時，不須檢附下列何種文件？', '["身分證明文件影本", "完成專業訓練三十個小時以上之證明文件", "不動產經紀人考試及格證書及其影本", "一年以上經紀營業員經驗證明文件及其影本"]'::jsonb, 1, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:38+00:00", "source_pdf_sha1": "d0496d6e0e1d", "answer_pdf_sha1": "c25bacc97ba4", "source_family": "moex-gov-tw", "moex": {"exam_code": "107180", "c": "601", "s": "1204", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "不動產經紀相關法規概要", "year": "107", "exam_name": "107年專門職業及技術人員高等考試建築師、技師、第二次食品技師考試暨普通考試不動產經紀人、記帳士考試", "original_question_number": 25, "answer_corrected": false, "flags": [], "slug": "brokers", "db_exam_id": "real-estate"}'::jsonb, NULL),
+  ('real-estate-moex-00785', 'real-estate', 'real-estate-moex-107-629c9966', 'sub-real-estate-03', NULL, 'essay', '甲所有位於 A市都市計畫範圍內之一筆建築基地，因故委託乙不動產經
+紀人代為出售，丙對該地具有潛在購買慾望。不久該地被劃入A市某公
+辦市地重劃地區內，該市乃依法公告若干土地權利禁止或限制事項（例
+如禁建），但對此事項亦有例外規定，其內容為何？又，甲倘若於其地
+被劃入該市地重劃地區內之後、公告禁建之前已依法取得建造執照且正
+在施工建築者，其施工中建築物之處理內容為何？試依據平均地權條例
+等法規之規定，分別說明乙不動產經紀人應如何向丙為解說該地所涉上
+述兩項問題之相關內容？（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:38+00:00", "source_pdf_sha1": "253b8d8cc902", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "107180", "c": "601", "s": "1203", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "土地法與土地相關稅法概要", "year": "107", "exam_name": "107年專門職業及技術人員高等考試建築師、技師、第二次食品技師考試暨普通考試不動產經紀人、記帳士考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "slug": "brokers", "db_exam_id": "real-estate"}'::jsonb, NULL),
+  ('real-estate-moex-00786', 'real-estate', 'real-estate-moex-107-629c9966', 'sub-real-estate-03', NULL, 'essay', '甲擬於近日出售其所有位於A市一間房屋及其坐落基地，依法須繳納房
+地交易所得稅，甲由其從事不動產仲介業務之朋友處得知亦有土地增值
+稅之負擔問題。則甲於出售該房地而計徵其房地交易所得稅額時，所涉
+及「交易所得額」與「交易所得稅率」之規定內容為何？又應如何處理
+其所涉「土地增值稅」？試依據土地稅法及所得稅法等法律之規定分述
+之。（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:38+00:00", "source_pdf_sha1": "253b8d8cc902", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "107180", "c": "601", "s": "1203", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "土地法與土地相關稅法概要", "year": "107", "exam_name": "107年專門職業及技術人員高等考試建築師、技師、第二次食品技師考試暨普通考試不動產經紀人、記帳士考試", "original_question_number": "二", "answer_corrected": false, "flags": [], "slug": "brokers", "db_exam_id": "real-estate"}'::jsonb, NULL),
+  ('real-estate-moex-00787', 'real-estate', 'real-estate-moex-107-629c9966', 'sub-real-estate-03', NULL, 'single_choice', '關於土地權利變更登記，下列何者正確？', '["其係繼承登記者，應由全體繼承人聲請之", "其係繼承登記者，依法應自繼承開始之日起二個月內為之", "聲請逾期者，每逾一個月得處應納登記費額二倍之罰鍰", "罰鍰最高不得超過應納登記費額二十倍"]'::jsonb, 3, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:38+00:00", "source_pdf_sha1": "253b8d8cc902", "answer_pdf_sha1": "413376e3a002", "source_family": "moex-gov-tw", "moex": {"exam_code": "107180", "c": "601", "s": "1203", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "土地法與土地相關稅法概要", "year": "107", "exam_name": "107年專門職業及技術人員高等考試建築師、技師、第二次食品技師考試暨普通考試不動產經紀人、記帳士考試", "original_question_number": 1, "answer_corrected": false, "flags": [], "slug": "brokers", "db_exam_id": "real-estate"}'::jsonb, NULL),
+  ('real-estate-moex-00788', 'real-estate', 'real-estate-moex-107-629c9966', 'sub-real-estate-03', NULL, 'single_choice', '下列土地，何者非屬土地法規定不得為私有之土地？', '["礦泉地", "瀑布地", "國家公園土地", "名勝古蹟"]'::jsonb, 2, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:38+00:00", "source_pdf_sha1": "253b8d8cc902", "answer_pdf_sha1": "413376e3a002", "source_family": "moex-gov-tw", "moex": {"exam_code": "107180", "c": "601", "s": "1203", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "土地法與土地相關稅法概要", "year": "107", "exam_name": "107年專門職業及技術人員高等考試建築師、技師、第二次食品技師考試暨普通考試不動產經紀人、記帳士考試", "original_question_number": 2, "answer_corrected": false, "flags": [], "slug": "brokers", "db_exam_id": "real-estate"}'::jsonb, NULL)
+ON CONFLICT (id) DO NOTHING;

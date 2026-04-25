@@ -1,0 +1,13 @@
+{
+  "slug": "brokers",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T04:29:39+00:00",
+  "paper_count": 39,
+  "paper_with_questions": 39,
+  "question_count": 1171,
+  "type_counts": {
+    "essay": 74,
+    "single_choice": 1097
+  },
+  "issues": []
+}

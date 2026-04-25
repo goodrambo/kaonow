@@ -1,0 +1,414 @@
+{
+  "slug": "structural",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T07:11:13+00:00",
+  "paper_count": 138,
+  "paper_with_questions": 136,
+  "question_count": 545,
+  "type_counts": {
+    "essay": 543,
+    "single_choice": 2
+  },
+  "issues": [
+    {
+      "year": "114",
+      "subject": "土壤力學與基礎設計",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "材料力學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "結構動力分析與耐震設計",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "結構學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "鋼筋混凝土設計與預力混凝土設計",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "鋼結構設計",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "113",
+      "subject": "土壤力學與基礎設計",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "113",
+      "subject": "材料力學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "113",
+      "subject": "結構動力分析與耐震設計",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "113",
+      "subject": "結構學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "113",
+      "subject": "鋼筋混凝土設計與預力混凝土設計",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "113",
+      "subject": "鋼結構設計",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "土壤力學與基礎設計",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "材料力學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "結構動力分析與耐震設計",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "結構學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "鋼筋混凝土設計與預力混凝土設計",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "鋼結構設計",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "土壤力學與基礎設計",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "材料力學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "結構動力分析與耐震設計",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "結構學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "鋼筋混凝土設計與預力混凝土設計",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "鋼結構設計",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "土壤力學與基礎設計",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "材料力學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "結構動力分析與耐震設計",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "結構學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "鋼筋混凝土設計與預力混凝土設計",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "鋼結構設計",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "109",
+      "subject": "土壤力學與基礎設計",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 3,
+      "answers": 0
+    },
+    {
+      "year": "109",
+      "subject": "材料力學",
+      "status": "parse_q_failed",
+      "format": "pure_essay",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "109",
+      "subject": "結構動力分析與耐震設計",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 7,
+      "answers": 0
+    },
+    {
+      "year": "109",
+      "subject": "結構學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 3,
+      "answers": 0
+    },
+    {
+      "year": "109",
+      "subject": "鋼結構設計",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 2,
+      "answers": 0
+    },
+    {
+      "year": "108",
+      "subject": "土壤力學與基礎設計",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "108",
+      "subject": "材料力學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "108",
+      "subject": "結構動力分析與耐震設計",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "108",
+      "subject": "結構學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "108",
+      "subject": "鋼筋混凝土設計與預力混凝土設計",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "108",
+      "subject": "鋼結構設計",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "107",
+      "subject": "土壤力學與基礎設計",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "107",
+      "subject": "材料力學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "107",
+      "subject": "結構動力分析與耐震設計",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "107",
+      "subject": "結構學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "107",
+      "subject": "鋼筋混凝土設計與預力混凝土設計",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "107",
+      "subject": "鋼結構設計",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "106",
+      "subject": "土壤力學與基礎設計",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "106",
+      "subject": "材料力學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "106",
+      "subject": "結構動力分析與耐震設計",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    }
+  ]
+}

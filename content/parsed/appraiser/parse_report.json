@@ -1,0 +1,413 @@
+{
+  "slug": "appraiser",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T04:29:32+00:00",
+  "paper_count": 76,
+  "paper_with_questions": 73,
+  "question_count": 278,
+  "type_counts": {
+    "essay": 278
+  },
+  "issues": [
+    {
+      "year": "114",
+      "subject": "不動產估價實務",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 2,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "不動產估價理論",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "不動產經濟學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "土地利用法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "民法物權與不動產法規",
+      "status": "parse_q_failed",
+      "format": "pure_essay",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "113",
+      "subject": "不動產估價實務",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 3,
+      "answers": 0
+    },
+    {
+      "year": "113",
+      "subject": "不動產估價理論",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "113",
+      "subject": "不動產經濟學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "113",
+      "subject": "土地利用法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "113",
+      "subject": "民法物權與不動產法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "不動產估價實務",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "不動產估價理論",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "不動產投資分析",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "不動產經濟學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "土地利用法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "民法物權與不動產法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "不動產估價實務",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "不動產估價理論",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "不動產投資分析",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "不動產經濟學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "土地利用法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "民法物權與不動產法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "不動產估價實務",
+      "status": "parse_q_failed",
+      "format": "pure_essay",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "110",
+      "subject": "不動產估價理論",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "不動產投資分析",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "不動產經濟學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "土地利用法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "民法物權與不動產法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "109",
+      "subject": "不動產估價理論",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "109",
+      "subject": "不動產投資分析",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "109",
+      "subject": "不動產經濟學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "109",
+      "subject": "土地利用法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "109",
+      "subject": "民法物權與不動產法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "108",
+      "subject": "不動產估價理論",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "108",
+      "subject": "不動產投資分析",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "108",
+      "subject": "不動產經濟學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "108",
+      "subject": "土地利用法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "108",
+      "subject": "民法物權與不動產法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "107",
+      "subject": "不動產估價實務",
+      "status": "parse_q_failed",
+      "format": "pure_essay",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "107",
+      "subject": "不動產估價理論",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "107",
+      "subject": "不動產投資分析",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "107",
+      "subject": "不動產經濟學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "107",
+      "subject": "土地利用法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "107",
+      "subject": "民法物權與不動產法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "106",
+      "subject": "不動產估價實務",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 2,
+      "answers": 0
+    },
+    {
+      "year": "106",
+      "subject": "不動產估價理論",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "106",
+      "subject": "不動產投資分析",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "106",
+      "subject": "不動產經濟學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "106",
+      "subject": "土地利用法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "106",
+      "subject": "民法物權與不動產法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    }
+  ]
+}

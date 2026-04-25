@@ -1,0 +1,41 @@
+-- moex_license_ingest questions batch 1352/1650 (10 rows)
+
+INSERT INTO public.questions (id, exam_id, paper_id, subject_id, chapter_id, question_type, question_text, options, correct_answer, correct_answer_json, auto_gradable, source, is_active, version, source_meta, explanation)
+VALUES
+  ('food-tech-moex-00016', 'food-tech', 'food-tech-moex-114-d847e05e', 'sub-food-tech-04', NULL, 'essay', '請回答下列問題：
+中央廚房的優點。（12分）
+由於中央廚房的成立需耗費大量資金，若考量一般中小型餐飲業市場
+規模之趨勢，中央廚房的功能可以利用那些方式替代？（13分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:31:03+00:00", "source_pdf_sha1": "409d5b84892a", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "114050", "c": "101", "s": "0205", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "食品工廠管理", "year": "114", "exam_name": "114年專技人員高等考試大地工程技師考試分階段考試(第一階段考試)、驗船師、引水人、第一次食品技師考試、高等暨普通考試消防設備人員考試、普通...", "original_question_number": "二", "answer_corrected": false, "flags": [], "slug": "food", "db_exam_id": "food-tech"}'::jsonb, NULL),
+  ('food-tech-moex-00017', 'food-tech', 'food-tech-moex-114-d847e05e', 'sub-food-tech-04', NULL, 'essay', '開發新產品是食品工廠永續經營的不二法寶，請說明在新產品開發後介
+入市場的策略有那些？（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:31:03+00:00", "source_pdf_sha1": "409d5b84892a", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "114050", "c": "101", "s": "0205", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "食品工廠管理", "year": "114", "exam_name": "114年專技人員高等考試大地工程技師考試分階段考試(第一階段考試)、驗船師、引水人、第一次食品技師考試、高等暨普通考試消防設備人員考試、普通...", "original_question_number": "三", "answer_corrected": false, "flags": [], "slug": "food", "db_exam_id": "food-tech"}'::jsonb, NULL),
+  ('food-tech-moex-00018', 'food-tech', 'food-tech-moex-114-d847e05e', 'sub-food-tech-04', NULL, 'essay', '請依據「臺灣優良食品技術規範即食餐食專則」，說明下列名詞的定義：
+現成菜餚（6分）
+餐盒食品（6分）
+重工品（6分）
+易腐敗即食性食品（7分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:31:03+00:00", "source_pdf_sha1": "409d5b84892a", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "114050", "c": "101", "s": "0205", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "食品工廠管理", "year": "114", "exam_name": "114年專技人員高等考試大地工程技師考試分階段考試(第一階段考試)、驗船師、引水人、第一次食品技師考試、高等暨普通考試消防設備人員考試、普通...", "original_question_number": "四", "answer_corrected": false, "flags": [], "slug": "food", "db_exam_id": "food-tech"}'::jsonb, NULL),
+  ('food-tech-moex-00019', 'food-tech', 'food-tech-moex-114-3f38545c', 'sub-food-tech-05', NULL, 'essay', '肉毒桿菌廣泛分布在自然界，中毒致命率極高。請分別說明食因型（傳
+統型）肉毒桿菌中毒與腸道型（嬰兒與成人型）肉毒桿菌中毒的發生原
+因。（20分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:31:03+00:00", "source_pdf_sha1": "1a1491f1f41c", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "114050", "c": "101", "s": "0204", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "食品微生物學", "year": "114", "exam_name": "114年專技人員高等考試大地工程技師考試分階段考試(第一階段考試)、驗船師、引水人、第一次食品技師考試、高等暨普通考試消防設備人員考試、普通...", "original_question_number": "一", "answer_corrected": false, "flags": [], "slug": "food", "db_exam_id": "food-tech"}'::jsonb, NULL),
+  ('food-tech-moex-00020', 'food-tech', 'food-tech-moex-114-3f38545c', 'sub-food-tech-05', NULL, 'essay', '使用輻射（Radiation）破壞微生物時，請說明 radappertization、radicidation
+及 radurization 的定義及所使用的輻射劑量範圍，並詳述輻射對於食物品
+質的影響。（20分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:31:03+00:00", "source_pdf_sha1": "1a1491f1f41c", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "114050", "c": "101", "s": "0204", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "食品微生物學", "year": "114", "exam_name": "114年專技人員高等考試大地工程技師考試分階段考試(第一階段考試)、驗船師、引水人、第一次食品技師考試、高等暨普通考試消防設備人員考試、普通...", "original_question_number": "二", "answer_corrected": false, "flags": [], "slug": "food", "db_exam_id": "food-tech"}'::jsonb, NULL),
+  ('food-tech-moex-00021', 'food-tech', 'food-tech-moex-114-3f38545c', 'sub-food-tech-05', NULL, 'essay', '病原菌在自然界中易污染食品，常在臺灣及世界各地引起食品中毒事
+件。為了縮短檢測時間，可使用 Real-timepolymerasechainreaction（Real-
+timePCR）快速檢測食品中的病原菌。請回答下列問題：（每小題 10 分，
+共 20 分）
+說明 PCR與 Real-timePCR的不同處。
+如何以 Real-time PCR 快速檢測食品中的病原菌。', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:31:03+00:00", "source_pdf_sha1": "1a1491f1f41c", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "114050", "c": "101", "s": "0204", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "食品微生物學", "year": "114", "exam_name": "114年專技人員高等考試大地工程技師考試分階段考試(第一階段考試)、驗船師、引水人、第一次食品技師考試、高等暨普通考試消防設備人員考試、普通...", "original_question_number": "三", "answer_corrected": false, "flags": [], "slug": "food", "db_exam_id": "food-tech"}'::jsonb, NULL),
+  ('food-tech-moex-00022', 'food-tech', 'food-tech-moex-114-3f38545c', 'sub-food-tech-05', NULL, 'essay', '發酵肉製品使用的菌酛以乳酸菌為主，請說明乳酸菌對於製造發酵肉製
+品之功效有那些？（20 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:31:03+00:00", "source_pdf_sha1": "1a1491f1f41c", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "114050", "c": "101", "s": "0204", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "食品微生物學", "year": "114", "exam_name": "114年專技人員高等考試大地工程技師考試分階段考試(第一階段考試)、驗船師、引水人、第一次食品技師考試、高等暨普通考試消防設備人員考試、普通...", "original_question_number": "四", "answer_corrected": false, "flags": [], "slug": "food", "db_exam_id": "food-tech"}'::jsonb, NULL),
+  ('food-tech-moex-00023', 'food-tech', 'food-tech-moex-114-3f38545c', 'sub-food-tech-05', NULL, 'essay', '腸球菌（Enterococci）存在於人及動物腸道內，可做為糞便污染指標菌。
+請說明腸球菌的生長需求有那些？也請說明腸球菌可作為水質污染指
+標是因其具有那些特徵？（20 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:31:03+00:00", "source_pdf_sha1": "1a1491f1f41c", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "114050", "c": "101", "s": "0204", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "食品微生物學", "year": "114", "exam_name": "114年專技人員高等考試大地工程技師考試分階段考試(第一階段考試)、驗船師、引水人、第一次食品技師考試、高等暨普通考試消防設備人員考試、普通...", "original_question_number": "五", "answer_corrected": false, "flags": [], "slug": "food", "db_exam_id": "food-tech"}'::jsonb, NULL),
+  ('food-tech-moex-00024', 'food-tech', 'food-tech-moex-114-6a6e5047', 'sub-food-tech-06', NULL, 'essay', '亞硫酸鉀（Potassiumsulfite）及亞硫酸鈉（Sodiumsulfite）在食品添加物
+使用範圍及限量暨規格標準中屬於第（四）類漂白劑。這兩種亞硫酸鹽
+可使用於那些食品中？以金針乾製品為例，為何要添加亞硫酸鹽？其限
+量標準為何？亞硫酸鹽可能對人體產生那些危害？（25 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:31:03+00:00", "source_pdf_sha1": "c6c0b969d407", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "114050", "c": "101", "s": "0201", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "食品衛生安全與法規", "year": "114", "exam_name": "114年專技人員高等考試大地工程技師考試分階段考試(第一階段考試)、驗船師、引水人、第一次食品技師考試、高等暨普通考試消防設備人員考試、普通...", "original_question_number": "一", "answer_corrected": false, "flags": [], "slug": "food", "db_exam_id": "food-tech"}'::jsonb, NULL),
+  ('food-tech-moex-00025', 'food-tech', 'food-tech-moex-114-6a6e5047', 'sub-food-tech-06', NULL, 'essay', '我國為精進健康食品製造業者之製造管理，特訂定健康食品製造良好作
+業規範標準（GoodManufacturingPractice,GMP），並自民國114 年1 月
+1 日起施行。依照該標準第 8條之規定，「部門主管」、「食品檢驗人員」
+及「衛生管理人員」分別應符合那些條件及資格？（25 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:31:03+00:00", "source_pdf_sha1": "c6c0b969d407", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "114050", "c": "101", "s": "0201", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "食品衛生安全與法規", "year": "114", "exam_name": "114年專技人員高等考試大地工程技師考試分階段考試(第一階段考試)、驗船師、引水人、第一次食品技師考試、高等暨普通考試消防設備人員考試、普通...", "original_question_number": "二", "answer_corrected": false, "flags": [], "slug": "food", "db_exam_id": "food-tech"}'::jsonb, NULL)
+ON CONFLICT (id) DO NOTHING;

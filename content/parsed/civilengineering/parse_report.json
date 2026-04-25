@@ -1,0 +1,77 @@
+{
+  "slug": "civilengineering",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T04:30:16+00:00",
+  "paper_count": 8,
+  "paper_with_questions": 7,
+  "question_count": 28,
+  "type_counts": {
+    "essay": 28
+  },
+  "issues": [
+    {
+      "year": "114",
+      "subject": "營建管理",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "113",
+      "subject": "營建管理",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "營建管理",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "營建管理",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "營建管理",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "109",
+      "subject": "營建管理",
+      "status": "parse_q_failed",
+      "format": "pure_essay",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "108",
+      "subject": "營建管理",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "107",
+      "subject": "營建管理",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    }
+  ]
+}

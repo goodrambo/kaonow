@@ -1,0 +1,103 @@
+INSERT INTO public.questions (id, exam_id, paper_id, subject_id, chapter_id, question_type, question_text, options, correct_answer, correct_answer_json, auto_gradable, source, is_active, version, source_meta, explanation)
+VALUES
+  ('bookkeeper-moex-00729', 'bookkeeper', 'bookkeeper-moex-108-d35177eb', 'sub-bookkeeper-01', NULL, 'single_choice', '甲公司於20X0年、20X1年期末盤點存貨均發生錯誤，20X0年底高估存貨$3,000、20X1年 底低估存貨$2,500。試問20X0年及20X1年之存貨盤點錯誤對20X1年底財務報表有何影響 （不考慮所得稅）？', '["資產高估$3,000", "權益低估$5,500", "銷貨成本高估$5,500", "本期淨利低估$2,500"]'::jsonb, 2, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:24+00:00", "source_pdf_sha1": "d0d40697ef66", "answer_pdf_sha1": "926cc170d901", "source_family": "moex-gov-tw", "moex": {"exam_code": "108180", "c": "602", "s": "1201", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "會計學概要", "year": "108", "exam_name": "108年專門職業及技術人員高等考試建築師、技師、第二次食品技師考試暨普通考試不動產經紀人、記帳士考試", "original_question_number": 9, "answer_corrected": false, "flags": [], "slug": "bookkeeper", "db_exam_id": "bookkeeper"}'::jsonb, NULL),
+  ('bookkeeper-moex-00730', 'bookkeeper', 'bookkeeper-moex-108-d35177eb', 'sub-bookkeeper-01', NULL, 'single_choice', '聚優公司於2018年10月15日以$800,000購入一塊土地以供建廠之用。土地上原有一棟舊 大樓已經移除，其拆除後的廢料將予以出售。2019年10月其他相關成本及出售廢料收入如 下所示： 移除舊大樓的成本 $70,000 購地合約與過戶所支付之代書費 10,000 產權保險費 16,000 出售拆除舊大樓之廢料 8,000 聚優公司在2018年12月31日的財務狀況表上，土地的成本應列示金額為：', '["$826,000", "$888,000", "$862,000", "$896,000"]'::jsonb, 1, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:24+00:00", "source_pdf_sha1": "d0d40697ef66", "answer_pdf_sha1": "926cc170d901", "source_family": "moex-gov-tw", "moex": {"exam_code": "108180", "c": "602", "s": "1201", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "會計學概要", "year": "108", "exam_name": "108年專門職業及技術人員高等考試建築師、技師、第二次食品技師考試暨普通考試不動產經紀人、記帳士考試", "original_question_number": 10, "answer_corrected": false, "flags": [], "slug": "bookkeeper", "db_exam_id": "bookkeeper"}'::jsonb, NULL),
+  ('bookkeeper-moex-00731', 'bookkeeper', 'bookkeeper-moex-108-d35177eb', 'sub-bookkeeper-01', NULL, 'single_choice', '下列為八里公司之財務資訊： 銀行存款餘額 $16,457 郵票 375 匯票 21,800 零用金餘額 3,150 顧客交來之遠期支票 25,867 銀行退回之存款不足支票 33,910 零找金 2,570 貨幣市場基金 80,000 根據上列資訊，試問八里公司應認列為「現金及約當現金」之金額為：', '["$184,129", "$162,329", "$81,954", "$43,977"]'::jsonb, 3, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:24+00:00", "source_pdf_sha1": "d0d40697ef66", "answer_pdf_sha1": "926cc170d901", "source_family": "moex-gov-tw", "moex": {"exam_code": "108180", "c": "602", "s": "1201", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "會計學概要", "year": "108", "exam_name": "108年專門職業及技術人員高等考試建築師、技師、第二次食品技師考試暨普通考試不動產經紀人、記帳士考試", "original_question_number": 11, "answer_corrected": false, "flags": [], "slug": "bookkeeper", "db_exam_id": "bookkeeper"}'::jsonb, NULL),
+  ('bookkeeper-moex-00732', 'bookkeeper', 'bookkeeper-moex-108-d35177eb', 'sub-bookkeeper-01', NULL, 'single_choice', '甲公司於20X1年初以成本$105,000購置設備，估計使用年限為6年，殘值$15,000，以直線 法提列折舊。20X4年初，甲公司為提高該設備之效率而加裝馬達，共支出$42,000。另外， 20X4年6月進行例行性維修，支出$6,000。該設備之估計使用年限、殘值均不受影響。甲公 司誤將20X4年之相關支出全數認列為當期費用，試問該錯誤將如何影響20X4年損益（不 考慮所得稅）？', '["本期淨利低估$19,000", "本期淨利低估$23,000", "本期淨利低估$28,000", "本期淨利低估$32,000"]'::jsonb, 2, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:24+00:00", "source_pdf_sha1": "d0d40697ef66", "answer_pdf_sha1": "926cc170d901", "source_family": "moex-gov-tw", "moex": {"exam_code": "108180", "c": "602", "s": "1201", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "會計學概要", "year": "108", "exam_name": "108年專門職業及技術人員高等考試建築師、技師、第二次食品技師考試暨普通考試不動產經紀人、記帳士考試", "original_question_number": 12, "answer_corrected": false, "flags": [], "slug": "bookkeeper", "db_exam_id": "bookkeeper"}'::jsonb, NULL),
+  ('bookkeeper-moex-00733', 'bookkeeper', 'bookkeeper-moex-108-d35177eb', 'sub-bookkeeper-01', NULL, 'single_choice', '甲公司於20X0年3月1日向乙銀行借款$30,000，訂於20X3年2月28日償還。後於20X3 年2月6日另向丙銀行借款$30,000以償還20X3年到期之銀行借款，丙銀行借款將於20X4 年5月1日到期。試問甲公司20X2年底資產負債表應如何表達相關負債？', '["流動負債$30,000", "長期負債$30,000", "長期負債$60,000", "流動負債$30,000、長期負債$30,000"]'::jsonb, 0, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:24+00:00", "source_pdf_sha1": "d0d40697ef66", "answer_pdf_sha1": "926cc170d901", "source_family": "moex-gov-tw", "moex": {"exam_code": "108180", "c": "602", "s": "1201", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "會計學概要", "year": "108", "exam_name": "108年專門職業及技術人員高等考試建築師、技師、第二次食品技師考試暨普通考試不動產經紀人、記帳士考試", "original_question_number": 13, "answer_corrected": false, "flags": [], "slug": "bookkeeper", "db_exam_id": "bookkeeper"}'::jsonb, NULL),
+  ('bookkeeper-moex-00734', 'bookkeeper', 'bookkeeper-moex-108-d35177eb', 'sub-bookkeeper-01', NULL, 'single_choice', '仁正公司在2018年發生下列成本： 尋找程序替代方案的測試費 $380,000 新產品之行銷研究成本 250,000 對形成某一程序的修正費用 510,000 仁富公司對仁正公司所提供的研發服務 425,000 則仁正公司在2018年損益表上應列示的研發費用為：', '["$510,000", "$935,000", "$1,315,000", "$1,565,000"]'::jsonb, 2, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:24+00:00", "source_pdf_sha1": "d0d40697ef66", "answer_pdf_sha1": "926cc170d901", "source_family": "moex-gov-tw", "moex": {"exam_code": "108180", "c": "602", "s": "1201", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "會計學概要", "year": "108", "exam_name": "108年專門職業及技術人員高等考試建築師、技師、第二次食品技師考試暨普通考試不動產經紀人、記帳士考試", "original_question_number": 14, "answer_corrected": false, "flags": [], "slug": "bookkeeper", "db_exam_id": "bookkeeper"}'::jsonb, NULL),
+  ('bookkeeper-moex-00735', 'bookkeeper', 'bookkeeper-moex-108-d35177eb', 'sub-bookkeeper-01', NULL, 'single_choice', '甲公司於20X1年12月31日發行面值$500,000，票面利率6%，5年期公司債，付息日為每 年12月31日。發行當時市場利率為8%，發行價格$460,100。甲公司在20X2年12月31日 付息後，支付現金$260,000至市場買回面值$250,000之公司債並註銷。若甲公司以利息法攤 銷溢折價，試問買回公司債之清償損益為多少？', '["清償損失$1,000", "清償損失$25,960", "清償損失$26,546", "清償損失$29,950"]'::jsonb, 2, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:24+00:00", "source_pdf_sha1": "d0d40697ef66", "answer_pdf_sha1": "926cc170d901", "source_family": "moex-gov-tw", "moex": {"exam_code": "108180", "c": "602", "s": "1201", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "會計學概要", "year": "108", "exam_name": "108年專門職業及技術人員高等考試建築師、技師、第二次食品技師考試暨普通考試不動產經紀人、記帳士考試", "original_question_number": 15, "answer_corrected": false, "flags": [], "slug": "bookkeeper", "db_exam_id": "bookkeeper"}'::jsonb, NULL),
+  ('bookkeeper-moex-00736', 'bookkeeper', 'bookkeeper-moex-108-d35177eb', 'sub-bookkeeper-01', NULL, 'single_choice', '甲公司在20X1年3月2日以每股$15購入庫藏股5,000股，並於5月20日以每股$18出售 2,000股庫藏股。若甲公司對於庫藏股交易係採成本法處理，試問20X1年庫藏股相關交易對 權益之影響為何？', '["庫藏股增加$75,000", "股東權益減少$45,000", "保留盈餘增加$36,000", "資本公積增加$6,000"]'::jsonb, 3, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:24+00:00", "source_pdf_sha1": "d0d40697ef66", "answer_pdf_sha1": "926cc170d901", "source_family": "moex-gov-tw", "moex": {"exam_code": "108180", "c": "602", "s": "1201", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "會計學概要", "year": "108", "exam_name": "108年專門職業及技術人員高等考試建築師、技師、第二次食品技師考試暨普通考試不動產經紀人、記帳士考試", "original_question_number": 16, "answer_corrected": false, "flags": [], "slug": "bookkeeper", "db_exam_id": "bookkeeper"}'::jsonb, NULL),
+  ('bookkeeper-moex-00737', 'bookkeeper', 'bookkeeper-moex-108-d35177eb', 'sub-bookkeeper-01', NULL, 'single_choice', '甲公司為乙客戶生產產品一批，該批產品之主要成本$96,000、加工成本$97,200，製造費用 為直接人工成本的80%。該批產品之製造成本為多少？', '["$139,200", "$150,000", "$151,200", "$193,200"]'::jsonb, 0, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:24+00:00", "source_pdf_sha1": "d0d40697ef66", "answer_pdf_sha1": "926cc170d901", "source_family": "moex-gov-tw", "moex": {"exam_code": "108180", "c": "602", "s": "1201", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "會計學概要", "year": "108", "exam_name": "108年專門職業及技術人員高等考試建築師、技師、第二次食品技師考試暨普通考試不動產經紀人、記帳士考試", "original_question_number": 17, "answer_corrected": false, "flags": [], "slug": "bookkeeper", "db_exam_id": "bookkeeper"}'::jsonb, NULL),
+  ('bookkeeper-moex-00738', 'bookkeeper', 'bookkeeper-moex-108-d35177eb', 'sub-bookkeeper-01', NULL, 'single_choice', '甲公司於2019年4月1日以102加計應計利息發行面額為$1,000,000，利率9%之應付公司 債。該公司債所記載之日期為2019年1月1日發行，每年於1月1日及7月1日各付息一 次。甲公司另外支付$15,000 的債券發行成本。試問甲公司可自本次公司債之發行收到多少 現金？', '["$1,020,000", "$1,042,500", "$1,027,500", "$1,030,000"]'::jsonb, 2, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:24+00:00", "source_pdf_sha1": "d0d40697ef66", "answer_pdf_sha1": "926cc170d901", "source_family": "moex-gov-tw", "moex": {"exam_code": "108180", "c": "602", "s": "1201", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "會計學概要", "year": "108", "exam_name": "108年專門職業及技術人員高等考試建築師、技師、第二次食品技師考試暨普通考試不動產經紀人、記帳士考試", "original_question_number": 18, "answer_corrected": false, "flags": [], "slug": "bookkeeper", "db_exam_id": "bookkeeper"}'::jsonb, NULL),
+  ('bookkeeper-moex-00739', 'bookkeeper', 'bookkeeper-moex-108-d35177eb', 'sub-bookkeeper-01', NULL, 'single_choice', '厚富公司所生產的柳橙汁之標準成本如下： 標準數量(小時) 標準價格(費率) 直接材料 5磅 $?（每磅） 直接人工 2小時 $16（每小時） 變動製造費用 1.8小時 $10（每小時） 若每一瓶柳橙汁的標準變動成本為$58，則直接材料的標準價格為何？', '["$1.74", "$4.60", "$2.50", "$1.60"]'::jsonb, 3, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:24+00:00", "source_pdf_sha1": "d0d40697ef66", "answer_pdf_sha1": "926cc170d901", "source_family": "moex-gov-tw", "moex": {"exam_code": "108180", "c": "602", "s": "1201", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "會計學概要", "year": "108", "exam_name": "108年專門職業及技術人員高等考試建築師、技師、第二次食品技師考試暨普通考試不動產經紀人、記帳士考試", "original_question_number": 19, "answer_corrected": false, "flags": [], "slug": "bookkeeper", "db_exam_id": "bookkeeper"}'::jsonb, NULL),
+  ('bookkeeper-moex-00740', 'bookkeeper', 'bookkeeper-moex-108-d35177eb', 'sub-bookkeeper-01', NULL, 'single_choice', '安吉公司在 2018 年的財務報表顯示下列資料：本期淨利$480,000，應收帳款減少$10,000， 存貨增加$25,000，預付費用增加$18,000；應付帳款增加$27,000，遞延所得稅負債減少 $15,000；當年折舊費用為$80,000，債券投資溢價攤銷數為$6,000；應付公司債折價攤銷數 為$20,000；出售機器利得$55,000。試問安吉公司在2018年來自營業活動的現金流量為：', '["$470,000", "$510,000", "$560,000", "$498,000"]'::jsonb, 1, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:24+00:00", "source_pdf_sha1": "d0d40697ef66", "answer_pdf_sha1": "926cc170d901", "source_family": "moex-gov-tw", "moex": {"exam_code": "108180", "c": "602", "s": "1201", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "會計學概要", "year": "108", "exam_name": "108年專門職業及技術人員高等考試建築師、技師、第二次食品技師考試暨普通考試不動產經紀人、記帳士考試", "original_question_number": 20, "answer_corrected": false, "flags": [], "slug": "bookkeeper", "db_exam_id": "bookkeeper"}'::jsonb, NULL),
+  ('bookkeeper-moex-00741', 'bookkeeper', 'bookkeeper-moex-108-cb3b9dc5', 'sub-bookkeeper-02', NULL, 'essay', '請依我國現行加值型及非加值型營業稅法之相關規定，回答下列問題：
+（請詳列計算式，否則不予計分）
+甲公司係一專營應稅營業人，民國 108 年 7、8 月份與營業稅有關資
+料如下：
+㉑開立三聯式統一發票 300份：應稅銷售額新臺幣（下同）4,500,000 元
+（不含稅），稅額225,000元，其中包括固定資產 500,000 元（不含稅），
+稅額 25,000元。
+㉒開立二聯式統一發票 250份：應稅銷售額 2,625,000 元（含稅）。
+㉓零稅率銷售額1,200,000元。
+㉔上期應稅銷售額 200,000 元（不含稅），稅額 10,000 元，於本期退回。
+㉕本期進貨及費用支出合計 12,500,000 元（不含稅），稅額 625,000 元，
+取得三聯式統一發票扣抵聯，其中包括：⑴對公益、慈善團體捐贈而
+購買之貨物 360,000 元（不含稅），稅額 18,000元；⑵文具用品 30,000
+元（不含稅），稅額 1,500元；⑶為招待客戶所支付之住宿費及餽贈之
+禮品共計200,000 元（不含稅），稅額 10,000元。
+㉖本期購買固定資產（機器設備）6,000,000 元（不含稅），稅額 300,000
+元，取得三聯式統一發票扣抵聯。
+㉗進口貨物（非固定資產）經海關核定之完稅價格為 5,000,000 元，進
+口稅捐 1,000,000元，商港服務費200,000元，貨物稅 900,000 元。
+㉘購置自用乘人小汽車 3,000,000元（不含稅），稅額 150,000 元。
+㉙上期進貨 20,000 元，於本期退出，收回稅額 1,000 元。
+㉚上期累積留抵稅額 0元。
+請根據上述資料，計算甲公司之本期銷項稅額、本期得扣抵進項稅額、
+本期應繳（應退、留抵）稅額。（20 分）
+舒活公司係一生鮮水果經銷商，為兼營營業人，民國 108 年 7、8 月
+份與營業稅有關資料如下：
+㉑在國內銷售生鮮水果新臺幣（下同）300萬元；外銷生鮮水果200萬元。
+㉒從國外進口生鮮水果完稅價格400 萬元，關稅 40 萬元。
+請根據上述資料，計算舒活公司之本期得扣抵進項稅額及本期應繳（應
+退）稅額。（10分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:24+00:00", "source_pdf_sha1": "72f0a46a7561", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "108180", "c": "602", "s": "1203", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "租稅申報實務", "year": "108", "exam_name": "108年專門職業及技術人員高等考試建築師、技師、第二次食品技師考試暨普通考試不動產經紀人、記帳士考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "slug": "bookkeeper", "db_exam_id": "bookkeeper"}'::jsonb, NULL),
+  ('bookkeeper-moex-00742', 'bookkeeper', 'bookkeeper-moex-108-cb3b9dc5', 'sub-bookkeeper-02', NULL, 'essay', '請依我國現行所得稅法及其相關法規規定，計算並回答下列問題：
+（請詳列計算式，否則不予計分）
+吉利公司 107年度營利事業所得稅結算申報，經委託會計師辦理查核
+簽證，其申報全年銷貨收入淨額新臺幣（下同）150,000,000 元（含外
+銷且取得外匯收入 30,000,000元），全年銷貨成本119,300,000元，期
+初存貨 1,800,000元，期末存貨2,500,000 元，全年銷貨毛利 30,700,000
+元，交際應酬費 1,650,000 元，經依規定取有憑證，並經查明與業務
+有關，試問吉利公司 107 年度交際費可列支最高限額為多少？應帳外
+調減之金額為多少？（7分）
+單位：新臺幣千萬元
+項 目 計算基礎 級距 普通申報 藍色申報
+3 以下 1.5‰ 2‰
+超過 3 至15 1‰ 1.5‰
+以進貨為目的 進貨淨額
+超過 15至 60 0.5‰ 1‰
+超過 60 0.25‰ 0.5‰
+3 以下 4.5‰ 6‰
+超過 3 至15 3‰ 4‰
+以銷貨為目的 銷貨淨額
+超過 15至 60 2‰ 3‰
+超過 60 1‰ 1.5‰
+得意公司申報107年度營利事業所得稅時，其帳列營業毛利新臺幣（下
+同）20,000,000 元，各項費用總額（含捐贈支出）為 12,500,000 元，
+其中捐贈支出包括：⑴對臺中市政府捐贈 400,000 元、⑵對合於所得
+稅法第 11條第 4項規定之慈善團體捐贈 900,000元、⑶對中小企業發
+展基金捐贈 600,000 元、⑷依私立學校法第62 條規定，透過財團法人
+私立學校興學基金會，未指定對特定學校法人之捐款 1,000,000 元，
+試問得意公司 107 年度可認定之捐贈總金額為多少元？（7 分）
+好萊塢影片公司係一國外影片公司，在中華民國境內無分支機構，107
+年度在臺灣經由營業代理人出租影片之收入為新臺幣 9,000 萬元，試
+問好萊塢影片公司當年度在臺灣之應納營利事業所得稅額為多少？
+（6 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:24+00:00", "source_pdf_sha1": "72f0a46a7561", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "108180", "c": "602", "s": "1203", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "租稅申報實務", "year": "108", "exam_name": "108年專門職業及技術人員高等考試建築師、技師、第二次食品技師考試暨普通考試不動產經紀人、記帳士考試", "original_question_number": "二", "answer_corrected": false, "flags": [], "slug": "bookkeeper", "db_exam_id": "bookkeeper"}'::jsonb, NULL),
+  ('bookkeeper-moex-00743', 'bookkeeper', 'bookkeeper-moex-108-cb3b9dc5', 'sub-bookkeeper-02', NULL, 'essay', '甲公司 107年度結算申報應納稅額為 1,300 萬元，核定應納稅額為1,500
+萬元。該公司 108 年度前 6 個月資料如下：營業收入 9,000 萬元、營業
+成本 5,000 萬元、營業費用 1,000 萬元、非營業收入 200 萬元、非營業
+損失 100 萬元。短期票券利息所得扣繳稅款 5萬元。依所得稅法規定，
+回答下列問題：（請詳列計算式，否則不予計分）
+採一般暫繳（所得稅法第 67條第 1 項規定）之應納暫繳稅額。（5 分）
+採試算暫繳（所得稅法第 67條第 3 項規定）之應納暫繳稅額。（5 分）
+採試算暫繳之法定要件為何？（10分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:24+00:00", "source_pdf_sha1": "72f0a46a7561", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "108180", "c": "602", "s": "1203", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "租稅申報實務", "year": "108", "exam_name": "108年專門職業及技術人員高等考試建築師、技師、第二次食品技師考試暨普通考試不動產經紀人、記帳士考試", "original_question_number": "三", "answer_corrected": false, "flags": [], "slug": "bookkeeper", "db_exam_id": "bookkeeper"}'::jsonb, NULL),
+  ('bookkeeper-moex-00744', 'bookkeeper', 'bookkeeper-moex-108-cb3b9dc5', 'sub-bookkeeper-02', NULL, 'essay', '中華民國境內居住者甲於108年4月1日簽約出售一筆房地產給乙，並於
+108 年 5 月 1 日完成移轉登記。該筆房地產之成交價格為 3,000 萬元，房
+屋標準價格為500萬元，土地公告現值為1,000萬元，公告地價為800萬
+元，土地漲價總數額為 700 萬元，應納土地增值稅為 80 萬元，應納契稅
+為3萬元。依所得稅法及相關規定回答下列問題：（每小題6分，共30分）
+（請詳列計算式，否則不予計分）
+若該筆房地產係於 105 年 3 月1 日買賣取得，成交價格為 900萬元，
+取得時土地公告現值為 300萬元，房屋標準價格為 100萬元，甲僅能
+舉證售屋仲介費用 30 萬元，大樓管理費 20萬元，購屋貸款利息支出
+50 萬元。請以對甲稅負最低的方式，計算該筆房地產之交易所得（損
+失）、課稅所得額與應適用之稅率？
+承上例，若該筆房地產符合所得稅法規定之自住要件，其課稅所得額
+與應適用之稅率為何？
+說明房地合一稅適用自住規定之法定要件。
+說明該筆房地產應於何時申報所得稅？若該筆房地產之交易結果發
+生損失，應如何處理？
+若未依規定申報，或已依規定申報但有短漏報之情形，可能遭受何種
+處罰？', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:24+00:00", "source_pdf_sha1": "72f0a46a7561", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "108180", "c": "602", "s": "1203", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "租稅申報實務", "year": "108", "exam_name": "108年專門職業及技術人員高等考試建築師、技師、第二次食品技師考試暨普通考試不動產經紀人、記帳士考試", "original_question_number": "四", "answer_corrected": false, "flags": [], "slug": "bookkeeper", "db_exam_id": "bookkeeper"}'::jsonb, NULL),
+  ('bookkeeper-moex-00745', 'bookkeeper', 'bookkeeper-moex-108-a2a4e0d3', 'sub-bookkeeper-03', NULL, 'single_choice', '稅捐稽徵法第21條所稱應由稅捐稽徵機關依稅籍底冊或查得資料核定課徵之稅捐，下列那幾種稅包括在', '["地價稅", "土地增值稅", "房屋稅", "使用牌照稅  ⑤印花稅  ⑥查定課徵之娛樂稅"]'::jsonb, 2, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:24+00:00", "source_pdf_sha1": "649483717ea0", "answer_pdf_sha1": "e003a99a2c64", "source_family": "moex-gov-tw", "moex": {"exam_code": "108180", "c": "602", "s": "1204", "q": "1"}, "raw_section_label": "本試題為單一選擇題", "subject": "稅務相關法規概要", "year": "108", "exam_name": "108年專門職業及技術人員高等考試建築師、技師、第二次食品技師考試暨普通考試不動產經紀人、記帳士考試", "original_question_number": 1, "answer_corrected": false, "flags": [], "slug": "bookkeeper", "db_exam_id": "bookkeeper"}'::jsonb, NULL);

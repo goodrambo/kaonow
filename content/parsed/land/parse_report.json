@@ -1,0 +1,237 @@
+{
+  "slug": "land",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T04:29:41+00:00",
+  "paper_count": 28,
+  "paper_with_questions": 28,
+  "question_count": 112,
+  "type_counts": {
+    "essay": 112
+  },
+  "issues": [
+    {
+      "year": "114",
+      "subject": "土地法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "土地登記實務",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "土地稅法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "民法概要與信託法概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "113",
+      "subject": "土地法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "113",
+      "subject": "土地登記實務",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "113",
+      "subject": "土地稅法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "113",
+      "subject": "民法概要與信託法概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "土地登記實務",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "土地稅法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "民法概要與信託法概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "土地登記實務",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "土地稅法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "民法概要與信託法概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "土地登記實務",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "土地稅法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "民法概要與信託法概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "109",
+      "subject": "土地登記實務",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "109",
+      "subject": "土地稅法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "109",
+      "subject": "民法概要與信託法概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "108",
+      "subject": "土地法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "108",
+      "subject": "土地登記實務",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "108",
+      "subject": "土地稅法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "108",
+      "subject": "民法概要與信託法概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "107",
+      "subject": "土地登記實務",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "107",
+      "subject": "土地稅法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "107",
+      "subject": "民法概要與信託法概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "106",
+      "subject": "土地稅法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    }
+  ]
+}

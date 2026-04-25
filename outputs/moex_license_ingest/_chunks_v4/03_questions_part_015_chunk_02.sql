@@ -1,0 +1,40 @@
+INSERT INTO public.questions (id, exam_id, paper_id, subject_id, chapter_id, question_type, question_text, options, correct_answer, correct_answer_json, auto_gradable, source, is_active, version, source_meta, explanation)
+VALUES
+  ('cpa-moex-00721', 'cpa', 'cpa-moex-108-9023a44f', 'sub-cpa-02', NULL, 'single_choice', '商業會計法要求，凡商業任免主辦會計人員，均須經董事會通過，而在證券交易法，則只見要求 公開發行公司會計主管須具備一定之資格條件，並於任職期間內持續進修，而未見須經董事會通 過之規定，顯示： 其任免則不須經董事會通過', '["", "", "", ""]'::jsonb, 3, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:09+00:00", "source_pdf_sha1": "899745575a22", "answer_pdf_sha1": "afac5c7d1a19", "source_family": "moex-gov-tw", "moex": {"exam_code": "108140", "c": "803", "s": "0204", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "公司法、證券交易法與商業會計法", "year": "108", "exam_name": "108年專門職業及技術人員高等考試會計師、不動產估價師、專利師考試", "original_question_number": 23, "answer_corrected": false, "flags": ["incomplete_options"], "slug": "accountant", "db_exam_id": "cpa"}'::jsonb, NULL),
+  ('cpa-moex-00722', 'cpa', 'cpa-moex-108-9023a44f', 'sub-cpa-02', NULL, 'single_choice', '依商業會計法規定，下列何種行為將處五年以下有期徒刑？', '["", "", "", ""]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:09+00:00", "source_pdf_sha1": "899745575a22", "answer_pdf_sha1": "afac5c7d1a19", "source_family": "moex-gov-tw", "moex": {"exam_code": "108140", "c": "803", "s": "0204", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "公司法、證券交易法與商業會計法", "year": "108", "exam_name": "108年專門職業及技術人員高等考試會計師、不動產估價師、專利師考試", "original_question_number": 24, "answer_corrected": false, "flags": ["incomplete_options"], "slug": "accountant", "db_exam_id": "cpa"}'::jsonb, NULL),
+  ('cpa-moex-00723', 'cpa', 'cpa-moex-108-9023a44f', 'sub-cpa-02', NULL, 'single_choice', '商業依法備置於本機構之決算報表，商業之利害關係人是否可以查閱？ 否提供查閱，申請主管機關裁定之', '["", "", "", ""]'::jsonb, 2, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:09+00:00", "source_pdf_sha1": "899745575a22", "answer_pdf_sha1": "afac5c7d1a19", "source_family": "moex-gov-tw", "moex": {"exam_code": "108140", "c": "803", "s": "0204", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "公司法、證券交易法與商業會計法", "year": "108", "exam_name": "108年專門職業及技術人員高等考試會計師、不動產估價師、專利師考試", "original_question_number": 25, "answer_corrected": false, "flags": ["incomplete_options"], "slug": "accountant", "db_exam_id": "cpa"}'::jsonb, NULL),
+  ('cpa-moex-00724', 'cpa', 'cpa-moex-108-0e802df0', 'sub-cpa-03', NULL, 'essay', '下列為涉及薪資及人事循環之二種舞弊事件：
+編列薪資表的職員捏造虛假員工的薪資資料，並讓這些薪資直接撥入
+自己的銀行帳戶中。
+員工每個月都在工時卡中虛增 10 個小時的加班時數。
+試回答下列問題：（每一事件請單獨考慮）
+3分）
+4分）
+各設計一項控制測試以評估該項控制措
+施是否有效運作。（4分）
+4分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:09+00:00", "source_pdf_sha1": "b31a6169dd18", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "108140", "c": "803", "s": "0201", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "審計學", "year": "108", "exam_name": "108年專門職業及技術人員高等考試會計師、不動產估價師、專利師考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "slug": "accountant", "db_exam_id": "cpa"}'::jsonb, NULL),
+  ('cpa-moex-00725', 'cpa', 'cpa-moex-108-0e802df0', 'sub-cpa-03', NULL, 'essay', '近年來由於食安風暴與工安意外頻傳，金融監督管理委員會自民國 103
+年起強力推動上市（櫃）公司履行企業社會責任，規定食品、餐飲占營
+收 50%以上、化工、金融等特定行業，以及資本額達五十億元之企業必
+須編製企業社會責任報告，並於次年度六月底前對外公布。其中食品業
+公司的企業社會責任報告須經會計師等第三方認證查核後方可對外發
+布。依我國確信準則公報第 1號「非屬歷史性財務資訊查核或核閱之確
+信案件」規定，會計師事務所執業人員除應確認確信案件之先決條件已
+成立外，尚須滿足那些條件，方得承接或續任此一企業社會責任報告確
+信案件？試說明之。（5分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:09+00:00", "source_pdf_sha1": "b31a6169dd18", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "108140", "c": "803", "s": "0201", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "審計學", "year": "108", "exam_name": "108年專門職業及技術人員高等考試會計師、不動產估價師、專利師考試", "original_question_number": "二", "answer_corrected": false, "flags": [], "slug": "accountant", "db_exam_id": "cpa"}'::jsonb, NULL),
+  ('cpa-moex-00726', 'cpa', 'cpa-moex-108-0e802df0', 'sub-cpa-03', NULL, 'essay', '依據我國審計準則公報第 58 號「查核報告中關鍵查核事項之溝通」之
+規定，試回答下列與關鍵查核事項有關之問題：
+查核人員應從與治理單位溝通之事項中決定查核時高度關注之事
+項。作此決定時，查核人員應考量那三類情事？（6 分）
+就所決定高度關注之事項中，會計師判斷該等事項之相對重要性以及
+決定該事項是否為關鍵查核事項時，可能有那些攸關之考量，試列舉
+五項。（10分）
+有兩種經會計師專業判斷決定為關鍵查核事項，但不於查核報告中溝
+通之情況，試說明之。（4 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:09+00:00", "source_pdf_sha1": "b31a6169dd18", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "108140", "c": "803", "s": "0201", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "審計學", "year": "108", "exam_name": "108年專門職業及技術人員高等考試會計師、不動產估價師、專利師考試", "original_question_number": "三", "answer_corrected": false, "flags": [], "slug": "accountant", "db_exam_id": "cpa"}'::jsonb, NULL),
+  ('cpa-moex-00727', 'cpa', 'cpa-moex-108-0e802df0', 'sub-cpa-03', NULL, 'essay', '依據我國審計準則公報第 61 號「繼續經營」之規定，當受查者採用繼
+續經營會計基礎編製財務報表係屬適當，惟存在重大不確定性時，試說
+明會計師可能出具之查核意見類型及對查核報告之影響。（10 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:09+00:00", "source_pdf_sha1": "b31a6169dd18", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "108140", "c": "803", "s": "0201", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "審計學", "year": "108", "exam_name": "108年專門職業及技術人員高等考試會計師、不動產估價師、專利師考試", "original_question_number": "四", "answer_corrected": false, "flags": [], "slug": "accountant", "db_exam_id": "cpa"}'::jsonb, NULL),
+  ('cpa-moex-00728', 'cpa', 'cpa-moex-108-0e802df0', 'sub-cpa-03', NULL, 'single_choice', '獨立性將受到自我利益的影響，下列那一項非屬於自我利益之情況？ 審計客戶威脅提起法律訴訟', '["", "", "", ""]'::jsonb, 3, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:09+00:00", "source_pdf_sha1": "b31a6169dd18", "answer_pdf_sha1": "13aaf559a1eb", "source_family": "moex-gov-tw", "moex": {"exam_code": "108140", "c": "803", "s": "0201", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "審計學", "year": "108", "exam_name": "108年專門職業及技術人員高等考試會計師、不動產估價師、專利師考試", "original_question_number": 1, "answer_corrected": false, "flags": ["incomplete_options"], "slug": "accountant", "db_exam_id": "cpa"}'::jsonb, NULL),
+  ('cpa-moex-00729', 'cpa', 'cpa-moex-108-0e802df0', 'sub-cpa-03', NULL, 'single_choice', '下列何種會計師或會計師事務所之廣告宣傳可能使會計師違反我國「會計師職業道德規範」？ 會計師事務所遷移地址之廣告 會計師事務所通訊月刊刊登稅務訓練課程之招生廣告 會計師事務所通訊月刊給現有客戶以外之企業 在會計師事務所網站登載執行業務或著述專業意見等訊息', '["", "", "", ""]'::jsonb, 2, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:09+00:00", "source_pdf_sha1": "b31a6169dd18", "answer_pdf_sha1": "13aaf559a1eb", "source_family": "moex-gov-tw", "moex": {"exam_code": "108140", "c": "803", "s": "0201", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "審計學", "year": "108", "exam_name": "108年專門職業及技術人員高等考試會計師、不動產估價師、專利師考試", "original_question_number": 2, "answer_corrected": false, "flags": ["incomplete_options"], "slug": "accountant", "db_exam_id": "cpa"}'::jsonb, NULL),
+  ('cpa-moex-00730', 'cpa', 'cpa-moex-108-0e802df0', 'sub-cpa-03', NULL, 'single_choice', '我國審計準則公報第1號「一般公認審計準則總綱」第2條規定：「執行查核工作及撰寫報告時， 應保持嚴謹公正之態度及超然獨立之精神，並盡專業上應有之注意。」試問下列何者最能詮釋「盡 專業上應有之注意」？ 法律責任 將不至於超過合理範圍', '["", "", "", ""]'::jsonb, 1, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:09+00:00", "source_pdf_sha1": "b31a6169dd18", "answer_pdf_sha1": "13aaf559a1eb", "source_family": "moex-gov-tw", "moex": {"exam_code": "108140", "c": "803", "s": "0201", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "審計學", "year": "108", "exam_name": "108年專門職業及技術人員高等考試會計師、不動產估價師、專利師考試", "original_question_number": 3, "answer_corrected": false, "flags": ["incomplete_options"], "slug": "accountant", "db_exam_id": "cpa"}'::jsonb, NULL)
+ON CONFLICT (id) DO NOTHING;

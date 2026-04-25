@@ -1,0 +1,95 @@
+{
+  "slugs_processed": [
+    "accountant",
+    "bookkeeper",
+    "appraiser",
+    "brokers",
+    "land",
+    "socialworker",
+    "civilengineering",
+    "publichealth",
+    "dietitian",
+    "food",
+    "mt",
+    "fire-equipment-engineer",
+    "fire-equipment-technician"
+  ],
+  "new_exams": [
+    "dietitian",
+    "food-tech",
+    "medical-tech",
+    "fire-eq-eng",
+    "fire-eq-tech"
+  ],
+  "subjects": 59,
+  "papers": 607,
+  "questions": 16495,
+  "batches": 1650,
+  "per_slug": {
+    "accountant": {
+      "subjects": 6,
+      "papers": 86,
+      "questions": 1789
+    },
+    "bookkeeper": {
+      "subjects": 4,
+      "papers": 51,
+      "questions": 1840
+    },
+    "appraiser": {
+      "subjects": 6,
+      "papers": 73,
+      "questions": 278
+    },
+    "brokers": {
+      "subjects": 4,
+      "papers": 39,
+      "questions": 1171
+    },
+    "land": {
+      "subjects": 4,
+      "papers": 28,
+      "questions": 112
+    },
+    "socialworker": {
+      "subjects": 6,
+      "papers": 78,
+      "questions": 3246
+    },
+    "civilengineering": {
+      "subjects": 1,
+      "papers": 7,
+      "questions": 28
+    },
+    "publichealth": {
+      "subjects": 6,
+      "papers": 25,
+      "questions": 1094
+    },
+    "dietitian": {
+      "subjects": 6,
+      "papers": 90,
+      "questions": 3937
+    },
+    "food": {
+      "subjects": 6,
+      "papers": 84,
+      "questions": 409
+    },
+    "mt": {
+      "subjects": 4,
+      "papers": 16,
+      "questions": 1326
+    },
+    "fire-equipment-engineer": {
+      "subjects": 2,
+      "papers": 4,
+      "questions": 166
+    },
+    "fire-equipment-technician": {
+      "subjects": 4,
+      "papers": 26,
+      "questions": 1099
+    }
+  }
+}

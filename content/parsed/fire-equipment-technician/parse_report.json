@@ -1,0 +1,13 @@
+{
+  "slug": "fire-equipment-technician",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T04:30:28+00:00",
+  "paper_count": 26,
+  "paper_with_questions": 26,
+  "question_count": 1099,
+  "type_counts": {
+    "essay": 50,
+    "single_choice": 1049
+  },
+  "issues": []
+}

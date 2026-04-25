@@ -1,0 +1,413 @@
+{
+  "slug": "food",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T07:12:04+00:00",
+  "paper_count": 150,
+  "paper_with_questions": 136,
+  "question_count": 683,
+  "type_counts": {
+    "essay": 683
+  },
+  "issues": [
+    {
+      "year": "114",
+      "subject": "食品分析與檢驗",
+      "status": "parse_q_failed",
+      "format": "pure_essay",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "114",
+      "subject": "食品加工學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "食品化學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 5,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "食品工廠管理",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "食品微生物學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "食品衛生安全與法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 5,
+      "answers": 0
+    },
+    {
+      "year": "113",
+      "subject": "食品分析與檢驗",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 5,
+      "answers": 0
+    },
+    {
+      "year": "113",
+      "subject": "食品加工學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "113",
+      "subject": "食品化學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "113",
+      "subject": "食品工廠管理",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "113",
+      "subject": "食品微生物學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 5,
+      "answers": 0
+    },
+    {
+      "year": "113",
+      "subject": "食品衛生安全與法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "食品分析與檢驗",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 6,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "食品加工學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "食品化學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 5,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "食品工廠管理",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "食品微生物學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 5,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "食品衛生安全與法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 5,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "食品分析與檢驗",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 5,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "食品加工學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "食品化學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 5,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "食品工廠管理",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "食品微生物學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 5,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "食品衛生安全與法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 5,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "食品分析與檢驗",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "食品化學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 5,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "食品工廠管理",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 5,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "食品微生物學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 5,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "食品衛生安全與法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 5,
+      "answers": 0
+    },
+    {
+      "year": "109",
+      "subject": "食品分析與檢驗",
+      "status": "parse_q_failed",
+      "format": "pure_essay",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "109",
+      "subject": "食品加工學",
+      "status": "parse_q_failed",
+      "format": "pure_essay",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "109",
+      "subject": "食品化學",
+      "status": "parse_q_failed",
+      "format": "pure_essay",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "109",
+      "subject": "食品工廠管理",
+      "status": "parse_q_failed",
+      "format": "pure_essay",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "109",
+      "subject": "食品微生物學",
+      "status": "parse_q_failed",
+      "format": "pure_essay",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "109",
+      "subject": "食品衛生安全與法規",
+      "status": "parse_q_failed",
+      "format": "pure_essay",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "108",
+      "subject": "食品分析與檢驗",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 5,
+      "answers": 0
+    },
+    {
+      "year": "108",
+      "subject": "食品加工學",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "108",
+      "subject": "食品化學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 5,
+      "answers": 0
+    },
+    {
+      "year": "108",
+      "subject": "食品工廠管理",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 5,
+      "answers": 0
+    },
+    {
+      "year": "108",
+      "subject": "食品微生物學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "108",
+      "subject": "食品衛生安全與法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 5,
+      "answers": 0
+    },
+    {
+      "year": "107",
+      "subject": "食品分析與檢驗",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 5,
+      "answers": 0
+    },
+    {
+      "year": "107",
+      "subject": "食品加工學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 5,
+      "answers": 0
+    },
+    {
+      "year": "107",
+      "subject": "食品化學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 5,
+      "answers": 0
+    },
+    {
+      "year": "107",
+      "subject": "食品工廠管理",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 5,
+      "answers": 0
+    },
+    {
+      "year": "107",
+      "subject": "食品微生物學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 5,
+      "answers": 0
+    },
+    {
+      "year": "107",
+      "subject": "食品衛生安全與法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 5,
+      "answers": 0
+    },
+    {
+      "year": "106",
+      "subject": "食品分析與檢驗",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "106",
+      "subject": "食品加工學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "106",
+      "subject": "食品化學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 5,
+      "answers": 0
+    }
+  ]
+}

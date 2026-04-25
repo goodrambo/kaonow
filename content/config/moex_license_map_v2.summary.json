@@ -1,0 +1,189 @@
+{
+  "accountant": {
+    "pc_subjects": 6,
+    "pc_core": [
+      "中級會計學",
+      "公司法、證券交易法與商業會計法",
+      "審計學",
+      "成本會計與管理會計",
+      "稅務法規",
+      "高等會計學"
+    ],
+    "matched_classes": 18,
+    "entries": 118
+  },
+  "bookkeeper": {
+    "pc_subjects": 4,
+    "pc_core": [
+      "會計學概要",
+      "租稅申報實務",
+      "稅務相關法規概要",
+      "記帳相關法規概要"
+    ],
+    "matched_classes": 16,
+    "entries": 80
+  },
+  "appraiser": {
+    "pc_subjects": 6,
+    "pc_core": [
+      "不動產估價實務",
+      "不動產估價理論",
+      "不動產投資分析",
+      "不動產經濟學",
+      "土地利用法規",
+      "民法物權與不動產法規"
+    ],
+    "matched_classes": 18,
+    "entries": 126
+  },
+  "brokers": {
+    "pc_subjects": 4,
+    "pc_core": [
+      "不動產估價概要",
+      "不動產經紀相關法規概要",
+      "土地法與土地相關稅法概要",
+      "民法概要"
+    ],
+    "matched_classes": 20,
+    "entries": 100
+  },
+  "land": {
+    "pc_subjects": 4,
+    "pc_core": [
+      "土地法規",
+      "土地登記實務",
+      "土地稅法規",
+      "民法概要與信託法概要"
+    ],
+    "matched_classes": 37,
+    "entries": 166
+  },
+  "socialworker": {
+    "pc_subjects": 6,
+    "pc_core": [
+      "人類行為與社會環境",
+      "社會工作",
+      "社會工作直接服務",
+      "社會工作研究方法",
+      "社會工作管理",
+      "社會政策與社會立法"
+    ],
+    "matched_classes": 40,
+    "entries": 264
+  },
+  "civilengineering": {
+    "pc_subjects": 6,
+    "pc_core": [
+      "大地工程學",
+      "工程測量",
+      "施工法",
+      "營建管理",
+      "結構分析",
+      "結構設計"
+    ],
+    "matched_classes": 19,
+    "entries": 103
+  },
+  "structural": {
+    "pc_subjects": 1,
+    "pc_core": [
+      "結構學"
+    ],
+    "matched_classes": 23,
+    "entries": 138
+  },
+  "fire-equipment-engineer": {
+    "pc_subjects": 2,
+    "pc_core": [
+      "消防法規"
+    ],
+    "matched_classes": 19,
+    "entries": 114
+  },
+  "fire-equipment-technician": {
+    "pc_subjects": 5,
+    "pc_core": [
+      "水與化學系統消防安全設備概要",
+      "消防法規概要",
+      "火災學概要",
+      "警報與避難系統消防安全設備概要"
+    ],
+    "matched_classes": 20,
+    "entries": 80
+  },
+  "dietitian": {
+    "pc_subjects": 6,
+    "pc_core": [
+      "公共衛生營養學",
+      "團體膳食設計與管理",
+      "營養學",
+      "生理學與生物化學",
+      "膳食療養學",
+      "食品衛生與安全"
+    ],
+    "matched_classes": 45,
+    "entries": 270
+  },
+  "food": {
+    "pc_subjects": 6,
+    "pc_core": [
+      "食品分析與檢驗",
+      "食品加工學",
+      "食品化學",
+      "食品工廠管理",
+      "食品微生物學",
+      "食品衛生安全與法規"
+    ],
+    "matched_classes": 39,
+    "entries": 234
+  },
+  "mt": {
+    "pc_subjects": 6,
+    "pc_core": [
+      "微生物學與臨床微生物學(包括細菌與黴菌)",
+      "生物化學與臨床生化學",
+      "臨床生理學與病理學",
+      "臨床血液學與血庫學",
+      "臨床血清免疫學與臨床病毒學",
+      "醫學分子檢驗學與臨床鏡檢學(包括寄生蟲學)"
+    ],
+    "matched_classes": 44,
+    "entries": 264
+  },
+  "optician": {
+    "pc_subjects": 4,
+    "pc_core": [
+      "眼球構造與倫理法規概要",
+      "眼鏡光學概要",
+      "隱形眼鏡學概要",
+      "驗光學概要"
+    ],
+    "matched_classes": 14,
+    "entries": 56
+  },
+  "optometrist": {
+    "pc_subjects": 5,
+    "pc_core": [
+      "低視力學",
+      "眼球解剖生理學與倫理法規",
+      "視光學",
+      "視覺光學",
+      "隱形眼鏡學與配鏡學"
+    ],
+    "matched_classes": 15,
+    "entries": 75
+  },
+  "publichealth": {
+    "pc_subjects": 6,
+    "pc_core": [
+      "健康社會行為學",
+      "流行病學",
+      "環境與職業衛生",
+      "生物統計學",
+      "衛生法規及倫理",
+      "衛生行政與管理"
+    ],
+    "matched_classes": 5,
+    "entries": 30
+  }
+}

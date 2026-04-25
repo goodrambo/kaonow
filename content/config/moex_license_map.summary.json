@@ -1,0 +1,332 @@
+{
+  "accountant": {
+    "matched": 86,
+    "unmatched_pc": 20,
+    "ambiguous": 3,
+    "unmatched_examples": [
+      {
+        "year": "114",
+        "subject": "國文(作文)",
+        "reason": "no_moex_subject_match"
+      },
+      {
+        "year": "113",
+        "subject": "國文(作文)",
+        "reason": "no_moex_subject_match"
+      },
+      {
+        "year": "112",
+        "subject": "國文(作文)",
+        "reason": "no_moex_subject_match"
+      },
+      {
+        "year": "111",
+        "subject": "國文(作文)",
+        "reason": "no_moex_subject_match"
+      },
+      {
+        "year": "110",
+        "subject": "國文(作文)",
+        "reason": "no_moex_subject_match"
+      }
+    ]
+  },
+  "bookkeeper": {
+    "matched": 52,
+    "unmatched_pc": 15,
+    "ambiguous": 4,
+    "unmatched_examples": [
+      {
+        "year": "114",
+        "subject": "國文(作文)",
+        "reason": "no_moex_subject_match"
+      },
+      {
+        "year": "113",
+        "subject": "國文(作文)",
+        "reason": "no_moex_subject_match"
+      },
+      {
+        "year": "112",
+        "subject": "國文(作文)",
+        "reason": "no_moex_subject_match"
+      },
+      {
+        "year": "111",
+        "subject": "國文(作文)",
+        "reason": "no_moex_subject_match"
+      },
+      {
+        "year": "110",
+        "subject": "國文(作文)",
+        "reason": "no_moex_subject_match"
+      }
+    ]
+  },
+  "appraiser": {
+    "matched": 76,
+    "unmatched_pc": 14,
+    "ambiguous": 0,
+    "unmatched_examples": [
+      {
+        "year": "114",
+        "subject": "國文(作文)",
+        "reason": "no_moex_subject_match"
+      },
+      {
+        "year": "111",
+        "subject": "國文(作文)",
+        "reason": "no_moex_subject_match"
+      },
+      {
+        "year": "110",
+        "subject": "國文(作文)",
+        "reason": "no_moex_subject_match"
+      },
+      {
+        "year": "109",
+        "subject": "國文(作文)",
+        "reason": "no_moex_subject_match"
+      },
+      {
+        "year": "108",
+        "subject": "國文(作文)",
+        "reason": "no_moex_subject_match"
+      }
+    ]
+  },
+  "brokers": {
+    "matched": 39,
+    "unmatched_pc": 13,
+    "ambiguous": 5,
+    "unmatched_examples": [
+      {
+        "year": "114",
+        "subject": "國文(作文)",
+        "reason": "no_moex_subject_match"
+      },
+      {
+        "year": "111",
+        "subject": "國文(作文)",
+        "reason": "no_moex_subject_match"
+      },
+      {
+        "year": "110",
+        "subject": "國文(作文)",
+        "reason": "no_moex_subject_match"
+      },
+      {
+        "year": "109",
+        "subject": "國文(作文)",
+        "reason": "no_moex_subject_match"
+      },
+      {
+        "year": "108",
+        "subject": "國文(作文)",
+        "reason": "no_moex_subject_match"
+      }
+    ]
+  },
+  "land": {
+    "matched": 28,
+    "unmatched_pc": 15,
+    "ambiguous": 24,
+    "unmatched_examples": [
+      {
+        "year": "114",
+        "subject": "國文(作文)",
+        "reason": "no_moex_subject_match"
+      },
+      {
+        "year": "113",
+        "subject": "國文(作文)",
+        "reason": "no_moex_subject_match"
+      },
+      {
+        "year": "112",
+        "subject": "國文(作文)",
+        "reason": "no_moex_subject_match"
+      },
+      {
+        "year": "111",
+        "subject": "國文(作文)",
+        "reason": "no_moex_subject_match"
+      },
+      {
+        "year": "110",
+        "subject": "國文(作文)",
+        "reason": "no_moex_subject_match"
+      }
+    ]
+  },
+  "socialworker": {
+    "matched": 78,
+    "unmatched_pc": 32,
+    "ambiguous": 138,
+    "unmatched_examples": [
+      {
+        "year": "115",
+        "subject": "社會工作直接服務",
+        "reason": "no_moex_subject_match"
+      },
+      {
+        "year": "115",
+        "subject": "社會工作",
+        "reason": "no_moex_subject_match"
+      },
+      {
+        "year": "115",
+        "subject": "社會工作研究方法",
+        "reason": "no_moex_subject_match"
+      },
+      {
+        "year": "115",
+        "subject": "人類行為與社會環境",
+        "reason": "no_moex_subject_match"
+      },
+      {
+        "year": "115",
+        "subject": "社會政策與社會立法",
+        "reason": "no_moex_subject_match"
+      }
+    ]
+  },
+  "civilengineering": {
+    "matched": 8,
+    "unmatched_pc": 40,
+    "ambiguous": 8,
+    "unmatched_examples": [
+      {
+        "year": "114",
+        "subject": "大地工程學",
+        "reason": "no_moex_subject_match"
+      },
+      {
+        "year": "114",
+        "subject": "結構分析",
+        "reason": "no_moex_subject_match"
+      },
+      {
+        "year": "114",
+        "subject": "結構設計",
+        "reason": "no_moex_subject_match"
+      },
+      {
+        "year": "114",
+        "subject": "工程測量",
+        "reason": "no_moex_subject_match"
+      },
+      {
+        "year": "114",
+        "subject": "施工法",
+        "reason": "no_moex_subject_match"
+      }
+    ]
+  },
+  "structural": {
+    "matched": 0,
+    "unmatched_pc": 0,
+    "ambiguous": 1,
+    "unmatched_examples": []
+  },
+  "fire-equipment-engineer": {
+    "matched": 4,
+    "unmatched_pc": 0,
+    "ambiguous": 12,
+    "unmatched_examples": []
+  },
+  "fire-equipment-technician": {
+    "matched": 26,
+    "unmatched_pc": 0,
+    "ambiguous": 48,
+    "unmatched_examples": []
+  },
+  "dietitian": {
+    "matched": 90,
+    "unmatched_pc": 6,
+    "ambiguous": 158,
+    "unmatched_examples": [
+      {
+        "year": "115",
+        "subject": "膳食療養學",
+        "reason": "no_moex_subject_match"
+      },
+      {
+        "year": "115",
+        "subject": "團體膳食設計與管理",
+        "reason": "no_moex_subject_match"
+      },
+      {
+        "year": "115",
+        "subject": "營養學",
+        "reason": "no_moex_subject_match"
+      },
+      {
+        "year": "115",
+        "subject": "食品衛生與安全",
+        "reason": "no_moex_subject_match"
+      },
+      {
+        "year": "115",
+        "subject": "生理學與生物化學",
+        "reason": "no_moex_subject_match"
+      }
+    ]
+  },
+  "food": {
+    "matched": 84,
+    "unmatched_pc": 0,
+    "ambiguous": 168,
+    "unmatched_examples": []
+  },
+  "mt": {
+    "matched": 16,
+    "unmatched_pc": 16,
+    "ambiguous": 32,
+    "unmatched_examples": [
+      {
+        "year": "112",
+        "subject": "醫學分子檢驗學與臨床鏡檢學(包括寄生蟲學)",
+        "reason": "no_moex_subject_match"
+      },
+      {
+        "year": "112",
+        "subject": "微生物學與臨床微生物學(包括細菌與黴菌)",
+        "reason": "no_moex_subject_match"
+      },
+      {
+        "year": "112",
+        "subject": "微生物學與臨床微生物學(包括細菌與黴菌)",
+        "reason": "no_moex_subject_match"
+      },
+      {
+        "year": "112",
+        "subject": "醫學分子檢驗學與臨床鏡檢學(包括寄生蟲學)",
+        "reason": "no_moex_subject_match"
+      },
+      {
+        "year": "111",
+        "subject": "醫學分子檢驗學與臨床鏡檢學(包括寄生蟲學)",
+        "reason": "no_moex_subject_match"
+      }
+    ]
+  },
+  "optician": {
+    "matched": 0,
+    "unmatched_pc": 0,
+    "ambiguous": 16,
+    "unmatched_examples": []
+  },
+  "optometrist": {
+    "matched": 0,
+    "unmatched_pc": 0,
+    "ambiguous": 25,
+    "unmatched_examples": []
+  },
+  "publichealth": {
+    "matched": 25,
+    "unmatched_pc": 0,
+    "ambiguous": 18,
+    "unmatched_examples": []
+  }
+}

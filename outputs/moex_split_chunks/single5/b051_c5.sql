@@ -1,0 +1,39 @@
+-- moex_license_ingest questions batch 51/330 (50 rows)
+
+INSERT INTO public.questions (id, exam_id, paper_id, subject_id, chapter_id, question_type, question_text, options, correct_answer, correct_answer_json, auto_gradable, source, is_active, version, source_meta, explanation)
+VALUES
+('bookkeeper-moex-00737', 'bookkeeper', 'bookkeeper-moex-108-d35177eb', 'sub-bookkeeper-01', NULL, 'single_choice', '甲公司為乙客戶生產產品一批，該批產品之主要成本$96,000、加工成本$97,200，製造費用 為直接人工成本的80%。該批產品之製造成本為多少？', '["$139,200", "$150,000", "$151,200", "$193,200"]'::jsonb, 0, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:24+00:00", "source_pdf_sha1": "d0d40697ef66", "answer_pdf_sha1": "926cc170d901", "source_family": "moex-gov-tw", "moex": {"exam_code": "108180", "c": "602", "s": "1201", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "會計學概要", "year": "108", "exam_name": "108年專門職業及技術人員高等考試建築師、技師、第二次食品技師考試暨普通考試不動產經紀人、記帳士考試", "original_question_number": 17, "answer_corrected": false, "flags": [], "slug": "bookkeeper", "db_exam_id": "bookkeeper"}'::jsonb, NULL),
+  ('bookkeeper-moex-00738', 'bookkeeper', 'bookkeeper-moex-108-d35177eb', 'sub-bookkeeper-01', NULL, 'single_choice', '甲公司於2019年4月1日以102加計應計利息發行面額為$1,000,000，利率9%之應付公司 債。該公司債所記載之日期為2019年1月1日發行，每年於1月1日及7月1日各付息一 次。甲公司另外支付$15,000 的債券發行成本。試問甲公司可自本次公司債之發行收到多少 現金？', '["$1,020,000", "$1,042,500", "$1,027,500", "$1,030,000"]'::jsonb, 2, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:24+00:00", "source_pdf_sha1": "d0d40697ef66", "answer_pdf_sha1": "926cc170d901", "source_family": "moex-gov-tw", "moex": {"exam_code": "108180", "c": "602", "s": "1201", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "會計學概要", "year": "108", "exam_name": "108年專門職業及技術人員高等考試建築師、技師、第二次食品技師考試暨普通考試不動產經紀人、記帳士考試", "original_question_number": 18, "answer_corrected": false, "flags": [], "slug": "bookkeeper", "db_exam_id": "bookkeeper"}'::jsonb, NULL),
+  ('bookkeeper-moex-00739', 'bookkeeper', 'bookkeeper-moex-108-d35177eb', 'sub-bookkeeper-01', NULL, 'single_choice', '厚富公司所生產的柳橙汁之標準成本如下： 標準數量(小時) 標準價格(費率) 直接材料 5磅 $?（每磅） 直接人工 2小時 $16（每小時） 變動製造費用 1.8小時 $10（每小時） 若每一瓶柳橙汁的標準變動成本為$58，則直接材料的標準價格為何？', '["$1.74", "$4.60", "$2.50", "$1.60"]'::jsonb, 3, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:24+00:00", "source_pdf_sha1": "d0d40697ef66", "answer_pdf_sha1": "926cc170d901", "source_family": "moex-gov-tw", "moex": {"exam_code": "108180", "c": "602", "s": "1201", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "會計學概要", "year": "108", "exam_name": "108年專門職業及技術人員高等考試建築師、技師、第二次食品技師考試暨普通考試不動產經紀人、記帳士考試", "original_question_number": 19, "answer_corrected": false, "flags": [], "slug": "bookkeeper", "db_exam_id": "bookkeeper"}'::jsonb, NULL),
+  ('bookkeeper-moex-00740', 'bookkeeper', 'bookkeeper-moex-108-d35177eb', 'sub-bookkeeper-01', NULL, 'single_choice', '安吉公司在 2018 年的財務報表顯示下列資料：本期淨利$480,000，應收帳款減少$10,000， 存貨增加$25,000，預付費用增加$18,000；應付帳款增加$27,000，遞延所得稅負債減少 $15,000；當年折舊費用為$80,000，債券投資溢價攤銷數為$6,000；應付公司債折價攤銷數 為$20,000；出售機器利得$55,000。試問安吉公司在2018年來自營業活動的現金流量為：', '["$470,000", "$510,000", "$560,000", "$498,000"]'::jsonb, 1, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:24+00:00", "source_pdf_sha1": "d0d40697ef66", "answer_pdf_sha1": "926cc170d901", "source_family": "moex-gov-tw", "moex": {"exam_code": "108180", "c": "602", "s": "1201", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "會計學概要", "year": "108", "exam_name": "108年專門職業及技術人員高等考試建築師、技師、第二次食品技師考試暨普通考試不動產經紀人、記帳士考試", "original_question_number": 20, "answer_corrected": false, "flags": [], "slug": "bookkeeper", "db_exam_id": "bookkeeper"}'::jsonb, NULL),
+  ('bookkeeper-moex-00741', 'bookkeeper', 'bookkeeper-moex-108-cb3b9dc5', 'sub-bookkeeper-02', NULL, 'essay', '請依我國現行加值型及非加值型營業稅法之相關規定，回答下列問題：
+（請詳列計算式，否則不予計分）
+甲公司係一專營應稅營業人，民國 108 年 7、8 月份與營業稅有關資
+料如下：
+㉑開立三聯式統一發票 300份：應稅銷售額新臺幣（下同）4,500,000 元
+（不含稅），稅額225,000元，其中包括固定資產 500,000 元（不含稅），
+稅額 25,000元。
+㉒開立二聯式統一發票 250份：應稅銷售額 2,625,000 元（含稅）。
+㉓零稅率銷售額1,200,000元。
+㉔上期應稅銷售額 200,000 元（不含稅），稅額 10,000 元，於本期退回。
+㉕本期進貨及費用支出合計 12,500,000 元（不含稅），稅額 625,000 元，
+取得三聯式統一發票扣抵聯，其中包括：⑴對公益、慈善團體捐贈而
+購買之貨物 360,000 元（不含稅），稅額 18,000元；⑵文具用品 30,000
+元（不含稅），稅額 1,500元；⑶為招待客戶所支付之住宿費及餽贈之
+禮品共計200,000 元（不含稅），稅額 10,000元。
+㉖本期購買固定資產（機器設備）6,000,000 元（不含稅），稅額 300,000
+元，取得三聯式統一發票扣抵聯。
+㉗進口貨物（非固定資產）經海關核定之完稅價格為 5,000,000 元，進
+口稅捐 1,000,000元，商港服務費200,000元，貨物稅 900,000 元。
+㉘購置自用乘人小汽車 3,000,000元（不含稅），稅額 150,000 元。
+㉙上期進貨 20,000 元，於本期退出，收回稅額 1,000 元。
+㉚上期累積留抵稅額 0元。
+請根據上述資料，計算甲公司之本期銷項稅額、本期得扣抵進項稅額、
+本期應繳（應退、留抵）稅額。（20 分）
+舒活公司係一生鮮水果經銷商，為兼營營業人，民國 108 年 7、8 月
+份與營業稅有關資料如下：
+㉑在國內銷售生鮮水果新臺幣（下同）300萬元；外銷生鮮水果200萬元。
+㉒從國外進口生鮮水果完稅價格400 萬元，關稅 40 萬元。
+請根據上述資料，計算舒活公司之本期得扣抵進項稅額及本期應繳（應
+退）稅額。（10分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:24+00:00", "source_pdf_sha1": "72f0a46a7561", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "108180", "c": "602", "s": "1203", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "租稅申報實務", "year": "108", "exam_name": "108年專門職業及技術人員高等考試建築師、技師、第二次食品技師考試暨普通考試不動產經紀人、記帳士考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "slug": "bookkeeper", "db_exam_id": "bookkeeper"}'::jsonb, NULL)
+ON CONFLICT (id) DO NOTHING;

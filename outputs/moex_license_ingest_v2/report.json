@@ -1,0 +1,30 @@
+{
+  "new_exams": [
+    "structural-eng",
+    "optician",
+    "optometrist"
+  ],
+  "new_subjects": 49,
+  "new_papers": 1071,
+  "new_questions": 47389,
+  "q_batches": 4739,
+  "paper_batches": 11,
+  "per_slug": {
+    "accountant": 62,
+    "bookkeeper": 304,
+    "appraiser": 204,
+    "brokers": 1807,
+    "land": 250,
+    "socialworker": 5069,
+    "civilengineering": 22,
+    "publichealth": 286,
+    "dietitian": 7752,
+    "food": 683,
+    "mt": 20415,
+    "fire-equipment-engineer": 1046,
+    "fire-equipment-technician": 2337,
+    "structural": 545,
+    "optician": 2825,
+    "optometrist": 3782
+  }
+}

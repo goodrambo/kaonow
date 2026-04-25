@@ -1,0 +1,61 @@
+-- moex_license_ingest questions batch 77/330 (50 rows)
+
+INSERT INTO public.questions (id, exam_id, paper_id, subject_id, chapter_id, question_type, question_text, options, correct_answer, correct_answer_json, auto_gradable, source, is_active, version, source_meta, explanation)
+VALUES
+('real-estate-appraiser-moex-00212', 'real-estate-appraiser', 'real-estate-appraiser-moex-104-bceca813', 'sub-real-estate-appraiser-02', NULL, 'essay', '試問需進行租賃權價值評估之情況為何？假設某出租土地面積為100 坪，租期尚餘2年，
+目前每年支付租金為新臺幣 3,500 元／坪，若市場經濟租金為新臺幣 5,500 元／坪，
+則租賃權價格為多少？並請據此說明差額租金還原法之應用限制（假設折現率為
+10%）。（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:31+00:00", "source_pdf_sha1": "8b8a6d873c75", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "104130", "c": "905", "s": "0306", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "不動產估價理論", "year": "104", "exam_name": "104年專門職業及技術人員高等考試會計師、不動產估價師、專利師考試", "original_question_number": "三", "answer_corrected": false, "flags": [], "slug": "appraiser", "db_exam_id": "real-estate-appraiser"}'::jsonb, NULL),
+  ('real-estate-appraiser-moex-00213', 'real-estate-appraiser', 'real-estate-appraiser-moex-104-bceca813', 'sub-real-estate-appraiser-02', NULL, 'essay', '某建築商要購買一塊住宅區土地，興建大廈出售，請問如何運用土地開發分析方式，
+評估其正常價格？（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:31+00:00", "source_pdf_sha1": "8b8a6d873c75", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "104130", "c": "905", "s": "0306", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "不動產估價理論", "year": "104", "exam_name": "104年專門職業及技術人員高等考試會計師、不動產估價師、專利師考試", "original_question_number": "四", "answer_corrected": false, "flags": [], "slug": "appraiser", "db_exam_id": "real-estate-appraiser"}'::jsonb, NULL),
+  ('real-estate-appraiser-moex-00214', 'real-estate-appraiser', 'real-estate-appraiser-moex-104-5e22d328', 'sub-real-estate-appraiser-03', NULL, 'essay', '王先生觀察不動產市場的長期趨勢，擬選擇不動產作為投資工具。限於資金不夠充裕，
+他正在考慮投資不動產投資信託基金。下列不動產投資信託證券化相關基金的資料如下：
+投資標的  年報酬率（%）  標準差（%）
+A房地產證券化基金  21  17
+B房地產指數基金  30  11
+C房地產證券化基金  17  14
+D亞太房地產基金  23  13
+E歐洲房地產基金  13  9
+相關係數：ρ =0.4，ρ =0.5，ρ =0.2，ρ =0.8，ρ =0.7
+AB CD DE BE CE
+請問不動產投資信託基金與實體的不動產投資在經營的主體和流動性方面有何不
+同？（5分）
+投資人若擬選擇單一標的進行投資，請以平均數變異數準則（Mean-Variance
+Criterion, MVC）和變異係數（Coefficient of Variation, CV）判斷較佳的投資標的
+為何？並說明之。（10分）
+投資人若擬在以下 AB、CD、DE、BE、CE 等標的投資組合中選擇較佳之投資標
+的，其中投資組合內各投資標的投資比例各為 50%，請計算各該組合之利潤與風
+險，判斷較佳的投資組合為何？並說明之。（10分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:31+00:00", "source_pdf_sha1": "457c9583649a", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "104130", "c": "905", "s": "0303", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "不動產投資分析", "year": "104", "exam_name": "104年專門職業及技術人員高等考試會計師、不動產估價師、專利師考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "slug": "appraiser", "db_exam_id": "real-estate-appraiser"}'::jsonb, NULL),
+  ('real-estate-appraiser-moex-00215', 'real-estate-appraiser', 'real-estate-appraiser-moex-104-5e22d328', 'sub-real-estate-appraiser-03', NULL, 'essay', '某君擬投資一辦公大樓，經該大樓提供過去之財務報表資料及對未來景氣研判，得
+知情境如下：
+該大樓平均每年之租金收入為新臺幣 3,000 萬元，營運費用為每年新臺幣 1,000
+萬元
+銀行可貸款7成，貸款利率 5%，15年內每年等額平均償還本息
+研判景氣持穩，預估未來 3 年內該大樓無閒置空間情況，且營運總收益自投資後
+第 2年起逐年穩定成長 5%，營運費用每年增加2%，第 4年後不再成長
+利率因子參考值
+年金現值利率因子  PVIFA(5%,15)  10.3797
+現值利率因子  PVIF(5%,15)  0.4810
+終值利率因子  FVIF(5%,15)  2.0789
+年金終值利率因子  FVIFA(5%,15)  21.579
+請問，在自有資金要求之報酬率為10%且不考慮稅賦之情況下，該辦公大樓在第
+1、2、3年年初時之合理價格應各為若干？（25分）
+（請接背面）
+104年 專 門 職 業 及 技 術 人 員 高 等 考 試   全一張
+會計師、不動產估價師、專利師考試試題  （背面）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:31+00:00", "source_pdf_sha1": "457c9583649a", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "104130", "c": "905", "s": "0303", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "不動產投資分析", "year": "104", "exam_name": "104年專門職業及技術人員高等考試會計師、不動產估價師、專利師考試", "original_question_number": "二", "answer_corrected": false, "flags": [], "slug": "appraiser", "db_exam_id": "real-estate-appraiser"}'::jsonb, NULL),
+  ('real-estate-appraiser-moex-00216', 'real-estate-appraiser', 'real-estate-appraiser-moex-104-5e22d328', 'sub-real-estate-appraiser-03', NULL, 'essay', '假設陳老先生退休後擁有一棟房屋價值新臺幣 500 萬元，向 A 銀行辦理逆向年金抵
+押貸款（Reverse annuity mortgage, RAM），雙方約定貸款年利率為12%，按月本利
+均等攤還，還款期限 10年，貸款餘額上限為新臺幣300萬元，試問：
+陳老先生每月月初可自A銀行領取多少錢？（8分）
+第 3年年底此一逆向年金抵押貸款餘額（RAM balance）將是多少元？（5分）
+假設陳老先生希望前 5 年每月初都可自 A 銀行領得新臺幣 14,851.5 元，在貸款餘
+額上限與還款期限都不變的情況下，自第 6 年起，陳老先生每月月初可自 A 銀行
+領取多少錢？（12分）
+（註：可應用以下利率因子：
+PVIFA(12%,3)=2.401831；  FVIFA(12%,3)=3.374400；  PVIFA(12%,5)=3.604776；
+FVIFA(12%,5)=6.352847；  PVIF(12%,5)=0.567427；  FVIF(12%,5)=1.762342；
+PVIFA(12%,10)=5.650223； FVIFA(12%,10)=17.548735； SFF(12%,10)=0.056984；
+PVIFA(1%,36)=30.107505； FVIFA(1%,36)=43.076878；  PVIFA(1%,60)=44.955038；
+FVIFA(1%,60)=81.669670； PVIF(1%,60)=0.550450；  FVIF(1%,60)=1.816697；
+PVIFA(1%,120)=69.700522； FVIFA(1%,120)=230.038689； SFF(1%,120)=0.004347）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:31+00:00", "source_pdf_sha1": "457c9583649a", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "104130", "c": "905", "s": "0303", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "不動產投資分析", "year": "104", "exam_name": "104年專門職業及技術人員高等考試會計師、不動產估價師、專利師考試", "original_question_number": "三", "answer_corrected": false, "flags": [], "slug": "appraiser", "db_exam_id": "real-estate-appraiser"}'::jsonb, NULL)
+ON CONFLICT (id) DO NOTHING;

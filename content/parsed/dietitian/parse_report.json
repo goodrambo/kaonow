@@ -1,0 +1,38 @@
+{
+  "slug": "dietitian",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T04:31:03+00:00",
+  "paper_count": 90,
+  "paper_with_questions": 90,
+  "question_count": 3937,
+  "type_counts": {
+    "single_choice": 3755,
+    "essay": 182
+  },
+  "issues": [
+    {
+      "year": "100",
+      "subject": "公共衛生營養學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 41,
+      "answers": 0
+    },
+    {
+      "year": "100",
+      "subject": "膳食療養學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 40,
+      "answers": 0
+    },
+    {
+      "year": "100",
+      "subject": "食品衛生與安全",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 40,
+      "answers": 0
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+-- moex_license_ingest questions batch 78/330 (50 rows)
+
+INSERT INTO public.questions (id, exam_id, paper_id, subject_id, chapter_id, question_type, question_text, options, correct_answer, correct_answer_json, auto_gradable, source, is_active, version, source_meta, explanation)
+VALUES
+('real-estate-appraiser-moex-00222', 'real-estate-appraiser', 'real-estate-appraiser-moex-104-707b521e', 'sub-real-estate-appraiser-05', NULL, 'essay', '公告實施區域計畫地區之非都市土地，經劃定使用分區並編定使用地類別後，應依
+其容許使用之項目及許可使用細目使用管制。但中央目的事業主管機關在何種條件
+及踐行那些程序後，得核准為臨時使用？又應如何做好後續聯繫、監督作為？試依
+區域計畫法及非都市土地使用管制規則相關規定述明之。（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:31+00:00", "source_pdf_sha1": "a3ce1f1ef0e2", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "104130", "c": "905", "s": "0302", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "土地利用法規", "year": "104", "exam_name": "104年專門職業及技術人員高等考試會計師、不動產估價師、專利師考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "slug": "appraiser", "db_exam_id": "real-estate-appraiser"}'::jsonb, NULL),
+  ('real-estate-appraiser-moex-00223', 'real-estate-appraiser', 'real-estate-appraiser-moex-104-707b521e', 'sub-real-estate-appraiser-05', NULL, 'essay', '依都市計畫法之規定，新市區實質建設之事業為都市計畫事業之一，請問直轄市、
+縣（市）政府擬舉辦新市區之建設時，應於何時及選定那些地區為之？該新市區建
+設之事業計畫，其擬定應包括那些要項？（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:31+00:00", "source_pdf_sha1": "a3ce1f1ef0e2", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "104130", "c": "905", "s": "0302", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "土地利用法規", "year": "104", "exam_name": "104年專門職業及技術人員高等考試會計師、不動產估價師、專利師考試", "original_question_number": "二", "answer_corrected": false, "flags": [], "slug": "appraiser", "db_exam_id": "real-estate-appraiser"}'::jsonb, NULL),
+  ('real-estate-appraiser-moex-00224', 'real-estate-appraiser', 'real-estate-appraiser-moex-104-707b521e', 'sub-real-estate-appraiser-05', NULL, 'essay', '依都市更新法令規定，以權利變換方式實施都市更新時，權利變換範圍內未列為道
+路等七項共同負擔之公共設施，於土地及建築物分配時，除原有土地所有權人提出
+申請分配者外，以原公有土地應分配部分，優先指配。茲試問該優先指配之順序為
+何？（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:31+00:00", "source_pdf_sha1": "a3ce1f1ef0e2", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "104130", "c": "905", "s": "0302", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "土地利用法規", "year": "104", "exam_name": "104年專門職業及技術人員高等考試會計師、不動產估價師、專利師考試", "original_question_number": "三", "answer_corrected": false, "flags": [], "slug": "appraiser", "db_exam_id": "real-estate-appraiser"}'::jsonb, NULL),
+  ('real-estate-appraiser-moex-00225', 'real-estate-appraiser', 'real-estate-appraiser-moex-104-707b521e', 'sub-real-estate-appraiser-05', NULL, 'essay', '被徵收土地權利關係人對於徵收土地公告事項，如有異議者，得於何時、向何機關
+及以何方式提出？又如係對於徵收補償價額有異議者，受理機關應如何處理？請就
+土地徵收條例相關規定，詳予述明之。（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:31+00:00", "source_pdf_sha1": "a3ce1f1ef0e2", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "104130", "c": "905", "s": "0302", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "土地利用法規", "year": "104", "exam_name": "104年專門職業及技術人員高等考試會計師、不動產估價師、專利師考試", "original_question_number": "四", "answer_corrected": false, "flags": [], "slug": "appraiser", "db_exam_id": "real-estate-appraiser"}'::jsonb, NULL),
+  ('real-estate-appraiser-moex-00226', 'real-estate-appraiser', 'real-estate-appraiser-moex-104-9cd45b90', 'sub-real-estate-appraiser-06', NULL, 'essay', '甲、乙、丙三人共有土地一筆，甲將其應有部分為債權人 A 設定抵押權。嗣後共有
+土地分割，A 之抵押權如何處理？又若因裁判分割結果，丙未能按其應有部分受分
+配時，依法如何保障丙的權益？試申論之。（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:31+00:00", "source_pdf_sha1": "ad16a7875ea5", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "104130", "c": "905", "s": "0301", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "民法物權與不動產法規", "year": "104", "exam_name": "104年專門職業及技術人員高等考試會計師、不動產估價師、專利師考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "slug": "appraiser", "db_exam_id": "real-estate-appraiser"}'::jsonb, NULL)
+ON CONFLICT (id) DO NOTHING;

@@ -1,0 +1,44 @@
+-- W1.4 new questions batch 3705/4739 (10)
+
+INSERT INTO public.questions (id, exam_id, paper_id, subject_id, chapter_id, question_type, question_text, options, correct_answer, correct_answer_json, auto_gradable, source, is_active, version, source_meta, explanation)
+VALUES
+  ('fire-eq-eng-moex-00353', 'fire-eq-eng', 'fire-eq-eng-moex-111-39deabb9', 'sub-fire-eq-eng-03', NULL, 'essay', '有一乙醇儲桶，其長3 m、寬 2 m、高1.8 m，放置於樓地板面，現擬採
+二氧化碳局部放射設計（高壓），其所需滅火藥劑量為何？若長邊靠牆且
+寬邊距另一牆 0.4 m，其所需滅火藥劑量為何？其滅火藥劑儲存容器，
+設置規定為何？（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T07:11:15+00:00", "source_pdf_sha1": "f604e19ab064", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111060", "c": "401", "s": "0806", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "化學系統消防安全設備", "year": "111", "exam_name": "111年專技人員高等考試大地工程技師考試分階段考試（第一階段考試）、驗船師、第一次食品技師考試、高等暨普通考試消防設備人員考試、普通考試地政...", "original_question_number": "二", "answer_corrected": false, "flags": [], "slug": "fire-equipment-engineer", "db_exam_id": "fire-eq-eng"}'::jsonb, NULL),
+  ('fire-eq-eng-moex-00354', 'fire-eq-eng', 'fire-eq-eng-moex-111-39deabb9', 'sub-fire-eq-eng-03', NULL, 'essay', '海龍替代品滅火藥劑中，請說明IG541、IG100、IG01、FM200（HFC-227ea）
+及 FE-25（HFC-125）之成分與化學式？若 IG541之滅火設計濃度為 0.4
+（40%）、FE-25滅火設計濃度為 0.08（8%）且 NOAEL為 0.075（7.5%），
+試問若此二化學藥劑放射時，才發現有人員受困於放射現場，此時救災
+人員所需配戴呼吸防護器具有何差異並請說明原因？又此二滅火藥劑之
+主要滅火原理之差異為何？（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T07:11:15+00:00", "source_pdf_sha1": "f604e19ab064", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111060", "c": "401", "s": "0806", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "化學系統消防安全設備", "year": "111", "exam_name": "111年專技人員高等考試大地工程技師考試分階段考試（第一階段考試）、驗船師、第一次食品技師考試、高等暨普通考試消防設備人員考試、普通考試地政...", "original_question_number": "三", "answer_corrected": false, "flags": [], "slug": "fire-equipment-engineer", "db_exam_id": "fire-eq-eng"}'::jsonb, NULL),
+  ('fire-eq-eng-moex-00355', 'fire-eq-eng', 'fire-eq-eng-moex-111-39deabb9', 'sub-fire-eq-eng-03', NULL, 'essay', '某光電廠之製程中會使用到如三甲基鋁等禁水性物質，此場所外牆為非
+防火構造，長 40 m、寬 15 m，試求此場所所需的最低滅火效能值為多
+少？如欲採用膨脹蛭石為其滅火設備（第五種滅火設備），則需設置多少
+公升的膨脹蛭石？若該製造場所依國際保險公司要求將外牆改為防火
+構造，則需設置多少公升的膨脹蛭石？（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T07:11:15+00:00", "source_pdf_sha1": "f604e19ab064", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111060", "c": "401", "s": "0806", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "化學系統消防安全設備", "year": "111", "exam_name": "111年專技人員高等考試大地工程技師考試分階段考試（第一階段考試）、驗船師、第一次食品技師考試、高等暨普通考試消防設備人員考試、普通考試地政...", "original_question_number": "四", "answer_corrected": false, "flags": [], "slug": "fire-equipment-engineer", "db_exam_id": "fire-eq-eng"}'::jsonb, NULL),
+  ('fire-eq-eng-moex-00356', 'fire-eq-eng', 'fire-eq-eng-moex-111-990845ec', 'sub-fire-eq-eng-04', NULL, 'essay', '某三層建築物經檢討後設置密閉濕式自動撒水設備。室內各場所經量測
+平常最高周圍溫度，獲得有 32、45 及 60℃三種溫度。請說明各最高周
+圍溫度不同場所應選用之密閉式撒水頭標示溫度範圍及密閉式撒水頭
+動作溫度試驗之測試條件分別為何？（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T07:11:15+00:00", "source_pdf_sha1": "256463a9692f", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111060", "c": "401", "s": "0805", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "水系統消防安全設備", "year": "111", "exam_name": "111年專技人員高等考試大地工程技師考試分階段考試（第一階段考試）、驗船師、第一次食品技師考試、高等暨普通考試消防設備人員考試、普通考試地政...", "original_question_number": "一", "answer_corrected": false, "flags": [], "slug": "fire-equipment-engineer", "db_exam_id": "fire-eq-eng"}'::jsonb, NULL),
+  ('fire-eq-eng-moex-00357', 'fire-eq-eng', 'fire-eq-eng-moex-111-990845ec', 'sub-fire-eq-eng-04', NULL, 'essay', '請說明消防幫浦孔蝕現象（Cavitation）與淨正吸水頭（Netpositivesuction
+headrequired,NPSHR）之關聯性。避免孔蝕現象發生可採取之方式為何？
+（25 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T07:11:15+00:00", "source_pdf_sha1": "256463a9692f", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111060", "c": "401", "s": "0805", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "水系統消防安全設備", "year": "111", "exam_name": "111年專技人員高等考試大地工程技師考試分階段考試（第一階段考試）、驗船師、第一次食品技師考試、高等暨普通考試消防設備人員考試、普通考試地政...", "original_question_number": "二", "answer_corrected": false, "flags": [], "slug": "fire-equipment-engineer", "db_exam_id": "fire-eq-eng"}'::jsonb, NULL),
+  ('fire-eq-eng-moex-00358', 'fire-eq-eng', 'fire-eq-eng-moex-111-990845ec', 'sub-fire-eq-eng-04', NULL, 'essay', '某五層建築物，經檢討後各層設置二只第一種室內消防栓。消防幫浦設
+置於地上一層。竣工後，經測量地上一層二只室內消防栓瞄子有較高之
+放水壓力，分別為 3.6 與 4.0kgf/cm2。請說明：
+依規定是否需採取有效減壓措施？（5分）
+設置之配管除材質要求外，其它規定為何？（10分）
+水源容量最少值應為多少？以使消防栓得以持續放水20分鐘。已知瞄
+子口徑為13 mm。（10分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T07:11:15+00:00", "source_pdf_sha1": "256463a9692f", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111060", "c": "401", "s": "0805", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "水系統消防安全設備", "year": "111", "exam_name": "111年專技人員高等考試大地工程技師考試分階段考試（第一階段考試）、驗船師、第一次食品技師考試、高等暨普通考試消防設備人員考試、普通考試地政...", "original_question_number": "三", "answer_corrected": false, "flags": [], "slug": "fire-equipment-engineer", "db_exam_id": "fire-eq-eng"}'::jsonb, NULL),
+  ('fire-eq-eng-moex-00359', 'fire-eq-eng', 'fire-eq-eng-moex-111-990845ec', 'sub-fire-eq-eng-04', NULL, 'essay', '請說明自動撒水設備之流水檢知裝置依其動作方式區分種類為何？其
+中，乾式與預動式流水檢知裝置動作原理，及二次側配管側經防腐蝕處
+理後，有效排水之裝置規定分別為何？（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T07:11:15+00:00", "source_pdf_sha1": "256463a9692f", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111060", "c": "401", "s": "0805", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "水系統消防安全設備", "year": "111", "exam_name": "111年專技人員高等考試大地工程技師考試分階段考試（第一階段考試）、驗船師、第一次食品技師考試、高等暨普通考試消防設備人員考試、普通考試地政...", "original_question_number": "四", "answer_corrected": false, "flags": [], "slug": "fire-equipment-engineer", "db_exam_id": "fire-eq-eng"}'::jsonb, NULL),
+  ('fire-eq-eng-moex-00360', 'fire-eq-eng', 'fire-eq-eng-moex-111-d69d8efd', 'sub-fire-eq-eng-01', NULL, 'essay', '消防安全設備檢修申報複查方式中之「確認性複查」之執行重點為
+何？（9分）另檢修申報發現之違規態樣之處置為何？請分別詳述之。
+（16 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T07:11:15+00:00", "source_pdf_sha1": "3e004211f84c", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111060", "c": "401", "s": "0802", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "消防法規", "year": "111", "exam_name": "111年專技人員高等考試大地工程技師考試分階段考試（第一階段考試）、驗船師、第一次食品技師考試、高等暨普通考試消防設備人員考試、普通考試地政...", "original_question_number": "一", "answer_corrected": false, "flags": [], "slug": "fire-equipment-engineer", "db_exam_id": "fire-eq-eng"}'::jsonb, NULL),
+  ('fire-eq-eng-moex-00361', 'fire-eq-eng', 'fire-eq-eng-moex-111-d69d8efd', 'sub-fire-eq-eng-01', NULL, 'essay', '有關公共危險物品之製造場所或一般處理場所，其四周保留空地寬度
+之規定為何？（10 分）另有那些情形得不受前項距離規定之限制？
+請詳述之。（15分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T07:11:15+00:00", "source_pdf_sha1": "3e004211f84c", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111060", "c": "401", "s": "0802", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "消防法規", "year": "111", "exam_name": "111年專技人員高等考試大地工程技師考試分階段考試（第一階段考試）、驗船師、第一次食品技師考試、高等暨普通考試消防設備人員考試、普通考試地政...", "original_question_number": "二", "answer_corrected": false, "flags": [], "slug": "fire-equipment-engineer", "db_exam_id": "fire-eq-eng"}'::jsonb, NULL),
+  ('fire-eq-eng-moex-00362', 'fire-eq-eng', 'fire-eq-eng-moex-111-d69d8efd', 'sub-fire-eq-eng-01', NULL, 'single_choice', '依消防法規定，下列敘述何者與規定不符？', '["本法所稱管理權人係指依法令或契約對各該場所有實際支配管理權者；其屬法人者，為其 負責人", "消防主管機關：在中央為內政部；在直轄市為直轄市政府；在縣（市）為縣（市）政府", "直轄市、縣（市）政府，應每半年定期舉辦防火教育及宣導，並由機關、學校、團體及大 眾傳播機構協助推行", "本法所定各類場所之管理權人對其實際支配管理之場所，應設置並維護其消防安全設備"]'::jsonb, 2, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T07:11:15+00:00", "source_pdf_sha1": "3e004211f84c", "answer_pdf_sha1": "8a19caca295e", "source_family": "moex-gov-tw", "moex": {"exam_code": "111060", "c": "401", "s": "0802", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "消防法規", "year": "111", "exam_name": "111年專技人員高等考試大地工程技師考試分階段考試（第一階段考試）、驗船師、第一次食品技師考試、高等暨普通考試消防設備人員考試、普通考試地政...", "original_question_number": 1, "answer_corrected": false, "flags": [], "slug": "fire-equipment-engineer", "db_exam_id": "fire-eq-eng"}'::jsonb, NULL)
+ON CONFLICT (id) DO NOTHING;

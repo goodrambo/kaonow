@@ -1,0 +1,414 @@
+{
+  "slug": "land",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T07:10:17+00:00",
+  "paper_count": 138,
+  "paper_with_questions": 50,
+  "question_count": 250,
+  "type_counts": {
+    "essay": 188,
+    "single_choice": 62
+  },
+  "issues": [
+    {
+      "year": "114",
+      "subject": "國文（作文）",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "113",
+      "subject": "國文（作文）",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "112",
+      "subject": "國文（作文）",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "112",
+      "subject": "土地法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "國文（作文）",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "111",
+      "subject": "土地法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "國文（作文）",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "110",
+      "subject": "土地法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "109",
+      "subject": "國文（作文）",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "109",
+      "subject": "土地法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "108",
+      "subject": "國文（作文）",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "107",
+      "subject": "土地法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "106",
+      "subject": "土地法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "106",
+      "subject": "土地登記實務",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "106",
+      "subject": "民法概要與信託法概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "105",
+      "subject": "土地法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "105",
+      "subject": "土地登記實務",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "105",
+      "subject": "土地稅法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "105",
+      "subject": "民法概要與信託法概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "104",
+      "subject": "國文（作文與測驗）",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "104",
+      "subject": "土地法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "104",
+      "subject": "土地登記實務",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "104",
+      "subject": "土地稅法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "104",
+      "subject": "民法概要與信託法概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "103",
+      "subject": "國文（作文與測驗）",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "103",
+      "subject": "土地法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "103",
+      "subject": "土地登記實務",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "103",
+      "subject": "土地稅法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "103",
+      "subject": "民法概要與信託法概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "102",
+      "subject": "國文（作文與測驗）",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "102",
+      "subject": "土地法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "102",
+      "subject": "土地登記實務",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "102",
+      "subject": "土地稅法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "102",
+      "subject": "民法概要與信託法概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "101",
+      "subject": "國文（作文與測驗）",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "101",
+      "subject": "土地法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "101",
+      "subject": "土地登記實務",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "101",
+      "subject": "土地稅法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "101",
+      "subject": "民法概要與信託法概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "100",
+      "subject": "國文（作文與測驗）",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "100",
+      "subject": "土地法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "100",
+      "subject": "土地登記實務",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "100",
+      "subject": "土地稅法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "100",
+      "subject": "民法概要與信託法概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "099",
+      "subject": "國文（作文與測驗）",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "099",
+      "subject": "土地法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "099",
+      "subject": "土地登記實務",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "099",
+      "subject": "土地稅法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "099",
+      "subject": "民法概要與信託法概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "098",
+      "subject": "國文(作文與測驗)",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+INSERT INTO public.questions (id, exam_id, paper_id, subject_id, chapter_id, question_type, question_text, options, correct_answer, correct_answer_json, auto_gradable, source, is_active, version, source_meta, explanation)
+VALUES
+  ('cpa-moex-00426', 'cpa', 'cpa-moex-111-9bdab6d6', 'sub-cpa-05', NULL, 'single_choice', '乙公司 110 年度全年度所得額為 500 萬元，其中包括停徵所得稅之有價證券交易所得額 250 萬 元，及出售土地免稅所得50萬元，其依所得基本稅額條例計算之基本稅額為何？', '["54萬元", "48萬元", "30萬元", "24萬元"]'::jsonb, 1, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:04+00:00", "source_pdf_sha1": "5c80d29458d1", "answer_pdf_sha1": "cceb704b8470", "source_family": "moex-gov-tw", "moex": {"exam_code": "111140", "c": "803", "s": "0203", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "稅務法規", "year": "111", "exam_name": "111年專門職業及技術人員高等考試會計師、不動產估價師、專利師、民間之公證人考試", "original_question_number": 9, "answer_corrected": false, "flags": [], "slug": "accountant", "db_exam_id": "cpa"}'::jsonb, NULL),
+  ('cpa-moex-00427', 'cpa', 'cpa-moex-111-9bdab6d6', 'sub-cpa-05', NULL, 'single_choice', '公司未依規定期限辦理營利事業所得稅結算申報，依所得稅法相關規定，下列敘述何者正確？', '["公司接到稽徵機關填發之滯報通知書之日起 15 日內補辦結算申報，按核定應納稅額另徵 20% 怠報金", "公司接到稽徵機關填發之滯報通知書之日起 15 日內補辦結算申報，按核定應納稅額另徵 10% 滯報金", "公司接到稽徵機關填發之滯報通知書後仍未補辦申報，按同業利潤標準核定所得額，補稅並加 徵滯納金", "公司接到稽徵機關填發之滯報通知書後補辦結算申報，按補繳稅額加計利息，免予處罰"]'::jsonb, 1, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:04+00:00", "source_pdf_sha1": "5c80d29458d1", "answer_pdf_sha1": "cceb704b8470", "source_family": "moex-gov-tw", "moex": {"exam_code": "111140", "c": "803", "s": "0203", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "稅務法規", "year": "111", "exam_name": "111年專門職業及技術人員高等考試會計師、不動產估價師、專利師、民間之公證人考試", "original_question_number": 10, "answer_corrected": false, "flags": [], "slug": "accountant", "db_exam_id": "cpa"}'::jsonb, NULL),
+  ('cpa-moex-00428', 'cpa', 'cpa-moex-111-9bdab6d6', 'sub-cpa-05', NULL, 'single_choice', '依加值型及非加值型營業稅法規定，有關營業稅之課徵，下列敘述何者錯誤？', '["營業人因進貨退出或折讓而收回之營業稅額，得於發生進貨退出或折讓之次期進項稅額中扣減之", "加值型及非加值型營業稅法第 14 條所定之銷售額，為營業人銷售貨物或勞務所收取之全部代 價，包括營業人在貨物或勞務之價額外收取之一切費用。但本次銷售之營業稅額不在其內", "營業人自用乘人小汽車之進項稅額，不得扣抵銷項稅額", "典當業得依查定之銷售額計算之"]'::jsonb, 0, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:04+00:00", "source_pdf_sha1": "5c80d29458d1", "answer_pdf_sha1": "cceb704b8470", "source_family": "moex-gov-tw", "moex": {"exam_code": "111140", "c": "803", "s": "0203", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "稅務法規", "year": "111", "exam_name": "111年專門職業及技術人員高等考試會計師、不動產估價師、專利師、民間之公證人考試", "original_question_number": 11, "answer_corrected": false, "flags": [], "slug": "accountant", "db_exam_id": "cpa"}'::jsonb, NULL),
+  ('cpa-moex-00429', 'cpa', 'cpa-moex-111-9bdab6d6', 'sub-cpa-05', NULL, 'single_choice', '依加值型及非加值型營業稅法規定，營業人銷售下列何種貨物或勞務，不適用免徵營業稅？', '["報社銷售之廣告及電視臺之廣告播映", "土地", "碾米加工", "依第四章第二節規定計算稅額之營業人，銷售其非經常買進、賣出而持有之固定資產"]'::jsonb, 0, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:04+00:00", "source_pdf_sha1": "5c80d29458d1", "answer_pdf_sha1": "cceb704b8470", "source_family": "moex-gov-tw", "moex": {"exam_code": "111140", "c": "803", "s": "0203", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "稅務法規", "year": "111", "exam_name": "111年專門職業及技術人員高等考試會計師、不動產估價師、專利師、民間之公證人考試", "original_question_number": 12, "answer_corrected": false, "flags": [], "slug": "accountant", "db_exam_id": "cpa"}'::jsonb, NULL),
+  ('cpa-moex-00430', 'cpa', 'cpa-moex-111-9bdab6d6', 'sub-cpa-05', NULL, 'single_choice', '依加值型及非加值型營業稅法及相關規定，營業人是某觀光飯店，下列那一項進項稅額，不得扣 抵銷項稅額？', '["購買載運貨物用小貨車", "購置總經理專用五人座座車", "購買載運員工上、下班用大型客車", "購置至機場接送旅客之客貨兩用車"]'::jsonb, 1, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:04+00:00", "source_pdf_sha1": "5c80d29458d1", "answer_pdf_sha1": "cceb704b8470", "source_family": "moex-gov-tw", "moex": {"exam_code": "111140", "c": "803", "s": "0203", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "稅務法規", "year": "111", "exam_name": "111年專門職業及技術人員高等考試會計師、不動產估價師、專利師、民間之公證人考試", "original_question_number": 13, "answer_corrected": false, "flags": [], "slug": "accountant", "db_exam_id": "cpa"}'::jsonb, NULL),
+  ('cpa-moex-00431', 'cpa', 'cpa-moex-111-9bdab6d6', 'sub-cpa-05', NULL, 'single_choice', '依加值型及非加值型營業稅法及相關規定，有關統一發票之敘述，下列何者正確？', '["全部營業人皆可使用收銀機統一發票", "使用收銀機開立統一發票之營業人，亦適用「每日彙開發票」之規定", "使用發票之營業人，於開立發票時，應依時序開立", "營業人支付各項費用而取具載有買受人營利事業統一編號之進項發票，亦可參加統一發票兌奬"]'::jsonb, 2, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:04+00:00", "source_pdf_sha1": "5c80d29458d1", "answer_pdf_sha1": "cceb704b8470", "source_family": "moex-gov-tw", "moex": {"exam_code": "111140", "c": "803", "s": "0203", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "稅務法規", "year": "111", "exam_name": "111年專門職業及技術人員高等考試會計師、不動產估價師、專利師、民間之公證人考試", "original_question_number": 14, "answer_corrected": false, "flags": [], "slug": "accountant", "db_exam_id": "cpa"}'::jsonb, NULL),
+  ('cpa-moex-00432', 'cpa', 'cpa-moex-111-9bdab6d6', 'sub-cpa-05', NULL, 'single_choice', '依加值型及非加值型營業稅法規定，甲公司是一間銷售應稅貨物的零售商，假設本期甲公司總共 僅開立3張二聯式統一發票，金額分別為1,200元、5,000元及3,600元，甲公司本期依法應申報 之銷售額為多少？', '["490元", "9,333元", "9,800元", "10,290元"]'::jsonb, 1, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:04+00:00", "source_pdf_sha1": "5c80d29458d1", "answer_pdf_sha1": "cceb704b8470", "source_family": "moex-gov-tw", "moex": {"exam_code": "111140", "c": "803", "s": "0203", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "稅務法規", "year": "111", "exam_name": "111年專門職業及技術人員高等考試會計師、不動產估價師、專利師、民間之公證人考試", "original_question_number": 15, "answer_corrected": false, "flags": [], "slug": "accountant", "db_exam_id": "cpa"}'::jsonb, NULL),
+  ('cpa-moex-00433', 'cpa', 'cpa-moex-111-9bdab6d6', 'sub-cpa-05', NULL, 'single_choice', '依加值型及非加值型營業稅法及相關法規規定，為因應經濟特殊情況，調節物資供應，行政院得 對進口下列何種貨物機動調整應徵之營業稅？', '["蕎麥", "飼料", "麵粉", "玉米"]'::jsonb, 3, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:04+00:00", "source_pdf_sha1": "5c80d29458d1", "answer_pdf_sha1": "cceb704b8470", "source_family": "moex-gov-tw", "moex": {"exam_code": "111140", "c": "803", "s": "0203", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "稅務法規", "year": "111", "exam_name": "111年專門職業及技術人員高等考試會計師、不動產估價師、專利師、民間之公證人考試", "original_question_number": 16, "answer_corrected": false, "flags": [], "slug": "accountant", "db_exam_id": "cpa"}'::jsonb, NULL),
+  ('cpa-moex-00434', 'cpa', 'cpa-moex-111-9bdab6d6', 'sub-cpa-05', NULL, 'single_choice', 'A公司於110年7月1日出售1筆自營工廠用地，申報移轉現值總價為6,000萬元，繳納土地增 值稅800萬元，於110年12月1日重購另一筆自營工廠用地，申報移轉現值總價為5,600萬元， 依土地稅法第35條規定，A公司可以申請退還若干土地增值稅？', '["0元", "400萬元", "600萬元", "800萬元"]'::jsonb, 1, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:04+00:00", "source_pdf_sha1": "5c80d29458d1", "answer_pdf_sha1": "cceb704b8470", "source_family": "moex-gov-tw", "moex": {"exam_code": "111140", "c": "803", "s": "0203", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "稅務法規", "year": "111", "exam_name": "111年專門職業及技術人員高等考試會計師、不動產估價師、專利師、民間之公證人考試", "original_question_number": 17, "answer_corrected": false, "flags": [], "slug": "accountant", "db_exam_id": "cpa"}'::jsonb, NULL),
+  ('cpa-moex-00435', 'cpa', 'cpa-moex-111-9bdab6d6', 'sub-cpa-05', NULL, 'single_choice', '甲 107 年綜合所得稅結算申報，經國稅局查獲漏報其他所得，向其補徵稅額新臺幣 50 萬元，繳 款書繳納期間為109年9月1日至109年9月10日。嗣甲因受風災影響，依稅捐稽徵法第26條 規定，於109年9月2日向國稅局申請延期繳納，經國稅局核准延期繳納，變更繳納期間為109 年9月11日至109年12月10日，該筆稅款之徵收期間於何時屆滿？（題目及選項之期日或期 間末日均非例假日）', '["114年9月9日", "114年9月10日", "114年12月9日", "114年12月10日"]'::jsonb, 3, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:04+00:00", "source_pdf_sha1": "5c80d29458d1", "answer_pdf_sha1": "cceb704b8470", "source_family": "moex-gov-tw", "moex": {"exam_code": "111140", "c": "803", "s": "0203", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "稅務法規", "year": "111", "exam_name": "111年專門職業及技術人員高等考試會計師、不動產估價師、專利師、民間之公證人考試", "original_question_number": 18, "answer_corrected": false, "flags": [], "slug": "accountant", "db_exam_id": "cpa"}'::jsonb, NULL),
+  ('cpa-moex-00436', 'cpa', 'cpa-moex-111-9bdab6d6', 'sub-cpa-05', NULL, 'single_choice', '甲公司因漏開統一發票致短漏報銷售額，經國稅局補徵營業稅新臺幣（下同）100 萬元，該筆稅 款繳納期間為111年3月1日至111年3月10日，甲公司未提起行政救濟且於繳納期間屆滿30 日後仍未繳納，該筆稅款應加徵之滯納金為何？', '["15萬元", "10萬元", "7萬5千元", "5萬元"]'::jsonb, 1, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:04+00:00", "source_pdf_sha1": "5c80d29458d1", "answer_pdf_sha1": "cceb704b8470", "source_family": "moex-gov-tw", "moex": {"exam_code": "111140", "c": "803", "s": "0203", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "稅務法規", "year": "111", "exam_name": "111年專門職業及技術人員高等考試會計師、不動產估價師、專利師、民間之公證人考試", "original_question_number": 19, "answer_corrected": false, "flags": [], "slug": "accountant", "db_exam_id": "cpa"}'::jsonb, NULL),
+  ('cpa-moex-00437', 'cpa', 'cpa-moex-111-9bdab6d6', 'sub-cpa-05', NULL, 'single_choice', '依稅捐稽徵法規定，甲於111年5月15日繳納111年房屋稅，嗣發現稅捐稽徵機關適用稅率錯 誤，致溢繳稅款，其得自繳納之日起幾年內提出具體證明，申請退還？', '["5年", "10年", "15年", "無期限"]'::jsonb, 2, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:04+00:00", "source_pdf_sha1": "5c80d29458d1", "answer_pdf_sha1": "cceb704b8470", "source_family": "moex-gov-tw", "moex": {"exam_code": "111140", "c": "803", "s": "0203", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "稅務法規", "year": "111", "exam_name": "111年專門職業及技術人員高等考試會計師、不動產估價師、專利師、民間之公證人考試", "original_question_number": 20, "answer_corrected": false, "flags": [], "slug": "accountant", "db_exam_id": "cpa"}'::jsonb, NULL),
+  ('cpa-moex-00438', 'cpa', 'cpa-moex-111-9bdab6d6', 'sub-cpa-05', NULL, 'single_choice', '依稅捐稽徵法規定，甲於109年度綜合所得稅結算申報，因短漏報所得經國稅局補徵稅額，核定 稅額通知書及補繳稅款繳款書業合法送達，該筆稅額繳納期間為111年1月11日至111年1月 20日，甲於繳納期間屆滿30日後仍未繳納。對於該筆應納稅額應否移送強制執行之敘述，下列 何者正確？', '["甲已依法申請復查中，國稅局仍應移送強制執行", "甲依法申請復查後，對復查決定不服依法提起訴願，並就復查決定之應納稅額依限繳納三分之 一，國稅局應暫緩移送強制執行", "甲依法申請復查後，對復查決定不服依法提起訴願，但對復查決定之應納稅額並未繳納，亦未 提供相當擔保，經國稅局就甲相當於復查決定應納稅額三分之一之財產，通知有關機關，不得 為移轉或設定他項權利者，應暫緩移送強制執行", "甲依法申請復查後，對復查決定不服依法提起訴願，並就復查決定之應納稅額依限繳納三分之 一，但對復查決定提起訴願時，已逾訴願之提起期間，國稅局仍應暫緩移送強制執行"]'::jsonb, 1, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:04+00:00", "source_pdf_sha1": "5c80d29458d1", "answer_pdf_sha1": "cceb704b8470", "source_family": "moex-gov-tw", "moex": {"exam_code": "111140", "c": "803", "s": "0203", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "稅務法規", "year": "111", "exam_name": "111年專門職業及技術人員高等考試會計師、不動產估價師、專利師、民間之公證人考試", "original_question_number": 21, "answer_corrected": false, "flags": [], "slug": "accountant", "db_exam_id": "cpa"}'::jsonb, NULL),
+  ('cpa-moex-00439', 'cpa', 'cpa-moex-111-9bdab6d6', 'sub-cpa-05', NULL, 'single_choice', '甲因受風災影響，不能於法定期間內繳清稅捐新臺幣（下同）2,000 萬元，爰依稅捐稽徵法第 26 條規定，向稅捐稽徵機關申請分期繳納，經稅捐稽徵機關核准分10期繳納，每期繳納200萬元。 甲繳納2期後，再因受地震影響，就未清繳之餘額稅款依上述規定向稅捐稽徵機關申請分期繳納， 稅捐稽徵機關可核准分期繳納期數最長為何？', '["0期", "10期", "34期", "36期"]'::jsonb, 2, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:04+00:00", "source_pdf_sha1": "5c80d29458d1", "answer_pdf_sha1": "cceb704b8470", "source_family": "moex-gov-tw", "moex": {"exam_code": "111140", "c": "803", "s": "0203", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "稅務法規", "year": "111", "exam_name": "111年專門職業及技術人員高等考試會計師、不動產估價師、專利師、民間之公證人考試", "original_question_number": 22, "answer_corrected": false, "flags": [], "slug": "accountant", "db_exam_id": "cpa"}'::jsonb, NULL),
+  ('cpa-moex-00440', 'cpa', 'cpa-moex-111-9bdab6d6', 'sub-cpa-05', NULL, 'single_choice', '依稅捐稽徵法規定，對於納稅義務人申請復查之敘述，下列何者正確？', '["納稅義務人對核定稅捐之處分申請復查時，應先繳納應納稅額或應補稅額之二分之一，稅捐稽 徵機關始得受理其復查", "依核定稅額通知書所載有應納稅額或應補徵稅額者，納稅義務人申請復查之期限係自收到繳款 書之翌日起算30日內", "納稅義務人復查之申請，係交由郵務機構寄發復查申請書者，以郵寄地郵戳日期為準", "納稅義務人不服稅捐稽徵機關就其財產通知有關機關，不得為移轉或設定他項權利之處分，應 向該稅捐稽徵機關申請復查"]'::jsonb, 2, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:04+00:00", "source_pdf_sha1": "5c80d29458d1", "answer_pdf_sha1": "cceb704b8470", "source_family": "moex-gov-tw", "moex": {"exam_code": "111140", "c": "803", "s": "0203", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "稅務法規", "year": "111", "exam_name": "111年專門職業及技術人員高等考試會計師、不動產估價師、專利師、民間之公證人考試", "original_question_number": 23, "answer_corrected": false, "flags": [], "slug": "accountant", "db_exam_id": "cpa"}'::jsonb, NULL),
+  ('cpa-moex-00441', 'cpa', 'cpa-moex-111-9bdab6d6', 'sub-cpa-05', NULL, 'single_choice', '甲自幼隨父母至葡萄牙定居，入籍葡萄牙，放棄中華民國國籍，嗣甲大學畢業，隻身返臺成家立 業，111年1月1日挑戰元旦全馬路跑，不幸心肌炎發作致死，甲遺有宜蘭的豪宅1幢，死亡時 公告現值5,600萬元，由妻子及3歲5個月的稚子共同繼承，本件依遺產及贈與稅法規定，應納 遺產稅額為何？', '["414.4萬元", "275.1萬元", "427.7萬元", "288.4萬元"]'::jsonb, 0, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:04+00:00", "source_pdf_sha1": "5c80d29458d1", "answer_pdf_sha1": "cceb704b8470", "source_family": "moex-gov-tw", "moex": {"exam_code": "111140", "c": "803", "s": "0203", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "稅務法規", "year": "111", "exam_name": "111年專門職業及技術人員高等考試會計師、不動產估價師、專利師、民間之公證人考試", "original_question_number": 24, "answer_corrected": false, "flags": [], "slug": "accountant", "db_exam_id": "cpa"}'::jsonb, NULL),
+  ('cpa-moex-00442', 'cpa', 'cpa-moex-111-9bdab6d6', 'sub-cpa-05', NULL, 'single_choice', '下列何者屬贈與行為，應依遺產及贈與稅法規定課徵贈與稅？', '["某上市公司的小股東放棄現金增資新股認購權", "獨資商號資本主出資彌補該商號虧損", "父母於子女婚嫁時贈與50萬元現金", "未成年子女購置之不動產，但未能舉證資金來源"]'::jsonb, 3, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:04+00:00", "source_pdf_sha1": "5c80d29458d1", "answer_pdf_sha1": "cceb704b8470", "source_family": "moex-gov-tw", "moex": {"exam_code": "111140", "c": "803", "s": "0203", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "稅務法規", "year": "111", "exam_name": "111年專門職業及技術人員高等考試會計師、不動產估價師、專利師、民間之公證人考試", "original_question_number": 25, "answer_corrected": false, "flags": [], "slug": "accountant", "db_exam_id": "cpa"}'::jsonb, NULL),
+  ('cpa-moex-00443', 'cpa', 'cpa-moex-111-1cd83735', 'sub-cpa-06', NULL, 'essay', '甲公司分三次取得乙公司 90%股權，於 X1 年 9 月 1 日以$75,000 取
+得乙公司股權時，即對乙公司具重大影響而採用權益法，X2 年 7 月
+1 日再以$120,000 取得乙公司股權，而對乙公司存在控制，並依收購
+日公允價值$135,000 衡量非控制權益。當時甲公司原持有股權之公允
+價值為$97,500。X3 年 4 月 1 日又以$135,000購入乙公司股權。各次
+取得股權時，乙公司各項可辨認資產及負債之帳面金額均等於公允價
+值。甲、乙兩家公司資產未有減損，X1 年初乙公司權益為$225,000。
+乙公司 X1 年、X2 年與 X3 年之淨利分別為$90,000、$60,000 與
+$120,000，各年淨利均於年度中平均賺得，並於每年 3 月 1 日宣布發
+放現金股利$15,000。X2 年合併綜合損益表之非控制權益淨利為
+$12,000，並認列處分投資利益$11,250。
+試作：
+計算甲公司 X2 年 7 月 1 日增購之股權比例。（5 分）
+計算甲公司 X2 年合併綜合損益表之投資收益。（2分）
+甲公司 X3 年4 月 1 日之會計分錄。（4分）
+計算甲公司 X3 年底採用權益法下之「投資乙公司」餘額。（4分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:05+00:00", "source_pdf_sha1": "17d48298e151", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111140", "c": "803", "s": "0202", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "高等會計學", "year": "111", "exam_name": "111年專門職業及技術人員高等考試會計師、不動產估價師、專利師、民間之公證人考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "slug": "accountant", "db_exam_id": "cpa"}'::jsonb, NULL),
+  ('cpa-moex-00444', 'cpa', 'cpa-moex-111-1cd83735', 'sub-cpa-06', NULL, 'essay', '甲公司在 X1 年1 月 1 日發行面額$10、市價$25普通股 100,000股，
+並支付現金$400,000，取得乙公司之全部淨資產，合併後乙公司即宣
+告解散，甲公司為會計上之收購者。基於合併後業務之整合，相關結
+束費用估計為$120,000；此外，合併過程中，甲公司產生之股票登記
+與印刷等成本$300,000，而會計師顧問費為$500,000。
+合併前乙公司帳上資產包含有現金$500,000、應收帳款$800,000、存
+貨$900,000以及機器設備$1,000,000，共計$3,200,000；而帳上負債共
+計$600,000。取得當日除應收帳款高估$20,000、存貨低估$80,000，以
+及負債低估$50,000 外，其餘各項可辨認資產、負債的帳面金額均等
+於公允價值。
+依據合併契約之規定，若 X1 年 12 月 31 日甲公司普通股之每股市價
+低於$25，甲公司將就每股市價低於$25 之部分於 X2 年 1 月 5 日額
+外發行普通股彌補之。X1 年 1 月 1 日該或有對價之公允價值為
+$300,000，X1 年12 月 31日甲公司普通股之每股市價為$20。
+甲公司在 X1 年6 月 1 日獲悉有關收購日相關狀況之更新資訊，而將
+X1 年 1 月 1 日或有對價公允價值調整為$450,000，並將乙公司存貨
+之公允價值調整為$1,200,000。
+試作：
+X1 年 1 月 1日甲公司作完合併之相關分錄後，資產總額及負債總
+額分別增加多少金額？（4 分）
+X1 年 6 月 1日甲公司重新評估公允價值之相關分錄。（3分）
+X1 年 12 月 31 日甲公司應額外發行普通股之相關分錄。（3 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:05+00:00", "source_pdf_sha1": "17d48298e151", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111140", "c": "803", "s": "0202", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "高等會計學", "year": "111", "exam_name": "111年專門職業及技術人員高等考試會計師、不動產估價師、專利師、民間之公證人考試", "original_question_number": "二", "answer_corrected": false, "flags": [], "slug": "accountant", "db_exam_id": "cpa"}'::jsonb, NULL),
+  ('cpa-moex-00445', 'cpa', 'cpa-moex-111-1cd83735', 'sub-cpa-06', NULL, 'essay', '甲公司持有乙公司 70%股權已數年。乙公司於 X2 年 7 月 1 日以
+$150,000 將一部營業上使用之機器售予甲公司，該機器係乙公司於
+X1 年 7 月 1 日以$168,000 購入，預估耐用年限 6年，6 年後無殘值。
+甲公司將該機器列為「不動產、廠房及設備」，估計該機器可再使用
+5 年，5 年後無殘值。甲公司直到 X7 年 7 月 1 日才將機器售予合併
+個體以外的單位。假設甲公司採直線法計提折舊，而乙公司採年數合
+計法計提折舊。
+試作：
+請列出X4年度甲公司及其子公司合併工作底稿上有關內部交易之
+調整及沖銷分錄。（5分）
+假設乙公司係以買賣上述機器為主要業務的公司。X2年4月1日，
+乙公司以$180,000出售上述機器予甲公司，請列出X3年度甲公司及
+其子公司合併工作底稿上有關內部交易之調整及沖銷分錄。（5分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:05+00:00", "source_pdf_sha1": "17d48298e151", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111140", "c": "803", "s": "0202", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "高等會計學", "year": "111", "exam_name": "111年專門職業及技術人員高等考試會計師、不動產估價師、專利師、民間之公證人考試", "original_question_number": "三", "answer_corrected": false, "flags": [], "slug": "accountant", "db_exam_id": "cpa"}'::jsonb, NULL),
+  ('cpa-moex-00446', 'cpa', 'cpa-moex-111-1cd83735', 'sub-cpa-06', NULL, 'essay', '甲公司於X1年初以美元$240,000購入美國乙公司70%股權而對乙公
+司取得控制，並依可辨認淨資產之公允價值美元$96,000 衡量非控制
+權益。X1 年初乙公司之權益包括股本美元$250,000 及保留盈餘美元
+$45,000，除未入帳之專利權美元$5,000 外，各項可辨認資產、負債之
+帳面金額均等於公允價值，該專利權之剩餘效益年限為 5 年。甲公司
+採用權益法處理對乙公司之投資。乙公司於 X1 年至 X2 年間並未發
+生增（減）資，保留盈餘之變動情形如下：
+美元
+X1 年度淨利 $20,000
+X1 年 3 月 1 日宣告並發放現金股利 16,000
+X2 年度淨利 12,000
+X2 年 3 月 1 日宣告並發放現金股利 10,000
+乙公司於 X1 年10 月 1 日以美元$60,000購買一機器設備，惟因資金
+短缺，故由甲公司代為支付該筆款項，甲公司並無計畫於可預見之未
+來向乙公司收回此筆代墊款項。
+乙公司之功能性貨幣為美元，甲公司功能性貨幣及報導貨幣均為新臺
+幣，美元兌新臺幣相關匯率資料如下：
+X1 年 1 月 1 日 32.00 X2 年 3 月 1 日 32.20
+X1 年 3 月 1 日 32.32 X2 年 12 月 31日 31.00
+X1 年 10 月 1 日 32.45 X1 年度平均 32.50
+X1 年 12 月 31日 32.60 X2 年度平均 31.60
+試作：
+計算甲公司 X1 年及 X2 年度帳上對該投資應認列之投資收益。
+（4 分）
+計算甲公司 X2 年 12 月 31日帳上「採用權益法之投資—乙公司」
+帳戶之餘額。（3分）
+X2 年 12 月 31 日甲公司合併資產負債表中「非控制權益」之
+金額。（3分）
+X2年度甲公司合併綜合損益表中所有與該國外營運機構淨投資相
+關之「其他綜合（損）益—兌換差額」之總金額。（5分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:05+00:00", "source_pdf_sha1": "17d48298e151", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111140", "c": "803", "s": "0202", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "高等會計學", "year": "111", "exam_name": "111年專門職業及技術人員高等考試會計師、不動產估價師、專利師、民間之公證人考試", "original_question_number": "四", "answer_corrected": false, "flags": [], "slug": "accountant", "db_exam_id": "cpa"}'::jsonb, NULL),
+  ('cpa-moex-00447', 'cpa', 'cpa-moex-110-78566e18', 'sub-cpa-01', NULL, 'essay', '甲公司於 X1年1月1日以$950,000購入乙公司所發行面額$1,000,000、
+票面利率為10%每年底付息之債券，當日該債券之原始有效利率為
+11%。甲公司於購買時估計該債券12個月預期信用損失為$5,000，並
+依照管理經營模式，將該投資分類為透過其他綜合損益按公允價值衡
+量之債券投資。
+X1年12月31日甲公司收到利息，但因該債券信用風險已顯著增加，評
+估存續期間預期信用損失金額為$45,000，是日債券公允價值為
+$940,000。
+X2年12月31日甲公司雖全數收到利息，但因乙公司發生財務困難，甲
+公司評估該債券已達減損地步，評估存續期間預期信用損失金額為
+$600,000，是日債券公允價值為$380,000。
+X3年12月31日甲公司於收到乙公司債券利息$20,000後（另$80,000利
+息無法收取，該部分於 X2年已納入預期信用損失金額之評估），於市
+場中以$390,000出售該債券。
+試作：
+甲公司 X2年12月31日及 X3年12月31日應有之分錄（不用作結帳分
+錄）。（9分）
+甲公司X2年底資產負債表對該債券投資相關項目之應有表達。（3分）
+假設甲公司自購買日就將該債券歸類為按攤銷後成本衡量之債券
+投資，請問於 X1年度之淨利、其他綜合損益及 X1年底之淨值，與
+將該投資分類為透過其他綜合損益按公允價值衡量之債券投資分
+別差異多少？（3分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:05+00:00", "source_pdf_sha1": "19b7d15ac990", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "110140", "c": "803", "s": "0206", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "中級會計學", "year": "110", "exam_name": "110年專門職業及技術人員高等考試會計師、不動產估價師、專利師考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "slug": "accountant", "db_exam_id": "cpa"}'::jsonb, NULL),
+  ('cpa-moex-00448', 'cpa', 'cpa-moex-110-78566e18', 'sub-cpa-01', NULL, 'essay', '甲公司於 X7年底發現下列3項會計處理錯誤，若所得稅率均為20%，
+甲公司一向評估所有可減除暫時性差異於未來有足夠課稅所得可供
+使用。試依各項錯誤，分別作 X7年結帳前含完整考量所得稅影響數
+之錯誤更正分錄。（每小題5分，共15分）
+自公司成立以來，呆帳損失（預期信用損失）均依稅法規定於實際
+發生時才列為費用，過去每年沖銷之呆帳金額對公司而言，並非屬
+不重大。依預期信用損失模式，該公司 X6年及 X7年年底應有備抵
+損失餘額分別為$500,000及$550,000。
+X6年底以$5,138,755價格發行3年期，面額$5,000,000之可轉換公司
+債，票面利率5%；該轉換權符合權益之定義，該公司債若不附轉換
+權，其有效利率為6%，公允價值為$4,866,349。發行時依稅法規定
+將可轉換公司債之發行價款全數列為負債，後續並依4%計算該公
+司債之攤銷後成本。
+銷售商品提供之免費售後服務保固，係按稅法規定於保固支出實際
+發生時方認列保固費用，未曾認列產品保固服務負債。依會計準則
+規定，X6年及 X7年年底估計應有之保固負債準備分別為$280,000
+及$220,000。', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:05+00:00", "source_pdf_sha1": "19b7d15ac990", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "110140", "c": "803", "s": "0206", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "中級會計學", "year": "110", "exam_name": "110年專門職業及技術人員高等考試會計師、不動產估價師、專利師考試", "original_question_number": "二", "answer_corrected": false, "flags": [], "slug": "accountant", "db_exam_id": "cpa"}'::jsonb, NULL),
+  ('cpa-moex-00449', 'cpa', 'cpa-moex-110-78566e18', 'sub-cpa-01', NULL, 'essay', '甲公司 X5年度截至6月30日商品存貨有關資料如下：
+成本 零售價 零售價
+期初存貨 $ 681,700 $ 875,500 銷貨收入總額 $8,200,000
+進貨 8,000,000 10,000,000 銷貨折讓 240,000
+進貨退出 100,000 125,000 銷貨退回 400,000
+運費 175,000 員工折扣 20,000
+進貨折讓 47,000 淨加價 750,000
+非常損耗 450,000 560,500 淨減價 120,000
+正常損耗 200,000 280,000
+X5年7月1日公司倉庫發生大火，幾乎毀損了所有存貨，僅存一批售價
+為$108,000商品。此外，進貨資料中尚未包括一批成本$400,000，起
+運點交貨的在途進貨。
+試作：依下列不同方法，計算甲公司⑴火災發生時應有存貨金額，
+⑵應認列火災損失。
+毛利法，該公司歷年銷貨毛利率為25%。（4分）
+傳統零售價法。（成本比率以百分比表達，四捨五入至小數點後第
+一位，如 XX.X%）（6分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:05+00:00", "source_pdf_sha1": "19b7d15ac990", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "110140", "c": "803", "s": "0206", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "中級會計學", "year": "110", "exam_name": "110年專門職業及技術人員高等考試會計師、不動產估價師、專利師考試", "original_question_number": "三", "answer_corrected": false, "flags": [], "slug": "accountant", "db_exam_id": "cpa"}'::jsonb, NULL),
+  ('cpa-moex-00450', 'cpa', 'cpa-moex-110-78566e18', 'sub-cpa-01', NULL, 'essay', '甲公司銷售某機器設備，每部設備之交易方式有三種：
+方案 A：客戶支付現金$5,000,000立即交貨。
+方案 B：客戶於交貨前2年先預支貨款$4,132,231，2年後甲公司交付
+設備。
+方案 C：設備於出售滿1年之日，客戶每年付款$2,881,000，支付2期。
+（註：方案 B及方案 C 之隱含利率均為10%。）
+今有乙客戶於 X1年1月1日選擇採方案 B向甲公司購買設備一部，另
+有丙客戶於同日選擇以方案 C 向甲公司購買設備一部，並於當日取
+得設備之控制。是日各公司之單獨財務融資交易利率分別為甲公司
+6%、乙客戶8%、丙客戶12%。
+試作：（10分）
+請分別依據不同交易對象（乙客戶與丙客戶），為甲公司作下列日期
+應有之分錄：X1年1月1日、12月31日，以及 X2年12月31日。', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:05+00:00", "source_pdf_sha1": "19b7d15ac990", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "110140", "c": "803", "s": "0206", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "中級會計學", "year": "110", "exam_name": "110年專門職業及技術人員高等考試會計師、不動產估價師、專利師考試", "original_question_number": "四", "answer_corrected": false, "flags": [], "slug": "accountant", "db_exam_id": "cpa"}'::jsonb, NULL)
+ON CONFLICT (id) DO NOTHING;

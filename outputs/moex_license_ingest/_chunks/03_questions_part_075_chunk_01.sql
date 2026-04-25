@@ -1,0 +1,72 @@
+INSERT INTO public.questions (id, exam_id, paper_id, subject_id, chapter_id, question_type, question_text, options, correct_answer, correct_answer_json, auto_gradable, source, is_active, version, source_meta, explanation)
+VALUES
+  ('real-estate-appraiser-moex-00089', 'real-estate-appraiser', 'real-estate-appraiser-moex-110-5e22d328', 'sub-real-estate-appraiser-03', NULL, 'essay', '試解釋「通貨膨脹」（Inflation），及此趨勢下商品價格之走勢。（3分）
+在目前國際間通貨膨脹率的計算中，居住類的價格如何採計「房價」
+及「房租」？並解釋之。（6分）
+在2008年美國次級房貸風暴後，隔年起國際間多國（包含我國）開始
+實施寬鬆貨幣政策，之後的五年內在我國所引發的房價及通貨膨脹漲
+勢各為何？試分別解釋其原因。（7分）
+國際間自2019年底爆發新冠肺炎（COVID-19）疫情，自2021年起國際
+間通貨膨脹的趨勢為何？試解釋其原因。（4分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:30+00:00", "source_pdf_sha1": "ae052563cf9d", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "110140", "c": "905", "s": "0303", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "不動產投資分析", "year": "110", "exam_name": "110年專門職業及技術人員高等考試會計師、不動產估價師、專利師考試", "original_question_number": "四", "answer_corrected": false, "flags": [], "slug": "appraiser", "db_exam_id": "real-estate-appraiser"}'::jsonb, NULL),
+  ('real-estate-appraiser-moex-00090', 'real-estate-appraiser', 'real-estate-appraiser-moex-110-ba81c82b', 'sub-real-estate-appraiser-04', NULL, 'essay', '請說明市場地價與收益地價不一致的原因，目前為發展綠能，政府大力
+推動農電共生政策，期望農地部分作為太陽能發電使用，此政策將會如
+何影響農地的收益價格與市場價格？請繪圖分析之。（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:30+00:00", "source_pdf_sha1": "0ad6535b1d6c", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "110140", "c": "905", "s": "0305", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "不動產經濟學", "year": "110", "exam_name": "110年專門職業及技術人員高等考試會計師、不動產估價師、專利師考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "slug": "appraiser", "db_exam_id": "real-estate-appraiser"}'::jsonb, NULL),
+  ('real-estate-appraiser-moex-00091', 'real-estate-appraiser', 'real-estate-appraiser-moex-110-ba81c82b', 'sub-real-estate-appraiser-04', NULL, 'essay', '在都市計畫地區辦理市地重劃究竟是一種抑制還是誘發地價上漲的手
+段？請就理論與實務情形分別詳細說明之。（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:30+00:00", "source_pdf_sha1": "0ad6535b1d6c", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "110140", "c": "905", "s": "0305", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "不動產經濟學", "year": "110", "exam_name": "110年專門職業及技術人員高等考試會計師、不動產估價師、專利師考試", "original_question_number": "二", "answer_corrected": false, "flags": [], "slug": "appraiser", "db_exam_id": "real-estate-appraiser"}'::jsonb, NULL),
+  ('real-estate-appraiser-moex-00092', 'real-estate-appraiser', 'real-estate-appraiser-moex-110-ba81c82b', 'sub-real-estate-appraiser-04', NULL, 'essay', '去年迄今的新冠肺炎（COVID-19）疫情改變長期以來的土地使用行為與
+消費模式，請試就李嘉圖（Ricardo）的地租論與屠能（VonThünen）的
+區位差額地租論探討疫情封城下對商業區土地地租可能的影響，並繪圖
+說明之。（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:30+00:00", "source_pdf_sha1": "0ad6535b1d6c", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "110140", "c": "905", "s": "0305", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "不動產經濟學", "year": "110", "exam_name": "110年專門職業及技術人員高等考試會計師、不動產估價師、專利師考試", "original_question_number": "三", "answer_corrected": false, "flags": [], "slug": "appraiser", "db_exam_id": "real-estate-appraiser"}'::jsonb, NULL),
+  ('real-estate-appraiser-moex-00093', 'real-estate-appraiser', 'real-estate-appraiser-moex-110-ba81c82b', 'sub-real-estate-appraiser-04', NULL, 'essay', '因應不動產價格逐年上升，政府近年以推動社會住宅為主要政策，請說
+明臺灣社會住宅的產權特性，並分析大量社會住宅之興建設置將會如何
+影響鄰近地區的不動產價格以及該政策是否可以有效減緩長期住宅市
+場壓力？（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:30+00:00", "source_pdf_sha1": "0ad6535b1d6c", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "110140", "c": "905", "s": "0305", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "不動產經濟學", "year": "110", "exam_name": "110年專門職業及技術人員高等考試會計師、不動產估價師、專利師考試", "original_question_number": "四", "answer_corrected": false, "flags": [], "slug": "appraiser", "db_exam_id": "real-estate-appraiser"}'::jsonb, NULL),
+  ('real-estate-appraiser-moex-00094', 'real-estate-appraiser', 'real-estate-appraiser-moex-110-707b521e', 'sub-real-estate-appraiser-05', NULL, 'essay', '依非都市土地使用管制規則與相關法令規定，為處理農地違規使用嚴重
+問題，而欲申請農業用地變更；然為避免影響農業生產環境之完整，在
+那些情況下，不得同意其變更？另未達五公頃之特定地區內已補辦臨時
+工廠登記之低污染事業興辦產業人，無法辦理整體規劃，但取得主管機
+關核准興辦事業計畫文件者，應如何申請土地使用變更編定？及需有那
+些土地使用規劃與變更編定配合措施？（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:30+00:00", "source_pdf_sha1": "61edad142ffa", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "110140", "c": "905", "s": "0302", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "土地利用法規", "year": "110", "exam_name": "110年專門職業及技術人員高等考試會計師、不動產估價師、專利師考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "slug": "appraiser", "db_exam_id": "real-estate-appraiser"}'::jsonb, NULL),
+  ('real-estate-appraiser-moex-00095', 'real-estate-appraiser', 'real-estate-appraiser-moex-110-707b521e', 'sub-real-estate-appraiser-05', NULL, 'essay', '請依區域計畫法、都市計畫法及其施行細則與相關法令，試說明環境敏
+感地區的範疇為何？如申請環境敏感地區開發或變更，須向何單位申
+請？另請依該開發位於都市土地與非都市土地，分別說明其主要土地使
+用分區管制方式為何？申請開發審議標準又為何？（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:30+00:00", "source_pdf_sha1": "61edad142ffa", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "110140", "c": "905", "s": "0302", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "土地利用法規", "year": "110", "exam_name": "110年專門職業及技術人員高等考試會計師、不動產估價師、專利師考試", "original_question_number": "二", "answer_corrected": false, "flags": [], "slug": "appraiser", "db_exam_id": "real-estate-appraiser"}'::jsonb, NULL),
+  ('real-estate-appraiser-moex-00096', 'real-estate-appraiser', 'real-estate-appraiser-moex-110-707b521e', 'sub-real-estate-appraiser-05', NULL, 'essay', '請依都市更新條例與相關法令規定，詳細說明在那些情況下，各級主管
+機關可視實際需要，劃定或變更策略性更新地區，並訂定或變更都市更
+新計畫？而依之所訂定之都市更新事業計畫之建築基地，得視都市更新
+需要，給予那些容積獎勵？建築物高度與建蔽率，可如何放寬？另在更
+新單元內，參與權利變換取得之土地，又有那些租稅減免？（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:30+00:00", "source_pdf_sha1": "61edad142ffa", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "110140", "c": "905", "s": "0302", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "土地利用法規", "year": "110", "exam_name": "110年專門職業及技術人員高等考試會計師、不動產估價師、專利師考試", "original_question_number": "三", "answer_corrected": false, "flags": [], "slug": "appraiser", "db_exam_id": "real-estate-appraiser"}'::jsonb, NULL),
+  ('real-estate-appraiser-moex-00097', 'real-estate-appraiser', 'real-estate-appraiser-moex-110-707b521e', 'sub-real-estate-appraiser-05', NULL, 'essay', '已公告徵收之土地，在何種情況下應辦理撤銷徵收？可由何人申請？申
+請程序為何？如不服相關處分結果，申請救濟之程序為何？撤銷徵收
+後，徵收前原設定之他項權利、耕地租約與土地改良物又應分別如何處
+理？（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:30+00:00", "source_pdf_sha1": "61edad142ffa", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "110140", "c": "905", "s": "0302", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "土地利用法規", "year": "110", "exam_name": "110年專門職業及技術人員高等考試會計師、不動產估價師、專利師考試", "original_question_number": "四", "answer_corrected": false, "flags": [], "slug": "appraiser", "db_exam_id": "real-estate-appraiser"}'::jsonb, NULL),
+  ('real-estate-appraiser-moex-00098', 'real-estate-appraiser', 'real-estate-appraiser-moex-110-9cd45b90', 'sub-real-estate-appraiser-06', NULL, 'essay', '不課徵土地增值稅與土地增值稅記存，兩者之異同為何？申請不課徵土
+地增值稅之土地再移轉第三人時，於計算漲價總數額其原地價為何？土
+地增值稅記存之土地再移轉時，於計算漲價總數額其原地價為何？請分
+別說明之。（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:30+00:00", "source_pdf_sha1": "682e813f89ec", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "110140", "c": "905", "s": "0301", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "民法物權與不動產法規", "year": "110", "exam_name": "110年專門職業及技術人員高等考試會計師、不動產估價師、專利師考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "slug": "appraiser", "db_exam_id": "real-estate-appraiser"}'::jsonb, NULL),
+  ('real-estate-appraiser-moex-00099', 'real-estate-appraiser', 'real-estate-appraiser-moex-110-9cd45b90', 'sub-real-estate-appraiser-06', NULL, 'essay', '依不動產估價師法之規定，不動產估價師受委託人之委託，辦理土地、
+建築改良物、農作改良物及其權利之估價業務。估價業務之「土地」、
+「建築改良物」、「農作改良物」及其「權利」所指為何？請依土地法
+之規定，分別說明之。（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:30+00:00", "source_pdf_sha1": "682e813f89ec", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "110140", "c": "905", "s": "0301", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "民法物權與不動產法規", "year": "110", "exam_name": "110年專門職業及技術人員高等考試會計師、不動產估價師、專利師考試", "original_question_number": "二", "answer_corrected": false, "flags": [], "slug": "appraiser", "db_exam_id": "real-estate-appraiser"}'::jsonb, NULL),
+  ('real-estate-appraiser-moex-00100', 'real-estate-appraiser', 'real-estate-appraiser-moex-110-9cd45b90', 'sub-real-estate-appraiser-06', NULL, 'essay', '甲將其所有之土地於設定抵押權予乙後，再將該土地設定地上權予丙，
+丙嗣後於土地上興建房屋一棟。抵押權人乙因甲逾期不清償其債務，
+可否於強制執行程序中聲請法院將該房屋與土地併付拍賣？又地上權
+人丙可否就該房屋，出讓予乙？請依規定分別說明之。（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:30+00:00", "source_pdf_sha1": "682e813f89ec", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "110140", "c": "905", "s": "0301", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "民法物權與不動產法規", "year": "110", "exam_name": "110年專門職業及技術人員高等考試會計師、不動產估價師、專利師考試", "original_question_number": "三", "answer_corrected": false, "flags": [], "slug": "appraiser", "db_exam_id": "real-estate-appraiser"}'::jsonb, NULL),
+  ('real-estate-appraiser-moex-00101', 'real-estate-appraiser', 'real-estate-appraiser-moex-110-9cd45b90', 'sub-real-estate-appraiser-06', NULL, 'essay', '地上權之取得，有基於法律行為與基於法律行為以外之原因兩種。
+試問基於法律行為以外之原因取得規定為何？請列舉說明之。（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:30+00:00", "source_pdf_sha1": "682e813f89ec", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "110140", "c": "905", "s": "0301", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "民法物權與不動產法規", "year": "110", "exam_name": "110年專門職業及技術人員高等考試會計師、不動產估價師、專利師考試", "original_question_number": "四", "answer_corrected": false, "flags": [], "slug": "appraiser", "db_exam_id": "real-estate-appraiser"}'::jsonb, NULL),
+  ('real-estate-appraiser-moex-00102', 'real-estate-appraiser', 'real-estate-appraiser-moex-109-709493a3', 'sub-real-estate-appraiser-01', NULL, 'essay', '如下圖所示，今估價師受某政府委託，查估堤防兼道路用地之預定徵收
+價格，今給與之資料為：河川區、堤防兼道路用地及住三區皆各為同一
+地價區段。河川區之區段地價為10,000元/平方公尺及住三區之區段地價
+為300,000元/平方公尺，預定徵收土地上無建築改良物，請估價師說明查
+估堤防兼道路用地之預定徵收價格，並以估價報告書之方式呈現。其中
+買賣實例、區域因素及比準地或其他事項，可以由估價師假定，但須加
+以詳細說明理由。（100分）
+住三區', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:30+00:00", "source_pdf_sha1": "8e5bf6fc9545", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "109140", "c": "905", "s": "0304", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "不動產估價實務", "year": "109", "exam_name": "109年專門職業及技術人員高等考試會計師、不動產估價師、專利師、民間之公證人考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "slug": "appraiser", "db_exam_id": "real-estate-appraiser"}'::jsonb, NULL),
+  ('real-estate-appraiser-moex-00103', 'real-estate-appraiser', 'real-estate-appraiser-moex-109-bceca813', 'sub-real-estate-appraiser-02', NULL, 'essay', '請說明在運用比較法進行不動產估價時，比較標的坐落於「近鄰地區」
+或「類似地區」有何差異？（10分）若臺北市房價上漲，其後其他五
+都或非六都縣市房價也上漲，請問此是否意味這些縣市屬於同一供需
+圈？（15分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:30+00:00", "source_pdf_sha1": "e69fc134906c", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "109140", "c": "905", "s": "0306", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "不動產估價理論", "year": "109", "exam_name": "109年專門職業及技術人員高等考試會計師、不動產估價師、專利師、民間之公證人考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "slug": "appraiser", "db_exam_id": "real-estate-appraiser"}'::jsonb, NULL),
+  ('real-estate-appraiser-moex-00104', 'real-estate-appraiser', 'real-estate-appraiser-moex-109-bceca813', 'sub-real-estate-appraiser-02', NULL, 'essay', '以比較法進行土地估價時，若因當地素地交易案例不足而採用房地分離
+方式取得土地比較標的，請問此種作法可能產生什麼偏誤？（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:30+00:00", "source_pdf_sha1": "e69fc134906c", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "109140", "c": "905", "s": "0306", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "不動產估價理論", "year": "109", "exam_name": "109年專門職業及技術人員高等考試會計師、不動產估價師、專利師、民間之公證人考試", "original_question_number": "二", "answer_corrected": false, "flags": [], "slug": "appraiser", "db_exam_id": "real-estate-appraiser"}'::jsonb, NULL),
+  ('real-estate-appraiser-moex-00105', 'real-estate-appraiser', 'real-estate-appraiser-moex-109-bceca813', 'sub-real-estate-appraiser-02', NULL, 'essay', '請說明運用收益法進行不動產估價時，收益資本化率或折現率之求取方
+法（10分），並比較不同求取方法的優缺點為何？（15分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T04:29:30+00:00", "source_pdf_sha1": "e69fc134906c", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "109140", "c": "905", "s": "0306", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "不動產估價理論", "year": "109", "exam_name": "109年專門職業及技術人員高等考試會計師、不動產估價師、專利師、民間之公證人考試", "original_question_number": "三", "answer_corrected": false, "flags": [], "slug": "appraiser", "db_exam_id": "real-estate-appraiser"}'::jsonb, NULL);

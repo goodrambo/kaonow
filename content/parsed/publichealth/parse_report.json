@@ -1,0 +1,13 @@
+{
+  "slug": "publichealth",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T04:30:42+00:00",
+  "paper_count": 25,
+  "paper_with_questions": 25,
+  "question_count": 1094,
+  "type_counts": {
+    "essay": 58,
+    "single_choice": 1036
+  },
+  "issues": []
+}

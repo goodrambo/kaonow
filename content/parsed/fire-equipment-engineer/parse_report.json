@@ -1,0 +1,13 @@
+{
+  "slug": "fire-equipment-engineer",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T04:30:21+00:00",
+  "paper_count": 4,
+  "paper_with_questions": 4,
+  "question_count": 166,
+  "type_counts": {
+    "essay": 6,
+    "single_choice": 160
+  },
+  "issues": []
+}

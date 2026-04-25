@@ -1,0 +1,12 @@
+{
+  "slug": "mt",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T04:30:34+00:00",
+  "paper_count": 16,
+  "paper_with_questions": 16,
+  "question_count": 1326,
+  "type_counts": {
+    "single_choice": 1326
+  },
+  "issues": []
+}

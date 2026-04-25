@@ -1,0 +1,262 @@
+{
+  "slug": "accountant",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T07:10:01+00:00",
+  "paper_count": 34,
+  "paper_with_questions": 9,
+  "question_count": 62,
+  "type_counts": {
+    "single_choice": 43,
+    "essay": 19
+  },
+  "issues": [
+    {
+      "year": "114",
+      "subject": "國文（作文）",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "113",
+      "subject": "國文（作文）",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "112",
+      "subject": "國文（作文）",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "111",
+      "subject": "國文（作文）",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 2,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "國文（作文）",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "109",
+      "subject": "國文（作文）",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "107",
+      "subject": "國文（作文與測驗）",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "106",
+      "subject": "國文（作文與測驗）",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "105",
+      "subject": "國文（作文與測驗）",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "104",
+      "subject": "國文（作文與測驗）",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "103",
+      "subject": "國文（作文與測驗）",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "091",
+      "subject": "公司法、證券交易法與商業會計法",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "091",
+      "subject": "審計學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "091",
+      "subject": "成本會計與管理會計",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 5,
+      "answers": 0
+    },
+    {
+      "year": "091",
+      "subject": "稅務法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 2,
+      "answers": 0
+    },
+    {
+      "year": "091",
+      "subject": "高等會計學與會計報告分析",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "090",
+      "subject": "公司法、證券交易法與商業會計法",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "090",
+      "subject": "審計學",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "090",
+      "subject": "成本會計與管理會計",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "090",
+      "subject": "稅務法規",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "090",
+      "subject": "高等會計學與會計報告分析",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "089",
+      "subject": "公司法、證券交易法與商業會計法",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "089",
+      "subject": "公司法、證券交易法與商業會計法",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "089",
+      "subject": "審計學",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "089",
+      "subject": "審計學",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "089",
+      "subject": "成本會計與管理會計",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "089",
+      "subject": "成本會計與管理會計",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "089",
+      "subject": "稅務法規",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "089",
+      "subject": "稅務法規",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "089",
+      "subject": "高等會計學與會計報告分析",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "089",
+      "subject": "高等會計學與會計報告分析",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    }
+  ]
+}

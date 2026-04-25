@@ -1,0 +1,413 @@
+{
+  "slug": "mt",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T07:17:18+00:00",
+  "paper_count": 248,
+  "paper_with_questions": 248,
+  "question_count": 20415,
+  "type_counts": {
+    "single_choice": 20415
+  },
+  "issues": [
+    {
+      "year": "114",
+      "subject": "微生物學與臨床微生物學（包括細菌與黴菌）",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 81,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "微生物學與臨床微生物學（包括細菌與黴菌）",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 82,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "生物化學與臨床生化學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 82,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "臨床血清免疫學與臨床病毒學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 81,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "醫學分子檢驗學與臨床鏡檢學（包括寄生蟲學）",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 81,
+      "answers": 0
+    },
+    {
+      "year": "113",
+      "subject": "生物化學與臨床生化學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 83,
+      "answers": 0
+    },
+    {
+      "year": "113",
+      "subject": "臨床生理學與病理學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 80,
+      "answers": 0
+    },
+    {
+      "year": "113",
+      "subject": "臨床血液學與血庫學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 87,
+      "answers": 0
+    },
+    {
+      "year": "113",
+      "subject": "醫學分子檢驗學與臨床鏡檢學（包括寄生蟲學）",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 88,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "微生物學與臨床微生物學（包括細菌與黴菌）",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 80,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "生物化學與臨床生化學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 81,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "醫學分子檢驗學與臨床鏡檢學（包括寄生蟲學）",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 81,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "醫學分子檢驗學與臨床鏡檢學（包括寄生蟲學）",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 81,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "微生物學與臨床微生物學（包括細菌與黴菌）",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 84,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "生物化學與臨床生化學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 85,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "臨床生理學與病理學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 82,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "生物化學與臨床生化學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 82,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "臨床生理學與病理學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 80,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "臨床血液學與血庫學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 81,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "醫學分子檢驗學與臨床鏡檢學（包括寄生蟲學）",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 80,
+      "answers": 0
+    },
+    {
+      "year": "109",
+      "subject": "微生物學與臨床微生物學（包括細菌與黴菌）",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 84,
+      "answers": 0
+    },
+    {
+      "year": "109",
+      "subject": "臨床血液學與血庫學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 83,
+      "answers": 0
+    },
+    {
+      "year": "109",
+      "subject": "臨床血清免疫學與臨床病毒學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 80,
+      "answers": 0
+    },
+    {
+      "year": "109",
+      "subject": "醫學分子檢驗學與臨床鏡檢學（包括寄生蟲學）",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 80,
+      "answers": 0
+    },
+    {
+      "year": "108",
+      "subject": "微生物學與臨床微生物學（包括細菌與黴菌）",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 80,
+      "answers": 0
+    },
+    {
+      "year": "108",
+      "subject": "生物化學與臨床生化學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 89,
+      "answers": 0
+    },
+    {
+      "year": "108",
+      "subject": "臨床生理學與病理學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 82,
+      "answers": 0
+    },
+    {
+      "year": "108",
+      "subject": "臨床血液學與血庫學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 81,
+      "answers": 0
+    },
+    {
+      "year": "108",
+      "subject": "臨床血清免疫學與臨床病毒學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 80,
+      "answers": 0
+    },
+    {
+      "year": "108",
+      "subject": "醫學分子檢驗學與臨床鏡檢學（包括寄生蟲學）",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 80,
+      "answers": 0
+    },
+    {
+      "year": "108",
+      "subject": "醫學分子檢驗學與臨床鏡檢學（包括寄生蟲學）",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 80,
+      "answers": 0
+    },
+    {
+      "year": "107",
+      "subject": "微生物學與臨床微生物學（包括細菌與黴菌）",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 84,
+      "answers": 0
+    },
+    {
+      "year": "107",
+      "subject": "微生物學與臨床微生物學（包括細菌與黴菌）",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 88,
+      "answers": 0
+    },
+    {
+      "year": "107",
+      "subject": "生物化學與臨床生化學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 86,
+      "answers": 0
+    },
+    {
+      "year": "107",
+      "subject": "生物化學與臨床生化學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 85,
+      "answers": 0
+    },
+    {
+      "year": "107",
+      "subject": "臨床生理學與病理學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 84,
+      "answers": 0
+    },
+    {
+      "year": "107",
+      "subject": "臨床血液學與血庫學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 80,
+      "answers": 0
+    },
+    {
+      "year": "107",
+      "subject": "臨床血清免疫學與臨床病毒學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 80,
+      "answers": 0
+    },
+    {
+      "year": "107",
+      "subject": "臨床血清免疫學與臨床病毒學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 81,
+      "answers": 0
+    },
+    {
+      "year": "107",
+      "subject": "醫學分子檢驗學與臨床鏡檢學（包括寄生蟲學）",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 80,
+      "answers": 0
+    },
+    {
+      "year": "106",
+      "subject": "微生物學與臨床微生物學（包括細菌與黴菌）",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 81,
+      "answers": 0
+    },
+    {
+      "year": "106",
+      "subject": "微生物學與臨床微生物學（包括細菌與黴菌）",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 84,
+      "answers": 0
+    },
+    {
+      "year": "106",
+      "subject": "生物化學與臨床生化學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 80,
+      "answers": 0
+    },
+    {
+      "year": "106",
+      "subject": "生物化學與臨床生化學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 88,
+      "answers": 0
+    },
+    {
+      "year": "106",
+      "subject": "臨床生理學與病理學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 80,
+      "answers": 0
+    },
+    {
+      "year": "106",
+      "subject": "臨床生理學與病理學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 86,
+      "answers": 0
+    },
+    {
+      "year": "106",
+      "subject": "臨床血清免疫學與臨床病毒學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 80,
+      "answers": 0
+    },
+    {
+      "year": "106",
+      "subject": "醫學分子檢驗學與臨床鏡檢學（包括寄生蟲學）",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 80,
+      "answers": 0
+    },
+    {
+      "year": "106",
+      "subject": "醫學分子檢驗學與臨床鏡檢學（包括寄生蟲學）",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 88,
+      "answers": 0
+    },
+    {
+      "year": "105",
+      "subject": "微生物學與臨床微生物學（包括細菌與黴菌）",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 80,
+      "answers": 0
+    }
+  ]
+}

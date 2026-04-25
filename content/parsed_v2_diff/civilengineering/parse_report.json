@@ -1,0 +1,413 @@
+{
+  "slug": "civilengineering",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T07:10:42+00:00",
+  "paper_count": 103,
+  "paper_with_questions": 5,
+  "question_count": 22,
+  "type_counts": {
+    "essay": 22
+  },
+  "issues": [
+    {
+      "year": "091",
+      "subject": "大地工程學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "091",
+      "subject": "工程測量",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 5,
+      "answers": 0
+    },
+    {
+      "year": "091",
+      "subject": "施工法",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 5,
+      "answers": 0
+    },
+    {
+      "year": "091",
+      "subject": "結構分析",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "091",
+      "subject": "結構設計",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "090",
+      "subject": "大地工程學",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "090",
+      "subject": "大地工程學",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "090",
+      "subject": "工程測量",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "090",
+      "subject": "工程測量",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "090",
+      "subject": "施工法",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "090",
+      "subject": "施工法",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "090",
+      "subject": "結構分析",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "090",
+      "subject": "結構分析",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "090",
+      "subject": "結構設計",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "090",
+      "subject": "結構設計",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "089",
+      "subject": "大地工程學",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "089",
+      "subject": "大地工程學",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "089",
+      "subject": "工程測量",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "089",
+      "subject": "工程測量",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "089",
+      "subject": "施工法",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "089",
+      "subject": "施工法",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "089",
+      "subject": "結構分析",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "089",
+      "subject": "結構分析",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "089",
+      "subject": "結構設計",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "089",
+      "subject": "結構設計",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "088",
+      "subject": "大地工程學",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "088",
+      "subject": "大地工程學",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "088",
+      "subject": "工程測量",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "088",
+      "subject": "工程測量",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "088",
+      "subject": "施工法",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "088",
+      "subject": "施工法",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "088",
+      "subject": "結構分析",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "088",
+      "subject": "結構分析",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "088",
+      "subject": "結構設計",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "088",
+      "subject": "結構設計",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "087",
+      "subject": "大地工程學",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "087",
+      "subject": "大地工程學",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "087",
+      "subject": "工程測量",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "087",
+      "subject": "工程測量",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "087",
+      "subject": "施工法",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "087",
+      "subject": "施工法",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "087",
+      "subject": "結構分析",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "087",
+      "subject": "結構分析",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "087",
+      "subject": "結構設計",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "087",
+      "subject": "結構設計",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "086",
+      "subject": "大地工程學",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "086",
+      "subject": "大地工程學",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "086",
+      "subject": "工程測量",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "086",
+      "subject": "工程測量",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "086",
+      "subject": "施工法",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    }
+  ]
+}

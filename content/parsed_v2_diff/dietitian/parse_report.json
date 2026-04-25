@@ -1,0 +1,414 @@
+{
+  "slug": "dietitian",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T07:12:00+00:00",
+  "paper_count": 180,
+  "paper_with_questions": 180,
+  "question_count": 7752,
+  "type_counts": {
+    "single_choice": 7529,
+    "essay": 223
+  },
+  "issues": [
+    {
+      "year": "099",
+      "subject": "公共衛生營養學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 44,
+      "answers": 0
+    },
+    {
+      "year": "099",
+      "subject": "公共衛生營養學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 40,
+      "answers": 0
+    },
+    {
+      "year": "099",
+      "subject": "團體膳食設計與管理",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 41,
+      "answers": 0
+    },
+    {
+      "year": "099",
+      "subject": "團體膳食設計與管理",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 40,
+      "answers": 0
+    },
+    {
+      "year": "099",
+      "subject": "營養學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 43,
+      "answers": 0
+    },
+    {
+      "year": "099",
+      "subject": "營養學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 41,
+      "answers": 0
+    },
+    {
+      "year": "099",
+      "subject": "生理學與生物化學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 42,
+      "answers": 0
+    },
+    {
+      "year": "099",
+      "subject": "生理學與生物化學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 40,
+      "answers": 0
+    },
+    {
+      "year": "099",
+      "subject": "膳食療養學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 43,
+      "answers": 0
+    },
+    {
+      "year": "099",
+      "subject": "膳食療養學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 41,
+      "answers": 0
+    },
+    {
+      "year": "099",
+      "subject": "食品衛生與安全",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 40,
+      "answers": 0
+    },
+    {
+      "year": "099",
+      "subject": "食品衛生與安全",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 41,
+      "answers": 0
+    },
+    {
+      "year": "098",
+      "subject": "公共衛生營養學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 40,
+      "answers": 0
+    },
+    {
+      "year": "098",
+      "subject": "公共衛生營養學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 42,
+      "answers": 0
+    },
+    {
+      "year": "098",
+      "subject": "團體膳食設計與管理",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 41,
+      "answers": 0
+    },
+    {
+      "year": "098",
+      "subject": "團體膳食設計與管理",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 40,
+      "answers": 0
+    },
+    {
+      "year": "098",
+      "subject": "營養學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 40,
+      "answers": 0
+    },
+    {
+      "year": "098",
+      "subject": "營養學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 44,
+      "answers": 0
+    },
+    {
+      "year": "098",
+      "subject": "生理學與生物化學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 47,
+      "answers": 0
+    },
+    {
+      "year": "098",
+      "subject": "生理學與生物化學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 41,
+      "answers": 0
+    },
+    {
+      "year": "098",
+      "subject": "膳食療養學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 40,
+      "answers": 0
+    },
+    {
+      "year": "098",
+      "subject": "膳食療養學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 42,
+      "answers": 0
+    },
+    {
+      "year": "098",
+      "subject": "食品衛生與安全",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 41,
+      "answers": 0
+    },
+    {
+      "year": "098",
+      "subject": "食品衛生與安全",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 42,
+      "answers": 0
+    },
+    {
+      "year": "097",
+      "subject": "公共衛生營養學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 40,
+      "answers": 0
+    },
+    {
+      "year": "097",
+      "subject": "公共衛生營養學",
+      "status": "ok",
+      "format": "mixed",
+      "raw_q": 43,
+      "answers": 0
+    },
+    {
+      "year": "097",
+      "subject": "團體膳食設計與管理",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 40,
+      "answers": 0
+    },
+    {
+      "year": "097",
+      "subject": "團體膳食設計與管理",
+      "status": "ok",
+      "format": "mixed",
+      "raw_q": 44,
+      "answers": 0
+    },
+    {
+      "year": "097",
+      "subject": "營養學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 44,
+      "answers": 0
+    },
+    {
+      "year": "097",
+      "subject": "營養學",
+      "status": "ok",
+      "format": "mixed",
+      "raw_q": 46,
+      "answers": 0
+    },
+    {
+      "year": "097",
+      "subject": "生理學與生物化學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 41,
+      "answers": 0
+    },
+    {
+      "year": "097",
+      "subject": "生理學與生物化學",
+      "status": "ok",
+      "format": "mixed",
+      "raw_q": 44,
+      "answers": 0
+    },
+    {
+      "year": "097",
+      "subject": "膳食療養學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 42,
+      "answers": 0
+    },
+    {
+      "year": "097",
+      "subject": "膳食療養學",
+      "status": "ok",
+      "format": "mixed",
+      "raw_q": 46,
+      "answers": 0
+    },
+    {
+      "year": "097",
+      "subject": "食品衛生與安全",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 40,
+      "answers": 0
+    },
+    {
+      "year": "097",
+      "subject": "食品衛生與安全",
+      "status": "ok",
+      "format": "mixed",
+      "raw_q": 45,
+      "answers": 0
+    },
+    {
+      "year": "096",
+      "subject": "公共衛生營養學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 40,
+      "answers": 0
+    },
+    {
+      "year": "096",
+      "subject": "公共衛生營養學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 41,
+      "answers": 0
+    },
+    {
+      "year": "096",
+      "subject": "團體膳食設計與管理",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 40,
+      "answers": 0
+    },
+    {
+      "year": "096",
+      "subject": "團體膳食設計與管理",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 40,
+      "answers": 0
+    },
+    {
+      "year": "096",
+      "subject": "營養學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 40,
+      "answers": 0
+    },
+    {
+      "year": "096",
+      "subject": "營養學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 44,
+      "answers": 0
+    },
+    {
+      "year": "096",
+      "subject": "生理學與生物化學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 41,
+      "answers": 0
+    },
+    {
+      "year": "096",
+      "subject": "生理學與生物化學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 40,
+      "answers": 0
+    },
+    {
+      "year": "096",
+      "subject": "膳食療養學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 41,
+      "answers": 0
+    },
+    {
+      "year": "096",
+      "subject": "膳食療養學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 40,
+      "answers": 0
+    },
+    {
+      "year": "096",
+      "subject": "食品衛生與安全",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 41,
+      "answers": 0
+    },
+    {
+      "year": "096",
+      "subject": "食品衛生與安全",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 40,
+      "answers": 0
+    },
+    {
+      "year": "095",
+      "subject": "公共衛生營養學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 40,
+      "answers": 0
+    },
+    {
+      "year": "095",
+      "subject": "公共衛生營養學",
+      "status": "ok",
+      "format": "pure_mc",
+      "raw_q": 42,
+      "answers": 0
+    }
+  ]
+}

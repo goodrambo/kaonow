@@ -1,0 +1,42 @@
+-- W1.4 new questions batch 3752/4739 (10)
+
+INSERT INTO public.questions (id, exam_id, paper_id, subject_id, chapter_id, question_type, question_text, options, correct_answer, correct_answer_json, auto_gradable, source, is_active, version, source_meta, explanation)
+VALUES
+  ('fire-eq-eng-moex-00823', 'fire-eq-eng', 'fire-eq-eng-moex-103-7acb2db0', 'sub-fire-eq-eng-06', NULL, 'essay', '在火災發生時，緊急廣播設備是否能提供緊急廣播功能，與其擴音機及操作裝置的
+設置及平時的維護有很大的關係。請問，擴音機及操作裝置的設置規定為何？在進
+行檢修申報時，外觀檢查的檢查與判定方法為何？進行性能檢查時，其檢查方法與
+判定方法又為何？（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T07:11:18+00:00", "source_pdf_sha1": "16f513ccb23d", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "103060", "c": "401", "s": "0703", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "警報系統消防安全設備", "year": "103", "exam_name": "103年專門驗船師、第一次食品技師考試消防設備人員地政士專責報關人員保險員考試", "original_question_number": "四", "answer_corrected": false, "flags": [], "slug": "fire-equipment-engineer", "db_exam_id": "fire-eq-eng"}'::jsonb, NULL),
+  ('fire-eq-eng-moex-00824', 'fire-eq-eng', 'fire-eq-eng-moex-103-3477581a', 'sub-fire-eq-eng-07', NULL, 'essay', '安養機構等場所出口標示燈應具閃滅或音聲引導功能，有關具此功能出口標示燈應
+設置處所及連動規定為何？有關音聲引導之構造，請依出口標示燈及避難方向指示
+燈認可基準規定，說明警報聲基本架構、語音內容及語音格式分別為何？並加以分
+析確保音聲能否有效引導之考量為何？（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T07:11:18+00:00", "source_pdf_sha1": "f46df0f9150e", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "103060", "c": "401", "s": "0704", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "避難系統消防安全設備", "year": "103", "exam_name": "103年專門驗船師、第一次食品技師考試消防設備人員地政士專責報關人員保險員考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "slug": "fire-equipment-engineer", "db_exam_id": "fire-eq-eng"}'::jsonb, NULL),
+  ('fire-eq-eng-moex-00825', 'fire-eq-eng', 'fire-eq-eng-moex-103-3477581a', 'sub-fire-eq-eng-07', NULL, 'essay', '有關緊急照明設備之性能試驗，請依相關規定說明緊急照明燈須切換至何種狀態
+下，測試其照度？測量場所之順序為何？外部光源影響抽測正確值時，須有效遮斷
+外部光源，並應分別量測遮斷外部光源之照度值（A）與關閉緊急照明燈之照度值
+（B）時，量測結果要如何判定？（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T07:11:18+00:00", "source_pdf_sha1": "f46df0f9150e", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "103060", "c": "401", "s": "0704", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "避難系統消防安全設備", "year": "103", "exam_name": "103年專門驗船師、第一次食品技師考試消防設備人員地政士專責報關人員保險員考試", "original_question_number": "二", "answer_corrected": false, "flags": [], "slug": "fire-equipment-engineer", "db_exam_id": "fire-eq-eng"}'::jsonb, NULL),
+  ('fire-eq-eng-moex-00826', 'fire-eq-eng', 'fire-eq-eng-moex-103-3477581a', 'sub-fire-eq-eng-07', NULL, 'essay', '避難器具係輔助避難逃生器具，為達有效使用，依各類場所消防安全設備設置標準
+第 161 條規定，裝設處所應考量事項為何？某場所第 3 層直通避難層或地面之樓梯
+僅一座，不考慮減免條件下，請說明核算此單一避難路徑場所避難器具應設數量之
+基準為何？（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T07:11:18+00:00", "source_pdf_sha1": "f46df0f9150e", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "103060", "c": "401", "s": "0704", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "避難系統消防安全設備", "year": "103", "exam_name": "103年專門驗船師、第一次食品技師考試消防設備人員地政士專責報關人員保險員考試", "original_question_number": "三", "answer_corrected": false, "flags": [], "slug": "fire-equipment-engineer", "db_exam_id": "fire-eq-eng"}'::jsonb, NULL),
+  ('fire-eq-eng-moex-00827', 'fire-eq-eng', 'fire-eq-eng-moex-103-3477581a', 'sub-fire-eq-eng-07', NULL, 'essay', '某辦公大樓居室排煙規劃採空調兼用，事涉審核認可，若系統主要架構為風管兼
+用，風機分設排煙機與空調風機時，請就上開兼用設備之風機、風口、風管及防火
+閘門等組成構件，分析說明何者會牴觸現行各類場所消防安全設備設置標準及有關
+規定？兼用系統在空調模式或排煙模式下，必須均能有效動作，有關確保有效排煙
+之考量及應注意事項為何？（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T07:11:18+00:00", "source_pdf_sha1": "f46df0f9150e", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "103060", "c": "401", "s": "0704", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "避難系統消防安全設備", "year": "103", "exam_name": "103年專門驗船師、第一次食品技師考試消防設備人員地政士專責報關人員保險員考試", "original_question_number": "四", "answer_corrected": false, "flags": [], "slug": "fire-equipment-engineer", "db_exam_id": "fire-eq-eng"}'::jsonb, NULL),
+  ('fire-eq-eng-moex-00828', 'fire-eq-eng', 'fire-eq-eng-moex-102-39deabb9', 'sub-fire-eq-eng-03', NULL, 'essay', '依據 CNS13400，試比較各種乾粉之主成分、簡稱與著色等規定；若某廠商要回收
+再利用ABC乾粉滅火器之滅火藥劑時，試說明需要符合那些規定？（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T07:11:18+00:00", "source_pdf_sha1": "cdfadd90508d", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "102070", "c": "901", "s": "0706", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "化學系統消防安全設備", "year": "102", "exam_name": "102年專技驗船師引水人、第一次食品技師考試消防設備人員地政士專責報關人員保險人員考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "slug": "fire-equipment-engineer", "db_exam_id": "fire-eq-eng"}'::jsonb, NULL),
+  ('fire-eq-eng-moex-00829', 'fire-eq-eng', 'fire-eq-eng-moex-102-39deabb9', 'sub-fire-eq-eng-03', NULL, 'essay', '依據我國規定，試列舉二氧化碳滅火設備適用於那些場所？不適用於那些場所？何
+種情況得採用移動式設置？已知某儲存乙醚之場所，其長、寬、高分別為 6m、5m、
+3m，且牆壁有一無法自動關閉之開口，其長、寬分別為 1m、0.8m，如欲在此區域
+設置全區放射之二氧化碳滅火設備時，至少需要多少滅火藥劑？（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T07:11:18+00:00", "source_pdf_sha1": "cdfadd90508d", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "102070", "c": "901", "s": "0706", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "化學系統消防安全設備", "year": "102", "exam_name": "102年專技驗船師引水人、第一次食品技師考試消防設備人員地政士專責報關人員保險人員考試", "original_question_number": "二", "answer_corrected": false, "flags": [], "slug": "fire-equipment-engineer", "db_exam_id": "fire-eq-eng"}'::jsonb, NULL),
+  ('fire-eq-eng-moex-00830', 'fire-eq-eng', 'fire-eq-eng-moex-102-39deabb9', 'sub-fire-eq-eng-03', NULL, 'essay', '試述目前國內乾粉滅火設備的應用情況，並解釋其原因。若某防護空間其長、寬、
+高分別為 12m、8m、5m，具有無法自動關閉之開口面積為 6m2；如欲設置加壓式
+第三種乾粉全區放射滅火設備進行防護時，其配管之設置規定為何？該系統至少需要多
+少乾粉滅火劑量？在35℃，錶壓力0kg/cm2時，加壓用N 氣體需幾公升？（25分）
+2', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T07:11:18+00:00", "source_pdf_sha1": "cdfadd90508d", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "102070", "c": "901", "s": "0706", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "化學系統消防安全設備", "year": "102", "exam_name": "102年專技驗船師引水人、第一次食品技師考試消防設備人員地政士專責報關人員保險人員考試", "original_question_number": "三", "answer_corrected": false, "flags": [], "slug": "fire-equipment-engineer", "db_exam_id": "fire-eq-eng"}'::jsonb, NULL),
+  ('fire-eq-eng-moex-00831', 'fire-eq-eng', 'fire-eq-eng-moex-102-39deabb9', 'sub-fire-eq-eng-03', NULL, 'essay', '試說明可燃性高壓氣體場所、加氣站、天然氣儲槽及可燃性高壓氣體儲槽之滅火器
+設置規定。（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T07:11:18+00:00", "source_pdf_sha1": "cdfadd90508d", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "102070", "c": "901", "s": "0706", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "化學系統消防安全設備", "year": "102", "exam_name": "102年專技驗船師引水人、第一次食品技師考試消防設備人員地政士專責報關人員保險人員考試", "original_question_number": "四", "answer_corrected": false, "flags": [], "slug": "fire-equipment-engineer", "db_exam_id": "fire-eq-eng"}'::jsonb, NULL),
+  ('fire-eq-eng-moex-00832', 'fire-eq-eng', 'fire-eq-eng-moex-102-990845ec', 'sub-fire-eq-eng-04', NULL, 'essay', '試比對分析歐美日公路長隧道所設水霧系統與我國消防法規規定室內停車空間可選
+用設置之水霧滅火設備，兩者在設計目標、災害境況與性能基準上之差異，並逐一
+說明之。（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T07:11:18+00:00", "source_pdf_sha1": "b7ddd609aff7", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "102070", "c": "901", "s": "0705", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "水系統消防安全設備", "year": "102", "exam_name": "102年專技驗船師引水人、第一次食品技師考試消防設備人員地政士專責報關人員保險人員考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "slug": "fire-equipment-engineer", "db_exam_id": "fire-eq-eng"}'::jsonb, NULL)
+ON CONFLICT (id) DO NOTHING;
