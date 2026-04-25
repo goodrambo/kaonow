@@ -1960,7 +1960,7 @@ const cloud = (() => {
   }
 
   // ── 題庫載入（含快取，24h TTL） ─────────────────────────
-  const Q_CACHE_PREFIX = 'kaonow_q9_';  // bump 2026-04-26 W1.9.2：cap 國中會考 4 paper + 130 active 題詳解 + cap available
+  const Q_CACHE_PREFIX = 'kaonow_q10_';  // bump 2026-04-26 W1.9.2：cap 國中會考 + renderSubjectYearPanel subject filter fix
   const Q_CACHE_TTL = 24 * 3600 * 1000;
   const qMemCache = {};  // 記憶體快取，避免同一 session 重複打
 
@@ -2355,7 +2355,7 @@ const cloud = (() => {
   // ║ v6 subjects 架構：exam_subjects / subjects / chapters ║
   // ║ 跟題庫一樣用「記憶體 + localStorage」雙層快取 ─ 6h TTL   ║
   // ╚══════════════════════════════════════════════════════╝
-  const V6_CACHE_PREFIX = 'kaonow_v11_';  // bump 2026-04-26 W1.9.2：cap available + 4 paper 詳解上線，舊 catalog/exam meta cache 失效
+  const V6_CACHE_PREFIX = 'kaonow_v12_';  // bump 2026-04-26 W1.9.2-fix：renderSubjectYearPanel 加 subject filter，舊 subq cache 失效
   const V6_CACHE_TTL = 6 * 3600 * 1000;
   const v6MemCache = {};
 
@@ -6573,22 +6573,40 @@ function _subjectPageSections(subj, questions, chapters, crossExams) {
 }
 
 // 年度練習 panel（async 拉 exam_papers，subject 對到的 exam 有多張年度卷時顯示）
+// 注意：一個 exam 可能有多 subject（如 cap 國中會考有 7 科），需用本 subject 的
+// questions[].paper_id 反推「本科目擁有的 paper」清單，避免列出別科目的試卷
 async function renderSubjectYearPanel(subjectId, questions) {
   const host = document.getElementById('subj-section-years');
   if (!host || !questions || !questions.length) return;
-  // subject 對到的 exam_id（ntpc 1-to-1）
+  // subject 對到的 exam_id（ntpc 1-to-1；cap 1-to-N）
   const examId = questions[0]?.exam_id;
   if (!examId) return;
   let papers;
   try { papers = await cloud.loadExamPapers(examId); }
   catch(_) { return; }
-  if (!papers || papers.length < 2) return;  // 單張 paper 不用分年度
+  if (!papers) return;
+
+  // ★ 只保留本 subject 真的有題目的 paper（透過 questions[].paper_id 比對）
+  const subjectPaperIds = new Set(
+    questions.map(q => q.paper_id).filter(Boolean)
+  );
+  papers = papers.filter(p => subjectPaperIds.has(p.id));
+  if (papers.length < 2) return;  // 單張 paper 不用分年度
   if (state.currentSubjectId !== subjectId) return;  // 已切頁
+
+  // 計算每張 paper 在本 subject 的題數（active children，不含 reading_passage parent）
+  const perPaperCount = {};
+  for (const q of questions) {
+    if (!q.paper_id) continue;
+    if (q.type === 'reading_passage' || q.type === 'listening_passage') continue;
+    perPaperCount[q.paper_id] = (perPaperCount[q.paper_id] || 0) + 1;
+  }
 
   const items = papers.map(p => {
     const title = p.roc_year ? `${p.roc_year} 年度` : (p.paper_title || '綜合題庫');
-    const hasQs = (p.question_count || 0) > 0;
-    const meta = hasQs ? `${p.question_count} 題 · 10 題隨機` : '題庫建置中';
+    const subjQs = perPaperCount[p.id] || 0;
+    const hasQs = subjQs > 0;
+    const meta = hasQs ? `${subjQs} 題 · 10 題隨機` : '題庫建置中';
     const style = hasQs ? '' : 'style="opacity:.55;cursor:not-allowed"';
     const onclick = hasQs ? `onclick="startQuizByPaper('${p.id}','${examId}')"` : '';
     return `<div class="chapter-item" ${style} ${onclick}>
