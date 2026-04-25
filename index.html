@@ -1960,7 +1960,7 @@ const cloud = (() => {
   }
 
   // ── 題庫載入（含快取，24h TTL） ─────────────────────────
-  const Q_CACHE_PREFIX = 'kaonow_q5_';  // bump 2026-04-25：loadQuestionsBySubject select 加 exam_id，用於年度 panel
+  const Q_CACHE_PREFIX = 'kaonow_q6_';  // bump 2026-04-25：_attachPassagesAndFilter 加 needs_image filter，舊 cache 仍含圖題
   const Q_CACHE_TTL = 24 * 3600 * 1000;
   const qMemCache = {};  // 記憶體快取，避免同一 session 重複打
 
@@ -1999,6 +1999,14 @@ const cloud = (() => {
   //      attach 到 children 的 q._passage，parent 本身自 list 過濾掉（不獨立渲染）。
   function _attachPassagesAndFilter(list) {
     if (!Array.isArray(list) || list.length === 0) return list;
+
+    // 先 filter 掉「圖題」（parser v1.1 抽不到圖示選項，options=[] 或 q='')
+    // DB v18f 已標 source_meta.flags=['needs_image']；待手動補圖內容後移除 flag
+    list = list.filter(q => {
+      const flags = q.source_meta?.flags || [];
+      return !flags.includes('needs_image');
+    });
+
     const parents = {};
     for (const q of list) {
       if (q.type === 'reading_passage' || q.type === 'listening_passage' || q.type === 'stem_shared') {
@@ -2347,7 +2355,7 @@ const cloud = (() => {
   // ║ v6 subjects 架構：exam_subjects / subjects / chapters ║
   // ║ 跟題庫一樣用「記憶體 + localStorage」雙層快取 ─ 6h TTL   ║
   // ╚══════════════════════════════════════════════════════╝
-  const V6_CACHE_PREFIX = 'kaonow_v7_';  // bump: 2026-04-25 加入 chapter question_count trigger + loadQuestionsBySubject 加 exam_id
+  const V6_CACHE_PREFIX = 'kaonow_v8_';  // bump: 2026-04-25 _attachPassagesAndFilter 加 needs_image filter
   const V6_CACHE_TTL = 6 * 3600 * 1000;
   const v6MemCache = {};
 
@@ -3744,7 +3752,7 @@ const examCategories=[
 ];
 const exams=[
 
-  {id:'osh-a',categoryId:'tech-cert',available:true,
+  {id:'osh-a',categoryId:'tech-cert',available:false,
    name:'甲種職業安全衛生業務主管',short:'甲種職安衛',
    desc:'勞動部認證，事業單位負責人必備。5大章節、42小時訓練時數，涵蓋法規、管理、危害預防、健康保護與教育訓練。',
    issuer:'勞動部職業安全衛生署',durationHours:42,examFormat:'筆試・選擇題',
