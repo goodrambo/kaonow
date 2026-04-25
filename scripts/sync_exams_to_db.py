@@ -183,7 +183,11 @@ def python_dict_to_js(d: dict) -> str:
 
 def insert_new_exams(text: str, new_exams: list) -> str:
     """在 exams[] 的最後一個 prof-exam 後插入新 exam objects，
-    最簡單：直接插在 `];` 結尾 marker 之前。"""
+    最簡單：直接插在 `];` 結尾 marker 之前。
+
+    注意：陣列最後一個物件可能沒 trailing comma（多數 JS 風格不寫），
+    需要先檢查並補上，否則插入後會 SyntaxError。
+    """
     # 找 const exams=[ ... ] 結束處
     start = text.find("const exams=[")
     end = text.find("\n];", start)
@@ -200,8 +204,21 @@ def insert_new_exams(text: str, new_exams: list) -> str:
         additions.append("\n  " + python_dict_to_js(ex) + ",")
     if not additions:
         return text
+
+    # 確認 end 之前最後一個非空白字元是 `,` 或 `[`，若不是要補 comma
+    # 從 end 往回找最後一個非空白 char
+    i = end - 1
+    while i > start and text[i] in " \t\n\r":
+        i -= 1
+    last_char = text[i]
+    prefix = text[:end]
+    suffix = text[end:]
+    if last_char not in (",", "["):
+        # 在最後一個 `}` 之後補 comma
+        prefix = text[:i+1] + "," + text[i+1:end]
+        print(f"  [auto-fix] 補上漏掉的 trailing comma after last existing entry")
     insertion = "".join(additions) + "\n"
-    return text[:end] + insertion + text[end:]
+    return prefix + insertion + suffix
 
 
 def main():
