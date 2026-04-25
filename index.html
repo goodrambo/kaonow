@@ -2457,11 +2457,22 @@ const cloud = (() => {
 
   // 每 exam DB 實際題數（從 exam_papers.question_count 聚合）— 輕量 payload
   // 回傳 { exam_id: total_count }，失敗時回 {}
+  // 注意：PostgREST 預設 max-rows=1000，1,484 papers 會被截斷 → 需 paginate
   async function loadExamQuestionCounts() {
-    const r = await request('exam_papers?select=exam_id,question_count&is_active=eq.true&limit=5000');
-    if (!r.ok || !Array.isArray(r.data)) { warn('loadExamQuestionCounts failed', r); return {}; }
     const counts = {};
-    r.data.forEach(p => { counts[p.exam_id] = (counts[p.exam_id] || 0) + (p.question_count || 0); });
+    const PAGE = 1000;
+    for (let offset = 0; offset < 20000; offset += PAGE) {
+      const r = await request(
+        'exam_papers?select=exam_id,question_count&is_active=eq.true' +
+        `&offset=${offset}&limit=${PAGE}&order=id.asc`
+      );
+      if (!r.ok || !Array.isArray(r.data)) {
+        warn('loadExamQuestionCounts page failed', { offset, r });
+        break;
+      }
+      r.data.forEach(p => { counts[p.exam_id] = (counts[p.exam_id] || 0) + (p.question_count || 0); });
+      if (r.data.length < PAGE) break;  // 最後一頁
+    }
     return counts;
   }
 
