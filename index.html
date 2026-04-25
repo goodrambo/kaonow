@@ -1960,7 +1960,7 @@ const cloud = (() => {
   }
 
   // ── 題庫載入（含快取，24h TTL） ─────────────────────────
-  const Q_CACHE_PREFIX = 'kaonow_q8_';  // bump 2026-04-25 W1.6：civil-service 350 新 exam + 93k 題入庫
+  const Q_CACHE_PREFIX = 'kaonow_q9_';  // bump 2026-04-26 W1.9.2：cap 國中會考 4 paper + 130 active 題詳解 + cap available
   const Q_CACHE_TTL = 24 * 3600 * 1000;
   const qMemCache = {};  // 記憶體快取，避免同一 session 重複打
 
@@ -2355,7 +2355,7 @@ const cloud = (() => {
   // ║ v6 subjects 架構：exam_subjects / subjects / chapters ║
   // ║ 跟題庫一樣用「記憶體 + localStorage」雙層快取 ─ 6h TTL   ║
   // ╚══════════════════════════════════════════════════════╝
-  const V6_CACHE_PREFIX = 'kaonow_v10_';  // bump 2026-04-25 W1.6：civil-service 350 新 exam，舊 catalog/exam meta cache 全失效
+  const V6_CACHE_PREFIX = 'kaonow_v11_';  // bump 2026-04-26 W1.9.2：cap available + 4 paper 詳解上線，舊 catalog/exam meta cache 失效
   const V6_CACHE_TTL = 6 * 3600 * 1000;
   const v6MemCache = {};
 
@@ -3904,7 +3904,7 @@ const exams=[
   {id:'gsat',categoryId:'academic',available:false,name:"大學學科能力測驗",short:"學測",desc:"大學申請入學主要依據",issuer:"大學入學考試中心",examFormat:"筆試",mock_question_count:60,mock_time_minutes:80,mock_pass_score:60,links:{official:'https://www.ceec.edu.tw/',reg:'https://www.ceec.edu.tw/',bank:'https://www.ceec.edu.tw/'},chapters:[{id:0,name:"國文",count:20},{id:1,name:"英文",count:20},{id:2,name:"數學A/B",count:20},{id:3,name:"社會/自然",count:20},{id:4,name:"國語文寫作",count:20}]},
   {id:'ast',categoryId:'academic',available:false,name:"分科測驗",short:"分科",desc:"大學分發入學採計（原指考）",issuer:"大學入學考試中心",examFormat:"筆試",mock_question_count:60,mock_time_minutes:80,mock_pass_score:60,links:{official:'https://www.ceec.edu.tw/',reg:'https://www.ceec.edu.tw/',bank:'https://www.ceec.edu.tw/'},chapters:[{id:0,name:"數學甲",count:25},{id:1,name:"歷史/地理/公民",count:25},{id:2,name:"物理/化學/生物",count:25},{id:3,name:"專業科目",count:25}]},
   {id:'tcat',categoryId:'academic',available:false,name:"四技二專統一入學測驗",short:"統測",desc:"技職體系升學主要管道",issuer:"技專校院入學測驗中心",examFormat:"筆試",mock_question_count:80,mock_time_minutes:100,mock_pass_score:60,links:{official:'https://www.tcte.edu.tw/',reg:'https://www.tcte.edu.tw/',bank:'https://www.tcte.edu.tw/'},chapters:[{id:0,name:"共同科目（國英數）",count:30},{id:1,name:"專業科目（一）",count:35},{id:2,name:"專業科目（二）",count:35}]},
-  {id:'cap',categoryId:'academic',available:false,name:"國中教育會考",short:"會考",desc:"國中生升高中職重要依據",issuer:"國中教育會考推動工作委員會",examFormat:"筆試",mock_question_count:48,mock_time_minutes:70,mock_pass_score:60,links:{official:'https://cap.rcpet.edu.tw/',reg:'https://cap.rcpet.edu.tw/',bank:'https://cap.rcpet.edu.tw/'},chapters:[{id:0,name:"國文",count:20},{id:1,name:"英語",count:20},{id:2,name:"數學",count:20},{id:3,name:"社會",count:20},{id:4,name:"自然",count:20}]},
+  {id:'cap',categoryId:'academic',available:true,name:"國中教育會考",short:"會考",desc:"國中生升高中職重要依據",issuer:"國中教育會考推動工作委員會",examFormat:"筆試",mock_question_count:48,mock_time_minutes:70,mock_pass_score:60,links:{official:'https://cap.rcpet.edu.tw/',reg:'https://cap.rcpet.edu.tw/',bank:'https://cap.rcpet.edu.tw/'},chapters:[{id:0,name:"國文",count:20},{id:1,name:"英語",count:20},{id:2,name:"數學",count:20},{id:3,name:"社會",count:20},{id:4,name:"自然",count:20}]},
   {id:'english-listening',categoryId:'academic',available:false,name:"高中英語聽力測驗",short:"英聽",desc:"大學入學採計之英聽測驗",issuer:"大學入學考試中心",examFormat:"聽力筆試",mock_question_count:40,mock_time_minutes:60,mock_pass_score:60,links:{official:'https://www.ceec.edu.tw/',reg:'https://www.ceec.edu.tw/',bank:'https://www.ceec.edu.tw/'},chapters:[{id:0,name:"短篇聽解",count:25},{id:1,name:"對話聽解",count:25},{id:2,name:"長篇聽解",count:25},{id:3,name:"綜合測驗",count:25}]},
   {id:'transfer-2',categoryId:'academic',available:false,name:"二技入學測驗",short:"二技統測",desc:"專科升二技入學管道",issuer:"技專校院入學測驗中心",examFormat:"筆試",mock_question_count:80,mock_time_minutes:100,mock_pass_score:60,links:{official:'https://www.tcte.edu.tw/',reg:'https://www.tcte.edu.tw/',bank:'https://www.tcte.edu.tw/'},chapters:[{id:0,name:"共同科目",count:33},{id:1,name:"專業科目（一）",count:33},{id:2,name:"專業科目（二）",count:34}]},
   {id:'public-scholar',categoryId:'academic',available:false,name:"公費留學考試",short:"公費留學",desc:"教育部公費留學人才選拔",issuer:"教育部",examFormat:"筆試",mock_question_count:60,mock_time_minutes:120,mock_pass_score:60,links:{official:'https://ws.moe.edu.tw/',reg:'https://ws.moe.edu.tw/',bank:'https://ws.moe.edu.tw/'},chapters:[{id:0,name:"國文",count:25},{id:1,name:"英文",count:25},{id:2,name:"專門科目一",count:25},{id:3,name:"專門科目二",count:25}]},
