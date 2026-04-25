@@ -1,0 +1,4177 @@
+{
+  "slug": "aboriginal-d0d1b9a2",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:38:04+00:00",
+  "paper_count": 7,
+  "paper_with_questions": 6,
+  "question_count": 113,
+  "type_counts": {
+    "essay": 12,
+    "single_choice": 101
+  },
+  "papers": [
+    {
+      "year": "114",
+      "exam_code": "114140",
+      "c": "607",
+      "s": "0104",
+      "q": "1",
+      "subject": "基礎能力測驗(作文、英文及中華民國憲法)",
+      "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "a5b041f27a44",
+      "a_pdf_sha1": "fec879a3ea70",
+      "format_detected": "mixed",
+      "raw_question_count": 0,
+      "status": "parse_q_failed"
+    },
+    {
+      "year": "114",
+      "exam_code": "114140",
+      "c": "607",
+      "s": "1304",
+      "q": "1",
+      "subject": "政府會計概要",
+      "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "f28ec9747297",
+      "a_pdf_sha1": "297856bc2cb4",
+      "format_detected": "mixed",
+      "raw_question_count": 22,
+      "answer_qnums_extracted": 20,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 22,
+      "skipped_count": 0
+    },
+    {
+      "year": "114",
+      "exam_code": "114140",
+      "c": "607",
+      "s": "1306",
+      "q": "1",
+      "subject": "會計學概要",
+      "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "253eaf65d94c",
+      "a_pdf_sha1": "9b18364fc8b2",
+      "format_detected": "mixed",
+      "raw_question_count": 22,
+      "answer_qnums_extracted": 20,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 22,
+      "skipped_count": 0
+    },
+    {
+      "year": "114",
+      "exam_code": "114140",
+      "c": "607",
+      "s": "1303",
+      "q": "1",
+      "subject": "會計法規概要",
+      "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "453c21baa5c8",
+      "a_pdf_sha1": "d06339eb4413",
+      "format_detected": "mixed",
+      "raw_question_count": 22,
+      "answer_qnums_extracted": 20,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 22,
+      "skipped_count": 0
+    },
+    {
+      "year": "113",
+      "exam_code": "113140",
+      "c": "506",
+      "s": "1306",
+      "q": "1",
+      "subject": "政府會計概要",
+      "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "d8bea15b0013",
+      "a_pdf_sha1": "6e84be962263",
+      "format_detected": "mixed",
+      "raw_question_count": 22,
+      "answer_qnums_extracted": 20,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 22,
+      "skipped_count": 0
+    },
+    {
+      "year": "113",
+      "exam_code": "113140",
+      "c": "506",
+      "s": "1304",
+      "q": "1",
+      "subject": "會計學概要",
+      "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "a092391b7b41",
+      "a_pdf_sha1": "3daaa73c2bbf",
+      "format_detected": "pure_essay",
+      "raw_question_count": 2,
+      "answer_qnums_extracted": 20,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 2,
+      "skipped_count": 0
+    },
+    {
+      "year": "113",
+      "exam_code": "113140",
+      "c": "506",
+      "s": "1305",
+      "q": "1",
+      "subject": "會計法規概要",
+      "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "b320891c5923",
+      "a_pdf_sha1": "bef9620a3afb",
+      "format_detected": "mixed",
+      "raw_question_count": 23,
+      "answer_qnums_extracted": 20,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 23,
+      "skipped_count": 0
+    }
+  ],
+  "questions": [
+    {
+      "id": "aboriginal-d0d1b9a2-0001",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "essay",
+      "question": "X1 年 5 月 1 日，甲機關以1,000萬元成立 A特別收入基金。X1 年12 月\n20 日，A 基金將當年度賸餘 200 萬元解繳國庫。X1 年 12 月 31 日，A\n基金之淨資產為 1,150 萬元。X2 年 2 月 5 日，甲機關決定將 A 基金之\n現金 900 萬元收回繳庫。請依中央政府普通公務單位會計制度之一致規\n定，並以下表所列格式，列示在各交易事項發生時，甲機關應有之會計\n分錄。（25 分）\n（格式無須重新謄寫，僅回答甲、乙、丙、丁之正確分錄即可，各項分\n錄之會計科目應以第四級科目名稱為準，金額應以萬元為單位；若無分\n錄亦應註明之，否則不予給分。）\n日期 會計分錄（單位：萬元）\nX1/5/1 甲\nX1/12/20 乙\nX1/12/31 丙\nX2/2/5 丁",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "f28ec9747297",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1304",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "政府會計概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0002",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "essay",
+      "question": "依中央政府普通公務單位會計制度之一致規定，各機關編送之會計月報\n之預算執行報表，其主要表除歲入累計表及經費累計表外，尚包括那二\n項報表？其附屬表包括那三項報表？（25分）\n（各類報表之回答項數，主要表不得超過二項、附屬表不得超過三項，\n否則皆不予給分。）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "f28ec9747297",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1304",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "政府會計概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0003",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "依政府會計原理及理論，下列何者不屬於政事基金？",
+      "options": [
+        "普通基金",
+        "特別收入基金",
+        "作業基金",
+        "債務基金"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "f28ec9747297",
+        "answer_pdf_sha1": "297856bc2cb4",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1304",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0004",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "依政府會計準則公報第5號規定，A公司由中央政府持股80%、民間持股20%成立，B公司由中 央政府持股20%、A公司持股35%、民間持股45%成立，下列敘述何者錯誤？",
+      "options": [
+        "B公司為民營企業",
+        "B公司為A公司之轉投資事業",
+        "A公司應納入政府會計報導個體範圍",
+        "A公司編製合併報表時無須將B公司納入"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "f28ec9747297",
+        "answer_pdf_sha1": "297856bc2cb4",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1304",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0005",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "依政府會計觀念公報第2號規定，政府會計報告須具備及儘可能具備的品質特性，不包括下列何 者？",
+      "options": [
+        "攸關性",
+        "公平性",
+        "可比較性",
+        "可驗證性"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "f28ec9747297",
+        "answer_pdf_sha1": "297856bc2cb4",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1304",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0006",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "依政府會計準則公報第4號規定，下列何種組織固定資產之會計處理非屬其規範範圍？",
+      "options": [
+        "警察廣播電臺",
+        "中央政府債務基金",
+        "國立臺灣大學",
+        "勞工退休基金"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "f28ec9747297",
+        "answer_pdf_sha1": "297856bc2cb4",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1304",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0007",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "依政府會計準則公報第5號規定，有關公務機關長期股權投資之股利收受，下列敘述何者正確？",
+      "options": [
+        "採成本法者，收到被投資者之現金股利時，應減少該長期股權投資之帳面金額",
+        "採公允價值者，收到被投資者之現金股利時，應列為收入",
+        "持有A上市公司15%股權，未具重大影響力，收到被投資者之現金股利時，應減少該長期股權 投資之帳面金額",
+        "持有B上市公司15%股權，具重大影響力，收到被投資者之現金股利時，應列為收入"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "f28ec9747297",
+        "answer_pdf_sha1": "297856bc2cb4",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1304",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0008",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "依中央總會計制度之規定，有關公務機關繳付公庫數分析表，其中表列收入合計數列之各欄金額 分別為：收入實現數3,000億元、預收款200億元、收入待納庫數300億元、以前年度待納庫繳 庫數100億元、收到以前年度剔除經費100億元，則繳付公庫數欄應列之金額為何？",
+      "options": [
+        "3,700億元",
+        "3,600億元",
+        "3,300億元",
+        "3,100億元"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "f28ec9747297",
+        "answer_pdf_sha1": "297856bc2cb4",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1304",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0009",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "依中央政府整體資產負債表編製注意事項規定，各機關之「負債準備」相對應之總會計科目為下 列何者？",
+      "options": [
+        "無相對應之總會計科目",
+        "長期債務",
+        "其他負債",
+        "負債準備"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "f28ec9747297",
+        "answer_pdf_sha1": "297856bc2cb4",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1304",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0010",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "依中央總會計制度規定，有關政府會計報告之敘述，下列何者正確？",
+      "options": [
+        "財務報告，包括整體財務報表、基金基礎財務報表及其附註",
+        "公務機關財務報表，包括平衡表、收入支出表及現金流量表",
+        "營業基金財務報表，包括資產負債表、餘絀撥補表及現金流量表",
+        "作業基金財務報表，包括平衡表、收支餘絀表及現金流量表"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "f28ec9747297",
+        "answer_pdf_sha1": "297856bc2cb4",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1304",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0011",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "依中央總會計制度之規定，下列何者屬編製整體資產負債表應沖銷之內部往來事項？①公務機關",
+      "options": [
+        "公務機關財產由作業基金代管部分",
+        "公務 機關收入解繳公庫款",
+        "公務機關向公營銀行之短期借款",
+        "僅"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "f28ec9747297",
+        "answer_pdf_sha1": "297856bc2cb4",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1304",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0012",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲機關於 X4 年租賃辦公廳舍，並依契約繳付押金，於同年底辦理退租收回押金，依中央政府普 通公務單位會計制度之一致規定，甲機關收回押金辦理繳庫時應作何項會計分錄？",
+      "options": [
+        "借：公庫撥入數，貸：存出保證金",
+        "借：繳付公庫數，貸：存出保證金",
+        "借：其他應收款，貸：預付款",
+        "借：繳付公庫數，貸：預付款"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "f28ec9747297",
+        "answer_pdf_sha1": "297856bc2cb4",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1304",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0013",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "乙機關購買洗衣機1台9,800元、傳真機1台3,000元及資訊設備1台9,900元，依中央政府普通",
+      "options": [
+        "借記支出",
+        "借記資產",
+        "貸記收入",
+        "貸記資產"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "f28ec9747297",
+        "answer_pdf_sha1": "297856bc2cb4",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1304",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 11,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0014",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲機關於X4年3月投資A上市公司2億元，並取得30%股權，同年4月7日A公司發放現金股 利，甲機關收到股利500萬元時，以與投資年度相同為由，逕以支出收回方式，沖抵投資成本。 行政院查核決算時，依預算法及中央政府普通公務單位會計制度之一致規定予以修正，下列何者 為甲機關依行政院修正應作之會計分錄？",
+      "options": [
+        "借：採權益法之投資500萬元，貸：採權益法投資之評價調整500萬元",
+        "借：採權益法之投資500萬元，貸：投資股息紅利500萬元",
+        "借：採權益法之投資評價調整500萬元，貸：投資利益500萬元",
+        "借：資產負債淨額500萬元，貸：採權益法投資之評價調整500萬元"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "f28ec9747297",
+        "answer_pdf_sha1": "297856bc2cb4",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1304",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 12,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0015",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "依中央政府普通公務單位會計制度之一致規定，甲機關持有 A 公司股票，帳載其他長期投資，於 X3年7月收到A公司發放之現金股利，該交易對X3年各類會計科目之影響，下列敘述何者正確？",
+      "options": [
+        "均無影響",
+        "減少收入",
+        "增加支出",
+        "減少資產評價調整"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "f28ec9747297",
+        "answer_pdf_sha1": "297856bc2cb4",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1304",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 13,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0016",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "依中央政府普通公務單位會計制度之一致規定，各機關收入、支出及財產之增減、移轉等事項，",
+      "options": [
+        "零用金之支用",
+        "呆稅（帳） 之沖銷",
+        "材料之使用",
+        "繳付公庫數"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "f28ec9747297",
+        "answer_pdf_sha1": "297856bc2cb4",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1304",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 14,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0017",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲機關X4年1月1日以融資租賃方式取得固定資產一批155萬元，租期5年，每年年初付款30 萬元，依中央政府普通公務單位會計制度之一致規定，有關上開交易事項，無須表達於下列何者？",
+      "options": [
+        "平衡表",
+        "應付租賃款及其他長期負債變動表",
+        "經費累計表",
+        "繳付公庫數分析表"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "f28ec9747297",
+        "answer_pdf_sha1": "297856bc2cb4",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1304",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 15,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0018",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "依中央政府普通公務單位會計制度之一致規定，下列關於甲機關 X3 年度預算執行材料交易，會",
+      "options": [
+        "將X1年度購置材料價款以X3年度預算數辦理繳庫",
+        "X3年度購 買材料",
+        "X3年度計畫使用材料",
+        "X2年度已奉准保留之計畫使用材料"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "f28ec9747297",
+        "answer_pdf_sha1": "297856bc2cb4",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1304",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 16,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0019",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "依中央政府普通公務單位會計制度之一致規定，下列交易事項何者一定不會影響當年度之支出數",
+      "options": [
+        "固定資產辦理重估增值時",
+        "取得遞耗資產時",
+        "已達耐用年限固定資產報廢時",
+        "辦 理可提升固定資產服務能量之大修時"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "f28ec9747297",
+        "answer_pdf_sha1": "297856bc2cb4",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1304",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 17,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0020",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲稅捐機關將依法收到納稅義務人抵繳稅款之實物變現並繳庫，依中央政府普通公務單位會計制 度之一致規定，下列敘述何者正確？",
+      "options": [
+        "按帳面值變現時，借記公庫撥入數科目",
+        "變現數超過帳面值時，超過金額應貸記資產負債淨額科目",
+        "變現數少於帳面值時，若本年度已認列收入科目，少於金額應借記遞延收入科目",
+        "變現數少於帳面值時，若以前年度已認列收入科目，少於金額應借記資產負債淨額科目"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "f28ec9747297",
+        "answer_pdf_sha1": "297856bc2cb4",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1304",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 18,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0021",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "依現行實務之作法，下列敘述何者正確？①會計報告中應揭露預算及其實際執行結果之比較資",
+      "options": [
+        "會計報告中應揭露預算及其實際執行結果之 比較資訊，以提供報告使用者評估政府之施政績效責任",
+        "各機關依預算控制類科目登帳後，係 於會計報告相關報表中以可支用預算數、累計分配數、累計實現數及執行較分配增減數等欄位呈 現",
+        "各機關依預算控制類科目登帳後，直接於平衡表或收入支出表中顯示所有預算控制類科目 之餘額",
+        "僅"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "f28ec9747297",
+        "answer_pdf_sha1": "297856bc2cb4",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1304",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 19,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0022",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "依中央政府普通公務單位會計制度之一致規定及政府會計準則公報第2號規定，丁地方政府於X4 年3月收到年度預算外，中央政府未指定用途的補助款1,000萬元，其應作之分錄為何？",
+      "options": [
+        "借：繳付公庫數1,000萬元，貸：暫收款1,000萬元",
+        "借：繳付公庫數1,000萬元，貸：補助收入1,000萬元",
+        "借：繳付公庫數1,000萬元，貸：預收其他政府款1,000萬元",
+        "借：繳付公庫數1,000萬元，貸：應付代收款1,000萬元"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "f28ec9747297",
+        "answer_pdf_sha1": "297856bc2cb4",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1304",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 20,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0023",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "essay",
+      "question": "甲公司採直線法提列折舊，該公司於 X1 年中更換廠房設備，X1年 1 月\n1 日設備帳上餘額$295,000，累計折舊$74,000。X1年 12 月 31日設備帳\n上餘額$360,000，累計折舊$128,000。X1 年中甲公司曾將帳列成本\n$135,000、累計折舊$82,000之舊設備出售，得款$55,000；另購置新設備\n之價款係以兩年期、年息 9%之附息票據支付。試計算：（須於答案卷中\n列明計算過程否則不予計分）\n處分設備損益。（15分）\n新設備成本。（10 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "253eaf65d94c",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1306",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "會計學概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0024",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "essay",
+      "question": "甲公司為畜牧公司，所有交易皆為現金交易。甲公司飼養的種豬於 X1 年\n2 月 1 日生產 12 頭豬仔，甲公司擬於飼養長大後當肉豬出售，該 12 頭\n豬仔的公允價值減去估計銷售點成本為$87,000。甲公司於 X1 年 11 月\n20 日將其飼養的12 頭肉豬屠宰出售，豬肉的售價為$150,000，另支付運\n送至市場的運費$4,000、屠宰費$5,000、肉品市場規費$6,000。試作下列\n各項相關分錄：\n自行養殖肉豬轉生物資產。（15 分）\n出售生物資產。（10分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "253eaf65d94c",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1306",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "會計學概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0025",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司於X4年1月1日買入一設備，成本$400,000，估計耐用年限6年，殘值$16,000，以直線 法提列折舊。X5年1月1日進行定期維修費用$5,000，並添購新配件$60,000，本次添購配件預計 可增加設備每年50%的生產力。若原設備耐用年限不變，但殘值提升至$21,000，則甲公司X5年 應認列之折舊費用為何？",
+      "options": [
+        "$62,500",
+        "$63,000",
+        "$75,000",
+        "$76,000"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "253eaf65d94c",
+        "answer_pdf_sha1": "9b18364fc8b2",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0026",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲牧場飼養的羊隻於X5年9月30日共生產羊乳10,000公升，每公升羊乳市價為$210，運送至 市場之運輸成本每公升$10，出售成本每公升為$5。當月份發生飼料費用$50,000，採收羊乳工資 $26,000，其他支出$35,000，試問甲牧場採集的羊乳入帳金額是多少？",
+      "options": [
+        "$1,839,000",
+        "$1,950,000",
+        "$2,026,000",
+        "$2,061,000 60740"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "253eaf65d94c",
+        "answer_pdf_sha1": "9b18364fc8b2",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0027",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司於X5年7月1日出售一台特殊機器給乙客戶，並提供一年內免費更換零件的售後服務保 證，估計每個零件更換成本為$50,000。若甲公司評估發生一個零件故障機率為30%，二個零件故 障機率為60%，三個零件故障機率為10%，則甲公司X5年應認列估計產品保證負債金額為何？",
+      "options": [
+        "$0",
+        "$60,000",
+        "$90,000",
+        "$100,000"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "253eaf65d94c",
+        "answer_pdf_sha1": "9b18364fc8b2",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0028",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司於X5年4月1日以$1,081,696之價格發行面額$1,000,000、利率5%、10年期公司債，每 年4月1日及10月1日付息，發行當日市場利率為4%。甲公司為曆年制，採有效利率法攤銷溢 折價，則甲公司X5年應認列利息費用是多少？（四捨五入至整數位）",
+      "options": [
+        "$32,417",
+        "$37,500",
+        "$42,583",
+        "$43,201"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "253eaf65d94c",
+        "answer_pdf_sha1": "9b18364fc8b2",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0029",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "下列各項中，有幾項屬於籌資活動之現金流量？①收取現金股利  ②舉借債務  ③出售交易目的",
+      "options": [
+        "透過其他綜合損益按公允價值衡量之債券投資評價損益 ⑤再出售庫藏股票  ⑥採權益法認列之投資損失",
+        "1項",
+        "2項",
+        "3項"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "253eaf65d94c",
+        "answer_pdf_sha1": "9b18364fc8b2",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0030",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司X5年期初應收帳款$66,000，期末應收帳款$68,000，期初應付帳款$50,000，期末應付帳款 $58,000，期初存貨$126,000，期末存貨$130,000，本期銷貨成本$1,900,000，則甲公司X5年度進 貨付現金額是多少？",
+      "options": [
+        "$1,888,000",
+        "$1,896,000",
+        "$1,904,000",
+        "$1,912,000"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "253eaf65d94c",
+        "answer_pdf_sha1": "9b18364fc8b2",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0031",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司X5年發生下列交易：添購設備支付$160,000；借款給關係企業$100,000；出售一筆帳面金 額為$900,000土地，獲利$45,000；出售交易目的持有之金融資產，帳面金額$80,000，損失$6,500； 增資發行新股$300,000。則甲公司X5年現金流量表中投資活動之現金流量為多少？",
+      "options": [
+        "淨現金流入$685,000",
+        "淨現金流入$758,500",
+        "淨現金流入$958,500",
+        "淨現金流入$1,205,000"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "253eaf65d94c",
+        "answer_pdf_sha1": "9b18364fc8b2",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0032",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "若公司淨資產為正數，下列何項會導致公司之負債對資產比率增加？",
+      "options": [
+        "發放股票股利",
+        "支付應付利息",
+        "處分設備產生損失",
+        "收回公司債產生利得"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "253eaf65d94c",
+        "answer_pdf_sha1": "9b18364fc8b2",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0033",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "下列何者應列為「追溯適用及追溯重編影響數」？",
+      "options": [
+        "改變折舊資產之折舊方法",
+        "建造合約在變成可合理衡量進度後改採用「完工比例法」",
+        "改變無形資產耐用年限之評估",
+        "會計原則適用錯誤"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "253eaf65d94c",
+        "answer_pdf_sha1": "9b18364fc8b2",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0034",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司之X5年9月薪資費用為$44,000。X5年8月31日應付薪資餘額為$7,980，9月30日應付 薪資餘額為$8,730，試問X5年9月實際支付之薪資現金為何？",
+      "options": [
+        "$35,270",
+        "$43,250",
+        "$44,750",
+        "$51,980"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "253eaf65d94c",
+        "answer_pdf_sha1": "9b18364fc8b2",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0035",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司自設立以來即採用先進先出法計算存貨成本。X4 年之期末存貨為$65,000；若採用個別認 定法則期末存貨應為$47,000。假設X4年改用個別認定法，甲公司之稅前淨利：",
+      "options": [
+        "在過去年度累計將增加$18,000",
+        "在過去年度累計將減少$18,000",
+        "於X4年將增加$18,000",
+        "於X4年將減少$18,000"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "253eaf65d94c",
+        "answer_pdf_sha1": "9b18364fc8b2",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 11,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0036",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司之X4與X3年財務報表存在下列錯誤： X4年：期末存貨高估$4,000；折舊費用低估$3,500。 X3年：期末存貨低估$6,000；折舊費用高估$5,000。 假設X3年12月31日未作任何更正分錄，且忽略所得稅，則X4年12月31日之保留盈餘將被 高估或低估多少？",
+      "options": [
+        "高估$2,500",
+        "低估$2,500",
+        "高估$5,000",
+        "低估$9,000"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "253eaf65d94c",
+        "answer_pdf_sha1": "9b18364fc8b2",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 12,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0037",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司之存貨處理係採用定期盤存制。X4年度資料如下：期初存貨3,000單位，單位成本$50；5 月20日進貨6,000單位，單位成本$40；10月8日進貨3,000單位，單位成本$30。期末盤點存貨 尚餘2,400單位。若存貨流動假設為平均法，則X4年銷貨成本為何？",
+      "options": [
+        "$372,000",
+        "$384,000",
+        "$396,000",
+        "$408,000 60740"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "253eaf65d94c",
+        "answer_pdf_sha1": "9b18364fc8b2",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 13,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0038",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司以一部機器（帳面金額$320,000，公允價值$305,000）與乙公司交換一部公允價值$340,000 之機器；甲另支付現金$35,000。假設該交換具商業實質且公允價值能可靠衡量，則甲公司應認列 之交換損益為何？",
+      "options": [
+        "$35,000利益",
+        "$0",
+        "$7,500損失",
+        "$15,000損失"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "253eaf65d94c",
+        "answer_pdf_sha1": "9b18364fc8b2",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 14,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0039",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司於X2年初以$5,400,000取得一部設備，耐用年限18年、無殘值，採直線法折舊，後續以 重估價模式衡量。X3年底進行重估，公允價值為$6,120,000；耐用年限與殘值均不變。公司政策 為重估增值於後續使用期間逐期轉入保留盈餘（不考慮所得稅）。試問X4年底「其他權益－重估 增值」之餘額為何？",
+      "options": [
+        "$1,200,000",
+        "$1,237,500",
+        "$1,260,000",
+        "$1,320,000"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "253eaf65d94c",
+        "answer_pdf_sha1": "9b18364fc8b2",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 15,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0040",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司於X6年底並無列報無形資產，於X7年初取得乙公司控制權。合併當日，乙公司有正在執 行之三項可辨認且能可靠衡量之研發專案：",
+      "options": [
+        "A專案：合併日公允價值$12,000；X7年間另投入$7,000，截至年底仍屬研究階段",
+        "B專案：合併日公允價值$26,000；X7年間另投入$8,000，年末處於開發階段，未符合IAS38 第57段認列條件",
+        "C專案：合併日公允價值$32,000；X7年間另投入$9,000，年末處於開發階段，已符合IAS38 第57段認列條件。 試問X7年底甲公司合併資產負債表應列示之無形資產合計為何？",
+        "$70,000"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "253eaf65d94c",
+        "answer_pdf_sha1": "9b18364fc8b2",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 16,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0041",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "下列四項中，有幾項不屬於投資性不動產？①目前尚未決定未來用途之建築物  ②出租予員工使",
+      "options": [
+        "以融資租賃方式出租之不動產",
+        "以營業租賃方式出租之辦公大樓",
+        "1項",
+        "2項"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "253eaf65d94c",
+        "answer_pdf_sha1": "9b18364fc8b2",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 17,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0042",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "下列資產中，有幾項需要提列折舊？①已達可用狀態但尚未達經濟規模產出之設備  ②以公允價",
+      "options": [
+        "以重估價模式衡量之建築物",
+        "分類為待出售非流動資產的建 築物",
+        "1項",
+        "2項"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "253eaf65d94c",
+        "answer_pdf_sha1": "9b18364fc8b2",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 18,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0043",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司自 X5 年起銷售一款新產品，提供兩年保固。依同業與本公司經驗，保固成本占銷貨收入 比率於出售後第一年估計為2.5%，出售後第二年估計為5.5%。X5與X6年度之銷貨與實際已支 付保固費用如下： X5年：銷貨$420,000；已發生保固支出$10,000 X6年：銷貨$560,000；已發生保固支出$22,000 試問截至X6年12月31日應列報之估計產品保固負債餘額為何？",
+      "options": [
+        "$44,800",
+        "$46,400",
+        "$48,000",
+        "$52,000"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "253eaf65d94c",
+        "answer_pdf_sha1": "9b18364fc8b2",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 19,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0044",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司於X5年度的相關資料如下：本期稅後淨利$360,000；處分機器收現$240,000（其中包含出 售利益$80,000）；折舊費用$70,000；提列預期信用減損損失$30,000；應收帳款淨額增加$50,000。 請計算X5年度來自營業活動之現金流量為何？",
+      "options": [
+        "$300,000",
+        "$330,000",
+        "$350,000",
+        "$370,000"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "253eaf65d94c",
+        "answer_pdf_sha1": "9b18364fc8b2",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 20,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0045",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "essay",
+      "question": "請依預算法之相關規定詳述特種基金之意義、種類及審議為何？（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "453c21baa5c8",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1303",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "會計法規概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0046",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "essay",
+      "question": "請依會計法之相關規定詳述內部審核之種類、執行人員、範圍及實施方\n式為何？（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "453c21baa5c8",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1303",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "會計法規概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0047",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "下列何種預算之執行，如因經營環境發生重大變遷或正常業務之確實需要，報經行政院核准者， 得先行辦理，並得不受預算法第25條至第27條之限制？",
+      "options": [
+        "總預算",
+        "單位預算",
+        "單位預算之分預算",
+        "附屬單位預算"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "453c21baa5c8",
+        "answer_pdf_sha1": "d06339eb4413",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1303",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計法規概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0048",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "下列何者為單位預算？",
+      "options": [
+        "臺北市",
+        "新竹縣",
+        "南投縣埔里鎮",
+        "行政院主計總處"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "453c21baa5c8",
+        "answer_pdf_sha1": "d06339eb4413",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1303",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計法規概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0049",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "下列何者屬資本門歲入？",
+      "options": [
+        "稅課收入",
+        "捐贈收入",
+        "減少資產之收入",
+        "債務之舉借收入"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "453c21baa5c8",
+        "answer_pdf_sha1": "d06339eb4413",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1303",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計法規概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0050",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "下列何者可設定第二預備金，其數額為多少？",
+      "options": [
+        "總預算，其數額不得超過經常支出總額百分之一",
+        "總預算，其數額視財政情況決定之",
+        "單位預算，其數額不得超過經常支出總額百分之一",
+        "單位預算，其數額視財政情況決定之"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "453c21baa5c8",
+        "answer_pdf_sha1": "d06339eb4413",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1303",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計法規概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0051",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "行政院應編製國富統計、綠色國民所得帳及關於稅式支出、移轉性支付之報告，其公開方式為何？",
+      "options": [
+        "應於政府網站公開",
+        "應於電視台聯播公開",
+        "應寄送報告給國民公開",
+        "供施政參考不可公開"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "453c21baa5c8",
+        "answer_pdf_sha1": "d06339eb4413",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1303",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計法規概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0052",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "各機關或基金在年度內有變更者，如何辦理其決算？",
+      "options": [
+        "機關或基金名稱更改者，由更改後之機關或基金主管機關編造",
+        "機關或基金名稱更改者，由更改前之機關或基金主管機關編造",
+        "機關或基金名稱更改者，由更改後及更改前之機關或基金主管機關分別編造",
+        "數機關或數基金合併為一機關或一基金者，在未合併以前各該機關或基金之決算應合併編造"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "453c21baa5c8",
+        "answer_pdf_sha1": "d06339eb4413",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1303",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計法規概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0053",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "所辦事業因重大事故經費超過法定預算時，各機關得採行何者？",
+      "options": [
+        "請求提出追加歲出預算",
+        "請求提出追加歲入預算",
+        "請求提出追減歲出預算",
+        "請求提出追減歲入預算"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "453c21baa5c8",
+        "answer_pdf_sha1": "d06339eb4413",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1303",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計法規概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0054",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "政府徵收賦稅、規費及因實施管制所發生之收入，或其他有強制性之收入，應先經何程序？",
+      "options": [
+        "會計法所定會計程序",
+        "決算法所定決算程序",
+        "預算法所定預算程序",
+        "審計法所定審計程序"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "453c21baa5c8",
+        "answer_pdf_sha1": "d06339eb4413",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1303",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計法規概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0055",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "立法院就預算案所為之附帶決議，應由各該機關單位如何辦理？",
+      "options": [
+        "參照法令",
+        "進行正反辯論",
+        "進行政黨辯論",
+        "得拒絕或拖延"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "453c21baa5c8",
+        "answer_pdf_sha1": "d06339eb4413",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1303",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計法規概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0056",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "各機關執行歲出分配預算之規定為何？",
+      "options": [
+        "下月或下期之經費可提前支用",
+        "遇有賸餘時，可直接轉入下年度繼續支用",
+        "由中央主計機關將重要事項考核報告送監察院備查",
+        "應按月或分期實施計畫之完成進度與經費支用之實際狀況逐級考核之"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "453c21baa5c8",
+        "answer_pdf_sha1": "d06339eb4413",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1303",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計法規概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0057",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "各機關單位預算，歲入應按何者編製？",
+      "options": [
+        "計畫別科目",
+        "業務別科目",
+        "政事別科目",
+        "來源別科目"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "453c21baa5c8",
+        "answer_pdf_sha1": "d06339eb4413",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1303",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計法規概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 11,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0058",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "公務歲計之會計事務屬何者？",
+      "options": [
+        "普通公務之會計事務",
+        "特種公務之會計事務",
+        "公營事業之會計事務",
+        "非常事件之會計事務"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "453c21baa5c8",
+        "answer_pdf_sha1": "d06339eb4413",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1303",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計法規概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 12,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0059",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "下列何者為各單位會計及附屬單位會計之靜態報告？",
+      "options": [
+        "平衡表",
+        "成本計算表",
+        "固定負債增減表",
+        "歲入或經費累計表"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "453c21baa5c8",
+        "answer_pdf_sha1": "d06339eb4413",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1303",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計法規概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 13,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0060",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "會計科目名稱經規定後，如需變更，須經何者核定？",
+      "options": [
+        "各該政府立法機關",
+        "各該政府主計機關",
+        "上級機關長官",
+        "該管審計機關"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "453c21baa5c8",
+        "answer_pdf_sha1": "d06339eb4413",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1303",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計法規概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 14,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0061",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "各種會計憑證，均應自總決算公布或令行日起，至少保存幾年？各種會計報告，自總決算公布或 令行日起，在總會計至少保存幾年？",
+      "options": [
+        "一、十",
+        "二、二十",
+        "三、十",
+        "四、二十"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "453c21baa5c8",
+        "answer_pdf_sha1": "d06339eb4413",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1303",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計法規概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 15,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0062",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "特別預算跨越兩個年度以上者，其收支應於何時，依決算法之規定編造其決算？",
+      "options": [
+        "每半年",
+        "每一年",
+        "執行期滿後",
+        "不須編造決算"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "453c21baa5c8",
+        "answer_pdf_sha1": "d06339eb4413",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1303",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計法規概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 16,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0063",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "政府捐助基金累計多少之財團法人，每年應由各該主管機關將其年度決算書，送立法院審議？",
+      "options": [
+        "累計超過百分之二十",
+        "累計超過百分之五十",
+        "累計超過百分之七十",
+        "累計達百分之百"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "453c21baa5c8",
+        "answer_pdf_sha1": "d06339eb4413",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1303",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計法規概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 17,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0064",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "審計機關審核中央政府總決算，應注意何效能？",
+      "options": [
+        "施政計畫、事業計畫或營業計畫已成與未成之程度",
+        "歲入、歲出是否與國民經濟能力及其發展相適應",
+        "違法失職或不當情事之有無",
+        "經濟與不經濟之程度"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "453c21baa5c8",
+        "answer_pdf_sha1": "d06339eb4413",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1303",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計法規概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 18,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0065",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "審計長於中央政府總決算送達後幾個月內完成其審核，編造最終審定數額表，並提出審核報告於 立法院？審計長應於會計年度中將政府之半年結算報告，於政府提出後幾個月內完成其查核，並 提出查核報告於立法院？",
+      "options": [
+        "一、一",
+        "二、二",
+        "三、一",
+        "四、二"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "453c21baa5c8",
+        "answer_pdf_sha1": "d06339eb4413",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1303",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計法規概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 19,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0066",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "審計機關審核決算時，如有修正之主張，應即通知原編造決算之機關限期答辯；逾期不答辯者， 結果為何？",
+      "options": [
+        "視為同意修正",
+        "由中央主計機關處理",
+        "由該管上級審計機關處理",
+        "由原編造機關之上級機關處理"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "453c21baa5c8",
+        "answer_pdf_sha1": "d06339eb4413",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "607",
+          "s": "1303",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計法規概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 20,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0067",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "essay",
+      "question": "請依中央總會計制度規定說明公務機關財務報表之定義、分類，以及應\n有之主要表件名稱與其編製基礎。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "d8bea15b0013",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "506",
+          "s": "1306",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "政府會計概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0068",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "essay",
+      "question": "請依中央政府普通公務單位會計制度之一致規定，就甲機關在110 年度\n發生之下列交易事項，做正確會計分錄（請用四級會計科目完整作答，\n不要簡併會計分錄）。（25分）\n交易事項 應有之分錄\n1. 甲機關為執行 108 年度奉准保留的\n計畫，使用以前年度購買已配合計畫\n辦理預算保留之剩餘材料\n2. 甲機關為執行 109 年度奉准保留的\n計畫，使用以前年度購買未配合計畫\n辦理預算保留之剩餘材料\n3. 審計機關於108年度終了後，剔除甲\n機關某項支出，甲機關於110年度收\n到繳款帳戶通知並辦理繳庫\n4. 110年1月間行政院減列109年甲機\n關撥付所屬 A 特別收入基金的支出\n實現數，改列為歲出保留數\n5. 某項機械設備尚未屆耐用年限，卻因\n發生火災損毀，並收到保險理賠收入\n繳庫",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "d8bea15b0013",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "506",
+          "s": "1306",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "政府會計概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0069",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "關於普通基金之敘述，下列何者正確？",
+      "options": [
+        "普通基金主要採統收統支原則提供公共服務，故無須計算成本",
+        "單位預算為普通基金預算，故兩者皆為獨立之財務及會計個體",
+        "中央與地方政府構成一個普通基金",
+        "普通基金歲入及歲出之間不具備一定的對價關係"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "d8bea15b0013",
+        "answer_pdf_sha1": "6e84be962263",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "506",
+          "s": "1306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0070",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "依政府會計觀念公報第2號規定，政府會計資訊之最高品質及其須具備之品質特性，分別為何？",
+      "options": [
+        "決策有用性、時效性及可瞭解性",
+        "跨期間公平性、時效性及可瞭解性",
+        "決策有用性、攸關性及忠實表述",
+        "跨期間公平性、攸關性及忠實表述"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "d8bea15b0013",
+        "answer_pdf_sha1": "6e84be962263",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "506",
+          "s": "1306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0071",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "依政府會計準則公報第3號規定，甲機關將委辦費先行撥付受託者備用，年度終了未支用部分， 應認列為何項科目？",
+      "options": [
+        "應收帳款",
+        "存出保證金",
+        "暫付款",
+        "預付款"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "d8bea15b0013",
+        "answer_pdf_sha1": "6e84be962263",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "506",
+          "s": "1306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0072",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "依政府會計準則公報第3號及中央政府普通公務單位會計制度之一致規定，有關政府補助支出之 敘述，下列何者正確？",
+      "options": [
+        "公務機關對所管特別收入基金資本門之補助預算，應列為長期投資",
+        "公務機關對民間團體之補助，於次年度收回補助結餘款應帳列於資產負債淨額",
+        "對不同政府間或民間團體之補助，如未設定條件，應於撥款時認列支出",
+        "資源提供者若可要求收回已支付之部分資源時，應列為資產負債淨額之減項"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "d8bea15b0013",
+        "answer_pdf_sha1": "6e84be962263",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "506",
+          "s": "1306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0073",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "依政府會計準則公報第7號規定，有關負債準備、或有負債及或有資產之敘述，下列何者正確？",
+      "options": [
+        "現時法定義務存在之可能性大於不可能性時，應即認列為負債準備",
+        "政府設置特種基金之負 債準備、或有負債，係辦理社會保險所產生者，應以揭露方式辦理",
+        "負債準備清償時，若因保 險契約幾乎確定可以獲得理賠款，應將其認列為資產及收入",
+        "或有資產不予認列，但若其很有 可能流入資源時，應認列該項資產及收入"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "d8bea15b0013",
+        "answer_pdf_sha1": "6e84be962263",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "506",
+          "s": "1306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0074",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "依政府會計準則公報第4號規定，土地、土地改良物、房屋建築及設備、雜項設備、租賃資產、 租賃權益改良、傳承資產、非消耗性收藏品，不予提列折舊者有幾項？",
+      "options": [
+        "3項",
+        "4項",
+        "5項",
+        "6項"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "d8bea15b0013",
+        "answer_pdf_sha1": "6e84be962263",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "506",
+          "s": "1306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0075",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "依政府會計準則公報第6號規定，公共債務主管機關於X1年6月30日發行新公債50億元，實 際售價 48 億元，折價 2 億元，並撥付予債務基金作為償付到期公債之還款金額。假設該新公債 於X1年12月31日應攤銷之折價數2,000萬元，債務基金如何處理？",
+      "options": [
+        "不作分錄",
+        "借：國庫應撥款數，貸：公債折價",
+        "借：還本付息支出，貸：銀行存款",
+        "借：未攤銷折價，貸：公債折價"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "d8bea15b0013",
+        "answer_pdf_sha1": "6e84be962263",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "506",
+          "s": "1306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0076",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "依政府會計準則公報第1號規定，下列何者非為政府財務報導要素？",
+      "options": [
+        "資產",
+        "餘絀",
+        "收入",
+        "支出"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "d8bea15b0013",
+        "answer_pdf_sha1": "6e84be962263",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "506",
+          "s": "1306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0077",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "依中央政府普通公務單位會計制度之一致規定及政府會計準則公報第9號規定，有關公務機關預 算執行控制之會計處理，下列敘述何者正確？",
+      "options": [
+        "應於發生契約責任時，按未來須支付金額，先作預算保留記錄",
+        "有關預算控制科目之設置，係用以記載預算之成立、分配、執行及保留等",
+        "歲出預算經核准轉入下年度繼續執行部分，不必作預算控制",
+        "會計報告中應揭露預算及其實際執行結果之比較資訊"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "d8bea15b0013",
+        "answer_pdf_sha1": "6e84be962263",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "506",
+          "s": "1306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0078",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "依中央總會計制度規定，整體資產負債表之會計科（項）目，分成幾大類加以表達？",
+      "options": [
+        "2大類",
+        "3大類",
+        "4大類",
+        "5大類"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "d8bea15b0013",
+        "answer_pdf_sha1": "6e84be962263",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "506",
+          "s": "1306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0079",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "依中央總會計制度規定，下列何者非屬財務報表附註之內容？",
+      "options": [
+        "採用之會計基礎",
+        "財務報表報導之範圍",
+        "重大會計政策或重要資訊",
+        "重要施政計畫執行成果之說明"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "d8bea15b0013",
+        "answer_pdf_sha1": "6e84be962263",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "506",
+          "s": "1306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 11,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0080",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "依中央總會計制度規定，公務機關會計報告，係彙總各公務機關普通公務單位會計與特種公務會 計應彙入中央總會計之財務資訊，下列敘述何者正確？",
+      "options": [
+        "國庫出納會計之國庫存款、應付保管款，直接彙入公務機關會計後，再彙入總會計",
+        "國庫出納會計應與各機關之普通公務單位會計核對收入支出繳領各科目及金額",
+        "徵課會計僅以每年產製收入支出表及平衡表等作為原始憑證，記入普通公務單位會計",
+        "國有財產會計應與各機關之普通公務單位會計核對公用及非公用財產金額"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "d8bea15b0013",
+        "answer_pdf_sha1": "6e84be962263",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "506",
+          "s": "1306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 12,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0081",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "依中央政府整體資產負債表編製注意事項規定，有關整體資產負債表之敘述，下列何者錯誤？",
+      "options": [
+        "係彙總表達公務機關、特種基金整體資產、負債等狀況，但不含政府代管之信託基金",
+        "採資產減負債等於淨資產方式作為報導格式",
+        "採分欄方式分別列示公務機關、特種基金－營業部分與非營業部分、內部往來沖銷，以及沖銷 調整後之合計數",
+        "負債按流動負債和非流動負債之類別表達"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "d8bea15b0013",
+        "answer_pdf_sha1": "6e84be962263",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "506",
+          "s": "1306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 13,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0082",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "依中央政府普通公務單位會計制度之一致規定，乙市政府X2年度總預算，稅課收入編列150億 元，罰鍰收入編列8億元，規費收入編列10億元，發行公債編列20億元，中央政府補助款35億 元，X1年歲出保留10億元，移用以前年度歲計賸餘編列5億元，乙市政府X2年度「歲入預算 數」為若干？",
+      "options": [
+        "233億元",
+        "228億元",
+        "223億元",
+        "203億元"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "d8bea15b0013",
+        "answer_pdf_sha1": "6e84be962263",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "506",
+          "s": "1306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 14,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0083",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "依政府會計準則公報第7號及中央政府普通公務單位會計制度之一致規定，乙機關於X1年8月 1日與B廠商發生訴訟，乙機關向B廠商要求賠付200萬元，經乙機關於X1年12月31日評估 幾乎確定可以獲得勝訴，乙機關應如何處理？",
+      "options": [
+        "不作分錄，亦無須揭露相關資訊",
+        "不作分錄，但須於會計報告揭露必要資訊",
+        "借：應收帳款，貸：罰款及賠償收入",
+        "借：繳付公庫數，貸：罰款及賠償收入"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "d8bea15b0013",
+        "answer_pdf_sha1": "6e84be962263",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "506",
+          "s": "1306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 15,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0084",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "依中央政府普通公務單位會計制度之一致規定，下列各項何者屬備忘性質科目？①負債準備",
+      "options": [
+        "或有負債",
+        "應付保管有價證券",
+        "應付保管款  ⑤應付保證品",
+        ""
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "d8bea15b0013",
+        "answer_pdf_sha1": "6e84be962263",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "506",
+          "s": "1306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 16,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0085",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "依中央政府普通公務單位會計制度之一致規定，有關預付款及暫付款之敘述，下列何者正確？",
+      "options": [
+        "前者係屬流動資產、後者係屬其他資產",
+        "二者均屬流動資產",
+        "前者係性質尚未確定之款項、後者係尚未實現之款項",
+        "前者列入收入支出表、後者列入平衡表"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "d8bea15b0013",
+        "answer_pdf_sha1": "6e84be962263",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "506",
+          "s": "1306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 17,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0086",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "依中央政府普通公務單位會計制度之一致規定，甲機關辦公大樓進行耐震補強工程，於X2年11 月1日完工結算驗收並支付工程款500萬元，經評估可延長辦公大樓耐用年限。甲機關於上開交 易應借記下列何者？",
+      "options": [
+        "房屋建築及設備",
+        "業務支出",
+        "公庫撥入數",
+        "累計折舊－房屋建築及設備"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "d8bea15b0013",
+        "answer_pdf_sha1": "6e84be962263",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "506",
+          "s": "1306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 18,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0087",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "依用途別預算科目分類定義及計列標準表、中央政府普通公務單位會計制度之一致規定，乙機關 租用機械設備1部，簽訂4年融資租賃契約，於給付租金時，歲出預算執行及會計處理分別應認 列何者？",
+      "options": [
+        "機械設備費、應付租賃款",
+        "機械設備費、租賃資產及應付租賃款",
+        "其他業務租金、應付租賃款",
+        "其他業務租金、租賃資產及應付租賃款"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "d8bea15b0013",
+        "answer_pdf_sha1": "6e84be962263",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "506",
+          "s": "1306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 19,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0088",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "依中央政府普通公務單位會計制度之一致規定，下列何者屬於會影響公務機關本年度公庫撥入數",
+      "options": [
+        "支付存出保證金",
+        "購置材料",
+        "收回本年度撥用之零用金並繳 庫",
+        "退還本年度已收取之收入數"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "d8bea15b0013",
+        "answer_pdf_sha1": "6e84be962263",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "506",
+          "s": "1306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 20,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0089",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "essay",
+      "question": "海洋公司 X3 年 1 月開業，其營業項目以買賣 A 商品為主，X3 年全\n年有關進貨、銷貨交易如下：\n數量 單價 數量 單價\n3月2日進貨 900 $19 4月25日銷貨 600 $25\n5月22日進貨 800 18 6月1日銷貨 750 22\n6月5日進貨 1,200 16 7月15日銷貨 1,000 20\n12月30日進貨 700 15 12月30日銷貨 200 16\n此外，尚有下列與進銷貨相關之事項：\n⑴海洋公司採用定期盤存制；海洋公司於12 月 31 日盤點時，發現倉\n庫尚有中華公司委託海洋公司代銷之 A商品200單位。\n⑵截至 12 月31日止，12 月30 日之進貨尚在運送途中，海洋公司與\n供應商約定該筆進貨係為起運點交貨。\n⑶截至 12 月31日止，12 月30 日之銷貨尚在運送途中，海洋公司與\n客戶約定該筆銷貨係為目的地交貨；4 月25 日銷貨與 7 月15 日銷\n貨皆已完成交貨。\n⑷12 月 31 日 A商品之淨變現價值為每單位 12元。\n請回答下列問題（所有問題皆需列出計算過程，無計算過程一律不予\n計分；分錄需寫出其登帳日期）：\n計算海洋公司X3 年期末存貨數量。（5 分）\n計算海洋公司X3 年帳上應認列之銷貨收入。（5分）\n若海洋公司 X3 年無盤盈虧，該公司採用先進先出法，計算 X3 年\n應認列之期末存貨。（5 分）\n若海洋公司 X3 年無盤盈虧，該公司採用平均法，計算 X3 年應認\n列之銷貨成本。（5 分）\n若海洋公司採用平均法計算期末存貨金額，則請依成本與淨變現價\n值孰低法作海洋公司 X3 年 12月31 日之存貨評價分錄。（5分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "a092391b7b41",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "506",
+          "s": "1304",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "會計學概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0090",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "essay",
+      "question": "日光公司 X3年度損益表、現金流量表及 X2年底資產負債表如下：\n日光公司 日光公司\n損益表 資產負債表\nX3年度 X2/12/31\n銷貨收入 $1,600,000 資產\n銷貨成本 (1,480,000) 現金及約當現金 $23,000\n銷貨毛利 $120,000 應收帳款 34,000\n營業費用(含折舊費用) (51,000) 存貨 15,000\n營業淨利 $69,000 設備 78,000\n出售資產利得 5,000 累積折舊-設備 (24,000)\n利息費用 (4,000) 資產總計 $126,000\n稅前淨利 70,000 權益及負債\n所得稅 (23,000) 普通股本 (每股面額10元) $24,000\n淨利 $ 47,000 保留盈餘 38,000\n應付公司債 33,000\n應付帳款 23,000\n應付所得稅 8,000\n權益及負債總計 $126,000\n日光公司\n現金流量表\nX3年度\n營業活動之現金流量\n從客戶收取現金 $1,613,000\n支付供應商現金 $1,501,000\n支付營業費用 42,000\n支付利息費用 4,000\n支付所得稅費用 18,000 1,565,000\n營業活動淨現金流入(出) 48,000\n投資活動之現金流量\n出售設備收現數 20,000\n購買設備付現數 (10,000)\n投資活動淨現金流入(出) 10,000\n籌資活動之現金流量\n贖回應付公司債 (26,000)\n發行普通股 34,000\n購買庫藏股 (10,000)\n支付現金股利 (34,000)\n籌資活動淨現金流入(出) (36,000)\n本期現金及約當現金增加數 22,000\n期初現金及約當現金餘額 23,000\n期末現金及約當現金餘額 $ 45,000\n有關現金流量的其他資訊如下：\n⑴X3 年度中，日光公司出售設備的原始成本為 28,000 元，當年度設\n備購置皆全數支付現金。\n⑵所有的銷貨與進貨皆採以賒帳、月結制。\n⑶所有的應付帳款皆因進貨而產生，X3年全年進貨金額為1,495,000元。\n⑷除折舊外，所有營業費用皆以現金支付。\n⑸X3 年 7 月 1 日發行面額 10元之普通股 1,700 股。\n⑹X3 年 10 月 1 日購回庫藏股 400股。\n⑺X3 年度贖回應付公司債係屬債券到期贖回。\n⑻現金股利的宣告與發放都在 X3年 12 月 31日。\n請回答下列問題（所有問題皆需列出計算過程，無計算過程一律不予\n計分；分錄需寫出其登帳日期）：\nX3 年 12 月 31 日應收帳款、設備、累積折舊－設備、應付帳款、\n保留盈餘項目餘額為何？（20 分）\nX3 年度每股盈餘為何？計算至小數點後二位，第三位以後四捨五\n入。（5 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "a092391b7b41",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "506",
+          "s": "1304",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "會計學概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0091",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "essay",
+      "question": "民國 88年 9 月 21 日臺灣發生強烈地震，政府於年度總預算外，編列預\n算以支應災後重建。試回答下列相關問題：\n民國 90 年立法院三讀通過中央政府九二一震災災後重建預算案，試\n問此為何種預算？（5分）\n承上題，依預算法之規定，有那些情事之一時，行政院得於年度總預\n算外，提出此種預算？（20分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "b320891c5923",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "506",
+          "s": "1305",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "會計法規概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0092",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "essay",
+      "question": "試回答下列有關民國 108 年會計法修正之問題：\n修正後會計法對政府記帳單位之規定為何？（15 分）\n修正後會計法對政府財物及固定負債表達之規定為何？（10 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "b320891c5923",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "506",
+          "s": "1305",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "會計法規概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0093",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "「中央政府振興經濟擴大公共建設特別預算」依據振興經濟擴大公共建設特別條例規定，在所需 經費上限為5,000億元，以特別預算方式編列，並依總預算籌編及審議方式於98至100年度分年 編具該特別預算。茲按其得支用期間依預算法規定，其屬下列何種經費？",
+      "options": [
+        "歲定經費",
+        "繼續經費",
+        "法定經費",
+        "特別經費"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "b320891c5923",
+        "answer_pdf_sha1": "bef9620a3afb",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "506",
+          "s": "1305",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計法規概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0094",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "X年度中央政府總決算之「收支簡明比較分析表」相關決算列數包括：歲入2.9兆元、歲出2.6兆 元、債務還本0.12兆元（預算編列0.11兆元）、無債務之舉借數（預算編列0.17兆元），則當年 度決算收支賸餘可滾入累計賸餘之列數為下列何者？",
+      "options": [
+        "0.36兆元",
+        "0.3兆元",
+        "0.18兆元",
+        "0元"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "b320891c5923",
+        "answer_pdf_sha1": "bef9620a3afb",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "506",
+          "s": "1305",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計法規概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0095",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "113 年度內政部國家公園署及所屬單位預算中，歲入列有各國家公園的門票收入、停車場租金等 收入；歲出列有各國家公園的維護管理支出，假設其中某國家公園113年6月門票收入預算分配 數為40萬元，惟當月實際收到門票收入50萬元，當月亦支出相關維護管理支出30萬元。依預 算法規定，當月門票收入之解庫數，下列何者正確？",
+      "options": [
+        "40萬元",
+        "50萬元",
+        "10萬元",
+        "20萬元"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "b320891c5923",
+        "answer_pdf_sha1": "bef9620a3afb",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "506",
+          "s": "1305",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計法規概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0096",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲機關歲出單位預算之A工作計畫，其中一級用途別業務費1,100萬元，其下二級用途分別編列 一般事務費1,000萬元及委辦費100萬元。預算審議時，經立法院指定刪減一般事務費500萬元。 依預算法規定，甲機關A工作計畫之業務費得辦理流用限額為下列何者？",
+      "options": [
+        "220萬元",
+        "120萬元",
+        "100萬元",
+        "20萬元"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "b320891c5923",
+        "answer_pdf_sha1": "bef9620a3afb",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "506",
+          "s": "1305",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計法規概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0097",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "乙國營事業X年度稅後淨利1,000億元，盈餘繳庫500億元及辦理以前年度依法定程序所提列之 公積轉帳增資100萬元，則乙應列入該年度之中央政府總預算之營業盈餘及事業收入之列數為下 列何者？",
+      "options": [
+        "500億元",
+        "600億元",
+        "1,000億元",
+        "1,100億元"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "b320891c5923",
+        "answer_pdf_sha1": "bef9620a3afb",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "506",
+          "s": "1305",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計法規概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0098",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "乙機關於112年為因應疫情之防疫及紓困措施，便利民眾獲取及瞭解與其權益相關之政策內容， 編列預算辦理相關宣導，試問：透由下列何者刊登或託播，非為預算法第 62 條之 1 所規定之媒 體範疇？",
+      "options": [
+        "Facebook",
+        "LINE",
+        "捷運車廂",
+        "廣播電臺"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "b320891c5923",
+        "answer_pdf_sha1": "bef9620a3afb",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "506",
+          "s": "1305",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計法規概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0099",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "丙作業基金之預算執行，原編業務總支出預算，因正常業務確實需要不敷支應，依預算法規定， 可報經行政院同意為下列何種處理？",
+      "options": [
+        "動支預備金",
+        "先行辦理",
+        "補列預算",
+        "追加預算"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "b320891c5923",
+        "answer_pdf_sha1": "bef9620a3afb",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "506",
+          "s": "1305",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計法規概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0100",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "高雄市桃源區公所辦理會計事務，依會計法所定，下列敘述何者正確？",
+      "options": [
+        "其會計制度，由高雄市政府主計處設計，呈經行政院主計總處核定頒行",
+        "其帳簿，序時帳簿與分類帳簿，不得同時並用活頁",
+        "其年度報告之公告，依決算法之規定",
+        "其會計報告、帳簿，自總決算公布或令行日起，至少保存10年"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "b320891c5923",
+        "answer_pdf_sha1": "bef9620a3afb",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "506",
+          "s": "1305",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計法規概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0101",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "下列何者為附屬單位會計？",
+      "options": [
+        "財政部印刷廠",
+        "司法院",
+        "財政部國庫署",
+        "農業部農業金融署"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "b320891c5923",
+        "answer_pdf_sha1": "bef9620a3afb",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "506",
+          "s": "1305",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計法規概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0102",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "文化部100年度已屆滿保存年限之會計報告、會計帳簿及會計憑證，除涉有未了債權債務或因案",
+      "options": [
+        "文化部部長",
+        "行政院 主計總處",
+        "行政院",
+        "審計部"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "b320891c5923",
+        "answer_pdf_sha1": "bef9620a3afb",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "506",
+          "s": "1305",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計法規概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0103",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "配合行政院組織改造，「行政院環境保護署」於112年8月22日升格改制為「環境部」。依決算法 規定，其112年度單位決算之辦理，下列敘述何者正確？",
+      "options": [
+        "編兩本，組織改造前後之決算，各由行政院環境保護署及環境部分別編造",
+        "編兩本，組織改造前後之決算，由環境部代為分別編造",
+        "編一本，由行政院環境保護署一併編造",
+        "編一本，由環境部一併編造"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "b320891c5923",
+        "answer_pdf_sha1": "bef9620a3afb",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "506",
+          "s": "1305",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計法規概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 11,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0104",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "審計部審核丁部會轄下之戊國營事業112年度決算，針對戊之期末員工退休金依精算報告精算結 果，核有短列員工退休金負債10億元，有修正增列「應計退休金負債」之主張時，應通知下列何 者限期答辯？",
+      "options": [
+        "行政院",
+        "丁",
+        "戊",
+        "行政院主計總處"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "b320891c5923",
+        "answer_pdf_sha1": "bef9620a3afb",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "506",
+          "s": "1305",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計法規概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 12,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0105",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "依預算法之規定，下列屬於中央主計機關之權責有幾項？①擬定下年度預算編製辦法  ②訂",
+      "options": [
+        "編製國富統計、綠色國民所得帳及關於稅式支出、移轉性支付之報告",
+        "各機關概算、預算之擬編、核轉及核定期限以及應行編送之份數",
+        "僅一項",
+        "僅二項"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "b320891c5923",
+        "answer_pdf_sha1": "bef9620a3afb",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "506",
+          "s": "1305",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計法規概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 13,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0106",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "依預算法規定，各主管機關應將其機關單位之歲出概算，排列優先順序，供立法院審議之參考， 係屬何種預算之概念？",
+      "options": [
+        "傳統費用預算制度",
+        "績效預算制度",
+        "設計計畫預算制度",
+        "零基預算制度"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "b320891c5923",
+        "answer_pdf_sha1": "bef9620a3afb",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "506",
+          "s": "1305",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計法規概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 14,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0107",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "下列有關內部審核之敘述，何者正確？",
+      "options": [
+        "事後複核謂事項入帳後之審核，著重收支之控制",
+        "財務審核謂現金及其他財物之處理程序之審核",
+        "各機關會計人員對於財物之訂購或款項之預付，經查核與預算所定用途及計畫進度相符合，應 為預算之保留",
+        "內部審核之實施，應採書面審核方式"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "b320891c5923",
+        "answer_pdf_sha1": "bef9620a3afb",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "506",
+          "s": "1305",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計法規概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 15,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0108",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "下列有關會計人員規範之敘述，正確者有幾項？①各該政府所屬各機關主辦會計人員及其佐理人",
+      "options": [
+        "會計佐理人員，自後任接替之日起，",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "b320891c5923",
+        "answer_pdf_sha1": "bef9620a3afb",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "506",
+          "s": "1305",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計法規概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 16,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0109",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "日內交代清楚  ③會計佐理人員辦理交代，應由機關首長及主辦會計人員或其代表監交  ④會 計人員交代不清者，應依法懲處；因而致公庫損失者，並負賠償責任",
+      "options": [
+        "僅一項",
+        "僅二項",
+        "僅三項",
+        "四項"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "b320891c5923",
+        "answer_pdf_sha1": "bef9620a3afb",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "506",
+          "s": "1305",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計法規概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0110",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "依決算法規定，審計機關審核各機關決算時，應注意的效能，下列敘述中，正確者有幾項？①違",
+      "options": [
+        "施政計畫、事業計畫或營業計畫已成與未成之程度",
+        "各方所擬關 於歲入、歲出應行改善之意見",
+        "歲入、歲出是否與預算相符，如不相符，其不符的原因",
+        "僅一項"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "b320891c5923",
+        "answer_pdf_sha1": "bef9620a3afb",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "506",
+          "s": "1305",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計法規概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 17,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0111",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "依決算法規定，附屬單位決算中關於營業基金決算之主要內容，不包括下列何者？",
+      "options": [
+        "資產、負債之狀況",
+        "損益之計算",
+        "現金流量之情形",
+        "盈虧撥補之預計"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "b320891c5923",
+        "answer_pdf_sha1": "bef9620a3afb",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "506",
+          "s": "1305",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計法規概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 18,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0112",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "中央政府會計總報告與公庫、財物經理等主管機關之報告發生差額時，應由誰核對，並製表解釋 之？",
+      "options": [
+        "中央主計機關",
+        "審計機關",
+        "財政主管機關",
+        "行政院"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "b320891c5923",
+        "answer_pdf_sha1": "bef9620a3afb",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "506",
+          "s": "1305",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計法規概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 19,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-d0d1b9a2-0113",
+      "exam_id": "aboriginal-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "某機關主管長官命令以不實之支出憑證核銷經費時，該機關主辦會計人員應如何處理？",
+      "options": [
+        "聽從長官之指示",
+        "口頭表示異議",
+        "書面表示異議",
+        "直接報告上級機關長官"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:04+00:00",
+        "source_pdf_sha1": "b320891c5923",
+        "answer_pdf_sha1": "bef9620a3afb",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "506",
+          "s": "1305",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計法規概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 20,
+        "answer_corrected": false,
+        "flags": []
+      }
+    }
+  ]
+}

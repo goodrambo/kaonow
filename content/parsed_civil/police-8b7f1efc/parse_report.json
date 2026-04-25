@@ -1,0 +1,13 @@
+{
+  "slug": "police-8b7f1efc",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:28:17+00:00",
+  "paper_count": 21,
+  "paper_with_questions": 21,
+  "question_count": 711,
+  "type_counts": {
+    "single_choice": 676,
+    "essay": 35
+  },
+  "issues": []
+}

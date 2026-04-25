@@ -1,0 +1,12 @@
+{
+  "slug": "disabled-23e15ae5",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:38:48+00:00",
+  "paper_count": 8,
+  "paper_with_questions": 8,
+  "question_count": 391,
+  "type_counts": {
+    "single_choice": 391
+  },
+  "issues": []
+}

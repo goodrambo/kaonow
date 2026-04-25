@@ -1,0 +1,86 @@
+{
+  "slug": "locality-6e11b43e",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:35:32+00:00",
+  "paper_count": 19,
+  "paper_with_questions": 19,
+  "question_count": 305,
+  "type_counts": {
+    "essay": 55,
+    "single_choice": 250
+  },
+  "issues": [
+    {
+      "year": "114",
+      "subject": "公共政策",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "113",
+      "subject": "公共政策",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "原住民族行政與法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 3,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "臺灣原住民族史",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "臺灣原住民族文化",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "原住民族行政與法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 3,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "臺灣原住民族史",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 5,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "臺灣原住民族文化",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "公共政策",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    }
+  ]
+}

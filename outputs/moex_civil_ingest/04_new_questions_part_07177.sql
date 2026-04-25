@@ -1,0 +1,41 @@
+-- W1.6 questions batch 7177/9310 (10)
+
+INSERT INTO public.questions (id, exam_id, paper_id, subject_id, chapter_id, question_type, question_text, options, correct_answer, correct_answer_json, auto_gradable, source, is_active, version, source_meta, explanation)
+VALUES
+  ('locality-e3452428-moex-00204', 'locality-e3452428', 'locality-e3452428-moex-111-19059bf3', 'sub-locality-e3452428-02', NULL, 'essay', '學者杭亭頓（Huntington）指出，現代化的改變有可能伴隨革命
+（revolution）。請問革命不同於其他政治暴力，其特殊性為何？又現代化
+的過程為何可能導致革命的發生？（25 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:35:18+00:00", "source_pdf_sha1": "408240b731de", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111190", "c": "302", "s": "0501", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "政治學", "year": "111", "exam_name": "111年特種考試地方政府公務人員考試", "original_question_number": "二", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "一般民政"}'::jsonb, NULL),
+  ('locality-e3452428-moex-00205', 'locality-e3452428', 'locality-e3452428-moex-111-19059bf3', 'sub-locality-e3452428-02', NULL, 'essay', '半總統制下的「共治」（cohabitation）意指為何？若出現共治的前提條件，
+在憲政制度的配套中，那些制度設計會影響共治的出現？（25 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:35:18+00:00", "source_pdf_sha1": "408240b731de", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111190", "c": "302", "s": "0501", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "政治學", "year": "111", "exam_name": "111年特種考試地方政府公務人員考試", "original_question_number": "三", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "一般民政"}'::jsonb, NULL),
+  ('locality-e3452428-moex-00206', 'locality-e3452428', 'locality-e3452428-moex-111-19059bf3', 'sub-locality-e3452428-02', NULL, 'essay', '俄烏戰爭的爆發，讓國際關係中研究維持和平的重要性又再次受到關
+注。請從權力平衡（balanceofpower）的理論解釋俄烏戰爭發生的原因，
+並列舉至少三種嘗試解決戰爭、建立和平的可能途徑。（25 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:35:18+00:00", "source_pdf_sha1": "408240b731de", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111190", "c": "302", "s": "0501", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "政治學", "year": "111", "exam_name": "111年特種考試地方政府公務人員考試", "original_question_number": "四", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "一般民政"}'::jsonb, NULL),
+  ('locality-e3452428-moex-00207', 'locality-e3452428', 'locality-e3452428-moex-111-b96fcbef', 'sub-locality-e3452428-06', NULL, 'essay', '甲乙為夫妻，妻乙於民國 109 年 8 月 25 日凌晨偕同徵信社人員發現夫
+甲偕婚外情之對象丙至汽車旅館通姦，雙方鬧到派出所時，乙取出預擬
+之離婚暨監護協議書向甲恫嚇：「如現在不簽字離婚，即告你倆通姦及對
+丙提告妨礙家庭」，致甲在毫無心理準備，亦無充分時間細閱協議內容下
+簽字，系爭離婚協議書除離婚部分外另有關於贍養費及子女之生活費之
+約定及夫妻財產分配等內容。事後甲主張係遭乙恫嚇，故主張系爭離婚
+協議書無效。試問：甲之主張是否有理？請依民法規定說明之。（25 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:35:18+00:00", "source_pdf_sha1": "0d490006bb66", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111190", "c": "302", "s": "0803", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "民法總則與刑法總則", "year": "111", "exam_name": "111年特種考試地方政府公務人員考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "一般民政"}'::jsonb, NULL),
+  ('locality-e3452428-moex-00208', 'locality-e3452428', 'locality-e3452428-moex-111-b96fcbef', 'sub-locality-e3452428-06', NULL, 'essay', '網紅名人甲利用深偽（Deepfake）技術，將知名明星乙的頭像移花接木
+成色情影片女主角而牟取利益，嚴重貶損乙之形象。乙因此被取消了原
+有的廣告代言機會。試問：乙該如何主張以維護其權益？（25 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:35:18+00:00", "source_pdf_sha1": "0d490006bb66", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111190", "c": "302", "s": "0803", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "民法總則與刑法總則", "year": "111", "exam_name": "111年特種考試地方政府公務人員考試", "original_question_number": "二", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "一般民政"}'::jsonb, NULL),
+  ('locality-e3452428-moex-00209', 'locality-e3452428', 'locality-e3452428-moex-111-b96fcbef', 'sub-locality-e3452428-06', NULL, 'essay', '試附理由說明：甲、乙是否為刑法上之公務員。（25 分）
+㉑甲未經國家考試，而是由縣政府聘僱，服務於該縣某鄉鎮之戶政事務
+所，並於櫃檯承辦戶政業務。
+㉒乙服務於某間與地方政府簽約之民間拖吊車業者，與交通警察一同出
+勤，負責拖吊違規車輛。', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:35:18+00:00", "source_pdf_sha1": "0d490006bb66", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111190", "c": "302", "s": "0803", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "民法總則與刑法總則", "year": "111", "exam_name": "111年特種考試地方政府公務人員考試", "original_question_number": "三", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "一般民政"}'::jsonb, NULL),
+  ('locality-e3452428-moex-00210', 'locality-e3452428', 'locality-e3452428-moex-111-b96fcbef', 'sub-locality-e3452428-06', NULL, 'essay', '甲與 A結怨已久，知悉乙武藝甚高，與人相打從無敗績，因此相約乙一
+同結束 A的生命。恰巧乙與 A也有過節，立刻答應。兩人相約當天由乙
+負責出手，甲則在旁邊避免他人插手，並留意是否有警察前來。在約好
+的日子，乙果然將 A打倒在地，乙正要直接取 A性命，甲過來表示就放
+著讓 A慢慢死去吧，於是兩人離開日常罕無人跡的現場。孰料當天竟然
+有路人 B經過，急忙將 A送醫急救，挽回一命。試附理由說明：甲、乙
+兩人在刑法上應負何罪責。（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:35:18+00:00", "source_pdf_sha1": "0d490006bb66", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111190", "c": "302", "s": "0803", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "民法總則與刑法總則", "year": "111", "exam_name": "111年特種考試地方政府公務人員考試", "original_question_number": "四", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "一般民政"}'::jsonb, NULL),
+  ('locality-e3452428-moex-00211', 'locality-e3452428', 'locality-e3452428-moex-111-3a7b2121', 'sub-locality-e3452428-03', NULL, 'essay', '何謂組織文化？一般認為，政府部門與民間部門的組織文化有相當大的
+差異，請至少提出五項差異並說明之。（25 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:35:18+00:00", "source_pdf_sha1": "d47a3a8602bd", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111190", "c": "302", "s": "0608", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "行政學", "year": "111", "exam_name": "111年特種考試地方政府公務人員考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "一般民政"}'::jsonb, NULL),
+  ('locality-e3452428-moex-00212', 'locality-e3452428', 'locality-e3452428-moex-111-3a7b2121', 'sub-locality-e3452428-03', NULL, 'essay', '何謂學習型組織（learningorganization）？面對社會問題日益複雜與民眾
+多樣需求，若您是機關首長，請舉例說明該採取那些作法才能使機關成
+為學習型組織？（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:35:18+00:00", "source_pdf_sha1": "d47a3a8602bd", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111190", "c": "302", "s": "0608", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "行政學", "year": "111", "exam_name": "111年特種考試地方政府公務人員考試", "original_question_number": "二", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "一般民政"}'::jsonb, NULL),
+  ('locality-e3452428-moex-00213', 'locality-e3452428', 'locality-e3452428-moex-111-3a7b2121', 'sub-locality-e3452428-03', NULL, 'single_choice', '有關行政之敘述，下列何者錯誤？', '["行政專指行政部門所管轄的事務", "行政與政治很難嚴格劃分", "從管理的觀點，行政是一種管理技術", "從公共政策的觀點，行政與公共政策不可分割"]'::jsonb, 0, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:35:18+00:00", "source_pdf_sha1": "d47a3a8602bd", "answer_pdf_sha1": "d5daa51a0dcf", "source_family": "moex-gov-tw", "moex": {"exam_code": "111190", "c": "302", "s": "0608", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "行政學", "year": "111", "exam_name": "111年特種考試地方政府公務人員考試", "original_question_number": 1, "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "一般民政"}'::jsonb, NULL)
+ON CONFLICT (id) DO NOTHING;

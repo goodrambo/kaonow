@@ -1,0 +1,173 @@
+{
+  "slug": "locality-704caaf1",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:34:58+00:00",
+  "paper_count": 20,
+  "paper_with_questions": 20,
+  "question_count": 81,
+  "type_counts": {
+    "essay": 81
+  },
+  "issues": [
+    {
+      "year": "114",
+      "subject": "公共衛生學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "公共衛生政策、衛生行政與法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 5,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "流行病學與生物統計學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "113",
+      "subject": "公共衛生學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "113",
+      "subject": "公共衛生政策、衛生行政與法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "113",
+      "subject": "流行病學與生物統計學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "健康促進與衛生教育",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 3,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "公共衛生學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 5,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "公共衛生政策、衛生行政與法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "生物技術學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "健康促進與衛生教育",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "公共衛生學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 5,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "生物技術學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 3,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "生物統計學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "衛生行政與法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "健康促進與衛生教育",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "公共衛生學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "生物技術學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "生物統計學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "衛生行政與法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "aboriginal-acfc4025",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:38:03+00:00",
+  "paper_count": 7,
+  "paper_with_questions": 6,
+  "question_count": 103,
+  "type_counts": {
+    "single_choice": 86,
+    "essay": 17
+  },
+  "issues": [
+    {
+      "year": "114",
+      "subject": "基礎能力測驗(作文、英文及中華民國憲法)",
+      "status": "parse_q_failed",
+      "format": "mixed",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "114",
+      "subject": "電子儀表概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 5,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "電子學概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "113",
+      "subject": "電子儀表概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "113",
+      "subject": "電子學概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    }
+  ]
+}

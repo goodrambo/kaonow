@@ -1,0 +1,38 @@
+-- W1.6 questions batch 6981/9310 (10)
+
+INSERT INTO public.questions (id, exam_id, paper_id, subject_id, chapter_id, question_type, question_text, options, correct_answer, correct_answer_json, auto_gradable, source, is_active, version, source_meta, explanation)
+VALUES
+  ('locality-acfc4025-moex-00021', 'locality-acfc4025', 'locality-acfc4025-moex-114-61c8fe92', 'sub-locality-acfc4025-05', NULL, 'essay', '圖中開關在時間t 0時將一個5伏特的直流電壓源接上串聯電阻電感電
+路，其中電感的初始電流為 0，計算電感跨壓的時間函數v (t)，t 0。
+out
+（20分）
+100Ω
+t=0
+5V 0.1H', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:34:42+00:00", "source_pdf_sha1": "bd471cb01505", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "114190", "c": "343", "s": "2004", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "電路學", "year": "114", "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試", "original_question_number": "二", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "電子工程"}'::jsonb, NULL),
+  ('locality-acfc4025-moex-00022', 'locality-acfc4025', 'locality-acfc4025-moex-114-61c8fe92', 'sub-locality-acfc4025-05', NULL, 'essay', '計算以下交流電源所看到的阻抗Z以及傳送至電阻R的平均功率。（20分）
+400Ω', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:34:42+00:00", "source_pdf_sha1": "bd471cb01505", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "114190", "c": "343", "s": "2004", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "電路學", "year": "114", "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試", "original_question_number": "三", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "電子工程"}'::jsonb, NULL),
+  ('locality-acfc4025-moex-00023', 'locality-acfc4025', 'locality-acfc4025-moex-114-61c8fe92', 'sub-locality-acfc4025-05', NULL, 'essay', '說明圖中電路屬於何種濾波器（低通、高通、帶通或帶抑）？計算輸入
+頻率為 100 rad/s 時，此電路的增益及相位移。（20 分）
+100Ω', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:34:42+00:00", "source_pdf_sha1": "bd471cb01505", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "114190", "c": "343", "s": "2004", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "電路學", "year": "114", "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試", "original_question_number": "四", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "電子工程"}'::jsonb, NULL),
+  ('locality-acfc4025-moex-00024', 'locality-acfc4025', 'locality-acfc4025-moex-114-61c8fe92', 'sub-locality-acfc4025-05', NULL, 'essay', '下圖中的放大器以戴維寧等效電路表示，負載則等效為電感串聯電阻。
+若放大器輸入頻率為 106rad/s，請回答以下問題：
+（每小題 5分，共 15 分）
+在此輸入頻率下，負載阻抗 Z 實部與虛部分別為多少？
+load
+放大器若希望傳輸最大平均功率給負載，圖中電容並聯負載的等效阻
+抗 Z需為多少？
+計算電容值 C，使放大器傳輸最大平均功率給負載。
+100Ω 50μH
+6 Z C Z 50Ω
+cos(10 t)
+load
+放大器 負載', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:34:42+00:00", "source_pdf_sha1": "bd471cb01505", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "114190", "c": "343", "s": "2004", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "電路學", "year": "114", "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試", "original_question_number": "五", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "電子工程"}'::jsonb, NULL),
+  ('locality-acfc4025-moex-00025', 'locality-acfc4025', 'locality-acfc4025-moex-113-8a852d5e', 'sub-locality-acfc4025-01', NULL, 'essay', '請說明在矽晶圓中 N 型半導體的多數載子是什麼？矽晶圓中 N 型摻雜
+物是那些材料？（10分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:34:42+00:00", "source_pdf_sha1": "15e626555d5f", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "113200", "c": "344", "s": "2003", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "半導體工程", "year": "113", "exam_name": "113年特種考試地方政府公務人員考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "電子工程"}'::jsonb, NULL),
+  ('locality-acfc4025-moex-00026', 'locality-acfc4025', 'locality-acfc4025-moex-113-8a852d5e', 'sub-locality-acfc4025-01', NULL, 'essay', '在 P型矽晶圓，請舉三種製程說明如何用矽晶圓製作電阻？（20分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:34:42+00:00", "source_pdf_sha1": "15e626555d5f", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "113200", "c": "344", "s": "2003", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "半導體工程", "year": "113", "exam_name": "113年特種考試地方政府公務人員考試", "original_question_number": "二", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "電子工程"}'::jsonb, NULL),
+  ('locality-acfc4025-moex-00027', 'locality-acfc4025', 'locality-acfc4025-moex-113-8a852d5e', 'sub-locality-acfc4025-01', NULL, 'essay', 'CVD與 PVD之主要差別為何？（10分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:34:42+00:00", "source_pdf_sha1": "15e626555d5f", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "113200", "c": "344", "s": "2003", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "半導體工程", "year": "113", "exam_name": "113年特種考試地方政府公務人員考試", "original_question_number": "三", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "電子工程"}'::jsonb, NULL),
+  ('locality-acfc4025-moex-00028', 'locality-acfc4025', 'locality-acfc4025-moex-113-8a852d5e', 'sub-locality-acfc4025-01', NULL, 'essay', 'IC製程中可以形成圖案之技術有那些？（20分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:34:42+00:00", "source_pdf_sha1": "15e626555d5f", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "113200", "c": "344", "s": "2003", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "半導體工程", "year": "113", "exam_name": "113年特種考試地方政府公務人員考試", "original_question_number": "四", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "電子工程"}'::jsonb, NULL),
+  ('locality-acfc4025-moex-00029', 'locality-acfc4025', 'locality-acfc4025-moex-113-8a852d5e', 'sub-locality-acfc4025-01', NULL, 'essay', '請畫出基本的快閃記憶體元件結構圖，它與 NMOS 之間主要的不同是
+什麼？（20分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:34:42+00:00", "source_pdf_sha1": "15e626555d5f", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "113200", "c": "344", "s": "2003", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "半導體工程", "year": "113", "exam_name": "113年特種考試地方政府公務人員考試", "original_question_number": "五", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "電子工程"}'::jsonb, NULL),
+  ('locality-acfc4025-moex-00030', 'locality-acfc4025', 'locality-acfc4025-moex-113-8a852d5e', 'sub-locality-acfc4025-01', NULL, 'essay', '半導體製程中量測電阻為何須用四點探針，請畫出其量測圖。（20 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:34:42+00:00", "source_pdf_sha1": "15e626555d5f", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "113200", "c": "344", "s": "2003", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "半導體工程", "year": "113", "exam_name": "113年特種考試地方政府公務人員考試", "original_question_number": "六", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "電子工程"}'::jsonb, NULL)
+ON CONFLICT (id) DO NOTHING;

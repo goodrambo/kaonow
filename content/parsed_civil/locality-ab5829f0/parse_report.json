@@ -1,0 +1,45 @@
+{
+  "slug": "locality-ab5829f0",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:35:27+00:00",
+  "paper_count": 4,
+  "paper_with_questions": 4,
+  "question_count": 16,
+  "type_counts": {
+    "essay": 16
+  },
+  "issues": [
+    {
+      "year": "114",
+      "subject": "新聞學概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "113",
+      "subject": "新聞學概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "新聞學概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "新聞學概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    }
+  ]
+}

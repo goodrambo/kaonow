@@ -1,0 +1,1808 @@
+{
+  "slug": "islands-d0d1b9a2",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:33:59+00:00",
+  "paper_count": 2,
+  "paper_with_questions": 2,
+  "question_count": 49,
+  "type_counts": {
+    "essay": 4,
+    "single_choice": 45
+  },
+  "papers": [
+    {
+      "year": "114",
+      "exam_code": "114190",
+      "c": "313",
+      "s": "1207",
+      "q": "1",
+      "subject": "中級會計學",
+      "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "58d279cd0639",
+      "a_pdf_sha1": "c8f8c4a54c39",
+      "format_detected": "mixed",
+      "raw_question_count": 22,
+      "answer_qnums_extracted": 20,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 22,
+      "skipped_count": 0
+    },
+    {
+      "year": "114",
+      "exam_code": "114190",
+      "c": "313",
+      "s": "1203",
+      "q": "1",
+      "subject": "會計審計法規",
+      "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "c868bde2a41c",
+      "a_pdf_sha1": "9585cbcdc6c3",
+      "format_detected": "mixed",
+      "raw_question_count": 27,
+      "answer_qnums_extracted": 25,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 27,
+      "skipped_count": 0
+    }
+  ],
+  "questions": [
+    {
+      "id": "islands-d0d1b9a2-0001",
+      "exam_id": "islands-d0d1b9a2",
+      "question_type": "essay",
+      "question": "甲公司 X1 年 12月 31 日將帳面價值$5,000,000之土地，以$9,000,000 出\n售給乙公司並立即租回，該出售滿足 IFRS 15 資產銷售之規定。合約租\n期3年，每年租金為$2,000,000於每年12月31日支付，並於X3年12月\n31 日依過去 24 個月消費者物價指數之增加為基礎，調整最後一期之租\n金。於租期屆滿日甲公司需返還土地給乙公司，且甲公司向乙公司保證\n租期屆滿日之估計殘值為$8,000,000，甲公司預估租期屆滿日將需就保\n證殘值支付$1,000,000。甲公司之增額借款利率為8%，乙公司之租賃隱\n含利率為5%，且為甲公司知悉，甲公司採年數合計法提列折舊。X1 年\n12 月 31日及 X3年 12 月 31日之消費者物價指數分別為 100及 110。\n請回答下列問題：（金額請四捨五入至整數位）\n若於銷售日，土地之公允價值為$9,000,000，試作甲公司 X1、X2 及 X3\n年底應有之分錄。（20分）\n若於銷售日，土地之公允價值為$10,000,000，試作甲公司 X1 年底應\n有之分錄。（10分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "58d279cd0639",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "313",
+          "s": "1207",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "中級會計學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-d0d1b9a2-0002",
+      "exam_id": "islands-d0d1b9a2",
+      "question_type": "essay",
+      "question": "下列兩項有關收入之交易分別獨立，請回答相關之會計問題：\n甲補習班為慶祝十周年慶，推出 2 年期函授視訊套餐專案，參加此專\n案之學員於簽約時先繳交現金$24,000，每月底再繳交$3,000 即可參加\n24 個月之函授視訊課程，且亦可再以優惠價$1,000購買全套之應考書\n籍。該補習班也有單獨之24 個月之函授視訊課程，訂價為$108,000；\n另全套之應考書籍之單獨售價則為$2,000。假設有1位考生於7月1日\n支付現金參加此套餐課程，並購買書籍，試作補習班 7 月 1日及7 月\n31 日必要之分錄（請四捨五入至整數位）。（10 分）\n甲、乙兩公司於 11 月初簽訂 1 年期合約，乙公司以每單位$550 向甲\n公司進貨。合約規定，甲公司銷售給乙公司之商品要裝入乙公司生產\n之外裝材料中，故甲公司須另以每單位$20 向乙公司購入外裝材料，\n該材料之公允價值為$17。此外，甲公司尚需支付商品上架費$1,000 給\n乙公司，甲公司不含前述外裝材料之存貨成本為每單位$400。假設11月\n份甲公司銷售給乙公司 1,000 單位，同時也向乙公司購買外裝材料\n1,200 單位。試問甲公司 11 月份銷售給乙公司 1,000 單位應認列之銷\n貨收入為若干？又此批銷貨毛利率為若干（毛利率請四捨五入至小數\n點後四位）？（10 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "58d279cd0639",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "313",
+          "s": "1207",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "中級會計學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-d0d1b9a2-0003",
+      "exam_id": "islands-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司於X5年度以合約總價$3,000,000承包一項防波堤興建工程，該合約為隨時間逐步滿足之 單一履約義務，甲公司以成本投入法衡量完工程度。已知該合約於 X5、X6 年分別實際投入 $600,000及$900,000之工程成本，X5、X6兩年度分別認列之工程利益均為$150,000。請問有關 此合約，下列敘述何者正確？",
+      "options": [
+        "該合約於X5年底估計完工尚需投入之成本為$2,000,000",
+        "該合約於X6年底估計完工尚需投入之成本為$1,000,000",
+        "該合約於X5年底在建工程之帳面金額為$600,000",
+        "該合約於X6年底在建工程之帳面金額為$1,650,000"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "58d279cd0639",
+        "answer_pdf_sha1": "c8f8c4a54c39",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "313",
+          "s": "1207",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "中級會計學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-d0d1b9a2-0004",
+      "exam_id": "islands-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司於X1年初出租推土機予乙公司，約定每年底收取租金$300,000，租期5年，估計租期屆 滿日該機器殘值為$150,000，乙公司保證其中$50,000。該推土機於X1年初租賃開始日時，在甲 公司的帳面金額等於公允價值$1,160,000，甲公司隱含利率為12%。若此租賃對於甲公司為直接 型融資租賃，則甲公司因此項租賃而支付的原始直接成本為何？（5期，利率12%，複利現值因 子=0.56743，普通年金現值因子=3.60478）",
+      "options": [
+        "$6,549",
+        "$113,158",
+        "$120,784",
+        "$483,451"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "58d279cd0639",
+        "answer_pdf_sha1": "c8f8c4a54c39",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "313",
+          "s": "1207",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "中級會計學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-d0d1b9a2-0005",
+      "exam_id": "islands-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司於X1年1月1日向乙銀行借款$100,000，分5年清償，每年12月31日支付$26,380，有 效利率為10%。若甲公司採曆年制，則甲公司X1年12月31日資產負債表應列示為流動負債之 金額為何？",
+      "options": [
+        "$16,380",
+        "$18,018",
+        "$26,380",
+        "$83,620"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "58d279cd0639",
+        "answer_pdf_sha1": "c8f8c4a54c39",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "313",
+          "s": "1207",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "中級會計學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-d0d1b9a2-0006",
+      "exam_id": "islands-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司於X1年初成立，該年度之稅前會計淨利為$1,000,000，稅率20%。甲公司並有下列事項：",
+      "options": [
+        "公司發行美金計價之金融負債，年底評價時因匯率變動產生外幣兌換利益$300,000",
+        "公司投資之政府公債，於當年度之免稅利息收入為$100,000",
+        "公司X1年底對於應收帳款提列預期信用損失$100,000，也認列估計產品保固負債準備$400,000 有關甲公司X1年底之所得稅相關分錄，下列敘述何者正確？",
+        "借記所得稅費用$180,000"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "58d279cd0639",
+        "answer_pdf_sha1": "c8f8c4a54c39",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "313",
+          "s": "1207",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "中級會計學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-d0d1b9a2-0007",
+      "exam_id": "islands-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲、乙兩家公司於X1年初以相同價格，各分別購入丙公司發行之債券面額$1,000,000，票面利率 5%，原始有效利率為4%。甲公司將此投資分類為透過其他綜合損益按公允價值衡量之投資，乙 公司則將此債券分類為按攤銷後成本衡量之投資。X1及X2年底，該債券之公允價值持續上升。 於X3年底，甲、乙兩公司又以相同價格，處分前述對丙公司之債券投資。下列敘述何者正確？",
+      "options": [
+        "於X3年度甲公司認列之債券投資處分損益將大於乙公司",
+        "於X3年度甲公司認列之債券投資利息收入將小於乙公司",
+        "於X3年度甲公司攤銷之債券投資折溢價將大於乙公司",
+        "於X3年度甲公司源自此債券投資交易對淨利之影響數將等於乙公司"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "58d279cd0639",
+        "answer_pdf_sha1": "c8f8c4a54c39",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "313",
+          "s": "1207",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "中級會計學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-d0d1b9a2-0008",
+      "exam_id": "islands-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司於X1年1月1日以$600,000取得乙公司普通股20%，採權益法會計處理。X1年7月1日， 甲公司再以$300,000購得乙公司10%普通股。乙公司X1年的全年淨利$150,000，係於X1年中 平均實現，且乙公司於X1年5月1日發放現金股利$30,000。試問甲公司於X1年12月31日投 資乙公司的帳面金額為何？",
+      "options": [
+        "$939,000",
+        "$931,500",
+        "$991,500",
+        "$999,000"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "58d279cd0639",
+        "answer_pdf_sha1": "c8f8c4a54c39",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "313",
+          "s": "1207",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "中級會計學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-d0d1b9a2-0009",
+      "exam_id": "islands-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司於X1年初成立時，訂定確定福利退休計畫。X1年及X2年當期服務成本分別為$400,000 與$440,000，該公司於X1年及X2年底分別提撥退休金$320,000與$360,000。若計畫資產實際報 酬率為12%，折現率為8%，則下列選項，何者屬於甲公司X2年底有關退休計畫的分錄？",
+      "options": [
+        "借記：退休金費用$433,600",
+        "貸記：現金$37,800",
+        "借記：淨確定福利負債$153,600",
+        "貸記：其他綜合損益—確定福利計畫再衡量數$12,800"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "58d279cd0639",
+        "answer_pdf_sha1": "c8f8c4a54c39",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "313",
+          "s": "1207",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "中級會計學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-d0d1b9a2-0010",
+      "exam_id": "islands-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "下列何者之會計處理應依照 IAS 41「農業」之規定？①農場為收成水蜜桃而種植之水蜜桃樹",
+      "options": [
+        "漁撈公司漁船出海所捕獲之南極蝦",
+        "僅",
+        "應依IAS41",
+        "僅"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "58d279cd0639",
+        "answer_pdf_sha1": "c8f8c4a54c39",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "313",
+          "s": "1207",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "中級會計學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-d0d1b9a2-0011",
+      "exam_id": "islands-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "有關無形資產之會計處理，下列何者正確？",
+      "options": [
+        "非確定耐用年限之無形資產不論是否具有減損跡象都要定期進行減損測試，且減損損失不得迴轉",
+        "於發展階段且達技術可行之無形資產不得攤銷，且不論是否具有減損跡象都要定期進行減損測試",
+        "商譽應取得外部獨立之鑑價報告進行減損測試以符合可驗證性，且減損損失不得迴轉",
+        "研究階段所投入之支出，原則上須立即認列為費用，僅於符合IAS38第57段之所有條件時， 始得認列為無形資產"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "58d279cd0639",
+        "answer_pdf_sha1": "c8f8c4a54c39",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "313",
+          "s": "1207",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "中級會計學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-d0d1b9a2-0012",
+      "exam_id": "islands-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "公司發行之下列非累積特別股，何者具有負債組成部分？①可買回（callable）特別股  ②可轉換 固定普通股數（不具重設價格條件）之特別股",
+      "options": [
+        "僅",
+        "具有負債組成部分",
+        "僅",
+        "具有負債組成部分"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "58d279cd0639",
+        "answer_pdf_sha1": "c8f8c4a54c39",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "313",
+          "s": "1207",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "中級會計學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-d0d1b9a2-0013",
+      "exam_id": "islands-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "依照國際財務報導準則之觀念架構，下列何者並非屬於「忠實表述」品質特性之構成要素？",
+      "options": [
+        "中立性",
+        "免於錯誤",
+        "可驗證性",
+        "完整性"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "58d279cd0639",
+        "answer_pdf_sha1": "c8f8c4a54c39",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "313",
+          "s": "1207",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "中級會計學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 11,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-d0d1b9a2-0014",
+      "exam_id": "islands-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司X2年度淨利為$700,000，稅率為20%。全年有普通股200,000股流通在外。若該公司於 X2年初有10%可轉換公司債，面額為$100，流通在外20,000張，每張可換成普通股2股，發行 價格中的負債組成要素相當於面額。此外，該公司X1年初發行賣權6,000個，每個得依$20之 價格賣回1股面額為$10的普通股給公司，普通股全年平均市價為$12。下列何者為用於計算X2年 度稀釋每股盈餘的股數？",
+      "options": [
+        "200,000股",
+        "204,000股",
+        "220,000股",
+        "244,000股"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "58d279cd0639",
+        "answer_pdf_sha1": "c8f8c4a54c39",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "313",
+          "s": "1207",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "中級會計學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 12,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-d0d1b9a2-0015",
+      "exam_id": "islands-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司於X1年初以$2,000,000購入一筆土地，X1年底該土地之公允價值為$3,000,000，X2年9月 進行重估價後，以當時之公允價值$3,800,000售出。若甲公司採重估價模式作後續衡量，且處分 時將累計之重估增值轉入保留盈餘，則X2年底股東權益因為出售土地而增加的淨額為何？",
+      "options": [
+        "$800,000",
+        "$1,000,000",
+        "$1,800,000",
+        "$2,100,000"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "58d279cd0639",
+        "answer_pdf_sha1": "c8f8c4a54c39",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "313",
+          "s": "1207",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "中級會計學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 13,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-d0d1b9a2-0016",
+      "exam_id": "islands-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司因資金短缺，於X1年5月1日將客戶之應收帳款$1,000,000，以有限追索權方式出售給 乙銀行，甲公司保證所移轉之應收帳款至少可收現$700,000。乙銀行負責向客戶收款且不得轉售 該應收帳款，並向甲公司收取應收帳款總額 4%之手續費。甲公司獲得現金$960,000，該保證負 債之公允價值為$3,300。試問對於甲公司而言，於X1年5月1日之相關分錄，下列何者正確？",
+      "options": [
+        "借記：出售金融資產損失$43,300",
+        "借記：手續費用$40,000",
+        "貸記：保證負債$700,000",
+        "貸記：金融資產移轉負債$303,300"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "58d279cd0639",
+        "answer_pdf_sha1": "c8f8c4a54c39",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "313",
+          "s": "1207",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "中級會計學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 14,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-d0d1b9a2-0017",
+      "exam_id": "islands-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司於X1年初以$3,000,000買入高污染設備，耐用年限3年，預計3年後無殘值，採直線法 提列折舊。但法令規定3年後須以環保方式處置該設備。若該公司折現率為10%，且估計3年後 須花$100,000處理費，則X1年甲公司應報導與此高污染設備相關的全部費用金額為何？",
+      "options": [
+        "$1,000,000",
+        "$1,025,044",
+        "$1,032,557",
+        "$1,036,667"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "58d279cd0639",
+        "answer_pdf_sha1": "c8f8c4a54c39",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "313",
+          "s": "1207",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "中級會計學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 15,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-d0d1b9a2-0018",
+      "exam_id": "islands-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司銷售電器用品並提供2年期的保固服務，保固合約不單獨銷售。該公司於X5年以現金銷 售800台電器用品（每台單價$25,000），並估計每台保固成本為$1,000。實際於X5年支付零件 費$80,000與人工費$35,000。甲公司於銷售時預估並認列保固負債及保固費用。但會計人員誤以 現金基礎記帳，僅在實際支付時認列費用。試問此錯誤將如何影響甲公司X5年之財報比率？",
+      "options": [
+        "流動比率高估、利潤率高估",
+        "流動比率低估、利潤率高估",
+        "流動比率高估、利潤率低估",
+        "流動比率低估、利潤率低估"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "58d279cd0639",
+        "answer_pdf_sha1": "c8f8c4a54c39",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "313",
+          "s": "1207",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "中級會計學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 16,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-d0d1b9a2-0019",
+      "exam_id": "islands-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司X1年成立時以每股$25，發行面額$10的普通股30,000股。該公司於X2年5月13日首 次以每股$28購回庫藏股5,000股，並於X2年6月24日及7月1日分別以每股$32及$24的價 格各出售2,000股，X2年9月3日又註銷剩餘1,000股。請問X2年4項庫藏股交易如何影響股 東權益的總金額？",
+      "options": [
+        "減少$3,000",
+        "減少$8,000",
+        "減少$28,000",
+        "減少$143,000"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "58d279cd0639",
+        "answer_pdf_sha1": "c8f8c4a54c39",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "313",
+          "s": "1207",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "中級會計學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 17,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-d0d1b9a2-0020",
+      "exam_id": "islands-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "有關債券投資之敘述，下列何者正確？",
+      "options": [
+        "若債券是折價投資，隨著時間經過，各期攤銷之折價數額會越來越少",
+        "若債券是溢價投資，隨著時間經過，各期認列之利息收入會越來越高",
+        "不論債券是折價或溢價投資，隨著時間經過，各期攤銷之折溢價數額均會越來越高",
+        "不論債券是折價或溢價投資，隨著時間經過，各期認列之利息收入均會越來越低"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "58d279cd0639",
+        "answer_pdf_sha1": "c8f8c4a54c39",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "313",
+          "s": "1207",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "中級會計學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 18,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-d0d1b9a2-0021",
+      "exam_id": "islands-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司X8年度之稅後淨利為$500,000，當年度並有下列事項：",
+      "options": [
+        "應付公司債溢價攤銷$10,000",
+        "遞延所得稅資產減少$6,000",
+        "透過其他綜合損益按公允價值衡量投資（流動資產），投資金額增加$15,000",
+        "待出售非流動資產之處分利益$8,000 請問甲公司X8年度營業活動之現金流量為何？"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "58d279cd0639",
+        "answer_pdf_sha1": "c8f8c4a54c39",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "313",
+          "s": "1207",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "中級會計學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 19,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-d0d1b9a2-0022",
+      "exam_id": "islands-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司於X1年初對其40位經理人員施行一項認股權計畫，若於X3年底尚在職者，則每人得以 $100認購公司股票，每人之認購股數依公司X3年底之市占率成長幅度而定，每成長5%之認購 股數為1,000，若成長10%認購股數則為2,000，以此類推。相關資料如下： 估計每個認股權公 當年度實際離職 估計X3年底前尚會 估計 X3 年底之市 日期 允價值 人數 離職人數 占率成長幅度 X1年初 $20 10% X1年底 $25 5 5 5% X2年底 $22 8 4 10% 有關甲公司此項認股權計畫，下列敘述何者正確？",
+      "options": [
+        "X1年度應認列之酬勞成本為$250,000",
+        "X2年度應認列之酬勞成本為$413,333",
+        "X1年底相關之資本公積為$400,000",
+        "X2年底相關之資本公積為$674,666"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "58d279cd0639",
+        "answer_pdf_sha1": "c8f8c4a54c39",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "313",
+          "s": "1207",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "中級會計學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 20,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-d0d1b9a2-0023",
+      "exam_id": "islands-d0d1b9a2",
+      "question_type": "essay",
+      "question": "基於預算是估列數，而從籌編到立法院審議歷時甚久，因此實際執行時\n往往有不敷支應之問題，為此「預算法」及「各機關單位預算執行要點」\n規範了各種預算執行彈性，包括流用、第一預備金、第二預備金、追加\n預算及特別預算。請就其中流用的規定闡述之，含：\n經常門與資本門間互相流用的限制為何？（10分）\n請列出以下不可以流用的號碼：①機關別 ②政事別 ③用途別\n④業務科目 ⑤計畫科目（5分）\n就前項列出可以流用的號碼及流用百分比？（5 分）\n在可以流用的號碼中，該號碼下一級分類不能流用之經費為何者？（5分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "c868bde2a41c",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "313",
+          "s": "1203",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "會計審計法規",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-d0d1b9a2-0024",
+      "exam_id": "islands-d0d1b9a2",
+      "question_type": "essay",
+      "question": "防汛期間，颱風侵襲次數頻繁，如果在首次颱風侵襲時，依預算法第83條\n規定編列災害復原重建特別預算500 億元，並一次編足多年期預算，而\n後又有同性質第二個颱風特別預算350億元要編列，則在原有500億元基\n礎上追加350億元，或另外獨立編列 350 億元二種提議，以下表所列格\n式說明之。（25分）\n事項 追加方式 獨立編列方式\n編列方式是否可行\n第二個颱風是否一定一次編足\n二個颱風決算編造次數",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "c868bde2a41c",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "313",
+          "s": "1203",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "會計審計法規",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-d0d1b9a2-0025",
+      "exam_id": "islands-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "下列非屬政府公務機關於年度單位預算中，以歲出資本門納編者，計有幾項？①償還公債本金",
+      "options": [
+        "修建橋樑延壽",
+        "作業基金以公積撥充基金",
+        "補助下級地方政府購買土地  ⑤支付賒借債 務利息  ⑥投資民營企業",
+        "2項"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "c868bde2a41c",
+        "answer_pdf_sha1": "9585cbcdc6c3",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "313",
+          "s": "1203",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計審計法規",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-d0d1b9a2-0026",
+      "exam_id": "islands-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "立法院依憲法第63條規定有審議預算案之權，立法委員於審議中央政府總預算案時，應受憲法 第70條規定，立法院對於行政院所提預算案，不得為增加支出之提議。試問下列何者非屬立法 院增加支出之提議？",
+      "options": [
+        "決議請行政院加發半個月公教人員年終工作獎金",
+        "決議將款項目節間移動增加原預算之項目",
+        "決議將農業部預算調整移動至經濟部",
+        "決議將款項目節之原預算削減"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "c868bde2a41c",
+        "answer_pdf_sha1": "9585cbcdc6c3",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "313",
+          "s": "1203",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計審計法規",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-d0d1b9a2-0027",
+      "exam_id": "islands-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "下列屬中央政府管理之信託基金，計有幾項？①學產基金  ②外籍配偶照顧輔導基金  ③農民退",
+      "options": [
+        "在校學生獎學基金  ⑤保險業務發展基金  ⑥中央公教人員急難救助基金",
+        "2項",
+        "3項",
+        "4項"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "c868bde2a41c",
+        "answer_pdf_sha1": "9585cbcdc6c3",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "313",
+          "s": "1203",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計審計法規",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-d0d1b9a2-0028",
+      "exam_id": "islands-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "因應美國關稅變革等國際情勢變動及地緣政治動態，制定公布「因應國際情勢強化經濟社會及民 生國安韌性特別條例」，行政院後續將依該條例編列特別預算；依預算法規定特別預算之編列及 執行，下列何者可為因應情勢之緊急需要，得先支付其一部？",
+      "options": [
+        "不定期之重大政事",
+        "國家經濟重大變故",
+        "所辦事業因重大事故經費超過法定預算時",
+        "依法律增設新機關時"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "c868bde2a41c",
+        "answer_pdf_sha1": "9585cbcdc6c3",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "313",
+          "s": "1203",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計審計法規",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-d0d1b9a2-0029",
+      "exam_id": "islands-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "依預算法明文規定，下列應提供有關增進財務效能之建議，供行政院制訂下年度施政方針參考者，",
+      "options": [
+        "中央主計機關",
+        "審計機關",
+        "中央經濟建設計畫主管機關",
+        "中央財政主 管機關"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "c868bde2a41c",
+        "answer_pdf_sha1": "9585cbcdc6c3",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "313",
+          "s": "1203",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計審計法規",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-d0d1b9a2-0030",
+      "exam_id": "islands-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "依預算法明文規定，下列事項應於中央政府相關預算書中以列表方式說明者為何？①因擔保、保",
+      "options": [
+        "未來承諾之授權",
+        "各機關單位補助地方政府 之經費",
+        "",
+        ""
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "c868bde2a41c",
+        "answer_pdf_sha1": "9585cbcdc6c3",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "313",
+          "s": "1203",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計審計法規",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "islands-d0d1b9a2-0031",
+      "exam_id": "islands-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "依預算法規定，下列須由行政院主計總處核定者，計有幾項？①各機關分配預算  ②預算籌編原",
+      "options": [
+        "各機關概算編送期限與份數",
+        "預算書表格式  ⑤轉入下年度之保留數準備  ⑥各機關 動支第一預備金",
+        "2項",
+        "3項"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "c868bde2a41c",
+        "answer_pdf_sha1": "9585cbcdc6c3",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "313",
+          "s": "1203",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計審計法規",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-d0d1b9a2-0032",
+      "exam_id": "islands-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲機關某年度預算案之一般行政計畫項下共編列2,050萬元，包括有物品400萬元、其他補助及 捐助250萬元、委辦費1,200萬元、教育訓練費200萬元，其中委辦費被立法機關指定刪減600 萬元，其餘則照數通過，於年度執行中因受訓學員及受補助單位增加，導致教育訓練費及獎補助 經費各不敷200萬元及80萬元，而物品執行有剩餘160萬元，若將獎補助不敷經費優先以經費 流用方式予以滿足，依預算法相關規定，可支應不敷教育訓練費的數額應為？",
+      "options": [
+        "50萬元",
+        "80萬元",
+        "110萬元",
+        "160萬元"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "c868bde2a41c",
+        "answer_pdf_sha1": "9585cbcdc6c3",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "313",
+          "s": "1203",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計審計法規",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-d0d1b9a2-0033",
+      "exam_id": "islands-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "我國預算法引進複式預算制度之作業觀念與精神，將政府預算劃分為經常預算與資本預算，試依 預算法對於經常門、資本門規定，下列敘述何者錯誤？",
+      "options": [
+        "政府經常收支，應保持平衡，非因預算年度有異常情形，資本收入、公債與賒借收入及以前年 度歲計賸餘不得充經常支出之用",
+        "經常收支如有賸餘，得移充資本支出之財源",
+        "作業基金賸餘繳庫為資本收入",
+        "政府釋股收入之股本面值及超過面值之股票買賣差價均編列為資本收入"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "c868bde2a41c",
+        "answer_pdf_sha1": "9585cbcdc6c3",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "313",
+          "s": "1203",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計審計法規",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-d0d1b9a2-0034",
+      "exam_id": "islands-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "政府預算的定義與功能可知，一個政府在一定期間內之收支計畫均必須透過預算的安排以作為執 行的準據，為昭公信，政府於一定期間內財政收支計畫的籌編、審議、執行及考核等事項予以法 制化，依我國預算法規定之預算籌編原則，下列敘述何者錯誤？",
+      "options": [
+        "政府徵收賦稅、規費及因實施管制所發生之收入，或其他有強制性之收入，應先經預算法所定 預算程序",
+        "政府不得於預算所定外，動用公款、處分公有財物或為投資之行為",
+        "政府大宗動產、不動產之買賣或交換，均須依據預算法所定預算程序為之",
+        "政府非依法律，不得於其預算外增加債務；其因調節短期國庫收支而發行債券時，依公共債務 法規定辦理"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "c868bde2a41c",
+        "answer_pdf_sha1": "9585cbcdc6c3",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "313",
+          "s": "1203",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計審計法規",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-d0d1b9a2-0035",
+      "exam_id": "islands-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "依會計法規定，下列已歸檔之會計檔案自總決算公布或令行之日起至少應保存10年以上者，計",
+      "options": [
+        "分會計之機器處理會計資料之貯存體暨處理手冊",
+        "單位會計之帳簿",
+        "附屬單位 會計之重要備查簿",
+        "單位會計之會計憑證  ⑤總會計之會計報告"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "c868bde2a41c",
+        "answer_pdf_sha1": "9585cbcdc6c3",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "313",
+          "s": "1203",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計審計法規",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 11,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-d0d1b9a2-0036",
+      "exam_id": "islands-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "總會計年度報告之公告，應依下列何者規定辦理？",
+      "options": [
+        "預算法",
+        "會計法",
+        "審計法",
+        "決算法"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "c868bde2a41c",
+        "answer_pdf_sha1": "9585cbcdc6c3",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "313",
+          "s": "1203",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計審計法規",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 12,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-d0d1b9a2-0037",
+      "exam_id": "islands-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "會計法第1條規定，政府及其所屬機關辦理各項會計事務，依本法之規定。試問下列何者之編送 或公告程序係依會計法規定辦理？",
+      "options": [
+        "特別預算跨越兩個年度以上者，由主管機關分年編送之年度會計報告",
+        "各單位會計機關年度報告之編送",
+        "各附屬單位會計機關年度報告之編送",
+        "總會計年度報告之公告"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "c868bde2a41c",
+        "answer_pdf_sha1": "9585cbcdc6c3",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "313",
+          "s": "1203",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計審計法規",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 13,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-d0d1b9a2-0038",
+      "exam_id": "islands-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "依會計法規定，中央財政主管機關及其所屬確定應辦理之特種公務會計事務，計有幾項？",
+      "options": [
+        "5項",
+        "4項",
+        "3項",
+        "2項"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "c868bde2a41c",
+        "answer_pdf_sha1": "9585cbcdc6c3",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "313",
+          "s": "1203",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計審計法規",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 14,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-d0d1b9a2-0039",
+      "exam_id": "islands-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "某政府總會計所編之會計總報告與其相關特種公務會計事務之報告產生差異時，應由何者負責核 對並製表解釋？",
+      "options": [
+        "編製該報告之政府主計機關",
+        "編製該報告之政府各特種公務會計事務主管機關",
+        "編製該報告之政府行政首長",
+        "編製該報告之政府該管審計機關"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "c868bde2a41c",
+        "answer_pdf_sha1": "9585cbcdc6c3",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "313",
+          "s": "1203",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計審計法規",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 15,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-d0d1b9a2-0040",
+      "exam_id": "islands-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "依會計法及內部審核處理準則規定，內部審核及財務審核之範圍各分幾類？",
+      "options": [
+        "3類、3類",
+        "3類、2類",
+        "2類、3類",
+        "2類、2類"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "c868bde2a41c",
+        "answer_pdf_sha1": "9585cbcdc6c3",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "313",
+          "s": "1203",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計審計法規",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 16,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-d0d1b9a2-0041",
+      "exam_id": "islands-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "依決算法規定，國庫之年度出納終結報告，應於何時之前分送中央主計機關及審計機關查核？",
+      "options": [
+        "1月15日",
+        "1月25日",
+        "3月10日",
+        "3月25日"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "c868bde2a41c",
+        "answer_pdf_sha1": "9585cbcdc6c3",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "313",
+          "s": "1203",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計審計法規",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 17,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-d0d1b9a2-0042",
+      "exam_id": "islands-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "為提升政府施政效能及因應整體經濟社會環境變遷，政府對於各機關或各基金之運作狀況會不定 期檢討，且配合政府組織再造需求成立新機關，行政院令於2025年9月9日《運動部組織法》 施行，教育部體育署升格為運動部，請問114年度運動發展基金附屬單位決算應由何者編列？",
+      "options": [
+        "升格前由教育部體育署編列，升格後由運動部編列",
+        "由運動部統一編列",
+        "由教育部統一編列",
+        "由行政院指定一機關統一編列"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "c868bde2a41c",
+        "answer_pdf_sha1": "9585cbcdc6c3",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "313",
+          "s": "1203",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計審計法規",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 18,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-d0d1b9a2-0043",
+      "exam_id": "islands-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "依審計法及其施行細則規定，下列何者屬各機關接獲核准通知後可以進行之救濟程序？①復查",
+      "options": [
+        "聲復",
+        "聲請覆核",
+        "訴願  ⑤聲請覆議",
+        ""
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "c868bde2a41c",
+        "answer_pdf_sha1": "9585cbcdc6c3",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "313",
+          "s": "1203",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計審計法規",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 19,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "islands-d0d1b9a2-0044",
+      "exam_id": "islands-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "依審計法規定，通知機關處分案件，機關有延壓或處分不當情事，經查詢後，各機關仍不負責答 復，或有答復不當者，審計機關得向監察院如何？",
+      "options": [
+        "報告",
+        "呈請核辦",
+        "陳報備查",
+        "副本抄本"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "c868bde2a41c",
+        "answer_pdf_sha1": "9585cbcdc6c3",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "313",
+          "s": "1203",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計審計法規",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 20,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-d0d1b9a2-0045",
+      "exam_id": "islands-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "審計法第11條規定，審計機關處理重要審計案件，在部以審計會議，在處（室）以審核會議決",
+      "options": [
+        "聲復逕行決定之案件",
+        "聲請覆議准駁 之案件",
+        "聲請覆核准駁之案件",
+        "再審查准駁之案件  ⑤免除賠償責任之處置"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "c868bde2a41c",
+        "answer_pdf_sha1": "9585cbcdc6c3",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "313",
+          "s": "1203",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計審計法規",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 21,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-d0d1b9a2-0046",
+      "exam_id": "islands-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "審計法第3條規定，審計職權，由審計機關行使之。依審計法規，有關行使審計職權之內容，下 列敘述何者錯誤？",
+      "options": [
+        "審計人員依法獨立行使其審計職權，不受干涉",
+        "審計機關對於審計上涉及特殊技術事項，得諮詢專門技術人員或委託辦理，並依其結果決定之",
+        "審計機關對於各機關一切收支及財物，得隨時稽察之",
+        "審計機關未就地辦理者，得通知其送審，並得派員抽查之"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "c868bde2a41c",
+        "answer_pdf_sha1": "9585cbcdc6c3",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "313",
+          "s": "1203",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計審計法規",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 22,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-d0d1b9a2-0047",
+      "exam_id": "islands-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "審計人員於執行職務時，發覺機關人員有財務上不法或不忠於職務上之行為，依審計法規定，審",
+      "options": [
+        "報告該管審計機關，通知各該機關長官處分之",
+        "提送立法 院、監察院審議",
+        "由審計機關報請監察院依法處理",
+        "專案報請行政院處理  ⑤其涉及刑事 者，應移送法院辦理，並報告於監察院"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "c868bde2a41c",
+        "answer_pdf_sha1": "9585cbcdc6c3",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "313",
+          "s": "1203",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計審計法規",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 23,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-d0d1b9a2-0048",
+      "exam_id": "islands-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "依審計法及其施行細則規定，審計機關委託其他審計機關辦理之審計事務，如遇有再審查時，應 由何機關辦理？其結果又應由何機關負責？",
+      "options": [
+        "受委託審計機關、受委託審計機關",
+        "原委託審計機關、原委託審計機關",
+        "受委託審計機關、原委託審計機關",
+        "原委託審計機關、受委託審計機關"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "c868bde2a41c",
+        "answer_pdf_sha1": "9585cbcdc6c3",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "313",
+          "s": "1203",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計審計法規",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 24,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-d0d1b9a2-0049",
+      "exam_id": "islands-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "依決算法規定，政府之決算，每一會計年度辦理一次，茲按 111 年度中央政府總決算編製完成 後，於會計年度結束後4個月內，提出於監察院。審計長於中央政府總決算送達後3個月內完成 其審核，編造最終審定數額表，並提出審核報告於立法院。立法院應於審核報告送達後1年內完 成其審議，如未完成，視同審議通過。並經總統令113年11月8日公布111年度中央政府總決 算審核報告，另依審計法第27條規定，審計機關對於審查完竣案件，自決定之日起2年內發現 其中有錯誤、遺漏、重複等情事，得為再審查，其決定之起算日為下列何者？",
+      "options": [
+        "112年4月30日",
+        "112年7月31日",
+        "113年7月31日",
+        "113年11月8日"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "c868bde2a41c",
+        "answer_pdf_sha1": "9585cbcdc6c3",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "313",
+          "s": "1203",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計審計法規",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 25,
+        "answer_corrected": false,
+        "flags": []
+      }
+    }
+  ]
+}

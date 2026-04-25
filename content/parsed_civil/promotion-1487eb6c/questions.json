@@ -1,0 +1,3488 @@
+{
+  "slug": "promotion-1487eb6c",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:28:32+00:00",
+  "paper_count": 6,
+  "paper_with_questions": 6,
+  "question_count": 95,
+  "type_counts": {
+    "essay": 18,
+    "single_choice": 77
+  },
+  "papers": [
+    {
+      "year": "114",
+      "exam_code": "114160",
+      "c": "121",
+      "s": "1001",
+      "q": "1",
+      "subject": "內部控制之理論與實務",
+      "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "947b2fc6c2ef",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 3,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 3,
+      "skipped_count": 0
+    },
+    {
+      "year": "114",
+      "exam_code": "114160",
+      "c": "121",
+      "s": "1005",
+      "q": "1",
+      "subject": "政府會計",
+      "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "b53a452d1e18",
+      "a_pdf_sha1": "25217f9ea6aa",
+      "format_detected": "mixed",
+      "raw_question_count": 28,
+      "answer_qnums_extracted": 25,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 28,
+      "skipped_count": 0
+    },
+    {
+      "year": "112",
+      "exam_code": "112170",
+      "c": "121",
+      "s": "1001",
+      "q": "1",
+      "subject": "內部控制之理論與實務",
+      "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "78226ab8c661",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "112",
+      "exam_code": "112170",
+      "c": "121",
+      "s": "1004",
+      "q": "1",
+      "subject": "政府會計",
+      "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "128bbba96ff7",
+      "a_pdf_sha1": "28d10d14a462",
+      "format_detected": "mixed",
+      "raw_question_count": 27,
+      "answer_qnums_extracted": 25,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 27,
+      "skipped_count": 0
+    },
+    {
+      "year": "110",
+      "exam_code": "110170",
+      "c": "121",
+      "s": "1001",
+      "q": "1",
+      "subject": "內部控制之理論與實務",
+      "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "78fff41a9215",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "110",
+      "exam_code": "110170",
+      "c": "121",
+      "s": "1004",
+      "q": "1",
+      "subject": "政府會計",
+      "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "58d6a158290d",
+      "a_pdf_sha1": "241f01d0d5c8",
+      "format_detected": "mixed",
+      "raw_question_count": 29,
+      "answer_qnums_extracted": 25,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 29,
+      "skipped_count": 0
+    }
+  ],
+  "questions": [
+    {
+      "id": "promotion-1487eb6c-0001",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "essay",
+      "question": "請就主要目標與重點控制作業申論政府部門「固定資產循環」及「投資\n循環」內部控制之重要內涵。（40 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "947b2fc6c2ef",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "121",
+          "s": "1001",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "內部控制之理論與實務",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0002",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "essay",
+      "question": "請說明內部控制、內部稽核及內部審核的內涵為何？政府內部控制監督\n作業為何？（30分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "947b2fc6c2ef",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "121",
+          "s": "1001",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "內部控制之理論與實務",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0003",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "essay",
+      "question": "請說明如何將 ESG永續融入政府內部控制五大要素之中。（30分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "947b2fc6c2ef",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "121",
+          "s": "1001",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "內部控制之理論與實務",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0004",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "essay",
+      "question": "財政部於X1年1月1日公告發行X1年度甲類第1期建設公債50億元，\n票面利率2%，十年後到期。發行日期為X1年2月1日，並將債款繳庫。\nX2年2月1日支付第一次利息。公債發行時市場利率為1%。（利率2%，\n10 期之複利現值為 0.820348；利率 2%，10 期之年金現值為 8.982585；\n利率 1%，10 期之複利現值為 0.905287；利率 1%，10 期之年金現值為\n9.471305）請依政府會計準則公報及相關會計制度之規定回答下列問題：\n（每小題10 分，共 30 分）\n依特種公務中央公共債務會計制度之規定，請作 X1 年 1 月 1 日核定\n發行公債之分錄。\n依中央政府普通公務單位會計制度之一致規定，請作 X1 年 2 月 1 日\n發行公債並將債款繳庫之分錄。\n依中央政府普通公務單位會計制度之一致規定，請作 X2 年 2 月 1 日\n支付利息之分錄。",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "b53a452d1e18",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "121",
+          "s": "1005",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "政府會計",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0005",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "essay",
+      "question": "請依政府會計準則公報及中央政府普通公務單位會計制度之一致規定，\n作下列事項之分錄：（每小題10分，共 20分）\nX1 年度中央政府預算案已經立法院審議通過。甲機關 X1 年歲入預\n算數為 100萬元，請作甲機關 X1 年 1 月 1 日之相關分錄。\n甲機關申請歲入預算保留 5 萬元，請作甲機關 X1 年 12 月 31 日有關\n預算保留之分錄。\n12140",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "b53a452d1e18",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "121",
+          "s": "1005",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "政府會計",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0006",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "依政府會計觀念公報第1號規定，屬政府會計報導範圍，下列敘述正確者計有幾項？①台灣電力",
+      "options": [
+        "保險業務發展基金",
+        "農業部",
+        "財團法人中央畜產會",
+        "1項"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "b53a452d1e18",
+        "answer_pdf_sha1": "25217f9ea6aa",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "121",
+          "s": "1005",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0007",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "依政府會計觀念公報規定，下列何者為確保政府會計報告之決策有用性，須具備之基本品質特",
+      "options": [
+        "攸關性",
+        "時效性",
+        "可瞭解性",
+        "可比較性  ⑤忠實表述"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "b53a452d1e18",
+        "answer_pdf_sha1": "25217f9ea6aa",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "121",
+          "s": "1005",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0008",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "交通部 X4 年度收到中華郵政股份有限公司和航港建設基金將當年度盈（賸）餘分配之現金股息 紅利並繳庫，金額分別為20億元及15億元，依中央政府普通公務單位會計制度之一致規定，請 問交通部X4年度收入類會計科目金額為何？",
+      "options": [
+        "0元",
+        "15億元",
+        "20億元",
+        "35億元"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "b53a452d1e18",
+        "answer_pdf_sha1": "25217f9ea6aa",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "121",
+          "s": "1005",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0009",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "甲機關一筆已認列應收之規費，於本年度確定無法收取時，依中央政府普通公務單位會計制度之 一致規定，下列敘述何者正確？",
+      "options": [
+        "若本年度已認列收入科目，借記資產負債淨額科目",
+        "若本年度已認列收入科目，借記其他支出科目",
+        "若以前年度已認列收入科目，借記規費收入科目",
+        "若以前年度已認列收入科目，借記資產負債淨額科目"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "b53a452d1e18",
+        "answer_pdf_sha1": "25217f9ea6aa",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "121",
+          "s": "1005",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0010",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "中央政府丙機關編列預算補助新北市政府購置使用中車輛聲音照相設備，以強化地方檢測量能。 經丙機關審查新北市政府符合補助計畫之申請條件並撥付第1期款，依中央政府普通公務單位會 計制度之一致規定，該筆交易對丙機關科目的影響，下列敘述何者正確？",
+      "options": [
+        "設備增加、現金減少",
+        "設備增加、收入增加",
+        "支出增加、現金減少",
+        "支出增加、收入增加"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "b53a452d1e18",
+        "answer_pdf_sha1": "25217f9ea6aa",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "121",
+          "s": "1005",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0011",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "中央政府某機關於X年8月發生下列交易事項：購買辦公設備30萬元、收取違約金收入10萬元 及退還以前年度收入 20 萬元。依中央政府普通公務單位會計制度之一致規定，相關交易對該機 關於8月帳列「公庫撥入數」科目的影響，為下列何者？",
+      "options": [
+        "0元",
+        "增加20萬元",
+        "增加30萬元",
+        "增加50萬元"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "b53a452d1e18",
+        "answer_pdf_sha1": "25217f9ea6aa",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "121",
+          "s": "1005",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0012",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "中央政府戊機關於X年9月發生下列交易事項：退還以前年度已繳庫收入數5萬元、收到以前年 度剔除經費並辦理繳庫 10 萬元，以及使用以前年度購置之材料，將其價款以本年度預算數辦理 繳庫20萬元。依中央政府普通公務單位會計制度之一致規定，相關交易對戊機關於9月帳列「繳 付公庫數」科目的影響，為下列何者？",
+      "options": [
+        "增加15萬元",
+        "增加25萬元",
+        "增加30萬元",
+        "增加35萬元"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "b53a452d1e18",
+        "answer_pdf_sha1": "25217f9ea6aa",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "121",
+          "s": "1005",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0013",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "依政府會計準則公報第4號規定，中央政府乙機關1部機械設備成本10萬元，已計提折舊5萬 元，於X年9月1日與B公司約定以不具商業實質形式向B公司換入電腦1部，當日機械設備 及電腦的市場行情各為6萬元及7萬元，則乙機關換入資產之入帳金額為下列何者？",
+      "options": [
+        "5萬元",
+        "6萬元",
+        "7萬元",
+        "10萬元"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "b53a452d1e18",
+        "answer_pdf_sha1": "25217f9ea6aa",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "121",
+          "s": "1005",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0014",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "甲機關投資持有A上市公司14%股權，依政府會計準則公報第5號「政府長期股權投資之會計處 理」之規定，請問甲機關對此長期股權投資辦理續後評價時，具重大影響力和未具重大影響力， 應分別採用何種方法？",
+      "options": [
+        "收益法、成本法",
+        "權益法、按投資之公允價值評價",
+        "均為權益法",
+        "均為按投資之公允價值評價 12140"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "b53a452d1e18",
+        "answer_pdf_sha1": "25217f9ea6aa",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "121",
+          "s": "1005",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0015",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "甲機關X4年度對A上市公司之投資比例為19%，具重大影響力，依中央政府普通公務單位會計 制度之一致規定，下列有關甲機關X4年度長期投資之敘述，何者錯誤？",
+      "options": [
+        "對A上市公司之投資，帳列其他長期投資科目",
+        "對A上市公司之投資，帳列採權益法之投資科目",
+        "收到A上市公司發放之現金股利並繳庫，應借記繳付公庫數科目",
+        "年度終了評價，較帳面金額增加部分，應貸記投資利益科目"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "b53a452d1e18",
+        "answer_pdf_sha1": "25217f9ea6aa",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "121",
+          "s": "1005",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0016",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "中央政府甲機關委由 A 開發公司辦理工程建造案，因 A 公司工程執行進度嚴重落後，爰甲機關 於X年10月與A公司終止契約，並向地方法院提出訴訟。X年會計年度終了日時，甲機關進行 評估，預期幾乎確定可從訴訟案件中獲得 A 公司 1 億元之履賠，依政府會計準則公報第 7 號規 定，下列敘述何者正確？",
+      "options": [
+        "不作分錄，僅於附註揭露",
+        "應認列資產及收入",
+        "應認列資產但不認列收入",
+        "應認列收入但不認列資產"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "b53a452d1e18",
+        "answer_pdf_sha1": "25217f9ea6aa",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "121",
+          "s": "1005",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 11,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0017",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "依政府會計準則公報及中央總會計制度規定，下列事項中屬於財務報表之附註內容，計有幾項？",
+      "options": [
+        "財務報表報導範圍",
+        "採用之會計基礎",
+        "政府代管或依法設立之信託基金資產、負債等情形 資訊",
+        "依法應編預算送立法院之行政法人資產、負債等資訊  ⑤公務機關與特種基金間內部往 來事項"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "b53a452d1e18",
+        "answer_pdf_sha1": "25217f9ea6aa",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "121",
+          "s": "1005",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 12,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0018",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "公務人員退休撫卹基金 X4 年度收到銓敘部以當年度單位預算獎補助費科目對其撥補之款項 120 億元，依中央政府整體資產負債表編製注意事項規定，下列有關X4年12月31日中央政府整體 資產負債表之敘述，何者正確？",
+      "options": [
+        "應彙總表達公務人員退休撫卹基金整體資產、負債等狀況",
+        "公務機關欄位，帳列總會計科目（會計項目）「採權益法之投資」科目及「淨資產」科目",
+        "內部往來沖銷欄位，應沖減總會計科目（會計項目）「押匯貼現、放款、基金」科目120億元",
+        "內部往來沖銷欄位，無應沖減之總會計科目（會計項目）"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "b53a452d1e18",
+        "answer_pdf_sha1": "25217f9ea6aa",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "121",
+          "s": "1005",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 13,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0019",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "依中央政府普通公務單位會計制度之一致規定，甲機關於X4年9月14日支付以前年度歲出保留 數100萬元，同年12月31日註銷不再執行之以前年度歲出預算保留數5萬元，均為經常門的保 留，對甲機關X4年度各類會計科目之影響，下列敘述何者正確？",
+      "options": [
+        "減少負債100萬元",
+        "減少負債105萬元",
+        "增加收入100萬元",
+        "均無影響"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "b53a452d1e18",
+        "answer_pdf_sha1": "25217f9ea6aa",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "121",
+          "s": "1005",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 14,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0020",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "甲機關X4年9月份會計月報之以前年度歲出轉入數累計表中，一筆經常門業務費之保留，在本 月份撥付A廠商100萬元，並於該表本月實現數欄位之應付數表達，依中央政府普通公務單位會 計制度之一致規定，下列有關甲機關X4年9月份應作分錄之敘述何者正確？",
+      "options": [
+        "借記應付帳款科目100萬元",
+        "借記業務支出科目100萬元及歲出保留數準備科目100萬元",
+        "貸記繳付公庫數科目100萬元",
+        "貸記公庫撥入數科目100萬元及歲出保留數科目100萬元"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "b53a452d1e18",
+        "answer_pdf_sha1": "25217f9ea6aa",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "121",
+          "s": "1005",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 15,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0021",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "甲機關X4年9月份會計月報之以前年度歲入轉入數累計表中，本月實現數欄位之應收數，計有",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "b53a452d1e18",
+        "answer_pdf_sha1": "25217f9ea6aa",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "121",
+          "s": "1005",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 16,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0022",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "萬元，係本月份收取 A 廠商繳納以前年度已認列應收帳款之規費收入並繳庫，依中央政府普 通公務單位會計制度之一致規定，對甲機關X4年9月份各類會計科目之影響，下列敘述何者 正確？",
+      "options": [
+        "均無影響",
+        "增加支出10萬元",
+        "增加收入10萬元",
+        "增加資產10萬元 12140"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "b53a452d1e18",
+        "answer_pdf_sha1": "25217f9ea6aa",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "121",
+          "s": "1005",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0023",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "依中央政府普通公務單位會計制度之一致規定，甲機關X1年1月份會計月報之預算執行與會計 收支對照表，預算項目欄位之歲出預算執行數，列有業務費15萬元、獎補助費20萬元、設備及 投資 30 萬元；以前年度歲出轉入數累計表本月實現數欄位之保留數，列有業務費 5 萬元；平衡 表中列有機械及設備30萬元、資產負債淨額30萬元。請問甲機關X1年1月份會計月報收入支 出表中支出之數額為何？",
+      "options": [
+        "35萬元",
+        "40萬元",
+        "65萬元",
+        "70萬元"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "b53a452d1e18",
+        "answer_pdf_sha1": "25217f9ea6aa",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "121",
+          "s": "1005",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 17,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0024",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "依中央政府普通公務單位會計制度之一致規定，會影響公務機關本年度資產科目增減變動之交易",
+      "options": [
+        "收回本年度撥用之零用金並繳庫",
+        "支付存出保證金",
+        "融資租賃攤銷 各期利息",
+        "固定資產重估減值"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "b53a452d1e18",
+        "answer_pdf_sha1": "25217f9ea6aa",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "121",
+          "s": "1005",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 18,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0025",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "中央政府公務機關於會計年度結束後，提出當年度預算保留申請，經主管機關查核彙編後轉送中 央主計機關審核後有修正。依中央政府普通公務單位會計制度之一致規定，各機關應作之會計分 錄，下列敘述何者錯誤？",
+      "options": [
+        "修正減列應付數，應作「借：應付款項，貸：淨資產」",
+        "修正減列歲出保留數，應作「借：歲出保留數準備，貸：歲出保留數」",
+        "修正減列支出實現數改列應付數，應作「借：預付款，貸：應付款項」",
+        "修正增列歲入保留數，應作「借：歲入保留待實現數，貸：歲入保留數」"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "b53a452d1e18",
+        "answer_pdf_sha1": "25217f9ea6aa",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "121",
+          "s": "1005",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 19,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0026",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "依中央政府普通公務單位會計制度之一致規定，各機關收入、支出及財物之增減、移轉等事項，",
+      "options": [
+        "零用金之支用",
+        "材料之 使用",
+        "呆帳之沖銷",
+        "折舊之計提"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "b53a452d1e18",
+        "answer_pdf_sha1": "25217f9ea6aa",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "121",
+          "s": "1005",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 20,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0027",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "依中央政府普通公務單位會計制度之一致規定，有關會計月報中「繳付公庫數分析表」及「公庫 撥入數分析表」兩表，係提供閱表者瞭解，從機關歲入（歲出）實現數，調整至公庫收付數額。 試問下列何科目，不會同時出現在兩表中之調整加項欄位中？",
+      "options": [
+        "零用金",
+        "存出保證金",
+        "材料",
+        "其他應收款"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "b53a452d1e18",
+        "answer_pdf_sha1": "25217f9ea6aa",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "121",
+          "s": "1005",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 21,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0028",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "下列特種公務會計依其所核定之會計制度及中央總會計制度規定，係直接彙入公務機關會計後，",
+      "options": [
+        "國庫出納會計之應付保管款",
+        "國有財產會計之公用財產金額",
+        "徵課會計之每月收入支出財務資訊",
+        "公共債務會計之短期債務財務資訊"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "b53a452d1e18",
+        "answer_pdf_sha1": "25217f9ea6aa",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "121",
+          "s": "1005",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 22,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0029",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "甲國稅局 X2 年度接獲財政部國有財產署辦妥 A 納稅義務人以土地抵繳遺產稅款之產權移轉通 知，抵繳稅款實物帳面價值100萬元，係X1年度開徵，並已於該年度認列應收款項（呆稅率20%）， 依內地稅徵課會計制度規定，下列有關甲國稅局 X2 年度應為分錄中借方會計科目及其金額之敘 述，何者正確？",
+      "options": [
+        "遞延收入80萬元",
+        "抵繳收入實物100萬元",
+        "抵繳稅款實物80萬元",
+        "公庫收入數－以前年度100萬元"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "b53a452d1e18",
+        "answer_pdf_sha1": "25217f9ea6aa",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "121",
+          "s": "1005",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 23,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0030",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "依關稅徵課會計制度規定，下列會計科目屬於與中央政府普通公務單位會計制度之一致規定抵繳",
+      "options": [
+        "抵繳收入實物",
+        "抵繳稅款實物",
+        "承受無法拍定不動產",
+        "待沖銷承受無法拍定不動產"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "b53a452d1e18",
+        "answer_pdf_sha1": "25217f9ea6aa",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "121",
+          "s": "1005",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 24,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0031",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "國立政治大學校務基金收到教育部以單位預算設備及投資科目對其增撥之款項，依國立大學校院 校務基金會計制度之一致規定，請問國立政治大學校務基金應貸記之會計科目為：",
+      "options": [
+        "學校教學研究補助收入",
+        "預收收入",
+        "遞延收入",
+        "基金"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "b53a452d1e18",
+        "answer_pdf_sha1": "25217f9ea6aa",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "121",
+          "s": "1005",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 25,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0032",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "essay",
+      "question": "內部控制分為預防性控制、矯正性控制與偵測性控制，請描述此三項控\n制的定義，並說明此三項控制對風險管理有何幫助？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "78226ab8c661",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "121",
+          "s": "1001",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "內部控制之理論與實務",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0033",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "essay",
+      "question": "公司已經導入資訊系統進行銷售及收款循環相關作業，針對以下風險說\n明各風險會造成衝擊以及應進行之控制措施？（25 分）\n風險 1：不完整或不正確的客戶訂單\n風險 2：壞帳風險，銷售給信用不良的客戶\n風險 3：存貨缺貨\n風險4：特定時間大量銷貨，之後大量退貨，業務人員為了衝自己的獎\n金製造的假銷貨\n風險 5：特定客戶應收帳款偏高\n請依下列格式統整作答，否則不予計分。\n風險 衝擊 控制措施\n風險 1\n風險 2\n風險 3\n風險 4\n風險 5",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "78226ab8c661",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "121",
+          "s": "1001",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "內部控制之理論與實務",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0034",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "essay",
+      "question": "內部稽核單位每年應提出年度稽核計畫。年度稽核計畫之訂定應基於風\n險評估，應考量那些因素？請詳細描述。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "78226ab8c661",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "121",
+          "s": "1001",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "內部控制之理論與實務",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0035",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "essay",
+      "question": "資訊科技的一般控制包含那些控制項目？請說明並描述控制項目之內\n容。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "78226ab8c661",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "121",
+          "s": "1001",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "內部控制之理論與實務",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0036",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "essay",
+      "question": "依中央政府普通公務單位會計制度之一致規定，甲機關與乙國立大學簽\n訂委辦契約辦理科學技術研究計畫，依契約規定於 X1 年 9 月 15日簽約\n時，預先撥付半數計畫款50 萬元。乙國立大學於X1 年 12 月 31日依約\n就已執行部分，先行辦理核銷 35 萬元。該計畫於 X2 年 3 月 20 日完成\n時，乙國立大學取得甲機關撥付之賸餘半數款項50 萬元，並完成計畫經\n費之核銷。請以下表所列格式，列示在各交易事項發生時，除預算控制\n類分錄外，甲機關應有之會計分錄。（25分）\n（各項分錄之會計科目應以第四級科目名稱為準；若無分錄亦應註明\n之，否則不予給分。）\n日期 交易事項 會計分錄（預算控制類分錄除外）\nX1/9/15 簽約\nX1/12/31 先行辦理核銷\nX1/12/31 辦理經費保留\nX1/12/31 調整及結帳\nX2/1/1 開帳\nX2/3/20 計畫完成並辦理核銷",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "128bbba96ff7",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "政府會計",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0037",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "essay",
+      "question": "依會計法第 32條規定，會計報告可區分為日報、五日報、週報、旬報、\n月報（即會計月報）、季報、半年度報告、年度報告八類。另依國庫出納\n會計制度規定，國庫出納之會計作業分國庫統制會計、國庫支付會計及\n國庫代庫會計三種，其中國庫統制會計之報告，分為日報、會計月報、\n季報及年度會計報告四種。請依會計法第32 條之分類方式，說明國庫支\n付會計之報告，可分為那些種類？並說明國庫統制會計之年度會計報告\n（國庫年度出納終結報告），除封面、封底、目次及總說明外，尚包括那\n些表件？（25 分）\n12140",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "128bbba96ff7",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "政府會計",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0038",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "依政府會計準則公報第4號規定，庚機關有機械設備1部，成本100萬元，已計提折舊60萬元， 經評估公允價值50萬元，於X2年1月26日向A公司換入汽車1輛，屬具商業實質之交換。庚 機關在有收取現金10萬元、未收取現金、支付現金10萬元等三種情況下，換入汽車應認列之成 本分別為何？",
+      "options": [
+        "均為40萬元",
+        "30萬元、40萬元、50萬元",
+        "40萬元、50萬元、60萬元",
+        "60萬元、50萬元、40萬元"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "128bbba96ff7",
+        "answer_pdf_sha1": "28d10d14a462",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0039",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "依政府會計準則公報第5號規定，有關甲機關長期投資之交易，採公允價值法為續後評價者計有",
+      "options": [
+        "取得A上市公司股權40%",
+        "取得B非公開發行且非興櫃公司股權5%",
+        "取得Ｃ上櫃 公司股權10%",
+        "增撥作業基金之基金本金"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "128bbba96ff7",
+        "answer_pdf_sha1": "28d10d14a462",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0040",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "依政府會計準則公報第3號規定，有關政府支出認列之會計處理，下列敘述何者正確？",
+      "options": [
+        "委辦支出，對先行撥付受託者備用款項，其未支用部分，會計期間終了應認列為暫付款項",
+        "退休金支出，若採確定提撥退休金制，應於支付義務已發生且金額能可靠衡量時，認列為支出",
+        "週期性支出，法令規定有支付時期者，應於支付義務已發生且金額能可靠衡量時，認列為支出",
+        "不同政府間之補（協）助，資源提供者若未設定條件，應於承諾給付，且支付義務已發生及金 額能可靠衡量時，認列為支出"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "128bbba96ff7",
+        "answer_pdf_sha1": "28d10d14a462",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0041",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "依政府會計準則公報第7號規定，國家公園遭遊客亂丟廢棄物，依法應由遊客負擔廢棄物清理費 用，民眾預期政府會先行清理，預估清理費用2萬元，政府對於該筆預估清理費用，應為之會計 處理為何？",
+      "options": [
+        "無須處理",
+        "揭露或有負債2萬元",
+        "認列負債準備2萬元",
+        "屬負債準備，但以揭露方式處理"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "128bbba96ff7",
+        "answer_pdf_sha1": "28d10d14a462",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0042",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "依中央總會計制度規定，其經中央主計機關會商審計部及財政部，並應提下列何者通過後核定？",
+      "options": [
+        "主計官會議",
+        "主計會議",
+        "主計官",
+        "主計長"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "128bbba96ff7",
+        "answer_pdf_sha1": "28d10d14a462",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0043",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "依中央總會計制度規定，下列事項中屬於財務報表必要之補充資訊內容者，計有幾項？①內部往",
+      "options": [
+        "重要或依法設立之信託基金資產、負債等情形資訊",
+        "各行政法人之資產、負 債等資訊",
+        "其他重要資訊",
+        "0項"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "128bbba96ff7",
+        "answer_pdf_sha1": "28d10d14a462",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0044",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "依中央總會計制度規定，整體資產負債表，依公務機關及特種基金財務報表等彙編而成，其會計 科目依該等科目或依相（類）同性質整併後之科目表達。有關公務機關與特種基金會計科目轉換 為總會計適用之會計科目，下列何者正確？",
+      "options": [
+        "除第四級科目有表達之必要或屬重大者外，原則表達至第三級科目",
+        "公務機關及特種基金科目在整體資產負債表列示時，應簡併後表達",
+        "公務機關僅應收款項、應收其他基金款科目，應歸併至整體資產負債表之應收款項科目",
+        "特種基金僅應收款項、短期墊款科目，應歸併至整體資產負債表之應收款項科目"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "128bbba96ff7",
+        "answer_pdf_sha1": "28d10d14a462",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0045",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "依中央政府普通公務單位會計制度之一致規定，下列交易事項，須記錄支出者計有幾項？①年初",
+      "options": [
+        "年中減少各機關零用金額度",
+        "年中各機關以零用金支付相關款項",
+        "年中各機關申請撥補零用金差額",
+        "1項"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "128bbba96ff7",
+        "answer_pdf_sha1": "28d10d14a462",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0046",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "依中央政府普通公務單位會計制度之一致規定，交通部依契約於工程完工驗收後，認列廠商違約 賠償收入時，其記載第四級借方科目之可能情形有幾種？",
+      "options": [
+        "2種",
+        "3種",
+        "4種",
+        "5種 12140"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "128bbba96ff7",
+        "answer_pdf_sha1": "28d10d14a462",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0047",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "依中央政府普通公務單位會計制度之一致規定，下列交易事項之處理，何者正確？",
+      "options": [
+        "購買材料時借記業務支出",
+        "使用材料時貸記公庫撥入數",
+        "繳回零用金時借記繳付公庫數",
+        "收回以前年度支付之存出保證金時借記繳付公庫數"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "128bbba96ff7",
+        "answer_pdf_sha1": "28d10d14a462",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0048",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "依中央政府普通公務單位會計制度之一致規定，經濟部對高雄市所屬作業基金之應付未付款項， 經濟部會計報告應以下列何科目列帳？",
+      "options": [
+        "應付帳款",
+        "應付其他政府款",
+        "預收其他政府款",
+        "應付其他基金款"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "128bbba96ff7",
+        "answer_pdf_sha1": "28d10d14a462",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 11,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0049",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "乙機關收到X2年度決算之審定通知書，審計部修正或剔除之事項如下：①一般事務費10萬元應",
+      "options": [
+        "未取具合法原始憑證，剔除一般事務費9萬元",
+        "預收所屬A基金分攤〇〇計 畫執行款項300萬元應予轉正",
+        "剔除專案保留數100萬元。依中央政府普通公務單位會計制度 之一致規定，乙機關依審定結果所作之會計分錄，會影響資產負債淨額者有幾項？",
+        "1項"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "128bbba96ff7",
+        "answer_pdf_sha1": "28d10d14a462",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 12,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0050",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "甲機關X3年3月，依行政院政策決定，在符合所屬A特別收入基金用途之前提下，由該基金執 行某政策至年底，預估所需經費4億元由該基金先行籌應，並已納編次年度預算撥還A基金。迄 至X3年12月31日，A基金實際支付3億4,500萬元。依中央政府普通公務單位會計制度之一 致規定，年度終了時，甲機關及A基金查明應收應付事項時，針對上述交易應做如何處理？",
+      "options": [
+        "A基金認列應收其他政府款3億4,500萬元，甲機關認列應付其他基金款3億4,500萬元",
+        "A基金認列應收其他政府款4億元，甲機關認列應付其他基金款4億元",
+        "僅A基金需認列應收其他政府款3億4,500萬元，甲機關附註揭露承諾事項3億4,500萬元",
+        "均不作分錄，但須分別於A基金及甲機關財務報告中附註揭露承諾事項3億4,500萬元"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "128bbba96ff7",
+        "answer_pdf_sha1": "28d10d14a462",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 13,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0051",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "甲機關X1會計年度終了時，將歲出預算所列技術更新業務等經費共2,000萬元保留轉入X2年度 繼續執行，並於X2年3月20日支付經費500萬元。依中央政府普通公務單位會計制度之一致規 定，其X2年3月20日應記載之會計分錄，下列何者正確？",
+      "options": [
+        "借：資產負債淨額500萬元，貸：公庫撥入數500萬元；借：歲出保留數準備500萬元，貸： 歲出保留數500萬元",
+        "借：業務支出500萬元，貸：公庫撥入數500萬元；借：歲出保留數準備500萬元，貸：歲出 保留數500萬元",
+        "借：資產負債淨額500萬元，貸：應付帳款500萬元；借：歲出保留數500萬元，貸：歲出保 留數準備500萬元",
+        "借：業務支出500萬元，貸：應付帳款500萬元；借：歲出保留數準備500萬元，貸：歲出保 留數500萬元"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "128bbba96ff7",
+        "answer_pdf_sha1": "28d10d14a462",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 14,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0052",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "乙機關X1年度單位預算案中，歲出預算數編列13億2,674萬元，送立法院審議後，經總統於X1 年2月16日公布乙機關歲出預算數13億1,266萬元（含第一預備金185萬元）。假設乙機關X1 年度未申請動支第一預備金，X1年9月間申請並奉准後如數動支第二預備金2億1,280萬元，執 行結果於年度終了時，依規定申請歲出預算保留123萬元。乙機關結帳時應結清歲出分配數及歲 出保留數各多少元？",
+      "options": [
+        "15億2,546萬元、無列數（0元）",
+        "15億2,361萬元、123萬元",
+        "13億1,266萬元、無列數（0元）",
+        "13億1,081萬元、123萬元"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "128bbba96ff7",
+        "answer_pdf_sha1": "28d10d14a462",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 15,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0053",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "中央政府國庫主管機關核定中央政府甲機關零用金額度70,000元。X8年11月1日甲機關出納管 理單位，為應緊急及零星支用，簽奉機關首長核准設置50,000元零用金，作為零星支用；X8年 11月30日甲機關由零用金支付國內出差旅費7,500元、運費8,000元；X8年12月1日撥還零用 金；X8年12月15日甲機關由零用金支付車輛及辦公器具養護費9,000元、國內出差旅費9,500 元、運費9,900元、短程車資9,990元、郵資8,500元，並依規定程序撥還；X8年12月31日甲 機關依規定，將該年度零用金餘額繳還國庫，依中央政府普通公務單位會計制度之一致規定，試 作零用金繳回之會計分錄？",
+      "options": [
+        "借：公庫撥入數50,000元，貸：零用金50,000元",
+        "借：公庫撥入數70,000元，貸：零用金70,000元",
+        "借：公庫撥入數34,500元，貸：零用金34,500元",
+        "借：公庫撥入數3,110元，貸：零用金3,110元 12140"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "128bbba96ff7",
+        "answer_pdf_sha1": "28d10d14a462",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 16,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0054",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "丙機關於X3年1月預撥補助A財團法人500萬元，該法人依進度於X3年4月申請核銷150萬 元，但因有與補助目的不符之支出50萬元，丙機關要求A法人繳回，後續亦不再支用，其餘同 意核銷，丙機關於X3年5月1日存入一紙發票日為5月15日之支票，並立即存入機關專戶。依 中央政府普通公務單位會計制度之一致規定，下列何者非本交易之分錄？",
+      "options": [
+        "借：預付款500萬元，貸：公庫撥入數500萬元",
+        "借：應收票據50萬元，貸：預付款50萬元",
+        "借：獎補助支出100萬元，貸：預付款100萬元",
+        "借：繳付公庫數50萬元，貸：獎補助支出50萬元"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "128bbba96ff7",
+        "answer_pdf_sha1": "28d10d14a462",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 17,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0055",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "甲機關辦理查驗案件業務，每一個案件收取規費1萬元，以電子方式提出申請者得減收1,000元。 A廠商X3年12月1 日以電子方式向甲機關申請一個案件查驗，並繳納現金1萬元。甲機關於 X3年12月30日查驗完成後，認列規費收入1萬元並繳庫；A廠商於X3年12月31日向甲機關 申請退費1,000元。審計機關爰修正減列甲機關X3年收入實現數1,000元，另甲機關將已繳庫之 收入款領回存入機關專戶後，尚待循程序辦理退費事宜。依中央政府普通公務單位會計制度之一 致規定，有關審計機關修正減列收入實現數及甲機關將款項退還A廠商之會計分錄為何？",
+      "options": [
+        "借：資產負債淨額1,000元，貸：預收款1,000元；借：預收款1,000元，貸：繳付公庫數1,000元",
+        "借：資產負債淨額1,000元，貸：預收款1,000元；借：預收款1,000元，貸：各機關現金1,000元",
+        "借：資產負債淨額1,000元，貸：預收款1,000元；借：預收款1,000元，貸：專戶存款1,000元",
+        "借：資產負債淨額1,000元，貸：預收款1,000元；借：預收款1,000元，貸：公庫撥入數1,000元"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "128bbba96ff7",
+        "answer_pdf_sha1": "28d10d14a462",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 18,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0056",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "依中央政府普通公務單位會計制度之一致規定之繳付公庫數分析表，下列會使年終結帳前繳付公",
+      "options": [
+        "預付當年度契約款",
+        "以前年度撥款於本年度繳還數",
+        "收 回以前年度撥款之存出保證金",
+        "退還本年度收入數"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "128bbba96ff7",
+        "answer_pdf_sha1": "28d10d14a462",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 19,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0057",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "依國庫出納會計制度之規定，法定預算通過前，先行支付交通部業務費之緊急支出時，支付會計 應借記下列何者？",
+      "options": [
+        "業務支出",
+        "緊急支出",
+        "交通部主管",
+        "支付庫款"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "128bbba96ff7",
+        "answer_pdf_sha1": "28d10d14a462",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 20,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0058",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "依政府會計觀念公報第2號規定，確認年度收入是否足以支應年度支出，係屬政府會計報告目的 之那一種？",
+      "options": [
+        "公開報導責任",
+        "跨期間公平性",
+        "財務遵循責任",
+        "施政績效責任"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "128bbba96ff7",
+        "answer_pdf_sha1": "28d10d14a462",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 21,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0059",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "依國有財產會計制度之規定，財政部國有財產署所使用之原始憑證，主要係由下列那些機關所提",
+      "options": [
+        "各財產管理機關",
+        "各財產管理主管機關",
+        "國有非公用財產業務單位",
+        "財政部國有 財產署各分署"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "128bbba96ff7",
+        "answer_pdf_sha1": "28d10d14a462",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 22,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0060",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "依國有財產法及國有財產會計制度之規定，年度終了編造之國有財產會計報告，係由下列何機關 負責？",
+      "options": [
+        "財政部國有財產署主計單位",
+        "財政部國有財產署業務單位",
+        "各財產管理主管機關",
+        "各財產管理機關"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "128bbba96ff7",
+        "answer_pdf_sha1": "28d10d14a462",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 23,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0061",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "依關稅徵課會計制度之規定，退稅費支票兌領時，應貸記下列何種科目？",
+      "options": [
+        "在途稅款",
+        "專戶存款",
+        "應付代收款",
+        "關稅徵課繳付公庫數"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "128bbba96ff7",
+        "answer_pdf_sha1": "28d10d14a462",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 24,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0062",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "依中央公共債務會計制度之規定，各期次借款提前償付本息時，主管機關借款會計償付類應作之 分錄，包括下列何者？",
+      "options": [
+        "借：未到期借款，貸：應付到期借款",
+        "借：應付到期借款，貸：已付到期借款",
+        "借：應付提前償還借款，貸：未到期借款",
+        "借：應付提前償還借款，貸：已付提前償還借款"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "128bbba96ff7",
+        "answer_pdf_sha1": "28d10d14a462",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 25,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0063",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "essay",
+      "question": "請申論如何將內部控制五大要素應用於政府部門內部控制之設計。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "78fff41a9215",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "121",
+          "s": "1001",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "內部控制之理論與實務",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0064",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "essay",
+      "question": "請申論「採購及付款循環」以及「薪工循環」的內部控制設計及執行。\n（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "78fff41a9215",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "121",
+          "s": "1001",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "內部控制之理論與實務",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0065",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "essay",
+      "question": "請申論內部稽核之重要性、類型以及內部稽核運作流程的三個階段。\n（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "78fff41a9215",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "121",
+          "s": "1001",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "內部控制之理論與實務",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0066",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "essay",
+      "question": "請申論何謂「公司治理」？經濟合作暨發展組織（OECD）提出之公司治\n理原則為何？又要如何透過審計委員會來強化內部監控機制？（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:31+00:00",
+        "source_pdf_sha1": "78fff41a9215",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "121",
+          "s": "1001",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "內部控制之理論與實務",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0067",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "essay",
+      "question": "政府會計採用固定項目劃分原則業已多年，但是「政府會計準則公報第\n四號：政府固定資產之會計處理」，以及「第六號：政府長期負債之會計\n處理」均已規定不再適用固定項目劃分原則。回答下列各項問題：\n何謂固定項目劃分原則？（8分）\n現行政府會計為何排除業已適用多年之固定項目劃分原則？（9 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:32+00:00",
+        "source_pdf_sha1": "58d6a158290d",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "政府會計",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0068",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "essay",
+      "question": "依據「中央政府普通公務單位會計制度之一致規定」回答下列問題：\n本制度採用何種會計基礎？並解釋其意義。（8分）\n本制度之記帳本位幣為何？（4 分）\n有那幾個會計科目不列入平衡表之資產項下，寫出三級會計科目名\n稱。（6 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:32+00:00",
+        "source_pdf_sha1": "58d6a158290d",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "政府會計",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0069",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "essay",
+      "question": "某政府 X 年度之會計紀錄顯示稅課收入 125 億元，債務收入 36 億元，\n專賣收入14 億元，規費收入 8億元，土地售價收入 18 億元，作業基金\n收入 20億元，資本收回 7 億元，贈與收入 2億元，罰款收入 3億元，營\n業基金盈餘繳庫24 億元，捐獻收入 5 億元。計算該政府下列各項金額：\n（每小題 5分，共 15 分）\n歲入金額\n經常收入金額\n資本收入金額",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:32+00:00",
+        "source_pdf_sha1": "58d6a158290d",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "政府會計",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0070",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "依中央總會計制度規定，下列何者非屬公務機關應編製之財務報表？",
+      "options": [
+        "資本資產表",
+        "平衡表",
+        "收入支出表",
+        "平衡表科目明細表"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:32+00:00",
+        "source_pdf_sha1": "58d6a158290d",
+        "answer_pdf_sha1": "241f01d0d5c8",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0071",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "審計機關於查核甲機關補助乙直轄市政府之重大交通建設經費，發現甲機關已列支出之款項，乙 直轄市政府尚有部分款項雖已完工驗收，但未完成核銷付款，故減列甲機關支出實現數，並修正 改列應付數，試依中央政府普通公務單位會計制度之一致規定，審計機關修正甲機關時應為之完 整會計分錄？",
+      "options": [
+        "借：預付款，貸：應付款項",
+        "借：預付款，貸：資產負債淨額",
+        "借：預付款，貸：公庫撥入數",
+        "借：預付款，貸：繳付公庫數 12140"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:32+00:00",
+        "source_pdf_sha1": "58d6a158290d",
+        "answer_pdf_sha1": "241f01d0d5c8",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0072",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "甲機關經管之國有房舍於107年間發生火災，火勢迅速延燒鄰近民宅，民宅屋主向甲機關提出國 賠訴訟，截至107年底止，各種證據顯示，甲機關很有可能被判賠償$150,000，但108年底有新 證據顯示，被判賠償之可能性為40%，依中央政府普通公務單位會計制度之一致規定，請問甲機 關108年底應做何種會計分錄？",
+      "options": [
+        "無須作分錄",
+        "借：負債準備 150,000，貸：其他獎補捐助 150,000",
+        "借：負債準備 150,000，貸：業務支出 150,000",
+        "借：負債準備 150,000，貸：資產負債淨額 150,000"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:32+00:00",
+        "source_pdf_sha1": "58d6a158290d",
+        "answer_pdf_sha1": "241f01d0d5c8",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0073",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "依據甲機關單位決算會計報告顯示，其帳載預付款4,337 元、其他應收款31元、以前年度撥款於 本年度實現數6,734元、繳付公庫數54,844元、收入待納庫數4元、以前年度撥款於本年度繳還之 其他應收款2,478元，退還收入（預收）款80元、公庫撥入數42,470元，請問歲入實現數為何？",
+      "options": [
+        "44,756元",
+        "52,370元",
+        "57,326元",
+        "52,362元"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:32+00:00",
+        "source_pdf_sha1": "58d6a158290d",
+        "answer_pdf_sha1": "241f01d0d5c8",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0074",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "依中央政府普通公務單位會計制度之一致規定，行政院修正減列支出實現數 500,000 元改列歲出 保留數時，該機關應為之會計分錄為何？",
+      "options": [
+        "借：預付款500,000，貸：經費支出500,000；借：歲出保留數500,000，貸：歲出保留數準 備500,000",
+        "借：其他應收款500,000，貸：經費支出500,000",
+        "借：其他應收款500,000，貸：經費支出500,000；借：歲出保留數500,000，貸：歲出保留數準 備500,000",
+        "借：歲出保留數500,000，貸：歲出保留數準備500,000"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:32+00:00",
+        "source_pdf_sha1": "58d6a158290d",
+        "answer_pdf_sha1": "241f01d0d5c8",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0075",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "依中央公共債務會計制度之規定，下列關於中央公共債務會計之敘述，何者正確？",
+      "options": [
+        "中央公共債務分內債及外債",
+        "會計業務之處理，依該制度規定辦理，其未規定者，依相關法令規定辦理",
+        "會計年度之開始、終了及結束期間，依會計法規定辦理",
+        "會計制度依會計法第17條規定訂定"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:32+00:00",
+        "source_pdf_sha1": "58d6a158290d",
+        "answer_pdf_sha1": "241f01d0d5c8",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0076",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "依政府會計準則公報及中央政府普通公務單位會計制度之一致規定，下列敘述何者正確？",
+      "options": [
+        "中央政府為興辦公共建設所舉借的公債利息，應予以資本化",
+        "甲機關於110年7月21日購入設備並完成運送、安裝、驗收，隨即開始使用。甲機關於7月 30日始支付其應負擔之運費2萬元，支付時應借：業務支出2萬元，貸：公庫撥入數2萬元",
+        "乙機關配合政策，於110年7月3日參與P公司現金增資，以1億元取得該公司增資後30%股 權。同年8月15日乙機關獲配P公司現金股利1.67億元時，應借：繳付公庫數1.67億元，貸： 採權益法之投資評價調整1.67億元",
+        "丙機關經管礦場已開採10年，110年7月31日宣布發現新礦脈且具開採價值，同年1月至7 月已支付之探勘費用，無須轉列遞耗資產"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:32+00:00",
+        "source_pdf_sha1": "58d6a158290d",
+        "answer_pdf_sha1": "241f01d0d5c8",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0077",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "甲公務機關配合辦公大樓興建完成搬遷進駐，將原租用辦公廳舍辦理解約停租，並收回多年前支 付之押金，試依中央政府普通公務單位會計制度之一致規定，甲機關於收回押金繳庫時應為之完 整會計分錄？",
+      "options": [
+        "借：存出保證金，貸：公庫撥入數",
+        "借：公庫撥入數，貸：存出保證金",
+        "借：繳付公庫數，貸：存出保證金",
+        "借：資產負債淨額，貸：存出保證金"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:32+00:00",
+        "source_pdf_sha1": "58d6a158290d",
+        "answer_pdf_sha1": "241f01d0d5c8",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0078",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "依中央公共債務會計制度之規定，下列分類科目屬其經理機構所應設置者，計有幾項？①預算控",
+      "options": [
+        "資產類",
+        "負債類",
+        "淨資產類 ⑤收入類 ⑥支出類",
+        "1項"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:32+00:00",
+        "source_pdf_sha1": "58d6a158290d",
+        "answer_pdf_sha1": "241f01d0d5c8",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0079",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "依關稅徵課會計制度之規定，其會計科目應分為幾類、幾級？",
+      "options": [
+        "3類、2級",
+        "3類、4級",
+        "5類、2級",
+        "5類、4級 12140"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:32+00:00",
+        "source_pdf_sha1": "58d6a158290d",
+        "answer_pdf_sha1": "241f01d0d5c8",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0080",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "依中央總會計制度規定，各類特種基金均應編製之財務報表為何？",
+      "options": [
+        "基金來源、用途及餘絀表",
+        "資產負債表",
+        "餘絀撥補表",
+        "現金流量表"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:32+00:00",
+        "source_pdf_sha1": "58d6a158290d",
+        "answer_pdf_sha1": "241f01d0d5c8",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 11,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0081",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "依現行各項特種公務會計制度之規定，下列會計制度之應收款項於過渡時期得先採認列遞延收入",
+      "options": [
+        "國庫出納會計制度",
+        "關稅徵課會計制度",
+        "內地稅徵課會計制度",
+        "國有財產會計制度 ⑤中央公共債務會計制度"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:32+00:00",
+        "source_pdf_sha1": "58d6a158290d",
+        "answer_pdf_sha1": "241f01d0d5c8",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 12,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0082",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "中央政府甲機關因業務需要，於11X年5月1日向A廠商租用市價9,600萬元且耐用年限10年 之機械設備一批，租期4年，自租賃開始日起每年給付租金2,400萬元；租期屆滿時，該設備將 無償移轉給甲機關。若有效利率為1.8%，依政府會計準則公報及中央政府普通公務單位會計制度 之一致規定，下列敘述何者正確？",
+      "options": [
+        "支付第一期租金時應：借記支出2,400萬元，貸記公庫撥入數2,400萬元",
+        "租賃開始日應認列租賃資產9,600萬元",
+        "攤銷各期利息時無須做分錄",
+        "租期屆滿時，租賃資產與其累計折舊應分別轉列機械及設備與其累計折舊"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:32+00:00",
+        "source_pdf_sha1": "58d6a158290d",
+        "answer_pdf_sha1": "241f01d0d5c8",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 13,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0083",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "甲機關於X0年度以3億元與民間合資成立K公司，取得5%股權。嗣因K公司連年虧損，歷年 皆未發放現金股利。現辦理現金增資，因民間投資者均不參與增資，甲機關於X5年8月1日以 1億元認購K公司全部現金增資，持股比例提高至40%。下列甲機關之會計處理，何者錯誤？",
+      "options": [
+        "X0年度投資K公司時，應認列其他長期投資3億元，另投資金額與K公司淨值間之差異，應 認列其他長期投資評價調整",
+        "X5年8月1日，應認列採權益法之投資1億元，年底時，其與K 公司淨值間之差異，應認列採權益法之投資評價調整",
+        "對於 K 公司投資，至 X5 年 8 月 1 日 止，皆無認列投資損益",
+        "自X5年度起，應將K公司之損益按持股比例認列為投資損益，並調 整「採權益法之投資」金額"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:32+00:00",
+        "source_pdf_sha1": "58d6a158290d",
+        "answer_pdf_sha1": "241f01d0d5c8",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 14,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0084",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "中央政府基於產業發展政策，於X1年4月1日投資M上市公司（發行股數10億股，每股面額 10元），取得其30%股權，投資成本為60億元，同年7月14日M公司配發現金股利共9億元， 年底決算結果，公司稅後盈餘 30 億元，提列 10%法定盈餘公積後，經股東會決議不發放股利。 X2年4月M公司辦理現金增資，發行新股8億股，每股認購價格44元，市價為45元，中央政 府決定不參與現金增資，7月M公司完成現金增資作業，同年該公司稅後盈餘50億元。X3年7 月1日中央政府以每股80元於公開市場售出M公司半數股權。另M公司X1及X2年底股票價 格分別為每股32元及每股90元，則中央政府於X3年出售M公司所認列的投資損益為何？",
+      "options": [
+        "認列投資利益30億元",
+        "認列投資損失15億元",
+        "認列投資利益67.5億元",
+        "認列投資損失30億元"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:32+00:00",
+        "source_pdf_sha1": "58d6a158290d",
+        "answer_pdf_sha1": "241f01d0d5c8",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 15,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0085",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "甲機關因應嚴重特殊傳染性肺炎（COVID-19）防治需求，於109年3月1日利用特別預算經費",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:32+00:00",
+        "source_pdf_sha1": "58d6a158290d",
+        "answer_pdf_sha1": "241f01d0d5c8",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 16,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0086",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "5 億元聘請研究人員、0.5 億元購買原料耗材、1 億元買進某種已進入臨床三期之專利藥物 5 年使用權（無殘值），開始研發新藥。同年 10月 1日新藥經證實療效及安全無虞後，完成審驗 及專利註冊，新藥專利期限10年（無殘值）。甲機關110年1月1日完成技術移轉授權予國內4 家製藥公司量產，該4家公司每年度決算後2個月各需支付甲機關權利金20萬元。依中央政府 普通公務單位會計制度之一致規定，甲機關之下列會計分錄，何者錯誤？",
+      "options": [
+        "110年12月31日，借：應收款項80萬，貸：財產收益80萬",
+        "109年3月1日，借：發展中之無形資產1億及權利1億；貸：公庫撥入數2億",
+        "109年10月1日，借：權利2億，貸：發展中之無形資產1億及權利1億",
+        "109年12月31日，借：無形資產攤銷500萬，貸：權利500萬 12140"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:32+00:00",
+        "source_pdf_sha1": "58d6a158290d",
+        "answer_pdf_sha1": "241f01d0d5c8",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 0,
+        "answer_corrected": false,
+        "flags": [
+          "answer_missing"
+        ]
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0087",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "會計法於108年11月間修正刪除第29條後，對普通公務會計事務處理之影響，下列敘述何者正",
+      "options": [
+        "固定資產、長期投資、無形資產及遞耗資產等，均列入平衡表，無須再另立固定帳項",
+        "處分固定資產所得款項，在編製預算執行報表及決算報表時，應以出售所得價款扣減該資產帳 面價值後之金額，認列為歲（收）入",
+        "中央政府整體資產負債表架構無須更動",
+        "雖歲出預算 執行及會計處理基礎不同，但仍須透過資本資產帳及長期負債帳調節"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:32+00:00",
+        "source_pdf_sha1": "58d6a158290d",
+        "answer_pdf_sha1": "241f01d0d5c8",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 17,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0088",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "甲機關於X8年1月1日向A公司租用機械設備一部，租期3年，每年年初支付租金$100,000， 租期屆滿時，該設備之估計殘值為$50,000，甲機關得以$10,000 之價格承購。該設備之估計耐用 年限為5年，5年後無殘值，在租賃開始日之公允價值為$300,000，出租人隱含利率為6%（假設 利率6%，2期之年金現值為1.8334、3期之複利現值為0.8396），依中央政府普通公務單位會計 制度之一致規定，甲機關 X8 年度應付租賃款及其他長期負債變動表中「應付租賃款」項目之期 末帳面金額為何？",
+      "options": [
+        "$291,736",
+        "$212,000",
+        "$203,240",
+        "$191,736"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:32+00:00",
+        "source_pdf_sha1": "58d6a158290d",
+        "answer_pdf_sha1": "241f01d0d5c8",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 18,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0089",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "中央政府指定債務基金辦理長期負債之償付及相關財務運作，X8年12月5日中央政府到期長期 借款為$1,500 億，償債財源包括：總預算編列債務還本$835 億，及債務基金舉借新債償還舊債 $665億。X8年12月5日債務基金已收到上開償債財源，同日如數償付到期長期借款，請問上開 交易債務基金應認列之收入及支出分別為何？",
+      "options": [
+        "收入及支出均為$1,500億",
+        "收入及支出均為$835億",
+        "收入及支出均為$665億",
+        "收入為$1,500億，支出為$665億"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:32+00:00",
+        "source_pdf_sha1": "58d6a158290d",
+        "answer_pdf_sha1": "241f01d0d5c8",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 19,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0090",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "承上題，財政部國庫署將總預算編列之債務還本$835億撥交債務基金備供償付時，其普通公務單 位會計應為之分錄為何？",
+      "options": [
+        "無須處理",
+        "借：長期負債835億，貸：國庫存款835億",
+        "借：長期負債835億，貸：現金835億",
+        "借：借款償付數－本金835億，貸：國庫應撥數－本金835億 借：應付到期借款－本金835億， 貸：已付到期借款－本金835億"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:32+00:00",
+        "source_pdf_sha1": "58d6a158290d",
+        "answer_pdf_sha1": "241f01d0d5c8",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 20,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0091",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "依中央政府普通公務單位會計制度之一致規定，下列何者屬於該制度所設計之預算控制類科目？",
+      "options": [
+        "歲入保留待實現數",
+        "歲出預算數",
+        "資產負債淨額",
+        "預計繳付數 ⑤預計撥入數"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:32+00:00",
+        "source_pdf_sha1": "58d6a158290d",
+        "answer_pdf_sha1": "241f01d0d5c8",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 21,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0092",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "依據乙機關會計月報之公庫撥入數分析表顯示，列有其他應收款30元，公庫撥入數為50,000元， 以前年度撥款於本年度實現數7,000元，材料3,000元，存出保證金100元，請問歲出實現數為何？",
+      "options": [
+        "60,130元",
+        "54,130元",
+        "53,870元",
+        "39,870元"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:32+00:00",
+        "source_pdf_sha1": "58d6a158290d",
+        "answer_pdf_sha1": "241f01d0d5c8",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 22,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0093",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "公務機關對公務人員採確定給付退休制時，認列支出之時點，包括下列何者？①提撥時 ②到期",
+      "options": [
+        "補助公務人員退休撫卹基金時",
+        "僅",
+        "",
+        "僅"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:32+00:00",
+        "source_pdf_sha1": "58d6a158290d",
+        "answer_pdf_sha1": "241f01d0d5c8",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 23,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0094",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "依政府會計準則公報之規定，下列有關政府會計報告之敘述，何者正確？①政府整體資產負債表，",
+      "options": [
+        "政府整體資產負 債表，係按流動和非流動資產、流動和非流動負債之類別表達",
+        "公務機關財務報表，應包括彙 總報導公務機關特定期間之資產、負債、收支及餘絀等資訊",
+        "僅",
+        ""
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:32+00:00",
+        "source_pdf_sha1": "58d6a158290d",
+        "answer_pdf_sha1": "241f01d0d5c8",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 24,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "promotion-1487eb6c-0095",
+      "exam_id": "promotion-1487eb6c",
+      "question_type": "single_choice",
+      "question": "依政府會計準則公報之規定，有關財務報表報導範圍應置於政府會計報告之何處？",
+      "options": [
+        "管理者討論與分析",
+        "財務報表之表首",
+        "財務報表之附註",
+        "必要之補充資訊"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:32+00:00",
+        "source_pdf_sha1": "58d6a158290d",
+        "answer_pdf_sha1": "241f01d0d5c8",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "121",
+          "s": "1004",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "政府會計",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 25,
+        "answer_corrected": false,
+        "flags": []
+      }
+    }
+  ]
+}

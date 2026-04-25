@@ -1,0 +1,93 @@
+{
+  "slug": "judicial-d4b276c4",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:26:54+00:00",
+  "paper_count": 10,
+  "paper_with_questions": 10,
+  "question_count": 36,
+  "type_counts": {
+    "essay": 36
+  },
+  "issues": [
+    {
+      "year": "114",
+      "subject": "家事事件法",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 3,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "心理學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "民法總則與親屬、繼承編",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 3,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "諮商與輔導",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "113",
+      "subject": "家事事件法",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "113",
+      "subject": "心理學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "113",
+      "subject": "民法總則與親屬、繼承編",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 3,
+      "answers": 0
+    },
+    {
+      "year": "113",
+      "subject": "諮商與輔導",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "心理學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "諮商與輔導",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 3,
+      "answers": 0
+    }
+  ]
+}

@@ -1,0 +1,2506 @@
+{
+  "slug": "aboriginal-78f7d45f",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:38:07+00:00",
+  "paper_count": 6,
+  "paper_with_questions": 6,
+  "question_count": 68,
+  "type_counts": {
+    "essay": 18,
+    "single_choice": 50
+  },
+  "papers": [
+    {
+      "year": "112",
+      "exam_code": "112150",
+      "c": "512",
+      "s": "0102",
+      "q": "1",
+      "subject": "國文(作文與測驗)",
+      "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "106b6fd98758",
+      "a_pdf_sha1": "3a8fb526d509",
+      "format_detected": "pure_essay",
+      "raw_question_count": 2,
+      "answer_qnums_extracted": 10,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 2,
+      "skipped_count": 0
+    },
+    {
+      "year": "112",
+      "exam_code": "112150",
+      "c": "512",
+      "s": "0218",
+      "q": "1",
+      "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)",
+      "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "384194208de1",
+      "a_pdf_sha1": "a334f7cbe936",
+      "format_detected": "pure_mc",
+      "raw_question_count": 50,
+      "answer_qnums_extracted": 50,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 50,
+      "skipped_count": 0
+    },
+    {
+      "year": "112",
+      "exam_code": "112150",
+      "c": "512",
+      "s": "0405",
+      "q": "1",
+      "subject": "觀光學",
+      "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "55af6bd3cf23",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "112",
+      "exam_code": "112150",
+      "c": "512",
+      "s": "0406",
+      "q": "1",
+      "subject": "觀光行政與法規",
+      "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "e7cdd55d6823",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "112",
+      "exam_code": "112150",
+      "c": "512",
+      "s": "0408",
+      "q": "1",
+      "subject": "觀光行銷學",
+      "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "5cc1530a2d5a",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "112",
+      "exam_code": "112150",
+      "c": "512",
+      "s": "0407",
+      "q": "1",
+      "subject": "觀光資源規劃",
+      "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "3c474e1b382d",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    }
+  ],
+  "questions": [
+    {
+      "id": "aboriginal-78f7d45f-0001",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "essay",
+      "question": "短文寫作：（20分）\n最後一哩路（ThelastMile）本是電信專用名詞，意指固網最後一\n段連到家戶部分，由於終端家戶之間個別差異頗大，鋪設相當麻煩，\n後引申為完成一件事情時的最終關鍵性步驟。這個詞已被廣泛使用，\n例如運動選手在比賽的最後一局，或指攀爬高山最後的攻頂，亦有用\n以描述即將畢業，面對就業考驗之前的在學時間等。「最後一哩路」，\n似乎意指著成功就在眼前，但是失敗亦隨時虎視耽耽，是通向希望與\n絕望的歧路，自己與自己的戰爭。請針對「最後一哩路」這個觀念，\n提出自己的見解，並寫出自身的體驗與啟發。（文長不超過400字）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "106b6fd98758",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0102",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "國文(作文與測驗)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0002",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "essay",
+      "question": "作文：（60分）\n語言或可視為作為人類的最重要的特徵，但「沉默」卻是古今中\n外皆有的現象。徐志摩為康橋美景所震懾，他說：「不說也罷，說來\n你們也是不信的！」魯迅則說：「當我沉默的時候，我覺得充實；我\n將開口，同時感到空虛。」歌劇《魔笛》，男主角塔米諾（Tamino）\n王子必須通過三種極端考驗，方可迎來光明，重建天地秩序，其中一\n項試煉就是「沉默」。沉默者選擇隱藏聲音，主流者踴躍發聲，結果\n形成了強者更強、弱者消音的進程。但有些時候，不說反而比說來得\n更有力量，「於無聲處聽驚雷」，在某些狀態下，沉默成了最強韌的武\n器，也是最難得的力量。請以「沉默的力量」為題，撰寫一篇文章。\n乙、測驗部分：（20分） 代號：1101",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "106b6fd98758",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0102",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "國文(作文與測驗)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0003",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "single_choice",
+      "question": "依司法院大法官解釋意旨，關於大學教師之升等評審程序，下列敘述何者正確？",
+      "options": [
+        "基於大學自治，有關大學教師升等資格之審查，立法者不得為任何規定",
+        "基於大學自治，對於升等決定不服之教師，不得提起行政訴訟",
+        "大學教師升等資格之審查，涉及工作權之保障",
+        "教師升等資格評審程序之目的在於維持學術研究與教學之品質，不受教育主管機關監督"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "384194208de1",
+        "answer_pdf_sha1": "a334f7cbe936",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0218",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0004",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "single_choice",
+      "question": "有關監察權之行使，下列敘述何者錯誤？",
+      "options": [
+        "監察院僅得對行政院及其有關部會提出糾正案",
+        "監察委員對行政院及各部會行使之調查權範圍，僅限於調閱文件",
+        "監察院院長對於彈劾案不得指使與干涉",
+        "監察院院長對於糾舉案不得指使與干涉"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "384194208de1",
+        "answer_pdf_sha1": "a334f7cbe936",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0218",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0005",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "single_choice",
+      "question": "下列何者並非司法院釋字第499號解釋所列舉之修憲界限？",
+      "options": [
+        "憲法第1條所樹立之民主共和國原則",
+        "憲法第2條之國民主權原則",
+        "憲法第2章所保障之各項人民基本權利",
+        "憲法第13章所明定之基本國策"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "384194208de1",
+        "answer_pdf_sha1": "a334f7cbe936",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0218",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0006",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "single_choice",
+      "question": "依憲法增修條文第10條第8項規定，國家就社會救助和國民就業，應優先編列下列何種支出？",
+      "options": [
+        "一般性支出",
+        "資本性支出",
+        "救濟性支出",
+        "政策性支出"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "384194208de1",
+        "answer_pdf_sha1": "a334f7cbe936",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0218",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0007",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "single_choice",
+      "question": "依憲法第8條第1項之規定，司法或警察機關依法定程序，得逮捕拘禁人民。關於本項規定之司法機關與警 察機關，下列敘述何者正確？",
+      "options": [
+        "司法機關包括檢察機關，警察機關不限於組織法上之形式意義警察機關",
+        "司法機關包括檢察機關，警察機關限於組織法上之形式意義警察機關",
+        "司法機關不包括檢察機關，警察機關不限於組織法上之形式意義警察機關",
+        "司法機關不包括檢察機關，警察機關限於組織法上之形式意義警察機關"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "384194208de1",
+        "answer_pdf_sha1": "a334f7cbe936",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0218",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0008",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "single_choice",
+      "question": "有關憲法第7條平等原則之敘述，下列何者正確？",
+      "options": [
+        "平等原則禁止所有法律上的差別待遇",
+        "優惠性差別待遇亦為平等原則所禁止",
+        "基於平等原則，立法者應貫徹體系正義的要求",
+        "平等原則僅拘束立法者，不拘束行政機關"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "384194208de1",
+        "answer_pdf_sha1": "a334f7cbe936",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0218",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0009",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "single_choice",
+      "question": "依司法院大法官解釋，下列何者違反憲法第13條保障之宗教信仰自由？",
+      "options": [
+        "總統接見宗教領袖",
+        "總統以私人名義參加宗教活動",
+        "設立國教",
+        "核准宗教團體設立學校"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "384194208de1",
+        "answer_pdf_sha1": "a334f7cbe936",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0218",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0010",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "single_choice",
+      "question": "甲男收養乙為養子所成立的收養身分契約，涉及何種憲法上的基本權？",
+      "options": [
+        "個人人格權",
+        "集體人格權",
+        "財產權",
+        "人身自由"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "384194208de1",
+        "answer_pdf_sha1": "a334f7cbe936",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0218",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0011",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "single_choice",
+      "question": "下列何種權利或自由並非憲法第22條保障之權利？",
+      "options": [
+        "健康權",
+        "性自主權",
+        "一般行為自由",
+        "消極不表意自由"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "384194208de1",
+        "answer_pdf_sha1": "a334f7cbe936",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0218",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0012",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "single_choice",
+      "question": "依司法院大法官解釋，有關人民服兵役義務，下列敘述何者錯誤？",
+      "options": [
+        "有關人民服兵役之重要事項，應由立法者斟酌國家安全、社會發展之需要，以法律定之",
+        "後備軍人居住處所遷移，無故不依規定申報者，即處以刑事罰，違憲",
+        "妨害兵役治罪條例，課予後備軍人就居住處所遷移依規定向相關機關為申報之義務，不違憲",
+        "男子服兵役之義務，並無違反人性尊嚴，也無違反平等原則"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "384194208de1",
+        "answer_pdf_sha1": "a334f7cbe936",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0218",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0013",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "single_choice",
+      "question": "憲法增修條文有關行政院院長與總統、副總統之規定，下列敘述何者正確？",
+      "options": [
+        "行政院院長由總統提名，經立法院同意任命之",
+        "總統或副總統因故不能視事時，由行政院院長代行其職權",
+        "總統、副總統均缺位時，由行政院院長召集國民大會補選總統、副總統",
+        "立法院通過不信任案後，行政院院長得呈請總統解散立法院"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "384194208de1",
+        "answer_pdf_sha1": "a334f7cbe936",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0218",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 11,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0014",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "single_choice",
+      "question": "關於立法院臨時會召開程序及審議事項，下列敘述何者錯誤？",
+      "options": [
+        "立法院得因立法委員四分之一以上之請求而召開臨時會",
+        "立法院臨時會以決議召集臨時會之特定事項為限",
+        "於立法院休會期間提出不信任案，立法院應即召開臨時會審議之",
+        "立法院於臨時會審議不信任案時，於不信任案提出72小時後，應於48小時內以記名投票表決之"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "384194208de1",
+        "answer_pdf_sha1": "a334f7cbe936",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0218",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 12,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0015",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "single_choice",
+      "question": "有關司法院院長之職權及地位，下列敘述何者錯誤？",
+      "options": [
+        "綜理院務，監督所屬機關",
+        "並為大法官之院長不受任期保障",
+        "依據憲法第44條規定，出席總統主持之院際調解",
+        "提請總統任命司法院副院長"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "384194208de1",
+        "answer_pdf_sha1": "a334f7cbe936",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0218",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 13,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0016",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "single_choice",
+      "question": "依司法院大法官解釋，土地稅法規定，依都市計畫法指定之公共設施保留地，免徵土地增值稅；至非都市 土地經編定為交通用地，且依法核定為公共設施用地者，則不予免徵土地增值稅之規定，係違反下列何種 基本權？",
+      "options": [
+        "生存權",
+        "財產權",
+        "工作權",
+        "平等權"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "384194208de1",
+        "answer_pdf_sha1": "a334f7cbe936",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0218",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 14,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0017",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "single_choice",
+      "question": "關於地方自治之敘述，下列何者錯誤？",
+      "options": [
+        "屬於垂直權力分立（中央、省、縣）之設計",
+        "地方自治為地方人民自我決定地方事務之表現",
+        "地方自治的存在僅限於行政上的分治，而無政治上的分權",
+        "地方自治團體為公法人"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "384194208de1",
+        "answer_pdf_sha1": "a334f7cbe936",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0218",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 15,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0018",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "single_choice",
+      "question": "原住民族文化資產之指定或登錄，除依各類別審議基準外，下列何者非屬應符合之條件？",
+      "options": [
+        "表現原住民族土地的重要關聯性",
+        "表現原住民族世代相傳之傳承性",
+        "表現原住民族文化之歷史重要性或具代表性",
+        "表現特定原住民族、部落或其他傳統組織之文化顯著性"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "384194208de1",
+        "answer_pdf_sha1": "a334f7cbe936",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0218",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 16,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0019",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "single_choice",
+      "question": "申請無償取得原住民保留地所有權，有若干資格上之限制。下列敘述何者正確？",
+      "options": [
+        "原住民依法於原住民保留地設定農育權者",
+        "原住民依法於原住民保留地取得抵押權者",
+        "原住民提出申請後經由部落會議同意取得者",
+        "經原住民保留地土地權利審查委員會同意者"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "384194208de1",
+        "answer_pdf_sha1": "a334f7cbe936",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0218",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 17,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0020",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "single_choice",
+      "question": "為保障原住民族工作權，中央主管機關依法應於原住民族綜合發展基金項下設置就業基金。下列關於該基 金之敘述，何者正確？",
+      "options": [
+        "其收支、保管及運用辦法，依法由原住民族委員會定之",
+        "其收支、保管及運用辦法，由行政院授權地方政府定之",
+        "就業基金之來源，包含依原住民族工作權保障法所繳納之代金",
+        "就業基金之來源，限於依原住民族工作權保障法所繳納之代金"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "384194208de1",
+        "answer_pdf_sha1": "a334f7cbe936",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0218",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 18,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0021",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "single_choice",
+      "question": "根據原住民族工作權保障法，依政府採購法得標之廠商，於國內員工總人數逾100人者，負有應僱用一定 比例原住民之要求。下列有關此規定之敘述，何者錯誤？",
+      "options": [
+        "其僱用之人數不得低於總人數百分之一",
+        "若僱用之人數未達標準，則須繳納代金",
+        "應於履約期間符合僱用一定比例之義務",
+        "於投標時即須符合僱用一定比例之義務"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "384194208de1",
+        "answer_pdf_sha1": "a334f7cbe936",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0218",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 19,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0022",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "single_choice",
+      "question": "關於原住民族在經中央原住民族主管機關公告之海域採集野生植物及菌類之行為，下列敘述何者正確？",
+      "options": [
+        "得依法從事非營利行為",
+        "限於環境部公告之海域",
+        "不以傳統文化、祭儀或自用為限",
+        "須經中央原住民族主管機關同意"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "384194208de1",
+        "answer_pdf_sha1": "a334f7cbe936",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0218",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 20,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0023",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "single_choice",
+      "question": "下列何行政機關就原住民保留地得依法實施土地重劃或社區更新？",
+      "options": [
+        "原住民族委員會",
+        "國家發展委員會",
+        "縣市政府",
+        "經濟部"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "384194208de1",
+        "answer_pdf_sha1": "a334f7cbe936",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0218",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 21,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0024",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "single_choice",
+      "question": "依現行法規，原住民取得原住民保留地所有權後，除政府指定之特定用途外，關於其移轉之承受人，有何 限制？",
+      "options": [
+        "禁止移轉於他族原住民",
+        "承受人須以原住民為限",
+        "禁止移轉於平地原住民",
+        "承受人以同一部落為限"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "384194208de1",
+        "answer_pdf_sha1": "a334f7cbe936",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0218",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 22,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0025",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "single_choice",
+      "question": "下列何者非屬原住民族教育法規定應規劃實施原住民族及多元文化教育相關課程或活動者？",
+      "options": [
+        "政府機關",
+        "公營事業機構",
+        "政府捐助基金累計超過百分之五十之財團法人",
+        "政府採購得標廠商於國內員工總人數逾100人者"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "384194208de1",
+        "answer_pdf_sha1": "a334f7cbe936",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0218",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 23,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0026",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "single_choice",
+      "question": "阿美族原住民女子甲，其父為太魯閣族、母為阿美族。甲與非原住民男子乙結婚所生子女，該子女之民族 別依法可從之選擇，下列何者正確？",
+      "options": [
+        "阿美族",
+        "太魯閣族",
+        "可從阿美族或太魯閣族",
+        "子女無法取得原住民身分"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "384194208de1",
+        "answer_pdf_sha1": "a334f7cbe936",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0218",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 24,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0027",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "single_choice",
+      "question": "依原住民族基本法之規定，法定原住民族應經由下列何機關核定？",
+      "options": [
+        "總統",
+        "行政院",
+        "原住民族委員會",
+        "國家人權委員會"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "384194208de1",
+        "answer_pdf_sha1": "a334f7cbe936",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0218",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 25,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0028",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "single_choice",
+      "question": "臺灣原住民為姓名登記並列羅馬拼音者，應使用之符號系統，係由下列何機關提供？",
+      "options": [
+        "教育部",
+        "文化部",
+        "內政部",
+        "原住民族委員會"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "384194208de1",
+        "answer_pdf_sha1": "a334f7cbe936",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0218",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 26,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0029",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "single_choice",
+      "question": "下列何者率先於其條文中將「山胞」正名為「原住民族」？",
+      "options": [
+        "原住民身分法",
+        "原住民族基本法",
+        "憲法增修條文",
+        "原住民族教育法"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "384194208de1",
+        "answer_pdf_sha1": "a334f7cbe936",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0218",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 27,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0030",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "single_choice",
+      "question": "依據現行人體研究計畫諮詢取得原住民族同意與約定商業利益及其應用辦法之規定，下列何者非屬得代表 原住民族行使同意權與約定商業利益及其應用事項之組織？",
+      "options": [
+        "部落會議",
+        "中央諮詢會",
+        "原住民族委員會",
+        "鄉（鎮、市、區）諮詢會"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "384194208de1",
+        "answer_pdf_sha1": "a334f7cbe936",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0218",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 28,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0031",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "single_choice",
+      "question": "各級各類學校實施原住民族教育，就原住民族教育法規定之原則與相關條文，下列何者錯誤？",
+      "options": [
+        "鼓勵教師以原住民族語言進行原住民族語文課程教學",
+        "運用行政活動及校園空間，推動原住民族及多元文化教育",
+        "高級中等以下學校於原住民學生就讀時，應對其實施民族教育",
+        "高級中等以下學校課程發展委員會之設置，應聘請當地原住民族或部落具原住民身分之代表參與"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "384194208de1",
+        "answer_pdf_sha1": "a334f7cbe936",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0218",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 29,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0032",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "single_choice",
+      "question": "森林法第15條第4項所稱生活慣俗之認定有疑義時，應由受理原住民族提案採取森林產物之機關，函請 何機關協助認定？",
+      "options": [
+        "內政部",
+        "教育部",
+        "農業部",
+        "原住民族委員會"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "384194208de1",
+        "answer_pdf_sha1": "a334f7cbe936",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0218",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 30,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0033",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "single_choice",
+      "question": "依原住民保留地禁伐補償條例，關於原住民保留地之禁伐及補償規定，下列敘述何者錯誤？",
+      "options": [
+        "申請人非土地所有權人者不得申請",
+        "中華民國106年起，禁伐補償金額度為每年每公頃新臺幣3萬元",
+        "原住民保留地依法編定為林業用地或適用林業用地管制者，由主管機關劃定為禁伐區域並公告之",
+        "禁伐補償金核發後，申請人喪失原住民身分者，應撤銷禁伐補償，並命受領人按月依比例返還當年度之 禁伐補償金"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "384194208de1",
+        "answer_pdf_sha1": "a334f7cbe936",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0218",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 31,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0034",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "single_choice",
+      "question": "依據原住民族語言發展法之規定，應設置地方通行語標示之機關（構）及公營事業機構，不包括下列何者？",
+      "options": [
+        "台灣糖業公司花蓮觀光糖廠",
+        "內政部營建署台江國家公園管理處",
+        "國軍退除役官兵輔導委員會武陵農場",
+        "交通部觀光局花東縱谷國家風景區管理處"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "384194208de1",
+        "answer_pdf_sha1": "a334f7cbe936",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0218",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 32,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0035",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "single_choice",
+      "question": "主管機關為審議各類原住民族文化資產所涉文化資產保存法規定之重大事項，應設原住民族文化資產審議 會，專責審議原住民族文化資產；此一審議會的人員組成，依原住民族文化資產處理辦法規定，應有多少 比例以上為非機關人員？",
+      "options": [
+        "二分之一",
+        "三分之一",
+        "三分之二",
+        "四分之三"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "384194208de1",
+        "answer_pdf_sha1": "a334f7cbe936",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0218",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 33,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0036",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "single_choice",
+      "question": "依原住民族教育法規定，中央政府應寬列預算，專款辦理原住民族教育；其比率，合計不得少於中央教育 主管機關預算總額百分之一點九，並係以教育部及原住民族委員會編列之本經費數額合計，試問：兩部會 各自分擔的比率為何？",
+      "options": [
+        "教育部負擔百分之六十，原住民族委員會負擔百分之四十",
+        "教育部負擔百分之六十五，原住民族委員會負擔百分之三十五",
+        "教育部負擔百分之七十，原住民族委員會負擔百分之三十",
+        "教育部負擔百分之七十五，原住民族委員會負擔百分之二十五"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "384194208de1",
+        "answer_pdf_sha1": "a334f7cbe936",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0218",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 34,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0037",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "single_choice",
+      "question": "依原住民族基本法，政府應保障原住民族之語言、文化與教育等權利。下列敘述何者正確？",
+      "options": [
+        "成立社團法人原住民族文化事業發展基金會",
+        "辦理族語能力驗證制度並強制原住民族報考",
+        "各大學應設置原住民語言研究發展專責單位",
+        "辦理原住民族專屬以及使用族語之傳播媒介"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "384194208de1",
+        "answer_pdf_sha1": "a334f7cbe936",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0218",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 35,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0038",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "single_choice",
+      "question": "Thedirector,whooftendoesthingscarelesslyandregardlessofconsequences,isnowchargedwithcausingdeath by_____driving.",
+      "options": [
+        "meticulous",
+        "conscientious",
+        "reckless",
+        "ferocious"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "384194208de1",
+        "answer_pdf_sha1": "a334f7cbe936",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0218",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 36,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0039",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "single_choice",
+      "question": "Itisveryeasytogetlostor_____insuchacommunitymarkedbyitsnarrowandwindingalleys.Wemaynotbe abletofindourwayback.",
+      "options": [
+        "disorientated",
+        "intractable",
+        "overreacted",
+        "disembarked"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "384194208de1",
+        "answer_pdf_sha1": "a334f7cbe936",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0218",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 37,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0040",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "single_choice",
+      "question": "Uponseeingapoisonoussnake,most peoplewouldstand_____likestone,notknowingwhat todo,letalone runningaway.",
+      "options": [
+        "obstructed",
+        "obfuscated",
+        "petrified",
+        "prostrated"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "384194208de1",
+        "answer_pdf_sha1": "a334f7cbe936",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0218",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 38,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0041",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "single_choice",
+      "question": "_____isawayofhavingfuninventedbyholidaymakerswhilethey’regroundedbythepandemic.",
+      "options": [
+        "Tele-location",
+        "Staycation",
+        "Collocation",
+        "Relocation"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "384194208de1",
+        "answer_pdf_sha1": "a334f7cbe936",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0218",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 39,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0042",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "single_choice",
+      "question": "Beforebuyingstocks,itisimportantto_____alloftherisksandprofitsinvolved.",
+      "options": [
+        "assess",
+        "access",
+        "asset",
+        "assert"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "384194208de1",
+        "answer_pdf_sha1": "a334f7cbe936",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0218",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 40,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0043",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "single_choice",
+      "question": "_____saltintaketolessthan5gramsperdayhelpspreventhypertension,andreducestheriskofheartdiseaseand strokeintheadultpopulation.",
+      "options": [
+        "Providing",
+        "Keeping",
+        "Inducing",
+        "Seducing"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "384194208de1",
+        "answer_pdf_sha1": "a334f7cbe936",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0218",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 41,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0044",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "single_choice",
+      "question": "DoyouknowthatthelargestUnitedStatesAirForce_____inthePacificisonOkinawa？",
+      "options": [
+        "foundation",
+        "base",
+        "condominium",
+        "flat"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "384194208de1",
+        "answer_pdf_sha1": "a334f7cbe936",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0218",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 42,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0045",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "single_choice",
+      "question": "The_____Festival,whichiscelebratedonthe15thdayofthefirstmonthoftheLunarNewYear,traditionally markstheendoftheNewYearholiday.",
+      "options": [
+        "Leather",
+        "Lamb",
+        "Lantern",
+        "Lamp"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "384194208de1",
+        "answer_pdf_sha1": "a334f7cbe936",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0218",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 43,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0046",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "single_choice",
+      "question": "Iliketo_____onsomehealthysnackslikebananasorapplesduringmybreaksatwork.",
+      "options": [
+        "munch",
+        "muster",
+        "deliver",
+        "devote"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "384194208de1",
+        "answer_pdf_sha1": "a334f7cbe936",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0218",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 44,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0047",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "single_choice",
+      "question": "Taiwan’sobsessionwithmilkfishismadeallthemore_____byitsEastAsianneighbors’reluctancetoembraceit.",
+      "options": [
+        "usual",
+        "unhappy",
+        "unique",
+        "universal"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "384194208de1",
+        "answer_pdf_sha1": "a334f7cbe936",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0218",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 45,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0048",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "single_choice",
+      "question": "IntercitytransportationinTaiwan_____heavilyonthehigh-speedrailline,whichrunsfromTaipeiinthenorth downtoKaohsiunginthesouth.",
+      "options": [
+        "rallies",
+        "realizes",
+        "relies",
+        "relishes"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "384194208de1",
+        "answer_pdf_sha1": "a334f7cbe936",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0218",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 46,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0049",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "single_choice",
+      "question": "InJapan,afterregularclassesareover,studentsparticipateinsportsandcultural_____forseveralhourseveryday.",
+      "options": [
+        "riots",
+        "revolution",
+        "competence",
+        "clubs"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "384194208de1",
+        "answer_pdf_sha1": "a334f7cbe936",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0218",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 47,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0050",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "single_choice",
+      "question": "Althoughthetwocountriessigneda_____treatyabouttheborderline,itwassoonviolatedbyoneofthem.",
+      "options": [
+        "federal",
+        "marital",
+        "martial",
+        "bilateral"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "384194208de1",
+        "answer_pdf_sha1": "a334f7cbe936",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0218",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 48,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0051",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "single_choice",
+      "question": "Afteralongtimeofstrike,thecorporationfinally_____thewageincreasetotheworkers.",
+      "options": [
+        "confessed",
+        "conceded",
+        "concluded",
+        "succeeded"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "384194208de1",
+        "answer_pdf_sha1": "a334f7cbe936",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0218",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 49,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0052",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "single_choice",
+      "question": "_____,weshouldexploredifferentpossibilitiesbeforemakinganyfinaldecision.",
+      "options": [
+        "Tentatively",
+        "Abusively",
+        "Ostensibly",
+        "Reluctantly"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "384194208de1",
+        "answer_pdf_sha1": "a334f7cbe936",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0218",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 50,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0053",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "essay",
+      "question": "請分別說明休閒（Leisure）、遊憩（Recreation）、觀光（Tourism）三者之\n定義與內涵。（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "55af6bd3cf23",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0405",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "觀光學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0054",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "essay",
+      "question": "現階段臺灣旅館業之經營方式，約略可以分為獨立經營、連鎖加盟、管\n理契約和會員組織等四種不同模式，請說明這四種模式之定義與優缺\n點，並列舉出代表之旅館。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "55af6bd3cf23",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0405",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "觀光學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0055",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "essay",
+      "question": "觀光遊憩區內良好的步道（Trail）規劃設計，可以有效促進旅客的遊憩\n體驗機會。試說明步道規劃設計應該考量的面向與內容為何？（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "55af6bd3cf23",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0405",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "觀光學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0056",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "essay",
+      "question": "1944年舉辦的世界民航大會（ConventiononInternationalCivilAviation），\n由 52 個國家簽署芝加哥公約並成立了「國際民航組織」（International\nCivil Aviation Organization, ICAO）。請問該組織成立之主要目標為何？\n（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "55af6bd3cf23",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0405",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "觀光學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0057",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "essay",
+      "question": "民國112年6月7日政府公布「交通部觀光署組織法」作為交通部觀光局升\n格之法源。根據該組織法內容，請說明「設立目的及隸屬關係」、「權限\n職掌」、「依職掌所設次級機關之名稱及業務」為何？「署」和「局」之\n差異為何？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "e7cdd55d6823",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0406",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "觀光行政與法規",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0058",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "essay",
+      "question": "為新增旅行業業務項目、調適現行法令與實務發展之落差，同時落實旅行\n業監督管理與促進旅遊安全，主管機關已於民國112年7月26日修正發\n布「旅行業管理規則」，請說明本次修正及增訂內容重點為何？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "e7cdd55d6823",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0406",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "觀光行政與法規",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0059",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "essay",
+      "question": "為促使現行導遊人員及領隊人員選才、培才機制更符合市場導向，且能\n因應旅遊市場快速變遷趨勢滾動調整，現行「發展觀光條例」第 32條規\n定，導遊人員及領隊人員應經中央主管機關或其委託之有關機關評量及\n訓練合格。根據評量規劃方向與內容，請說明「評量類科」、「評量期程」、\n「報名資格」及「評量內容」為何？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "e7cdd55d6823",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0406",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "觀光行政與法規",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0060",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "essay",
+      "question": "為鼓勵觀光旅館業、旅館業及民宿打造友善、智慧服務空間及提升服務\n品質，提供國內外旅客優質住宿環境，民國 112 年 7 月 17 日修正發布\n「交通部觀光局獎勵旅宿業品質提升補助要點」。根據該要點內容，請說\n明有關「導入智慧化設備或管理系統」補助內容為何？增訂補助觀光旅\n館業及旅館業取得環保標章相關費用分級比例為何？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "e7cdd55d6823",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0406",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "觀光行政與法規",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0061",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "essay",
+      "question": "試述家庭生命週期（FamilyLifeCycle）與旅遊產品購買之關係。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "5cc1530a2d5a",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0408",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "觀光行銷學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0062",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "essay",
+      "question": "試述參考團體（ReferenceGroup）與旅遊產品購買之關係。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "5cc1530a2d5a",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0408",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "觀光行銷學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0063",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "essay",
+      "question": "試述旅館業實施顧客關係管理的策略與步驟。（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "5cc1530a2d5a",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0408",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "觀光行銷學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0064",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "essay",
+      "question": "試述旅遊業在選擇廣告媒體時應考慮之因素。（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "5cc1530a2d5a",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0408",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "觀光行銷學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0065",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "essay",
+      "question": "部落觀光旅遊發展深度體驗旅遊可謂符合里山倡議中的「社會―生態―\n生產地景」理念，請以部落豐年祭為例，闡述其重要意義。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "3c474e1b382d",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0407",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "觀光資源規劃",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0066",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "essay",
+      "question": "自110年國家發展委員會與各部會協力推動國家級綠道，目前已規劃7條\n具發展潛力之國家級綠道主題軸線，請說明有那7條國家級綠道？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "3c474e1b382d",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0407",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "觀光資源規劃",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0067",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "essay",
+      "question": "請說明政府劃定「自然人文生態景觀區」與「自然保留區」的法源依據\n為何？（10分）請試述兩者定義及所規定的差異。（15分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "3c474e1b382d",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0407",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "觀光資源規劃",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-78f7d45f-0068",
+      "exam_id": "aboriginal-78f7d45f",
+      "question_type": "essay",
+      "question": "北部橫貫公路（臺七線）全線旅遊資源豐富獨特，是北臺灣連接東西向\n的重要公路。請問其範圍橫跨那些縣市？（10 分）又鄰接那幾個重要的\n國家森林遊樂區？（15 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:07+00:00",
+        "source_pdf_sha1": "3c474e1b382d",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "512",
+          "s": "0407",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "觀光資源規劃",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    }
+  ]
+}

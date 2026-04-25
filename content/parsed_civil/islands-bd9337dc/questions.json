@@ -1,0 +1,276 @@
+{
+  "slug": "islands-bd9337dc",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:33:56+00:00",
+  "paper_count": 2,
+  "paper_with_questions": 2,
+  "question_count": 7,
+  "type_counts": {
+    "essay": 7
+  },
+  "papers": [
+    {
+      "year": "114",
+      "exam_code": "114190",
+      "c": "509",
+      "s": "0903",
+      "q": "1",
+      "subject": "社會工作實務",
+      "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "956efac490ad",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "114",
+      "exam_code": "114190",
+      "c": "509",
+      "s": "0905",
+      "q": "1",
+      "subject": "行政法、社會福利政策與法規",
+      "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "7188769ac860",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 3,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 3,
+      "skipped_count": 0
+    }
+  ],
+  "questions": [
+    {
+      "id": "islands-bd9337dc-0001",
+      "exam_id": "islands-bd9337dc",
+      "question_type": "essay",
+      "question": "個案管理（casemanagement）是一種協作實務（collaborativepractice），\n旨在為具有多重問題或多元需求的個案提供「客製化」和「個人化」的\n套裝服務，以專業團隊（professionalteam）的方式運作，實為其達成服\n務目標不可或缺的要件。請說明專業團隊的意涵與類型有那些？並任舉\n一實務案例（例如：兒童保護、家庭暴力防治、早期療育服務、長期照\n顧、身心障礙就業服務等）說明有效的專業團隊實務運作上需要具備那\n些特性？（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:56+00:00",
+        "source_pdf_sha1": "956efac490ad",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "509",
+          "s": "0903",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "社會工作實務",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-bd9337dc-0002",
+      "exam_id": "islands-bd9337dc",
+      "question_type": "essay",
+      "question": "共生社區（symbioticcommunity）強調居民與其環境之間的互惠與融合，\n這對當代的社區實務有重要的意涵。請說明共生社區的意義與主要特性\n為何？並請以任一社會照顧實務為例，說明營造共生社區需要具備那些\n要件？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:56+00:00",
+        "source_pdf_sha1": "956efac490ad",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "509",
+          "s": "0903",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "社會工作實務",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-bd9337dc-0003",
+      "exam_id": "islands-bd9337dc",
+      "question_type": "essay",
+      "question": "社會團體工作為傳統社會工作的主要方法之一，請說明社會團體工作的\n主要特性為何？為有效發揮團體工作的功能，社會工作者在團體運作時\n需要遵循那些實務原則？（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:56+00:00",
+        "source_pdf_sha1": "956efac490ad",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "509",
+          "s": "0903",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "社會工作實務",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-bd9337dc-0004",
+      "exam_id": "islands-bd9337dc",
+      "question_type": "essay",
+      "question": "當代社會工作實務深受其所處之管理理論或觀點的影響，尤其是新公共\n管理（NewPublicManagement）與新公共治理（NewPublicGovernance）。\n請說明新公共管理與新公共治理各自的主張為何？以及各自對當代社\n會工作實務帶來那些影響？請舉例說明之。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:56+00:00",
+        "source_pdf_sha1": "956efac490ad",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "509",
+          "s": "0903",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "社會工作實務",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-bd9337dc-0005",
+      "exam_id": "islands-bd9337dc",
+      "question_type": "essay",
+      "question": "人民甲所有之房屋緊鄰道路，並於道路範圍內放置大型盆栽。乙市政府\n警察局員警丙接獲檢舉後，到場查得甲確有占用道路情事，並當場開立\n占用道路障礙通知書，載明「請障礙物所有人於一週內自行清除。屆時\n仍未清除改善，不再另行勸導。本局將會同乙市政府相關權責機關，依\n道路交通管理處罰條例第 82 條、廢棄物清理法及行政執行法等相關法\n令，代履行執行清（拆）除。」。試問：此一通知書之性質為何？（30 分）\n參考法條：\n道路交通管理處罰條例第 82 條第 1 項第 1 款規定：「有下列情形之一者，除責令\n行為人即時停止並消除障礙外，處行為人或其雇主新臺幣一千二百元以上二千四\n百元以下罰鍰：一、在道路堆積、置放、設置或拋擲足以妨礙交通之物。……」\n同條第2項規定：「前項第一款妨礙交通之物、第八款之廣告牌、經勸導行為人不\n即時清除或行為人不在場，視同廢棄物，依廢棄物法令清除之。第十款之攤棚、攤\n架，不問屬於受處罰人所有與否，得沒入之。」",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:56+00:00",
+        "source_pdf_sha1": "7188769ac860",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "509",
+          "s": "0905",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "行政法、社會福利政策與法規",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-bd9337dc-0006",
+      "exam_id": "islands-bd9337dc",
+      "question_type": "essay",
+      "question": "依據人口推估，我國 65歲以上老年人口占總人口比率將於今年（2025）\n超過 20%，接近超高齡（super-aged）國家。因應此一趨勢行政院於民國\n110 年提出「高齡社會白皮書」，請說明白皮書策劃的我國高齡社會發展\n四大願景為何？並申論應該強化那些高齡社會政策？（35分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:56+00:00",
+        "source_pdf_sha1": "7188769ac860",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "509",
+          "s": "0905",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "行政法、社會福利政策與法規",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-bd9337dc-0007",
+      "exam_id": "islands-bd9337dc",
+      "question_type": "essay",
+      "question": "少子女化是我國重要的人口現象之一，請說明我國生育率的變遷趨勢與\n引發的挑戰為何？並申論我國應該強化那些社會政策？（35分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:56+00:00",
+        "source_pdf_sha1": "7188769ac860",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "509",
+          "s": "0905",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "行政法、社會福利政策與法規",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "colonel-d0d1b9a2",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:26:57+00:00",
+  "paper_count": 5,
+  "paper_with_questions": 5,
+  "question_count": 117,
+  "type_counts": {
+    "essay": 14,
+    "single_choice": 103
+  },
+  "issues": [
+    {
+      "year": "114",
+      "subject": "會計學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    }
+  ]
+}

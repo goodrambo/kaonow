@@ -1,0 +1,3782 @@
+{
+  "slug": "promotion-bd450684",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:28:59+00:00",
+  "paper_count": 9,
+  "paper_with_questions": 9,
+  "question_count": 103,
+  "type_counts": {
+    "essay": 28,
+    "single_choice": 75
+  },
+  "papers": [
+    {
+      "year": "114",
+      "exam_code": "114160",
+      "c": "127",
+      "s": "0508",
+      "q": "1",
+      "subject": "刑法與刑事訴訟法",
+      "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "988e62821519",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 2,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 2,
+      "skipped_count": 0
+    },
+    {
+      "year": "114",
+      "exam_code": "114160",
+      "c": "127",
+      "s": "0518",
+      "q": "1",
+      "subject": "政府採購法",
+      "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "54412245620c",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "114",
+      "exam_code": "114160",
+      "c": "127",
+      "s": "0301",
+      "q": "1",
+      "subject": "行政學",
+      "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "92be47b32fd9",
+      "a_pdf_sha1": "1af9ad3f7a70",
+      "format_detected": "mixed",
+      "raw_question_count": 27,
+      "answer_qnums_extracted": 25,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 27,
+      "skipped_count": 0
+    },
+    {
+      "year": "112",
+      "exam_code": "112170",
+      "c": "127",
+      "s": "0506",
+      "q": "1",
+      "subject": "刑法與刑事訴訟法",
+      "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "3916cecb9cd5",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "112",
+      "exam_code": "112170",
+      "c": "127",
+      "s": "0516",
+      "q": "1",
+      "subject": "政府採購法",
+      "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "3a001e12004e",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "112",
+      "exam_code": "112170",
+      "c": "127",
+      "s": "0301",
+      "q": "1",
+      "subject": "行政學",
+      "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "cce9aab26b89",
+      "a_pdf_sha1": "55a2a78aa5f5",
+      "format_detected": "mixed",
+      "raw_question_count": 27,
+      "answer_qnums_extracted": 25,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 27,
+      "skipped_count": 0
+    },
+    {
+      "year": "110",
+      "exam_code": "110170",
+      "c": "127",
+      "s": "0506",
+      "q": "1",
+      "subject": "刑法與刑事訴訟法",
+      "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "6edd297b2da0",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "110",
+      "exam_code": "110170",
+      "c": "127",
+      "s": "0516",
+      "q": "1",
+      "subject": "政府採購法",
+      "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "9bcb3bd612d9",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "110",
+      "exam_code": "110170",
+      "c": "127",
+      "s": "0301",
+      "q": "1",
+      "subject": "行政學",
+      "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "642c105f3438",
+      "a_pdf_sha1": "44597aef9ae9",
+      "format_detected": "mixed",
+      "raw_question_count": 27,
+      "answer_qnums_extracted": 25,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 27,
+      "skipped_count": 0
+    }
+  ],
+  "questions": [
+    {
+      "id": "promotion-bd450684-0001",
+      "exam_id": "promotion-bd450684",
+      "question_type": "essay",
+      "question": "甲某日臨時起意至好友乙之住處拜訪，但在門外時突然聽到乙與甲妻 A\n疑似在內親熱之聲音，意外發現乙與 A有染。甲又驚又氣，為進行蒐證，\n乃從窗戶縫隙以手機拍攝乙與 A 進行性交之畫面。但甲越看情緒越激\n動，終至極度憤怒而生殺機，乃一腳踹開大門持美術刀衝入屋內欲殺乙。\n乙驚嚇中顧不得穿衣，直接裸身奪門而出於大街上狂奔，惟甲仍持刀緊\n追決意將乙殺死，乙為躲避追殺不得已翻牆進入他人別墅庭園，別墅保\n全丙突見有陌生人裸身闖入，誤以為有變態人士入侵，基於維安職責所\n在乃持電擊棒攻擊乙，導致乙遭電擊受傷暫時暈倒，丙再以束縛帶將乙\n雙手反綁，並立刻電請警察到場處理。乙清醒後解釋來龍去脈，丙方知\n原來是誤會一場，乃立刻將乙之束縛帶解開。試討論甲、乙、丙可能應\n負之刑責？（50分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "988e62821519",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "127",
+          "s": "0508",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "刑法與刑事訴訟法",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0002",
+      "exam_id": "promotion-bd450684",
+      "question_type": "essay",
+      "question": "甲因涉嫌販毒遭警方自民國 114年 6 月 1 日開始通訊監察。警方於 6 月\n8 日某時錄下甲涉及販毒之談話，於 6 月 27 日第一次將通訊監察報告陳\n報至該管法院。後警方某日持拘票及搜索票搜索甲宅，在內扣得一級毒\n品 20 包，並拘提甲後進行詢問，詢問中，警方盡告知義務後，對甲說：\n「這些扣到東西是什麼？沒話說吧？我看你再裝嘛！不說也沒關係。」\n甲沉默約30 分鐘後，承認扣案毒品為其所有。偵查終結後甲遭起訴，甲\n主張前述電話錄音內容、扣得一級毒品 20 包以及前述甲於警方詢問時\n之陳述均無證據能力。試問，甲之主張有無理由？（50 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "988e62821519",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "127",
+          "s": "0508",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "刑法與刑事訴訟法",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0003",
+      "exam_id": "promotion-bd450684",
+      "question_type": "essay",
+      "question": "甲機關辦理「113年度清潔人員制服採購案」（以下簡稱本採購案）於民\n國（下同）112 年 11 月 11 日開標後審標時，發現乙公司與丙公司檢附\n之領標電子憑證序號與使用者 IP位址皆相同，疑涉有重大異常關聯，爰\n移請臺灣臺北地方檢察署協助偵辦。甲機關於112 年 12 月 20日分別函\n知乙公司、丙公司，依政府採購法第 31條第 2項第 7 款規定，不發還押\n標金。接續，本採購案經 114 年 6 月 19 日臺灣臺北地方檢察署緩起訴\n處分書認定乙公司意圖影響採購結果，而借用丙公司名義投標，同時，\n丙公司容許乙公司借用本人名義參加投標之情節，予以緩起訴在案。請問：\n甲機關於 114年 6 月 21日接到本採購案緩起訴書之後，應以乙公司、\n丙公司分別或共同違反政府採購法第 101 條第 1項第幾款之規定，並\n將其事實、理由及依第 103條第1 項所定期間通知廠商，並附記如未\n提出異議者，將刊登政府採購公報？（15分）\n本採購案通知乙、丙公司之刊登政府公報之裁處權時效，是否已罹於\n時效？（10分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "54412245620c",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "127",
+          "s": "0518",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "政府採購法",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0004",
+      "exam_id": "promotion-bd450684",
+      "question_type": "essay",
+      "question": "工程契約中之「工作天」、「日曆天」、「限期完工」之條款約定，各有何\n意涵？（15分）再者，「工作天」與「日曆天」之區別，於司法實務上有\n何見解？（10 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "54412245620c",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "127",
+          "s": "0518",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "政府採購法",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0005",
+      "exam_id": "promotion-bd450684",
+      "question_type": "essay",
+      "question": "依政府採購法第25 條規定，機關得視個別採購之特性，於招標文件中規\n定允許一定家數內之廠商共同投標。何謂「個別採購之特性」？（15 分）\n再者，參加共同投標之廠商為土木、機電之異業共同投標者，是否應符\n合公平交易法第15 條但書各款之規定？（10分）請各詳述之。",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "54412245620c",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "127",
+          "s": "0518",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "政府採購法",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0006",
+      "exam_id": "promotion-bd450684",
+      "question_type": "essay",
+      "question": "機關依政府採購法規定辦理招標，有三家以上合格廠商投標，但發現有\n足以影響採購公正之違法或不當行為之情形，機關是否仍應依招標文件\n所定時間開標？（5 分）而所謂「發現有足以影響採購公正之違法或不\n當行為」，應為如何之解釋？（10 分）再者，若因而進行第二次招標，\n是否亦應有三家以上合格廠商投標，並且不可縮短等標期間？（10 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "54412245620c",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "127",
+          "s": "0518",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "政府採購法",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0007",
+      "exam_id": "promotion-bd450684",
+      "question_type": "essay",
+      "question": "何謂行政責任之課責（accountability）概念的意義與類型？（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "92be47b32fd9",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0008",
+      "exam_id": "promotion-bd450684",
+      "question_type": "essay",
+      "question": "何謂官僚代表性（bureaucratic representation）的意義，並試舉我國發揮\n官僚代表性的案例。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "92be47b32fd9",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0009",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "有關行政國的敘述，下列何者錯誤？",
+      "options": [
+        "行政部門具有舉足輕重的地位",
+        "政府職能擴張",
+        "有效控制預算規模",
+        "行政人員具有政策影響力"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "92be47b32fd9",
+        "answer_pdf_sha1": "1af9ad3f7a70",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0010",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "下列何者最接近新公共管理學派的核心概念？",
+      "options": [
+        "公務人員不應以價值中立者自居",
+        "人民是公民",
+        "花費更少，做得更好",
+        "追求社會公平"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "92be47b32fd9",
+        "answer_pdf_sha1": "1af9ad3f7a70",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0011",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "美國的「黑堡宣言」主張公共行政人員應該具備負責任的專業精神，並認為此種精神才是專業主 義的表現。下列那一項行政行為不符合所謂「負責任的專業精神」之意義？",
+      "options": [
+        "勇於對長官違背憲政精神的政策說不",
+        "對於民眾之需求毫無保留的予以滿足",
+        "面對利益團體的壓力仍堅守公共利益",
+        "運用專業能力捍衛民主憲政之目標"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "92be47b32fd9",
+        "answer_pdf_sha1": "1af9ad3f7a70",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0012",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "有關政府部門強調顧客導向的服務，下列敘述何者錯誤？",
+      "options": [
+        "應避免造成圖利特定利益團體的情形",
+        "應關注民眾對於公共服務的需求",
+        "應完全滿足民眾的要求，使民眾對政府服務有感",
+        "應重視與民眾溝通"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "92be47b32fd9",
+        "answer_pdf_sha1": "1af9ad3f7a70",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0013",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "有關湯普森（D.Thompson）和韋伯（M.Weber）倫理觀的敘述，下列何者錯誤？",
+      "options": [
+        "湯普森認為與行政倫理最直接對立的概念，包括中立倫理（ethicsofneutrality）和結構倫理（ethics ofstructure）",
+        "韋伯將倫理區分為信念倫理（ethicsofconviction）和責任倫理（ethicsofresponsibility）",
+        "湯普森主張個人的獨立道德判斷是行政倫理的根本",
+        "湯普森與韋伯的行政倫理觀截然不同，缺乏交集 11750、12750 13850、14350"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "92be47b32fd9",
+        "answer_pdf_sha1": "1af9ad3f7a70",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0014",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "麥克雷戈（D.McGregor）提出「燙爐法則」（Hotstoverule）以維持組織紀律，意指懲處制度應具：",
+      "options": [
+        "漸進性、一致性、即時性、公平性與多元性",
+        "警示性、一致性、即時性、公平性與權變性",
+        "權變性、一致性、即時性、公平性與漸進性",
+        "明確性、一致性、即時性、公平性與警示性"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "92be47b32fd9",
+        "answer_pdf_sha1": "1af9ad3f7a70",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0015",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "組織的主管和員工之間有密切溝通，權力逐漸分化且組織成員享有決策的發言權，這一種組織型 態較接近下列何種結構？",
+      "options": [
+        "雙層金字塔型結構",
+        "同心圓型組織",
+        "直立橄欖球型組織",
+        "鐘型組織"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "92be47b32fd9",
+        "answer_pdf_sha1": "1af9ad3f7a70",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0016",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "下列何者非屬當前行政院組織法中明訂的行政院所屬部會？",
+      "options": [
+        "海洋委員會",
+        "環境部",
+        "數位發展部",
+        "行政院研究發展考核委員會"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "92be47b32fd9",
+        "answer_pdf_sha1": "1af9ad3f7a70",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0017",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "下列何者是選擇「政府業務委外化」時，可能產生的現象？",
+      "options": [
+        "可由市場機制取代，無市場失靈之虞",
+        "可由市場機制取代，但有市場失靈之虞",
+        "無需政府介入管理，但有市場失靈之虞",
+        "無需政府介入管理，無政府失靈之虞"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "92be47b32fd9",
+        "answer_pdf_sha1": "1af9ad3f7a70",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0018",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "有關於非正式組織可能帶來的缺點，下列何者錯誤？",
+      "options": [
+        "非正式組織成員會為了維持現狀，反對組織制度變革",
+        "非正式組織容易作為傳播謠言之管道",
+        "成員會面臨正式組織與非正式組織的目標衝突",
+        "非正式組織會導致組織的層級化"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "92be47b32fd9",
+        "answer_pdf_sha1": "1af9ad3f7a70",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0019",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "下列何者屬於公務人員任用法所定義的公務人員？",
+      "options": [
+        "行政院秘書長",
+        "數位發展部部長",
+        "臺北市大安區區長",
+        "國家中山科學研究院董事長"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "92be47b32fd9",
+        "answer_pdf_sha1": "1af9ad3f7a70",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 11,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0020",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "甲剛從薦任第八職等專員陞任第九職等科長，1年內甲最不可能參加下列何種訓練？",
+      "options": [
+        "晉升簡任官等訓練",
+        "公務人員專業訓練",
+        "一般管理訓練",
+        "初任各官等主管人員訓練"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "92be47b32fd9",
+        "answer_pdf_sha1": "1af9ad3f7a70",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 12,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0021",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "下列何者不是造成民眾有財政幻覺（fiscalillusion）的可能原因？",
+      "options": [
+        "預算資訊不夠透明",
+        "稅制結構太過複雜",
+        "政府支出規模突然擴張",
+        "政府舉債過於頻繁"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "92be47b32fd9",
+        "answer_pdf_sha1": "1af9ad3f7a70",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 13,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0022",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "依據預算法規定，行政院應編製政府發放老農津貼、育兒津貼、紓困補助等支出，係屬於下列何 種類型的報告？",
+      "options": [
+        "人口統計報告",
+        "半年結算報告",
+        "稅式支出報告",
+        "移轉性支付報告 11750、12750 13850、14350"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "92be47b32fd9",
+        "answer_pdf_sha1": "1af9ad3f7a70",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 14,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0023",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "有關「參與式預算」（participatorybudgeting）之說明，下列何者正確？",
+      "options": [
+        "依據我國預算法之規定，各級政府每年應辦理一次參與式預算",
+        "其財源主要來自於民眾和非營利組織的捐款",
+        "有時可能會和議會傳統的預算審議權產生衝突",
+        "具有正式投票權的公民才能參與提案和投票"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "92be47b32fd9",
+        "answer_pdf_sha1": "1af9ad3f7a70",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 15,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0024",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "學者史塔寧（G.Starling）在討論公部門的績效衡量時，以譬喻方式指出「我們不能滿足於計算出 一隻蝴蝶到底揮動其翅膀多少次；我們必須知道它已經飛了多遠」，此一譬喻的最主要意涵為何？",
+      "options": [
+        "目標與結果間存在衝突",
+        "應關注結果的衡量",
+        "公部門的績效不易衡量",
+        "質性數據優於量化數據"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "92be47b32fd9",
+        "answer_pdf_sha1": "1af9ad3f7a70",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 16,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0025",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "在其他條件不變之下，組織管理的控制幅度（spanofcontrol）大小與下列何者的關聯性最低？",
+      "options": [
+        "主管人數",
+        "資訊傳遞",
+        "功績任用",
+        "組織層級"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "92be47b32fd9",
+        "answer_pdf_sha1": "1af9ad3f7a70",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 17,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0026",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "依據我國災害防救法之規定，「森林火災」此災害的中央災害防救業務主管機關為何？",
+      "options": [
+        "環境部",
+        "農業部",
+        "經濟部",
+        "內政部"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "92be47b32fd9",
+        "answer_pdf_sha1": "1af9ad3f7a70",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 18,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0027",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "我國電子化政府計畫自1998年開始發展至今，積極推動的工作內容不包括那一項？",
+      "options": [
+        "數位基礎建設",
+        "數位行政",
+        "數位貨幣",
+        "數位公民參與"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "92be47b32fd9",
+        "answer_pdf_sha1": "1af9ad3f7a70",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 19,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0028",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "有關政策問題特性之敘述，何者錯誤？",
+      "options": [
+        "皆源自於市場失靈",
+        "皆涉及主觀價值",
+        "皆有其歷史發展脈絡",
+        "皆具有不確定性"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "92be47b32fd9",
+        "answer_pdf_sha1": "1af9ad3f7a70",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 20,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0029",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "根據電視節目廣告區隔與置入性行銷及贊助管理辦法的規定，電視事業不得於節目中為某些商 品、商標或服務進行置入性行銷，下列何者不是置入性行銷的禁止項目？",
+      "options": [
+        "菸品",
+        "酒類",
+        "性別平權之政令宣導",
+        "須由醫師處方之藥物"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "92be47b32fd9",
+        "answer_pdf_sha1": "1af9ad3f7a70",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 21,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0030",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "下列何者與政府採取跨域協力的制度設計沒有直接關聯性？",
+      "options": [
+        "權威與資源共享",
+        "需共享價值信念",
+        "需考慮合作誘因與成本",
+        "需落實直接民主"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "92be47b32fd9",
+        "answer_pdf_sha1": "1af9ad3f7a70",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 22,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0031",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "下列何種公民參與的方式，是行政機關依現行行政程序法的規定而舉辦的會議？",
+      "options": [
+        "聽證",
+        "公民會議",
+        "公民陪審團",
+        "調解委員會"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "92be47b32fd9",
+        "answer_pdf_sha1": "1af9ad3f7a70",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 23,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0032",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "民間機構投資增建、改建及修建政府現有設施並為營運；營運期間屆滿後，營運權歸還政府，屬 於何種促參模式？",
+      "options": [
+        "BTO（Build-Transfer-Operate）",
+        "BO（Build-Own）",
+        "BT（Build-Transfer）",
+        "ROT（Rebuild-Operate-Transfer）"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "92be47b32fd9",
+        "answer_pdf_sha1": "1af9ad3f7a70",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 24,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0033",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "下列何者為我國行政法人成立的基本條件之一？",
+      "options": [
+        "須強化成本效益或經營效能",
+        "機關冗員過多亟需精簡人力",
+        "國家無義務確保其實施的業務",
+        "執行的任務適宜交由民間辦理"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "92be47b32fd9",
+        "answer_pdf_sha1": "1af9ad3f7a70",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 25,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0034",
+      "exam_id": "promotion-bd450684",
+      "question_type": "essay",
+      "question": "甲為 A 之配偶，育有子女 B 與 C，B、C 長年居住海外。A 因病入院，\n由甲辭去工作全心照顧，A並將家中財務（銀行存摺、印章與提款卡等）\n交給甲，授權其得以提領款項支付醫療費用與家庭開銷。詎料 A不敵病\n魔過世，在 B 與 C 尚未回國前，甲分別透過臨櫃填寫提款單並蓋 A 的\n印章與提示存摺方式，以及用銀行提款卡在自動付款設備，將銀行帳戶\n內款項全部領取現金，並存在自己的銀行戶頭。待 B與 C回國，認為甲\n未得其同意處分遺產，乃提出告訴。試問甲成立何罪？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "3916cecb9cd5",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "127",
+          "s": "0506",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "刑法與刑事訴訟法",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0035",
+      "exam_id": "promotion-bd450684",
+      "question_type": "essay",
+      "question": "A 欲用於機車搶奪，向甲借用機車。甲雖知 A 平日素行不良且前科累\n累，高度懷疑 A借用機車可能用於犯罪，但仍基於朋友情誼，相信 A所\n稱要接送女友的說詞，未加以多問而出借。A借得機車後，用於三起機\n車搶奪後，將機車歸還給甲。警方循車牌號碼查緝，甲為免麻煩上身，\n佯稱機車曾遺失，後來找回的說詞，沒有供出 A來。但警方仍從其他管\n道查獲 A 為搶奪罪行為人，並得知 A 向甲借用機車與如上借用前後情\n況，乃移送檢察官。試說明甲是否成立犯罪？成立何罪？（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "3916cecb9cd5",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "127",
+          "s": "0506",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "刑法與刑事訴訟法",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0036",
+      "exam_id": "promotion-bd450684",
+      "question_type": "essay",
+      "question": "甲見深夜街道上A女單獨一人行走，遂從後面潛行接近，伸手拉扯 A女\n所背的名牌皮包（內有現金 1萬元）後逃逸，檢察官以刑法第 325 條搶\n奪罪起訴，但法院審理後，認為係刑法第328條的強盜罪，試問強盜罪\n是否在檢察官起訴範圍內？法院可否判決強盜罪？（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "3916cecb9cd5",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "127",
+          "s": "0506",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "刑法與刑事訴訟法",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0037",
+      "exam_id": "promotion-bd450684",
+      "question_type": "essay",
+      "question": "司法警察 A詢問犯罪嫌疑人甲，先與甲閒聊，得知甲自白犯罪，見機不\n可失，遂一人開始進行詢問與製作詢問筆錄，在僅僅告知甲之犯罪嫌疑\n罪名後，未全程錄音錄影情況下，完成詢問並作成筆錄，試問依刑事訴\n訟法規定，所取得甲的自白有何違法？是否具有證據能力？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "3916cecb9cd5",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "127",
+          "s": "0506",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "刑法與刑事訴訟法",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0038",
+      "exam_id": "promotion-bd450684",
+      "question_type": "essay",
+      "question": "請依政府採購法說明機關辦理採購訂定底價時，其依據及程序應如何辦\n理？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "3a001e12004e",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "127",
+          "s": "0516",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "政府採購法",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0039",
+      "exam_id": "promotion-bd450684",
+      "question_type": "essay",
+      "question": "甲廠商知悉乙機關將於 112年度辦理某採購案，乃於農曆春節前邀請乙\n機關主辦該採購案之林技正及其下屬共十人年終聚餐，餐後甲廠商致贈\n林技正乙袋茶葉禮盒，茶葉罐內塞有新臺幣 20萬元正。同年 5月，該採\n購案因預算問題撤銷未辦理招標，甲廠商亦無從參與乙機關投標。嗣後\n乙機關發現甲廠商有前揭提供交付不正利益之行為，請問乙機關對甲廠\n商應如何處置？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "3a001e12004e",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "127",
+          "s": "0516",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "政府採購法",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0040",
+      "exam_id": "promotion-bd450684",
+      "question_type": "essay",
+      "question": "機關辦理委託專業服務採購，其採總包價法計算服務費用者，得否約定\n檢附支用明細並予檢核，且要求廠商繳回結餘款？（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "3a001e12004e",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "127",
+          "s": "0516",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "政府採購法",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0041",
+      "exam_id": "promotion-bd450684",
+      "question_type": "essay",
+      "question": "甲廠商參與乙機關「拍擊器雷管及零組件」之招標，該採購案之採購規\n範第 26 點訂有：「本案所列各項數量為二年期間之預估數量，在契約金\n額範圍內本機關得視實際需要叫貨並調整各項數量。」及第 27 點「本\n機關不保證於契約期間將每項數量及本案契約金額全部叫完。」甲廠商\n除依投標須知填妥「財物採購案廠商規格檢點／審查單」及相關證明文\n件外，另自行檢附乙紙公文併附於投標文件內，主旨載以：「本公司參與\n投標貴機關採購案，有關規格詳述如說明，請鑒核」，說明欄謂：「採購\n規範第 26 點貴機關可調整各項數量部分，各項數如欲增加叫貨超過原\n預估數量，應先與廠商確認是否可供應」及「採購規範第 27 點貴機關\n不保證於契約期間將各項數量及本案契約金額全部叫完部分，因本案產\n品有其特殊性，本公司有權於契約到期前半年，按本案所列各項數量 7\n成請求貴機關執行採購，貴機關不得拒絕。」請試分析乙機關於審標時，\n對於甲廠商所提「財物採購案廠商規格檢點／審查單」、相關證明文件，\n及自行檢附之乙紙公文，應如何處理？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "3a001e12004e",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "127",
+          "s": "0516",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "政府採購法",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0042",
+      "exam_id": "promotion-bd450684",
+      "question_type": "essay",
+      "question": "組織文化經常被視為影響組織運作與效能的重要因子。請基於此觀點，\n回答以下問題：\n請說明組織文化的基本定義及其主要元素為何？（10 分）\n請描述組織文化對行政組織的效能會產生那些正面或負面的影響？\n（15分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "cce9aab26b89",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "行政學",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0043",
+      "exam_id": "promotion-bd450684",
+      "question_type": "essay",
+      "question": "隨著資訊與通訊科技的日益發展，已經對公共治理與民主參與的模式產\n生深遠的影響。審議式民主，作為一種強調深度公民參與和持續對話的\n民主模式，在資通科技的支援下展現出新的實踐機會。請回答以下問題：\n請說明審議式民主的核心概念為何？（10分）\n在資通科技的輔助下，審議式民主如何得以更深入的實踐？請提供至\n少兩個可能的方法或應用。（15分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "cce9aab26b89",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "行政學",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0044",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "關於新公共服務概念的論述，下列何者正確？",
+      "options": [
+        "仿效企業服務顧客之精神",
+        "政府最重要的角色是划槳",
+        "新公共行政是其理論基礎之一",
+        "重視生產效率"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "cce9aab26b89",
+        "answer_pdf_sha1": "55a2a78aa5f5",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0045",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "薩維斯（E.Savas）所定義的民營化政策有三種類型，下列何者不屬之？",
+      "options": [
+        "撤資（divestment）",
+        "公司化（corporatization）",
+        "委託授權（delegation）",
+        "替代（displacement）"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "cce9aab26b89",
+        "answer_pdf_sha1": "55a2a78aa5f5",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0046",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "行政院主管的部會不包括何者？",
+      "options": [
+        "銓敘部",
+        "內政部",
+        "勞動部",
+        "海洋委員會"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "cce9aab26b89",
+        "answer_pdf_sha1": "55a2a78aa5f5",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0047",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "全球化對於國內非營利組織與不同類型的非政府組織帶來各種影響，下列敘述何者錯誤？",
+      "options": [
+        "國內非營利組織競爭愈趨於激烈",
+        "國內非營利組織與政府部門、企業部門的界線逐漸模糊化",
+        "國內非營利組織應維護其使命與價值",
+        "南方非政府組織（SouthernNGOs）專指位於南半球、較低度開發的非政府組織 11750、12750 13850、14350"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "cce9aab26b89",
+        "answer_pdf_sha1": "55a2a78aa5f5",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0048",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "若依克利加德（R.Klitgard）的見解：貪腐＝壟斷＋裁量－課責，下列何者較可能增加個人貪腐的 機會？",
+      "options": [
+        "引進競爭機制",
+        "增加概括授權",
+        "縮小控制幅度",
+        "增加參與代表性"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "cce9aab26b89",
+        "answer_pdf_sha1": "55a2a78aa5f5",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0049",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "依公務人員訓練進修法的規定，行政院人事行政總處與公務人員保障暨培訓委員會會同有關機關 所成立的協調會報，下列何者不是其目的？",
+      "options": [
+        "加強公務人員訓練進修計畫之規劃、協調與執行成效",
+        "提供訓練不及格人員之救濟管道",
+        "建立訓練資訊通報系統",
+        "建立資源共享系統"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "cce9aab26b89",
+        "answer_pdf_sha1": "55a2a78aa5f5",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0050",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "主管甲經常向家人抱怨「調至本單位後，下屬同仁人數多到叫不出名字，我一人既無力監督部屬， 也無暇激勵部屬」，這是屬於下列何種現象？",
+      "options": [
+        "寡頭鐵律",
+        "白京生定律",
+        "控制幅度過大",
+        "事權不統一"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "cce9aab26b89",
+        "answer_pdf_sha1": "55a2a78aa5f5",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0051",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "下列何種理論係運用制約原理安排各種情境，並透過獎懲對成員進行定向控制，以激發、維持或 停止成員的某些行為？",
+      "options": [
+        "公共選擇理論",
+        "增強理論",
+        "公平理論",
+        "ERG理論"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "cce9aab26b89",
+        "answer_pdf_sha1": "55a2a78aa5f5",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0052",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "組織設計時可用四種方法將組織的功能配置給不同的部門：目標（objective）、地理位置 （geography）、流程（process）、服務對象（client），我國行政院下所設之委員會中，下列何者主 要是依據服務對象而設置？",
+      "options": [
+        "國家發展委員會",
+        "原住民族委員會",
+        "公平交易委員會",
+        "中央選舉委員會"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "cce9aab26b89",
+        "answer_pdf_sha1": "55a2a78aa5f5",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0053",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "組織成員自願投入心力在工作職責以外之事，以幫助組織整體績效的提升，歐根（D. Organ）稱 之為：",
+      "options": [
+        "組織公民行為",
+        "組織配適行為",
+        "組織承諾行為",
+        "自我決定行為"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "cce9aab26b89",
+        "answer_pdf_sha1": "55a2a78aa5f5",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0054",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "人力資源管理者進行員工績效考評時，通常需要考量多元的面向，請問下列何者為較不重要的面 向？",
+      "options": [
+        "工作行為",
+        "合作能力",
+        "工作結果",
+        "社會網絡"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "cce9aab26b89",
+        "answer_pdf_sha1": "55a2a78aa5f5",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 11,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0055",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "有關我國公務人員保障制度的救濟程序，下列何者不屬之？",
+      "options": [
+        "申訴",
+        "再申訴",
+        "復審",
+        "再復審"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "cce9aab26b89",
+        "answer_pdf_sha1": "55a2a78aa5f5",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 12,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0056",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "下列何者非屬地方政府之稅課收入？",
+      "options": [
+        "統籌分配稅款",
+        "關稅",
+        "地價稅",
+        "使用牌照稅"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "cce9aab26b89",
+        "answer_pdf_sha1": "55a2a78aa5f5",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 13,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0057",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "依據我國預算法的規定，中央政府各行政機關應依據行政院所訂定的施政計畫，擬定其下一年度 的概算。下列何者最不符合此一規定？",
+      "options": [
+        "功能預算制度（functionalbudgetingsystem）",
+        "績效預算制度（performancebudgetingsystem）",
+        "設計計畫預算制度（planning-programing-budgetingsystem）",
+        "企業化預算制度（entrepreneurialbudgetingsystem） 11750、12750 13850、14350"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "cce9aab26b89",
+        "answer_pdf_sha1": "55a2a78aa5f5",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 14,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0058",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "有關我國中央政府特別預算和年度預算之比較，下列敘述何者正確？",
+      "options": [
+        "年度預算須於年度開始4個月前提出審議，特別預算無提出時程之限制",
+        "年度預算包含經常支出和資本支出，特別預算僅包括資本支出",
+        "年度預算不得以賒借收入充當財源，特別預算無此限制",
+        "年度預算須經立法機關三讀通過，特別預算只須行政院院會通過"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "cce9aab26b89",
+        "answer_pdf_sha1": "55a2a78aa5f5",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 15,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0059",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "下列何者非屬績效衡量中的4E指標？",
+      "options": [
+        "公平（equity）",
+        "效率（efficiency）",
+        "效能（effectiveness）",
+        "努力（effort）"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "cce9aab26b89",
+        "answer_pdf_sha1": "55a2a78aa5f5",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 16,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0060",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "下列何者不是目標管理的要件？",
+      "options": [
+        "目標的確定",
+        "各階層人員的參與",
+        "明確的預算執行程序",
+        "定期回饋執行情形"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "cce9aab26b89",
+        "answer_pdf_sha1": "55a2a78aa5f5",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 17,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0061",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "新公共管理強調政府應以企業為師，將企業經營管理的精神引進政府部門，但政府運作與企業經 營管理有其差異，兩者主要不同之處為何？",
+      "options": [
+        "遵守法律規範",
+        "財務收入來源",
+        "採行分層負責",
+        "重視專業分工"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "cce9aab26b89",
+        "answer_pdf_sha1": "55a2a78aa5f5",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 18,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0062",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "下列何者不是數位治理下，「開放政府資料」政策主要執行的工作？",
+      "options": [
+        "利用開放政府資料打擊爭議新聞",
+        "使政府資料持續公開透明",
+        "強化政府資料的準確度與品質",
+        "確保資料去識別化保護個資"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "cce9aab26b89",
+        "answer_pdf_sha1": "55a2a78aa5f5",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 19,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0063",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "為了充分掌握民眾對政府的期望，循證政策分析（evidence-basedpolicyanalysis）應配合下列何種 類型政府機制的建立？",
+      "options": [
+        "聯合政府",
+        "開放政府",
+        "代議政府",
+        "次級政府"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "cce9aab26b89",
+        "answer_pdf_sha1": "55a2a78aa5f5",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 20,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0064",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "某機關中的群體在討論一項方案時，導致最後的決策偏向於過度保守或無端涉險的原因，可能此 群體決策時，產生了下列何種現象？",
+      "options": [
+        "團體迷因（groupmeme）",
+        "團體偏移（groupshift）",
+        "團體衝突（groupconflict）",
+        "團體動力（groupdynamic）"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "cce9aab26b89",
+        "answer_pdf_sha1": "55a2a78aa5f5",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 21,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0065",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "政府在全球化系絡下的治理策略，下列何者錯誤？",
+      "options": [
+        "釐清政府在全球依存網絡中的積極角色",
+        "降低國族主義對政策規劃所帶來的限制",
+        "重視該國特色文化的傳承",
+        "縮小政府的規模與功能"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "cce9aab26b89",
+        "answer_pdf_sha1": "55a2a78aa5f5",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 22,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0066",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "有關我國財團法人的敘述，下列何者正確？",
+      "options": [
+        "屬於私法人",
+        "中央主管機關為財政部",
+        "以股東利益極大化為成立目的",
+        "會員人數應有30人以上"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "cce9aab26b89",
+        "answer_pdf_sha1": "55a2a78aa5f5",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 23,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0067",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "根據喜瑪拉雅研究發展基金會的研究，各國非營利組織的自律規範區分為三個層次，下列何者不 屬之？",
+      "options": [
+        "個別組織的自律規範",
+        "結盟組織的自律規範",
+        "國會制定的自律規範",
+        "部門內監督性團體制定的自律規範"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "cce9aab26b89",
+        "answer_pdf_sha1": "55a2a78aa5f5",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 24,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0068",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "下列何者非屬公私協力安排的規範性意涵？",
+      "options": [
+        "平等互惠",
+        "職務輪調",
+        "權威共享",
+        "責任分擔"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:58+00:00",
+        "source_pdf_sha1": "cce9aab26b89",
+        "answer_pdf_sha1": "55a2a78aa5f5",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 25,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0069",
+      "exam_id": "promotion-bd450684",
+      "question_type": "essay",
+      "question": "甲假冒警察身分身穿警察反光夾克，騎乘機車靠近 14 歲少女乙，之後在\n路旁對乙進行搜身檢查，並意圖誘拐乙，所幸路人通報，警方前往該地\n點逮捕甲。試問，甲之行為如何論罪？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:59+00:00",
+        "source_pdf_sha1": "6edd297b2da0",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "127",
+          "s": "0506",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "刑法與刑事訴訟法",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0070",
+      "exam_id": "promotion-bd450684",
+      "question_type": "essay",
+      "question": "甲為某市政府秘書處文書組之組員，負責市政府信件收受、整理、分送\n業務。某日，於處理業務時，私行開拆收信人為乙之掛號郵件，取出信\n封內之支票，將支票之受款人更改為自己，並持向銀行領取支票金額 5\n千元。試問，甲之行為如何論罪？（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:59+00:00",
+        "source_pdf_sha1": "6edd297b2da0",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "127",
+          "s": "0506",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "刑法與刑事訴訟法",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0071",
+      "exam_id": "promotion-bd450684",
+      "question_type": "essay",
+      "question": "司法警察甲持法院搜索票進到某大樓 302 室搜索，發現毒品一批，並將\n之扣押。扣押程序完成後，甲才發現自己因擔心毒品被犯罪嫌疑人銷毀\n而在緊急情況下發生錯誤，搜索票上所載應加搜索處所其實是同一棟大\n樓之 301 室，而非 302室。試問，該搜索是否合法？所扣押毒品之證據\n能力應如何認定？（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:59+00:00",
+        "source_pdf_sha1": "6edd297b2da0",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "127",
+          "s": "0506",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "刑法與刑事訴訟法",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0072",
+      "exam_id": "promotion-bd450684",
+      "question_type": "essay",
+      "question": "甲涉嫌犯違背職務收受賄賂罪，選任乙擔任該案之辯護人。偵訊中，甲\n自白犯罪，檢察官遂以甲已經自白犯罪為由，要求乙提交與甲之間討論\n該案情時所為之筆記與往來書信。試問，乙是否得拒絕之？又，若乙拒\n絕之，檢察官應遵守何種程序，始得合法取得前述資料？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:59+00:00",
+        "source_pdf_sha1": "6edd297b2da0",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "127",
+          "s": "0506",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "刑法與刑事訴訟法",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0073",
+      "exam_id": "promotion-bd450684",
+      "question_type": "essay",
+      "question": "A 縣政府舉辦國際童玩節，由 B 廠商負責承辦，活動為期一週，於第 3\n天適逢強烈颱風過境，乃於當天下午五時宣布整體活動停止，並停辦後續\n的4天節目，至於是否擇日再續辦則未公布。請試述A縣政府與B廠商\n依政府採購法或採購契約，可為如何之解決？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:59+00:00",
+        "source_pdf_sha1": "9bcb3bd612d9",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "127",
+          "s": "0516",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "政府採購法",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0074",
+      "exam_id": "promotion-bd450684",
+      "question_type": "essay",
+      "question": "A縣政府辦理郊區聯外道路擴寬工程，為應付梅雨季來臨之前趕快通車，\n乃於工程期滿前一個月，要求 B 廠商以先不辦最後工程階段之驗收，全\n力趕工舖整道路、劃線四線道完竣，舉辦通車典禮。惟，通車後一個月\n工程期滿，眾多大卡車頻繁通過，致道路出現多處凹凸不平，A縣政府\n乃以此為由，發函給 B廠商以工程不合格，將依約扣下工程尾款300 萬\n元整，以及履約保證金 200萬元整，俟 B廠商修復完成再驗收完竣後才\n發還。B廠商則主張該工程已驗收完竣，並請求給付上述二款項共計500\n萬元整。請試述本題之上述工程是否已驗收完竣？（10 分）若 A、B未\n能達成協議，此項履約爭議得如何處理？（15 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:59+00:00",
+        "source_pdf_sha1": "9bcb3bd612d9",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "127",
+          "s": "0516",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "政府採購法",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0075",
+      "exam_id": "promotion-bd450684",
+      "question_type": "essay",
+      "question": "機關辦理公告金額以上之採購得採用選擇性招標，請試述其適用情形以\n及如何建立與檢討合格廠商名單。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:59+00:00",
+        "source_pdf_sha1": "9bcb3bd612d9",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "127",
+          "s": "0516",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "政府採購法",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0076",
+      "exam_id": "promotion-bd450684",
+      "question_type": "essay",
+      "question": "廠商以虛偽不實之文件投標，機關應該如何認定之？是否與刑法偽造、\n變造相同解釋？（10分）並且，機關若認定廠商以虛偽不實之文件投標\n之情形，請試述依據政府採購法那些規定應追繳押標金及處罰？（15 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:59+00:00",
+        "source_pdf_sha1": "9bcb3bd612d9",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "127",
+          "s": "0516",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "政府採購法",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0077",
+      "exam_id": "promotion-bd450684",
+      "question_type": "essay",
+      "question": "民眾需求與支持是行政運作投入的要項，試舉例並說明行政機關爭取社\n會大眾支持之策略。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:59+00:00",
+        "source_pdf_sha1": "642c105f3438",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "行政學",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0078",
+      "exam_id": "promotion-bd450684",
+      "question_type": "essay",
+      "question": "試從科層官僚制（Bureaucracy）的典範變異、取代、復甦及整合等四階\n段，論析科層官僚制的發展。（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:59+00:00",
+        "source_pdf_sha1": "642c105f3438",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "行政學",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0079",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "西元 2000年以來，治理（governance）的觀念深刻影響公部門的運作，關於治理內涵之敘述， 下列何者錯誤？",
+      "options": [
+        "公、私部門的界線越趨模糊",
+        "強調利害關係人（stakeholder）之間的互動",
+        "層級節制（hierarchy）與權威不復存在",
+        "除了效率外，強調更多價值，如透明、課責、廉潔"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:59+00:00",
+        "source_pdf_sha1": "642c105f3438",
+        "answer_pdf_sha1": "44597aef9ae9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0080",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "1968年第一次明諾布魯克會議（MinnowbrookConference）的新公共行政運動。其主要特徵為何？",
+      "options": [
+        "強調入世的公共行政學研究",
+        "著重科學方法在公共行政研究的運用",
+        "主張社會主義",
+        "主張結合法律、經濟學和心理學的研究途徑"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:59+00:00",
+        "source_pdf_sha1": "642c105f3438",
+        "answer_pdf_sha1": "44597aef9ae9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0081",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "下列何者不屬於公職人員利益衝突迴避法所定公職人員之關係人？",
+      "options": [
+        "公職人員共同生活之家屬",
+        "公職人員進用之機要人員",
+        "各級民意代表三親等親屬",
+        "各級民意代表之公費助理"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:59+00:00",
+        "source_pdf_sha1": "642c105f3438",
+        "answer_pdf_sha1": "44597aef9ae9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0082",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "依據中央行政機關組織基準法之規定，下列敘述何者錯誤？",
+      "options": [
+        "中央行政機關分成四級",
+        "獨立機關之組織以命令定之",
+        "主計屬於機關內部的輔助單位",
+        "行政院為一級機關"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:59+00:00",
+        "source_pdf_sha1": "642c105f3438",
+        "answer_pdf_sha1": "44597aef9ae9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0083",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "有關我國政務官和事務官之敘述，下列何者正確？",
+      "options": [
+        "政務官與事務官之劃分，係由職等決定之",
+        "事務官適用行政中立法，政務官不適用",
+        "中央政府有政務官、事務官之劃分，但地方公務人員皆為事務官",
+        "法律給予事務官身分一定之保障，政務官通常不具此保障 11750、12750 13850、14350"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:59+00:00",
+        "source_pdf_sha1": "642c105f3438",
+        "answer_pdf_sha1": "44597aef9ae9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0084",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "公務人員的薪給應與物價指數保持平衡，此為下列何種薪給原則的具體表現？",
+      "options": [
+        "適應情勢原則",
+        "公平給付原則",
+        "貢獻滿足均衡原則",
+        "集體協商原則"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:59+00:00",
+        "source_pdf_sha1": "642c105f3438",
+        "answer_pdf_sha1": "44597aef9ae9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0085",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "我國國營企業，如台灣電力股份有限公司之年度預算，應編列何種預算？",
+      "options": [
+        "經濟部之單位預算",
+        "經濟部之單位預算分預算",
+        "經濟部之附屬單位預算",
+        "經濟部之附屬單位預算分預算"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:59+00:00",
+        "source_pdf_sha1": "642c105f3438",
+        "answer_pdf_sha1": "44597aef9ae9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0086",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "依據預算法之規定，第一預備金和第二預備金有何不同？",
+      "options": [
+        "第一預備金於總預算中設定之，第二預備金於公務機關單位預算中設定之",
+        "第一預備金之數額視財政情況決定之，第二預備金之數額不得超過該機關經常支出總額1%",
+        "立法院審議刪除或刪減之預算項目及金額，得動用第一預備金，但不得動支第二預備金",
+        "各機關支用第一預備金，應報請上級主管機關核定；第二預備金之動支，則須經行政院之核准"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:59+00:00",
+        "source_pdf_sha1": "642c105f3438",
+        "answer_pdf_sha1": "44597aef9ae9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0087",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "有關行政機關輔助（幕僚）單位的概念，下列敘述何者最為正確？",
+      "options": [
+        "專司襄助或支援業務單位",
+        "又稱實作部門",
+        "教育部高等教育司屬之",
+        "主要任務和組織目標的達成直接相關"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:59+00:00",
+        "source_pdf_sha1": "642c105f3438",
+        "answer_pdf_sha1": "44597aef9ae9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0088",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "政府機關辦理公告金額以上之採購，符合下列何者情形者，得採限制性招標？",
+      "options": [
+        "經常性採購",
+        "投標文件審查，須費時長久始能完成者",
+        "購買身心障礙福利機構所提供之非營利產品",
+        "享有最惠國待遇之國際廠商"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:59+00:00",
+        "source_pdf_sha1": "642c105f3438",
+        "answer_pdf_sha1": "44597aef9ae9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0089",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "根據巴納德（C.I.Barnard）的權威接受理論，權威建立的條件決定於：",
+      "options": [
+        "受命令者接受或同意的程度",
+        "命令者組織層級或地位的高低",
+        "下級對於上級有服從的義務",
+        "受命令者害怕受到懲罰的程度"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:59+00:00",
+        "source_pdf_sha1": "642c105f3438",
+        "answer_pdf_sha1": "44597aef9ae9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 11,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0090",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "下列那一項不是目標管理（managementbyobjectives）的重要特質？",
+      "options": [
+        "設定合理可行的目標階層體系",
+        "採取由上而下的目標設定模式",
+        "針對目標執行結果提供反饋",
+        "以信任、賦權的方式對待員工"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:59+00:00",
+        "source_pdf_sha1": "642c105f3438",
+        "answer_pdf_sha1": "44597aef9ae9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 12,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0091",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "「一個組織必須同時注重其財務、顧客、內部流程，以及學習與成長等面向的策略目標和績效，並 不斷時時檢視」，這項敘述主要指涉下列那一項管理工具的宗旨？",
+      "options": [
+        "目標管理",
+        "平衡計分卡",
+        "強弱機危分析法（SWOT分析）",
+        "品質管理PDCA循環"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:59+00:00",
+        "source_pdf_sha1": "642c105f3438",
+        "answer_pdf_sha1": "44597aef9ae9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 13,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0092",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "依代理人理論，組織會出現逆向選擇和道德風險問題，下列那一項作為可以處理前述狀況？",
+      "options": [
+        "減少資訊不對稱",
+        "降低自然獨占",
+        "增強正面外部性",
+        "減少負面外部性"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:59+00:00",
+        "source_pdf_sha1": "642c105f3438",
+        "answer_pdf_sha1": "44597aef9ae9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 14,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0093",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "有關亞當斯（J.Adams）公平理論（equitytheory）之內涵，下列敘述何者錯誤？",
+      "options": [
+        "公平理論主要在討論工作結果與工作投入的比率，當這個比率與他人相比而不相稱時，就會有 不公平的感受",
+        "當不公平的原因在於本人的工作結果與投入的比率比他人低時，消除不公平的方式可以是增加 投入",
+        "當人們感覺所得報酬與其努力之間有差距，而此差距是主觀感受的結果",
+        "當原本感受到不公平的人出現「比上不足、比下有餘」的感覺時，是因為他改換了其他的比較 對象"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:59+00:00",
+        "source_pdf_sha1": "642c105f3438",
+        "answer_pdf_sha1": "44597aef9ae9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 15,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0094",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "我國「行政院及所屬各機關開放政府聯絡人實施要點」中，提到開放政府的四個基本原則，下列 何者不是此要點中所列舉的原則？",
+      "options": [
+        "廉正",
+        "透明",
+        "課責",
+        "涵容 11750、12750 13850、14350"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:59+00:00",
+        "source_pdf_sha1": "642c105f3438",
+        "answer_pdf_sha1": "44597aef9ae9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 16,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0095",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "有關「公地悲劇（TheTragedyoftheCommons）」之敘述，下列何者錯誤？",
+      "options": [
+        "因個人自利造成集體利益受損",
+        "具有不易排他之特性",
+        "會造成逆向選擇的現象",
+        "可用來分析「共享單車」造成「單車墳場」的現象"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:59+00:00",
+        "source_pdf_sha1": "642c105f3438",
+        "answer_pdf_sha1": "44597aef9ae9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 17,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0096",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "下列何者不是依法律設立且為行政院主管的行政機關？",
+      "options": [
+        "文化部國家表演藝術中心",
+        "教育部體育署",
+        "國家發展委員會國家檔案管理局",
+        "金融監督管理委員會銀行局"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:59+00:00",
+        "source_pdf_sha1": "642c105f3438",
+        "answer_pdf_sha1": "44597aef9ae9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 18,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0097",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "世上沒有唯一最佳解的存在，只能根據組織內、外環境的變動，動態設計可以彈性調整的管理方 法，而方法的選擇必須同時兼顧效率與效果。下列何種行政理論符合以上敘述？",
+      "options": [
+        "行為科學理論",
+        "動態管理理論",
+        "權變理論",
+        "理性決策理論"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:59+00:00",
+        "source_pdf_sha1": "642c105f3438",
+        "answer_pdf_sha1": "44597aef9ae9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 19,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0098",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "有關政府政策立場之敘述，下列何者錯誤？",
+      "options": [
+        "政府部門之間的政策立場會因利害關係而不同",
+        "政策問題的詮釋與界定不免主觀",
+        "意識形態會影響政府部門所持的政策立場",
+        "政府應維持價值中立，不應有特定政策立場"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:59+00:00",
+        "source_pdf_sha1": "642c105f3438",
+        "answer_pdf_sha1": "44597aef9ae9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 20,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0099",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "根據「途徑─目標」理論（path goal theory），領導者可依情境的不同而選擇不同的領導行為，若 部屬為外控型的人格特質，且在無規則、含混不明的情況下工作，採用何種領導行為最為有效？",
+      "options": [
+        "支持型領導（supportiveleadership）",
+        "參與型領導（participativeleadership）",
+        "指導型領導（directiveleadership）",
+        "成就取向領導（achievement-orientedleadership）"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:59+00:00",
+        "source_pdf_sha1": "642c105f3438",
+        "answer_pdf_sha1": "44597aef9ae9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 21,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0100",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "非營利組織雖能彌補政府與市場運作的不足，但也會產生所謂「志願失靈」。造成志願失靈的主要 原因，不包含下列那一項？",
+      "options": [
+        "無法獲得足夠充分和可依賴的資源來服務群眾的需求",
+        "慈善服務為了涵蓋所有的地理區域，造成自然獨占現象",
+        "家長制的決策模式，影響其服務績效",
+        "過於仰賴未受過正式訓練的志工來提供服務，造成業餘性的現象"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:59+00:00",
+        "source_pdf_sha1": "642c105f3438",
+        "answer_pdf_sha1": "44597aef9ae9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 22,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0101",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "國際透明組織每年公布清廉印象指數，對世界各國進行排名，排名越前面代表越清廉。2000 至 2016年間，所謂「亞洲四小龍」的清廉排名先後順序是：",
+      "options": [
+        "新加坡、香港、臺灣、韓國",
+        "新加坡、臺灣、韓國、香港",
+        "香港、新加坡、韓國、臺灣",
+        "香港、臺灣、新加坡、韓國"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:59+00:00",
+        "source_pdf_sha1": "642c105f3438",
+        "answer_pdf_sha1": "44597aef9ae9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 23,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0102",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "有關實質的公民參與，下列敘述何者錯誤？",
+      "options": [
+        "透過制度設計，將公民納入政策制定的過程",
+        "公民透過公共對話，決定公共利益的內涵",
+        "多數決的投票制度，足以展現實質的公民參與",
+        "公共利益導向的公民風範，是公民參與的基礎"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:59+00:00",
+        "source_pdf_sha1": "642c105f3438",
+        "answer_pdf_sha1": "44597aef9ae9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 24,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-bd450684-0103",
+      "exam_id": "promotion-bd450684",
+      "question_type": "single_choice",
+      "question": "有關災害協力治理之敘述，下列何者錯誤？",
+      "options": [
+        "救災活動皆應由中央政府主導之",
+        "不同災害管理階段的協力應變與決策模式有所不同",
+        "自主防災社區的建立有助於公民培力",
+        "災害應變思維的順序應強調自助、共助、公助"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:59+00:00",
+        "source_pdf_sha1": "642c105f3438",
+        "answer_pdf_sha1": "44597aef9ae9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "127",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 25,
+        "answer_corrected": false,
+        "flags": []
+      }
+    }
+  ]
+}

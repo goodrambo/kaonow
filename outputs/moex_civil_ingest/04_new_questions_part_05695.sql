@@ -1,0 +1,45 @@
+-- W1.6 questions batch 5695/9310 (10)
+
+INSERT INTO public.questions (id, exam_id, paper_id, subject_id, chapter_id, question_type, question_text, options, correct_answer, correct_answer_json, auto_gradable, source, is_active, version, source_meta, explanation)
+VALUES
+  ('investigation-b89e2ba5-moex-00172', 'investigation-b89e2ba5', 'investigation-b89e2ba5-moex-111-acc7fe0d', 'sub-investigation-b89e2ba5-04', NULL, 'essay', '資安的核心概念是風險管理，請說明資安的三個要素及風險處理之四個
+對策。（25 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:25:41+00:00", "source_pdf_sha1": "9e878f84d35d", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111130", "c": "414", "s": "1007", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "資訊安全實務", "year": "111", "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試", "original_question_number": "二", "answer_corrected": false, "flags": [], "civil_slug": "investigation", "civil_category": "資訊科學組"}'::jsonb, NULL),
+  ('investigation-b89e2ba5-moex-00173', 'investigation-b89e2ba5', 'investigation-b89e2ba5-moex-111-acc7fe0d', 'sub-investigation-b89e2ba5-04', NULL, 'essay', '請說明識別（identification）與認證（authentication）之差異。另請舉例
+說明多因子認證中，所知之事、所持之物、與所具之形之意義，並舉例
+說明一個雙因子認證之作法。（25 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:25:41+00:00", "source_pdf_sha1": "9e878f84d35d", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111130", "c": "414", "s": "1007", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "資訊安全實務", "year": "111", "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試", "original_question_number": "三", "answer_corrected": false, "flags": [], "civil_slug": "investigation", "civil_category": "資訊科學組"}'::jsonb, NULL),
+  ('investigation-b89e2ba5-moex-00174', 'investigation-b89e2ba5', 'investigation-b89e2ba5-moex-111-acc7fe0d', 'sub-investigation-b89e2ba5-04', NULL, 'essay', '依據資通安全事件通報及應變辦法之規定，公務機關知悉發生資通安全事
+件時，最遲應於多久時間內通報？通報內容應包括那七個項目？（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:25:41+00:00", "source_pdf_sha1": "9e878f84d35d", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111130", "c": "414", "s": "1007", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "資訊安全實務", "year": "111", "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試", "original_question_number": "四", "answer_corrected": false, "flags": [], "civil_slug": "investigation", "civil_category": "資訊科學組"}'::jsonb, NULL),
+  ('investigation-b89e2ba5-moex-00175', 'investigation-b89e2ba5', 'investigation-b89e2ba5-moex-111-c178e015', 'sub-investigation-b89e2ba5-05', NULL, 'essay', '請試述下列名詞之意涵：（每小題 5 分，共 20分）
+ARP
+DNS
+DHCP
+NAT', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:25:42+00:00", "source_pdf_sha1": "a05da3eef883", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111130", "c": "414", "s": "1009", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "資通網路", "year": "111", "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "civil_slug": "investigation", "civil_category": "資訊科學組"}'::jsonb, NULL),
+  ('investigation-b89e2ba5-moex-00176', 'investigation-b89e2ba5', 'investigation-b89e2ba5-moex-111-c178e015', 'sub-investigation-b89e2ba5-05', NULL, 'essay', '國際標準組織（ISO,InternationalStandardOrganization）提出「開放式系
+統互連參考模型」（OpenSystemInterconnectionReferenceModel），將網
+路架構分成七層，請說明傳輸層（TransportLayer）的主要功能。（15分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:25:42+00:00", "source_pdf_sha1": "a05da3eef883", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111130", "c": "414", "s": "1009", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "資通網路", "year": "111", "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試", "original_question_number": "二", "answer_corrected": false, "flags": [], "civil_slug": "investigation", "civil_category": "資訊科學組"}'::jsonb, NULL),
+  ('investigation-b89e2ba5-moex-00177', 'investigation-b89e2ba5', 'investigation-b89e2ba5-moex-111-c178e015', 'sub-investigation-b89e2ba5-05', NULL, 'essay', '在網路的世界裡，每一個連上網路的裝置都必須有一個唯一的位址，稱
+為 IP位址。請回答以下問題：
+以 IPv4 而言，IP位址可分為 5類：ClassA到 ClassE，請問這 5類的
+分類規則為何？（15分）
+承上題，請列出各 Class位址分別占所有 IP位址空間的比例，從 Class
+A至 Class E，依序為何？（10 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:25:42+00:00", "source_pdf_sha1": "a05da3eef883", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111130", "c": "414", "s": "1009", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "資通網路", "year": "111", "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試", "original_question_number": "三", "answer_corrected": false, "flags": [], "civil_slug": "investigation", "civil_category": "資訊科學組"}'::jsonb, NULL),
+  ('investigation-b89e2ba5-moex-00178', 'investigation-b89e2ba5', 'investigation-b89e2ba5-moex-111-c178e015', 'sub-investigation-b89e2ba5-05', NULL, 'essay', '在無線網路中，由於無線裝置多是以電池做為電量的來源。因此為了節
+省無線裝置的電量消耗，常常會設計省電的機制。請回答以下問題：
+請說明 PowerSaving機制的目的為何？（8 分）
+請說明 PowerControl機制的目的為何？（7分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:25:42+00:00", "source_pdf_sha1": "a05da3eef883", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111130", "c": "414", "s": "1009", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "資通網路", "year": "111", "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試", "original_question_number": "四", "answer_corrected": false, "flags": [], "civil_slug": "investigation", "civil_category": "資訊科學組"}'::jsonb, NULL),
+  ('investigation-b89e2ba5-moex-00179', 'investigation-b89e2ba5', 'investigation-b89e2ba5-moex-111-c178e015', 'sub-investigation-b89e2ba5-05', NULL, 'essay', 'IEEE 802.11 是目前無線區域網路主要採用的通訊協定，在 IEEE 802.11
+的協定中會使用四手交握（Four-Way Handshake）的方式在收送兩端完
+成一次的資料傳輸。請回答以下問題：
+請解釋四手交握的進行方式。（10 分）
+IEEE 802.11 的協定使用四手交握的方式，而不採用兩手交握（Two-
+Way Handshake）的方式，其目的為何？請舉例說明。（10分）
+承題，在什麼情況下，IEEE802.11的協定會使用四手交握的方式，
+而不採用兩手交握的方式呢？（5 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:25:42+00:00", "source_pdf_sha1": "a05da3eef883", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111130", "c": "414", "s": "1009", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "資通網路", "year": "111", "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試", "original_question_number": "五", "answer_corrected": false, "flags": [], "civil_slug": "investigation", "civil_category": "資訊科學組"}'::jsonb, NULL),
+  ('investigation-b89e2ba5-moex-00180', 'investigation-b89e2ba5', 'investigation-b89e2ba5-moex-110-77052518', 'sub-investigation-b89e2ba5-01', NULL, 'essay', '訪談是最常用的需求蒐集技術，請詳述非結構化訪談（unstructured
+interview）、結構化訪談（structuredinterview）、自上而下訪談（top-down
+interview）和自下而上訪談（bottom-up interview）的區別和使用時機。
+（25 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:25:42+00:00", "source_pdf_sha1": "37f9c55aaff7", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "110130", "c": "414", "s": "1002", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "系統分析與設計", "year": "110", "exam_name": "110年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格者取得法官遴選資格考...", "original_question_number": "一", "answer_corrected": false, "flags": [], "civil_slug": "investigation", "civil_category": "資訊科學組"}'::jsonb, NULL),
+  ('investigation-b89e2ba5-moex-00181', 'investigation-b89e2ba5', 'investigation-b89e2ba5-moex-110-77052518', 'sub-investigation-b89e2ba5-01', NULL, 'essay', '請舉例詳述如何用活動圖塑造企業流程，並說明控制節點（controlnode）
+和物件節點（objectnode）有那些類型，控制流程（controlflow）和物件
+流程（objectflow）有什麼區別。（25 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:25:42+00:00", "source_pdf_sha1": "37f9c55aaff7", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "110130", "c": "414", "s": "1002", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "系統分析與設計", "year": "110", "exam_name": "110年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格者取得法官遴選資格考...", "original_question_number": "二", "answer_corrected": false, "flags": [], "civil_slug": "investigation", "civil_category": "資訊科學組"}'::jsonb, NULL)
+ON CONFLICT (id) DO NOTHING;

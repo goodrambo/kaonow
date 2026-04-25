@@ -1,0 +1,13 @@
+{
+  "slug": "promotion-d1056197",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:29:14+00:00",
+  "paper_count": 6,
+  "paper_with_questions": 6,
+  "question_count": 164,
+  "type_counts": {
+    "essay": 12,
+    "single_choice": 152
+  },
+  "issues": []
+}

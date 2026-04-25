@@ -1,0 +1,41 @@
+-- W1.6 questions batch 6864/9310 (10)
+
+INSERT INTO public.questions (id, exam_id, paper_id, subject_id, chapter_id, question_type, question_text, options, correct_answer, correct_answer_json, auto_gradable, source, is_active, version, source_meta, explanation)
+VALUES
+  ('locality-7fec267e-moex-00200', 'locality-7fec267e', 'locality-7fec267e-moex-111-5a8e61f1', 'sub-locality-7fec267e-05', NULL, 'essay', '政府服務品質係民主社會政府服務之要素，運用全面品質管理提升服務
+品質，對於貫徹政府再造工作助益甚大，試論述基層行政機關如何執行
+全面品質管理的計畫。（25 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:35:21+00:00", "source_pdf_sha1": "866efd784c5b", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111190", "c": "301", "s": "0601", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "公共管理", "year": "111", "exam_name": "111年特種考試地方政府公務人員考試", "original_question_number": "二", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "一般行政"}'::jsonb, NULL),
+  ('locality-7fec267e-moex-00201', 'locality-7fec267e', 'locality-7fec267e-moex-111-5a8e61f1', 'sub-locality-7fec267e-05', NULL, 'essay', '近年來受到營利組織非營利化趨勢的影響，某些營利組織會投入於社會
+公益的活動，善因行銷（cause-relatedmarketing）是其採用的行銷手法之
+一，試說明善因行銷的意義及運作的模式。（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:35:21+00:00", "source_pdf_sha1": "866efd784c5b", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111190", "c": "301", "s": "0601", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "公共管理", "year": "111", "exam_name": "111年特種考試地方政府公務人員考試", "original_question_number": "三", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "一般行政"}'::jsonb, NULL),
+  ('locality-7fec267e-moex-00202', 'locality-7fec267e', 'locality-7fec267e-moex-111-5a8e61f1', 'sub-locality-7fec267e-05', NULL, 'essay', '近年來受到新冠病毒（COVID-19）疫情和友善職場理念的影響，許多公
+私部門紛紛試行「工作彈性化措施」（flexibleworkingarrangements），請
+說明工作彈性化措施的內涵，以及優缺點。（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:35:21+00:00", "source_pdf_sha1": "866efd784c5b", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111190", "c": "301", "s": "0601", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "公共管理", "year": "111", "exam_name": "111年特種考試地方政府公務人員考試", "original_question_number": "四", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "一般行政"}'::jsonb, NULL),
+  ('locality-7fec267e-moex-00203', 'locality-7fec267e', 'locality-7fec267e-moex-111-19059bf3', 'sub-locality-7fec267e-02', NULL, 'essay', '民族主義研究學者班乃迪克．安德森（BenedictAnderson）在其著作《想
+像的共同體》中，對傳統定義下的民族主義提出挑戰。試論述 Anderson
+對民族主義的定義，以及與傳統民族主義和民族國家的定義進行比較。
+（25 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:35:21+00:00", "source_pdf_sha1": "408240b731de", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111190", "c": "301", "s": "0501", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "政治學", "year": "111", "exam_name": "111年特種考試地方政府公務人員考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "一般行政"}'::jsonb, NULL),
+  ('locality-7fec267e-moex-00204', 'locality-7fec267e', 'locality-7fec267e-moex-111-19059bf3', 'sub-locality-7fec267e-02', NULL, 'essay', '學者杭亭頓（Huntington）指出，現代化的改變有可能伴隨革命
+（revolution）。請問革命不同於其他政治暴力，其特殊性為何？又現代化
+的過程為何可能導致革命的發生？（25 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:35:21+00:00", "source_pdf_sha1": "408240b731de", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111190", "c": "301", "s": "0501", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "政治學", "year": "111", "exam_name": "111年特種考試地方政府公務人員考試", "original_question_number": "二", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "一般行政"}'::jsonb, NULL),
+  ('locality-7fec267e-moex-00205', 'locality-7fec267e', 'locality-7fec267e-moex-111-19059bf3', 'sub-locality-7fec267e-02', NULL, 'essay', '半總統制下的「共治」（cohabitation）意指為何？若出現共治的前提條件，
+在憲政制度的配套中，那些制度設計會影響共治的出現？（25 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:35:21+00:00", "source_pdf_sha1": "408240b731de", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111190", "c": "301", "s": "0501", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "政治學", "year": "111", "exam_name": "111年特種考試地方政府公務人員考試", "original_question_number": "三", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "一般行政"}'::jsonb, NULL),
+  ('locality-7fec267e-moex-00206', 'locality-7fec267e', 'locality-7fec267e-moex-111-19059bf3', 'sub-locality-7fec267e-02', NULL, 'essay', '俄烏戰爭的爆發，讓國際關係中研究維持和平的重要性又再次受到關
+注。請從權力平衡（balanceofpower）的理論解釋俄烏戰爭發生的原因，
+並列舉至少三種嘗試解決戰爭、建立和平的可能途徑。（25 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:35:21+00:00", "source_pdf_sha1": "408240b731de", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111190", "c": "301", "s": "0501", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "政治學", "year": "111", "exam_name": "111年特種考試地方政府公務人員考試", "original_question_number": "四", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "一般行政"}'::jsonb, NULL),
+  ('locality-7fec267e-moex-00207', 'locality-7fec267e', 'locality-7fec267e-moex-111-b96fcbef', 'sub-locality-7fec267e-06', NULL, 'essay', '甲乙為夫妻，妻乙於民國 109 年 8 月 25 日凌晨偕同徵信社人員發現夫
+甲偕婚外情之對象丙至汽車旅館通姦，雙方鬧到派出所時，乙取出預擬
+之離婚暨監護協議書向甲恫嚇：「如現在不簽字離婚，即告你倆通姦及對
+丙提告妨礙家庭」，致甲在毫無心理準備，亦無充分時間細閱協議內容下
+簽字，系爭離婚協議書除離婚部分外另有關於贍養費及子女之生活費之
+約定及夫妻財產分配等內容。事後甲主張係遭乙恫嚇，故主張系爭離婚
+協議書無效。試問：甲之主張是否有理？請依民法規定說明之。（25 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:35:21+00:00", "source_pdf_sha1": "0d490006bb66", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111190", "c": "301", "s": "0803", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "民法總則與刑法總則", "year": "111", "exam_name": "111年特種考試地方政府公務人員考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "一般行政"}'::jsonb, NULL),
+  ('locality-7fec267e-moex-00208', 'locality-7fec267e', 'locality-7fec267e-moex-111-b96fcbef', 'sub-locality-7fec267e-06', NULL, 'essay', '網紅名人甲利用深偽（Deepfake）技術，將知名明星乙的頭像移花接木
+成色情影片女主角而牟取利益，嚴重貶損乙之形象。乙因此被取消了原
+有的廣告代言機會。試問：乙該如何主張以維護其權益？（25 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:35:21+00:00", "source_pdf_sha1": "0d490006bb66", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111190", "c": "301", "s": "0803", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "民法總則與刑法總則", "year": "111", "exam_name": "111年特種考試地方政府公務人員考試", "original_question_number": "二", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "一般行政"}'::jsonb, NULL),
+  ('locality-7fec267e-moex-00209', 'locality-7fec267e', 'locality-7fec267e-moex-111-b96fcbef', 'sub-locality-7fec267e-06', NULL, 'essay', '試附理由說明：甲、乙是否為刑法上之公務員。（25 分）
+㉑甲未經國家考試，而是由縣政府聘僱，服務於該縣某鄉鎮之戶政事務
+所，並於櫃檯承辦戶政業務。
+㉒乙服務於某間與地方政府簽約之民間拖吊車業者，與交通警察一同出
+勤，負責拖吊違規車輛。', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:35:21+00:00", "source_pdf_sha1": "0d490006bb66", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111190", "c": "301", "s": "0803", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "民法總則與刑法總則", "year": "111", "exam_name": "111年特種考試地方政府公務人員考試", "original_question_number": "三", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "一般行政"}'::jsonb, NULL)
+ON CONFLICT (id) DO NOTHING;

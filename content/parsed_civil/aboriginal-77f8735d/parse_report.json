@@ -1,0 +1,37 @@
+{
+  "slug": "aboriginal-77f8735d",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:37:39+00:00",
+  "paper_count": 3,
+  "paper_with_questions": 3,
+  "question_count": 12,
+  "type_counts": {
+    "essay": 12
+  },
+  "issues": [
+    {
+      "year": "114",
+      "subject": "衛生法規與倫理",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "衛生行政",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "醫療制度與品質管理",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    }
+  ]
+}

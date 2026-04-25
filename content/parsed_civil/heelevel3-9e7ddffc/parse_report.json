@@ -1,0 +1,13 @@
+{
+  "slug": "heelevel3-9e7ddffc",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:33:49+00:00",
+  "paper_count": 5,
+  "paper_with_questions": 5,
+  "question_count": 142,
+  "type_counts": {
+    "essay": 10,
+    "single_choice": 132
+  },
+  "issues": []
+}

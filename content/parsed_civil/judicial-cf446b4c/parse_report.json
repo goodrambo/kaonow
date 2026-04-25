@@ -1,0 +1,94 @@
+{
+  "slug": "judicial-cf446b4c",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:26:24+00:00",
+  "paper_count": 22,
+  "paper_with_questions": 22,
+  "question_count": 477,
+  "type_counts": {
+    "single_choice": 426,
+    "essay": 51
+  },
+  "issues": [
+    {
+      "year": "114",
+      "subject": "強制執行法概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 3,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "民事訴訟法概要與刑事訴訟法概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "113",
+      "subject": "強制執行法概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "113",
+      "subject": "民事訴訟法概要與刑事訴訟法概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "強制執行法概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "民事訴訟法概要與刑事訴訟法概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "強制執行法概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "民事訴訟法概要與刑事訴訟法概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "強制執行法概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "民事訴訟法概要與刑事訴訟法概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    }
+  ]
+}

@@ -1,0 +1,3782 @@
+{
+  "slug": "promotion-6ec17a12",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:28:43+00:00",
+  "paper_count": 9,
+  "paper_with_questions": 9,
+  "question_count": 103,
+  "type_counts": {
+    "essay": 28,
+    "single_choice": 75
+  },
+  "papers": [
+    {
+      "year": "114",
+      "exam_code": "114160",
+      "c": "131",
+      "s": "2712",
+      "q": "1",
+      "subject": "海巡勤務",
+      "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "603abf6c33e8",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "114",
+      "exam_code": "114160",
+      "c": "131",
+      "s": "2704",
+      "q": "1",
+      "subject": "犯罪偵查",
+      "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "2a8298667b03",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "114",
+      "exam_code": "114160",
+      "c": "131",
+      "s": "0406",
+      "q": "1",
+      "subject": "行政法",
+      "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "74c4580f828f",
+      "a_pdf_sha1": "52ed235f6cad",
+      "format_detected": "mixed",
+      "raw_question_count": 27,
+      "answer_qnums_extracted": 25,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 27,
+      "skipped_count": 0
+    },
+    {
+      "year": "112",
+      "exam_code": "112170",
+      "c": "131",
+      "s": "2712",
+      "q": "1",
+      "subject": "海巡勤務",
+      "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "33d86bed6f7e",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 2,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 2,
+      "skipped_count": 0
+    },
+    {
+      "year": "112",
+      "exam_code": "112170",
+      "c": "131",
+      "s": "2704",
+      "q": "1",
+      "subject": "犯罪偵查",
+      "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "777967578668",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "112",
+      "exam_code": "112170",
+      "c": "131",
+      "s": "0408",
+      "q": "1",
+      "subject": "行政法",
+      "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "b796954d584f",
+      "a_pdf_sha1": "403e55525a12",
+      "format_detected": "mixed",
+      "raw_question_count": 27,
+      "answer_qnums_extracted": 25,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 27,
+      "skipped_count": 0
+    },
+    {
+      "year": "110",
+      "exam_code": "110170",
+      "c": "131",
+      "s": "2712",
+      "q": "1",
+      "subject": "海巡勤務",
+      "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "36df938613b3",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "110",
+      "exam_code": "110170",
+      "c": "131",
+      "s": "2704",
+      "q": "1",
+      "subject": "犯罪偵查",
+      "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "82436c540ecb",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "110",
+      "exam_code": "110170",
+      "c": "131",
+      "s": "0407",
+      "q": "1",
+      "subject": "行政法",
+      "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "e540f9f070e7",
+      "a_pdf_sha1": "8eeba1fd9cc0",
+      "format_detected": "mixed",
+      "raw_question_count": 27,
+      "answer_qnums_extracted": 25,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 27,
+      "skipped_count": 0
+    }
+  ],
+  "questions": [
+    {
+      "id": "promotion-6ec17a12-0001",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "essay",
+      "question": "我國漁船在海上作業時，由於船員間之衝突，易造成海上喋血傷亡事件，\n試述我國遠洋漁船在公海發生海上喋血時，海巡機關應如何應處？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "603abf6c33e8",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "131",
+          "s": "2712",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "海巡勤務",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0002",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "essay",
+      "question": "某溪流由山區流經某鄉鎮，再綿延數浬後進入海洋，由於數月前地震造\n成山崩後形成堰塞湖，某日堰塞湖溢流及崩塌，大規模土石流及泥水衝\n向該鄉鎮並流往海洋，造成 10餘人死亡，尚有 20餘人失聯中，而且道\n路及民宅深陷泥淖，又缺乏民生物資，由於災情嚴重，政府立即成立災\n害應變中心，整合各項資源執行救災，此時，海巡機關獲命立即前往災\n區支援，試問海巡人員可執行那些工作暨其法令依據為何？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "603abf6c33e8",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "131",
+          "s": "2712",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "海巡勤務",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0003",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "essay",
+      "question": "海巡單位針對轄區船舶及各類運輸工具，實施評鑑分類，以提高船舶進出\n港口時之安檢效能，試問船舶評鑑可分為那幾類暨執行安檢之要領為何？\n（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "603abf6c33e8",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "131",
+          "s": "2712",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "海巡勤務",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0004",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "essay",
+      "question": "颱風即將來襲，某縣政府已發布公告，劃定該縣海岸警戒區域，禁止人\n車通行，然而有民眾在警戒區域內觀浪、釣魚，試問海巡人員應如何處置？\n（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "603abf6c33e8",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "131",
+          "s": "2712",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "海巡勤務",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0005",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "essay",
+      "question": "依照刑事訴訟法規定，司法警察得在那些情況下，對犯罪嫌疑人執行拘\n提？執行時須符合那些法定要件？（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "2a8298667b03",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "131",
+          "s": "2704",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "犯罪偵查",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0006",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "essay",
+      "question": "實施搜索，應有搜索票，但刑事訴訟法亦規定在某些情況下，雖無搜索\n票，亦得搜索之，請說明相關規定。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "2a8298667b03",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "131",
+          "s": "2704",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "犯罪偵查",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0007",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "essay",
+      "question": "對使用於網路犯罪之電腦執行搜索、扣押時，應注意那些事項？請分別\n說明之。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "2a8298667b03",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "131",
+          "s": "2704",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "犯罪偵查",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0008",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "essay",
+      "question": "依據「偵查不公開作業辦法」，在那些情形下，偵查機關得適度公開或揭\n露偵查程序或偵查內容？請分別說明之。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "2a8298667b03",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "131",
+          "s": "2704",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "犯罪偵查",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0009",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "essay",
+      "question": "行政程序法是否有規定「依法行政原則」？此依法之「法」之涵義及範\n圍為何？大學自治規章是否屬之？（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "74c4580f828f",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "131",
+          "s": "0406",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0010",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "essay",
+      "question": "公務員得否於公餘時間兼任外送平台外送員？請從公務員服務法等相\n關法令規定分析說明之。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "74c4580f828f",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "131",
+          "s": "0406",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0011",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "關於不當聯結禁止原則之敘述，下列何者錯誤？",
+      "options": [
+        "行政處分之附款應與該處分之目的具有正當合理之關聯",
+        "人民與行政機關締結雙務行政契約時，人民之給付與行政機關之給付應相當，並具有正當合理 之關聯",
+        "依司法實務見解，汽車所有人繳清違規罰鍰後始得換發行車執照，並未牴觸不當聯結禁止原則",
+        "以同意捐款勞軍，作為核發建築許可之條件，牴觸不當聯結禁止原則"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "74c4580f828f",
+        "answer_pdf_sha1": "52ed235f6cad",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "131",
+          "s": "0406",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0012",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "下列何者為行政法之一般法律原則？",
+      "options": [
+        "依法行政原則",
+        "罪刑法定原則",
+        "契約自由原則",
+        "不告不理原則"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "74c4580f828f",
+        "answer_pdf_sha1": "52ed235f6cad",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "131",
+          "s": "0406",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0013",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "依司法院大法官解釋意旨，關於行政機關之判斷餘地，司法審查之範圍不包括下列何者？",
+      "options": [
+        "行政機關之判斷，是否出於錯誤事實認定或不完全資訊",
+        "法律概念涉及事實關係時，其涵攝有無明顯錯誤",
+        "作成判斷之行政機關，其組織是否合法且有判斷之權限",
+        "行政機關所為公務人員考績處分，是否符合其績效表現"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "74c4580f828f",
+        "answer_pdf_sha1": "52ed235f6cad",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "131",
+          "s": "0406",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0014",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "關於行政法人之敘述，下列何者正確？",
+      "options": [
+        "行政法人為行政機關，受其設置上級機關之指揮監督",
+        "行政法人之人事、財政自主空間較大，完全排除國家人事、預算、會計及審計法規之適用",
+        "地方自治團體得以自治條例設立地方行政法人",
+        "行政法人依其人事管理規章所進用之人員，為公務人員 11030、11730 12330、12530 12830、13030 13130 14330、14530 30130、70130 71130"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "74c4580f828f",
+        "answer_pdf_sha1": "52ed235f6cad",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "131",
+          "s": "0406",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0015",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "關於地方自治團體組織之敘述，下列何者正確？",
+      "options": [
+        "地方政府組織得以自治規則制定",
+        "直轄市政府依據地方制度法擬訂其組織準則後，即可成立該組織",
+        "直轄市政府設立果菜運銷有限公司應以自治條例定之",
+        "市議會組織依憲法自律原則而成立"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "74c4580f828f",
+        "answer_pdf_sha1": "52ed235f6cad",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "131",
+          "s": "0406",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0016",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "關於行政程序法上職務協助之敘述，下列何者正確？",
+      "options": [
+        "行政機關執行職務，由被請求機關協助執行較為經濟時，須組織法規有明文，始得請求職務協助",
+        "被請求機關應考量協助之行為是否在其權限範圍內",
+        "職務協助與委任、委託不同，屬於短暫性之關係，但仍會涉及權限之移轉",
+        "職務協助須公告其協助之事項以及所提供之協助方式"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "74c4580f828f",
+        "answer_pdf_sha1": "52ed235f6cad",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "131",
+          "s": "0406",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0017",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "依公務人員考績法及實務見解，有關公務人員考績之敘述，下列何者正確？",
+      "options": [
+        "行政機關對公務人員記大過處分，無懲處權時效之適用",
+        "公務人員不服其服務機關所為考績丙等之評定，應以銓敘部為被告提起行政訴訟",
+        "公務人員之年終考績丁等，效力為一次記兩大過免職",
+        "考績應予免職人員，自確定之日起執行；未確定前，應先行停職"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "74c4580f828f",
+        "answer_pdf_sha1": "52ed235f6cad",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "131",
+          "s": "0406",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0018",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "公務員甲之職務與下列各項人員或事業間有關，若甲與其成立借貸關係，何者不違反公務員服務法？",
+      "options": [
+        "承包甲任職機關之工程廠商",
+        "受有甲任職機關之上級機關補助者",
+        "與甲任職機關間曾有行政爭訟者",
+        "甲任職機關來往款項之銀行"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "74c4580f828f",
+        "answer_pdf_sha1": "52ed235f6cad",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "131",
+          "s": "0406",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0019",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "公務人員對於服務機關或人事主管機關所為之行政處分，認為違法或顯然不當，致損害其權利或 利益者，依法得提起何種救濟？",
+      "options": [
+        "審議",
+        "復審",
+        "申訴",
+        "聲明異議"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "74c4580f828f",
+        "answer_pdf_sha1": "52ed235f6cad",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "131",
+          "s": "0406",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0020",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "依行政程序法規定，有關法規命令與行政規則之敘述，下列何者錯誤？",
+      "options": [
+        "法規命令應有法律之授權",
+        "行政規則具有拘束訂定機關、其下級機關及屬官之效力",
+        "法規命令直接對外發生法律效果，行政規則非直接對外發生法規範效力",
+        "法規命令經發布後未依法函送立法院者無效"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "74c4580f828f",
+        "answer_pdf_sha1": "52ed235f6cad",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "131",
+          "s": "0406",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0021",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "主管機關為推動各機關（構）、公營事業機構節能減碳，依職權訂定獎勵節能要點，各機關（構） 如經主管機關評比為節能措施實施成效良好者，將給予獎勵。關於此要點之法律性質，下列敘述 何者正確？",
+      "options": [
+        "本要點為實現重要公共利益而訂定，適用範圍及於主管機關之外的機關或機構，性質屬法規命令",
+        "本要點為主管機關辦理節能措施評比獎勵之依據，屬機關業務處理的一般性規定，故為指令",
+        "即使相關法規未課予主管機關推動節能減碳措施之義務，其仍可訂定要點執行評比與獎勵",
+        "因獎勵涉及動用國家財政預算，為落實民主原則，應依立法院通過法律明文授權始得辦理"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "74c4580f828f",
+        "answer_pdf_sha1": "52ed235f6cad",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "131",
+          "s": "0406",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 11,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0022",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "考生持國立大學畢業證書報名參加國家考試，該畢業證書對辦理考試機關之拘束力，係屬下列何者？",
+      "options": [
+        "形式存續力",
+        "構成要件效力",
+        "執行力",
+        "確認效力 11030、11730 12330、12530 12830、13030 13130 14330、14530 30130、70130 71130"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "74c4580f828f",
+        "answer_pdf_sha1": "52ed235f6cad",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "131",
+          "s": "0406",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 12,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0023",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "依行政程序法規定，下列何者非屬應予廢止之情形？",
+      "options": [
+        "主管機關核發建築執照後發現申請人於申請時所提出之土地使用同意書為偽造",
+        "主管機關准予變更土地編定時，附記申請人應提出土地使用計畫書並配置必要公共設施，事後 申請人並未履行",
+        "勞動部核發外籍家庭照護工聘用許可後，雇主死亡",
+        "外國人經內政部移民署核發居留許可入境後，其有重大危害公共安全之情形"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "74c4580f828f",
+        "answer_pdf_sha1": "52ed235f6cad",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "131",
+          "s": "0406",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 13,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0024",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "關於行政機關之管轄，下列敘述何者正確？",
+      "options": [
+        "行政機關對事件管轄權之有無，應依職權調查；其認無管轄權者，應即移送司法機關，並通知 當事人",
+        "行政機關得依法規將其權限之一部分，委任民間團體或個人辦理",
+        "行政機關因業務上之需要，得依法規將其權限之一部分，委託不相隸屬之行政機關執行之",
+        "數行政機關於管轄權有爭議時，應由司法機關指定管轄"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "74c4580f828f",
+        "answer_pdf_sha1": "52ed235f6cad",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "131",
+          "s": "0406",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 14,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0025",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "關於行政契約之敘述，下列何者正確？",
+      "options": [
+        "行政契約與行政處分乃不同性質之行政作用，故行政機關有作成行政處分權限時，即不可再締 結行政契約",
+        "國民住宅之買賣契約屬於取代行政處分之行政契約",
+        "行政契約原則上是屬於要式行為",
+        "行政契約依約定內容履行將侵害第三人之權利者，應經該第三人書面或口頭之同意，始生效力"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "74c4580f828f",
+        "answer_pdf_sha1": "52ed235f6cad",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "131",
+          "s": "0406",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 15,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0026",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "主管機關建議農民甲停種作物並輔導休耕，甲表示不同意，依行政程序法規定，該機關應如何為 適法之處理？",
+      "options": [
+        "以甲為相對人作成行政處分，命其休耕",
+        "對甲裁處罰鍰，並於甲休耕前，得連續處罰",
+        "應派員親至當地強制執行休耕",
+        "應停止繼續建議或輔導"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "74c4580f828f",
+        "answer_pdf_sha1": "52ed235f6cad",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "131",
+          "s": "0406",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 16,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0027",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "關於行政罰管轄機關及裁處程序之敘述，下列何者正確？",
+      "options": [
+        "一行為違反數個行政法上義務而應處罰鍰，數機關均有管轄權者，由處理在先之機關管轄",
+        "行政機關對現行違反行政法上義務之行為人，得即時制止其行為",
+        "一行為違反同一行政法上義務，數機關均有管轄權者，由其共同上級機關管轄",
+        "得沒入之物，得扣留之，行政機關為沒入之裁處前，應舉行聽證"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "74c4580f828f",
+        "answer_pdf_sha1": "52ed235f6cad",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "131",
+          "s": "0406",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 17,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0028",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "關於行政執行之敘述，下列何者錯誤？",
+      "options": [
+        "行政機關依法作成行政處分，課予人民義務，不表示即可以強制手段貫徹之，因此行政執行須 另有法律依據，且須符合動用強制手段之法定要件與程序",
+        "行政機關於動用強制手段前，須於處分書或另以書面限定相當之履行期限，並告知不履行之後果",
+        "行政強制措施若涉及剝奪人民身體自由者，例如管收，基於憲法第8條之規定，須經法院始得 為之",
+        "行為或不行為義務之執行，由原處分機關或該管行政機關為之；公法上金錢給付義務逾期不履 行者，亦同 11030、11730 12330、12530 12830、13030 13130 14330、14530 30130、70130 71130"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "74c4580f828f",
+        "answer_pdf_sha1": "52ed235f6cad",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "131",
+          "s": "0406",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 18,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0029",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "關於政府資訊公開法之敘述，下列何者正確？",
+      "options": [
+        "申請人對於政府機關就其申請提供政府資訊所為之決定不服者，不得提起行政救濟",
+        "政府機關提供政府資訊時，得按申請政府資訊之用途，向申請人收取費用",
+        "申請政府機關提供政府資訊，以具有中華民國國籍者為限",
+        "人民請求政府資訊公開，以維護其法律上利益有必要者為限"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "74c4580f828f",
+        "answer_pdf_sha1": "52ed235f6cad",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "131",
+          "s": "0406",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 19,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0030",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "依司法實務見解，受理訴願機關撤銷原行政處分之全部時，下列敘述何者正確？",
+      "options": [
+        "訴願管轄機關得逕為更不利益之變更決定，如發回原行政處分機關另為處分時亦得為更不利益 之處分",
+        "訴願管轄機關不得為更不利益之變更決定，但發回原行政處分機關另為處分時得為更不利益之 處分",
+        "訴願管轄機關得逕為更不利益之變更決定，但發回原行政處分機關另為處分時不得為更不利益 之處分",
+        "訴願管轄機關不得逕為更不利益之變更決定，如發回原處分行政機關另為處分時亦不得為更不 利益之處分"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "74c4580f828f",
+        "answer_pdf_sha1": "52ed235f6cad",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "131",
+          "s": "0406",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 20,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0031",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "關於訴願審議委員會之敘述，下列何者正確？",
+      "options": [
+        "各機關辦理訴願事件，應設訴願審議委員會，組成人員以具有法制專長者為限",
+        "訴願審議委員會委員，由本機關高級職員及遴聘社會公正人士、學者、專家擔任之；其中社會 公正人士、學者、專家人數不得少於三分之一",
+        "訴願決定應經訴願審議委員會會議之決議，其決議以委員三分之二之出席，出席委員過半數之 同意行之",
+        "訴願審議委員會主任委員或委員對於訴願事件有利害關係者，應自行迴避，不得參與審議"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "74c4580f828f",
+        "answer_pdf_sha1": "52ed235f6cad",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "131",
+          "s": "0406",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 21,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0032",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "下列何者不得提起行政訴訟之確認訴訟？",
+      "options": [
+        "公立學校教師經學校解聘後，對該解聘不服",
+        "人民對於違反專屬管轄之行政處分不服",
+        "違建已倒塌，所有權人對該建物拆除處分不服",
+        "政府採購案未得標廠商對決標處分不服"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "74c4580f828f",
+        "answer_pdf_sha1": "52ed235f6cad",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "131",
+          "s": "0406",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 22,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0033",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "關於行政訴訟第一審裁判之敘述，下列何者正確？",
+      "options": [
+        "法官非參與裁判基礎之辯論者，不得參與裁判",
+        "各種獨立之攻擊或防禦方法，達於可為裁判之程度者，行政法院應為終局判決",
+        "當事人兩造於言詞辯論期日，無正當理由均不到場者，行政法院不得逕為判決",
+        "行政法院對於行政機關依裁量權所為之行政處分，均不得予以撤銷"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "74c4580f828f",
+        "answer_pdf_sha1": "52ed235f6cad",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "131",
+          "s": "0406",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 23,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0034",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "下列何者非國家賠償法所稱之公務員？",
+      "options": [
+        "依據船員法行使處分權之商船船長",
+        "代辦汽車定期檢驗之私人修車廠",
+        "協助公立學校老師進行實驗之學生",
+        "評定學生分數之私立大學教師"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "74c4580f828f",
+        "answer_pdf_sha1": "52ed235f6cad",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "131",
+          "s": "0406",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 24,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0035",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "關於行政上補償之敘述，下列何者錯誤？",
+      "options": [
+        "對於犯罪被害人補償，非基於特別犧牲",
+        "施打疫苗造成下肢癱瘓，基於特別犧牲法理應予補償",
+        "徵收土地是合法有目的性侵害財產權",
+        "法規准許廢止授益處分時，凡受益人均得請求信賴利益損失補償"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "74c4580f828f",
+        "answer_pdf_sha1": "52ed235f6cad",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114160",
+          "c": "131",
+          "s": "0406",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員升官等考試、114年關務人員升官等考試、114年交通事業郵政人員升資考試、114年交通事業港務人員升資考試",
+        "original_question_number": 25,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0036",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "essay",
+      "question": "海洋委員會海巡署某巡防艇深夜於金門限制水域發現一艘我國輪船形\n跡可疑似有走私跡象，乃加以跟監，雙雙進入料羅商港水域。\n請說明巡防艇於海上對疑似走私輪船可採取之勤務作為。（20分）\n於料羅商港發生之走私行為應由何機關管轄？（15分）\n海洋委員會海巡署應依據何種法規聯繫管轄機關？（15分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "33d86bed6f7e",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "131",
+          "s": "2712",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "海巡勤務",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0037",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "essay",
+      "question": "某海巡勤務人員於岸際發現偷渡船舶正實施非法入出國犯行，乃立即執\n行取締、檢查、攔阻接應車輛核對身分等作為。試附理由詳細回答下列\n問題：（每小題 25 分，共 50分）\n海巡勤務人員應注意非法入出國之模式有那些？\n查獲 21 名外國籍非法入國者，就其犯行應由何機關調查？擴大搜索\n鄰近岸際時，發現一我國國民正著手竊取漁民機車，依現行犯當場逮\n捕，其竊盜行為應由何機關調查？",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "33d86bed6f7e",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "131",
+          "s": "2712",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "海巡勤務",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0038",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "essay",
+      "question": "偵查機關在偵辦特殊重大刑案時，通常會召集所需機關、成員共組專案小\n組進行偵查，且需在現場處理、偵查情資、偵查作為、偵查組織等四個面\n向進行妥善管理與運用，期以達成破案之目的。請檢討現今偵辦跨境毒品\n走私犯罪案件時，在相關的現場處理、偵查情資、偵查作為及偵查組織等\n四個偵查管理面向所面臨的困境，並提出具體的策進建議。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "777967578668",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "131",
+          "s": "2704",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "犯罪偵查",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0039",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "essay",
+      "question": "網際網路空間中，相關犯罪的數位證據（DigitalEvidence）辨識、保全與\n採集是當前犯罪偵查工作的新挑戰。請問何謂數位證據的特性？（10 分）\n並請以偵查人員現場執行電腦及其相關設備的數位證據保全標準作業\n程序為例說明之。（15分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "777967578668",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "131",
+          "s": "2704",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "犯罪偵查",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0040",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "essay",
+      "question": "請列舉出實務界最常用的說謊偵測技術。（10 分）又被詢問人的自白是\n否具真實性的參考，可從那些指標作判斷？請予以敘明。（15分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "777967578668",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "131",
+          "s": "2704",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "犯罪偵查",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0041",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "essay",
+      "question": "案件偵辦中，線民運用與管理是個非常敏感與務實的問題，過去若干重\n大軍火或毒品走私案的偵破，均仰賴密線情報的提供，然偵查人員與線\n民的互動關係相當微妙，其中亦牽涉到諸多問題。請就線民運用的生態、\n方法、安全考量及注意事項分別敘述之。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "777967578668",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "131",
+          "s": "2704",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "犯罪偵查",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0042",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "essay",
+      "question": "單行道、速限、禁鳴喇叭、禁止停車或禁止超車等交通標誌與標線之法\n律性質為何？請依現制及實務說明之。（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "b796954d584f",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "131",
+          "s": "0408",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0043",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "essay",
+      "question": "衛生福利部為有效執行食品安全衛生管理法第 28 條第 1 項、第 2 項禁\n止食品標示、宣傳或廣告不實、誇張、易生誤解或宣稱醫療效能之規定，\n依同法第28 條第 4 項規定：「第一項不實、誇張或易生誤解與第二項醫\n療效能之認定基準、宣傳或廣告之內容、方式及其他應遵行事項之準則，\n由中央主管機關定之。」所訂定之「食品及相關產品標示宣傳廣告涉及\n不實誇張易生誤解或醫療效能認定準則」，請說明本準則之法律性質、意\n涵及效力。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "b796954d584f",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "131",
+          "s": "0408",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0044",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "關於行政法規新舊法適用，下列敘述何者錯誤？",
+      "options": [
+        "人民聲請許可案件處理程序終結前，據以准許之法規變更者，原則上適用新法規",
+        "人民聲請許可案件處理程序終結前，舊法規有利於當事人而新法規未廢除或禁止所聲請之事項 者，適用舊法規",
+        "新修正之普通法應優先於舊的特別法適用",
+        "違法行為後、裁處前法律變更，適用最有利於受處罰者之規定"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "b796954d584f",
+        "answer_pdf_sha1": "403e55525a12",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "131",
+          "s": "0408",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0045",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "關於依法行政原則，下列敘述何者錯誤？",
+      "options": [
+        "依法行政係指行政必須依據制定法令而為之，並未受一般法律原理原則之拘束",
+        "依法行政原則可再區分為法律保留原則與法律優位原則",
+        "若以法規命令作為行政之依據，則該法規命令應有具體明確之法律授權",
+        "縱然法律規範密度較寬鬆之給付行政，倘涉及公共利益之重大事項者，仍應受法律保留原則之 拘束 11030、11730 12330、12530 12830、13030 13130 14330、14530 30130、70130 71130"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "b796954d584f",
+        "answer_pdf_sha1": "403e55525a12",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "131",
+          "s": "0408",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0046",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "關於私經濟行政之敘述，下列何者錯誤？",
+      "options": [
+        "行政機關處於私人地位，並於私法支配下所為之行為",
+        "給付行政屬於私經濟行政範疇",
+        "行政機關汰舊換新，出售辦公物品之行為屬於私經濟行政",
+        "私經濟行政亦稱國庫行政"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "b796954d584f",
+        "answer_pdf_sha1": "403e55525a12",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "131",
+          "s": "0408",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0047",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "下列何者為公法人？",
+      "options": [
+        "國立臺灣大學",
+        "基隆市暖暖區",
+        "臺南市美術館",
+        "農業部農田水利署"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "b796954d584f",
+        "answer_pdf_sha1": "403e55525a12",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "131",
+          "s": "0408",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0048",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "下列何部法律對內政部政務次長有其適用？",
+      "options": [
+        "公務人員保障法",
+        "公務人員考績法",
+        "公務員懲戒法",
+        "公務人員退休資遣撫卹法"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "b796954d584f",
+        "answer_pdf_sha1": "403e55525a12",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "131",
+          "s": "0408",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0049",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "關於行政機關之管轄，下列敘述何者錯誤？",
+      "options": [
+        "行政機關因法規變更而喪失管轄權時，如經當事人及有管轄權機關之同意，得繼續為案件之處理",
+        "同一事件，數行政機關均有管轄權者，應先由受理在先之機關管轄",
+        "數行政機關於管轄權有爭議時，人民就其依法規申請之事件，原則上得向共同上級機關申請指 定管轄",
+        "行政機關不能依其組織法或其他行政法規，定其土地管轄權者，由上級機關指定"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "b796954d584f",
+        "answer_pdf_sha1": "403e55525a12",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "131",
+          "s": "0408",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0050",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "下列何者非屬一般處分？",
+      "options": [
+        "十字路口之紅綠燈號誌",
+        "集會遊行法上之解散處分",
+        "現有巷道之廢止公告",
+        "衛生福利部中央健康保險署公告之全民健康保險保險費負擔金額表"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "b796954d584f",
+        "answer_pdf_sha1": "403e55525a12",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "131",
+          "s": "0408",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0051",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "依據公務人員考績法，關於辦理考績之組織與程序，下列敘述何者錯誤？",
+      "options": [
+        "各機關應設考績委員會，其組織規程由行政院人事行政總處定之",
+        "考績委員會對於考績案件有疑義時，得向有關人員查詢",
+        "考績委員會對於考績擬列丁等及一次記二大過之人員，處分前應給予其陳述及申辯之機會",
+        "銓敘部審定公務人員考績案，如發現有違反考績法規者，應退還原考績機關另為適法之處分"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "b796954d584f",
+        "answer_pdf_sha1": "403e55525a12",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "131",
+          "s": "0408",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0052",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "中華民國國民取得外國國籍者，得經主管機關核准擔任下列何職務？",
+      "options": [
+        "國立高雄大學校長",
+        "臺北市市長",
+        "僑務委員會有給職委員",
+        "立法委員"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "b796954d584f",
+        "answer_pdf_sha1": "403e55525a12",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "131",
+          "s": "0408",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0053",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "主管機關為協助所屬公務員處理裁罰事件訂定之裁罰金額參考表，其性質為何？",
+      "options": [
+        "法規命令",
+        "緊急命令",
+        "行政規則",
+        "委辦規則"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "b796954d584f",
+        "answer_pdf_sha1": "403e55525a12",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "131",
+          "s": "0408",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0054",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "關於合法行政處分之廢止，下列敘述何者正確？",
+      "options": [
+        "非授予利益之合法行政處分，得由上級機關依職權為全部或一部之廢止",
+        "合法行政處分經廢止後，原則上自廢止之日起，失其效力",
+        "授予利益之合法行政處分，得依相對人之申請為全部或一部之廢止",
+        "授益處分之廢止，應自廢止原因發生後3年內為之 11030、11730 12330、12530 12830、13030 13130 14330、14530 30130、70130 71130"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "b796954d584f",
+        "answer_pdf_sha1": "403e55525a12",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "131",
+          "s": "0408",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 11,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0055",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "關於一般處分之敘述，下列何者錯誤？",
+      "options": [
+        "相對人之範圍依一般性特徵可得確定者為一般處分",
+        "有關公物之設定、變更、廢止為一般處分",
+        "一般處分之送達得以公告代替之",
+        "對一般處分不得提起行政爭訟"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "b796954d584f",
+        "answer_pdf_sha1": "403e55525a12",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "131",
+          "s": "0408",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 12,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0056",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "關於國家賠償之協議先行程序，下列敘述何者正確？",
+      "options": [
+        "請求國家賠償時，得以言詞向賠償義務機關提出請求",
+        "國家賠償協議成立時，應作成協議書，該項協議書須經公證後，始得為執行名義",
+        "賠償義務機關自開始協議之日起逾60日協議不成立時，請求權人得提起損害賠償之訴",
+        "請求國家賠償時，法院得依聲請為假扣押，命賠償義務機關暫先支付精神慰撫金"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "b796954d584f",
+        "answer_pdf_sha1": "403e55525a12",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "131",
+          "s": "0408",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 13,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0057",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "關於行政機關將違法行政處分轉換為與原處分具有相同實質及程序要件之其他處分，下列敘述何 者錯誤？",
+      "options": [
+        "行政處分若違反程序或方式規定，或有顯然錯誤，應屬得補正或更正之範圍，非屬得轉換之瑕疵",
+        "轉換對公益有重大危害或對當事人更不利者，不得轉換",
+        "轉換後之行政處分自始取代違法之原處分，故行政機關不須為轉換之表示",
+        "羈束處分不得轉換為裁量處分"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "b796954d584f",
+        "answer_pdf_sha1": "403e55525a12",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "131",
+          "s": "0408",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 14,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0058",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "下列何者非屬行政事實行為？",
+      "options": [
+        "行政鑑定",
+        "道路上之限速標誌",
+        "以物理上強制力所為之執行行為",
+        "陳情之回覆"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "b796954d584f",
+        "answer_pdf_sha1": "403e55525a12",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "131",
+          "s": "0408",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 15,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0059",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "關於公法上法律關係得以契約設定、變更或消滅之規定，下列敘述何者錯誤？",
+      "options": [
+        "得以契約標的具有公法性質，作為行政契約判斷標準之一",
+        "契約之內容以執行公法法規為目的，屬公法契約",
+        "行政機關原則上得以行政處分作為行使契約上權利之手段",
+        "二個以上之公權力主體得締結行政契約"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "b796954d584f",
+        "answer_pdf_sha1": "403e55525a12",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "131",
+          "s": "0408",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 16,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0060",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "關於行政罰之處罰對象，下列敘述何者錯誤？",
+      "options": [
+        "多數人故意共同實施因身分或其他特定關係成立之違反行政法上義務行為，其無此身分或特定 關係者，不受處罰",
+        "地方行政機關得為裁罰對象",
+        "私法人之董事因執行其職務之行為，致使私法人違反行政法上義務應受處罰者，該董事如有重 大過失，原則上應並受同一規定罰鍰之處罰",
+        "多數人故意共同實施違反行政法上義務之行為，應依其行為情節之輕重，分別處罰之"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "b796954d584f",
+        "answer_pdf_sha1": "403e55525a12",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "131",
+          "s": "0408",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 17,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0061",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "依行政執行法與司法實務見解，關於行政執行聲明異議之敘述，下列何者正確？",
+      "options": [
+        "對具行政處分性質之執行命令不服，經聲明異議程序，仍有不服時，聲明異議人可直接提起撤 銷訴訟",
+        "對具行政處分性質之執行命令不服，得擇一聲明異議或提起訴願",
+        "對具行政處分性質之執行命令不服，經聲明異議程序仍有不服者，應依法踐行訴願程序",
+        "行政執行貴在效率，聲明異議為特別之救濟程序，即不得再循一般爭訟程序請求救濟 11030、11730 12330、12530 12830、13030 13130 14330、14530 30130、70130 71130"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "b796954d584f",
+        "answer_pdf_sha1": "403e55525a12",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "131",
+          "s": "0408",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 18,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0062",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "關於行政程序法之迴避，下列敘述何者錯誤？",
+      "options": [
+        "公務員在行政程序中發現事件當事人曾為三等親內之姻親，應自行迴避",
+        "公務員在稅務事件中發現當事人為其所厭惡之國小導師，自認執行職務有偏頗之虞，向所屬機 關自請迴避，機關認為不符應自行迴避事由，應否准之",
+        "當事人有具體事證，足認承辦公務員執行職務有偏頗之虞，得向公務員所屬機關申請迴避",
+        "公務員所屬機關之長官於公務員有應自行迴避之事由而不迴避，而未經當事人申請迴避時，應 依職權命其迴避"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "b796954d584f",
+        "answer_pdf_sha1": "403e55525a12",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "131",
+          "s": "0408",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 19,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0063",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "下列何者得提起訴願救濟？",
+      "options": [
+        "公務人員對公務人員保障暨培訓委員會之復審決定不服",
+        "會計師不服懲戒處分，向財政部會計師覆審委員會聲請覆審，對於該覆審決議不服",
+        "義務人對具有行政處分性質之執行命令不服，依行政執行法聲明異議經上級機關駁回異議",
+        "納稅義務人對於課稅處分不服，依稅捐稽徵法申請復查，對於復查決定不服"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "b796954d584f",
+        "answer_pdf_sha1": "403e55525a12",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "131",
+          "s": "0408",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 20,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0064",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "關於訴願當事人適格之敘述，下列何者錯誤？",
+      "options": [
+        "訴願人具有訴願權能，得以自己名義提起訴願者，具有當事人適格",
+        "因行政處分遭受生活上不便利者，皆具有訴願當事人適格",
+        "行政處分相對人以外之第三人亦可能具訴願當事人適格",
+        "訴願當事人是否適格，受理訴願機關應依職權調查"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "b796954d584f",
+        "answer_pdf_sha1": "403e55525a12",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "131",
+          "s": "0408",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 21,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0065",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "依行政訴訟法規定，關於訴訟標的對於共同訴訟之各人，必須合一確定者，下列敘述何者錯誤？",
+      "options": [
+        "他造對於共同訴訟人中之一人之行為，其效力及於全體",
+        "共同訴訟人中之一人，生有訴訟當然停止之原因者，其效力及於全體",
+        "共同訴訟人中之一人之行為有利益於共同訴訟人者，其效力及於全體",
+        "共同訴訟人中之一人所為不利益於共同訴訟人之行為，其效力僅及於該人"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "b796954d584f",
+        "answer_pdf_sha1": "403e55525a12",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "131",
+          "s": "0408",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 22,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0066",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "下列何者為確認訴訟之類型？",
+      "options": [
+        "確認行政處分不當之訴",
+        "確認行政處分有無誤寫誤算等顯然錯誤之訴",
+        "確認公法上事實關係存在或不存在之訴",
+        "確認行政處分違法之訴"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "b796954d584f",
+        "answer_pdf_sha1": "403e55525a12",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "131",
+          "s": "0408",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 23,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0067",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "關於國家賠償，下列敘述何者錯誤？",
+      "options": [
+        "公共設施包括非由國家設置，但事實上由其管理且直接供公共使用之設施",
+        "公共設施委託民間團體管理時，因管理欠缺致人民身體受損害者，國家應負損害賠償責任",
+        "國家賠償請求權，自損害發生時起，因2年間不行使而消滅",
+        "賠償義務機關得於一定金額限度內，與請求權人逕行協議決定賠償金額"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "b796954d584f",
+        "answer_pdf_sha1": "403e55525a12",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "131",
+          "s": "0408",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 24,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0068",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "人民因執行機關依法實施即時強制，致其財產遭受特別犧牲，得採行何種請求權？",
+      "options": [
+        "請求國家賠償",
+        "請求損失補償",
+        "請求回復原狀",
+        "請求撤銷原強制行為"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "b796954d584f",
+        "answer_pdf_sha1": "403e55525a12",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112170",
+          "c": "131",
+          "s": "0408",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年公務人員升官等考試、112年關務人員升官等考試、112年交通事業鐵路人員升資考試、112年交通事業港務人員升資考試",
+        "original_question_number": 25,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0069",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "essay",
+      "question": "海域巡防勤務規劃，必須因應各種影響勤務之因素而妥善規劃，切忌一\n成不變，以發揮最大的勤務效能。請試述影響海域巡防勤務規劃的因素\n及海域巡防勤務規劃要領。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "36df938613b3",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "131",
+          "s": "2712",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "海巡勤務",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0070",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "essay",
+      "question": "請試述海巡機關處理海上聚眾活動之原則。並請分別說明在醞釀期準備\n預防階段、爆發期處理階段、解除期回復階段之處置作為。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "36df938613b3",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "131",
+          "s": "2712",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "海巡勤務",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0071",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "essay",
+      "question": "在嚴重特殊傳染性肺炎（COVID-19）疫情期間，連續發生數起非法泅渡\n及利用小型船筏偷渡來臺案件，為防堵此類案件再度發生，請試述海巡\n機關應加強之勤務作法及防疫作為。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "36df938613b3",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "131",
+          "s": "2712",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "海巡勤務",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0072",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "essay",
+      "question": "檢查為海巡勤務方式之一種，執行檢查勤務時，應兼顧維護受檢查人之\n自由、財產權、隱私權。請試述海巡機關人員實施檢查之態樣、實施範\n圍及實施要件。（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:42+00:00",
+        "source_pdf_sha1": "36df938613b3",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "131",
+          "s": "2712",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "海巡勤務",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0073",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "essay",
+      "question": "某日上午10 時，海洋委員會海巡署（以下簡稱海巡署）人員巡邏時發現\n有一名正在偷渡上岸之外國人士，於追捕該偷渡犯時，看見偷渡犯翻牆\n爬入設有大門警衛之社區大樓，海巡署人員能否未經大門警衛之同意而\n直接翻牆進入該社區搜索偷渡犯而逮捕之？請就法律依據及如何妥當\n執行二方面試述之。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:43+00:00",
+        "source_pdf_sha1": "82436c540ecb",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "131",
+          "s": "2704",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "犯罪偵查",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0074",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "essay",
+      "question": "海巡隊員於出海執行海上巡邏勤務時，接獲報案某漁船發生殺害船員案\n件，海巡隊員趕往現場登船處理時，發現有一船員躺在甲板上已死亡，\n身上有血跡且疑有刀傷，顯可疑遭人殺害，海巡隊員在此犯罪現場應如\n何處理，以利案件之偵辦，請試述之。（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:43+00:00",
+        "source_pdf_sha1": "82436c540ecb",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "131",
+          "s": "2704",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "犯罪偵查",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0075",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "essay",
+      "question": "海巡人員某甲詢問犯罪嫌疑人時，某甲自己是否亦能同時製作筆錄？\n請試述之。（10分）\n海巡人員某甲如從日間開始詢問犯罪嫌疑人，至夜間仍未製作筆錄完\n畢時，是否能繼續詢問製作筆錄？請試述之。（15 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:43+00:00",
+        "source_pdf_sha1": "82436c540ecb",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "131",
+          "s": "2704",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "犯罪偵查",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0076",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "essay",
+      "question": "某一線民舉報某甲使用 A漁船進行走私毒品，你受指派承辦此一走私毒\n品案件，請試擬自受理檢舉起至查獲時止之偵查步驟（假設本件受理檢\n舉後，最終查獲A漁船走私毒品）。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:43+00:00",
+        "source_pdf_sha1": "82436c540ecb",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "131",
+          "s": "2704",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "犯罪偵查",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0077",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "essay",
+      "question": "某直轄市政府為提升轄區內公共場所升降機之安全性，制定自治條例明\n定升降機應定期安全檢查，檢查合格者除給予書面證書外，另貼上合格\n標章，公示檢查日期與效期，以發揮大眾一起監督之效果。惟市政府人\n力有限，擬開放民間業者執行安全檢查工作，檢查合格者由業者製發書\n面證書交其收執，另為提升合格標章之公信力，規定必須貼用市政府製\n作之標章。試問：民間檢查業者代替市政府執行安全檢查工作之法律性\n質為何？設置某公共場所升降機之私人業者不服檢查未通過之文書，應\n向何者提起行政救濟？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:43+00:00",
+        "source_pdf_sha1": "e540f9f070e7",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "131",
+          "s": "0407",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "行政法",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0078",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "essay",
+      "question": "生理男甲欲改變性別成為女性，向所在地戶政機關申請性別變更登記。\n戶政機關收件後，以內政部曾有令示，欲變更性別者應先行提出變性手\n術證明，始得辦理性別變更登記為由，認甲所備文件不齊，函知甲補正\n已摘除性器官之證明文件。試問：此通知函之法律性質為何？甲若不服，\n應如何提起法律救濟？（25分）\n11030、11730\n12330、12530\n12830、13030\n13130\n14330、14530\n30130、40130\n41130、70130\n71130",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:43+00:00",
+        "source_pdf_sha1": "e540f9f070e7",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "131",
+          "s": "0407",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "行政法",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0079",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "甲建設公司（以下簡稱甲）向A市工務局申請某建地建築執照獲准後，隨即動工並已接近完工。 但本案經A市工務局的上級機關實施業務督導時，發現甲建地位居建築高度限制區域，要求A市 工務局依法改正。A市工務局據此發函撤銷建照，要求甲重新遞件申請，並將超過限高部分之樓 層拆除。若甲不服提起救濟，得以下列何者據以請求財產損失補償之理由？",
+      "options": [
+        "信賴保護原則",
+        "不當聯結禁止原則",
+        "平等原則",
+        "公益原則"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:43+00:00",
+        "source_pdf_sha1": "e540f9f070e7",
+        "answer_pdf_sha1": "8eeba1fd9cc0",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "131",
+          "s": "0407",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0080",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "下列何者非屬不確定法律概念？",
+      "options": [
+        "申請紓困條件為因受疫情影響而生活陷入困頓者",
+        "對於人民陳情案件，受理機關應以公正積極態度處理之",
+        "對於人民違法排放污染之裁罰，同一法條同一年內有違反並裁罰在案者得加重處罰",
+        "開發行為對於環境生態有重大侵害之虞時，主管機關得命其停工"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:43+00:00",
+        "source_pdf_sha1": "e540f9f070e7",
+        "answer_pdf_sha1": "8eeba1fd9cc0",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "131",
+          "s": "0407",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0081",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "A市環保局審查甲工廠廢水排放許可證有效期間的展延申請，A市環保局要求甲工廠須支付鄰近 里民健康檢查費用，始能通過審查。甲工廠負責人不服提起行政救濟時，得主張A市環保局違反 何種一般行政法原則？",
+      "options": [
+        "比例原則",
+        "不當聯結禁止原則",
+        "信賴保護原則",
+        "平等原則"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:43+00:00",
+        "source_pdf_sha1": "e540f9f070e7",
+        "answer_pdf_sha1": "8eeba1fd9cc0",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "131",
+          "s": "0407",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0082",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "民間團體或個人受託行使公權力所生之法律關係，下列敘述何者錯誤？",
+      "options": [
+        "於受委託之範圍以外，非為行政機關",
+        "於受委託之範圍以外與第三人發生法律關係者，應屬公法關係",
+        "受委託行使公權力之團體，其執行職務之人，視同委託機關之公務員",
+        "於受委託之範圍內，應以該私人或團體的名義作成行政處分"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:43+00:00",
+        "source_pdf_sha1": "e540f9f070e7",
+        "answer_pdf_sha1": "8eeba1fd9cc0",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "131",
+          "s": "0407",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0083",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "下列何者無對外以自己名義行文的能力？",
+      "options": [
+        "宜蘭縣政府教育處",
+        "雲林縣警察局",
+        "高雄市政府環境保護局",
+        "國立臺東大學"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:43+00:00",
+        "source_pdf_sha1": "e540f9f070e7",
+        "answer_pdf_sha1": "8eeba1fd9cc0",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "131",
+          "s": "0407",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0084",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "行政機關執行職務時，下列有關請求無隸屬關係之其他機關協助的敘述，何者有誤？",
+      "options": [
+        "行政機關因人員、設備不足等事實上原因時，得請求其他機關協助",
+        "對於請求其他機關協助，原則上應以書面為之",
+        "被請求機關得以請求協助之行為，非其權限範圍為由拒絕之",
+        "被請求機關若經請求機關之共同上級機關協調，不得向請求協助機關要求負擔行政協助所需費用"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:43+00:00",
+        "source_pdf_sha1": "e540f9f070e7",
+        "answer_pdf_sha1": "8eeba1fd9cc0",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "131",
+          "s": "0407",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0085",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "下列何者為公法人？",
+      "options": [
+        "國家運動訓練中心",
+        "農田水利會",
+        "國立大學",
+        "法律扶助基金會"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:43+00:00",
+        "source_pdf_sha1": "e540f9f070e7",
+        "answer_pdf_sha1": "8eeba1fd9cc0",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "131",
+          "s": "0407",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0086",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "甲為某機關公務人員因辦理業務有重大疏失且不服長官命令，態度惡劣，經該機關公務人員考績 暨甄選委員會審議後，依據公務人員考績法作成記一大過之決議。甲於收受機關公文書通知其考 績會決議核予記一大過之結果後不服，依法應如何救濟？",
+      "options": [
+        "向服務機關的上級機關提起訴願",
+        "逕行向行政法院提起撤銷之訴",
+        "向公務人員保障暨培訓委員會提起復審",
+        "向服務機關提起申訴 11030、11730 12330、12530 12830、13030 13130 14330、14530 30130、40130 41130、70130 71130"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:43+00:00",
+        "source_pdf_sha1": "e540f9f070e7",
+        "answer_pdf_sha1": "8eeba1fd9cc0",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "131",
+          "s": "0407",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0087",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "有關訴願法的「不利益變更禁止原則」，下列敘述何者錯誤？",
+      "options": [
+        "以訴願管轄機關為規範對象，不及於原處分機關",
+        "原處分裁量濫用或逾越裁量權限經撤銷後，原處分機關重為處分得較原行政處分不利，不受不 利益變更禁止原則之拘束",
+        "除非原行政處分因裁量濫用或逾越裁量權限經撤銷後，否則原處分機關重為處分較原行政處分 不利，違反禁止恣意原則",
+        "訴願管轄機關及原處分機關皆為規範對象"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:43+00:00",
+        "source_pdf_sha1": "e540f9f070e7",
+        "answer_pdf_sha1": "8eeba1fd9cc0",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "131",
+          "s": "0407",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0088",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "下列何項非屬行政程序法所規定之行政規則？",
+      "options": [
+        "財政部針對營業稅法適用之解釋函",
+        "環保局針對違法棄置廢棄物之裁罰基準",
+        "全民健康保險之保險憑證收費標準",
+        "交通局分層負責明細表"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:43+00:00",
+        "source_pdf_sha1": "e540f9f070e7",
+        "answer_pdf_sha1": "8eeba1fd9cc0",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "131",
+          "s": "0407",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0089",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "核發陸生來臺就學簽證，並附記在臺期間，不得受僱工作。此項附記為行政處分何種附款？",
+      "options": [
+        "條件",
+        "負擔",
+        "保留廢止權",
+        "期限"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:43+00:00",
+        "source_pdf_sha1": "e540f9f070e7",
+        "answer_pdf_sha1": "8eeba1fd9cc0",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "131",
+          "s": "0407",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 11,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0090",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "下列有關行政契約的敘述，依據行政程序法相關規定，何者正確？",
+      "options": [
+        "行政機關得與人民締結行政契約，創設私法性質的法律關係",
+        "行政機關為能有效達成行政目的解決爭執，得與人民締結行政契約方式代替行政處分",
+        "行政契約內容有關對待給付義務，行政機關與人民給付不須相當",
+        "行政契約之締結除法規另有規定外，得以口頭或書面方式為之"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:43+00:00",
+        "source_pdf_sha1": "e540f9f070e7",
+        "answer_pdf_sha1": "8eeba1fd9cc0",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "131",
+          "s": "0407",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 12,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0091",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "有關行政機關，下列敘述何者錯誤？",
+      "options": [
+        "得代表各行政主體為意思表示之組織",
+        "須有單獨法定地位",
+        "須具備完全獨立的人員編制或預算",
+        "有當事人能力"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:43+00:00",
+        "source_pdf_sha1": "e540f9f070e7",
+        "answer_pdf_sha1": "8eeba1fd9cc0",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "131",
+          "s": "0407",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 13,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0092",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "有關政府資訊例外豁免不公開之事由與敘述，下列何者有誤？",
+      "options": [
+        "政府機關作成意思決定前，內部準備作業均不得公開",
+        "依法核定為國家機密應秘密事項得不公開",
+        "公開或提供將妨礙刑事被告受公正裁判",
+        "公開或提供將侵害個人隱私"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:43+00:00",
+        "source_pdf_sha1": "e540f9f070e7",
+        "answer_pdf_sha1": "8eeba1fd9cc0",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "131",
+          "s": "0407",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 14,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0093",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "有政府採購法第101條第1項係因廠商已無履行義務能力者，例如第13款（破產程序中之廠商）， 機關通知廠商將刊登政府採購公報之行為，該「刊登行為」之性質為下列何者？",
+      "options": [
+        "裁罰性之不利處分",
+        "行政執行",
+        "觀念通知",
+        "管制性之不利處分"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:43+00:00",
+        "source_pdf_sha1": "e540f9f070e7",
+        "answer_pdf_sha1": "8eeba1fd9cc0",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "131",
+          "s": "0407",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 15,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0094",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "公立醫院與病患間所成立之醫療關係，下列敘述何者有誤？",
+      "options": [
+        "乃公立醫院立於私法主體地位所從事的私經濟行為",
+        "屬於一般私法契約關係",
+        "非屬公權力行使之範疇",
+        "與公辦民營醫院一樣，排除國家賠償責任之適用"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:43+00:00",
+        "source_pdf_sha1": "e540f9f070e7",
+        "answer_pdf_sha1": "8eeba1fd9cc0",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "131",
+          "s": "0407",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 16,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0095",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "下列何者非屬行政罰？",
+      "options": [
+        "違法排放廢氣，廢止排放許可證",
+        "逾期未繳納稅金者課以滯納金",
+        "命有公共安全之虞的營業場所停止營業",
+        "違反食品安全管理法規定之設備沒入 11030、11730 12330、12530 12830、13030 13130 14330、14530 30130、40130 41130、70130 71130"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:43+00:00",
+        "source_pdf_sha1": "e540f9f070e7",
+        "answer_pdf_sha1": "8eeba1fd9cc0",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "131",
+          "s": "0407",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 17,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0096",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "下列有關即時強制的敘述，何者正確？",
+      "options": [
+        "即時強制方法對人管束措施，最長不得超過二十四小時",
+        "對於住宅、建築物或其他處所之進入，有維護公益之必要時，機關自行審酌即可為之",
+        "人民因執行機關依法實施即時強制，致其財產損失時，縱有可歸責該人民之事由亦得請求損害賠償",
+        "對於物之扣留，除依法應沒收、沒入、毀棄或應變價發還者外，其扣留期間不得超過二十日"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:43+00:00",
+        "source_pdf_sha1": "e540f9f070e7",
+        "answer_pdf_sha1": "8eeba1fd9cc0",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "131",
+          "s": "0407",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 18,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0097",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "依據行政程序法規定，下列行政行為，何者適用行政程序法？",
+      "options": [
+        "對於走私貨物行為人之追緝",
+        "營業稅資料查核",
+        "對於公務員之平時考核",
+        "國家考試之評分"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:43+00:00",
+        "source_pdf_sha1": "e540f9f070e7",
+        "answer_pdf_sha1": "8eeba1fd9cc0",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "131",
+          "s": "0407",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 19,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0098",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "下列何者非屬於訴願之標的？",
+      "options": [
+        "環保局開設的違反廢棄物清理法裁處書",
+        "稅捐機關開設的暫緩稅額通知書",
+        "附條件環境影響評估許可",
+        "政府與民眾間簽訂自願搬遷和解協議"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:43+00:00",
+        "source_pdf_sha1": "e540f9f070e7",
+        "answer_pdf_sha1": "8eeba1fd9cc0",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "131",
+          "s": "0407",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 20,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0099",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "內政部警政署委由縣警察局辦理外國人永久居留等事項。甲為美國籍外國人，向縣警察局申請永 久居留，經縣警察局審核後認甲不符法定申請資格，甲不服，欲提起訴願。下列何者正確？",
+      "options": [
+        "內政部警政署與縣警察局為行政委託關係",
+        "訴願管轄機關為內政部警政署",
+        "訴願管轄機關為內政部",
+        "訴願管轄機關為縣政府"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:43+00:00",
+        "source_pdf_sha1": "e540f9f070e7",
+        "answer_pdf_sha1": "8eeba1fd9cc0",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "131",
+          "s": "0407",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 21,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0100",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "下列何者屬於委託行使公權力行為？",
+      "options": [
+        "機關辦公處所清潔勞務之委託",
+        "機關委託民間業者實施汽車定期檢驗業務",
+        "警察指揮民間拖吊業者實施交通違規車輛拖吊業務",
+        "公營事業的經營活動"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:43+00:00",
+        "source_pdf_sha1": "e540f9f070e7",
+        "answer_pdf_sha1": "8eeba1fd9cc0",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "131",
+          "s": "0407",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 22,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0101",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "甲所有的部分土地長期供公眾通行使用，鄉公所並鋪設柏油道路，設置路燈及負責道路修繕。經 過數十年鄰地的聯外道路系統已相當發達，已少有公眾使用該既成道路。甲希望能使用供公眾使 用既成道路的土地，擬向行政法院提起訴訟恢復既成道路上土地得自由使用收益狀態。甲應提起 下列何種行政訴訟？",
+      "options": [
+        "撤銷之訴",
+        "一般給付之訴",
+        "所有權返還之訴",
+        "確認公法法律關係存否之訴"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:43+00:00",
+        "source_pdf_sha1": "e540f9f070e7",
+        "answer_pdf_sha1": "8eeba1fd9cc0",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "131",
+          "s": "0407",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 23,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0102",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "甲市政府基於成本考量將該市所興建所有的焚化爐，委託乙公司運作經營。由於乙公司人員操作 焚化爐不當，釋放大量戴奧辛等有毒氣體致周邊居民吸入後產生健康的危害。請問受害居民應如 何求償，以下敘述何者正確？",
+      "options": [
+        "甲市政府既已將焚化爐委託乙公司經營管理，受害居民僅能向乙公司行使民事侵權行為之損害 賠償，國家並無責任",
+        "受害人民仍得以甲市政府為賠償義務機關提起國家賠償之訴，不論該焚化爐是否已經委託乙公 司經營管理",
+        "受害人民對於其身體健康的損害，必須證明乙公司人員操作焚化爐有過失，始能請求國家賠償",
+        "受害人民對於身體健康之損害，僅能擇一向乙公司提起民事損害賠償之訴，或以甲市政府為賠 償義務機關提起國家賠償之訴"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:43+00:00",
+        "source_pdf_sha1": "e540f9f070e7",
+        "answer_pdf_sha1": "8eeba1fd9cc0",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "131",
+          "s": "0407",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 24,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "promotion-6ec17a12-0103",
+      "exam_id": "promotion-6ec17a12",
+      "question_type": "single_choice",
+      "question": "駕駛人於路邊停車格內停車，主管機關因該處地層下陷，緊急遂請拖吊業者將其車移至適當地點。 駕駛人事後發覺車輛因移置而受有損害。其可提出何種救濟？",
+      "options": [
+        "向法院提起國家賠償",
+        "向主管機關提起民事損害賠償",
+        "向拖吊業者提起民事損害賠償",
+        "向主管機關請求損失補償"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:28:43+00:00",
+        "source_pdf_sha1": "e540f9f070e7",
+        "answer_pdf_sha1": "8eeba1fd9cc0",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110170",
+          "c": "131",
+          "s": "0407",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "110",
+        "exam_name": "110年公務人員升官等考試、110年關務人員升官等考試、110年交通事業公路人員升資考試、110年交通事業港務人員升資考試",
+        "original_question_number": 25,
+        "answer_corrected": false,
+        "flags": []
+      }
+    }
+  ]
+}

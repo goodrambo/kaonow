@@ -1,0 +1,70 @@
+{
+  "slug": "pukao-e9ff7ca9",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:36:30+00:00",
+  "paper_count": 17,
+  "paper_with_questions": 17,
+  "question_count": 526,
+  "type_counts": {
+    "single_choice": 500,
+    "essay": 26
+  },
+  "issues": [
+    {
+      "year": "113",
+      "subject": "客家歷史與文化概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "客家政治與經濟概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "客家歷史與文化概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "客家政治與經濟概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 3,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "客家歷史與文化概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "客家政治與經濟概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 3,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "客家歷史與文化概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    }
+  ]
+}

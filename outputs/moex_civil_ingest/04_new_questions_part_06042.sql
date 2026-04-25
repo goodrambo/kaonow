@@ -1,0 +1,42 @@
+-- W1.6 questions batch 6042/9310 (10)
+
+INSERT INTO public.questions (id, exam_id, paper_id, subject_id, chapter_id, question_type, question_text, options, correct_answer, correct_answer_json, auto_gradable, source, is_active, version, source_meta, explanation)
+VALUES
+  ('judicial-6a749408-moex-00021', 'judicial-6a749408', 'judicial-6a749408-moex-113-0b2477b6', 'sub-judicial-6a749408-02', NULL, 'essay', '英國發展心理學家鮑比（John Bowlby）提出依附理論（attachment
+theory），說明主要照顧者照顧嬰兒的方式會讓嬰兒發展出特定的依附
+型態。而依附型態所形成之內部運作模式，將影響個人長大後在人際關
+係中的感受、想法和期望，後來愛因斯沃斯（MaryAinsworth）透過一
+系列研究發展出四種依附型態，獲得世界各地心理學家的重視與廣泛應
+用。請回答以下問題：
+愛因斯沃斯提出的四種依附型態為何？並請說明每一種依附型態在
+成人的人際關係裡可能出現之情緒與行為樣態。（20 分）
+何謂依附創傷？並請說明此對成人人際關係的影響。（5分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:26:09+00:00", "source_pdf_sha1": "992a7079f744", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "113120", "c": "111", "s": "0806", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "心理學", "year": "113", "exam_name": "113年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、未具擬任職務任用資格取得法官遴選資格考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "civil_slug": "judicial", "civil_category": "心理測驗員"}'::jsonb, NULL),
+  ('judicial-6a749408-moex-00022', 'judicial-6a749408', 'judicial-6a749408-moex-113-0b2477b6', 'sub-judicial-6a749408-02', NULL, 'essay', '關於吸毒者的矯治主要有「犯罪說」、「疾病說」兩大派別。特別發生重
+大社會案件，如毒蟲向父母要不到錢買毒憤而弒親時，兩派觀點又會引
+發鄉民們論戰。請問您對毒癮的成因及矯治方法之觀點為何？請先分別
+說明「犯罪說」與「疾病說」之主要重點，再提出您個人的觀點與您認
+為有效的矯治方法。（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:26:09+00:00", "source_pdf_sha1": "992a7079f744", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "113120", "c": "111", "s": "0806", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "心理學", "year": "113", "exam_name": "113年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、未具擬任職務任用資格取得法官遴選資格考試", "original_question_number": "二", "answer_corrected": false, "flags": [], "civil_slug": "judicial", "civil_category": "心理測驗員"}'::jsonb, NULL),
+  ('judicial-6a749408-moex-00023', 'judicial-6a749408', 'judicial-6a749408-moex-113-0b2477b6', 'sub-judicial-6a749408-02', NULL, 'essay', '生活中的衝突無所不在，個人也會因為對生活中出現目標之內在動機不
+同，而產生心理衝突，勒温（KurtLewin）針對個人內在兩種力量的衝突
+提出了三種衝突類型：⑴雙趨衝突，⑵雙避衝突，⑶趨避衝突。請說明
+此三種衝突類型之內涵，並分別以「青少年學生輟學加入幫派」為例說
+明之。（25 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:26:09+00:00", "source_pdf_sha1": "992a7079f744", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "113120", "c": "111", "s": "0806", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "心理學", "year": "113", "exam_name": "113年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、未具擬任職務任用資格取得法官遴選資格考試", "original_question_number": "三", "answer_corrected": false, "flags": [], "civil_slug": "judicial", "civil_category": "心理測驗員"}'::jsonb, NULL),
+  ('judicial-6a749408-moex-00024', 'judicial-6a749408', 'judicial-6a749408-moex-113-0b2477b6', 'sub-judicial-6a749408-02', NULL, 'essay', '主管計劃決策和情緒控管的前額葉皮質（prefrontalcortex）通常在 18 至
+25 歲間發展成熟，因此未發展成熟的前額葉皮質會導致正值青春期的青
+少年出現某些正向或負向行為。請寫出五項因未成熟前額葉皮質導致青
+少年常見的行為特徵或型態，並說明之。（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:26:09+00:00", "source_pdf_sha1": "992a7079f744", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "113120", "c": "111", "s": "0806", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "心理學", "year": "113", "exam_name": "113年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、未具擬任職務任用資格取得法官遴選資格考試", "original_question_number": "四", "answer_corrected": false, "flags": [], "civil_slug": "judicial", "civil_category": "心理測驗員"}'::jsonb, NULL),
+  ('judicial-6a749408-moex-00025', 'judicial-6a749408', 'judicial-6a749408-moex-113-fddbd72f', 'sub-judicial-6a749408-03', NULL, 'essay', '心理衡鑑的目的為何？心理衡鑑包含那些策略？實施的步驟為何？
+（20 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:26:09+00:00", "source_pdf_sha1": "a49968769baa", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "113120", "c": "111", "s": "0810", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "心理測驗與衡鑑", "year": "113", "exam_name": "113年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、未具擬任職務任用資格取得法官遴選資格考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "civil_slug": "judicial", "civil_category": "心理測驗員"}'::jsonb, NULL),
+  ('judicial-6a749408-moex-00026', 'judicial-6a749408', 'judicial-6a749408-moex-113-fddbd72f', 'sub-judicial-6a749408-03', NULL, 'essay', '試分別說明自陳式量表與投射性測驗工具的特徵，以及使用上的優、缺
+點。（30分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:26:09+00:00", "source_pdf_sha1": "a49968769baa", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "113120", "c": "111", "s": "0810", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "心理測驗與衡鑑", "year": "113", "exam_name": "113年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、未具擬任職務任用資格取得法官遴選資格考試", "original_question_number": "二", "answer_corrected": false, "flags": [], "civil_slug": "judicial", "civil_category": "心理測驗員"}'::jsonb, NULL),
+  ('judicial-6a749408-moex-00027', 'judicial-6a749408', 'judicial-6a749408-moex-113-fddbd72f', 'sub-judicial-6a749408-03', NULL, 'essay', '電腦輔助的心理衡鑑方法有何優、缺點？使用電腦化心理測驗，主試者
+應額外注意的事項為何？（30 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:26:09+00:00", "source_pdf_sha1": "a49968769baa", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "113120", "c": "111", "s": "0810", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "心理測驗與衡鑑", "year": "113", "exam_name": "113年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、未具擬任職務任用資格取得法官遴選資格考試", "original_question_number": "三", "answer_corrected": false, "flags": [], "civil_slug": "judicial", "civil_category": "心理測驗員"}'::jsonb, NULL),
+  ('judicial-6a749408-moex-00028', 'judicial-6a749408', 'judicial-6a749408-moex-113-fddbd72f', 'sub-judicial-6a749408-03', NULL, 'essay', '倫理準則反映了專業的價值觀。試述至少五項與心理衡鑑有關的倫理準
+則及其內涵。（20 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:26:09+00:00", "source_pdf_sha1": "a49968769baa", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "113120", "c": "111", "s": "0810", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "心理測驗與衡鑑", "year": "113", "exam_name": "113年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、未具擬任職務任用資格取得法官遴選資格考試", "original_question_number": "四", "answer_corrected": false, "flags": [], "civil_slug": "judicial", "civil_category": "心理測驗員"}'::jsonb, NULL),
+  ('judicial-6a749408-moex-00029', 'judicial-6a749408', 'judicial-6a749408-moex-113-696aa37c', 'sub-judicial-6a749408-04', NULL, 'essay', '何謂中途輟學學生？「生涯輔導」對中途輟學學生是非常重要的輔導策
+略，諮商的重點及技巧主要為何？可達到預防犯罪的效果為何？可以合
+作的專業團隊為何？（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:26:09+00:00", "source_pdf_sha1": "a0390cb7d63f", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "113120", "c": "111", "s": "0807", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "諮商與輔導", "year": "113", "exam_name": "113年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、未具擬任職務任用資格取得法官遴選資格考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "civil_slug": "judicial", "civil_category": "心理測驗員"}'::jsonb, NULL),
+  ('judicial-6a749408-moex-00030', 'judicial-6a749408', 'judicial-6a749408-moex-113-696aa37c', 'sub-judicial-6a749408-04', NULL, 'essay', '「輔導與諮商專業倫理」中，對於以下 5 項範疇的規範為何？㉑當事人的
+最佳利益㉒個案研究㉓解釋輔導與諮商資料㉔家庭諮商㉕未成年人諮
+商（25 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:26:09+00:00", "source_pdf_sha1": "a0390cb7d63f", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "113120", "c": "111", "s": "0807", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "諮商與輔導", "year": "113", "exam_name": "113年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、未具擬任職務任用資格取得法官遴選資格考試", "original_question_number": "二", "answer_corrected": false, "flags": [], "civil_slug": "judicial", "civil_category": "心理測驗員"}'::jsonb, NULL)
+ON CONFLICT (id) DO NOTHING;

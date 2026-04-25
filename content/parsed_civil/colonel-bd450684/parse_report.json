@@ -1,0 +1,30 @@
+{
+  "slug": "colonel-bd450684",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:26:59+00:00",
+  "paper_count": 3,
+  "paper_with_questions": 3,
+  "question_count": 35,
+  "type_counts": {
+    "essay": 10,
+    "single_choice": 25
+  },
+  "issues": [
+    {
+      "year": "114",
+      "subject": "刑法及犯罪學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "刑法及犯罪學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    }
+  ]
+}

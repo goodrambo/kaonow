@@ -1,0 +1,53 @@
+-- W1.6 questions batch 5041/9310 (10)
+
+INSERT INTO public.questions (id, exam_id, paper_id, subject_id, chapter_id, question_type, question_text, options, correct_answer, correct_answer_json, auto_gradable, source, is_active, version, source_meta, explanation)
+VALUES
+  ('heelevel3-7c4986e7-moex-00005', 'heelevel3-7c4986e7', 'heelevel3-7c4986e7-moex-114-e0b1f2ed', 'sub-heelevel3-7c4986e7-02', NULL, 'essay', '甲公司在 X1 年 1 月 1 日以$8,000,000 購得一棟辦公大樓，其中土地
+成本為$5,000,000，房屋成本為$3,000,000，預估使用年限 15 年，殘
+值$250,000。甲公司擬將該大樓以營業租賃出租，將之分類為投資性
+不動產，並採公允價值模式衡量。X1 年底該大樓之土地與房屋公允
+價值分別為$5,100,000 及$3,200,000；X2 年底大樓之土地與房屋公允
+價值分別為$5,150,000 及$3,050,000。X3 年 10 月 1 日，甲公司將該
+大樓轉為自用，土地與房屋之公允價值分別為$5,600,000 與
+$2,800,000，估計使用年限為 12年，殘值$160,000，採直線法提列折
+舊。
+試作 X2 年及 X3 年該辦公大樓相關分錄。該辦公大樓對 X3 年當期
+損益之影響為多少？（15分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:32:24+00:00", "source_pdf_sha1": "3919d42dceee", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "114080", "c": "223", "s": "0802", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "會計學", "year": "114", "exam_name": "114年公務人員高等考試三級考試暨普通考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "civil_slug": "heelevel3", "civil_category": "金融保險"}'::jsonb, NULL),
+  ('heelevel3-7c4986e7-moex-00006', 'heelevel3-7c4986e7', 'heelevel3-7c4986e7-moex-114-e0b1f2ed', 'sub-heelevel3-7c4986e7-02', NULL, 'essay', '甲公司於 X1 年 3 月 1 日與乙公司簽訂一年期合約，將 X、Y 兩項智
+慧財產授權予乙公司。X授權於X1年3月1日移轉，Y授權於X1年
+5月1日移轉，兩項授權均於移轉時即滿足履約義務。X與Y兩項授
+權之單獨售價分別為$15,000 及$5,000，但合約載明 X 授權之對價為
+乙公司使用X授權之產品銷售金額的10%，Y授權之對價為固定金額
+$2,000。甲公司估計以銷售基礎計算之X授權的權利金為$18,000。乙
+公司於每月月底結算當月之銷售額並繳付甲公司X授權之權利金，另
+於5月1日移轉Y授權時繳付現金$2,000予甲公司。乙公司在3月、
+4月及5月分別交付X授權之權利金$1,200、$1,500及$800。
+試作甲公司在 X1 年 3 月、4月及5 月與該合約相關之分錄。（15分）
+22340', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:32:24+00:00", "source_pdf_sha1": "3919d42dceee", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "114080", "c": "223", "s": "0802", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "會計學", "year": "114", "exam_name": "114年公務人員高等考試三級考試暨普通考試", "original_question_number": "二", "answer_corrected": false, "flags": [], "civil_slug": "heelevel3", "civil_category": "金融保險"}'::jsonb, NULL),
+  ('heelevel3-7c4986e7-moex-00007', 'heelevel3-7c4986e7', 'heelevel3-7c4986e7-moex-114-e0b1f2ed', 'sub-heelevel3-7c4986e7-02', NULL, 'essay', '甲公司 X4 年相關資料如下：
+㉑每股面值$20 之普通股期初流通在外股數為 80,000 股，4 月 1 日買
+回庫藏股 2,000 股，並在 10 月 1 日現金增資發行新股 10,000 股。
+另外，7月1日因行使認股權而發行4,000股。
+㉒ X2 年發行 8%累積可轉換特別股 5,000股，每股面值$100，每股特
+別股可轉換 5股普通股。該特別股 X4 年全年流通在外並無轉換。
+㉓ X3 年發行認股權 1,000 單位，每單位認股權可按每股$30 認購普
+通股 10 股。X4 年 7 月 1 日有 400 單位行使認股權，仍有 600 單
+位認股權尚未行使。
+㉔ X2 年發行面值$1,000，6%可轉換公司債 500 張，每張可轉換 20
+股普通股。負債組成部分之有效利率為 5%，X4年初應付公司債之
+帳面金額為$525,000。該公司債 X4 年全年流通在外並無轉換。
+㉕ X4 年稅後淨利為$222,600，所得稅率20%。
+㉖普通股 X4 年1 月 1 日至 6月 30 日之平均股價為$50，全年平均股
+價為$60。
+試作：（需列示計算過程）
+計算X4年之加權平均流通在外普通股股數及基本每股盈餘。（8分）
+計算各潛在普通股之每增額股份盈餘（earnings per incremental
+share）及稀釋每股盈餘。（12分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:32:24+00:00", "source_pdf_sha1": "3919d42dceee", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "114080", "c": "223", "s": "0802", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "會計學", "year": "114", "exam_name": "114年公務人員高等考試三級考試暨普通考試", "original_question_number": "三", "answer_corrected": false, "flags": [], "civil_slug": "heelevel3", "civil_category": "金融保險"}'::jsonb, NULL),
+  ('heelevel3-7c4986e7-moex-00008', 'heelevel3-7c4986e7', 'heelevel3-7c4986e7-moex-114-e0b1f2ed', 'sub-heelevel3-7c4986e7-02', NULL, 'single_choice', '甲公司與丙公司在X5年7月1日簽訂合約，約定甲公司將於X7年7月1日移轉一套機器 給丙公司。該合約有兩種付款選擇：丙公司於X5年7月1日簽約時支付款項$1,500,000。 丙公司於X7年7月1日取得對機器之控制時，支付款項$1,780,000。丙公司選擇在合約簽 訂時即支付$1,500,000給甲公司。甲、丙公司在合約開始時單獨財務融資交易之折現率為6%， 而市場利率為5%。甲公司因預收丙公司款項而應在X6年認列的利息費用為何？', '["$75,000", "$76,875", "$90,000", "$92,700"]'::jsonb, 3, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:32:24+00:00", "source_pdf_sha1": "3919d42dceee", "answer_pdf_sha1": "55ed3776824a", "source_family": "moex-gov-tw", "moex": {"exam_code": "114080", "c": "223", "s": "0802", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "會計學", "year": "114", "exam_name": "114年公務人員高等考試三級考試暨普通考試", "original_question_number": 1, "answer_corrected": false, "flags": [], "civil_slug": "heelevel3", "civil_category": "金融保險"}'::jsonb, NULL),
+  ('heelevel3-7c4986e7-moex-00009', 'heelevel3-7c4986e7', 'heelevel3-7c4986e7-moex-114-e0b1f2ed', 'sub-heelevel3-7c4986e7-02', NULL, 'single_choice', '辛公司X6年初給予7位主管每人12,500股之股票增值權，以當日市價$28為預設價格，該 獎酬計畫給予主管就股票增值部分領取現金。公司規定，主管需自X6年1月1日起服務滿 三年才能行使權利，且自可行使日滿一年失效。辛公司預估在 X8 年底前無主管離職，且截 至X9年12月31日，所有主管均行使該項權利。辛公司X6年至X9年底普通股市價分別為 $32、$31、$34及$36。辛公司X7年之酬勞成本為何？', '["$58,333", "$116,666", "$175,000", "$350,000 22340"]'::jsonb, 0, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:32:24+00:00", "source_pdf_sha1": "3919d42dceee", "answer_pdf_sha1": "55ed3776824a", "source_family": "moex-gov-tw", "moex": {"exam_code": "114080", "c": "223", "s": "0802", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "會計學", "year": "114", "exam_name": "114年公務人員高等考試三級考試暨普通考試", "original_question_number": 2, "answer_corrected": false, "flags": [], "civil_slug": "heelevel3", "civil_category": "金融保險"}'::jsonb, NULL),
+  ('heelevel3-7c4986e7-moex-00010', 'heelevel3-7c4986e7', 'heelevel3-7c4986e7-moex-114-e0b1f2ed', 'sub-heelevel3-7c4986e7-02', NULL, 'single_choice', '甲公司債券投資的相關資料如下： 公允價值 成本 X6年底 X7年底 透過損益按公允價值衡量 $800,000 $720,000 $820,000 按攤銷後成本衡量 800,000 730,000 760,000 甲公司X7年綜合損益表中金融資產評價損益為何？', '["損失$20,000", "利益$20,000", "利益$100,000", "利益$130,000"]'::jsonb, 2, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:32:24+00:00", "source_pdf_sha1": "3919d42dceee", "answer_pdf_sha1": "55ed3776824a", "source_family": "moex-gov-tw", "moex": {"exam_code": "114080", "c": "223", "s": "0802", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "會計學", "year": "114", "exam_name": "114年公務人員高等考試三級考試暨普通考試", "original_question_number": 3, "answer_corrected": false, "flags": [], "civil_slug": "heelevel3", "civil_category": "金融保險"}'::jsonb, NULL),
+  ('heelevel3-7c4986e7-moex-00011', 'heelevel3-7c4986e7', 'heelevel3-7c4986e7-moex-114-e0b1f2ed', 'sub-heelevel3-7c4986e7-02', NULL, 'single_choice', 'X5年 7月 1日，甲公司倉庫發生一場火災，除了 FOB起運點交貨的在途進貨外，倉庫內 剩餘存貨的估計殘值$8,500。甲公司該批在途進貨的購價$18,000，運費$750 已經入帳。甲 公司存貨有關資料如下：X5年1月1日存貨$95,000，1月1日至7月1日間的進貨$400,000， 1月1日至7月1日間的現金銷貨$220,000，賒銷為$380,000，進貨退回及折讓$12,000，銷貨 退回$50,000，進貨運費$2,000，平均毛利率為銷貨淨額之20%。甲公司的存貨火災損失金額 為何？', '["$15,750", "$17,750", "$18,500", "$36,500"]'::jsonb, 1, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:32:24+00:00", "source_pdf_sha1": "3919d42dceee", "answer_pdf_sha1": "55ed3776824a", "source_family": "moex-gov-tw", "moex": {"exam_code": "114080", "c": "223", "s": "0802", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "會計學", "year": "114", "exam_name": "114年公務人員高等考試三級考試暨普通考試", "original_question_number": 4, "answer_corrected": false, "flags": [], "civil_slug": "heelevel3", "civil_category": "金融保險"}'::jsonb, NULL),
+  ('heelevel3-7c4986e7-moex-00012', 'heelevel3-7c4986e7', 'heelevel3-7c4986e7-moex-114-e0b1f2ed', 'sub-heelevel3-7c4986e7-02', NULL, 'single_choice', '丙公司使用帳齡分析法提列壞帳，已知X4年12月31日應收帳款淨額為$720,000，其餘資料 如下：X4年1月1日備抵損失貸方餘額$80,000，X4年度實際發生壞帳$48,000，X4年度壞 帳沖銷後再收回$8,500，X4年12月31日應收帳款餘額$780,000。丙公司在X4年應該提列 的預期信用減損損失為多少？', '["$19,500", "$28,000", "$36,500", "$60,000"]'::jsonb, 0, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:32:24+00:00", "source_pdf_sha1": "3919d42dceee", "answer_pdf_sha1": "55ed3776824a", "source_family": "moex-gov-tw", "moex": {"exam_code": "114080", "c": "223", "s": "0802", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "會計學", "year": "114", "exam_name": "114年公務人員高等考試三級考試暨普通考試", "original_question_number": 5, "answer_corrected": false, "flags": [], "civil_slug": "heelevel3", "civil_category": "金融保險"}'::jsonb, NULL),
+  ('heelevel3-7c4986e7-moex-00013', 'heelevel3-7c4986e7', 'heelevel3-7c4986e7-moex-114-e0b1f2ed', 'sub-heelevel3-7c4986e7-02', NULL, 'single_choice', '乙公司新進會計人員使用間接法來編製現金流量表，並將因利息與股利所收取之現金分類為 營業活動，乙公司 X7 年相關資料如下：權益法認列投資損失$36,000，購買一台機器付款 $145,000，採權益法之長期股權投資收到股利$42,000，支付現金股利給股東$30,000。乙公司 X7年度折舊費用$50,000。乙公司X7年度存貨增加$29,000，應收帳款淨額增加$30,000，應 付帳款減少$25,000。乙公司 X7 年度淨利$130,000，期初現金餘額$28,000。乙公司 X7 年的 營業活動現金流量為何？', '["$102,000", "$132,000", "$174,000", "$234,000 22340"]'::jsonb, 2, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:32:24+00:00", "source_pdf_sha1": "3919d42dceee", "answer_pdf_sha1": "55ed3776824a", "source_family": "moex-gov-tw", "moex": {"exam_code": "114080", "c": "223", "s": "0802", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "會計學", "year": "114", "exam_name": "114年公務人員高等考試三級考試暨普通考試", "original_question_number": 6, "answer_corrected": false, "flags": [], "civil_slug": "heelevel3", "civil_category": "金融保險"}'::jsonb, NULL),
+  ('heelevel3-7c4986e7-moex-00014', 'heelevel3-7c4986e7', 'heelevel3-7c4986e7-moex-114-e0b1f2ed', 'sub-heelevel3-7c4986e7-02', NULL, 'single_choice', '甲公司在 X1 年 1 月 1 日以$600,000 購入設備，耐用年限 10 年，無殘值，採直線法提列折 舊。X2 年底評估有減損跡象，該設備使用價值為$420,000，而公允價值減處分成本則為 $400,000。X4 年底該設備有減損迴轉跡象，經評估可回收金額為$380,000。甲公司 X4 年應 認列減損迴轉利益為多少？', '["$20,000", "$45,000", "$60,000", "$65,000"]'::jsonb, 1, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:32:24+00:00", "source_pdf_sha1": "3919d42dceee", "answer_pdf_sha1": "55ed3776824a", "source_family": "moex-gov-tw", "moex": {"exam_code": "114080", "c": "223", "s": "0802", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "會計學", "year": "114", "exam_name": "114年公務人員高等考試三級考試暨普通考試", "original_question_number": 7, "answer_corrected": false, "flags": [], "civil_slug": "heelevel3", "civil_category": "金融保險"}'::jsonb, NULL)
+ON CONFLICT (id) DO NOTHING;

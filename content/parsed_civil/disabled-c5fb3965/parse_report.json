@@ -1,0 +1,54 @@
+{
+  "slug": "disabled-c5fb3965",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:38:57+00:00",
+  "paper_count": 13,
+  "paper_with_questions": 13,
+  "question_count": 351,
+  "type_counts": {
+    "essay": 26,
+    "single_choice": 325
+  },
+  "issues": [
+    {
+      "year": "112",
+      "subject": "刑法與刑事訴訟法",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "民法總則與親屬編",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "刑法與刑事訴訟法",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "民法總則與親屬編",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "社會工作概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    }
+  ]
+}

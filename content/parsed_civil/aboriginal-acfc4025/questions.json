@@ -1,0 +1,3802 @@
+{
+  "slug": "aboriginal-acfc4025",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:38:03+00:00",
+  "paper_count": 7,
+  "paper_with_questions": 6,
+  "question_count": 103,
+  "type_counts": {
+    "single_choice": 86,
+    "essay": 17
+  },
+  "papers": [
+    {
+      "year": "114",
+      "exam_code": "114140",
+      "c": "615",
+      "s": "0104",
+      "q": "1",
+      "subject": "基礎能力測驗(作文、英文及中華民國憲法)",
+      "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "a5b041f27a44",
+      "a_pdf_sha1": "fec879a3ea70",
+      "format_detected": "mixed",
+      "raw_question_count": 0,
+      "status": "parse_q_failed"
+    },
+    {
+      "year": "114",
+      "exam_code": "114140",
+      "c": "615",
+      "s": "1903",
+      "q": "1",
+      "subject": "計算機概要",
+      "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "4905217d3791",
+      "a_pdf_sha1": "e84c46d65755",
+      "format_detected": "pure_mc",
+      "raw_question_count": 40,
+      "answer_qnums_extracted": 40,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 40,
+      "skipped_count": 0
+    },
+    {
+      "year": "114",
+      "exam_code": "114140",
+      "c": "615",
+      "s": "1901",
+      "q": "1",
+      "subject": "電子儀表概要",
+      "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "09f963850c01",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 5,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 5,
+      "skipped_count": 0
+    },
+    {
+      "year": "114",
+      "exam_code": "114140",
+      "c": "615",
+      "s": "1902",
+      "q": "1",
+      "subject": "電子學概要",
+      "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "1e5d2c06a2c8",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "113",
+      "exam_code": "113140",
+      "c": "514",
+      "s": "1904",
+      "q": "1",
+      "subject": "計算機概要",
+      "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "fa676aee26b5",
+      "a_pdf_sha1": "dfcdcffa0279",
+      "format_detected": "pure_mc",
+      "raw_question_count": 46,
+      "answer_qnums_extracted": 40,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 46,
+      "skipped_count": 0
+    },
+    {
+      "year": "113",
+      "exam_code": "113140",
+      "c": "514",
+      "s": "1801",
+      "q": "1",
+      "subject": "電子儀表概要",
+      "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "3e87fab00fbf",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "113",
+      "exam_code": "113140",
+      "c": "514",
+      "s": "1802",
+      "q": "1",
+      "subject": "電子學概要",
+      "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "3874d2d8f3c1",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    }
+  ],
+  "questions": [
+    {
+      "id": "aboriginal-acfc4025-0001",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "一般而言，處理器遇到下列何種情況，不會引起例外（exception）處理？",
+      "options": [
+        "處理器執行到未定義的指令（undefinedinstruction）",
+        "處理器要抓取的資料不在快取記憶體（cache）中，產生快取失誤（cachemiss）",
+        "處理器要抓取的某一指令，該指令所在的頁面（page）不在主記憶體中，而在硬碟中",
+        "處理器要抓取的某一資料，該資料所在的頁面（page）不在主記憶體中，而在硬碟中"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:02+00:00",
+        "source_pdf_sha1": "4905217d3791",
+        "answer_pdf_sha1": "e84c46d65755",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "615",
+          "s": "1903",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0002",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "CPU執行指令的主要步驟，依次為下列何者？",
+      "options": [
+        "解碼（Decode）、執行（Execute）、擷取（Fetch）",
+        "解碼（Decode）、擷取（Fetch）、執行（Execute）",
+        "擷取（Fetch）、解碼（Decode）、執行（Execute）",
+        "擷取（Fetch）、執行（Execute）、解碼（Decode）"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:02+00:00",
+        "source_pdf_sha1": "4905217d3791",
+        "answer_pdf_sha1": "e84c46d65755",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "615",
+          "s": "1903",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0003",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "若要將數字-1043儲存到一個16位元的記憶體空間中，使用二的補數法（Two’scomplementrepresentation） 表示為：",
+      "options": [
+        "1000010000010011",
+        "0000010000010011",
+        "1111101111101101",
+        "0111101111101101"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:02+00:00",
+        "source_pdf_sha1": "4905217d3791",
+        "answer_pdf_sha1": "e84c46d65755",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "615",
+          "s": "1903",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0004",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "將兩個八進位數字進行相減：771-664，有關八進位結果，下列何者正確？",
+      "options": [
+        "105",
+        "107",
+        "115",
+        "117"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:02+00:00",
+        "source_pdf_sha1": "4905217d3791",
+        "answer_pdf_sha1": "e84c46d65755",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "615",
+          "s": "1903",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0005",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "有關NOR閘的敘述，下列何者正確？",
+      "options": [
+        "NOR閘可以單獨實現任意邏輯功能",
+        "NOR是AND的反相輸出",
+        "當任一輸入為1，輸出為1",
+        "全部輸入為0時，輸出為0"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:02+00:00",
+        "source_pdf_sha1": "4905217d3791",
+        "answer_pdf_sha1": "e84c46d65755",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "615",
+          "s": "1903",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0006",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "假設x和y做XOR邏輯運算的結果為z，再將z和y做XOR邏輯運算其結果，下列何者正確？",
+      "options": [
+        "x",
+        "y",
+        "0",
+        "1"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:02+00:00",
+        "source_pdf_sha1": "4905217d3791",
+        "answer_pdf_sha1": "e84c46d65755",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "615",
+          "s": "1903",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0007",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "假設CPU處理程序（Process）有P1、P2、P3，其中P1所需時間為15毫秒；P2所需時間為7毫秒；P3 所需時間為10毫秒，若CPU使用最短工作先處理（ShortestJobFirst,SJF）方式進行，平均等待時間（毫 秒），下列何者正確？",
+      "options": [
+        "9",
+        "8",
+        "24",
+        "17"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:02+00:00",
+        "source_pdf_sha1": "4905217d3791",
+        "answer_pdf_sha1": "e84c46d65755",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "615",
+          "s": "1903",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0008",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "有關電腦作業系統（OperatingSystem）中的分時系統（Time-SharingSystem）特性，下列何者錯誤？",
+      "options": [
+        "使用者不需等待CPU回應",
+        "多個使用者共享資源",
+        "多元程式規劃（Multiprogramming）",
+        "不同的使用者之間不會相互干擾"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:02+00:00",
+        "source_pdf_sha1": "4905217d3791",
+        "answer_pdf_sha1": "e84c46d65755",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "615",
+          "s": "1903",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0009",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "下列那種技術，可以用在3D物件上貼上圖片，使其具有特定的外觀，例如磚牆或木紋？",
+      "options": [
+        "紋理映射（TextureMapping）",
+        "程序化建模（ProceduralModeling）",
+        "細分曲面（SubdivisionSurface）",
+        "貼圖光照（BumpMapping）"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:02+00:00",
+        "source_pdf_sha1": "4905217d3791",
+        "answer_pdf_sha1": "e84c46d65755",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "615",
+          "s": "1903",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0010",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "從技術的角度來說，虛擬實境（Virtual reality）系統，應包含三個基本主要的特徵，以英文字首的縮寫為 三個「I」。下列何者不屬於這三個基本特徵？",
+      "options": [
+        "實作（Implementation）",
+        "互動（Interaction）",
+        "融入（Immersion）",
+        "想像（Imagination）"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:02+00:00",
+        "source_pdf_sha1": "4905217d3791",
+        "answer_pdf_sha1": "e84c46d65755",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "615",
+          "s": "1903",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0011",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "有關HTML敘述，下列何者正確？",
+      "options": [
+        "一種網頁防毒的程式",
+        "一種網頁標籤的語言",
+        "一種網頁存取的協定",
+        "一種執行網頁的程式"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:02+00:00",
+        "source_pdf_sha1": "4905217d3791",
+        "answer_pdf_sha1": "e84c46d65755",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "615",
+          "s": "1903",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 11,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0012",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "下列是某個學校選課系統的資料庫，其中一個表格如下： Enrollment（StudentID,ClassID,Classroom） 這個表格有以下規範： (1)StudentID是主鍵（PrimaryKey） (2)ClassID屬性和Classroom屬性有相依性 這個表格有違反那一種正規化（Normalization）？",
+      "options": [
+        "第一正規化（1NF）",
+        "第二正規化（2NF）",
+        "第三正規化（3NF）",
+        "BCNF正規化"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:02+00:00",
+        "source_pdf_sha1": "4905217d3791",
+        "answer_pdf_sha1": "e84c46d65755",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "615",
+          "s": "1903",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 12,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0013",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "在一個長度為 n 的陣列中，若要同時找出「最大值」與「最小值」，最少需要比較多少次才能完成？（不 考慮其他資料結構或額外輔助陣列）",
+      "options": [
+        "n−1",
+        "2(n−1)",
+        "(2/3)n",
+        "1.5(n−1)"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:02+00:00",
+        "source_pdf_sha1": "4905217d3791",
+        "answer_pdf_sha1": "e84c46d65755",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "615",
+          "s": "1903",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 13,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0014",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "假設有一個序列[A,B,C,D]，僅能依照由左至右的順序推入（Push）至堆疊（Stack）中，而推入的過程中， 在堆疊裡的資料可在任何時間點被移出（Pop），下列何者不可能是移出時的順序？",
+      "options": [
+        "A,B,C,D",
+        "A,B,D,C",
+        "B,C,A,D",
+        "A,D,B,C"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:02+00:00",
+        "source_pdf_sha1": "4905217d3791",
+        "answer_pdf_sha1": "e84c46d65755",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "615",
+          "s": "1903",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 14,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0015",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "堆疊（Stack）是一種遵循下列何種原則的線性資料結構？",
+      "options": [
+        "先進先出（FIFO）",
+        "先進後出（FILO）",
+        "後進後出（LILO）",
+        "隨機存取（RandomAccess）"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:02+00:00",
+        "source_pdf_sha1": "4905217d3791",
+        "answer_pdf_sha1": "e84c46d65755",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "615",
+          "s": "1903",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 15,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0016",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "若對一棵二元樹進行「中序（Inorder）」走訪，並列印出每個節點的值，下列敘述何者正確？",
+      "options": [
+        "中序走訪的順序為「右子樹→根節點→左子樹」",
+        "走訪順序一定會先印根節點，再印左子樹的節點",
+        "走訪順序一定是由最左邊的葉節點開始印，再往父節點走訪",
+        "中序走訪必定按照節點值從小到大列印"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:02+00:00",
+        "source_pdf_sha1": "4905217d3791",
+        "answer_pdf_sha1": "e84c46d65755",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "615",
+          "s": "1903",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 16,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0017",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "有關資料庫中B-tree的敘述，下列何者正確？",
+      "options": [
+        "又稱作二元樹（Binarytree）",
+        "由A-tree結構改善而得",
+        "根節點（Rootnode）到每個葉節點（Leafnode）的路徑可能會不一樣長",
+        "建立的方式為由下往上（Bottomup），也就是從葉節點逐層往父節點建立"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:02+00:00",
+        "source_pdf_sha1": "4905217d3791",
+        "answer_pdf_sha1": "e84c46d65755",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "615",
+          "s": "1903",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 17,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0018",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "下圖爲一個無向圖（UndirectedGraph），下列敘述何者錯誤？",
+      "options": [
+        "該圖是一個完全圖（CompleteGraph）",
+        "該圖是一個連通圖（ConnectedGraph）",
+        "一個有n個節點的連通圖，必定要有n(n-1)/2條邊",
+        "該圖可以利用廣度優先搜尋（Breadth-FirstSearch,BFS），建構一棵生成樹"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:02+00:00",
+        "source_pdf_sha1": "4905217d3791",
+        "answer_pdf_sha1": "e84c46d65755",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "615",
+          "s": "1903",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 18,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0019",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "關於圖形（Graph）結構的敘述，下列何者錯誤？",
+      "options": [
+        "圖形可分為有向圖（DirectedGraph）與無向圖（UndirectedGraph）",
+        "圖形中的節點之間可以透過邊來相連",
+        "在無向圖中，兩個頂點之間的邊沒有方向性",
+        "在圖形中任兩個節點間僅能有一條邊連接"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:02+00:00",
+        "source_pdf_sha1": "4905217d3791",
+        "answer_pdf_sha1": "e84c46d65755",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "615",
+          "s": "1903",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 19,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0020",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "有關泡沫排序法（bubblesort）進行由小到大數字排序的關鍵步驟，下列何者正確？",
+      "options": [
+        "每次從數列尾端數起，把最小的數往前推",
+        "每次從數列尾端數起，把最大的數往前推",
+        "每次將未排序數列中的第一個數插入到已排序數列",
+        "將數列隨機分割並排序"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:02+00:00",
+        "source_pdf_sha1": "4905217d3791",
+        "answer_pdf_sha1": "e84c46d65755",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "615",
+          "s": "1903",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 20,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0021",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "下列何種排序（Sorting）的方式，可以在最差的情況下（WorstCase）維持最好的效能？",
+      "options": [
+        "堆積排序（HeapSort）",
+        "插入排序（InsertionSort）",
+        "快速排序（QuickSort）",
+        "選擇排序（SelectionSort）"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:02+00:00",
+        "source_pdf_sha1": "4905217d3791",
+        "answer_pdf_sha1": "e84c46d65755",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "615",
+          "s": "1903",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 21,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0022",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "有關二元搜尋法（BinarySearch）要求搜尋前的資料，具有下列何種特性？",
+      "options": [
+        "資料為隨機排列",
+        "資料已經排序",
+        "資料必須全部不同",
+        "資料個數必須為偶數"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:02+00:00",
+        "source_pdf_sha1": "4905217d3791",
+        "answer_pdf_sha1": "e84c46d65755",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "615",
+          "s": "1903",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 22,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0023",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "考慮下列C語言的函數（Function）原型（Prototype）的宣告 intfoo(int**a,floatb[],intc); 此副程式foo的參數傳遞方法，依序分別為：",
+      "options": [
+        "傳值、傳址、傳值",
+        "傳址、傳值、傳值",
+        "傳址、傳址、傳值",
+        "傳值、傳址、傳址"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:02+00:00",
+        "source_pdf_sha1": "4905217d3791",
+        "answer_pdf_sha1": "e84c46d65755",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "615",
+          "s": "1903",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 23,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0024",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "假設int型態的大小為4bytes，若有一個intarr[10]的陣列，其起始位址是1000（十進位）。有關arr[5]的記 憶體位址是多少？",
+      "options": [
+        "1016",
+        "1020",
+        "1024",
+        "1025"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:02+00:00",
+        "source_pdf_sha1": "4905217d3791",
+        "answer_pdf_sha1": "e84c46d65755",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "615",
+          "s": "1903",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 24,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0025",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "關於程式語言的設計敘述，下列何者錯誤？",
+      "options": [
+        "設計程式時，使用副程式可以加快程式執行速度",
+        "結構化程式設計（Structuredprogramming）包含循序（Sequence）、選擇（Selection）及迭代（Iteration） 三種結構",
+        "C++程式語言同時支援程序導向與物件導向程式設計",
+        "為提高程式碼的可讀性，變數通常會給定一個較長的名稱，以描述其用途"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:02+00:00",
+        "source_pdf_sha1": "4905217d3791",
+        "answer_pdf_sha1": "e84c46d65755",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "615",
+          "s": "1903",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 25,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0026",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "根據下列C語言的程式碼，下列何者正確？ if(a<6) b=a+2; elseif(a<10) b=a+4; else b=a+6;",
+      "options": [
+        "當a為6時，b為8",
+        "當a為8時，b為12",
+        "當a為10時，b為14",
+        "當a為12時，b為16"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:02+00:00",
+        "source_pdf_sha1": "4905217d3791",
+        "answer_pdf_sha1": "e84c46d65755",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "615",
+          "s": "1903",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 26,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0027",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "有關XML（ExtensibleMarkupLanguage）的敘述，下列何者錯誤？",
+      "options": [
+        "XML常被用來作為資料交換的標準格式",
+        "XML允許使用者自由定義標籤（Tag）",
+        "XML標籤（Tag）不能以巢狀結構（NestedStructure）出現",
+        "XML文件是純文字格式"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:02+00:00",
+        "source_pdf_sha1": "4905217d3791",
+        "answer_pdf_sha1": "e84c46d65755",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "615",
+          "s": "1903",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 27,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0028",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "下列函式為檢測一個整數是否為質數，有關第8行for(????)程式，下列何者正確？ boolprime_or_not(intn){ if(n==1) returnfalse; if(n==2) returntrue; if(n%2==0) returnfalse; for(????) if(n%i==0) returnfalse; returntrue; }",
+      "options": [
+        "for(inti=sqrt(n);i>=0;i-=2)",
+        "for(inti=n;i>=0;i--)",
+        "for(inti=1;i<=sqrt(n);i+=2)",
+        "for(inti=3;i<=sqrt(n);i+=2)"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:02+00:00",
+        "source_pdf_sha1": "4905217d3791",
+        "answer_pdf_sha1": "e84c46d65755",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "615",
+          "s": "1903",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 28,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0029",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "下列程式執行後的結果，何者正確？ #include<iostream> #include<iomanip> usingnamespacestd; intmain() { intdata[][4]={{1,2,3,4},{5,6,7,8}, {8,7,6,5},{4,3,2,1}}; for(inti=0;i<4;i++) cout<<data[i][2]; return0; }",
+      "options": [
+        "8765",
+        "5678",
+        "3762",
+        "2673"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:02+00:00",
+        "source_pdf_sha1": "4905217d3791",
+        "answer_pdf_sha1": "e84c46d65755",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "615",
+          "s": "1903",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 29,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0030",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "下列的C++程式碼片段，下列敘述何者錯誤？ #include<iostream> usingnamespacestd; classStudentClass{ private: stringname; intgrade; public: StudentClass(){name=\"\";grade=1;}; }; intmain(){ StudentClasss1; /* 以下省略 */ }",
+      "options": [
+        "s1物件的“grade”成員的值為1",
+        "s1物件的“name”成員的值為空字串",
+        "在主程式被省略的程式碼裡，可直接執行「cout<<s1.grade;」",
+        "“name”是“StudentClass”的私有資料成員（privatedatamember）"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:02+00:00",
+        "source_pdf_sha1": "4905217d3791",
+        "answer_pdf_sha1": "e84c46d65755",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "615",
+          "s": "1903",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 30,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0031",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "對於C++程式語言，下列敘述何者正確？",
+      "options": [
+        "在一個程式中所有的物件被建構(construct)完成後，才可以有物件被解構(destruct)",
+        "所有的靜態（static）物件建構完成後，在程式執行結束前都不會被解構",
+        "在一個程式中所有宣告的物件（object）都會被建構",
+        "在一個程式中所有宣告的靜態物件都會被建構"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:02+00:00",
+        "source_pdf_sha1": "4905217d3791",
+        "answer_pdf_sha1": "e84c46d65755",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "615",
+          "s": "1903",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 31,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0032",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "在物件導向程式（Object-orientedprogramming）中，類別（Class）的作用，下列敘述何者正確？",
+      "options": [
+        "在程式中執行計算",
+        "用於建立物件的範本",
+        "將不同型別的資料分類儲存於檔案中",
+        "讓資料儲存較省記憶體的空間"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:02+00:00",
+        "source_pdf_sha1": "4905217d3791",
+        "answer_pdf_sha1": "e84c46d65755",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "615",
+          "s": "1903",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 32,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0033",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "在神經網路中，有關「神經元」（Neuron）的作用，下列何者正確？",
+      "options": [
+        "儲存圖像",
+        "控制電腦的電量",
+        "執行電腦程式",
+        "接收資訊並進行計算"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:02+00:00",
+        "source_pdf_sha1": "4905217d3791",
+        "answer_pdf_sha1": "e84c46d65755",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "615",
+          "s": "1903",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 33,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0034",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "關於IPv6的敘述，下列何者錯誤？",
+      "options": [
+        "IPv6的標頭（Header）格式和IPv4相同",
+        "將網路由IPv4轉換成IPv6會造成一些網路軟體無法使用",
+        "IPv6位址長度為128bits，表示時分為八段，彼此以冒號分隔",
+        "DABC:0:1:8::D為一正確的IPv6位址表示法"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:02+00:00",
+        "source_pdf_sha1": "4905217d3791",
+        "answer_pdf_sha1": "e84c46d65755",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "615",
+          "s": "1903",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 34,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0035",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "在OSI七層模型中，路由器（Router）是網路中負責選擇與轉送資料封包路徑的重要設備。有關路由器主 要工作於OSI模型的下列何一層？",
+      "options": [
+        "實體層",
+        "資料鏈路層",
+        "網路層",
+        "傳輸層"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:02+00:00",
+        "source_pdf_sha1": "4905217d3791",
+        "answer_pdf_sha1": "e84c46d65755",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "615",
+          "s": "1903",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 35,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0036",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "有關OAuth2.0授權框架（OAuth2.0AuthorizationFramework），下列敘述何者正確？",
+      "options": [
+        "它主要用於加密用戶數據",
+        "它允許第三方應用獲取有限的訪問權限，而無需知道用戶憑證",
+        "它是一種雙因子認證方法",
+        "它只能用於行動應用程式"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:02+00:00",
+        "source_pdf_sha1": "4905217d3791",
+        "answer_pdf_sha1": "e84c46d65755",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "615",
+          "s": "1903",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 36,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0037",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "當使用者瀏覽某些網站時，瀏覽器會在本機儲存cookies，有關cookies的功能，下列敘述何者錯誤？",
+      "options": [
+        "網站藉由cookies記錄登入狀態，使用者再次瀏覽已登入過的網站時，不需重新輸入登入資訊",
+        "網站藉由cookies記錄使用者的個人化偏好",
+        "第三方廣告商可藉由cookies識別使用者，藉此追蹤使用者瀏覽過的網站",
+        "網站藉由cookies在本機儲存所有的靜態網頁資料，加速瀏覽器存取網頁的速度"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:02+00:00",
+        "source_pdf_sha1": "4905217d3791",
+        "answer_pdf_sha1": "e84c46d65755",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "615",
+          "s": "1903",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 37,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0038",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "有關物件導向（Object-Oriented）語言，下列何者錯誤？",
+      "options": [
+        "Python",
+        "Java",
+        "Pascal",
+        "C#"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:02+00:00",
+        "source_pdf_sha1": "4905217d3791",
+        "answer_pdf_sha1": "e84c46d65755",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "615",
+          "s": "1903",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 38,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0039",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "使用Email與遠方的使用者通訊時，下列何種通訊協定定義兩部電腦的互動方式？",
+      "options": [
+        "HTTP",
+        "SMTP",
+        "FTP",
+        "SSH"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:02+00:00",
+        "source_pdf_sha1": "4905217d3791",
+        "answer_pdf_sha1": "e84c46d65755",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "615",
+          "s": "1903",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 39,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0040",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "你的朋友發現一個駭客網站，聲稱能夠破解社群帳號，並邀請你一起使用，下列敘述何者正確？",
+      "options": [
+        "立即拒絕，因為這是違法行為",
+        "先測試看看是否真的能破解",
+        "只破解自己的帳號，應該沒關係",
+        "張貼到社群媒體廣為宣傳"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:02+00:00",
+        "source_pdf_sha1": "4905217d3791",
+        "answer_pdf_sha1": "e84c46d65755",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "615",
+          "s": "1903",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 40,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0041",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "essay",
+      "question": "一部0~250V之電壓表（有10V、50V、250V檔位），規格標示其容許\n誤差為（1%滿刻度值），若在兩次的測量中，測得其指示值分別為200V\n與 40V，請回答下列問題。\n若此兩指示值皆是以 250V檔位所測得，則其誤差百分比各約為何？\n（10分）\n為減少測量誤差，測試 40V時應選擇那個檔位來做測量較合適（需說\n明理由）？（10分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:02+00:00",
+        "source_pdf_sha1": "09f963850c01",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "615",
+          "s": "1901",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電子儀表概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0042",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "essay",
+      "question": "一部 3½位的數位電壓表之準確度為（1.2%ofreading（讀值）+3digits\n（位數）），若測量時電表撥在200mV檔位，其顯示之測量值為120.0mV，\n請回答下列問題。\n此測量之誤差百分比約為何？（10分）\n此測量檔位之解析度為何？（10 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:02+00:00",
+        "source_pdf_sha1": "09f963850c01",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "615",
+          "s": "1901",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電子儀表概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0043",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "essay",
+      "question": "圖 1 為利用兩瓦特表（W 、W ）來測量三相平衡電感性負載（Z）功率\nA B\n之接線圖，請回答下列問題。\n請推導所測得的三相負載總實（有效）功率等於兩瓦特表指示值的代\n數和。（5分）\n若在某次測量案例中，有一部瓦特表指示值為200W、另一部瓦特表不偏\n轉，則此負載所消耗之實功率與功率因數（powerfactor）各為何？（15分）\nW I\nI A An\nL\nA\n三\nV V Z V\n相 L AC An\n平 V n\nCn\n衡\nC\n電 V V V B\nL BC Bn\n源\nI W I\nL B Bn\n圖 1",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:02+00:00",
+        "source_pdf_sha1": "09f963850c01",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "615",
+          "s": "1901",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電子儀表概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0044",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "essay",
+      "question": "如圖 2 所示之歐文電橋（Owen bridge），電源E 之頻率為 1 kHz，\ns\nC 0.1 F、R 1k，當調變R 為1.5k、C 為1F時電橋達到平衡，\n1 2 3 3\n求待測線圈之電感值L （5分）、內阻 R （5分）以及品質因數（quality\nx x\nfactor）Q （10 分）。\nx\nC1 R\n2\n檢知器\nE C Rx 待\ns 3\n測\n線\nLx 圈\nR3\n圖 2",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:02+00:00",
+        "source_pdf_sha1": "09f963850c01",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "615",
+          "s": "1901",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電子儀表概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0045",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "essay",
+      "question": "以示波器測量一頻率為 60 Hz 之正負對稱正弦波，使用衰減比為 10：1\n之探棒（probe），垂直刻度為 2 V/DIV。若整個螢幕上顯示三個完整週\n期之正弦波形，其水平間隔共 10 格、波形峰對峰垂直間隔共 4 格，請\n回答下列問題。\n測量時所選的水平時基（timebase,Time/DIV）為何？（10分）\n寫出所測得的正弦波函數（function）並求此波形之有效值為何？（10分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:02+00:00",
+        "source_pdf_sha1": "09f963850c01",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "615",
+          "s": "1901",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電子儀表概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "五",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0046",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "essay",
+      "question": "如圖一所示電路為 BJT 放大器之小信號電路模型，其中電晶體參數為\n100，r 1.2k。試求電路之小信號電壓增益V /V 及輸入電阻R。\no S i\n（25分）\nR\ni\nV\no\nRR==00.5.5kkΩΩ I +\nSS b\n+ r V βI\nπ _π b\nV + V\n_ V RR ==2k2ΩkΩ\nS inin RR ==101k0ΩkΩ CC\nBB\n_\nRR ==00.4.4kΩkΩ\nEE\n圖一",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "1e5d2c06a2c8",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "615",
+          "s": "1902",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電子學概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0047",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "essay",
+      "question": "如圖二所示之共源極電路，其中V 24V，R 20。試求出 MOSFET\nDD D\n所需的電流、電壓及額定功率。（25 分）\nV\nDD\nI R\nD D\n+\nV V\ni _DS\n圖二",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "1e5d2c06a2c8",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "615",
+          "s": "1902",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電子學概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0048",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "essay",
+      "question": "如圖三所示電路，試推導電壓轉換函數（voltage transfer function）\nT(s)V (s)/V(s)及 f 截止頻率（cutoff frequency）。（25 分）\no i 3dB\nC RR\n22\nRR\n11\n__\nOPA V\no\nV\ni ++\n圖三",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "1e5d2c06a2c8",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "615",
+          "s": "1902",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電子學概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0049",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "essay",
+      "question": "如圖四所示 NMOS NOR 閘電路，其中V 1.8V，且電晶體參數為\nDD\nk 100μA/V2，V 0.4V，V 0.6V，(W/L) 5，(W/L) 1。\nn TND TNL D L\n忽略本體效應（bodyeffect），試求當輸入電壓v v 1.8V時的輸出電\nA B\n壓v 及電路的功率消耗。（25 分）\no\nV\nDD\nM\nL\nv\no\nv M v M\nA DA B DB\n圖四",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "1e5d2c06a2c8",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "615",
+          "s": "1902",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電子學概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0050",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "一個8-bit加法器（adder）於進行加法運算時，亦會同時送出overflow flag訊號V：當相加的結果超 過8-bit有號數（以two’scomplement編碼）可表示的範圍時V=1，否則V=0。下列的加法運算， 何者會產生V=1的輸出？",
+      "options": [
+        "70+(－80)",
+        "25+45",
+        "70+80",
+        "(－70)+(－25)"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "fa676aee26b5",
+        "answer_pdf_sha1": "dfcdcffa0279",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1904",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0051",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "某嵌入式微控制晶片上內建16 KByte的記憶體用於儲存程式碼，在運作時，所有指令皆需儲存於此 程式記憶體上執行。該晶片的處理器中，其programcounter寬度至少為何？",
+      "options": [
+        "13",
+        "14",
+        "15",
+        "16"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "fa676aee26b5",
+        "answer_pdf_sha1": "dfcdcffa0279",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1904",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0052",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "將含有小數點的2進位數字0.0101轉換成10進位數字，其結果為：",
+      "options": [
+        "0.1250",
+        "0.3125",
+        "0.3750",
+        "0.4275"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "fa676aee26b5",
+        "answer_pdf_sha1": "dfcdcffa0279",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1904",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0053",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "某計算機系統以paging的方式實現virtualmemory，其virtualmemory大小為232bytes，能支援的最大 physicalmemory大小為224bytes，每個page的大小為212bytes。該系統的pagetable至少需有多大？",
+      "options": [
+        "220*12bits",
+        "220*24bits",
+        "212*20bits",
+        "210*15bits"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "fa676aee26b5",
+        "answer_pdf_sha1": "dfcdcffa0279",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1904",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0054",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "二進制數值(1111010)轉換為十六進制時，其值為何？",
+      "options": [
+        "59H",
+        "69H",
+        "7AH",
+        "8AH"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "fa676aee26b5",
+        "answer_pdf_sha1": "dfcdcffa0279",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1904",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0055",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "假設A、B、C、F都是布林變數，F=not(Aor(BandC))，找出與F等效的布林運算式：",
+      "options": [
+        "(notA)or((notB)and(notC))",
+        "(notA)and(BorC)",
+        "(notA)or(BorC)",
+        "(notA)and((notB)or(notC))"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "fa676aee26b5",
+        "answer_pdf_sha1": "dfcdcffa0279",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1904",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0056",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "當一個process包含多個threads時，下列資料何者不是多個thread共享？①register values  ②global",
+      "options": [
+        "stackmemory",
+        "heapmemory",
+        "",
+        ""
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "fa676aee26b5",
+        "answer_pdf_sha1": "dfcdcffa0279",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1904",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0057",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "印出品質為300 dpi（每英吋的列印點數）、寬約10公分且高約5公分的圖片，該圖片至少應具有多 少像素（Pixel）？",
+      "options": [
+        "1萬5千",
+        "72萬",
+        "200萬",
+        "450萬"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "fa676aee26b5",
+        "answer_pdf_sha1": "dfcdcffa0279",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1904",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0058",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "若某個程序（process）P1剛剛完成I/O的動作，想要獲得再次使用CPU的機會，則作業系統會將程 序P1改變成何種狀態？",
+      "options": [
+        "Readystate",
+        "Runningstate",
+        "Waitingstate",
+        "Finishedstate"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "fa676aee26b5",
+        "answer_pdf_sha1": "dfcdcffa0279",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1904",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0059",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "假設有三個行程，其完成工作需要的時間分別為30、15和18單位時間。若使用最短工作優先排班法 （SJF），則平均等待時間為多少單位？",
+      "options": [
+        "11",
+        "16",
+        "21",
+        "25"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "fa676aee26b5",
+        "answer_pdf_sha1": "dfcdcffa0279",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1904",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0060",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "關於巨型開放式線上課程（MassiveOpenOnlineCourses，簡稱MOOCs）的敘述，下列何者錯誤？",
+      "options": [
+        "MOOCs也採用線上教學的模式",
+        "MOOCs所提供的教材就是多媒體的數位教材",
+        "不管選修國內或是國外的MOOCs都是免費",
+        "不少MOOCs可以選修學分"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "fa676aee26b5",
+        "answer_pdf_sha1": "dfcdcffa0279",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1904",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 11,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0061",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "下列何者是關聯式資料庫中，常見的二元運算子（binaryoperator），其運作需要二個關聯（relation） 表？",
+      "options": [
+        "difference",
+        "select",
+        "update",
+        "project"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "fa676aee26b5",
+        "answer_pdf_sha1": "dfcdcffa0279",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1904",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 12,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0062",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "有關DBMS是指：",
+      "options": [
+        "資料庫",
+        "資料庫管理系統",
+        "資料庫管理師",
+        "管理資訊系統"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "fa676aee26b5",
+        "answer_pdf_sha1": "dfcdcffa0279",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1904",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 13,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0063",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "下列那一個結構，採取空間換取時間的策略，藉以提昇在該結構中搜尋資料、新增、刪除的時間複雜 度？",
+      "options": [
+        "二元搜尋樹（BinarySearchTree）",
+        "紅黑樹（Red-BlackTree）",
+        "有序鏈結串列（SortedLinkedList）",
+        "雜湊表（HashTable）"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "fa676aee26b5",
+        "answer_pdf_sha1": "dfcdcffa0279",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1904",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 14,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0064",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "在空的佇列（Queue）中依序插入（Enqueue）1,9,7,2,5和10等數字，接著執行三次刪除（Dequeue）， 最後插入15。完成上述運算後，該佇列的前端（Front）元素為何？",
+      "options": [
+        "1",
+        "2",
+        "7",
+        "15"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "fa676aee26b5",
+        "answer_pdf_sha1": "dfcdcffa0279",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1904",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 15,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0065",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "以中序式（Infix）表示的算術運算式A–(B*C)+D，轉換成後序式（Postfix）的結果是：",
+      "options": [
+        "ABCD*–+",
+        "BC*A–D+",
+        "D+A–BC*",
+        "ABC*–D+"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "fa676aee26b5",
+        "answer_pdf_sha1": "dfcdcffa0279",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1904",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 16,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0066",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "若以廣度優先拜訪（Breadth-firsttraversal）走訪此樹，拜訪順序應為下列何者？ b a c d e i k h f",
+      "options": [
+        "abidkchef",
+        "bacdeikhf",
+        "bacdikehf",
+        "aikdhfecb"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "fa676aee26b5",
+        "answer_pdf_sha1": "dfcdcffa0279",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1904",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 17,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0067",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "關於二元樹（Binarytree）、完整二元樹（Completebinarytree）、完滿二元樹（Fullbinarytree）的敘述， 下列何者正確？",
+      "options": [
+        "每棵完整二元樹也都是完滿二元樹",
+        "每棵完滿二元樹也都是完整二元樹",
+        "一棵二元樹不可能同時是完整二元樹且是完滿二元樹",
+        "每棵二元樹是完整二元樹、或是完滿二元樹"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "fa676aee26b5",
+        "answer_pdf_sha1": "dfcdcffa0279",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1904",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 18,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0068",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "10個城市之間彼此的距離如下圖所示，若您預計從a城市出發前往z城市，最短的路線長度為多少？ b 10 f 2",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "fa676aee26b5",
+        "answer_pdf_sha1": "dfcdcffa0279",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1904",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 19,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0069",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "3",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "fa676aee26b5",
+        "answer_pdf_sha1": "dfcdcffa0279",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1904",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0070",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "5 c 4 g",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "fa676aee26b5",
+        "answer_pdf_sha1": "dfcdcffa0279",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1904",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0071",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "2 1 a 5 z",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "fa676aee26b5",
+        "answer_pdf_sha1": "dfcdcffa0279",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1904",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0072",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "5 8 3",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "fa676aee26b5",
+        "answer_pdf_sha1": "dfcdcffa0279",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1904",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0073",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "d h 6",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "fa676aee26b5",
+        "answer_pdf_sha1": "dfcdcffa0279",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1904",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0074",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "7 3 e 8 i",
+      "options": [
+        "14",
+        "15",
+        "16",
+        "17"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "fa676aee26b5",
+        "answer_pdf_sha1": "dfcdcffa0279",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1904",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0075",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "以快速排序法（QuickSort）與堆積排序法（HeapSort）來排序n筆資料，其最壞狀況（Worstcase） 的時間複雜度為：",
+      "options": [
+        "前者：O(n2)，後者：O(nlogn)",
+        "前者：O(nlogn)，後者：O(n2)",
+        "兩者均是O(nlogn)",
+        "兩者均是：O(n2)"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "fa676aee26b5",
+        "answer_pdf_sha1": "dfcdcffa0279",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1904",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 20,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0076",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "當輸入到陣列的資料，本身就已排序好或幾乎排序好，至多只有1或2個資料次序不正確。以一般實 作言，採用那種排序法效率較佳？",
+      "options": [
+        "快速排序（QuickSort）",
+        "堆積排序（HeapSort）",
+        "合併排序（MergeSort）",
+        "插入排序（InsertionSort）"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "fa676aee26b5",
+        "answer_pdf_sha1": "dfcdcffa0279",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1904",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 21,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0077",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "關於搜尋的敘述，下列何者錯誤？",
+      "options": [
+        "二元搜尋（Binarysearch）可應用於已排序的資料",
+        "循序搜尋（Sequentialsearch）可應用於已排序的資料",
+        "二元搜尋可應用於未排序的資料",
+        "循序搜尋可應用於未排序的資料"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "fa676aee26b5",
+        "answer_pdf_sha1": "dfcdcffa0279",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1904",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 22,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0078",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "假設我們利用BNF（Backus-NaurForm）定義一個程式的語法（grammar）如下： <statement>   →  <id> := <integer> <id>   →   x | y <integer>  → 0 | 1| 2 此語法<statement>會產生下列那個語句（sentence）？",
+      "options": [
+        "x=2",
+        "x:=3",
+        "y:=1",
+        "y→ 0"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "fa676aee26b5",
+        "answer_pdf_sha1": "dfcdcffa0279",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1904",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 23,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0079",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "下列何者最能描述陣列（array）的特性？",
+      "options": [
+        "顯示階層（hierarchical）行為的一種資料結構",
+        "適於儲存相似型態物件的一種容器（container）",
+        "陣列一旦初始化就不可變（immutable）",
+        "節省記憶體空間的一種資料結構"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "fa676aee26b5",
+        "answer_pdf_sha1": "dfcdcffa0279",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1904",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 24,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0080",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "執行下列C程式後，產生的輸出為何？ #include<stdio.h> intf(intn){ if(n==1||n==2){ return10; } else{ returnf(n-1)*f(n-2); } } intmain(){ printf(\"%d\\n\",f(5)); return0; }",
+      "options": [
+        "1000",
+        "10",
+        "100000",
+        "50000"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "fa676aee26b5",
+        "answer_pdf_sha1": "dfcdcffa0279",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1904",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 25,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0081",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "針對下列C遞迴函式： intfn(inta,intb) {intc; if(b==0) return1; else if(b%2==0) { c=fn(a,b/2); returnc*c; } else returna*fn(a,b-1); } 若以下列方式呼叫，將產生何種輸出？ printf(\"%d\",fn(10,5))",
+      "options": [
+        "2",
+        "15",
+        "50",
+        "100000"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "fa676aee26b5",
+        "answer_pdf_sha1": "dfcdcffa0279",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1904",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 26,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0082",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "關於C語言中的int（整數）型態資料，下列指令何者錯誤？ inti;",
+      "options": [
+        "i='A';",
+        "i=0b10000001;",
+        "i=0101;",
+        "i=0x41;"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "fa676aee26b5",
+        "answer_pdf_sha1": "dfcdcffa0279",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1904",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 27,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0083",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "考慮下列C語言結構變數（Structurevariable）的宣告： structcustomer{ intnumber; charname[20]; intage; charsex; }; structcustomerJohn; 下列何者不是讀取一個structcustomer欄位（Attribute）的位址（Address）？",
+      "options": [
+        "&John.number",
+        "John.name",
+        "John&age",
+        "&John.sex"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "fa676aee26b5",
+        "answer_pdf_sha1": "dfcdcffa0279",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1904",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 28,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0084",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "下列所定義的C語言結構變數： typedefstruct{ enum{A,B}kind; union{inti;shorts;}u; }Number; Numbera; a.kind=A; a.u.i=2; 執行以下的printf指令，將會產生何種輸出？ printf(\"%d %hd\",a.kind,a.u.s);",
+      "options": [
+        "0 0",
+        "0 2",
+        "1 0",
+        "1 2"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "fa676aee26b5",
+        "answer_pdf_sha1": "dfcdcffa0279",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1904",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 29,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0085",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "假設一個文字檔案共有3600個字元，且檔案指標fptr指在該檔的第400個字元的位置。下列何種C 語言的程式片段執行後，feof(fptr)的值為0？",
+      "options": [
+        "fread(buffer,1,3600,fptr);",
+        "fseek(fptr,3200,SEEK_CUR);fgetc(fptr);",
+        "fseek(fptr,3200,SEEK_SET);fgetc(fptr);",
+        "while(!feof(fptr));getc(fptr);"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "fa676aee26b5",
+        "answer_pdf_sha1": "dfcdcffa0279",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1904",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 30,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0086",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "執行下列C語言撰寫之程式，產生之輸出結果為何？ #include<stdio.h> voidsubA(void); inta=0,b=4; intmain(){ printf(\"a=%d,b=%d,\",a,b); subA(); printf(\"a=%d,b=%d\",a,b); return0; } voidsubA(){ inta; a=2; b=b+1; printf(\"a=%d,b=%d,\",a,b); }",
+      "options": [
+        "a=4,b=4,a=2,b=5,a=0,b=5",
+        "a=0,b=4,a=2,b=5,a=2,b=5",
+        "a=0,b=4,a=2,b=5,a=0,b=4",
+        "a=0,b=4,a=2,b=5,a=0,b=5"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "fa676aee26b5",
+        "answer_pdf_sha1": "dfcdcffa0279",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1904",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 31,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0087",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "在下列Java程式中的兩個method方法運用到物件導向程式設計中的何種概念？ classTest{ publicintmethod(inta){returna*a;} } classTest2extendsTest{ publicintmethod(inta){returna*a*a;} }",
+      "options": [
+        "多載（Overloading）",
+        "重載（Overriding）",
+        "抽象化（Abstraction）",
+        "封裝（Encapsulation）"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "fa676aee26b5",
+        "answer_pdf_sha1": "dfcdcffa0279",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1904",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 32,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0088",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "UDP協定對應到OSI所定義之網路模型的那一層？",
+      "options": [
+        "DataLinkLayer",
+        "NetworkLayer",
+        "TransportLayer",
+        "SessionLayer"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "fa676aee26b5",
+        "answer_pdf_sha1": "dfcdcffa0279",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1904",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 33,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0089",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "有關區域網路使用1000BaseTx乙太網路，其中1000代表的意義：",
+      "options": [
+        "佈線最長1000m",
+        "佈線最長1000Tm",
+        "1000Kbps",
+        "1000Mbps"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "fa676aee26b5",
+        "answer_pdf_sha1": "dfcdcffa0279",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1904",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 34,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0090",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "封包經過下列何種網路設備後，可能會使得封包的接收端無法看到傳送端原本的IP位址？",
+      "options": [
+        "路由器（Router）",
+        "網路位址轉換器（NetworkAddressTranslation）",
+        "集線器（Hub）",
+        "中繼器（Repeater）"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "fa676aee26b5",
+        "answer_pdf_sha1": "dfcdcffa0279",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1904",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 35,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0091",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "當一台電腦剛開機後欲瀏覽網頁，最有可能先送出下列何種協定的封包？",
+      "options": [
+        "HTTP（HyperTextTransferProtocol）",
+        "ARP（AddressResolutionProtocol）",
+        "DNS（DomainNameSystem）",
+        "ICMP（InternetControlMessageProtocol）"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "fa676aee26b5",
+        "answer_pdf_sha1": "dfcdcffa0279",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1904",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 36,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0092",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "下列何種無線通訊協定的傳輸距離最短？",
+      "options": [
+        "NFC",
+        "Bluetooth",
+        "Wi-Fi",
+        "4G"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "fa676aee26b5",
+        "answer_pdf_sha1": "dfcdcffa0279",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1904",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 37,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0093",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "透過網頁快取（Web Cache）的方式，儲存最近被請求的網頁物件的副本，以降低用戶請求網頁回應 的時間，這樣的網頁服務設施稱為：",
+      "options": [
+        "FTP伺服器",
+        "Proxy伺服器",
+        "DHCP伺服器",
+        "CommandandControl（C&C）伺服器"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "fa676aee26b5",
+        "answer_pdf_sha1": "dfcdcffa0279",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1904",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 38,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0094",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "IPv6是為了解決目前IPv4網際網路地址不足的問題而提出的新一代網際網路定址系統，一個IPv6的 位址長度有幾個位元？",
+      "options": [
+        "32",
+        "48",
+        "64",
+        "128"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "fa676aee26b5",
+        "answer_pdf_sha1": "dfcdcffa0279",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1904",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 39,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0095",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "single_choice",
+      "question": "當發現某公司產品有資安漏洞時，下列何者為負責任的披露方式（Responsibledisclosure）？",
+      "options": [
+        "將漏洞資訊賣給出價最高的人",
+        "先將漏洞資訊公開披露在網路，再通知這家公司",
+        "先通知這家公司，在漏洞修復之前，不隨意披露詳細漏洞資訊",
+        "利用此漏洞進一步取得這家公司的機密文件，藉此訓練這家公司的資安意識"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "fa676aee26b5",
+        "answer_pdf_sha1": "dfcdcffa0279",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1904",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "計算機概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 40,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0096",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "essay",
+      "question": "圖一(a)步升電壓v (t) 為圖一(b)與圖一(c)電路之輸入波形，其中\ni\nt  RC。畫出兩電路輸出電壓v (t)與v (t)之波形，並說明兩電路分別\n1 ob oc\n具有高通、低通或全通的那一種濾波特性以解釋波形如何隨時間變化。\n（24分）\n圖一(a) 圖一(b) 圖一(c)",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "3e87fab00fbf",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1801",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電子儀表概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0097",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "essay",
+      "question": "直流功率錶（瓦特計，Wattmeter）內部含有兩個主要的電路，其一是測\n量負載端的電壓V 稱為電路 A，其二是測量流經負載的電流I 稱為電路\nL L\nB。電路 A、電路 B與待測負載均有兩個接線端。\n電路 A應與待測負載的兩接線端並聯或串聯，說明原因。（8 分）\n電路 B應與待測負載的兩接線端並聯或串聯，說明原因。（8 分）\n上述與接妥後，根據電路A與電路 B各量得V 與I 所計算功率之\nL L\n值會高於或低於實際的負載功耗？說明原因，不計電路 A與電路B的\n功耗。（10 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "3e87fab00fbf",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1801",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電子儀表概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0098",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "essay",
+      "question": "正確度（trueness）表示測量平均值與真實值之間相近的幅度，精確度\n（precision）反映測量值與其平均值之間的離散大小，準確度（accuracy）\n則是正確度和精確度的組合，綜合判斷量測結果與其真實值之間接近的\n程度。以 X、Y、Z 三部儀器測量 4 個 10 kΩ 的電阻，量測所得電阻值\n以 x 標示，如圖二。由此量測數據判斷：\n精確度最高者為何？最低為何？說明如何判斷。（8分）\n正確度最高者為何？最低為何？說明如何判斷。（8分）\n準確度最高者為何？說明如何判斷。（8分）\n圖二",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "3e87fab00fbf",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1801",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電子儀表概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0099",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "essay",
+      "question": "圖三信號產生器之輸出為理想的直流、弦波、三角波以及方波電壓。將\n信號產生器之輸出信號接到負載R ，並以輸入端標示 1 MΩ 與 1 pF 的\nL\n示波器觀察負載R 兩端的電壓波形，\nL\n畫出往示波器輸入端看進去的等效電路。（7 分）\n對直流的輸入信號而言，討論R 電阻值如何影響所觀察到的結果。\nL\n（7 分）\n取R ，何種輸入波形在何種條件下在示波器螢幕最容易觀察到失\nL\n真？同時畫出原波形與失真波形以做比較，並說明失真的原因。（12分）\n圖三",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "3e87fab00fbf",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1801",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電子儀表概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0100",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "essay",
+      "question": "圖一所示為 BJT 放大器之小信號電路模型，R =10 kΩ，r =5 kΩ，\nS π\ng =50 mA/V，r =120 kΩ，R =30 kΩ。請計算小信號電壓增益 v /v 。\nm o L o in\n（25分）\nR\nS B C\nv v\nin o\nv r g v r\nbe π m be o R\nL\nE\n圖一",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "3874d2d8f3c1",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1802",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電子學概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0101",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "essay",
+      "question": "圖二所示放大器，其開路電壓增益為無限大。v =5 V，R =10 kΩ，\nin 1\nR =60 kΩ，R =60 kΩ。請計算輸出電壓 v 。（25分）\n2 3 o\nR\n3\nR\n2\nR\n1\nv\no\nv\nin\n圖二",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "3874d2d8f3c1",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1802",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電子學概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0102",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "essay",
+      "question": "圖三所示兩級放大器，使用理想電流源 I、2I偏壓，電晶體 Q ～Q 皆操\n1 5\n作於飽和區。輸入電壓 v =10 V，電晶體轉導 g ～g 均為 20 mA/V，\nin m1 m5\n電晶體 r ～r 均為 100 kΩ。請計算電壓增益 v /v 。（25分）\no1 o5 o in\n+V +V\nDD DD\n2I I\nv v\n+ in Q Q - in\n3 4\n2 2\nv\no\nQ Q Q\n1 2 5\n̶V ̶V\nSS SS\n圖三",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "3874d2d8f3c1",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1802",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電子學概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-acfc4025-0103",
+      "exam_id": "aboriginal-acfc4025",
+      "question_type": "essay",
+      "question": "請畫出兩輸入之CMOS NOR閘，並寫出其布林代數式。（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:03+00:00",
+        "source_pdf_sha1": "3874d2d8f3c1",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "514",
+          "s": "1802",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電子學概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    }
+  ]
+}

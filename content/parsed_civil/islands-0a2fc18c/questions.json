@@ -1,0 +1,1309 @@
+{
+  "slug": "islands-0a2fc18c",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:33:55+00:00",
+  "paper_count": 4,
+  "paper_with_questions": 3,
+  "question_count": 35,
+  "type_counts": {
+    "essay": 10,
+    "single_choice": 25
+  },
+  "papers": [
+    {
+      "year": "114",
+      "exam_code": "114190",
+      "c": "318",
+      "s": "1103",
+      "q": "1",
+      "subject": "公共經濟學",
+      "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "557c3d64c081",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 0,
+      "status": "parse_q_failed"
+    },
+    {
+      "year": "114",
+      "exam_code": "114190",
+      "c": "318",
+      "s": "1107",
+      "q": "1",
+      "subject": "統計學",
+      "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "b712799b3f30",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "114",
+      "exam_code": "114190",
+      "c": "318",
+      "s": "1102",
+      "q": "1",
+      "subject": "經濟學",
+      "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "6852e28c95cc",
+      "a_pdf_sha1": "5696f1cd2c60",
+      "format_detected": "mixed",
+      "raw_question_count": 27,
+      "answer_qnums_extracted": 25,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 27,
+      "skipped_count": 0
+    },
+    {
+      "year": "114",
+      "exam_code": "114190",
+      "c": "318",
+      "s": "1104",
+      "q": "1",
+      "subject": "貨幣銀行學",
+      "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "4bc7ec435c04",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    }
+  ],
+  "questions": [
+    {
+      "id": "islands-0a2fc18c-0001",
+      "exam_id": "islands-0a2fc18c",
+      "question_type": "essay",
+      "question": "藉由過去數年的資料蒐集與分析，某段道路發生交通事故的次數，為\n每星期平均 2次的卜瓦松分配（Poisson distribution）。試問：（計算\n至小數點後 4位）（每小題 10分，共 20分）\n在 12 月第一個星期的時間內，此段道路上發生 2 次及 2 次以上交\n通事故之機率。\n在 12 月最後二個星期的時間內，此段道路上發生 1 次及 1 次以下\n交通事故之機率。",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:54+00:00",
+        "source_pdf_sha1": "b712799b3f30",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "318",
+          "s": "1107",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "統計學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-0a2fc18c-0002",
+      "exam_id": "islands-0a2fc18c",
+      "question_type": "essay",
+      "question": "依據調查，臺灣 18 歲以下青少年近視比率為 87.2%。若對全國 18歲\n以下青少年進行簡單隨機抽樣，試回答下列問題：\n隨機抽取 8 人，隨機變數 X 代表近視的人數，寫出 X 的機率分配\n函數。（6 分）\n承，計算會抽到超過2人為近視的機率（亦即P(X>2)）。（6分）\n隨機抽取 1000 人，剛好 880 人為近視的機率（請以常態分配機率\n近似）。（12 分）\n若隨機變數 Y 為抽到第十位為近視者的人數，寫出 Y 的機率分配\n函數。（6 分）\n31920\n50620",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:54+00:00",
+        "source_pdf_sha1": "b712799b3f30",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "318",
+          "s": "1107",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "統計學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-0a2fc18c-0003",
+      "exam_id": "islands-0a2fc18c",
+      "question_type": "essay",
+      "question": "下表是全國姓名統計前五大姓氏（及其他）的全國占比，及從臺北市\n隨機抽取2694人，其姓氏之分布情形。\n姓氏 全國比例（%） 臺北市（人）\n陳 11.21 304\n林 8.33 217\n黃 6.00 143\n張 5.30 147\n李 5.13 146\n其他 64.03 1737\n總計 100.00 2694\n試問：\n建構臺北市姓氏為陳者的母體比例之 99%區間估計。（8 分）\n在顯著水準為0.05 下，檢定臺北市姓氏為黃者的母體比例是否小於\n全國姓氏為黃者的比例。（10 分）\n在顯著水準為0.05 下，檢定臺北市各姓氏的比例是否與全國各姓氏\n的比例一致。（12 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:54+00:00",
+        "source_pdf_sha1": "b712799b3f30",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "318",
+          "s": "1107",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "統計學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-0a2fc18c-0004",
+      "exam_id": "islands-0a2fc18c",
+      "question_type": "essay",
+      "question": "某縣政府想評估四種流程（A、B、C、D表示之）辦理某一業務的效\n率，在申請該項業務的民眾中，各隨機抽取 6位民眾至每一種流程，\n觀測其完成程序所需的時間，彙整於下表：\n程序完成所需時間（分）\n辦理流程\n平均 標準差\nA 132.0 21.10\nB 141.5 19.89\nC 149.0 6.22\nD 151.5 7.14\n在顯著水準為0.05 下，檢定各辦理流程完成程序的平均所需時間是\n否相等。（15 分）\n詳細說明進行之分析所需的假設。（5 分）\n31920\n50620\n卡方分配表\nTableof theChi-squareDistribution\n31920\n50620\n標準常態分配表\n31920\n50620\n表\n率\n機\n配\n分\nF",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:54+00:00",
+        "source_pdf_sha1": "b712799b3f30",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "318",
+          "s": "1107",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "統計學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-0a2fc18c-0005",
+      "exam_id": "islands-0a2fc18c",
+      "question_type": "essay",
+      "question": "假設只有 A 與 B 兩個小國，且其生產一單位產品 X 與一單位產品 Y 所\n需的勞動投入數量如下表所示：\nX Y\nA國 2 6\nB國 2 3\n另外，假設勞動為唯一的生產要素，兩國的勞動數量分別為LA=24與LB=12。\n畫出兩國直線型的生產可能曲線（PPF）。（6分）\nP\n如果兩國發生貿易，則國際的相對價格( X )t之範圍為何？（4分）\nP\nY\n假設兩國貿易後皆完全專業化生產其具有比較利益的產品。B 國貿易\n後的產量組合為何？（8分）\nP\n假設( X )t=0.5，且 B 國貿易後的消費組合為（X, Y）=（2, 3），則 B\nP\nY\n國的進出口量各是多少？（8分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "6852e28c95cc",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "318",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-0a2fc18c-0006",
+      "exam_id": "islands-0a2fc18c",
+      "question_type": "essay",
+      "question": "請用總合需求-總合供給（AD-AS）模型回答下列問題：（為簡化分析，\n請不用考慮人們對物價預期水準的調整）\n假設本國經濟一開始處在長期均衡且一般物價水準為 P ，實質 GDP\n1\n水準為 Y 。畫圖顯示此一長期均衡點（A點）。（4 分）\n1\n假設本國恆久性大幅調高進口原物料的關稅，且將增加的關稅稅收用\n於補貼家戶的消費支出。在上述的圖上，畫出並說明在這些措施下，\n總合需求曲線與短期總合供給曲線會如何移動，並顯示新的短期均衡\n點（B 點，此時的一般物價水準為P，實質 GDP水準為 Y ）。（10分）\n2 2\n如果中央銀行要讓一般物價水準回復至 P，則該採取擴張性還是緊縮\n1\n性的貨幣政策？在上述的圖形，畫出並說明在中央銀行所採取的措\n施下，本國經濟如何移至新的短期均衡點（C點）。（10分）\n31860\n50650",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "6852e28c95cc",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "318",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-0a2fc18c-0007",
+      "exam_id": "islands-0a2fc18c",
+      "question_type": "single_choice",
+      "question": "在生產要素及技術水準固定之下，有關一國進行國際貿易之優點，下列敘述何者正確？",
+      "options": [
+        "該國的消費可以選擇在其生產可能線上的任一點",
+        "該國的消費可以選擇在其生產可能線以內的一點",
+        "該國的消費可以選擇在其生產可能線以外的一點",
+        "該國可以將其生產可能線向外擴張"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "6852e28c95cc",
+        "answer_pdf_sha1": "5696f1cd2c60",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "318",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-0a2fc18c-0008",
+      "exam_id": "islands-0a2fc18c",
+      "question_type": "single_choice",
+      "question": "甲與乙都是咖啡的愛好者。甲每個月固定喝 30 杯咖啡，乙每個月固定花 1,000 元喝咖啡。甲乙 兩人的咖啡需求價格彈性各為何？",
+      "options": [
+        "甲的咖啡需求價格彈性為0，乙的咖啡需求價格彈性為1",
+        "甲的咖啡需求價格彈性為1，乙的咖啡需求價格彈性為0",
+        "甲與乙的咖啡需求價格彈性均為0",
+        "甲與乙的咖啡需求價格彈性均為1"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "6852e28c95cc",
+        "answer_pdf_sha1": "5696f1cd2c60",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "318",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-0a2fc18c-0009",
+      "exam_id": "islands-0a2fc18c",
+      "question_type": "single_choice",
+      "question": "假設其他條件不變，在兩期模型下，如利率上升造成第一期儲蓄減少，下列敘述何者正確？",
+      "options": [
+        "對第一期的消費而言，利率上升的替代效果大於所得效果",
+        "對第一期的消費而言，利率上升的替代效果小於所得效果",
+        "對第一期的消費而言，利率上升的替代效果等於所得效果",
+        "對第二期的消費而言，利率上升的替代效果等於所得效果"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "6852e28c95cc",
+        "answer_pdf_sha1": "5696f1cd2c60",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "318",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-0a2fc18c-0010",
+      "exam_id": "islands-0a2fc18c",
+      "question_type": "single_choice",
+      "question": "已知某一生產函數為Q=K0.5L0.5，其中Q代表產量，K代表資本，L代表勞動，則此生產函數的 規模報酬呈：",
+      "options": [
+        "遞增",
+        "遞減",
+        "固定",
+        "先增後減"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "6852e28c95cc",
+        "answer_pdf_sha1": "5696f1cd2c60",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "318",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-0a2fc18c-0011",
+      "exam_id": "islands-0a2fc18c",
+      "question_type": "single_choice",
+      "question": "下圖為某一定置漁場的要素組合圖，其成本支出主要是漁場工人的工資與購置漁具的支出。下列 敘述何者錯誤？ 網具 數量 擴張線 B A QQB B QA A B 漁場 工人",
+      "options": [
+        "當漁場試圖由Q 的漁獲產量擴大捕撈時，其等成本線可能會由AA線向外移動 A",
+        "擴張線上的各點皆以最低成本來生產",
+        "漁場的長期平均成本線為水平線",
+        "當漁場工人的工資成本增加時，會使漁場的等成本線平行移動 31860 50650"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "6852e28c95cc",
+        "answer_pdf_sha1": "5696f1cd2c60",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "318",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-0a2fc18c-0012",
+      "exam_id": "islands-0a2fc18c",
+      "question_type": "single_choice",
+      "question": "下列何種情況，資源配置符合生產效率？",
+      "options": [
+        "生產組合落在生產可能線內",
+        "生產組合落在生產可能線上",
+        "生產組合落在生產可能線外",
+        "改變資源配置可以增加所有商品的產出"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "6852e28c95cc",
+        "answer_pdf_sha1": "5696f1cd2c60",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "318",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-0a2fc18c-0013",
+      "exam_id": "islands-0a2fc18c",
+      "question_type": "single_choice",
+      "question": "下列何種特性會使市場產生自然獨占（naturalmonopoly）？",
+      "options": [
+        "廠商獲得產品之獨家銷售權",
+        "廠商在銷售其產品前必須得到政府的許可",
+        "廠商擁有生產所需要原料之所有權",
+        "技術特性讓一家廠商生產時的平均成本會低於兩家（含）以上生產時之平均成本"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "6852e28c95cc",
+        "answer_pdf_sha1": "5696f1cd2c60",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "318",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-0a2fc18c-0014",
+      "exam_id": "islands-0a2fc18c",
+      "question_type": "single_choice",
+      "question": "假設在一個有N家廠商的獨占性競爭市場裡，每家廠商所面對的需求為Q=80/N-P，總成本函 數為TC=0.5+Q2。當長期均衡達成時，N值為何？",
+      "options": [
+        "20",
+        "30",
+        "40",
+        "50"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "6852e28c95cc",
+        "answer_pdf_sha1": "5696f1cd2c60",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "318",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-0a2fc18c-0015",
+      "exam_id": "islands-0a2fc18c",
+      "question_type": "single_choice",
+      "question": "關於勞動供給的敘述，下列何者錯誤？",
+      "options": [
+        "勞動供給曲線指的是勞動供給數量與薪資之間的關係",
+        "勞動供給必定是一正斜率的曲線",
+        "勞動供給曲線代表的是人們極大化效用的抉擇結果",
+        "薪資上漲時，會產生替代與所得效果"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "6852e28c95cc",
+        "answer_pdf_sha1": "5696f1cd2c60",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "318",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-0a2fc18c-0016",
+      "exam_id": "islands-0a2fc18c",
+      "question_type": "single_choice",
+      "question": "推銷員小明的效用函數為U（I）= I，其中I為年所得。景氣好時每年可賺取100萬元，但景氣不佳時 只有36萬元的收入。假設景氣好壞的機率各半，則小明從事這份工作的風險貼水（riskpremium）為何？",
+      "options": [
+        "10萬元",
+        "8萬元",
+        "6萬元",
+        "4萬元"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "6852e28c95cc",
+        "answer_pdf_sha1": "5696f1cd2c60",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "318",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-0a2fc18c-0017",
+      "exam_id": "islands-0a2fc18c",
+      "question_type": "single_choice",
+      "question": "有關一般均衡分析與部分均衡分析的相異處，下列敘述何者正確？",
+      "options": [
+        "前者考慮完全競爭下的情形；後者則否",
+        "前者考慮所有商品及要素市場如何受價格機能調整至均衡；後者則否",
+        "前者考慮長期均衡；後者則否",
+        "前者考慮柏拉圖（Pareto）最適下的情形；後者則否"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "6852e28c95cc",
+        "answer_pdf_sha1": "5696f1cd2c60",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "318",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 11,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-0a2fc18c-0018",
+      "exam_id": "islands-0a2fc18c",
+      "question_type": "single_choice",
+      "question": "在給定的利率下，若可借貸資金市場（marketforloanablefunds）上有多餘的可借貸資金，則可借 貸資金市場將如何調整到均衡？",
+      "options": [
+        "可借貸資金的供給曲線右移，可借貸資金的需求曲線左移",
+        "可借貸資金的供給曲線左移，可借貸資金的需求曲線右移",
+        "可借貸資金的供給、需求曲線不移動，利率提高，可借貸資金的供給量增加、需求量減少，達 到均衡",
+        "可借貸資金的供給、需求曲線不移動，利率降低，可借貸資金的供給量減少、需求量增加，達 到均衡"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "6852e28c95cc",
+        "answer_pdf_sha1": "5696f1cd2c60",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "318",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 12,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-0a2fc18c-0019",
+      "exam_id": "islands-0a2fc18c",
+      "question_type": "single_choice",
+      "question": "根據梭羅模型（Solowmodel）的內容，儲蓄率提高產生的影響不包括下列何者？",
+      "options": [
+        "提高每人所得",
+        "提高資本折舊率",
+        "提高每人資本數量",
+        "不影響達到穩定狀態（steadystate）時的經濟成長率 31860 50650"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "6852e28c95cc",
+        "answer_pdf_sha1": "5696f1cd2c60",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "318",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 13,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-0a2fc18c-0020",
+      "exam_id": "islands-0a2fc18c",
+      "question_type": "single_choice",
+      "question": "考慮人口成長的梭羅（Solow）成長模型，下列敘述何者錯誤？",
+      "options": [
+        "相對收斂假說係指經濟結構不同的國家，可能會收斂到不同的長期所得水準",
+        "在穩定狀態（SteadyState）下，長期總產出成長率等於人口成長率",
+        "收斂至長期均衡恆定狀態的過程中，經濟成長率遞增",
+        "在穩定狀態下，每人資本存量滿足資本邊際生產力等於人口成長率加資本折舊率之條件時，可 達個人消費極大"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "6852e28c95cc",
+        "answer_pdf_sha1": "5696f1cd2c60",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "318",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 14,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-0a2fc18c-0021",
+      "exam_id": "islands-0a2fc18c",
+      "question_type": "single_choice",
+      "question": "當人們調高預期的物價膨脹率時，下列敘述何者正確？",
+      "options": [
+        "短期菲利浦曲線（Phillipscurve）右移",
+        "短期菲利浦曲線左移",
+        "長期菲利浦曲線右移",
+        "長期菲利浦曲線左移"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "6852e28c95cc",
+        "answer_pdf_sha1": "5696f1cd2c60",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "318",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 15,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-0a2fc18c-0022",
+      "exam_id": "islands-0a2fc18c",
+      "question_type": "single_choice",
+      "question": "考慮兩個相似的經濟體，一個具有高的邊際消費傾向（marginalpropensitytoconsume,MPC）而 一個具有低的MPC。如果每個經濟體的貨幣供給增加相同的數量，具有高MPC的經濟體將會：",
+      "options": [
+        "產出增加較多，利率下降較少",
+        "產出增加較少，利率下降較少",
+        "產出增加較多，利率下降較多",
+        "產出增加較少，利率下降較多"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "6852e28c95cc",
+        "answer_pdf_sha1": "5696f1cd2c60",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "318",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 16,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-0a2fc18c-0023",
+      "exam_id": "islands-0a2fc18c",
+      "question_type": "single_choice",
+      "question": "在封閉的經濟體系下，實質貨幣需求函數為Md/p=500+0.1Y-10,000i，Y為產出水準，i為名目利 率，名目貨幣供給量為Ms=1,200且物價水準為P=1.5，預期通貨膨脹率πe為0.02，當均衡的產 出水準為10,000時，使貨幣市場結清之實質利率為何？",
+      "options": [
+        "0.07",
+        "0.05",
+        "0.03",
+        "0.01"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "6852e28c95cc",
+        "answer_pdf_sha1": "5696f1cd2c60",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "318",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 17,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-0a2fc18c-0024",
+      "exam_id": "islands-0a2fc18c",
+      "question_type": "single_choice",
+      "question": "在可交易的污染排放權市場中，何種廠商會選擇投資污染防治而非購買排放權？",
+      "options": [
+        "污染量多的廠商",
+        "污染量少的廠商",
+        "防治成本高的廠商",
+        "防治成本低的廠商"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "6852e28c95cc",
+        "answer_pdf_sha1": "5696f1cd2c60",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "318",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 18,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-0a2fc18c-0025",
+      "exam_id": "islands-0a2fc18c",
+      "question_type": "single_choice",
+      "question": "停滯性通貨膨脹與總合供給之間的關係為何？",
+      "options": [
+        "總合供給減少會導致停滯性通貨膨脹",
+        "兩者之間關係不確定",
+        "停滯性通貨膨脹導致總合供給減少",
+        "兩者之間沒有關係"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "6852e28c95cc",
+        "answer_pdf_sha1": "5696f1cd2c60",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "318",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 19,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-0a2fc18c-0026",
+      "exam_id": "islands-0a2fc18c",
+      "question_type": "single_choice",
+      "question": "假設其他條件不變，下列何者無法使政府負債占GDP的比率下降？",
+      "options": [
+        "減少政府支出",
+        "GDP增加",
+        "減少稅收",
+        "減少移轉支出"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "6852e28c95cc",
+        "answer_pdf_sha1": "5696f1cd2c60",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "318",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 20,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-0a2fc18c-0027",
+      "exam_id": "islands-0a2fc18c",
+      "question_type": "single_choice",
+      "question": "假設價格下限政策有效，且需求法則與供給法則都成立。當政府調高價格下限時，下列敘述何者正確？",
+      "options": [
+        "市場交易量增加",
+        "市場交易量減少",
+        "所有買家加總起來的總支出必定增加",
+        "所有買家加總起來的總支出必定減少"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "6852e28c95cc",
+        "answer_pdf_sha1": "5696f1cd2c60",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "318",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 21,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-0a2fc18c-0028",
+      "exam_id": "islands-0a2fc18c",
+      "question_type": "single_choice",
+      "question": "假設有一廠商的生產函數為Y=10K0.5N0.5，此廠商僱用484個工人，廠商在第一期時的資本存量 為50，假定市場利率為10%，則第二期所需要的資本存量應為何？",
+      "options": [
+        "10,000",
+        "20,000",
+        "30,000",
+        "40,000"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "6852e28c95cc",
+        "answer_pdf_sha1": "5696f1cd2c60",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "318",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 22,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-0a2fc18c-0029",
+      "exam_id": "islands-0a2fc18c",
+      "question_type": "single_choice",
+      "question": "有一個經濟體，實質產出為10,000，貨幣流通速度固定為4，物價水準為2，假設貨幣數量學說 成立，則名目貨幣需求為何？",
+      "options": [
+        "2,000",
+        "5,000",
+        "8,000",
+        "10,000"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "6852e28c95cc",
+        "answer_pdf_sha1": "5696f1cd2c60",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "318",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 23,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-0a2fc18c-0030",
+      "exam_id": "islands-0a2fc18c",
+      "question_type": "single_choice",
+      "question": "依據實質景氣循環理論，下列何者不是造成短期經濟波動的原因？",
+      "options": [
+        "自然災害",
+        "技術進步",
+        "發現新的可用資源",
+        "財政與貨幣政策的改變"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "6852e28c95cc",
+        "answer_pdf_sha1": "5696f1cd2c60",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "318",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 24,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-0a2fc18c-0031",
+      "exam_id": "islands-0a2fc18c",
+      "question_type": "single_choice",
+      "question": "在景氣衰退時，增加政府支出屬於下列何種類型的政策？",
+      "options": [
+        "積極型貨幣政策（activemonetarypolicy）",
+        "積極型財政政策（activefiscalpolicy）",
+        "消極型貨幣政策（passivemonetarypolicy）",
+        "消極型財政政策（passivefiscalpolicy）"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "6852e28c95cc",
+        "answer_pdf_sha1": "5696f1cd2c60",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "318",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 25,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-0a2fc18c-0032",
+      "exam_id": "islands-0a2fc18c",
+      "question_type": "essay",
+      "question": "試說明當某甲把藏在衣櫃鞋盒裡的1,000元存入銀行活期儲蓄存款帳戶，\n此行為對M1A、M1B與M2的影響。再者，如果這1,000元留在銀行體\n系作為準備金，且所有銀行的存款準備率為 20%，試計算並說明整個銀\n行體系增加的存款總額最多會有多少？貨幣供給增加多少？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "4bc7ec435c04",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "318",
+          "s": "1104",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "貨幣銀行學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-0a2fc18c-0033",
+      "exam_id": "islands-0a2fc18c",
+      "question_type": "essay",
+      "question": "假設中央銀行的政策目標為零物價通膨，試利用數量方程式（quantity\nequation），說明當貨幣流通速度是固定的，則此零物價膨脹目標是否要\n求貨幣供給成長率為零？如果是，請說明為什麼？如果不是，請說明貨\n幣供給成長率為何？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "4bc7ec435c04",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "318",
+          "s": "1104",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "貨幣銀行學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-0a2fc18c-0034",
+      "exam_id": "islands-0a2fc18c",
+      "question_type": "essay",
+      "question": "假設政府採行財政政策以減少預算赤字，中央銀行採行貨幣政策以防止\n經濟陷入衰退。試用 IS-LM模型繪圖，並說明政府「減少赤字的財政政\n策」與中央銀行「防止產出下降的貨幣政策」對均衡所得與均衡利率的\n影響。請務必在圖中清楚標示：座標軸、IS 曲線、LM 曲線、初始均衡\n值、曲線移動的方向，以及最終均衡值。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "4bc7ec435c04",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "318",
+          "s": "1104",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "貨幣銀行學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-0a2fc18c-0035",
+      "exam_id": "islands-0a2fc18c",
+      "question_type": "essay",
+      "question": "請使用菲利浦曲線（Phillipscurve）繪圖，並說明當經濟體受到不利的供\n給面衝擊（adversesupplyshock），通貨膨脹率與失業率之間的短期取捨\n關係（tradeoff）會如何改變？（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "4bc7ec435c04",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "318",
+          "s": "1104",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "貨幣銀行學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    }
+  ]
+}

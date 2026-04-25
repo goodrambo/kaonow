@@ -1,0 +1,1376 @@
+{
+  "slug": "aboriginal-7be5e2bb",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:36:55+00:00",
+  "paper_count": 4,
+  "paper_with_questions": 4,
+  "question_count": 37,
+  "type_counts": {
+    "single_choice": 25,
+    "essay": 12
+  },
+  "papers": [
+    {
+      "year": "114",
+      "exam_code": "114140",
+      "c": "507",
+      "s": "0602",
+      "q": "1",
+      "subject": "行政法",
+      "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "bf7be7405e55",
+      "a_pdf_sha1": "2e88d7bce4a9",
+      "format_detected": "mixed",
+      "raw_question_count": 25,
+      "answer_qnums_extracted": 25,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 25,
+      "skipped_count": 0
+    },
+    {
+      "year": "114",
+      "exam_code": "114140",
+      "c": "507",
+      "s": "1007",
+      "q": "1",
+      "subject": "運動社會學",
+      "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "eff9f3a77937",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "114",
+      "exam_code": "114140",
+      "c": "507",
+      "s": "1005",
+      "q": "1",
+      "subject": "運動自然科學",
+      "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "273ef495d58e",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "114",
+      "exam_code": "114140",
+      "c": "507",
+      "s": "1006",
+      "q": "1",
+      "subject": "體育行政與管理",
+      "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "5f98869e214c",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    }
+  ],
+  "questions": [
+    {
+      "id": "aboriginal-7be5e2bb-0001",
+      "exam_id": "aboriginal-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "依司法院大法官解釋意旨，關於法律之敘述，下列何者錯誤？",
+      "options": [
+        "所謂法律，原則上係對不特定人之權利義務所為之抽象規定",
+        "預算案實質上為行政行為之一種，但因具有法律之形式，故稱之為措施性法律",
+        "若法律實際適用結果，僅單一或少數對象受該法律規範者，即為憲法所不許",
+        "法律明確性原則並無禁止立法者衡酌生活事實之複雜性及適用於個案之妥當性，適當運用不確 定法律概念之可能性"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:36:55+00:00",
+        "source_pdf_sha1": "bf7be7405e55",
+        "answer_pdf_sha1": "2e88d7bce4a9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "507",
+          "s": "0602",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-7be5e2bb-0002",
+      "exam_id": "aboriginal-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "關於法律不溯及既往原則之敘述，下列何者錯誤？",
+      "options": [
+        "不論負擔性或授益性法律均有法律不溯及既往之適用",
+        "真正溯及既往係指，法規於時間上向前適用於已確定終結之案件",
+        "原則上法律不溯及既往只禁止真正溯及既往之情形，惟若不真正溯及既往之影響過鉅，則宜制 定過渡條款",
+        "基於重大公益之考量仍可能例外允許制定真正溯及既往之法規"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:36:55+00:00",
+        "source_pdf_sha1": "bf7be7405e55",
+        "answer_pdf_sha1": "2e88d7bce4a9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "507",
+          "s": "0602",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-7be5e2bb-0003",
+      "exam_id": "aboriginal-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "下列何者非屬不確定法律概念？",
+      "options": [
+        "食品安全衛生管理法第15條之「有毒或含有害人體健康之物質或異物」",
+        "建築法第58條之「危害公共安全者」",
+        "空氣污染防制法第62條之「通知限期補正或改善」",
+        "廢棄物清理法第2條之「有害事業廢棄物」"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:36:55+00:00",
+        "source_pdf_sha1": "bf7be7405e55",
+        "answer_pdf_sha1": "2e88d7bce4a9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "507",
+          "s": "0602",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-7be5e2bb-0004",
+      "exam_id": "aboriginal-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "關於公立中小學與學生之法律關係，下列敘述何者正確？",
+      "options": [
+        "學校不得對學生作成行政處分",
+        "學生與學校成立公法上之營造物利用關係",
+        "學校制定學生退學之校規，無需任何法律依據",
+        "學生與學校間之營造物利用關係發生爭執時，僅得透過家長會協議解決"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:36:55+00:00",
+        "source_pdf_sha1": "bf7be7405e55",
+        "answer_pdf_sha1": "2e88d7bce4a9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "507",
+          "s": "0602",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-7be5e2bb-0005",
+      "exam_id": "aboriginal-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "下列何者為行政法人？",
+      "options": [
+        "國立故宮博物院",
+        "中央銀行",
+        "國家中山科學研究院",
+        "公平交易委員會"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:36:55+00:00",
+        "source_pdf_sha1": "bf7be7405e55",
+        "answer_pdf_sha1": "2e88d7bce4a9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "507",
+          "s": "0602",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-7be5e2bb-0006",
+      "exam_id": "aboriginal-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "關於行政機關管轄權限之變更，下列敘述何者正確？",
+      "options": [
+        "行政機關依法規委任所屬下級機關執行事務，不需要公告及刊登政府公報或新聞紙",
+        "除有法律明文規定，否則行政機關不得將其權限之一部委託民間團體辦理",
+        "行政機關得僅依行政程序法第15條第2項規定，將其權限委託不相隸屬之行政機關",
+        "行政機關依法規將其權限之一部分，委託民間團體辦理，該民間團體於委託範圍內，視為行政 機關"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:36:55+00:00",
+        "source_pdf_sha1": "bf7be7405e55",
+        "answer_pdf_sha1": "2e88d7bce4a9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "507",
+          "s": "0602",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-7be5e2bb-0007",
+      "exam_id": "aboriginal-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "甲為行政院所屬薦任八職等之公務員，有關將甲移送懲戒之敘述，下列何者錯誤？",
+      "options": [
+        "甲之非執行職務之違法行為，如嚴重損害政府信譽，亦得移送懲戒",
+        "行政院就甲之失職行為，得不經彈劾程序，逕送懲戒法院審理",
+        "監察院對於甲之失職行為，得主動調查，並於彈劾後移送懲戒法院審理",
+        "如甲之失職行為應受免除職務之懲戒處分，而該行為終了已逾 10 年，行政院即無法再將甲移 送懲戒"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:36:55+00:00",
+        "source_pdf_sha1": "bf7be7405e55",
+        "answer_pdf_sha1": "2e88d7bce4a9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "507",
+          "s": "0602",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-7be5e2bb-0008",
+      "exam_id": "aboriginal-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "公務人員對於服務機關或人事主管機關所為下列人事行政行為，何者不得提起復審？",
+      "options": [
+        "評定試用成績不及格",
+        "機關組成性騷擾處理委員會作成性騷擾成立與否之決定",
+        "申誡之懲處",
+        "核定現職人員部分辦公時間進修 50750、51050"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:36:55+00:00",
+        "source_pdf_sha1": "bf7be7405e55",
+        "answer_pdf_sha1": "2e88d7bce4a9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "507",
+          "s": "0602",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-7be5e2bb-0009",
+      "exam_id": "aboriginal-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "下列何種身分不適用公務員服務法？",
+      "options": [
+        "受主管機關指派於公營事業擔任董事者",
+        "執行政府委託研究案之國立大學教授",
+        "縣立小學兼任總務主任之教師",
+        "現役軍士官"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:36:55+00:00",
+        "source_pdf_sha1": "bf7be7405e55",
+        "answer_pdf_sha1": "2e88d7bce4a9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "507",
+          "s": "0602",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-7be5e2bb-0010",
+      "exam_id": "aboriginal-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "下列何者為行政規則與法規命令相異之處？",
+      "options": [
+        "由行政機關訂定",
+        "經下達後生效",
+        "屬一般性、抽象性規定",
+        "生效後拘束訂定機關"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:36:55+00:00",
+        "source_pdf_sha1": "bf7be7405e55",
+        "answer_pdf_sha1": "2e88d7bce4a9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "507",
+          "s": "0602",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-7be5e2bb-0011",
+      "exam_id": "aboriginal-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "依司法院大法官解釋意旨，關於行政機關就法規所為之釋示，下列敘述何者錯誤？",
+      "options": [
+        "行政機關就法規所為之釋示，係闡明法規之原意，應自釋示發布之日起有其適用",
+        "釋示如有變更，依舊釋示所為行政處分如已確定，原則上不因釋示之變更而受影響",
+        "釋示如有變更，未確定之行政處分即應適用新釋示之規定",
+        "釋示如有變更，新釋示與舊釋示不一致時，舊釋示並非當然錯誤"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:36:55+00:00",
+        "source_pdf_sha1": "bf7be7405e55",
+        "answer_pdf_sha1": "2e88d7bce4a9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "507",
+          "s": "0602",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 11,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-7be5e2bb-0012",
+      "exam_id": "aboriginal-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "下列行政處分之附款，何者與該處分之目的欠缺正當合理之關聯？",
+      "options": [
+        "直轄市政府核准餐廳業者得在行人徒步區擺設露天桌椅，但附加不得使用免洗餐具之負擔",
+        "針對都市計畫停車場公共設施用地一定距離內建築物核發建築許可時，附加免除其應附停車空 間之法定義務而改以課予繳納公共停車空間所需費用之義務",
+        "核發外國人居留許可時，對其附加若違法滯留而須遣返出境時，應自負費用之負擔",
+        "經濟部對於受疫情影響發生營運困難產業事業作成薪資補助處分時，附加受補助事業不應有對 員工實施無薪假、減薪或裁員等減損員工權益之行為之負擔"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:36:55+00:00",
+        "source_pdf_sha1": "bf7be7405e55",
+        "answer_pdf_sha1": "2e88d7bce4a9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "507",
+          "s": "0602",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 12,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-7be5e2bb-0013",
+      "exam_id": "aboriginal-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "下列何種行政行為不具備對外直接法效性？",
+      "options": [
+        "高雄市政府就經濟部產業發展署所屬工業區污水廠違法排放廢水，處以罰鍰",
+        "行政院就臺北市議會通過之自治條例，認為牴觸中央法律，而不予核定",
+        "臺中市政府都市發展局核發建商房屋建造執照",
+        "外交部就公費留學生申請加簽護照問題徵詢教育部，教育部因此所提供之意見"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:36:55+00:00",
+        "source_pdf_sha1": "bf7be7405e55",
+        "answer_pdf_sha1": "2e88d7bce4a9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "507",
+          "s": "0602",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 13,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-7be5e2bb-0014",
+      "exam_id": "aboriginal-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "行政處分於法定救濟期間經過後，相對人或利害關係人得依規定向行政機關申請撤銷、廢止或變 更之。下列敘述何者錯誤？",
+      "options": [
+        "相對人因重大過失而未能在行政程序或救濟程序中主張其事由者，得申請撤銷之",
+        "具有持續效力之行政處分所依據之事實事後發生有利於相對人或利害關係人之變更者，得申請 廢止之",
+        "發生新事實或發現新證據者，但以如經斟酌可受較有利益之處分者為限，相對人得申請變更之",
+        "具有相當於行政訴訟法所定再審事由且足以影響行政處分者，相對人或利害關係人得申請撤銷之"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:36:55+00:00",
+        "source_pdf_sha1": "bf7be7405e55",
+        "answer_pdf_sha1": "2e88d7bce4a9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "507",
+          "s": "0602",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 14,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-7be5e2bb-0015",
+      "exam_id": "aboriginal-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "依司法實務見解，關於行政契約之敘述，下列何者錯誤？",
+      "options": [
+        "土地徵收前，需用土地人與人民依協議價購方式取得私人土地之契約，為行政契約",
+        "行政契約與私法契約之區別，原則上以契約標的為準，若契約標的給付行為不易區分為公、私 法性質，則須就契約目的及契約整體特徵作判斷",
+        "公立大學與教師之關係為行政契約關係，學校對教師所為之不續聘非屬行政契約上之意思表示",
+        "教育部與醫學院公費生約定，公費生於服務未期滿前，由分發機關代為保管其專業證書，為行 政契約"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:36:55+00:00",
+        "source_pdf_sha1": "bf7be7405e55",
+        "answer_pdf_sha1": "2e88d7bce4a9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "507",
+          "s": "0602",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 15,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-7be5e2bb-0016",
+      "exam_id": "aboriginal-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "下列何者非屬行政指導？",
+      "options": [
+        "市政府函請市民甲於颱風即將來臨前作好水土保持",
+        "縣政府社會局函請社會救助申請人乙於一定期間內提供補正資料",
+        "區公所履勘現有巷道時，勸說巷道土地所有權人丙自行移除路障",
+        "金融監督管理委員會函請丁金融機構切實遵守法令並協助防範金融詐騙事件 50750、51050"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:36:55+00:00",
+        "source_pdf_sha1": "bf7be7405e55",
+        "answer_pdf_sha1": "2e88d7bce4a9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "507",
+          "s": "0602",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 16,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-7be5e2bb-0017",
+      "exam_id": "aboriginal-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "直轄市環保局公務員甲發現市民乙正在噪音管制區內進行營建工程，發出巨大聲響，現場測得超 過噪音管制標準，該公務員不得即時作何種處置？",
+      "options": [
+        "即時制止發出噪音之行為",
+        "要求行為人出示身分證件，以確認違法行為人身分",
+        "對於拒絕配合身分查驗之行為人，自力逮捕並帶往留置處所",
+        "製作書面紀錄，以利行政罰之進行"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:36:55+00:00",
+        "source_pdf_sha1": "bf7be7405e55",
+        "answer_pdf_sha1": "2e88d7bce4a9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "507",
+          "s": "0602",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 17,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-7be5e2bb-0018",
+      "exam_id": "aboriginal-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "行政執行法有關拘提與管收之規定，下列敘述何者錯誤？",
+      "options": [
+        "拘提與管收僅適用於公法上金錢給付義務未履行的情形",
+        "債務人未依期限履行債務亦未提供相當擔保，而有逃匿之虞時，應先聲請拘提，不得逕行管收",
+        "拘提無須向法院聲請裁定，但管收須向法院聲請裁定",
+        "行政執行機關如認為有將債務人管收之必要者，須自拘提時起24小時內，聲請法院裁定管收"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:36:55+00:00",
+        "source_pdf_sha1": "bf7be7405e55",
+        "answer_pdf_sha1": "2e88d7bce4a9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "507",
+          "s": "0602",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 18,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-7be5e2bb-0019",
+      "exam_id": "aboriginal-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "主管機關命甲履行某行政法上行為義務，並諭知若逾期未履行，將委託第三人依行政執行法規定 代為履行，其費用由甲負擔。甲逾期未履行該義務，主管機關即委託第三人代履行後，通知甲限 期繳納代履行費用。甲逾期未繳納，主管機關得為如何處理？",
+      "options": [
+        "作成行政處分，限期命甲支付代履行費用",
+        "提起一般給付訴訟，請求判命甲支付代履行費用",
+        "移送法務部行政執行署所屬行政執行分署強制執行",
+        "代位行使第三人之請求權，向民事法院提起給付訴訟，請求判命甲給付費用"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:36:55+00:00",
+        "source_pdf_sha1": "bf7be7405e55",
+        "answer_pdf_sha1": "2e88d7bce4a9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "507",
+          "s": "0602",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 19,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-7be5e2bb-0020",
+      "exam_id": "aboriginal-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "下列何者非相當於訴願決定？",
+      "options": [
+        "教師申訴評議委員會之再申訴決定",
+        "會計師懲戒覆審委員會之決議",
+        "公務人員保障暨培訓委員會之復審決定",
+        "律師懲戒覆審委員會之決議"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:36:55+00:00",
+        "source_pdf_sha1": "bf7be7405e55",
+        "answer_pdf_sha1": "2e88d7bce4a9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "507",
+          "s": "0602",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 20,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-7be5e2bb-0021",
+      "exam_id": "aboriginal-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "關於撤銷原處分之訴願決定，其拘束力範圍，下列敘述何者正確？",
+      "options": [
+        "僅訴願決定之法律見解對原處分機關有拘束力",
+        "僅訴願決定之事實認定對原處分機關有拘束力",
+        "訴願決定之法律見解與事實認定均對原處分機關有拘束力",
+        "訴願決定對原處分機關不具拘束力"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:36:55+00:00",
+        "source_pdf_sha1": "bf7be7405e55",
+        "answer_pdf_sha1": "2e88d7bce4a9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "507",
+          "s": "0602",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 21,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-7be5e2bb-0022",
+      "exam_id": "aboriginal-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "關於都市計畫審查訴訟之敘述，下列何者正確？",
+      "options": [
+        "都市計畫審查訴訟，專屬都市計畫區所在地之高等行政法院地方行政訴訟庭管轄",
+        "得提起都市計畫審查訴訟者，以其權利受行政機關發布之違法都市計畫損害之人民為限",
+        "都市計畫審查訴訟，原則上應於行政機關發布都市計畫後1年之不變期間內提起",
+        "管轄之行政法院認為系爭都市計畫為違法者，原則上應作成宣告違法並向將來失效之形成判決"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:36:55+00:00",
+        "source_pdf_sha1": "bf7be7405e55",
+        "answer_pdf_sha1": "2e88d7bce4a9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "507",
+          "s": "0602",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 22,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-7be5e2bb-0023",
+      "exam_id": "aboriginal-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "公平交易委員會審查化工事業甲與乙之結合案，雖作出不禁止決定，但附加負擔「應自結合起 5 年內每年執行動物保護慈善公益活動並提交報告」，甲僅對此附款不服，訴願未果後，應提起何種 訴訟？",
+      "options": [
+        "撤銷訴訟",
+        "一般給付之訴",
+        "確認法律關係不存在之訴",
+        "確認行政處分違法之訴"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:36:55+00:00",
+        "source_pdf_sha1": "bf7be7405e55",
+        "answer_pdf_sha1": "2e88d7bce4a9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "507",
+          "s": "0602",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 23,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-7be5e2bb-0024",
+      "exam_id": "aboriginal-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "關於國家賠償法之敘述，下列何者錯誤？",
+      "options": [
+        "人民主張因違法行政處分而發生國家賠償訴訟時，經行政法院裁判確定該處分違法，普通法院 仍應審查是否具備其他賠償之要件",
+        "管理機關對自然公物內之設施管理欠缺，致人民生命、身體或財產受損害者，構成國家賠償責任",
+        "行政機關依國家賠償法為賠償後，得對實際應負最終賠償責任之機關求償",
+        "國家賠償法所稱之行使公權力，係指公務員行使統治權作用之公法行為"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:36:55+00:00",
+        "source_pdf_sha1": "bf7be7405e55",
+        "answer_pdf_sha1": "2e88d7bce4a9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "507",
+          "s": "0602",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 24,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-7be5e2bb-0025",
+      "exam_id": "aboriginal-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "下列何種情況應給予損失補償？",
+      "options": [
+        "地方政府派員警驅趕閒置國有建築內長年聚集飲酒喧嘩之民眾，因衝突而違法使用警械致民眾 受傷",
+        "消防車為搶救火災而駛入狹小巷弄，致路邊白線內側休旅車受損",
+        "員警執行解散集會命令時，與集會民眾發生口角，員警憤而壓制民眾，造成民眾腦震盪住院治療",
+        "颱風登陸前夕，地方政府於媒體中公告水門即將關閉，儘速移走堤防外之停車，民眾自信認為 不至於淹水而未移車，導致車輛泡水"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:36:55+00:00",
+        "source_pdf_sha1": "bf7be7405e55",
+        "answer_pdf_sha1": "2e88d7bce4a9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "507",
+          "s": "0602",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 25,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-7be5e2bb-0026",
+      "exam_id": "aboriginal-7be5e2bb",
+      "question_type": "essay",
+      "question": "請以運動為例，說明衝突理論（conflicttheory）的內涵。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:36:55+00:00",
+        "source_pdf_sha1": "eff9f3a77937",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "507",
+          "s": "1007",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "運動社會學",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-7be5e2bb-0027",
+      "exam_id": "aboriginal-7be5e2bb",
+      "question_type": "essay",
+      "question": "影響運動參與的因素有很多，請說明社會影響運動參與的因素有那些？\n（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:36:55+00:00",
+        "source_pdf_sha1": "eff9f3a77937",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "507",
+          "s": "1007",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "運動社會學",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-7be5e2bb-0028",
+      "exam_id": "aboriginal-7be5e2bb",
+      "question_type": "essay",
+      "question": "在運動中促進種族多樣性的策略有那些？（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:36:55+00:00",
+        "source_pdf_sha1": "eff9f3a77937",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "507",
+          "s": "1007",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "運動社會學",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-7be5e2bb-0029",
+      "exam_id": "aboriginal-7be5e2bb",
+      "question_type": "essay",
+      "question": "目前國際運動選手的性別測試仍存有諸多問題，請說明運動的性別測試\n存在那些問題？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:36:55+00:00",
+        "source_pdf_sha1": "eff9f3a77937",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "507",
+          "s": "1007",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "運動社會學",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-7be5e2bb-0030",
+      "exam_id": "aboriginal-7be5e2bb",
+      "question_type": "essay",
+      "question": "請說明運動員在比賽前可能面臨的壓力來源，並提出至少三項具體策略\n以協助其有效處理壓力。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:36:55+00:00",
+        "source_pdf_sha1": "273ef495d58e",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "507",
+          "s": "1005",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "運動自然科學",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-7be5e2bb-0031",
+      "exam_id": "aboriginal-7be5e2bb",
+      "question_type": "essay",
+      "question": "請敘述肌力與肌耐力的定義，並探討這兩者之間的關係。舉例說明在日\n常生活中，如何透過增強肌力來改善肌耐力，並提出至少兩種適合的訓\n練方法。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:36:55+00:00",
+        "source_pdf_sha1": "273ef495d58e",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "507",
+          "s": "1005",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "運動自然科學",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-7be5e2bb-0032",
+      "exam_id": "aboriginal-7be5e2bb",
+      "question_type": "essay",
+      "question": "有位重訓愛好者想提升肌肉量與恢復速度，但他每天訓練後只喝水。請\n說明運動後補充碳水化合物與蛋白質的重要性，並設計一份簡易的運動\n後營養補給建議，包含攝取時機、攝取量（克／公斤體重）與至少 2 組\n食物組合。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:36:55+00:00",
+        "source_pdf_sha1": "273ef495d58e",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "507",
+          "s": "1005",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "運動自然科學",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-7be5e2bb-0033",
+      "exam_id": "aboriginal-7be5e2bb",
+      "question_type": "essay",
+      "question": "請敘述運動傷害的常見類型與常見於那些運動項目，並說明籃球球員在\n訓練前如何有效預防運動傷害？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:36:55+00:00",
+        "source_pdf_sha1": "273ef495d58e",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "507",
+          "s": "1005",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "運動自然科學",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-7be5e2bb-0034",
+      "exam_id": "aboriginal-7be5e2bb",
+      "question_type": "essay",
+      "question": "依照「全國原住民族運動會舉辦準則」規定，籌備會委員是如何產生的？\n（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:36:55+00:00",
+        "source_pdf_sha1": "5f98869e214c",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "507",
+          "s": "1006",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "體育行政與管理",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-7be5e2bb-0035",
+      "exam_id": "aboriginal-7be5e2bb",
+      "question_type": "essay",
+      "question": "教育部體育署為推動高中以下學生養成規律運動習慣，提出那些成功模\n式供學校執行 SH150方案之參考？（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:36:55+00:00",
+        "source_pdf_sha1": "5f98869e214c",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "507",
+          "s": "1006",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "體育行政與管理",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-7be5e2bb-0036",
+      "exam_id": "aboriginal-7be5e2bb",
+      "question_type": "essay",
+      "question": "體育活動規劃的原則有那些？（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:36:55+00:00",
+        "source_pdf_sha1": "5f98869e214c",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "507",
+          "s": "1006",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "體育行政與管理",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aboriginal-7be5e2bb-0037",
+      "exam_id": "aboriginal-7be5e2bb",
+      "question_type": "essay",
+      "question": "行政院依法籌備運動部提出何種願景與主軸？（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:36:55+00:00",
+        "source_pdf_sha1": "5f98869e214c",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114140",
+          "c": "507",
+          "s": "1006",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "體育行政與管理",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "slug": "promotion-29a002de",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:28:51+00:00",
+  "paper_count": 12,
+  "paper_with_questions": 12,
+  "question_count": 115,
+  "type_counts": {
+    "essay": 40,
+    "single_choice": 75
+  },
+  "issues": [
+    {
+      "year": "114",
+      "subject": "刑事訴訟法",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "強制執行法與國際私法",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 3,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "民事訴訟法",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 3,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "刑事訴訟法",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "強制執行法與國際私法",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "民事訴訟法",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "刑事訴訟法",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "強制執行法與國際私法",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "民事訴訟法",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    }
+  ]
+}

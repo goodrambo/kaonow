@@ -1,0 +1,54 @@
+{
+  "slug": "pukao-10ced7e2",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:36:27+00:00",
+  "paper_count": 15,
+  "paper_with_questions": 15,
+  "question_count": 520,
+  "type_counts": {
+    "essay": 20,
+    "single_choice": 500
+  },
+  "issues": [
+    {
+      "year": "114",
+      "subject": "公共人力資源管理概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "113",
+      "subject": "公共人力資源管理概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "現行考銓制度概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "現行考銓制度概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "現行考銓制度概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    }
+  ]
+}

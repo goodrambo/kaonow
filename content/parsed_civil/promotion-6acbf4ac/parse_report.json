@@ -1,0 +1,62 @@
+{
+  "slug": "promotion-6acbf4ac",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:28:47+00:00",
+  "paper_count": 9,
+  "paper_with_questions": 9,
+  "question_count": 103,
+  "type_counts": {
+    "essay": 28,
+    "single_choice": 75
+  },
+  "issues": [
+    {
+      "year": "114",
+      "subject": "刑法與刑事訴訟法",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 2,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "警察學與警察行政",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "刑法與刑事訴訟法",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "警察學與警察行政",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "刑法與刑事訴訟法",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "警察學與警察行政",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    }
+  ]
+}

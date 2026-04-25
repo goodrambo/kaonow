@@ -1,0 +1,13 @@
+{
+  "slug": "islands-d0d1b9a2",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:33:59+00:00",
+  "paper_count": 2,
+  "paper_with_questions": 2,
+  "question_count": 49,
+  "type_counts": {
+    "essay": 4,
+    "single_choice": 45
+  },
+  "issues": []
+}

@@ -1,0 +1,94 @@
+{
+  "slug": "police-3218f787",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:28:11+00:00",
+  "paper_count": 16,
+  "paper_with_questions": 16,
+  "question_count": 348,
+  "type_counts": {
+    "single_choice": 301,
+    "essay": 47
+  },
+  "issues": [
+    {
+      "year": "114",
+      "subject": "犯罪學與犯罪預防",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "諮商輔導與婦幼保護",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "113",
+      "subject": "犯罪學與犯罪預防",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "113",
+      "subject": "諮商輔導與婦幼保護",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "犯罪學與犯罪預防",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "諮商輔導與婦幼保護",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "犯罪學與犯罪預防",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "諮商輔導與婦幼保護",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "犯罪學與犯罪預防",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "諮商輔導與婦幼保護",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    }
+  ]
+}

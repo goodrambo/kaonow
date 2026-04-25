@@ -1,0 +1,70 @@
+{
+  "slug": "aboriginal-7c9828ae",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:36:55+00:00",
+  "paper_count": 11,
+  "paper_with_questions": 11,
+  "question_count": 132,
+  "type_counts": {
+    "essay": 32,
+    "single_choice": 100
+  },
+  "issues": [
+    {
+      "year": "114",
+      "subject": "人類行為與社會環境",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "社會工作方法與實務",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "社會政策與社會立法",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "人類行為與社會環境",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "社會工作方法與實務",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "社會工作研究方法",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "社會政策與社會立法",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    }
+  ]
+}

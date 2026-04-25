@@ -1,0 +1,13 @@
+{
+  "slug": "aboriginal-5ff21eeb",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:38:13+00:00",
+  "paper_count": 8,
+  "paper_with_questions": 8,
+  "question_count": 285,
+  "type_counts": {
+    "essay": 10,
+    "single_choice": 275
+  },
+  "issues": []
+}

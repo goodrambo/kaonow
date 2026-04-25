@@ -1,0 +1,2722 @@
+{
+  "slug": "disabled-77f8735d",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:39:06+00:00",
+  "paper_count": 7,
+  "paper_with_questions": 7,
+  "question_count": 74,
+  "type_counts": {
+    "essay": 24,
+    "single_choice": 50
+  },
+  "papers": [
+    {
+      "year": "113",
+      "exam_code": "113040",
+      "c": "410",
+      "s": "2203",
+      "q": "1",
+      "subject": "流行病學與生物統計學概要",
+      "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "ab1a6f0d45fb",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "113",
+      "exam_code": "113040",
+      "c": "410",
+      "s": "2204",
+      "q": "1",
+      "subject": "衛生法規與倫理概要",
+      "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "a7e3011362e9",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "113",
+      "exam_code": "113040",
+      "c": "410",
+      "s": "2202",
+      "q": "1",
+      "subject": "衛生行政學概要",
+      "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "989e7034e524",
+      "a_pdf_sha1": "d8794fa95200",
+      "format_detected": "mixed",
+      "raw_question_count": 27,
+      "answer_qnums_extracted": 25,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 27,
+      "skipped_count": 0
+    },
+    {
+      "year": "112",
+      "exam_code": "112050",
+      "c": "407",
+      "s": "2202",
+      "q": "1",
+      "subject": "流行病學與生物統計學概要",
+      "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "96e218d13a82",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "112",
+      "exam_code": "112050",
+      "c": "407",
+      "s": "2204",
+      "q": "1",
+      "subject": "衛生法規與倫理概要",
+      "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "c6a81d6890f5",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "112",
+      "exam_code": "112050",
+      "c": "407",
+      "s": "2201",
+      "q": "1",
+      "subject": "衛生行政學概要",
+      "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "1ef0e62ff19c",
+      "a_pdf_sha1": "af41fec69dc8",
+      "format_detected": "mixed",
+      "raw_question_count": 27,
+      "answer_qnums_extracted": 25,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 27,
+      "skipped_count": 0
+    },
+    {
+      "year": "112",
+      "exam_code": "112050",
+      "c": "407",
+      "s": "2203",
+      "q": "1",
+      "subject": "食品與環境衛生學概要",
+      "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "fa8e7491f5ab",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    }
+  ],
+  "questions": [
+    {
+      "id": "disabled-77f8735d-0001",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "essay",
+      "question": "對25位病患給予降血壓藥物，服藥前及服藥後血壓差異之平均值為9mmHg，\n標準差為8mmHg。試問：\n此藥物的降血壓效果是否有達顯著意義？（設 α=0.05，t =1.711、\n24,0.95\nt =2.064、t =1.708、t =2.060）（15 分）\n24,0.975 25,0.95 25,0.975\n服用降血壓藥物前後血壓值改變平均數之 95%信賴區間為何？（10分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "ab1a6f0d45fb",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "410",
+          "s": "2203",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "流行病學與生物統計學概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0002",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "essay",
+      "question": "某研究以橫斷性研究（cross-sectionalstudy）調查吸菸與肺癌之關係，獲得\n下列結果，試計算：\n肺癌\n吸菸狀況\n有 無 合計\n吸菸 40 160 200\n不吸菸 20 780 800\n合計 60 940 1,000\n吸菸者相對於不吸菸者，得肺癌之勝算比。（10 分）\n以統計檢定方法檢定吸菸與肺癌是否有統計相關？（設 α=0.05，\nZ =1.96、X2 3.84）（15 分）\n0.975 1,0.95",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "ab1a6f0d45fb",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "410",
+          "s": "2203",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "流行病學與生物統計學概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0003",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "essay",
+      "question": "在某都會區隨機抽取成年男子 100 人，其中 32 人沒有吸菸習慣；再隨機\n抽取 60位成年女子，其中42 人沒有吸菸習慣。試問：\n都會區成年男子與成年女子沒有吸菸習慣之比例是否有顯著差異？\n（設 α=0.05，Z =1.64、Z =1.96）（15 分）\n0.95 0.975\n男女沒有吸菸習慣比例差值之95%信賴區間為何？（10分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "ab1a6f0d45fb",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "410",
+          "s": "2203",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "流行病學與生物統計學概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0004",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "essay",
+      "question": "流行病學可以簡單的說是「研究流行病的學問」，請說明流行（epidemic）\n的定義及其與地方性（endemic）、大流行（pandemic）之差別。（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "ab1a6f0d45fb",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "410",
+          "s": "2203",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "流行病學與生物統計學概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0005",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "essay",
+      "question": "依據「人類免疫缺乏病毒傳染防治及感染者權益保障條例」規定，醫事人\n員應經當事人同意及諮詢程序，才可抽取其血液進行人類免疫缺乏病毒檢\n查。但有那些情形發生時，醫事人員無需事先取得當事人或法定代理人同\n意而實施之。（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "a7e3011362e9",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "410",
+          "s": "2204",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "衛生法規與倫理概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0006",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "essay",
+      "question": "依據我國傳染病防治法規定，請回答下列問題：\n法定傳染病分為幾類，而其分類的依據為何？（10分）\n我國中央與地方主管機關執行傳染病防治法所定事項，權責如何劃分？\n（15分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "a7e3011362e9",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "410",
+          "s": "2204",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "衛生法規與倫理概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0007",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "essay",
+      "question": "請回答有關菸害防制法下列問題：\n我國依法課徵菸品健康福利捐，其金額依規定應進行評估，試述評估的\n機制與評估考量的因素為何？（12 分）\n王先生至日本旅遊，於當地購買了電子菸與加熱菸，回臺灣時於桃園國\n際機場遭海關查扣並移送地方衛生局辦理後續裁罰。試述王先生觸犯的\n法規內容及其罰則為何？（13 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "a7e3011362e9",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "410",
+          "s": "2204",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "衛生法規與倫理概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0008",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "essay",
+      "question": "隨著網路消費普及，民眾至網路平台上購買藥物的機會增加，然而也增加\n使用來路不明藥物的風險，請就我國相關衛生法規回答下列問題：\n何謂藥物？（4 分）\n日前某名臺籍網紅，於其經營之網路平台，為國內買家代購無我國藥品\n許可證字號的日本某知名藥品，並以包裹寄回國內買家。經衛生主管機\n關查獲，認定其觸犯衛生法規並將他移送檢方偵辦。請說明該名網紅違\n反何種衛生法規，並說明其相關罰則為何？（6分）\n為防杜網購不法藥物問題，政府可以有那些作為？（15分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "a7e3011362e9",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "410",
+          "s": "2204",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "衛生法規與倫理概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0009",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "essay",
+      "question": "請詳述我國全民健康保險制度實施以迄之重大成就。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "989e7034e524",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "410",
+          "s": "2202",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "衛生行政學概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0010",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "essay",
+      "question": "請詳述我國全民健康保險制度未來的檢討改革重點。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "989e7034e524",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "410",
+          "s": "2202",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "衛生行政學概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0011",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "single_choice",
+      "question": "我國行政院核定「強化社會安全網計畫」強調以何者為中心？",
+      "options": [
+        "家庭",
+        "社區",
+        "醫療機構",
+        "病人"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "989e7034e524",
+        "answer_pdf_sha1": "d8794fa95200",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "410",
+          "s": "2202",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "衛生行政學概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0012",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "single_choice",
+      "question": "請排列「食安五環」政策由上游管控到下游防火牆的順序：①全民監督食安",
+      "options": [
+        "源頭控管",
+        "加強查驗",
+        "重建生產管理  ⑤加重惡意黑心廠商責任",
+        ""
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "989e7034e524",
+        "answer_pdf_sha1": "d8794fa95200",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "410",
+          "s": "2202",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "衛生行政學概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0013",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "single_choice",
+      "question": "為應相關業務需要，衛生福利部最新成立的單位為下列何者？",
+      "options": [
+        "保護服務司",
+        "口腔健康司",
+        "社會保險司",
+        "長期照護司"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "989e7034e524",
+        "answer_pdf_sha1": "d8794fa95200",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "410",
+          "s": "2202",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "衛生行政學概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0014",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "single_choice",
+      "question": "依據我國傳染病防治法，下列關於法定傳染病之分類何者正確？",
+      "options": [
+        "共分為六類，其中新興傳染病為第六類",
+        "嚴重急性呼吸道症候群及登革熱均屬於第一類",
+        "白喉是第二類",
+        "百日咳及鼠疫是屬於第三類"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "989e7034e524",
+        "answer_pdf_sha1": "d8794fa95200",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "410",
+          "s": "2202",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "衛生行政學概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0015",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "single_choice",
+      "question": "平衡計分卡被認為是健康照護組織的有效管理工具，下列敘述其四個構面何 者錯誤？",
+      "options": [
+        "顧客構面",
+        "內部流程構面",
+        "學習成長構面",
+        "疾病管理構面"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "989e7034e524",
+        "answer_pdf_sha1": "d8794fa95200",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "410",
+          "s": "2202",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "衛生行政學概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0016",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "single_choice",
+      "question": "我國行政院目前長期照護發展最主要的目標是：",
+      "options": [
+        "救濟貧困老人",
+        "實現在地老化",
+        "發展機構收養方式",
+        "大量興建照護機構"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "989e7034e524",
+        "answer_pdf_sha1": "d8794fa95200",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "410",
+          "s": "2202",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "衛生行政學概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0017",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "single_choice",
+      "question": "有關「2025衛生福利政策白皮書」，下列敘述何者正確？①社會、經濟與環",
+      "options": [
+        "5P：people人類社會，planet環境，prosperity經濟， peace和平以及partnership夥伴關係",
+        "「確保健康生活與促進全人類福祉」 為目標",
+        "以醫療層次為主的政策措施",
+        ""
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "989e7034e524",
+        "answer_pdf_sha1": "d8794fa95200",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "410",
+          "s": "2202",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "衛生行政學概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0018",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "single_choice",
+      "question": "有關衛生福利部 113 年施政計畫中疾病管制業務的實施內容，下列何者錯 誤？",
+      "options": [
+        "導入智慧科技及早發現重要藥品潛在或未知風險，升級藥品風險預警能力",
+        "適時引進新藥、新檢驗及診斷技術，並完善通報機制，藉以提升肺結核之 診斷效率，縮短治療期程",
+        "逐步擴大暴露愛滋病毒前預防性投藥（PrEP）服務，提供整合式篩檢、衛 教諮詢及個案管理服務",
+        "精進檢疫網絡，強化港埠偵檢、通報與應變能力"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "989e7034e524",
+        "answer_pdf_sha1": "d8794fa95200",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "410",
+          "s": "2202",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "衛生行政學概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0019",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "single_choice",
+      "question": "下列何者非衛生計畫的經濟評估採用之方式？",
+      "options": [
+        "成本效果分析（CEA）",
+        "成本利益分析（CBA）",
+        "成本效用分析（CUA）",
+        "成本財務分析（CFA）"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "989e7034e524",
+        "answer_pdf_sha1": "d8794fa95200",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "410",
+          "s": "2202",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "衛生行政學概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0020",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "single_choice",
+      "question": "我國衛生福利部未整併下列那個單位？",
+      "options": [
+        "行政院環境保護署",
+        "內政部家庭暴力及性侵害防治委員會",
+        "內政部國民年金監理會",
+        "國立中國醫藥研究所"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "989e7034e524",
+        "answer_pdf_sha1": "d8794fa95200",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "410",
+          "s": "2202",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "衛生行政學概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0021",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "single_choice",
+      "question": "目前衛生福利部國民健康署推行的高齡友善城市政策，下列何者非該政策所 關心的面向？",
+      "options": [
+        "改善公共空間，符合無障礙標準",
+        "增加長者醫療照護的利用與品質",
+        "提倡敬老文化與增進跨世代互動",
+        "支持長者持續就業"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "989e7034e524",
+        "answer_pdf_sha1": "d8794fa95200",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "410",
+          "s": "2202",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "衛生行政學概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 11,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0022",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "single_choice",
+      "question": "衛生福利部中央健康保險署於 2023 年 7 月推動部分負擔新制改革重點，下 列何者錯誤？",
+      "options": [
+        "調高醫學中心、區域醫院和地區醫院門診藥品部分負擔，提高上限至 300 元",
+        "醫院所開立的慢性病連續處方箋，第1次調劑比照一般藥品收費，第2次 以上調劑免收部分負擔",
+        "中低收入戶與身心障礙者，皆依照基層診所的收費方式",
+        "法定免部分負擔者在此次調整不受影響"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "989e7034e524",
+        "answer_pdf_sha1": "d8794fa95200",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "410",
+          "s": "2202",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "衛生行政學概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 12,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0023",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "single_choice",
+      "question": "長期照顧十年計畫2.0擴大服務對象，不包括下列何者?",
+      "options": [
+        "50歲以上失能身心障礙者",
+        "50歲以上輕度失智症者",
+        "65歲以上衰弱老人",
+        "55～64歲失能平地原住民"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "989e7034e524",
+        "answer_pdf_sha1": "d8794fa95200",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "410",
+          "s": "2202",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "衛生行政學概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 13,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0024",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "single_choice",
+      "question": "衛生福利部國民健康署公費提供 30 歲以上女性每年一次的子宮頸抹片檢 查，以預防子宮頸癌。依據健康信念模式（healthbeliefmodel），該項公費 政策目的為何？",
+      "options": [
+        "降低民眾的自覺行動障礙",
+        "增加民眾自覺罹患子宮頸癌的可能性",
+        "增強民眾自覺罹患子宮頸癌的嚴重性",
+        "增加民眾對發現子宮頸癌準確性的信心"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "989e7034e524",
+        "answer_pdf_sha1": "d8794fa95200",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "410",
+          "s": "2202",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "衛生行政學概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 14,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0025",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "single_choice",
+      "question": "醫療專業的專家經常參與及影響衛生政策的制定，此屬於政策制定的那種 模式？",
+      "options": [
+        "系統模式",
+        "菁英模式",
+        "團體模式",
+        "制度主義模式"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "989e7034e524",
+        "answer_pdf_sha1": "d8794fa95200",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "410",
+          "s": "2202",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "衛生行政學概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 15,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0026",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "single_choice",
+      "question": "下列何者不屬於衛生福利部醫事司的業務範疇？",
+      "options": [
+        "公費醫師",
+        "山地離島醫療照護人力及設施",
+        "醫院評鑑",
+        "用藥安全"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "989e7034e524",
+        "answer_pdf_sha1": "d8794fa95200",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "410",
+          "s": "2202",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "衛生行政學概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 16,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0027",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "single_choice",
+      "question": "下列那一個單位與衛生福利部不具有直屬關係？",
+      "options": [
+        "社會及家庭署",
+        "食品藥物管理署",
+        "保護服務司",
+        "縣市衛生局"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "989e7034e524",
+        "answer_pdf_sha1": "d8794fa95200",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "410",
+          "s": "2202",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "衛生行政學概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 17,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0028",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "single_choice",
+      "question": "政策分析常見的流程有那幾個階段，試依照順序排列之：①政策形成  ②政策",
+      "options": [
+        "議程設定",
+        "政策執行  ⑤政策評估",
+        "",
+        ""
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "989e7034e524",
+        "answer_pdf_sha1": "d8794fa95200",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "410",
+          "s": "2202",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "衛生行政學概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 18,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0029",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "single_choice",
+      "question": "依據McGregor對人性的看法，認為員工偏向會逃避責任、不喜歡工作等負 向的人性理論是：",
+      "options": [
+        "W理論",
+        "X理論",
+        "Y理論",
+        "Z理論"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "989e7034e524",
+        "answer_pdf_sha1": "d8794fa95200",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "410",
+          "s": "2202",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "衛生行政學概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 19,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0030",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "single_choice",
+      "question": "根據WHO的定義，健康的社會決定因素包括：①人們出生、成長、生存、",
+      "options": [
+        "經濟政策與制度",
+        "社會規範及社會政策",
+        "政治制度  ⑤生物遺傳",
+        ""
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "989e7034e524",
+        "answer_pdf_sha1": "d8794fa95200",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "410",
+          "s": "2202",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "衛生行政學概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 20,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0031",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "single_choice",
+      "question": "關於生育水準的測量有許多指標，下列那一個指標可避免人口年齡組成的影 響，且是在進行國際比較時經常使用的指標？",
+      "options": [
+        "粗生育率",
+        "一般生育率",
+        "總生育率",
+        "兒童婦女比"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "989e7034e524",
+        "answer_pdf_sha1": "d8794fa95200",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "410",
+          "s": "2202",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "衛生行政學概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 21,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0032",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "single_choice",
+      "question": "世界各國皆面臨醫療費用快速上漲，下列那一項政策非從需求面著手的費用 控制方式？",
+      "options": [
+        "起付線政策",
+        "診斷關聯群支付制度",
+        "共同負擔",
+        "最高給付額"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "989e7034e524",
+        "answer_pdf_sha1": "d8794fa95200",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "410",
+          "s": "2202",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "衛生行政學概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 22,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0033",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "single_choice",
+      "question": "戴安全帽或繫安全帶等預防交通事故傷害的措施，屬於下列那一項的三段五 級預防工作？",
+      "options": [
+        "限制殘障",
+        "促進健康",
+        "早期發現及適切介入",
+        "特殊保護"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "989e7034e524",
+        "answer_pdf_sha1": "d8794fa95200",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "410",
+          "s": "2202",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "衛生行政學概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 23,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0034",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "single_choice",
+      "question": "臺灣全民健康保險財源的籌措方式，主要為下列何者？",
+      "options": [
+        "一般稅收",
+        "健康保險保費",
+        "商業保險保險費",
+        "民眾自付額"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "989e7034e524",
+        "answer_pdf_sha1": "d8794fa95200",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "410",
+          "s": "2202",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "衛生行政學概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 24,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0035",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "single_choice",
+      "question": "常用以評估醫療品質包括結構、過程及結果三面向。下列那一項不屬於過程 面的評估指標？",
+      "options": [
+        "專科醫師人數",
+        "看病等候時間",
+        "治療的熟練度",
+        "診斷疾病正確程度"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "989e7034e524",
+        "answer_pdf_sha1": "d8794fa95200",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "410",
+          "s": "2202",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "衛生行政學概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 25,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0036",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "essay",
+      "question": "欲比較 A 國家（高齡化國家）和 B 國家（每個年齡層的人數差異不大）\n的死亡率高低時，應採取直接標準化死亡率來比較。請問：\n不宜使用粗死亡率的原因是什麼？（10分）\n試述在本例中如何計算兩個國家之直接標準化死亡率。（15 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "96e218d13a82",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "407",
+          "s": "2202",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "流行病學與生物統計學概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0037",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "essay",
+      "question": "某教師採用橫斷式研究法（cross-sectionalstudy），探討規律運動以及多個\n人口學變項與罹患 A疾病之關聯性。\n試述橫斷式研究法之進行方式。（15 分）\n該教師分析結果顯示，有規律運動的人，罹患 A 疾病的調整後勝算比\n（AdjustedOddsRatio）是沒有規律運動的人的0.73倍（95%CI=0.56-0.98），\n請解釋其意義。（10分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "96e218d13a82",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "407",
+          "s": "2202",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "流行病學與生物統計學概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0038",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "essay",
+      "question": "某醫院針對 6位初次罹患三高疾病的民眾進行衛生教育，在衛生教育的前\n後分別測量他們對於三高疾病的認知分數（連續型變數），結果如下：\n民眾編號 1 2 3 4 5 6\n衛生教育前的三高認知分數 70 73 78 88 82 71\n衛生教育後的三高認知分數 78 77 86 90 89 84\n請問：\n該衛生教育實施前後，民眾的三高疾病認知分數是否有改變？（設α = 0.05）\n（15分）\n民眾三高疾病認知分數差異的95%信賴區間為何？（10分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "96e218d13a82",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "407",
+          "s": "2202",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "流行病學與生物統計學概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0039",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "essay",
+      "question": "某藥師欲了解領有慢性病處方箋之民眾，第二次和第三次領藥的習慣，因此\n隨機調查了100位民眾，依照其年齡分層後得到結果如下（單位：人數）：\n年齡層 回原就診醫療院所領藥 在社區藥局領藥\n30 歲-49歲 6 14\n50 歲-69歲 14 16\n70 歲以上 30 20\n請問：年齡層不同的民眾，領藥習慣是否有差異？（設 α = 0.05）（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "96e218d13a82",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "407",
+          "s": "2202",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "流行病學與生物統計學概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0040",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "essay",
+      "question": "假設某甲在公立精神專科醫院，經兩位精神科醫師強制鑑定後，認為有全\n日住院治療之必要，但某甲拒絕，請問：\n依照現行精神衛生法，該醫院應經何種程序，始得繼續令某甲於該醫院\n進行治療？（15分）\n依照現行精神衛生法，某甲可以利用何種程序，確保自己不被非法或任\n意剝奪自由？（10 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "c6a81d6890f5",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "407",
+          "s": "2204",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "衛生法規與倫理概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0041",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "essay",
+      "question": "為保障人體研究之研究對象權益，人體研究法要求研究主持人實施研究\n前，應擬定計畫，經倫理審查委員會（以下簡稱審查會）審查通過，始得\n為之。請問：\n審查會應依照那些倫理原則進行審查？（15 分）\n若研究主持人欲招募身心障礙者進行研究，審查會應注意那些規定？如\n何審查？（10 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "c6a81d6890f5",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "407",
+          "s": "2204",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "衛生法規與倫理概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0042",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "essay",
+      "question": "自 2022 年以來，國際間及臺灣陸續出現罹患猴痘的案例，請問：若行政\n機關欲對猴痘病人實施隔離治療，應符合那些法律原則？（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "c6a81d6890f5",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "407",
+          "s": "2204",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "衛生法規與倫理概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0043",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "essay",
+      "question": "接種疫苗是重要的預防及控制傳染病方法，請問：\n國家若要推行強制性的疫苗接種計畫，應符合那些法律原則？（15分）\n若人民因接種疫苗而受到傷害或死亡，傳染病防治法及其子法提供何種\n補償措施？（10分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "c6a81d6890f5",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "407",
+          "s": "2204",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "衛生法規與倫理概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0044",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "essay",
+      "question": "由於癌症已蟬聯十大死因榜首 40年，衛生福利部國民健康署自 99年\n開始擴大辦理四癌篩檢，並於111 年 7 月開辦肺癌篩檢，共補助5 種\n癌症篩檢服務。請詳述目前「五癌篩檢」的內容、補助對象和補助頻\n率。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "1ef0e62ff19c",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "407",
+          "s": "2201",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "衛生行政學概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0045",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "essay",
+      "question": "為促進國人的心理與精神健康，衛生福利部已於 111 年 5 月正式將\n心理及口腔健康司拆為兩個單位，單獨成立心理健康司。請說明新設\n立的「心理健康司」，其業務執掌包括那些？並請闡述自殺防治三大\n策略為何？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "1ef0e62ff19c",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "407",
+          "s": "2201",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "衛生行政學概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0046",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "single_choice",
+      "question": "進行人口推估時的應注意事項，不包含下列那一項？",
+      "options": [
+        "基礎資料的正確性",
+        "所選用的統計軟體是否恰當",
+        "所採用的推估方法是否合適",
+        "所作假設是否合理周全"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "1ef0e62ff19c",
+        "answer_pdf_sha1": "af41fec69dc8",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "407",
+          "s": "2201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "衛生行政學概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0047",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "single_choice",
+      "question": "臺灣從民國 84 年起實施全民健康保險，將被保險人依照各保險對象保險費 分擔比例分為六大類，下列那一選項的被保險人，都是由政府100%負擔？",
+      "options": [
+        "第一類、第六類",
+        "第二類、第五類",
+        "第三類、第四類",
+        "第四類、第五類"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "1ef0e62ff19c",
+        "answer_pdf_sha1": "af41fec69dc8",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "407",
+          "s": "2201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "衛生行政學概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0048",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "single_choice",
+      "question": "平衡計分卡（BalancedScoreCard,BSC），目的在探討組織未來之績效評 估制度，將策略轉換成具體行動，以達成公司的願景策略。BSC 的內容主 要包含四大構面，在非營利事業中還加上第五構面，是指下列那一項？",
+      "options": [
+        "顧客",
+        "學習與成長",
+        "員工被授權的程度",
+        "內部企業流程"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "1ef0e62ff19c",
+        "answer_pdf_sha1": "af41fec69dc8",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "407",
+          "s": "2201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "衛生行政學概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0049",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "single_choice",
+      "question": "110 年依死亡率排序前十大癌症死因和100 年相比，下列何者不屬於順位 上升的癌症？",
+      "options": [
+        "口腔癌",
+        "前列腺癌",
+        "胰臟癌",
+        "卵巢癌"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "1ef0e62ff19c",
+        "answer_pdf_sha1": "af41fec69dc8",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "407",
+          "s": "2201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "衛生行政學概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0050",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "single_choice",
+      "question": "有關COVID-19傳染病基本再生數（BasicReproductionNumber,R0）和有效 再生數（EffectiveReproductionNumber,Rt）的敘述，下列何者錯誤？",
+      "options": [
+        "R0 指的是當病毒進入有抗體的族群中，在一定的時間內傳染給幾個人 的能力",
+        "對於傳染病採取隔離或防疫措施，會影響病毒再生數的變化",
+        "Rt值越大代表病毒的繁殖速度越快",
+        "若要控制疫情，必須將再生數降到1以下"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "1ef0e62ff19c",
+        "answer_pdf_sha1": "af41fec69dc8",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "407",
+          "s": "2201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "衛生行政學概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0051",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "single_choice",
+      "question": "為健全長照服務體系，衛生福利部透過加速長照資源布建，110年長照2.0 整體服務資源成長較109年以何者的成長最為顯著，增加率最高？",
+      "options": [
+        "居家服務",
+        "交通接送服務",
+        "專業服務",
+        "家庭托顧"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "1ef0e62ff19c",
+        "answer_pdf_sha1": "af41fec69dc8",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "407",
+          "s": "2201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "衛生行政學概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0052",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "single_choice",
+      "question": "關於臺灣的人口推估與高齡化的敘述，下列何者錯誤？",
+      "options": [
+        "民國82年邁入高齡化社會",
+        "民國107年邁入高齡社會",
+        "65歲以上老年人口占比超過20%稱為超高齡社會",
+        "民國112年邁入超高齡社會"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "1ef0e62ff19c",
+        "answer_pdf_sha1": "af41fec69dc8",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "407",
+          "s": "2201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "衛生行政學概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0053",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "single_choice",
+      "question": "關於疾病的自然史與三段五級的預防，下列何者正確？",
+      "options": [
+        "培養個人衛生、預防事故傷害，屬於第一段的第一級促進健康",
+        "遏止疾病的惡化，避免續發疾病屬於第二段次級預防",
+        "健康檢查、職業體檢屬於第三級",
+        "第二段和第三段共包含四種級別的內容"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "1ef0e62ff19c",
+        "answer_pdf_sha1": "af41fec69dc8",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "407",
+          "s": "2201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "衛生行政學概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0054",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "single_choice",
+      "question": "關於法定傳染病的敘述，下列何者正確？",
+      "options": [
+        "共分為六類的傳染病",
+        "第一類傳染病必須立即報告，如嚴重急性呼吸道症候群（SARS）",
+        "第三類傳染病應於72小時內完成通報，必要時中央主管機關得調整之， 如漢生病、腸病毒感染併發重症",
+        "第五類為依法建立防治對策或準備計畫必要之新興傳染病或症候群，如 嚴重特殊傳染性肺炎（COVID-19）、新型B型流感"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "1ef0e62ff19c",
+        "answer_pdf_sha1": "af41fec69dc8",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "407",
+          "s": "2201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "衛生行政學概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0055",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "single_choice",
+      "question": "因應失能、失智人口增加所衍生的長照需求，衛生福利部整合下列那些單 位，於民國107年設立長期照顧司？",
+      "options": [
+        "社會救助及社工司、保護服務司",
+        "社會保險司、衛生福利部社會及家庭署",
+        "護理及健康照護司、保護服務司",
+        "護理及健康照護司、衛生福利部社會及家庭署"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "1ef0e62ff19c",
+        "answer_pdf_sha1": "af41fec69dc8",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "407",
+          "s": "2201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "衛生行政學概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0056",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "single_choice",
+      "question": "有關衛生福利部111-112年度施政目標對於照顧弱勢族群的重點工作，下 列何者錯誤？",
+      "options": [
+        "推動身心障礙者權利公約，成為國際第一個保障身心障礙者人權的國家",
+        "持續推動公共化及準公共托育服務，健全托育管理法制，全面落實 0-6 歲國家一起養",
+        "加強兒少保護，精進風險預警機制",
+        "強化心理健康資源布建，提升藥癮處遇、自殺與精神疾病個案服務效能"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "1ef0e62ff19c",
+        "answer_pdf_sha1": "af41fec69dc8",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "407",
+          "s": "2201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "衛生行政學概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 11,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0057",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "single_choice",
+      "question": "有關世界衛生組織（WHO）的敘述，下列何者錯誤？",
+      "options": [
+        "2003年SARS和禽流感全球疫情危機下，於2005年WHO世界衛生大 會通過國際衛生條例",
+        "世界衛生組織為聯合國的一個專門機構，提供國際健康規範和標準的建 立與醫療技術援助",
+        "國際衛生條例目標在管理國際關注的突發性公共衛生事件，規定各國檢 疫、疫情通報等措施",
+        "參加世界衛生組織的會員國必須具有聯合國的會員國資格"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "1ef0e62ff19c",
+        "answer_pdf_sha1": "af41fec69dc8",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "407",
+          "s": "2201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "衛生行政學概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 12,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0058",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "single_choice",
+      "question": "依據罕見疾病防治及藥物法，一般罕見疾病定義原則係指疾病盛行率為多 少？",
+      "options": [
+        "千分之一",
+        "萬分之一",
+        "十萬分之一",
+        "百萬分之一"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "1ef0e62ff19c",
+        "answer_pdf_sha1": "af41fec69dc8",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "407",
+          "s": "2201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "衛生行政學概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 13,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0059",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "single_choice",
+      "question": "衛生福利部食品藥物管理署，改制前為行政院衛生署食品藥物管理局，主 要是由那幾個單位整併而來？",
+      "options": [
+        "預防研究所、食品管理局、化妝品管理局、藥政處等",
+        "麻醉藥品管理處、中醫藥研究所、藥政處、食品管理局等",
+        "食品衛生處、藥政處、藥物食品檢驗局、管制藥品管理局等",
+        "醫政處、藥政處、保健處、食品管理局等"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "1ef0e62ff19c",
+        "answer_pdf_sha1": "af41fec69dc8",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "407",
+          "s": "2201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "衛生行政學概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 14,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0060",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "single_choice",
+      "question": "有關民國102年行政院衛生署改制為衛生福利部的組織架構相關敘述，下 列何者錯誤？",
+      "options": [
+        "整併單位涵蓋教育部國立中醫藥研究所，成立國家中醫藥研究所",
+        "為因應口腔相關健康需求，即成立口腔衛生司",
+        "整併單位涵蓋內政部社會司、兒童局、家庭暴力及性侵害防治委員會等",
+        "成立社會及家庭署，專責規劃與執行老人、身心障礙者、婦女、兒童及 少年福利、家庭支持等事項"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "1ef0e62ff19c",
+        "answer_pdf_sha1": "af41fec69dc8",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "407",
+          "s": "2201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "衛生行政學概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 15,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0061",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "single_choice",
+      "question": "根據現行菸品健康福利捐分配及運作辦法，主要分配用途不包含下列那一 項？",
+      "options": [
+        "全民健康保險之安全準備金",
+        "癌症防治費用",
+        "罕見疾病醫療部分負擔費用",
+        "中央與地方社會福利及長期照顧資源發展"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "1ef0e62ff19c",
+        "answer_pdf_sha1": "af41fec69dc8",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "407",
+          "s": "2201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "衛生行政學概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 16,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0062",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "single_choice",
+      "question": "有關衛生計畫評價的敘述，下列何者錯誤？",
+      "options": [
+        "衛生計畫評價主要功能提供即時連續的回饋，包括計畫推行策略、執行 中變更、執行後影響結果等",
+        "衛生計畫評價必須嚴謹決定評價策略和研究設計及方法",
+        "每一項衛生計畫不論重要性或資源多寡都應該進行評價",
+        "衛生計畫評價的經濟評估準則包括效能（effectiveness）、效率（efficiency） 和公平性（equity）等"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "1ef0e62ff19c",
+        "answer_pdf_sha1": "af41fec69dc8",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "407",
+          "s": "2201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "衛生行政學概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 17,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0063",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "single_choice",
+      "question": "有關健康城市的敘述，下列何者錯誤？",
+      "options": [
+        "最早於 1986 年世界衛生組織於健康促進會議發表的渥太華憲章（the OttawaCharter）提出",
+        "健康城市透過改善城市中物理和社會環境，讓社區民眾互動",
+        "理想的健康城市具備乾淨、安全、高品質的生活環境",
+        "健康城市能保留歷史古蹟並尊重地方文化"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "1ef0e62ff19c",
+        "answer_pdf_sha1": "af41fec69dc8",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "407",
+          "s": "2201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "衛生行政學概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 18,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0064",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "single_choice",
+      "question": "以財務誘因鼓勵醫療院所依據當代醫學證據提供照護服務，以提升照顧結 果的支付制度是那一種支付制度？",
+      "options": [
+        "論人計酬",
+        "論病例計酬",
+        "論質計酬",
+        "論量計酬"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "1ef0e62ff19c",
+        "answer_pdf_sha1": "af41fec69dc8",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "407",
+          "s": "2201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "衛生行政學概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 19,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0065",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "single_choice",
+      "question": "依據衛生福利部疾病管制署公告，猴痘為第幾類傳染病？",
+      "options": [
+        "第一類",
+        "第二類",
+        "第三類",
+        "第四類"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "1ef0e62ff19c",
+        "answer_pdf_sha1": "af41fec69dc8",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "407",
+          "s": "2201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "衛生行政學概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 20,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0066",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "single_choice",
+      "question": "下列那一類病人不屬於衛生福利部中央健康保險署現行住院安寧療護給 付疾病對象？",
+      "options": [
+        "癌症末期病人",
+        "運動神經元末期病人",
+        "外傷復健病人",
+        "急性或慢性腎衰竭末期病人"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "1ef0e62ff19c",
+        "answer_pdf_sha1": "af41fec69dc8",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "407",
+          "s": "2201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "衛生行政學概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 21,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0067",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "single_choice",
+      "question": "依據衛生福利部中央健康保險署現行規定，免除所有部分負擔的對象，下 列何者錯誤？",
+      "options": [
+        "山地離島地區就醫者",
+        "65歲以上衰弱老人",
+        "服役之替代役役男",
+        "3歲以下兒童"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "1ef0e62ff19c",
+        "answer_pdf_sha1": "af41fec69dc8",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "407",
+          "s": "2201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "衛生行政學概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 22,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0068",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "single_choice",
+      "question": "有關衛生福利部中央健康保險署推行之分級醫療重要政策措施，下列何者 錯誤？",
+      "options": [
+        "提升基層醫療服務量能",
+        "鼓勵醫療院所檢驗檢查資訊上傳健保醫療資訊雲端系統，提升醫師看診 效率",
+        "透過調整部分負擔，引導民眾建立轉診就醫習慣",
+        "調高醫院重症支付標準，減少醫院端輕症服務"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "1ef0e62ff19c",
+        "answer_pdf_sha1": "af41fec69dc8",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "407",
+          "s": "2201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "衛生行政學概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 23,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0069",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "single_choice",
+      "question": "有關衛生福利部中央健康保險署的業務職掌敘述，下列何者錯誤？",
+      "options": [
+        "確保藥物品質、加強藥品流通管理、偽劣藥之查緝及藥物濫用防制",
+        "保險費率之精算、投保金額調整之擬議、健保財務收支之研析及各項健 保政策財務收支影響之分析",
+        "承保政策與法規之擬議、作業規則及標準作業流程之研訂",
+        "醫療支付制度之規劃與醫療給付項目之收載、核價等支付標準之擬訂及 協商"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "1ef0e62ff19c",
+        "answer_pdf_sha1": "af41fec69dc8",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "407",
+          "s": "2201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "衛生行政學概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 24,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0070",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "single_choice",
+      "question": "為提升食品安全管理，衛生福利部食品藥物管理署於民國105年推動食安 五環重要政策，下列何者錯誤？",
+      "options": [
+        "強化食品中風險物質檢驗技術之研發，加強源頭控管",
+        "全民監督食安，提高檢舉獎金加強監督黑心廠商",
+        "拓展衛教宣導深耕民眾正確食品營養的觀念",
+        "重建生產管理，落實食品業者自主安全監測與檢驗及追溯追蹤"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "1ef0e62ff19c",
+        "answer_pdf_sha1": "af41fec69dc8",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "407",
+          "s": "2201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "衛生行政學概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 25,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0071",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "essay",
+      "question": "依據衛生福利部食品藥物管理署民國 111 年之食品中毒案件病因物質分\n類統計顯示，病毒及細菌性食品中毒占最大的比例，其中又以諾羅病毒及\n金黃色葡萄球菌造成上千人以上的病例數為最高。\n食因性病毒依病徵可分為那幾類？並各舉一範例。（6分）\n請列舉並說明及比較細菌性食品中毒的分類，並各舉一範例。（12分）\n請針對諾羅病毒食品中毒說明病原特性、傳播途徑、病徵以及預防方法。\n（6 分）\n請針對金黃色葡萄球菌食品中毒說明病原特性、傳播途徑、病徵以及預\n防方法。（6分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "fa8e7491f5ab",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "407",
+          "s": "2203",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "食品與環境衛生學概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0072",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "essay",
+      "question": "依據食品安全衛生管理法之規定，食品及食品原料之容器或外包裝，應以\n中文及通用符號，明顯標示那一些項目？（20 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "fa8e7491f5ab",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "407",
+          "s": "2203",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "食品與環境衛生學概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0073",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "essay",
+      "question": "多氯聯苯及戴奧辛類之物質多為環境污染物，且皆具有環境賀爾蒙的作用。\n何謂環境賀爾蒙？請解釋並說明其可能之分布以及對人體健康可能造\n成的影響。（6分）\n請分別說明並比較多氯聯苯及戴奧辛類污染物的特性、形成原因或用\n途、環境分布、人體暴露途徑及對人體可能之毒性影響。（14 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "fa8e7491f5ab",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "407",
+          "s": "2203",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "食品與環境衛生學概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-77f8735d-0074",
+      "exam_id": "disabled-77f8735d",
+      "question_type": "essay",
+      "question": "有關空氣污染的防治：\n依據空氣污染防制法施行細則，請列舉粒狀污染物可分為那幾類？並說\n明其差異。（12分）\n請列舉五種可控制空氣中粒狀污染物的設備，說明其主要原理，並比較\n其效率。（18 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "fa8e7491f5ab",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "407",
+          "s": "2203",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "食品與環境衛生學概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    }
+  ]
+}

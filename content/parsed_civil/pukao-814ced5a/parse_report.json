@@ -1,0 +1,53 @@
+{
+  "slug": "pukao-814ced5a",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:36:49+00:00",
+  "paper_count": 5,
+  "paper_with_questions": 5,
+  "question_count": 20,
+  "type_counts": {
+    "essay": 20
+  },
+  "issues": [
+    {
+      "year": "114",
+      "subject": "資訊系統與資訊檢索概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "113",
+      "subject": "資訊系統與資訊檢索概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "資訊系統與資訊檢索概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "資訊系統與資訊檢索概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "資訊系統與資訊檢索概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    }
+  ]
+}

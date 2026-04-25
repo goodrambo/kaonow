@@ -1,0 +1,5417 @@
+{
+  "slug": "disabled-0f640084",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:39:03+00:00",
+  "paper_count": 16,
+  "paper_with_questions": 16,
+  "question_count": 146,
+  "type_counts": {
+    "essay": 64,
+    "single_choice": 82
+  },
+  "papers": [
+    {
+      "year": "114",
+      "exam_code": "114040",
+      "c": "147",
+      "s": "1404",
+      "q": "1",
+      "subject": "基本電學",
+      "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "fa08caead4d3",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "114",
+      "exam_code": "114040",
+      "c": "147",
+      "s": "1405",
+      "q": "1",
+      "subject": "電工機械概要",
+      "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "5d1e6d9a43c8",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "113",
+      "exam_code": "113040",
+      "c": "311",
+      "s": "1608",
+      "q": "1",
+      "subject": "工程數學",
+      "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "c22873f46509",
+      "a_pdf_sha1": "fea7b516b3ea",
+      "format_detected": "mixed",
+      "raw_question_count": 44,
+      "answer_qnums_extracted": 20,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 44,
+      "skipped_count": 0
+    },
+    {
+      "year": "113",
+      "exam_code": "113040",
+      "c": "311",
+      "s": "1404",
+      "q": "1",
+      "subject": "計算機概論",
+      "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "4e841f53c409",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 6,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 6,
+      "skipped_count": 0
+    },
+    {
+      "year": "113",
+      "exam_code": "113040",
+      "c": "311",
+      "s": "1603",
+      "q": "1",
+      "subject": "電力系統",
+      "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "5d0df9fb940f",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "113",
+      "exam_code": "113040",
+      "c": "311",
+      "s": "1606",
+      "q": "1",
+      "subject": "電子學",
+      "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "76c94723423b",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "113",
+      "exam_code": "113040",
+      "c": "311",
+      "s": "1605",
+      "q": "1",
+      "subject": "電路學",
+      "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "60143d8f9c85",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "112",
+      "exam_code": "112050",
+      "c": "309",
+      "s": "1607",
+      "q": "1",
+      "subject": "工程數學",
+      "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "ffd96c3a291a",
+      "a_pdf_sha1": "3d55594787ea",
+      "format_detected": "mixed",
+      "raw_question_count": 42,
+      "answer_qnums_extracted": 20,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 42,
+      "skipped_count": 0
+    },
+    {
+      "year": "112",
+      "exam_code": "112050",
+      "c": "309",
+      "s": "1407",
+      "q": "1",
+      "subject": "計算機概論",
+      "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "5482bb08f1c2",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "112",
+      "exam_code": "112050",
+      "c": "309",
+      "s": "1604",
+      "q": "1",
+      "subject": "電力系統",
+      "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "a6874e44a467",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "112",
+      "exam_code": "112050",
+      "c": "309",
+      "s": "1606",
+      "q": "1",
+      "subject": "電子學",
+      "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "899b3659bc9f",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "112",
+      "exam_code": "112050",
+      "c": "309",
+      "s": "1605",
+      "q": "1",
+      "subject": "電路學",
+      "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "3e0246d5a355",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "111",
+      "exam_code": "111050",
+      "c": "107",
+      "s": "1411",
+      "q": "1",
+      "subject": "計算機概論",
+      "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "c08f5a521add",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "111",
+      "exam_code": "111050",
+      "c": "107",
+      "s": "1602",
+      "q": "1",
+      "subject": "電力系統",
+      "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "9bf895872e7c",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 5,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 5,
+      "skipped_count": 0
+    },
+    {
+      "year": "110",
+      "exam_code": "110050",
+      "c": "107",
+      "s": "1312",
+      "q": "1",
+      "subject": "計算機概論",
+      "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "0eb3e4d056bc",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 5,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 5,
+      "skipped_count": 0
+    },
+    {
+      "year": "110",
+      "exam_code": "110050",
+      "c": "107",
+      "s": "1502",
+      "q": "1",
+      "subject": "電力系統",
+      "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "a57bed4ccf69",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    }
+  ],
+  "questions": [
+    {
+      "id": "disabled-0f640084-0001",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "一交流 RLC 並聯電路，電壓源為v(t)10 2sin377t V， R1/3、\nX 1/8、X 1/4，求該電路之：（每小題 5分，共 20分）\nL C\n總導納 Y。\n流經電壓源的電流相量 I。\n視在功率 S。\n功率因數 PF。",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "fa08caead4d3",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "147",
+          "s": "1404",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "基本電學",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0002",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "如圖一所示電路，調整可變電阻R 使其可獲得最大功率轉移。\nL\n求R 之值。（20分）\nL\n供給R 的最大功率為何？（5分）\nL\n(V /10)mA\nA\n10kW\n10kW R\nL +\n1mA\n10kW 10kW\nV\nA\n_\n圖一",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "fa08caead4d3",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "147",
+          "s": "1404",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "基本電學",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0003",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "如圖二所示電路，a、b 兩端的等效電容為C 。（每小題 15分，共 30 分）\neq\n求開關閉合（close）時的C 值。\neq\n求開關開啟（open）時的C 值。\neq\n10mF\n10mF\na\n10mF\nC\neq\n10mF\nb\n10mF\n10mF\n圖二",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "fa08caead4d3",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "147",
+          "s": "1404",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "基本電學",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0004",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "如圖三所示電路，電壓源v 10cost V，試問電壓源的頻率是否可調整\ng\n至使i 和v 具有相同相位？若可以，求該電壓源頻率。若無法調整至使\ng g\ni 和v 為相同相位，證明並解釋其原因。（25分）\ng g\n1W 1F\ni\ng 1W\n1H\n+\nv\ng _\n圖三",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "fa08caead4d3",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "147",
+          "s": "1404",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "基本電學",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0005",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "某模鑄式單相變壓器，額定功率為 10 kVA，額定電壓為2400 V/240 V，\n進行開路及短路測試後得到下列數據：\n開路試驗（在低壓側進行）\n測試電壓：V =240 V\no\n測試電流：I =2.5 A\no\n測試功率：P =150 W\no\n短路試驗（在高壓側進行）\n測試電壓：V =150 V\ns\n測試電流：I =4.17 A\ns\n測試功率：P =300 W\ns\n請計算：\n變壓器等效電路之參數。（15分）\n當負載為額定電流、功率因數0.8（滯後）時，求變壓器的效率%。（10分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "5d1e6d9a43c8",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "147",
+          "s": "1405",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電工機械概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0006",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "某大樓有一部額定 480V的同步電動機，若調整激磁電流使其功率因數由\n0.8 滯後提升至 1.0，假設額定負載功率為 200kW不變。求無效功率之變\n化量Q及消耗電流之變化量I。（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "5d1e6d9a43c8",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "147",
+          "s": "1405",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電工機械概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0007",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "某大樓抽水馬達採用一部三相 4極 220 V/50 Hz的感應電動機，其實際運\n轉時轉速為 1425 rpm，求其轉差率（s）。若要增加抽水量時，請解釋感\n應電動機轉差率及電流變化之情形及原因。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "5d1e6d9a43c8",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "147",
+          "s": "1405",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電工機械概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0008",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "某電池充電系統有一部30kW之直流分激式發電機，其額定電壓為250V，\n激磁場電阻為 50 Ω，等效電樞電阻為 0.08 Ω。若其鐵損及機械損之總和\n為 3000 W，試求其滿載效率。（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "5d1e6d9a43c8",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "147",
+          "s": "1405",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電工機械概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0009",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "考慮下列微分方程式：\ndy\n2x cos(3y) 3x2 sin(3y) =0\ndx\n請證明這是一個正合⋅ （exact−）的微⋅ 分方程⋅式。（5 分）\n請求取此微分方程式的一般解（generalsolution）。（10分）\n針對此微分方程式，再加上初始條件：y(1)0。請求取y(x)的精\n確解（exactsolution）。（5 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "c22873f46509",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1608",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "工程數學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0010",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "考慮下列矩陣：\n7 3 2\nA= 5 2 4\n1 2 1\n請證明矩陣 A為可逆（invertible）。（5 分）\n請計算矩陣 A的行列式（determinant）。（5 分）\n請求取矩陣 A的反矩陣（inverse matrix）。（10分）\n如果用B代表矩陣A的反矩陣，則B4的行列式數值為何？（10分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "c22873f46509",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1608",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "工程數學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0011",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "2 2 1",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "c22873f46509",
+        "answer_pdf_sha1": "fea7b516b3ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0012",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "6 6 3",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "c22873f46509",
+        "answer_pdf_sha1": "fea7b516b3ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0013",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "令矩陣A=  4 9 9 4，則矩陣A的秩rank(A)為何？",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "c22873f46509",
+        "answer_pdf_sha1": "fea7b516b3ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0014",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "1 1 2",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "c22873f46509",
+        "answer_pdf_sha1": "fea7b516b3ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0015",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "8 9 5",
+      "options": [
+        "5",
+        "4",
+        "3",
+        "2 d2y dy"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "c22873f46509",
+        "answer_pdf_sha1": "fea7b516b3ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0016",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "下列何者為二階常微分方程式x2 x 3y=0的解（c ,c 為任一實數",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "c22873f46509",
+        "answer_pdf_sha1": "fea7b516b3ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0017",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "1 2 dx dx （realvalues））？ − −",
+      "options": [
+        "y=c x 1 +c x3",
+        "y=c x 1+c x 3",
+        "y=c x+c x3",
+        "y=c x+c x 3"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "c22873f46509",
+        "answer_pdf_sha1": "fea7b516b3ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0018",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "2 1 2 1 2 1 2 − \u0000 \u0000 \u0000",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "c22873f46509",
+        "answer_pdf_sha1": "fea7b516b3ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0019",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "令T：R2 →R2為一個線性映射函數，其定義為T(x,y)=(2x+y,3x+4y)，則下 列何者錯誤？",
+      "options": [
+        "函數T之零核空間（nullspace）的維度為0",
+        "函數T的秩（rank）為2",
+        "函數T為一對一函數",
+        "函數T之列空間（rowspace）的維度為0"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "c22873f46509",
+        "answer_pdf_sha1": "fea7b516b3ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0020",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "2 3",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "c22873f46509",
+        "answer_pdf_sha1": "fea7b516b3ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 0,
+        "answer_corrected": false,
+        "flags": [
+          "answer_missing",
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0021",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "令矩陣A= a 0 3 為一斜對稱矩陣（skewsymmetricmatrix），其中 b c 0 a,b,c為實常數，則下列何者錯誤？",
+      "options": [
+        "a=2",
+        "a, b 兩數乘積ab =6",
+        "a, c 兩數乘積ac=6",
+        "b, c 兩數乘積bc=9 1x 2 3 4"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "c22873f46509",
+        "answer_pdf_sha1": "fea7b516b3ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0022",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "2x 3 4 若矩陣  ，則其行列式 為何？",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "c22873f46509",
+        "answer_pdf_sha1": "fea7b516b3ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0023",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "A= det(A)",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "c22873f46509",
+        "answer_pdf_sha1": "fea7b516b3ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0024",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "2 3x 4",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "c22873f46509",
+        "answer_pdf_sha1": "fea7b516b3ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0025",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "2 3 4x",
+      "options": [
+        "x3(10+x)",
+        "x3(10+4x)",
+        "24(10+x4)",
+        "30(10+4x4)"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "c22873f46509",
+        "answer_pdf_sha1": "fea7b516b3ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0026",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "1 3",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "c22873f46509",
+        "answer_pdf_sha1": "fea7b516b3ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 0,
+        "answer_corrected": false,
+        "flags": [
+          "answer_missing",
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0027",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "下列何者不是矩陣A= 2 3 3 的特徵向量/固有向量（characteristic",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "c22873f46509",
+        "answer_pdf_sha1": "fea7b516b3ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0028",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "1 1 vector/eigenvector）？",
+      "options": [
+        "T",
+        "T I  1 1 1 J  1 1 1",
+        "T",
+        "T K  1 1 1 L 1 1 1"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "c22873f46509",
+        "answer_pdf_sha1": "fea7b516b3ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0029",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "下列給定的矩陣，何者不可對角化？",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "c22873f46509",
+        "answer_pdf_sha1": "fea7b516b3ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0030",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "3  0 1 1/2 1/6  3 4",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "c22873f46509",
+        "answer_pdf_sha1": "fea7b516b3ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0031",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "4 1 0 1/6 1/2 1 7",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "c22873f46509",
+        "answer_pdf_sha1": "fea7b516b3ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0032",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "空間R3中的四點A(1,0,1)、B(2,x,4)、C(5,5,7)與D(8,8,10)共平面，則 x為何？",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "c22873f46509",
+        "answer_pdf_sha1": "fea7b516b3ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0033",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "微分方程式(y+x3)dx=xdy滿足y(1)=2的解為y=ax3 +bxc ，其中a,b,c 為實常數，則下列何者正確？ 1",
+      "options": [
+        "a1",
+        "b",
+        "c2",
+        "c1 2 1,1 x0"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "c22873f46509",
+        "answer_pdf_sha1": "fea7b516b3ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0034",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "令 週 期 函 數 f(x) , f(x) f(x2) ，其傅立葉級數 1, 0 x1 4 （Fourier series）展開為 f(x) ( a sin(x)bsin(2x)csin(3x) dsin(4x) )，其中a,b,c,d為實常數，則a+b+c+d之值為何？",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "c22873f46509",
+        "answer_pdf_sha1": "fea7b516b3ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0035",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "4 1 1",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "c22873f46509",
+        "answer_pdf_sha1": "fea7b516b3ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0036",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "3 3 3",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "c22873f46509",
+        "answer_pdf_sha1": "fea7b516b3ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0037",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "若使(4x2y3xy2)dx＋(x32x2y)dy＝0為正合（exact）的積分因子為xm yn， 其中m與n皆為實數，則m+n之值為何？",
+      "options": [
+        "2",
+        "1",
+        "1",
+        "2"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "c22873f46509",
+        "answer_pdf_sha1": "fea7b516b3ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 11,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0038",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "下列各組函數，何者不為線性獨立（linearlyindependent）？",
+      "options": [
+        "ex、e－x、e2x， x",
+        "lnx、lnx2、lnx3，0 x",
+        "1、x、x2， x",
+        "1、cosx、sinx， x t"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "c22873f46509",
+        "answer_pdf_sha1": "fea7b516b3ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 12,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0039",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "微積分式y(t) y()cos(t)d，y(0)1之解為何？ 0 t t2",
+      "options": [
+        "y(t)sint",
+        "y(t)sint",
+        "",
+        ""
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "c22873f46509",
+        "answer_pdf_sha1": "fea7b516b3ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 13,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0040",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "2 t t2",
+      "options": [
+        "y(t)1",
+        "y(t)1",
+        "",
+        ""
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "c22873f46509",
+        "answer_pdf_sha1": "fea7b516b3ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0041",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "2 z1",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "c22873f46509",
+        "answer_pdf_sha1": "fea7b516b3ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0042",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "複變函數 f(z) ，若C為逆時針方向繞圓周 z 3的路徑， z(z2)2(z4) 則下列何者是積分 f(z)dz之值？ C",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "c22873f46509",
+        "answer_pdf_sha1": "fea7b516b3ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 14,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0043",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "1 1 1",
+      "options": [
+        "i",
+        "i",
+        "i",
+        "i"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "c22873f46509",
+        "answer_pdf_sha1": "fea7b516b3ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0044",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "8 24 24 1",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "c22873f46509",
+        "answer_pdf_sha1": "fea7b516b3ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0045",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "複變函數 f(z) ，針對區域1 z 2對函數 f(z)展開可得 (z1)(z2) f(z) az2 bz1cdz ，其中a,b,c,d為實常數，則下列何者正 確？",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "c22873f46509",
+        "answer_pdf_sha1": "fea7b516b3ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 15,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0046",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "1",
+      "options": [
+        "a1",
+        "b1",
+        "c",
+        "d"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "c22873f46509",
+        "answer_pdf_sha1": "fea7b516b3ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0047",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "4",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "c22873f46509",
+        "answer_pdf_sha1": "fea7b516b3ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0048",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "下列複變函數何者不滿足柯西-黎曼方程式（Cauchy-Riemannequation）而 為不可解析函數（極點除外）？（其中zxiy,i 1） f(z)excos(y)iexsin(y)",
+      "options": [
+        "f(z)Re(z2)iIm(z2)",
+        "f(z)32 (z3 42z)",
+        "",
+        "f(z)sin(x)cosh(y)icos(x)sinh(y)"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "c22873f46509",
+        "answer_pdf_sha1": "fea7b516b3ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 16,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0049",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "下列何者是複數方程式z4 6iz2 160的其中一根？（其中i 1）",
+      "options": [
+        "1i",
+        "12i",
+        "2i",
+        "22i"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "c22873f46509",
+        "answer_pdf_sha1": "fea7b516b3ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 17,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0050",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "已知隨機變數Z 3X 2Y3的變異數（variance）為54，其中X的變異數 為2 2，且X與Y的共變異數（covariance）為 2，則隨機變數Y X XY 的變異數2為何？ Y",
+      "options": [
+        "7",
+        "5",
+        "3",
+        "1"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "c22873f46509",
+        "answer_pdf_sha1": "fea7b516b3ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 18,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0051",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "已知隨機變數X和Y的聯合機率密度函數（jointprobabilitydensityfunction） xy, 0x y1 為 f (x,y) ，則下列何者正確？ X,Y 0, 其他 1",
+      "options": [
+        "X2的期望值（expectedvalue）EX2 10 1",
+        "Y2的期望值（expectedvalue）EY2 8 1",
+        "X的期望值（expectedvalue）EX 15 1",
+        "Y的期望值（expectedvalue）EY 5"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "c22873f46509",
+        "answer_pdf_sha1": "fea7b516b3ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 19,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0052",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "某電流自P流至Q需經過a、b、c三個並聯的開關。已知a、b、c個別接 通之機率分別為0.4、0.5與0.6；a與b均接通之機率為0.2；b與c均接通 之機率為0.3；a與c均接通之機率為0.24；a、b、c均接通之機率為0.12。 試求電流自P流至Q之機率為何？",
+      "options": [
+        "0.88",
+        "0.76",
+        "0.70",
+        "0.64"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "c22873f46509",
+        "answer_pdf_sha1": "fea7b516b3ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 20,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0053",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "請回答下列問題：（每小題 10分，共 20分）\n一般而言，二個裝置如果要順利交換資料，就必須讓二個裝置使用共通\n語言彼此溝通，在電腦網路的世界中，裝置互相溝通的語言稱之為「協\n定」（Protocol）。為了有效將網路設備以及協定加以管理與分類，國際\n標準組織（ISO）制定了網路 OSI模型，用以區分通訊系統及其使用的\n協定。請說明網路 OSI模型分為那些層（Layer），以及各層的功能。\n請說明何謂中繼器（Repeater）、橋接器（Bridge）、交換器（Switch）、\n路由器（Router），同時說明上述各裝置分別屬於OSI模型的那一層網\n路設備。",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "4e841f53c409",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1404",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "計算機概論",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0054",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "程式設計上，當主程式呼叫函式（Function）後，系統會轉移到函式上執行，\n函式也可能再呼叫其他函式。如果執行某一函式中，它會再呼叫自己本身\n的函式，則稱之為『遞迴函式』（RecursiveFunction）。（每小題10分，\n共 20 分）\n一個數字同時是幾個數字的因數，我們稱這個數字為這幾個數字的公因\n數，公因數中最大的稱為最大公因數（GCD）。兩個數字的最大公因數\n可以有多種解法，請依輾轉相除法求解兩個數字最大公因數的數學遞迴\n公式（依數學定義的方式呈現）。\n請根據題的遞迴公式，寫一個完整的 Java（或 C/C++、Python）遞迴\n程式，該程式可以輸入兩個整數，並且輸出這兩個整數的最大公因數。",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "4e841f53c409",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1404",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "計算機概論",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0055",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "中央處理器（CentralProcessingUnit,CPU）是現代計算機的大腦，也是電\n腦系統中最重要的組成之一。請回答下列問題：\n請說明中央處理器的主要目的。（5分）\n請列出中央處理器主要組成單元（Unit）。（5分）\n請說明中央處理器中每個單元的主要功能。（10 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "4e841f53c409",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1404",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "計算機概論",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0056",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "請說明下列名詞之意涵：（每小題 2 分，共 10分）\n機器語言（MachineLanguage）\n組合語言（Assembly Language）\n組譯器（Assembler）\n編譯器（Compiler）\n直譯器（Interpreter）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "4e841f53c409",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1404",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "計算機概論",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0057",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "請根據下圖所示，從 A開始，依字母排列順序（in alphabetical order），\n進行廣度優先搜尋（BreadthFirstSearch,BFS）以及深度優先搜尋（Depth\nFirstSearch, DFS），請分別列出其走訪的字母順序。（10分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "4e841f53c409",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1404",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "計算機概論",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "五",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0058",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "請回答下列問題：（每小題 10分，共 20分）\n何謂對稱式金鑰加解密演算法（Symmetric-keycryptography）以及非對\n稱式金鑰加解密演算法（Asymmetric-keycryptography）？\n何謂數位簽章以及如何運作？",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "4e841f53c409",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1404",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "計算機概論",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "六",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0059",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "圖一為一個三相Y接平衡負載（Z =Z =Z =3+j6），其中性點經一阻\na b c\n抗 Z =5+j10 接地。\nn\n試求此負載的零相序、正相序及負相序阻抗。（10分）\n若此負載由一組三相不平衡電壓供電，V 2200V、V 230120V、\nan bn\nV 185100V，計算此負載之三相線電流向量I 、I 、I 。（15分）\ncn a b c\na\nI Z\na a\nZ\nb\nb\nk\nI Z\nb c\nI Z\nc n\nc\nI\nn\nn\n圖一",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "5d0df9fb940f",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1603",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電力系統",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0060",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "一互聯電力系統有兩部燃油機組實施經濟調度，此兩部機組的燃料成本分\n別為\n2P 0.02P2 ($/hr), 0<P 100 MW\nC  1 1 1\n1 6P ($/hr), P 100MW\n1 1\nC 0.03P2 ($/hr)\n2 2\n其中 P 及 P 的單位均為 MW。不考慮發電機組的容量限制及輸電線損\n1 2\n失，當總負載為500 MW時，欲使總成本 C =C +C 為最小值，計算：\nT 1 2\n每部機組的輸出功率。（10 分）\n增量成本。（10 分）\n總成本 C 之值。（5分）\nT",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "5d0df9fb940f",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1603",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電力系統",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0061",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "一條三相 34.5 kV、60 Hz、長度 25 km 之短程輸電線，其串聯阻抗\nzj/km。若受電端線電壓 V =33 kV，吸收功率因數 0.9 落\nR\n後、10 MVA之電功率，計算：\n此輸電線之 ABCD參數。（15分）\n送電端之線電壓 V 。（10 分）\nS",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "5d0df9fb940f",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1603",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電力系統",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0062",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "一個包含三個匯流排的電力系統，其匯流排阻抗矩陣如下：\n0.4 0.1 0.3\nZ = j 0.1 0.8 0.5 p.u.\nbus\n0.3 0.5 1.2\n故障前的電壓為1.0 標么且不考慮故障前的負載電流。\n繪出此電力系統的耙型等效電路（rakeequivalent），標示出自阻抗、互\n阻抗及故障前之電壓。（10分）\n若在 2 號匯流排（Bus2）發生三相短路故障，計算故障電流及1 號、2\n號、3號匯流排於故障發生時之電壓。（15分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:02+00:00",
+        "source_pdf_sha1": "5d0df9fb940f",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1603",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電力系統",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0063",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "已知一理想運算放大器（Ideal-op，如圖一所示）之電路參數：電阻R =2k、\n1\nR =8k與 R =2k，輸入電壓(v)為 1V，請計算此電路：電壓增益(A )之\n2 L i v\n分貝 dB值及功率增益(A )之分貝 dB值。（25分）\np\ni R\n2 2\ni\n1 R i\n1\no\nv v\n1 o\ni i\ni L R\nL\nv\ni\n圖一",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "76c94723423b",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1606",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電子學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0064",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "已知一場效電晶體（FET，如圖二所示）之電路參數：V =0.8V、K =1mA/V2、\nTN n\n=0、I =0.5mA。請繪小訊號之等效電路圖並求其轉導(g )值及求小訊號\nDQ m\n之電壓增益(A =v /v )。（25分）\nv o s\n+5V\nR =7k\nD\nR =165k\n1 v\nC o\nC\nv\ni R =35k\n2 R =0.5k\nS\n－5V\n圖二",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "76c94723423b",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1606",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電子學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0065",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "已知一雙極性接面電晶體（BJT，如圖三所示）之電路參數：=125、V = ∞、\nA\nV =18 V、R =4 k、R =3 kΩ、R =4 k、R =25.6 k、R =10.4 k。求Q\nCC L E C 1 2\n點之電壓(V )值、R =v /i 及小訊號電壓增益(A =v /v)。（25分）\nCEQ m o s v o s\nC C\nv C1 C2\ns\nv\no\ni R= R\ns S C R\n100k R L\nR 1\nE\nR V\n2 CC\n圖三",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "76c94723423b",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1606",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電子學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0066",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "已知一弛緩振盪器（RO，如圖四所示）之電路參數：R =22k、R =60k、\n1 2\nR =18 k且 C = 0.022 F。試求：\n3\n此電路的振盪頻率(f)值。另當輸出頻率為 10 kHz 時，求此 RO 所需之\nr\n阻抗(R )值。（15 分）\n1\n假設此 RO 中的比較器輸出為10 V，求其三角波之振幅(V 與 V )\nUTP LTP\n值。（10分）\nC\nR\n1\nV\nout\nR\n2\nR\n3\n圖四",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "76c94723423b",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1606",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電子學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0067",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "在圖一電路中，試求出 a-b 兩端之戴維寧（Thevenin）等效電路：E 及\nTh\nR 。（25 分）\nTh\n2\na\n6 6\n12V 12V\n6\n2 2\n12V\nb\n圖一",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "60143d8f9c85",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1605",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電路學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0068",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "在圖二電路中，當 t>0 以後，試求出 v(t)。（25分）\nt=0\n1H\n3A 10 v 5 4u(t)A\n4F\n圖二",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "60143d8f9c85",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1605",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電路學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0069",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "在圖三電路中，試求出閉迴路增益 v /v。（25 分）\no i\nR\n2\nR /2 R /2\n1 1\nv R\ni G\n− −\nR /2 R /2 + v\n+ 1 1 R +o\n2\n−\n圖三",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "60143d8f9c85",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1605",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電路學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0070",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "在圖四交流電路中，v =10 cos4t Vandv =20 cos(4t–30) V，試求出 i 及\n1 2 1\ni 。（25 分）\n2\n1H 1H\n1 1\nv 1F v\n1 i i 2\n1 2\n1\n圖四",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "60143d8f9c85",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "311",
+          "s": "1605",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電路學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0071",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "試利用拉氏轉換（Laplacetransform）求解：（25分）\n10sin2t, 0<t<1\ny''+2y'+2y= ; y 0 =1, y' 0 =-5,\n0, t≥1\n2\ndy d y\n\u0000 ( ) ( )\n其中 y' ， y'' 。\ndt dt2\n≜ ≜\n0 0 -2",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "ffd96c3a291a",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1607",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "工程數學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0072",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "令矩陣 A= 1 2 1 。\n1 0 3\n求A的反矩\u0000 陣 A-1（in\u0000verse matrix of A）。（5分）\n求 的所有特徵值（eigenvalues）。（6分）\n求矩陣 P與 D，使得 D -1AP為一對角矩陣（diagonal matrix）。\nA\n（8 分）\n= \u0000\n求 A13。（6分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "ffd96c3a291a",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1607",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "工程數學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0073",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "求解線性方程組：x+y+z=3與x+2y-z=4之未知數x,y與z。下列敘述何者錯 誤？",
+      "options": [
+        "該線性方程組有無限多組解",
+        "[x,y,z]T=[2,1,0]T為該線性方程組之一組解",
+        "[x,y,z]T=[-1,3,1]T為該線性方程組之一組解",
+        "該線性方程組解集合之維度是2 A A -1 1 -1 0 1 0"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "ffd96c3a291a",
+        "answer_pdf_sha1": "3d55594787ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1607",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0074",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "矩陣 M = 11 12 ，其中A = ，A = ，A = ， A A 11 0 1 12 0 0 21 0 0",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "ffd96c3a291a",
+        "answer_pdf_sha1": "3d55594787ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1607",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0075",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "22",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "ffd96c3a291a",
+        "answer_pdf_sha1": "3d55594787ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1607",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 21,
+        "answer_corrected": false,
+        "flags": [
+          "answer_missing",
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0076",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "0 A = \u0000。則rank\u0000(M)為何？ \u0000 \u0000 \u0000 \u0000 \u0000 \u0000",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "ffd96c3a291a",
+        "answer_pdf_sha1": "3d55594787ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1607",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0077",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "-1 -1",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4 \u0000 \u0000"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "ffd96c3a291a",
+        "answer_pdf_sha1": "3d55594787ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1607",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 22,
+        "answer_corrected": false,
+        "flags": [
+          "answer_missing"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0078",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "3",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "ffd96c3a291a",
+        "answer_pdf_sha1": "3d55594787ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1607",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0079",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "假設矩陣A= 。下列敘述何者錯誤？",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "ffd96c3a291a",
+        "answer_pdf_sha1": "3d55594787ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1607",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0080",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "7",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "ffd96c3a291a",
+        "answer_pdf_sha1": "3d55594787ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1607",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0081",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "5 -1.5",
+      "options": [
+        "矩陣A之反矩陣是A-1= \u0000 \u0000 -2 1",
+        "假定b為[0,0]T，求解方程組Ax=b時，未知數x有唯一解 \u0000 \u0000",
+        "矩陣A為滿秩（FullRank）",
+        "向量[1,1]T是矩陣A之特徵向量"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "ffd96c3a291a",
+        "answer_pdf_sha1": "3d55594787ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1607",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0082",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "T 為 R3 到 R2 的線性轉換，滿足 T x,y,z =(2x,y-z)。則 T 的核空間（kernel space）維度為何？ ( )",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "ffd96c3a291a",
+        "answer_pdf_sha1": "3d55594787ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1607",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0083",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "(1,0,0,0),(0,0,0,1) 為R4的子空間，則向量u=(1,1,3,5)和S的最短距 離為何？ \u0000 = \u0000\u0000\u0000\u0000( )",
+      "options": [
+        "5",
+        "",
+        "3",
+        "2"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "ffd96c3a291a",
+        "answer_pdf_sha1": "3d55594787ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1607",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0084",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "2 a c",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "ffd96c3a291a",
+        "answer_pdf_sha1": "3d55594787ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1607",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0085",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "考慮矩陣A= 、B= ，B為A的相似（similar）矩陣。則det(AB)為",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "ffd96c3a291a",
+        "answer_pdf_sha1": "3d55594787ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1607",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0086",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "3 √10d b √ 何？ \u0000 \u0000 \u0000 \u0000",
+      "options": [
+        "2",
+        "3",
+        "6",
+        "9"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "ffd96c3a291a",
+        "answer_pdf_sha1": "3d55594787ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1607",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 0,
+        "answer_corrected": false,
+        "flags": [
+          "answer_missing"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0087",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "若矩陣 的特徵值（eigenvalues）為-3,1,2。則det(A2+3A+2I)為何？",
+      "options": [
+        "144",
+        "86",
+        "-88",
+        "-144 A"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "ffd96c3a291a",
+        "answer_pdf_sha1": "3d55594787ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1607",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0088",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "8 0.3",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "ffd96c3a291a",
+        "answer_pdf_sha1": "3d55594787ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1607",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 0,
+        "answer_corrected": false,
+        "flags": [
+          "answer_missing",
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0089",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "假設A= 。A 為何？",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "ffd96c3a291a",
+        "answer_pdf_sha1": "3d55594787ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1607",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0090",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "2 0.7",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "ffd96c3a291a",
+        "answer_pdf_sha1": "3d55594787ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1607",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 0,
+        "answer_corrected": false,
+        "flags": [
+          "answer_missing",
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0091",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "5 0.5 0∞.6 0.6 0.4 0.4 0.6 0.4",
+      "options": [
+        "\u0000 \u0000",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "ffd96c3a291a",
+        "answer_pdf_sha1": "3d55594787ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1607",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 0,
+        "answer_corrected": false,
+        "flags": [
+          "answer_missing",
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0092",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "5 0.5 0.4 0.4 0.6 0.6 0.6 0.4",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "ffd96c3a291a",
+        "answer_pdf_sha1": "3d55594787ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1607",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 0,
+        "answer_corrected": false,
+        "flags": [
+          "answer_missing",
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0093",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "考慮複變函數cos z ，其實部為 u x,y ，虛部為v x,y 且z=x+iy。關於cos z \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 敘述，下列何者正確？ ( ) ( ) ( ) ( ) d ∂v ∂u",
+      "options": [
+        "cos z =sin(z)",
+        "=- dz ∂x ∂y",
+        "u x,y =cos(x)(ey e y)",
+        "v(x,y)=sin(x)(ey e y) ( )"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "ffd96c3a291a",
+        "answer_pdf_sha1": "3d55594787ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1607",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0094",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "複數z=x+iy滿足e2z+ln(2)=\u00001+i，則z為下列何者？ \u0000 ( ) − −",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "ffd96c3a291a",
+        "answer_pdf_sha1": "3d55594787ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1607",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0095",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "π 1 π",
+      "options": [
+        "z=- ln(2) +i",
+        "z= ln(2) +i",
+        "",
+        ""
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "ffd96c3a291a",
+        "answer_pdf_sha1": "3d55594787ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1607",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0096",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "4 2 4",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "ffd96c3a291a",
+        "answer_pdf_sha1": "3d55594787ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1607",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0097",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "π 1 π",
+      "options": [
+        "z=- ln(2)+i",
+        "z= ln(2) +i",
+        "",
+        ""
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "ffd96c3a291a",
+        "answer_pdf_sha1": "3d55594787ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1607",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0098",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "8 4 8",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "ffd96c3a291a",
+        "answer_pdf_sha1": "3d55594787ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1607",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0099",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "試求出 (1 z)dz，其中C由以下曲線決定：z(t)=t-it2，而t由0變化到1。 C",
+      "options": [
+        "0",
+        "1",
+        "-1",
+        "i ∫ − eizsin(z)"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "ffd96c3a291a",
+        "answer_pdf_sha1": "3d55594787ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1607",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 11,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0100",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "求複變函數積分 dz，其中積分路徑C為逆時鐘方向繞圓 z 3i =2。 C z2+i6z",
+      "options": [
+        "0",
+        "iπ",
+        "i2π",
+        "-i2π ∮ | − |"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "ffd96c3a291a",
+        "answer_pdf_sha1": "3d55594787ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1607",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 12,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0101",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "考慮以下微分方程式 2y=x2 1。下列敘述何者錯誤？",
+      "options": [
+        "該微分方程式有唯一'' 解 y − −",
+        "該微分方程式之通解為y=c e x+c e 2x 0.5x2",
+        "",
+        ""
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "ffd96c3a291a",
+        "answer_pdf_sha1": "3d55594787ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1607",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 13,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0102",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "2 2 √e- 2(7 2/2\u0000√4) e 2(7 2/2+4)",
+      "options": [
+        "假設y(1)=3且y'(1)=-5，c = ，c =",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "ffd96c3a291a",
+        "answer_pdf_sha1": "3d55594787ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1607",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0103",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "– 2 √ 2 2 √ 2 2 √ \u0000 √",
+      "options": [
+        "該微分方程式是二階微分方程式 √ √",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "ffd96c3a291a",
+        "answer_pdf_sha1": "3d55594787ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1607",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0104",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "考慮微分方程式 2x-1y-9 dx+ 3-6xy-1 dy=0。下列那一個積分因子（integrating factor）可將上述微分方程式轉換為正合（exact）微分方程式？ ( ) ( )",
+      "options": [
+        "xy",
+        "x2y",
+        "xy2",
+        "x2y2"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "ffd96c3a291a",
+        "answer_pdf_sha1": "3d55594787ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1607",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 14,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0105",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "微分方程式y' xy=0的級數解為 y(x)= ∞ a xn,a ≠0。對n=1,2,3,⋯，a 滿 n=0 n 0 n 足下列那一個關係式？ + ∑",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "ffd96c3a291a",
+        "answer_pdf_sha1": "3d55594787ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1607",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 15,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0106",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "1",
+      "options": [
+        "a =- a",
+        "a =- a n+1 n n+1 n n+1 n",
+        "",
+        ""
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "ffd96c3a291a",
+        "answer_pdf_sha1": "3d55594787ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1607",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0107",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "1",
+      "options": [
+        "a =- a",
+        "a =- a n+1 n 1 n+1 n 1 n+1 n 0,t<5",
+        "",
+        ""
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "ffd96c3a291a",
+        "answer_pdf_sha1": "3d55594787ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1607",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0108",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "假設g(t)= \u0000 。g(t)之拉式轉換（LaplaceT\u0000ransform）為何？ t 5,t ≥5 e-5s e-5s e5s e5s \u0000",
+      "options": [
+        "−",
+        "",
+        "",
+        "s s2 s2 s"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "ffd96c3a291a",
+        "answer_pdf_sha1": "3d55594787ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1607",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 16,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "disabled-0f640084-0109",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "設f(x)在-L<x<L的傅立葉級數（Fourierseries）為 a0 ∞ f(x)= + a cos(Ax +b sin(Ax))，下列敘述何者正確？ n=1 n n 2",
+      "options": [
+        "f(x)為偶函數（evenfunction），a =0 ∑ ( ) 0",
+        "f(x)為奇函數（oddfunction），b =0 n 2nπ",
+        "A= L",
+        "f(x)為奇函數，級數在x=L的左極限（left-handlimit）收斂到零"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "ffd96c3a291a",
+        "answer_pdf_sha1": "3d55594787ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1607",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 17,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0110",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "某實驗樣本有 30%的人抽菸，而這些抽菸人口中有肺癌的比率為 40%，而 70%未抽菸的人口中，有肺癌的比率為10%。若由此實驗樣本中抽查一人，已 知抽到的人沒有肺癌，而此人沒有抽菸的機率為何？",
+      "options": [
+        "7/9",
+        "8/9",
+        "7/8",
+        "6/7"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "ffd96c3a291a",
+        "answer_pdf_sha1": "3d55594787ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1607",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 18,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0111",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "捷運每間隔A分鐘發車。定義隨機變數X為等車時間，其機率分配為[0,A]區 間的均勻分配（uniformdistribution）。若民眾希望等車時間介於2~4分鐘的 機率為0.4，則發車時間A為何？",
+      "options": [
+        "10",
+        "6",
+        "5",
+        "4"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "ffd96c3a291a",
+        "answer_pdf_sha1": "3d55594787ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1607",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 19,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0112",
+      "exam_id": "disabled-0f640084",
+      "question_type": "single_choice",
+      "question": "隨機變數 X 的變異數（variance）等於 1。若Y=-4X+1，則 X 和 Y 的共變異 數（covariance）為何？",
+      "options": [
+        "1",
+        "4",
+        "-2",
+        "-4"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "ffd96c3a291a",
+        "answer_pdf_sha1": "3d55594787ea",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1607",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "工程數學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 20,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0113",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "請回答下列問題：\n檔案管理（FileManagement）是作業系統的重要任務之一。何謂檔案？\n檔案管理包含那些基本功能？（15 分）\n將下列布林運算式（BooleanExpression）簡化為最簡型式。寫出每個步\n驟及其引用的法則。（10分）\n(AB)(ABC)C",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "5482bb08f1c2",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1407",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "計算機概論",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0114",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "有關電腦網路與社群網路安全，請回答下列問題：\n使用者在瀏覽器輸入的網域名稱，如何轉換成對應的 IP 位址？詳述其\n轉換過程。（15分）\n使用社群網路媒體時，要具有資訊安全意識。何謂認知戰（Cognitive\nWarfare）？認知戰的目的為何？請就其定義與目的詳加說明。（10 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "5482bb08f1c2",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1407",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "計算機概論",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0115",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "請回答下列有關資料結構的問題：\n陣列（Array）中的元素（Element）與鏈結串列（LinkedList）中的元素\n（Element）有何不同？請就元素在記憶體的儲存方式（Storage）、存取\n方式（Access）以及命名方式（Name）三方面詳細說明。（15 分）\n若某算術運算式的後置表示法（Postfix）是：A B * C D E * + +，則原\n運算式的二元表示樹（BinaryExpressionTree）為何？詳述其建構步驟。\n（10分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "5482bb08f1c2",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1407",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "計算機概論",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0116",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "請回答下列問題：\n如下列 Program-1 的 Python 程式，其功用為何？如果執行該程式，並輸\n入 24 與 18兩個整數，則輸出的結果為何？寫出其詳細步驟。（15 分）\n如下列 Program-2 的 Python 程式，將該程式中第 01 行~第05 行的自定\n義函數，使用遞迴（Recursion）函數寫出其程式碼。（10分）\n01 def x(a,b): 12 If(b>a): 01 def x(n):\n02 c=a%b 13 g=a 02 a=1\n03 while(c!=0): 14 a=b 03 foriin range(1,n+1):\n04 a=b 15 b=g 04 a=a*(i-1)+i\n05 b=c 16 05 return a\n06 c=a%b 17 p=a*b 06\n07 return b 18 q=x(a,b) 07 n=int(input())\n08 19 r=p//q 08 result=x(n)\n09 a=int(input()) 20 print(q,r) 09 print(result)\n10 b=int(input()) 21 10\n11 22 11\nProgram-1 Program-2",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "5482bb08f1c2",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1407",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "計算機概論",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0117",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "一每相阻抗為 21+j9 之平衡三角形連接之負載接到三相饋線的末端，\n如圖一所示。饋線阻抗為每相 0.1+j0.4 。此線路係由線對線電壓為\n190.53 V rms的三相電源供電，取 V 為參考，請決定負載端之電壓及\nan\n功率因數，以及三相饋線線路損失，若要改善負載之功率因數至 1.0，\n要並聯Y型容抗，其每相容抗值為多少？此時負載端之電壓提升到多少？\n三相饋線線路損失降至多少？（25 分）\n圖一",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "a6874e44a467",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1604",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電力系統",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0118",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "三匯流排電力系統單線圖如圖二所示，發電機在匯流排 1 及 2，匯流排 1\n電壓為 =1.0∠0°pu，匯流排 2 電壓調節在 =1.05pu，發電實功率為\n300MW，匯流排 3 負載為 400MW與 300Mvar，輸電線阻抗之標示係以\n\u0000\u0000 |\u0000\u0000|\n100MVA為基準。利用快速解偶法，求電力潮流解，執行二次疊代。以起\n始估計值為 =1.0∠0°pu 及 =0°、 =0° 開始。（25分）\n\u0000\u0000 \u0000\u0000 \u0000\u0000\n圖二",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "a6874e44a467",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1604",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電力系統",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0119",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "圖三所示為三相系統，起初沒有負載，發電機均運轉在額定電壓，且電動\n勢均同相位，發電機與變壓器的額定與它們的代表性百分電抗均標示於圖\n三，所有電阻均忽略。線路阻抗為 j200。三相平衡故障發生在輸電線的\n受電端。試決定短路電流（A）與短路容量 MVA。各項設備之阻抗標么需\n做轉換，以 100MVA基準做轉換。（25 分）\n圖三",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "a6874e44a467",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1604",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電力系統",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0120",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "一個獨立的三相電力系統，具有如圖四所示之負載頻率控制（load frequency\ncontrol, LFC）系統，其中當頻率每變化1%時，負載變化1.6%，即D=1.6，\n調速機速率調整率R=0.04pu，在公稱頻率（nominalfrequency）60Hz時，渦\n輪機之額定輸出為200MW。若負載突然增加50MW（∆P =0.25pu），求穩\nL\n態頻率偏移若干 Hz？穩態時渦輪機輸出多少 MW？解釋其為何沒有增加\n50 MW？（25 分）\n圖四",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "a6874e44a467",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1604",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電力系統",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0121",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "如圖一所示的二極體電路，電路中每個二極體的切入電壓（cut-involtage）\nV 皆為 0.7V。試求 I 、I 、I 、V 及 V 。（25分）\nγ D1 D2 D3 A B\n+14V\nD I\n1 D1\nR =5kΩ\n1\nD\n2\n+5V V\nA\nI\nD2 R =5kΩ\n2\nD\n3\nV\nB\nI\nD3\nR =5kΩ\n3\n−5V\n圖一",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "899b3659bc9f",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1606",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電子學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0122",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "如圖二所示的差動放大器電路，電晶體參數分別為 K =K =0.1mA/V2，\nn1 n2\nK =K =0.3mA/V2，λ =λ =0，λ =λ =0.02V-1，V =V =V =V =1V。\nn3 n4 1 2 3 4 TN1 TN2 TN3 TN4\n試求差模增益 A =v /v、共模增益 A =v /v 、及共模斥拒比（CMRR ）。\nd o2 d cm o2 cm dB\n（25分）\nV+=10V\nR R R\nI D D I I 1\nD1 D2 1\n16kΩ 16kΩ 30kΩ\nv v\no1 o2\nv M M v\n1 1 2 2\nI\nQ\nM M\n4 + 3\nv\nG_S4\nV−=−10V\n圖二",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "899b3659bc9f",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1606",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電子學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0123",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "如圖三所示的 A類源極隨耦器電路，電路中所有的電晶體參數皆相同，參\n數為 V = 0.5V，K =12mA/V2，λ=0。試求電路運作於線性區間之最大的\nTN n\n輸出電壓、最小的輸出電壓、及與它們（最大及最小的輸出電壓）相對應\n的輸入電壓值。（25分）\n+5V\nv M\nI 1\nR\n1kΩ\nv\no\nR\nL\n1kΩ\nM M\n3 2\n−5V\n圖三",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "899b3659bc9f",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1606",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電子學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0124",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "如圖四所示的空乏型負載 NMOS反相器，其中 V =3V，且電晶體參數為\nDD\n' 2， ， ， ， 。忽略\nk =100μA/V V =0.4V V = −0.8 V (W/L) =6 (W/L) =2\nn TND TNL D L\n本體效應（bodyeffect）。試求反相器的最大功率消耗、電晶體 M 及 M\nD L\n分別工作於過渡點（transitionpoint）時的輸入電壓 V 、輸出電壓V 、及\nIt Ot\n當輸入電壓 v =3V時的輸出電壓 v 。（25分）\nI o\nV\nDD\ni\nDL\n+\nM v\nL DSL\n−\nv\no\ni\nDD\n+\nv M v\nI + D DSD\nv −\nGSD\n−\n圖四",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "899b3659bc9f",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1606",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電子學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0125",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "請依節點電壓法（nodalanalysis）分析如下所示電路圖，試求：\nV =？（10分）\no\n3A電流源所提供/消耗之功率為何？（15分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "3e0246d5a355",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1605",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電路學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0126",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "如圖所示電路，在 t=0 秒之前開關閉合、且電路已到達穩態；在 t=0 秒\n時開關打開。試求：\n開關打開瞬間，i(t=0)=？（10分）\ni(t>0)之表示式為何？（15 分）\ni(t)",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "3e0246d5a355",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1605",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電路學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0127",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "如圖所示電路同時具有直流電源與交流電源，請依重疊定理（superposition\ntheorem），試求：\n基於 10 V直流電壓源，所產生v (t)之直流輸出響應為何？（5分）\no\n基於交流電壓/流源，所產生 v (t)之交流輸出響應為何？（20分）\no",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "3e0246d5a355",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1605",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電路學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0128",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "如圖所示為具有雙埠參數之連接電路，試求 V /V 為何？（25分）\n2 S\nVs",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "3e0246d5a355",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "309",
+          "s": "1605",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電路學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0129",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "假設用 2 的補數表示式（two'scomplementrepresentation），使用八個位元\n來表示整數。寫出所能表示的最大的二進位數字，以及其對應的十進位\n的數值。（10分）寫出所能表示的最小（可能為負數）的二進位數字，\n以及其對應的十進位的數值。（10 分）寫出等於十進位數字 0的二進位\n數字。（5 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "c08f5a521add",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "107",
+          "s": "1411",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "計算機概論",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0130",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "若使用兩種不同電位分別代表0 以及 1，在沒有雜訊的頻道傳送資料，\n傳送頻率為 2000 Hz，則最高的傳送速率（bit rate）為何？請說明計算\n過程，否則不予計分。（10分）\n若使用 4 種不同電位，在沒有雜訊的頻道傳送資料，傳送頻率為 2000\nHz，則最高的傳送速率為何？請說明計算過程，否則不予計分。（15 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "c08f5a521add",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "107",
+          "s": "1411",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "計算機概論",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0131",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "從資料結構的課程至少可以學習到陣列、堆疊、佇列、樹狀結構等，請分\n別舉例說明這些結構適用的場合。（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "c08f5a521add",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "107",
+          "s": "1411",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "計算機概論",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0132",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "請說明結構化程式（structuredprogramming）設計的意義，並任舉至少三\n種基本的控制程式流程結構的意義。另說明如果程式中不使用 go-to 敘述\n來控制程式的執行順序，是否無法達成某些功能？（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "c08f5a521add",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "107",
+          "s": "1411",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "計算機概論",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0133",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "一雙回路之三相輸電線，由 S 端送電至 R 端，單線圖如圖一(a)所示，每\n個導體直徑為 2 cm，若導體排列方式如圖一(b)所示，回路 2 的 S 端接地\n且 R端開路，回路 1 三相平衡電流有效值為 500A，忽略導線電阻。\n求回路 2的 R端 A相電壓有效值。（10分）\n若回路 2的 R端接地，試求回路 2 的 A相電流有效值。（10 分）\n60km A A\n1 2\n回路1 6m 6m\nS R\nB B\n回路2 1 2\n6m 6m\n8m\n圖一(a) C C\n1 2\n20m\n圖一(b)",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "9bf895872e7c",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "107",
+          "s": "1602",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電力系統",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0134",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "一電力系統單線圖如圖二所示：\n試以變壓器容量及線路電壓為基準，繪出標么等效電路。（10分）\n試以 Gauss法求出經 2 次疊代後的 V 實際值（V）。（10分）\n2\nE1\n10MVA\n13.8△-138YkV\nXl=0.1\n|V1|=138kV V2\nZL= j476 Ω\nP2=8MW\nQ2=6MVAR\n圖二",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "9bf895872e7c",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "107",
+          "s": "1602",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電力系統",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0135",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "某三相 60 Hz電力系統，以線路側 100 MVA、115 kV爲基值計算系統元\n件各相序阻抗標么值如圖三(a)單線圖所示。若忽略故障前之電流，並假設\n發電機電動勢爲1.00pu。\n試繪出正序、負序、零序電路圖。（6分）\n若匯流排 A 相發生阻抗接地故障，如圖三(b)所示，試求短路電流 I 實\nf\n際值（A）。（7分）\n若匯流排 BC 相發生短路故障，如圖三(c)所示，試求短路電流 I 實際\nf\n值（A）。（7分）\nA B C A B C\nY Δ-Y\nI If\nf\nZf=j0.1\nX1=X2=10% X1=X2=X0=5%\nX0=3%\n圖三(a) 圖三(b) 圖三(c)",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "9bf895872e7c",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "107",
+          "s": "1602",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電力系統",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0136",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "一個電力系統具三匯流排，如圖四所示。在基值容量爲 1000MVA時，各\n機組/負載的參數如下表所示：\n機組/負載 發電量/用電量 頻率特性\n機組 1 400 MW 速率調整率 R =6%\n1\n機組 2 600 MW 速率調整率 R =4%\n2\n負載 1 300 MW 頻率增加1%，負載增加 1.5%\n負載 2 300 MW 頻率增加1%，負載增加 1.2%\n負載 3 400 MW 頻率增加1%，負載增加 0.8%\n所有機組並聯運轉在標稱頻率 60 Hz，若負載 3 突然增加 100 MW，且兩\n部機組均有能力進行調整，試求：\n系統穩態工作頻率。（8 分）\nP 新的傳送功率。（6分）\n13\nP 新的傳送功率。（6分）\n23\n機組1 機組2\n負載1 負載2\nP P\n13 23\n負載3\n圖四",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "9bf895872e7c",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "107",
+          "s": "1602",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電力系統",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0137",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "試繪接線圖，並說明工作原理：\n試繪零相比流器（ZCT）之接線圖，並說明其工作原理。（10分）\n試繪接地比壓器（GPT）之接線圖，並說明其工作原理。（10分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "9bf895872e7c",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "107",
+          "s": "1602",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電力系統",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "五",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0138",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "給定一個IEEE754單精確度浮點數b b b …b b …b 為一個32位元表\n31 30 29 23 22 0\n示，其中 S = b 表示符號位元（sign bit），E = b b …b 表示偏移指數\n31 30 29 23\n（biased exponent），F=b …b 表示尾數（或稱小數部分，mantissa）。\n22 0\n給予 2 個 IEEE754 單精確度浮點數表示的數值如下：\nA=0100 0010 1101 1110 0000 0000 0000 0000\nB=0100 0010 0100 0100 0000 0000 0000 0000\n請將 A兩個數值轉換成 2進制數值。（7 分）\n請將 B兩個數值轉換成 2進制數值。（7 分）\n請計算 A-B 並以 2 進制數值表示。（6分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "0eb3e4d056bc",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "107",
+          "s": "1312",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "計算機概論",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0139",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "對於 IPv4 位址，假設一個子網路的位址區段定義為 140.113.235.0/25，則：\n其子網路遮罩為何？請解釋。（10分）\n請列出這個子網路的 IP位址範圍。（10分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "0eb3e4d056bc",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "107",
+          "s": "1312",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "計算機概論",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0140",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "下圖為一個尺寸（即節點數）為 7 的二元搜尋樹（binary search tree）。\n依序插入 16、10、21 三個值，使得每次插入結果仍為二元搜尋樹，並\n保持原來在二元搜尋樹裡的數值位置不變。請畫出三次插入結果，尺寸\n分別為 8、9、10的二元搜尋樹。（15分）\n請將原來的二元搜尋樹（下圖）改變成為另外三個不同結構但包含一樣\n的數值之二元搜尋樹，且這三個二元搜尋樹的高度分別為2、3、4。（15分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "0eb3e4d056bc",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "107",
+          "s": "1312",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "計算機概論",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0141",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "假設甲和乙兩人要以「非對稱性加密法」（或稱公開金鑰密碼系統）互相\n傳送\"加密\"文件。\n請問收到密文的一方，可否確認送件者是誰？為什麼？（5分）\n若是改用「對稱性加密法」互相傳送\"加密\"文件，請問收到密文的一方，\n可否確認送件者是誰？為什麼？（5 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "0eb3e4d056bc",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "107",
+          "s": "1312",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "計算機概論",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0142",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "下列為一個 C++程式，請問：\n其目的為何？（6 分）\n詳述執行流程。（7分）\n寫出程式的輸出。（7分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "0eb3e4d056bc",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "107",
+          "s": "1312",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "計算機概論",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "五",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0143",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "一部三相、Y 連接、440 V、60 Hz 之感應電動機連接至一個三相平衡電\n源，已知該感應電動機的線電流大小為 40A。當一個連接之理想電容器\n組與該感應電動機並聯連接後，三相電源之總線電流大小降低為34.1A，\n三相電源之總功率因數則升高至0.9 落後（lagging）。試求：感應電動機\n的輸入實功率與輸入虛功率、理想電容器組之每相電容值與每相電流值、\n合併感應馬達與理想電容器組之連接每相等效阻抗值。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "a57bed4ccf69",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "107",
+          "s": "1502",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電力系統",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0144",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "一部三相、Y連接、額定2GVA、24kV、60Hz、同步電抗 1.0標么之大\n型同步發電機，經輸電線傳送 1 GVA、功率因數 0.85 落後的功率到一個\n電壓大小為 23 kV的無限匯流排（infinite bus）。假設忽略輸電線的阻抗\n及該同步發電機的電樞電阻，並以該同步發電機之端電壓相角為 0做參\n考。當同時調整該同步發電機之場電流（fieldcurrent）下降 20%且調整其\n蒸氣渦輪機輸入機械功率後，致使該發電機之輸出虛功為零。試求：該調\n整工作的前、後，同步發電機的內電勢電壓大小（kV）、功率角（power\nangle）以及傳送至無限匯流排的實功（MW）。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "a57bed4ccf69",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "107",
+          "s": "1502",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電力系統",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0145",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "三部三相、60 Hz 的同步馬達分別具有 0.5 標么、0.25 標么、0.15 標么的\n次暫態電抗（以2MVA、440V為基準值），同時並聯至電力系統的匯流\n排 A，該匯流排 A 再經由三條具有相同 0.05 電抗的輸電線連接至該電\n力系統的匯流排B，匯流排 B所具有的短路容量為三相、20MVA（以三\n相、440 V為標稱值）。若匯流排 A故障前的電壓為 430 V，忽略兩部馬\n達故障前的負載電流，試求匯流排 A 發生三相短路故障的初始對稱均方\n根值電流（initialsymmetrical rms current）的標么值與實際值。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "a57bed4ccf69",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "107",
+          "s": "1502",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電力系統",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-0f640084-0146",
+      "exam_id": "disabled-0f640084",
+      "question_type": "essay",
+      "question": "兩部三相、60 Hz的蒸氣渦輪機-同步發電機組 A、B，其額定功率與速度\n調整率（speedregulation）分別為（以個別機組之額定為基準值）：300MW\n與 5%（機組 A）、250MW與 7%（機組 B），兩部機組同時連接至60Hz\n的電力系統。當系統頻率突然由60Hz上升至60.15Hz時，試分別求出這\n兩部蒸氣渦輪機組 A、B之輸出功率變化值（MW）。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:03+00:00",
+        "source_pdf_sha1": "a57bed4ccf69",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "107",
+          "s": "1502",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "電力系統",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    }
+  ]
+}

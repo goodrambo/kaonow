@@ -1,0 +1,29 @@
+{
+  "slug": "islands-f29af906",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:33:58+00:00",
+  "paper_count": 2,
+  "paper_with_questions": 2,
+  "question_count": 8,
+  "type_counts": {
+    "essay": 8
+  },
+  "issues": [
+    {
+      "year": "114",
+      "subject": "土地利用概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "民法物權編概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    }
+  ]
+}

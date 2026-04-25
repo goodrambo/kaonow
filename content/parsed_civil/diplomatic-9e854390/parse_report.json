@@ -1,0 +1,22 @@
+{
+  "slug": "diplomatic-9e854390",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:22:32+00:00",
+  "paper_count": 21,
+  "paper_with_questions": 20,
+  "question_count": 600,
+  "type_counts": {
+    "essay": 34,
+    "single_choice": 566
+  },
+  "issues": [
+    {
+      "year": "114",
+      "subject": "國文(作文與測驗)",
+      "status": "parse_q_failed",
+      "format": "mixed",
+      "raw_q": 0,
+      "answers": null
+    }
+  ]
+}

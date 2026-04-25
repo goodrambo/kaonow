@@ -1,0 +1,86 @@
+{
+  "slug": "aboriginal-f0899a01",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:37:35+00:00",
+  "paper_count": 23,
+  "paper_with_questions": 22,
+  "question_count": 648,
+  "type_counts": {
+    "essay": 38,
+    "single_choice": 610
+  },
+  "issues": [
+    {
+      "year": "114",
+      "subject": "基礎能力測驗(作文、英文及中華民國憲法)",
+      "status": "parse_q_failed",
+      "format": "mixed",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "114",
+      "subject": "法院組織法",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "113",
+      "subject": "法院組織法",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "刑事訴訟法概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "法院組織法",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "刑事訴訟法概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "法院組織法",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "刑事訴訟法概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "法院組織法",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    }
+  ]
+}

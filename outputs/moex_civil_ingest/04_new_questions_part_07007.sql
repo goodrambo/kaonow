@@ -1,0 +1,40 @@
+-- W1.6 questions batch 7007/9310 (10)
+
+INSERT INTO public.questions (id, exam_id, paper_id, subject_id, chapter_id, question_type, question_text, options, correct_answer, correct_answer_json, auto_gradable, source, is_active, version, source_meta, explanation)
+VALUES
+  ('locality-b0f95c3f-moex-00063', 'locality-b0f95c3f', 'locality-b0f95c3f-moex-111-7e79a2d7', 'sub-locality-b0f95c3f-08', NULL, 'essay', '如下圖所示之滑車，若 R＝50cm，r＝40cm，現施力 F＝200N，試
+求可吊起重物之重量 W。（10分）
+如下圖所示之滑輪組中，若重物之重量為 200 N，試問需多少作用
+力才能吊起重物。（10分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:34:29+00:00", "source_pdf_sha1": "900d7a565ab2", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111190", "c": "445", "s": "2310", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "機械原理概要", "year": "111", "exam_name": "111年特種考試地方政府公務人員考試", "original_question_number": "五", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "機械工程"}'::jsonb, NULL),
+  ('locality-b0f95c3f-moex-00064', 'locality-b0f95c3f', 'locality-b0f95c3f-moex-111-4995b7fd', 'sub-locality-b0f95c3f-06', NULL, 'essay', '對於擠壓鑄造（squeezecasting process）：
+試繪圖且說明其製程。（10分）
+試說明其優點。（10分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:34:29+00:00", "source_pdf_sha1": "c6e5964fb761", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111190", "c": "445", "s": "2302", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "機械製造學概要", "year": "111", "exam_name": "111年特種考試地方政府公務人員考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "機械工程"}'::jsonb, NULL),
+  ('locality-b0f95c3f-moex-00065', 'locality-b0f95c3f', 'locality-b0f95c3f-moex-111-4995b7fd', 'sub-locality-b0f95c3f-06', NULL, 'essay', '對於使用一般的麻花鑽頭（twistdrill）進行鑽孔的情況，試說明：
+切屑的形狀為螺旋狀之原因。（5 分）
+螺旋角對切削扭矩和切刃壽命的影響。（15分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:34:29+00:00", "source_pdf_sha1": "c6e5964fb761", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111190", "c": "445", "s": "2302", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "機械製造學概要", "year": "111", "exam_name": "111年特種考試地方政府公務人員考試", "original_question_number": "二", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "機械工程"}'::jsonb, NULL),
+  ('locality-b0f95c3f-moex-00066', 'locality-b0f95c3f', 'locality-b0f95c3f-moex-111-4995b7fd', 'sub-locality-b0f95c3f-06', NULL, 'essay', '對於圓桿或線材的抽拉製程（drawing process）：
+試繪製典型的圓桿或線材的抽拉模具圖且標示各部位的名稱，並且說
+明軸承面的功用。（10分）
+說明抽拉模具材料及其耐磨耗性的改善方法。（10 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:34:29+00:00", "source_pdf_sha1": "c6e5964fb761", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111190", "c": "445", "s": "2302", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "機械製造學概要", "year": "111", "exam_name": "111年特種考試地方政府公務人員考試", "original_question_number": "三", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "機械工程"}'::jsonb, NULL),
+  ('locality-b0f95c3f-moex-00067', 'locality-b0f95c3f', 'locality-b0f95c3f-moex-111-4995b7fd', 'sub-locality-b0f95c3f-06', NULL, 'essay', '試分別說明對接電阻焊接（upset resistance welding）和閃光電阻焊接
+（flash resistancewelding）之操作程序。（20分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:34:29+00:00", "source_pdf_sha1": "c6e5964fb761", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111190", "c": "445", "s": "2302", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "機械製造學概要", "year": "111", "exam_name": "111年特種考試地方政府公務人員考試", "original_question_number": "四", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "機械工程"}'::jsonb, NULL),
+  ('locality-b0f95c3f-moex-00068', 'locality-b0f95c3f', 'locality-b0f95c3f-moex-111-4995b7fd', 'sub-locality-b0f95c3f-06', NULL, 'essay', '對於金屬的防鏽蝕處理法（anti-corrosion treatment），試繪圖且說明：
+陽極防蝕（anodiccorrosion protection）之原理和缺點。（10 分）
+陰極防蝕（cathodiccorrosion protection）之原理。（10 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:34:29+00:00", "source_pdf_sha1": "c6e5964fb761", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111190", "c": "445", "s": "2302", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "機械製造學概要", "year": "111", "exam_name": "111年特種考試地方政府公務人員考試", "original_question_number": "五", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "機械工程"}'::jsonb, NULL),
+  ('locality-b0f95c3f-moex-00069', 'locality-b0f95c3f', 'locality-b0f95c3f-moex-111-a8bf1277', 'sub-locality-b0f95c3f-07', NULL, 'essay', '降伏強度為 160MPa的金屬材料受到以下應力狀態，試分別以最大剪應
+力及畸變能理論計算其安全係數；請詳列計算過程，並說明何理論較為
+保守。應力狀態： 。（25 分）
+ = 100MPa, = 20MPa, = 30MPa', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:34:29+00:00", "source_pdf_sha1": "8b672dfc60ed", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111190", "c": "445", "s": "2306", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "機械設計概要", "year": "111", "exam_name": "111年特種考試地方政府公務人員考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "機械工程"}'::jsonb, NULL),
+  ('locality-b0f95c3f-moex-00070', 'locality-b0f95c3f', 'locality-b0f95c3f-moex-111-a8bf1277', 'sub-locality-b0f95c3f-07', NULL, 'essay', '若一滾珠軸承在30kN的徑向負載下額定壽命為一千萬轉，可靠度90%；
+若需在一 40 kN 的徑向負載下以 30 rpm 使用且有 95%可靠度，請問在
+此條件下軸承預計可使用多少小時？此類滾珠軸承之 Weibull 參數為：
+。（25分）
+ = 0.02,( −) = 4.439, = 1.483', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:34:29+00:00", "source_pdf_sha1": "8b672dfc60ed", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111190", "c": "445", "s": "2306", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "機械設計概要", "year": "111", "exam_name": "111年特種考試地方政府公務人員考試", "original_question_number": "二", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "機械工程"}'::jsonb, NULL),
+  ('locality-b0f95c3f-moex-00071', 'locality-b0f95c3f', 'locality-b0f95c3f-moex-111-a8bf1277', 'sub-locality-b0f95c3f-07', NULL, 'essay', '請說明設計千斤頂若以一螺桿為主要受力元件時，所需之設計與力學考量。
+（25 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:34:29+00:00", "source_pdf_sha1": "8b672dfc60ed", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111190", "c": "445", "s": "2306", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "機械設計概要", "year": "111", "exam_name": "111年特種考試地方政府公務人員考試", "original_question_number": "三", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "機械工程"}'::jsonb, NULL),
+  ('locality-b0f95c3f-moex-00072', 'locality-b0f95c3f', 'locality-b0f95c3f-moex-111-a8bf1277', 'sub-locality-b0f95c3f-07', NULL, 'essay', '一鋼質桿件承受往復負載，最大之拉伸應力 400 MPa，最大壓應力
+140MPa。此鋼材的拉伸強度為 550MPa，降伏強度為 460MPa，已修
+正之疲勞極限為 275MPa，1000 轉時的疲勞強度因子為 0.9。試分別計
+算此桿件靜態及變動負載下的安全係數及壽命，需明確說明所使用之
+破壞理論。（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:34:29+00:00", "source_pdf_sha1": "8b672dfc60ed", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111190", "c": "445", "s": "2306", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "機械設計概要", "year": "111", "exam_name": "111年特種考試地方政府公務人員考試", "original_question_number": "四", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "機械工程"}'::jsonb, NULL)
+ON CONFLICT (id) DO NOTHING;

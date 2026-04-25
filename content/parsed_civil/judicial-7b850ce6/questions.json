@@ -1,0 +1,2826 @@
+{
+  "slug": "judicial-7b850ce6",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:26:55+00:00",
+  "paper_count": 7,
+  "paper_with_questions": 7,
+  "question_count": 76,
+  "type_counts": {
+    "essay": 16,
+    "single_choice": 60
+  },
+  "papers": [
+    {
+      "year": "114",
+      "exam_code": "114120",
+      "c": "410",
+      "s": "0511",
+      "q": "1",
+      "subject": "刑事訴訟法",
+      "exam_name": "114年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "7a687f4213df",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 3,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 3,
+      "skipped_count": 0
+    },
+    {
+      "year": "113",
+      "exam_code": "113120",
+      "c": "115",
+      "s": "0510",
+      "q": "1",
+      "subject": "刑事訴訟法",
+      "exam_name": "113年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "2aebff7e989b",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 3,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 3,
+      "skipped_count": 0
+    },
+    {
+      "year": "112",
+      "exam_code": "112130",
+      "c": "409",
+      "s": "0513",
+      "q": "1",
+      "subject": "刑事訴訟法",
+      "exam_name": "112年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "fa2f5754edaa",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 2,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 2,
+      "skipped_count": 0
+    },
+    {
+      "year": "111",
+      "exam_code": "111130",
+      "c": "114",
+      "s": "0512",
+      "q": "1",
+      "subject": "刑事訴訟法",
+      "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "4396c4e8214c",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "111",
+      "exam_code": "111130",
+      "c": "114",
+      "s": "0102",
+      "q": "1",
+      "subject": "國文(作文、公文與測驗)",
+      "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "6d205a249f8d",
+      "a_pdf_sha1": "40189eca7d37",
+      "format_detected": "pure_mc",
+      "raw_question_count": 10,
+      "answer_qnums_extracted": 10,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 10,
+      "skipped_count": 0
+    },
+    {
+      "year": "111",
+      "exam_code": "111130",
+      "c": "114",
+      "s": "0315",
+      "q": "1",
+      "subject": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+      "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "7e65358788c6",
+      "a_pdf_sha1": "8d25a23b5974",
+      "format_detected": "pure_mc",
+      "raw_question_count": 50,
+      "answer_qnums_extracted": 50,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 50,
+      "skipped_count": 0
+    },
+    {
+      "year": "110",
+      "exam_code": "110130",
+      "c": "107",
+      "s": "0513",
+      "q": "1",
+      "subject": "刑事訴訟法",
+      "exam_name": "110年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格者取得法官遴選資格考...",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "ef4f5a630dd8",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    }
+  ],
+  "questions": [
+    {
+      "id": "judicial-7b850ce6-0001",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "essay",
+      "question": "甲於網路上刊登詐騙廣告，致乙、丙二人受害，損失共計新臺幣 15 萬\n元，經地方法院以詐欺罪判處有期徒刑二月。如檢察官僅以量刑過輕為\n由提起上訴，惟於二審審理中，另提出尚有丁因本件犯行受害損失新臺\n幣 3 萬元事實之移送併辦意旨書，試問：第二審法院對於檢察官請求應\n如何處理？（35分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:54+00:00",
+        "source_pdf_sha1": "7a687f4213df",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114120",
+          "c": "410",
+          "s": "0511",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "刑事訴訟法",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0002",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "essay",
+      "question": "甲為律師，受詐騙集團首腦乙委任為其成員丙、丁辯護，並受乙諮詢詐\n欺罪相關事宜，其後因受乙唆使將偵查中不公開事項轉告於乙，涉犯刑\n法第 132 條洩漏國防以外秘密罪，如檢察官聲請搜索甲之律師事務所，\n可否扣押甲製作有關甲、乙交談之文件資料？（35 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:54+00:00",
+        "source_pdf_sha1": "7a687f4213df",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114120",
+          "c": "410",
+          "s": "0511",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "刑事訴訟法",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0003",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "essay",
+      "question": "甲犯傷害罪，經一審法院判處有期徒刑一年，甲不服原判決提起上訴，\n惟經第二審法院駁回上訴。如甲認原審事實認定錯誤而提起再審救濟，\n原參與二審判決之法官乙，得否於再審程序再次參與審判？（30分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:54+00:00",
+        "source_pdf_sha1": "7a687f4213df",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114120",
+          "c": "410",
+          "s": "0511",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "刑事訴訟法",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0004",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "essay",
+      "question": "審判中，檢察官提出被告甲在警詢時的自白筆錄及錄音檔案作為證據之\n一。在調查證據時，甲爭執筆錄的內容與當日自己的陳述有出入，法官\n當庭播放警詢時的錄音檔案，不料發現其品質極差，完全無法分辨是否\n為甲的聲音或是其內容為何。試問自白筆錄有無證據能力？請詳述理由\n說明。（35 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:54+00:00",
+        "source_pdf_sha1": "2aebff7e989b",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113120",
+          "c": "115",
+          "s": "0510",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "刑事訴訟法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0005",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "essay",
+      "question": "檢察官在偵查結束後，就涉犯殺人未遂罪的嫌疑人甲提起公訴。在審判\n中，甲未選任律師為自己辯護，法院也沒有為其指定辯護人。法院審判\n後，認檢察官所提出的證據未能證明甲犯罪，諭知無罪判決。檢察官不\n服，提起上訴，主張之一是法院未為甲指定辯護人，訴訟程序違法。試\n問檢察官的主張是否有理由？請附理由詳細說明。（35分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:54+00:00",
+        "source_pdf_sha1": "2aebff7e989b",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113120",
+          "c": "115",
+          "s": "0510",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "刑事訴訟法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0006",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "essay",
+      "question": "警察甲在巡邏時，發現棄置在路邊的機車為先前被害人報案失竊之物，\n於是陳報檢察官。檢察官命甲予以扣押。在審判中，檢察官提出該贓車\n作為證據，證明被告乙的犯罪事實。試問檢察官命警察扣押的機車有無\n證據能力？（30分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:54+00:00",
+        "source_pdf_sha1": "2aebff7e989b",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113120",
+          "c": "115",
+          "s": "0510",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "刑事訴訟法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0007",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "essay",
+      "question": "甲因詐欺案件經法院發布通緝，經司法警察乙逮捕而附帶搜索甲之身體，扣\n得毒品一小包，乙經查詢得知甲有施用毒品前科，於甲拒絕自行解尿之際，\n乙乃將甲帶往醫院委請醫師對甲強制導尿而採取之，並將尿液送請鑑定，得\n有尿液呈毒品陽性反應之鑑定報告一份。試問：（每小題25分，共50分）\n甲經警逮捕而接受調查時，甲選任律師 A為辯護人，A對司法警察之\n詢問甲及命甲自行解尿，不斷異議，司法警察乙乃禁止 A在場。甲及\nA對司法警察乙之禁止處分，得如何救濟之？\n檢察官依據甲之尿液及鑑定報告而起訴甲犯有施用毒品罪嫌，依目前\n最高法院判決的見解，法院應如何判決？",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:54+00:00",
+        "source_pdf_sha1": "fa2f5754edaa",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112130",
+          "c": "409",
+          "s": "0513",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "刑事訴訟法",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0008",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "essay",
+      "question": "甲告乙犯傷害罪嫌，經檢察官 A偵查終結，處分不起訴，甲不服而聲請\n再議，亦遭高等檢察署檢察長以再議無理由而駁回之。甲再委任律師向\n該管法院聲請准許提起自訴，經法院 B、C、D法官組成合議庭，裁定准\n許甲提起自訴。甲乃委任律師自訴乙犯傷害罪嫌，經地方法院判決乙傷\n害罪刑，乙明示僅以第一審判決未為緩刑之宣告為由，向高等法院提起\n上訴。試問：\n如檢察官A轉任為法官，A法官、B法官可否參與乙傷害案件之審判？\n（20 分）\n高等法院對乙之上訴，其審判範圍為何？如乙傷害案件經判決罪刑確\n定，乙擬聲請再審，應向何法院聲請再審？B 法官可否參與乙聲請再\n審案件之審判？（30分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:54+00:00",
+        "source_pdf_sha1": "fa2f5754edaa",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112130",
+          "c": "409",
+          "s": "0513",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "刑事訴訟法",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0009",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "essay",
+      "question": "甲於桃園市持有一級毒品，於桃園市交付給乙。乙後於新北市將毒品售\n與不知名之第三人。乙遭警察官員查獲後，循線發現乙的毒品來自於甲。\n偵查終結後，新北地檢署的檢察官起訴了乙販賣毒品案件，並以相牽連\n管轄為由，起訴了甲的轉讓毒品案件。試問，新北地方法院得否就甲及\n乙的案件為實體審判？請附詳細理由說明。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:54+00:00",
+        "source_pdf_sha1": "4396c4e8214c",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0512",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "刑事訴訟法",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0010",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "essay",
+      "question": "於偵查中，檢察官認嫌疑人甲有逃亡之虞，報請地檢署檢察長核發通緝\n書獲准。於通緝期間，警察官員於路上發現甲，予以逮捕，並在上衣口\n袋中發現海洛英一包。請問，在甲的持有毒品案件中，於甲身上發現的\n毒品有無證據能力？法院應如何決定？請附詳細理由說明。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:54+00:00",
+        "source_pdf_sha1": "4396c4e8214c",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0512",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "刑事訴訟法",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0011",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "essay",
+      "question": "檢察官訊問證人甲時，未告知其若恐因陳述致自己受刑事追訴或處罰，\n得拒絕證言。甲在訊問後，做成不利於己的陳述。檢察官偵查後，另外\n起訴了甲，並於甲的案件審判中，提出甲以證人身分接受訊問的陳述為\n證據，以證明甲的犯罪事實。請問，法院得否以甲的該陳述作為證據，\n認定犯罪事實？請附詳細理由說明。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:54+00:00",
+        "source_pdf_sha1": "4396c4e8214c",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0512",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "刑事訴訟法",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0012",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "essay",
+      "question": "甲犯竊盜罪，擔心東窗事發，於是央求乙代其受過。乙一口答應，前往\n警察局，佯稱該起竊案是自己犯下。檢察官未察，偵查後，向法院提起\n公訴。審判中，法院發現真正的行為人是甲，不是乙。請問法院對於甲、\n乙分別應如何處理？請附詳細理由說明。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:54+00:00",
+        "source_pdf_sha1": "4396c4e8214c",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0512",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "刑事訴訟法",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0013",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "黃先生回到母校，看見校長室牆上掛滿匾額，下列那一個題辭不適合出現？",
+      "options": [
+        "時雨春風",
+        "澤被三臺",
+        "絃歌盈耳",
+        "功著杏林"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:54+00:00",
+        "source_pdf_sha1": "6d205a249f8d",
+        "answer_pdf_sha1": "40189eca7d37",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0102",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "國文(作文、公文與測驗)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0014",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "「愛，是人類生命存在的心靈經驗之一，只有真切地面對自己以及所愛之人內在活生 生的心靈，才能照見彼此不能相愛的障礙而加以克服。然而，他們卻遺忘了自己的 存在，只是不斷地追逐著各種外在的知識，以為這樣就能幸福快樂。」 下列敘述何者最貼近本文的旨趣？",
+      "options": [
+        "知識的追逐讓人們忘了如何相愛",
+        "體認自身之存在為追逐知識之本",
+        "人經常忘記照見自己而產生了相愛的障礙",
+        "相愛的根本在於面對彼此的內心而非知識"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:54+00:00",
+        "source_pdf_sha1": "6d205a249f8d",
+        "answer_pdf_sha1": "40189eca7d37",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0102",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "國文(作文、公文與測驗)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0015",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "「美是一種生命整體存在感的湧現。當此際必然是物我兩忘，情景交融，渾成一片， 而容不下絲毫的分辨與思維。當天邊飛過一抹彩霞，你只合目瞪口呆；連一句『好 美啊』的呢喃，都已是心靈對此境的意識與抽離，也早已構成對美的留戀與破壞。」 根據上文，最符合美的感受是：",
+      "options": [
+        "盡在不言中",
+        "物我保持距離",
+        "感官與意識的交融",
+        "生命主體的思維湧現"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:54+00:00",
+        "source_pdf_sha1": "6d205a249f8d",
+        "answer_pdf_sha1": "40189eca7d37",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0102",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "國文(作文、公文與測驗)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0016",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "「大多數的商業圖表都是披薩，餡料不多以免消化不良，它能在短時間內提供資訊， 用不著太多文字說明。客戶資料蒐集差不多了，就畫個條狀圖。計畫又訂出新的期 限，就畫個時程圖。但有些會議需要很多說明，例如剛併購一家公司，要向高層主 管解說營運策略如何調整，這時，披薩無法滿足胃口，要端出全套酒席，展示精細 的圖表。這種圖表能醞釀創意，引發大家交換意見，進而解決問題。」 下列敘述，最符合上文觀點的是：",
+      "options": [
+        "披薩式圖表適用於基層會議，酒席式圖表適用於主管會議",
+        "披薩式圖表適用於宣達要點，酒席式圖表適用於探討細節",
+        "披薩式與酒席式圖表雖然各有功能，但皆應儘量少用文字",
+        "披薩式與酒席式圖表雖然繁簡不一，但皆為引發充分討論"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:54+00:00",
+        "source_pdf_sha1": "6d205a249f8d",
+        "answer_pdf_sha1": "40189eca7d37",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0102",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "國文(作文、公文與測驗)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0017",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "「有一座龐大的旅館，設備陳舊，管理鬆懈，營業額一落千丈。旅館的所有人聘請一 位專家來從事革新和整頓。三個月後，專家對旅館的現況有了透徹的了解，提出一 份詳細的計畫，主張把房子拆掉重新建造大樓，現有工作人員一律遣散，重新招考 訓練。旅館所有人無法接受這樣的計畫，聘請另一位專家來擔任經理。這位專家在 視察旅館的業務之後，下令換裝所有房間的自來水龍頭。新的龍頭，式樣美觀，操 作方便，絕不漏水，旅客在半夜再也聽不到滴漏之聲，可以安享一夜好睡了。就這 樣，新任經理從小處著手，積小為大，終於使旅館的作風煥然一新。旅客們發現， 這家旅館的房子雖然陳舊，但是堅固；式樣雖然古老，但是引人。於是近者悅，遠 者來。」 根據上文，旅館終能近悅遠來，其主要關鍵在於管理者：",
+      "options": [
+        "不愛虛名，惟儉是尚",
+        "前事不忘，後事之師",
+        "圖難於其易，為大於其細",
+        "毀譽無動於衷，榮辱在所不計"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:54+00:00",
+        "source_pdf_sha1": "6d205a249f8d",
+        "answer_pdf_sha1": "40189eca7d37",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0102",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "國文(作文、公文與測驗)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0018",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "「有些公司誤以為科技能取代人力經驗所累積的技能與判斷力。資深的航太工程師 因公司進行人事精簡，在勸退聲中離開崗位。但公司為了延續重要工作，又得重新 僱用這些離職的工程師。有些看似『可有可無』的中階主管去職後，公司才了解到 他們所經手的是關鍵性工作的相關知識，公司所損失的絕非那幾個正式職稱而已。」 下列選項，最符合上文旨意的是：",
+      "options": [
+        "科技能創造知識價值卻無法取代勞力工作",
+        "公司核心知識不宜因人事更迭而中斷傳承",
+        "精簡人事成本必造成公司動盪缺乏向心力",
+        "公司的人事規劃不可忽略中階主管的重要"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:54+00:00",
+        "source_pdf_sha1": "6d205a249f8d",
+        "answer_pdf_sha1": "40189eca7d37",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0102",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "國文(作文、公文與測驗)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0019",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "「杜克大學的麥克•沙舍夫斯基是非常成功的大學籃球隊教練，他對這種評論曾有明 智的評語。有位廣播節目評論員批評他在某場比賽的戰術指導，《華爾街日報》的記 者問他對此有何反應，他回答：『大家都可以發表意見，但不是每個人都具備形成有 價值意見所須掌握的資訊。我寧可聽我信任的人的意見，不聽脫口秀節目或報導。』」 上文中的「這種評論」是指：",
+      "options": [
+        "缺乏專業的評論",
+        "球壇權威的評論",
+        "報紙刊載的評論",
+        "吝於讚美的評論"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:54+00:00",
+        "source_pdf_sha1": "6d205a249f8d",
+        "answer_pdf_sha1": "40189eca7d37",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0102",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "國文(作文、公文與測驗)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0020",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "「很久以前，人類都還光著腳走路。一位國王到某個偏遠的鄉間旅遊，由於路面崎嶇 不平，有很多碎石頭，刺得他的腳板又痛又麻。回到王宮後，他下令要將國內所有 道路都鋪上一層牛皮。這樣做，不只是為自己，還可造福他的人民，讓大家走路時 不再受刺痛之苦。但即使殺光國內所有的牛，也湊不到足夠的皮革，而所花費的金 錢、動用的人力，更不知有多少。這個辦法很愚蠢而且根本做不到，但因為是國王 的命令，大家也只能搖頭嘆息。一位聰明的僕人大膽向國王提出建言：『國王啊！為 什麼您要勞師動眾，犧牲那麼多頭牛，花費那麼多金錢呢？您何不只用兩小片牛皮 包住您的腳呢？』國王聽了很驚訝，當下領悟，於是立刻收回成命，改採這個建議。 據說，這就是『皮鞋』的由來。」 上文故事寓意，與下列何者最為相近？",
+      "options": [
+        "這個世界只有想不到的，沒有做不到的",
+        "想改變世界，很難；要改變自己，則較為容易",
+        "得到一件東西需要智慧，放棄一樣東西則需要勇氣",
+        "當命運交給你一顆酸檸檬，你要想辦法把它做成一杯可口的檸檬汁"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:54+00:00",
+        "source_pdf_sha1": "6d205a249f8d",
+        "answer_pdf_sha1": "40189eca7d37",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0102",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "國文(作文、公文與測驗)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0021",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "「我在臺灣各地賞鳥的旅行見聞中發現，除了年輕學生外，大部分的賞鳥人口係生活 於都市中年以上的男女，他們多半已有家庭，趁休閒假日到野外旅行賞鳥。他們並 不完全是美國鳥類學家法蘭克•查普曼所形容的：『每一個人的心中，都隱藏著一隻 嚮往自由的鳥。』也不一定是如鳥類學者形容的，受到『火種』（啟發之意）的引燃。 他們更不具有中國固有傳統，老莊哲學裡天人合一的信念，強調自然與人是一體的。 他們也沒有明顯、強烈的『環境意識』烙印在心上。他們會感受到生態環境遭到污 染、破壞，來自於經由賞鳥，發現鳥被捕殺，數量銳減與棲息環境縮小等因素，漸 漸地也關心起自己周遭的領域。時日一久，他們的關心層面又擴大，不再止於看得 見的鳥，正如別人接觸到其他的公害問題，已擴大憂疑到未來長遠的環境危機。」 根據上文，下列有關「臺灣都市中年以上男女」的敘述，何者正確？",
+      "options": [
+        "從事賞鳥活動，是渴望得到心靈上的自由",
+        "從事賞鳥活動，是為了保護瀕臨絕種的鳥類",
+        "憂慮未來的環境危機，是出於本身具備的環境意識",
+        "關心生態環境污染，是因感受到週遭領域逐漸破壞"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:54+00:00",
+        "source_pdf_sha1": "6d205a249f8d",
+        "answer_pdf_sha1": "40189eca7d37",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0102",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "國文(作文、公文與測驗)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0022",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "承上題，下列選項最符合旨意的是：",
+      "options": [
+        "透過自然休閒旅遊，可以拓展生態環境保育觀念",
+        "推廣天人合一的信念，可強化生態環境保育觀念",
+        "欠缺生態環境保育意識，導致稀有珍貴鳥類絕種",
+        "保護候鳥重要棲地，可提升發展生態觀光的潛力"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:54+00:00",
+        "source_pdf_sha1": "6d205a249f8d",
+        "answer_pdf_sha1": "40189eca7d37",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0102",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "國文(作文、公文與測驗)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0023",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "依司法院大法官解釋，下列何者尚不違背法治國家正當法律程序之要求？",
+      "options": [
+        "以行政文書依法寄存送達完畢時，作為發生送達效力之時點",
+        "稽徵稅捐所發之各種文書，規定對公同共有人中之一人為送達者，其效力及於全體",
+        "於自辦市地重劃案件，未設置適當組織，以審議關於市地重劃範圍之核定程序",
+        "於都市更新程序，未確保利害關係人知悉相關資訊及適時陳述意見之機會"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "7e65358788c6",
+        "answer_pdf_sha1": "8d25a23b5974",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0315",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0024",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "依憲法增修條文規定，下列何者有權提出憲法修正案？",
+      "options": [
+        "自由地區選舉人連署",
+        "國民大會",
+        "總統",
+        "立法院"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "7e65358788c6",
+        "answer_pdf_sha1": "8d25a23b5974",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0315",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0025",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "依司法院釋字第609號解釋意旨，有關勞工保險，下列敘述何者正確？",
+      "options": [
+        "勞工保險應謹守對價原則，以符合保險契約之本質",
+        "勞工保險與商業保險相同，應由勞工保險局評估危險後決定是否簽訂保險契約",
+        "勞工保險得由勞工保險局與被保險人自由約定保險契約，排除勞工保險條例的適用",
+        "勞工保險條例之排除保險給付規定，得由立法機關依保險法理並參酌其他社會安全制度形成之"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "7e65358788c6",
+        "answer_pdf_sha1": "8d25a23b5974",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0315",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0026",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "關於刑法撤銷假釋之規定與人身自由之關係，下列敘述何者正確？",
+      "options": [
+        "撤銷假釋之規定，對受假釋人之人身自由造成限制，故不得再執行殘刑",
+        "撤銷假釋之規定，限制受假釋人之人身自由，屬憲法保留事項，故不得以法律定之",
+        "撤銷假釋之規定，對受假釋人之人身自由造成限制，必須符合比例原則之要求",
+        "撤銷假釋之規定，並未使受假釋人承受新刑罰，故並未限制受假釋人之人身自由"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "7e65358788c6",
+        "answer_pdf_sha1": "8d25a23b5974",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0315",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0027",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "依司法院大法官解釋，有關婚姻與家庭之保障，下列敘述何者錯誤？",
+      "options": [
+        "婚姻與家庭制度應受制度性保障",
+        "家庭制度之保障植根於人格自由",
+        "人民收養子女之自由為憲法第22條所保障",
+        "限制人民收養其配偶之大陸地區子女為違反平等權"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "7e65358788c6",
+        "answer_pdf_sha1": "8d25a23b5974",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0315",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0028",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "中央警察大學研究所碩士班入學考試招生簡章，以有無色盲決定能否取得入學資格之規定，依司法院釋字 第626號解釋，下列敘述何者錯誤？",
+      "options": [
+        "相關入學資格條件之設定，為大學自治事項，於合理及必要之範圍內，不生違反法律保留之問題",
+        "受國民教育以外教育之權利雖受憲法第22條所保障，但不包括賦予人民請求給予入學許可之權利",
+        "警大自治權之行使，應受其功能本質之限制，且為確保其達成國家賦予之政策功能，而應接受比一般大 學更多之國家監督",
+        "鑑於色盲非屬人力所得控制之生理缺陷，警察大學作為培養國家警察專門人才之學術單位，自不得以此 作為差別待遇標準"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "7e65358788c6",
+        "answer_pdf_sha1": "8d25a23b5974",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0315",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0029",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "法律規定汽車駕駛人駕車強行闖越鐵路平交道，因而肇事者，處新臺幣1萬5千元以上9萬元以下罰鍰， 並吊銷其駕駛執照，終身不得考領駕駛執照，並應接受道路交通安全講習。關於上開規定，依司法院釋字 第780號解釋，下列敘述何者錯誤？",
+      "options": [
+        "處以罰鍰係對汽車駕駛人財產權之限制",
+        "終身不得考領駕駛執照，係限制汽車駕駛人之一般行為自由",
+        "如駕駛人為職業駕駛人，則吊銷其駕駛執照將涉及人民選擇職業自由之客觀條件限制",
+        "強制駕駛人參加道路交通安全講習，係對人民一般行為自由之限制"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "7e65358788c6",
+        "answer_pdf_sha1": "8d25a23b5974",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0315",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0030",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "有關憲法第22條所稱「其他權利」，下列敘述何者正確？",
+      "options": [
+        "「不妨礙社會秩序公共利益」應遵循社會多數意見作解釋",
+        "本條之基本權利位階及效力較其他基本權劣後",
+        "大法官依據本條而導出新聞自由之保障",
+        "本條會隨著時代及社會的發展而進展"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "7e65358788c6",
+        "answer_pdf_sha1": "8d25a23b5974",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0315",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0031",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "下列何者尚未經司法院大法官解釋明白承認屬憲法財產權之保障範圍？",
+      "options": [
+        "攜帶外幣出入國境須報明登記，違反者應予沒入",
+        "主管機關就其徵收之土地，應定期通知原所有權人土地之後續使用情形",
+        "政府採購得標廠商在符合一定要件下，應於履約期間僱用一定比例之原住民員工",
+        "人民依法請求國家賠償"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "7e65358788c6",
+        "answer_pdf_sha1": "8d25a23b5974",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0315",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0032",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "依憲法訴訟法規定，人民不得針對下列何者聲請判決？",
+      "options": [
+        "最高法院之不利確定終局裁定適用之法律",
+        "最高行政法院之不利確定終局判決",
+        "監察院之彈劾案",
+        "地方自治團體制定之自治條例"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "7e65358788c6",
+        "answer_pdf_sha1": "8d25a23b5974",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0315",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0033",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "在我國憲法體制之下，下列何者得行使憲法上之行政權？",
+      "options": [
+        "總統",
+        "立法院國防委員會",
+        "監察院",
+        "懲戒法院"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "7e65358788c6",
+        "answer_pdf_sha1": "8d25a23b5974",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0315",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 11,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0034",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "有關國會質詢權之敘述，下列何者錯誤？",
+      "options": [
+        "司法、考試、監察三院院長，得不受邀備詢，乃係基於憲政慣例",
+        "參謀總長得不受邀備詢，乃係基於國防事務乃屬總統權限",
+        "檢察官得不受邀備詢，乃係基於其依法獨立行使職權、不受外部干涉",
+        "公平交易委員會委員得不受邀備詢，乃係基於其依法獨立行使職權、不受外部干涉"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "7e65358788c6",
+        "answer_pdf_sha1": "8d25a23b5974",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0315",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 12,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0035",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "關於審計權之行使，下列敘述何者錯誤？",
+      "options": [
+        "監察院設審計長，由總統提名，經立法院同意任命之",
+        "審計長應於行政院提出決算後3個月內，依法完成其審核",
+        "審計長完成決算審核後，應提出審核報告於立法院",
+        "地方之審計權屬於地方立法並執行之事項"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "7e65358788c6",
+        "answer_pdf_sha1": "8d25a23b5974",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0315",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 13,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0036",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "有關公務員懲戒，下列敘述何者正確？",
+      "options": [
+        "法官之懲戒，亦包括大法官",
+        "公務員懲戒法之適用對象，包括文職及武職之公務員、公立學校教師",
+        "公務員懲戒案件之審理，為一級一審制",
+        "司法院大法官之懲戒，得經司法院大法官現有總額3分之2以上之出席及出席人數3分之2以上之決 議，由司法院移送懲戒法院審理"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "7e65358788c6",
+        "answer_pdf_sha1": "8d25a23b5974",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0315",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 14,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0037",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "司法院釋字第472號解釋宣示，針對無力繳納全民健康保險費者，國家應給予適當救助，不得逕行拒絕給 付，此為何種基本權？",
+      "options": [
+        "生存權",
+        "財產權",
+        "人身自由",
+        "一般行為自由"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "7e65358788c6",
+        "answer_pdf_sha1": "8d25a23b5974",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0315",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 15,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0038",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "下列關於世界主要法系的敘述，何者錯誤？",
+      "options": [
+        "羅馬日耳曼法系又常被稱作歐陸法系，重視成文法",
+        "歐陸法系重視公法與私法的分類",
+        "普通法系發源於美國",
+        "普通法系以判決先例為主要法源，並特別重視程序法"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "7e65358788c6",
+        "answer_pdf_sha1": "8d25a23b5974",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0315",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 16,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0039",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "下列關於臺灣民商法發展之敘述，何者錯誤？",
+      "options": [
+        "日治時期臺灣人的親屬繼承事項之實體法，原則上乃依照日本民法典",
+        "戰前的日本民法典與戰後施行在臺灣的中華民國民法典，均以歐陸法為範本。是以戰前與戰後的臺灣民 事法之實質內容有許多延續之處",
+        "1985年民法親屬繼承編首度修正，參考歐陸立法例朝向更平等的夫妻財產制",
+        "戰後民商法的特色之一，為對於英美法，特別是美國法的繼受"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "7e65358788c6",
+        "answer_pdf_sha1": "8d25a23b5974",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0315",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 17,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0040",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "有關地方政府得透過自治規章訂定行政罰則之規定，下列敘述何者錯誤？",
+      "options": [
+        "直轄市法規、縣（市）規章就違反地方自治事項之行政業務者，得規定處以罰鍰或其他種類之行政罰",
+        "直轄市政府、縣（市）政府得透過自治規則訂定罰鍰或其他種類之行政罰，惟需函送各該地方立法機關查照",
+        "自治條例經各該地方立法機關決議後，如規定有罰則時，應分別報經行政院、中央各該主管機關核定後發布",
+        "地方政府為罰鍰之規定，最高以新臺幣10萬元為限；逾期不繳納者，得依相關法律移送強制執行"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "7e65358788c6",
+        "answer_pdf_sha1": "8d25a23b5974",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0315",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 18,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0041",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "依中央法規標準法規定，關於行政命令，下列敘述何者正確？",
+      "options": [
+        "關於國家各機關組織規範得由行政命令訂之",
+        "行政命令之原發布機關已裁併者，其廢止則由承受其業務之機關或其上級機關為之",
+        "行政命令定有施行期限而主管機關認為需要延長者，須於期限屆滿日前發布延長即可",
+        "各機關依其法定職權所制定之行政命令得自行發布，無須送交立法院"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "7e65358788c6",
+        "answer_pdf_sha1": "8d25a23b5974",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0315",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 19,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0042",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "司法院釋字第792號解釋：毒品危害防制條例第4條「第1項至第4項將販賣毒品與製造、運輸毒品之構成要 件併列，並對該三種犯罪態樣，科以相同之法定刑。由此推論，本條所指之『販賣』毒品行為嚴重程度，應與製 造及運輸毒品相當。所謂製造毒品係將毒品從無至有，予以生產，進而得危害他人；而運輸毒品係從一地運至他 地，使毒品流通於他地，產生危害。基於同一法理，販賣毒品罪，應在處罰『賣出』毒品，因而產生毒品危害之 行為，蓋販賣須如此解釋，其嚴重程度始與上述製造與運輸毒品之危害相當。」是屬於下列何種解釋方法？",
+      "options": [
+        "文義解釋",
+        "歷史解釋",
+        "體系解釋",
+        "目的解釋"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "7e65358788c6",
+        "answer_pdf_sha1": "8d25a23b5974",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0315",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 20,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0043",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "有關授權明確性原則之敘述，下列何者錯誤？",
+      "options": [
+        "立法機關授權行政機關發布命令，為憲法所許，只要其授權目的、內容或範圍其中之一具體明確即可",
+        "在此原則之下，授權條款之明確程度，應與所授權訂定之法規命令對人民權利之影響相稱",
+        "由授權之母法整體觀察，已足使人民預見行為有受處罰之可能，即與得預見行為可罰之意旨無違，不以 確信其行為之可罰為必要",
+        "此乃法律保留原則之補充與具體化"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "7e65358788c6",
+        "answer_pdf_sha1": "8d25a23b5974",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0315",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 21,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0044",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "依據司法院大法官解釋，下列何者無須由法律明文規定？",
+      "options": [
+        "消滅時效",
+        "課徵租稅之構成要件",
+        "公務員懲戒撤職處分之構成要件",
+        "公務人員專案考績一次記二大過免職之構成要件"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "7e65358788c6",
+        "answer_pdf_sha1": "8d25a23b5974",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0315",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 22,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0045",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "關於平等權，下列敘述何者錯誤？",
+      "options": [
+        "平等權旨在防止國家恣意之差別待遇",
+        "平等權之侵害，限於國家之作為，不作為不屬之",
+        "基於平等權保障之要求，國家得為差別待遇",
+        "差別待遇之目的是否合憲，係國家行為有無違反平等保障考量因素之一"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "7e65358788c6",
+        "answer_pdf_sha1": "8d25a23b5974",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0315",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 23,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0046",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "甲為某視聽著作之著作人，於創作完成後第5年始將該視聽著作對外公開發表，有關著作財產權的存續期 間，下列敘述何者正確？",
+      "options": [
+        "若甲為法人，其著作財產權存續至創作完成時起50年",
+        "若甲為法人，其著作財產權存續至該法人成立時起50年",
+        "若甲為自然人，其著作財產權存續於甲的生存期間及其死亡後50年",
+        "若甲為自然人，其著作財產權存續至該著作公開發表後50年"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "7e65358788c6",
+        "answer_pdf_sha1": "8d25a23b5974",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0315",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 24,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0047",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "保險醫事服務機構當年領取之保險醫療費用超過一定數額者，應於期限內向保險人提報經會計師簽證或審 計機關審定之全民健康保險業務有關之財務報告，下列何者非財務報告應包括之報表？",
+      "options": [
+        "資產負債表",
+        "現金流量表",
+        "損益表",
+        "淨值變動表"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "7e65358788c6",
+        "answer_pdf_sha1": "8d25a23b5974",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0315",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 25,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0048",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "當事人得以要約與承諾之方式成立契約。關於要約，下列敘述何者錯誤？",
+      "options": [
+        "貨物標定賣價陳列者，依民法規定推定為要約",
+        "契約之要約人，因要約而受拘束",
+        "對話為要約者，除要約人另有意思表示外，非立時承諾，即失其拘束力",
+        "要約定有承諾期限者，非於其期限內為承諾，失其拘束力"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "7e65358788c6",
+        "answer_pdf_sha1": "8d25a23b5974",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0315",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 26,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0049",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "依民法之規定，總會決議之內容違反法令或章程，其效力為何？",
+      "options": [
+        "無效",
+        "無效，但不得以其無效對抗善意之第三人",
+        "須經主管機關、檢察官或利害關係人向法院聲請，以宣告其行為為無效",
+        "社員得於決議後3個月內請求法院撤銷其決議"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "7e65358788c6",
+        "answer_pdf_sha1": "8d25a23b5974",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0315",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 27,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0050",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "甲將自己的A車以60萬元賣給乙，雙方約定下個月初交車及付款。不料，於交車前數日，A車於公共停 車場中遭雷電擊中而燒毀。依民法規定，下列敘述何者錯誤？",
+      "options": [
+        "甲對乙免給付義務",
+        "乙對甲免支付價金",
+        "甲應對乙負債務不履行的損害賠償責任",
+        "乙不得向甲請求給付A車"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "7e65358788c6",
+        "answer_pdf_sha1": "8d25a23b5974",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0315",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 28,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0051",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "甲任職於市政府警察局某分局派出所所長，因處理群眾陳抗事件，派出所人手不足，甲發現派出所內約聘 擔任庶務工作的事務工友乙因喜愛健身而身強體壯，遂拿一套警察制服給乙穿著，並命令乙與其他警員一 同至陳抗現場維持秩序。下列敘述何者正確？",
+      "options": [
+        "乙進行群眾驅離，係依法令之行為，阻卻違法",
+        "乙行使警察職權，係依所屬上級公務員之命令，阻卻違法",
+        "乙依刑法第10條第2項規定，為公務員",
+        "乙犯刑法第158條、第159條之冒充公務員行使職權罪與冒用公務員服章官銜罪"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "7e65358788c6",
+        "answer_pdf_sha1": "8d25a23b5974",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0315",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 29,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0052",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "性別工作平等法中有關「性騷擾」之規定，下列敘述何者錯誤？",
+      "options": [
+        "求職者於求職時，雇主以具有性意味之言詞或行為，對其造成冒犯，致侵犯其人格尊嚴，該當性別工作 平等法所定義之性騷擾",
+        "求職者於求職時，雇主對求職者為明示之性要求，作為勞務契約成立之交換條件，該當性別工作平等法 所定義之性騷擾",
+        "受僱者於執行職務時，客戶以具有性別歧視之言詞或行為，對其造成敵意性之工作環境，致影響其工作 表現，該當性別工作平等法所定義之性騷擾",
+        "受僱者於執行職務時，其同事以具有性意味之言詞或行為，對其造成冒犯性之工作環境，致侵犯其人格 尊嚴，該當性別工作平等法所定義之性騷擾"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "7e65358788c6",
+        "answer_pdf_sha1": "8d25a23b5974",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0315",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 30,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0053",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "Themanagerisverycarefulaboutqualitycontrol;healwayssaysthattheproblemsweignorenowwillcomeback to us.",
+      "options": [
+        "fascinate",
+        "highlight",
+        "force",
+        "haunt"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "7e65358788c6",
+        "answer_pdf_sha1": "8d25a23b5974",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0315",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 31,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0054",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "Therehavebeen discussionswithstrongnegativeemotionsforthenewpowerplant:Somethinkitwould bringjobs,whileotherssayitwoulddamagethenaturalenvironment.",
+      "options": [
+        "warmly",
+        "thermal",
+        "steamy",
+        "heated"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "7e65358788c6",
+        "answer_pdf_sha1": "8d25a23b5974",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0315",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 32,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0055",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "Mostcastlesweremadefromstoneinsteadoftimberbecausestoneismore tofirethanwood.",
+      "options": [
+        "constant",
+        "defendant",
+        "insistent",
+        "resistant"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "7e65358788c6",
+        "answer_pdf_sha1": "8d25a23b5974",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0315",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 33,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0056",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "ThedeadlineforvoterregistrationisthisFriday;however,ifyouareilloroutofthecountry,youmayhavea month’s .",
+      "options": [
+        "extension",
+        "intention",
+        "expansion",
+        "inclusion"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "7e65358788c6",
+        "answer_pdf_sha1": "8d25a23b5974",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0315",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 34,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0057",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "Youneedtorenewyourpassportassoonaspossiblebeforeitbecomesoutofdateand .",
+      "options": [
+        "abolished",
+        "invalid",
+        "negated",
+        "unconvincing"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "7e65358788c6",
+        "answer_pdf_sha1": "8d25a23b5974",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0315",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 35,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0058",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "Theclassroomwindowsshouldbeleftopensostudentswillnotfeel .",
+      "options": [
+        "bewildered",
+        "complicated",
+        "disorganized",
+        "suffocated"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "7e65358788c6",
+        "answer_pdf_sha1": "8d25a23b5974",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0315",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 36,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0059",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "IfyouhaveaknownordiagnosedallergytoaCOVID-19vaccine ,youshouldnotgetvaccinated.",
+      "options": [
+        "ingredient",
+        "syringe",
+        "symptom",
+        "insignia"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "7e65358788c6",
+        "answer_pdf_sha1": "8d25a23b5974",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0315",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 37,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0060",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "Theislandersassertedthatdumpingradioactivewastesintheseawasanactof .",
+      "options": [
+        "insanity",
+        "hospitality",
+        "inquiry",
+        "hesitation"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "7e65358788c6",
+        "answer_pdf_sha1": "8d25a23b5974",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0315",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 38,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0061",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "Theteachers’ methodsofstudents’performancesproducecontroversialresultsacrossthecountrybased onacorecurriculum.",
+      "options": [
+        "parliament",
+        "commandment",
+        "assessment",
+        "amendment"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "7e65358788c6",
+        "answer_pdf_sha1": "8d25a23b5974",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0315",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 39,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0062",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "Thankstomodern ,cropsnowgrowabundantlyinareaswhereoncenothingbutcactiandsagebrush couldlive.",
+      "options": [
+        "infection",
+        "inflation",
+        "irritation",
+        "irrigation"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "7e65358788c6",
+        "answer_pdf_sha1": "8d25a23b5974",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0315",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 40,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0063",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "Collectivetraumafindsoutletinpublic ofacommunityoranation,asitseemstorememberorforgeta painfulperiodinitshistory.",
+      "options": [
+        "articulation",
+        "approbation",
+        "arbitration",
+        "approximation"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "7e65358788c6",
+        "answer_pdf_sha1": "8d25a23b5974",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0315",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 41,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0064",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "The committee required that all the sports playersundergo a drug test before competing in the championship.",
+      "options": [
+        "discretional",
+        "frivolous",
+        "mandatory",
+        "volitional"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "7e65358788c6",
+        "answer_pdf_sha1": "8d25a23b5974",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0315",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 42,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0065",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "Itwassucha sightwhentheysawswarmsofstarvingchildrenseekingfoodonthestreets.",
+      "options": [
+        "remedial",
+        "pathetic",
+        "eligible",
+        "fragrant"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "7e65358788c6",
+        "answer_pdf_sha1": "8d25a23b5974",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0315",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 43,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0066",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "Algonkian-speakingNativeAmericansgreetedthePilgrimswho ontheeasternshoresof whatisnow NewEngland.",
+      "options": [
+        "steered",
+        "stooped",
+        "settled",
+        "shattered"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "7e65358788c6",
+        "answer_pdf_sha1": "8d25a23b5974",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0315",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 44,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0067",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "WebroughtbackamodelofTaipei101asa ofourtriptoTaipeilastmonth.",
+      "options": [
+        "vessel",
+        "relic",
+        "souvenir",
+        "trophy"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "7e65358788c6",
+        "answer_pdf_sha1": "8d25a23b5974",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0315",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 45,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0068",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "Thepandemichas forallparentsandteachershowindispensableonlinelearningisforeducationtoday.",
+      "options": [
+        "underscored",
+        "undermined",
+        "unleashed",
+        "undergone"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "7e65358788c6",
+        "answer_pdf_sha1": "8d25a23b5974",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0315",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 46,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0069",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "Theweatherforecasthassaidthattheremaybeatemporarybreakbefore rainreturnsonMonday.",
+      "options": [
+        "respective",
+        "charitable",
+        "persistent",
+        "suspicious"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "7e65358788c6",
+        "answer_pdf_sha1": "8d25a23b5974",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0315",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 47,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0070",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "Morethan280peoplehavebeen fromaferryinnorthwesternGreecethatcaughtfireovernightwhile headingtosouthernItalyinFebruary.",
+      "options": [
+        "deserted",
+        "implemented",
+        "evacuated",
+        "leaked"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "7e65358788c6",
+        "answer_pdf_sha1": "8d25a23b5974",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0315",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 48,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0071",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "Thetransitagencyhasseenrampantvirusinfectionsamongemployeesanddifficultiesinhiringand drivers.",
+      "options": [
+        "retaining",
+        "compiling",
+        "evading",
+        "obstructing"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "7e65358788c6",
+        "answer_pdf_sha1": "8d25a23b5974",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0315",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 49,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0072",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "single_choice",
+      "question": "Insteadofconcentratingonincentivizingshort-termtransactivebehaviors,today’sfirmsfocusonbuildingauthentic and relationshipswithcustomers.",
+      "options": [
+        "transitional",
+        "topical",
+        "sustainable",
+        "transparent"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "7e65358788c6",
+        "answer_pdf_sha1": "8d25a23b5974",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111130",
+          "c": "114",
+          "s": "0315",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格取得法官遴選資格考試",
+        "original_question_number": 50,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0073",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "essay",
+      "question": "警方接獲線報，稱有多項毒品前科的甲將於某日 17 時在某超商門口\n買賣毒品，警方遂至現場，當場逮捕甲並於口袋搜得毒品 1包並扣押之，\n甲並供稱係乙以新臺幣 5000 元賣給他，乙 3 分鐘前才離開。警方遂在\n附近巡邏，果然在同日 18時發現乙在某夜市出現，形跡可疑，警方立刻\n上前逮捕乙，並在乙的皮包內搜得毒品 5 包以及新臺幣 5000 元，均扣\n押之。乙遭提起公訴後，主張所有扣案毒品以及新臺幣 5000 元均無證\n據能力。問，乙之主張有無理由？（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "ef4f5a630dd8",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110130",
+          "c": "107",
+          "s": "0513",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "刑事訴訟法",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格者取得法官遴選資格考...",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0074",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "essay",
+      "question": "公務員甲涉嫌利用職務向乙公司收賄，遭警方依法監聽其電話。監聽過\n程中，錄下不知名人士打電話給甲說「東西已託人送到」，甲答稱「有」\n之對話。半年後，檢方發現甲另外涉嫌向丙公司收賄，上述對話即為丙\n公司高層與甲之談話。檢察官於蒐集相關證據後，起訴甲向丙公司收賄\n罪刑，甲主張此段錄音違法。甲之主張有無理由？（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "ef4f5a630dd8",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110130",
+          "c": "107",
+          "s": "0513",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "刑事訴訟法",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格者取得法官遴選資格考...",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0075",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "essay",
+      "question": "某珠寶店發生搶案，有不知名路人對珠寶店老闆甲說：「我看到歹徒\n搶完後，匆忙跑進路口停放之某私人汽車後離去。」警方根據此一線索\n找到該輛車，車主乙矢口否認此事，偵查終結後檢察官起訴乙。審判中，\n甲出庭作證，證稱確實有人當場跟他這麼說。問，甲之證述可否做為法\n院認定乙犯罪之證據？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "ef4f5a630dd8",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110130",
+          "c": "107",
+          "s": "0513",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "刑事訴訟法",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格者取得法官遴選資格考...",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "judicial-7b850ce6-0076",
+      "exam_id": "judicial-7b850ce6",
+      "question_type": "essay",
+      "question": "甲涉嫌偽造信用卡遭偵查，但檢察官認為犯罪嫌疑不足而予以不起訴處\n分。後發現甲持該偽造信用卡提款，偵查後檢察官對甲提起公訴。一審\n法院判甲行使偽造信用卡罪刑，甲不服提起上訴，二審法院認為甲偽造\n信用卡並行使之，遂撤銷一審判決均判有罪。問，此判決是否合法？\n（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:55+00:00",
+        "source_pdf_sha1": "ef4f5a630dd8",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110130",
+          "c": "107",
+          "s": "0513",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "刑事訴訟法",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、移民行政人員考試、未具擬任職務任用資格者取得法官遴選資格考...",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    }
+  ]
+}

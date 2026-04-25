@@ -1,0 +1,1712 @@
+{
+  "slug": "islands-4ece01bd",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:33:55+00:00",
+  "paper_count": 5,
+  "paper_with_questions": 5,
+  "question_count": 46,
+  "type_counts": {
+    "essay": 16,
+    "single_choice": 30
+  },
+  "papers": [
+    {
+      "year": "114",
+      "exam_code": "114190",
+      "c": "510",
+      "s": "1712",
+      "q": "1",
+      "subject": "土壤力學與測量學",
+      "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "ec4c7cd02ad1",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "114",
+      "exam_code": "114190",
+      "c": "510",
+      "s": "0105",
+      "q": "1",
+      "subject": "基礎能力測驗（作文、英文閱讀與法學知識）",
+      "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "44394191c8ff",
+      "a_pdf_sha1": "345fcb11fcba",
+      "format_detected": "pure_mc",
+      "raw_question_count": 30,
+      "answer_qnums_extracted": 30,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 30,
+      "skipped_count": 0
+    },
+    {
+      "year": "114",
+      "exam_code": "114190",
+      "c": "510",
+      "s": "1704",
+      "q": "1",
+      "subject": "材料力學與結構學",
+      "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "5dd3868cd10b",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "114",
+      "exam_code": "114190",
+      "c": "510",
+      "s": "1707",
+      "q": "1",
+      "subject": "營建管理與工程材料",
+      "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "71a3c3375bed",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "114",
+      "exam_code": "114190",
+      "c": "510",
+      "s": "1706",
+      "q": "1",
+      "subject": "鋼筋混凝土學與設計",
+      "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "e804eb3037a4",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    }
+  ],
+  "questions": [
+    {
+      "id": "islands-4ece01bd-0001",
+      "exam_id": "islands-4ece01bd",
+      "question_type": "essay",
+      "question": "請解釋下列名詞之意涵，並註明其單位。（每小題 6 分，共 30分）\n塑性指數\n含水量\n水力傳導係數\n孔隙率\nD\n30",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "ec4c7cd02ad1",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "510",
+          "s": "1712",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "土壤力學與測量學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-4ece01bd-0002",
+      "exam_id": "islands-4ece01bd",
+      "question_type": "essay",
+      "question": "請說明如何進行土壤壓實試驗。（20 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "ec4c7cd02ad1",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "510",
+          "s": "1712",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "土壤力學與測量學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-4ece01bd-0003",
+      "exam_id": "islands-4ece01bd",
+      "question_type": "essay",
+      "question": "水準儀距離水準尺大約等距離，可以抵消那些誤差？請繪圖說明之。\n（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "ec4c7cd02ad1",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "510",
+          "s": "1712",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "土壤力學與測量學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-4ece01bd-0004",
+      "exam_id": "islands-4ece01bd",
+      "question_type": "essay",
+      "question": "作細部測量時，\n使用衛星定位測量與使用傳統的全站儀測量，各有何優點、缺點？\n（15 分）\n使用衛星定位測量時，同時觀測多顆衛星作衛星差分，以及同步在近\n距基準站作測站差分，各可消除那些誤差？（10分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "ec4c7cd02ad1",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "510",
+          "s": "1712",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "土壤力學與測量學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-4ece01bd-0005",
+      "exam_id": "islands-4ece01bd",
+      "question_type": "single_choice",
+      "question": "The film highlighted the struggles and of immigrants as they adapted to life in difficult surroundings.",
+      "options": [
+        "luxury",
+        "coziness",
+        "resilience",
+        "abundance"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "44394191c8ff",
+        "answer_pdf_sha1": "345fcb11fcba",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "510",
+          "s": "0105",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗（作文、英文閱讀與法學知識）",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-4ece01bd-0006",
+      "exam_id": "islands-4ece01bd",
+      "question_type": "single_choice",
+      "question": "Thischemicalcompoundproducestoxicmicro-organisms,andtheywill thegrowthofcertain plants.",
+      "options": [
+        "descend",
+        "migrate",
+        "glimpse",
+        "inhibit"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "44394191c8ff",
+        "answer_pdf_sha1": "345fcb11fcba",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "510",
+          "s": "0105",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗（作文、英文閱讀與法學知識）",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-4ece01bd-0007",
+      "exam_id": "islands-4ece01bd",
+      "question_type": "single_choice",
+      "question": "The charity event was organized to funds for those local orphanages which lack even basic facilities.",
+      "options": [
+        "raise",
+        "deplete",
+        "contend",
+        "squander"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "44394191c8ff",
+        "answer_pdf_sha1": "345fcb11fcba",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "510",
+          "s": "0105",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗（作文、英文閱讀與法學知識）",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-4ece01bd-0008",
+      "exam_id": "islands-4ece01bd",
+      "question_type": "single_choice",
+      "question": "Thenewsystemismuchmore thantheoldone,savingustimeandmoney.",
+      "options": [
+        "dysfunctional",
+        "efficient",
+        "problematic",
+        "irrational"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "44394191c8ff",
+        "answer_pdf_sha1": "345fcb11fcba",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "510",
+          "s": "0105",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗（作文、英文閱讀與法學知識）",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-4ece01bd-0009",
+      "exam_id": "islands-4ece01bd",
+      "question_type": "single_choice",
+      "question": "Environmentalgroupsaremakinggreateffortsto harmfulplasticusage,encouragingsustainable practicestoprotectoceansandwildlifefromfurtherdamage.",
+      "options": [
+        "abolish",
+        "counsel",
+        "preside",
+        "polish"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "44394191c8ff",
+        "answer_pdf_sha1": "345fcb11fcba",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "510",
+          "s": "0105",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗（作文、英文閱讀與法學知識）",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-4ece01bd-0010",
+      "exam_id": "islands-4ece01bd",
+      "question_type": "single_choice",
+      "question": "Manyentrepreneursengagein bydonatingtocharityforaparticularcause.",
+      "options": [
+        "serendipity",
+        "philanthropy",
+        "bibliography",
+        "anthropology"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "44394191c8ff",
+        "answer_pdf_sha1": "345fcb11fcba",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "510",
+          "s": "0105",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗（作文、英文閱讀與法學知識）",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-4ece01bd-0011",
+      "exam_id": "islands-4ece01bd",
+      "question_type": "single_choice",
+      "question": "Becausethecompany’soldelevatorhadn’tbeeninspectedinyears,themanagerworrieditcouldbecome aserious ifsomeonegotinjured.",
+      "options": [
+        "profit",
+        "legacy",
+        "liability",
+        "pension"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "44394191c8ff",
+        "answer_pdf_sha1": "345fcb11fcba",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "510",
+          "s": "0105",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗（作文、英文閱讀與法學知識）",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-4ece01bd-0012",
+      "exam_id": "islands-4ece01bd",
+      "question_type": "single_choice",
+      "question": "The events in the story are told , starting with the character’s childhood and ending with his adulthood.",
+      "options": [
+        "accidentally",
+        "chronologically",
+        "quantitatively",
+        "qualitatively"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "44394191c8ff",
+        "answer_pdf_sha1": "345fcb11fcba",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "510",
+          "s": "0105",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗（作文、英文閱讀與法學知識）",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-4ece01bd-0013",
+      "exam_id": "islands-4ece01bd",
+      "question_type": "single_choice",
+      "question": "The rapid evolution of robot technology presents significant to our current legal and ethical frameworks.",
+      "options": [
+        "charities",
+        "outlets",
+        "challenges",
+        "outfits"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "44394191c8ff",
+        "answer_pdf_sha1": "345fcb11fcba",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "510",
+          "s": "0105",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗（作文、英文閱讀與法學知識）",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-4ece01bd-0014",
+      "exam_id": "islands-4ece01bd",
+      "question_type": "single_choice",
+      "question": "Thestatuestoodina spotatthecenterofthepark,whereallvisitorscouldseeitthemoment theyenteredthroughthemaingate.",
+      "options": [
+        "vague",
+        "distant",
+        "prominent",
+        "suspicious 請依下文回答第11題至第15題： People adopt minimalism for various reasons. Some find their lives descending into chaos due to the overwhelming burden of their material possessions. Others, 11 accumulating vast wealth, remain dissatisfied,realizingthatnonumberofpossessionacquisitionscanfillthe 12 withinthem.Formany, downsizinghappensgraduallywitheachmove, 13 theirlivesovertime.Inothercases,peopleletgo ofpossessionstoescapedepression.Additionally,therearethosewhoseperspectivesonlifedramaticallyshift after surviving a catastrophic natural disaster, leading them to 14 a simpler way of living. Adopting minimalismgrantsusthefreedomtopursuewhattrulyenrichesourlives.Bylivingwithless,wegainmoretime for meaningful activities and greater mobility to explore the world. Minimalism also sharpens our 15 , helpingusfocusonourmostpressingconcerns.Itisnotaboutdeprivation;rather,it’saboutregainingcontrol overourlivesandfocusingourenergyonwhattrulymatters"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "44394191c8ff",
+        "answer_pdf_sha1": "345fcb11fcba",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "510",
+          "s": "0105",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗（作文、英文閱讀與法學知識）",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-4ece01bd-0015",
+      "exam_id": "islands-4ece01bd",
+      "question_type": "single_choice",
+      "question": "①along ②beside ③despite ④opposite",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "44394191c8ff",
+        "answer_pdf_sha1": "345fcb11fcba",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "510",
+          "s": "0105",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗（作文、英文閱讀與法學知識）",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 11,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "islands-4ece01bd-0016",
+      "exam_id": "islands-4ece01bd",
+      "question_type": "single_choice",
+      "question": "①flap ②volume ③sole ④void",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "44394191c8ff",
+        "answer_pdf_sha1": "345fcb11fcba",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "510",
+          "s": "0105",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗（作文、英文閱讀與法學知識）",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 12,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "islands-4ece01bd-0017",
+      "exam_id": "islands-4ece01bd",
+      "question_type": "single_choice",
+      "question": "①complicating ②confusing ③simplifying ④seducing",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "44394191c8ff",
+        "answer_pdf_sha1": "345fcb11fcba",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "510",
+          "s": "0105",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗（作文、英文閱讀與法學知識）",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 13,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "islands-4ece01bd-0018",
+      "exam_id": "islands-4ece01bd",
+      "question_type": "single_choice",
+      "question": "①compile ②embrace ③invade ④retreat",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "44394191c8ff",
+        "answer_pdf_sha1": "345fcb11fcba",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "510",
+          "s": "0105",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗（作文、英文閱讀與法學知識）",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 14,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "islands-4ece01bd-0019",
+      "exam_id": "islands-4ece01bd",
+      "question_type": "single_choice",
+      "question": "①fragiletrust ②mentalclarity ③ethicaldilemma ④arrogantattitude 請依下文回答第16題至第20題： Romantic relationships should be built on mutual respect, emotional reciprocity, and authentic communication. However, when one partner exhibits narcissistic tendencies, these fundamental elements deteriorate.NarcissisticPersonalityDisorder(NPD)isarecognizedpsychologicalconditioncharacterizedby aninflatedsenseofself-importance,alackofempathy,andaneedforadmiration.Whileoccasionalselfishness isnormal,truenarcissisminvolvesapersistentpatternofmanipulativebehaviorthatcanbedeeplydamaging. Narcissists prioritize relationships that serve their personal interests, leadingto superficial rather than deep connections. Their fragile self-esteem makes them highlydefensive, often shifting blame instead of taking responsibility. Narcissistsusemanipulativestrategiestomaintaincontrol.Aprimarytacticisgaslighting,wherethey distortrealitytomaketheirpartnerquestiontheirownperceptionsandlesslikelytochallengethenarcissist’s control.Overtime,thiserodesself-confidenceandcreatesemotionaldependency.Narcissistsalsobelittletheir partners, using subtle insults, passive-aggressive remarks, and constant criticism to undermine their self- esteem.Iftheircontrolisthreatened,theymayresorttoemotionaloutburstsorsilenttreatment.Additionally, narcissistsexhibitanunwaveringsenseofentitlement.Theyexpectadmiration,strugglewithcompromise, andrarelyacceptblame,makingconflictresolutionnearlyimpossible. Recognizing these patterns early is crucial for preserving emotional well-being. Establishing firm boundaries,seekingsupportfromtrustedfriendsandprofessionals,andprioritizingself-carecanmitigatethe damageofanarcissisticrelationship.Leavinganarcissisticpartnercanbechallenging,astheyoftenresistloss of control through manipulation and guilt-tripping. However, reclaiming one’s autonomyand self-worth is essential.WhileanofficialNPDdiagnosisrequiresaclinicalexpert,understandingtoxicrelationshipdynamics empowersindividualstomakehealthierchoices.",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "44394191c8ff",
+        "answer_pdf_sha1": "345fcb11fcba",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "510",
+          "s": "0105",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗（作文、英文閱讀與法學知識）",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 15,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "islands-4ece01bd-0020",
+      "exam_id": "islands-4ece01bd",
+      "question_type": "single_choice",
+      "question": "Whatisthispassagemainlyabout?",
+      "options": [
+        "Discussingdifferenttypesofnarcissisticpersonalitiesandhowtheyevolve",
+        "Examiningwhysomepeoplearemorelikelytobeattractedtonarcissisticpartners",
+        "Identifyingthetraitsandmanipulativebehaviorsofnarcissistsinrelationships",
+        "Understandinghowtodevelopastrongeremotionalbondwithanarcissisticpartner"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "44394191c8ff",
+        "answer_pdf_sha1": "345fcb11fcba",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "510",
+          "s": "0105",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗（作文、英文閱讀與法學知識）",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 16,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-4ece01bd-0021",
+      "exam_id": "islands-4ece01bd",
+      "question_type": "single_choice",
+      "question": "Accordingtothepassage,whichofthefollowingistrueaboutpeopleinarelationshipwithnarcissists?",
+      "options": [
+        "Theyarelikelytoexperienceadeclineinself-confidenceovertime",
+        "Theycanchangethenarcissists’behaviorthroughpatienceandunderstanding",
+        "Theycanmaintainabalancedrelationshipiftheymanagetosetfirmboundaries",
+        "Theyareresponsibleforthenarcissists’behaviorandshouldimprovetherelationship"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "44394191c8ff",
+        "answer_pdf_sha1": "345fcb11fcba",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "510",
+          "s": "0105",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗（作文、英文閱讀與法學知識）",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 17,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-4ece01bd-0022",
+      "exam_id": "islands-4ece01bd",
+      "question_type": "single_choice",
+      "question": "Whatdoesunwaveringsenseofentitlementmostlikelymeaninthepassage?",
+      "options": [
+        "Aweakneedforconstantadmiration",
+        "Aninabilitytorecognizenarcissists’mistakes",
+        "Arefusaltoacknowledgeothers’emotions",
+        "Apersistentbeliefthatnarcissistsdeservespecialtreatments"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "44394191c8ff",
+        "answer_pdf_sha1": "345fcb11fcba",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "510",
+          "s": "0105",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗（作文、英文閱讀與法學知識）",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 18,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-4ece01bd-0023",
+      "exam_id": "islands-4ece01bd",
+      "question_type": "single_choice",
+      "question": "Accordingtothepassage,whyis“gaslighting”usedasakeytacticbynarcissists?",
+      "options": [
+        "Tocreatedeep,meaningfulemotionalbonds",
+        "Tofeelempatheticfortheirpartners",
+        "Tomaintaincontrolbymakingtheirpartnersdoubttheirownreality",
+        "Torecognizethemanipulativenatureoftherelationshipearlyon"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "44394191c8ff",
+        "answer_pdf_sha1": "345fcb11fcba",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "510",
+          "s": "0105",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗（作文、英文閱讀與法學知識）",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 19,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-4ece01bd-0024",
+      "exam_id": "islands-4ece01bd",
+      "question_type": "single_choice",
+      "question": "Whatistheauthor’sprimaryintentioninwritingthepassage?",
+      "options": [
+        "TorefuteaclinicalexplanationofNarcissisticPersonalityDisorder(NPD)",
+        "Toquestionstrategiesforeffectivelymanagingarelationshipwithanarcissist",
+        "Tocomparedifferenttypesofmanipulativebehaviorsintoxicrelationships",
+        "Towarnreadersaboutpsychologicalandemotionalrisksofdatinganarcissist"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "44394191c8ff",
+        "answer_pdf_sha1": "345fcb11fcba",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "510",
+          "s": "0105",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗（作文、英文閱讀與法學知識）",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 20,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-4ece01bd-0025",
+      "exam_id": "islands-4ece01bd",
+      "question_type": "single_choice",
+      "question": "下列行為，何者非刑法第10條第5項所列之性侵入行為？",
+      "options": [
+        "以陽具進入他人口腔之行為",
+        "以假陽具進入他人口腔之行為",
+        "以假陽具進入他人陰道之行為",
+        "以陽具進入他人陰道之行為"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "44394191c8ff",
+        "answer_pdf_sha1": "345fcb11fcba",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "510",
+          "s": "0105",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗（作文、英文閱讀與法學知識）",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 21,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-4ece01bd-0026",
+      "exam_id": "islands-4ece01bd",
+      "question_type": "single_choice",
+      "question": "下列那一個特徵構成行政處分與行政命令之主要區別？",
+      "options": [
+        "規制對象是否為特定人或不特定之多數人",
+        "是否須符合明確性之要求",
+        "是否直接對外發生法律上效果",
+        "是否需要法律授權"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "44394191c8ff",
+        "answer_pdf_sha1": "345fcb11fcba",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "510",
+          "s": "0105",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗（作文、英文閱讀與法學知識）",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 22,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-4ece01bd-0027",
+      "exam_id": "islands-4ece01bd",
+      "question_type": "single_choice",
+      "question": "甲股份有限公司採募集設立之方式成立，有關募集設立之敘述，下列何者錯誤？",
+      "options": [
+        "募集設立係指發起人不認足第一次發行之股份，而就未認足之股份向發起人以外之人募足",
+        "募集設立發起人所認股份，不得少於第一次發行股份四分之一",
+        "採募集設立成立之股份有限公司於股款繳足後，發起人應於1個月內召開創立會",
+        "創立會應選任董事、監察人"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "44394191c8ff",
+        "answer_pdf_sha1": "345fcb11fcba",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "510",
+          "s": "0105",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗（作文、英文閱讀與法學知識）",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 23,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-4ece01bd-0028",
+      "exam_id": "islands-4ece01bd",
+      "question_type": "single_choice",
+      "question": "有關緊急保護令規定之敘述，下列何者錯誤？",
+      "options": [
+        "法院於受理緊急保護令之聲請後，依聲請人到庭或電話陳述家庭暴力之事實，足認被害人有受 家庭暴力之急迫危險者，應於24小時內以書面核發緊急保護令，並得以電信傳真或其他科技 設備傳送緊急保護令予警察機關",
+        "法院核發緊急保護令，因事出緊急，得不經審理程序",
+        "聲請人於聲請通常保護令前聲請緊急保護令，其經法院准許核發者，視為已有通常保護令之聲請",
+        "緊急保護令失效前，法院得依當事人或被害人之聲請或依職權撤銷或變更之"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "44394191c8ff",
+        "answer_pdf_sha1": "345fcb11fcba",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "510",
+          "s": "0105",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗（作文、英文閱讀與法學知識）",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 24,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-4ece01bd-0029",
+      "exam_id": "islands-4ece01bd",
+      "question_type": "single_choice",
+      "question": "依全民健康保險法民國100年修正後第3條規定，政府每年度負擔保險之總經費，不得少於每年 度保險經費扣除法定收入後金額之百分之多少？",
+      "options": [
+        "20",
+        "30",
+        "36",
+        "45"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "44394191c8ff",
+        "answer_pdf_sha1": "345fcb11fcba",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "510",
+          "s": "0105",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗（作文、英文閱讀與法學知識）",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 25,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-4ece01bd-0030",
+      "exam_id": "islands-4ece01bd",
+      "question_type": "single_choice",
+      "question": "臺北市議會依據建築法第101條規定授權，制定臺北市建築管理規範。依我國地方制度法，關於 此一規定，下列敘述何者正確？",
+      "options": [
+        "屬於自治規則，其效力相當於法規命令",
+        "屬於自律規則，其效力相當於中央法律",
+        "屬於自治條例，如與法律相牴觸則無效",
+        "屬於行政規則，內容不可影響人民的權利"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "44394191c8ff",
+        "answer_pdf_sha1": "345fcb11fcba",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "510",
+          "s": "0105",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗（作文、英文閱讀與法學知識）",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 26,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-4ece01bd-0031",
+      "exam_id": "islands-4ece01bd",
+      "question_type": "single_choice",
+      "question": "口授筆記之遺囑，於繼承開始時須履行「認定程序」，有關其立法意旨，下列敘述何者正確？",
+      "options": [
+        "確認遺囑人有無遺囑能力",
+        "審查遺囑有無違反法定要式",
+        "檢驗遺囑有無違反公序良俗",
+        "認定遺囑是否為遺囑人之真意"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "44394191c8ff",
+        "answer_pdf_sha1": "345fcb11fcba",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "510",
+          "s": "0105",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗（作文、英文閱讀與法學知識）",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 27,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-4ece01bd-0032",
+      "exam_id": "islands-4ece01bd",
+      "question_type": "single_choice",
+      "question": "下列對於我國憲法制定與發展歷史的敘述，何者正確？",
+      "options": [
+        "中華民國憲法制定於民國25年，並在民國26年1月1日公布實施",
+        "中華民國憲法的內容主要繼受自日本與德國的憲法，並經立法院同意通過",
+        "民國111年修憲通過降低選舉權之年齡到18歲",
+        "中華民國憲法修改的過程中，廢除國民大會，將修憲的權限交給立法院，並須經公民複決"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "44394191c8ff",
+        "answer_pdf_sha1": "345fcb11fcba",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "510",
+          "s": "0105",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗（作文、英文閱讀與法學知識）",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 28,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-4ece01bd-0033",
+      "exam_id": "islands-4ece01bd",
+      "question_type": "single_choice",
+      "question": "依據司法院釋字第342號解釋意旨，下列敘述何者正確？",
+      "options": [
+        "為維護民主憲政秩序，僅需法律案之立法程序存有瑕疵，則釋憲機關即得宣告該法律案牴觸憲 法而屬無效",
+        "為尊重立法機關之民主正當性，縱使法律案之立法程序存有瑕疵，釋憲機關亦不得自行宣告該 法律案為無效",
+        "法律案之立法程序有不待調查事實即可認定為牴觸憲法，亦即有違反法律成立基本規定之明顯 重大瑕疵者，釋憲機關仍得宣告其為無效",
+        "法律案須由總統公布後始生效力，故核查法律案之立法程序是否存有瑕疵，進而須退回立法院 重新審議，應屬總統權限，與釋憲機關無涉"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "44394191c8ff",
+        "answer_pdf_sha1": "345fcb11fcba",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "510",
+          "s": "0105",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗（作文、英文閱讀與法學知識）",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 29,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-4ece01bd-0034",
+      "exam_id": "islands-4ece01bd",
+      "question_type": "single_choice",
+      "question": "依照法條用語之字句及其通常使用方式所為之解釋，為下列何種解釋方法？",
+      "options": [
+        "文義解釋",
+        "體系解釋",
+        "歷史解釋",
+        "論理解釋"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "44394191c8ff",
+        "answer_pdf_sha1": "345fcb11fcba",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "510",
+          "s": "0105",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗（作文、英文閱讀與法學知識）",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 30,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-4ece01bd-0035",
+      "exam_id": "islands-4ece01bd",
+      "question_type": "essay",
+      "question": "下圖顯示一根受拉鋼棒之單軸應力-應變曲線。根據試驗結果得知，鋼材\n之楊氏係數E =200 GPa，降伏強度σ =300 MPa。\ns y\n請寫出圖中空格(i) ～ (v)正確名稱，並解釋其意義。（15 分）\n若鋼棒受拉力載重至階段(iv)，其總軸向應變為ε=0.01，請求出：\nt\n⑴彈性（可回復）應變ε （5 分）\ne\n⑵塑性（不可回復）應變ε （5 分）\np",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "5dd3868cd10b",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "510",
+          "s": "1704",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "材料力學與結構學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-4ece01bd-0036",
+      "exam_id": "islands-4ece01bd",
+      "question_type": "essay",
+      "question": "如圖所示，一鋼梁表面上 C點處之應力為：\nσ = 20 MPa, σ =4 MPa, τ = 18 MPa\nx y xy\n請求出圖示應力元素之主應力與面內最大剪應力之值與方位，並繪製圖\n−  −\n形表示。（25分）\nσ +σ σ -σ 2\n（提示：σ = x y± ( x y) +τ2 ）\n1,2 xy\n2 2\n\u0000",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "5dd3868cd10b",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "510",
+          "s": "1704",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "材料力學與結構學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-4ece01bd-0037",
+      "exam_id": "islands-4ece01bd",
+      "question_type": "essay",
+      "question": "如圖所示，一簡支梁長度為L=4 m。梁之截面為矩形，截面高度h=400 mm。\n梁上承受兩集中載重，其值P=5 kN。\n試繪出該梁之剪力圖與彎矩圖。（10分）\n在不計自重之情況下，且已知材料之容許彎曲正向應力為10 MPa，容\n許剪應力為0.8 MPa，試求為確保梁之強度符合安全要求時，其矩形斷\n面寬度 b 應取為何值？（15分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "5dd3868cd10b",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "510",
+          "s": "1704",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "材料力學與結構學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-4ece01bd-0038",
+      "exam_id": "islands-4ece01bd",
+      "question_type": "essay",
+      "question": "如圖所示，一外伸簡支梁 ABC，A 端為鉸支承，B 端為滾支承，C 端為\n自由端。梁段 AB 與 BC 之長度分別為5 m與3 m，撓曲剛度為常數 EI。\n全梁受均佈載重q 8 kN/m作用。試以共軛梁法（Conjugate Beam\nMethod）求出：\n=\n鉸支承 A端之傾角。（10 分）\n自由端 C之垂直位移。（15分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "5dd3868cd10b",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "510",
+          "s": "1704",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "材料力學與結構學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-4ece01bd-0039",
+      "exam_id": "islands-4ece01bd",
+      "question_type": "essay",
+      "question": "如遇緊急或特殊工程為使混凝土能快速製造生產，進而縮短工期，請詳\n述提高混凝土之早期強度策略及注意事項為何？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "71a3c3375bed",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "510",
+          "s": "1707",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "營建管理與工程材料",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-4ece01bd-0040",
+      "exam_id": "islands-4ece01bd",
+      "question_type": "essay",
+      "question": "公共工程工期管理是契約履約中的重要環節，若未能如期完工可能帶來\n那些影響？請詳述造成工程進度延誤之可能原因。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "71a3c3375bed",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "510",
+          "s": "1707",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "營建管理與工程材料",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-4ece01bd-0041",
+      "exam_id": "islands-4ece01bd",
+      "question_type": "essay",
+      "question": "一般施工圖說為工程合約之內容，土木工程必備之依據文件，試詳述施\n工圖說制定應注意事項及其功用。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "71a3c3375bed",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "510",
+          "s": "1707",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "營建管理與工程材料",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-4ece01bd-0042",
+      "exam_id": "islands-4ece01bd",
+      "question_type": "essay",
+      "question": "請詳述混凝土配比設計採用高水泥量有何缺點？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "71a3c3375bed",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "510",
+          "s": "1707",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "營建管理與工程材料",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-4ece01bd-0043",
+      "exam_id": "islands-4ece01bd",
+      "question_type": "essay",
+      "question": "一單向版配置 D10 鋼筋（d  = 0.96 cm，A  = 0.71 cm2，f  = 4200 kgf/cm2），\nb b y\n混凝土強度f ' = 280 kgf/cm2，版厚 15 cm，有效深度12 cm，此版在受力\nc\n方向某斷面所承受之設計彎矩 M 為 0.8 tf-m，試求此版在該斷面處之最\nu\n少鋼筋量。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "e804eb3037a4",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "510",
+          "s": "1706",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "鋼筋混凝土學與設計",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-4ece01bd-0044",
+      "exam_id": "islands-4ece01bd",
+      "question_type": "essay",
+      "question": "有一梁斷面寬 b = 35 cm，梁深 h = 55 cm，有效深度d = 48 cm，配置 D13\n箍筋，間距 S = 15 cm，此梁承受靜載重剪力 V  = 8 tf，試問其所能承受\nD\n之最大活載重剪力 V 為何？已知混凝土抗壓強度 f ' = 280 kgf/cm2，箍\nL c\n筋降伏應力f  = 4200 kgf/cm2，D13：d = 1.27 cm，A = 1.27 cm2。（25分）\ny b  b",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "e804eb3037a4",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "510",
+          "s": "1706",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "鋼筋混凝土學與設計",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-4ece01bd-0045",
+      "exam_id": "islands-4ece01bd",
+      "question_type": "essay",
+      "question": "一單筋矩形梁斷面寬度 b = 50 cm，有效深度 d = 63 cm，配置 4-D32\n拉力筋，箍筋採用D13。試求此梁的標稱彎矩強度M 。已知混凝土強度\nn\nf ' = 280 kgf/cm2，鋼筋降伏強度 f  = 4200 kgf/cm2，D32：d = 3.22 cm，\nc y b\nA = 8.14 cm2。（25 分）\nb",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "e804eb3037a4",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "510",
+          "s": "1706",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "鋼筋混凝土學與設計",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-4ece01bd-0046",
+      "exam_id": "islands-4ece01bd",
+      "question_type": "essay",
+      "question": "一懸臂鋼筋混凝土梁，跨度 3 m，梁寬 b = 40 cm，有效深度 d = 53 cm。\n承受均布靜載重w = 1.5 tf/m（含梁自重），均布活載重 w = 2.5 tf/m。\nD  L\n試求不需配置剪力鋼筋範圍，以及可配置最少剪力鋼筋量的最大範圍。\n材料使用混凝土強度 280 kgf/cm2，剪力筋降伏強度 f  = 2800 kgf/cm2，\ny\n剪力筋使用 D13：d = 1.27 cm，A = 1.27 cm2。（25 分）\nb  b",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:55+00:00",
+        "source_pdf_sha1": "e804eb3037a4",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "510",
+          "s": "1706",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "鋼筋混凝土學與設計",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "slug": "customs-f19eb2bd",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:22:28+00:00",
+  "paper_count": 12,
+  "paper_with_questions": 12,
+  "question_count": 601,
+  "type_counts": {
+    "single_choice": 601
+  },
+  "issues": []
+}

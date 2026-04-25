@@ -1,0 +1,43 @@
+-- W1.6 questions batch 9230/9310 (10)
+
+INSERT INTO public.questions (id, exam_id, paper_id, subject_id, chapter_id, question_type, question_text, options, correct_answer, correct_answer_json, auto_gradable, source, is_active, version, source_meta, explanation)
+VALUES
+  ('retired-8b44517b-moex-00100', 'retired-8b44517b', 'retired-8b44517b-moex-114-3082b5f1', 'sub-retired-8b44517b-06', NULL, 'single_choice', '關於行政損失補償之敘述，下列何者正確？', '["警察不當使用警械，因此對人民所生之財產填補應屬於損失補償", "合法行政處分之廢止，乃是基於公益之追求，無損失補償之問題", "對消防人員破門救火行為所為之補償，屬於合法即時強制行為之損失補償，其補償以金錢為限", "行政私法行為在追求公共任務之履行，故亦有可能成立損失補償"]'::jsonb, 2, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:27:05+00:00", "source_pdf_sha1": "08231c21eb42", "answer_pdf_sha1": "647b6f5bbf6b", "source_family": "moex-gov-tw", "moex": {"exam_code": "114060", "c": "133", "s": "0403", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "行政法", "year": "114", "exam_name": "114年公務人員特種考試警察人員考試、一般警察人員考試、國家安全情報人員考試、移民行政人員考試、退除役軍人轉任公務人員考試", "original_question_number": 25, "answer_corrected": false, "flags": [], "civil_slug": "retired", "civil_category": "勞工行政"}'::jsonb, NULL),
+  ('retired-8b44517b-moex-00101', 'retired-8b44517b', 'retired-8b44517b-moex-112-3535a599', 'sub-retired-8b44517b-01', NULL, 'essay', '某日，甲勞工在假日期間從事私人公司所開辦的高空飛行傘活動，因未
+遵守相關的安全措施要求而受傷，請回答下列問題：
+勞工普通傷病期間的工資為何？對於計算平均工資是否會產生影
+響？（8分）
+勞工普通傷病的工資請求權是否亦採取無過失責任主義（即不考慮勞
+工是否有故意或過失）？（8分）
+甲勞工在普通傷病期間，雇主得否以其無工作能力為由解僱之？（9分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:27:05+00:00", "source_pdf_sha1": "7287012ffc68", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "112070", "c": "133", "s": "1103", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "勞工行政與勞工立法", "year": "112", "exam_name": "112年公務人員特種考試警察人員考試、一般警察人員考試、國家安全情報人員考試、交通事業鐵路人員考試、退除役軍人轉任公務人員考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "civil_slug": "retired", "civil_category": "勞工行政"}'::jsonb, NULL),
+  ('retired-8b44517b-moex-00102', 'retired-8b44517b', 'retired-8b44517b-moex-112-3535a599', 'sub-retired-8b44517b-01', NULL, 'essay', '我國對於女性勞工有各種的保障，請回答下列問題：
+請列出勞動基準法及性別工作平等法有關工資平等對待的規定。（8分）
+雇主得否以勞工請育嬰留職停薪假為由，而與替代工作者訂立定期勞
+動契約？（8分）
+女性勞工得否夜間工作？勞動基準法的規定及大法官會議解釋的見
+解為何？（9分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:27:05+00:00", "source_pdf_sha1": "7287012ffc68", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "112070", "c": "133", "s": "1103", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "勞工行政與勞工立法", "year": "112", "exam_name": "112年公務人員特種考試警察人員考試、一般警察人員考試、國家安全情報人員考試、交通事業鐵路人員考試、退除役軍人轉任公務人員考試", "original_question_number": "二", "answer_corrected": false, "flags": [], "civil_slug": "retired", "civil_category": "勞工行政"}'::jsonb, NULL),
+  ('retired-8b44517b-moex-00103', 'retired-8b44517b', 'retired-8b44517b-moex-112-3535a599', 'sub-retired-8b44517b-01', NULL, 'essay', '有關勞資爭議處理法之仲裁，請回答下列問題：
+仲裁委員會是否為專業委員會？理由為何？專業委員會所做判斷對
+於法院是否具有拘束力？（9分）
+何謂一方申請仲裁？其適用的案例為何？（8分）
+仲裁判斷的法律效力為何？（8 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:27:05+00:00", "source_pdf_sha1": "7287012ffc68", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "112070", "c": "133", "s": "1103", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "勞工行政與勞工立法", "year": "112", "exam_name": "112年公務人員特種考試警察人員考試、一般警察人員考試、國家安全情報人員考試、交通事業鐵路人員考試、退除役軍人轉任公務人員考試", "original_question_number": "三", "answer_corrected": false, "flags": [], "civil_slug": "retired", "civil_category": "勞工行政"}'::jsonb, NULL),
+  ('retired-8b44517b-moex-00104', 'retired-8b44517b', 'retired-8b44517b-moex-112-3535a599', 'sub-retired-8b44517b-01', NULL, 'essay', '針對勞工與雇主間之勞動訴訟，請回答下列問題：
+勞動事件法所規定之勞動事件的範圍有那些？又，何謂勞動習慣？（8分）
+何謂調解前置主義？是否亦包括勞資爭議處理法針對權利事項之爭
+議，應先經行政調解程序？（9分）
+目前為輔助勞工與雇主進行勞動訴訟，所給予的扶助，其法律規定及
+行政命令為何？（8 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:27:05+00:00", "source_pdf_sha1": "7287012ffc68", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "112070", "c": "133", "s": "1103", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "勞工行政與勞工立法", "year": "112", "exam_name": "112年公務人員特種考試警察人員考試、一般警察人員考試、國家安全情報人員考試、交通事業鐵路人員考試、退除役軍人轉任公務人員考試", "original_question_number": "四", "answer_corrected": false, "flags": [], "civil_slug": "retired", "civil_category": "勞工行政"}'::jsonb, NULL),
+  ('retired-8b44517b-moex-00105', 'retired-8b44517b', 'retired-8b44517b-moex-112-ad750edf', 'sub-retired-8b44517b-02', NULL, 'essay', '國內籌組勞資會議的比率正逐年提升，請問勞資會議有那些相關的功
+能？事業單位籌組勞資會議，對於國內既有的勞資關係會產生那些影
+響？（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:27:05+00:00", "source_pdf_sha1": "c7faaa55e0d4", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "112070", "c": "133", "s": "1101", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "勞資關係", "year": "112", "exam_name": "112年公務人員特種考試警察人員考試、一般警察人員考試、國家安全情報人員考試、交通事業鐵路人員考試、退除役軍人轉任公務人員考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "civil_slug": "retired", "civil_category": "勞工行政"}'::jsonb, NULL),
+  ('retired-8b44517b-moex-00106', 'retired-8b44517b', 'retired-8b44517b-moex-112-ad750edf', 'sub-retired-8b44517b-02', NULL, 'essay', '因為勞動彈性化的發展引發許多勞資爭議，對於國內勞動體制下的勞資
+關係產生了那些衝擊與挑戰？又如何進行改善？（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:27:05+00:00", "source_pdf_sha1": "c7faaa55e0d4", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "112070", "c": "133", "s": "1101", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "勞資關係", "year": "112", "exam_name": "112年公務人員特種考試警察人員考試、一般警察人員考試、國家安全情報人員考試、交通事業鐵路人員考試、退除役軍人轉任公務人員考試", "original_question_number": "二", "answer_corrected": false, "flags": [], "civil_slug": "retired", "civil_category": "勞工行政"}'::jsonb, NULL),
+  ('retired-8b44517b-moex-00107', 'retired-8b44517b', 'retired-8b44517b-moex-112-ad750edf', 'sub-retired-8b44517b-02', NULL, 'essay', '全球疫情持續的發展下，促使職場事業單位逐漸開啟「遠距或在家工作」
+之勞動參與模式。上述工作參與模式因疫情促發之積極轉變，未來將對
+國內、外的勞資關係產生何種影響？國內又如何進行因應？（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:27:05+00:00", "source_pdf_sha1": "c7faaa55e0d4", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "112070", "c": "133", "s": "1101", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "勞資關係", "year": "112", "exam_name": "112年公務人員特種考試警察人員考試、一般警察人員考試、國家安全情報人員考試、交通事業鐵路人員考試、退除役軍人轉任公務人員考試", "original_question_number": "三", "answer_corrected": false, "flags": [], "civil_slug": "retired", "civil_category": "勞工行政"}'::jsonb, NULL),
+  ('retired-8b44517b-moex-00108', 'retired-8b44517b', 'retired-8b44517b-moex-112-ad750edf', 'sub-retired-8b44517b-02', NULL, 'essay', '某網路書店於 2022 年底被爆出疑以「假承攬、真僱傭」爭議，解僱一位
+年資 20年的清潔服務人員，不僅沒有給付資遣費或退休金，也未幫她投
+保勞健保且沒有給與三節禮金。請從勞資關係角度分析此事件需要改善
+之重要方向？（25 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:27:05+00:00", "source_pdf_sha1": "c7faaa55e0d4", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "112070", "c": "133", "s": "1101", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "勞資關係", "year": "112", "exam_name": "112年公務人員特種考試警察人員考試、一般警察人員考試、國家安全情報人員考試、交通事業鐵路人員考試、退除役軍人轉任公務人員考試", "original_question_number": "四", "answer_corrected": false, "flags": [], "civil_slug": "retired", "civil_category": "勞工行政"}'::jsonb, NULL),
+  ('retired-8b44517b-moex-00109', 'retired-8b44517b', 'retired-8b44517b-moex-112-13504c0c', 'sub-retired-8b44517b-03', NULL, 'single_choice', '下列文句「」中的成語，何者使用正確？', '["今天氣溫驟降，乍暖還寒，他雖已穿上外套，仍然覺得「不寒而慄」", "疫情趨緩，管制措施取消，週末遊樂場重新開放，人潮「不絕如縷」", "全面網路教學，不像在教室上課，老師可以直接對學生「移樽就教」", "網路上有各種消息與傳聞，需仔細辨明查證，是否只是「空穴來風」"]'::jsonb, 3, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:27:05+00:00", "source_pdf_sha1": "12b40987f5c4", "answer_pdf_sha1": "0ddd4b93b580", "source_family": "moex-gov-tw", "moex": {"exam_code": "112070", "c": "133", "s": "0101", "q": "1"}, "raw_section_label": "本試題為單一選擇題", "subject": "國文(作文與測驗)", "year": "112", "exam_name": "112年公務人員特種考試警察人員考試、一般警察人員考試、國家安全情報人員考試、交通事業鐵路人員考試、退除役軍人轉任公務人員考試", "original_question_number": 1, "answer_corrected": false, "flags": [], "civil_slug": "retired", "civil_category": "勞工行政"}'::jsonb, NULL)
+ON CONFLICT (id) DO NOTHING;

@@ -1,0 +1,40 @@
+-- W1.6 questions batch 6611/9310 (10)
+
+INSERT INTO public.questions (id, exam_id, paper_id, subject_id, chapter_id, question_type, question_text, options, correct_answer, correct_answer_json, auto_gradable, source, is_active, version, source_meta, explanation)
+VALUES
+  ('locality-64311456-moex-00181', 'locality-64311456', 'locality-64311456-moex-110-d2552697', 'sub-locality-64311456-05', NULL, 'essay', '社會福利的供給來源包括政府部門、商業部門、志願部門和非正式部門。
+這四個部門在福利供給上各自的優、缺點為何？又在新右派、社會民主、
+第三條路的意識形態之下，此四部門所分別呈現的社會福利分工樣貌
+為何？（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:34:56+00:00", "source_pdf_sha1": "3b58cd385e06", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "110190", "c": "304", "s": "1105", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "社會政策與社會立法", "year": "110", "exam_name": "110年特種考試地方政府公務人員考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "社會行政"}'::jsonb, NULL),
+  ('locality-64311456-moex-00182', 'locality-64311456', 'locality-64311456-moex-110-d2552697', 'sub-locality-64311456-05', NULL, 'essay', '社會福利政策中對於特定族群有「積極性差別待遇」（Positive
+Discrimination）或稱「肯定行動」（AffirmativeAction）的實施。試說明
+此策略的理論基礎為何？並請就「身心障礙者權益保障法」中關於身心
+障礙者就業權益的規定，論述此策略的執行與成效。（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:34:56+00:00", "source_pdf_sha1": "3b58cd385e06", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "110190", "c": "304", "s": "1105", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "社會政策與社會立法", "year": "110", "exam_name": "110年特種考試地方政府公務人員考試", "original_question_number": "二", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "社會行政"}'::jsonb, NULL),
+  ('locality-64311456-moex-00183', 'locality-64311456', 'locality-64311456-moex-110-d2552697', 'sub-locality-64311456-05', NULL, 'essay', '對於低收入戶與中低收入戶有工作能力者的就業服務，有賴社政單位及
+勞政單位的聯繫合作。試論述在此過程中，社政單位與勞政單位所扮演
+的角色與功能為何？又兩者如何建立聯繫合作的模式？（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:34:56+00:00", "source_pdf_sha1": "3b58cd385e06", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "110190", "c": "304", "s": "1105", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "社會政策與社會立法", "year": "110", "exam_name": "110年特種考試地方政府公務人員考試", "original_question_number": "三", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "社會行政"}'::jsonb, NULL),
+  ('locality-64311456-moex-00184', 'locality-64311456', 'locality-64311456-moex-110-d2552697', 'sub-locality-64311456-05', NULL, 'essay', '請依據「國民年金法」，說明：⑴為何該法稱為「國民年金法」，而不稱
+為「國民年金保險法」？⑵該法對被保險人申請減領保險給付的規定為
+何？為何有此規定？⑶什麼是國民年金保險十年大限？對被保險人有
+何影響？（25 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:34:56+00:00", "source_pdf_sha1": "3b58cd385e06", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "110190", "c": "304", "s": "1105", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "社會政策與社會立法", "year": "110", "exam_name": "110年特種考試地方政府公務人員考試", "original_question_number": "四", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "社會行政"}'::jsonb, NULL),
+  ('locality-64311456-moex-00185', 'locality-64311456', 'locality-64311456-moex-110-fe8ac0f4', 'sub-locality-64311456-06', NULL, 'essay', '「匿名」與「保密」是研究倫理中相當重要的原則，對於一些受污名化群
+體而言更是至關緊要，應避免此類研究參與者因身分曝光而受到困擾、
+甚至傷害。請先說明「匿名」與「保密」概念並比較其差異，再以任一
+受污名化群體為例，具體說明如何落實「匿名」與「保密」。（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:34:56+00:00", "source_pdf_sha1": "df3e2c33d778", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "110190", "c": "304", "s": "1110", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "社會研究法", "year": "110", "exam_name": "110年特種考試地方政府公務人員考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "社會行政"}'::jsonb, NULL),
+  ('locality-64311456-moex-00186', 'locality-64311456', 'locality-64311456-moex-110-fe8ac0f4', 'sub-locality-64311456-06', NULL, 'essay', '抽樣方式之選擇應該基於研究議題與研究對象之特殊性與研究目的等
+考量，必要時採取特定之非隨機取樣來選取具有某種特性之個體作為研
+究對象反而更為適宜。請針對非隨機取樣方法中之「配額取樣」與「滾
+雪球取樣」，先說明其抽樣概念，並分別具體說明其適用時機與操作方
+式。（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:34:56+00:00", "source_pdf_sha1": "df3e2c33d778", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "110190", "c": "304", "s": "1110", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "社會研究法", "year": "110", "exam_name": "110年特種考試地方政府公務人員考試", "original_question_number": "二", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "社會行政"}'::jsonb, NULL),
+  ('locality-64311456-moex-00187', 'locality-64311456', 'locality-64311456-moex-110-fe8ac0f4', 'sub-locality-64311456-06', NULL, 'essay', '行動研究（actionresearch）是一種強調實務投入的研究方法，其特色乃
+植基於自我反省的螺旋性循環歷程。請說明行動研究之「螺旋性循環」
+概念以及其研究步驟。（25 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:34:56+00:00", "source_pdf_sha1": "df3e2c33d778", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "110190", "c": "304", "s": "1110", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "社會研究法", "year": "110", "exam_name": "110年特種考試地方政府公務人員考試", "original_question_number": "三", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "社會行政"}'::jsonb, NULL),
+  ('locality-64311456-moex-00188', 'locality-64311456', 'locality-64311456-moex-110-fe8ac0f4', 'sub-locality-64311456-06', NULL, 'essay', '質化資料整理之編碼（coding）作業，時常運用「開放編碼」（open
+coding）、「主軸編碼」（axialcoding）與「選擇編碼」（selectivecoding）
+來進行資料整理分析，請分別說明這三種編碼類型之基本概念與作法。
+（25 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:34:56+00:00", "source_pdf_sha1": "df3e2c33d778", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "110190", "c": "304", "s": "1110", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "社會研究法", "year": "110", "exam_name": "110年特種考試地方政府公務人員考試", "original_question_number": "四", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "社會行政"}'::jsonb, NULL),
+  ('locality-64311456-moex-00189', 'locality-64311456', 'locality-64311456-moex-110-d44949ff', 'sub-locality-64311456-07', NULL, 'essay', '立法院於今年通過「長期照顧服務法」部分條文修正案，此次修法共計
+17 條。請說明最新修法的主要重點為何？（25 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:34:56+00:00", "source_pdf_sha1": "592f31dfe6ea", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "110190", "c": "304", "s": "1109", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "社會福利服務", "year": "110", "exam_name": "110年特種考試地方政府公務人員考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "社會行政"}'::jsonb, NULL),
+  ('locality-64311456-moex-00190', 'locality-64311456', 'locality-64311456-moex-110-d44949ff', 'sub-locality-64311456-07', NULL, 'essay', '試從涵蓋對象、資格條件、財源經費及福利功能等四個項目，說明社會
+保險、社會救助及社會津貼的制度內涵。（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:34:56+00:00", "source_pdf_sha1": "592f31dfe6ea", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "110190", "c": "304", "s": "1109", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "社會福利服務", "year": "110", "exam_name": "110年特種考試地方政府公務人員考試", "original_question_number": "二", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "社會行政"}'::jsonb, NULL)
+ON CONFLICT (id) DO NOTHING;

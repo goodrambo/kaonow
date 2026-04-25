@@ -1,0 +1,30 @@
+{
+  "slug": "aboriginal-8b44517b",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:38:14+00:00",
+  "paper_count": 4,
+  "paper_with_questions": 4,
+  "question_count": 108,
+  "type_counts": {
+    "essay": 8,
+    "single_choice": 100
+  },
+  "issues": [
+    {
+      "year": "110",
+      "subject": "勞資關係概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "就業安全制度概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    }
+  ]
+}

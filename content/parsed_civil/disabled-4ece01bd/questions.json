@@ -1,0 +1,2432 @@
+{
+  "slug": "disabled-4ece01bd",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:38:24+00:00",
+  "paper_count": 10,
+  "paper_with_questions": 10,
+  "question_count": 66,
+  "type_counts": {
+    "essay": 36,
+    "single_choice": 30
+  },
+  "papers": [
+    {
+      "year": "114",
+      "exam_code": "114040",
+      "c": "411",
+      "s": "1507",
+      "q": "1",
+      "subject": "土木施工學概要",
+      "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "96263dacd283",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "114",
+      "exam_code": "114040",
+      "c": "411",
+      "s": "0104",
+      "q": "1",
+      "subject": "基礎能力測驗(作文、中華民國憲法及法學緒論)",
+      "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "285bae6995ae",
+      "a_pdf_sha1": "96a597fd4e3a",
+      "format_detected": "pure_mc",
+      "raw_question_count": 30,
+      "answer_qnums_extracted": 30,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 30,
+      "skipped_count": 0
+    },
+    {
+      "year": "114",
+      "exam_code": "114040",
+      "c": "411",
+      "s": "1505",
+      "q": "1",
+      "subject": "測量學概要",
+      "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "c78196ab56f7",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "113",
+      "exam_code": "113040",
+      "c": "411",
+      "s": "1708",
+      "q": "1",
+      "subject": "土木施工學概要",
+      "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "dbb113e9244d",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "113",
+      "exam_code": "113040",
+      "c": "411",
+      "s": "1706",
+      "q": "1",
+      "subject": "測量學概要",
+      "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "0f03c189892d",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "113",
+      "exam_code": "113040",
+      "c": "411",
+      "s": "1707",
+      "q": "1",
+      "subject": "結構學概要與鋼筋混凝土學概要",
+      "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "9e62b3e69e89",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "112",
+      "exam_code": "112050",
+      "c": "408",
+      "s": "1708",
+      "q": "1",
+      "subject": "土木施工學概要",
+      "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "574dae83bf6b",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "112",
+      "exam_code": "112050",
+      "c": "408",
+      "s": "1709",
+      "q": "1",
+      "subject": "工程力學概要",
+      "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "a28dd6c2c032",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "112",
+      "exam_code": "112050",
+      "c": "408",
+      "s": "1706",
+      "q": "1",
+      "subject": "測量學概要",
+      "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "bf0c953872e1",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "112",
+      "exam_code": "112050",
+      "c": "408",
+      "s": "1707",
+      "q": "1",
+      "subject": "結構學概要與鋼筋混凝土學概要",
+      "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "eb8392c3ef2f",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    }
+  ],
+  "questions": [
+    {
+      "id": "disabled-4ece01bd-0001",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "essay",
+      "question": "請列舉並說明三種適用於不同地質條件之基礎施工機械，並比較其適用範\n圍與特性。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:23+00:00",
+        "source_pdf_sha1": "96263dacd283",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "411",
+          "s": "1507",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "土木施工學概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0002",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "essay",
+      "question": "試述「關鍵路徑法（CPM）」與「計畫評核術（PERT）」的基本概念，並\n舉例說明兩者在施工管理中的主要應用情境。另分析 CPM 與 PERT 在施\n工時程管理中的優勢與限制。（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:23+00:00",
+        "source_pdf_sha1": "96263dacd283",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "411",
+          "s": "1507",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "土木施工學概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0003",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "essay",
+      "question": "橋梁工程施工可依橋型、結構材料與施工方式分類，試述這些分類方式，\n並說明各類施工方式的基本原理。（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:23+00:00",
+        "source_pdf_sha1": "96263dacd283",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "411",
+          "s": "1507",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "土木施工學概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0004",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "essay",
+      "question": "試述給水工程與污水工程的主要施工項目，並說明兩者在施工時應注意之\n重點。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:23+00:00",
+        "source_pdf_sha1": "96263dacd283",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "411",
+          "s": "1507",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "土木施工學概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0005",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "single_choice",
+      "question": "依憲法第1條，我國之國家形式為共和國，其特徵為何？",
+      "options": [
+        "憲政體制為總統制",
+        "國會為兩院制",
+        "國家元首由選舉產生且有一定任期",
+        "國家元首即國家最高行政首長"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:23+00:00",
+        "source_pdf_sha1": "285bae6995ae",
+        "answer_pdf_sha1": "96a597fd4e3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "411",
+          "s": "0104",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗(作文、中華民國憲法及法學緒論)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0006",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "single_choice",
+      "question": "依據憲法增修條文規定，國家對於社會救助和國民就業等救濟性支出，在 編列預算時應為如何之處理？",
+      "options": [
+        "應優先編列",
+        "應逐年增加預算",
+        "不得少於預算總額百分之二十",
+        "憲法增修條文對此並無規定"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:23+00:00",
+        "source_pdf_sha1": "285bae6995ae",
+        "answer_pdf_sha1": "96a597fd4e3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "411",
+          "s": "0104",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗(作文、中華民國憲法及法學緒論)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0007",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "single_choice",
+      "question": "依司法院大法官解釋，有關集會遊行自由，下列敘述何者錯誤？",
+      "options": [
+        "於集會遊行中不得高舉主張共產主義之標語",
+        "於集會遊行中不得攜帶刀械棍棒",
+        "主管機關不得僅因申請遊行團體主張分裂國土即不予許可",
+        "偶發性之集會遊行不受事前申請之限制"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:23+00:00",
+        "source_pdf_sha1": "285bae6995ae",
+        "answer_pdf_sha1": "96a597fd4e3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "411",
+          "s": "0104",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗(作文、中華民國憲法及法學緒論)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0008",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "single_choice",
+      "question": "依司法院釋字第 468 號，有關總統副總統選舉罷免，下列敘述何者錯誤？",
+      "options": [
+        "總統副總統選舉罷免法規定之連署制度，可表達被連署人有相當程度之 政治支持，藉與政黨推薦候選人之要件相平衡，並防止耗費社會資源",
+        "連署人數達到法定人數2分之1以上時，保證金即予發還，並非對總統、 副總統被選舉權之不當限制，保證金額亦未逾越立法裁量範圍",
+        "總統副總統選舉連署及查核辦法中，關於書件不全、不符規定或保證金 不足者，中選會應拒絕受理其申請之規定，業已違反比例原則",
+        "立法機關得制定法律，就總統、副總統之選舉程序，為公平合理之規範； 如未逾越必要限制，即不侵害憲法上保障之選舉權及被選舉權"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:23+00:00",
+        "source_pdf_sha1": "285bae6995ae",
+        "answer_pdf_sha1": "96a597fd4e3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "411",
+          "s": "0104",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗(作文、中華民國憲法及法學緒論)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0009",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "single_choice",
+      "question": "依司法院釋字第 490 號，兵役法所定服兵役義務與憲法第 13 條保障宗教 信仰自由之意旨相符，下列敘述何者錯誤？",
+      "options": [
+        "兵役法規定係為實踐憲法上人民之基本義務",
+        "為保障人民之宗教信仰自由，立法者應設置替代役制度",
+        "服兵役義務規定非為助長、促進或限制宗教而設",
+        "服兵役義務之目的係為保護人民，防衛國家之安全"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:23+00:00",
+        "source_pdf_sha1": "285bae6995ae",
+        "answer_pdf_sha1": "96a597fd4e3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "411",
+          "s": "0104",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗(作文、中華民國憲法及法學緒論)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0010",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "single_choice",
+      "question": "司法院大法官解釋或憲法法庭判決已經承認之憲法第 22 條非明文權利， 不包括下列何者？",
+      "options": [
+        "受國民教育以外教育之權利",
+        "罹患重症末期瀕死，痛苦難以忍受之病人，請求醫師協助終止生命之 權利",
+        "同性別二人成立排他永久親密關係之權利",
+        "原住民依據所屬之民族、部落傳統，從事狩獵之權利"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:23+00:00",
+        "source_pdf_sha1": "285bae6995ae",
+        "answer_pdf_sha1": "96a597fd4e3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "411",
+          "s": "0104",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗(作文、中華民國憲法及法學緒論)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0011",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "single_choice",
+      "question": "大學生受憲法保障之受教育權，係源自於憲法那一條之規定？",
+      "options": [
+        "憲法第22條之非明文權利",
+        "憲法第21條之受國民教育權",
+        "憲法第15條之工作權",
+        "憲法第11條之學習自由"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:23+00:00",
+        "source_pdf_sha1": "285bae6995ae",
+        "answer_pdf_sha1": "96a597fd4e3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "411",
+          "s": "0104",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗(作文、中華民國憲法及法學緒論)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0012",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "single_choice",
+      "question": "依司法院大法官解釋及憲法法庭判決，下列何者並非立法院之職權範圍？",
+      "options": [
+        "制定法律規定公務員免職事由及其應遵循之正當法律程序，並給予被免 職之公務員得依法請求司法救濟",
+        "對於重大政策之爭議，認為有由人民直接決定之必要者，得制定法律， 交付公民投票",
+        "立法規定獨立行政機關之人事提名，由立法院各政黨（團）依其在立法 院所占席次比例推薦產生",
+        "邀請參謀總長到立法院委員會備詢"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:23+00:00",
+        "source_pdf_sha1": "285bae6995ae",
+        "answer_pdf_sha1": "96a597fd4e3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "411",
+          "s": "0104",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗(作文、中華民國憲法及法學緒論)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0013",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "single_choice",
+      "question": "依司法院大法官解釋及憲法法庭判決意旨，下列何者非屬對人民職業選擇 自由所為之主觀條件限制？",
+      "options": [
+        "大學教師因未通過評鑑，而遭受不予續聘或資遣等決定",
+        "公務員於其離職後3年內，不得擔任與其離職前5年內之職務直接相關 之營利事業董事",
+        "計程車駕駛人於執業期中犯特定之罪而經法院判決有期徒刑以上之刑 確定者，廢止其職業登記",
+        "禁止非視障者從事按摩業"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:23+00:00",
+        "source_pdf_sha1": "285bae6995ae",
+        "answer_pdf_sha1": "96a597fd4e3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "411",
+          "s": "0104",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗(作文、中華民國憲法及法學緒論)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0014",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "single_choice",
+      "question": "依司法院大法官解釋意旨，下列關於居住自由及遷徙自由之敘述，何者 錯誤？",
+      "options": [
+        "居住及遷徙之自由，旨在保障人民有自由設定住居所、遷徙、旅行，以 及出境或入境之權利",
+        "對人民遷徙自由之限制，可以視規範對象是否為臺灣地區有戶籍人民、 僑居國外或居住港澳等地區之人民，而有不同差別之對待",
+        "對於人民遷徙自由之限制事關重大，必須由法律自行規定，不得授權由 行政機關以行政命令定之",
+        "警察執行臨檢勤務之處所如為私人居住之空間者，應受到與住宅相同之 保障"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:23+00:00",
+        "source_pdf_sha1": "285bae6995ae",
+        "answer_pdf_sha1": "96a597fd4e3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "411",
+          "s": "0104",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗(作文、中華民國憲法及法學緒論)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0015",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "single_choice",
+      "question": "關於行政院對立法院負責之規定，下列敘述何者正確？",
+      "options": [
+        "立法委員在開會時，有向行政院院長、行政院各部會首長及不管部會之 政務委員質詢之權",
+        "行政院於會計年度結束後4個月內，應提出決算於立法院",
+        "立法院對於行政院提出之覆議案逾期未議決者，視為維持原決議，行政 院院長應即接受",
+        "行政院對於立法院決議之條約案，如認為有窒礙難行時，得經總統之核 可，於該決議案送達行政院10日內，移請立法院覆議"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:23+00:00",
+        "source_pdf_sha1": "285bae6995ae",
+        "answer_pdf_sha1": "96a597fd4e3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "411",
+          "s": "0104",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗(作文、中華民國憲法及法學緒論)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 11,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0016",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "single_choice",
+      "question": "社會秩序維護法第 89 條第 2 款規定，無正當理由，跟追他人，經勸阻不 聽者，處新臺幣 3000 元以下罰鍰或申誡。依司法院大法官解釋，下列何 者並非該規定所保護之被跟追人權利？",
+      "options": [
+        "隱私權",
+        "身體權",
+        "行動自由",
+        "新聞自由"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:23+00:00",
+        "source_pdf_sha1": "285bae6995ae",
+        "answer_pdf_sha1": "96a597fd4e3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "411",
+          "s": "0104",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗(作文、中華民國憲法及法學緒論)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 12,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0017",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "single_choice",
+      "question": "下列何者並非憲法訴訟法規定由憲法法庭審理之案件？",
+      "options": [
+        "法規範憲法審查",
+        "地方自治保障案件",
+        "政黨違憲解散案件",
+        "行政院院長彈劾案件"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:23+00:00",
+        "source_pdf_sha1": "285bae6995ae",
+        "answer_pdf_sha1": "96a597fd4e3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "411",
+          "s": "0104",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗(作文、中華民國憲法及法學緒論)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 13,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0018",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "single_choice",
+      "question": "依憲法及增修條文規定，關於司法院大法官，下列敘述何者正確？",
+      "options": [
+        "憲法第 80 條法官依據法律獨立審判，不受任何干涉，並不適用於大 法官",
+        "大法官任期8年，得連任1次",
+        "立法院刪除司法院大法官支領司法人員專業加給之預算，牴觸憲法第81 條之待遇保障",
+        "司法院院長不得兼任大法官"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:23+00:00",
+        "source_pdf_sha1": "285bae6995ae",
+        "answer_pdf_sha1": "96a597fd4e3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "411",
+          "s": "0104",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗(作文、中華民國憲法及法學緒論)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 14,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0019",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "single_choice",
+      "question": "憲法及增修條文所定地方自治團體之自治事項，下列何者係由法律形成？",
+      "options": [
+        "省",
+        "縣（市）",
+        "鄉（鎮、市）",
+        "直轄市"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:23+00:00",
+        "source_pdf_sha1": "285bae6995ae",
+        "answer_pdf_sha1": "96a597fd4e3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "411",
+          "s": "0104",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗(作文、中華民國憲法及法學緒論)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 15,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0020",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "single_choice",
+      "question": "政府向民眾宣導請多吃某一水果以協助農民。請問此一行為的法律性質 為何？",
+      "options": [
+        "行政處分",
+        "行政契約",
+        "行政命令",
+        "行政指導"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:23+00:00",
+        "source_pdf_sha1": "285bae6995ae",
+        "answer_pdf_sha1": "96a597fd4e3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "411",
+          "s": "0104",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗(作文、中華民國憲法及法學緒論)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 16,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0021",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "single_choice",
+      "question": "甲夥同友人乙共同殺害甲的父親丙，丙死亡。關於甲、乙二人的刑責，下 列敘述何者正確？",
+      "options": [
+        "甲、乙二人皆成立刑法第271條普通殺人罪",
+        "甲成立刑法第271條普通殺人罪，乙成立刑法第272條殺直系血親尊親 屬罪",
+        "甲、乙二人皆成立刑法第272條殺直系血親尊親屬罪",
+        "甲成立刑法第272條殺直系血親尊親屬罪，乙成立刑法第271條普通殺 人罪"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:23+00:00",
+        "source_pdf_sha1": "285bae6995ae",
+        "answer_pdf_sha1": "96a597fd4e3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "411",
+          "s": "0104",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗(作文、中華民國憲法及法學緒論)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 17,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0022",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "single_choice",
+      "question": "關於刑法第121條不違背職務賄賂罪與第122條違背職務賄賂罪之異同， 下列敘述何者錯誤？",
+      "options": [
+        "兩罪均要求賄賂及職務行為間有對價關係",
+        "仲裁人並非第121條之處罰對象",
+        "兩罪均不處罰過失犯",
+        "第122條違背職務賄賂罪亦處罰行賄之人"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:23+00:00",
+        "source_pdf_sha1": "285bae6995ae",
+        "answer_pdf_sha1": "96a597fd4e3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "411",
+          "s": "0104",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗(作文、中華民國憲法及法學緒論)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 18,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0023",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "single_choice",
+      "question": "下列何者並非法治國原則所要求之內容？",
+      "options": [
+        "人民應遵守法律",
+        "行政機關應遵守法律作成行政行為",
+        "法院應遵守法律作成判決",
+        "人民對於法律秩序之信賴應予保障"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:23+00:00",
+        "source_pdf_sha1": "285bae6995ae",
+        "answer_pdf_sha1": "96a597fd4e3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "411",
+          "s": "0104",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗(作文、中華民國憲法及法學緒論)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 19,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0024",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "single_choice",
+      "question": "下列關於國民法官制度所採取的原則或基本理念，何者錯誤？",
+      "options": [
+        "證據開示",
+        "卷證併送",
+        "集中審理",
+        "起訴狀一本"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:23+00:00",
+        "source_pdf_sha1": "285bae6995ae",
+        "answer_pdf_sha1": "96a597fd4e3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "411",
+          "s": "0104",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗(作文、中華民國憲法及法學緒論)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 20,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0025",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "single_choice",
+      "question": "稱法律行為者，謂以意思表示為要素，獨立發生一定私法上法律效果之行 為。下列何者並非法律行為？",
+      "options": [
+        "買賣",
+        "結婚",
+        "遺失物拾得",
+        "拋棄繼承權"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:23+00:00",
+        "source_pdf_sha1": "285bae6995ae",
+        "answer_pdf_sha1": "96a597fd4e3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "411",
+          "s": "0104",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗(作文、中華民國憲法及法學緒論)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 21,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0026",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "single_choice",
+      "question": "下列有關自然法之敘述，何者錯誤？",
+      "options": [
+        "法是人類社會才有的現象",
+        "自然界沒有法律，但人類可以透過經驗研究，找出自然界具有反覆性的 「自然律」",
+        "自然法是有關人類法律妥當性之理論，嘗試在某種自然中尋找其立論 基礎",
+        "薩維尼（Savigny）為自然法之重要代表人物之一"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:23+00:00",
+        "source_pdf_sha1": "285bae6995ae",
+        "answer_pdf_sha1": "96a597fd4e3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "411",
+          "s": "0104",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗(作文、中華民國憲法及法學緒論)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 22,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0027",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "single_choice",
+      "question": "關於緊急命令之敘述，下列何者正確？",
+      "options": [
+        "緊急命令不得牴觸法律",
+        "未經行政院會議決議之緊急命令，僅屬不影響其效力之程序瑕疵",
+        "緊急命令中不得授權執行機關為補充性規定",
+        "如立法院不同意追認緊急命令，該緊急命令立即失效"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:23+00:00",
+        "source_pdf_sha1": "285bae6995ae",
+        "answer_pdf_sha1": "96a597fd4e3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "411",
+          "s": "0104",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗(作文、中華民國憲法及法學緒論)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 23,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0028",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "single_choice",
+      "question": "民法第195條第3項規定，不法侵害他人基於子女關係之身分法益而情節 重大者，得請求賠償相當之金額。關於本條規定解釋上是否包含養子女之 爭議，若法官參酌民法第 1077 條第 1 項，「養子女與養父母及其親屬間 之關係，除法律另有規定外，與婚生子女同」之規定，而認及於養子女。 法官採取下列何種解釋方法？",
+      "options": [
+        "主觀解釋",
+        "合憲性解釋",
+        "歷史解釋",
+        "體系解釋"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:23+00:00",
+        "source_pdf_sha1": "285bae6995ae",
+        "answer_pdf_sha1": "96a597fd4e3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "411",
+          "s": "0104",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗(作文、中華民國憲法及法學緒論)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 24,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0029",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "single_choice",
+      "question": "15 歲的國中生甲就下列那一個行為，依民法規定必須事先經過其父母親 （法定代理人）的允許，始為有效？",
+      "options": [
+        "租用U-Bike騎到附近學校上課",
+        "購買一個新臺幣3萬多元的手機",
+        "週末購買電影院門票看一部輔導級電影",
+        "在校門口買便當充作午餐"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:23+00:00",
+        "source_pdf_sha1": "285bae6995ae",
+        "answer_pdf_sha1": "96a597fd4e3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "411",
+          "s": "0104",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗(作文、中華民國憲法及法學緒論)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 25,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0030",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "single_choice",
+      "question": "下列關於法定繼承人之敘述，依民法規定，何者錯誤？",
+      "options": [
+        "直系姻親相互間不能成為法定繼承人",
+        "曾祖母與曾孫女相互間得為法定繼承人",
+        "配偶得與任何順序之血親繼承人共同繼承",
+        "胎兒雖尚未出生，仍可能有法定繼承人之資格"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:23+00:00",
+        "source_pdf_sha1": "285bae6995ae",
+        "answer_pdf_sha1": "96a597fd4e3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "411",
+          "s": "0104",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗(作文、中華民國憲法及法學緒論)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 26,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0031",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "single_choice",
+      "question": "甲向乙承租乙所有之A地，並在A地上建造B屋。下列敘述何者正確？",
+      "options": [
+        "B屋因附合於A地，使乙同時取得A地與B屋之所有權",
+        "甲得以B屋設定抵押權予第三人丙",
+        "甲得以B屋設定質權予第三人丙",
+        "乙對於B屋有法定抵押權"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:23+00:00",
+        "source_pdf_sha1": "285bae6995ae",
+        "answer_pdf_sha1": "96a597fd4e3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "411",
+          "s": "0104",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗(作文、中華民國憲法及法學緒論)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 27,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0032",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "single_choice",
+      "question": "關於公司法中檢查人的規定，下列敘述何者錯誤？",
+      "options": [
+        "繼續6個月以上，持有已發行股份總數百分之一以上之股東，得檢附理 由、事證及說明其必要性，聲請法院選派檢查人",
+        "股份有限公司之創立會所選任之董事、監察人如係非由發起人當選，得 另選任檢查人調查公司設立事項",
+        "股東會於查核董事會造具之表冊、監察人之報告，得選任檢查人",
+        "繼續1年以上持有已發行股份總數百分之三以上股份之股東，請求董事 會召集股東臨時會時，該股東臨時會為調查公司業務及財產狀況，得選 任檢查人"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:23+00:00",
+        "source_pdf_sha1": "285bae6995ae",
+        "answer_pdf_sha1": "96a597fd4e3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "411",
+          "s": "0104",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗(作文、中華民國憲法及法學緒論)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 28,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0033",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "single_choice",
+      "question": "關於勞動基準法中離職後競業禁止之敘述，下列何者正確？",
+      "options": [
+        "若勞工擔任之職位或職務，能接觸或使用雇主之營業秘密，則雇主可與 勞工為離職後競業禁止之約定",
+        "依照契約自由原則，雇主不須有應受保護之正當營業利益，與勞工所為 之離職後競業禁止約定即屬有效",
+        "雇主對勞工因不從事競業行為所受損失不須有合理補償",
+        "所謂雇主對勞工因不從事競業行為所受損失之合理補償，應包括勞工於 工作期間所受領之給付"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:23+00:00",
+        "source_pdf_sha1": "285bae6995ae",
+        "answer_pdf_sha1": "96a597fd4e3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "411",
+          "s": "0104",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗(作文、中華民國憲法及法學緒論)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 29,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0034",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "single_choice",
+      "question": "下列何者不是性別平等工作法上雇主之義務？",
+      "options": [
+        "一定規模以上的企業，應訂定性騷擾防治措施",
+        "一定規模以上的企業，應訂定對性騷擾被害人損害賠償之規範",
+        "一定規模以上的企業，應提供托兒設施或適當之托兒措施",
+        "為受僱者提供各項福利措施時，不得因性別而有差別待遇"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:23+00:00",
+        "source_pdf_sha1": "285bae6995ae",
+        "answer_pdf_sha1": "96a597fd4e3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "411",
+          "s": "0104",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "基礎能力測驗(作文、中華民國憲法及法學緒論)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 30,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0035",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "essay",
+      "question": "我國相關的公務機關常使用各種不同的二維座標圖資，需要進行座標轉換處\n理，例如經由一個旋轉角、一個比例尺S、二個平移量（X ,Y ）將表1的\n0 0\n（E,N）座標轉換成（X,Y）座標，請繪圖推導寫出這一個座標轉換公式，\n並使用表 1的 A、B兩點來計算這四個參數、S、X 、Y 之數值與另外兩\n0 0\n點 1、2 的（X,Y）座標。請寫出每一個數據之度量衡單位，注意使用合宜\n的有效位數，並以度分秒（例如1020'30\"）來表示旋轉角。（25 分）\n表 1. 二維座標（E,N）、（X,Y）表\n點號 E座標 (m) N座標 (m) X座標 (m) Y座標 (m)\nA 246322.673 2608600.526 1276860.000 2289005.237\nB 261330.013 2605464.817 1289333.472 2280087.657\n1 259278.780 2600214.934\n2 255980.410 2604746.744",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:24+00:00",
+        "source_pdf_sha1": "c78196ab56f7",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "411",
+          "s": "1505",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "測量學概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0036",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "essay",
+      "question": "已知A點高程h =23.456 m，架設水準儀於P點上，施測未知點B的高程\nA\nh ，得後視水準尺讀數b =1.415m，前視B點水準尺讀數f =1.890m。\nB A B\n如果水準儀已經事先做了各項精密校正，且已無視準軸偏差，則 B點高\n程 h =？（5分）\nB\n如果後視距離 =4m，前視距離 =116m，水準儀視準軸偏高（上仰）\n30 秒，不考慮大氣折光及地球曲率，則 B 點正確高程 h =？視準軸偏\nB\nPA PB\n高（上仰）30 秒導致 B點高程h 的誤差量=？（6分）\nB\n如果後視距離 =60m，前視距離 =60m，水準儀視準軸偏高（上仰）\n30 秒，不考慮大氣折光及地球曲率，則 B 點正確高程 h =？視準軸偏\nB\nPA PB\n高（上仰）30 秒導致 B點高程h 的誤差量=？（6分）\nB\n水準儀與前後視水準尺距離相等，可以消除何種誤差？（8分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:24+00:00",
+        "source_pdf_sha1": "c78196ab56f7",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "411",
+          "s": "1505",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "測量學概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0037",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "essay",
+      "question": "在已知點 A上，架設全站儀（totalstation），完成定心、定平後，觀測未\n知點 B，得儀器高 i=1.50 m、瞄準高 z=5.00 m、縱角=123'45\"、斜距\nS=246.80m，又已知 A點高程 h =582.763m，請說明「定心」、「定平」、\nA\n「儀器高」、「瞄準高」四者的意義並計算高差 V、高程差h （=h -h ）、\nAB B A\nB 點高程h 。在此例中，「高差」等於「高程差」嗎？（25分）\nB",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:24+00:00",
+        "source_pdf_sha1": "c78196ab56f7",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "411",
+          "s": "1505",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "測量學概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0038",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "essay",
+      "question": "已知三點 A、B、C 的三維座標（E, N, H）[單位:m]分別為 A（1247.463,\n288.117,123.456）、B（1057.391,292.537,473.289）、C（873.006,426.020,\n520.468），請計算方向 的方位角、 的方位角、水平角ABC、水平距\n、方向 的天頂距。不考慮大氣折光及地球曲率，並以度分秒（例如\n\u0000B\u0000\u0000\u0000A\u0000⃗ \u0000B\u0000\u0000\u0000\u0000C⃗\n1020'30\"）來表示角度。（25 分）\nAB \u0000A\u0000\u0000\u0000B\u0000⃗",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:24+00:00",
+        "source_pdf_sha1": "c78196ab56f7",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "411",
+          "s": "1505",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "測量學概要",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0039",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "essay",
+      "question": "請說明連續壁的施工步驟。此外，於都會區進行連續壁施工時，如何保護\n工地周遭鄰房，以避免造成鄰損或更嚴重之鄰房基礎坍塌？（30分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:24+00:00",
+        "source_pdf_sha1": "dbb113e9244d",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "411",
+          "s": "1708",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "土木施工學概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0040",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "essay",
+      "question": "何謂控制性低強度回填材料（ControlledLow-StrengthMaterial）？使用控\n制性低強度回填材料對於地方政府之政策意義為何？何種道路挖掘案件\n通常不考慮使用此種材料做為回填材料？（30 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:24+00:00",
+        "source_pdf_sha1": "dbb113e9244d",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "411",
+          "s": "1708",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "土木施工學概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0041",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "essay",
+      "question": "為了降低橋梁在地震時損毀的機率，對於既有橋梁之耐震補強作業，主要\n有那些方式？在有限的預算下，面對眾多需評估與補強之橋梁，請討論耐\n震補強原則及策略為何？（20 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:24+00:00",
+        "source_pdf_sha1": "dbb113e9244d",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "411",
+          "s": "1708",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "土木施工學概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0042",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "essay",
+      "question": "請說明一般所謂「8 號鋼筋」，其直徑（mm）、斷面積（cm2）、單位重\n（kg/m）與單位重誤差分別為何？另外，工程常見「SD280W」之規格，\n其中「SD」、「280」、「W」等符號分別代表什麼意義？（20 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:24+00:00",
+        "source_pdf_sha1": "dbb113e9244d",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "411",
+          "s": "1708",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "土木施工學概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0043",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "essay",
+      "question": "將全測站儀設置於 P 點，進行三角高程測量，分別對 A、B 兩點觀測角\n度及距離（圖 1），但因條件限制，僅可測得部分數據如表 1-1 所示，\n且為解決無法觀測 B 點之垂直角，難以求得 A 點高程之問題，採以全\n測站儀望遠鏡水平觀測水準尺方式取代之，所得之觀測紀錄如表 1-2 所\n示。請依所觀測之相關數據計算出 P 點高程（H ）及 A 點之坐標及高程\nP\n（E ,N ,H ）。（25分）\nA A A\n表 1-1 全測站儀觀測紀錄\n視 鏡 垂直角或 傾斜距離\n測站 水平角讀數\n點 位 天頂距讀數 （m）\n正 6951'54\"\nB 無法觀測 無法觀測\n倒 24952'00\"\nP\n正 14553'00\" 10220'20\"\nA 367.089\n倒 32553'04\" 25739'50\"\n已知條件：\n(E ,N ,H )=(210.428m,319.945m,132.510m)\nB B B\n(E ,N ,H )=(630.828m,930.345m, 未知高程) 圖 1 點位示意圖\nP P P\n儀器高(i)：i =1.650m；i =1.780m；i =1.800m\nP B A\n表 1-2 水準尺觀測紀錄\n測站 視點 水準尺觀測讀數（m）\nP B 1.990\nB P 1.450",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:24+00:00",
+        "source_pdf_sha1": "0f03c189892d",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "411",
+          "s": "1706",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "測量學概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0044",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "essay",
+      "question": "在某路線中心樁A、B、C、D四個點位進行水準測量，現場已知A、D兩\n點之高程及各點位樁號，施測後計算所得之高程差如表 2 所示。請先依觀\n測結果計算出 B、C兩點平差後的高程。依照路線設計之計畫路面，須將\nA 點先挖土 5 公尺，並以+0.2%為計畫路面坡度，按計畫需求，請問原始\n地面 B、C、D點之高程，應挖土或填土多少公尺？（25 分）\n表 2 點位高程紀錄表\n點位 高程差h（m） 點位樁號 已知高程（m）\nA 2K+100 71.629\nB +4.838 3K+600\nC -2.913 5K+600\nD +3.272 8K+100 76.838",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:24+00:00",
+        "source_pdf_sha1": "0f03c189892d",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "411",
+          "s": "1706",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "測量學概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0045",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "essay",
+      "question": "一段平坦地距離以鋼捲尺重複施測 n 次，所施測之觀測量及其權重分別以\nL、P表示（i1,2,3,,n），假設此段距離為等權觀測，請計算其最或是\ni i\n值（L）、剩餘誤差（v ）、平均誤差（t）、觀測值中誤差（m）及最或\ni\n是值中誤差（M ）。（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:24+00:00",
+        "source_pdf_sha1": "0f03c189892d",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "411",
+          "s": "1706",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "測量學概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0046",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "essay",
+      "question": "有一附合導線折角觀測紀錄如圖2 所示（未依比例繪製），已知該導線起\n始方位角 16515'18\"，終邊方位角為 12853'45\"。請依各夾角觀\nAB CD\n測之結果，先檢核該導線之角度不符值（ f ），並在不浪費時間和成本考\nw\n量的前提下，提出如何改正計算之作法。（25 分）\nA\n1\nC\nB\n2 D\n圖 2 附合導線折角觀測紀錄",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:24+00:00",
+        "source_pdf_sha1": "0f03c189892d",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "411",
+          "s": "1706",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "測量學概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0047",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "essay",
+      "question": "兩端懸空梁如圖一所示，試求各支承反力與 c點垂直位移，並繪製此梁之\n剪力圖與彎矩圖。假設楊氏模數 E 值為 20,000 kN/cm2，面積二次矩 I 值\n為 12,000 cm4。（25分）\n圖一 （圖未依比例繪製）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:24+00:00",
+        "source_pdf_sha1": "9e62b3e69e89",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "411",
+          "s": "1707",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "結構學概要與鋼筋混凝土學概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0048",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "essay",
+      "question": "由 a, b, c, d 節點組成之桁架如圖二所示，桿件 ab 和 bc等長，a點安裝於\n一鉸支承上，c點安裝於一滾支承上，試求各支承反力、各桿件內力以及\nd 點水平位移。假設所有桿件之楊氏模數 E值為 20,000kN/cm2，截面積 A\n值為 200 cm2。（25 分）\n×\n圖二 （圖未依比例繪製）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:24+00:00",
+        "source_pdf_sha1": "9e62b3e69e89",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "411",
+          "s": "1707",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "結構學概要與鋼筋混凝土學概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0049",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "essay",
+      "question": "矩形斷面之鋼筋混凝土單筋梁，寬度b37 cm，有效深度d58 cm，下緣\n拉力端配置 4 根 D25 鋼筋，每根面積 5.067 cm2，假設混凝土抗壓強度\nf280 kgf/cm2，鋼筋降伏強度 f 4,200kgf/cm2 ，鋼筋楊氏模數\nc y\nE 2.04106 kgf/cm2，請計算其標稱撓曲強度 M 。（25 分）\ns n",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:24+00:00",
+        "source_pdf_sha1": "9e62b3e69e89",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "411",
+          "s": "1707",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "結構學概要與鋼筋混凝土學概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0050",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "essay",
+      "question": "一有肋筋之矩形斷面鋼筋混凝土單筋梁，其肋筋為 D10 鋼筋，截面積\n0.7133 cm2，單排主筋為 4 支 D32 鋼筋，每支面積 8.143 cm2，梁之寬度\nb32 cm，有效深度d53cm，假設混凝土抗壓強度 f280kgf/cm2，鋼\nc\n筋降伏強度 f 4,200kgf/cm2，若此斷面承受一設計剪力V 35t，其肋\ny u\n筋之間距為何？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:24+00:00",
+        "source_pdf_sha1": "9e62b3e69e89",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "411",
+          "s": "1707",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "結構學概要與鋼筋混凝土學概要",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0051",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "essay",
+      "question": "國內邊坡常見擋土牆，請詳述一般之混凝土擋土牆之施工步驟與施工時應\n注意那些事項。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:24+00:00",
+        "source_pdf_sha1": "574dae83bf6b",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "408",
+          "s": "1708",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "土木施工學概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0052",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "essay",
+      "question": "工程施工期間承包商應依照核定之交通維持計畫辦理，若有一項位於交通\n繁忙都會區內的道路翻修及拓寬鋪築工程項目，這交通維持計畫會有那些\n規定？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:24+00:00",
+        "source_pdf_sha1": "574dae83bf6b",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "408",
+          "s": "1708",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "土木施工學概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0053",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "essay",
+      "question": "施工架依施工種類之分類方式不同有許多種分法，若以施工架之目的與特\n性而分，可有幾種分類？請詳述之。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:24+00:00",
+        "source_pdf_sha1": "574dae83bf6b",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "408",
+          "s": "1708",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "土木施工學概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0054",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "essay",
+      "question": "管推進工法（PipeJackingMethod）已是國內小管徑下水道常用的施工\n方法，請詳述管推進工法的施工方式，並說明此工法的優缺點分別為何？\n（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:24+00:00",
+        "source_pdf_sha1": "574dae83bf6b",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "408",
+          "s": "1708",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "土木施工學概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0055",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "essay",
+      "question": "有一平面桁架如圖所示，此桁架於 A點為鉸支撐，於 G點及 H點為滾支\n撐，且於 C 點受一向下之集中力 2P。試求 A 點、G 點及 H 點之反力\n（請註明反力之方向），及各桿件之內力（請註明壓力或張力）。（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:24+00:00",
+        "source_pdf_sha1": "a28dd6c2c032",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "408",
+          "s": "1709",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "工程力學概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0056",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "essay",
+      "question": "有一中空梁斷面尺寸如下圖所示，試求 a及 b之長度以確定斷面形心 O之\n位置。求此斷面對 y軸及 z軸之慣性矩I 、I 及慣性矩乘積I 。（25分）\ny z yz\n長度單位：公尺",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:24+00:00",
+        "source_pdf_sha1": "a28dd6c2c032",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "408",
+          "s": "1709",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "工程力學概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0057",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "essay",
+      "question": "有一尺寸為aa之板如下圖所示，a 1m，板厚為 0.1 m。此板於 x 方向\n受到拉力 P，於y方向受到拉力 P/2。板之彈性係數E200GPa，柏松比\n0.3。如板在 x 方向之伸長量 0.425 mm，試求 P 力之大小，板之\nx\n正向應力 及 ，板在 y 方向之伸長量 ，板在 xy 面之最大剪應力\nx y y\n( ) 及最大剪應變( ) 。（25分）\nxy max xy max",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:24+00:00",
+        "source_pdf_sha1": "a28dd6c2c032",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "408",
+          "s": "1709",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "工程力學概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0058",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "essay",
+      "question": "有一 ABCDE梁於 B 點鉸支撐，E點滾支撐，此梁於 AC間受到q 之均佈\n載重，D 點受到 P 之集中載重。如q 4N/m，P10 N，L2m，試求\nB、E點之反力，並繪製此梁之剪力圖及彎矩圖。（25分）\n2 L L 1.5 L 1.5 L",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:24+00:00",
+        "source_pdf_sha1": "a28dd6c2c032",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "408",
+          "s": "1709",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "工程力學概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0059",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "essay",
+      "question": "如圖，十字路口街角 A、B、C 三點，其 XY坐標如表所示，其中A、P、\nB 近似直線，∠APC（或∠CPB）接近 90°，欲藉由量測距離以測定 P 點\n位置，則由\n（情境 1）自 A、B兩點分別量測距離 S 、S 定P點；\n1 3\n（情境 2）自 A、C兩點分別量測距離 S 、S 定P點。\n1 2\n那個情境的量測距離定點方式較佳？為什麼？並請由選定的情境以及表\n格所列的測距結果計算 P點的 XY坐標。（25分）\nA C\nS\n1 S\n2\nP S\n3\nB\nY\nX\n點號 X（m） Y（m） 量距結果（m）\nA 50.00 90.00 S 10.00\n1\nB 70.00 75.00 S 15.00\n2\nC 70.00 90.00 S 12.00\n3",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:24+00:00",
+        "source_pdf_sha1": "bf0c953872e1",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "408",
+          "s": "1706",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "測量學概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0060",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "essay",
+      "question": "欲在沒有平面控制點的測區內測設新的平面控制點，並以衛星定位儀\n為主，全測站儀器為輔；若某待測點的位置恰在樹木下方而受到遮蔽，則\n應採取何種較適宜的施測方式與步驟？請說明並列出使用的平面坐標計\n算式。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:24+00:00",
+        "source_pdf_sha1": "bf0c953872e1",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "408",
+          "s": "1706",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "測量學概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0061",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "essay",
+      "question": "欲以水準儀及其配件、工具測設1 條圍繞某一建築物的等高程水平線，請\n敘述可行的作法、可能產生的誤差，以及如何檢查、降低量測誤差的方法。\n（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:24+00:00",
+        "source_pdf_sha1": "bf0c953872e1",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "408",
+          "s": "1706",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "測量學概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0062",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "essay",
+      "question": "已知E、F兩點的XY坐標及其中誤差分別為E(100.000.02m,200.000.04m)、\nF(150.000.03 m, 50.000.01 m)，則 EF 兩點的距離S 及中誤差 ，\nEF S\nEF\n以及 E到 F的方位角 及中誤差 ，各為多少？（25分）\nEF\nEF",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:24+00:00",
+        "source_pdf_sha1": "bf0c953872e1",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "408",
+          "s": "1706",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "測量學概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0063",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "essay",
+      "question": "如圖 1 所示構架，a 點及 d 點為鉸支承，c 點為鉸接，桿件有相同之彈性\n模數 E與慣性矩I，且EI 15000kN-m2。求各支承反力、畫 ab桿件的剪\n力圖、彎矩圖及求 b 點轉角。（25 分）\n4kN\na b\n2m\nc\n1.5m\n12kN\n1.5m\nd\n3m 3m\n圖 1",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:24+00:00",
+        "source_pdf_sha1": "eb8392c3ef2f",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "408",
+          "s": "1707",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "結構學概要與鋼筋混凝土學概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0064",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "essay",
+      "question": "如圖 2 所示之平面桁架結構，f 點為滾支承，a 點為鉸支承。求各支承反\n力及 ab桿件、bd 桿件的軸力。（25分）\n8kN\nf e d c\n6kN\n4m\na\nb\n3m 3m 3m\n圖 2",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:24+00:00",
+        "source_pdf_sha1": "eb8392c3ef2f",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "408",
+          "s": "1707",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "結構學概要與鋼筋混凝土學概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0065",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "essay",
+      "question": "如圖3所示混凝土矩形梁斷面配置D13垂直肋筋，間距s 15cm，單根D13\n鋼筋面積1.267cm2，降伏強度 f 2800 kgf cm2 ，混凝土抗壓強度\ny\nf280 kgf/cm2，有效深度d 43cm，梁寬b 32cm。當梁承受靜載重\nc\n作用引致之斷面剪力V 8 tf 及活載重作用引致之斷面剪力V 11tf 。求\nD L\n此矩形梁斷面之設計剪力V、斷面之剪力計算強度V 及驗證是否符合強度\nu n\n設計法規範V V 的要求。（25分）\nn u\n參考公式：V 0.53 fbd V  A f d s 0.75\nC c S v y\nd\nb\n圖 3",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:24+00:00",
+        "source_pdf_sha1": "eb8392c3ef2f",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "408",
+          "s": "1707",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "結構學概要與鋼筋混凝土學概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-4ece01bd-0066",
+      "exam_id": "disabled-4ece01bd",
+      "question_type": "essay",
+      "question": "如 圖 4 所 示 單 筋 混 凝 土 T 型 梁 斷 面 ， 拉 力 鋼 筋 降 伏 強 度\nf 4200kgf cm2，混凝土抗壓強度 f210kgf/cm2。當此 T型梁採用 4\ny c\n根D29拉力鋼筋，鋼筋總面積為A 25.88cm2，在 0.003的極限狀態\ns c\n下，已知中性軸c12.40cm，求此時彎矩計算強度M 、曲率及其對應的\nn\n拉力鋼筋應變。（25分）\n65cm\n=0.003\nc\n8cm\nc\n50cm\n7cm s\n35cm\n圖 4",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:38:24+00:00",
+        "source_pdf_sha1": "eb8392c3ef2f",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "408",
+          "s": "1707",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "結構學概要與鋼筋混凝土學概要",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    }
+  ]
+}

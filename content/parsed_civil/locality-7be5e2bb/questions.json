@@ -1,0 +1,3319 @@
+{
+  "slug": "locality-7be5e2bb",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:35:27+00:00",
+  "paper_count": 12,
+  "paper_with_questions": 11,
+  "question_count": 90,
+  "type_counts": {
+    "essay": 40,
+    "single_choice": 50
+  },
+  "papers": [
+    {
+      "year": "112",
+      "exam_code": "112200",
+      "c": "310",
+      "s": "1414",
+      "q": "1",
+      "subject": "世界體育史",
+      "exam_name": "112年特種考試地方政府公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "a32db165ce6d",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "112",
+      "exam_code": "112200",
+      "c": "310",
+      "s": "0708",
+      "q": "1",
+      "subject": "行政法",
+      "exam_name": "112年特種考試地方政府公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": true,
+      "q_pdf_sha1": "1c9608aa1601",
+      "a_pdf_sha1": "e6715e904b3a",
+      "format_detected": "mixed",
+      "raw_question_count": 27,
+      "answer_qnums_extracted": 24,
+      "answer_corrections": 1,
+      "is_correction_pdf_used": true,
+      "status": "ok",
+      "question_count": 27,
+      "skipped_count": 0
+    },
+    {
+      "year": "112",
+      "exam_code": "112200",
+      "c": "310",
+      "s": "1415",
+      "q": "1",
+      "subject": "運動社會學",
+      "exam_name": "112年特種考試地方政府公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "463a7e6b838c",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "112",
+      "exam_code": "112200",
+      "c": "310",
+      "s": "1416",
+      "q": "1",
+      "subject": "運動自然科學",
+      "exam_name": "112年特種考試地方政府公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "8131f65e9ad1",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "112",
+      "exam_code": "112200",
+      "c": "310",
+      "s": "1412",
+      "q": "1",
+      "subject": "體育原理",
+      "exam_name": "112年特種考試地方政府公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "395c39ebdb4c",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 0,
+      "status": "parse_q_failed"
+    },
+    {
+      "year": "112",
+      "exam_code": "112200",
+      "c": "310",
+      "s": "1413",
+      "q": "1",
+      "subject": "體育行政與管理",
+      "exam_name": "112年特種考試地方政府公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "e4f495b77a43",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "111",
+      "exam_code": "111190",
+      "c": "310",
+      "s": "1314",
+      "q": "1",
+      "subject": "世界體育史",
+      "exam_name": "111年特種考試地方政府公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "a9c2a7c3a77f",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "111",
+      "exam_code": "111190",
+      "c": "310",
+      "s": "0709",
+      "q": "1",
+      "subject": "行政法",
+      "exam_name": "111年特種考試地方政府公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": true,
+      "q_pdf_sha1": "604b45da09c0",
+      "a_pdf_sha1": "a7187c62573c",
+      "format_detected": "mixed",
+      "raw_question_count": 27,
+      "answer_qnums_extracted": 24,
+      "answer_corrections": 1,
+      "is_correction_pdf_used": true,
+      "status": "ok",
+      "question_count": 27,
+      "skipped_count": 0
+    },
+    {
+      "year": "111",
+      "exam_code": "111190",
+      "c": "310",
+      "s": "1315",
+      "q": "1",
+      "subject": "運動社會學",
+      "exam_name": "111年特種考試地方政府公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "26e3fa40d276",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "111",
+      "exam_code": "111190",
+      "c": "310",
+      "s": "1316",
+      "q": "1",
+      "subject": "運動自然科學",
+      "exam_name": "111年特種考試地方政府公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "c4d87e507c77",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "111",
+      "exam_code": "111190",
+      "c": "310",
+      "s": "1312",
+      "q": "1",
+      "subject": "體育原理",
+      "exam_name": "111年特種考試地方政府公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "8aff77e27fe9",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "111",
+      "exam_code": "111190",
+      "c": "310",
+      "s": "1313",
+      "q": "1",
+      "subject": "體育行政與管理",
+      "exam_name": "111年特種考試地方政府公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "2f1ae52b743f",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    }
+  ],
+  "questions": [
+    {
+      "id": "locality-7be5e2bb-0001",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "essay",
+      "question": "試述法國古柏坦創辦現代奧林匹克運動會的時代背景與過程。（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:26+00:00",
+        "source_pdf_sha1": "a32db165ce6d",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112200",
+          "c": "310",
+          "s": "1414",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "世界體育史",
+        "year": "112",
+        "exam_name": "112年特種考試地方政府公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0002",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "essay",
+      "question": "試述臺灣光復後歷經那些重要賽會時期變革，形成當前的全國運動會。\n（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:26+00:00",
+        "source_pdf_sha1": "a32db165ce6d",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112200",
+          "c": "310",
+          "s": "1414",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "世界體育史",
+        "year": "112",
+        "exam_name": "112年特種考試地方政府公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0003",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "essay",
+      "question": "橄欖球運動於英國創發，至 2016 年里約奧運再度成為正式比賽項目，\n試述其起源、運動組織全球化及與夏季奧運的發展重要事蹟。（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:26+00:00",
+        "source_pdf_sha1": "a32db165ce6d",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112200",
+          "c": "310",
+          "s": "1414",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "世界體育史",
+        "year": "112",
+        "exam_name": "112年特種考試地方政府公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0004",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "essay",
+      "question": "試述中國古代道家養生術的丹道思想源流及主要內容。（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:26+00:00",
+        "source_pdf_sha1": "a32db165ce6d",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112200",
+          "c": "310",
+          "s": "1414",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "世界體育史",
+        "year": "112",
+        "exam_name": "112年特種考試地方政府公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0005",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "essay",
+      "question": "某甲原係財政部國有財產署（下稱國產署）北區分署所屬秘書室書記，\n其於民國 106 年 12 月 6 日奉命赴臺北市大安區國有房屋現場履勘時，\n因後退轉身時踩空臺階摔跤，致受有右側足部挫傷、右側第五蹠骨非移\n位閉鎖性骨折等傷害。某甲於 107 年 10 月間，依107 年 6 月27 日修正\n發布之公務人員執行職務意外傷亡慰問金發給辦法（下稱慰問金發給辦\n法）第 4 條第 1項第 1款第 6目規定，申請發給受傷慰問金新臺幣 1 萬\n元。國產署北區分署認慰問金發給辦法第 3條第1 項規定所稱意外，如\n係因當事人疏忽所致事故，且該事故非屬突發性外來危險引起者，即非\n屬意外事故，否准其申請。某甲不服該否准，經向公務人員保障暨培訓\n委員會提起復審遭駁回，擬續行司法救濟。試問：依據我國法制及實務，\n公務人員慰問金之發給的性質為何？某甲欲主張慰問金發給辦法違反\n法律保留原則是否有理由？（25分）\n【參考法條】\n107年6月27日修正發布之公務人員執行職務意外傷亡慰問金發給辦法\n第1條：「本辦法依公務人員保障法（以下簡稱本法）第二十一條第三項規定訂定\n之。」\n第3條第1項：「本辦法所稱意外，指非由疾病引起之突發性的外來危險事故。」\n第4條第1項第1款第6目：「慰問金發給標準如下：一、受傷慰問金：連續住\n院未滿十四日或未住院而須治療七次以上者，發給新臺幣一萬元。」\n公務人員保障法\n第19條：「公務人員執行職務之安全應予保障。各機關對於公務人員之執行職務，\n應提供安全及衛生之防護措施；其有關辦法，由考試院會同行政院定之。」\n第21條第2、3項：「公務人員執行職務時，發生意外致受傷、失能或死亡者，應\n發給慰問金。但該公務人員有故意或重大過失情事者，得不發或減發慰問金。\n前項慰問金發給辦法，由考試院會同行政院定之。」\n31230",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "1c9608aa1601",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112200",
+          "c": "310",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年特種考試地方政府公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0006",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "essay",
+      "question": "交通部觀光署（前為「交通部觀光局」）為協助各直轄市及縣（市）政府\n執行違法旅宿管理工作（包含稽查、取締、輔導等），保障合法業者及維\n護旅客權益，特訂定「交通部觀光局協助地方政府執行違法旅宿管理工\n作補助要點」，規範內容包含補助對象、得申請補助之辦理事項、申請作\n業、審查程序、補助數額上限及比例、核銷、執行績效考評等事項。請\n說明本要點之法律性質、意涵及效力。（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "1c9608aa1601",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112200",
+          "c": "310",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年特種考試地方政府公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0007",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "下列何者非屬行政法之法源？",
+      "options": [
+        "自治規則",
+        "最高行政法院大法庭裁定",
+        "所得稅法施行細則",
+        "平等原則"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "1c9608aa1601",
+        "answer_pdf_sha1": "e6715e904b3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112200",
+          "c": "310",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年特種考試地方政府公務人員考試",
+        "original_question_number": 1,
+        "answer_corrected": true,
+        "flags": [
+          "answer_corrected_skip_v1"
+        ]
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0008",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "有關比例原則之敘述，下列何者錯誤？",
+      "options": [
+        "比例原則在於要求方法與目的之均衡，不得為達目的而不擇手段",
+        "比例原則亦適用於是否違反平等原則之審查",
+        "比例原則源於誠信原則，同屬帝王條款",
+        "比例原則不僅拘束行政，亦拘束立法及司法"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "1c9608aa1601",
+        "answer_pdf_sha1": "e6715e904b3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112200",
+          "c": "310",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年特種考試地方政府公務人員考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0009",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "依司法院解釋意旨，下列何者非屬公法事件？",
+      "options": [
+        "勞動部勞工保險局墊償雇主積欠工資後之代位求償",
+        "私立大學勒令學生退學",
+        "對於私立大學教師升等不通過決定",
+        "人民依國有財產法規定，申請讓售國有非公用財產類之不動產經否准所生爭議"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "1c9608aa1601",
+        "answer_pdf_sha1": "e6715e904b3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112200",
+          "c": "310",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年特種考試地方政府公務人員考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0010",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "關於中央選舉委員會之敘述，下列何者錯誤？",
+      "options": [
+        "為合議制機關",
+        "超越黨派，獨立行使職權",
+        "行政院院長提名委員後，即無人事監督權",
+        "立法院對於委員之人選決定，享有制衡權力"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "1c9608aa1601",
+        "answer_pdf_sha1": "e6715e904b3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112200",
+          "c": "310",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年特種考試地方政府公務人員考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0011",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "下列何者為行政法人法所稱之行政法人？",
+      "options": [
+        "國家表演藝術中心",
+        "高雄市政府",
+        "臺北市建築師公會",
+        "財團法人海峽交流基金會"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "1c9608aa1601",
+        "answer_pdf_sha1": "e6715e904b3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112200",
+          "c": "310",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年特種考試地方政府公務人員考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0012",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "行政機關之管轄權不得依下列何者定之？",
+      "options": [
+        "作業要點",
+        "法律",
+        "自治條例",
+        "法規命令"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "1c9608aa1601",
+        "answer_pdf_sha1": "e6715e904b3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112200",
+          "c": "310",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年特種考試地方政府公務人員考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0013",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "懲戒法院審理同一行為應受刑罰及懲戒處分之案件時，下列敘述何者正確？",
+      "options": [
+        "已受刑罰處罰者，應為免議之判決",
+        "已受罰款處罰者，不得再為懲戒處分",
+        "在刑事審判中者，原則上不停止懲戒審理程序",
+        "已受自由刑判決確定者，不得再為懲戒處分"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "1c9608aa1601",
+        "answer_pdf_sha1": "e6715e904b3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112200",
+          "c": "310",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年特種考試地方政府公務人員考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0014",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "關於公務員之定義與範圍，下列敘述何者錯誤？",
+      "options": [
+        "公務人員任用法所定之公務人員，包括定有官、職等之文職事務官，以及定有官等、官階之（武 職）軍、士官",
+        "機要人員屬於公務人員任用法所定義之公務人員，惟其機關長官得隨時將其免職，機關長官離 職時亦應隨同離職",
+        "公務員服務法所定之公務員，包括領有俸給之文武職公務員及公營事業純勞工以外之人員",
+        "刑法所定之公務員，包括依法令行使職權或從事於公務者，及受託行使公權力之私人 31230"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "1c9608aa1601",
+        "answer_pdf_sha1": "e6715e904b3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112200",
+          "c": "310",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年特種考試地方政府公務人員考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0015",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "關於公務員權利義務，下列敘述何者錯誤？",
+      "options": [
+        "公務員於任職期間，不得經營商業，但得兼任私人企業之監察人",
+        "公務員即使依法令兼職，亦不得兼薪",
+        "公務員於離職後3年內，不得擔任與其離職前5年內之職務直接相關之營利事業顧問",
+        "公務員得經服務機關之同意，兼任非營利事業之職務"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "1c9608aa1601",
+        "answer_pdf_sha1": "e6715e904b3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112200",
+          "c": "310",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年特種考試地方政府公務人員考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0016",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "交通部發布發展觀光條例裁罰標準，屬於下列何種行政行為？",
+      "options": [
+        "行政處分",
+        "行政規則",
+        "法規命令",
+        "行政指導"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "1c9608aa1601",
+        "answer_pdf_sha1": "e6715e904b3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112200",
+          "c": "310",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年特種考試地方政府公務人員考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0017",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "下列何者得以法規命令規範之？",
+      "options": [
+        "對於因全民健康保險所生之權利義務",
+        "課予納稅之義務",
+        "時效制度",
+        "特別公課徵收之要件及程序"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "1c9608aa1601",
+        "answer_pdf_sha1": "e6715e904b3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112200",
+          "c": "310",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年特種考試地方政府公務人員考試",
+        "original_question_number": 11,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0018",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "人民甲欲申請建築許可，經乙機關審查通過並發給執照。在該建築許可的法定救濟期間經過後， 乙機關才發現該建築許可之作成具有瑕疵，欲加以撤銷。下列敘述何者正確？",
+      "options": [
+        "基於依法行政原則，該違法之建築許可不得作為甲的信賴基礎",
+        "即使當初是因為甲提供錯誤之資料，致使乙作成該建築許可時，甲仍然可主張信賴保護",
+        "縱使甲之信賴值得保護，但經權衡信賴利益與公益之後，乙仍然可以撤銷該建築許可，只是應 給予補償",
+        "若該建築許可經乙撤銷後，原則上自撤銷之日起失其效力"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "1c9608aa1601",
+        "answer_pdf_sha1": "e6715e904b3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112200",
+          "c": "310",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年特種考試地方政府公務人員考試",
+        "original_question_number": 12,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0019",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "下列何者非屬行政處分？",
+      "options": [
+        "經濟部標準檢驗局於申請後，認定受檢驗商品為合格",
+        "人民未經申請集會而集會，警察舉牌命令立即解散集會遊行",
+        "衛生主管機關在官方網站上公告傳染病大流行，促請民眾於公眾聚集場所配戴口罩",
+        "主管機關對於未履行拆除義務之違建行為人發出通知，告戒7日後將逕行拆除"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "1c9608aa1601",
+        "answer_pdf_sha1": "e6715e904b3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112200",
+          "c": "310",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年特種考試地方政府公務人員考試",
+        "original_question_number": 13,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0020",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "甲因欠稅超過新臺幣1,000萬元，財政部因而依稅捐稽徵法第24條第3項規定函請內政部移民署 限制甲出境，嗣經該署向甲核發限制出境之處分。下列敘述何者正確？",
+      "options": [
+        "該限制出境處分係屬根據機關間權限委託所作成之行政處分",
+        "該限制出境處分係屬多階段之行政處分",
+        "該限制出境處分係屬根據機關間權限委任所作成之行政處分",
+        "該限制出境處分係屬對人之一般處分"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "1c9608aa1601",
+        "answer_pdf_sha1": "e6715e904b3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112200",
+          "c": "310",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年特種考試地方政府公務人員考試",
+        "original_question_number": 14,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0021",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "依行政程序法規定，關於雙務契約之締結，下列敘述何者錯誤？",
+      "options": [
+        "行政機關與人民得締結雙務契約，互負給付義務",
+        "雙務契約之締結，以行政機關有裁量權為限",
+        "契約應載明人民給付之特定用途",
+        "人民與機關之給付義務應相當，且有正當合理之關聯"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "1c9608aa1601",
+        "answer_pdf_sha1": "e6715e904b3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112200",
+          "c": "310",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年特種考試地方政府公務人員考試",
+        "original_question_number": 15,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0022",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "依行政程序法規定，行政機關擬訂法規命令時，應於政府公報或新聞紙公告。該公告之法律性質 為何？",
+      "options": [
+        "行政處分",
+        "行政契約",
+        "行政事實行為",
+        "行政命令"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "1c9608aa1601",
+        "answer_pdf_sha1": "e6715e904b3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112200",
+          "c": "310",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年特種考試地方政府公務人員考試",
+        "original_question_number": 16,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0023",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "下列何者屬裁罰性之不利處分？",
+      "options": [
+        "證券商自受領證券業務特許證照，逾3個月未開始營業，遭主管機關撤銷其特許",
+        "外國船舶因違反海洋污染防治法所生之損害賠償責任，在未履行前，遭港口管理機關限制船舶 及相關船員離境",
+        "全民健康保險醫事服務機構因違反相關法令，遭衛生福利部中央健康保險署停止特約",
+        "招標機關將廠商借用他人名義或證件之行為刊登於政府採購公報 31230"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "1c9608aa1601",
+        "answer_pdf_sha1": "e6715e904b3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112200",
+          "c": "310",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年特種考試地方政府公務人員考試",
+        "original_question_number": 17,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0024",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "關於即時強制之損失補償，下列敘述何者正確？",
+      "options": [
+        "損失補償，應以回復原狀為原則，例外以金錢為之",
+        "損失補償不以補償實際所受之特別損失為限",
+        "因可歸責於該人民之事由，執行機關依法實施即時強制，致其生命、身體或財產遭受特別損失 時，得請求補償",
+        "損失補償，應於知有損失後，2年內向執行機關請求之。但自損失發生後，經過5年者，不得為之"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "1c9608aa1601",
+        "answer_pdf_sha1": "e6715e904b3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112200",
+          "c": "310",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年特種考試地方政府公務人員考試",
+        "original_question_number": 18,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0025",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "關於行政程序法聽證，下列敘述何者正確？",
+      "options": [
+        "須有法律規定作為舉行聽證之依據",
+        "得為預備聽證，必要時亦得再為聽證",
+        "經聽證程序作成之行政處分，無後續救濟管道",
+        "聽證以不公開為原則"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "1c9608aa1601",
+        "answer_pdf_sha1": "e6715e904b3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112200",
+          "c": "310",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年特種考試地方政府公務人員考試",
+        "original_question_number": 19,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0026",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "依實務見解，人民甲依訴願法第2條規定提起訴願，受理訴願機關尚未作成決定前，應作為之乙 機關已作成行政處分，而甲仍對於乙機關所作成之處分向訴願機關表示不服，此時受理訴願機關 應如何處理？",
+      "options": [
+        "訴願機關應續行訴願程序，對嗣後所為之行政處分進行審查",
+        "不論該處分有利或不利於訴願人，皆應依訴願法第82條第2項規定駁回訴願",
+        "因乙機關已作成行政處分，甲之訴願無理由，應駁回其訴願",
+        "因乙機關已作成行政處分，甲已無權利保護必要，應駁回其訴願"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "1c9608aa1601",
+        "answer_pdf_sha1": "e6715e904b3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112200",
+          "c": "310",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年特種考試地方政府公務人員考試",
+        "original_question_number": 20,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0027",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "甲縣政府委由其所屬乙鄉公所辦理委辦事件所為之行政處分，處分相對人丙若要提起訴願，依法 何機關為訴願管轄機關？",
+      "options": [
+        "甲縣政府",
+        "乙鄉公所",
+        "甲縣政府或乙鄉公所由丙擇一即可",
+        "甲縣政府之直接上級機關"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "1c9608aa1601",
+        "answer_pdf_sha1": "e6715e904b3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112200",
+          "c": "310",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年特種考試地方政府公務人員考試",
+        "original_question_number": 21,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0028",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "下列何者非屬一般給付訴訟所得請求之內容？",
+      "options": [
+        "稅捐稽徵機關辦理退稅，誤將退稅款匯入他人帳戶，向該他人請求返還",
+        "行政契約之相對人因故不履行契約，行政機關請求其履行",
+        "人民請求主管機關勿作成裁處沒入之處分",
+        "人民請求主管機關作成營業補貼處分"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "1c9608aa1601",
+        "answer_pdf_sha1": "e6715e904b3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112200",
+          "c": "310",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年特種考試地方政府公務人員考試",
+        "original_question_number": 22,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0029",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "有關行政訴訟審判權之敘述，下列何者正確？",
+      "options": [
+        "依道路交通管理處罰條例裁處罰鍰事件，歸屬地方法院刑事庭管轄",
+        "地方議會侵害議員之質詢權，由行政法院審理",
+        "受懲戒之律師對於律師懲戒委員會之決議不服者，由行政法院審理",
+        "違法羈押事件，由行政法院審理"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "1c9608aa1601",
+        "answer_pdf_sha1": "e6715e904b3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112200",
+          "c": "310",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年特種考試地方政府公務人員考試",
+        "original_question_number": 23,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0030",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "關於人民請求國家賠償，下列敘述何者錯誤？",
+      "options": [
+        "國家賠償請求權，自請求權人知有損害時起，因2年間不行使而消滅",
+        "國家賠償法所稱知有損害，須知有損害事實及國家賠償責任之原因事實",
+        "普通法院關於行政處分違法之認定，有拘束行政法院之效力",
+        "公務員有故意或重大過失時，賠償機關對之有求償權"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "1c9608aa1601",
+        "answer_pdf_sha1": "e6715e904b3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112200",
+          "c": "310",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年特種考試地方政府公務人員考試",
+        "original_question_number": 24,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0031",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "下列何者不可能成立損失補償責任？",
+      "options": [
+        "捷運施工，動用重機具開挖地下通道，造成附近民房發生龜裂傾斜",
+        "陸軍砲兵實施實彈射擊演練，砲彈意外偏離靶區造成私有農地上之高價值水果作物遭到毀損",
+        "為防治傳染病，管理人配合主管機關就已經證實媒介傳染病之動物予以撲殺、銷毀",
+        "國家公園管理處已為僅供公務用之禁止通行標示與危險警告，民眾仍執意抄捷徑而行走無護欄 之公務棧道，發生墜谷意外"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "1c9608aa1601",
+        "answer_pdf_sha1": "e6715e904b3a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112200",
+          "c": "310",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年特種考試地方政府公務人員考試",
+        "original_question_number": 25,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0032",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "essay",
+      "question": "運動金字塔（sportpyramid）提供了一種有效的思考運動方法。金字塔包\n含人類活動的四個要素：玩耍（play）、遊戲（game）、運動（sport）和\n工作（work）。請說明此四要素的主要意涵與差異為何？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "463a7e6b838c",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112200",
+          "c": "310",
+          "s": "1415",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "運動社會學",
+        "year": "112",
+        "exam_name": "112年特種考試地方政府公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0033",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "essay",
+      "question": "政府在研究各個年齡層公民缺乏身體活動的長期趨勢後，如果你是政府\n的體育官員，你會建議採取那些措施來扭轉這種趨勢？請列出你將向政\n府立法單位提議的關鍵改革方向。（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "463a7e6b838c",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112200",
+          "c": "310",
+          "s": "1415",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "運動社會學",
+        "year": "112",
+        "exam_name": "112年特種考試地方政府公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0034",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "essay",
+      "question": "參加身體活動對青少年在整體成長和發展，在早期關鍵階段特別有幫\n助。請說明運動對青少年的好處有那些？（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "463a7e6b838c",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112200",
+          "c": "310",
+          "s": "1415",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "運動社會學",
+        "year": "112",
+        "exam_name": "112年特種考試地方政府公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0035",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "essay",
+      "question": "隨著女性參與運動機會和健身活動的增加，出現了新興的社會議題。請\n說明女性在運動中的議題有那些？（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "463a7e6b838c",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112200",
+          "c": "310",
+          "s": "1415",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "運動社會學",
+        "year": "112",
+        "exam_name": "112年特種考試地方政府公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0036",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "essay",
+      "question": "運動性疲勞是一種自然現象，也是訓練過程中的正常生理反應，請詳述\n一般常見的消除疲勞方式有那些？（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "8131f65e9ad1",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112200",
+          "c": "310",
+          "s": "1416",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "運動自然科學",
+        "year": "112",
+        "exam_name": "112年特種考試地方政府公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0037",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "essay",
+      "question": "小民是國家級運動員，想使用運動營養增補劑以增進運動表現，市面可\n購得的產品可能會對他的健康與運動表現產生影響，且可能導致運動禁\n藥檢測呈現陽性。在他購買前與使用營養增補劑之前，你建議他應該怎\n麼做？試述之。（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "8131f65e9ad1",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112200",
+          "c": "310",
+          "s": "1416",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "運動自然科學",
+        "year": "112",
+        "exam_name": "112年特種考試地方政府公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0038",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "essay",
+      "question": "一旦發生急性運動傷害（例如：挫傷或扭傷），最基本的處置原則有那\n些？試述之。（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "8131f65e9ad1",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112200",
+          "c": "310",
+          "s": "1416",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "運動自然科學",
+        "year": "112",
+        "exam_name": "112年特種考試地方政府公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0039",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "essay",
+      "question": "心理技能訓練主要是利用心理學技巧，去幫助運動員提升運動表現及個\n人成長的訓練過程，試述心理技能訓練的內容有那些？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "8131f65e9ad1",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112200",
+          "c": "310",
+          "s": "1416",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "運動自然科學",
+        "year": "112",
+        "exam_name": "112年特種考試地方政府公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0040",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "essay",
+      "question": "試述教育部體育署「運動企業認證計畫」之規劃緣起、目的、實施對象\n與認證資格。（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "e4f495b77a43",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112200",
+          "c": "310",
+          "s": "1413",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "體育行政與管理",
+        "year": "112",
+        "exam_name": "112年特種考試地方政府公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0041",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "essay",
+      "question": "試述從風險管理的角度探討體育教學前、中、後可能潛在之風險。（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "e4f495b77a43",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112200",
+          "c": "310",
+          "s": "1413",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "體育行政與管理",
+        "year": "112",
+        "exam_name": "112年特種考試地方政府公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0042",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "essay",
+      "question": "試述「備戰奧林匹克運動會黃金計畫（簡稱黃金計畫 2.0）」的執行策略。\n（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "e4f495b77a43",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112200",
+          "c": "310",
+          "s": "1413",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "體育行政與管理",
+        "year": "112",
+        "exam_name": "112年特種考試地方政府公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0043",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "essay",
+      "question": "試述臺北市政府體育局負責運動專業的科室及其組織與職掌。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "e4f495b77a43",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112200",
+          "c": "310",
+          "s": "1413",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "體育行政與管理",
+        "year": "112",
+        "exam_name": "112年特種考試地方政府公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0044",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "essay",
+      "question": "試述張星賢及劉長春分別代表何國參加奧林匹克運動會？（10分）各自\n參加那一年奧林匹克運動會、主辦城市及參加運動種類與項目？（15 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "a9c2a7c3a77f",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111190",
+          "c": "310",
+          "s": "1314",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "世界體育史",
+        "year": "111",
+        "exam_name": "111年特種考試地方政府公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0045",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "essay",
+      "question": "試述裴斯塔洛齊（Johann Heinrich Pestalozzi）體育思想淵源及理論。\n（10 分）裴斯塔洛齊體育實施內容為何？（15 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "a9c2a7c3a77f",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111190",
+          "c": "310",
+          "s": "1314",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "世界體育史",
+        "year": "111",
+        "exam_name": "111年特種考試地方政府公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0046",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "essay",
+      "question": "試述奧林匹克旗設計人、五環圈之顏色為何？（10 分）設計者的用意為\n何？（15分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "a9c2a7c3a77f",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111190",
+          "c": "310",
+          "s": "1314",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "世界體育史",
+        "year": "111",
+        "exam_name": "111年特種考試地方政府公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0047",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "essay",
+      "question": "試述極限運動（extremesports）起源與發展。（15 分）極限運動的特性為\n何？（10分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "a9c2a7c3a77f",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111190",
+          "c": "310",
+          "s": "1314",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "世界體育史",
+        "year": "111",
+        "exam_name": "111年特種考試地方政府公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0048",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "essay",
+      "question": "甲與行政機關乙締結行政契約。其後行政機關乙認為締約後有情事重大\n變更，乃向甲發公函逕行終止該契約。請問行政機關乙逕行終止該契約\n之行為性質為何？若甲認為行政機關乙逕行終止該契約並不合法時，甲\n得如何尋求救濟？（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "604b45da09c0",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111190",
+          "c": "310",
+          "s": "0709",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "行政法",
+        "year": "111",
+        "exam_name": "111年特種考試地方政府公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0049",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "essay",
+      "question": "甲生前為人作保，擔任其好友乙向丙借款 5 千萬之保證人，清償期為 110\n年 12 月 15日。甲在 110 年 2 月9 日死亡，其子丁繼承其遺產。丁向國\n稅局申報遺產稅時，主張其遺產總額應扣除甲生前所負之該筆保證債\n務。但國稅局則以該筆主債務尚未屆清償期，故丁於繼承時尚未確定代\n負履行之責，乃將該筆保證債務剔除。國稅局核定丁遺產稅之處分於110\n年 8 月 8 日送達，丁於收受該處分書後隨即繳納遺產稅。其後乙於上開\n債務清償期屆至後並未清償，且逃往外國不知去向。丙就乙之財產強制\n執行無效果，乃請求丁代負履行責任。丁於代負清償該筆 5千萬之債務\n後，深感自己繳了太多遺產稅。請問丁得否請求國稅局依據行政程序法\n重開程序之規定，重新核定其遺產稅額？（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "604b45da09c0",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111190",
+          "c": "310",
+          "s": "0709",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "行政法",
+        "year": "111",
+        "exam_name": "111年特種考試地方政府公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0050",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "依實務見解，關於緊急命令，下列敘述何者正確？",
+      "options": [
+        "總統僅於應付重大財政危機時，得經行政院會議之議決，發布緊急命令",
+        "總統發布緊急命令之前，應徵詢立法院院長之意見",
+        "緊急命令之內容應力求周延，以不得再授權為補充規定即可逕予執行為原則",
+        "緊急命令得永久變更或取代相關法律之效力 31330"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "604b45da09c0",
+        "answer_pdf_sha1": "a7187c62573c",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111190",
+          "c": "310",
+          "s": "0709",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "111",
+        "exam_name": "111年特種考試地方政府公務人員考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0051",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "關於公益原則，下列敘述何者正確？",
+      "options": [
+        "主管機關發現核准之生活扶助處分，確屬錯誤，即得依公益原則，無條件撤銷原處分",
+        "主管機關基於避免法定傳染病快速蔓延之重大公益，得將與患者有過接觸之人，令入指定之處 所施行適當期間之必要強制隔離處置",
+        "主管機關出於增進交通流暢度等公益考量，得不經相關程序，徵收民眾之土地，拓寬道路",
+        "主管機關本於維持治安之公益要求，得依職權訂定行政規則禁止製造、運輸、販售、攜帶與公 開陳列類似真槍之玩具槍"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "604b45da09c0",
+        "answer_pdf_sha1": "a7187c62573c",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111190",
+          "c": "310",
+          "s": "0709",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "111",
+        "exam_name": "111年特種考試地方政府公務人員考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0052",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "關於人民與國家之法律關係，下列敘述何者錯誤？",
+      "options": [
+        "依目前行政法院見解，公立學校教師與學校間之法律關係為行政契約",
+        "全民健康保險特約醫事機構與衛生福利部中央健康保險署簽訂之特約，依司法院解釋係屬行政 契約",
+        "退除役軍職人員與臺灣銀行間優惠存款利息爭議，依司法院解釋應由行政法院審理",
+        "私立大學學生遭學校撤銷學籍爭議，依司法院解釋應由行政法院審理"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "604b45da09c0",
+        "answer_pdf_sha1": "a7187c62573c",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111190",
+          "c": "310",
+          "s": "0709",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "111",
+        "exam_name": "111年特種考試地方政府公務人員考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0053",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "依地方制度法之規定，有關自治條例，下列敘述何者錯誤？",
+      "options": [
+        "經地方立法機關議決後，均須送請行政院核定",
+        "得對違反地方自治事項之行政義務者處以罰鍰",
+        "地方自治團體之組織，應以自治條例規定之",
+        "上級政府認定其規定與中央法令牴觸者，得予以函告無效"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "604b45da09c0",
+        "answer_pdf_sha1": "a7187c62573c",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111190",
+          "c": "310",
+          "s": "0709",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "111",
+        "exam_name": "111年特種考試地方政府公務人員考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0054",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "下列何者非屬行政機關？",
+      "options": [
+        "國家通訊傳播委員會",
+        "教育部中央教師申訴評議委員會",
+        "國家人權博物館",
+        "臺北市選舉委員會"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "604b45da09c0",
+        "answer_pdf_sha1": "a7187c62573c",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111190",
+          "c": "310",
+          "s": "0709",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "111",
+        "exam_name": "111年特種考試地方政府公務人員考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0055",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "下列何者屬於委託私人行使公權力之情形？",
+      "options": [
+        "文資保護主管機關委託學者評估文物保存價值，作為登錄文化資產之參考",
+        "行政機關委託餐廳代辦防疫篩檢現場醫護人員之餐盒",
+        "通訊傳播主管機關委託民間廠商抽檢市售電子產品機型、功能是否符合許可內容",
+        "行政機關委託電視公司製播形象廣告推動國民旅遊"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "604b45da09c0",
+        "answer_pdf_sha1": "a7187c62573c",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111190",
+          "c": "310",
+          "s": "0709",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "111",
+        "exam_name": "111年特種考試地方政府公務人員考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0056",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "有關公務人員之人事行政行為，下列何者不得向公務人員保障暨培訓委員會提起復審？",
+      "options": [
+        "依資績積分高低順序造列名冊",
+        "核定指名商調",
+        "核定因公涉訟輔助費用",
+        "申誡處分"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "604b45da09c0",
+        "answer_pdf_sha1": "a7187c62573c",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111190",
+          "c": "310",
+          "s": "0709",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "111",
+        "exam_name": "111年特種考試地方政府公務人員考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0057",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "公務員懲戒法中有關公務員停職之規定，下列敘述何者錯誤？",
+      "options": [
+        "刑事判決確定，受褫奪公權宣告者，當然停職",
+        "懲戒法院認為被付懲戒人違失情節重大者，得裁定其停職",
+        "移送懲戒案件之主管機關認為所屬公務員違失行為有撤職或休職等情節重大之虞者，得依職權 將其停職",
+        "監察院自行發現或接受主管機關送請審查，認為公務員違失情節重大時，得命主管機關將其停職"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "604b45da09c0",
+        "answer_pdf_sha1": "a7187c62573c",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111190",
+          "c": "310",
+          "s": "0709",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "111",
+        "exam_name": "111年特種考試地方政府公務人員考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0058",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "下列何者非屬公務人員保障法保障之對象？",
+      "options": [
+        "依警察人員人事條例進用之公務人員",
+        "依教育人員任用條例進用之公立學校教師",
+        "依司法人員人事條例進用之公務人員",
+        "應各種公務人員考試錄取參加訓練之人員"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "604b45da09c0",
+        "answer_pdf_sha1": "a7187c62573c",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111190",
+          "c": "310",
+          "s": "0709",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "111",
+        "exam_name": "111年特種考試地方政府公務人員考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0059",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "財政部為使辦理稅務違章之裁罰機關對案件裁罰金額有客觀標準可資參考，因而發布稅務違章案 件裁罰金額或倍數參考表。該參考表之性質為何？",
+      "options": [
+        "法規命令",
+        "職權命令",
+        "解釋性行政規則",
+        "裁量性行政規則 31330"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "604b45da09c0",
+        "answer_pdf_sha1": "a7187c62573c",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111190",
+          "c": "310",
+          "s": "0709",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "111",
+        "exam_name": "111年特種考試地方政府公務人員考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0060",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "依行政程序法規定，行政機關受理人民訂定法規命令之提議後，下列處理情形，何者錯誤？",
+      "options": [
+        "有訂定法規命令之必要者，著手研擬草案",
+        "無須訂定法規命令之事項，附述理由通知原提議者",
+        "依法不得以法規命令規定之事項，附述理由通知原提議者",
+        "非主管之事項，附述理由通知原提議者"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "604b45da09c0",
+        "answer_pdf_sha1": "a7187c62573c",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111190",
+          "c": "310",
+          "s": "0709",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "111",
+        "exam_name": "111年特種考試地方政府公務人員考試",
+        "original_question_number": 11,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0061",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "依司法實務見解，下列何者為行政處分？",
+      "options": [
+        "公平交易委員會向檢舉人所為檢舉不成立之函覆",
+        "地政事務所拒絕土地所有權人註銷土地登記簿標示其他登記事項欄註記之要求",
+        "地政事務所所為地籍圖重測之結果",
+        "涉及一定區域內人民權益之都市計畫個別變更決定"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "604b45da09c0",
+        "answer_pdf_sha1": "a7187c62573c",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111190",
+          "c": "310",
+          "s": "0709",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "111",
+        "exam_name": "111年特種考試地方政府公務人員考試",
+        "original_question_number": 12,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0062",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "國防部核定甲因病死亡辦理撫卹，甲之父乙未於法定救濟期間內提起行政救濟。嗣甲之班長丙因 凌虐甲，犯凌虐部屬致死罪，經法院判決確定。依據該確定判決，甲符合軍人撫卹條例因公死亡 之要件。關於乙之救濟，下列敘述何者正確？",
+      "options": [
+        "確定判決係作成行政處分後之證據，乙不得申請另為核定處分",
+        "依行政程序法申請行政程序重開",
+        "提起訴願法上之再審",
+        "提起行政訴訟法上之再審"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "604b45da09c0",
+        "answer_pdf_sha1": "a7187c62573c",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111190",
+          "c": "310",
+          "s": "0709",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "111",
+        "exam_name": "111年特種考試地方政府公務人員考試",
+        "original_question_number": 13,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0063",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "關於行政處分附負擔，下列敘述何者錯誤？",
+      "options": [
+        "行政機關得強制負擔之履行",
+        "負擔原則上得單獨訴請撤銷",
+        "附負擔之授益行政處分，因受益人未履行該負擔致行政處分受廢止者，得溯及既往失其效力",
+        "受益人未履行該負擔致行政處分廢止者，原處分機關應給予合理之補償"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "604b45da09c0",
+        "answer_pdf_sha1": "a7187c62573c",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111190",
+          "c": "310",
+          "s": "0709",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "111",
+        "exam_name": "111年特種考試地方政府公務人員考試",
+        "original_question_number": 14,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0064",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "由於國家任務之擴張，使行政機關以行政契約之方式推展公共事務案例日益增加，下列何者非屬 行政契約？",
+      "options": [
+        "公立學校之教師聘任契約",
+        "行政機關對於行政處分所依據之事實，經依職權調查仍不能確定，而與人民締結之和解契約",
+        "主管機關為維持匯率參與外匯市場操作，而與人民締結之外匯買賣契約",
+        "衛生福利部中央健康保險署與醫事服務機構締結之特約"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "604b45da09c0",
+        "answer_pdf_sha1": "a7187c62573c",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111190",
+          "c": "310",
+          "s": "0709",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "111",
+        "exam_name": "111年特種考試地方政府公務人員考試",
+        "original_question_number": 15,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0065",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "關於行政指導，下列敘述何者正確？",
+      "options": [
+        "行政指導為行政處分之一種類型",
+        "行政指導如遭相對人明確拒絕，行政機關應即停止",
+        "行政指導原則上採取書面要式主義",
+        "行政指導如有違法，並不生國家賠償之問題"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "604b45da09c0",
+        "answer_pdf_sha1": "a7187c62573c",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111190",
+          "c": "310",
+          "s": "0709",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "111",
+        "exam_name": "111年特種考試地方政府公務人員考試",
+        "original_question_number": 16,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0066",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "關於都市計畫，下列敘述何者正確？",
+      "options": [
+        "對都市計畫之個別變更屬於法規性質",
+        "都市計畫之定期通盤檢討不可能直接限制一定區域內特定人之權益或增加負擔",
+        "人民不得對都市計畫提起行政爭訟",
+        "人民認都市計畫違反損害其權利，無須先經訴願程序，即得提起都市計畫審查訴訟"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "604b45da09c0",
+        "answer_pdf_sha1": "a7187c62573c",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111190",
+          "c": "310",
+          "s": "0709",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "111",
+        "exam_name": "111年特種考試地方政府公務人員考試",
+        "original_question_number": 17,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0067",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "財政部臺北國稅局將甲之欠稅案件，移送法務部行政執行署臺北分署執行（下稱臺北分署）。臺北 分署對甲之財產進行查封，甲如不服，應如何提起救濟？",
+      "options": [
+        "向財政部提起訴願",
+        "向法務部提起訴願",
+        "向臺北分署聲明異議",
+        "向行政執行署聲明異議 31330"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "604b45da09c0",
+        "answer_pdf_sha1": "a7187c62573c",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111190",
+          "c": "310",
+          "s": "0709",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "111",
+        "exam_name": "111年特種考試地方政府公務人員考試",
+        "original_question_number": 18,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0068",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "關於行政機關調查事實及證據之規定，下列何者正確？",
+      "options": [
+        "採職權調查主義，當事人不得自行提出證據",
+        "當事人向行政機關申請調查事實及證據，行政機關即應為調查",
+        "行政機關應通知相關之人陳述意見",
+        "對當事人有利不利事項應一律注意"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "604b45da09c0",
+        "answer_pdf_sha1": "a7187c62573c",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111190",
+          "c": "310",
+          "s": "0709",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "111",
+        "exam_name": "111年特種考試地方政府公務人員考試",
+        "original_question_number": 19,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0069",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "主管機關核發某垃圾焚化爐的營運許可，焚化爐旁之居民甲認為焚化爐營運將排放有毒廢氣，造 成健康威脅。為避免行政爭訟終局確定結果前，焚化爐製造污染，甲得向行政法院聲請何種暫時 性權利保護？",
+      "options": [
+        "定暫時狀態處分",
+        "保全處分",
+        "停止執行",
+        "查封焚化爐相關設施"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "604b45da09c0",
+        "answer_pdf_sha1": "a7187c62573c",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111190",
+          "c": "310",
+          "s": "0709",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "111",
+        "exam_name": "111年特種考試地方政府公務人員考試",
+        "original_question_number": 20,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0070",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "依行政罰法規定，物之所有人對於扣留措施不服者，得向扣留機關提出何種救濟？",
+      "options": [
+        "訴願",
+        "聲明異議",
+        "申訴",
+        "復審"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "604b45da09c0",
+        "answer_pdf_sha1": "a7187c62573c",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111190",
+          "c": "310",
+          "s": "0709",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "111",
+        "exam_name": "111年特種考試地方政府公務人員考試",
+        "original_question_number": 21,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0071",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "甲因居留簽證延期申請遭駁回，雖已經提起訴願，惟提起訴願案2個月後尚未決定前已收到某市 政府警察局限期離境之命令，惟其仍有繼續居留照顧幼小子女之必要，其依法得提起何種救濟？",
+      "options": [
+        "課予義務之訴",
+        "確認之訴",
+        "停止離境處分之執行",
+        "一般給付訴訟"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "604b45da09c0",
+        "answer_pdf_sha1": "a7187c62573c",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111190",
+          "c": "310",
+          "s": "0709",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "111",
+        "exam_name": "111年特種考試地方政府公務人員考試",
+        "original_question_number": 22,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0072",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "關於行政訴訟法上反訴，下列敘述何者錯誤？",
+      "options": [
+        "僅行政訴訟之被告得提起反訴",
+        "反訴須與本訴請求或其防禦方法相牽連",
+        "反訴如專屬於本訴繫屬法院以外之行政法院管轄，應連同本訴一併移轉至該法院",
+        "不得以提起反訴延滯訴訟"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "604b45da09c0",
+        "answer_pdf_sha1": "a7187c62573c",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111190",
+          "c": "310",
+          "s": "0709",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "111",
+        "exam_name": "111年特種考試地方政府公務人員考試",
+        "original_question_number": 23,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0073",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "下列何者，國家依法應負損害賠償責任？",
+      "options": [
+        "設有「前有落石，禁止進入」警示之國家公園步道，人民仍冒險進入而遇難",
+        "經公告之私人所有既成巷道上路燈突然倒塌致路人受傷",
+        "進入已公告廢止使用之學校校舍夜宿，失足掉入坑洞受傷",
+        "臺灣電力公司高壓電纜掉落致路人遭電死"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "604b45da09c0",
+        "answer_pdf_sha1": "a7187c62573c",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111190",
+          "c": "310",
+          "s": "0709",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "111",
+        "exam_name": "111年特種考試地方政府公務人員考試",
+        "original_question_number": 24,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0074",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "single_choice",
+      "question": "依實務見解，關於公法上返還請求權，下列敘述何者錯誤？",
+      "options": [
+        "衛生福利部中央健康保險署向簽訂健保合約之醫療院所，請求返還溢領之醫療費用給付時，應 提起一般給付之訴",
+        "人民之土地被徵收時，享有徵收補償之公法上請求權",
+        "臺北市政府社會局撤銷違法授益性行政處分後，得以書面行政處分限期命受益人返還已受領之 給付",
+        "行政主體間之給付關係，應依互相協商機制處理，不適用公法上返還請求權之規定"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "604b45da09c0",
+        "answer_pdf_sha1": "a7187c62573c",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111190",
+          "c": "310",
+          "s": "0709",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "111",
+        "exam_name": "111年特種考試地方政府公務人員考試",
+        "original_question_number": 25,
+        "answer_corrected": true,
+        "flags": [
+          "answer_corrected_skip_v1"
+        ]
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0075",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "essay",
+      "question": "目前臺灣籃壇同時有 SBL、PLG 及 T1 三個聯盟並立，從職業運動發展\n的脈絡來看，這種三足鼎立的現象，可能會面臨到什麼樣的挑戰？試舉\n例說明之。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "26e3fa40d276",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111190",
+          "c": "310",
+          "s": "1315",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "運動社會學",
+        "year": "111",
+        "exam_name": "111年特種考試地方政府公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0076",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "essay",
+      "question": "何謂國族主義？（10 分）與全球化或在地化運動有何關係？試舉例說明\n之。（15分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "26e3fa40d276",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111190",
+          "c": "310",
+          "s": "1315",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "運動社會學",
+        "year": "111",
+        "exam_name": "111年特種考試地方政府公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0077",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "essay",
+      "question": "法國社會學家布迪厄（PierreBourdieu）的理論觀點，對運動社會學的發\n展影響深遠，在《秀異》（Distinction）這本書中，提及運動品味階層化\n的現象。請就運動品味與階級之間的關係，試舉例說明之。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "26e3fa40d276",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111190",
+          "c": "310",
+          "s": "1315",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "運動社會學",
+        "year": "111",
+        "exam_name": "111年特種考試地方政府公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0078",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "essay",
+      "question": "性別平等與運動空間有何關係，試從運動社會學的理論觀點，舉例說明\n之。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "26e3fa40d276",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111190",
+          "c": "310",
+          "s": "1315",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "運動社會學",
+        "year": "111",
+        "exam_name": "111年特種考試地方政府公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0079",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "essay",
+      "question": "阻力訓練（resistancetraining）是運動員競技潛能發展的策略，若有良好\n的訓練計畫並予以監控，可避免傷害的發生並促進身心發展。請詳述何\n謂「阻力訓練」並說明其訓練方式以及訓練原則，同時針對阻力訓練設\n計中說明有那些變項？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "c4d87e507c77",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111190",
+          "c": "310",
+          "s": "1316",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "運動自然科學",
+        "year": "111",
+        "exam_name": "111年特種考試地方政府公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0080",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "essay",
+      "question": "教師常採用酬賞來獎勵學生表現，請以認知評價理論（cognitive\nevaluation theory）的觀點，說明外在酬賞如何影響內在動機？（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "c4d87e507c77",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111190",
+          "c": "310",
+          "s": "1316",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "運動自然科學",
+        "year": "111",
+        "exam_name": "111年特種考試地方政府公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0081",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "essay",
+      "question": "請寫出心理技能訓練（psychologicalskilltraining,PST）的定義與三個訓\n練階段，運動教練或教師應如何在身體活動的訓練過程中實施 PST，以\n利初學者獲得該技能？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "c4d87e507c77",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111190",
+          "c": "310",
+          "s": "1316",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "運動自然科學",
+        "year": "111",
+        "exam_name": "111年特種考試地方政府公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0082",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "essay",
+      "question": "自由車運動員（人和車共100公斤）由坡頂空速自然滑下，坡高12公尺，\n車到坡底時具有的瞬時速率為12 公尺/秒，問在此過程中摩擦力總共作了\n多少功？（不計空氣阻力，重力加速度以9.81公尺/秒2計算）（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "c4d87e507c77",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111190",
+          "c": "310",
+          "s": "1316",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "運動自然科學",
+        "year": "111",
+        "exam_name": "111年特種考試地方政府公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0083",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "essay",
+      "question": "以動作教育（movementeducation）觀點而言，動作技能依不同性質劃分\n為那三類，請試述之。（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "8aff77e27fe9",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111190",
+          "c": "310",
+          "s": "1312",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "體育原理",
+        "year": "111",
+        "exam_name": "111年特種考試地方政府公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0084",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "essay",
+      "question": "請試述聯合國決議之 17 項永續發展核心目標 SDGs。（10 分） 2020 年\n更進一步通過「運動作為永續發展的推動力量（Sport as an enabler of\nsustainabledevelopment）」決議文，請詳述國際奧會（IOC）重申其內容\n重點及運動促進社會發展的各種面向。（15 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "8aff77e27fe9",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111190",
+          "c": "310",
+          "s": "1312",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "體育原理",
+        "year": "111",
+        "exam_name": "111年特種考試地方政府公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0085",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "essay",
+      "question": "請說明立法院 110 年 12 月修正通過的國民體育法第 22 條之修法重點\n及附帶決議。（15 分）對於優秀運動員有何特別意義，試舉例說明之。\n（10 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "8aff77e27fe9",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111190",
+          "c": "310",
+          "s": "1312",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "體育原理",
+        "year": "111",
+        "exam_name": "111年特種考試地方政府公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0086",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "essay",
+      "question": "請說明綠色奧運是什麼？（10 分）據此，剛結束的東京奧運展現何種亮\n點？試舉數例說明之。（15 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "8aff77e27fe9",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111190",
+          "c": "310",
+          "s": "1312",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "體育原理",
+        "year": "111",
+        "exam_name": "111年特種考試地方政府公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0087",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "essay",
+      "question": "試舉例說明政府部門針對銀髮族所推動之運動相關計畫或方案，並闡述\n因應社會高齡化趨勢，體育行政部門提升銀髮族運動參與之可行策略。\n（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "2f1ae52b743f",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111190",
+          "c": "310",
+          "s": "1313",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "體育行政與管理",
+        "year": "111",
+        "exam_name": "111年特種考試地方政府公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0088",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "essay",
+      "question": "試述教育部體育署「推動企業贊助體育運動方案」之規劃背景、辦理目\n的與實施策略。（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "2f1ae52b743f",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111190",
+          "c": "310",
+          "s": "1313",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "體育行政與管理",
+        "year": "111",
+        "exam_name": "111年特種考試地方政府公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0089",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "essay",
+      "question": "何謂「危機管理（crisismanagement）」？試述主辦單位面對涉及人員重\n大傷亡之運動競賽或活動危機，應有之管理作為。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "2f1ae52b743f",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111190",
+          "c": "310",
+          "s": "1313",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "體育行政與管理",
+        "year": "111",
+        "exam_name": "111年特種考試地方政府公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "locality-7be5e2bb-0090",
+      "exam_id": "locality-7be5e2bb",
+      "question_type": "essay",
+      "question": "試述專任運動教練的職責，並說明國民體育法中針對設有體育班學校聘\n用專任運動教練的相關規定。（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:35:27+00:00",
+        "source_pdf_sha1": "2f1ae52b743f",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111190",
+          "c": "310",
+          "s": "1313",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "體育行政與管理",
+        "year": "111",
+        "exam_name": "111年特種考試地方政府公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    }
+  ]
+}

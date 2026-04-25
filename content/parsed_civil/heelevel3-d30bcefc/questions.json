@@ -1,0 +1,5216 @@
+{
+  "slug": "heelevel3-d30bcefc",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:33:48+00:00",
+  "paper_count": 5,
+  "paper_with_questions": 5,
+  "question_count": 142,
+  "type_counts": {
+    "essay": 10,
+    "single_choice": 132
+  },
+  "papers": [
+    {
+      "year": "114",
+      "exam_code": "114080",
+      "c": "223",
+      "s": "0708",
+      "q": "1",
+      "subject": "經濟學",
+      "exam_name": "114年公務人員高等考試三級考試暨普通考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "c23316d7f2cb",
+      "a_pdf_sha1": "92e118424728",
+      "format_detected": "mixed",
+      "raw_question_count": 29,
+      "answer_qnums_extracted": 25,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 29,
+      "skipped_count": 0
+    },
+    {
+      "year": "113",
+      "exam_code": "113080",
+      "c": "319",
+      "s": "0807",
+      "q": "1",
+      "subject": "經濟學",
+      "exam_name": "113年公務人員高等考試三級考試暨普通考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": true,
+      "q_pdf_sha1": "5eb67721d51d",
+      "a_pdf_sha1": "0e7bbb6b55ef",
+      "format_detected": "mixed",
+      "raw_question_count": 28,
+      "answer_qnums_extracted": 24,
+      "answer_corrections": 1,
+      "is_correction_pdf_used": true,
+      "status": "ok",
+      "question_count": 28,
+      "skipped_count": 0
+    },
+    {
+      "year": "112",
+      "exam_code": "112090",
+      "c": "323",
+      "s": "1010",
+      "q": "1",
+      "subject": "經濟學",
+      "exam_name": "112年公務人員高等考試三級考試暨普通考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "5ceaffa29b17",
+      "a_pdf_sha1": "455adc10cc30",
+      "format_detected": "mixed",
+      "raw_question_count": 30,
+      "answer_qnums_extracted": 25,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 30,
+      "skipped_count": 0
+    },
+    {
+      "year": "111",
+      "exam_code": "111090",
+      "c": "329",
+      "s": "0908",
+      "q": "1",
+      "subject": "經濟學",
+      "exam_name": "111年公務人員高等考試三級考試暨普通考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "7b2be102255d",
+      "a_pdf_sha1": "40ea3bc8eedf",
+      "format_detected": "mixed",
+      "raw_question_count": 27,
+      "answer_qnums_extracted": 25,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 27,
+      "skipped_count": 0
+    },
+    {
+      "year": "110",
+      "exam_code": "110090",
+      "c": "311",
+      "s": "1008",
+      "q": "1",
+      "subject": "經濟學",
+      "exam_name": "110年公務人員高等考試三級考試暨普通考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "b08f8b855b01",
+      "a_pdf_sha1": "82b5b8631449",
+      "format_detected": "mixed",
+      "raw_question_count": 28,
+      "answer_qnums_extracted": 25,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 28,
+      "skipped_count": 0
+    }
+  ],
+  "questions": [
+    {
+      "id": "heelevel3-d30bcefc-0001",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "essay",
+      "question": "考慮兩家生產同質商品的廠商進行數量競爭（quantity competition），並\n共同面對以下的市場反需求函數（inverse marketdemand）\np 120q q ，\n1 2\n其中p為商品的價格，q 為廠商1 的產量，q 為廠商2 的產量。另外，廠\n1 2\n商1及廠商2的邊際成本分別為10及20。根據以上設定回答下列問題。\n假設這兩家廠商同時並獨立追求利潤最大。分別求出這兩家廠商的均\n衡利潤，以及在均衡產量下所對應的消費者剩餘（consumersurplus）。\n（10分）\n假設廠商 2採用一種成本減量的新技術，但廠商 1 不採用此技術，且\n廠商 2 的邊際成本會因而由 20 下降為 10。在此設定下，第小題的\n答案將改變為何？若採用此新技術的成本為C0，在何種有關C的條\n件下，廠商 2會願意採用此技術？（10 分）\n定義某個廠商採用新技術的社會價值（social value）為採用此技術後\n所造成兩家廠商均衡利潤的變化量加上消費者剩餘的變化量。請求出\n廠商 2採用新技術的社會價值。（5 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:47+00:00",
+        "source_pdf_sha1": "c23316d7f2cb",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114080",
+          "c": "223",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0002",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "essay",
+      "question": "在2025年4月2日，美國的川普政府宣布未來將對大部分進口商品至美\n國的國家課徵對等關稅。為避免高關稅，各國的廠商都開始考慮將國內的\n投資轉為赴美國投資。假設A國為一個開放經濟體系（openeconomy），\n且採浮動匯率制度（floatingexchangerate）。在同時考慮A國國內可貸資\n金市場及外匯市場的模型下，分析川普政府對A國課徵對等關稅對A國\n的影響。\n此事件會如何影響A國國內投資？請回答投資會因而增加或減少。（2分）\n此事件會如何影響 A國的淨資本流出（net capital outflow）？請回答\n淨資本流出會因而增加或減少。（2 分）\n其他條件不變下，根據您以上兩小題的答案，分析川普政府對A國課\n徵對等關稅對 A國的均衡實質利率、均衡實質匯率及淨出口金額所造\n成的影響。（必須以圖形及文字說明，否則不計分）（21分）\n22660\n23160",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:47+00:00",
+        "source_pdf_sha1": "c23316d7f2cb",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114080",
+          "c": "223",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0003",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "假設只有兩國各僅生產兩種商品，同時勞動是唯一的生產要素。在單位勞動投入（unit labor requirement，即生產一單位商品所需的勞動數量）為固定情況下，就同一商品而言，下列敘述何 者正確？",
+      "options": [
+        "一國對於此商品之單位勞動投入高於另一國者，具有絕對利益（absoluteadvantage）",
+        "一國對於此商品之單位勞動投入低於另一國者，具有絕對利益",
+        "一國對於此商品之單位勞動投入高於另一國者，具有比較利益（comparativeadvantage）",
+        "一國對於此商品之單位勞動投入低於另一國者，具有比較利益"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:47+00:00",
+        "source_pdf_sha1": "c23316d7f2cb",
+        "answer_pdf_sha1": "92e118424728",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114080",
+          "c": "223",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0004",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "某產品每件售價為 1,000 元，剛好為該產品的成本，甲、乙、丙是三個可能的顧客，三人的願付 價格分別為1,500元、1,200元與1,000元，倘今政府對於產品交易課徵每單位300元的稅，該產 品賣方將售價提高為1,300元，則此稅所造成的無謂損失為何？",
+      "options": [
+        "200",
+        "300",
+        "500",
+        "600"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:47+00:00",
+        "source_pdf_sha1": "c23316d7f2cb",
+        "answer_pdf_sha1": "92e118424728",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114080",
+          "c": "223",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0005",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "座標平面上，X軸為勞工數量，Y軸為資本數量。若等產量線為垂直線，下列敘述何者正確？",
+      "options": [
+        "勞工與資本兩要素在此廠商的生產過程中可互相替代",
+        "固定比例的勞工與資本必須同時使用以生產產品",
+        "資本對此廠商的生產毫無作用",
+        "勞工對此廠商的生產毫無作用"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:47+00:00",
+        "source_pdf_sha1": "c23316d7f2cb",
+        "answer_pdf_sha1": "92e118424728",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114080",
+          "c": "223",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0006",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "咚咚開了一家冷飲店，一杯珍珠奶茶賣50元，食材成本為20元，僱用人力成本14元，設備的利 息與折舊為2元。另外，咚咚自己的人力投入設算薪資6元，使用自有房屋為店面設算房租5元。 則咚咚銷售一杯珍珠奶茶的經濟利潤為何？",
+      "options": [
+        "3元",
+        "6元",
+        "11元",
+        "14元"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:47+00:00",
+        "source_pdf_sha1": "c23316d7f2cb",
+        "answer_pdf_sha1": "92e118424728",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114080",
+          "c": "223",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0007",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "有關完全競爭市場，下列敘述何者錯誤？",
+      "options": [
+        "整體市場的需求曲線其斜率可能為負數",
+        "整體市場的短期供給曲線的斜率不可能為負數",
+        "個別廠商所面對的需求曲線其斜率可能為負數",
+        "個別廠商的短期供給曲線的斜率不可能為負數"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:47+00:00",
+        "source_pdf_sha1": "c23316d7f2cb",
+        "answer_pdf_sha1": "92e118424728",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114080",
+          "c": "223",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0008",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "針對雞蛋的市場而言，假設供給曲線為正斜率，需求曲線為負斜率。如果蛋農需要付出比原來高 的飼料成本，雞蛋市場的短期均衡價格和數量變化為何？",
+      "options": [
+        "價格會上升，數量也會上升",
+        "價格會上升，數量會下降",
+        "價格會下降，數量會上升",
+        "價格會下降，數量也會下降"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:47+00:00",
+        "source_pdf_sha1": "c23316d7f2cb",
+        "answer_pdf_sha1": "92e118424728",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114080",
+          "c": "223",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0009",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "某一獨占廠商面對的市場需求曲線為一直線，邊際成本固定在20，極大化利潤的產量與價格分別 為10與30，消費者剩餘為何？",
+      "options": [
+        "25",
+        "50",
+        "75",
+        "100"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:47+00:00",
+        "source_pdf_sha1": "c23316d7f2cb",
+        "answer_pdf_sha1": "92e118424728",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114080",
+          "c": "223",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0010",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "下列何者不會減少對某一類型勞工的需求？",
+      "options": [
+        "大量使用該類型勞工的財貨需求下降",
+        "可以替代該類型勞工的機器價格下降",
+        "該類型勞工單位生產力上升",
+        "政策要求雇主提高對該類型勞工的職災保險 22660 23160"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:47+00:00",
+        "source_pdf_sha1": "c23316d7f2cb",
+        "answer_pdf_sha1": "92e118424728",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114080",
+          "c": "223",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0011",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "關於資本市場的敘述，下列何者錯誤？",
+      "options": [
+        "利率是放棄當前消費的補償，因此是一種貼水的概念",
+        "利率的高低可以顯示未來消費的現值與當期消費的比率",
+        "一經濟體的資本存量是某一時點存在的所有機器、設備及相關資源",
+        "一經濟體的資本存量是某一時點未被消費而留下用於生產的產出"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:47+00:00",
+        "source_pdf_sha1": "c23316d7f2cb",
+        "answer_pdf_sha1": "92e118424728",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114080",
+          "c": "223",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0012",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "關於一般均衡（generalequilibrium）的敘述，下列何者錯誤？",
+      "options": [
+        "一般均衡指的是當一商品或勞務的供給等於其需求時的狀態",
+        "達到一般均衡時，只有相對價格會被決定",
+        "一般均衡指的是每一個體都在能夠支付得起的商品組合中，選擇其最喜歡的組合",
+        "一般均衡指的是，若共有8個市場，其中5個的超額需求等於零，剩下3個市場的超額需求必 等於零"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:47+00:00",
+        "source_pdf_sha1": "c23316d7f2cb",
+        "answer_pdf_sha1": "92e118424728",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114080",
+          "c": "223",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0013",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "假設汽油的需求函數為Q=33－P，廠商生產汽油的邊際成本函數為MC=0.5Q，其中Q為汽油產 量。假設生產一單位汽油所排放的廢氣對社會的損害為3，且無外部效益，下列敘述何者錯誤？",
+      "options": [
+        "市場自由運作的無謂損失（deadweightloss）為3",
+        "政府應課汽油稅，每單位稅額等於3",
+        "若政府課徵滿足社會福利最大的稅額，消費者需負擔每單位的稅額為2",
+        "社會福利最大時每單位汽油價格為14"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:47+00:00",
+        "source_pdf_sha1": "c23316d7f2cb",
+        "answer_pdf_sha1": "92e118424728",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114080",
+          "c": "223",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 11,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0014",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "有關古典學派（theClassicalschool）對生產與就業之看法，下列敘述何者錯誤？",
+      "options": [
+        "勞動的效用函數決定廠商的勞動需求",
+        "實質產出的決定與名目貨幣供給數量無關",
+        "均衡的名目工資與勞動邊際生產力以及物價水準高低有關",
+        "工資具向上與向下的完全調整性，因此總合供給線為垂直線"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:47+00:00",
+        "source_pdf_sha1": "c23316d7f2cb",
+        "answer_pdf_sha1": "92e118424728",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114080",
+          "c": "223",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 12,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0015",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "一國自然失業率的高低，會受下列何種因素的變化所影響？",
+      "options": [
+        "貨幣政策",
+        "生產效率",
+        "預期物價上漲率",
+        "對未來景氣變化的預期"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:47+00:00",
+        "source_pdf_sha1": "c23316d7f2cb",
+        "answer_pdf_sha1": "92e118424728",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114080",
+          "c": "223",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 13,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0016",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "根據梭羅模型（SolowModel），若溫室效應惡化造成資本的折舊率永久性上升，則會造成下列何 者狀況？",
+      "options": [
+        "資本勞動比（capital-laborratio）上升",
+        "資本勞動比不受影響",
+        "每單位勞動消費（consumptionperworker）下降",
+        "每單位勞動產出（outputperworker）下降"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:47+00:00",
+        "source_pdf_sha1": "c23316d7f2cb",
+        "answer_pdf_sha1": "92e118424728",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114080",
+          "c": "223",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 14,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0017",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "在經濟發展過程中，窮國平均經濟成長率會比富國快，稱為下列何者？",
+      "options": [
+        "絕對收斂說",
+        "條件收斂說",
+        "相對收斂說",
+        "俱樂部收斂"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:47+00:00",
+        "source_pdf_sha1": "c23316d7f2cb",
+        "answer_pdf_sha1": "92e118424728",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114080",
+          "c": "223",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 15,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0018",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "假設一Cobb-Douglas生產函數有三種投入：K為資本（機器數量）、L為勞動（員工人數）、H為 人力資本（員工中有大學學歷的人數），生產函數為Y=K1/3L1/6H1/2。下列敘述何者錯誤？",
+      "options": [
+        "人力資本數量增加會增加勞動的邊際產量",
+        "人力資本數量增加會增加資本的邊際產量",
+        "勞動數量的提高會增加勞動的邊際產量",
+        "勞動數量的提高會增加人力資本的邊際產量 22660 23160"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:47+00:00",
+        "source_pdf_sha1": "c23316d7f2cb",
+        "answer_pdf_sha1": "92e118424728",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114080",
+          "c": "223",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 16,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0019",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "根據IS-LM模型架構，有關排擠效果（crowdingouteffect），下列敘述何者正確？",
+      "options": [
+        "排擠效果會隨IS線愈陡峭而提高",
+        "排擠效果會隨LM線愈平坦而下降",
+        "為描述利率因貨幣政策緊縮上升，對投資的負面影響作用",
+        "為描述利率因政府支出擴張上升，對消費的負面影響作用"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:47+00:00",
+        "source_pdf_sha1": "c23316d7f2cb",
+        "answer_pdf_sha1": "92e118424728",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114080",
+          "c": "223",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 17,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0020",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "有關匯率政策，下列敘述何者錯誤？",
+      "options": [
+        "中央銀行可以透過買入或賣出美元直接干預外匯市場",
+        "中央銀行可以透過改變利率來影響匯率",
+        "假若一國的中央銀行不干預外匯市場，意謂著該國沒有匯率政策",
+        "爬行釘住（crawlingpeg）匯率政策通常被視為固定匯率機制，但允許目標匯率（targetexchange rate）逐步緩慢變動"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:47+00:00",
+        "source_pdf_sha1": "c23316d7f2cb",
+        "answer_pdf_sha1": "92e118424728",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114080",
+          "c": "223",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 18,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0021",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "根據短期菲利普曲線，當實質國內生產毛額（GDP）高於潛在產出時，下列敘述何者正確？",
+      "options": [
+        "物價水準上升與失業率降低",
+        "物價水準上升與失業率上升",
+        "物價水準降低與失業率降低",
+        "物價水準降低與失業率上升"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:47+00:00",
+        "source_pdf_sha1": "c23316d7f2cb",
+        "answer_pdf_sha1": "92e118424728",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114080",
+          "c": "223",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 19,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0022",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "假如目前的經濟體系民眾只活兩期，每個人從這兩期消費所得的效用為U=C 0.5C0.5。假定政府第",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:47+00:00",
+        "source_pdf_sha1": "c23316d7f2cb",
+        "answer_pdf_sha1": "92e118424728",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114080",
+          "c": "223",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 20,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0023",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "2 一期和第二期課稅分別為T =60、T =48，但是政府第一期和第二期的支出分別為G =90、G",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:47+00:00",
+        "source_pdf_sha1": "c23316d7f2cb",
+        "answer_pdf_sha1": "92e118424728",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114080",
+          "c": "223",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0024",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "2 1 2 =120。若每期的市場利率為20%，則政府第二期累積的公債餘額為何？",
+      "options": [
+        "72元",
+        "84元",
+        "96元",
+        "108元"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:47+00:00",
+        "source_pdf_sha1": "c23316d7f2cb",
+        "answer_pdf_sha1": "92e118424728",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114080",
+          "c": "223",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0025",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "當政府以發行中央公債來解決財政赤字問題時，下列敘述何者正確？",
+      "options": [
+        "若由中央銀行來購買中央公債，不會引發通貨膨脹",
+        "根據李嘉圖均等定理，若此公債為無窮期公債，不會影響民眾的跨期消費決策",
+        "公共債務法針對自償性公債未償餘額之存量與流量有明文限制",
+        "根據李嘉圖均等定理，若公債利息由中央銀行增加貨幣發行來償付，則家計財富會增加"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:47+00:00",
+        "source_pdf_sha1": "c23316d7f2cb",
+        "answer_pdf_sha1": "92e118424728",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114080",
+          "c": "223",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 21,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0026",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "假設A公司的資本邊際產量（marginalproductofcapital）為5%，實質利率為1%，A公司的股票 市場價值為$2,000，資本存量（capitalstock）為15單位，資本存量價格為$100，根據A公司托賓 的Q比率（Tobin'sQRatio），下列敘述何者正確？",
+      "options": [
+        "托賓的Q比率大於1，A公司應減少資本的投資",
+        "托賓的Q比率大於1，A公司應增加資本的投資",
+        "托賓的Q比率小於1，A公司應減少資本的投資",
+        "托賓的Q比率小於1，A公司應增加資本的投資"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:47+00:00",
+        "source_pdf_sha1": "c23316d7f2cb",
+        "answer_pdf_sha1": "92e118424728",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114080",
+          "c": "223",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 22,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0027",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "A國開放外國人到本國工作，相對於開放前的情況，開放後A國的：",
+      "options": [
+        "勞動供給上升",
+        "勞動供給下降",
+        "均衡工資上升",
+        "均衡工資不變"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:47+00:00",
+        "source_pdf_sha1": "c23316d7f2cb",
+        "answer_pdf_sha1": "92e118424728",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114080",
+          "c": "223",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 23,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0028",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "下列何者不是我國景氣動向的領先指標（leadingindicator）？",
+      "options": [
+        "實質貨幣總計數M1B",
+        "建築物開工樓地板面積",
+        "實質半導體設備進口值",
+        "製造業平均每月薪資變動率"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:47+00:00",
+        "source_pdf_sha1": "c23316d7f2cb",
+        "answer_pdf_sha1": "92e118424728",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114080",
+          "c": "223",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 24,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0029",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "將國民所得分成民間消費、國內投資、 政府消費與淨出口四個部分，此衡量方法為下列何者？",
+      "options": [
+        "附加價值法（value-addedapproach）",
+        "支出面法（expenditureapproach）",
+        "所得面法（incomeapproach）",
+        "最終產出法（finalproductsapproach）"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:47+00:00",
+        "source_pdf_sha1": "c23316d7f2cb",
+        "answer_pdf_sha1": "92e118424728",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114080",
+          "c": "223",
+          "s": "0708",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 25,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0030",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "essay",
+      "question": "考慮市場上存在某獨占廠商，試以需求曲線與邊際成本函數的圖形（橫\n軸為數量、縱軸為價格）說明何謂加價（markup）？並說明加價與需求\n彈性之間的關係。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5eb67721d51d",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113080",
+          "c": "319",
+          "s": "0807",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0031",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "essay",
+      "question": "設想在碳中和趨勢下，企業推動節能減碳將導致生產成本提高，試以總\n合供需模型繪圖（橫軸為產出、縱軸為物價）分析碳中和趨勢將如何造\n成綠色通膨（green inflation）？並說明中央銀行在面對綠色通膨時可能\n遭遇的困境。（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5eb67721d51d",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113080",
+          "c": "319",
+          "s": "0807",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0032",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "假設本國可生產10單位X產品或20單位Y產品，而外國可生產10單位X產品或10單位Y產 品，且兩國從事國際貿易。若今外國之Y產品生產發生技術進步，變為與本國相同，亦可生產10 單位X產品或20單位Y產品，下列何者錯誤？",
+      "options": [
+        "技術進步發生後，兩國無法透過國際貿易而得利",
+        "技術進步發生後，兩國境內之產品相對價格相同",
+        "技術進步發生後，本國福利水準下降",
+        "技術進步發生後，外國福利水準不變"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5eb67721d51d",
+        "answer_pdf_sha1": "0e7bbb6b55ef",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113080",
+          "c": "319",
+          "s": "0807",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0033",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "假設鳳梨釋迦市場的供需法則均成立。由於鳳梨釋迦無法外銷，因此市場的均衡價格滑落到每顆 鳳梨釋迦的價格為40元。因此，政府決定對每顆鳳梨釋迦設定價格下限（pricefloor）為60元。 此政策對鳳梨釋迦的消費者剩餘及生產者剩餘的影響為何？",
+      "options": [
+        "消費者剩餘減少，但生產者剩餘的變化則不確定",
+        "消費者剩餘增加，但生產者剩餘的變化則不確定",
+        "消費者剩餘減少，且生產者剩餘增加",
+        "消費者剩餘增加，且生產者剩餘增加"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5eb67721d51d",
+        "answer_pdf_sha1": "0e7bbb6b55ef",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113080",
+          "c": "319",
+          "s": "0807",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0034",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "對於一般廠商來說，廣告支出與研發支出的屬性屬於沉沒成本。短期而言，當廣告活動或是研發 活動的支出費用上升時，一般廠商的：",
+      "options": [
+        "邊際成本線、平均成本線均不變",
+        "邊際成本線上移，平均成本線不變",
+        "邊際成本線不變，平均成本線上移",
+        "邊際成本線、平均成本線均上移 32260 32760"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5eb67721d51d",
+        "answer_pdf_sha1": "0e7bbb6b55ef",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113080",
+          "c": "319",
+          "s": "0807",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0035",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "假設消費者的效用函數為U(X,Y)=XY+4，其中X和Y為財貨的消費量。當所得是$100，X和Y 的價格都是$2時，在效用極大化下，X財貨和Y財貨數量的最適選擇為何？",
+      "options": [
+        "X=50，Y=50",
+        "X=30，Y=20",
+        "X=20，Y=30",
+        "X=25，Y=25"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5eb67721d51d",
+        "answer_pdf_sha1": "0e7bbb6b55ef",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113080",
+          "c": "319",
+          "s": "0807",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0036",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "假設美麗國廠商在本國與外國僱用勞工生產成衣，在某一固定產量下，每位本國與外國勞工的邊 際生產力分別為10與5，每位本國與外國勞工的薪資分別為5與2。下列敘述何者錯誤？",
+      "options": [
+        "在此固定產量下，以外國勞工替代本國勞工的邊際技術替代率為0.5",
+        "若廠商增加1位外國勞工，同時減少1位本國勞工，產量會下降",
+        "維持相同成本，廠商增加外國勞工的僱用，減少本國勞工的僱用，產量會下降",
+        "本國勞工每塊錢的邊際生產力低於外國勞工"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5eb67721d51d",
+        "answer_pdf_sha1": "0e7bbb6b55ef",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113080",
+          "c": "319",
+          "s": "0807",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0037",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "有關獨占性競爭廠商，下列何者錯誤？",
+      "options": [
+        "獨占性競爭廠商會從事產品異質化，但創意也很容易被模仿",
+        "獨占性競爭廠商有一定的訂價權力，隨著顧客忠誠度越高、訂價權力越大",
+        "獨占性競爭廠商的訂價權力讓其在長期得以享受正的經濟利潤",
+        "獨占性競爭廠商可以透過廣告來傳遞其產品異質化的訊息"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5eb67721d51d",
+        "answer_pdf_sha1": "0e7bbb6b55ef",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113080",
+          "c": "319",
+          "s": "0807",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0038",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "假設政府通過一法令，要求廠商必須給予受雇勞工每小時200元的額外福利，若此一政策造成勞 動需求與勞動供給同時變動，則勞動市場之均衡有何變化？",
+      "options": [
+        "均衡工資變動方向不確定，均衡勞動雇用量下降",
+        "均衡工資變動方向不確定，均衡勞動雇用量上升",
+        "均衡工資上升，均衡勞動雇用量變動方向不確定",
+        "均衡工資下降，均衡勞動雇用量變動方向不確定"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5eb67721d51d",
+        "answer_pdf_sha1": "0e7bbb6b55ef",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113080",
+          "c": "319",
+          "s": "0807",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0039",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "小丁是財富的風險愛好者（risklover），則下列何者正確？",
+      "options": [
+        "小丁財富的邊際效用會隨著財富的增加而遞減",
+        "小丁財富的邊際效用不會隨著財富的增加而改變",
+        "小丁財富的邊際效用會隨著財富的增加而遞增",
+        "小丁財富的邊際效用會隨著財富的增加先遞減再遞增"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5eb67721d51d",
+        "answer_pdf_sha1": "0e7bbb6b55ef",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113080",
+          "c": "319",
+          "s": "0807",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0040",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "考慮一個經濟體系包含了兩個消費者、兩個生產要素以及兩個廠商。則此經濟體系的契約曲線 （contractcurve）會滿足下列何種條件？",
+      "options": [
+        "在契約曲線上的每一點，必為兩個消費者無異曲線的相交點",
+        "在契約曲線上的每一點，必有一個生產要素沒有用完",
+        "在契約曲線上的每一點，必是該經濟體系最有效率的分配組合點",
+        "在契約曲線上的每一點，必滿足第二社會福利定理"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5eb67721d51d",
+        "answer_pdf_sha1": "0e7bbb6b55ef",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113080",
+          "c": "319",
+          "s": "0807",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0041",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "假設在一個完全競爭市場裡，整體廠商生產X的邊際成本為0.2X，同時每增加1單位X產生的 污染物所造成的社會損害成本為2元，消費者對X的需求曲線為P=6-0.2X，若政府以課污染稅的 方式欲使外部成本內部化，則每單位X應課之從量稅及此時之產量為何？",
+      "options": [
+        "（1,10）",
+        "（1,20）",
+        "（2,20）",
+        "（2,10） 32260 32760"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5eb67721d51d",
+        "answer_pdf_sha1": "0e7bbb6b55ef",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113080",
+          "c": "319",
+          "s": "0807",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0042",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "甲國國民生產雞蛋並提供電影娛樂服務。一年內，他們生產了價值 1,000 萬元的雞蛋，其中 800 萬元的雞蛋供國內所需，另外200萬元的雞蛋外銷至乙國。甲國國民在國內外共提供了價值500 萬元的電影娛樂服務，其中在甲國提供價值200萬元，在乙國提供價值300萬元。此外，他們從 乙國購買了價值400萬元的天然氣。下列敘述何者正確？",
+      "options": [
+        "國民生產毛額（GNP）為1,000萬元",
+        "國內生產毛額（GDP）為1,500萬元",
+        "出口淨額（netexports）為100萬元",
+        "經常帳餘額（currentaccountbalance）為100萬元"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5eb67721d51d",
+        "answer_pdf_sha1": "0e7bbb6b55ef",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113080",
+          "c": "319",
+          "s": "0807",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 11,
+        "answer_corrected": true,
+        "flags": [
+          "answer_corrected_skip_v1"
+        ]
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0043",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "當緊縮缺口存在時，根據附加預期的菲力普曲線（expectations-augmentedPhillipscurve），下列何 者正確？",
+      "options": [
+        "預期通貨膨脹率大於實際通貨膨脹率",
+        "預期通貨膨脹率等於實際通貨膨脹率",
+        "預期通貨膨脹率小於實際通貨膨脹率",
+        "預期通貨膨脹率與實際通貨膨脹率的關係不確定"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5eb67721d51d",
+        "answer_pdf_sha1": "0e7bbb6b55ef",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113080",
+          "c": "319",
+          "s": "0807",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 12,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0044",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "梭羅模型（Solow model）假設生產函數具有規模報酬不變（constant return to scale）的性質。若 Y、K、L分別代表產出、資本與勞動，則下列生產函數何者不具有規模報酬不變的性質？",
+      "options": [
+        "Y=K0.3L0.7",
+        "Y=KL",
+        "Y= KL",
+        "Y=K+L"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5eb67721d51d",
+        "answer_pdf_sha1": "0e7bbb6b55ef",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113080",
+          "c": "319",
+          "s": "0807",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 13,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0045",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "有一修正凱因斯模型如下： 消費函數：C(Y－T)=0.8(Y－T)； 投資需求函數：I=306－28r； 政府支出：G=0； 稅收函數：T=T +0.1Y，T =0；",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5eb67721d51d",
+        "answer_pdf_sha1": "0e7bbb6b55ef",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113080",
+          "c": "319",
+          "s": "0807",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 14,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0046",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "0 實質貨幣需求函數：Ld=Y－100r； 實質貨幣供給額：1,000元。 如果政府決定改增加人頭稅（T ）10元，以做公共支出之用時，則均衡所得為何？ 0",
+      "options": [
+        "850元",
+        "950元",
+        "1,050元",
+        "1,150元"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5eb67721d51d",
+        "answer_pdf_sha1": "0e7bbb6b55ef",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113080",
+          "c": "319",
+          "s": "0807",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 0,
+        "answer_corrected": false,
+        "flags": [
+          "answer_missing"
+        ]
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0047",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "當發生流動性陷阱時，下列何者正確？",
+      "options": [
+        "財政支出的增加不會對廠商投資產生排擠效應",
+        "公開市場買入債券，帶動產出增加",
+        "調降重貼現率，增加商品需求",
+        "財政支出的增加，不存在產出效果"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5eb67721d51d",
+        "answer_pdf_sha1": "0e7bbb6b55ef",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113080",
+          "c": "319",
+          "s": "0807",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 15,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0048",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "當短期總合供給曲線愈陡峭時，則菲利普曲線（Phillipscurve）：",
+      "options": [
+        "愈平坦",
+        "愈陡峭",
+        "愈向後彎曲",
+        "與短期總合供給曲線的斜率無關"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5eb67721d51d",
+        "answer_pdf_sha1": "0e7bbb6b55ef",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113080",
+          "c": "319",
+          "s": "0807",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 16,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0049",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "以下為去年臺灣國際收支平衡表內各項目的變動：出口800萬美元、進口700萬美元、資本帳淨 流出100萬美元、本國對外國直接投資300萬美元、外國對本國直接投資200萬美元。在不考慮 誤差與遺漏與其他項目的變動下，去年我國央行準備資產變動為何？",
+      "options": [
+        "增加100萬美元",
+        "減少100萬美元",
+        "增加200萬美元",
+        "減少200萬美元 32260 32760"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5eb67721d51d",
+        "answer_pdf_sha1": "0e7bbb6b55ef",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113080",
+          "c": "319",
+          "s": "0807",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 17,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0050",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "某國政府面臨債務危機，如果無法提高債務上限，違約機會就會上升。為避免違約，該國必須增 稅並大量削減財政支出，在短期會產生何種影響？",
+      "options": [
+        "總合需求曲線左移，物價水準下降，實質GDP下降",
+        "總合需求曲線右移，物價水準上升，實質GDP上升",
+        "短期總合供給曲線左移，物價水準上升，實質GDP下降",
+        "短期總合供給曲線右移，物價水準下降，實質GDP上升"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5eb67721d51d",
+        "answer_pdf_sha1": "0e7bbb6b55ef",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113080",
+          "c": "319",
+          "s": "0807",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 18,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0051",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "以支出法求算GDP時，下列何者列入政府購買支出？",
+      "options": [
+        "政府公債的利息支出",
+        "失業保險津貼",
+        "政府興建高速公路的支出",
+        "對人民的褔利支出"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5eb67721d51d",
+        "answer_pdf_sha1": "0e7bbb6b55ef",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113080",
+          "c": "319",
+          "s": "0807",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 19,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0052",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "依據李嘉圖均等定理（Ricardianequivalencetheorem），假設其他條件不變，政府暫時性的調低其 定額稅，此減稅對於私部門支出的影響效果：",
+      "options": [
+        "為零",
+        "超過該減稅額",
+        "等於該減稅額",
+        "大於零，但小於該減稅額"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5eb67721d51d",
+        "answer_pdf_sha1": "0e7bbb6b55ef",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113080",
+          "c": "319",
+          "s": "0807",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 20,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0053",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "A 公司購買了一個新型螢幕用以展示產品，此螢幕的售價為 50,000 元，而該機型的折舊率為每年 25%。假設A公司向銀行借貸的利率為10%、存款利率為6%、預期通貨膨脹率為5%。若A公司利 用自有資金購買此螢幕設備，則A公司第一年的廠商使用資本成本（usercostofcapital）為何？",
+      "options": [
+        "12,500元",
+        "13,000元",
+        "15,000元",
+        "12,000元"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5eb67721d51d",
+        "answer_pdf_sha1": "0e7bbb6b55ef",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113080",
+          "c": "319",
+          "s": "0807",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 21,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0054",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "下列何者為中央銀行最常用來減少貨幣供給的操作方式？",
+      "options": [
+        "提高稅率",
+        "買入政府公債",
+        "在公開市場買入債券",
+        "在公開市場賣出債券"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5eb67721d51d",
+        "answer_pdf_sha1": "0e7bbb6b55ef",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113080",
+          "c": "319",
+          "s": "0807",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 22,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0055",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "如果貨幣需求受到利率和所得的影響，貨幣需求的所得彈性為2，且通貨膨脹率為2%。假定貨幣 的流通速度與短期利率皆為固定，在實質年經濟成長率為3%時，根據貨幣數量方程式，中央銀行 貨幣供給的年增加率為何？",
+      "options": [
+        "7%",
+        "8%",
+        "9%",
+        "10%"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5eb67721d51d",
+        "answer_pdf_sha1": "0e7bbb6b55ef",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113080",
+          "c": "319",
+          "s": "0807",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 23,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0056",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "有關實質景氣循環理論與新凱因斯學派對於「穩定政策」（stabilizationpolicy）之看法，下列何者 正確？",
+      "options": [
+        "實質景氣循環理論支持穩定政策所扮演的角色；新凱因斯學派不支持穩定政策所扮演的角色",
+        "實質景氣循環理論不支持穩定政策所扮演的角色；新凱因斯學派支持穩定政策所扮演的角色",
+        "兩者皆支持穩定政策所扮演的角色",
+        "兩者皆不支持穩定政策所扮演的角色"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5eb67721d51d",
+        "answer_pdf_sha1": "0e7bbb6b55ef",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113080",
+          "c": "319",
+          "s": "0807",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 24,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0057",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "某廠商的生產函數為Q=3L+5K，下列何者正確？",
+      "options": [
+        "該廠商必須依固定比例使用L與K二種要素以生產產品，比例為3單位的L配上5單位的K",
+        "該廠商必須依固定比例使用L與K二種要素以生產產品，比例為5單位的L配上3單位的K",
+        "對該廠商而言，L與K兩個生產要素可以互相替代，3單位的L可替代5單位的K",
+        "對該廠商而言，L與K兩個生產要素可以互相替代，5單位的L可替代3單位的K"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5eb67721d51d",
+        "answer_pdf_sha1": "0e7bbb6b55ef",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113080",
+          "c": "319",
+          "s": "0807",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 25,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0058",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "essay",
+      "question": "某一私有財的市場需求函數為 ，其中 、 分別是價格與\n需求量。此私有財的市場供給是由兩群廠商所提供：每一家第1群廠商的\n\u0000 = 1800−60\u0000 \u0000 \u0000\n邊際成本為 、每一家第2群廠商的邊際成本為 ，其中\n（ ）是每一家第 群廠商的產量。個別廠商所生產的商品同質且沒\n\u0000\u0000\u0000 = 5\u0000\u0000 \u0000\u0000\u0000 = 10\u0000\u0000\n有固定成本。假設每一群各由100家廠商所組成。請計算並回答下列問題：\n\u0000\u0000 \u0000 = 1,2 \u0000\n（未提供詳細計算過程，不計分）\n假設個別廠商都不能影響市場的交易價格及交易量。請問市場均衡時\n的交易量與交易價格分別為何？（5分）市場均衡時，第1群及第2群廠\n商的市場占有率分別為多少？（5分）又市場均衡時，第1群廠商總利潤\n與第2群廠商總利潤分別為何？（5分）\n假設兩群的廠商互相勾結、訂價以極大化利潤。兩群廠商勾結後同意，\n第1群廠商市占率與第2群廠商市占率之比為2：1。請問在兩群廠商互相\n勾結之下，市場均衡的交易價格及交易量分別為何？（5分）又市場均\n衡時，第1群廠商總利潤與第2群廠商總利潤分別為何？（5分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5ceaffa29b17",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112090",
+          "c": "323",
+          "s": "1010",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "經濟學",
+        "year": "112",
+        "exam_name": "112年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0059",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "essay",
+      "question": "以下為A國某一年度經濟活動的資料（單位：億元）：\n民間消費：800 投資：1000\n政府支出：700 政府稅收：800\n出口：1060 進口：860\nA國人民在國外的勞動所得：150 A國人民援助國外：30\nA國贈與外國機器設備：10 A國人民持有國外證券的報酬：50\nA國人民新增外國證券投資：250 外國人新增A國證券投資：300\nA國人民出售專利給國外廠商所得：20\n32460、32760\n假設沒有其他項的交易，也沒有誤差與遺漏，請依國民所得會計帳與國際\n收支帳定義，回答下列問題：\n分別計算A國本年度的國民所得毛額（grossnationalincome,GNI）、民間\n儲蓄毛額（ ）、經常帳餘額（CA）、資本帳餘額（KA）及央行準備與\n相關項目增加\u0000或減少的金額（R）。（15分，未提供計算過程，不計分）\nS\n近3年來臺灣的超額儲蓄大幅增加，每年均超過新臺幣3兆元。請由國民\n所得會計恆等式推導出一國超額儲蓄（ES）與其經常帳餘額的關係式\n（4分，未提供推導過程不計分），並說明臺灣這幾年超額儲蓄大幅增加\n的兩種可能原因。（6分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5ceaffa29b17",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112090",
+          "c": "323",
+          "s": "1010",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "經濟學",
+        "year": "112",
+        "exam_name": "112年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0060",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "下表為A玩具廠在固定資源下的生產組合，下列敘述何者正確？ 玩偶 消防車 400 0 300 200",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5ceaffa29b17",
+        "answer_pdf_sha1": "455adc10cc30",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112090",
+          "c": "323",
+          "s": "1010",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "112",
+        "exam_name": "112年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0061",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "350",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5ceaffa29b17",
+        "answer_pdf_sha1": "455adc10cc30",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112090",
+          "c": "323",
+          "s": "1010",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "112",
+        "exam_name": "112年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 200,
+        "answer_corrected": false,
+        "flags": [
+          "answer_missing",
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0062",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "450",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5ceaffa29b17",
+        "answer_pdf_sha1": "455adc10cc30",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112090",
+          "c": "323",
+          "s": "1010",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "112",
+        "exam_name": "112年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 100,
+        "answer_corrected": false,
+        "flags": [
+          "answer_missing",
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0063",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "500",
+      "options": [
+        "生產玩偶的機會成本遞減",
+        "生產玩偶的機會成本不變",
+        "生產玩偶的機會成本遞增",
+        "沒有其他資訊下，不可能得知每增加1個玩偶所需的機會成本"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5ceaffa29b17",
+        "answer_pdf_sha1": "455adc10cc30",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112090",
+          "c": "323",
+          "s": "1010",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "112",
+        "exam_name": "112年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 0,
+        "answer_corrected": false,
+        "flags": [
+          "answer_missing"
+        ]
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0064",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "臺灣從美國進口小麥，如果臺灣政府提高小麥進口關稅，下列敘述何者正確？",
+      "options": [
+        "臺灣消費者剩餘增加",
+        "臺灣生產者剩餘增加",
+        "美國生產者剩餘增加",
+        "臺灣社會福利增加"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5ceaffa29b17",
+        "answer_pdf_sha1": "455adc10cc30",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112090",
+          "c": "323",
+          "s": "1010",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "112",
+        "exam_name": "112年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0065",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "對於饅頭（M）和麵包（B），某消費者的態度是當吃很多饅頭之後，會想換吃麵包，而吃了很多 麵包之後，又會想換吃饅頭。下列何者可能是此消費者的效用函數？",
+      "options": [
+        "U=3M+5B",
+        "U=5M3/8B5/8",
+        "U=3log(M)+5B",
+        "U=min{3M,5B}"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5ceaffa29b17",
+        "answer_pdf_sha1": "455adc10cc30",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112090",
+          "c": "323",
+          "s": "1010",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "112",
+        "exam_name": "112年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0066",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "假設商品B為劣等財，下列有關替代效果和所得效果的敘述何者正確？①當商品B價格上升，在替",
+      "options": [
+        "當商品B價格下降，在所得效果下消費者會增加對商品 B的消費",
+        "當商品B價格下降，在所得效果下消費者會減少對商品B的消費",
+        "當商品B價格上 升，在替代效果下消費者會增加對商品B的消費",
+        ""
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5ceaffa29b17",
+        "answer_pdf_sha1": "455adc10cc30",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112090",
+          "c": "323",
+          "s": "1010",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "112",
+        "exam_name": "112年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0067",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "某包子店在現有店面及設備之下，老闆發現僱用3名員工時，包子的總產量會隨員工人數增加而增 加，因此又再僱用3名員工，但此時包子的總產量卻比原來還低。下列敘述何者錯誤？",
+      "options": [
+        "再僱用這3名員工的邊際產量為負",
+        "再僱用這3名員工的平均產量低於原有員工的平均產量",
+        "再僱用這3名員工後的平均產量並沒有改變",
+        "再僱用這3名員工後的平均產量仍高於其邊際產量"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5ceaffa29b17",
+        "answer_pdf_sha1": "455adc10cc30",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112090",
+          "c": "323",
+          "s": "1010",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "112",
+        "exam_name": "112年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0068",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "長期均衡下，一廠商是否能夠享有正利潤的關鍵因素為下列何者？",
+      "options": [
+        "廠商定價的能力",
+        "各廠商產品異質化的程度",
+        "各廠商自由進出市場的能力",
+        "市場需求的價格敏感程度"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5ceaffa29b17",
+        "answer_pdf_sha1": "455adc10cc30",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112090",
+          "c": "323",
+          "s": "1010",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "112",
+        "exam_name": "112年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0069",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "下列何種市場結構中比較少見廠商進行研發活動？",
+      "options": [
+        "完全競爭市場",
+        "獨占性競爭市場",
+        "寡占市場",
+        "獨占市場"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5ceaffa29b17",
+        "answer_pdf_sha1": "455adc10cc30",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112090",
+          "c": "323",
+          "s": "1010",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "112",
+        "exam_name": "112年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0070",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "新建築工法大幅縮短大樓工程天數，此將導致大樓建築工人的工資：",
+      "options": [
+        "上升",
+        "下降",
+        "不變",
+        "無法判斷上升或下降"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5ceaffa29b17",
+        "answer_pdf_sha1": "455adc10cc30",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112090",
+          "c": "323",
+          "s": "1010",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "112",
+        "exam_name": "112年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0071",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "關於勞動需求曲線的敘述，下列何者錯誤？",
+      "options": [
+        "勞動需求曲線指的是勞動邊際產值（valueofthemarginalproductoflabor）與勞動需求量之間的 關係",
+        "勞動需求曲線是勞動需求量與勞動邊際生產力乘上薪資之間的關係",
+        "勞動需求曲線是負斜率的",
+        "薪資上漲時，會產生替代效果與產量效果，故勞動需求量可能增加也可能減少"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5ceaffa29b17",
+        "answer_pdf_sha1": "455adc10cc30",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112090",
+          "c": "323",
+          "s": "1010",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "112",
+        "exam_name": "112年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0072",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "陶瓷用品市場流行手工製品，相對於手工製品流行前，手工製品的流行將使模具製品工廠的：",
+      "options": [
+        "模具邊際產出上升",
+        "模具邊際產出下降",
+        "模具邊際產值上升",
+        "模具邊際產值下降"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5ceaffa29b17",
+        "answer_pdf_sha1": "455adc10cc30",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112090",
+          "c": "323",
+          "s": "1010",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "112",
+        "exam_name": "112年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0073",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "當某消費的行為存在外部成本（例如：抽菸），此時個人決策消費量和社會最適消費量二者的關係 為何？",
+      "options": [
+        "個人決策消費量等於社會最適消費量",
+        "個人決策消費量大於社會最適消費量",
+        "個人決策消費量小於社會最適消費量",
+        "個人決策消費量與社會最適消費量並無直接關聯性"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5ceaffa29b17",
+        "answer_pdf_sha1": "455adc10cc30",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112090",
+          "c": "323",
+          "s": "1010",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "112",
+        "exam_name": "112年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 11,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0074",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "某一個國家在基期（2014年）購買一籃子財貨的成本為$86，在2013年購買的成本為$80，在2015 年購買的成本為$90。則此國家2015年的消費者物價指數（consumerpriceindex）及通貨膨脹率為 何？",
+      "options": [
+        "112.5且通貨膨脹率為12.5%",
+        "112.5且通貨膨脹率為4.6%",
+        "104.6且通貨膨脹率為4.6%",
+        "104.6且通貨膨脹率為12.5%"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5ceaffa29b17",
+        "answer_pdf_sha1": "455adc10cc30",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112090",
+          "c": "323",
+          "s": "1010",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "112",
+        "exam_name": "112年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 12,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0075",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "在計算本國之國民所得時，有關本國人王先生在美國出差之工作所得，下列敘述何者正確？",
+      "options": [
+        "不應列入GNP計算",
+        "應列入為淨國民收入（NetNationalIncome）項目內",
+        "應該列入GDP",
+        "應該同時列入本國之GDP與GNP"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5ceaffa29b17",
+        "answer_pdf_sha1": "455adc10cc30",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112090",
+          "c": "323",
+          "s": "1010",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "112",
+        "exam_name": "112年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 13,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0076",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "提款機的普及讓貨幣的流通速度加快。在古典二分（classicaldichotomy）的前提之下，下列何者 為最有可能發生的結果？",
+      "options": [
+        "所得提高",
+        "所得降低",
+        "實質貨幣數量提高",
+        "實質貨幣數量降低"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5ceaffa29b17",
+        "answer_pdf_sha1": "455adc10cc30",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112090",
+          "c": "323",
+          "s": "1010",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "112",
+        "exam_name": "112年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 14,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0077",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "若世界各國生產函數為Y=AKαL1-α，α (0,1)，其中Y為產出，A為技術水準，L為勞動，K為資本。據 此生產函數，關於新古典成長模型之收斂假說，下列敘述何者正確？",
+      "options": [
+        "無論技術如何進步，絕對收斂假說∈及相對收斂假說於此均不成立",
+        "技術進步會導致各國經濟成長率高於技術進步率，則相對收斂假說不成立，但絕對收斂假說會 成立",
+        "技術進步下，各國經濟成長率會等於技術進步率，則絕對收斂假說不成立，但相對收斂假說會 成立",
+        "無論經濟成長率與技術進步率關係為何，絕對收斂假說及相對收斂假說均成立 32460、32760"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5ceaffa29b17",
+        "answer_pdf_sha1": "455adc10cc30",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112090",
+          "c": "323",
+          "s": "1010",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "112",
+        "exam_name": "112年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 15,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0078",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "當皮古效果（Pigoueffect）存在時，下列敘述何者正確？",
+      "options": [
+        "總合供給線呈正斜率",
+        "總合供給線呈垂直線",
+        "總合需求線呈負斜率",
+        "總合需求線呈水平線"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5ceaffa29b17",
+        "answer_pdf_sha1": "455adc10cc30",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112090",
+          "c": "323",
+          "s": "1010",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "112",
+        "exam_name": "112年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 16,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0079",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "當經濟體系落入流動性陷阱時，下列三項敘述，正確的有幾項？①財政政策沒有排擠效果  ②貨",
+      "options": [
+        "傳統貨幣政策最有效",
+        "0項",
+        "1項",
+        "2項"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5ceaffa29b17",
+        "answer_pdf_sha1": "455adc10cc30",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112090",
+          "c": "323",
+          "s": "1010",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "112",
+        "exam_name": "112年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 17,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0080",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "有關新興凱因斯學派模型（NewKeynesianModel）的敘述，下列何者正確？",
+      "options": [
+        "新興凱因斯學派模型認為，並非所有的工資及物價調整都是在同一時間進行，以致於工資與物 價錯開調整現象將使整體物價水準在面臨需求變動之時，呈現緩慢調整現象",
+        "在勞動契約架構下，長期總合供給曲線是正斜率，從而貨幣在短期並非中立性（non-neutrality）",
+        "在物價黏滯（stickiness）下，當民眾能理性預期，清楚知道貨幣政策未來如何走向時，貨幣政 策短期仍然無法影響實質產出",
+        "獨占性競爭與物價黏滯二者同為實質景氣循環模型（RealBusinessCycleModel）與新興凱因斯 學派模型中的重要特性"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5ceaffa29b17",
+        "answer_pdf_sha1": "455adc10cc30",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112090",
+          "c": "323",
+          "s": "1010",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "112",
+        "exam_name": "112年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 18,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0081",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "短期總合供給曲線和總合需求曲線交點下的產出水準：",
+      "options": [
+        "永遠小於充分就業的產出",
+        "永遠大於充分就業的產出",
+        "永遠等於充分就業的產出",
+        "有可能大於、等於或小於充分就業的產出"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5ceaffa29b17",
+        "answer_pdf_sha1": "455adc10cc30",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112090",
+          "c": "323",
+          "s": "1010",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "112",
+        "exam_name": "112年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 19,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0082",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "有一個經濟體系，其商品及貨幣市場關係如下： 消費函數：C＝25+0.8(Y－T)； 投資函數：I＝75－40r； 政府課稅：T＝25； 政府支出：G＝25； 貨幣需求：L(Y,r)＝100+Y－200r； 貨幣供給：MS＝600；假設物價指數P＝1。 如果政府希望減少稅賦以此補貼民眾，因此決定減少1元的稅賦，但又不願意降低政府支出，因此 要由中央銀行多印1元的貨幣以支應政府原來的支出。則國民所得Y變化為何？",
+      "options": [
+        "增加1.5元",
+        "增加2.5元",
+        "減少1.5元",
+        "減少2.5元"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5ceaffa29b17",
+        "answer_pdf_sha1": "455adc10cc30",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112090",
+          "c": "323",
+          "s": "1010",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "112",
+        "exam_name": "112年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 20,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0083",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "假定中央銀行出售4,000萬元國庫券給商業銀行，而存款準備金比率為20%，則其效果為何？",
+      "options": [
+        "超額準備金減少800萬元",
+        "超額準備金減少2億元",
+        "貨幣供給減少約2億元",
+        "貨幣供給減少約4億元"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5ceaffa29b17",
+        "answer_pdf_sha1": "455adc10cc30",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112090",
+          "c": "323",
+          "s": "1010",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "112",
+        "exam_name": "112年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 21,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0084",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "若消費函數為C=Ca+bYd，Ca為自發性消費支出。當可支配所得Yd=10,000時，消費支出C=20,000， 邊際消費傾向b等於0.6，下列敘述何者正確？",
+      "options": [
+        "誘發性消費支出等於10,000",
+        "自發性消費支出等於6,000",
+        "平均消費支出為0.6",
+        "自發性消費支出等於14,000"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5ceaffa29b17",
+        "answer_pdf_sha1": "455adc10cc30",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112090",
+          "c": "323",
+          "s": "1010",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "112",
+        "exam_name": "112年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 22,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0085",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "下列交易所涉及的金融工具，何者不包括在我國的狹義貨幣內？",
+      "options": [
+        "公務員老張因退休將所得公保年金存入臺灣銀行活期儲蓄帳戶",
+        "小花預期美元升值而購買美元",
+        "正新公司為購買一批電腦以支票存款支付",
+        "正元為南下屏東旅遊而用金融卡自活期儲蓄存款帳戶提出現金"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5ceaffa29b17",
+        "answer_pdf_sha1": "455adc10cc30",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112090",
+          "c": "323",
+          "s": "1010",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "112",
+        "exam_name": "112年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 23,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0086",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "對於一個放款者，跨時消費模型預測實質利率下跌對當期消費影響為  ①  ，而對當期儲蓄影響",
+      "options": [
+        "",
+        "",
+        "不確定；",
+        "不確定"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5ceaffa29b17",
+        "answer_pdf_sha1": "455adc10cc30",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112090",
+          "c": "323",
+          "s": "1010",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "112",
+        "exam_name": "112年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 24,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0087",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "貨幣學派景氣循環理論主張經濟波動可以起源於：①貨幣成長率  ②企業對投資未來獲利之看法",
+      "options": [
+        "人工智能技術進步",
+        "僅",
+        "",
+        "僅"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "5ceaffa29b17",
+        "answer_pdf_sha1": "455adc10cc30",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112090",
+          "c": "323",
+          "s": "1010",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "112",
+        "exam_name": "112年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 25,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0088",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "essay",
+      "question": "考慮一邊際成本為正斜率曲線的獨占廠商。若政府要求獨占廠商必須將\n競爭市場下的價格視為價格上限（priceceiling），試分析獨占廠商面對的\n需求與邊際收益曲線會如何變化？並輔以圖形（橫軸為數量、縱軸為價\n格）詳細說明之。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "7b2be102255d",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111090",
+          "c": "329",
+          "s": "0908",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "經濟學",
+        "year": "111",
+        "exam_name": "111年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0089",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "essay",
+      "question": "近期全球面臨嚴重的通貨膨脹問題，試利用物價可以部分調整（即AS\n線為正斜率）的ADAS 模型，分析財政政策如何分別從供給面與需求\n面的角度來抑制通貨膨脹？並輔以圖形（橫軸為產出、縱軸為物價）詳\n細說明之。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "7b2be102255d",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111090",
+          "c": "329",
+          "s": "0908",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "經濟學",
+        "year": "111",
+        "exam_name": "111年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0090",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "假設經濟體系中有兩位消費者（A 和 B），兩種財貨（X 和 Y）。消費者 A 的初始稟賦為 （X=30,Y=20）而消費者 B的初始稟賦為（X=20,Y=30）。兩位消費者的效用函數皆為 U（X,Y）=X0.5Y0.5。均衡時兩位消費者的消費數量為何？",
+      "options": [
+        "A（X=30,Y=20），B（X=20,Y=30）",
+        "A（X=26,Y=24），B（X=24,Y=26）",
+        "A（X=25,Y=25），B（X=25,Y=25）",
+        "A（X=20,Y=30），B（X=30,Y=20）"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "7b2be102255d",
+        "answer_pdf_sha1": "40ea3bc8eedf",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111090",
+          "c": "329",
+          "s": "0908",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "111",
+        "exam_name": "111年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0091",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "若政府提高進口汽車關稅，下列敘述何者正確？",
+      "options": [
+        "進口汽車銷售量增加",
+        "進口汽車價格下跌",
+        "國產汽車銷售量增加",
+        "國產汽車價格下跌"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "7b2be102255d",
+        "answer_pdf_sha1": "40ea3bc8eedf",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111090",
+          "c": "329",
+          "s": "0908",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "111",
+        "exam_name": "111年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0092",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "2016 年 10 月時，行政院為了推動長照 2.0 計畫，規劃以調高遺贈稅與菸稅來支應長照的財源需 求。依據財政部估計目前國內各種香菸平均售價約為65元，每包加收20元菸稅，則每年國人消 費的香菸將從原先 16.55 億包減少到 13.25 億包，根據上述資料計算消費香菸需求彈性之弧彈性 為何？",
+      "options": [
+        "-0.17",
+        "-0.65",
+        "-0.83",
+        "-1.05 32260、32560 32960、33060"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "7b2be102255d",
+        "answer_pdf_sha1": "40ea3bc8eedf",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111090",
+          "c": "329",
+          "s": "0908",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "111",
+        "exam_name": "111年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0093",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "在其他條件不變之下，電動機車的供給下降，需求上升，則下列敘述何者正確？",
+      "options": [
+        "均衡價格一定上漲",
+        "均衡價格一定下跌",
+        "均衡交易量一定上升",
+        "均衡交易量一定下跌"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "7b2be102255d",
+        "answer_pdf_sha1": "40ea3bc8eedf",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111090",
+          "c": "329",
+          "s": "0908",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "111",
+        "exam_name": "111年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0094",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "假設口罩市場的均衡數量與價格由供需雙方共同決定，其市場需求曲線為Qd=10-P，市場供給曲 線為Qs=P-2，其中P為口罩的價格，請問此時若政府對口罩市場中的價格制定價格上限P=5， 以下敘述何者正確？",
+      "options": [
+        "政府制定價格上限後，消費者剩餘上升2.5",
+        "政府制定價格上限後，消費者剩餘上升3.5",
+        "政府制定價格上限後，消費者剩餘下降 3.5",
+        "政府制定價格上限後，消費者剩餘下降2.5"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "7b2be102255d",
+        "answer_pdf_sha1": "40ea3bc8eedf",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111090",
+          "c": "329",
+          "s": "0908",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "111",
+        "exam_name": "111年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0095",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "某工廠之生產函數為Q(L,K)=L0.8K0.2，其中Q為產量，L與K分別為勞動與資本，每單位勞動 價格為1，每單位資本價格為2，請問在成本極小化之目標下，投入勞動和資本的最適比例（L/K） 為何？",
+      "options": [
+        "4",
+        "0.25",
+        "8",
+        "0.125"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "7b2be102255d",
+        "answer_pdf_sha1": "40ea3bc8eedf",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111090",
+          "c": "329",
+          "s": "0908",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "111",
+        "exam_name": "111年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0096",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "兩家電信公司的長途通話費可以設定為每分鐘$3或$4，下表顯示報償矩陣。則A、B廠商的優勢 策略分別為何？ A廠商的策略 $4 $3 $320萬 $500萬 $4 $320萬 $200萬 B廠商的策略 $200萬 $450萬 $3 $500萬 $450萬",
+      "options": [
+        "$3；$3",
+        "$3；$4",
+        "$4；$3",
+        "$4；$4"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "7b2be102255d",
+        "answer_pdf_sha1": "40ea3bc8eedf",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111090",
+          "c": "329",
+          "s": "0908",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "111",
+        "exam_name": "111年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0097",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "有關獨占之敘述，下列何者正確？",
+      "options": [
+        "航空公司對於頭等艙與經濟艙訂定不同票價，係因其採取差別定價",
+        "因為供給量與市場價格不存在一對一關係，所以獨占廠商無供給曲線",
+        "與完全競爭的廠商相比，獨占廠商的產量較多，售價較低",
+        "獨占廠商利潤極大點須滿足「產品價格等於邊際成本」條件"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "7b2be102255d",
+        "answer_pdf_sha1": "40ea3bc8eedf",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111090",
+          "c": "329",
+          "s": "0908",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "111",
+        "exam_name": "111年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0098",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "假設在某一個國家，其15歲以上的人口為500,000人，勞動力人口為300,000人。在勞動力人口 中，就業人口為240,000人，失業人口為60,000。請問勞動參與率為何？",
+      "options": [
+        "25%",
+        "48%",
+        "55%",
+        "60% 32260、32560 32960、33060"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "7b2be102255d",
+        "answer_pdf_sha1": "40ea3bc8eedf",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111090",
+          "c": "329",
+          "s": "0908",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "111",
+        "exam_name": "111年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0099",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "如果勞動與資本投入是互補的，某廠商今年的生產設備故障率顯著高於去年，在追求利潤極大的 考量下，相對於去年，今年廠商應：",
+      "options": [
+        "裁減員工",
+        "增聘員工",
+        "提高工資",
+        "停止生產"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "7b2be102255d",
+        "answer_pdf_sha1": "40ea3bc8eedf",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111090",
+          "c": "329",
+          "s": "0908",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "111",
+        "exam_name": "111年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0100",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "假設某一廠商為完全競爭廠商，其短期成本函數為TC(Q)=100+aQ+bQ2，其中a＞0且b＞0，此 一廠商之短期供給曲線為何？",
+      "options": [
+        "P=a+bQ，P≧a",
+        "P=a+2bQ，P≧a",
+        "P=a+bQ，P≧0",
+        "P=a+2bQ，P≧0"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "7b2be102255d",
+        "answer_pdf_sha1": "40ea3bc8eedf",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111090",
+          "c": "329",
+          "s": "0908",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "111",
+        "exam_name": "111年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 11,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0101",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "下列何者不是資訊不對稱時，所產生的道德風險行為？",
+      "options": [
+        "小偷在偷竊財物時面對被抓的風險",
+        "車子投保竊盜險之後，車主就不再將車門上鎖",
+        "金融保險機構的經理人使用公司的資金購置過高風險的資產",
+        "員工上班趁主管不注意時，使用手機處理私人事務"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "7b2be102255d",
+        "answer_pdf_sha1": "40ea3bc8eedf",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111090",
+          "c": "329",
+          "s": "0908",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "111",
+        "exam_name": "111年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 12,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0102",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "公共財的提供存在著搭便車問題（freeriderproblem），主要是因為公共財的那一項特性？",
+      "options": [
+        "非排他性",
+        "非敵對性",
+        "非競爭性",
+        "非合作性"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "7b2be102255d",
+        "answer_pdf_sha1": "40ea3bc8eedf",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111090",
+          "c": "329",
+          "s": "0908",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "111",
+        "exam_name": "111年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 13,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0103",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "假設資本財的報酬遞減。在其他條件不變下，若一國的人口及資本財的數量都增加，則該國的總 要素生產力：",
+      "options": [
+        "增加",
+        "維持不變",
+        "減少",
+        "可能增加、減少或維持不變"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "7b2be102255d",
+        "answer_pdf_sha1": "40ea3bc8eedf",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111090",
+          "c": "329",
+          "s": "0908",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "111",
+        "exam_name": "111年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 14,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0104",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "假設A國為一封閉體系。在其他條件不變下，若A國政府支出增加，則可貸資金市場的均衡實質 利率會：",
+      "options": [
+        "增加",
+        "減少",
+        "維持不變",
+        "可能增加、減少或維持不變"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "7b2be102255d",
+        "answer_pdf_sha1": "40ea3bc8eedf",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111090",
+          "c": "329",
+          "s": "0908",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "111",
+        "exam_name": "111年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 15,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0105",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "在AD-AS分析中，貨幣數量的增加第一個影響的是：",
+      "options": [
+        "AD曲線向左移動",
+        "AD曲線向右移動",
+        "長期AS曲線向左移動",
+        "長期AS曲線向右移動"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "7b2be102255d",
+        "answer_pdf_sha1": "40ea3bc8eedf",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111090",
+          "c": "329",
+          "s": "0908",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "111",
+        "exam_name": "111年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 16,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0106",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "根據IS-LM與AD-AS模型，當政府大幅調高基本工資時，在其他條件不變下，如果投資對利率 愈敏感，則：",
+      "options": [
+        "短期均衡實質GDP與一般物價水準的降幅皆愈大",
+        "短期均衡實質GDP與一般物價水準的降幅皆愈小",
+        "短期均衡實質GDP的減幅愈大且一般物價水準的升幅愈小",
+        "短期均衡實質GDP的減幅愈小且一般物價水準的升幅愈大 32260、32560 32960、33060"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "7b2be102255d",
+        "answer_pdf_sha1": "40ea3bc8eedf",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111090",
+          "c": "329",
+          "s": "0908",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "111",
+        "exam_name": "111年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 17,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0107",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "當IS曲線愈陡峭，則總合需求曲線愈  ①  ；當LM曲線愈平坦，則貨幣需求利率彈性愈  ②  。",
+      "options": [
+        "平坦；小",
+        "平坦；大",
+        "陡峭；小",
+        "陡峭；大"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "7b2be102255d",
+        "answer_pdf_sha1": "40ea3bc8eedf",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111090",
+          "c": "329",
+          "s": "0908",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "111",
+        "exam_name": "111年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 18,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0108",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "根據梭羅（SolowModel）模型，假設A國和B國的生產函數、人口成長率與資本折舊率都相同， 但A國儲蓄率大於B國。若兩國都沒有技術進步的情況下，則下列敘述何者正確？",
+      "options": [
+        "A國目前的每人平均產出一定大於B國",
+        "A國目前的每人平均產出一定等於B國",
+        "長期時，A國的每人平均產出成長率一定大於B國",
+        "長期時，A國的每人平均產出成長率一定等於B國"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "7b2be102255d",
+        "answer_pdf_sha1": "40ea3bc8eedf",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111090",
+          "c": "329",
+          "s": "0908",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "111",
+        "exam_name": "111年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 19,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0109",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "在開放體系下，假設邊際進口傾向為0.1，邊際稅率為0.25，邊際消費傾向為0.8，若自發性投資 增加200萬，則均衡產出增加：",
+      "options": [
+        "100萬",
+        "1000萬",
+        "400萬",
+        "500萬"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "7b2be102255d",
+        "answer_pdf_sha1": "40ea3bc8eedf",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111090",
+          "c": "329",
+          "s": "0908",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "111",
+        "exam_name": "111年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 20,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0110",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "關於景氣循環的敘述，下列何者正確？",
+      "options": [
+        "收縮期包括衰退期與復甦期",
+        "景氣循環是短期經濟波動的現象",
+        "擴張期是指一個頂峰至另一個頂峰的期間",
+        "景氣循環指標是由行政院主計總處估計並發布"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "7b2be102255d",
+        "answer_pdf_sha1": "40ea3bc8eedf",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111090",
+          "c": "329",
+          "s": "0908",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "111",
+        "exam_name": "111年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 21,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0111",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "下列何者不影響資本使用者的成本？",
+      "options": [
+        "實質利率",
+        "折舊率",
+        "資本實質價格之預期變動率",
+        "資本的邊際生產力"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "7b2be102255d",
+        "answer_pdf_sha1": "40ea3bc8eedf",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111090",
+          "c": "329",
+          "s": "0908",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "111",
+        "exam_name": "111年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 22,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0112",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "根據庫茲內茲（Kuznets）的實證發現，民眾長期的邊際消費傾向與平均消費傾向會隨所得增加而 如何變動？",
+      "options": [
+        "邊際消費傾向增加與平均消費傾向增加",
+        "邊際消費傾向減少與平均消費傾向減少",
+        "邊際消費傾向不變與平均消費傾向不變",
+        "邊際消費傾向增加與平均消費傾向不變"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "7b2be102255d",
+        "answer_pdf_sha1": "40ea3bc8eedf",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111090",
+          "c": "329",
+          "s": "0908",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "111",
+        "exam_name": "111年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 23,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0113",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "令橫軸變數為實質 GDP，縱軸變數為利率。假設實質貨幣需求只決定於利率。就 IS-LM模型 而言：",
+      "options": [
+        "LM線為一水平線，且財政政策有效",
+        "LM線為一水平線，且財政政策無效",
+        "LM線為一垂直線，且財政政策有效",
+        "LM線為一垂直線，且財政政策無效"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "7b2be102255d",
+        "answer_pdf_sha1": "40ea3bc8eedf",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111090",
+          "c": "329",
+          "s": "0908",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "111",
+        "exam_name": "111年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 24,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0114",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "下列那一個學派，特別強調勞動跨期替代效果，並且工資的變化只是暫時性而非恆常性？",
+      "options": [
+        "貨幣學派",
+        "古典學派",
+        "凱因斯學派",
+        "實質景氣循環學派"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "7b2be102255d",
+        "answer_pdf_sha1": "40ea3bc8eedf",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111090",
+          "c": "329",
+          "s": "0908",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "111",
+        "exam_name": "111年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 25,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0115",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "essay",
+      "question": "請評斷下列敘述為「真確」或「錯誤」，並對於你所做的評斷加以解釋說\n明。你提供的解釋說明將是評分的主要依據。\n有一個消費者將其所得全部支用在牛肉與雞肉上，此消費者由牛肉所\n獲得的邊際效用MU =6，而牛肉的單位價格是 P =$400；由雞肉所\nB B\n獲得的邊際效用MU =4，而雞肉的單位價格是 P =$200。根據這些\nC C\n資訊可知，此消費者在牛肉與雞肉的消費組合已經達到效用極大化的\n目標。（5分）\n如果是處在物價上漲的期間，則在基期年度之前的各年之名目 GDP\n（nominalGDP）會小於實質 GDP（realGDP），而在基期年度之後的各\n年之名目 GDP會大於實質 GDP。（5 分）\n某經濟體的實質 GDP（realGDP）為$17.1億元，潛在 GDP（potential\nGDP）為$17.4 億元，政府購買支出乘數（government expenditure\nmultiplier）為 2，而稅收乘數（taxmultiplier）為 –1.5。在其他條件不\n變的情況下，政府可以透過增加$0.15 億元的政府購買支出，或是減少\n$0.2 億元的稅收來達到$17.4 億元潛在 GDP的目標。（10分）\n根據總合需求-總合供給（AD-AS）模型，總合需求的上升對於價格與\n實質 GDP 的影響，在短期與長期的影響結果皆一樣，即價格與實質\nGDP皆會上升。（10 分）\n31160\n32360\n32460\n32760",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "b08f8b855b01",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110090",
+          "c": "311",
+          "s": "1008",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "經濟學",
+        "year": "110",
+        "exam_name": "110年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0116",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "essay",
+      "question": "某廠商以追求最大利潤為生產目標，其生產活動需要投入兩種常見的生\n產要素，勞動（labor）與資本（capital），兩種生產要素對應的價格分別\n以 w 與 r 來表示。此廠商原先面對的生產要素價格分別為 w = $300 與\n1\nr =$200，現在因為物價上漲使得生產要素價格分別變動為 w =$400 與\n1 2\nr =$300，請根據上述資訊回答下列問題。\n2\n此廠商因應生產要素價格的變動，在勞動與資本這兩種生產要素的投\n入上，將會如何調整？請分別就替代效果（substitutioneffect）與產量\n效果（scaleeffect）加以分析說明。（12分）\n根據的分析結果，請問是否可以明確的推論出此廠商對於勞動生產\n要素的投入會增加或減少？對於資本生產要素的投入會增加或減\n少？（8分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "b08f8b855b01",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110090",
+          "c": "311",
+          "s": "1008",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "經濟學",
+        "year": "110",
+        "exam_name": "110年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0117",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "如果一個人以自己的房子經營公司，沒有計算房租和自己的薪水，扣除所有會計帳面的外顯成本 之後，有3萬元的會計利潤；但是這個人如果不經營自己的公司，而受雇於他人，可以賺取2萬 元的薪水，房子出租也可以獲取2萬元的租金。這個人經營公司的經濟利潤為多少？",
+      "options": [
+        "賺1萬元",
+        "賺2萬元",
+        "賠1萬元",
+        "賠2萬元"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "b08f8b855b01",
+        "answer_pdf_sha1": "82b5b8631449",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110090",
+          "c": "311",
+          "s": "1008",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "110",
+        "exam_name": "110年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0118",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "本月芒果的均衡價格比上個月低，與上個月相比，下列敘述何者正確？",
+      "options": [
+        "本月芒果的交易量一定上升",
+        "本月芒果的交易量一定下降",
+        "本月供給增加的幅度超過需求增加的幅度",
+        "本月需求增加的幅度超過供給增加的幅度"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "b08f8b855b01",
+        "answer_pdf_sha1": "82b5b8631449",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110090",
+          "c": "311",
+          "s": "1008",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "110",
+        "exam_name": "110年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0119",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "關於下列預算限制線敘述，下列敘述何者錯誤？",
+      "options": [
+        "預算線斜率為X軸財貨與Y軸財貨的相對價格",
+        "預算線斜率又可解釋為消費X軸財貨的機會成本",
+        "給定其他條件不變之下，若X軸財貨價格變貴，預算線斜率絕對值變大",
+        "給定其他條件不變之下，若所得減少，預算線斜率絕對值變小"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "b08f8b855b01",
+        "answer_pdf_sha1": "82b5b8631449",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110090",
+          "c": "311",
+          "s": "1008",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "110",
+        "exam_name": "110年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0120",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "政府為了讓大多數人有房可住，實施房租管制政策，下列敘述何者正確？",
+      "options": [
+        "此一政策應為價格下限政策",
+        "租屋市場會有超額供給現象產生",
+        "租屋市場會有超額需求現象產生",
+        "消費者與生產者福利皆會增加"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "b08f8b855b01",
+        "answer_pdf_sha1": "82b5b8631449",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110090",
+          "c": "311",
+          "s": "1008",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "110",
+        "exam_name": "110年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0121",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "關於各種市場結構之利潤極大化敘述，下列何者錯誤？",
+      "options": [
+        "相較於獨占市場，完全競爭市場的產量較多、價格較低",
+        "完全競爭廠商在MR＝MC下生產，獨占廠商則在MR＞MC下生產",
+        "在完全競爭市場，價格等於邊際成本；在單一定價的獨占市場，價格大於邊際成本",
+        "獨占市場的消費者剩餘小於完全競爭市場的消費者剩餘 31160 32360 32460 32760"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "b08f8b855b01",
+        "answer_pdf_sha1": "82b5b8631449",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110090",
+          "c": "311",
+          "s": "1008",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "110",
+        "exam_name": "110年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0122",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "假設A公司雇用2位員工的總成本為100元，雇用3位員工的總成本為120元。若A公司的每 位員工的變動成本與所雇用的員工數無關，則A公司的固定成本為何？",
+      "options": [
+        "40元",
+        "60元",
+        "80元",
+        "100元"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "b08f8b855b01",
+        "answer_pdf_sha1": "82b5b8631449",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110090",
+          "c": "311",
+          "s": "1008",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "110",
+        "exam_name": "110年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0123",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "當獨占性競爭廠商的產品差異化程度上升時，則下列敘述何者正確？",
+      "options": [
+        "廠商生產成本降低",
+        "需求曲線變得較平坦",
+        "消費者對廠商的產品需求較無彈性",
+        "廠商無法賺取經濟利潤"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "b08f8b855b01",
+        "answer_pdf_sha1": "82b5b8631449",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110090",
+          "c": "311",
+          "s": "1008",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "110",
+        "exam_name": "110年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0124",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "在完全競爭市場中，短期內當市場價格低於下列何種曲線的最低點時，完全競爭廠商會選擇歇業？",
+      "options": [
+        "平均固定成本曲線",
+        "平均總成本曲線",
+        "邊際成本曲線",
+        "平均變動成本曲線"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "b08f8b855b01",
+        "answer_pdf_sha1": "82b5b8631449",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110090",
+          "c": "311",
+          "s": "1008",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "110",
+        "exam_name": "110年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0125",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "A國勞動市場的均衡工資為每小時200元，現在A國政府設定最低工資從300元調降到250元， 最低工資調降後：",
+      "options": [
+        "勞動供給量增加",
+        "勞動供給量不變",
+        "勞動供給量大於勞動需求量",
+        "勞動供給量小於勞動需求量"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "b08f8b855b01",
+        "answer_pdf_sha1": "82b5b8631449",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110090",
+          "c": "311",
+          "s": "1008",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "110",
+        "exam_name": "110年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0126",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "下列關於道德風險（moralhazard）的敘述，何者錯誤？",
+      "options": [
+        "參與合同的買賣雙方，若有一方面臨對方可能改變行為而受到損傷的風險，稱為道德風險",
+        "若簽約的一方不完全承擔風險後果，而選擇採取對其自身效用最大的行為時，便可能發生道德 風險",
+        "社會環境、制度、教育等因素決定著一經濟體系道德風險之多寡",
+        "透過市場經濟的運作，可以完全避免道德風險的發生"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "b08f8b855b01",
+        "answer_pdf_sha1": "82b5b8631449",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110090",
+          "c": "311",
+          "s": "1008",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "110",
+        "exam_name": "110年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0127",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "以社會的平均風險所計算的保險費率，會吸引較多高風險的人。此現象稱為：",
+      "options": [
+        "道德風險",
+        "反向選擇",
+        "風險趨避",
+        "風險貼水"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "b08f8b855b01",
+        "answer_pdf_sha1": "82b5b8631449",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110090",
+          "c": "311",
+          "s": "1008",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "110",
+        "exam_name": "110年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 11,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0128",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "假設經濟體系中有兩位消費者（甲和乙），兩種財貨（X和Y）。甲的初始稟賦為（X=30,Y=20）， 而乙的初始稟賦為（X = 20, Y = 30）。甲的效用函數為U(X, Y) = XY，而乙的效用函數則為 U(X,Y)=X+Y。在下列選項中，甲最多願意用幾單位的X財貨去換取乙5單位的Y財貨？",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "b08f8b855b01",
+        "answer_pdf_sha1": "82b5b8631449",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110090",
+          "c": "311",
+          "s": "1008",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "110",
+        "exam_name": "110年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 12,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0129",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "某人消費某財貨後，其他人消費同一財貨的效用不會因此減損，稱為：",
+      "options": [
+        "消費不可排他性",
+        "消費非敵對性",
+        "消費排他性",
+        "消費敵對性"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "b08f8b855b01",
+        "answer_pdf_sha1": "82b5b8631449",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110090",
+          "c": "311",
+          "s": "1008",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "110",
+        "exam_name": "110年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 13,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0130",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "A國在2017年（基期）購買籃子的成本為$60，在2018年購買籃子的成本為$75，在2019年購買 籃子的成本為$80。則A國2019年的消費者物價指數（consumerpriceindex）約為：",
+      "options": [
+        "115",
+        "125",
+        "133",
+        "140"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "b08f8b855b01",
+        "answer_pdf_sha1": "82b5b8631449",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110090",
+          "c": "311",
+          "s": "1008",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "110",
+        "exam_name": "110年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 14,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0131",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "下列何者為失業人口？",
+      "options": [
+        "暫時被解雇且正在找工作的小黃",
+        "暑假期間在超市打工的大二學生",
+        "全職在家照顧生病祖父的小丁",
+        "不想找工作且無業的小楊"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "b08f8b855b01",
+        "answer_pdf_sha1": "82b5b8631449",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110090",
+          "c": "311",
+          "s": "1008",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "110",
+        "exam_name": "110年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 15,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0132",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "在其他條件不變下，下列何者會使可貸資金供給的增加導致較小的均衡投資數量的增加？",
+      "options": [
+        "可貸資金的需求較有彈性，但可貸資金的供給較無彈性",
+        "可貸資金的需求較無彈性，但可貸資金的供給較有彈性",
+        "可貸資金的需求較有彈性，且可貸資金的供給較有彈性",
+        "可貸資金的需求較無彈性，且可貸資金的供給較無彈性 31160 32360 32460 32760"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "b08f8b855b01",
+        "answer_pdf_sha1": "82b5b8631449",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110090",
+          "c": "311",
+          "s": "1008",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "110",
+        "exam_name": "110年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 16,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0133",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "原物料價格上漲會造成：",
+      "options": [
+        "長期供給曲線向左移動，實質GDP下降，潛在GDP上升",
+        "短期總供給曲線向左移動，價格水平上升，潛在GDP下降",
+        "短期總供給曲線向左移動，價格水平上升並降低實質GDP，使之低於潛在GDP",
+        "短期總供給曲線向右移動，價格水平上升並降低實質GDP，使之低於潛在GDP"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "b08f8b855b01",
+        "answer_pdf_sha1": "82b5b8631449",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110090",
+          "c": "311",
+          "s": "1008",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "110",
+        "exam_name": "110年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 17,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0134",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "在某產品的生產過程中，廠長發現每多用一位員工，增產的幅度皆較前一位聘僱員工帶來的增產 幅度大，因此在此生產階段廠商的：",
+      "options": [
+        "邊際成本遞增",
+        "邊際成本遞減",
+        "邊際成本固定",
+        "無法判斷邊際成本遞增或遞減"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "b08f8b855b01",
+        "answer_pdf_sha1": "82b5b8631449",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110090",
+          "c": "311",
+          "s": "1008",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "110",
+        "exam_name": "110年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 18,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0135",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "假設電動汽車需求的價格彈性為2，供給的價格彈性為0.9，如果政府針對每部電動汽車的購買， 補貼消費者5萬元，相對於沒有補貼的情況，補貼後，下列敘述何者正確？",
+      "options": [
+        "消費者剩餘增加的幅度超過生產者剩餘增加的幅度",
+        "消費者剩餘增加的幅度小於生者者剩餘增加的幅度",
+        "生產者剩餘不變",
+        "社會福利不變"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "b08f8b855b01",
+        "answer_pdf_sha1": "82b5b8631449",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110090",
+          "c": "311",
+          "s": "1008",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "110",
+        "exam_name": "110年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 19,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0136",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "在「李嘉圖恆等」理論下，若政府因為財政赤字而採用減稅措施，則對於本期的消費與儲蓄有什 麼影響？",
+      "options": [
+        "消費增加、儲蓄減少",
+        "消費增加、儲蓄增加",
+        "消費不變、儲蓄不變",
+        "消費減少、儲蓄增加"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "b08f8b855b01",
+        "answer_pdf_sha1": "82b5b8631449",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110090",
+          "c": "311",
+          "s": "1008",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "110",
+        "exam_name": "110年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 20,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0137",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "甲國的生產函數、儲蓄率、人口成長率、資本折舊率都與乙國相同。此外，假設兩國沒有技術進 步，且甲國每人平均資本量小於乙國。根據梭羅（Solow）模型，下列敘述何者正確？",
+      "options": [
+        "甲國目前的每人平均產出大於乙國",
+        "甲國目前的每人平均產出小於乙國",
+        "長期時，甲國的每人平均產出大於乙國",
+        "長期時，甲國的每人平均產出小於乙國"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "b08f8b855b01",
+        "answer_pdf_sha1": "82b5b8631449",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110090",
+          "c": "311",
+          "s": "1008",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "110",
+        "exam_name": "110年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 21,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0138",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "假定此經濟體中，民眾只能活兩期，而他第一期和第二期的所得分別為486元和264元。他在這 兩期皆要消費，且因為消費所得到的滿足為U=C 0.5C0.5，假定市場的利率為10%，則民眾第一期",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "b08f8b855b01",
+        "answer_pdf_sha1": "82b5b8631449",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110090",
+          "c": "311",
+          "s": "1008",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "110",
+        "exam_name": "110年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 22,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0139",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "2 的儲蓄為多少？",
+      "options": [
+        "113元",
+        "123元",
+        "133元",
+        "143元"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "b08f8b855b01",
+        "answer_pdf_sha1": "82b5b8631449",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110090",
+          "c": "311",
+          "s": "1008",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "110",
+        "exam_name": "110年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0140",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "下列何者會降低人們的現金需求？",
+      "options": [
+        "汽油價格上漲",
+        "通膨率預期降低",
+        "股市上漲",
+        "銀行降低用金融卡跨行提款費用"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "b08f8b855b01",
+        "answer_pdf_sha1": "82b5b8631449",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110090",
+          "c": "311",
+          "s": "1008",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "110",
+        "exam_name": "110年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 23,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0141",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "令橫軸變數為實質GDP，縱軸變數為利率。就IS-LM模型而言，當一國產業的資本密集度愈高時：",
+      "options": [
+        "IS線會愈平坦，且貨幣政策愈有效",
+        "IS線會愈平坦，且貨幣政策愈無效",
+        "LM線會愈平坦，且財政政策愈有效",
+        "LM線會愈平坦，且財政政策愈無效"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "b08f8b855b01",
+        "answer_pdf_sha1": "82b5b8631449",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110090",
+          "c": "311",
+          "s": "1008",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "110",
+        "exam_name": "110年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 24,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-d30bcefc-0142",
+      "exam_id": "heelevel3-d30bcefc",
+      "question_type": "single_choice",
+      "question": "假設我國政府的貨幣政策為維持高貨幣成長，則在本國經濟體適用菲利浦曲線（Phillips Curve） 時，下列何者正確？",
+      "options": [
+        "失業率較高，通貨膨脹率較高",
+        "失業率較高，通貨膨脹率較低",
+        "失業率較低，通貨膨脹率較高",
+        "失業率較低，通貨膨脹率較低"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:48+00:00",
+        "source_pdf_sha1": "b08f8b855b01",
+        "answer_pdf_sha1": "82b5b8631449",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110090",
+          "c": "311",
+          "s": "1008",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "110",
+        "exam_name": "110年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": 25,
+        "answer_corrected": false,
+        "flags": []
+      }
+    }
+  ]
+}

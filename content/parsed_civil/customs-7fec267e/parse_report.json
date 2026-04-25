@@ -1,0 +1,54 @@
+{
+  "slug": "customs-7fec267e",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:22:23+00:00",
+  "paper_count": 13,
+  "paper_with_questions": 13,
+  "question_count": 452,
+  "type_counts": {
+    "single_choice": 433,
+    "essay": 19
+  },
+  "issues": [
+    {
+      "year": "114",
+      "subject": "行政法概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "113",
+      "subject": "行政法概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 3,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "行政法概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "行政法概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "行政法概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    }
+  ]
+}

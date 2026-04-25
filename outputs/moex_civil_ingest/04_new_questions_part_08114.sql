@@ -1,0 +1,42 @@
+-- W1.6 questions batch 8114/9310 (10)
+
+INSERT INTO public.questions (id, exam_id, paper_id, subject_id, chapter_id, question_type, question_text, options, correct_answer, correct_answer_json, auto_gradable, source, is_active, version, source_meta, explanation)
+VALUES
+  ('pukao-0c700c30-moex-00004', 'pukao-0c700c30', 'pukao-0c700c30-moex-114-c4f12cde', 'sub-pukao-0c700c30-01', NULL, 'essay', '甲、乙、丙三種疾病第四期病人之存活年數統計資料如下，在顯著水
+準為 0.1之下，試問三種疾病存活年數之分布是否相同？（10 分）
+<1 1-2 2-3 3-4 >4
+甲 8 10 11 4 2
+乙 30 15 8 3 1
+丙 16 9 3 2 0', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:35:48+00:00", "source_pdf_sha1": "e77f42aa4f3f", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "114080", "c": "416", "s": "0811", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "統計學概要", "year": "114", "exam_name": "114年公務人員高等考試三級考試暨普通考試", "original_question_number": "四", "answer_corrected": false, "flags": [], "civil_slug": "pukao", "civil_category": "統計"}'::jsonb, NULL),
+  ('pukao-0c700c30-moex-00005', 'pukao-0c700c30', 'pukao-0c700c30-moex-114-c4f12cde', 'sub-pukao-0c700c30-01', NULL, 'essay', '假設手機的應用程式之生命週期（y）（單位：年）與其發布後半年內的
+下載次數（x）服從線性模型，y xe，其中e服從N(0,2)。
+若隨機取樣 12 款已經被市場淘汰之應用程式，得到以下數據：
+x 6345,x2 4050445,y 39.64,y2 152.7,xy 24708，
+且判定係數為 0.9288。（每小題 10分，共 20分）
+試求回歸方程式與 β的 95%信賴區間。
+若一新款應用程式發布後半年內被下載500次，試求其生命週期的
+95%預測區間。
+附表一：z表
+Example:
+Ifz=1.96,then
+(0toz)=0.4750
+附表二：t表
+Example:With
+df=9 and .10 area
+in theuppertail,
+t=1.383
+附表三：χ2表
+Example:With17
+dfanda0.02areain
+theuppertail,X2=30.995
+附表四：F表
+附表五：F表', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:35:48+00:00", "source_pdf_sha1": "e77f42aa4f3f", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "114080", "c": "416", "s": "0811", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "統計學概要", "year": "114", "exam_name": "114年公務人員高等考試三級考試暨普通考試", "original_question_number": "五", "answer_corrected": false, "flags": [], "civil_slug": "pukao", "civil_category": "統計"}'::jsonb, NULL),
+  ('pukao-0c700c30-moex-00006', 'pukao-0c700c30', 'pukao-0c700c30-moex-114-6948958a', 'sub-pukao-0c700c30-02', NULL, 'single_choice', '有關自由市場，下列敘述何者正確？', '["自由市場機制能確保經濟成長的果實平均分配給市場參與者", "雖然完全競爭市場參與者之決策受自利誘因的引導，但自由市場運作仍可使社會資源配置達到最有效率 的情況", "在不完全競爭市場中，讓市場自由運作，可以使社會資源的配置達最有效率的情況", "市場失靈指的是讓市場自由運作，並無法使社會資源的配置達到最公平的情況"]'::jsonb, 1, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:35:48+00:00", "source_pdf_sha1": "7f60f8d3aafd", "answer_pdf_sha1": "79d6a424ea53", "source_family": "moex-gov-tw", "moex": {"exam_code": "114080", "c": "416", "s": "0709", "q": "1"}, "raw_section_label": "本試題為單一選擇題", "subject": "經濟學概要", "year": "114", "exam_name": "114年公務人員高等考試三級考試暨普通考試", "original_question_number": 1, "answer_corrected": false, "flags": [], "civil_slug": "pukao", "civil_category": "統計"}'::jsonb, NULL),
+  ('pukao-0c700c30-moex-00007', 'pukao-0c700c30', 'pukao-0c700c30-moex-114-6948958a', 'sub-pukao-0c700c30-02', NULL, 'single_choice', '假設A國只生產X與Y兩種產品，在有效率的生產組合下，A國如何同時提高兩種產品的生產數量？', '["提高所得稅稅率", "提高最低工資", "增加外籍移工人數", "進行價格管制"]'::jsonb, 2, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:35:48+00:00", "source_pdf_sha1": "7f60f8d3aafd", "answer_pdf_sha1": "79d6a424ea53", "source_family": "moex-gov-tw", "moex": {"exam_code": "114080", "c": "416", "s": "0709", "q": "1"}, "raw_section_label": "本試題為單一選擇題", "subject": "經濟學概要", "year": "114", "exam_name": "114年公務人員高等考試三級考試暨普通考試", "original_question_number": 2, "answer_corrected": false, "flags": [], "civil_slug": "pukao", "civil_category": "統計"}'::jsonb, NULL),
+  ('pukao-0c700c30-moex-00008', 'pukao-0c700c30', 'pukao-0c700c30-moex-114-6948958a', 'sub-pukao-0c700c30-02', NULL, 'single_choice', '假設日本一天可以生產20噸糖或5輛汽車，德國一天可以生產10噸糖或8輛汽車。如果兩國間專業化生 產且進行貿易，日本應該進口何種商品？', '["糖", "汽車", "糖與汽車", "既非糖亦非汽車"]'::jsonb, 1, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:35:48+00:00", "source_pdf_sha1": "7f60f8d3aafd", "answer_pdf_sha1": "79d6a424ea53", "source_family": "moex-gov-tw", "moex": {"exam_code": "114080", "c": "416", "s": "0709", "q": "1"}, "raw_section_label": "本試題為單一選擇題", "subject": "經濟學概要", "year": "114", "exam_name": "114年公務人員高等考試三級考試暨普通考試", "original_question_number": 3, "answer_corrected": false, "flags": [], "civil_slug": "pukao", "civil_category": "統計"}'::jsonb, NULL),
+  ('pukao-0c700c30-moex-00009', 'pukao-0c700c30', 'pukao-0c700c30-moex-114-6948958a', 'sub-pukao-0c700c30-02', NULL, 'single_choice', '假設棒球員每場球只能在打者與投手身分中擇一。若甲每場球在打擊上平均可貢獻3個壘打數，在投球上 則可貢獻5局的優質投球，而乙每場球在打擊上可貢獻2個壘打數，在投球上則可貢獻4局的優質投球， 由以上數據觀之，下列敘述何者正確？', '["甲在打擊與投球上皆具有比較利益", "乙在打擊與投球上皆具有比較利益", "甲在打擊上具有比較利益，而乙則在投球上具有比較利益", "甲在投球上具有比較利益，而乙則在打擊上具有比較利益"]'::jsonb, 2, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:35:48+00:00", "source_pdf_sha1": "7f60f8d3aafd", "answer_pdf_sha1": "79d6a424ea53", "source_family": "moex-gov-tw", "moex": {"exam_code": "114080", "c": "416", "s": "0709", "q": "1"}, "raw_section_label": "本試題為單一選擇題", "subject": "經濟學概要", "year": "114", "exam_name": "114年公務人員高等考試三級考試暨普通考試", "original_question_number": 4, "answer_corrected": false, "flags": [], "civil_slug": "pukao", "civil_category": "統計"}'::jsonb, NULL),
+  ('pukao-0c700c30-moex-00010', 'pukao-0c700c30', 'pukao-0c700c30-moex-114-6948958a', 'sub-pukao-0c700c30-02', NULL, 'single_choice', '若一企業對一商品採取「薄利多銷」的銷售策略，此策略要能成功，則必須該財貨的：', '["供給彈性小", "供給彈性大", "需求彈性小", "需求彈性大"]'::jsonb, 3, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:35:48+00:00", "source_pdf_sha1": "7f60f8d3aafd", "answer_pdf_sha1": "79d6a424ea53", "source_family": "moex-gov-tw", "moex": {"exam_code": "114080", "c": "416", "s": "0709", "q": "1"}, "raw_section_label": "本試題為單一選擇題", "subject": "經濟學概要", "year": "114", "exam_name": "114年公務人員高等考試三級考試暨普通考試", "original_question_number": 5, "answer_corrected": false, "flags": [], "civil_slug": "pukao", "civil_category": "統計"}'::jsonb, NULL),
+  ('pukao-0c700c30-moex-00011', 'pukao-0c700c30', 'pukao-0c700c30-moex-114-6948958a', 'sub-pukao-0c700c30-02', NULL, 'single_choice', '隨著一個國家的所得持續增加，若該國汽車的需求也不斷增加，則可見該國人民視汽車為：', '["正常財", "季芬財", "奢侈品", "劣等財"]'::jsonb, 0, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:35:48+00:00", "source_pdf_sha1": "7f60f8d3aafd", "answer_pdf_sha1": "79d6a424ea53", "source_family": "moex-gov-tw", "moex": {"exam_code": "114080", "c": "416", "s": "0709", "q": "1"}, "raw_section_label": "本試題為單一選擇題", "subject": "經濟學概要", "year": "114", "exam_name": "114年公務人員高等考試三級考試暨普通考試", "original_question_number": 6, "answer_corrected": false, "flags": [], "civil_slug": "pukao", "civil_category": "統計"}'::jsonb, NULL),
+  ('pukao-0c700c30-moex-00012', 'pukao-0c700c30', 'pukao-0c700c30-moex-114-6948958a', 'sub-pukao-0c700c30-02', NULL, 'single_choice', '某商品市場為完全競爭，下列何者會使該商品的消費者剩餘增加？', '["政府對於該商品設定具約束力的價格下限", "政府對於該商品的生產者課稅", "該商品的生產成本上升", "該商品的生產技術進步"]'::jsonb, 3, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:35:48+00:00", "source_pdf_sha1": "7f60f8d3aafd", "answer_pdf_sha1": "79d6a424ea53", "source_family": "moex-gov-tw", "moex": {"exam_code": "114080", "c": "416", "s": "0709", "q": "1"}, "raw_section_label": "本試題為單一選擇題", "subject": "經濟學概要", "year": "114", "exam_name": "114年公務人員高等考試三級考試暨普通考試", "original_question_number": 7, "answer_corrected": false, "flags": [], "civil_slug": "pukao", "civil_category": "統計"}'::jsonb, NULL),
+  ('pukao-0c700c30-moex-00013', 'pukao-0c700c30', 'pukao-0c700c30-moex-114-6948958a', 'sub-pukao-0c700c30-02', NULL, 'single_choice', '下列何者不會造成某商品整條供給曲線的移動？', '["消費者所得變動", "廠商生產技術變動", "廠商生產該商品的電價提高", "廠商幫生產該商品的員工加薪"]'::jsonb, 0, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:35:48+00:00", "source_pdf_sha1": "7f60f8d3aafd", "answer_pdf_sha1": "79d6a424ea53", "source_family": "moex-gov-tw", "moex": {"exam_code": "114080", "c": "416", "s": "0709", "q": "1"}, "raw_section_label": "本試題為單一選擇題", "subject": "經濟學概要", "year": "114", "exam_name": "114年公務人員高等考試三級考試暨普通考試", "original_question_number": 8, "answer_corrected": false, "flags": [], "civil_slug": "pukao", "civil_category": "統計"}'::jsonb, NULL)
+ON CONFLICT (id) DO NOTHING;

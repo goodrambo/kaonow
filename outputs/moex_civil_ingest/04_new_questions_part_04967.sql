@@ -1,0 +1,47 @@
+-- W1.6 questions batch 4967/9310 (10)
+
+INSERT INTO public.questions (id, exam_id, paper_id, subject_id, chapter_id, question_type, question_text, options, correct_answer, correct_answer_json, auto_gradable, source, is_active, version, source_meta, explanation)
+VALUES
+  ('heelevel3-6f0ba476-moex-00522', 'heelevel3-6f0ba476', 'heelevel3-6f0ba476-moex-111-f6c431ec', 'sub-heelevel3-6f0ba476-04', NULL, 'single_choice', '在房屋的長期供給彈性為無窮大，而土地的供給量為固定的情況下，就長期而言，依據財產稅租 稅歸宿的傳統觀點，下列有關降低稅率的獲益者之敘述，何者正確？', '["地主及房東獲益", "地主及租屋者獲益", "土地承租人及房東獲益", "土地承租人及租屋者獲益"]'::jsonb, 1, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:33:32+00:00", "source_pdf_sha1": "44c10a6685c9", "answer_pdf_sha1": "b3991257716c", "source_family": "moex-gov-tw", "moex": {"exam_code": "111090", "c": "321", "s": "0903", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "財政學", "year": "111", "exam_name": "111年公務人員高等考試三級考試暨普通考試", "original_question_number": 23, "answer_corrected": false, "flags": [], "civil_slug": "heelevel3", "civil_category": "財稅行政"}'::jsonb, NULL),
+  ('heelevel3-6f0ba476-moex-00523', 'heelevel3-6f0ba476', 'heelevel3-6f0ba476-moex-111-f6c431ec', 'sub-heelevel3-6f0ba476-04', NULL, 'single_choice', '下列有關丁波（C.M.Tiebout）純地方公共財模型之均衡，何者正確？', '["個別轄區內居民對財政收支組合的偏好一致", "所有轄區居民的財政剩餘（fiscalresiduum）一致", "各轄區人口規模一致", "個別轄區內居民所得一致"]'::jsonb, 0, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:33:32+00:00", "source_pdf_sha1": "44c10a6685c9", "answer_pdf_sha1": "b3991257716c", "source_family": "moex-gov-tw", "moex": {"exam_code": "111090", "c": "321", "s": "0903", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "財政學", "year": "111", "exam_name": "111年公務人員高等考試三級考試暨普通考試", "original_question_number": 24, "answer_corrected": false, "flags": [], "civil_slug": "heelevel3", "civil_category": "財稅行政"}'::jsonb, NULL),
+  ('heelevel3-6f0ba476-moex-00524', 'heelevel3-6f0ba476', 'heelevel3-6f0ba476-moex-111-f6c431ec', 'sub-heelevel3-6f0ba476-04', NULL, 'single_choice', '在不考慮遷徙成本的情形下，倘若所得重分配政策由地方政府制定並執行，可能導致下列那一 現象？', '["高所得居民遷移至財政剩餘較低的轄區", "所得重分配支出水準愈高的轄區，居民結構中低所得者增加", "所得重分配支出水準愈高的轄區，不動產價值上升幅度愈大", "所得重分配支出水準愈高的轄區，稅基增加幅度愈大"]'::jsonb, 1, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:33:32+00:00", "source_pdf_sha1": "44c10a6685c9", "answer_pdf_sha1": "b3991257716c", "source_family": "moex-gov-tw", "moex": {"exam_code": "111090", "c": "321", "s": "0903", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "財政學", "year": "111", "exam_name": "111年公務人員高等考試三級考試暨普通考試", "original_question_number": 25, "answer_corrected": false, "flags": [], "civil_slug": "heelevel3", "civil_category": "財稅行政"}'::jsonb, NULL),
+  ('heelevel3-6f0ba476-moex-00525', 'heelevel3-6f0ba476', 'heelevel3-6f0ba476-moex-110-e0b1f2ed', 'sub-heelevel3-6f0ba476-01', NULL, 'essay', '（以下試題皆假設公司之會計年度為曆年制；必須詳列計算過程否則
+不予計分）
+台北公司為空調設備製造商，於 X1 年 1 月 2 日與墾丁公司簽訂合
+約，當日以$200,000 現金銷售一台空調設備，其成本為$160,000。試
+求下列各獨立情況下，台北公司X1 年度應認列之費損，及收益
+之金額各為何？（若情況適用時，台北公司 X1年 1 月 2 日估計該空
+調設備耐用年限為 8 年，採直線法提列折舊，無殘值。）
+（每小題 10分，共 30 分）
+（情況一）該合約包括賦予台北公司有權以$210,000 於 X1 年 12 月31
+日以前再買回該設備之買權。台北公司未於 X1年 12 月 31日以前再
+買回該設備。
+（情況二）該合約包括賦予台北公司有權以$190,000 於 X1 年 12 月31
+日以前再買回該設備之買權。台北公司未於 X1年 12 月 31日行使該
+買權。
+（情況三）該合約包括使台北公司有義務應墾丁公司要求於 X1 年 12
+月 31 日以前以$190,000 再買回該設備之賣權。簽訂合約時台北公司
+對該設備於 X1年 12 月 31日市場價值之預期為$150,000。
+32470', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:33:32+00:00", "source_pdf_sha1": "54adefc2b8aa", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "110090", "c": "323", "s": "1101", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "會計學", "year": "110", "exam_name": "110年公務人員高等考試三級考試暨普通考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "civil_slug": "heelevel3", "civil_category": "財稅行政"}'::jsonb, NULL),
+  ('heelevel3-6f0ba476-moex-00526', 'heelevel3-6f0ba476', 'heelevel3-6f0ba476-moex-110-e0b1f2ed', 'sub-heelevel3-6f0ba476-01', NULL, 'essay', '雲林公司係農藥產製廠商，X1 年 1 月 2 日工廠正式啟用，因其中
+生產用之某一化學原料係屬管制品，法令規定其原耐用年限 15 年之
+儲存設備之使用期限不得超過 10 年，屆滿時須拆除清理後再另建造
+新儲存設備，且須聘請具備專業資格之環保工程公司處理。該儲存設
+備本身成本為$60,000,000，雲林公司依具專業資格之環保工程公司之
+報價資料概估該設備除役時將發生之處理成本$1,200,000，並以風險
+調整後年利率 4%折現。假設雲林公司認列該儲存設備後之衡量採成
+本模式，採直線法計提折舊，無殘值，並假設後續無減損發生。試求
+下列二獨立情況下，雲林公司 X4年度之折舊費用各為多少？（現值
+因子請自行計算四捨五入後至小數點後第四位）
+（每小題 10分，共 20 分）
+（情況一）X4 年 1 月 1 日法令強制規定該儲存設備未來汰換時應採
+用新技術，雲林公司依具專業資格之環保工程公司之報價資料概估該
+設備除役時將發生之處理成本將增加為$1,320,000，折現率未變動。
+（情況二）X4 年1 月 1 日估計之風險調整後年利率增加為5%，其餘
+條件不變。', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:33:32+00:00", "source_pdf_sha1": "54adefc2b8aa", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "110090", "c": "323", "s": "1101", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "會計學", "year": "110", "exam_name": "110年公務人員高等考試三級考試暨普通考試", "original_question_number": "二", "answer_corrected": false, "flags": [], "civil_slug": "heelevel3", "civil_category": "財稅行政"}'::jsonb, NULL),
+  ('heelevel3-6f0ba476-moex-00527', 'heelevel3-6f0ba476', 'heelevel3-6f0ba476-moex-110-e0b1f2ed', 'sub-heelevel3-6f0ba476-01', NULL, 'single_choice', '甲公司於 X1 年初移轉一建築物之控制將其以$400,000 出售，當時該建築物之帳面金額為 $300,000，公允價值為$500,000，甲公司同時即簽訂5年期租約租回該建築物。租約約定自X1 年底起每年底支付租金$30,000，甲公司確定租賃隱含利率為 5%。甲公司對此售後租回交易 應認列之建築物移轉利益為（答案四捨五入至元）：', '["$51,954", "$64,942", "$91,954", "$108,046"]'::jsonb, 3, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:33:32+00:00", "source_pdf_sha1": "54adefc2b8aa", "answer_pdf_sha1": "d506aee78b07", "source_family": "moex-gov-tw", "moex": {"exam_code": "110090", "c": "323", "s": "1101", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "會計學", "year": "110", "exam_name": "110年公務人員高等考試三級考試暨普通考試", "original_question_number": 1, "answer_corrected": false, "flags": [], "civil_slug": "heelevel3", "civil_category": "財稅行政"}'::jsonb, NULL),
+  ('heelevel3-6f0ba476-moex-00528', 'heelevel3-6f0ba476', 'heelevel3-6f0ba476-moex-110-e0b1f2ed', 'sub-heelevel3-6f0ba476-01', NULL, 'single_choice', '承上題，甲公司對此售後租回交易於 X1 年初應認列之使用權資產帳面金額為（答案四捨五 入至元）：', '["$97,413", "$129,884", "$137,931", "$229,884"]'::jsonb, 2, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:33:32+00:00", "source_pdf_sha1": "54adefc2b8aa", "answer_pdf_sha1": "d506aee78b07", "source_family": "moex-gov-tw", "moex": {"exam_code": "110090", "c": "323", "s": "1101", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "會計學", "year": "110", "exam_name": "110年公務人員高等考試三級考試暨普通考試", "original_question_number": 2, "answer_corrected": false, "flags": [], "civil_slug": "heelevel3", "civil_category": "財稅行政"}'::jsonb, NULL),
+  ('heelevel3-6f0ba476-moex-00529', 'heelevel3-6f0ba476', 'heelevel3-6f0ba476-moex-110-e0b1f2ed', 'sub-heelevel3-6f0ba476-01', NULL, 'single_choice', '下列有關債務工具投資減損之敘述，何者正確？①企業於判定金融工具是否為信用風險低時，', '["企業若判定金融工具於報導日之信用風險低，得假設該金融工具 自原始認列後信用風險並未顯著增加，而以 12 個月預期信用損失來衡量備抵損失", "若某 項金融工具於前一報導期間被視為信用風險低，但於報導日未被視為信用風險低，此時必須 認列該金融工具之存續期間預期信用損失", "衡量預期信用損失時不須考量該債務工具之擔 保品及其他信用增強之影響", "僅"]'::jsonb, 0, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:33:32+00:00", "source_pdf_sha1": "54adefc2b8aa", "answer_pdf_sha1": "d506aee78b07", "source_family": "moex-gov-tw", "moex": {"exam_code": "110090", "c": "323", "s": "1101", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "會計學", "year": "110", "exam_name": "110年公務人員高等考試三級考試暨普通考試", "original_question_number": 3, "answer_corrected": false, "flags": [], "civil_slug": "heelevel3", "civil_category": "財稅行政"}'::jsonb, NULL),
+  ('heelevel3-6f0ba476-moex-00530', 'heelevel3-6f0ba476', 'heelevel3-6f0ba476-moex-110-e0b1f2ed', 'sub-heelevel3-6f0ba476-01', NULL, 'single_choice', '企業以權益交割之股份基礎給付換取商品或勞務時，應以所收取商品或勞務之公允價值入帳，但 若該交易之對象為員工時，應以權益工具於下列何一日期之公允價值衡量自員工所取得勞務？', '["服務日", "給與日", "既得日", "執行日"]'::jsonb, 1, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:33:32+00:00", "source_pdf_sha1": "54adefc2b8aa", "answer_pdf_sha1": "d506aee78b07", "source_family": "moex-gov-tw", "moex": {"exam_code": "110090", "c": "323", "s": "1101", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "會計學", "year": "110", "exam_name": "110年公務人員高等考試三級考試暨普通考試", "original_question_number": 4, "answer_corrected": false, "flags": [], "civil_slug": "heelevel3", "civil_category": "財稅行政"}'::jsonb, NULL),
+  ('heelevel3-6f0ba476-moex-00531', 'heelevel3-6f0ba476', 'heelevel3-6f0ba476-moex-110-e0b1f2ed', 'sub-heelevel3-6f0ba476-01', NULL, 'single_choice', '甲公司實施確定福利退休金計畫，X1年初確定福利義務現值為$800,000，計畫資產公允價值 為$500,000。X1 年當期服務成本為$120,000，精算損失$50,000，折現率 8%，計畫資產實際 報酬$60,000。X1年底，甲公司因修改退休金計畫而產生前期服務成本$80,000。甲公司X1年 應認列退休金費用為多少？', '["$204,000", "$224,000", "$264,000", "$274,000"]'::jsonb, 1, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:33:32+00:00", "source_pdf_sha1": "54adefc2b8aa", "answer_pdf_sha1": "d506aee78b07", "source_family": "moex-gov-tw", "moex": {"exam_code": "110090", "c": "323", "s": "1101", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "會計學", "year": "110", "exam_name": "110年公務人員高等考試三級考試暨普通考試", "original_question_number": 5, "answer_corrected": false, "flags": [], "civil_slug": "heelevel3", "civil_category": "財稅行政"}'::jsonb, NULL)
+ON CONFLICT (id) DO NOTHING;

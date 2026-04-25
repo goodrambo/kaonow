@@ -1,0 +1,12 @@
+{
+  "slug": "aboriginal-a5729396",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:37:48+00:00",
+  "paper_count": 12,
+  "paper_with_questions": 12,
+  "question_count": 600,
+  "type_counts": {
+    "single_choice": 600
+  },
+  "issues": []
+}

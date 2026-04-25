@@ -1,0 +1,3838 @@
+{
+  "slug": "disabled-6e2f88c7",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:39:06+00:00",
+  "paper_count": 13,
+  "paper_with_questions": 13,
+  "question_count": 106,
+  "type_counts": {
+    "essay": 56,
+    "single_choice": 50
+  },
+  "papers": [
+    {
+      "year": "114",
+      "exam_code": "114040",
+      "c": "101",
+      "s": "0401",
+      "q": "1",
+      "subject": "民法",
+      "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "42ff8c8afb7b",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "114",
+      "exam_code": "114040",
+      "c": "101",
+      "s": "0301",
+      "q": "1",
+      "subject": "行政法",
+      "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "a7a235ef9f74",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 13,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 13,
+      "skipped_count": 0
+    },
+    {
+      "year": "113",
+      "exam_code": "113040",
+      "c": "308",
+      "s": "0501",
+      "q": "1",
+      "subject": "刑法",
+      "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "e238ccc9d18e",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "113",
+      "exam_code": "113040",
+      "c": "308",
+      "s": "0407",
+      "q": "1",
+      "subject": "商事法",
+      "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "b34731b747b4",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "113",
+      "exam_code": "113040",
+      "c": "308",
+      "s": "0405",
+      "q": "1",
+      "subject": "民事訴訟法與刑事訴訟法",
+      "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "2f4dea70c106",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "113",
+      "exam_code": "113040",
+      "c": "308",
+      "s": "0402",
+      "q": "1",
+      "subject": "民法",
+      "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "00563b442671",
+      "a_pdf_sha1": "52df642a00dd",
+      "format_detected": "mixed",
+      "raw_question_count": 27,
+      "answer_qnums_extracted": 25,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 27,
+      "skipped_count": 0
+    },
+    {
+      "year": "113",
+      "exam_code": "113040",
+      "c": "308",
+      "s": "0302",
+      "q": "1",
+      "subject": "行政法",
+      "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "07ceeac2e0a7",
+      "a_pdf_sha1": "1fe7fe378049",
+      "format_detected": "mixed",
+      "raw_question_count": 27,
+      "answer_qnums_extracted": 25,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 27,
+      "skipped_count": 0
+    },
+    {
+      "year": "112",
+      "exam_code": "112050",
+      "c": "101",
+      "s": "0401",
+      "q": "1",
+      "subject": "民法",
+      "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "7b00daac1163",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 3,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 3,
+      "skipped_count": 0
+    },
+    {
+      "year": "112",
+      "exam_code": "112050",
+      "c": "101",
+      "s": "0301",
+      "q": "1",
+      "subject": "行政法",
+      "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "274fbddd51e3",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 5,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 5,
+      "skipped_count": 0
+    },
+    {
+      "year": "111",
+      "exam_code": "111050",
+      "c": "101",
+      "s": "0401",
+      "q": "1",
+      "subject": "民法",
+      "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "5a68230e7f1a",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "111",
+      "exam_code": "111050",
+      "c": "101",
+      "s": "0301",
+      "q": "1",
+      "subject": "行政法",
+      "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "be456cc4268c",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 3,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 3,
+      "skipped_count": 0
+    },
+    {
+      "year": "110",
+      "exam_code": "110050",
+      "c": "102",
+      "s": "0401",
+      "q": "1",
+      "subject": "民法",
+      "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "50f8f75e7e34",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "110",
+      "exam_code": "110050",
+      "c": "102",
+      "s": "0301",
+      "q": "1",
+      "subject": "行政法",
+      "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "e714802821e2",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    }
+  ],
+  "questions": [
+    {
+      "id": "disabled-6e2f88c7-0001",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "甲受乙之脅迫，於民國 110 年 2 月間，將其珍愛收藏之 A 古董花瓶以遠\n低於市價之價格出賣於善意之丙，並當場交付 A花瓶於丙。甲當時深覺委\n屈，但因懾於乙之勢力，一直不敢向丙表示。嗣 113 年間，乙因犯強盜案\n件入獄服刑，甲才鼓起勇氣，向丙表白當年遭乙脅迫之情事，並向丙請求\n返還 A花瓶，丙抗辯事情已過了很久，事過境遷，拒絕甲之請求。試問甲\n丙間主張，孰有理由？請分別論述之。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "42ff8c8afb7b",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "101",
+          "s": "0401",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "民法",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0002",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "甲 15 歲國中畢業，因未有升學計畫，乃以自己零用錢，購買一輛A重型\n機車，並未經其法定代理人乙之同意下，受僱於丙便當店，從事便當外送\n業務。某日，甲騎乘 A機車，穿著印有丙便當店之制服，於載送便當前往\n客戶途中，於紅燈停等時，巧遇昔日情敵丁，甲因妒火中燒，乃下車毆打\n丁，導致丁受重傷，住院花費新臺幣 10 萬元。試問丁得否向甲、乙、丙\n請求損害賠償？請分別論述之。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "42ff8c8afb7b",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "101",
+          "s": "0401",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "民法",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0003",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "甲為 A地之所有權人，長期旅居國外經營事業，A地之鄰地所有權人乙見\n甲長久未歸，認有機可趁，乃未經甲之同意，在A地上興建二層樓之 B透\n天別墅。數年後，乙欠款，乙之債權人向法院聲請拍賣 B別墅，由丙所拍\n定，丙於繳清款項並由法院交付權利移轉證明書後，喬遷入住。嗣丙之好\n友丁來訪，見 B 別墅豪華，甚為喜歡，乃向丙表達欲購買 B 別墅之意，\n丙乃將 B別墅以高價售於丁，並交付 B 別墅之鑰匙給丁，丁乃歡喜入住。\n某年丁因兒女在國外求學，乃前往國外探親數月，在此期間 B別墅遭戊無\n權占有，甲回國後發現此事大為驚訝。試問甲得否向乙、丙、丁、戊請求\n拆屋還地？請分別論述之。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "42ff8c8afb7b",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "101",
+          "s": "0401",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "民法",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0004",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "甲男與乙女結婚後，甲男因炒作虛擬貨幣致富，但罹於刑責須入獄服刑 20\n年。乙女於甲男入獄服刑期間，與丙外遇而生下一子丁。丙對丁疼愛有加，\n時常提供生活援助、教育資源，丁於 15 歲時即已知悉其為丙與乙女所生，\n但因貪圖甲男財產，乃未有作為。嗣甲男財富遭丁揮霍殆盡，丙反因認真\n經商而致富，丁乃於 18 歲時主張經丙撫育而視為認領，丁之主張有無理\n由？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "42ff8c8afb7b",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "101",
+          "s": "0401",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "民法",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0005",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "甲係主管機關核發運動彩券經銷證之經銷商。甲於民國 108 年 3 月違法銷\n售運動彩券及支付獎金予未成年人。主管機關於113年3月經行政調查後，\n認定甲在本案售得價金為新臺幣（下同）100萬元，並已支付獎金為400萬\n元，依運動彩券發行條例第13條第1項與第4項規定，以書函命甲繳納歸\n入運動彩券盈餘 500 萬元。甲不服，主張本件已逾行政罰裁處權時效，主\n管機關無權命繳納歸入500萬元。請問：甲之主張有無理由？（25分）\n【參考法條】\n運動彩券發行條例\n第13條：\n發行機構、受委託機構及經銷商，不得銷售運動彩券或支付獎金予未成年人。\n發行機構及受委託機構員工，不得購買、受讓或兌領運動彩券。\n納為投注標的之運動競技賽事舉辦單位人員及參與賽事之相關隊職員，均不得購買、\n受讓或兌領其所舉辦或參與賽事之運動彩券。\n發行機構、受委託機構或經銷商違反第一項規定者，應將與售得價金及已支付獎金\n同額之款項，歸入運動彩券盈餘。\n發行機構、受委託機構應建立內部控制及稽核制度，並確實執行；其辦法由主管機\n關定之。",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "a7a235ef9f74",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "101",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0006",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "外國人乙與我國國民結婚，以依親事由申請在臺居留權獲准。居留期間，\n乙因製造第二級毒品大麻，觸犯毒品危害防制條例，經地方法院判處有期\n徒刑 2年確定。內政部移民署依入出國及移民法第32 條第 3款與第36 條\n第 2 項規定，廢止乙之居留許可，並令其應依限出國。若乙不服廢止處分，\n提起行政訴訟，訴訟繫屬中，並向行政法院聲請停止執行。請問：乙之聲\n請有無理由？（25 分）\n【參考法條】\n入出國及移民法\n第32條：\n移民署對有下列情形之一者，撤銷或廢止其居留許可，並註銷其外僑居留證：",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "a7a235ef9f74",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "101",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0007",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "經判處一年有期徒刑以上之刑確定。但因過失犯罪或經宣告緩刑者，不在此限。\n第36條第2項：\n外國人有下列情形之一者，移民署得強制驅逐出國，或限令其於十日內出國，逾限\n令出國期限仍未出國，移民署得強制驅逐出國：",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "a7a235ef9f74",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "101",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0008",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "有第三十二條第一款至第三款規定情形，經撤銷或廢止居留許可，並註銷外\n僑居留證。",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "a7a235ef9f74",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "101",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "八",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0009",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "原住民丙依據法令取得原住民保留地所有權後，發現 A 鄉公所占用部分\n其所有之原住民保留地之土地為公共道路。丙認為其受有損失，請求 A鄉\n公所補償。若 A鄉公所認為其不符合補償要件，不予核定補償。請問：丙\n若欲請求補償費，應如何提起行政救濟？（25 分）\n【參考法條】\n山坡地保育利用條例\n第37條第6項：\n原住民保留地之所有權取得資格條件與程序、開發利用與出租、出租衍生收益之管\n理運用及其他輔導管理相關事項之辦法，由中央原住民族主管機關定之。\n原住民保留地開發管理辦法\n第41條：\n原住民使用之原住民保留地及其所有之地上改良物，因政府興辦公共設施，限制其\n使用或採伐林木，致其權益受損時，應予補償。",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "a7a235ef9f74",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "101",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0010",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "人民丁於員警 B執行演習勤務，對經過之警車車隊大聲叫囂，並衝向車道\n作勢衝撞車隊。員警 B立即上前以徒手擒抱方式攔阻，丁仍執意衝向車隊\n並極力抵抗。員警 B 依警察職權行使法第 19 條與第 20 條，對丁予以管\n束，並使用警銬銬住丁的左手後，帶回警察局管束，並當場開立執行管束\n通知書交給丁。丁事後欲提起行政訴訟，認為員警無法律依據開立通知書，\n並指摘員警執法過當，顯屬違法，請求確認通知書無效。請問：丁之請求\n是否符合行政訴訟法確認訴訟之要件？（25分）\n【參考法條】\n警察職權行使法\n第19條：\n警察對於有下列情形之一者，得為管束：",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "a7a235ef9f74",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "101",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0011",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "瘋狂或酒醉，非管束不能救護其生命、身體之危險，或預防他人生命、身體\n之危險。",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "a7a235ef9f74",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "101",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0012",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "意圖自殺，非管束不能救護其生命。",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "a7a235ef9f74",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "101",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0013",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "暴行或鬥毆，非管束不能預防其傷害。",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "a7a235ef9f74",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "101",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0014",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "其他認為必須救護或有危害公共安全之虞，非管束不能救護或不能預防危害。\n警察為前項管束，應於危險或危害結束時終止管束，管束時間最長不得逾二十四小\n時；並應即時以適當方法通知或交由其家屬或其他關係人，或適當之機關（構）或\n人員保護。\n警察依第一項規定為管束時，得檢查受管束人之身體及所攜帶之物。\n第20條：\n警察依法留置、管束人民，有下列情形之一者，於必要時，得對其使用警銬或其他\n經核定之戒具：",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "a7a235ef9f74",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "101",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0015",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "抗拒留置、管束措施時。",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "a7a235ef9f74",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "101",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0016",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "攻擊警察或他人，毀損執行人員或他人物品，或有攻擊、毀損行為之虞時。",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "a7a235ef9f74",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "101",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0017",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "自殺、自傷或有自殺、自傷之虞時。\n警察對人民實施查證身分或其他詢問，不得依管束之規定，令其供述。",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "a7a235ef9f74",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "101",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0018",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "甲在某大學校園之性別友善廁所內，暗藏針孔攝影機企圖偷拍他人如廁畫\n面，但因心虛緊張忘了打開錄影鍵，以致於並未錄到任何畫面。請討論甲\n之行為應如何論罪？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "e238ccc9d18e",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0501",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "刑法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0019",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "恐怖份子將裝滿炸彈的汽車停在捷運站的附屬停車場內，並設定炸彈於早\n上上班時間引爆，企圖製造恐怖攻擊。深夜，竊賊甲進入捷運站停車場將\n該車偷走，並先藏在山區工寮，欲等適當時機將該車解體。次日早上汽車\n炸彈爆炸時因位於山區無人死傷，甲之行為意外的避免了一場群眾傷亡。\n請討論甲之行為應如何論罪？（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "e238ccc9d18e",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0501",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "刑法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0020",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "駭客甲以釣魚網站為餌，於 A 上當登入其釣魚網站後，入侵 A 的私人電\n腦，並輸入指令將 A存放在電腦中價值達數百萬的虛擬貨幣移轉走，轉存\n放入自己存放虛擬貨幣的冷錢包中。事後，A發現虛擬貨幣遭竊而報警，\n但為時已晚。請討論甲之行為應如何論罪？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "e238ccc9d18e",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0501",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "刑法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0021",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "甲以金錢唆使 11歲的國中生乙潛入 A宅為其偷走某古董機械錶，乙因極\n度想買新手機而答應之。之後，乙趁 A宅無人在家時潛入屋內將該古董機\n械錶偷走，事後並將該古董機械錶交給甲，甲則依約給付一筆金錢供乙購\n買新手機。請討論甲、乙之行為應如何論罪？（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "e238ccc9d18e",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0501",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "刑法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0022",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "甲為 A 公開發行股票公司（下稱 A 公司）董事長，甲有意以董事會決議\n發放現金之方式，分派 A公司全部或一部之股息紅利與法定盈餘公積。請\n依據我國公司法附理由詳細分析下列問題：（每小題 20分，共 40 分）\n請問 A 公司是否得直接以董事會決議發放現金之方式，分派 A 公司\n全部或一部之股息紅利與法定盈餘公積？A 公司應踐行之法定程序\n為何？\n假設 A 公司已依公司法規定完成以董事會決議發放現金之方式分派 A\n公司股息紅利與法定盈餘公積之法定程序，A 公司股東乙持有 A 公司\n總發行股數百分之二之股份，乙擬行使股東提案權，於 A 公司股東常\n會提案將 A 公司以現金發給股息紅利與法定盈餘公積之權限，改由股\n東會決議行使，請問依公司法規定乙之提案合法性如何？",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "b34731b747b4",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0407",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "商事法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0023",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "甲為向乙借款新臺幣（下同）500 萬元，開立未載發票日與到期日，票面\n金額為 750萬元之本票一紙為擔保，並交付於乙，甲承諾於 3年內返還欠\n款，其後 3年間甲陸續清償欠款與利息完畢，並向乙取回本票，但是當時\n適逢甲與配偶丙離婚，甲匆忙搬離住所而未取走該本票，丙遂填上離婚日\n期為發票日，主張該本票金額係合意離婚時，甲所給與丙之贍養費，向甲\n請求付款，甲予以拒絕。請依據我國票據法附理由詳細分析甲是否應負票\n據責任。（20 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "b34731b747b4",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0407",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "商事法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0024",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "A 股份有限公司（下稱 A 公司）與韓國 B 股份有限公司（下稱 B 公司）\n訂立工具裝備統包銷售合約，A 公司將工廠自動控制系統零組件一批\n（下稱系爭貨物）以新臺幣（下同）3,050萬元出售於 B公司。系爭貨物\n於基隆港等待裝船運送時，德國 C 股份有限公司（下稱 C 公司）所有德\n國籍貨櫃輪靠泊基隆港碼頭時，因 C 公司貨櫃輪船長甲疏未發現船速過\n快，於接近碼頭時，擦撞編號碼頭上橋式起重機，該起重機再撞擊碼頭上\n等待裝載系爭貨物之貨櫃，致 A 公司受有系爭貨物部分零件損壞價額\n1,800 萬元、及因貨物受損支出重新整理人工費、車輛作業費、倉儲服務\n費、木箱費、第二次運費、報關費、賠償 B公司違約金等，合計2,476萬\n元之損害。經查，C 公司貨櫃輪船價值 8,000 萬元，C 公司貨櫃輪船本次\n運送傭船契約運費為 60萬元。請依據我國海商法附理由詳細分析C公司\n所應負之損害賠償責任。（20 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "b34731b747b4",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0407",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "商事法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0025",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "A 股份有限公司（下稱 A 公司）與 B 營造股份有限公司（下稱 B 公司）\n訂立承攬契約，由 B公司承攬興建廠房，B公司並以其為要保人，A公司\n為被保險人，向C保險公司（下稱 C公司）投保保險金額為新臺幣 3,000\n萬元之保證保險。其後於廠房興建過程中，B 公司因資金短缺而停工，A\n公司與 B 公司協調 1 個月後，確定 B 公司無法繼續興建廠房，A 公司遂\n發函終止承攬契約，並由 B 公司協調由 D 營造股份有限公司（下稱 D 公\n司）繼受承攬契約，繼續興建廠房，兩年後 D公司亦因資金短缺而停工，\nA 公司遂向 C 公司申請保險理賠，經 C 公司拒絕。請依據我國保險法附\n理由詳細分析 C公司是否應理賠。（20 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "b34731b747b4",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0407",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "商事法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0026",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "甲原任職於 A 股份有限公司（以下稱 A 公司，主營業所設於新竹市），\n遭 A 公司董事長兼總經理乙解僱。之後，甲屢次要進入 A 公司工作，皆\n被公司警衛攔阻。甲查知乙的住所地在苗栗縣，向臺灣苗栗地方法院起訴\n乙，主張 A 公司積欠原告薪資及獎金新臺幣（以下同）75 萬元、乙解僱\n原告不合法，請求確認原告與 A 公司間僱傭關係存在及命 A 公司給付原\n告 75 萬元。受訴法院審判長定期間命甲補正其訴，如甲逾期未補正，受\n訴法院應如何裁判？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "2f4dea70c106",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0405",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "民事訴訟法與刑事訴訟法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0027",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "甲向管轄法院起訴乙，並主張被告對原告為詐欺，以100萬元購買原告的\nM機器，被告已取得 M，卻未給付原告約定價金；原告已撤銷自己的意思\n表示，請求法院命被告將 M 機器返還予原告，並預備請求命被告給付價金\n100萬元。如法院經審理後，認為原告的預備請求有理由，則應如何裁判？\n（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "2f4dea70c106",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0405",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "民事訴訟法與刑事訴訟法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0028",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "國中畢業之甲涉犯毒品危害防制條例，檢察官對甲於訊問前告以：「我答\n應你差不多這個刑度好嗎？會去跟法官講，但我不是法官，我不行現在就\n答應你會判多久，但就是差不多是 2 年 7 個月、8 個月左右、……我有跟\n你答應差不多這個刑度，我會跟公訴檢察官說。」等詞，並訊以：「所以\n我們現在說這麼久，就是你願意承認你買來以後要賣就對了。」被告甲即\n回答：「嗯。」等語。試論甲之自白是否有證據能力？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "2f4dea70c106",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0405",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "民事訴訟法與刑事訴訟法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0029",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "被告甲於民國 88 年涉犯貪污治罪條例第 6 條第 2 項、第 1 項第 5 款圖利\n未遂罪嫌，經檢察官提起公訴，因審理期間貪污治罪條例修法，廢除該條\n項款之處罰未遂犯，法院依法諭知免訴判決，被告甲不服原審判決，具上\n訴狀云：「上訴人並無檢察官起訴書所載之犯罪事實，原判決以犯罪後法\n律已廢止其刑罰為理由，諭知免訴，原判決雖諭知免訴，然基本上仍認上\n訴人犯罪，況新修正之條文並未廢止其刑罰，僅修改為處罰既遂犯，因此\n就未遂犯而言，比較新舊法，應諭知上訴人無罪等語。」試論上訴法院應\n如何裁判？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "2f4dea70c106",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0405",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "民事訴訟法與刑事訴訟法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0030",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "甲死亡後，其繼承人有乙、丙、丁、戊等 4 人，並由乙保管甲所遺留\n之現金新臺幣（下同）1,000 萬元、房屋及其坐落之土地各一筆。今\n國稅局核課甲之遺產稅為 400 萬元，且業已通知甲之上開繼承人依\n限繳納，然丙、丁、戊 3人均不理會，且不願意分割遺產，乙遂以自\n己之固有財產先行繳納完畢。乙以自己之固有財產繳納遺產稅後，得\n否依民法規定，逕行訴請丙、丁、戊各應給付乙100 萬元？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "00563b442671",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0402",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "民法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0031",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "甲夫與乙妻結婚後，因時常意見不合而爭吵，某日甲夫與單身女子丙\n發生婚外情，經乙妻捉姦在床，乙遂以甲與丙合意性交為由，訴請甲、\n丙二人，應負非財產上損害賠償責任新臺幣 200萬元，試申論其請求\n權之基礎為何？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "00563b442671",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0402",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "民法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0032",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "single_choice",
+      "question": "下列何者是形成權？",
+      "options": [
+        "民法第144條消滅時效抗辯權",
+        "民法第359條減少價金請求權",
+        "民法第348條之交付買賣標的物請求權",
+        "合意解除契約 30840"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "00563b442671",
+        "answer_pdf_sha1": "52df642a00dd",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0402",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "民法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0033",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "single_choice",
+      "question": "關於主物與從物之敘述，下列何者錯誤？",
+      "options": [
+        "房屋非為土地之從物",
+        "依附於第2層樓房之未具獨立性之第3層附屬建物，皆為原建築物之從物",
+        "工廠之機器生財為該工廠之從物",
+        "汽車之備胎為汽車之從物"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "00563b442671",
+        "answer_pdf_sha1": "52df642a00dd",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0402",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "民法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0034",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "single_choice",
+      "question": "下列何者不屬於消滅時效之中斷事由？",
+      "options": [
+        "因天災致不能行使請求權",
+        "債權人以郵局存證信函向債務人通知債務履行",
+        "債務人對債權人承認其權利之存在",
+        "債權人對債務人提起民事訴訟"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "00563b442671",
+        "answer_pdf_sha1": "52df642a00dd",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0402",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "民法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0035",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "single_choice",
+      "question": "下列何種法律行為，不屬於違反公共秩序或善良風俗而歸於無效者？",
+      "options": [
+        "子女甲乙於其父母健在時預立分管合約為財產之瓜分",
+        "有婦之夫甲誘使乙女同居，而將其所有A地之所有權移轉登記於乙女， 並約定一旦終止同居關係，須將A地返還",
+        "甲與乙有金錢糾紛，乙則以言語恐嚇甲和解，甲於和解契約同意以分期 之方式清償債務",
+        "夫妻甲乙間為恐一方於日後或有虐待或侮辱他方情事，而預立離婚契約"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "00563b442671",
+        "answer_pdf_sha1": "52df642a00dd",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0402",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "民法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0036",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "single_choice",
+      "question": "關於附條件法律行為之敘述，下列何者錯誤？",
+      "options": [
+        "條件之成就於法律行為成立時已確定者，倘若該條件為停止條件，認為 法律行為無條件",
+        "條件之不成就於法律行為成立時已確定者，倘若該條件為停止條件，則 該法律行為無效",
+        "條件之成就於法律行為成立時已確定者，倘若該條件為解除條件，則該 法律行為有效",
+        "條件之不成就於法律行為成立時已確定者，倘若該條件為解除條件，則 該法律行為認為無條件"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "00563b442671",
+        "answer_pdf_sha1": "52df642a00dd",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0402",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "民法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0037",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "single_choice",
+      "question": "下列何項行為，得以代理方式為之？",
+      "options": [
+        "侵權行為",
+        "發現埋藏物",
+        "無因管理",
+        "設定普通抵押權 30840"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "00563b442671",
+        "answer_pdf_sha1": "52df642a00dd",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0402",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "民法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0038",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "single_choice",
+      "question": "甲與乙訂立消費借貸契約，向乙借貸新臺幣100萬元，雙方約定借貸期間 2年，年利率百分之二十五，甲均依約定清償本金與利息。下列何者正確？",
+      "options": [
+        "甲與乙關於本金與利息之約定均有效",
+        "年利率超過百分之二十者，超過部分之約定有效，但乙無請求權",
+        "約定利率超過週年百分之十六者，超過部分之約定，無效",
+        "甲對乙給付利息後，不得主張不當得利返還請求權"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "00563b442671",
+        "answer_pdf_sha1": "52df642a00dd",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0402",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "民法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0039",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "single_choice",
+      "question": "乙未受甲之委任，卻為甲墊款繳納稅捐。下列何者正確？",
+      "options": [
+        "乙之行為無論是否違反甲之意思，均得依無因管理請求甲償還墊款並加 給利息",
+        "乙之行為無論是否違反甲之意思，均得依無因管理請求甲償還墊款，但 不得加給利息",
+        "乙之行為須不違反甲之意思，始得依無因管理請求甲償還墊款並加給利息",
+        "乙之行為須不違反甲之意思，始得依無因管理請求甲償還墊款，但不得 加給利息"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "00563b442671",
+        "answer_pdf_sha1": "52df642a00dd",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0402",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "民法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0040",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "single_choice",
+      "question": "依民法給付遲延之催告相關規定，下列何者錯誤？",
+      "options": [
+        "於債務人陷於給付遲延後，債權人得依第254條定相當期限催告債務人給 付，債權人於催告所定之相當期限屆滿時起，始取得契約之解除權",
+        "倘若給付有確定期限者，依第229條第1項，無待債權人催告，債務人於 期限屆滿時起，陷於給付遲延。然債權人須依第254條定相當期限催告債 務人給付，債權人於催告所定之相當期限屆滿時起，始取得契約之解除權",
+        "絕對定期行為之債務，非於一定時期給付不能達契約之目的，依第229條 第1項，債務人於期限屆滿時起，陷於給付遲延，且依第255條，債權人 無須催告，即取得契約之解除權",
+        "債權人依第229條第2項所為之催告，倘若未定期限或所定期限不相當， 不生催告之效力"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "00563b442671",
+        "answer_pdf_sha1": "52df642a00dd",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0402",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "民法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0041",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "single_choice",
+      "question": "乙與甲訂立 A 屋租賃契約，承租甲之 A 屋供丙使用。因甲對 A 屋保管有 欠缺，壁磚剝落致行人丁受傷。有關丁應向何者請求損害賠償，下列何者 正確？",
+      "options": [
+        "丁應向甲請求損害賠償",
+        "丁應向乙請求損害賠償",
+        "丙應單獨對丁負賠償責任",
+        "甲乙丙對丁應連帶負責任 30840"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "00563b442671",
+        "answer_pdf_sha1": "52df642a00dd",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0402",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "民法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0042",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "single_choice",
+      "question": "依民法第750條，保證人受主債務人之委任而為保證者，有下列何種情形 時，不得向主債務人請求除去其保證責任？",
+      "options": [
+        "主債務人履行債務遲延者",
+        "主債務人之財產顯形減少者",
+        "主債務人另委任他人為第二保證人者",
+        "保證契約成立後，主債務人之住所、營業所或居所有變更，致向其請求 清償發生困難者"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "00563b442671",
+        "answer_pdf_sha1": "52df642a00dd",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0402",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "民法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 11,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0043",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "single_choice",
+      "question": "依民法規定，下列何者並非要式契約？",
+      "options": [
+        "人事保證契約",
+        "合會契約",
+        "保證契約",
+        "二年期間之房屋租賃契約"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "00563b442671",
+        "answer_pdf_sha1": "52df642a00dd",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0402",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "民法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 12,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0044",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "single_choice",
+      "question": "甲欲購買乙之 A 地，不欲讓乙知悉此事，即委任丙處理之。下列何者 錯誤？",
+      "options": [
+        "乙與丙訂立買賣契約，並將 A 地所有權移轉登記於丙，丙取得 A 地之 所有權",
+        "丙取得 A 地之所有權後，以 A 地為標的，再讓與丁，丙之行為構成無 權處分",
+        "丙取得A地之所有權後，應將A地所有權移轉於甲",
+        "委任終止後，丙應將事務處理之始末，對甲為詳細明確之報告"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "00563b442671",
+        "answer_pdf_sha1": "52df642a00dd",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0402",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "民法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 13,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0045",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "single_choice",
+      "question": "依民法第759條規定，非因法律行為所生之不動產物權變動之情形中，下 列何者非屬該條所稱「法院之判決」？",
+      "options": [
+        "依暴利行為所為撤銷不動產物權行為之判決",
+        "依詐害債權行為所為撤銷不動產物權行為之判決",
+        "分割共有不動產所有權之判決",
+        "法院命被告履行不動產物權移轉登記之判決"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "00563b442671",
+        "answer_pdf_sha1": "52df642a00dd",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0402",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "民法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 14,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0046",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "single_choice",
+      "question": "直接對物有事實上之管領力，而對物加以管領支配之人，為直接占有人。 下列何者非屬之？",
+      "options": [
+        "普通地上權人",
+        "動產質權人",
+        "普通抵押權人",
+        "房屋承租人"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "00563b442671",
+        "answer_pdf_sha1": "52df642a00dd",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0402",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "民法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 15,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0047",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "single_choice",
+      "question": "關於普通地上權讓與之敘述，下列何者錯誤？",
+      "options": [
+        "地上權人無須得土地所有人之同意，原則上得自由將其權利讓與他人",
+        "地上權人讓與地上權時，不得與其建築物或工作物分離而為單獨讓與",
+        "地上權人與土地所有人約定地上權不得讓與者，該約定應經登記，始得 對抗第三人",
+        "地租之約定未經登記者，地上權讓與時，受讓人仍應承擔前地上權人積 欠之地租，並連帶負清償責任 30840"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "00563b442671",
+        "answer_pdf_sha1": "52df642a00dd",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0402",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "民法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 16,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0048",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "single_choice",
+      "question": "下列何者非屬最高限額抵押權所擔保之原債權確定之法定事由？",
+      "options": [
+        "擔保債權之範圍變更，致原債權不繼續發生",
+        "抵押權人經裁定宣告破產",
+        "最高限額抵押權人聲請裁定拍賣抵押物",
+        "擔保債權所由發生之法律關係終止而消滅者"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "00563b442671",
+        "answer_pdf_sha1": "52df642a00dd",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0402",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "民法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 17,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0049",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "single_choice",
+      "question": "下列何者非留置權成立之要件？",
+      "options": [
+        "當事人間須有設定留置權之合意",
+        "債權人須占有他人之動產",
+        "債權之發生與該動產之占有，原則上須有牽連關係",
+        "債權人須非因侵權行為或其他不法之原因而占有動產"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "00563b442671",
+        "answer_pdf_sha1": "52df642a00dd",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0402",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "民法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 18,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0050",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "single_choice",
+      "question": "在一物一權主義之前提下，有關物權客體之敘述，下列何者錯誤？",
+      "options": [
+        "由多數單一物聚合而具獨立經濟價值之集合物，性質上仍為數個獨立 物，故不得集合為一個所有權之客體",
+        "因違反建築法令而無法請領建築執照之違章建築，縱已符合定著物之要 件，仍不得作為所有權之客體",
+        "土地內之礦產尚未採掘者，為土地之部分，故不得單獨成為所有權之客體",
+        "從物本質上為獨立於主物以外之物，故與主物為個別獨立之兩個所有權 客體"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "00563b442671",
+        "answer_pdf_sha1": "52df642a00dd",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0402",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "民法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 19,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0051",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "single_choice",
+      "question": "甲男乙女於民國 96 年底結婚，公開儀式宴請賓客，但未到戶政機關辦理 結婚登記。2 年後，甲、乙分居。甲與不知情之丙到戶政機關辦理結婚登 記。下列何者正確？",
+      "options": [
+        "甲乙婚姻有效，甲丙婚姻無效",
+        "甲乙婚姻無效，甲丙婚姻有效",
+        "甲乙婚姻有效，甲丙婚姻得撤銷",
+        "甲乙婚姻視為消滅，甲丙婚姻有效"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "00563b442671",
+        "answer_pdf_sha1": "52df642a00dd",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0402",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "民法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 20,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0052",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "single_choice",
+      "question": "甲夫乙妻未約定夫妻財產制。甲婚前繼承其父所留A屋，婚後出租累積租 金新臺幣（下同）100 萬元均無動用；甲死亡時，尚有婚後財產存款 600 萬元，其中有因名譽受侵害，獲得慰撫金200萬元。乙於甲死亡時，有婚 後自行購置之珠寶價值100萬元，及乙母贈與之珠寶價值100萬元。關於 剩餘財產分配之敘述，下列何者正確？",
+      "options": [
+        "因屬一身專屬請求權，乙不得向甲之繼承人主張",
+        "乙得向甲請求分配150萬元",
+        "乙得向甲請求分配200萬元",
+        "乙得向甲請求分配300萬元 30840"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "00563b442671",
+        "answer_pdf_sha1": "52df642a00dd",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0402",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "民法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 21,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0053",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "single_choice",
+      "question": "關於未成年人監護人之敘述，下列何者正確？",
+      "options": [
+        "未成年人之父母死亡而無遺囑指定監護人時，法院即應依職權選任該未 成年子女四親等內之旁系血親尊親屬為監護人",
+        "法院選定監護人時，應依受監護人之最佳利益，審酌一切情狀為之",
+        "未成年子女已滿 16 歲者，監護人縱使未經法院裁定許可，仍得為未成 年人處分其不動產",
+        "監護人之行為與受監護人利益相反時，限於受監護人未滿7歲者，法院 始得依職權，為受監護人選任特別代理人"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "00563b442671",
+        "answer_pdf_sha1": "52df642a00dd",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0402",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "民法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 22,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0054",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "single_choice",
+      "question": "關於遺產繼承人之敘述，下列何者正確？",
+      "options": [
+        "繼承回復請求權與個別物上請求權係屬真正繼承人分別獨立而併存之權利",
+        "繼承人有數人，其中之一人，如有偽造、變造、隱匿或湮滅被繼承人關 於繼承之遺囑者，該繼承人之繼承權喪失。如經其他繼承人宥恕，該繼 承人之繼承權不喪失",
+        "繼承人如有意圖詐害被繼承人之債權人之權利而為遺產之處分，喪失其 繼承權",
+        "繼承人如故意致被繼承人於死，或雖未致死因而受刑之宣告，其繼承權 喪失。但經被繼承人宥恕者，其繼承權不喪失"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "00563b442671",
+        "answer_pdf_sha1": "52df642a00dd",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0402",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "民法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 23,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0055",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "single_choice",
+      "question": "甲死後留下遺產新臺幣（下同）720 萬元，繼承人乙丙知道甲有對丁之債 務400萬元未清償。乙丙依民法規定陳報遺產清冊，並於公示催告期限後， 全額清償對丁之債務。嗣後有乙丙先前所不知之甲之債權人戊出現，戊主 張其有對甲之債權400萬元未獲清償。下列何者正確？",
+      "options": [
+        "戊得獲償360萬元",
+        "戊得獲償400萬元",
+        "戊得請求丁返還不當受領之40萬元",
+        "戊得獲償320萬元"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "00563b442671",
+        "answer_pdf_sha1": "52df642a00dd",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0402",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "民法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 24,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0056",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "single_choice",
+      "question": "甲男乙女為夫妻，育有一子丙及一女丁，甲不幸過世，乙女尚存，甲留下 新臺幣（下同）1,800萬元之遺產，甲留下之遺產全部皆為婚前財產。甲生 前曾於丁結婚時，贈與600萬元，丙出國留學時，贈與600萬元，於此乙 女可以得到多少遺產？",
+      "options": [
+        "600萬元",
+        "700萬元",
+        "800萬元",
+        "1,000萬元"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "00563b442671",
+        "answer_pdf_sha1": "52df642a00dd",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0402",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "民法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 25,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0057",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "何謂「裁罰性不利處分」？何謂「非裁罰性不利處分」？二者之區別，\n向來極具爭議；但其區別，除於行政罰法上有何實益外，是否在我國\n其他法律的適用上，也有意義？又人民不服「非裁罰性不利處分」，\n即無司法救濟之可能？（20分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "07ceeac2e0a7",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0302",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "行政法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0058",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "在下列三種行政爭訟事件中，當事人應聲請停止執行、假扣押或假處\n分，以尋求暫時權利保護？抑或其爭訟事件，根本不適用任何一種暫\n時權利保護類型？試論述之。（每小題 10分，共 30 分）\n甲貧戶遭遇經濟上重大困難，爰向主管機關 A 申請急難救助金；\n但遭 A 以其資格不符而駁回。甲不服，一方面提起訴願，另一方\n面又擔心緩不濟急，故同時聲請暫時權利保護，希冀在相關之行政\n爭訟未終局確定前，能先獲得紓困，渡過難關。\n乙違規，遭主管機關 B處以高額罰鍰。乙不服，但訴願及第一審行\n政訴訟均敗訴，故提起上訴。在上訴審程序中，乙因資金狀況不佳，\n憂慮罰鍰若遭執行，即有破產之虞，因而聲請暫時權利保護。\n丙溫泉業，獲悉主管機關 C 將公告全國各溫泉地區水質優良度之\n評比，其中丙所在地區等級最低。丙為避免泡湯客因該公告影響，\n而不登門消費，遂於提起本案救濟前，先聲請暫時權利保護，以能\n及時阻止公告之發布。\n30830",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "07ceeac2e0a7",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0302",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "行政法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0059",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "single_choice",
+      "question": "關於大法庭制度之敘述，下列何者正確？",
+      "options": [
+        "由司法院大法官組成大法庭，統一各法院之法律見解",
+        "大法庭裁定，具有通案效力，拘束各審級法院",
+        "最高法院先前依法選編之判例視為大法庭之裁判",
+        "最高行政法院各庭審理案件，經評議後認採為裁判基礎之法律見解，與 先前裁判之法律見解歧異，應以裁定敘明理由，提案予大法庭裁判"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "07ceeac2e0a7",
+        "answer_pdf_sha1": "1fe7fe378049",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0302",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0060",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "single_choice",
+      "question": "主管機關依職權發布特定法律之解釋函，增加原法律所無之限制，而侵害 基本人權時，違反下列何種原則？",
+      "options": [
+        "明確性原則",
+        "法律保留原則",
+        "比例原則",
+        "信賴保護原則"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "07ceeac2e0a7",
+        "answer_pdf_sha1": "1fe7fe378049",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0302",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0061",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "single_choice",
+      "question": "有關行政法上權利與義務之繼受，下列何者錯誤？",
+      "options": [
+        "營利事業因合併而消滅，因合併前之應納稅捐無一身專屬性，應由合併 後存續事業繳納",
+        "營利事業因合併而消滅，於合併前應退稅捐，該公法上請求權應由合併 後存續事業行使",
+        "廢棄物清理義務非不得由第三人代法定義務人清理，故義務人得以私法 契約移轉第三人",
+        "義務縱使不具一身專屬性，義務人仍須有法律上移轉權限，始得以公法 行為為有效移轉"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "07ceeac2e0a7",
+        "answer_pdf_sha1": "1fe7fe378049",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0302",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0062",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "single_choice",
+      "question": "關於我國地方自治之敘述，下列何者錯誤？",
+      "options": [
+        "地方自治團體得以自治條例規範居民之權利義務，惟其內容仍不得違反 法律保留原則及比例原則",
+        "依地方制度法規定，直轄市山地原住民區為地方自治團體",
+        "依地方制度法規定，得以自治條例規定處以行政罰者，僅有直轄市或縣 （市），而不包含鄉（鎮、市）在內",
+        "關於憲法未列舉事項究竟應屬中央或地方之權限產生爭議時，由行政院 解決之 30830"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "07ceeac2e0a7",
+        "answer_pdf_sha1": "1fe7fe378049",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0302",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0063",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "single_choice",
+      "question": "下列何者非屬獨立機關？",
+      "options": [
+        "公平交易委員會",
+        "中央選舉委員會",
+        "國家科學及技術委員會",
+        "國家通訊傳播委員會"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "07ceeac2e0a7",
+        "answer_pdf_sha1": "1fe7fe378049",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0302",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0064",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "single_choice",
+      "question": "下列何者屬於行政委託？",
+      "options": [
+        "新北市政府委託台灣電力公司考驗及頒發電器承裝業之電匠考驗合格 證書",
+        "臺北市政府委託私立大學辦理有關碳稅徵收之學術研討會",
+        "臺中市政府委託某物流公司代為運送貨物",
+        "高雄市政府工務局建築管理處僱請民間機構拆除違章建築"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "07ceeac2e0a7",
+        "answer_pdf_sha1": "1fe7fe378049",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0302",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0065",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "single_choice",
+      "question": "關於公務人員權利之敘述，下列何者正確？",
+      "options": [
+        "義務役軍人僅得於任公務員後服役，始得併計公務員退休年資",
+        "受領退休俸之退役軍官，於就任由公庫支薪之公職時，不得重複領取待遇",
+        "消防機構實施輪班、輪休制度，不受公務人員服勤時數上限之限制",
+        "公立學校職員不得於工作時間外，依個人才藝表現，獲取適當報酬"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "07ceeac2e0a7",
+        "answer_pdf_sha1": "1fe7fe378049",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0302",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0066",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "single_choice",
+      "question": "下列何者非屬公務人員保障法適用之對象？",
+      "options": [
+        "交通部路政及道安司司長",
+        "國立大學人事室主任",
+        "公平交易委員會委員",
+        "經濟部常務次長"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "07ceeac2e0a7",
+        "answer_pdf_sha1": "1fe7fe378049",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0302",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0067",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "single_choice",
+      "question": "下列何者應依申訴、再申訴程序提起救濟？",
+      "options": [
+        "長官對於其屬官所為申誡以上之懲處",
+        "行政機關組成性騷擾處理委員會所作成性騷擾成立之決定",
+        "行政機關對於退休公務人員停發三節慰問金",
+        "長官所編定之值班表"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "07ceeac2e0a7",
+        "answer_pdf_sha1": "1fe7fe378049",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0302",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0068",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "single_choice",
+      "question": "行政機關應受行政慣例拘束，與下列何項原則直接相關？",
+      "options": [
+        "比例原則",
+        "授權明確性原則",
+        "平等原則",
+        "不溯及既往原則"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "07ceeac2e0a7",
+        "answer_pdf_sha1": "1fe7fe378049",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0302",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0069",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "single_choice",
+      "question": "有關行政程序法第159條第2項所規定之行政規則類型，下列何者錯誤？",
+      "options": [
+        "行政機關得透過行政規則，訂定一般性之人事管理規定，以利機關內部 組織、事務順利運作",
+        "為收統一與加速行政作業程序之效，行政機關依法就人民須申請許可事 項制定施行細則，亦屬於行政規則",
+        "行政機關為統一所屬公務員或下級機關之法令解釋，得利用行政規則， 就實務上易生爭議之法令予以核釋",
+        "行政機關訂定裁量基準，以協助下級機關或屬官行使裁量權，為行政規則 30830"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "07ceeac2e0a7",
+        "answer_pdf_sha1": "1fe7fe378049",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0302",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 11,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0070",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "single_choice",
+      "question": "公務員同一行為先受懲處處分後，復移送懲戒時，下列何者正確？",
+      "options": [
+        "如懲戒法院為免議之判決確定者，原懲處處分之效力不受影響",
+        "如懲戒法院為不受懲戒判決確定者，原懲處處分失其效力",
+        "如懲戒法院為申誡懲戒處分之判決者，原懲處處分之效力不受影響",
+        "如懲戒法院為撤職懲戒處分之判決者，應一併宣告撤銷原懲處處分"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "07ceeac2e0a7",
+        "answer_pdf_sha1": "1fe7fe378049",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0302",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 12,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0071",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "single_choice",
+      "question": "下列何者非屬一般處分？",
+      "options": [
+        "警察機關命非法之集會遊行解散",
+        "主管機關命某私有水庫之所有人當水庫水位達一定高度時，應即開閘門 洩放",
+        "交通警察以手勢指揮某一道路之駕駛人或行人通行",
+        "主管機關公告某新設道路開放通行"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "07ceeac2e0a7",
+        "answer_pdf_sha1": "1fe7fe378049",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0302",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 13,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0072",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "single_choice",
+      "question": "機關 A 同意農民甲申請於農地上興建綠能設施，甲再向機關 B 申請同意 備案時，B應該尊重A認定符合農地用地綠能設施，此涉及行政處分下列 何種效力？",
+      "options": [
+        "構成要件效力",
+        "形式存續力",
+        "實質存續力",
+        "確認效力"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "07ceeac2e0a7",
+        "answer_pdf_sha1": "1fe7fe378049",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0302",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 14,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0073",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "single_choice",
+      "question": "有關行政契約之敘述，下列何者正確？",
+      "options": [
+        "行政契約締結之形式，得以口頭或書面的方式為之",
+        "行政契約當事人之一方為人民，若行政機關為防止或除去對公益之重大 危害而終止契約時，基於公益之維護，毋庸補償人民財產上之損失",
+        "行政契約內容侵害第三人權利時，應經第三人書面同意，始生效力",
+        "基於契約自由原則，所有公法上法律關係皆得以行政契約之形式加以規 範，毋須考慮法規之規定"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "07ceeac2e0a7",
+        "answer_pdf_sha1": "1fe7fe378049",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0302",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 15,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0074",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "single_choice",
+      "question": "下列何者為行政事實行為？",
+      "options": [
+        "公園開放使用之公告",
+        "地政機關所為土地移轉登記",
+        "函請受領人繳還因撤銷補貼許可所生溢領金額之通知",
+        "文化部函復內政部移民署某甲不符入境許可條件之通知"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "07ceeac2e0a7",
+        "answer_pdf_sha1": "1fe7fe378049",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0302",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 16,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0075",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "single_choice",
+      "question": "下列何者非行政罰？",
+      "options": [
+        "甲為證券商之總經理，因違反證券交易法，遭主管機關解除其經理人職務",
+        "乙因違反道路交通管理處罰條例，遭主管機關處以罰鍰",
+        "丙無正當理由，攜帶具殺傷力之器械，因違反社會秩序維護法，遭主管 機關沒入其器械",
+        "丁為學校教師，因體罰學生，違反兒童及少年福利與權益保障法規定， 遭主管機關公布其姓名 30830"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "07ceeac2e0a7",
+        "answer_pdf_sha1": "1fe7fe378049",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0302",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 17,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0076",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "single_choice",
+      "question": "關於行政執行聲明異議之敘述，下列何者錯誤？",
+      "options": [
+        "對具行政處分性質之執行命令不服，經依行政執行法之聲明異議程序， 聲明異議人可直接提起撤銷訴訟",
+        "受理機關認為聲明異議無理由者，應予以駁回",
+        "不服中央各院之行政執行而聲明異議，由中央各院自行受理異議並為 決定",
+        "受理機關認為聲明異議有理由者，應即停止執行，並撤銷或更正已為之 執行行為"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "07ceeac2e0a7",
+        "answer_pdf_sha1": "1fe7fe378049",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0302",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 18,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0077",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "single_choice",
+      "question": "關於政府資訊公開法之敘述，下列何者錯誤？",
+      "options": [
+        "係以保障人民知的權利，增進人民對公共事務之瞭解、信賴及監督為 目的",
+        "依該法規定，公開之對象為一般人民",
+        "申請人依該法規定申請行政機關提供行政資訊遭拒絕者，如有不服，僅 得於對實體決定聲明不服時，一併聲明之",
+        "依該法規定申請行政機關提供行政資訊之權利，屬實體權利"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "07ceeac2e0a7",
+        "answer_pdf_sha1": "1fe7fe378049",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0302",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 19,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0078",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "single_choice",
+      "question": "土地所有權人甲於1月3日收到新北市政府工務局所開立「申請建築執照 補件通知單」，通知其應於30日內依建築法規定補件，但甲不服並於3月 3日提起訴願。下列何者正確？",
+      "options": [
+        "該補件通知單之性質為觀念通知",
+        "甲提起之訴願已逾訴願期間，訴願管轄機關應以無理由駁回甲之訴願",
+        "甲不服該補件通知單，應向內政部提起訴願",
+        "該補件通知單具有強制效力"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "07ceeac2e0a7",
+        "answer_pdf_sha1": "1fe7fe378049",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0302",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 20,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0079",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "single_choice",
+      "question": "甲在河流旁搭建工寮並開闢菜園，經主管機關認定妨害水土保持屬於違 法，命甲限期回復原狀。甲不服，除循序提起訴願救濟外，得以下列何種 程序在救濟進行期間實現暫時權利保護？",
+      "options": [
+        "應向行政法院聲請定暫時狀態假處分，由法院裁定該工寮及菜園暫時為 合法",
+        "應向行政法院聲請保全處分，保全工寮及菜園之事實狀態",
+        "應依據行政執行法向主管機關聲明異議",
+        "應依行政訴訟法或訴願法聲請暫時停止執行該命回復原狀之處分 30830"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "07ceeac2e0a7",
+        "answer_pdf_sha1": "1fe7fe378049",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0302",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 21,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0080",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "single_choice",
+      "question": "下列何者非屬確認行政處分無效之訴的實體判決要件？",
+      "options": [
+        "確認對象須為行政處分之無效",
+        "須已向原處分機關請求確認其無效未被允許或不為確答",
+        "須經訴願程序而遭駁回",
+        "須有即受確認判決之法律上利益"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "07ceeac2e0a7",
+        "answer_pdf_sha1": "1fe7fe378049",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0302",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 22,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0081",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "single_choice",
+      "question": "關於行政訴訟制度之敘述，下列何者正確？",
+      "options": [
+        "收容聲請事件適用以原就被之原則",
+        "對於已執行而無回復原狀可能之行政處分，得提起確認該行政處分無效 之訴訟",
+        "確認行政處分無效之訴訟，須已向原處分機關請求確認其無效未被允 許，或經請求後於30日內不為確答者，始得提起之",
+        "受交通違規裁罰處分，應先經訴願程序，始得提起行政訴訟"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "07ceeac2e0a7",
+        "answer_pdf_sha1": "1fe7fe378049",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0302",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 23,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0082",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "single_choice",
+      "question": "關於國家賠償法所規定之公共設施國家賠償責任，下列何者正確？",
+      "options": [
+        "當公共設施已委託民間團體或個人管理時，國家即免除損害賠償責任",
+        "於開放之山域、水域等自然公物，經管理機關、受委託管理之民間團體 或個人已就使用該公物為適當之警告或標示，而人民仍從事冒險或具危 險性活動，國家不負損害賠償責任",
+        "於開放之山域、水域等自然公物內之設施，經管理機關、受委託管理之 民間團體或個人已就使用該公物為適當之警告或標示，而人民仍從事冒 險或具危險性活動，國家不負損害賠償責任",
+        "就公共設施設置或管理之瑕疵應負責之第三人，賠償機關對之並無求 償權"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "07ceeac2e0a7",
+        "answer_pdf_sha1": "1fe7fe378049",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0302",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 24,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0083",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "single_choice",
+      "question": "關於行政損失補償之敘述，下列何者錯誤？",
+      "options": [
+        "錯誤施打疫苗造成人民身體健康受損，基於準徵收法理應予補償",
+        "對於犯罪被害人所為之補償，非基於特別犧牲",
+        "土地徵收為合法、有目的性對人民財產權之侵害，故須給予補償",
+        "為防止公益重大危害而廢止授益處分時，受益人得請求信賴利益損失 補償"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "07ceeac2e0a7",
+        "answer_pdf_sha1": "1fe7fe378049",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "308",
+          "s": "0302",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 25,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0084",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "甲建有放置骨灰（骸）之 A 寶塔一座，惟該設施未取得主管機關核准使\n用，故依法不得販售。甲僱用明知之乙，由乙銷售 A寶塔中之塔位。乙持\n不實資訊，對丙謊稱 A寶塔已取得核准使用許可，丙信以為真，以新臺幣\n（下同）200萬元向甲購買塔位使用權。半年後，丙發現 A寶塔未經主管\n機關核准使用。試問：丙得否撤銷買賣契約，並請求甲返還 200萬元與撤\n銷時起之利息？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "7b00daac1163",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "101",
+          "s": "0401",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "民法",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0085",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "甲在自己土地上建築 A屋一棟，全部工程由乙承包，現已完工，惟於施工\n期間，乙因施作不慎，搭設之鷹架倒塌，傷及路人丙。房屋完工後，甲發\n現 A屋有瑕疵，定期限通知乙修補，乙卻不為之。試問：\n甲應否與乙對丙負連帶賠償責任？（12分）\n甲得否向乙主張解除承攬契約？（13 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "7b00daac1163",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "101",
+          "s": "0401",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "民法",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0086",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "甲男和乙女於民國 65 年結婚後，育有子女丙、丁、戊三人。戊女因離婚\n多年，長期與父母甲和乙同住，平日照顧年邁父母生活起居，為甲父保管\n存摺與印章。民國 105年期間，戊未經甲之同意和授權，擅自將甲在郵局\n所設定之四筆定期存單存款於到期後，從甲帳戶以提領現金方式，存入戊\n帳戶，並設定定期存單，共新臺幣（下同）2,000 萬元。民國 111 年 1 月\n甲死亡，乙、丙、丁發現甲之存款被戊侵占。請問：乙、丙、丁全體向戊\n請求返還2,000萬元，並主張其為乙、丙、丁、戊之公同共有，是否有理由？\n（50分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "7b00daac1163",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "101",
+          "s": "0401",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "民法",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0087",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "某甲係內政部警政署保安警察第五總隊（下稱：保五總隊）警員，因其於\n111 年 9月勤餘酒駕肇事，致其 111 年年終考績受考列丙等，無法領取 111\n年年終工作獎金，某甲不服保五總隊所為不核發其111 年年終工作獎金之\n決定，主張「一百十一年軍公教人員年終工作獎金發給注意事項」既非法\n律，亦無法律明確授權，違反法律保留原則，侵害其公法上財產請求權。\n問：軍公教人員年終工作獎金之法律性質為何？機關發給年終工作獎金行\n為之法律性質為何？某甲之主張是否有理由？（25 分）\n【參考法條】\n一百十一年軍公教人員年終工作獎金發給注意事項第7點第1項第1款：「發給對\n象有下列各款情形之一者，不發或減發年終工作獎金；同時有二款以上之情形者，\n僅依款次在前之規定辦理：\n（一）年終考績（核、成）或另予考績（核、成）列丙等以下者，不發給年終工作獎\n金。」",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "274fbddd51e3",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "101",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0088",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "身心障礙者權益保障法第 77 條第 1 項規定：「依法令或契約對身心障礙\n者有扶養義務之人，有喪失扶養能力或有違反第七十五條各款情形之一，\n致使身心障礙者有生命、身體之危難或生活陷於困境之虞者，直轄市、縣\n（市）主管機關得依本人、扶養義務人之申請或依職權，經調查評估後，\n予以適當安置。」之適當安置，以及第 78 條第 1 項規定：「身心障礙者\n遭受第七十五條各款情形之一者，情況危急非立即給予保護、安置或其他\n處置，其生命、身體或自由有立即之危險或有危險之虞者，直轄市、縣（市）\n主管機關應予緊急保護、安置或為其他必要之處置。」之緊急安置，其法\n律性質各為何？（25分）\n【參考法條】\n身心障礙者權益保障法第75條規定：「對身心障礙者不得有下列行為：一、遺棄。",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "274fbddd51e3",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "101",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0089",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "身心虐待。三、限制其自由。四、留置無生活自理能力之身心障礙者於易發生\n危險或傷害之環境。五、利用身心障礙者行乞或供人參觀。六、強迫或誘騙身心障\n礙者結婚。七、其他對身心障礙者或利用身心障礙者為犯罪或不正當之行為。」\n10230",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "274fbddd51e3",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "101",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0090",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "關於行政罰的裁處，主管機關原本應在法定之罰鍰下限額度內裁罰，不得\n更輕，但依行政罰法之規定，在那些情形，得減輕或免除法定之處罰？\n（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "274fbddd51e3",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "101",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0091",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "某甲因營業稅事件，不服財政部北區國稅局復查決定，於 104 年 2 月 25\n日提起訴願。經該局認：復查決定書乃於同年 1 月 14 日寄存送達地之郵\n局，即於同日送達某甲，訴願之 30 日不變期間，自送達次日之同年 1 月\n15 日起算，應於同年 2 月13 日屆滿，某甲遲至同年月 25日始提起訴願，\n已逾訴願期間，不予受理。某甲不服，續提行政訴訟請求救濟，分別遭臺\n北高等行政法院以起訴不合法及最高行政法院以抗告無理由而裁定駁回，\n某甲認確定終局裁定所適用之行政程序法第 74 條寄存送達之規定牴觸憲\n法，依司法院大法官審理案件法第 5 條第 1 項第 2 款規定，聲請憲法審\n查。試問：司法院大法官就本案有關行政程序法規定行政文書之送達及寄\n存送達之規定有何闡釋？（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "274fbddd51e3",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "101",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "行政法",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0092",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "甲之受僱人乙於駕駛甲所有之車輛執行職務途中，因未注意路口交通號誌，\n撞擊行經路口之丙。因而身體健康受損之丙於與甲、乙交涉如何賠償其所受\n損害過程中，知悉乙負擔沈重家計，乃表示拋棄對乙請求賠償，並轉而僅向\n甲請求賠償其所受全部損害，但甲則主張因丙已拋棄對乙之請求權，自己即\n不須賠償丙所受任何損害。請附理由說明甲之主張是否有理？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "5a68230e7f1a",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "101",
+          "s": "0401",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "民法",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0093",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "甲、乙締結由乙為甲染整甲所有之一批布料、甲應支付乙報酬之契約，契\n約中並包含乙應交付染整完成之布料予甲的確定期限、運送成品予甲之運\n費由甲負擔、乙遲延交付時應支付甲違約金等事項。約定交付期限將屆至\n時，乙聯絡甲無法如期交付成品，請求寬限交付期限，接獲乙之請求後，\n甲告知因乙遲延交付而增加之運送費用，甲將不負擔。其後，乙交付成品\n予甲、並經甲受領。試問：甲受領後得否向乙請求減少報酬、增加之運送\n費用及違約金？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "5a68230e7f1a",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "101",
+          "s": "0401",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "民法",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0094",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "經營事業之甲婚後與配偶以外之第三人乙共同生活一段時間後，甲為發展\n事業將事業及生活重心移轉至國外。甲移居國外前不久，乙產下一子丙，\n而因乙收入有限，僅能以維持溫飽的程度獨力扶養丙。丙成長至 15 歲時\n經甲認領，並開始接受甲之扶養。雖甲在國外之事業發展有成累積不少資\n產，但卻僅願以其在國內所剩有限之資產扶養丙。試問：丙得否請求享有\n與甲其他子女相同待遇之生活費用，並以相同標準請求甲給付出生後至認\n領前之扶養費？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "5a68230e7f1a",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "101",
+          "s": "0401",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "民法",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0095",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "甲、乙間約定以未定期限方式將甲所有之 A 地出租予乙，雙方並約定租金\n應按A地申報地價之固定比率計算。事經數十年後，因A地周邊環境、工\n商繁榮程度已有極大發展，甲可否向法院聲請調高租金？法律依據何在？\n甲之請求是否有理？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "5a68230e7f1a",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "101",
+          "s": "0401",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "民法",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0096",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "某甲商號小本經營，因 COVID-19 疫情影響而難以支持，因此向 A 縣政\n府申請產業紓困補貼。但依相關法規規定，A在准予補貼時，該補貼處分\n應先經中央主管機關核定後，處分之作成始告程序完備而合法。今 A准甲\n之所請，補貼處分亦已獲得中央主管機關的核定。未料在處分書送達於甲\n生效後，卻遭中央主管機關發現該處分其實不符合核定標準。準此，試問：\n中央主管機關得否撤銷原已作成之核定？（10分）\n如果中央主管機關撤銷原核定後，補貼處分本身的效力是否隨同核定之\n撤銷而當然消滅？抑或必須另為處理後，處分才會失效？（20 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "be456cc4268c",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "101",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "行政法",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0097",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "行政執行法第 36 條第 2 項第 1 款以「對於人之管束」作為即時強制的方\n法之一；惟依同法第 37條第 2項規定，則其管束不得逾 24小時。試問：\n為何對於人之管束不得逾 24 小時？此外，假使行政機關對於人之管束逾\n越 24 小時，抑或另有其他違法情事時，被管束之人有何立即有效的救濟\n方法可資對抗？（30分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "be456cc4268c",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "101",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "行政法",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0098",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "人民提起行政訴訟法第 5 條類型之訴訟，且獲勝訴判決確定後，如被告機\n關仍拒絕依法院之判命，作成原告所申請內容之行政處分時，該名原告如\n何落實判決所賦予的權利？而這個可以落實原告之權利的方法，是否也適\n用在判決僅判命被告機關應遵照法院之法律見解對於原告作成決定的情\n形？（20分）此外，同一方法，是否同樣適用在人民向行政法院聲請而取\n得的停止執行裁定及假處分裁定？（20 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:05+00:00",
+        "source_pdf_sha1": "be456cc4268c",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "101",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "行政法",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0099",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "甲為避免其債權人之強制執行，與乙通謀虛偽意思表示，將其所有之 A屋\n賣給乙，並以移轉所有權之意思將 A屋登記在乙之名下。乙與丙訂立買賣\n契約，將 A 屋出賣於丙，並以移轉所有權之意思將 A 屋登記在善意之丙\n名下。請附理由說明：丙是否取得 A屋之所有權？並請分別說明：乙與丙\n間債權契約及物權契約之效力。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "50f8f75e7e34",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "102",
+          "s": "0401",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "民法",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0100",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "甲與乙訂立買賣契約，將一批貨物出賣於乙，對乙有新臺幣（下同）100\n萬元之債權。甲與丙訂立買賣契約，將對乙之債權以 90 萬元賣給丙，並\n將該債權讓與給丙。嗣後，甲與丁訂立買賣契約，將對乙之債權以 95 萬\n元賣給丁，並將該債權讓與給丁。請附理由回答：甲將該債權讓與給丁，\n該債權讓與契約之法律效力為何？（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "50f8f75e7e34",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "102",
+          "s": "0401",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "民法",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0101",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "甲向乙借新臺幣 100 萬元，丙以所有之 A 屋為乙設定普通抵押權，藉以\n擔保乙對甲之債權。嗣後因丁之過失行為致 A屋滅失，而甲於債務清償期\n屆至時，無力清償債務。請附理由說明：乙對丁得主張何種權利？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "50f8f75e7e34",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "102",
+          "s": "0401",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "民法",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0102",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "甲男與乙女結婚，生下丙、丁、戊三子後，甲與乙協議離婚；甲死亡時，\n留有遺產新臺幣120 萬元。查丙拋棄繼承，但丙有一個兒子己；丁因偽造\n甲關於繼承之遺囑而喪失繼承權，但丁有一個女兒庚。請附理由說明：甲\n之遺產應如何分配？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "50f8f75e7e34",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "102",
+          "s": "0401",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "民法",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0103",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "甲係國軍退除役官兵輔導委員會臺北市榮民服務處（以下簡稱臺北市榮服\n處）服務組輔導員，臺北市榮服處以民國110 年03 月 25日北市榮人字第\nA號考績通知書核布甲 109年年終考績考列乙等，甲不服，依我國現行法\n制及實務，甲應如何提起救濟？（25分）\n【參考法條】\n公務人員考績法第 5 條第 1項：「年終考績應以平時考核為依據。平時考\n核就其工作、操行、學識、才能行之。」；第 7條第 1項第 2款：「年終\n考績獎懲依左列規定︰二、乙等︰晉本俸一級，並給與半個月俸給總額之\n一次獎金；已達所敘職等本俸最高俸級或已敘年功俸級者，晉年功俸一級，\n並給與半個月俸給總額之一次獎金；已敘年功俸最高俸級者，給與一個半\n月俸給總額之一次獎金。」；第 11 條第 1 項：「各機關參加考績人員任\n本職等年終考績，具有左列各款情形之一者，取得同官等高一職等之任用\n資格：一、二年列甲等者。二、一年列甲等二年列乙等者。」；第 14 條\n第 1 項：「各機關對於公務人員之考績，應由主管人員就考績表項目評擬，\n遞送考績委員會初核，機關長官覆核，經由主管機關或授權之所屬機關核\n定，送銓敘部銓敘審定。……」",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "e714802821e2",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "102",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "行政法",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0104",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "行政執行法規定直接強制與即時強制之意義、執行方法及執行要件各為\n何？並各舉例說明之。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "e714802821e2",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "102",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "行政法",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0105",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "財政部民國 110年 03 月 26日發布台財人字第 11000543260 號令修正「財\n政部關務署臺北關辦事細則」部分條文，自民國110 年 03月 28日生效。\n請依行政程序法之規定，說明本細則之法律性質、意涵及效力。（25分）\n10230",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "e714802821e2",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "102",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "行政法",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "disabled-6e2f88c7-0106",
+      "exam_id": "disabled-6e2f88c7",
+      "question_type": "essay",
+      "question": "衛生福利部國民健康署民國105年11月11日國健教字第1059906839號函\n說明二謂：「按菸害防制法第15條第1項第8款、第9款規定：『下列場\n所全面禁止吸菸：…八、供室內體育、運動或健身之場所。九、教室、圖書\n室、實驗室、表演廳、禮堂、展覽室、會議廳（室）及電梯廂內。』上開場\n所除獨立設置外，亦常見附設於其他公、私立場所中，並未區分其所屬場所\n之性質而有不同規範，且其單獨列為菸害防制法第15條之一款，則無論係\n設於營業場所、公共場所，抑或是公寓大廈內，均為全面禁菸場所。」請依\n現行法制及實務，說明本號函之法律性質、意涵及效力。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:39:06+00:00",
+        "source_pdf_sha1": "e714802821e2",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "102",
+          "s": "0301",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "行政法",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    }
+  ]
+}

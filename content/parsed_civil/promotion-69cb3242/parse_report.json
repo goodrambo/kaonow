@@ -1,0 +1,61 @@
+{
+  "slug": "promotion-69cb3242",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:28:58+00:00",
+  "paper_count": 6,
+  "paper_with_questions": 6,
+  "question_count": 24,
+  "type_counts": {
+    "essay": 24
+  },
+  "issues": [
+    {
+      "year": "114",
+      "subject": "國際傳播與國際現勢",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "民意與公共關係學概論",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "國際傳播與國際現勢",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "民意與公共關係學概論",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "國際傳播與國際現勢",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "民意與公共關係學概論",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    }
+  ]
+}

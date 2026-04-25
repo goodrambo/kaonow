@@ -1,0 +1,12 @@
+{
+  "slug": "elementary-acfc4025",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:29:29+00:00",
+  "paper_count": 20,
+  "paper_with_questions": 20,
+  "question_count": 1021,
+  "type_counts": {
+    "single_choice": 1021
+  },
+  "issues": []
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "islands-704caaf1",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:33:56+00:00",
+  "paper_count": 4,
+  "paper_with_questions": 4,
+  "question_count": 43,
+  "type_counts": {
+    "essay": 13,
+    "single_choice": 30
+  },
+  "issues": [
+    {
+      "year": "114",
+      "subject": "公共衛生學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "公共衛生政策、衛生行政與法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 5,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "流行病學與生物統計學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    }
+  ]
+}

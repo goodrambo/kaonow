@@ -1,0 +1,13 @@
+{
+  "slug": "diplomatic-5118c8cd",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:25:08+00:00",
+  "paper_count": 13,
+  "paper_with_questions": 13,
+  "question_count": 372,
+  "type_counts": {
+    "essay": 30,
+    "single_choice": 342
+  },
+  "issues": []
+}

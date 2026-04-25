@@ -1,0 +1,38 @@
+{
+  "slug": "pukao-64311456",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:36:36+00:00",
+  "paper_count": 18,
+  "paper_with_questions": 18,
+  "question_count": 532,
+  "type_counts": {
+    "essay": 32,
+    "single_choice": 500
+  },
+  "issues": [
+    {
+      "year": "112",
+      "subject": "社會研究法概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "社會研究法概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "社會研究法概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    }
+  ]
+}

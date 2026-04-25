@@ -1,0 +1,42 @@
+-- W1.6 questions batch 2772/9310 (10)
+
+INSERT INTO public.questions (id, exam_id, paper_id, subject_id, chapter_id, question_type, question_text, options, correct_answer, correct_answer_json, auto_gradable, source, is_active, version, source_meta, explanation)
+VALUES
+  ('disabled-7fec267e-moex-00290', 'disabled-7fec267e', 'disabled-7fec267e-moex-111-3082b5f1', 'sub-disabled-7fec267e-05', NULL, 'single_choice', '依司法院解釋意旨，關於損失補償之敘述，下列何者錯誤？', '["立法機關對補償方式有一定之自由形成空間", "因傳染病防治而受強制隔離之人民，不得請求損失補償", "補償與損失必須相當", "係為公共利益所受之特別犧牲"]'::jsonb, 1, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:38:44+00:00", "source_pdf_sha1": "e417dd4ca5ed", "answer_pdf_sha1": "a2eaaa36477e", "source_family": "moex-gov-tw", "moex": {"exam_code": "111050", "c": "301", "s": "0302", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "行政法", "year": "111", "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試", "original_question_number": 25, "answer_corrected": false, "flags": [], "civil_slug": "disabled", "civil_category": "一般行政"}'::jsonb, NULL),
+  ('disabled-7fec267e-moex-00291', 'disabled-7fec267e', 'disabled-7fec267e-moex-110-adc7838e', 'sub-disabled-7fec267e-01', NULL, 'essay', 'Cohen, March, and Olsen 曾經提出以反對理性主義為基礎的決策過程模式
+理論，稱之為垃圾桶決策模式。他們更進一步指出：組織的決策是無次序
+性的，問題、偏好與解決方案間沒有邏輯推理關係。因此，組織化的無政
+府狀態才是組織生活的常態。請問組織化的無政府狀態有什麼特徵？為什
+麼？請詳述之。（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:38:44+00:00", "source_pdf_sha1": "2ab02f21741d", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "110050", "c": "301", "s": "0607", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "公共政策", "year": "110", "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "civil_slug": "disabled", "civil_category": "一般行政"}'::jsonb, NULL),
+  ('disabled-7fec267e-moex-00292', 'disabled-7fec267e', 'disabled-7fec267e-moex-110-adc7838e', 'sub-disabled-7fec267e-01', NULL, 'essay', '關於公共利益的定義與民主政治的內涵，有學者認為公共利益的內涵應以
+公民觀點為基礎，追求公民精神的發揮，才能建立符合公民利益的民主體
+制。依據 Frederickson 的觀點，認為公民精神應具備那些要件？請詳細剖
+析之，並討論其是否可行？（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:38:44+00:00", "source_pdf_sha1": "2ab02f21741d", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "110050", "c": "301", "s": "0607", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "公共政策", "year": "110", "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試", "original_question_number": "二", "answer_corrected": false, "flags": [], "civil_slug": "disabled", "civil_category": "一般行政"}'::jsonb, NULL),
+  ('disabled-7fec267e-moex-00293', 'disabled-7fec267e', 'disabled-7fec267e-moex-110-adc7838e', 'sub-disabled-7fec267e-01', NULL, 'essay', 'HerbertSimon認為現實生活中，決策者僅具有限制理性（BoundedRationality），
+是一個行政人，無法像經濟人一般追求自我利益最大化。依據 Herbert
+Simon 的看法，人類的理性有何限制？請詳細說明之。（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:38:44+00:00", "source_pdf_sha1": "2ab02f21741d", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "110050", "c": "301", "s": "0607", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "公共政策", "year": "110", "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試", "original_question_number": "三", "answer_corrected": false, "flags": [], "civil_slug": "disabled", "civil_category": "一般行政"}'::jsonb, NULL),
+  ('disabled-7fec267e-moex-00294', 'disabled-7fec267e', 'disabled-7fec267e-moex-110-adc7838e', 'sub-disabled-7fec267e-01', NULL, 'essay', '依據 Wilks and Wright的理論，分析現代國家的政策網絡必須從次級部門
+著手。何謂次級部門的政策網絡？在他們的分析中，政策網絡又可分為那
+幾種類型？請詳述之，並舉例說明。（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:38:44+00:00", "source_pdf_sha1": "2ab02f21741d", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "110050", "c": "301", "s": "0607", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "公共政策", "year": "110", "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試", "original_question_number": "四", "answer_corrected": false, "flags": [], "civil_slug": "disabled", "civil_category": "一般行政"}'::jsonb, NULL),
+  ('disabled-7fec267e-moex-00295', 'disabled-7fec267e', 'disabled-7fec267e-moex-110-19059bf3', 'sub-disabled-7fec267e-03', NULL, 'essay', '請詳述立憲主義（constitutionalism）的意涵，及基於立憲主義實施的憲政
+民主與基本人權的關係。（25 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:38:44+00:00", "source_pdf_sha1": "570d2d5c1093", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "110050", "c": "301", "s": "0601", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "政治學", "year": "110", "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "civil_slug": "disabled", "civil_category": "一般行政"}'::jsonb, NULL),
+  ('disabled-7fec267e-moex-00296', 'disabled-7fec267e', 'disabled-7fec267e-moex-110-19059bf3', 'sub-disabled-7fec267e-03', NULL, 'essay', '選舉與罷免都是由人民投票做決定的制度。然而，選舉是民主國家的必要
+制度，罷免卻不是，為什麼？請從民主政治的學理加以闡述。（25 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:38:44+00:00", "source_pdf_sha1": "570d2d5c1093", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "110050", "c": "301", "s": "0601", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "政治學", "year": "110", "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試", "original_question_number": "二", "answer_corrected": false, "flags": [], "civil_slug": "disabled", "civil_category": "一般行政"}'::jsonb, NULL),
+  ('disabled-7fec267e-moex-00297', 'disabled-7fec267e', 'disabled-7fec267e-moex-110-19059bf3', 'sub-disabled-7fec267e-03', NULL, 'essay', '20 世紀後半由於女性主義得到推展，「性別平等」與「性別主流化」已成
+為國際體系及許多民主國家政府的目標，請闡述女性主義的基本理念與不
+同派別的主張，並說明落實「性別平等」與「性別主流化」的政策行動。
+（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:38:44+00:00", "source_pdf_sha1": "570d2d5c1093", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "110050", "c": "301", "s": "0601", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "政治學", "year": "110", "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試", "original_question_number": "三", "answer_corrected": false, "flags": [], "civil_slug": "disabled", "civil_category": "一般行政"}'::jsonb, NULL),
+  ('disabled-7fec267e-moex-00298', 'disabled-7fec267e', 'disabled-7fec267e-moex-110-19059bf3', 'sub-disabled-7fec267e-03', NULL, 'essay', '請依序闡述：
+何謂政治社會化？（8分）
+政治社會化的主要管道為何及如何發生作用？（12分）
+當前網際網路快速發展，各國政治社會化的管道及其作用發生什麼變
+化？（5分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:38:44+00:00", "source_pdf_sha1": "570d2d5c1093", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "110050", "c": "301", "s": "0601", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "政治學", "year": "110", "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試", "original_question_number": "四", "answer_corrected": false, "flags": [], "civil_slug": "disabled", "civil_category": "一般行政"}'::jsonb, NULL),
+  ('disabled-7fec267e-moex-00299', 'disabled-7fec267e', 'disabled-7fec267e-moex-110-b96fcbef', 'sub-disabled-7fec267e-06', NULL, 'essay', '甲為 A地所有人，該地市價 1 億。乙是甲之男友，兩人同居長達10 年之
+久，形同夫妻。丙是乙之女同事，年輕貌美，家族頗有財富。丙知悉甲與
+乙之同居關係。甲、乙與丙三人週末常一起練習網球。乙未經甲同意，出
+示 A地之土地所有權狀於丙面前，以自己為甲之代理人，以甲之名義，出
+賣 A 地於丙，約定價金 1 億 5 千萬元。丙就此買賣支付土地鑑價費用、
+地政士費用與律師諮詢費用共 5 萬元。丙請求甲移轉 A 地所有權，並交
+付 A 地給自己。甲拒絕承認這筆 A 地買賣。試問：丙就此對乙，有何權
+利可資主張？（25 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:38:44+00:00", "source_pdf_sha1": "cfbf77d3b850", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "110050", "c": "301", "s": "0403", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "民法總則與刑法總則", "year": "110", "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "civil_slug": "disabled", "civil_category": "一般行政"}'::jsonb, NULL)
+ON CONFLICT (id) DO NOTHING;

@@ -1,0 +1,46 @@
+{
+  "slug": "aboriginal-78f7d45f",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:38:07+00:00",
+  "paper_count": 6,
+  "paper_with_questions": 6,
+  "question_count": 68,
+  "type_counts": {
+    "essay": 18,
+    "single_choice": 50
+  },
+  "issues": [
+    {
+      "year": "112",
+      "subject": "觀光學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "觀光行政與法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "觀光行銷學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "觀光資源規劃",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    }
+  ]
+}

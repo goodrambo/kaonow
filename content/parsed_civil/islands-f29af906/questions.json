@@ -1,0 +1,307 @@
+{
+  "slug": "islands-f29af906",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:33:58+00:00",
+  "paper_count": 2,
+  "paper_with_questions": 2,
+  "question_count": 8,
+  "type_counts": {
+    "essay": 8
+  },
+  "papers": [
+    {
+      "year": "114",
+      "exam_code": "114190",
+      "c": "424",
+      "s": "0805",
+      "q": "1",
+      "subject": "土地利用概要",
+      "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "eabfc91b199e",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "114",
+      "exam_code": "114190",
+      "c": "424",
+      "s": "0707",
+      "q": "1",
+      "subject": "民法物權編概要",
+      "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "6e618f0599fa",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    }
+  ],
+  "questions": [
+    {
+      "id": "islands-f29af906-0001",
+      "exam_id": "islands-f29af906",
+      "question_type": "essay",
+      "question": "請說明市地重劃之抵費地？又辦理機關標售抵費地所得價款之用途為\n何？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "eabfc91b199e",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "424",
+          "s": "0805",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "土地利用概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-f29af906-0002",
+      "exam_id": "islands-f29af906",
+      "question_type": "essay",
+      "question": "請論述成長管理（GrowthManagement）此項規劃理念與傳統的土地使用\n分區管制（LandUseZoning）的差異何在？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "eabfc91b199e",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "424",
+          "s": "0805",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "土地利用概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-f29af906-0003",
+      "exam_id": "islands-f29af906",
+      "question_type": "essay",
+      "question": "非都市計畫地區土地為開發利用，得依區域計畫法之規定申請開發許\n可。請針對區域計畫委員會審議此類申請案件時的審議條件原則加以說\n明。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "eabfc91b199e",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "424",
+          "s": "0805",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "土地利用概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-f29af906-0004",
+      "exam_id": "islands-f29af906",
+      "question_type": "essay",
+      "question": "請論述都市計畫地區內實施容積移轉機制對於土地使用型態的影響為\n何？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "eabfc91b199e",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "424",
+          "s": "0805",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "土地利用概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-f29af906-0005",
+      "exam_id": "islands-f29af906",
+      "question_type": "essay",
+      "question": "甲、乙締結購買乙所有之 A房地的契約，並已完成移轉登記。惟甲、乙\n締結 A房地之買賣契約及完成移轉登記前，A房地已由丙占用中。完成\n移轉登記後，甲主張丙無正當權源占用 A房地，請求丙返還該房地；丙\n則主張甲、乙間之買賣契約及移轉登記係基於雙方通謀虛偽之意思表示\n所為，甲並非 A房地之真正所有權人，不得請求其返還。甲、丙之主張，\n何者有理？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "6e618f0599fa",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "424",
+          "s": "0707",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "民法物權編概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-f29af906-0006",
+      "exam_id": "islands-f29af906",
+      "question_type": "essay",
+      "question": "甲於乙之 A 土地上建造建物，並基於時效取得，登記為 A 地之地上權\n人。其後，甲將該地上權贈與其子丙，並辦妥移轉登記。惟因系爭地上\n權並未約定地租，乙有無得請求丙支付相當地租之依據？乙得請求丙支\n付之地租應自何時起算？（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "6e618f0599fa",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "424",
+          "s": "0707",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "民法物權編概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-f29af906-0007",
+      "exam_id": "islands-f29af906",
+      "question_type": "essay",
+      "question": "甲向乙借款新臺幣（以下同）70萬元，於尚未清償該筆債務前死亡。甲\n之繼承人丙為清償其自甲繼承之A屋的貸款，乃向乙借款300萬元，雙\n方以書面約定借期 5 年、每年支付週年利率 2%之利息、逾期未償還則\n依法定利率給付遲延利息。丙為擔保此筆借款及利息等債務，乃提供 A\n屋供乙設定普通抵押權，並於登記設定上開抵押權時，附上上述書面約\n定為附件。事後，乙要求追加甲生前對其所負之 70萬元債務亦應屬前述\n抵押權擔保之債權的範圍，丙亦口頭應允之。\n因丙屆期未清償其對乙所負上述債務，乙乃實行對 A屋之抵押權，並主\n張其就拍賣 A 屋所得價金，得優先受償包含前述 70 萬元在內之全部金\n額。乙之主張是否有理？（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "6e618f0599fa",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "424",
+          "s": "0707",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "民法物權編概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-f29af906-0008",
+      "exam_id": "islands-f29af906",
+      "question_type": "essay",
+      "question": "甲為從事採取、加工、販售砂石業務之業者，因有部分不法盜採之嫌，\n致其堆置於河川行水區域內之土石（下稱系爭土石堆）經檢察機關扣押\n並發還予管理該河川之乙主管機關。其後，乙公開標售系爭土石堆，經\n丙得標，並於得標後已載離部分土石（下稱 A土石）。\n在上述情形下，如甲主張乙係無權處分其所有之A土石，請求乙應賠償該\n部分之損害時，甲是否應證明自己為A土石之所有權人？又，乙得否主張\n其係基於檢察機關之發還而善意取得系爭土石堆之所有權？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "6e618f0599fa",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "424",
+          "s": "0707",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "民法物權編概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    }
+  ]
+}

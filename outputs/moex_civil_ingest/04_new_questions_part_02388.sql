@@ -1,0 +1,45 @@
+-- W1.6 questions batch 2388/9310 (10)
+
+INSERT INTO public.questions (id, exam_id, paper_id, subject_id, chapter_id, question_type, question_text, options, correct_answer, correct_answer_json, auto_gradable, source, is_active, version, source_meta, explanation)
+VALUES
+  ('disabled-0a2fc18c-moex-00204', 'disabled-0a2fc18c', 'disabled-0a2fc18c-moex-111-4b760c19', 'sub-disabled-0a2fc18c-03', NULL, 'essay', '教師願意以電子白板上課的比例是否與年齡有關？ 某市長抽查了 100 位
+35 歲以上的教師與 120 位35 歲以下的教師，詢問其是否願意以電子白板
+上課。結果發現 35 歲以上的教師，有 42 位願意，35 歲以下的教師，有
+60 位願意，令p 及p 分別代表 35 歲以上與 35 歲以下願意以電子白板上
+1 2
+課的教師比例。
+欲檢定兩組不同年齡的教師願意以電子白板上課的比例是否有所差
+異，以符號寫出虛無及對立假設。（7分）
+試求 p  p 之 95%信賴區間。（8 分）
+1 2
+承題，檢定統計量為何？顯著水準為0.05，是否拒絕虛無假設？（10分）
+附表一 常態分配
+附表二 t-分配', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:38:26+00:00", "source_pdf_sha1": "339e08611655", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111050", "c": "306", "s": "1107", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "統計學", "year": "111", "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試", "original_question_number": "四", "answer_corrected": false, "flags": [], "civil_slug": "disabled", "civil_category": "經建行政"}'::jsonb, NULL),
+  ('disabled-0a2fc18c-moex-00205', 'disabled-0a2fc18c', 'disabled-0a2fc18c-moex-111-d3ff7f6b', 'sub-disabled-0a2fc18c-04', NULL, 'essay', '某產品市場需求曲線為：P=20－Q，其中，P 為價格，Q 為數量。原
+本該產品市場只有 1 家 A廠生產，並無近似替代品；後來，有另一家
+B 廠擬計劃加入生產相同產品。A 廠的固定成本為 0，邊際生產成本
+為 2；B廠的固定成本亦為0，但邊際生產成本為4。假設 A、B二廠
+售價若相同，即均分市場需求量，且 A、B二廠均未面臨產能限制。
+請回答下列問題，並詳列計算過程。
+當產品市場原本只有 1 家 A廠生產，並無近似替代品時，市場均衡
+價格和 A廠利潤分別為何？（6分）
+當 B廠決定加入生產時，A、B二廠同採價格競爭，則市場均衡價
+格為何？A廠和B廠的利潤分別為何？（9 分）
+當 B 廠決定加入生產時，若 B 廠採「買貴退價差」策略（指 B 廠
+產品售價若高於A廠，則 B廠將依較低價退價差給其客戶），且 B
+廠將產品售價訂於 10，則：
+㉑如果生產期間只有1期，A廠是否會啟動價格戰？為什麼？（5分）
+㉒如果生產期間有 2 期，並且 B廠在第 1 期無利可圖時，即會退出
+市場，A廠是否會在第 1 期啟動價格戰？為什麼？（5分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:38:26+00:00", "source_pdf_sha1": "b9ee5641dcb5", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111050", "c": "306", "s": "0906", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "經濟學", "year": "111", "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "civil_slug": "disabled", "civil_category": "經建行政"}'::jsonb, NULL),
+  ('disabled-0a2fc18c-moex-00206', 'disabled-0a2fc18c', 'disabled-0a2fc18c-moex-111-d3ff7f6b', 'sub-disabled-0a2fc18c-04', NULL, 'essay', '請以開放經濟（IS-LM-BP）模型作圖並輔以文字詳述：一個符合馬歇
+爾－婁那條件（Marshall-Lerner condition）的浮動匯率制度國家，對
+資金進出入的限制，由部分限制調整為完全自由移動，對財政政策有
+效性的影響。（25 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:38:26+00:00", "source_pdf_sha1": "b9ee5641dcb5", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111050", "c": "306", "s": "0906", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "經濟學", "year": "111", "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試", "original_question_number": "二", "answer_corrected": false, "flags": [], "civil_slug": "disabled", "civil_category": "經建行政"}'::jsonb, NULL),
+  ('disabled-0a2fc18c-moex-00207', 'disabled-0a2fc18c', 'disabled-0a2fc18c-moex-111-d3ff7f6b', 'sub-disabled-0a2fc18c-04', NULL, 'single_choice', '若生產點落在生產可能曲線之內，表示：', '["資源有限，無法達到的產量組合", "資源未充分利用", "充分就業", "市場需求不足"]'::jsonb, 1, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:38:26+00:00", "source_pdf_sha1": "b9ee5641dcb5", "answer_pdf_sha1": "8e876e1802e5", "source_family": "moex-gov-tw", "moex": {"exam_code": "111050", "c": "306", "s": "0906", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "經濟學", "year": "111", "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試", "original_question_number": 1, "answer_corrected": false, "flags": [], "civil_slug": "disabled", "civil_category": "經建行政"}'::jsonb, NULL),
+  ('disabled-0a2fc18c-moex-00208', 'disabled-0a2fc18c', 'disabled-0a2fc18c-moex-111-d3ff7f6b', 'sub-disabled-0a2fc18c-04', NULL, 'single_choice', '近年來空氣污染日益嚴重，政府因而鼓勵民眾騎乘電動機車。然而電動機 車之供給與需求函數分別為Q=10P－75與Q=70－10P（其中價量之單位 分別為萬元與萬輛）。經專家評估最佳的電動機車數目為 10 萬輛，因此 政府應補貼供給者每輛多少元方能達到此一目標？', '["1.5萬元", "2萬元", "2.5萬元", "3萬元"]'::jsonb, 2, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:38:26+00:00", "source_pdf_sha1": "b9ee5641dcb5", "answer_pdf_sha1": "8e876e1802e5", "source_family": "moex-gov-tw", "moex": {"exam_code": "111050", "c": "306", "s": "0906", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "經濟學", "year": "111", "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試", "original_question_number": 2, "answer_corrected": false, "flags": [], "civil_slug": "disabled", "civil_category": "經建行政"}'::jsonb, NULL),
+  ('disabled-0a2fc18c-moex-00209', 'disabled-0a2fc18c', 'disabled-0a2fc18c-moex-111-d3ff7f6b', 'sub-disabled-0a2fc18c-04', NULL, 'single_choice', '若某一消費者之效用函數為U（X,Y）=XY，其預算限制式為X+2Y=100。 此消費者效用極大化下之最適財貨組合為何？', '["X財貨25單位，Y財貨37.5單位", "X財貨50單位，Y財貨50單位", "X財貨50單位，Y財貨25單位", "X財貨100/3單位，Y財貨100/3單位"]'::jsonb, 2, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:38:26+00:00", "source_pdf_sha1": "b9ee5641dcb5", "answer_pdf_sha1": "8e876e1802e5", "source_family": "moex-gov-tw", "moex": {"exam_code": "111050", "c": "306", "s": "0906", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "經濟學", "year": "111", "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試", "original_question_number": 3, "answer_corrected": false, "flags": [], "civil_slug": "disabled", "civil_category": "經建行政"}'::jsonb, NULL),
+  ('disabled-0a2fc18c-moex-00210', 'disabled-0a2fc18c', 'disabled-0a2fc18c-moex-111-d3ff7f6b', 'sub-disabled-0a2fc18c-04', NULL, 'single_choice', '若市場需求函數為P=100－Q，邊際成本函數為MC=10，則獨占廠商極大 化利潤下，下列敘述何者正確？', '["產量為50", "邊際收益為25", "總成本為450", "利潤為0"]'::jsonb, 2, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:38:26+00:00", "source_pdf_sha1": "b9ee5641dcb5", "answer_pdf_sha1": "8e876e1802e5", "source_family": "moex-gov-tw", "moex": {"exam_code": "111050", "c": "306", "s": "0906", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "經濟學", "year": "111", "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試", "original_question_number": 4, "answer_corrected": false, "flags": [], "civil_slug": "disabled", "civil_category": "經建行政"}'::jsonb, NULL),
+  ('disabled-0a2fc18c-moex-00211', 'disabled-0a2fc18c', 'disabled-0a2fc18c-moex-111-d3ff7f6b', 'sub-disabled-0a2fc18c-04', NULL, 'single_choice', '下列何者將導致市場生產無效率的數量？①競爭  ②外部成本與外部利', '["課稅", "僅", "", "僅"]'::jsonb, 3, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:38:26+00:00", "source_pdf_sha1": "b9ee5641dcb5", "answer_pdf_sha1": "8e876e1802e5", "source_family": "moex-gov-tw", "moex": {"exam_code": "111050", "c": "306", "s": "0906", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "經濟學", "year": "111", "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試", "original_question_number": 5, "answer_corrected": false, "flags": ["incomplete_options"], "civil_slug": "disabled", "civil_category": "經建行政"}'::jsonb, NULL),
+  ('disabled-0a2fc18c-moex-00212', 'disabled-0a2fc18c', 'disabled-0a2fc18c-moex-111-d3ff7f6b', 'sub-disabled-0a2fc18c-04', NULL, 'single_choice', '假設一個自然獨占（naturalmonopoly）廠商採用邊際收益等於邊際成本來 決定其最適產量。下列何者正確？', '["此廠商的利潤為正值", "此廠商的利潤為零", "此廠商的利潤為負值", "資訊不足，無法判斷"]'::jsonb, 2, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:38:26+00:00", "source_pdf_sha1": "b9ee5641dcb5", "answer_pdf_sha1": "8e876e1802e5", "source_family": "moex-gov-tw", "moex": {"exam_code": "111050", "c": "306", "s": "0906", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "經濟學", "year": "111", "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試", "original_question_number": 6, "answer_corrected": false, "flags": [], "civil_slug": "disabled", "civil_category": "經建行政"}'::jsonb, NULL),
+  ('disabled-0a2fc18c-moex-00213', 'disabled-0a2fc18c', 'disabled-0a2fc18c-moex-111-d3ff7f6b', 'sub-disabled-0a2fc18c-04', NULL, 'single_choice', '如果雙元寡占（duopoly）市場的兩家廠商皆增加產量，下列敘述何者正 確？', '["每家廠商的利潤增加，產業的總利潤增加", "每家廠商的利潤不變，產業的總利潤不變", "每家廠商的利潤減少，產業的總利潤減少", "每家廠商的利潤不變，產業的總利潤增加"]'::jsonb, 2, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:38:26+00:00", "source_pdf_sha1": "b9ee5641dcb5", "answer_pdf_sha1": "8e876e1802e5", "source_family": "moex-gov-tw", "moex": {"exam_code": "111050", "c": "306", "s": "0906", "q": "1"}, "raw_section_label": "乙、測驗題部分", "subject": "經濟學", "year": "111", "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試", "original_question_number": 7, "answer_corrected": false, "flags": [], "civil_slug": "disabled", "civil_category": "經建行政"}'::jsonb, NULL)
+ON CONFLICT (id) DO NOTHING;

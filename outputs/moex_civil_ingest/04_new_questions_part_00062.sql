@@ -1,0 +1,43 @@
+-- W1.6 questions batch 62/9310 (10)
+
+INSERT INTO public.questions (id, exam_id, paper_id, subject_id, chapter_id, question_type, question_text, options, correct_answer, correct_answer_json, auto_gradable, source, is_active, version, source_meta, explanation)
+VALUES
+  ('aboriginal-0f640084-moex-00051', 'aboriginal-0f640084', 'aboriginal-0f640084-moex-112-6ed013db', 'sub-aboriginal-0f640084-02', NULL, 'single_choice', 'Afteralongtimeofstrike,thecorporationfinally_____thewageincreasetotheworkers.', '["confessed", "conceded", "concluded", "succeeded"]'::jsonb, 1, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:38:08+00:00", "source_pdf_sha1": "384194208de1", "answer_pdf_sha1": "a334f7cbe936", "source_family": "moex-gov-tw", "moex": {"exam_code": "112150", "c": "516", "s": "0218", "q": "1"}, "raw_section_label": "本試題為單一選擇題", "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)", "year": "112", "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試", "original_question_number": 49, "answer_corrected": false, "flags": [], "civil_slug": "aboriginal", "civil_category": "電力工程"}'::jsonb, NULL),
+  ('aboriginal-0f640084-moex-00052', 'aboriginal-0f640084', 'aboriginal-0f640084-moex-112-6ed013db', 'sub-aboriginal-0f640084-02', NULL, 'single_choice', '_____,weshouldexploredifferentpossibilitiesbeforemakinganyfinaldecision.', '["Tentatively", "Abusively", "Ostensibly", "Reluctantly"]'::jsonb, 0, NULL, TRUE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:38:08+00:00", "source_pdf_sha1": "384194208de1", "answer_pdf_sha1": "a334f7cbe936", "source_family": "moex-gov-tw", "moex": {"exam_code": "112150", "c": "516", "s": "0218", "q": "1"}, "raw_section_label": "本試題為單一選擇題", "subject": "法學知識與英文(包括中華民國憲法、原住民族行政及法規、英文)", "year": "112", "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試", "original_question_number": 50, "answer_corrected": false, "flags": [], "civil_slug": "aboriginal", "civil_category": "電力工程"}'::jsonb, NULL),
+  ('aboriginal-0f640084-moex-00053', 'aboriginal-0f640084', 'aboriginal-0f640084-moex-112-d87dd49a', 'sub-aboriginal-0f640084-03', NULL, 'essay', '有關數字進位，0xA23B 是十六進位的一個數值，請將它轉換成十進位
+的數值，另外也將 0xA23B轉換成二進位的數值。（15分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:38:08+00:00", "source_pdf_sha1": "527a26a5778c", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "112150", "c": "516", "s": "1903", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "計算機概論", "year": "112", "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "civil_slug": "aboriginal", "civil_category": "電力工程"}'::jsonb, NULL),
+  ('aboriginal-0f640084-moex-00054', 'aboriginal-0f640084', 'aboriginal-0f640084-moex-112-d87dd49a', 'sub-aboriginal-0f640084-03', NULL, 'essay', '請以示意圖表示出電腦硬體的基本組成元素，並且加以說明。（15 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:38:08+00:00", "source_pdf_sha1": "527a26a5778c", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "112150", "c": "516", "s": "1903", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "計算機概論", "year": "112", "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試", "original_question_number": "二", "answer_corrected": false, "flags": [], "civil_slug": "aboriginal", "civil_category": "電力工程"}'::jsonb, NULL),
+  ('aboriginal-0f640084-moex-00055', 'aboriginal-0f640084', 'aboriginal-0f640084-moex-112-d87dd49a', 'sub-aboriginal-0f640084-03', NULL, 'essay', '匯流排（BusTopology）與星狀（StarTopology）是區域網路（LocalArea
+Network）的兩種主要架構，請繪出這兩種架構，並且加以說明。（20 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:38:08+00:00", "source_pdf_sha1": "527a26a5778c", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "112150", "c": "516", "s": "1903", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "計算機概論", "year": "112", "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試", "original_question_number": "三", "answer_corrected": false, "flags": [], "civil_slug": "aboriginal", "civil_category": "電力工程"}'::jsonb, NULL),
+  ('aboriginal-0f640084-moex-00056', 'aboriginal-0f640084', 'aboriginal-0f640084-moex-112-d87dd49a', 'sub-aboriginal-0f640084-03', NULL, 'essay', '陣列（Array）、堆疊（Stack）、佇列（Queue）、樹狀結構（Tree）是四種
+主要的資料結構，請繪出它們的結構，並且說明它們在編程（Coding）
+上的主要用途。（20 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:38:08+00:00", "source_pdf_sha1": "527a26a5778c", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "112150", "c": "516", "s": "1903", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "計算機概論", "year": "112", "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試", "original_question_number": "四", "answer_corrected": false, "flags": [], "civil_slug": "aboriginal", "civil_category": "電力工程"}'::jsonb, NULL),
+  ('aboriginal-0f640084-moex-00057', 'aboriginal-0f640084', 'aboriginal-0f640084-moex-112-d87dd49a', 'sub-aboriginal-0f640084-03', NULL, 'essay', '欲編寫一個程式可以將1至 10000 中不是3 也不是7 之倍數的那些整數
+累加起來。請先描述你會如何解這個問題，再使用任何一種程式語言完
+成此程式。（15分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:38:08+00:00", "source_pdf_sha1": "527a26a5778c", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "112150", "c": "516", "s": "1903", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "計算機概論", "year": "112", "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試", "original_question_number": "五", "answer_corrected": false, "flags": [], "civil_slug": "aboriginal", "civil_category": "電力工程"}'::jsonb, NULL),
+  ('aboriginal-0f640084-moex-00058', 'aboriginal-0f640084', 'aboriginal-0f640084-moex-112-d87dd49a', 'sub-aboriginal-0f640084-03', NULL, 'essay', '網際網路有許多協定，也存在許多資安威脅，請試說明 HTTP與 HTTPS
+協定的最大不同為何？另外，DDoS資安攻擊的特徵為何？（15 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:38:08+00:00", "source_pdf_sha1": "527a26a5778c", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "112150", "c": "516", "s": "1903", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "計算機概論", "year": "112", "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試", "original_question_number": "六", "answer_corrected": false, "flags": [], "civil_slug": "aboriginal", "civil_category": "電力工程"}'::jsonb, NULL),
+  ('aboriginal-0f640084-moex-00059', 'aboriginal-0f640084', 'aboriginal-0f640084-moex-112-44c05cdd', 'sub-aboriginal-0f640084-04', NULL, 'essay', '一平衡三相四線 60Hz電源，AB相線對線電壓為220 2cos(ωt)V，請寫
+出 A相對中性線之電壓數學表示式。現此電壓源供應一個三相平衡Y接
+負載，每相負載為 5/30°Ω，求電壓源供應之實功率及虛功率？（25 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:38:08+00:00", "source_pdf_sha1": "604d90db5c3e", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "112150", "c": "516", "s": "1802", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "電力系統", "year": "112", "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "civil_slug": "aboriginal", "civil_category": "電力工程"}'::jsonb, NULL),
+  ('aboriginal-0f640084-moex-00060', 'aboriginal-0f640084', 'aboriginal-0f640084-moex-112-44c05cdd', 'sub-aboriginal-0f640084-04', NULL, 'essay', '圖 1 為三相完全換位之二個匯流排（2-bus）電力系統，所有數值均為標
+么值，傳輸線 L 之正序串聯阻抗z  j0.005pu/km，正序並聯導納
+12 12
+y  j4.0106 pu/km，L 長 60 km。請寫出傳輸線 L 之 型電路的
+12 12 12
+ABCD參數、矩陣 Y ，以及負載潮流方程式 f ()P P 0；設匯
+bus p2 2 G2 D2
+π
+流排1為搖擺匯流排（swingbus），初始值為(0)0，請以Newton-Raphson
+2
+方法計算第一次疊代的(1)值。（25分）
+2
+V =1/0°pu P =0.5pu
+1 G2
+1 V =1.05pu
+2
+2
+P =1.5pu,Q =0.05pu
+D2 D2
+圖 1 二個匯流排（2-bus）電力系統', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:38:08+00:00", "source_pdf_sha1": "604d90db5c3e", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "112150", "c": "516", "s": "1802", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "電力系統", "year": "112", "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試", "original_question_number": "二", "answer_corrected": false, "flags": [], "civil_slug": "aboriginal", "civil_category": "電力工程"}'::jsonb, NULL)
+ON CONFLICT (id) DO NOTHING;

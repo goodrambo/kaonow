@@ -1,0 +1,13 @@
+{
+  "slug": "immigration-1aab856d",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:27:56+00:00",
+  "paper_count": 18,
+  "paper_with_questions": 18,
+  "question_count": 502,
+  "type_counts": {
+    "essay": 25,
+    "single_choice": 477
+  },
+  "issues": []
+}

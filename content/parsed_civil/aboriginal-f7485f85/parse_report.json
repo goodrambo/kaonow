@@ -1,0 +1,38 @@
+{
+  "slug": "aboriginal-f7485f85",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:38:11+00:00",
+  "paper_count": 15,
+  "paper_with_questions": 14,
+  "question_count": 345,
+  "type_counts": {
+    "essay": 29,
+    "single_choice": 316
+  },
+  "issues": [
+    {
+      "year": "114",
+      "subject": "國文(作文與測驗)",
+      "status": "parse_q_failed",
+      "format": "mixed",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "112",
+      "subject": "國際現勢",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "英文",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 3,
+      "answers": 0
+    }
+  ]
+}

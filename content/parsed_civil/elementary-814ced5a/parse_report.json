@@ -1,0 +1,12 @@
+{
+  "slug": "elementary-814ced5a",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:30:55+00:00",
+  "paper_count": 16,
+  "paper_with_questions": 16,
+  "question_count": 781,
+  "type_counts": {
+    "single_choice": 781
+  },
+  "issues": []
+}

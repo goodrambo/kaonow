@@ -1,0 +1,38 @@
+{
+  "slug": "islands-8b44517b",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:33:56+00:00",
+  "paper_count": 4,
+  "paper_with_questions": 4,
+  "question_count": 39,
+  "type_counts": {
+    "essay": 14,
+    "single_choice": 25
+  },
+  "issues": [
+    {
+      "year": "114",
+      "subject": "勞工行政與勞工立法",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "勞資關係",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "就業安全制度",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    }
+  ]
+}

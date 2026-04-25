@@ -1,0 +1,2829 @@
+{
+  "slug": "islands-6f0ba476",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:33:59+00:00",
+  "paper_count": 3,
+  "paper_with_questions": 3,
+  "question_count": 77,
+  "type_counts": {
+    "essay": 7,
+    "single_choice": 70
+  },
+  "papers": [
+    {
+      "year": "114",
+      "exam_code": "114190",
+      "c": "415",
+      "s": "1202",
+      "q": "1",
+      "subject": "會計學概要",
+      "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "f78fbdb14e03",
+      "a_pdf_sha1": "f43123b0c751",
+      "format_detected": "mixed",
+      "raw_question_count": 23,
+      "answer_qnums_extracted": 20,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 23,
+      "skipped_count": 0
+    },
+    {
+      "year": "114",
+      "exam_code": "114190",
+      "c": "415",
+      "s": "0703",
+      "q": "1",
+      "subject": "民法概要",
+      "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "0145a0501847",
+      "a_pdf_sha1": "92adf14b3e43",
+      "format_detected": "mixed",
+      "raw_question_count": 27,
+      "answer_qnums_extracted": 25,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 27,
+      "skipped_count": 0
+    },
+    {
+      "year": "114",
+      "exam_code": "114190",
+      "c": "415",
+      "s": "1211",
+      "q": "1",
+      "subject": "稅務法規概要",
+      "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "9aabb116bb0b",
+      "a_pdf_sha1": "1881374c0f4c",
+      "format_detected": "mixed",
+      "raw_question_count": 27,
+      "answer_qnums_extracted": 25,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 27,
+      "skipped_count": 0
+    }
+  ],
+  "questions": [
+    {
+      "id": "islands-6f0ba476-0001",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "essay",
+      "question": "甲公司 X4 年 7月 1 日遭受水災，X4 年前 6個月之相關資料如下：\n銷貨收入 $350,000\n銷貨退回與折讓 10,000\n進貨 170,000\n進貨運費 7,000\n進貨退回與折讓 8,000\n期初存貨 120,000\n估計毛利率 40%\n未受損存貨 25,000\n試作：\n利用毛利法決定甲公司之水災損失。（10分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "f78fbdb14e03",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "1202",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "會計學概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0002",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "essay",
+      "question": "乙公司X2、X3、X4三年帳列淨利分別為$180,000、$250,000及$150,000，\nX5 年初經會計師查帳發現下列錯誤：\n⑴期末存貨 X2 年 高估 $49,800\nX3 年 高估 37,250\nX4 年 低估 14,280\n⑵房屋折舊費用 X2 年 多提 3,785\nX3 年 少提 4,500\nX4 年 多提 3,780\n又 X2 年 7 月 1日購入之設備，其裝置費$5,600，乙公司將其列為X2 年\n之費用處理。該項設備估計可用8 年，無殘值，以直線法提列折舊。\n試作：\n依據以上資料分別計算 X2、X3、X4 年之正確淨利。（15 分）\n假設乙公司 X4 年之虛帳戶已結清，作 X4年底之改正分錄。（10 分）\n41620\n60420",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "f78fbdb14e03",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "1202",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "會計學概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0003",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "essay",
+      "question": "丙公司於 X4 年 1 月 1 日向 A 銀行借得$1,429,800，並交付一張面額\n$1,429,800，票面利率 6%的 6 年期長期應付票據予A銀行，當日市場利\n率也是 6%。丙公司與 A銀行約定：丙公司每半年，即每年 6 月30日與\n12 月 31日償付一固定數額給 A銀行，該固定數額其中一部分為支付利\n息，另一部分為償還本金，直到票據到期日止。\n複利現值表 年金現值表\n期數 2% 3% 4% 6% 期數 2% 3% 4% 6%\n6 0.888 0.838 0.790 0.705 6 5.601 5.417 5.242 4.917\n12 0.789 0.701 0.625 0.497 12 10.575 9.954 9.385 8.384\n試作：\n利用現值表，計算丙公司每半年需償付 A 銀行之固定數額為多少？\n（四捨五入，計算至元為止）（5分）\n試作丙公司 X4 年 6 月 30 日及 12 月 31 日之分錄。（四捨五入，計算\n至元為止）（10分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "f78fbdb14e03",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "1202",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "會計學概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0004",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "上市櫃公司財務狀況表中，長期營業用資產以折舊後的帳面價值報導，而非以現時清算價值列報， 係基於：",
+      "options": [
+        "歷史成本原則衡量",
+        "繼續經營假設",
+        "經濟個體假設",
+        "會計期間假設"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "f78fbdb14e03",
+        "answer_pdf_sha1": "f43123b0c751",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "1202",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0005",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "乙公司X1年9月中因馬太鞍溪堰塞湖溢頂事件導致存貨損失，線上存貨資料顯示：9月1日存 貨$450,000、進貨$1,245,000、進貨運費$150,000、進貨退回$350,000、進貨折讓$50,000。銷貨淨 額$1,185,000。假設乙公司往年毛利率為25%，試問乙公司此次存貨損失金額為何？",
+      "options": [
+        "$556,250",
+        "$888,750",
+        "$56,250",
+        "$296,250"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "f78fbdb14e03",
+        "answer_pdf_sha1": "f43123b0c751",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "1202",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0006",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "下列那一項控制屬於強化現金支出控制的作為？",
+      "options": [
+        "所有支出皆以支票付款，在支票連號的情況下，分發與審核由同一人擔任",
+        "為避免付款時間延宕，現金出納人員同時擔任會計紀錄工作",
+        "銀行調節表由內部稽核部門人員編製",
+        "設置零用金制度，管理憑證的工作長期由固定保管人員擔任"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "f78fbdb14e03",
+        "answer_pdf_sha1": "f43123b0c751",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "1202",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0007",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "丁公司有下列財務資訊： 手存現金$42,888、銀行存款餘額$1,666,666、員工預支$5,666、匯票$22,550、零用金$5,432、貨 幣市場基金（6個月期）$550,000、外幣存款$300,000、遠期支票$450,000、應收帳款$280,000、 郵票$5,111、30天期國庫券$50,000。 丁公司應認列為「現金及約當現金」之金額為何？",
+      "options": [
+        "$2,637,536",
+        "$2,087,536",
+        "$3,087,536",
+        "$2,037,536 41620 60420"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "f78fbdb14e03",
+        "answer_pdf_sha1": "f43123b0c751",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "1202",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0008",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "股票股利與股票分割對權益的影響，相同之處為何？",
+      "options": [
+        "淨值不變與股數增加",
+        "淨值不變與保留盈餘減少",
+        "面額不變與保留盈餘不變",
+        "面額下降與股本增加"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "f78fbdb14e03",
+        "answer_pdf_sha1": "f43123b0c751",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "1202",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0009",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "甲公司於X1年12月31日有調整事項：尚未支付水電費$16,000；預收收入中有$59,000可認列 為服務收入；尚未支付薪資$125,000；預付租金有$54,000 已耗用；電腦設備今年折舊金額為 $8,000；已提供但尚未入帳之客戶服務金額為$286,000。比較調整前及調整後試算表，請問下列 敘述何者正確？",
+      "options": [
+        "資產總額增加$286,000",
+        "負債總額增加$82,000",
+        "收入總額增加$286,000",
+        "保留盈餘增加$83,000"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "f78fbdb14e03",
+        "answer_pdf_sha1": "f43123b0c751",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "1202",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0010",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "關於會計循環之結帳步驟，下列敘述何者錯誤？",
+      "options": [
+        "若本期損益為負，結帳時會減少保留盈餘之餘額",
+        "結帳後，虛帳戶的餘額為零",
+        "綜合損益表中的其他綜合損益科目不需結帳",
+        "結帳前後比較，普通股股本的餘額不變"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "f78fbdb14e03",
+        "answer_pdf_sha1": "f43123b0c751",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "1202",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0011",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "甲公司於X1年3月5日收到面額$5,000,000，利率2%，90天到期的票據，在3月25日向銀行 貼現，貼現率為6%。請問關於貼現日之分錄，下列何者正確？（1年以360天計，答案四捨五 入至整數）",
+      "options": [
+        "利息收入$5,556",
+        "利息收入$25,000",
+        "利息費用$33,625",
+        "利息費用$58,625"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "f78fbdb14e03",
+        "answer_pdf_sha1": "f43123b0c751",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "1202",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0012",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "乙公司X1年1月底銀行對帳單餘額為$312,455，其中存款利息$3,600、存款不足退票$8,329及 手續費$933公司均未入帳；乙公司帳列銀行存款餘額為$342,433，同時發現在途存款$45,689、未 兌現支票$33,887。假設乙公司帳未有錯誤，請問銀行對乙公司銀行帳戶錯誤記錄之金額為多少？",
+      "options": [
+        "誤扣$12,514",
+        "誤扣$4,185",
+        "誤加$33,175",
+        "誤加$24,846"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "f78fbdb14e03",
+        "answer_pdf_sha1": "f43123b0c751",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "1202",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0013",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "下列有關存貨盤存制度的敘述，何者正確？",
+      "options": [
+        "定期盤存制雖平日未記錄存貨增減變化，在搭配零售價法下，也可得知存貨損壞或失竊的正確 金額",
+        "定期盤存制需進行期末實體盤點，而永續盤存制可不執行實體盤點",
+        "永續盤存制在每次存貨購入及出售時，皆需作詳細且連續之記載",
+        "永續盤存制需搭配毛利法以估計期中財務報表的存貨餘額"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "f78fbdb14e03",
+        "answer_pdf_sha1": "f43123b0c751",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "1202",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0014",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "甲公司X5年1月初以$800,000購置生產設備，其耐用年限8年，殘值$20,000，以雙倍餘額遞減 法提列折舊費用。X7年初發生維修費用$5,000，另為提升設備生產效率花費$100,000進行改良， 同時發現此生產設備僅剩5年耐用年限，殘值不變，並改以直線法提列折舊費用。X8年6月底 將其以$395,000售出，請問處分此資產的損益金額為多少？",
+      "options": [
+        "損失$2,125",
+        "損失$5,625",
+        "利得$4,000",
+        "利得$5,500"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "f78fbdb14e03",
+        "answer_pdf_sha1": "f43123b0c751",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "1202",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 11,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0015",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "有關資產減損的敘述，下列何者錯誤？",
+      "options": [
+        "資產提列減損損失後，在有證據顯示資產以前年度認列之減損損失已不存在，已可迴轉全部已 提列之減損損失",
+        "當資產帳面金額大於可回收金額時，需提列資產減損損失",
+        "資產減損會計處理除適用於不動產、廠房及設備外，也適用於無形資產",
+        "當企業淨值大於股價時，需進行資產減損測試 41620 60420"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "f78fbdb14e03",
+        "answer_pdf_sha1": "f43123b0c751",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "1202",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 12,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0016",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "下列有關無形資產之敘述有幾項正確？①因推出新產品而產生開辦費，具有未來經濟效益，可以",
+      "options": [
+        "非確定耐用年限之無形資產，在未有減損跡象的情境下，亦須每年進行減損 測試",
+        "當商譽認列減損損失後，因其可回收金額增加，可迴轉部分已認列的減損損失",
+        "企業 為維護專利權而發生之訴訟支出，在勝訴的情況下可將該支出資本化",
+        "1項"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "f78fbdb14e03",
+        "answer_pdf_sha1": "f43123b0c751",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "1202",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 13,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0017",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "乙公司出售 1 項客製化的設備，並提供 2 年內免費更換零件的售後保證服務，每個零件成本為 $80,000。估計發生更換1個零件的機率為40%，更換2個零件的機率為35%，更換3個零件的 機率為25%。請問此售後保證服務最佳估計金額為多少？",
+      "options": [
+        "$80,000",
+        "$148,000",
+        "$160,000",
+        "$240,000"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "f78fbdb14e03",
+        "answer_pdf_sha1": "f43123b0c751",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "1202",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 14,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0018",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "甲公司X5年7月初購買一棟位於商業區之商辦大樓，其估計耐用年限為20年，殘值$285,000,000， 未來將出租以賺取租金收益，除支付大樓購買成本$580,000,000，另支出稅捐及交易成本 $5,000,000。被委託之乙仲介公司順利於同年9月，以每月$600,000租金將大樓出租予丙集團作 為辦公室使用，甲公司須支付乙仲介公司1個月的租金作為仲介費用。甲公司對該商辦大樓之會 計處理採公允價值模式，於X5年底，此商辦大樓之公允價值為$584,500,000。請問此商辦大樓相 關交易對甲公司X5年本期損益的影響為何？",
+      "options": [
+        "增加本期損益$1,300,000",
+        "增加本期損益$1,800,000",
+        "減少本期損益$3,700,000",
+        "減少本期損益$5,700,000"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "f78fbdb14e03",
+        "answer_pdf_sha1": "f43123b0c751",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "1202",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 15,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0019",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "假設其他條件相同情況下，有幾項被賦予特殊權利之特別股，其價格發行高於無此特殊權利之特",
+      "options": [
+        "累積特別股",
+        "參加特別股",
+        "可轉換特別股",
+        "可贖回特別股"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "f78fbdb14e03",
+        "answer_pdf_sha1": "f43123b0c751",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "1202",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 16,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0020",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "丙寵物用品店存貨係以零售價法計價，該店當年淨進貨的成本價與零售價分別為$1,200,000 與 $1,800,000，期初存貨的成本價與零售價分別為$100,000 與$180,000。當期銷貨收入淨額為 $1,450,000，期末存貨估計金額為：",
+      "options": [
+        "$487,750",
+        "$347,980",
+        "$357,550",
+        "$387,950"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "f78fbdb14e03",
+        "answer_pdf_sha1": "f43123b0c751",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "1202",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 17,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0021",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "甲公司在X1年初購買乙公司平價發行之公司債，面額$100,000，票面利率6%，每年的1月1日 及 7 月 1 日付息。以透過其他綜合損益按公允價值衡量進行會計處理，X1 年底此公司債市價 $110,000。X2年7月1日以市價$106,000將全部乙公司公司債售出，請問對甲公司X2年的本期 損益及其他綜合損益影響的金額為多少？",
+      "options": [
+        "本期損益$3,000；其他綜合損益($4,000)",
+        "本期損益$3,000；其他綜合損益($10,000)",
+        "本期損益$9,000；其他綜合損益($4,000)",
+        "本期損益$9,000；其他綜合損益($10,000)"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "f78fbdb14e03",
+        "answer_pdf_sha1": "f43123b0c751",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "1202",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 18,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0022",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "乙公司X1年設備增加$850,000，累計折舊增加$60,000，同年認列折舊費用$700,000，處分設備 利得$36,000。另以$1,650,000購買一台設備，請問X1年處分設備的售價為多少金額？",
+      "options": [
+        "$96,000",
+        "$150,000",
+        "$186,000",
+        "$196,000"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "f78fbdb14e03",
+        "answer_pdf_sha1": "f43123b0c751",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "1202",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 19,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0023",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "假設乙公司皆以賖帳購買存貨，X1年存貨增加$30,000，應付帳款增加$20,000，支付給供應商之 現金為$590,000，請問乙公司X1年度的銷貨成本為多少金額？",
+      "options": [
+        "$580,000",
+        "$590,000",
+        "$600,000",
+        "$610,000"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "f78fbdb14e03",
+        "answer_pdf_sha1": "f43123b0c751",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "1202",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 20,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0024",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "essay",
+      "question": "甲患有思覺失調症，由其妻乙向法院聲請並經法院裁定監護宣告，法院\n並選定乙為監護人。某日甲神智恢復正常，獨自外出逛街，看見新臺幣\n五百萬的進口車，非常喜歡，立即向車商丙訂購一輛。簽約完畢後，甲\n與車商丙之銷售人員丁洽談贈品事宜，甲覺得贈品太少，勃然大怒，將\n丁打傷。甲以其受監護宣告為由，拒絕支付買車之價金給丙，並拒絕對\n丁損害賠償，有無理由？（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "0145a0501847",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "0703",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "民法概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0025",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "essay",
+      "question": "甲乙丙共有三層樓透天厝 A屋一棟，應有部分各為三分之一。甲未得乙\n丙同意，逕自於A屋之一樓開設咖啡廳。乙丙於六個月後得知此事，非\n常生氣。乙丙要求甲停止營業並將一樓回復原狀，且應賠償相當於六個\n月之租金，有無理由？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "0145a0501847",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "0703",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "民法概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0026",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "甲、乙及丙等共15戶，為臺北市某一社區大樓各層房屋之區分所有人，頂樓為公共空間，設有 曬衣架供住戶使用。自民國110年開始，因丙為15樓之所有人，丙遂單獨使用該頂樓空間，嗣 丙之房屋因欠債遭法院強制執行，經由丁拍定後，甲、乙與其他區分所有人，乃拒絕拍定人丁使 用該頂樓空間，下列敘述何者正確？",
+      "options": [
+        "丙為15樓之所有人，其所有權範圍及於頂樓之空間",
+        "丙為15樓之所有人，其若欲單獨使用頂樓空間，應得到全體區分所有人之書面同意，始發生 效力",
+        "丙為15樓之所有人，其若欲單獨使用頂樓空間，應得到全體區分所有人之明示分管協議，始 得為之",
+        "丙如有單獨使用頂樓空間之事實，住戶間互相容忍，未予干涉，且行之有年，即認為全體區分 所有人間，有默示分管契約存在 60440"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "0145a0501847",
+        "answer_pdf_sha1": "92adf14b3e43",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "0703",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "民法概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0027",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "甲離婚多年，罹失智症，平日由同居女友丁照顧。甲另有成家立業且住同縣市之子乙、嫁他地之 女丙。因甲已喪失生活自理能力，也無法正常理解日常事務，為保護與避免甲訂立自己無法負責 與負擔之契約，有為其聲請監護宣告之必要。下列何者無法幫甲向法院聲請監護宣告？",
+      "options": [
+        "已嫁他地之女兒丙",
+        "同住多年照顧甲起居之女友丁",
+        "甲之兒子乙",
+        "甲住所地之主管機關"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "0145a0501847",
+        "answer_pdf_sha1": "92adf14b3e43",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "0703",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "民法概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0028",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "下列關於消費借貸契約之敘述，何者正確？",
+      "options": [
+        "要式契約",
+        "無因契約",
+        "要物契約",
+        "諾成契約"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "0145a0501847",
+        "answer_pdf_sha1": "92adf14b3e43",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "0703",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "民法概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0029",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "下列關於權利分類之敘述，何者正確？",
+      "options": [
+        "配偶權為一種人格權",
+        "身分權為一種對人權",
+        "撤銷權為一種支配權",
+        "債權為一種相對權"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "0145a0501847",
+        "answer_pdf_sha1": "92adf14b3e43",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "0703",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "民法概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0030",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "甲對乙說，如果這次國家考試你確定錄取，向我借的B書就送你，不必還了。乙回答好。甲、乙 間並無其他特約時，有關B書贈與契約之效力為何？",
+      "options": [
+        "附有解除條件",
+        "乙回答好時生效",
+        "該次國家考試乙確定錄取時生效",
+        "無效"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "0145a0501847",
+        "answer_pdf_sha1": "92adf14b3e43",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "0703",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "民法概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0031",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "甲乙結婚，婚前甲之住所地在臺北，乙在臺南。婚後甲乙因工作關係一同居住臺中。甲乙約定以 共同居所為共同住所，並設籍於臺中。甲乙育有未成年子女丙。年幼之丙與祖母住高雄。下列關 於住居所之敘述，何者正確？",
+      "options": [
+        "甲婚後住所地在臺北",
+        "丙之住所地在高雄",
+        "丙雖未與甲乙同住，但丙仍與甲乙同住所",
+        "夫妻雙方之共同住所地，以夫之住所為夫妻共同住所"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "0145a0501847",
+        "answer_pdf_sha1": "92adf14b3e43",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "0703",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "民法概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0032",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "A社區為12樓房屋，屋頂平台為大樓之共用部分，由管理委員會（下稱管委會）負責維護。然 該屋頂平台部分年久失修發生滲漏，致第12樓住戶乙室內天花板滲漏水受損。乙多次請求修繕， 惟管委會決議並經區分所有人會議確認，因經費不足拒絕修繕，乙只好先行僱請廠商修繕屋頂平 台，費用為新臺幣（下同）5萬元。依民法規定，下列敘述何者正確？",
+      "options": [
+        "乙得依無因管理，向管委會請求償還全部修繕費用",
+        "乙為不法管理，不得請求償還5萬元修繕費用",
+        "乙修繕違反管委會意思，故管委會僅於所得利益範圍對乙負擔償還費用義務",
+        "乙修繕不違反區分所有人意思，故乙得向全部區分所有人請求償還全部"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "0145a0501847",
+        "answer_pdf_sha1": "92adf14b3e43",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "0703",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "民法概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0033",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "甲乙丙丁共同平均負擔對戊之新臺幣（下同）1000萬元之連帶債務，甲得知乙對戊有得以抵銷之 500萬元債權。甲是否得據此向戊主張抵銷連帶債務？",
+      "options": [
+        "僅乙本人得以主張",
+        "甲得主張抵銷250萬元",
+        "甲得主張抵銷500萬元",
+        "甲應經乙之同意，始得抵銷250萬元"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "0145a0501847",
+        "answer_pdf_sha1": "92adf14b3e43",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "0703",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "民法概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0034",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "甲向乙承租樓房一層供家人居住。下列敘述何者錯誤？",
+      "options": [
+        "當甲於該屋內因抽象輕過失烹煮不慎，致房屋全部燒燬，則甲不須對乙負賠償責任",
+        "當甲之子丙於該屋因重大過失燃放火燭不慎，致房屋部分燒燬，則甲不須對乙負賠償責任",
+        "當甲將該屋之部分轉租與丁，丁於該屋因重大過失燃放火燭不慎，致該屋部分燒燬，則甲須對 乙負賠償責任",
+        "當因甲之疏失致甲向乙承租之該屋被戊侵占使用，戊於使用中因抽象輕過失烹煮不慎，致房屋 部分燒燬，則甲須對乙負賠償責任 60440"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "0145a0501847",
+        "answer_pdf_sha1": "92adf14b3e43",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "0703",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "民法概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0035",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "甲趁離職休息，報名參加乙旅行社規劃之東非原野之旅。下列關於旅遊契約之敘述，何者錯誤？",
+      "options": [
+        "若甲於出發前 1 個月，因車禍骨折須休養及復健，欲變更由其甫自研究所畢業之妹丙參加旅 遊。如因丙為旅客而減少費用，旅客不得請求退還",
+        "若旅遊當地遭暴雨侵襲，致巴士無法涉水通過原訂路線，則乙旅行社得變更旅遊內容，但因此 所增加之費用，不得向旅客收取",
+        "若甲自行外出，路過當地A紀念品店購入一手工燭台，而該燭台於返臺隔日即因瑕疵斷裂，則 甲得請求乙旅行社協助處理",
+        "若甲於旅遊中，違反指示將手臂伸出車窗外，致遭飛禽啄傷，則乙旅行社應為必要之協助及處理"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "0145a0501847",
+        "answer_pdf_sha1": "92adf14b3e43",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "0703",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "民法概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0036",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "下列關於懸賞廣告之敘述，何者錯誤？",
+      "options": [
+        "懸賞廣告為單獨行為",
+        "廣告人對於完成廣告所定行為之人有給付報酬之義務",
+        "數人先後分別完成廣告所定行為時，原則上由最先完成該行為之人，取得報酬請求權",
+        "不知有廣告而完成廣告所定行為之人，仍享有報酬請求權"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "0145a0501847",
+        "answer_pdf_sha1": "92adf14b3e43",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "0703",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "民法概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 11,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0037",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "下列關於委任之敘述，何者正確？",
+      "options": [
+        "受任人受概括委任時，為委任人買入不動產，不須有特別之授權",
+        "受任人因有不得已之事由，使第三人代為處理委任事務時，就該第三人之行為，與就自己之行 為，負同一責任",
+        "委任關係因非可歸責於受任人之事由，於事務處理未完畢前已終止者，除當事人間有相反之特 約存在外，受任人不得請求任何報酬",
+        "委任人得將處理委任事務之請求權，任意讓與第三人"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "0145a0501847",
+        "answer_pdf_sha1": "92adf14b3e43",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "0703",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "民法概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 12,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0038",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "甲騎腳踏車違反紅燈號誌，致與綠燈直行之乙機車騎士發生碰撞，乙得對甲求償之時效為何？",
+      "options": [
+        "自請求權人知有損害及賠償義務人時起2年",
+        "自請求權人知有損害時起2年",
+        "自請求權人知有賠償義務人時起2年",
+        "自請求權得行使時起15年"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "0145a0501847",
+        "answer_pdf_sha1": "92adf14b3e43",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "0703",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "民法概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 13,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0039",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "下列關於民法第184條第1項前段侵權行為規定之敘述，何者錯誤？",
+      "options": [
+        "對擔保標的物之毀損、滅失，構成侵害擔保物權之侵權行為",
+        "純粹經濟上損失，非屬民法第184條第1項前段所定之適用對象",
+        "二重買賣之故意後買受人，原則上就先買受人債權非屬民法第184條第1項前段所定之適用對象",
+        "因第三人故意毀損特定物買賣之標的，致出賣人免給付義務，第三人構成民法第184條第1項 前段之買受人人格權之侵害"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "0145a0501847",
+        "answer_pdf_sha1": "92adf14b3e43",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "0703",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "民法概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 14,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0040",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "物權之取得，可能依法律規定，亦可能依物權行為。下列何者並非依法律規定取得之物權？",
+      "options": [
+        "受讓人善意取得動產所有權",
+        "無權占有人時效取得動產所有權",
+        "承攬人就定作人因承攬工作所交付之動產，取得動產留置權",
+        "分別共有人依協議分割，取得分得部分之所有權"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "0145a0501847",
+        "answer_pdf_sha1": "92adf14b3e43",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "0703",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "民法概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 15,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0041",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "依民法規定，抵押權不得由債權分離而為讓與，或為其他債權之擔保。此乃普通抵押權之何種 特性？",
+      "options": [
+        "優先受償性",
+        "不可分性",
+        "從屬性",
+        "物上代位性 60440"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "0145a0501847",
+        "answer_pdf_sha1": "92adf14b3e43",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "0703",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "民法概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 16,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0042",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "甲向乙借款新臺幣（下同）500萬元，為擔保借款，甲委請丙出面為其借款擔任全額清償之連帶 保證人，並由丁提供價值1000萬A地設定全額抵押權於乙。嗣後甲無資力清償，且財產經強制 執行而無效果。關於乙之500萬確保，下列敘述何者錯誤？",
+      "options": [
+        "乙得先向抵押人丁請求償還",
+        "乙得先向保證人丙請求償還，丙不得以先訴抗辯權抗辯",
+        "若乙先向抵押人丁請求償還，丁於向乙為全額清償後，得轉對保證人丙請求償還500萬",
+        "若丁向乙為全額清償後未為內部求償，得向主債務人甲主張償還500萬"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "0145a0501847",
+        "answer_pdf_sha1": "92adf14b3e43",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "0703",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "民法概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 17,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0043",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "下列關於共有之敘述，何者錯誤？",
+      "options": [
+        "共有物之簡易修繕及其他保存行為，得由各共有人單獨為之",
+        "共有物，除契約另有約定外，應由全體共有人同意管理之",
+        "動產共有物之處分、變更及設定負擔，應得全體共有人之同意",
+        "應有部分之處分，各共有人得自由為之"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "0145a0501847",
+        "answer_pdf_sha1": "92adf14b3e43",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "0703",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "民法概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 18,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0044",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "所有人對於無權占有或侵奪其所有物者，得請求返還之。下列何者非屬有權占有？",
+      "options": [
+        "動產質權關係",
+        "抵押權關係",
+        "寄託關係",
+        "租賃關係"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "0145a0501847",
+        "answer_pdf_sha1": "92adf14b3e43",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "0703",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "民法概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 19,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0045",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "甲男乙女為夫妻，甲乙有一子丙，丙未婚。乙妹為丁，丁夫為戊，丁戊收養一女為庚，庚未婚。 戊之弟為辛，辛未婚。甲於民國112年3月間死亡。關於禁婚親及禁止近親收養之規定，下列敘 述何者錯誤？",
+      "options": [
+        "乙與辛非屬禁婚親",
+        "丙與庚非屬禁婚親",
+        "戊與乙屬禁止收養之親屬",
+        "戊與丙屬禁止收養之親屬"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "0145a0501847",
+        "answer_pdf_sha1": "92adf14b3e43",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "0703",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "民法概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 20,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0046",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "下列何者為要式行為？",
+      "options": [
+        "家庭生活費用負擔之約定",
+        "子女姓氏之約定",
+        "婚姻住所之約定",
+        "子女親權人之約定"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "0145a0501847",
+        "answer_pdf_sha1": "92adf14b3e43",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "0703",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "民法概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 21,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0047",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "甲與乙結婚後，居住於乙之父丙所有之房屋中。此外，同居此屋者尚有丙之交往對象丁，以及丙 之女（亦即乙之妹）戊。假設甲、乙、丁、戊均不能維持生活而無謀生能力。丙雖有扶養能力， 但其經濟能力，不足扶養其全體時，何者得最優先請求丙扶養？",
+      "options": [
+        "甲、乙",
+        "乙、戊、丁",
+        "乙、戊",
+        "丁"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "0145a0501847",
+        "answer_pdf_sha1": "92adf14b3e43",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "0703",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "民法概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 22,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0048",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "甲乙結婚後，生下一女丙，不幸早夭。甲死亡時，除與配偶乙共同生活，尚同時照顧甲之祖母丁 與甲之外祖父戊。關於甲之遺產，下列敘述何者正確？",
+      "options": [
+        "乙可得三分之二",
+        "丙可得四分之一",
+        "丁可得三分之一",
+        "戊可得二分之一"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "0145a0501847",
+        "answer_pdf_sha1": "92adf14b3e43",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "0703",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "民法概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 23,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0049",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "設甲於民國110年10月間死亡，有繼承人二人為乙、丙。乙為有行為能力人，丙為限制行為能 力人。甲生前立遺囑，將珍藏之骨董遺贈於好友丁。甲生前向債權人戊借款新臺幣（下同）300 萬元仍未清償。甲死亡時，留有存款100萬元。關於甲遺產之繼承，下列敘述何者正確？",
+      "options": [
+        "乙與丙如依民法規定，開具遺產清冊陳報法院後，乙與丙對甲生前向戊借300萬元仍未清償之 債務，不負任何清償責任",
+        "乙若在遺產清冊為虛偽之記載情節重大，乙則喪失其繼承權",
+        "乙如已依民法規定，開具遺產清冊陳報法院，丙則視為已陳報",
+        "如甲之遺囑有效，乙丙應先將骨董交付丁後，始得對戊為清償"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "0145a0501847",
+        "answer_pdf_sha1": "92adf14b3e43",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "0703",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "民法概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 24,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0050",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "甲有乙丙兩子，甲死亡後，由乙丙共同繼承甲之遺產，其後並為遺產之分割。甲之遺產分割費用， 應從何處支付？",
+      "options": [
+        "甲之遺產中",
+        "乙之固有財產中",
+        "丙之固有財產中",
+        "乙之固有財產與丙之固有財產中"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "0145a0501847",
+        "answer_pdf_sha1": "92adf14b3e43",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "0703",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "民法概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 25,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0051",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "essay",
+      "question": "關於我國營利事業所得稅暫繳申報，請依我國現行所得稅法及其相關法\n規規定，回答下列問題：\n採七月制的公司，應於何時辦理暫繳申報？又依所得稅法第 67 條第 3\n項規定，營利事業應符合那些條件始得採行試算暫繳申報？請說明之。\n（10分）\n設乙公司採曆年制，其113年度結算申報應納稅額480萬元。114年乙\n公司辦理暫繳申報時，有短期票券之利息所得之扣繳稅款 20 萬元；另\n該公司114年上半年資料：營業收入9,800萬元、營業成本4,500萬元、\n營業費用2,800萬元、非營業收入110萬元、非營業損失80萬元。\n假設乙公司符合採試算暫繳之規定並採用之。試問乙公司114年度之應\n納暫繳稅額與應自行向公庫補繳之暫繳稅額各為多少金額？（15 分）\n（未詳列計算式不予計分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "9aabb116bb0b",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "1211",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "稅務法規概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0052",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "essay",
+      "question": "甲公司為總公司在我國的營利事業，其對於位在低稅負國家的 A公司之\n持股比率有 80%，而 A公司則 100%持有另一家 B公司（位於大陸地區\n以外的非低稅負國家）。X1 年度 B 公司財報稅後盈餘為 1,000 萬元，年\n中決議分配股利900 萬元，並已匯出；而同年，A公司財務報表稅後盈\n餘僅認列 B公司的投資收益，無其他所得，且 A公司 X1 年決議不分配\n股利。甲公司 X1年度之國內所得為 400萬元、不含 CFC 投資收益的其\n他國外所得 800萬元（該國外所得於所得來源國已納所得稅 180萬元）。\n假設 A公司當地法令規定股利匯出扣繳所得稅率為 10%，B公司當地規\n定之股利匯出扣繳所得稅率為 20%。\n試問：\n甲公司 X1 年度應認列多少來自於 A 公司的受控外國公司的投資收益\n金額（假設所有持股期間皆大於1 年）？（10分）\n甲公司 X1年度營利事業所得稅之國外可扣抵稅額上限？（10分）\n甲公司 X1年度全部之應納營利事業所得稅額？（5分）\n60430",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "9aabb116bb0b",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "1211",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "稅務法規概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0053",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "下列有關稅捐核課期間之起算，何者錯誤？",
+      "options": [
+        "依法應由納稅義務人申報繳納之稅捐，未在規定期間內申報繳納者，自規定申報期間屆滿之日 起算",
+        "依法應由納稅義務人申報繳納之稅捐，已在規定期間內申報者，自申報日起算",
+        "土地增值稅自稅捐稽徵機關收件日起算",
+        "印花稅自依法應貼用印花稅票日起算"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "9aabb116bb0b",
+        "answer_pdf_sha1": "1881374c0f4c",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "1211",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "稅務法規概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0054",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "稅捐稽徵法所稱相當擔保係指相當於擔保稅款之擔保品，下列有關相當擔保之敘述，何者錯誤？",
+      "options": [
+        "經中央銀行掛牌之外幣按八折計算",
+        "黃金，按九折計算",
+        "上市或上櫃之有價證券，按八折計算",
+        "政府發行經規定可十足提供公務擔保之公債，按市值計算"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "9aabb116bb0b",
+        "answer_pdf_sha1": "1881374c0f4c",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "1211",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "稅務法規概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0055",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "依稅捐稽徵法有關稅捐徵收之規定，下列敘述何者錯誤？",
+      "options": [
+        "已申報且無逃漏情形者，其核課期間為5年",
+        "未申報或以詐欺方式逃漏稅者，其核課期間為7年",
+        "稅捐徵收期間為5年，自核課期間屆滿之翌日起算",
+        "稅捐之徵收，於徵收期間屆滿前已開始執行者，仍得繼續執行"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "9aabb116bb0b",
+        "answer_pdf_sha1": "1881374c0f4c",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "1211",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "稅務法規概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0056",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "依稅捐稽徵法有關緩繳之規定，下列敘述何者正確？",
+      "options": [
+        "因天災或不可抗力申請緩繳者，其核准期間最長不得逾5年",
+        "申請分期繳納鉅額稅捐者，須按日加計利息",
+        "經核准延期或分期繳納後，如未如期繳納，可再申請延長緩繳期限",
+        "緩繳案件經核准後，稅捐稽徵機關不得要求提供擔保"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "9aabb116bb0b",
+        "answer_pdf_sha1": "1881374c0f4c",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "1211",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "稅務法規概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0057",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "依據稅捐稽徵法之規定，下列有關稅捐行政救濟程序之規定，何者正確？",
+      "options": [
+        "依核定稅額通知書所載有應納稅額或應補徵稅額者，應於繳款書送達後，於繳納期間屆滿之日 起30日內，申請復查",
+        "依核定稅額通知書所載無應納稅額或應補徵稅額者，應於核定稅額通知書送達之日起30日內， 申請復查",
+        "復查之申請，以稅捐稽徵機關收受復查申請書之日期為準",
+        "各稅法規定以公告代替核定稅額通知書之填具及送達者，應於公告之日起30日內，申請復查"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "9aabb116bb0b",
+        "answer_pdf_sha1": "1881374c0f4c",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "1211",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "稅務法規概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0058",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "下列有關稅捐核課期間之敘述，何者錯誤？",
+      "options": [
+        "依法應由稅捐稽徵機關依稅籍底冊課徵之稅捐，其核課期間為5年",
+        "依法應由納稅義務人申報繳納之稅捐，已在規定期間內申報，且無故意以詐欺或其他不正當方 法逃漏稅捐者，其核課期間為5年",
+        "未於規定期間內申報，其核課期間為7年",
+        "在核課期間內未經發現者，以後仍得再補稅處罰"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "9aabb116bb0b",
+        "answer_pdf_sha1": "1881374c0f4c",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "1211",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "稅務法規概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0059",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "某公司負責人甲為逃漏公司所得稅，指示會計乙製作虛假發票，使公司短報所得達新臺幣6千萬 元。案發前，甲與乙在未被檢舉、也未被稅捐機關調查前，主動向稅捐機關補報並補繳稅款。下 列敘述何者正確？",
+      "options": [
+        "甲因公司逃漏稅額達5千萬元以上，仍須負刑事責任，且不得免罰",
+        "乙雖僅為協助行為，仍須與甲負相同刑責",
+        "甲與乙主動補報並補繳，在未被檢舉或查獲前，即可免除刑事責任及罰鍰",
+        "甲與乙雖主動補報並補繳，僅得減輕處罰，不得免罰"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "9aabb116bb0b",
+        "answer_pdf_sha1": "1881374c0f4c",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "1211",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "稅務法規概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0060",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "依房屋稅條例之規定，下列那些情形得免徵房屋稅？①公立醫院之院舍與員工宿舍  ②業經立案",
+      "options": [
+        "政府平價配售之平民住宅",
+        "宗教團體供傳教佈 道之寺廟並完成登記",
+        "",
+        ""
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "9aabb116bb0b",
+        "answer_pdf_sha1": "1881374c0f4c",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "1211",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "稅務法規概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0061",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "依所得稅法規定，總機構在我國境外之營利事業，在我國境內經營下列何種業務，其成本費用分攤 計算困難者，得向財政部申請按其在中華民國境內之營業收入之百分之十五為中華民國境內之營利",
+      "options": [
+        "經營國際運輸",
+        "承包營建工程",
+        "出租機器設備",
+        "提供技術服務  ⑤出租影片"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "9aabb116bb0b",
+        "answer_pdf_sha1": "1881374c0f4c",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "1211",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "稅務法規概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0062",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "依現行所得稅法規定，下列那些所得屬於分離課稅，即扣繳後不併計入綜合所得總額課稅？①政",
+      "options": [
+        "告發或檢舉獎金",
+        "股利所得",
+        "執行業務所得",
+        ""
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "9aabb116bb0b",
+        "answer_pdf_sha1": "1881374c0f4c",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "1211",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "稅務法規概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0063",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "假設丙公司國內總公司113年度所得額為新臺幣4,000萬元，在美國分公司當年度所得額為2,500 萬元，已納當地所得稅700萬元，在德國分公司當年度所得額為1,500萬元，已納當地所得稅400 萬元。試問丙公司當年度應納營利事業所得稅為多少元？",
+      "options": [
+        "600萬元",
+        "700萬元",
+        "800萬元",
+        "900萬元"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "9aabb116bb0b",
+        "answer_pdf_sha1": "1881374c0f4c",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "1211",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "稅務法規概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 11,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0064",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "依稅捐稽徵法規定，下列何種情形得暫緩移送強制執行？",
+      "options": [
+        "納稅義務人於繳納期間屆滿後，主張經濟困難但未依法申請復查",
+        "納稅義務人請求分期繳納，稅捐機關尚未核准",
+        "納稅義務人提起訴願即可申請暫緩移送強制執行",
+        "納稅義務人對復查決定之應納稅額繳納三分之一，並依法提起訴願"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "9aabb116bb0b",
+        "answer_pdf_sha1": "1881374c0f4c",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "1211",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "稅務法規概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 12,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0065",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "依現行房地合一課稅規定，下列敘述何者錯誤？①甲於111年購買土地，113年與建商合作興建",
+      "options": [
+        "乙於111年購買預售屋，113年交屋前轉售契約者，視 為房地交易，應課徵房地合一稅",
+        "丙於112年參與都市更新，114年完工後持有1年出售，應 按20%稅率課稅",
+        "丁於112年購屋供自住，113年出售，可依自住房屋土地規定適用400萬元 免稅優惠",
+        ""
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "9aabb116bb0b",
+        "answer_pdf_sha1": "1881374c0f4c",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "1211",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "稅務法規概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 13,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0066",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "依加值型及非加值型營業稅法之規定，下列敘述何者正確？①外銷貨物及與外銷有關之勞務，均",
+      "options": [
+        "銷售土地、醫療勞務及教育勞務，均屬零稅率項目",
+        "銷售金條、金幣及純金飾 品，其加工費部分仍屬免稅",
+        "農民銷售其收穫之農產品及副產物，免徵營業稅  ⑤保稅區營業 人銷售貨物予課稅區營業人供直接出口者，適用零稅率",
+        ""
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "9aabb116bb0b",
+        "answer_pdf_sha1": "1881374c0f4c",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "1211",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "稅務法規概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 14,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0067",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "甲公司為一般營業人，經稽徵機關查得其辦理營業登記時，申報資料部分錯誤，且變更營業地址 後未依規定申請變更登記，經通知限期改正後仍未補辦。依營業稅法規定，下列敘述何者正確？",
+      "options": [
+        "構成漏稅行為，應按漏稅額處五倍以下罰鍰",
+        "僅屬遲延登記，補辦後可免予處罰",
+        "應按未開立統一發票之銷售額處百分之一罰鍰",
+        "得通知限期改正或補辦，並處新臺幣1,500元以上15,000元以下罰鍰；屆期仍未改正者，得按 次處罰"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "9aabb116bb0b",
+        "answer_pdf_sha1": "1881374c0f4c",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "1211",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "稅務法規概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 15,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0068",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "依據加值型及非加值型營業稅法與其施行細則，有關營業稅免稅與零稅率的敘述，下列敘述何者",
+      "options": [
+        "零稅率表示銷售貨物或勞務所適用的營業稅率為零，由於銷項稅額為零，如有溢付稅額， 由主管稽徵機關查明後全數退還",
+        "免稅等同於零稅率",
+        "免稅，在銷售階段免徵營業稅，但進 項稅額不能扣抵或退還",
+        "保稅區營業人銷售與課稅區營業人存入物流中心以供外銷之貨物適 用零稅率"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "9aabb116bb0b",
+        "answer_pdf_sha1": "1881374c0f4c",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "1211",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "稅務法規概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 16,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0069",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "依加值型及非加值型營業稅法規定，下列何項進項稅額不得扣抵銷項稅額？①交際應酬用之",
+      "options": [
+        "供員工年終摸彩之貨物",
+        "勞軍用之貨物",
+        "公司送貨用之小貨車  ⑤辦公室水電 費用  ⑥購買供總經理上下班使用的高級轎車",
+        ""
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "9aabb116bb0b",
+        "answer_pdf_sha1": "1881374c0f4c",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "1211",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "稅務法規概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 17,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0070",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "下列何者非屬應稅貨物，免徵貨物稅之情形？",
+      "options": [
+        "經國防部核定直接供軍用之貨物",
+        "參加展覽，並出售者",
+        "用作製造另一應稅貨物之原料者",
+        "運銷國外者"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "9aabb116bb0b",
+        "answer_pdf_sha1": "1881374c0f4c",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "1211",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "稅務法規概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 18,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0071",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "林先生於民國114年5月20日死亡，遺有一筆房地，市價2,400萬元，其中土地公告現值1,200 萬元，房屋評定標準價格600萬元；其生前曾於112年10月10日贈與女兒現金300萬元，並於 111年7月1日贈與孫子價值200萬元之汽車一輛。試問林先生之遺產總額為多少？",
+      "options": [
+        "1,800萬",
+        "2,100萬",
+        "2,400萬",
+        "2,700萬"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "9aabb116bb0b",
+        "answer_pdf_sha1": "1881374c0f4c",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "1211",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "稅務法規概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 19,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0072",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "依據遺產及贈與稅法之規定，下列何者非屬不計入贈與總額的項目？",
+      "options": [
+        "作農業使用之農業用地及其地上農作物，受贈人自受贈之日起五年內，未將該土地繼續作農業 使用且未在有關機關所令期限內恢復作農業使用",
+        "捐贈各級政府之財產",
+        "扶養義務人為受扶養人支付之生活費",
+        "配偶相互贈與之財產"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "9aabb116bb0b",
+        "answer_pdf_sha1": "1881374c0f4c",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "1211",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "稅務法規概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 20,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0073",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "依遺產及贈與稅法關於贈與稅之申報與繳納程序，下列敘述何者錯誤？",
+      "options": [
+        "贈與人在一年內贈與財產總額超過免稅額時，應於超過部分發生後30日內，向主管稽徵機關 辦理申報",
+        "同一贈與人在同一年內有多次應申報之贈與行為者，應於最後一次辦理贈與稅申報時，將前次 贈與事實及納稅情形合併申報",
+        "贈與稅應於稽徵機關送達核定納稅通知書之日起2個月內繳清，必要時可申請延期2個月",
+        "贈與稅應納稅額在30萬元以上確有困難時，納稅義務人得申請分36期繳納，每期間隔不得超 過2個月"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "9aabb116bb0b",
+        "answer_pdf_sha1": "1881374c0f4c",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "1211",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "稅務法規概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 21,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0074",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "下列有關地價稅稅率之敘述，何者錯誤？",
+      "options": [
+        "國民住宅其地價稅按千分之二計徵",
+        "私立公園按千分之十計徵地價稅",
+        "都市計畫公共設施保留地，在保留期間仍為建築使用者，統按千分之六計徵地價稅",
+        "公有土地供公共使用者，其地價稅按千分之二計徵"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "9aabb116bb0b",
+        "answer_pdf_sha1": "1881374c0f4c",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "1211",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "稅務法規概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 22,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0075",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "李小姐於113年2月出售一筆自用住宅用地，申報移轉現值為500萬元，並繳納土地增值稅50 萬元。嗣於114年8月另行購買自用住宅用地一筆，申報移轉現值為400萬元。試問依土地稅法 之規定，李小姐得申請退還之土地增值稅為若干？",
+      "options": [
+        "0元",
+        "40萬元",
+        "50萬元",
+        "45萬元"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "9aabb116bb0b",
+        "answer_pdf_sha1": "1881374c0f4c",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "1211",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "稅務法規概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 23,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0076",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "依土地稅法有關地價稅稽徵程序之規定，下列敘述何者錯誤？",
+      "options": [
+        "地價稅以每年8月31日為納稅義務基準日",
+        "特別稅率申請應於主管機關公告期間內辦理，逾期得於開徵40日前補報",
+        "自用住宅用地特別稅率逾期申請者，自次年起適用",
+        "特別稅率原因消滅時，應即向主管稽徵機關申報"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "9aabb116bb0b",
+        "answer_pdf_sha1": "1881374c0f4c",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "1211",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "稅務法規概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 24,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-6f0ba476-0077",
+      "exam_id": "islands-6f0ba476",
+      "question_type": "single_choice",
+      "question": "依據房屋稅條例之規定，下列何項私有房屋，其房屋稅不符合減半徵收之規定？",
+      "options": [
+        "農會所有之倉庫，專供糧政機關儲存公糧，經主管機關證明",
+        "政府平價配售之平民住宅",
+        "合法登記之工廠供直接生產使用之自有房屋",
+        "受重大災害，毀損面積占整棟面積三成以上不及五成之房屋"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "9aabb116bb0b",
+        "answer_pdf_sha1": "1881374c0f4c",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "415",
+          "s": "1211",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "稅務法規概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 25,
+        "answer_corrected": false,
+        "flags": []
+      }
+    }
+  ]
+}

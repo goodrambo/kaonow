@@ -1,0 +1,3590 @@
+{
+  "slug": "aviation-f9fdcd58",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:22:08+00:00",
+  "paper_count": 13,
+  "paper_with_questions": 13,
+  "question_count": 98,
+  "type_counts": {
+    "essay": 48,
+    "single_choice": 50
+  },
+  "papers": [
+    {
+      "year": "113",
+      "exam_code": "113140",
+      "c": "303",
+      "s": "2001",
+      "q": "1",
+      "subject": "民用航空法",
+      "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "2483e2844c0f",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "113",
+      "exam_code": "113140",
+      "c": "303",
+      "s": "1903",
+      "q": "1",
+      "subject": "計算機概論",
+      "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "bd85d57fb232",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "113",
+      "exam_code": "113140",
+      "c": "303",
+      "s": "1902",
+      "q": "1",
+      "subject": "通信原理",
+      "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "1dc726db13c4",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "112",
+      "exam_code": "112150",
+      "c": "402",
+      "s": "2001",
+      "q": "1",
+      "subject": "民用航空法",
+      "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "4c6b1adf14c1",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "112",
+      "exam_code": "112150",
+      "c": "402",
+      "s": "0607",
+      "q": "1",
+      "subject": "法學知識(包括中華民國憲法、法學緒論)",
+      "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "f79244208669",
+      "a_pdf_sha1": "b0e444a8d54a",
+      "format_detected": "pure_mc",
+      "raw_question_count": 50,
+      "answer_qnums_extracted": 50,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 50,
+      "skipped_count": 0
+    },
+    {
+      "year": "112",
+      "exam_code": "112150",
+      "c": "402",
+      "s": "1902",
+      "q": "1",
+      "subject": "計算機概論",
+      "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "beac4c96bf81",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "112",
+      "exam_code": "112150",
+      "c": "402",
+      "s": "1901",
+      "q": "1",
+      "subject": "通信原理",
+      "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "3cb7492e6251",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "111",
+      "exam_code": "111150",
+      "c": "403",
+      "s": "1901",
+      "q": "1",
+      "subject": "民用航空法",
+      "exam_name": "111年公務人員特種考試外交領事人員及外交行政人員考試、民航人員考試、國際經濟商務人員考試、原住民族考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "5355e06f0960",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "111",
+      "exam_code": "111150",
+      "c": "403",
+      "s": "1803",
+      "q": "1",
+      "subject": "計算機概論",
+      "exam_name": "111年公務人員特種考試外交領事人員及外交行政人員考試、民航人員考試、國際經濟商務人員考試、原住民族考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "0379b55f291c",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "111",
+      "exam_code": "111150",
+      "c": "403",
+      "s": "1802",
+      "q": "1",
+      "subject": "通信原理",
+      "exam_name": "111年公務人員特種考試外交領事人員及外交行政人員考試、民航人員考試、國際經濟商務人員考試、原住民族考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "063680ebdfe0",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "110",
+      "exam_code": "110150",
+      "c": "303",
+      "s": "2001",
+      "q": "1",
+      "subject": "民用航空法",
+      "exam_name": "110年公務人員特種考試外交領事人員及外交行政人員考試、民航人員考試、原住民族考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "8d9c1178eb21",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "110",
+      "exam_code": "110150",
+      "c": "303",
+      "s": "1803",
+      "q": "1",
+      "subject": "計算機概論",
+      "exam_name": "110年公務人員特種考試外交領事人員及外交行政人員考試、民航人員考試、原住民族考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "292970b79414",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "110",
+      "exam_code": "110150",
+      "c": "303",
+      "s": "1802",
+      "q": "1",
+      "subject": "通信原理",
+      "exam_name": "110年公務人員特種考試外交領事人員及外交行政人員考試、民航人員考試、原住民族考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "2c2e6c4f2801",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    }
+  ],
+  "questions": [
+    {
+      "id": "aviation-f9fdcd58-0001",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "essay",
+      "question": "何謂永續航空燃油（SAF）？為符合國際民用航空相關規範及與國際實\n務作法接軌，民用航空運輸業管理規則新增第 24 條之 1 條文，請說明\n新增之內容為何？（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "2483e2844c0f",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "303",
+          "s": "2001",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "民用航空法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0002",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "essay",
+      "question": "根據航空器飛航作業管理規則，雙飛航組員飛航時間限度為何？（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "2483e2844c0f",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "303",
+          "s": "2001",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "民用航空法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0003",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "essay",
+      "question": "請說明民用航空法中，航空器使用人或運送人，就其託運貨物或登記行\n李之毀損或滅失所負之賠償責任為何？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "2483e2844c0f",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "303",
+          "s": "2001",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "民用航空法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0004",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "essay",
+      "question": "請說明民用航空運輸業違反民用航空法量罰標準表中之裁罰門檻內容。\n（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "2483e2844c0f",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "303",
+          "s": "2001",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "民用航空法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0005",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "essay",
+      "question": "管線化（Pipelining）是讓電腦的處理器效能提升的重要關鍵，請回答下\n列問題：\n請說明如何以管線化（Pipelining）加速指令執行。（10分）\n何謂管線危障（PipelineHazard）？（5分）\n管線危障有三種不同類型，即結構危障（StructuralHazard）、資料危障\n（DataHazard）、控制危障（ControlHazard），請說明此三種危障之意\n義及發生的原因。（15分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "bd85d57fb232",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "303",
+          "s": "1903",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "計算機概論",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0006",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "essay",
+      "question": "請回答下列與網路或資訊安全相關之問題：\n網路中封包傳遞主要有三種模式，分別為單點傳播（Unicast）、廣播\n（Broadcast）、群播（Multicast），請說明此三種模式的特性，說明時亦\n請強調三者之差異。（15分）\n請說明電腦病毒（Virus）和電腦蠕蟲（Worm）的特性，說明時亦請強\n調兩者之差異。（10 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "bd85d57fb232",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "303",
+          "s": "1903",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "計算機概論",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0007",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "essay",
+      "question": "下圖中，節點內的數字為此點編號，邊上的數字為此邊權重，請依據此\n圖回答下列問題：\n5 5 1\n5 8\n7 7 4\n3\n2 6\n7 10\n10\n6\n4 3\n9\n請列出以編號5為起點，並以深度優先搜尋（Depth-FirstSearch,DFS）方\n式走訪完所有節點之順序，走訪時若有多個選擇，以編號小者優先。（7分）\n請列出以編號5為起點，並以廣度優先搜尋（Breadth-FirstSearch,BFS）方\n式走訪完所有節點之順序，走訪時若有多個選擇，以編號小者優先。（7分）\n請畫出此圖之最小生成樹（MinimumSpanningTree）。（11分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "bd85d57fb232",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "303",
+          "s": "1903",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "計算機概論",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0008",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "essay",
+      "question": "請回答下列與程式設計相關之問題：\n請分別說明區域變數（LocalVariable）、全域變數（GlobalVariable）、\n靜態變數（StaticVariable）三種變數之特色。（10分）\n請說明疊代法（IterativeMethod）與遞迴法（RecursiveMethod），說明\n時亦請強調兩者之差異。（10分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "bd85d57fb232",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "303",
+          "s": "1903",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "計算機概論",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0009",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "essay",
+      "question": "假設一時域信號x(t)5cos(200t)，請回答以下問題：\n請求出x(t)之傅立葉轉換（Fourier Transform）X(f )，並繪製其頻譜\n圖。（5 分）\n若以取樣頻率 f 400Hz對x(t)進行取樣，請繪製其取樣後信號x (t)\ns s\n之頻譜圖。（10分）\n1\n請求出x (t)經過通頻帶（Passband）增益為 ，截止頻率（Cutoff\ns f\ns\nFrequency）為600Hz之理想低通濾波器後，再重建之時域信號x (t)。\nr\n（10分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "1dc726db13c4",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "303",
+          "s": "1902",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "通信原理",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0010",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "essay",
+      "question": "假 設 一 調 幅 （ AM ） 信 號 為 x(t)(1km(t))cos(1000t) ， 其 中\nm(t)2cos(40t)，請回答以下問題：\n若要避免過調變（Overmodulated）問題，k值之範圍為何？（5分）\n請說明可否以包跡檢測（EnvelopeDetector）接收機解調此調幅信號？\n（5 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "1dc726db13c4",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "303",
+          "s": "1902",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "通信原理",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0011",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "essay",
+      "question": "下圖為四相位偏移調變 QPSK（QuadraturePhase-ShiftKeying）之信號星\n座圖（Signal Constellation）。其中E 代表每位元平均能量。假設雜訊為\nb\nN\n零均值，功率頻譜密度為 0 之白高斯雜訊（WhiteGaussian Noise）。\n2\nv\n2\ns s\n2 1\nE , E E , E\nb b b b\nv\n1\ns s\n3 4\nE , E E , E\nb b b b\n若以等機率傳送此四個符元（Symbol），請以最大概似偵測法\n（MaximumLikelihoodDetection）標示各決策區域（DecisionRegion）。\n（10分）\nx2\n1\n請求出平均符元錯誤率以 Q函數表示（Q(u) e 2dx）。（10分）\n2\nu\n3 5\n若提升傳送符元s 之機率為 ，其餘符元傳送機率均為 ，請說明使\n1 8 24\n用最大概似偵測法是否還適合。（5 分）\n若接收機之內部溫度上升，對符元錯誤率有何影響？（5 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "1dc726db13c4",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "303",
+          "s": "1902",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "通信原理",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0012",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "essay",
+      "question": "在無線通信系統中，通道會對接收信號造成影響，因此不同通信系統必\n須考慮通道因素而進行設計，請回答以下問題：\n通信系統之同步信號作用為何？（5分）\n何謂頻率平坦衰落通道（FrequencyFlatFading）與頻率選擇衰落通道\n（Frequency Selective Fading）？有何方法可以處理衰落通道問題？\n（15分）\n脈衝整形濾波器（PulseShaping Filter）之功用為何？（5 分）\n請說明何謂分時多重接取（TimeDivisionMultipleAccess）方法與分頻\n多重接取（FrequencyDivisionMultipleAccess）方法，並比較其優缺點。\n（10分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "1dc726db13c4",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113140",
+          "c": "303",
+          "s": "1902",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "通信原理",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0013",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "essay",
+      "question": "請說明落實個資保護對航空公司營運的重要性。另依據民航法規相關辦\n法規定，為因應旅客資料庫遭駭客入侵，導致旅客個資被竊取、竄改、毀\n損、滅失或洩漏等情事，民用航空運輸業應採取那些因應措施？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "4c6b1adf14c1",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "2001",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "民用航空法",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0014",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "essay",
+      "question": "請說明航空公司在確定班機延誤時應做之處置？另因運送延誤或變更\n起降地點而影響旅客權益者，航空公司得視狀況提供那些服務？（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "4c6b1adf14c1",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "2001",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "民用航空法",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0015",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "essay",
+      "question": "依據「民用航空保安管理辦法」，何謂清艙檢查？清艙檢查的目的及實施\n時機為何？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "4c6b1adf14c1",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "2001",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "民用航空法",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0016",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "essay",
+      "question": "乘客於上下飛機時因意外事故而致死亡或受傷，依據「民用航空法」，此\n事故的責任歸屬如何認定？如航空公司應負責，對每一死亡或重傷乘客\n應負之賠償金額為何？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "4c6b1adf14c1",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "2001",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "民用航空法",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0017",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "single_choice",
+      "question": "依憲法及增修條文規定，立法委員享有下列何項保障？",
+      "options": [
+        "國家機密特權",
+        "會期中均不受逮捕",
+        "限於立法院內之言論始免責",
+        "任期內不受刑事追訴"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "f79244208669",
+        "answer_pdf_sha1": "b0e444a8d54a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "0607",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識(包括中華民國憲法、法學緒論)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0018",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "single_choice",
+      "question": "依憲法之規定，總統、副總統均缺位時，應由何人代行其職權？",
+      "options": [
+        "行政院院長",
+        "立法院院長",
+        "監察院院長",
+        "司法院院長"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "f79244208669",
+        "answer_pdf_sha1": "b0e444a8d54a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "0607",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識(包括中華民國憲法、法學緒論)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0019",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "single_choice",
+      "question": "依司法院大法官解釋，有關宗教自由，下列敘述何者正確？",
+      "options": [
+        "寺廟內部之組織結構、是否加入其他宗教性人民團體成為團體會員，不屬於宗教結社自由之保障範圍",
+        "國家得基於人民之特定信仰予以優待",
+        "強制有反戰信仰之信徒仍須服兵役，違反宗教自由",
+        "內在信仰之自由，涉及思想、言論、信念及精神之層次，應受絕對之保障"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "f79244208669",
+        "answer_pdf_sha1": "b0e444a8d54a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "0607",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識(包括中華民國憲法、法學緒論)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0020",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "single_choice",
+      "question": "依憲法訴訟法規定，法官於審理案件時，認為應適用之法律牴觸憲法，應如何處理？",
+      "options": [
+        "逕行拒絕適用",
+        "停止審判，以法院名義向憲法法庭聲請判決",
+        "停止審判，由所屬法院院長向憲法法庭聲請判決",
+        "停止審判，層轉最高法院或最高行政法院向憲法法庭聲請判決"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "f79244208669",
+        "answer_pdf_sha1": "b0e444a8d54a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "0607",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識(包括中華民國憲法、法學緒論)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0021",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "single_choice",
+      "question": "依司法院大法官解釋意旨，信賴保護原則之憲法上基礎係下列何者？",
+      "options": [
+        "民主原則",
+        "法治國原則",
+        "社會國原則",
+        "權力分立原則"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "f79244208669",
+        "answer_pdf_sha1": "b0e444a8d54a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "0607",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識(包括中華民國憲法、法學緒論)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0022",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "single_choice",
+      "question": "依司法院大法官解釋，關於法律明確性原則，下列敘述何者正確？",
+      "options": [
+        "法律文義應具體詳盡，不得使用不確定法律概念",
+        "法律如使用不確定法律概念，應同時授權訂定命令，以明確詳盡規定其具體內容",
+        "法律使用之不確定法律概念，如主管機關曾作成函釋，即與法律明確性原則無違",
+        "法律雖得使用不確定法律概念，但其文義須非難以理解，且為受規範者所得預見，並可經由司法審 查加以確認"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "f79244208669",
+        "answer_pdf_sha1": "b0e444a8d54a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "0607",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識(包括中華民國憲法、法學緒論)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0023",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "single_choice",
+      "question": "依現行憲法規定，關於國防事項，下列敘述何者正確？",
+      "options": [
+        "應兼採募兵制",
+        "兵役制度為法律保留事項",
+        "兵役義務非屬憲法保留事項",
+        "兵役制度須考量經濟發展需要"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "f79244208669",
+        "answer_pdf_sha1": "b0e444a8d54a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "0607",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識(包括中華民國憲法、法學緒論)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0024",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "single_choice",
+      "question": "關於緊急命令與法規命令之異同，下列敘述何者正確？",
+      "options": [
+        "緊急命令發布後10日內提交立法院追認；法規命令亦應即送立法院，未經函送不生效力",
+        "緊急命令與法規命令均不得牴觸法律",
+        "緊急命令依憲法所規定之要件及程序，而法規命令則依行政程序法所定要件及程序為之",
+        "法院對於緊急命令及法規命令均不審查"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "f79244208669",
+        "answer_pdf_sha1": "b0e444a8d54a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "0607",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識(包括中華民國憲法、法學緒論)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0025",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "single_choice",
+      "question": "依刑事訴訟法第93條第2項規定，犯罪嫌疑人遭逮捕後，檢察官認為有羈押之必要，應自逮捕時起24 小時內聲請法院羈押。關於本項規定，下列敘述何者正確？",
+      "options": [
+        "本項規定之內容為絕對法律保留事項，立法者得在符合比例原則之範圍內，將24小時修正為48小時",
+        "本項規定之內容為相對法律保留事項，立法者得授權檢察官在必要時，將24小時延長為48小時",
+        "本項規定之內容為憲法保留事項，立法者不得將24小時修正為48小時",
+        "本項規定之內容為行政保留事項，檢察官得在必要時，將24小時延長為48小時"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "f79244208669",
+        "answer_pdf_sha1": "b0e444a8d54a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "0607",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識(包括中華民國憲法、法學緒論)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0026",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "single_choice",
+      "question": "集會自由應屬表現自由之範疇，依司法院大法官解釋意旨，關於集會自由，下列敘述何者錯誤？",
+      "options": [
+        "集會遊行法對於不遵從解散及制止命令之首謀者科以刑責，將造成寒蟬效應，有違憲法對集會自由 之保障",
+        "國家應提供適當集會場所，採取有效保護集會之安全措施，使參與集會遊行者在毫無恐懼情況下行 使集會自由",
+        "關於集會遊行時間、地點及方式等限制，因無涉集會遊行之目的或內容，屬於立法自由形成範圍",
+        "集會遊行法之事前許可制未排除緊急性及偶發性集會，已違反比例原則之要求"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "f79244208669",
+        "answer_pdf_sha1": "b0e444a8d54a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "0607",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識(包括中華民國憲法、法學緒論)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0027",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "single_choice",
+      "question": "內政部依據社會團體許可立案作業規定，不准中國比較法學會變更名稱為臺灣法學會，依司法院大法 官解釋之意旨，侵害人民受憲法保障的何種權利？",
+      "options": [
+        "講學自由",
+        "結社自由",
+        "人格權",
+        "集會自由"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "f79244208669",
+        "answer_pdf_sha1": "b0e444a8d54a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "0607",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識(包括中華民國憲法、法學緒論)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 11,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0028",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "single_choice",
+      "question": "依司法院大法官解釋，關於憲法平等權之司法違憲審查，下列何者不會影響審查密度之寬嚴？",
+      "options": [
+        "分類標準是否涉及憲法基本國策之國家積極義務",
+        "差別待遇是否涉及重要基本權利",
+        "分類標準是否涉及政治上之弱勢群體",
+        "差別待遇屬於直接或間接歧視"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "f79244208669",
+        "answer_pdf_sha1": "b0e444a8d54a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "0607",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識(包括中華民國憲法、法學緒論)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 12,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0029",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "single_choice",
+      "question": "依司法院大法官解釋，舊企業併購法未使因以現金作為對價之合併而喪失股權之股東，及時獲取合併 對公司利弊影響之資訊，亦未就股份對價公平性之確保，設置有效之權利救濟機制，係侵害公司股東 下列何種憲法權利？",
+      "options": [
+        "財產權",
+        "工作權",
+        "集會自由",
+        "結社自由"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "f79244208669",
+        "answer_pdf_sha1": "b0e444a8d54a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "0607",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識(包括中華民國憲法、法學緒論)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 13,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0030",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "single_choice",
+      "question": "社會救助法第4條所定最低生活費標準，乃為貫徹憲法所保障之何種基本權利？",
+      "options": [
+        "平等權",
+        "生存權",
+        "工作權",
+        "財產權"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "f79244208669",
+        "answer_pdf_sha1": "b0e444a8d54a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "0607",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識(包括中華民國憲法、法學緒論)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 14,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0031",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "single_choice",
+      "question": "我國憲法第129條明定，憲法所規定之各種選舉，以普通、平等、直接及無記名投票之方法行之。有 關選舉原則，下列敘述何者錯誤？",
+      "options": [
+        "縣市議會議長及副議長之選舉及罷免，自應受本條拘束",
+        "憲法明文規定婦女保障名額制度，仍無違平等原則之要求",
+        "公職人員選舉罷免法處罰選舉人之亮票行為，是為貫徹秘密投票原則",
+        "中華民國國民年滿20歲者有依法選舉之權，是普通原則的具體展現"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "f79244208669",
+        "answer_pdf_sha1": "b0e444a8d54a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "0607",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識(包括中華民國憲法、法學緒論)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 15,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0032",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "single_choice",
+      "question": "公務人員週休二日實施辦法第4條第1項規定：「交通運輸、警察、消防、海岸巡防、醫療、關務等機 關（構），為全年無休服務民眾，應實施輪班、輪休制度。」可能對下列何種基本權利構成侵害？",
+      "options": [
+        "訴訟權",
+        "健康權",
+        "人身自由權",
+        "應考試權"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "f79244208669",
+        "answer_pdf_sha1": "b0e444a8d54a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "0607",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識(包括中華民國憲法、法學緒論)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 16,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0033",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "single_choice",
+      "question": "依司法院釋字第791號解釋，下列敘述何者錯誤？",
+      "options": [
+        "以刑罰制裁通姦及相姦行為，其目的在於約束配偶雙方履行婚姻忠誠義務，以維護婚姻制度及個別 婚姻之存續，洵屬正當",
+        "有配偶而與人通姦者，處1年以下有期徒刑之規定，涉及憲法第22條保障之性自主權",
+        "刑法通姦罪規定對性自主權之限制是否合於比例原則，應受較嚴格之審查",
+        "對配偶撤回通姦罪告訴，其效力不及於相姦人之規定，與憲法第7條平等權之意旨並無違背"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "f79244208669",
+        "answer_pdf_sha1": "b0e444a8d54a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "0607",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識(包括中華民國憲法、法學緒論)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 17,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0034",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "single_choice",
+      "question": "依司法院大法官解釋之意旨，下列何者屬於對人民職業選擇自由之主觀限制？",
+      "options": [
+        "非視障者不得從事按摩業",
+        "藥師僅得於單一處所執業",
+        "具有博士學位者始得擔任助理教授",
+        "限制同一區域內有線電視系統業者之經營總數"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "f79244208669",
+        "answer_pdf_sha1": "b0e444a8d54a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "0607",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識(包括中華民國憲法、法學緒論)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 18,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0035",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "single_choice",
+      "question": "依憲法及增修條文規定，課予國家負有保護義務應特別照顧、扶持及保障之對象，不包括下列何者？",
+      "options": [
+        "婦女",
+        "軍人",
+        "外國人",
+        "童工"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "f79244208669",
+        "answer_pdf_sha1": "b0e444a8d54a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "0607",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識(包括中華民國憲法、法學緒論)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 19,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0036",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "single_choice",
+      "question": "依現行規定，有關國家重要事項之決策權，下列敘述何者錯誤？",
+      "options": [
+        "立法院有議決之權，但行政院無法透過覆議制度推翻",
+        "行政院院長或部會首長應提出報告並備質詢，惟立法院得議決是否聽取報告",
+        "若行政院院長報告並備質詢後，立法院仍議決不予支持，行政院院長得自行辭職以示負責",
+        "若涉及法律修正，應該由行政院向立法院提出法律修正案，由立法院審議"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "f79244208669",
+        "answer_pdf_sha1": "b0e444a8d54a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "0607",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識(包括中華民國憲法、法學緒論)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 20,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0037",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "single_choice",
+      "question": "依現行規定，下列有關監察院之敘述何者正確？",
+      "options": [
+        "監察委員在院內所為之言論及表決，對院外不負責任",
+        "監察委員，除現行犯外，非經監察院許可，不得逮捕或拘禁",
+        "監察委員不得兼任其他公職或執行業務",
+        "監察院設審計長，審計長應於行政院提出決算後3個月內，依法完成其審核，並提出審核報告於監察院"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "f79244208669",
+        "answer_pdf_sha1": "b0e444a8d54a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "0607",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識(包括中華民國憲法、法學緒論)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 21,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0038",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "single_choice",
+      "question": "關於司法院大法官，下列敘述何者錯誤？",
+      "options": [
+        "司法院大法官有統一解釋法令及解釋憲法之權限",
+        "大法官由總統提名，經立法院同意任命之",
+        "大法官除法官轉任者外，不適用法官終身職待遇之規定",
+        "司法院院長享有8年任期之保障"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "f79244208669",
+        "answer_pdf_sha1": "b0e444a8d54a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "0607",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識(包括中華民國憲法、法學緒論)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 22,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0039",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "single_choice",
+      "question": "依憲法訴訟法之規定，關於「國家機關聲請法規範違憲」之「聲請人」，下列敘述何者錯誤？",
+      "options": [
+        "中央選舉委員會於其獨立行使職權之範圍內，可以作為聲請人",
+        "臺北市政府就委辦事項的範圍內，應報請行政院，由行政院作為聲請人",
+        "總統府作為國家最高機關，可以作為聲請人",
+        "考試院就其作為考試事項的國家最高機關，可以作為聲請人"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "f79244208669",
+        "answer_pdf_sha1": "b0e444a8d54a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "0607",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識(包括中華民國憲法、法學緒論)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 23,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0040",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "single_choice",
+      "question": "電子遊戲場業管理條例第9條第1項規定「電子遊戲場業營業場所應距離國民中、小學、高中、職校、 醫院50公尺以上。」依司法院大法官解釋，下列敘述何者錯誤？",
+      "options": [
+        "上述距離限制，係對從事工作地點之執行職業自由之限制",
+        "上開規定係保留地方因地制宜空間所設之最低標準，故直轄市、縣（市）得另以自治條例為應保持 更長距離之規範",
+        "各直轄市、縣（市）基於因地制宜政策考量而以自治條例設定較長之距離規定，係屬必要之手段",
+        "直轄市、縣（市）自治條例之距離限制規定，如超出法定最低限制較多時，縱使可能產生實質阻絕 之效果，亦不違反比例原則"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "f79244208669",
+        "answer_pdf_sha1": "b0e444a8d54a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "0607",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識(包括中華民國憲法、法學緒論)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 24,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0041",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "single_choice",
+      "question": "依據憲法本文規定，下列何者為國家最高行政機關？",
+      "options": [
+        "總統",
+        "最高行政法院",
+        "行政院",
+        "國家安全會議"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "f79244208669",
+        "answer_pdf_sha1": "b0e444a8d54a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "0607",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識(包括中華民國憲法、法學緒論)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 25,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0042",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "single_choice",
+      "question": "依我國憲法規定，下列關於法規範位階的敘述何者錯誤？",
+      "options": [
+        "命令與憲法或法律牴觸者無效",
+        "法律與憲法有無牴觸發生疑義時，由司法院解釋之",
+        "命令與法律有無牴觸發生疑義時，由司法院解釋之",
+        "法律與憲法牴觸者無效"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "f79244208669",
+        "answer_pdf_sha1": "b0e444a8d54a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "0607",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識(包括中華民國憲法、法學緒論)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 26,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0043",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "single_choice",
+      "question": "法律有強行法與任意法的區分，下列何者屬於強行法？",
+      "options": [
+        "民法第1032條，關於夫妻共同財產制，對於共同財產之管理",
+        "民法第1040條，夫妻共同財產制關係存續中取得之共同財產如何分配之規定",
+        "民法第71條，法律行為違反法律無效之規定",
+        "民法第1113條之7，關於意定監護之報酬規定"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "f79244208669",
+        "answer_pdf_sha1": "b0e444a8d54a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "0607",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識(包括中華民國憲法、法學緒論)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 27,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0044",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "single_choice",
+      "question": "某甲向主管機關申請營業許可，於主管機關受理後，處理程序終結前，相關法規有所修改。依舊規定 甲之申請應予許可，然依新規定甲尚須補足相關條件方有可能通過。此際主管機關應如何適用法規？",
+      "options": [
+        "應適用舊法規",
+        "應適用新法規",
+        "由主管機關自行決定",
+        "由主管機關之上級機關決定"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "f79244208669",
+        "answer_pdf_sha1": "b0e444a8d54a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "0607",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識(包括中華民國憲法、法學緒論)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 28,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0045",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "single_choice",
+      "question": "甲誤以為去廟裡誦經過的水果可以毒死人，於是拿誦經過的水果給乙吃，乙吃了只覺得水果特別甜美， 什麼事情都沒發生。下列關於甲刑事責任之敘述，何者正確？",
+      "options": [
+        "甲為殺人之不能犯，不罰",
+        "甲為殺人之普通未遂犯，得減輕其刑",
+        "甲為殺人之中止犯，減輕其刑",
+        "甲為殺人之幻覺犯，依情節減輕其刑"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "f79244208669",
+        "answer_pdf_sha1": "b0e444a8d54a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "0607",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識(包括中華民國憲法、法學緒論)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 29,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0046",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "single_choice",
+      "question": "消費者保護法中關於消費資訊之規定，下列敘述何者錯誤？",
+      "options": [
+        "企業經營者有確保廣告內容真實之義務",
+        "刊登或報導廣告之媒體經營者明知或可得而知廣告內容與事實不符者，就消費者因信賴該廣告所受 之損害，與企業經營者負連帶責任",
+        "企業經營者對消費者保證商品或服務之品質時，應出具書面保證書",
+        "企業經營者應依商品標示法等法令為商品之標示，進口之商品可僅附外文標示及說明書"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "f79244208669",
+        "answer_pdf_sha1": "b0e444a8d54a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "0607",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識(包括中華民國憲法、法學緒論)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 30,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0047",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "single_choice",
+      "question": "A大學之甲同學準備公司法期末考試時，將公司法有關分公司規定之讀後心得寫在筆記本中。下列筆 記本之記載，何者錯誤？",
+      "options": [
+        "分公司，為受本公司管轄之分支機構",
+        "分公司之設立，非經載明於章程者，不生效力",
+        "外國公司在中華民國境內設立分公司者，應專撥其營業所用之資金",
+        "外國公司在中華民國境內設立分公司者，其名稱得使用外文，不須譯成中文，並標明其種類及國籍"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "f79244208669",
+        "answer_pdf_sha1": "b0e444a8d54a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "0607",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識(包括中華民國憲法、法學緒論)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 31,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0048",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "single_choice",
+      "question": "依據公司法規定，下列何種情況之人，資格上可擔任股份有限公司董事？",
+      "options": [
+        "曾犯詐欺、背信、侵占罪經宣告有期徒刑1年以上之刑確定，執行完畢甫逾1年",
+        "曾犯貪污治罪條例之罪，經判決有罪確定，緩刑期滿甫逾2年",
+        "使用票據經拒絕往來尚未期滿",
+        "受輔助宣告尚未撤銷"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "f79244208669",
+        "answer_pdf_sha1": "b0e444a8d54a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "0607",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識(包括中華民國憲法、法學緒論)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 32,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0049",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "single_choice",
+      "question": "依勞動基準法第59條規定，下列何者非該條所定之補償項目？",
+      "options": [
+        "醫療費用",
+        "原領工資",
+        "精神慰撫金",
+        "失能補償"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "f79244208669",
+        "answer_pdf_sha1": "b0e444a8d54a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "0607",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識(包括中華民國憲法、法學緒論)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 33,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0050",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "single_choice",
+      "question": "全民健康保險法第53條關於不予給付之事由，下列何者非屬之？",
+      "options": [
+        "違反本保險規定之有關就醫程序",
+        "住院治療經診斷並通知出院，而繼續住院之部分",
+        "使用經事前審查，非屬醫療必要之診療服務或藥物",
+        "因犯罪行為而受傷者"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "f79244208669",
+        "answer_pdf_sha1": "b0e444a8d54a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "0607",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識(包括中華民國憲法、法學緒論)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 34,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0051",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "single_choice",
+      "question": "下列有關性別工作平等法之敘述，何者正確？",
+      "options": [
+        "該法所稱薪資，係包括以實物方式給付之獎金、津貼及其他任何名義之經常性給與",
+        "該法所稱之求職者，係指受雇主僱用從事工作獲致薪資者",
+        "該法所稱雇主，係指僱用受僱者之私立機構或機關，而不包括公立機構或機關",
+        "該法所稱要派單位，係指從事勞動派遣業務之事業單位"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "f79244208669",
+        "answer_pdf_sha1": "b0e444a8d54a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "0607",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識(包括中華民國憲法、法學緒論)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 35,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0052",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "single_choice",
+      "question": "下列情形何者符合性別工作平等法第10條有關同工（值）同酬之規定？",
+      "options": [
+        "甲男與乙女在A公司從事相同之搬運工作，A公司認為男性負重能力較佳，同樣從事搬運工作，男 性員工之貢獻當然比女性員工為多，因此，甲男每月工資較乙女多3,000元",
+        "丙男與丁女在B公司從事清潔工作，B公司因認為男性體力較佳，故丙男每月工資較丁女多3,000元。 丁女不服，認為B公司之薪資政策違反同工同酬規定，要求B公司改善，否則即會到地方主管機關申 訴。B公司為避免受罰，因此調降丙男之工資，使丙男與丁女領取相同之工資",
+        "戊男與己女在C公司從事相同工作，但「戊男」有主管頭銜，即便兩人工作價值相同，C公司仍得給 予戊男較高之薪資",
+        "庚男與辛女在D公司從事相同工作，但庚男有碩士學位，辛女僅大學畢業，D公司得給予庚男較高 的起薪"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "f79244208669",
+        "answer_pdf_sha1": "b0e444a8d54a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "0607",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識(包括中華民國憲法、法學緒論)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 36,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0053",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "single_choice",
+      "question": "依司法院大法官解釋意旨，有關平等原則，下列敘述何者錯誤？",
+      "options": [
+        "色盲者不得取得警察大學碩士班之入學資格，未違反平等原則",
+        "非視障者不能從事按摩業，與所欲保障視障者工作權而生之就業利益相較，顯不相當，違反平等原則",
+        "政府採購得標廠商於國內員工總人數逾100人者，應於履約期間僱用一定比例之原住民，違反平等原則",
+        "祭祀公業條例施行前已存在之祭祀公業，以規約排除女子為派下員，未違反憲法保障性別平等之意旨"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "f79244208669",
+        "answer_pdf_sha1": "b0e444a8d54a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "0607",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識(包括中華民國憲法、法學緒論)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 37,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0054",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "single_choice",
+      "question": "行政執行法第3條規定，行政執行應以適當之方法為之，不得逾達成執行目的之必要限度，此為下列 何種原則之展現？",
+      "options": [
+        "誠實信用原則",
+        "不當聯結禁止原則",
+        "預見可能性原則",
+        "比例原則"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "f79244208669",
+        "answer_pdf_sha1": "b0e444a8d54a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "0607",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識(包括中華民國憲法、法學緒論)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 38,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0055",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "single_choice",
+      "question": "人民為開設餐廳而向地方政府經濟發展局申請商業登記，惟主管機關以負責人仍欠繳交通違規罰鍰為 由，拒絕當事人申請。此舉應屬違反下列何者？",
+      "options": [
+        "比例原則",
+        "誠實信用原則",
+        "明確性原則",
+        "不當聯結禁止原則"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "f79244208669",
+        "answer_pdf_sha1": "b0e444a8d54a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "0607",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識(包括中華民國憲法、法學緒論)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 39,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0056",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "single_choice",
+      "question": "有關大學自治，下列敘述何者錯誤？",
+      "options": [
+        "大學於教學研究相關之範圍內，就其內部組織應享有相當程度之自主組織權",
+        "大學得自行制定章則，對成績未達一定標準之學生予以退學處分",
+        "大學對學生所為處分若未剝奪其學生身分，行政法院必須尊重大學自治而不應受理救濟",
+        "大學就入學資格條件所訂定之自治規章，在不違背自治權範圍內，不生違反法律保留原則之問題"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "f79244208669",
+        "answer_pdf_sha1": "b0e444a8d54a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "0607",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識(包括中華民國憲法、法學緒論)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 40,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0057",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "single_choice",
+      "question": "給付不能乃債務不履行類型之一。關於給付不能，下列敘述何者錯誤？",
+      "options": [
+        "因不可歸責於債務人之事由，致給付不能者，債務人免給付義務",
+        "因可歸責於債務人之事由，致給付不能者，債權人得請求賠償損害",
+        "因可歸責於債務人之事由，致給付一部不能者，若其他部分之履行，於債權人無利益時，債權人僅 得請求一部不履行之損害賠償",
+        "債務人因給付不能之事由，對第三人有損害賠償請求權者，債權人得向債務人請求讓與其損害賠償 請求權"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "f79244208669",
+        "answer_pdf_sha1": "b0e444a8d54a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "0607",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識(包括中華民國憲法、法學緒論)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 41,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0058",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "single_choice",
+      "question": "依民法之規定，管理人明知為他人之事務，而為自己之利益管理之者，稱為：",
+      "options": [
+        "不法管理",
+        "誤信管理",
+        "幻想管理",
+        "表見代理"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "f79244208669",
+        "answer_pdf_sha1": "b0e444a8d54a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "0607",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識(包括中華民國憲法、法學緒論)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 42,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0059",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "single_choice",
+      "question": "警察逮捕張三後，將張三移送至警察局拘禁張三，未有任何處置。4天後，張三趁警察不注意，以拾 得的迴紋針打開手銬及門鎖，逃之夭夭。依據實務見解，下列敘述何者正確？",
+      "options": [
+        "張三的行為構成刑法第161條脫逃罪，因為張三係為警察所逮捕，以不法方式脫離公權力拘禁",
+        "張三的行為構成刑法第161條脫逃罪，因為張三係受拘禁之人，以不法方式脫離公權力拘禁",
+        "張三的行為不構成刑法第161條脫逃罪，因為張三未使用強暴或脅迫的方法",
+        "張三的行為不構成刑法第161條脫逃罪，因為張三並非依法逮捕、拘禁之人"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "f79244208669",
+        "answer_pdf_sha1": "b0e444a8d54a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "0607",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識(包括中華民國憲法、法學緒論)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 43,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0060",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "single_choice",
+      "question": "有關「緩刑」之敘述，下列何者正確？",
+      "options": [
+        "緩刑之效力及於從刑、保安處分及沒收之宣告",
+        "縱為緩刑宣告，亦不得命犯罪行為人向被害人道歉",
+        "受2年以下有期徒刑、拘役或罰金之宣告，曾因過失犯罪受有期徒刑以上刑之宣告者，不得宣告緩刑",
+        "緩刑期間自裁判確定之日起算"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "f79244208669",
+        "answer_pdf_sha1": "b0e444a8d54a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "0607",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識(包括中華民國憲法、法學緒論)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 44,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0061",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "single_choice",
+      "question": "衛生局官員張三對於李四的餐廳實施衛生檢查時，指出若干不合標準之處。李四不服，便罵道：「你 有什麼了不起，不就是一隻納稅人養的米蟲」等等侮辱的詞句。下列敘述何者正確？",
+      "options": [
+        "李四的行為，不構成犯罪",
+        "李四的行為，構成了刑法第140條第2項侮辱公署罪，因侮辱了衛生局官員",
+        "李四的行為，構成了刑法第140條第1項侮辱公務員罪，因其對於正依法執行職務之公務員，當場侮辱",
+        "李四的行為，構成了刑法第140條第1項侮辱公務員罪，因其侮辱了張三所執行的職務"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "f79244208669",
+        "answer_pdf_sha1": "b0e444a8d54a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "0607",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識(包括中華民國憲法、法學緒論)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 45,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0062",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "single_choice",
+      "question": "有關著作人格權的敘述，下列何者錯誤？",
+      "options": [
+        "甲為某音樂著作之著作人，若乙未經甲同意擅自將該著作公諸於世，侵害甲的公開發表權",
+        "丙為某語文著作之著作人，丙有決定是否表示於該著作之重製物上表示自己姓名之權利",
+        "丁為某美術著作之著作人，若戊違反丁的意願擅自改變丁的著作之內容，即使無損於丁的名譽，亦 侵害丁之著作人格權",
+        "己為某語文著作之著作人，若他人將該語文著作改作為視聽著作，則己得要求於該視聽著作公開發 表時，表示其姓名"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "f79244208669",
+        "answer_pdf_sha1": "b0e444a8d54a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "0607",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識(包括中華民國憲法、法學緒論)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 46,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0063",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "single_choice",
+      "question": "依據行政罰法第5條規定，行為後法律若有變更，原則上適用最初裁處時之法律，但裁處前之法律有 利於受處罰者時，應適用最有利於受處罰者之規定。以上之敘述係下列何一原則之例外？",
+      "options": [
+        "信賴保護原則",
+        "罪疑惟輕原則",
+        "特別法優於普通法原則",
+        "後法優於前法原則"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "f79244208669",
+        "answer_pdf_sha1": "b0e444a8d54a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "0607",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識(包括中華民國憲法、法學緒論)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 47,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0064",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "single_choice",
+      "question": "下列何者得為遺囑見證人？",
+      "options": [
+        "已結婚之未成年人",
+        "受輔助宣告人",
+        "受遺贈人之旁系血親",
+        "公證人之助理人"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "f79244208669",
+        "answer_pdf_sha1": "b0e444a8d54a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "0607",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識(包括中華民國憲法、法學緒論)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 48,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0065",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "single_choice",
+      "question": "下列何者為收養之形式要件？",
+      "options": [
+        "子女被收養應得其父母之同意",
+        "當事人間需有收養之合意",
+        "被收養者應得配偶之同意",
+        "應聲請法院認可"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "f79244208669",
+        "answer_pdf_sha1": "b0e444a8d54a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "0607",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識(包括中華民國憲法、法學緒論)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 49,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0066",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "single_choice",
+      "question": "民法第1030條之1的夫妻剩餘財產分配請求權，係於何種夫妻財產制才有適用？",
+      "options": [
+        "約定財產制",
+        "共同財產制",
+        "分別財產制",
+        "法定財產制"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "f79244208669",
+        "answer_pdf_sha1": "b0e444a8d54a",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "0607",
+          "q": "1"
+        },
+        "raw_section_label": "本試題為單一選擇題",
+        "subject": "法學知識(包括中華民國憲法、法學緒論)",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": 50,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0067",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "essay",
+      "question": "請回答下列問題，若有溢位（overflow）情形，請說明原因。請列出計算\n過程，未列出者，不予計分。\n請將十進位系統（DecimalSystem）中數字為 128，轉換為二進位系統\n（BinarySystem）的數字。（6 分）\n假設某一電腦系統，整數長度為8位元，負數以1的補數（1’scomplement）\n表示。請問十進位數值為+128，在此電腦系統中的表示為何？（12分）\n假設某一電腦系統，整數長度為8位元，負數以2的補數（2’scomplement）\n表示。請將十進位數值為-128，在此電腦系統中的表示為何？（12分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "beac4c96bf81",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "1902",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "計算機概論",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0068",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "essay",
+      "question": "指令循環（instructioncycle）為 CPU執行指令的一個循環過程，包含 IF\n（InstructionFetch）、ID（InstructionDecode）、MEM（MemoryAccess）、\nEXE（Execution）及 WB（WriteBack）等步驟。請回答下列問題（若有\n計算過程，請列出，否則不予計分）：（每小題 10分，共 30分）\n請詳細描述「IF」的過程。\n假設某一電腦在執行 IF、ID、MEM、EXE 及 WB 所需花費的時間分\n別為 15ns、5ns、15ns、5ns及 15ns。今有一程式共有 15000個指令\n依序執行（假設每個指令沒有等待其他指令執行完後才能執行的情形\n發生），執行完此程式共需花費多少時間？\n承題，假設某一電腦改以管線（Pipeline）方式執行此程式（假設有\n足夠多的工作元件負責指令循環中的各個步驟），執行完此程式共需\n花費多少時間？",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "beac4c96bf81",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "1902",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "計算機概論",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0069",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "essay",
+      "question": "串列（List）在 Python 中相當重要，串列可以包含不同類型的元素，List\n的方法 append()可新增元素到串列。在 Python 中，sort()方法與 sorted()\n函數，都是常使用的資料排序方式。請問在下列Python程式中，最後一\n行的 print(List_)會印出什麼？（15 分）\nList_=[]\nforindexinrange(5):\nList_.append([index,[index+1,5-index]])\nList_.sort(reverse=1)\nsorted(List_)\nprint(List_)",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "beac4c96bf81",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "1902",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "計算機概論",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0070",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "essay",
+      "question": "IP（InternetProtocol）是網際網路（Internet）運作很重要的通訊協定，請\n回答下列問題：\nIP是屬於那一層的通訊協定？（5 分）\n在 IPv4 中，IP 位址的組成包含網路位元（Network bits）與主機位元\n（Hostbits），並依此分成 5個類別（Class），請問 ClassA的網路位元\n（Network bits）與主機位元（Host bits）的分配為何？又有何特性才\n可以稱得上是 ClassA的網路？（10 分）\n在 IPv4 中，可以有幾個 Class B 的網路？而每個 Class B 的網路可以\n提供幾個主機位址？（10分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:07+00:00",
+        "source_pdf_sha1": "beac4c96bf81",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "1902",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "計算機概論",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0071",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "essay",
+      "question": "請回答下列問題：\n假設m(t)acos2f t以及c(t) A cos2f t，其中 A 以及 a 為常數，\nm c c c\n請求u(t)m(t)c(t)的功率頻譜密度（PowerSpectralDensity,PSD）S (f)\nu\n以及功率（Power）P 。（10 分）\nu\n接續，假設 f 105 Hz，且m(t)acos2(2103t)bsin2(4103t)，其\nc\n中 a 以及 b 為常數。假設U(f)為u(t)m(t)c(t)的傅立葉轉換（Fourier\nTransform），請求U(f)中包含的所有頻率成分。又根據奈奎斯特取樣\n定理（NyquistSamplingTheorem），請求u(t)m(t)c(t)的奈奎斯特取樣\n頻率。（15 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:08+00:00",
+        "source_pdf_sha1": "3cb7492e6251",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "1901",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "通信原理",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0072",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "essay",
+      "question": "下圖分別為 4-PSK、8-PSK 以及 8-QAM 的訊號星座點（Signal\nconstellation）圖，請回答下列問題：（每小題10分，共 30分）\nA\nd\nb A\na A\nc\n4-PSK 8-PSK 8-QAM\n假設在 8-QAM 訊號星座點圖中，訊號間的最短距離（Minimum\nDistance）為 A，請以 A表示 c以及 d 的計算式。\n接續，假設經由 AWGN通道，利用 4-PSK、8-PSK與 8-QAM 星座\n點圖調變後的三種數位訊號達到相同的錯誤機率，請以 A表示 b以及\na 的計算式。\n接續，請計算三種不同數位調變系統的平均傳送器功率（Average\ntransmitterpower），並比較三種不同的調變系統。假設在每一星座點圖\n中，每一個訊號點的機率都均等。",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:08+00:00",
+        "source_pdf_sha1": "3cb7492e6251",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "1901",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "通信原理",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0073",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "essay",
+      "question": "請考慮以下四個訊號S1(t)、S2(t)、S3(t)、S4(t)，並回答下列問題：\n（每小題10 分，共 20 分）\nS1(t) S2(t)\n2\n1\n0 t 0 t\n1 4 1 2 3 4\n-1 -1\nS3(t) S4(t)\n2\n1 1\n0 t 0 t\n1 3 1 3 4\n-1\n-2 -2\n請決定該組訊號{S1(t),S2(t),S3(t),S4(t)}的維度（Dimension）n，並利\n用一組基底函數（BasisFunctions）(t)，1in，來表示該組訊號，\ni\nn\n也就是Sm(t) s  (t)，m1,2,3,4。\ni1 mi i\n接續，利用一組基底函數我們可利用向量 s =（s , s , …, s ）來\nm m1 m2 mn\n表示訊號Sm(t)，m1,2,3,4。請計算該組向量{s、s 、s 、s }間的最短\n1 2 3 4\n距離（Minimum Distance）。",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:08+00:00",
+        "source_pdf_sha1": "3cb7492e6251",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "1901",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "通信原理",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0074",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "essay",
+      "question": "假設 m(t) 為輸入訊號， x (t)m(t)cos(2f t) 為調幅（Amplitude\nr c 0\nModulation, AM）調變器的輸出訊號，其中為常數。由下圖所示，將\n0\nx (t)通過一調幅解調變器可得解調變訊號y (t)：\nr D\n該解調變器所使用的載波為2cos(2f t)，其中 t為相位誤差，\nc 0 0 0\n請求該調幅解調變器輸出訊號的均方誤差（Mean-Square Error, MSE）。\n（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:08+00:00",
+        "source_pdf_sha1": "3cb7492e6251",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112150",
+          "c": "402",
+          "s": "1901",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "通信原理",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試外交領事人員及外交行政人員考試、國際經濟商務人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0075",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "essay",
+      "question": "請說明「民用航空法」第 1條所敘的立法精神，並申論其意義。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:08+00:00",
+        "source_pdf_sha1": "5355e06f0960",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111150",
+          "c": "403",
+          "s": "1901",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "民用航空法",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試外交領事人員及外交行政人員考試、民航人員考試、國際經濟商務人員考試、原住民族考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0076",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "essay",
+      "question": "一般在空運領域中多將航空站的範圍分為空側與陸側兩部分，請依據民\n用航空法中對於航空站的定義，說明前述的劃分標準。（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:08+00:00",
+        "source_pdf_sha1": "5355e06f0960",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111150",
+          "c": "403",
+          "s": "1901",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "民用航空法",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試外交領事人員及外交行政人員考試、民航人員考試、國際經濟商務人員考試、原住民族考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0077",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "essay",
+      "question": "請依據各種航權（trafficright）的意義，說明我國籍航空公司（譬如長榮\n航空或中華航空）經營臺北（桃園國際機場）-香港航線，是依據臺灣與\n香港簽訂的何種航權？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:08+00:00",
+        "source_pdf_sha1": "5355e06f0960",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111150",
+          "c": "403",
+          "s": "1901",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "民用航空法",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試外交領事人員及外交行政人員考試、民航人員考試、國際經濟商務人員考試、原住民族考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0078",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "essay",
+      "question": "請依據「民用航空法」的規範，說明航空器失事致人死傷或毀損他人財\n物時，失事原因與損害賠償責任之間的關係。（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:08+00:00",
+        "source_pdf_sha1": "5355e06f0960",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111150",
+          "c": "403",
+          "s": "1901",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "民用航空法",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試外交領事人員及外交行政人員考試、民航人員考試、國際經濟商務人員考試、原住民族考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0079",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "essay",
+      "question": "請回答下列問題：\n在正整數系統中，5 位數的十進制可以表示的最大數為何？5 位數的\n八進制可以表示的最大數為何？（6 分）\n十進制數17.1875轉為二進制數是多少？十進制數49.40625轉為二進\n制數是多少？（6 分）\n十六進制數 99 與十六進制數 99 進行 OR 運算結果是多少？十六進制\n數 99 與十六進制數 FF進行 OR 運算結果是多少？（6 分）\n因為 I/O 設備的執行速度比 CPU 慢得多，所以 CPU 的執行必須採取\n可程式（Programmed）I/O來同步外，還有那兩種同步方法？（6分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:08+00:00",
+        "source_pdf_sha1": "0379b55f291c",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111150",
+          "c": "403",
+          "s": "1803",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "計算機概論",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試外交領事人員及外交行政人員考試、民航人員考試、國際經濟商務人員考試、原住民族考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0080",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "essay",
+      "question": "請回答下列問題：\n一台主機使用TCP/IP協定套件（protocolsuite）與另一台主機通信，\n在應用層（application layer），其發送或接收的資料單位是訊息\n（message），請問在網路層（networklayer）和資料鍵結層（data-link\nlayer）的發送或接收的資料單位各是什麼？（6分）\n有一多程式（multiprogramming）作業系統使用分配方案並劃分100 MB\n可用記憶體分為10MB、12MB、18MB、20MB和40MB五個分區。\n第一個執行的程式需要 17 MB 並占用第三個分區。第二個程式需\n要 8MB 並占用第一個分區。第三個程式需要 11MB 並占用第二個\n分區，第四個程式需要 20 MB 並占用第四個分區，最後，第五個程式\n需要39MB並占用第五個分區，則使用的總記憶體是多少？總共浪費了\n多少記憶體？浪費了多少記憶體百分比？（9分）\n死鎖（Deadlock）並不總是發生，死鎖有四個必要條件，其中何謂\n「Mutualexclusion」？ 何謂「Resourceholding」？（6 分）\n假設您要為某個單位長官設定 Windows 個人電腦網路，與網路有關\n的設定參數有--電腦名稱： Chairman, 工作群組： Admin, IP：\n192.168.110.26, DNS：168.95.1.1, 請問還要設定 Netmask 和 Gateway\n為何？電腦才能正確上網？（6分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:08+00:00",
+        "source_pdf_sha1": "0379b55f291c",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111150",
+          "c": "403",
+          "s": "1803",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "計算機概論",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試外交領事人員及外交行政人員考試、民航人員考試、國際經濟商務人員考試、原住民族考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0081",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "essay",
+      "question": "請回答下列問題：\n以下程式執行後，輸出顯示什麼？（6分）\n在 C程式設計中，儲存類別指示器（storage-classspecifiers）除了auto\n外，還有那三個？（6分）\n以下程式執行時，輸入兩個正整數為87 和 6，則輸出顯示什麼？（6分）\n以下程式執行後，輸出顯示什麼？（6分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:08+00:00",
+        "source_pdf_sha1": "0379b55f291c",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111150",
+          "c": "403",
+          "s": "1803",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "計算機概論",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試外交領事人員及外交行政人員考試、民航人員考試、國際經濟商務人員考試、原住民族考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0082",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "essay",
+      "question": "請回答下列問題：（每小題 5 分，共 25 分）\n說明如何用一個陣列（array）來實現 2 個堆疊（stacks）？\n有一二元樹的中序追蹤（inordertraversal）為(a+(b*c))+(((d*e)+f)*g)，\n其前序追蹤（preordertraversal）為 ++ a* b c* + * d ef g，請畫出此\n二元樹。\n畫出將3, 1, 4, 6, 9, 2, 5, 7 插入初始為空的二元搜尋樹（binary search\ntree）中的結果。\n有一 hash 函數 h(x)= x(mod()10)，假設 x 分別給定輸入{4371, 1323,\n6173,4199,4344,9679,1989}，若使用 separatechaining hash table，請\n畫出結果。\n使用插入排序法（insertionsort）來對序列 3,1,4,1,5,9,2,6,5 進行由\n小到大的排序，寫出排序過程。",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:08+00:00",
+        "source_pdf_sha1": "0379b55f291c",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111150",
+          "c": "403",
+          "s": "1803",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "計算機概論",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試外交領事人員及外交行政人員考試、民航人員考試、國際經濟商務人員考試、原住民族考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0083",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "essay",
+      "question": "取樣（Sampling）是將連續時間信號傳換為離散時間信號的一種過程。\n假設取樣週期為T ，一連續時間信號x (t)經過一理想的連續/離散轉\ns c\n換器（Ideal C/D）取樣，如下圖所示，可得離散時間信號\nx (t) x (nT )(tnT ) ， 其 中 (t) 為 脈 衝 函 數 （ Impulse\ns n c s s\nFunction）。將取樣後的離散時間信號x (t)經過一低通重建濾波器\ns\n（Low-Pass Reconstruction Filter）h (t)，可得一連續信號x (t)。\nr r\nx (t)\nx (t) C/D s h(t) x (t)\nc r r\nT\ns\n假設x (t) 2cos(100/4)cos(300t/3)， t ，而低通\nc\n重建濾波器h (t)的頻率響應（Frequency response）為\nr\nT , f  f /2;\nH (f) s s\nr 0, f  f /2.\ns\n若 f 1/T 500 Hz，請求x (t)以及其頻率響應X (f)。（6分）\ns s r r\n若 f 1/T  250 Hz，請求x (t)以及其頻率響應X (f)。（6分）\ns s r r\n如果我們希望獲得x (t) A Bcos(100/4)，其中 A、B 為常\nr\n數，請問 f 1/T 應該設定為多少 Hz？（6分）\ns s",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:08+00:00",
+        "source_pdf_sha1": "063680ebdfe0",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111150",
+          "c": "403",
+          "s": "1802",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "通信原理",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試外交領事人員及外交行政人員考試、民航人員考試、國際經濟商務人員考試、原住民族考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0084",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "essay",
+      "question": "傳統調幅（AM）之調變信號可以表示成u(t) A (1m(t))cos(2f t)，\nc c\n其中m(t)為欲傳送的信號，而c(t) A cos(2f t)為載波（Carrier）。\nc c\n假設\nu(t)5cos(1800t)20cos(2000t)5cos(2200t)\n請求出m(t)以及c(t)。（8分）\n1 T 2\n請計算u(t)的功率P  lim  u2(t)dt。（10分）\nu T\nT T 2",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:08+00:00",
+        "source_pdf_sha1": "063680ebdfe0",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111150",
+          "c": "403",
+          "s": "1802",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "通信原理",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試外交領事人員及外交行政人員考試、民航人員考試、國際經濟商務人員考試、原住民族考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0085",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "essay",
+      "question": "在比較不同的數位調變系統時，通常我們會從調變信號的分布圖\n（constellation diagram）來評估該通訊系統的效能。我們可將一符元\n（symbol）的兩個正交調變信號視為一向量，並在直角平面坐標上畫\n成一點，則集合所有符元所構成之點即為該數位調變系統的信號分布\n圖。從分布圖上，我們不僅可觀察信號整體分布，並可計算出該信號\n分布圖中兩個符元間的最短距離d ，藉此評估此通訊系統之效能。\nmin\n考慮以下五張不同信號分布圖：（a）,（b）,（c）,（d）,（e），每張分\n布圖都包含八點信號，其中圖（e）為8-PSK，為了達到相同的傳輸效\n能，我們假設五張信號分布圖其信號間的最短距離 d =2。\nmin\n(2,2) (0,2) (2,2)\n(3,1) (1,1) (1,1) (3,1)\n(2,0) (2,0)\n(3,1) (1,1) (1,1) (3,1)\n(2,2) (0,2) (2,2)\n(a) (b)\n(0,B)\n(A,A) (A,A)\n2\n(1,1) (1,1)\n(1,1) (1,1)\n(B,0) (B,0)\n2\n(1,1) (1,1)\n(1,1) (1,1)\n(A,A) (A,A)\n(0,B)\n(c) (d)\n2\n( 42 2,0)\n(e)8-PSK\n請求出圖（c）中的坐標A以及圖（d）中的坐標B的值為何？（8分）\n根據信號分布圖（a）,（b）,（c）,（d）,（e），請計算五個不同數\n位調變系統中其平均的傳輸功率P 。（15分）\nav\n請比較五個不同數位調變系統的優劣，那一個系統最好？那一個系\n統最差？為什麼？（6分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:08+00:00",
+        "source_pdf_sha1": "063680ebdfe0",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111150",
+          "c": "403",
+          "s": "1802",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "通信原理",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試外交領事人員及外交行政人員考試、民航人員考試、國際經濟商務人員考試、原住民族考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0086",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "essay",
+      "question": "頻率調變連續波（FrequencyModulatedContinuousWave,FMCW）雷\n達由於體積小、距離量測解析度高、對雜訊靈敏度低、以及容易整合\n的特性，已經被廣泛應用於先進汽車駕駛輔助系統（AdvancedDriver\nAssistanceSystems,ADAS）中。一典型的 FMCW雷達傳送波x (t)是\ntx\n一個頻率為鋸齒波的 FM信號，如圖一所示，其頻率可表示成\nB\nf(t) f  t  f t , t nT t , 0t T, n0,1,2,\nc s c s s s\nT\n其中 f 為起始頻率（或載波頻率），B 是掃頻範圍（或信號頻寬），T\nc\n是掃頻時間（SweepTime）（或週期）， B/T為斜率（或 ChirpRate）。\n該鋸齒波的 FM信號即為 FMCW 雷達的傳送信號x (t)，也就是\ntx\nt  1\nx (t) Acos(2 f tdt) Acos2 f t t2  Acos(u(t)),0t T\ntx c 2\n0\n當傳送波碰到目標物反射後，其回波（Echo）由 FMCW接收器接收，\n如圖一所示，其中實線表示傳送信號 x (t)，記為TX，而虛線表示回\ntx\n波信號x (t)，記為 RX。透過計算 TX 信號與 RX 信號的時間差 與\nrx\n都卜勒頻率位移f ，即可求得目標物與雷達源（Source）之間的相對\nD\n距離以及相對移動速度。\nf\nf B TX RX\nc\nf\nb\nf\nf D t\nc\nT\n圖一 鋸齒波FMCW傳送信號TX與迴波信號RX\nFMCW的接收器設計非常簡單，只要將 TX信號與 RX信號相乘（或\n稱 Mixing），如圖二所示，其中 t 為 TX信號的傳送時間，而 t 為 RX\n1 2\n信號的接收時間，再將所得到的混合信號x (t)經由低通濾波器（Low-\nm\npassFilter）處理後，即可求得t 與 f 。\nd D\nx (t)\ntx 1\nx (t)\nB 1\nx (t )\nrx 2\nx ()x (t)x (t )\nm tx 1 rx 2\nt t\n2 1\n圖二 FMCW雷達接收機\n因為 RX 是迴波，因此我們可假設x (t )Bcos(u(t ))。假設目\nrx 2 1\n標物靜止，也就是圖一中的 f 0，請驗證圖二中低通濾波器（LP\nD\nFilter）的輸出為x (t )為\nB 1\nAB  1  AB\nx t  cos2 t  f 2  cos2t ()。\nB 1 2 1 c 2 2 1\n（15分）\n（Hint：先計算Acos(u(t ))Bcos(u(t ))，再將其高頻信號部分濾除，\n1 1\n即可得x (t )）\nB 1\n由得知，基頻信號x (t)是一單頻率 f 信號與一隨時而變的\nB b\n相位()所組成，FMCW 雷達的基頻信號x (t)又稱為拍頻（Beat\nB\nFrequency）。我們可以用拍頻x ()的頻率 f 計算出目標物與\nB b\n雷達源之間的相對距離。假設 f = 77 GHz，B = 4 GHz，而 T = 40\nc\ns，今有一雷達迴波測得其= 2 s，請問該目標物距離雷達源的\n距離為何？（10分）\n（Hint：雷達波以光速（c3108 m/s）傳遞，而2R/c，其中 R為\n目標物與雷達源之間的相對距離）\n由，假設 f =77GHz，B=4GHz，而 T=40s則此三角波 FMCW\nc\n雷達最小可測之距離（或稱為距離解析度）為何？（10分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:08+00:00",
+        "source_pdf_sha1": "063680ebdfe0",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111150",
+          "c": "403",
+          "s": "1802",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "通信原理",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試外交領事人員及外交行政人員考試、民航人員考試、國際經濟商務人員考試、原住民族考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0087",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "essay",
+      "question": "何謂機場時間帶？時間帶分配的目的為何？交通部民用航空局針對國\n際航線機場如何分配或協調時間帶？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:08+00:00",
+        "source_pdf_sha1": "8d9c1178eb21",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110150",
+          "c": "303",
+          "s": "2001",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "民用航空法",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試外交領事人員及外交行政人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0088",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "essay",
+      "question": "請說明飛安自願報告系統的目的、精神與特性為何？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:08+00:00",
+        "source_pdf_sha1": "8d9c1178eb21",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110150",
+          "c": "303",
+          "s": "2001",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "民用航空法",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試外交領事人員及外交行政人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0089",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "essay",
+      "question": "請依據民用航空法，說明民用航空運輸業與普通航空業的差異？緊急醫\n療專機屬於上述那一類？如經申請核准，普通航空業可經營其他那些航\n空運輸業務？（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:08+00:00",
+        "source_pdf_sha1": "8d9c1178eb21",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110150",
+          "c": "303",
+          "s": "2001",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "民用航空法",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試外交領事人員及外交行政人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0090",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "essay",
+      "question": "依據民用航空法，請說明民用航空運輸業欲申請新闢或增加航線並展開\n營運，所必須完備之程序。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:08+00:00",
+        "source_pdf_sha1": "8d9c1178eb21",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110150",
+          "c": "303",
+          "s": "2001",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "民用航空法",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試外交領事人員及外交行政人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0091",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "essay",
+      "question": "行程（Process）是電腦作業系統中重要的元素，請回答下列有關作業系\n統行程之問題：\n在作業系統中，行程以行程控制區塊（ProcessControlBlock,PCB）表\n示，PCB 中除了 CPU 排程資訊和記憶體管理資訊外，還有那三個元\n素？一個行程在電腦中執行時會有 New, Running, Waiting, Ready,\nTerminated 等狀態，請完成下列程序狀態圖（Process State Diagram）\n（I）~（VI）的狀態和轉換。（15分）\n(I)\n(II)\nnew exit\nterminate\n(IV) (V)\n(III)\n或 I/O或eventwait\nI/O event\n(VI)\n請說明兩種程序間溝通（InterprocessCommunication,IPC）機制的基礎\n模型：分享記憶體（SharedMemory）與訊息傳遞（MessagePassing），\n在不同狀況下的優缺點。（10分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:08+00:00",
+        "source_pdf_sha1": "292970b79414",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110150",
+          "c": "303",
+          "s": "1803",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "計算機概論",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試外交領事人員及外交行政人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0092",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "essay",
+      "question": "佇列（Queue）是重要的資料結構，可使用陣列（Array）或鏈結串列（Link\nList）實作。\n請填寫下表，從空間使用、增刪速度上說明，以陣列（Array）或鏈結\n串列（Link List）實作佇列的優缺點。（6分）\n以陣列實作 鏈結串列實作\n使用空間數量已知\n使用空間數量未知\n增加刪除元素\n佇列一般從後端（back）加入（enqueue）一個新元素，從前端（front）\n刪除（dequeue）一個元素。請完成下面使用陣列實作環狀佇列（Circular\nQueue）程式碼（I~V）空格，使輸出為：（15 分）\nenqueuedata=0,enqueuedata=1,QueueFull,QueueFull,QueueFull,\ndequeuedata=0,dequeuedata=1,QueueEmpty,QueueEmpty,QueueEmpty,\n#include<stdio.h> intmain(){\n#defineSIZE3 intk=0;\ntypedefenum{FALSE,TRUE}bool; //front=index[0];back=index[1];\nboolisEmpty(intfront,intback){ //dequeuedata=index[2]\nreturn(front== (I) ); intindex[3]={0,0,0};\n} intdata[SIZE];\nboolisFull(intfront,intback){ boolresult;\nreturn(( (II) )==front); for(inti=0;i<5;i++){\n} result=enqueue(data,index,k++);\nboolenqueue(intdata[],intindex[],intkey){ if(!result)printf(\"QueueFull,\");\n//front=index[0]; back=index[1]; elseprintf(\"enqueuedata=%d,\",k-1);\nif(isFull(index[0],index[1])) }\nreturnFALSE; printf(\"\\n\");\nindex[1]= (III) ; for(inti=0;i<5;i++){\ndata[index[1]]=key; result=dequeue(data,index);\nreturn (IV) ; if(!result)printf(\"QueueEmpty,\");\n} else\nintdequeue(intdata[],intindex[]){ printf(\"dequeuedata=%d,\",index[2]);\n//front=index[0]; back=index[1]; }\n//dequeuedata=index[2] return0;\nif(isEmpty(index[0],index[1])) }\nreturnFALSE;\nindex[0]= (V) ;\nindex[2]=data[index[0]];\nreturnTRUE;\n}\n請說明最大優先權佇列（Max-PriorityQueue）有那些基本操作，以及\n如何應用於作業系統排程。（4 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:08+00:00",
+        "source_pdf_sha1": "292970b79414",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110150",
+          "c": "303",
+          "s": "1803",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "計算機概論",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試外交領事人員及外交行政人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0093",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "essay",
+      "question": "第5代行動通訊標準（5G）是第4代行動通訊標準（4G）後技術的進化。\n請說明國際電信聯盟（ITU）制定 5G三大目標/特性：eMBB（高頻寬、\n高速），uRLLC（高可靠度、低延遲），mMTC（多連結）。（15分）\n請說明無人機與虛擬實境（Virtual Reality, VR）如何應用這些特性。\n（10 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:08+00:00",
+        "source_pdf_sha1": "292970b79414",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110150",
+          "c": "303",
+          "s": "1803",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "計算機概論",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試外交領事人員及外交行政人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0094",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "essay",
+      "question": "請回答下列作業系統記憶體管理相關問題：\n設定記憶體管理中，目前的記憶體配置狀態如下圖，A~E區域為尚未\n使用的部份，其餘為已配置行程（process）區域。若有新行程需要 290K\n記憶體，請分別使用最先合適法（firstfit）、最佳合適法（bestfit）與\n最差合適法（worstfit）時，新行程會被分配的區域，並計算新產生的\n碎片大小。（18分）\nProcess1\nA(490K)\nProcess2\nB(210K)\nProcess3\nC(400K)\nProcess4\nD(690K)\nProcess5\nE(320K)\nProcess6\n記憶體碎裂可分為外部碎裂（external fragmentation）與內部碎裂\n（internalfragmentation）。請說明分頁（paging）與分段（segmentation）\n記憶體管理法會產生碎裂的種類與原因。（7分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:08+00:00",
+        "source_pdf_sha1": "292970b79414",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110150",
+          "c": "303",
+          "s": "1803",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "計算機概論",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試外交領事人員及外交行政人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0095",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "essay",
+      "question": "考慮對時間信號x(t)進行取樣，試回答下列問題：\n闡明傅立葉轉換（FourierTransform）與取樣理論之間的關係，並舉一\n單頻三角函數信號之取樣為例，清楚說明在取樣率不足的情況下會造\n成頻率 Aliasing 現象。（15 分）\n闡明如何運用數位信號處理技術將x(t)轉變成x(at)信號，其中 a 為\n一正實數，並畫出達成此功能的整個數位信號處理流程架構圖，包括\n所需的功能方塊，並標明相關參數。（10分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:08+00:00",
+        "source_pdf_sha1": "2c2e6c4f2801",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110150",
+          "c": "303",
+          "s": "1802",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "通信原理",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試外交領事人員及外交行政人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0096",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "essay",
+      "question": "有一角度調變（anglemodulated）信號x(t)  Acos(2f t cos(2f t))，\nc m\nf  f x(t)\n其中 。若 為窄頻信號，詳細推導出其簡化的近似\nc m\nx(t)\n（approximated）式，並清楚定義及解釋 為窄頻（Narrowband）信號\n的條件及清楚推導出其頻寬（Bandwidth）。（10分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:08+00:00",
+        "source_pdf_sha1": "2c2e6c4f2801",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110150",
+          "c": "303",
+          "s": "1802",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "通信原理",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試外交領事人員及外交行政人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0097",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "essay",
+      "question": "詳細解釋下列有關數位通信接收器的問題：\n若傳輸通道為相加性白色高斯雜訊（AWGN）通道，畫出此傳輸模型\n（model）。其最佳接收器為最大後機率 MAP（Maximum a Posteriori）\n接收器，詳細闡述其原理。（15分）\n同樣在 AWGN 通道情況下，詳細闡述最大可能性 ML（Maximum\nLikelihood）接收器的原理，其與上述MAP接收器的關係為何。（10分）\n詳細畫出基於匹配濾波器（Matched Filter）架構之 ML 相位鍵 PSK\n（Phase-ShiftKeying）接收器。（10 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:08+00:00",
+        "source_pdf_sha1": "2c2e6c4f2801",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110150",
+          "c": "303",
+          "s": "1802",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "通信原理",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試外交領事人員及外交行政人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "aviation-f9fdcd58-0098",
+      "exam_id": "aviation-f9fdcd58",
+      "question_type": "essay",
+      "question": "詳細闡明如下無線衰減（fading）傳輸通道（channel）的概念與物理意義：\n闡明 Rayleigh 衰減通道的概念與物理意義。它是特別針對何種物理量\n進行界定？此衰減效應亦連結有相位的變化，詳細說明此相位的機率\n密度函數（probabilitydensityfunction）為何？（10分）\n闡明 Rician衰減通道的概念與物理意義。它是特別針對何種物理量進\n行界定？（10 分）\n各舉一例現行通信系統（如 Wifi與行動通信系統）其傳輸通道之衰減\n效應較接近 Rayleigh 或 Rician 衰減，並清楚解釋其原因。（10 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:08+00:00",
+        "source_pdf_sha1": "2c2e6c4f2801",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110150",
+          "c": "303",
+          "s": "1802",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "通信原理",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試外交領事人員及外交行政人員考試、民航人員考試、原住民族考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    }
+  ]
+}

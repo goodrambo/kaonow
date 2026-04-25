@@ -1,0 +1,13 @@
+{
+  "slug": "locality-6f0ba476",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:35:06+00:00",
+  "paper_count": 26,
+  "paper_with_questions": 26,
+  "question_count": 640,
+  "type_counts": {
+    "essay": 57,
+    "single_choice": 583
+  },
+  "issues": []
+}

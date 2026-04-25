@@ -1,0 +1,1312 @@
+{
+  "slug": "colonel-bd450684",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:26:59+00:00",
+  "paper_count": 3,
+  "paper_with_questions": 3,
+  "question_count": 35,
+  "type_counts": {
+    "essay": 10,
+    "single_choice": 25
+  },
+  "papers": [
+    {
+      "year": "114",
+      "exam_code": "114040",
+      "c": "804",
+      "s": "0408",
+      "q": "1",
+      "subject": "刑法及犯罪學",
+      "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "e50784b73136",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "111",
+      "exam_code": "111050",
+      "c": "805",
+      "s": "0306",
+      "q": "1",
+      "subject": "中華民國憲法與英文",
+      "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "3f5714614791",
+      "a_pdf_sha1": "55ae2f381871",
+      "format_detected": "mixed",
+      "raw_question_count": 27,
+      "answer_qnums_extracted": 25,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 27,
+      "skipped_count": 0
+    },
+    {
+      "year": "111",
+      "exam_code": "111050",
+      "c": "805",
+      "s": "0503",
+      "q": "1",
+      "subject": "刑法及犯罪學",
+      "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "e8876fcc3eee",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    }
+  ],
+  "questions": [
+    {
+      "id": "colonel-bd450684-0001",
+      "exam_id": "colonel-bd450684",
+      "question_type": "essay",
+      "question": "甲男與 A 女因工作關係相識，某日甲男邀約 A 女至某餐廳用餐，餐後見\n當時包廂內僅 A女一人，藉自身身形優勢，強吻A女嘴唇，因 A女轉頭\n而挪動嘴唇之反抗舉止，始停止親吻。之後甲男見 A 女呆坐原地不知所\n措，再次藉自身身形優勢，不顧A女撇頭、以手出力掙脫之反抗舉止，接\n續強吻及伸舌碰觸 A女嘴唇。試論述本案甲男之可罰性為何？（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:59+00:00",
+        "source_pdf_sha1": "e50784b73136",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "804",
+          "s": "0408",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "刑法及犯罪學",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-bd450684-0002",
+      "exam_id": "colonel-bd450684",
+      "question_type": "essay",
+      "question": "甲駕車行經臨檢點，經員警實施酒測，測得其吐氣所含酒精濃度達每公升\n0.26 毫克，甲不服取締並以一系列不雅文字大聲辱罵員警，試問本案甲之\n可罰性為何？（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:59+00:00",
+        "source_pdf_sha1": "e50784b73136",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "804",
+          "s": "0408",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "刑法及犯罪學",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-bd450684-0003",
+      "exam_id": "colonel-bd450684",
+      "question_type": "essay",
+      "question": "犯罪學雖重在對犯罪現象本質探討，但學者往往就自己對犯罪界定觀點，\n而影響其犯罪學研究的取向。一般而言，犯罪學上的犯罪可分為「一致觀\n的犯罪論」、「衝突觀的犯罪論」及「互動觀的犯罪論」。試比較分析「一\n致觀犯罪論」與「衝突觀犯罪論」在「犯罪本質」與「犯罪處理與預防」\n間之差異為何？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:59+00:00",
+        "source_pdf_sha1": "e50784b73136",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "804",
+          "s": "0408",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "刑法及犯罪學",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-bd450684-0004",
+      "exam_id": "colonel-bd450684",
+      "question_type": "essay",
+      "question": "犯罪預防通常隱含犯罪預測，乃因犯罪預防一個非常重要的原則是：犯罪\n是高度集中在特定的人群、地點與事物。請以「重複犯罪者」、「重複被\n害者」、「犯罪熱點」及「熱門財物」分別加以論述之，並論述其在犯罪\n預防上之具體應用為何？（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:59+00:00",
+        "source_pdf_sha1": "e50784b73136",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "804",
+          "s": "0408",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "刑法及犯罪學",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-bd450684-0005",
+      "exam_id": "colonel-bd450684",
+      "question_type": "essay",
+      "question": "憲法第 15條規定：「人民之生存權、工作權及財產權，應予保障。」而\n律師法第28 條則明文規定：「司法人員自離職之日起 3 年內，不得在其\n離職前 3 年內曾任職務之法院或檢察署執行律師職務。但其因停職、休\n職或調職等原因離開上開法院或檢察署已滿 3年者，不在此限。」試問\n上述律師法條文是否構成違憲？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:59+00:00",
+        "source_pdf_sha1": "3f5714614791",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "805",
+          "s": "0306",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "中華民國憲法與英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-bd450684-0006",
+      "exam_id": "colonel-bd450684",
+      "question_type": "essay",
+      "question": "何謂憲法制度性保障，試加以說明之。又司法院大法官曾就此議題作成\n解釋，並試舉司法院大法官解釋說明之。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:59+00:00",
+        "source_pdf_sha1": "3f5714614791",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "805",
+          "s": "0306",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "中華民國憲法與英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-bd450684-0007",
+      "exam_id": "colonel-bd450684",
+      "question_type": "single_choice",
+      "question": "Timhasbeenrankedasthesixthamongtheworld’sbesttennisplayers.Thoughhe’sstillyoung,heis regardedasthefuture inthefieldoftennis.",
+      "options": [
+        "backroomboy",
+        "kingofthehill",
+        "hotpotato",
+        "princeconsort"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:59+00:00",
+        "source_pdf_sha1": "3f5714614791",
+        "answer_pdf_sha1": "55ae2f381871",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "805",
+          "s": "0306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "中華民國憲法與英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-bd450684-0008",
+      "exam_id": "colonel-bd450684",
+      "question_type": "single_choice",
+      "question": "Breedsofdogswithdifferentformsandinstinctshavebeendeveloped,bymoreorless selection, tofitdifferentpurposesinthehumansociety.",
+      "options": [
+        "deconstructive",
+        "declined",
+        "deliberate",
+        "disruptive"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:59+00:00",
+        "source_pdf_sha1": "3f5714614791",
+        "answer_pdf_sha1": "55ae2f381871",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "805",
+          "s": "0306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "中華民國憲法與英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-bd450684-0009",
+      "exam_id": "colonel-bd450684",
+      "question_type": "single_choice",
+      "question": "In2017,theEnvironmentalProtectionAgencyreportedthat11.2milliontonsoftextilewasteintheUS endedupin .",
+      "options": [
+        "dumpers",
+        "dustbins",
+        "landfalls",
+        "landfills"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:59+00:00",
+        "source_pdf_sha1": "3f5714614791",
+        "answer_pdf_sha1": "55ae2f381871",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "805",
+          "s": "0306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "中華民國憲法與英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-bd450684-0010",
+      "exam_id": "colonel-bd450684",
+      "question_type": "single_choice",
+      "question": "Sincetheprincipalwouldn’tbeavailabletovote,shenominatedDr.Fantoactasher .",
+      "options": [
+        "badger",
+        "caliber",
+        "proxy",
+        "regimen"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:59+00:00",
+        "source_pdf_sha1": "3f5714614791",
+        "answer_pdf_sha1": "55ae2f381871",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "805",
+          "s": "0306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "中華民國憲法與英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-bd450684-0011",
+      "exam_id": "colonel-bd450684",
+      "question_type": "single_choice",
+      "question": "Agricultureconsumesabout70%oftheworld’sfreshwater,soimprovementsin canmakethe greatestimpact.",
+      "options": [
+        "irruption",
+        "irrigation",
+        "irradiation",
+        "irritation"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:59+00:00",
+        "source_pdf_sha1": "3f5714614791",
+        "answer_pdf_sha1": "55ae2f381871",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "805",
+          "s": "0306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "中華民國憲法與英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-bd450684-0012",
+      "exam_id": "colonel-bd450684",
+      "question_type": "single_choice",
+      "question": "Thebestwaytobeatthis marketisbytrading,whichmeansanxiouslymovinginandoutof securitiesasthemarketebbsandflows.",
+      "options": [
+        "volatile",
+        "mobile",
+        "redundant",
+        "sedative"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:59+00:00",
+        "source_pdf_sha1": "3f5714614791",
+        "answer_pdf_sha1": "55ae2f381871",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "805",
+          "s": "0306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "中華民國憲法與英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-bd450684-0013",
+      "exam_id": "colonel-bd450684",
+      "question_type": "single_choice",
+      "question": "TheVolkswagenGroup wascaughtcheatingon emissionstestingin2015.This hascost the companydearlybothinrevenueandreputation.",
+      "options": [
+        "coincidence",
+        "achievement",
+        "scandal",
+        "stowaway"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:59+00:00",
+        "source_pdf_sha1": "3f5714614791",
+        "answer_pdf_sha1": "55ae2f381871",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "805",
+          "s": "0306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "中華民國憲法與英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-bd450684-0014",
+      "exam_id": "colonel-bd450684",
+      "question_type": "single_choice",
+      "question": "Landslidesinpreviousstormshadopenedgaping inthecliffbehindthevillage.",
+      "options": [
+        "mountains",
+        "sideswipes",
+        "pitfalls",
+        "chasms"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:59+00:00",
+        "source_pdf_sha1": "3f5714614791",
+        "answer_pdf_sha1": "55ae2f381871",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "805",
+          "s": "0306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "中華民國憲法與英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-bd450684-0015",
+      "exam_id": "colonel-bd450684",
+      "question_type": "single_choice",
+      "question": "Theword“lady”has ofrefinementandexcessivefemininitythatsomewomenfindoffensive.",
+      "options": [
+        "detentions",
+        "oppressions",
+        "hallucinations",
+        "connotations"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:59+00:00",
+        "source_pdf_sha1": "3f5714614791",
+        "answer_pdf_sha1": "55ae2f381871",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "805",
+          "s": "0306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "中華民國憲法與英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-bd450684-0016",
+      "exam_id": "colonel-bd450684",
+      "question_type": "single_choice",
+      "question": "Thisarchitecture ademocraticspiritofthecountryanditsstruggletobefreefromadepraved formoffeudalism.",
+      "options": [
+        "reckons",
+        "reconciles",
+        "reflects",
+        "rectifies"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:59+00:00",
+        "source_pdf_sha1": "3f5714614791",
+        "answer_pdf_sha1": "55ae2f381871",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "805",
+          "s": "0306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "中華民國憲法與英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-bd450684-0017",
+      "exam_id": "colonel-bd450684",
+      "question_type": "single_choice",
+      "question": "Theexecutiveordersallowedundocumentedimmigrantswhosecountrieswouldn’ttakethemback,or whohadsympatheticcircumstances,toavoiddetentionand .",
+      "options": [
+        "compensation",
+        "disruption",
+        "probation",
+        "deportation"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:59+00:00",
+        "source_pdf_sha1": "3f5714614791",
+        "answer_pdf_sha1": "55ae2f381871",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "805",
+          "s": "0306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "中華民國憲法與英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 11,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-bd450684-0018",
+      "exam_id": "colonel-bd450684",
+      "question_type": "single_choice",
+      "question": "Allthosewhohad indoingtheirassignmentscouldnowrepentattheirleisure.",
+      "options": [
+        "procrastinated",
+        "prospected",
+        "progressed",
+        "prompted"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:59+00:00",
+        "source_pdf_sha1": "3f5714614791",
+        "answer_pdf_sha1": "55ae2f381871",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "805",
+          "s": "0306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "中華民國憲法與英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 12,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-bd450684-0019",
+      "exam_id": "colonel-bd450684",
+      "question_type": "single_choice",
+      "question": "Mass media should avoid reporting unconfirmed information or creating unnecessary public alarm.",
+      "options": [
+        "scrupulously",
+        "obliquely",
+        "mischievously",
+        "evasively"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:59+00:00",
+        "source_pdf_sha1": "3f5714614791",
+        "answer_pdf_sha1": "55ae2f381871",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "805",
+          "s": "0306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "中華民國憲法與英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 13,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-bd450684-0020",
+      "exam_id": "colonel-bd450684",
+      "question_type": "single_choice",
+      "question": "Amanda cares for the straydogs in the neighborhood. Her for taking care of them is highly praisedbyeveryone.",
+      "options": [
+        "vanity",
+        "vote",
+        "zeal",
+        "mood"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:59+00:00",
+        "source_pdf_sha1": "3f5714614791",
+        "answer_pdf_sha1": "55ae2f381871",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "805",
+          "s": "0306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "中華民國憲法與英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 14,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-bd450684-0021",
+      "exam_id": "colonel-bd450684",
+      "question_type": "single_choice",
+      "question": "Withalargenumberofpatientscomingintothehospitaleveryday,thedirectorsaiddoctorsandnurses feltsome oranxiety,butnofear.",
+      "options": [
+        "alleviation",
+        "allocation",
+        "apprehension",
+        "appropriation 請依下文回答第16題至第20題 Scientistshavecastnewlightontheeffectsourdiethasonourmentalhealth.Researcherssaywhatwe eataffectsandaltersourbrainchemistryup 16 theageof30.Theresearchwasconductedbyateamled byLinaBegdache,aprofessorofhealthandwellnessstudies.Researcherssaidthat 17 thelinkbetween ourdietanddiabetes,heartdiseaseandobesityiswellestablished,thereislittleresearchontheinfluenceour dietaryintakehasonmentalhealth.Theresearchersalsosuggestedthathealthyeating,healthypractices,and exercising 18 mentalwell-being. The research was carried out via an anonymous internet-based survey. Professor Begdache found that adultsunder30whoatefastfoodmorethanthreetimesaweekscored 19 onlevelsofmentaldistress, anxietyanddepression.Shesaidthatforadultsover30,thestudyfound thateatinglesscarbohydratesand morefruitreducedanxietyanddepression.Begdachepointedtoresearch 20 howaMediterraneandiet wasasgoodforourbrainasforourbody.Shesaid:“Ithasallthecomponentsthatareimportantforthehealthy structureofthebrain.”"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:59+00:00",
+        "source_pdf_sha1": "3f5714614791",
+        "answer_pdf_sha1": "55ae2f381871",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "805",
+          "s": "0306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "中華民國憲法與英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 15,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-bd450684-0022",
+      "exam_id": "colonel-bd450684",
+      "question_type": "single_choice",
+      "question": "①on ②until ③for ④at",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:59+00:00",
+        "source_pdf_sha1": "3f5714614791",
+        "answer_pdf_sha1": "55ae2f381871",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "805",
+          "s": "0306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "中華民國憲法與英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 16,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "colonel-bd450684-0023",
+      "exam_id": "colonel-bd450684",
+      "question_type": "single_choice",
+      "question": "①where ②when ③while ④how",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:59+00:00",
+        "source_pdf_sha1": "3f5714614791",
+        "answer_pdf_sha1": "55ae2f381871",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "805",
+          "s": "0306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "中華民國憲法與英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 17,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "colonel-bd450684-0024",
+      "exam_id": "colonel-bd450684",
+      "question_type": "single_choice",
+      "question": "①promote ②provoke ③postpone ④prove",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:59+00:00",
+        "source_pdf_sha1": "3f5714614791",
+        "answer_pdf_sha1": "55ae2f381871",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "805",
+          "s": "0306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "中華民國憲法與英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 18,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "colonel-bd450684-0025",
+      "exam_id": "colonel-bd450684",
+      "question_type": "single_choice",
+      "question": "①stronger ②higher ③larger ④lesser",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:59+00:00",
+        "source_pdf_sha1": "3f5714614791",
+        "answer_pdf_sha1": "55ae2f381871",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "805",
+          "s": "0306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "中華民國憲法與英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 19,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "colonel-bd450684-0026",
+      "exam_id": "colonel-bd450684",
+      "question_type": "single_choice",
+      "question": "①show ②shown ③showed ④showing 請依下文回答第21題至第25題 American popular culture is obsessed with superheroes. The ever popular movie, The Avengers, has featuredagroupofsuperheroessuchastheIronMan,theWasp,theHulk,Thor,andtheAnt-Mansinceit made its 21 in2011, the year the moviewas released. Beinga great hit,itwasthehighestgrossing filmin2012andwasacclaimedasoneofthegreatest100moviesofalltimein2017.Themovieisactually adopted from the stories made in a series of comic books published by Marvel Comics. Apart from the productionofseveralmoviesdrawn fromtheAvengers stories,TVseries basedon eachsinglesuperhero are also brought out to continue this cultural zest for superheroes. The huge income the stories and their productionshave 22 forthemainstreammediasuchasmoviesandTViscertainlymuchapplaudedby producers.ThereasonwhythosestoriescouldsellsowellisperhapsowingtotheAmericanaudiences’great admirationforsuchculturaliconsassuperheroesliketheAvengers.Sincetheemergenceofasuperherolike Supermaninthepopularcultureofthe1930s,superheroeshaveevolvedintodifferentforms,types,races,and evengenders. All those transformations of superheroes seem 23 . Because they have been viewed as hot commodities in the market of popular culture, their development and growth will undoubtedlycontinue to thrive.Indeed,thosesuperheroesaremodernincarnationsoftheirolderonesinGreekmythology.Greekheroes likeAchillesandOdysseus 24 bothhumananddivinefeatures.Theynotonlydemonstratetheirmighty powerassuperheroesbutalsoenacttheirkindnesstosavetheinnocentandthehelplessbykillingthevillains who jeopardize the safetyof the communities. 25 theyare much loved and adorned bythe audiences because they help restore the justice and maintain a sense of security regarded as extremely important by people.That’swhytheyarecalledsuperheroesthatcanunleashtheirgod-likepowerandachievetheirwarm- heartedhumanity.",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:59+00:00",
+        "source_pdf_sha1": "3f5714614791",
+        "answer_pdf_sha1": "55ae2f381871",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "805",
+          "s": "0306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "中華民國憲法與英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 20,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "colonel-bd450684-0027",
+      "exam_id": "colonel-bd450684",
+      "question_type": "single_choice",
+      "question": "①fate ②debut ③inroad ④label",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:59+00:00",
+        "source_pdf_sha1": "3f5714614791",
+        "answer_pdf_sha1": "55ae2f381871",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "805",
+          "s": "0306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "中華民國憲法與英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 21,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "colonel-bd450684-0028",
+      "exam_id": "colonel-bd450684",
+      "question_type": "single_choice",
+      "question": "①generated ②kindled ③outfitted ④rectified",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:59+00:00",
+        "source_pdf_sha1": "3f5714614791",
+        "answer_pdf_sha1": "55ae2f381871",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "805",
+          "s": "0306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "中華民國憲法與英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 22,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "colonel-bd450684-0029",
+      "exam_id": "colonel-bd450684",
+      "question_type": "single_choice",
+      "question": "①bilateral ②deceptive ③defiant ④endless",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:59+00:00",
+        "source_pdf_sha1": "3f5714614791",
+        "answer_pdf_sha1": "55ae2f381871",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "805",
+          "s": "0306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "中華民國憲法與英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 23,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "colonel-bd450684-0030",
+      "exam_id": "colonel-bd450684",
+      "question_type": "single_choice",
+      "question": "①notify ②hamper ③embody ④falter",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:59+00:00",
+        "source_pdf_sha1": "3f5714614791",
+        "answer_pdf_sha1": "55ae2f381871",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "805",
+          "s": "0306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "中華民國憲法與英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 24,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "colonel-bd450684-0031",
+      "exam_id": "colonel-bd450684",
+      "question_type": "single_choice",
+      "question": "①Incase ②Nowonder ③Providedthat ④Asthough",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:59+00:00",
+        "source_pdf_sha1": "3f5714614791",
+        "answer_pdf_sha1": "55ae2f381871",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "805",
+          "s": "0306",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "中華民國憲法與英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 25,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "colonel-bd450684-0032",
+      "exam_id": "colonel-bd450684",
+      "question_type": "essay",
+      "question": "甲與乙為事業競爭對手。因為乙的成功，導致甲的事業一落千丈，甚至有\n破產危險。某日，趁乙開刀住院時，甲計畫在乙的點滴瓶中注入毒藥，每\n次探病時注入一公克，累積到五公克時，乙即會死亡。然而，在甲趁第二\n次探病，再次注入一公克毒藥後，沒想到乙突然毒發身亡。試問甲之刑責\n為何？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:59+00:00",
+        "source_pdf_sha1": "e8876fcc3eee",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "805",
+          "s": "0503",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "刑法及犯罪學",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-bd450684-0033",
+      "exam_id": "colonel-bd450684",
+      "question_type": "essay",
+      "question": "乙涉嫌販賣一級毒品而受刑事追訴。檢察官訊問證人甲時，問道：「乙與\n買受人丙是否約在你的住處交易？」甲為了幫乙，便向檢察官虛偽證稱：\n「我不知道，而且丙購買的源頭不僅相當多元，交易地點也同樣多變。」\n甲在供述後踐行具結程序。試問甲之刑責為何？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:59+00:00",
+        "source_pdf_sha1": "e8876fcc3eee",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "805",
+          "s": "0503",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "刑法及犯罪學",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-bd450684-0034",
+      "exam_id": "colonel-bd450684",
+      "question_type": "essay",
+      "question": "試問機構性矯正之功能與目的為何？又當前的制度運作有何缺點及\n困境？（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:59+00:00",
+        "source_pdf_sha1": "e8876fcc3eee",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "805",
+          "s": "0503",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "刑法及犯罪學",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-bd450684-0035",
+      "exam_id": "colonel-bd450684",
+      "question_type": "essay",
+      "question": "毒品成癮可能誘發各種犯罪行為，向來為我國犯罪防制的重點之一。試\n問施用毒品與從事暴力犯罪之間具有何種關聯？以及相對應的防治對策\n為何？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:59+00:00",
+        "source_pdf_sha1": "e8876fcc3eee",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "805",
+          "s": "0503",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "刑法及犯罪學",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    }
+  ]
+}

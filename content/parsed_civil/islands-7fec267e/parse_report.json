@@ -1,0 +1,30 @@
+{
+  "slug": "islands-7fec267e",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:33:58+00:00",
+  "paper_count": 4,
+  "paper_with_questions": 4,
+  "question_count": 62,
+  "type_counts": {
+    "essay": 12,
+    "single_choice": 50
+  },
+  "issues": [
+    {
+      "year": "114",
+      "subject": "公共政策",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "政治學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    }
+  ]
+}

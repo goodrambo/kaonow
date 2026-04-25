@@ -1,0 +1,38 @@
+{
+  "slug": "islands-0a2fc18c",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:33:55+00:00",
+  "paper_count": 4,
+  "paper_with_questions": 3,
+  "question_count": 35,
+  "type_counts": {
+    "essay": 10,
+    "single_choice": 25
+  },
+  "issues": [
+    {
+      "year": "114",
+      "subject": "公共經濟學",
+      "status": "parse_q_failed",
+      "format": "pure_essay",
+      "raw_q": 0,
+      "answers": null
+    },
+    {
+      "year": "114",
+      "subject": "統計學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "貨幣銀行學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    }
+  ]
+}

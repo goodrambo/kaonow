@@ -1,0 +1,54 @@
+{
+  "slug": "police-b20a8cf8",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:28:25+00:00",
+  "paper_count": 21,
+  "paper_with_questions": 21,
+  "question_count": 596,
+  "type_counts": {
+    "single_choice": 551,
+    "essay": 45
+  },
+  "issues": [
+    {
+      "year": "114",
+      "subject": "偵查法學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "113",
+      "subject": "偵查法學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 2,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "偵查法學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "偵查法學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "偵查法學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    }
+  ]
+}

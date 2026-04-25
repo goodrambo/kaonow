@@ -1,0 +1,46 @@
+{
+  "slug": "islands-e7b0146b",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:33:57+00:00",
+  "paper_count": 5,
+  "paper_with_questions": 5,
+  "question_count": 46,
+  "type_counts": {
+    "single_choice": 30,
+    "essay": 16
+  },
+  "issues": [
+    {
+      "year": "114",
+      "subject": "文化人類學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "文化行政與文化法規",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "本國文學概論",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "藝術概論",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    }
+  ]
+}

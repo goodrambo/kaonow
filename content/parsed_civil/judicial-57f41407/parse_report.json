@@ -1,0 +1,21 @@
+{
+  "slug": "judicial-57f41407",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:26:42+00:00",
+  "paper_count": 20,
+  "paper_with_questions": 19,
+  "question_count": 932,
+  "type_counts": {
+    "single_choice": 932
+  },
+  "issues": [
+    {
+      "year": "113",
+      "subject": "國文",
+      "status": "parse_q_failed",
+      "format": "pure_mc",
+      "raw_q": 0,
+      "answers": null
+    }
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "slug": "heelevel3-0801a3d6",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:33:33+00:00",
+  "paper_count": 2,
+  "paper_with_questions": 2,
+  "question_count": 8,
+  "type_counts": {
+    "essay": 8
+  },
+  "papers": [
+    {
+      "year": "114",
+      "exam_code": "114080",
+      "c": "233",
+      "s": "0711",
+      "q": "1",
+      "subject": "產業經濟學",
+      "exam_name": "114年公務人員高等考試三級考試暨普通考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "fd144ac39580",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "114",
+      "exam_code": "114080",
+      "c": "233",
+      "s": "0812",
+      "q": "1",
+      "subject": "統計學",
+      "exam_name": "114年公務人員高等考試三級考試暨普通考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "294fc9329c99",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    }
+  ],
+  "questions": [
+    {
+      "id": "heelevel3-0801a3d6-0001",
+      "exam_id": "heelevel3-0801a3d6",
+      "question_type": "essay",
+      "question": "請回答下列有關最小有效規模（minimumefficientofscale,MES）問題：\n何謂 MES，請說明並繪圖表示。（10分）\n請寫出兩種衡量 MES的方式，並說明其內涵。（10 分）\n請繪出市場上大、小廠商並存時，MSE 與市場需求相對位置圖形。\n（5 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:33+00:00",
+        "source_pdf_sha1": "fd144ac39580",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114080",
+          "c": "233",
+          "s": "0711",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "產業經濟學",
+        "year": "114",
+        "exam_name": "114年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-0801a3d6-0002",
+      "exam_id": "heelevel3-0801a3d6",
+      "question_type": "essay",
+      "question": "市場上有一家獨占廠商將商品銷售至國內的兩個市場，其邊際生產成本\n為 30，面對之市場反需求函數分別為P 100Q 與P 903Q ，\nA A B B\n請問：\n該獨占廠商必須克服那些問題才能夠有效的進行三級差別取價？（5分）\n若獨占廠商可以採三級差別取價，則兩個市場之均衡價格、產量、廠\n商總利潤、消費者剩餘與社會福利分別為何？（10 分）\n請計算均衡時兩個市場的需求彈性，並說明市場需求彈性與獨占廠商\n最適三級差別取價間的關聯性。（10 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:33+00:00",
+        "source_pdf_sha1": "fd144ac39580",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114080",
+          "c": "233",
+          "s": "0711",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "產業經濟學",
+        "year": "114",
+        "exam_name": "114年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-0801a3d6-0003",
+      "exam_id": "heelevel3-0801a3d6",
+      "question_type": "essay",
+      "question": "假設市場 A、B、C分別存在 100家、10 家與 5 家完全對稱的廠商。\n請分別計算出這三個市場中的CR4 與 HHI。（12 分）\n請列舉各一項以 CR4 與 HHI衡量產業集中度之優點與缺點。（8分）\n除了 CR4 與 HHI，請再舉一個常用的產業集中度指標，並說明其計算\n原理或公式。（5分）\n23360",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:33+00:00",
+        "source_pdf_sha1": "fd144ac39580",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114080",
+          "c": "233",
+          "s": "0711",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "產業經濟學",
+        "year": "114",
+        "exam_name": "114年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-0801a3d6-0004",
+      "exam_id": "heelevel3-0801a3d6",
+      "question_type": "essay",
+      "question": "假設本國市場中存在一家本國廠商與一家外國廠商進行 Cournot數量競\n爭，它們的生產量分別為 q₁與 q₂，邊際成本均為 0。本國市場之反需求\n函數為：P = 110 − Q，其中 P為價格、Q=q₁ + q₂，請問：\n若政府對外國廠商課徵每單位 10 元的從量進口關稅，請問市場均衡\n價格、本國廠商之均衡產量與利潤、消費者剩餘及本國社會福利分別\n為何？（10分）\n承上題，若政府取消關稅，但將中外國廠商之進口量（q₂）當作進\n口配額，請問此時市場均衡價格、本國廠商之均衡產量與利潤、消費\n者剩餘及本國社會福利分別為何？（10 分）\n請問與何種貿易保護政策下之本國之社會福利較高？經濟解釋\n為何？（5 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:33+00:00",
+        "source_pdf_sha1": "fd144ac39580",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114080",
+          "c": "233",
+          "s": "0711",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "產業經濟學",
+        "year": "114",
+        "exam_name": "114年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-0801a3d6-0005",
+      "exam_id": "heelevel3-0801a3d6",
+      "question_type": "essay",
+      "question": "假設 X與 Y的二元機率密度函數為（每小題 4分，共 20分）\nf(x,y)= C(x+2y) 0≦ x ≦ 1;0 ≦ y ≦ 1\n=0 其他\n計算 C值。\n計算 X的期望值。\n計算機率 P(X>0.5)。\n計算 Y的期望值。\n計算 Y大於 1/3 的機率。",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:33+00:00",
+        "source_pdf_sha1": "294fc9329c99",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114080",
+          "c": "233",
+          "s": "0812",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "統計學",
+        "year": "114",
+        "exam_name": "114年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-0801a3d6-0006",
+      "exam_id": "heelevel3-0801a3d6",
+      "question_type": "essay",
+      "question": "三家 A、B、C 品牌之洗衣機用戶，各隨機抽取 400、600 和 800 人，\n調查其下次會再買同一品牌洗衣機之意願。調查數據如下：\n意願\\品牌 A B C\n願意 100 300 600\n不願意 300 300 200\n總和 400 600 800\n請檢定三家用戶下次購買相同品牌之洗衣機比例是否全部相等。\n⑴列出虛無假設H 和對立假設 H 。（3分）\n0 1\n⑵寫出檢定統計量及其在 H 為真下的分配。（5 分）\n0\n⑶以臨界值方法決定檢定結果。顯著水準為 0.05。（3分）\n⑷計算 p 值，並據以決定檢定結果。顯著水準為0.05。（5 分）\n若只有 A和 B兩種品牌，請檢定 A和 B品牌用戶下次購買相同品\n牌的比例是否相等。\n⑴列出 H 和 H 。（3分）\n0 1\n⑵請使用和不同的檢定統計量，寫出其在 H 為真下的分配。請\n0\n說明何以為此分配。（6 分）\n⑶計算 p 值，並據以決定檢定結果。顯著水準為0.05。（5 分）\n23320\n23420",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:33+00:00",
+        "source_pdf_sha1": "294fc9329c99",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114080",
+          "c": "233",
+          "s": "0812",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "統計學",
+        "year": "114",
+        "exam_name": "114年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-0801a3d6-0007",
+      "exam_id": "heelevel3-0801a3d6",
+      "question_type": "essay",
+      "question": "工程師想知道供應商生產的電池平均壽命是否小於 240 小時。隨機\n抽取電池36 件（n=36），其樣本平均值為 235小時。\n假設電池壽命服從常態分配且母體標準差為 12小時。\n請檢定電池平均壽命是否低於240 小時。顯著水準為 0.1。（5分）\n續上題，寫出檢定統計量分配的拒絕區之臨界值，並寫出此臨界值\n對應之樣本平均值。（4 分）\n若真實的電池壽命平均值分別為 236 和 235 小時，請分別計算他\n們的型 II誤差機率及檢定力。（8分）\n若只有隨機抽取的電池改為 100 件（n=100），其他不變。若真實的\n電池壽命平均值分別為 236 和 235 小時，請分別計算他們的型 II\n誤差機率及檢定力。顯著水準為0.1。（8分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:33+00:00",
+        "source_pdf_sha1": "294fc9329c99",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114080",
+          "c": "233",
+          "s": "0812",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "統計學",
+        "year": "114",
+        "exam_name": "114年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "heelevel3-0801a3d6-0008",
+      "exam_id": "heelevel3-0801a3d6",
+      "question_type": "essay",
+      "question": "A 和 B兩家公司皆生產相同規格之端子。分別自 A 和 B公司隨機抽\n取端子並衡量其膜厚，數據如表所示。\n公司 膜厚(單位：mm)\nA 5 3 5 7 6 4\nB 7 7 9 9 8 6\n假設兩家生產的端子膜厚變異數相等，請寫出膜厚變異數之估計量\n及估計值。（6 分）\n請寫出兩家膜厚平均值差之估計量及估計值。（4 分）\n續題，欲比較兩家膜厚之平均值是否有差異，請問該用什麼統計\n方法？結論為何？顯著水準為 0.05。假設兩家膜厚皆服從常態分\n配。（10分）\n續題，請估計兩家膜厚平均值差之 95%信賴區間。（5分）\n23320\n23420\n附表一：Z值表\n23320\n23420\n附表二：t值表\n23320\n23420\n附表三：X^2值表",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:33+00:00",
+        "source_pdf_sha1": "294fc9329c99",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114080",
+          "c": "233",
+          "s": "0812",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "統計學",
+        "year": "114",
+        "exam_name": "114年公務人員高等考試三級考試暨普通考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    }
+  ]
+}

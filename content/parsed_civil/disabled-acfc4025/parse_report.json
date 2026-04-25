@@ -1,0 +1,54 @@
+{
+  "slug": "disabled-acfc4025",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:39:02+00:00",
+  "paper_count": 10,
+  "paper_with_questions": 10,
+  "question_count": 253,
+  "type_counts": {
+    "single_choice": 233,
+    "essay": 20
+  },
+  "issues": [
+    {
+      "year": "113",
+      "subject": "電子儀表概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "113",
+      "subject": "電子學概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "基本電學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "電子儀表概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "電子學概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "slug": "islands-39f5e973",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:33:59+00:00",
+  "paper_count": 1,
+  "paper_with_questions": 1,
+  "question_count": 5,
+  "type_counts": {
+    "essay": 5
+  },
+  "papers": [
+    {
+      "year": "114",
+      "exam_code": "114190",
+      "c": "445",
+      "s": "2108",
+      "q": "1",
+      "subject": "程式設計概要",
+      "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "cd9f00796c41",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 5,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 5,
+      "skipped_count": 0
+    }
+  ],
+  "questions": [
+    {
+      "id": "islands-39f5e973-0001",
+      "exam_id": "islands-39f5e973",
+      "question_type": "essay",
+      "question": "給定 n x m（n 行 m 列）影像的各像素灰度值，灰度值為 0 至 255 之間\n的整數（包含 0和 255），像素的相鄰性是指當前像素與周邊像素的鄰接\n性質，八鄰域（eightneighbors）包括對應當前像素位置的上、下、左、\n右、左上、右上、左下、右下像素位置，換言之，為原像素及其上下左\n右與對角線相鄰八個像素位置，如下圖所示：\nP\n當對此影像進行降低雜訊的模糊化處理時：1.影像四周最外側的像素灰\n度值不變；2.影像中間各像素新灰度值由原像素及其八鄰域像素原灰度\n值的平均值（捨入到最接近的整數）取代原像素值。輸入資料第一行包\n含兩個整數 n 和 m，表示影像中像素點的行數和列數，1<=n<= 100，\n1<=m<= 100，接下來 n 行，每行 m 個整數，表示影像中每個像素灰度\n值。相鄰兩個整數之間用單個空格隔開，每個元素均在 0~255之間。例\n如一個 5x6影像及其各像素灰度值如下所示：\n5 6\n100 0 120 0 50 70\n50 110 200 0 0 180\n70 50 100 120 200 0\n150 120 50 50 100 10\n10 110 0 50 120 30\n請使用 Java或 C++實作一完整程式，讀入一個影像行數、列數和像素灰\n度值，並使用八鄰域像素灰度值對影像進行降低雜訊的模糊化處理，再\n輸出模糊化後影像。（20分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "cd9f00796c41",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "445",
+          "s": "2108",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "程式設計概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-39f5e973-0002",
+      "exam_id": "islands-39f5e973",
+      "question_type": "essay",
+      "question": "請問以 a(7,20)呼叫下列 a()函式，函式執行完後其回傳值為何？並需詳\n述執行過程。（20 分）\ninta(intn,intm){\nif(n>=10){\nif(m<16){\nreturnn+m;\n}\nelse{\nreturna(n,m-2)+m;\n}\n}\nelse{\nreturna(n+1,m)+n;\n}\n}",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "cd9f00796c41",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "445",
+          "s": "2108",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "程式設計概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-39f5e973-0003",
+      "exam_id": "islands-39f5e973",
+      "question_type": "essay",
+      "question": "若以f(30)呼叫下列 f()函式，會列印出那些數字？（20分）\nvoidf(intn){\nprintf(\"%d\\n\",n);\nwhile(n!=1){\nif((n%3)==1){\nn=n+2;\n}\nelseif((n%3)==2){\nn=n+1;\n}\nelse{\nn=n/3;\n}\nprintf(\"%d\\n\",n);\n}\n}",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "cd9f00796c41",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "445",
+          "s": "2108",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "程式設計概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-39f5e973-0004",
+      "exam_id": "islands-39f5e973",
+      "question_type": "essay",
+      "question": "給定下列程式，其中 t 被宣告為全域變數，請問程式執行後輸出為何？\n（20分）\nintt=10; //全域變數\nvoidsum(inta){\nintt=20;\nfor(;a>=0;a=a-5){\nprintf(\"%d,\",t);\nt=t+a;\nprintf(\"%d,\",t);\n}\n}\nintmain(){\nprintf(\"%d,\",t);\nsum(t);\nprintf(\"%d,\",t);\nt=15;\nprintf(\"%d\",t);\nreturn0;}",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "cd9f00796c41",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "445",
+          "s": "2108",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "程式設計概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-39f5e973-0005",
+      "exam_id": "islands-39f5e973",
+      "question_type": "essay",
+      "question": "單鏈結串列（SinglyLinkedList）特點是鏈結串列的連結方向為單向，對\n單鏈結串列的訪問要通過從頭部開始，依序往下讀取，每個節點（node）\n包含兩部分：存儲數據的資料（data）和指向下一個節點的指標（pointer），\n節點定義如下：\nstructNode{\nint data;\nstruct Node*next;\n}\n單鏈結串列中的所有節點通過指標串聯，最後一個節點的指標指向空值\n（null），表示單鏈結串列結尾。請使用 Java或 C++實作一完整程式，通\n過從頭部（head）開始，依序往下讀取，訪問一單鏈結串列操作，輸出\n單鏈結串列中節點個數，若單鏈結串列中不存在任何節點，為一個空鏈\n結串列，則輸出-1。（20 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:59+00:00",
+        "source_pdf_sha1": "cd9f00796c41",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "445",
+          "s": "2108",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "程式設計概要",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "五",
+        "answer_corrected": false,
+        "flags": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,4274 @@
+{
+  "slug": "colonel-d0d1b9a2",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:26:57+00:00",
+  "paper_count": 5,
+  "paper_with_questions": 5,
+  "question_count": 117,
+  "type_counts": {
+    "essay": 14,
+    "single_choice": 103
+  },
+  "papers": [
+    {
+      "year": "114",
+      "exam_code": "114040",
+      "c": "803",
+      "s": "1001",
+      "q": "1",
+      "subject": "會計學",
+      "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "473a56ad77be",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "113",
+      "exam_code": "113040",
+      "c": "306",
+      "s": "1102",
+      "q": "1",
+      "subject": "會計學",
+      "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "96d5295faf56",
+      "a_pdf_sha1": "2f6eb3654efb",
+      "format_detected": "mixed",
+      "raw_question_count": 28,
+      "answer_qnums_extracted": 25,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 28,
+      "skipped_count": 0
+    },
+    {
+      "year": "112",
+      "exam_code": "112050",
+      "c": "305",
+      "s": "1102",
+      "q": "1",
+      "subject": "會計學",
+      "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "998de82ed70f",
+      "a_pdf_sha1": "6717b96c0f3e",
+      "format_detected": "mixed",
+      "raw_question_count": 27,
+      "answer_qnums_extracted": 25,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 27,
+      "skipped_count": 0
+    },
+    {
+      "year": "111",
+      "exam_code": "111050",
+      "c": "305",
+      "s": "1102",
+      "q": "1",
+      "subject": "會計學",
+      "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "3d8f47c89492",
+      "a_pdf_sha1": "eb204ac39013",
+      "format_detected": "mixed",
+      "raw_question_count": 29,
+      "answer_qnums_extracted": 25,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 29,
+      "skipped_count": 0
+    },
+    {
+      "year": "110",
+      "exam_code": "110050",
+      "c": "304",
+      "s": "1102",
+      "q": "1",
+      "subject": "會計學",
+      "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "ae539d788f4f",
+      "a_pdf_sha1": "d82f2d892680",
+      "format_detected": "mixed",
+      "raw_question_count": 29,
+      "answer_qnums_extracted": 25,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 29,
+      "skipped_count": 0
+    }
+  ],
+  "questions": [
+    {
+      "id": "colonel-d0d1b9a2-0001",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "essay",
+      "question": "甲公司有下列交易，該公司會計年度為曆年制。\n在X2年1月1日以成本$800,000購買運輸設備，估計耐用年限為5年，\n估計殘值$120,000。X4 年 9 月30日，該公司將舊的運輸設備換成了新\n的運輸設備，額外支付$240,000。舊的運輸設備使用直線法提列折舊，\n折舊紀錄已記錄至 X3 年 12 月 31 日。舊運輸設備在 X4 年 9 月 30日的\n公允價值為$390,000。該交易不具有商業實質。\n在 X2 年 12月31 日，以成本$800,000購買辦公設備，估計耐用年限為\n5 年，估計殘值$50,000，採倍數餘額遞減法提列折舊，折舊紀錄已記錄\n至 X3 年 12 月 31 日。X4 年 6 月30 日，甲公司將舊辦公設備換成了新\n的辦公設備。舊辦公設備在 X4年 6 月 30日的公允價值為$500,000。該\n交易具有商業實質。\n試分別作 X4年交易日應有之分錄。（每小題 12分，共 24分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:56+00:00",
+        "source_pdf_sha1": "473a56ad77be",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "803",
+          "s": "1001",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "會計學",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0002",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "essay",
+      "question": "乙公司採應收帳款餘額百分比法提列壞帳，下列是 X4 年度相關資料：\n⑴X4 年初應收帳款的餘額為$540,000，備抵壞帳為貸餘$21,000。\n⑵X4 年中銷貨$860,000，其中$660,000 為賖銷，折扣條件為2/10,N/20。\n⑶X4 年帳款收現數為$588,000，其中有 50%是在折扣期限內收到之款（不\n包括已沖銷之壞帳又收回款）。\n⑷認列壞帳$26,000。\n⑸已沖銷之應收帳款又收回$20,000。\n⑹X4 年底估計壞帳率為 5%。\n試作：\n認列壞帳之分錄。（4分）\n沖銷壞帳又收回之分錄。（4分）\nX4 年底之應收帳款及提列壞帳前之備抵壞帳餘額各是多少？（8 分）\nX4 年底提列壞帳之分錄。（4 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:56+00:00",
+        "source_pdf_sha1": "473a56ad77be",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "803",
+          "s": "1001",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "會計學",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0003",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "essay",
+      "question": "丙公司 X2 年 12 月 31 日帳上之股東權益包括股本$500,000,000（一次共\n發行並流通在外普通股 50,000,000 股，每股面額$10），發行溢價之資本\n公積為$150,000,000，保留盈餘為$6,000,000。下列為 X3 年關於庫藏股票\n之交易：\n⑴丙公司於X3年2月27日以每股$18之價格買回自家的股票500,000股。\n⑵X3 年 3月15日及 X3年 5月15 日丙公司分別以每股$20及$15賣出庫\n藏股各 200,000 股，續後再於 X3 年 6 月 3 日以每股$19 出售 50,000 股\n之庫藏股票。\n⑶於 X3 年 10 月1 日將前述之未售庫藏股予以註銷。\n⑷於 X3 年 12 月2 日丙公司董事長捐贈 5,000股丙公司之普通股股票，當\n時丙公司普通股股票之公平市價為每股$17。\n試作：\n上述交易應有之分錄。（24 分）\n倘若丙公司當年度稅後淨利為$2,000,000，以盈餘發放現金股利為\n$1,000,000，請編製X3年12月31日資產負債表股東權益部分。（10分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:56+00:00",
+        "source_pdf_sha1": "473a56ad77be",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "803",
+          "s": "1001",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "會計學",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0004",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "essay",
+      "question": "丁公司收到台中銀行對帳單列示X4年4月30日的銀行帳餘額為$1,580,745，\n當日公司帳現金餘額為$1,157,595。丁公司發現有下列調節項目：\n⑴ 4 月 30日存入（銀行 5 月 1日收到）$220,140。\n⑵共有三張未兌現支票：No.553，$290,000；No.557，$140,130；No.560，\n$150,270。\n⑶丁公司簽發 No.543，$122,600支票，銀行支付正確金額，但丁公司記錄\n支票為$126,200。\n⑷丁公司存入仁愛公司簽發的支票$42,560，但仁愛公司存款不足遭銀行\n退票。\n⑸印製公司支票費用$3,000。\n⑹應收票據收現$100,000，加上利息收入$5,000，託收費$150。\n請編製丁公司 X4 年 4 月 30 日之銀行往來調節表，（12 分）並編製必要\n之調整分錄。（10 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:56+00:00",
+        "source_pdf_sha1": "473a56ad77be",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "803",
+          "s": "1001",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "會計學",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0005",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "essay",
+      "question": "甲公司於 X1 年 1 月 1 日購入機器設備 1 部，成本為$550,000，估計\n耐用年限 4 年，殘值為$50,000，採年數合計法提列折舊，相關資料\n如下：\nX1 年 12 月 31日 X2 年 12 月 31日\n公允價值 $300,000 $230,000\n處分成本 20,000 30,000\n使用價值 300,000 230,000\n新估計剩餘耐用年限 4 年 2 年\n新估計殘值 25,000 40,000\n甲公司固定資產採成本模式，自X3 年起變更折舊方法，改採直線法。\n該機器設備於 X3 年 12 月 31日以$120,000之價格出售。\n試作：\nX1 年 12 月 31 日提列折舊之分錄。（4 分）\nX1 年 12 月 31 日機器設備價值減損相關分錄。（4分）\nX2 年 12 月 31 日提列折舊之分錄。（4 分）\nX2 年 12 月 31 日機器設備價值減損相關分錄。（4分）\nX3 年 12 月 31 日提列折舊之分錄。（4 分）\nX3 年 12 月 31 日出售機器設備之分錄。（5分）\n30650",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:56+00:00",
+        "source_pdf_sha1": "96d5295faf56",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "306",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "會計學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0006",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "essay",
+      "question": "甲公司於 X1 年 1 月 1 日向乙公司承租一部機器，租期 10 年，從\nX1 年起每年 1 月 1 日支付租金$500,000，租期屆滿該機器估計殘\n值為$300,000，由甲公司加以保證，租期屆滿需返還該機器，甲公\n司估計在保證殘值下預期支付金額為$60,000。甲公司增額借款利率\n為 10%，且已知租賃隱含利率為12%。此外，甲公司因此項租賃發生\n原始直接成本$100,000，甲公司採直線法提列折舊。\n已知乙公司將此租賃歸類為銷售型融資租賃，乙公司機器之成本為\n$2,500,000，公允價值等同應收租賃給付的現值。\n（P =6.14457；P =5.65022；p =0.38554；p =0.32197）\n10,10% 10,12% 10,10% 10,12%\n試作：（金額計算至元，以下四捨五入）\n甲公司 X1年與該租賃有關之分錄。（16分）\n乙公司 X1年銷貨收入及銷貨毛利之金額。（5 分）\n乙公司 X1年與此租賃有關之利息收入金額。（4 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:56+00:00",
+        "source_pdf_sha1": "96d5295faf56",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "306",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "會計學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0007",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "丁公司於 X2 年 1 月 1 日成立，主管機關核准其發行面額$10 之普通股",
+      "options": [
+        "1 月 14 日以每股$18 發行 4,500股普通股",
+        "4月26日以每股$12買回1,600股普通股",
+        "7月8日 以每股$17 發行 2,000 股普通股",
+        "9 月 19 日以每股$16 出售 1,100 股庫 藏股票。丁公司對出售庫藏股票使用先進先出法，若使用成本法處理庫藏 股票交易，X2年12月31日的資本公積餘額為："
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:56+00:00",
+        "source_pdf_sha1": "96d5295faf56",
+        "answer_pdf_sha1": "2f6eb3654efb",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "306",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0008",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司使用間接法來編製現金流量表。甲公司X4年相關資料如下：購買1 台機器付款$170,000，支付現金股利給股東$50,000，權益法認列投資收益 $75,000，採權益法之長期股權投資收到股利$60,000，簽發票據$105,000取 得 1 筆土地，發行公司債$280,000。X4 年度折舊費用$25,000。X4 年度應 收帳款淨額增加$30,000，存貨減少$25,000，應付帳款減少$26,000。X4年 度淨利$100,000，期初現金餘額$50,000。甲公司X4年的期末現金餘額為：",
+      "options": [
+        "$189,000",
+        "$239,000",
+        "$249,000",
+        "$339,000 30650"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:56+00:00",
+        "source_pdf_sha1": "96d5295faf56",
+        "answer_pdf_sha1": "2f6eb3654efb",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "306",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0009",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司 X2 年相關資料如下：①稅前淨利$500,000，稅率 20%。②普通股",
+      "options": [
+        "X2年12月31日發 放40%股票股利。甲公司X2年基本每股盈餘為：",
+        "$1.43",
+        "$1.79",
+        "$2"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:56+00:00",
+        "source_pdf_sha1": "96d5295faf56",
+        "answer_pdf_sha1": "2f6eb3654efb",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "306",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0010",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司與丁公司於X4年1月1日簽訂1年期合約，該合約明定甲公司每 月提供辦公室清潔服務6次給丁公司，而丁公司則於每月月底以其普通股 500 股作為取得甲公司服務之對價。丁公司普通股每股公允價值於 X4 年",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:56+00:00",
+        "source_pdf_sha1": "96d5295faf56",
+        "answer_pdf_sha1": "2f6eb3654efb",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "306",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0011",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "月 1 日為$15；丁公司普通股於 X4 年 1 月、2 月、3 月底之每股公允價 值分別為$14、$16、$18。甲公司於X4年第一季因該合約而認列之勞務收 入為：",
+      "options": [
+        "$21,000",
+        "$22,500",
+        "$24,000",
+        "$27,000"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:56+00:00",
+        "source_pdf_sha1": "96d5295faf56",
+        "answer_pdf_sha1": "2f6eb3654efb",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "306",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0012",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司向丁租賃公司承租1台機器設備，合約的內容符合融資租賃。甲公司在 6年的租期中，每年年初須支付租金$110,000，該租金包含每年機器設備的維修 、保險與稅金$20,000。甲公司為取得該租賃發生的原始直接成本為$7,000。承 租人的增額借款利率為 10%，出租人的隱含利率為 8%，甲公司得知隱含利率 。甲公司應認列使用權資產的金額為：（P =3.79079，P =3.99271） 5,10% 5,8%",
+      "options": [
+        "$359,344",
+        "$366,344",
+        "$456,344",
+        "$556,198"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:56+00:00",
+        "source_pdf_sha1": "96d5295faf56",
+        "answer_pdf_sha1": "2f6eb3654efb",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "306",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0013",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "X2年1月1日，甲公司給18位經理每人8,000單位認股權，每單位認股 權得以$60 認購公司普通股 1 股，當時每股普通股的面額為$10，市價為 $82，每單位認股權的公允價值則為$20。每位經理必須在公司內服務滿 4 年，第5年開始得行使認股權。經理如果自得行使日起2年內未行使，其 所持有的認股權就失效。X5 年 7 月 1 日，甲公司有 4 位經理因故離職， X6 年 1 月 1 日則有 9 位經理行使認股權，一直到 X8 年 1 月 1 日都沒有 經理行使認股權。甲公司X5年應認列的酬勞成本為：",
+      "options": [
+        "$72,000",
+        "$80,000",
+        "$88,000",
+        "$168,000"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:56+00:00",
+        "source_pdf_sha1": "96d5295faf56",
+        "answer_pdf_sha1": "2f6eb3654efb",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "306",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0014",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "乙公司於X6年初保留盈餘帳戶餘額為$450,000，X6年相關資料如下：淨 利$1,200,000，現金股利$250,000，庫藏股再發行價格超過成本$100,000， 提撥或有損失準備$250,000，股票股利$150,000。乙公司X6年12月31日 保留盈餘應有的餘額為：",
+      "options": [
+        "$1,000,000",
+        "$1,100,000",
+        "$1,250,000",
+        "$1,400,000 30650"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:56+00:00",
+        "source_pdf_sha1": "96d5295faf56",
+        "answer_pdf_sha1": "2f6eb3654efb",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "306",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0015",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "丙公司，X9年12月31日，股本帳戶情況如下： 普通股股本（面額$10） $900,000 5%非累積非參加特別股股本（面額$100） 240,000 8%累積完全參加特別股股本（面額$100） 1,600,000 丙公司於 X5 年 1 月 1 日成立，至 X8 年底止，尚未發放過任何股利。X9 年度丙公司宣告發放股利$764,000。下列關於丙公司 X9 年度之敘述何者 正確？",
+      "options": [
+        "普通股應分配的股利為$86,400",
+        "5%特別股應分配的股利為$15,504",
+        "8%特別股應分配的股利為$640,000",
+        "8%特別股應分配的股利為$663,358"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:56+00:00",
+        "source_pdf_sha1": "96d5295faf56",
+        "answer_pdf_sha1": "2f6eb3654efb",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "306",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0016",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "丙公司X1 年銷售1 種附有2 年保證維修期限之玩具狗，依據公司過去經 驗得知有 55%玩具狗不會發生損壞，30%玩具狗會發生小瑕疵，15%玩具 狗則會發生重大瑕疵。每隻玩具狗發生小瑕疵和重大瑕疵時之平均修理費 用分別為$180及$450。丙公司X1年度共銷售200隻玩具狗，每隻售價為 $2,500，X1 年實際發生的免費維修支出$8,500。丙公司X1 年12 月31日 估計產品保證負債餘額為：",
+      "options": [
+        "$0",
+        "$8,500",
+        "$15,800",
+        "$24,300"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:56+00:00",
+        "source_pdf_sha1": "96d5295faf56",
+        "answer_pdf_sha1": "2f6eb3654efb",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "306",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0017",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司X9年度淨利$35,000，部分資產負債表帳戶資料如下： 部分資產負債表帳戶 X9年12月31日 X8年12月31日 應付現金股利 $17,000 $24,000 普通股股本（面額$10） 100,000 90,000 保留盈餘 140,000 120,000 資本公積 25,000 15,000 甲公司X9年支付現金股利金額為：",
+      "options": [
+        "$7,000",
+        "$15,000",
+        "$22,000",
+        "$42,000"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:56+00:00",
+        "source_pdf_sha1": "96d5295faf56",
+        "answer_pdf_sha1": "2f6eb3654efb",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "306",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0018",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "丁公司於X5年11月1日取得A公司普通股20,000股，並分類為「透過 損益按公允價值衡量」之證券投資，成本$530,000，該項投資於 X5 年底 認列金融資產評價損失$30,000。丁公司於 X6 年 2 月 1 日出售 A 公司普 通股 5,000 股，當日每股市價為$36。A 公司於 X6 年 8 月 30 日宣告並發 放股票股利4%，X6年底普通股每股市價為$34。丁公司X6年度綜合損益 表中，因持有A公司股票所產生損益為：",
+      "options": [
+        "$135,000",
+        "$155,000",
+        "$155,400",
+        "$210,400 30650"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:56+00:00",
+        "source_pdf_sha1": "96d5295faf56",
+        "answer_pdf_sha1": "2f6eb3654efb",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "306",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 11,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0019",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "丙公司債券投資相關資料如下： 公允價值 成本 X5年底 X6年底 透過損益按公允價值衡量 $350,000 $340,000 $450,000 按攤銷後成本衡量 290,000 270,000 250,000 丙公司X6年綜合損益表內，金融資產評價利益為：",
+      "options": [
+        "$60,000",
+        "$90,000",
+        "$100,000",
+        "$110,000"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:56+00:00",
+        "source_pdf_sha1": "96d5295faf56",
+        "answer_pdf_sha1": "2f6eb3654efb",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "306",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 12,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0020",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "乙公司X5年1月1日購入1台設備，該設備定價$105,000，付款條件3/10 ，n/30，乙公司X5年1月14日支付價款。該設備購入當天，乙公司亦支 付下列費用：運費$3,000、搬運途中不慎損壞之修理費用$2,200、安裝費 $1,950、試車費$1,200。該設備估計可用5年，殘值$3,000，使用年數合計 法提列折舊。X7 年1 月1 日，該設備進行重大修理支出$30,000，估計大 修後尚可再使用5年，無殘值。乙公司X7年度的折舊費用為：",
+      "options": [
+        "$15,000",
+        "$24,400",
+        "$25,000",
+        "$25,420"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:56+00:00",
+        "source_pdf_sha1": "96d5295faf56",
+        "answer_pdf_sha1": "2f6eb3654efb",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "306",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 13,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0021",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "由於經營環境改變，乙公司認為生產電視機的設備價值可能發生減損。該 設備於X1年12月31日之相關資料為：成本$1,000,000，累計折舊（截至 X1 年12 月31 日）$520,000，淨公允價值$230,000，使用價值$240,000， 該設備預計尚可使用5年，無殘值，使用年數合計法提列折舊。該設備至 X2 年底仍未出售，淨公允價值$295,000，使用價值$315,000。乙公司 X2 年底該設備應認列的減損迴轉利益為：",
+      "options": [
+        "$75,000",
+        "$155,000",
+        "$160,000",
+        "$240,000"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:56+00:00",
+        "source_pdf_sha1": "96d5295faf56",
+        "answer_pdf_sha1": "2f6eb3654efb",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "306",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 14,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0022",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司 X3 年 12 月 31 日調整前應收帳款餘額為$480,000，備抵壞帳貸餘 $24,000，應收帳款的帳齡分析如下： 帳 齡 金 額 可能收回機率 15天以內 $250,000 0.95 16～30天 80,000 0.92 31～45天 65,000 0.85 46～60天 33,000 0.78 61～90天 22,000 0.48 超過90天 ？ 0.00 甲公司採用帳齡分析法提列壞帳，X3年應提列壞帳費用之金額為：",
+      "options": [
+        "$23,350",
+        "$41,350",
+        "$47,350",
+        "$53,350 30650"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:56+00:00",
+        "source_pdf_sha1": "96d5295faf56",
+        "answer_pdf_sha1": "2f6eb3654efb",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "306",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 15,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0023",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "丙公司的倉庫於X9年7月1日發生火災，除FOB起運點交貨之在途進貨 外，倉庫內剩餘存貨的估計殘值$9,500。該批在途進貨購價$58,000，運費 $1,500已經入帳。丙公司存貨相關資料如下：X9年1月1日存貨$62,500 ，X9年1月1日至7月1日間的進貨$403,500，進貨運費$2,500，進貨退 回及折讓$6,000。X9年1月1日至7月1日間的現金銷貨$222,000，賒銷 $250,000，銷貨退回$12,000，銷貨運費$4,500，平均毛利率為銷貨淨額之 25%。以毛利法計算丙公司火災的損失金額為：",
+      "options": [
+        "$46,000",
+        "$48,500",
+        "$50,000",
+        "$58,000"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:56+00:00",
+        "source_pdf_sha1": "96d5295faf56",
+        "answer_pdf_sha1": "2f6eb3654efb",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "306",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 16,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0024",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司存貨使用定期盤存制度，X1年9月份的期初存貨共2,000單位，單 位成本$18，X1年9月份進貨與銷貨資料如下： 9月05日 進貨350單位，每單位成本$22 9月10日 銷貨450單位，每單位售價$38 9月13日 銷貨400單位，每單位售價$40 9月25日 進貨500單位，每單位成本$21 甲公司以成本與淨變現價值孰低法來評價存貨，每單位存貨於 X1 年 9 月 底的淨變現價值$20。在期末一次加權平均法下，甲公司X1年9月底之存 貨金額為：",
+      "options": [
+        "$38,040",
+        "$40,000",
+        "$40,667",
+        "$42,820"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:56+00:00",
+        "source_pdf_sha1": "96d5295faf56",
+        "answer_pdf_sha1": "2f6eb3654efb",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "306",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 17,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0025",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "舒結公司 X3 年 1 月 1 日備抵損失貸方餘額$95,200，X3 年舒結公司沖銷 了$68,544 的應收帳款，同時也收回了原先已打消壞帳的應收帳款$19,992 ，X3年的預期信用減損損失為$67,592，X3年12月31日公司合理估計應 收帳款餘額的 6%可能無法收回。舒結公司 X3 年 12 月 31 日應收帳款的 餘額為：",
+      "options": [
+        "$1,186,300",
+        "$1,126,533",
+        "$1,570,800",
+        "$1,904,000"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:56+00:00",
+        "source_pdf_sha1": "96d5295faf56",
+        "answer_pdf_sha1": "2f6eb3654efb",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "306",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 18,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0026",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "北平公司於X1 年12月31 日買入南山公司3 年期公司債，面額$500,000 ，票面利率 3%，每年 12 月 31 日付息 1 次。當日該公司債的公允價值為 $498,000，12 個月預期信用損失估計金額為$5,000，北平公司另外支付交 易成本$8,000。若北平公司將該公司債做為按攤銷後成本衡量之投資，則 其X1年12月31日之總帳面金額及攤銷後成本分別為：",
+      "options": [
+        "$506,000、$501,000",
+        "$500,000、$508,000",
+        "$498,000、$506,000",
+        "$498,000、$501,000 30650"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:56+00:00",
+        "source_pdf_sha1": "96d5295faf56",
+        "answer_pdf_sha1": "2f6eb3654efb",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "306",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 19,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0027",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "陽光科技公司於 X6 年 1 月 1 日購買 1 項專利權，支付$200,000 作為購買 價格。此外，該公司還支付$25,000 的律師費用以完成購買過程，並支出 $10,000 用於專利權的初步市場研究。該專利權的預計使用壽命為 10 年。 依據國際會計準則第38號「無形資產」，陽光科技公司專利權的成本為：",
+      "options": [
+        "$200,000",
+        "$225,000",
+        "$235,000",
+        "$245,000"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:56+00:00",
+        "source_pdf_sha1": "96d5295faf56",
+        "answer_pdf_sha1": "2f6eb3654efb",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "306",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 20,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0028",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "光光公司於 X1 年 7 月 1 日以 99 之價格加計應計利息發行 5 年期的公司 債以籌措資金，面額$1,000,000、票面利率10%，每年4月1日與10月1 日付息。發行債券時，光光公司收到的現金為：",
+      "options": [
+        "$1,015,000",
+        "$1,000,000",
+        "$980,000",
+        "$965,000"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:56+00:00",
+        "source_pdf_sha1": "96d5295faf56",
+        "answer_pdf_sha1": "2f6eb3654efb",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "306",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 21,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0029",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "如果一家企業選擇使用攤銷後成本法來處理其公司債的發行成本，這些成 本將會如何進行會計處理？",
+      "options": [
+        "從發行公司債的面額中直接扣除",
+        "發生時認定為當期的費用",
+        "延遲至債券到期時方認列為費用",
+        "被視作發行公司債取得金額的減項，並在該債券的剩餘期間攤銷"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:56+00:00",
+        "source_pdf_sha1": "96d5295faf56",
+        "answer_pdf_sha1": "2f6eb3654efb",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "306",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 22,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0030",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "百年企業於X2 年以每股$50 購回10,000 股流通在外的股票，並於同年度 以每股$40 再出售該10,000 股庫藏股票，在X2 年度中，百年企業沒有進 行其他與股東權益相關的交易。X2年初「資本公積－庫藏股票交易」的貸 方餘額為$200,000，試問再出售庫藏股票時，對於保留盈餘與資本公積將 產生何種影響？",
+      "options": [
+        "保留盈餘增加，資本公積減少",
+        "保留盈餘無影響，資本公積增加",
+        "保留盈餘減少，資本公積增加",
+        "保留盈餘無影響，資本公積減少"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:56+00:00",
+        "source_pdf_sha1": "96d5295faf56",
+        "answer_pdf_sha1": "2f6eb3654efb",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "306",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 23,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0031",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "乙公司於 X3 年初平價發行$500,000 可轉換公司債，轉換價格為$25。X6 年12月1日為誘導轉換為普通股（每股面額$5），將轉換價格降為$20， 當時乙公司股價為$30。X6年無公司債進行轉換，則乙公司修改轉換價格 對X6年度綜合損益總額之影響為：（不考慮所得稅影響）",
+      "options": [
+        "減少$75,000",
+        "減少$150,000",
+        "減少$225,000",
+        "減少$300,000"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:56+00:00",
+        "source_pdf_sha1": "96d5295faf56",
+        "answer_pdf_sha1": "2f6eb3654efb",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "306",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 24,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0032",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "寶島文具公司於X9年9月1日將300本筆記本委託東風文具店代銷，約 定銷售期間為 3 個月。每本筆記本的售價設定為$100，成本為$70，合約 中明確規定東風文具店每銷售一本筆記本將獲得$5的佣金。代銷期間內， 東風文具店共銷出200本，寶島文具公司於X9年12月31日收回未售出 的筆記本和書款，並結算支付給東風文具店的佣金。根據此情況，試問寶 島文具公司於X9年9月1日應認列的銷貨收入為：",
+      "options": [
+        "$20,000",
+        "$19,000",
+        "$1,000",
+        "$0"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:56+00:00",
+        "source_pdf_sha1": "96d5295faf56",
+        "answer_pdf_sha1": "2f6eb3654efb",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "306",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 25,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0033",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "essay",
+      "question": "甲公司於 X1年間發生下列之交易事項（皆不考慮所得稅）：\n1 月 10日現金購入機器設備一台，定價為$200,000，以九折成交；\n並支付運費$8,000、保險費$2,000、安裝及設定費$5,000。\n3 月 1 日以 A 設備（成本$300,000，已提列累計折舊$120,000，公\n允價值為$170,000）來交換乙公司的 B設備（成本$500,000，已提\n列累計折舊$340,000，公允價值為$170,000），該交換交易具商業\n實質。\n4 月 15日以$350,000購買丙公司股票 10,000 股（約占丙公司0.1%\n的股權），以短期持有供交易為目的，另支付手續費$1,000。\n7 月 22日以每股$20投資丁公司普通股800,000 股，占該公司股權\n40%，該筆股票交易並支付相關手續費$20,000。\n研發一項節能環保產品成功並獲得專利，經向政府申請補助，10 月\n15 日獲撥政府補助款$2,000,000，供未來推展該產品之用。\n試作：甲公司上述交易事項之分錄（請注意：分錄之會計項目必須使\n用中文作答，否則不給分；元以下四捨五入）。（25分）\n30650",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "998de82ed70f",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "會計學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0034",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "essay",
+      "question": "下列之交易事項皆為各自獨立互不相干（皆不考慮所得稅）：\n甲畜牧公司於X1 年 2 月 8 日以$1,050,000 購買 15 頭小乳牛（平均\n每頭$70,000），若將這 15 頭小乳牛立即出售（平均每頭售價\n$70,000），則必須支付運費$30,000 及其他必要交易費用$10,000；\n甲畜牧公司決定將這 15頭小乳牛飼養長大以生產牛乳。\n乙公司於 X1年 1 月 1 日將帳面金額為$50,000,000 之商辦大樓，轉\n換為採公允價值模式之投資性不動產，該商辦大樓 X1 年 1 月 1 日\n之公允價值為$77,000,000。\n丙公司於 X1年 1 月 1 日以$1,566,782發行面額為$1,500,000，票面\n利率為 5%，5 年到期的公司債，付息日為每年 12月 31 日，假設市\n場利率水準為 4%。丙公司採用利息法（有效利率法）來攤銷折價\n或溢價，並於 X1 年 12 月 31日支付利息。\n丁公司於 X1 年 12 月 31 日將成本為$280,000，提列折舊至 X1 年\n12 月 31 日為止帳面金額正好為零，但仍可使用之機器設備捐贈給\n某慈善機構，該機器設備之公允價值為$12,000。\n戊公司因應 AI 人工智慧時代的來臨，於 X1 年 1 月 1 日現金購入\n相關設備一套，總成本為$1,000,000，該設備預計使用 5 年，殘值\n為$100,000，採用雙倍餘額遞減法提列折舊，戊公司並於 X1 年 12\n月 31 日針對該設備提列折舊。\n試作：上述交易事項之分錄（請注意：分錄之會計項目必須使用中文\n作答，否則不給分；元以下四捨五入）。（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "998de82ed70f",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "會計學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0035",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司 X1 年 12 月 31 日來自營運活動現金流入為$26,250，X1 年整年度 折舊費用為$11,250，X1 年 12 月 31 日僅出售一個機器設備，收到現金 $12,000，該設備之原始成本$27,000，出售時該設備之累計折舊為$14,250 ，該設備之帳面金額為$12,750，X1年期間應收票據增加$21,000，存貨減 少$15,000，應付利息增加$6,000，應付所得稅減少$4,500，試問甲公司X1 年度損益表中的本期淨利為何？",
+      "options": [
+        "$18,750",
+        "$33,750",
+        "$19,500",
+        "$34,500 30650"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "998de82ed70f",
+        "answer_pdf_sha1": "6717b96c0f3e",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0036",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "假設在X1年7月1日，甲公司的股東同意給予公司經理10,000個選擇權購 買普通股，該普通股面額為$90。公司給予選擇權的日期為 X2 年 1 月 1 日 ，經理可在未來 10 年內的任何時間行使該選擇權，每個選擇權能讓經理以 每股價格$5,000購買普通股，假設：⑴公司以公允價值計算該計畫總獎酬費 用是$24,000,000 ⑵該計畫X2 年1 月1 日實施後能為公司帶來2 年效益， 需在此兩年攤提該計畫獎酬費用。甲公司的經理在 X5 年 12 月 31 日行使 2,000個選擇權，X1年至X5年公司會計報表表達何者正確？",
+      "options": [
+        "X1/12/31損益表表達：薪資支出 $24,000,000",
+        "X2/12/31資產負債表中股東權益項下表達： 資本公積-員工認股權 $24,000,000",
+        "X5/12/31資產負債表中股東權益項下表達： 股本-普通股 $ 180,000 股本溢價-普通股 14,620,000 資本公積-員工認股權 19,200,000",
+        "X5/12/31資產負債表中股東權益項下表達： 股本-普通股 $ 180,000 股本溢價-普通股 9,820,000 資本公積-員工認股權 12,000,000"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "998de82ed70f",
+        "answer_pdf_sha1": "6717b96c0f3e",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0037",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司設立桌上型電腦、筆記型電腦和平板電腦三個部門，平板電腦部門 經營不善，故X5年7月31日決定要將平板電腦部門停止營運，並出售處 分平板電腦部門的設備資產共獲利$30,000，甲公司加總三個部門X5年的 總收入$1,900,000 作為損益表的營業收入，並加總三個部門 X5 年的總費 用$1,300,000 作為營業費用，實際上，甲公司損益表中$1,900,000 的營業 收入中包括平板電腦部門X5年1月1日至X5年7月31日的收入$300,000 ，甲公司損益表中$1,300,000 的營業費用中包括平板電腦部門 X5 年 1 月 1日至X5年7月31日的費用$360,000，所得稅率為30%，請問上述甲公 司損益表表達停止營運的平板電腦部門是否正確？",
+      "options": [
+        "上述損益表表達正確，損益表不必獨立揭露停業部門-平板電腦部門的損 益，亦不需揭露處分停業部門資產利益$30,000",
+        "損益表表達正確，損益表不必獨立揭露停業部門-平板電腦部門的損益， 只需揭露處分停業部門資產稅後利益$21,000",
+        "上述損益表表達不正確，損益表應該獨立揭露停業部門-平板電腦部門的 損益訊息如下： 停業部門的營運稅後損失 $(42,000) 處分停業部門資產稅後利益 21,000 停業部門稅後損失 $(21,000)",
+        "上述損益表表達不正確，損益表應該獨立揭露停業部門-平板電腦部門的 損益訊息，但不必考慮稅如下： 停業部門的營運收入 $300,000 停業部門的營運費用 (360,000) 停業部門的損失 $(60,000) 處分停業部門資產利益 30,000 停業部門損失 $(30,000) 30650"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "998de82ed70f",
+        "answer_pdf_sha1": "6717b96c0f3e",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0038",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "試以下列資料運用毛利法推算期末存貨： 期初存貨 $ 400,000 本期進貨淨額 5,000,000 本期銷貨淨額 6,000,000 估計毛利率 20%",
+      "options": [
+        "$600,000",
+        "$1,200,000",
+        "$2,400,000",
+        "$4,800,000"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "998de82ed70f",
+        "answer_pdf_sha1": "6717b96c0f3e",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0039",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司X3 年全年普通股發行流通在外2,000,000 股。甲公司另於X1 年1 月2日發行10年期5,000張面值$1,000，10%的可轉換公司債，每張公司 債可轉換 15 股普通股，二年後 X3 年起會提高到每張可轉換公司債可轉 換 18 股普通股。該可轉換公司債每年付利息一次，並且，該可轉換公司 債負債部分的利息費用為每年$400,000，自X1年至X3年並無公司債轉換 為普通股，X3年度淨利為$8,000,000，所得稅率為30%，試問（答案四捨 五入至小數點後二位）：",
+      "options": [
+        "該公司X3年度稀釋每股盈餘為$3.96",
+        "該公司X3年度稀釋每股盈餘為$4.00",
+        "該公司X3年度稀釋每股盈餘為$4.02",
+        "該公司X3年度稀釋每股盈餘為$4.06"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "998de82ed70f",
+        "answer_pdf_sha1": "6717b96c0f3e",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0040",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司在 X1 年 1 月 1 日發行 2,500 張可轉換公司債。該債券為 4 年期， 票面利率 6%，每張以面額$1,000 發行，自發行債券所收得現金為 $2,500,000。每年於 12 月 31 日付息一次。每張債券可轉換 200 股普通股 ，每股面額$1。類似的不可轉換債券的市場利率為 9%，經計算甲公司可 轉換債券負債部分X1年1月1日的現值為$2,257,033，X2年12月31日 全數轉換。試作X2年12月31日可轉換公司債轉換為普通股的分錄：",
+      "options": [
+        "應付公司債 2,500,000 股本－普通股 500,000 股本溢價－普通股 2,000,000",
+        "資本公積-認股權 242,967 應付公司債 2,500,000 應付公司債折價 242,967 股本－普通股 500,000 股本溢價－普通股 2,000,000",
+        "資本公積－認股權 242,967 應付公司債 2,500,000 應付公司債折價 131,919 股本－普通股 500,000 股本溢價－普通股 2,111,048",
+        "只需附註揭露，不必作分錄 30650"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "998de82ed70f",
+        "answer_pdf_sha1": "6717b96c0f3e",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0041",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司在X1年開始營運，並對其賣出足球產品提供一年的售後服務保證。 甲公司估計X1年賣出的300,000個產品中，會被送回修理的個數有5,000 個，修理成本每個$6。X1年已被送回修理的產品有4,000個，產生修理成 本$24,000。產品的 X1 年保固政策相關交易對甲公司 X1 年會計報表有何 影響？",
+      "options": [
+        "損益表淨利不變，資產負債表的負債增加",
+        "損益表淨利減少，資產負債表的負債增加",
+        "損益表淨利減少，資產負債表的負債不變",
+        "損益表淨利減少，資產負債表的負債減少"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "998de82ed70f",
+        "answer_pdf_sha1": "6717b96c0f3e",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0042",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司最近四年度有關應收帳款 X1 年、X2 年、X3 年和 X4 年期末應收 帳款$28,000、$64,000、$104,000 和$99,000，甲公司採用應收帳款百分比 法估計備抵損失-應收帳款(備抵壞帳科目)，該公司各年底之備抵損失-應 收帳款估計為期末應收帳款餘額之10%，但X4年底結帳前發現錯誤：X2 年應轉銷收不回之應收帳款$12,000 漏未沖銷。該錯誤對各年度淨利之影 響何者正確？",
+      "options": [
+        "X4年淨利高估$12,000",
+        "X4年淨利高估$10,800",
+        "X2年淨利高估$12,000",
+        "X2年淨利高估$10,800"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "998de82ed70f",
+        "answer_pdf_sha1": "6717b96c0f3e",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0043",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司X1年初開業，一向採「先進先出法」作為成本流動假設，報稅亦採 「先進先出法」。該公司擬自X3年1月1日改採「加權平均法」，不同方 法各年銷貨成本如下表，X3年的銷貨收入為$180,000，營業費用$40,000， 所得稅稅率為17%。試問此存貨方法改變相關會計紀錄何者正確？ 年度 先進先出法 加權平均法 X1 $ 74,000 $67,000 X2 90,000 83,000 X3 108,000 96,000",
+      "options": [
+        "此為會計政策變動，X3年1月1日需認列追溯適用及追溯重編影響數， 分錄需借：存貨$11,620",
+        "此為會計估計變動，不需追溯適用或追溯重編",
+        "此為會計政策變動，X3年1月1日需認列追溯適用及追溯重編影響數， X3年1月1日分錄需借：存貨增加$14,000",
+        "此為會計政策變動，X3年1月1日需認列追溯適用及追溯重編影響數， X3年1月1日分錄需借：存貨增加$26,000 30650"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "998de82ed70f",
+        "answer_pdf_sha1": "6717b96c0f3e",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0044",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司 X1 年 1 月 2 日以$942,919 購入乙公司發行之面額$1,000,000 公司 債做為「透過其他綜合損益按公允價值衡量之金融資產」，期末需依照市 價進行「透過其他綜合損益按公允價值衡量之金融資產評價調整」，按照 該票面利率3%，有效利率5.1%，3 年期，每年12 月31 日付息所編製的 折價攤銷表如下。X1 年12 月31 日該公司債市價為$970,000，甲公司X1 年會計報表表達「透過其他綜合損益按公允價值衡量之金融資產」帳面金 額和未實現利益何者正確？ 日期 借：現金 借：金融資產 貸：利息收入 帳面金額 X1/1/2 942,919 X1/12/31 30,000 18,089 48,089 961,008 X2/12/31 30,000 19,011 49,011 980,019 X3/12/31 30,000 19,981 49,981 1,000,000",
+      "options": [
+        "資產負債表的資產： 「透過其他綜合損益按公允價值衡量之金融資產-公司債」帳面金額 $961,008 損益表的未實現利益： $8,992",
+        "資產負債表的資產： 「透過其他綜合損益按公允價值衡量之金融資產-公司債」帳面金額 $961,008 資產負債表的股東權益項下「其他權益-金融資產未實現損益」 $8,992",
+        "資產負債表的資產： 「透過其他綜合損益按公允價值衡量之金融資產-公司債」 $961,008 「透過其他綜合損益按公允價值衡量之金融資產評價調整」 8,992 帳面金額 $970,000 損益表的未實現利益： $8,992",
+        "資產負債表的資產： 「透過其他綜合損益按公允價值衡量之金融資產-公司債」 $961,008 「透過其他綜合損益按公允價值衡量之金融資產評價調整」 8,992 帳面金額 $970,000 資產負債表的股東權益項下「其他權益-金融資產未實現損益」 $8,992 30650"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "998de82ed70f",
+        "answer_pdf_sha1": "6717b96c0f3e",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0045",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "X1 年 1 月 2 日乙公司以$2,162,218 發行 2,000 張公司債，面額$1,000，5 年期，每年6月30日及12月31日付息，票面利率10%，市場利率8%， 試問乙公司X1年1月2日的分錄為何？",
+      "options": [
+        "現金 2,162,218 應付公司債 2,000,000 公司債溢價 162,218",
+        "按攤銷後成本衡量之金融資產-公司債 2,162,218 現金 2,162,218",
+        "現金 2,000,000 應付公司債 2,000,000",
+        "按攤銷後成本衡量之金融資產-公司債 2,000,000 現金 2,000,000"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "998de82ed70f",
+        "answer_pdf_sha1": "6717b96c0f3e",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 11,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0046",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司存貨管理採用定期盤存制，X1年3月1日進貨$4,000，購買條件2/10, n/30，甲公司在X1 年3 月2 日支付3 月1 日進貨時的運費$150，甲公司3 月2日時發現商品不能正常運作，退回$200之商品，甲公司在X1年3月9 日支付剩餘積欠的貨款，試問甲公司購買這批貨的進貨成本為何？",
+      "options": [
+        "$3,870",
+        "$3,874",
+        "$3,950",
+        "$4,024"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "998de82ed70f",
+        "answer_pdf_sha1": "6717b96c0f3e",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 12,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0047",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "發放股票股利和股票分割對於股票面額、保留盈餘及股東權益的影響為何？",
+      "options": [
+        "發放股票股利：每股面值增加，保留盈餘增加，股東權益增加 股票分割：每股面值增加，保留盈餘增加，股東權益增加",
+        "發放股票股利：每股面值不變，保留盈餘減少，股東權益不變 股票分割：每股面值減少，保留盈餘不變，股東權益不變",
+        "發放股票股利：每股面值減少，保留盈餘不變，股東權益不變 股票分割：每股面值不變，保留盈餘減少，股東權益不變",
+        "發放股票股利：每股面值減少，保留盈餘減少，股東權益減少 股票分割：每股面值減少，保留盈餘減少，股東權益減少"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "998de82ed70f",
+        "answer_pdf_sha1": "6717b96c0f3e",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 13,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0048",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "假設無任何永久性差異或暫時性差異發生，甲公司X4年淨損失$2,800,000 ，其他各年度淨利如下表，假設規定損失可先前抵 2 年，再後抵 20 年， 則X4年底之所得稅利益為何？ X1年 X2年 X3年 X4年 X5年 X6年 課稅所得 $720,000 $680,000 $600,000 $(2,800,000) $560,000 $2,320,000 稅率 20% 22% 24% 26% 28% 30%",
+      "options": [
+        "$293,600",
+        "$444,800",
+        "$738,400",
+        "$728,000 30650"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "998de82ed70f",
+        "answer_pdf_sha1": "6717b96c0f3e",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 14,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0049",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司以成本$40,000，累計折舊$30,000之舊機器，交換乙公司一台公允價 值$50,000，預期耐用年限20年之新機器。交換時甲公司需支付乙公司現金 $43,000。若此交換具商業實質，則甲公司應記錄新機器之取得成本為：",
+      "options": [
+        "$40,000",
+        "$47,000",
+        "$50,000",
+        "$53,000"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "998de82ed70f",
+        "answer_pdf_sha1": "6717b96c0f3e",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 15,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0050",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "下列為甲公司X1年度資訊： 銷貨成本 $226,000 1月1日商品存貨 54,800 12月31日商品存貨 57,400 1月1日應付帳款 54,400 12月31日應付帳款 59,800 試問存貨付現數為何？",
+      "options": [
+        "$218,000",
+        "$228,800",
+        "$223,200",
+        "$234,000"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "998de82ed70f",
+        "answer_pdf_sha1": "6717b96c0f3e",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 16,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0051",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "在物價上漲期間，若公司將存貨計算方法由先進先出法改為加權平均法， 則：",
+      "options": [
+        "流動比率減少",
+        "存貨週轉率減少",
+        "負債對權益比率減少",
+        "現金流量減少"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "998de82ed70f",
+        "answer_pdf_sha1": "6717b96c0f3e",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 17,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0052",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "於現金股利發放日，收到採用權益法會計處理之關聯企業投資發放的現金 股利時，投資公司應作什麼處理？",
+      "options": [
+        "貸：採用權益法之關聯企業損益之份額",
+        "貸：股利收入",
+        "貸：採用權益法之關聯企業投資",
+        "貸：應收股利"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "998de82ed70f",
+        "answer_pdf_sha1": "6717b96c0f3e",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 18,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0053",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司所有存貨於5月1日的土石流中全數損毀，由於尚未完成4月份之 財務報表，因此必須估計期末存貨損失金額。該公司 4 月期初存貨為 $215,450，4月份進貨$192,530，銷貨收入$542,500。假設公司之平均毛利 率為40%，試問損毀之存貨金額估計應為：",
+      "options": [
+        "$81,480",
+        "$82,480",
+        "$87,480",
+        "$217,000"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "998de82ed70f",
+        "answer_pdf_sha1": "6717b96c0f3e",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 19,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0054",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司於 X1 年 9 月 1 日以$75,000 購得機器一台，估計殘值$10,000，耐 用年限4年，並使用雙倍餘額遞減法提列折舊。在X3年12月31日時， 以$13,000出售該機器。試問出售分錄應包括：",
+      "options": [
+        "借記：「出售損失」$542",
+        "借記：「出售損失」$2,625",
+        "借記：「出售損失」$2,667",
+        "貸記：「出售利得」$13,000"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "998de82ed70f",
+        "answer_pdf_sha1": "6717b96c0f3e",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 20,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0055",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司X0年1月1日有面額$1,000，240,000股之普通股股本$240,000,000 ，股本溢價-普通股$354,000,000。保留盈餘$972,000,000。X0年3月1日， 公司以$66,000,000購回30,000股庫藏股。4月1日出售15,000股庫藏股， 得款$34,500,000。5 月 1 日再出售 15,000 股庫藏股，得款$30,000,000，試 問甲公司X0年12月31日應於財務報表顯示之帳面金額，何者正確？",
+      "options": [
+        "股本溢價總額 $352,500,000（貸餘）",
+        "股本溢價-庫藏股 $1,500,000（借餘）",
+        "保留盈餘 $970,500,000（貸餘）",
+        "庫藏股交易損失 $1,500,000（借餘） 30650"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "998de82ed70f",
+        "answer_pdf_sha1": "6717b96c0f3e",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 21,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0056",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司 X1年1 月1 日發行5年期公司債，面額$500,000，票面利率10% ，每年 1 月 1 日及 7 月 1 日付息，當時有效利率 8%。X1 年 7 月 1 日付 息分錄借記「公司債利息」$21,622 及「公司債溢價」$3,378，則該公司 債售價為：",
+      "options": [
+        "$500,000",
+        "$533,780",
+        "$540,550",
+        "$560,720"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "998de82ed70f",
+        "answer_pdf_sha1": "6717b96c0f3e",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 22,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0057",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司從事成衣進口買賣，X1 年 12 月 31 日之期末存貨帳帳載餘額原有 $412,000，發現尚有額外資訊如下： ⑴期末存貨帳帳載餘額$412,000中，包括一筆寄銷品$72,000，甲公司為寄 銷人。 ⑵期末存貨帳帳載餘額$412,000中，包括存放於倉庫中之「辦公用品」存 貨$22,000，可供公司管理人員在次年度辦公使用。 ⑶期末存貨帳帳載餘額$412,000中，未包括一筆12月28日目的地交貨， 價值$48,000之進貨。甲公司直到X2年1月2日才收到該筆進貨。 ⑷期末存貨帳帳載餘額$412,000中，包括一筆已受損但尚未記錄減損之存 貨，其原始成本為$38,000，淨變現價值為$10,000。 ⑸期末存貨帳帳載餘額$412,000中，包括一筆承銷品$43,000，甲公司為承 銷人。 試問甲公司 X1 年12 月31 日財務狀況表所列，期末存貨之正確餘額（淨 額）應為：",
+      "options": [
+        "$319,000",
+        "$341,000",
+        "$369,000",
+        "$460,000"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "998de82ed70f",
+        "answer_pdf_sha1": "6717b96c0f3e",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 23,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0058",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司出售電腦產生銷貨收入$12,000，這批電腦提供保證型保固服務，估 計因保固服務而產生之成本為銷貨收入之2%，甲公司應：",
+      "options": [
+        "省略對保固費用之會計處理，因為只有2%",
+        "一律在保固修理工作完成時，認列保固費用，以符合配合原則",
+        "一律將保固費用視為或有負債，附註揭露即可",
+        "一律在銷貨收入產生當期認列保固費用與保固負債"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "998de82ed70f",
+        "answer_pdf_sha1": "6717b96c0f3e",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 24,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0059",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司於X1年度有以下相關資料： ⑴X1年1月1日期初應收帳款餘額$115,000，12月31日期末應收帳款餘 額$100,000 ⑵X1年12月31日公司宣布每股$0.05之股利，當日流通在外股票為 2,800,000股，並於X2年1月31日發放。公司於X0年並未宣布或發放任何 股利 ⑶以$5,000出售帳面金額$7,000之卡車，產生損失$2,000 ⑷支付公司債利息$780,000 ⑸X0年12月31日現金餘額$106,000，X1年12月31日現金餘額$284,000 試問甲公司營業活動現金流量、投資活動現金流量與籌資活動現金流量合 計為：",
+      "options": [
+        "與X1年報導之淨利數相同",
+        "現金流出$582,000",
+        "現金流入$178,000",
+        "現金流入$284,000"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "998de82ed70f",
+        "answer_pdf_sha1": "6717b96c0f3e",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "112050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "112",
+        "exam_name": "112年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 25,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0060",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "essay",
+      "question": "乙公司 X4 年度財務報表於 X5 年 2 月 10 日完成編製，董事會於 2 月\n24日通過發布。丁公司為乙公司的重要客戶，因財務狀況不佳於X5年\n2 月宣告破產。乙公司從帳列資料得知，X4 年期末丁公司尚積欠應收\n帳款$900,000 未償還，乙公司估計丁公司所積欠之帳款無望收回。乙\n公司已於X4年底對丁公司的應收帳款提列$350,000的備抵損失。\n依下列兩種情況，說明乙公司於接到丁公司破產訊息時，應作之會計\n處理及理由：\n丁公司於 X5年 2 月 17日宣告破產。（8 分）\n丁公司於 X5年 2 月 27日宣告破產。（8 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "3d8f47c89492",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "會計學",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0061",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "essay",
+      "question": "丙公司於 X3 年 1 月以每股 63 元買入戊公司普通股 100,000 股，另\n支付$4,410交易成本。丙公司於 X3 年 7 月 1 日獲配每股$2的現金股\n利及 5%股票股利，X3年底戊公司股價為每股$70。X4 年 6 月 1 日丙\n公司以每股$80 元售出戊公司股票，並支付$31,080 交易成本。丙公\n司對戊公司無重大影響力，對戊公司之股票投資並未指定為透過其他\n綜合損益按公允價值衡量之股權投資。試針對丙公司對戊公司之股票\n投資，計算 X3年度及 X4 年度對本期損益及其他綜合損益之影響數。\n（14分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "3d8f47c89492",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "會計學",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0062",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "essay",
+      "question": "乙公司採性質別表達營業費用，其 X1 年度營運資訊如下：\n項 目 金 額\n營業收入 $3,000,000\n營業支出：\n原物料耗用 1,000,000\n員工福利費用 600,000\n研究發展支出 120,000\n折舊與攤銷 400,000\n不動產、廠房及設備處分利益 40,000\n無形資產減損損失 60,000\n不動產、廠房及設備風災損失 88,000\n其他費用 112,000\n營業外收入及支出：\n和解賠償損失 8,000\n財務成本 12,000\n其他利益及損失（貸餘） 49,200\n所得稅費用 144,000\n停業單位損失（稅後淨額） 56,000\n試計算乙公司 X1 年度下列項目：營業毛利；營業利益；稅前\n淨利；繼續營業單位本期淨利；本期淨利。（20分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "3d8f47c89492",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "會計學",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0063",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "按照財務報導之觀念架構，下列何種衡量基礎不須考量交易成本？①歷史成",
+      "options": [
+        "現時成本",
+        "公允價值",
+        "資產之使用價值  ⑤負債之履約價值",
+        "僅"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "3d8f47c89492",
+        "answer_pdf_sha1": "eb204ac39013",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0064",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司 X2 年度損益相關資料如下：資產重估價損失$60,000、外幣兌換利 益$80,000，國外營運機構財務報表換算差額（貸餘）$150,000、透過其他綜 合損益按公允價值衡量之股票投資未實現評價損失$30,000、停業單位損失 $90,000，則X2年度本期其他綜合（損）益為何？（不考慮所得稅影響）",
+      "options": [
+        "$60,000",
+        "$120,000",
+        "$140,000",
+        "$200,000"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "3d8f47c89492",
+        "answer_pdf_sha1": "eb204ac39013",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0065",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "X3 年初甲公司有 1,000,000 股普通股發行流通在外，4 月 1 日另發行 600,000股普通股，10月1日甲公司平價發行10,000張面值$1,000，8%的 可轉換公司債，每張公司債可轉換 40 股普通股。當時相同條件無轉換權 之公司債公允價值為$900，有效利率10%，X3年度並無轉換。甲公司X3 年度淨利為$5,800,000，所得稅率20%，則X3年稀釋每股盈餘為何？",
+      "options": [
+        "$3.110",
+        "$3.845",
+        "$3.858",
+        "$3.887"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "3d8f47c89492",
+        "answer_pdf_sha1": "eb204ac39013",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0066",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司 7 月 31 日銀行對帳單上之存款餘額為$640,000，7 月底在途存款為 $90,000、未兌現支票為$120,000。7 月份因存款不足而退票$40,000，其中 $24,000 又於 7 月底前存入。7 月 30 日銀行誤將兌付丁公司之支票$35,000 誤自甲公司帳戶中扣除，銀行尚未發現此錯誤。7月份銀行代收票據$56,000 ，並扣除手續費$1,000。甲公司7月31日帳上之存款餘額是多少？",
+      "options": [
+        "$606,000",
+        "$614,000",
+        "$574,000",
+        "$590,000"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "3d8f47c89492",
+        "answer_pdf_sha1": "eb204ac39013",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0067",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司X2年度綜合損益表中稅前淨利為$70,100，審計人員發現其中包含",
+      "options": [
+        "透過其他綜合損益按公允價值衡量之債務工具投資未實現評 價損失$5,400；",
+        "透過其他綜合損益按公允價值衡量之權益工具投資處分 利益$3,000；",
+        "提前贖回債券利益$22,000；",
+        "X1 年度少計提折舊之追溯 重編影響數$7,500；⑤火災損失$7,000。甲公司X2年度稅前淨利應為："
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "3d8f47c89492",
+        "answer_pdf_sha1": "eb204ac39013",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0068",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司X2年12月31日期末原料成本為$800,000，重置成本$750,000；期 末在製品1,000單位，成本$231,000，估計至完工尚須投入成本$250,000； 期末製成品2,000單位，成本$1,000,000。每單位產品售價為$500，銷售費 用估計為售價的 8%，正常利潤率估計為售價的 12%，則甲公司 X2 年 12 月31日應報導期末存貨是多少？",
+      "options": [
+        "$1,550,000",
+        "$1,820,000",
+        "$1,880,000",
+        "$1,930,000"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "3d8f47c89492",
+        "answer_pdf_sha1": "eb204ac39013",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0069",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司 X1 年期末經盤點確定庫存貨品成本共有$525,000，檢視相關資料",
+      "options": [
+        "目的地交貨之進貨$3,000，X2年1月8日才運達；",
+        "承銷丙公司商品尚未賣出，計有$15,000；",
+        "X1年12月簽訂售後買回合約 ，出售商品給客戶，售價$32,000，成本$12,400，銷售合約給予甲公司一項 買權，甲公司可於 X2年2月按$28,000再買回該商品。試問甲公司X1年 期末正確存貨成本應該為多少？",
+        "$510,000"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "3d8f47c89492",
+        "answer_pdf_sha1": "eb204ac39013",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0070",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司於X3年1月3日以$3,500,000取得丙公司40%普通股股權，經評估 具重大影響，同時按股權淨值取得丙公司 50%特別股權益。丙公司 X2 年 底資產負債表上之權益如下：5%累積特別股股本$2,000,000（面額$100，收 回價格$110，積欠兩年股利）；普通股股本$6,000,000（面額$10）；資本公 積$2,000,000；保留盈餘$600,000。假設投資成本與所享有丙公司權益份額 之差額分五年攤銷，X3年度淨利為$600,000，X3年度宣告並發放現金股利 $400,000，X4 年度淨利為$200,000，未發放股利。假設甲公司與丙公司間 並未發生其他交易，則有關前述投資之會計處理，下列何者錯誤？",
+      "options": [
+        "甲公司X3年底對丙公司普通股投資帳戶餘額為$3,660,000",
+        "甲公司X4年底對丙公司普通股投資帳戶餘額為$3,612,000",
+        "甲公司X3年度對丙公司普通股投資之相關投資收益為$156,000",
+        "甲公司X4年度對丙公司普通股投資之相關投資損失為$4,000"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "3d8f47c89492",
+        "answer_pdf_sha1": "eb204ac39013",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0071",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "X2年1月1日甲公司以$981,190購入乙公司發行之公司債，面額$1,000,000 ，票面利率4%，每年6 月30 日及12 月31 日付息，X3 年12 月31 日到 期，有效利率 5%，甲公司將該債券投資分類為透過其他綜合損益按公允 價值衡量之債券投資。X2 年 12 月 31 日甲公司持有之乙公司公司債帳面 金額為$990,363、公允價值為$985,363，若甲公司於 X3 年 3 月 31 日以 $981,743 加計應收利息出售，另支付手續費$2,000，則甲公司 X3 年認列 處分債券投資損益為何？",
+      "options": [
+        "處分損失$2,000",
+        "處分損失$5,620",
+        "處分損失$11,000",
+        "處分損失$13,000"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "3d8f47c89492",
+        "answer_pdf_sha1": "eb204ac39013",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0072",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司於 X2 年底以$100,000（含交易成本）買入乙公司發行之三年期公 司債，面額$100,000，票面利率5%，每年12 月31 日付息一次，分類為 按攤銷後成本衡量之債券投資。有關該公司債的預期信用損失估計如下： 12個月內預期信用損失 存續期間預期信用損失 X2年底 $1,000 $1,800 X3年底 $5,000 $10,500 X4年底 $25,000 $25,000 若X3年底該債券的信用風險已顯著增加，X4年底該債券已自活絡市場中 消失，已達減損的地步。則甲公司於 X2 年底、X3 年底、X4 年底分別應 認列之減損損失金額為何？",
+      "options": [
+        "$1,000、$5,000、$25,000",
+        "$1,800、$10,500、$25,000",
+        "$1,000、$9,500、$14,500",
+        "$1,800、$8,700、$14,500"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "3d8f47c89492",
+        "answer_pdf_sha1": "eb204ac39013",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0073",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司 X2 年有關退休金資料如下：期初計畫資產公允價值$600,000，期 初確定給付義務現值$750,000，X2年當期服務成本為$112,500，因退休計 畫精算假設變動產生精算損失$95,000，X2 年底提撥退休基金$124,000， 並支付退休金$107,000。已知折現率為 5%，計畫資產實際報酬為$68,000 ，則甲公司X2年12月31日資產負債表應報導之退休金負債為何？",
+      "options": [
+        "$53,000",
+        "$70,000",
+        "$108,000",
+        "$203,000"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "3d8f47c89492",
+        "answer_pdf_sha1": "eb204ac39013",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 11,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0074",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "X1 年 1 月 1 日甲公司為進行新冠病毒疫苗之研發向衛生福利部申請補助 款，計獲得補助款 $6,000,000。該計畫總研發成本，自X1 年1月1 日起",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "3d8f47c89492",
+        "answer_pdf_sha1": "eb204ac39013",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 12,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0075",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "年內平均發生。疫苗開發完成後，受補助廠商可完全取得開發產品之專 利權，甲公司預計於 X3 年度完成疫苗開發計畫。甲公司於 X2 年 1 月 1 日疫苗第一階段測試失敗而中止研發計畫，違反衛生福利部補助條件，被 要求退還部分補助款$3,000,000。試問上述交易事項對甲公司X2年度本期 淨利之淨影響為何？（不考慮所得稅）",
+      "options": [
+        "增加$500,000",
+        "不受影響",
+        "增加$1,000,000",
+        "減少$1,000,000"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "3d8f47c89492",
+        "answer_pdf_sha1": "eb204ac39013",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0076",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司於 X2 年 1 月 1 日購入一機器設備，成本$546,000，估計耐用年限 6年，殘值$21,000，採年數合計法提列折舊，以成本模式衡量。X4年底該 機器使用方式發生不利之重大變動，經減損測試，估計該機器未來現金流 量現值為$150,000，公允價值為$160,000，處分成本為$2,000，則X4年底 甲公司應認列之減損損失金額為多少？",
+      "options": [
+        "$0",
+        "$6,000",
+        "$13,000",
+        "$21,000"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "3d8f47c89492",
+        "answer_pdf_sha1": "eb204ac39013",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 13,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0077",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司於X1年1月1日以$800,000購買一辦公設備，估計耐用年限8年 ，無殘值，該設備認列後之衡量採成本模式並以直線法提列折舊。此外， 基於政府之安全法規，該設備出廠時須進行重大安檢且每使用5年亦須進 行一次重大安檢。X3 年中法規修改為須每 3 年進行一次安全檢查，甲公 司於X3年12月31日實際發生之檢查成本為$50,000，該成本符合認列條 件。甲公司於X1年1月1 日購買設備時無客觀資料可個別辨認內含之重 大檢查成本，但經專家協助評估該檢查成本之金額為$30,000。前述交易對 X3年度甲公司稅前淨利之影響為何？",
+      "options": [
+        "減少$12,000",
+        "減少$114,250",
+        "減少$118,750",
+        "減少$131,250"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "3d8f47c89492",
+        "answer_pdf_sha1": "eb204ac39013",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 14,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0078",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司於 X2 年初購入一棟供出租用的辦公大樓，成本$40,000,000，估計 耐用年限為 40 年，無殘值，採直線法提列折舊。該辦公大樓符合分類為 投資性不動產，公司對投資性不動產採用公允價值模式衡量。X7 年初因 辦公大樓電梯頻頻故障，公司決定更換，換裝新電梯之成本共計$3,600,000 。X7年初及X7年底該辦公大樓公允價值分別為$37,800,000及$39,000,000 ，若舊電梯被重置時之公允價值為$1,800,000，則該投資性不動產之重置 及評價對X7年度損益之淨影響為何？",
+      "options": [
+        "產生損失$600,000",
+        "產生損失$2,400,000",
+        "產生利益$1,200,000",
+        "產生利益$2,200,000"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "3d8f47c89492",
+        "answer_pdf_sha1": "eb204ac39013",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 15,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0079",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲農場於X2年6 月30日購入50棵蘋果樹苗，種植在農場內，擬未來產 出蘋果出售。甲農場預期於 X4 年初該批果樹可達成熟階段而開始收成蘋 果，此樹種正常收成年限（耐用年限）為50年，且每年均可正常收成，估 計殘值為$0。每棵蘋果樹苗之購買價格為$80,000，另外發生運送費用 $13,000，交易成本$8,000。X2年度種植期間甲農場投入種植成本$232,500 ，X2 年底果樹之公允價值減出售成本為$4,200,000。X3 年度投入種植成 本$379,500，X3年底果樹之公允價值減出售成本為$5,800,000。X4年度共 採收蘋果 8,000 公斤，發生採收成本$150,000，每公斤蘋果之公允價值減 出售成本為$185，後續以每公斤$200之價格售出，並支付運費及相關出售 成本每公斤$5。X4 年度投入種植成本共$180,000，X4 年底果樹之公允價 值減出售成本為$4,550,000。試問前述交易對甲農場X4年度稅前淨利之影 響數為：",
+      "options": [
+        "$1,137,340",
+        "$1,317,340",
+        "$1,330,000",
+        "$1,357,340"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "3d8f47c89492",
+        "answer_pdf_sha1": "eb204ac39013",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 16,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0080",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司X2年1 月1 日訂有顧客忠誠計畫，約定顧客每消費$1,000 可獲贈 1點獎勵積點，每1點可用於未來消費時折抵$100。X2年1月31日顧客 消費$30,000,000，獲得24,000 點。甲公司預估顧客將兌換18,000 點，X2 年實際兌換12,000點，則甲公司X2年應認列銷貨收入為何？",
+      "options": [
+        "$28,325,581",
+        "$29,272,727",
+        "$29,302,326",
+        "$29,441,860"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "3d8f47c89492",
+        "answer_pdf_sha1": "eb204ac39013",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 17,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0081",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "X1年1月1日甲公司購買一項設備，購買價格$1,000,000，該設備之耐用 年限10年，殘值$100,000。該設備之取得獲得政府補助，並由政府直接撥 款給廠商$300,000。設備之後續衡量採成本模式並以直線法提列折舊，甲 公司按法律規定須於耐用年限屆滿對該設備負有除役之法定義務，於 X1 年1月1日估計應認列該設備之除役負債準備$100,000（折現率10%）。 X3 年 12 月 31 日，甲公司預期耐用年限屆滿時除役支出將下降，且折現 率降低為 8%，估計除役負債準備應為$98,100。試問該設備對甲公司 X4 年度稅前淨利之影響數為：",
+      "options": [
+        "減少$102,848",
+        "減少$95,000",
+        "減少$84,348",
+        "減少$72,848"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "3d8f47c89492",
+        "answer_pdf_sha1": "eb204ac39013",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 18,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0082",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司 X2 年度會計稅前淨利為$520,000，除下列項目外並無其他影響會",
+      "options": [
+        "甲公司 X2 年底資產負債表上產品 保證負債較上一年度減少了$24,000；",
+        "一機器設備 X2 年初帳面金額為 $120,000，課稅基礎為$100,000；X2年底機器設備帳面金額為$90,000，課 稅基礎為$60,000。若各年度稅率均維持20%，則甲公司X2年底認列所得 稅費用之分錄何者正確？",
+        "借記「所得稅費用」$104,000",
+        "借記「遞延所得稅資產」$4,800"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "3d8f47c89492",
+        "answer_pdf_sha1": "eb204ac39013",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 19,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0083",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司於X2年初建造廠房，並向銀行辦理專案借款$8,000,000，專案借款 利率為 10%，銀行於 X2 年 1 月 1 日即撥款$8,000,000 入甲公司之銀行存 款帳戶中。甲公司於X2年1月2日投入工程支出$2,000,000，7月1日再 投入工程支出$6,000,000，未動用之借款資金有存款利息4%，則X2年度 甲公司應資本化之借款成本是多少？",
+      "options": [
+        "$800,000",
+        "$680,000",
+        "$500,000",
+        "$380,000"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "3d8f47c89492",
+        "answer_pdf_sha1": "eb204ac39013",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 20,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0084",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司於 X2 年因產品誤用不良原料，面臨客戶要求賠償$8,000,000 之訴 訟。X2 年底公司律師評估該訴訟很有可能敗訴，且賠償金額介於 $2,000,000 至$5,000,000 之間。甲公司有投保產品責任險，根據合約規定 ，此一事件幾乎確定可以獲得理賠，且最高可獲得賠償金額$4,000,000。若 公司認列保險理賠是以保險理賠收入科目入帳，則甲公司 X2 年認列之訴 訟損失與保險理賠收入各是多少？",
+      "options": [
+        "$3,500,000、$3,500,000",
+        "$8,000,000、$4,000,000",
+        "$5,000,000、$4,000,000",
+        "$3,500,000、$4,000,000"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "3d8f47c89492",
+        "answer_pdf_sha1": "eb204ac39013",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 21,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0085",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "丙公司與A客戶簽訂銷售產品合約，出售甲及乙產品給該客戶，售價分別 為$40,000及$60,000，約定甲產品於X1年8月1日交貨，乙產品於X1年 9月1日交貨，甲產品的貨款須等到A客戶收到乙產品後一個月連同乙產 品貨款一併於10月1 日支付。若丙公司未能準時交付乙產品，則A客戶 不需支付甲產品貨款。丙公司於交付商品時即分別滿足履約義務，則丙公 司X1年8月底及9月底合約資產餘額分別為：",
+      "options": [
+        "$0及$100,000",
+        "$40,000及$100,000",
+        "$0及$0",
+        "$40,000及$0"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "3d8f47c89492",
+        "answer_pdf_sha1": "eb204ac39013",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 22,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0086",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司 X2 年初將一項辦公設備（成本為$760,000，已提列累計折舊 $220,000），以公允價值$480,000 出售予丙公司並立即租回（此交易滿足 IFRS15 移轉控制之規定），租期 4 年，每年初支付租金$82,500，與市場 上性質類似之辦公設備的合理年租金相同。甲公司於租期屆滿時須將該辦 公設備還給丙公司。該辦公設備採直線法折舊，在租期屆滿日甲公司保證 殘值$50,000，甲公司預估須就保證殘值支付丙公司$9,700，丙公司之租賃 隱含利率為8%，且為甲公司所知。試問前述交易對甲公司X2年度稅前淨 利之影響為：（答案四捨五入至元）",
+      "options": [
+        "減少$22,220",
+        "減少$112,304",
+        "減少$124,804",
+        "減少$131,804"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "3d8f47c89492",
+        "answer_pdf_sha1": "eb204ac39013",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 23,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0087",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司X1年12月31日應收帳款總額為$50,000，備抵損失為$3,000。X0 年 12 月 31 日應收帳款總額為$60,000，備抵損失為$4,000。X1 年度之預 期信用減損損失為$7,500，並沖銷無法收回之應收帳款$8,500。若甲公司 X1年度之銷貨收入為$500,000，則自顧客收取之現金數為：",
+      "options": [
+        "$501,500",
+        "$509,000",
+        "$510,000",
+        "$516,500"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "3d8f47c89492",
+        "answer_pdf_sha1": "eb204ac39013",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 24,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0088",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司於X9年5月1日購入一項設備，購買價格$1,000,000，付款條件為 2/30,n/60，並於X9年6月30日完成付款。其他資訊如下：運送成本$15,000 ；運送途中交通違規罰款$5,000；運送途中不慎碰撞之修復費用$40,000； 為安裝設備強化地板支出$30,000；組裝成本$60,000；測試機器設備是否 能正常運轉之成本$20,000；該測試過程所產出樣品之銷售價款$5,000、出 售成本$500、樣品生產成本$2,500；訓練員工使用機器成本$60,000；預計 管理機器將產生之成本$70,000。甲公司所購買設備之成本金額為何？",
+      "options": [
+        "$1,103,000",
+        "$1,105,000",
+        "$1,133,000",
+        "$1,143,000"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "3d8f47c89492",
+        "answer_pdf_sha1": "eb204ac39013",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "305",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 25,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0089",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "essay",
+      "question": "乙公司於 X2 年4 月 1 日發生火災，所有存貨付之一炬。乙公司採定\n期盤存制，火災前最近一次實地存貨盤點為 X1年 12 月 31日。下列\n為乙公司 X1年度的部分綜合損益表與其他資訊：\n銷貨收入 $1,935,000\n銷貨成本\n期初存貨 $ 837,400\n進貨 1,464,100\n可供銷貨收品成本 $2,301,500\n減：期末存貨 947,000 1,354,500\n銷貨毛利 $ 580,500\n其他資料：\n㉑ X2 年3 月1 日發現X1 年度之綜合損益表中漏列了X1 年12 月31\n日的一筆$50,000起運點交貨之銷貨，該筆交易遲至X2年1月3日\n才入帳，同時該筆交易的商品成本$35,000 亦誤記為X1 年12 月31\n日之存貨。\n㉒ X1 年 12 月 5日購入辦公用品$39,700，誤記為進貨。\n㉓ X2 年 1 月 1日至 4 月 1日帳列有關進銷貨之資料如下：\n銷貨 $1,335,000\n銷貨運費 25,000\n購貨 824,000\n購貨運費 63,600\n購貨退出 12,000\n請問乙公司：\nX1 年之毛利率。（10分）\n請用X1年之毛利率估計X2年4月1日存貨之火災損失。（15分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "ae539d788f4f",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "304",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "會計學",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0090",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "essay",
+      "question": "甲公司 X1 年度的銷貨毛利為銷貨收入的40%，營業費用為銷貨毛利\n的 50%，折舊費用為$240,000，占全部營業費用的30%，利息費用為\n營業費用的 10%，所得稅率為 20%。甲公司 X1 年度普通股平均流通\n在外股數為 96,000 股，普通股每股市價為$60。\n請問甲公司下列項目：（每小題5 分，共 15分）\n利息保障倍數\n每股盈餘\n本益比",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "ae539d788f4f",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "304",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "會計學",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0091",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "essay",
+      "question": "大同公司 X1 年1 月 1 日發行一批面額$2,000,000，票面利率 6%，五\n年到期之公司債，發行價格為$1,840,291，發行時市場利率為8%。公\n司每年付息一次，付息日為 12 月31 日。公司採用利息法攤銷。公司\n於 X4 年 1 月 1日由市場以 101之價格提前全部買回該批公司債。\n請問：（請四捨五入至元）（每小題 5分，共 10分）\nX3 年度帳上認列之利息費用\n買回公司債帳上所認列之損益金額",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "ae539d788f4f",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "304",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "會計學",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0092",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司自 X1 年初起租用一建築物作為企業總部，依租約甲公司須自 X1 年起每年年初支付依市場租金水準議定之租金$500,000，租期10年，期滿 該建築物歸還予出租人。甲公司於 X1 年初按其增額借款利率 5%對該租 約認列使用權資產$4,053,911，無殘值，按直線法提列折舊。該租約對甲公 司X10年之本期淨利影響數為（不考慮所得稅，答案四捨五入至元）：",
+      "options": [
+        "$(405,391)",
+        "$(429,201)",
+        "$(451,876)",
+        "$(473,472)"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "ae539d788f4f",
+        "answer_pdf_sha1": "d82f2d892680",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "304",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0093",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "承上題，惟甲公司於 X7 年底將該租約之使用權資產轉列為按公允價值衡 量之投資性不動產，該租約之使用權資產於 X7 年底之公允價值為 $1,284,255。該租約對甲公司X7年之本期淨利影響數為（不考慮所得稅， 答案四捨五入至元）：",
+      "options": [
+        "$(405,391)",
+        "$(429,201)",
+        "$(451,876)",
+        "$(473,472)"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "ae539d788f4f",
+        "answer_pdf_sha1": "d82f2d892680",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "304",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0094",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司採行確定福利退職後計畫，該計畫X1年期初之折現率為10%，服 務成本為$324,000，期初與期末之確定福利義務現值分別為$360,000 與 $720,000，期初與期末之計畫資產公允價值分別為$480,000 與$756,000。 若該計畫之確定福利成本均應計入淨利且經評估淨確定福利資產均無上 限，該計畫對甲公司 X1 年之本期淨利影響數為（不考慮所得稅，答案四 捨五入至元）：",
+      "options": [
+        "$(240,000)",
+        "$(312,000)",
+        "$(320,400)",
+        "$(324,000)"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "ae539d788f4f",
+        "answer_pdf_sha1": "d82f2d892680",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "304",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0095",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "承上題，且經評估淨確定福利資產上限均為$0，該計畫對甲公司 X1 年之 本期淨利影響數為（不考慮所得稅，答案四捨五入至元）：",
+      "options": [
+        "$(240,000)",
+        "$(312,000)",
+        "$(320,400)",
+        "$(324,000)"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "ae539d788f4f",
+        "answer_pdf_sha1": "d82f2d892680",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "304",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0096",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "認列於財務報表之要素係以貨幣形式量化，因此需要選擇衡量基礎。試問 現時成本、公允價值、使用價值及履約價值等4項衡量基礎中屬進入價值 而非退出價值者有幾項？",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "ae539d788f4f",
+        "answer_pdf_sha1": "d82f2d892680",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "304",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0097",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "依據「財務報導之觀念架構」，下列對於科目單位之敘述何者錯誤？",
+      "options": [
+        "指認列條件及衡量觀念所適用之權利或權利群組、義務或義務群組，或 權利與義務之群組",
+        "科目單位是認列的最小層級單位，因此認列後不會再改變",
+        "科目單位之選擇係為提供有用資訊",
+        "於某些情況下，就認列選擇一科目單位並就衡量選擇另一科目單位，可 能係屬適當"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "ae539d788f4f",
+        "answer_pdf_sha1": "d82f2d892680",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "304",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0098",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司12月31日公司帳上之存款餘額為$900,000。12月份之銀行對帳單 顯示12月份因存款不足而被退票為$30,000，其中$18,000又於12月底前 存入。12月底在途存款為$150,000，未兌現支票為 $144,000（包括$30,000 之支票銀行於12月20日保付）。12月16日公司誤將兌付他公司之支票 $19,800以$28,800記入公司帳上，公司尚未發現此項錯誤。12月份銀行代 收票據$60,000，並扣除代收手續費$300。試問甲公司12月31日之正確存 款餘額為何？",
+      "options": [
+        "$906,000",
+        "$938,700",
+        "$956,700",
+        "$986,700"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "ae539d788f4f",
+        "answer_pdf_sha1": "d82f2d892680",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "304",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0099",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司X1 年初向乙公司承租一項特殊設備，租期5 年，租金於每年年初 支付。X5年底甲公司此項租賃相關項目餘額如下： 資產： 使用權資產 $900,000 累計折舊－使用權資產 900,000 負債： 租賃負債 $ 90,000 則關於該租賃，下列敘述何者最為可能：",
+      "options": [
+        "甲公司將於X6年初以$90,000購買該設備",
+        "該設備在X5年底的殘值為$90,000",
+        "甲公司保證該設備在X5年底的殘值為$90,000",
+        "該設備在X5年底的殘值較甲公司的保證金額少$90,000"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "ae539d788f4f",
+        "answer_pdf_sha1": "d82f2d892680",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "304",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0100",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "乙公司 X5 年在現金流量表部分資料如下：特別股轉換成普通股$280,000 ，發放股票股利$450,000，購買設備付款$850,000，開立一張抵押票據購買 土地$2,500,000，出售按攤銷後成本衡量之投資得款$500,000，營業活動之 淨現金流入$1,500,000。乙公司X5年度之淨現金流量為何？",
+      "options": [
+        "淨現金流入$650,000",
+        "淨現金流入$1,150,000",
+        "淨現金流出$350,000",
+        "淨現金流出$1,000,000"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "ae539d788f4f",
+        "answer_pdf_sha1": "d82f2d892680",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "304",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0101",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司於X3年1月2日購買乙公司所發行的可轉換公司債作為投資，X6 年底甲公司帳上公司債之公允價值為$108,000。若甲公司於 X7 年 3 月 1 日將公司債全部轉換為普通股 4,000 股，乙公司當日普通股每股公允價值 為$30（每股面額為$10），則前述交易對甲公司 X7 年損益影響數為何？ （不考慮所得稅影響數）",
+      "options": [
+        "$0",
+        "利益$12,000",
+        "損失$28,000",
+        "損失$68,000"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "ae539d788f4f",
+        "answer_pdf_sha1": "d82f2d892680",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "304",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0102",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司在 X1 年 4 月 1 日取得一部設備，成本$580,000，估計耐用年限 5 年，殘值$40,000，後續衡量採成本模式。該設備原係以年數合計法提列折 舊，直至X3年初，甲公司決定改採直線法提列折舊。若所得稅率為20% ，改變折舊方法對X3年本期淨利之淨影響為何？（答案四捨五入至元）",
+      "options": [
+        "本期淨利增加$7,200",
+        "本期淨利增加$31,570",
+        "本期淨利增加$31,466",
+        "本期淨利增加$39,462"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "ae539d788f4f",
+        "answer_pdf_sha1": "d82f2d892680",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "304",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 11,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0103",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "乙銀行於Xl年1月1日發行面額$1,000,000之債券，票面附息4%，三年 到期，每年12月31日付息，按$972,768價格發行。若乙銀行將發行債券 所得款項放款給甲客戶，利率 6%，三年到期，每年 12 月 31 日付息，合 約規定借款人（甲客戶）可隨時購買乙銀行發行之前述債券提前償還該借 款。乙銀行將該放款分類為透過損益按公允價值衡量之金融資產，同時也 將所發行之債券指定為透過損益按公允價值衡量。X1 年 1 月 1 日乙銀行 所發行債券之有效利率為 5%，此時指標利率為 4%。X1 年 12 月31 日該 債券之公允價值為$928,669，有效利率為 8%，指標利率為 6%。則 X1 年 度與該指定透過損益按公允價值衡量金融負債相關之其他綜合損益為多 少？（不考慮所得稅之影響，四捨五入取至元）",
+      "options": [
+        "$0",
+        "$17,090",
+        "$44,099",
+        "$52,737"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "ae539d788f4f",
+        "answer_pdf_sha1": "d82f2d892680",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "304",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 12,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0104",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "假設公允價值能可靠衡量，下列資產項目中有幾項在原始認列時應以成本",
+      "options": [
+        "生產性動物",
+        "生產性植物",
+        "後續衡量採公允價值模式衡量 之投資性不動產",
+        "後續衡量採成本模式衡量之投資性不動產  ⑤由自 己農場收成供銷售之蘋果  ⑥由他人農場購入供銷售之蘋果"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "ae539d788f4f",
+        "answer_pdf_sha1": "d82f2d892680",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "304",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 13,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0105",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "X1年8月1日甲公司與乙公司簽訂不可取消購貨合約，甲公司須於X4年",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "ae539d788f4f",
+        "answer_pdf_sha1": "d82f2d892680",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "304",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 14,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0106",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "月 1 日前以每單位$20，向乙公司進貨 10,000 單位。另外，甲公司可於 到期前任何時點取消該合約，唯須支付罰金$50,000。甲公司會計期間採曆 年制，並評估X1年底、X2年底及X3年底該商品每單位之售價分別為$18 、$14及$16，試問，甲公司X3年度因上述合約應認列多少相關損益？",
+      "options": [
+        "損失$20,000",
+        "損失$40,000",
+        "利益$10,000",
+        "利益$20,000"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "ae539d788f4f",
+        "answer_pdf_sha1": "d82f2d892680",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "304",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0107",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司在X1 年1月1 日購買一棟商業大樓，規劃將之出租以收取租金。 該棟大樓之總成本為$10,000,000，估計土地與建築物之公允價值分別為 $6,000,000與$4,000,000。甲公司於X1年3月1日以營業租賃方式出租予 乙公司，每月租金$20,000。預估該棟大樓之使用年限為25年，殘值$200,000 。X1 年底，土地與建築物之公允價值分別為$6,900,000 及$3,800,000。若 甲公司採公允價值模式衡量投資性不動產，甲公司 X1 年綜合損益表應表 達之相關損益共計多少？",
+      "options": [
+        "利益$40,000",
+        "利益$48,000",
+        "利益$748,000",
+        "利益$900,000"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "ae539d788f4f",
+        "answer_pdf_sha1": "d82f2d892680",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "304",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 15,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0108",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司於X3年1月1日給與30位員工每人1,500單位認股權。其條件為 員工必須自 X3 年 1 月 1 日起連續服務滿 3 年，且 X5 年底公司股價須大 於$40，始能既得。該認股權之存續期間6年、履約價格$35，給與日之股 票評估價值$35，但無法可靠估計所給與認股權之公允價值。假設X3年至 X6 年底，該方案在職人數分別為 28、26、24、22，股票評估價值分別為 $36、$37、$41、$43。X5 年底有 4 人執行該認股權（其中 2 人於隔年離 職），X6年初有5人執行該認股權。試問，甲公司X6年度應認列該方案 相關之薪資費用為何？",
+      "options": [
+        "$(18,000)",
+        "$0",
+        "$45,000",
+        "$60,000"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "ae539d788f4f",
+        "answer_pdf_sha1": "d82f2d892680",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "304",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 16,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0109",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司於X1年初購入乙公司60%之普通股，成為乙公司之母公司。此外 ，甲公司於X1年9月1日購入丙公司36%之普通股，對丙公司具重大影 響力，而丙公司在X0年初就已取得丁公司25%股權，丁公司為丙公司之 關聯企業。乙公司 X1 年度出售毛利$2,000,000 之商品一批給丁公司，請 問甲公司將對乙公司股權投資採權益法處理時，應消除多少乙公司對丁公 司銷貨之未實現損益？",
+      "options": [
+        "$0",
+        "$36,000",
+        "$108,000",
+        "$144,000"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "ae539d788f4f",
+        "answer_pdf_sha1": "d82f2d892680",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "304",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 17,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0110",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "下列何者應表達於綜合損益表中？",
+      "options": [
+        "因精算損益而產生之確定福利計畫再衡量數",
+        "公司收到採權益法投資之關聯企業所宣告並發放的現金股利",
+        "公司因自建廠房而向銀行專案借款，於建造期間所需支付的利息",
+        "存貨評價由原先採行之加權平均法變更為先進先出法而產生之追溯適 用累積影響數"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "ae539d788f4f",
+        "answer_pdf_sha1": "d82f2d892680",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "304",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 18,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0111",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司 12 月舉行買 2 千送 5 百的年終感恩促銷活動，顧客於該月購買商 品每滿2千就獲得5百元之折價券一張，可於下月購物時直接折抵現金， 公司估計折價券之使用率達70%。請問公司此項促銷活動對毛利率與營業 利益率之可能產生影響方向為何？",
+      "options": [
+        "毛利率下降、營業利益率下降",
+        "毛利率上升、營業利益率上升",
+        "毛利率不變、營業利益率上升",
+        "毛利率上升、營業利益率不變"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "ae539d788f4f",
+        "answer_pdf_sha1": "d82f2d892680",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "304",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 19,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0112",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司使用零售價法估算期末存貨，X1年相關資訊如下： 期初存貨（成本） $ 35,000 加價 $ 8,000 期初存貨（零售價） 52,500 加價取消 4,000 進貨（成本） 145,600 減價 5,000 進貨（零售價） 225,000 銷貨收入 240,000 若甲公司採先進先出法評價存貨，則X1年期末存貨成本為多少？",
+      "options": [
+        "$23,417",
+        "$23,725",
+        "$23,841",
+        "$24,190"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "ae539d788f4f",
+        "answer_pdf_sha1": "d82f2d892680",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "304",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 20,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0113",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司與乙客戶於X1年12月1日簽訂一合約，合約內容如下表所示： 履約義務 分攤交易價格 收款方式 收入認列日 提供三個月資 銷售設備 $1,000 訊服務後一次 X1年12月31日 收取 簽約時預收一 即日起一年資 $12,000 半，餘款第六個 隨逐月提供服務認列 訊服務 （每月$1,000） 月一次收取 試問，甲公司於X1年相關財務報表應如何表達上述合約？",
+      "options": [
+        "應認列應收帳款$1,000",
+        "應認列合約資產$7,000",
+        "應認列合約負債$4,000",
+        "應認列收入$1,000"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "ae539d788f4f",
+        "answer_pdf_sha1": "d82f2d892680",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "304",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 21,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0114",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司於 X8 年初以$150,000 購入乙公司普通股，另支付手續費$450，分 類為透過其他綜合損益按公允價值衡量股票投資。X8 年 12 月 31 日該批 股票公允價值為$200,000，X9 年 11 月 1 日甲公司將這些股票以$180,000 出售，則該股票投資對X9年度本期綜合損益總額之影響為：",
+      "options": [
+        "增加$29,550",
+        "減少$30,000",
+        "減少$19,550",
+        "減少$20,000"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "ae539d788f4f",
+        "answer_pdf_sha1": "d82f2d892680",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "304",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 22,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0115",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "乙公司於 X2 年初承包長期建造合約，其合約義務為隨時間逐步履約者， 工程總價為$6,500,000，預計 3 年完工，且該合約之結果能合理衡量估計 。X2 年相關資料如下：估計總合約成本$4,500,000、當年投入工程成本 $2,520,000、工程進度請款金額$1,900,000與實際收款金額$1,500,000。X3 年相關資料如下：估計總合約成本$5,800,000、當年投入工程成本 $1,366,000、工程進度請款金額$3,000,000 與實際收款金額$2,500,000。若 該公司採成本比例法衡量履約義務完成程度，請問乙公司至 X3 年底關於 該合約之累積利潤為何？",
+      "options": [
+        "$548,000",
+        "$375,000",
+        "$469,000",
+        "$501,000"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "ae539d788f4f",
+        "answer_pdf_sha1": "d82f2d892680",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "304",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 23,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0116",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "甲公司於X1年初成立，X1年度稅前淨利為$5,000,000，X1年底之應收利 息及應付利息分別為$20,000及$8,000，由於稅法規定利息收付必須以現金 收付為基礎，各年度稅率均為20%。該公司並無其他暫時性差異存在，所 有可減除之暫時性差異在未來很有可能有課稅所得可供此差異使用，請問 X1年底之應付所得稅為多少？",
+      "options": [
+        "$994,400",
+        "$997,600",
+        "$1,000,000",
+        "$1,002,400"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "ae539d788f4f",
+        "answer_pdf_sha1": "d82f2d892680",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "304",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 24,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "colonel-d0d1b9a2-0117",
+      "exam_id": "colonel-d0d1b9a2",
+      "question_type": "single_choice",
+      "question": "乙公司持有丙公司股票，該投資於X2 年1 月1 日資產負債表列報「透過 損益按公允價值衡量之投資」$600,000與「透過損益按公允價值衡量之投 資評價調整」為$30,000（貸餘）。X2 年 7 月 1 日以每股$25 出售半數（ 15,000 股）之丙公司股票。X3 年 3 月 1 日以每股$12 再購買丙公司股票 3,000股。X2年底與X3年底丙公司股票每股公允價值分別為$23與$15。 請問X3年底「透過損益按公允價值衡量之投資評價調整」餘額為何？",
+      "options": [
+        "$90,000",
+        "$45,000",
+        "$(33,000)",
+        "$(66,000)"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:26:57+00:00",
+        "source_pdf_sha1": "ae539d788f4f",
+        "answer_pdf_sha1": "d82f2d892680",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "304",
+          "s": "1102",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "會計學",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 25,
+        "answer_corrected": false,
+        "flags": []
+      }
+    }
+  ]
+}

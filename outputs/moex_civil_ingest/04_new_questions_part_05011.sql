@@ -1,0 +1,40 @@
+-- W1.6 questions batch 5011/9310 (10)
+
+INSERT INTO public.questions (id, exam_id, paper_id, subject_id, chapter_id, question_type, question_text, options, correct_answer, correct_answer_json, auto_gradable, source, is_active, version, source_meta, explanation)
+VALUES
+  ('heelevel3-78f7d45f-moex-00013', 'heelevel3-78f7d45f', 'heelevel3-78f7d45f-moex-113-1fe8535a', 'sub-heelevel3-78f7d45f-02', NULL, 'essay', '試述下列名詞之意涵：
+packagetour（5 分）
+globaldistribution system（GDS）（7 分）
+destination marketing organization（DMO）（8 分）
+ModifiedAmerican Plan（MAP）（5 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:32:15+00:00", "source_pdf_sha1": "80d78514153e", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "113080", "c": "332", "s": "1201", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "觀光學", "year": "113", "exam_name": "113年公務人員高等考試三級考試暨普通考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "civil_slug": "heelevel3", "civil_category": "觀光行政"}'::jsonb, NULL),
+  ('heelevel3-78f7d45f-moex-00014', 'heelevel3-78f7d45f', 'heelevel3-78f7d45f-moex-113-1fe8535a', 'sub-heelevel3-78f7d45f-02', NULL, 'essay', '觀光產業中有五大特殊的市場區隔，請分別論述這些區隔的規模、重要
+性和共通特色。（25 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:32:15+00:00", "source_pdf_sha1": "80d78514153e", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "113080", "c": "332", "s": "1201", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "觀光學", "year": "113", "exam_name": "113年公務人員高等考試三級考試暨普通考試", "original_question_number": "二", "answer_corrected": false, "flags": [], "civil_slug": "heelevel3", "civil_category": "觀光行政"}'::jsonb, NULL),
+  ('heelevel3-78f7d45f-moex-00015', 'heelevel3-78f7d45f', 'heelevel3-78f7d45f-moex-113-1fe8535a', 'sub-heelevel3-78f7d45f-02', NULL, 'essay', '什麼是藍海策略與紅海策略？（10分）
+請從競爭的角度來分析，舉至少一個觀光產業的實際案例，分別說明
+在何種競爭情形下，採用藍海及紅海策略進行競爭的情況及結果。
+（15 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:32:15+00:00", "source_pdf_sha1": "80d78514153e", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "113080", "c": "332", "s": "1201", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "觀光學", "year": "113", "exam_name": "113年公務人員高等考試三級考試暨普通考試", "original_question_number": "三", "answer_corrected": false, "flags": [], "civil_slug": "heelevel3", "civil_category": "觀光行政"}'::jsonb, NULL),
+  ('heelevel3-78f7d45f-moex-00016', 'heelevel3-78f7d45f', 'heelevel3-78f7d45f-moex-113-1fe8535a', 'sub-heelevel3-78f7d45f-02', NULL, 'essay', '從觀光產業如何與科技結合的角度論述，應用於觀光用途的網路科
+技、數位科技、通訊設備有那些？（12分）上述的應用，如何讓觀光
+實體環境的功能或扮演的角色得以發揮最大的效果。（13分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:32:15+00:00", "source_pdf_sha1": "80d78514153e", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "113080", "c": "332", "s": "1201", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "觀光學", "year": "113", "exam_name": "113年公務人員高等考試三級考試暨普通考試", "original_question_number": "四", "answer_corrected": false, "flags": [], "civil_slug": "heelevel3", "civil_category": "觀光行政"}'::jsonb, NULL),
+  ('heelevel3-78f7d45f-moex-00017', 'heelevel3-78f7d45f', 'heelevel3-78f7d45f-moex-113-df9540c6', 'sub-heelevel3-78f7d45f-03', NULL, 'essay', '觀光產業深受氣候變遷影響，與許多其他行業一樣，也是溫室氣體的重
+要排放者。為讓觀光產業脫碳並在 2050年實現淨零排放至關重要。請您
+以旅宿業為例，分別從能源效率改進、營運改進、永續採購、低碳能源
+轉型、減少廢棄物使用等五項，進行脫碳手段（DecarbonisationLevers）
+之規劃。（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:32:15+00:00", "source_pdf_sha1": "f431289b1388", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "113080", "c": "332", "s": "1203", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "觀光資源規劃", "year": "113", "exam_name": "113年公務人員高等考試三級考試暨普通考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "civil_slug": "heelevel3", "civil_category": "觀光行政"}'::jsonb, NULL),
+  ('heelevel3-78f7d45f-moex-00018', 'heelevel3-78f7d45f', 'heelevel3-78f7d45f-moex-113-df9540c6', 'sub-heelevel3-78f7d45f-03', NULL, 'essay', '交通部為臺灣帶來更友善的騎乘環境，打造成世界級的自行車騎乘聖
+地，請試說明在打造國際化自行車路線及其特色旅遊活動、發展在
+地化自行車深度旅遊、自行車環島路網及串聯路線之優化、整合與改
+善，環島自行車道升級計畫三大推動主軸內容有那些？（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:32:15+00:00", "source_pdf_sha1": "f431289b1388", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "113080", "c": "332", "s": "1203", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "觀光資源規劃", "year": "113", "exam_name": "113年公務人員高等考試三級考試暨普通考試", "original_question_number": "二", "answer_corrected": false, "flags": [], "civil_slug": "heelevel3", "civil_category": "觀光行政"}'::jsonb, NULL),
+  ('heelevel3-78f7d45f-moex-00019', 'heelevel3-78f7d45f', 'heelevel3-78f7d45f-moex-113-df9540c6', 'sub-heelevel3-78f7d45f-03', NULL, 'essay', '每逢暑假期間，遊客前往綠島的人潮絡繹不絕，對於觀光衝擊影響甚鉅。
+請以綠島為例，說明訂定遊憩容納量應考慮的遊憩因素及生態因素有那
+些？（10分）若您是經營管理單位，如何管制遊憩容納量？（15分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:32:15+00:00", "source_pdf_sha1": "f431289b1388", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "113080", "c": "332", "s": "1203", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "觀光資源規劃", "year": "113", "exam_name": "113年公務人員高等考試三級考試暨普通考試", "original_question_number": "三", "answer_corrected": false, "flags": [], "civil_slug": "heelevel3", "civil_category": "觀光行政"}'::jsonb, NULL),
+  ('heelevel3-78f7d45f-moex-00020', 'heelevel3-78f7d45f', 'heelevel3-78f7d45f-moex-113-df9540c6', 'sub-heelevel3-78f7d45f-03', NULL, 'essay', '請詳述觀光遊憩資源的特性有那些？此等特性對發展觀光產業各具有
+何種效益？（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:32:15+00:00", "source_pdf_sha1": "f431289b1388", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "113080", "c": "332", "s": "1203", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "觀光資源規劃", "year": "113", "exam_name": "113年公務人員高等考試三級考試暨普通考試", "original_question_number": "四", "answer_corrected": false, "flags": [], "civil_slug": "heelevel3", "civil_category": "觀光行政"}'::jsonb, NULL),
+  ('heelevel3-78f7d45f-moex-00021', 'heelevel3-78f7d45f', 'heelevel3-78f7d45f-moex-112-1b12f637', 'sub-heelevel3-78f7d45f-01', NULL, 'essay', '隨著疫情緩和，觀光產業隨之啟動，報復性旅遊自國內開始擴展至國際旅
+遊。在觀光產業人力尚未補足的現況下，以觀光業者角度而言，如何善用
+智慧新興科技AugmentedReality或VirtualReality為觀光產業在疫後加值，
+重新找回旅客對觀光業者的服務信賴？（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:32:15+00:00", "source_pdf_sha1": "259891e3e7ea", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "112090", "c": "337", "s": "1405", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "旅運經營學", "year": "112", "exam_name": "112年公務人員高等考試三級考試暨普通考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "civil_slug": "heelevel3", "civil_category": "觀光行政"}'::jsonb, NULL),
+  ('heelevel3-78f7d45f-moex-00022', 'heelevel3-78f7d45f', 'heelevel3-78f7d45f-moex-112-1b12f637', 'sub-heelevel3-78f7d45f-01', NULL, 'essay', '旅行業管理規則以保護消費者為優先考量，特別是在保險上對旅行業者
+具強制性規範，請分別詳述旅行業必須投保之履約保險及責任保險內容。
+（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:32:15+00:00", "source_pdf_sha1": "259891e3e7ea", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "112090", "c": "337", "s": "1405", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "旅運經營學", "year": "112", "exam_name": "112年公務人員高等考試三級考試暨普通考試", "original_question_number": "二", "answer_corrected": false, "flags": [], "civil_slug": "heelevel3", "civil_category": "觀光行政"}'::jsonb, NULL)
+ON CONFLICT (id) DO NOTHING;

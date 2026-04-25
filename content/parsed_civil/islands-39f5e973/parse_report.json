@@ -1,0 +1,21 @@
+{
+  "slug": "islands-39f5e973",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:33:59+00:00",
+  "paper_count": 1,
+  "paper_with_questions": 1,
+  "question_count": 5,
+  "type_counts": {
+    "essay": 5
+  },
+  "issues": [
+    {
+      "year": "114",
+      "subject": "程式設計概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 5,
+      "answers": 0
+    }
+  ]
+}

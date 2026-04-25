@@ -1,0 +1,45 @@
+{
+  "slug": "policepromo-f410f0c7",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:28:26+00:00",
+  "paper_count": 4,
+  "paper_with_questions": 4,
+  "question_count": 16,
+  "type_counts": {
+    "essay": 16
+  },
+  "issues": [
+    {
+      "year": "113",
+      "subject": "刑法與刑事訴訟法實務",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "113",
+      "subject": "國際海洋法",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "刑法與刑事訴訟法實務",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "國際海洋法",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    }
+  ]
+}

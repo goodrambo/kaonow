@@ -1,0 +1,37 @@
+{
+  "slug": "pukao-9a509fdf",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:36:47+00:00",
+  "paper_count": 3,
+  "paper_with_questions": 3,
+  "question_count": 12,
+  "type_counts": {
+    "essay": 12
+  },
+  "issues": [
+    {
+      "year": "112",
+      "subject": "工程力學概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "工程力學概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "工程力學概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    }
+  ]
+}

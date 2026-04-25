@@ -1,0 +1,46 @@
+{
+  "slug": "policepromo-8b7f1efc",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:28:26+00:00",
+  "paper_count": 6,
+  "paper_with_questions": 6,
+  "question_count": 116,
+  "type_counts": {
+    "essay": 16,
+    "single_choice": 100
+  },
+  "issues": [
+    {
+      "year": "113",
+      "subject": "刑法與刑事訴訟法實務",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "113",
+      "subject": "警察勤務",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "刑法與刑事訴訟法實務",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "111",
+      "subject": "警察勤務",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    }
+  ]
+}

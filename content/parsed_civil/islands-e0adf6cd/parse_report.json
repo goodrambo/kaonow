@@ -1,0 +1,38 @@
+{
+  "slug": "islands-e0adf6cd",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:33:56+00:00",
+  "paper_count": 5,
+  "paper_with_questions": 5,
+  "question_count": 69,
+  "type_counts": {
+    "single_choice": 55,
+    "essay": 14
+  },
+  "issues": [
+    {
+      "year": "114",
+      "subject": "教育哲學與比較教育",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "教育心理與測驗統計",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "教育行政學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "aboriginal-6f0ba476",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:37:58+00:00",
+  "paper_count": 28,
+  "paper_with_questions": 27,
+  "question_count": 777,
+  "type_counts": {
+    "essay": 47,
+    "single_choice": 730
+  },
+  "issues": [
+    {
+      "year": "114",
+      "subject": "基礎能力測驗(作文、英文及中華民國憲法)",
+      "status": "parse_q_failed",
+      "format": "mixed",
+      "raw_q": 0,
+      "answers": null
+    }
+  ]
+}

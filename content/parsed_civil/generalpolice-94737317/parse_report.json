@@ -1,0 +1,13 @@
+{
+  "slug": "generalpolice-94737317",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:27:49+00:00",
+  "paper_count": 22,
+  "paper_with_questions": 22,
+  "question_count": 850,
+  "type_counts": {
+    "single_choice": 838,
+    "essay": 12
+  },
+  "issues": []
+}

@@ -1,0 +1,40 @@
+-- W1.6 questions batch 4522/9310 (10)
+
+INSERT INTO public.questions (id, exam_id, paper_id, subject_id, chapter_id, question_type, question_text, options, correct_answer, correct_answer_json, auto_gradable, source, is_active, version, source_meta, explanation)
+VALUES
+  ('heelevel3-0489de64-moex-00067', 'heelevel3-0489de64', 'heelevel3-0489de64-moex-111-456557e4', 'sub-heelevel3-0489de64-02', NULL, 'essay', '請分別說明使用旅客運輸服務與貨物運輸服務的隱含成本，並說明這些
+隱含成本對運具選擇可能產生的影響。（25 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:33:18+00:00", "source_pdf_sha1": "9d41225708ba", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111090", "c": "336", "s": "1314", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "運輸學", "year": "111", "exam_name": "111年公務人員高等考試三級考試暨普通考試", "original_question_number": "三", "answer_corrected": false, "flags": [], "civil_slug": "heelevel3", "civil_category": "交通行政"}'::jsonb, NULL),
+  ('heelevel3-0489de64-moex-00068', 'heelevel3-0489de64', 'heelevel3-0489de64-moex-111-456557e4', 'sub-heelevel3-0489de64-02', NULL, 'essay', '一般而言，依照運輸旅次所跨的空間範圍，可以將運輸旅次分為國際運
+輸、（國內）城際運輸與都會區運輸三種。請從（國內）城際運輸與都會
+區運輸特性的差異，探討政府對於此兩者採取高承載管制所應考量作法
+的差異。（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:33:18+00:00", "source_pdf_sha1": "9d41225708ba", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111090", "c": "336", "s": "1314", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "運輸學", "year": "111", "exam_name": "111年公務人員高等考試三級考試暨普通考試", "original_question_number": "四", "answer_corrected": false, "flags": [], "civil_slug": "heelevel3", "civil_category": "交通行政"}'::jsonb, NULL),
+  ('heelevel3-0489de64-moex-00069', 'heelevel3-0489de64', 'heelevel3-0489de64-moex-111-918ea80c', 'sub-heelevel3-0489de64-07', NULL, 'essay', '共享運具提供了城市中移動的另一種運具選擇。請論述共享電動機車系
+統對都市交通可能帶來的益處與挑戰，並說明其與公共運輸間是互補或
+替代之關係。（25 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:33:18+00:00", "source_pdf_sha1": "88ad8fde068c", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111090", "c": "336", "s": "1312", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "運輸管理學", "year": "111", "exam_name": "111年公務人員高等考試三級考試暨普通考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "civil_slug": "heelevel3", "civil_category": "交通行政"}'::jsonb, NULL),
+  ('heelevel3-0489de64-moex-00070', 'heelevel3-0489de64', 'heelevel3-0489de64-moex-111-918ea80c', 'sub-heelevel3-0489de64-07', NULL, 'essay', '請說明交通主管機關評估路邊停車收費方式應考慮之因素，並比較不同
+收費方式之優缺點。（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:33:18+00:00", "source_pdf_sha1": "88ad8fde068c", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111090", "c": "336", "s": "1312", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "運輸管理學", "year": "111", "exam_name": "111年公務人員高等考試三級考試暨普通考試", "original_question_number": "二", "answer_corrected": false, "flags": [], "civil_slug": "heelevel3", "civil_category": "交通行政"}'::jsonb, NULL),
+  ('heelevel3-0489de64-moex-00071', 'heelevel3-0489de64', 'heelevel3-0489de64-moex-111-918ea80c', 'sub-heelevel3-0489de64-07', NULL, 'essay', '政府宣示2030年市區公車全面電動化的政策，請論述公車客運業者採用
+電動公車可能面對的困難，以及政府可採行的鼓勵或輔助的措施。（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:33:18+00:00", "source_pdf_sha1": "88ad8fde068c", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111090", "c": "336", "s": "1312", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "運輸管理學", "year": "111", "exam_name": "111年公務人員高等考試三級考試暨普通考試", "original_question_number": "三", "answer_corrected": false, "flags": [], "civil_slug": "heelevel3", "civil_category": "交通行政"}'::jsonb, NULL),
+  ('heelevel3-0489de64-moex-00072', 'heelevel3-0489de64', 'heelevel3-0489de64-moex-111-918ea80c', 'sub-heelevel3-0489de64-07', NULL, 'essay', '請說明數位轉型（digitaltransformation）的意涵，並舉例數位轉型在交通
+運輸產業經營的必要性。（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:33:18+00:00", "source_pdf_sha1": "88ad8fde068c", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111090", "c": "336", "s": "1312", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "運輸管理學", "year": "111", "exam_name": "111年公務人員高等考試三級考試暨普通考試", "original_question_number": "四", "answer_corrected": false, "flags": [], "civil_slug": "heelevel3", "civil_category": "交通行政"}'::jsonb, NULL),
+  ('heelevel3-0489de64-moex-00073', 'heelevel3-0489de64', 'heelevel3-0489de64-moex-111-5b10e36f', 'sub-heelevel3-0489de64-03', NULL, 'essay', '請試述下列名詞之意涵：（每小題 8 分，共 40分）
+外部效益內部化
+經濟效率與公平
+合理車公里成本
+軌道經濟
+交通肇事成本', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:33:18+00:00", "source_pdf_sha1": "d0842354fce7", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111090", "c": "336", "s": "1316", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "運輸經濟學", "year": "111", "exam_name": "111年公務人員高等考試三級考試暨普通考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "civil_slug": "heelevel3", "civil_category": "交通行政"}'::jsonb, NULL),
+  ('heelevel3-0489de64-moex-00074', 'heelevel3-0489de64', 'heelevel3-0489de64-moex-111-5b10e36f', 'sub-heelevel3-0489de64-03', NULL, 'essay', '運輸部門推動「淨零碳排」之相關政策中，「載具電動化」是重要政策，
+而以臺灣機車使用情況及整體產業發展觀之，電動機車之發展更為重要。
+（每小題 15分，共 30 分）
+請評述臺灣之電動機車政策。
+請就外部成本內部化理念，論述電動機車之優點，以及應有的法制化
+與補貼策略。', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:33:18+00:00", "source_pdf_sha1": "d0842354fce7", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111090", "c": "336", "s": "1316", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "運輸經濟學", "year": "111", "exam_name": "111年公務人員高等考試三級考試暨普通考試", "original_question_number": "二", "answer_corrected": false, "flags": [], "civil_slug": "heelevel3", "civil_category": "交通行政"}'::jsonb, NULL),
+  ('heelevel3-0489de64-moex-00075', 'heelevel3-0489de64', 'heelevel3-0489de64-moex-111-5b10e36f', 'sub-heelevel3-0489de64-03', NULL, 'essay', '因應後疫情時代的綠運輸轉型，以及降低對於進口石化能源之依賴，德國推
+出全國公共運輸票價幾近10%的大幅優惠政策。（每小題15分，共30分）
+請論述該政策的可能影響。
+臺灣若要推動類似策略，請論述其可行性，以及在中央政府與地方政
+府應有的配套措施。', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:33:18+00:00", "source_pdf_sha1": "d0842354fce7", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111090", "c": "336", "s": "1316", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "運輸經濟學", "year": "111", "exam_name": "111年公務人員高等考試三級考試暨普通考試", "original_question_number": "三", "answer_corrected": false, "flags": [], "civil_slug": "heelevel3", "civil_category": "交通行政"}'::jsonb, NULL),
+  ('heelevel3-0489de64-moex-00076', 'heelevel3-0489de64', 'heelevel3-0489de64-moex-111-5e00ff89', 'sub-heelevel3-0489de64-04', NULL, 'essay', '請說明如何利用 GPS-Based Vehicle Probe（GVP）及 Cellular-Based
+VehicleProbe（CVP），進行運輸規劃分析與應用。相對於傳統之運輸規
+劃模式，應用 GVP及 CVP其優勢及劣勢為何？（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:33:18+00:00", "source_pdf_sha1": "8788a5d0c50d", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "111090", "c": "336", "s": "1310", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "運輸規劃學", "year": "111", "exam_name": "111年公務人員高等考試三級考試暨普通考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "civil_slug": "heelevel3", "civil_category": "交通行政"}'::jsonb, NULL)
+ON CONFLICT (id) DO NOTHING;

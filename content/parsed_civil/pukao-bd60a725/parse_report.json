@@ -1,0 +1,37 @@
+{
+  "slug": "pukao-bd60a725",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:35:33+00:00",
+  "paper_count": 3,
+  "paper_with_questions": 3,
+  "question_count": 13,
+  "type_counts": {
+    "essay": 13
+  },
+  "issues": [
+    {
+      "year": "114",
+      "subject": "食品安全與衛生法規概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "食品微生物學概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 5,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "食品檢驗分析與化學概要",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    }
+  ]
+}

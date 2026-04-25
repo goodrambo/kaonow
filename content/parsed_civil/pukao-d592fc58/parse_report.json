@@ -1,0 +1,13 @@
+{
+  "slug": "pukao-d592fc58",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:36:13+00:00",
+  "paper_count": 5,
+  "paper_with_questions": 5,
+  "question_count": 231,
+  "type_counts": {
+    "single_choice": 229,
+    "essay": 2
+  },
+  "issues": []
+}

@@ -1,0 +1,5535 @@
+{
+  "slug": "customs-03ec2c8b",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:22:24+00:00",
+  "paper_count": 15,
+  "paper_with_questions": 15,
+  "question_count": 149,
+  "type_counts": {
+    "essay": 49,
+    "single_choice": 100
+  },
+  "papers": [
+    {
+      "year": "114",
+      "exam_code": "114040",
+      "c": "106",
+      "s": "0201",
+      "q": "1",
+      "subject": "外國文(英文)",
+      "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "646867c18d04",
+      "a_pdf_sha1": "0f81576174b9",
+      "format_detected": "mixed",
+      "raw_question_count": 27,
+      "answer_qnums_extracted": 25,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 27,
+      "skipped_count": 0
+    },
+    {
+      "year": "114",
+      "exam_code": "114040",
+      "c": "106",
+      "s": "1016",
+      "q": "1",
+      "subject": "抽樣方法",
+      "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "6545e14f68c7",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 1,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 1,
+      "skipped_count": 0
+    },
+    {
+      "year": "114",
+      "exam_code": "114040",
+      "c": "106",
+      "s": "1010",
+      "q": "1",
+      "subject": "統計學",
+      "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "dbefc97e6f02",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "114",
+      "exam_code": "114040",
+      "c": "106",
+      "s": "0803",
+      "q": "1",
+      "subject": "經濟學",
+      "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "6ce4bd721411",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "113",
+      "exam_code": "113040",
+      "c": "307",
+      "s": "1110",
+      "q": "1",
+      "subject": "抽樣方法",
+      "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "7265e1418dde",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "113",
+      "exam_code": "113040",
+      "c": "307",
+      "s": "1105",
+      "q": "1",
+      "subject": "統計學",
+      "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "1dbab9840b16",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "113",
+      "exam_code": "113040",
+      "c": "307",
+      "s": "0902",
+      "q": "1",
+      "subject": "經濟學",
+      "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "6f76ab1b056f",
+      "a_pdf_sha1": "aff3e98fba69",
+      "format_detected": "mixed",
+      "raw_question_count": 27,
+      "answer_qnums_extracted": 25,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 27,
+      "skipped_count": 0
+    },
+    {
+      "year": "111",
+      "exam_code": "111050",
+      "c": "104",
+      "s": "1114",
+      "q": "1",
+      "subject": "抽樣方法",
+      "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "3c590e92864e",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "111",
+      "exam_code": "111050",
+      "c": "104",
+      "s": "1106",
+      "q": "1",
+      "subject": "統計學",
+      "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "cea57af887d6",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "111",
+      "exam_code": "111050",
+      "c": "104",
+      "s": "0905",
+      "q": "1",
+      "subject": "經濟學",
+      "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "be50498ecf56",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 5,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 5,
+      "skipped_count": 0
+    },
+    {
+      "year": "111",
+      "exam_code": "111050",
+      "c": "104",
+      "s": "0201",
+      "q": "1",
+      "subject": "英文",
+      "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "792008be0317",
+      "a_pdf_sha1": "df36763d88bd",
+      "format_detected": "mixed",
+      "raw_question_count": 28,
+      "answer_qnums_extracted": 25,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 28,
+      "skipped_count": 0
+    },
+    {
+      "year": "110",
+      "exam_code": "110050",
+      "c": "104",
+      "s": "1114",
+      "q": "1",
+      "subject": "抽樣方法",
+      "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "f263ff45b4f7",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 1,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 1,
+      "skipped_count": 0
+    },
+    {
+      "year": "110",
+      "exam_code": "110050",
+      "c": "104",
+      "s": "1106",
+      "q": "1",
+      "subject": "統計學",
+      "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "90e086715901",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "110",
+      "exam_code": "110050",
+      "c": "104",
+      "s": "0905",
+      "q": "1",
+      "subject": "經濟學",
+      "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "a2aa91bdd8f1",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "110",
+      "exam_code": "110050",
+      "c": "104",
+      "s": "0201",
+      "q": "1",
+      "subject": "英文",
+      "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "b3639bb583db",
+      "a_pdf_sha1": "80b9bc541bc5",
+      "format_detected": "mixed",
+      "raw_question_count": 28,
+      "answer_qnums_extracted": 25,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 28,
+      "skipped_count": 0
+    }
+  ],
+  "questions": [
+    {
+      "id": "customs-03ec2c8b-0001",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "essay",
+      "question": "英譯中：請將下列文章翻譯成中文。（20分）\nTheEuropeanCommissionistakingactiontotacklerisksstemmingfromlow-\nvalueimports sold vianon-EUonlineretailersand marketplaceshostingnon-\nEU traders. The Commission encourages actions, among others, in the areas\nof customs and trade, such as launching customs controls, consumer\nprotection and theDigitalServicesand DigitalMarketsActs.\nLastyear,around4.6billionlow-valueconsignments,i.e.,goodswithavalue\nnotexceeding€150,enteredtheEUmarketequalingto12 millionparcelsper\nday.Thisistwiceasmanyasin2023andthreetimesasmanyasin2022,and\nmany of these goods have found to be non-compliant with European\nlegislation. This exponential growth is raising numerous concerns. Mainly,\nthereare moreand more harmfulproductsentering theEU.\nMoreso,Europeansellers,whorespectourhighproductstandards,areatrisk\nof being harmed by unfair practices and the sale of counterfeit goods through\nonlinemarketplaces.Finally,thelargenumberofpackagesbeingshippedand\ntransported hasanegativeenvironmentaland climatefootprint.",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "646867c18d04",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "106",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "外國文(英文)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0002",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "essay",
+      "question": "英文寫作：請根據下列指示寫一篇英文作文。（30 分）\nWriteanessayinEnglishonthetopicof“Oneinventiontheworldneedsright\nnow.” Think critically about the world’s current challenges and propose an\ninvention that could address one of them. In your essay explain why this\ninvention is necessary, how it would work, and what impact it would haveon\nsociety.",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "646867c18d04",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "106",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "外國文(英文)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0003",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "ThewordsofcomfortfromJean’sfriendsservedasa duringhertimeofgrief.",
+      "options": [
+        "compliment",
+        "commitment",
+        "confrontation",
+        "consolation"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "646867c18d04",
+        "answer_pdf_sha1": "0f81576174b9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "106",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "外國文(英文)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0004",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "The university received a generous from a philanthropist to fund scholarships for students in need.",
+      "options": [
+        "application",
+        "obligation",
+        "endowment",
+        "undertaking"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "646867c18d04",
+        "answer_pdf_sha1": "0f81576174b9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "106",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "外國文(英文)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0005",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "The oftheecosysteminthewetlandshelpedtorevitalizethenaturalhabitatforwildlife.",
+      "options": [
+        "deprivation",
+        "restoration",
+        "breakdown",
+        "crackdown"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "646867c18d04",
+        "answer_pdf_sha1": "0f81576174b9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "106",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "外國文(英文)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0006",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "WhenBerlindacamebackhomefromworklateatnight,she openedthedoorwithoutwaking hersonsup.",
+      "options": [
+        "definitely",
+        "digitally",
+        "deadly",
+        "discreetly"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "646867c18d04",
+        "answer_pdf_sha1": "0f81576174b9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "106",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "外國文(英文)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0007",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "The oftheathletefromtheteamwasduetoaviolationofthecodeofconduct.",
+      "options": [
+        "award",
+        "reward",
+        "superstition",
+        "suspension"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "646867c18d04",
+        "answer_pdf_sha1": "0f81576174b9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "106",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "外國文(英文)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0008",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "Thestormcaused floodinginthearea,overwhelminglocalemergencyservices.",
+      "options": [
+        "negligible",
+        "unprecedented",
+        "admirable",
+        "undermined"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "646867c18d04",
+        "answer_pdf_sha1": "0f81576174b9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "106",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "外國文(英文)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0009",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "The melodyofthepianoechoedthroughtheemptyhalls,evokingmemoriesoflostlove.",
+      "options": [
+        "radiant",
+        "content",
+        "jubilant",
+        "melancholy"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "646867c18d04",
+        "answer_pdf_sha1": "0f81576174b9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "106",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "外國文(英文)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0010",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "In comparison with other universities in the country, this universityis much smaller with only 5,500 studentsand235 members.",
+      "options": [
+        "board",
+        "club",
+        "team",
+        "faculty"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "646867c18d04",
+        "answer_pdf_sha1": "0f81576174b9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "106",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "外國文(英文)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0011",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "Despitefacingnumeroussetbacks,Janeremained andcontinuedtopursueherdreams.",
+      "options": [
+        "fragile",
+        "resilient",
+        "irritated",
+        "aggravated"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "646867c18d04",
+        "answer_pdf_sha1": "0f81576174b9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "106",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "外國文(英文)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0012",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "Sophie atJohnwhenshediscoveredtoheramazementthatJohnhadknockeddownhercelloto theground.",
+      "options": [
+        "galloped",
+        "gasped",
+        "glared",
+        "gobbled"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "646867c18d04",
+        "answer_pdf_sha1": "0f81576174b9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "106",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "外國文(英文)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0013",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "Ourcompany’sproductpromotionstaffalwaystrytomaketheirpresentationsshortandtothepoint since talkswouldonlydrivepotentialbuyersaway.",
+      "options": [
+        "captive",
+        "lengthy",
+        "punctual",
+        "unanimous"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "646867c18d04",
+        "answer_pdf_sha1": "0f81576174b9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "106",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "外國文(英文)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 11,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0014",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "Theairporthadbeen closedtoallairtrafficduetoabombthreat,anditwasnotreopeneduntil threehourslater.",
+      "options": [
+        "doubtfully",
+        "marvelously",
+        "stubbornly",
+        "temporarily"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "646867c18d04",
+        "answer_pdf_sha1": "0f81576174b9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "106",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "外國文(英文)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 12,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0015",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "Established in 1960, the Association is a global leader in developing and knowledge about financialdecisionmaking.",
+      "options": [
+        "disseminating",
+        "impersonating",
+        "commemorating",
+        "subordinating"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "646867c18d04",
+        "answer_pdf_sha1": "0f81576174b9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "106",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "外國文(英文)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 13,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0016",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "Somepeopleare abouttheexistenceofUFOsandaliens,whileothersareconvincedwithouta doubt.",
+      "options": [
+        "hypocritical",
+        "skeptical",
+        "phenomenal",
+        "political"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "646867c18d04",
+        "answer_pdf_sha1": "0f81576174b9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "106",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "外國文(英文)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 14,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0017",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "Thestormcontinuedto throughoutthenight,withthundershakingthewindowsandlightning illuminatingthesky.",
+      "options": [
+        "urge",
+        "rage",
+        "pursue",
+        "predict 請依下文回答第16題至第20題 Theissueofdeception,orfalsification,isaprevalentconcerninvariousaspectsofsociety.Whetheritbein academicresearch,businesspractices,orpersonalinteractions,theactoffalsifyinginformation 16 trustand integrity.Inacademicsettings,falsifyingdataorplagiarizingcontentnotonly 17 ethicalstandardsbutalso diminishesthecredibilityofscholarlywork.Similarly,inbusiness,misleadingadvertisingorfinancialfraudcan leadtosignificantlegalandfinancial 18 ,aswellastarnishthereputationoforganizations.Onapersonal level, 19 behavior erodes relationships and erodes the fabric of trust that binds individuals together. Therefore,itisimperativeforindividualsandinstitutionstoupholdhonestyandtransparencyinallendeavors, fosteringacultureofintegrityand 20 .Onlythroughhonestyandauthenticitycanwecultivatetrustandbuild amoreethicalandtrustworthysociety"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "646867c18d04",
+        "answer_pdf_sha1": "0f81576174b9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "106",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "外國文(英文)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 15,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0018",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "①undermines ②strengthens ③intensifies ④mediates",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "646867c18d04",
+        "answer_pdf_sha1": "0f81576174b9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "106",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "外國文(英文)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 16,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0019",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "①sustains ②violates ③safeguards ④verifies",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "646867c18d04",
+        "answer_pdf_sha1": "0f81576174b9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "106",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "外國文(英文)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 17,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0020",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "①conquests ②attainments ③repercussions ④implementations",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "646867c18d04",
+        "answer_pdf_sha1": "0f81576174b9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "106",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "外國文(英文)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 18,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0021",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "①conscientious ②legitimate ③forthright ④deceitful",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "646867c18d04",
+        "answer_pdf_sha1": "0f81576174b9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "106",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "外國文(英文)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 19,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0022",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "①diversity ②versatility ③ambiguity ④accountability 請依下文回答第21題至第25題 Imagineaworldwheremachinesareourteachers,ourfriends,andourcompanionsandwheretheycan drive our cars, diagnose our diseases, and even write our creative content. This is the world of artificial intelligence(AI),anditisafuturethatisalreadystartingtotake 21 . InmovieslikeTheMatrixandTerminator,AIisoften 22 asathreattohumanity.Butinreality,AI hasthepotentialtobeapowerfultoolforgood.Itcanhelpus 23 someoftheworld'sbiggestproblems, suchasclimatechange,disease,andpoverty. AIisalreadybeingusedinavarietyofwaystoday.Forexample,Tesla,Waymo,andothercompaniesare developingself-drivingcarsthatuseAIto 24 theroad andavoidobstacles.Amazonandotheronline retailersuseAItorecommendproductstocustomers 25 theirpastpurchasesandbrowsinghistory.It's alsobeingusedtodevelopnewproductsandservices,suchaspersonalizedshoppingrecommendationsand AI-poweredchatbots.",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "646867c18d04",
+        "answer_pdf_sha1": "0f81576174b9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "106",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "外國文(英文)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 20,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0023",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "①turns ②notes ③shape ④block",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "646867c18d04",
+        "answer_pdf_sha1": "0f81576174b9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "106",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "外國文(英文)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 21,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0024",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "①delayed ②portrayed ③refreshed ④tortured",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "646867c18d04",
+        "answer_pdf_sha1": "0f81576174b9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "106",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "外國文(英文)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 22,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0025",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "①create ②gain ③raise ④solve",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "646867c18d04",
+        "answer_pdf_sha1": "0f81576174b9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "106",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "外國文(英文)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 23,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0026",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "①navigate ②expand ③detour ④obstruct",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "646867c18d04",
+        "answer_pdf_sha1": "0f81576174b9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "106",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "外國文(英文)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 24,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0027",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "①asidefrom ②basedon ③inspiteof ④onbehalfof",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "646867c18d04",
+        "answer_pdf_sha1": "0f81576174b9",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "106",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "外國文(英文)",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 25,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0028",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "essay",
+      "question": "025\n一、某機構希望能了解國人出國旅遊時，對「自動查驗通關」服務之滿意程度。\n但無法獲得相關民眾之資料，因此進行一項電話訪問調查，調查對象為年\n滿 20 歲之全體民眾。問卷內容除受訪者基本資料之外，主要問題包括詢\n問受訪者在過去一年是否有出國旅遊（含公務及求學等）經驗，再詢問有\n出國經驗之受訪者對「自動查驗通關」服務是否滿意。調查總樣本數為\n1,068 份，其中有 356 位受訪者表示有出國經驗，其中又有 267 位表示對\n「自動查驗通關」服務非常滿意。\n請問依據本調查資料，國人過去一年有出國旅遊經驗之比例推估值及其\n95%信賴區間為何？（10分）\n請問國人非常滿意「自動查驗通關」服務之比例推估值及其 95%信賴區\n間為何？（15 分）\n如果下一年度要舉行同一項調查，而希望出國比例推估值之正負誤差能\n控制在95%之信心水準下不超過3%，請問所需最小樣本數為何？（10分）\n二、興民里里長計畫舉辦元宵節里民聯歡活動，為評估所需餐點費用，想先評\n估參與里民人數，因此想由全里 500 戶中，隨機選擇 50 戶，然後詢問樣\n本戶內所有里民的參與意願藉以估計全里的參與人數。\n請問里長在沒有任何統計軟體/計算工具，僅有紙筆的情形下，如何以簡\n單隨機抽樣取出不放回的方式選擇樣本戶？（5分）\n請問這位里長使用的是那一種抽樣設計？請敘述這種抽樣設計在抽樣\n調查實務上的優缺點。（10分）\n假定這50 戶樣本戶中，平均每戶參加人數為 1.2 人；另外，這 50 戶樣\n本戶中，共有 200 位里民，而全里共有 3,000位里民。根據以上資訊，\n請問興民里里民會參與聯歡活動人數的不偏估計值與比例估計之估計\n值各是多少？（10 分）\n三、某員工數達1,000位員工之企業集團為評估是否應在集團內設置性別平等\n委員會，希望先了解企業內員工對企業職場性別平等議題之意見，隨機選\n取了 100 位員工，詢問其認為本集團之企業文化或政策是否仍有因性別而\n有不公平甚至歧視之狀況。在 100 位受訪員工中，有 30 位表示企業內仍\n有相關不平等現象，因此在董事會中提報員工認為仍有因性別所導致之不\n公平待遇等現象比例為 0.3。但某董事進一步檢視資料後發現，100 位受\n訪員工中有 70位男性，但僅有 30位女性，可是本集團中男女性員工之比\n例為各占 50%，因此質疑樣本之性別代表性恐有疑慮，同時 30 位表示企\n業內仍有相關不平等現象的員工中，女性有 25位，而男性僅有 5位。\n請以適當之檢定檢驗此一調查中，性別之樣本比例與母體比例在95%信\n心水準下是否相符。（10分）\n根據前述檢驗結果，請問0.3 之比例是否應該修正？若不需修正，請問\n理由為何？若需修正，請問修正後之比例及其變異數估計為何？（15分）\n該董事要求在同樣之總樣本數下重新執行一次調查，同時需要以性別分\n層，並適當配置樣本數以使得比例推估之變異最小化，請問男女性員工\n樣本數配置各為何？（15分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "6545e14f68c7",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "106",
+          "s": "1016",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "抽樣方法",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "0",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0029",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "essay",
+      "question": "假設隨機變數X 與Y 有下面的聯合（jointly）機率密度函數（probability\ndensityfunction）：\ney, 0 x y\nf(x,y)\n0, 其他範圍\n請回答下列問題：（每小題 4分，共 28分）\n求隨機變數X與Y的聯合動差母函數（momentgenerating function）。\n求隨機變數X的期望值。\n求隨機變數Y的期望值。\n求隨機變數X的變異數。\n求隨機變數Y的變異數。\n求兩隨機變數X與Y的共變異數（covariance）。\n求兩隨機變數X與Y的相關係數（correlation coefficient）。",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "dbefc97e6f02",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "106",
+          "s": "1010",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "統計學",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0030",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "essay",
+      "question": "令X ,X , ,X 是一組樣本大小（samplesize）為n，從均勻分配（uniform\n1 2  n\ndistribution）U[0,]抽樣而來的隨機樣本（randomsample），其中的參數\n未知。隨機變數X 的機率密度函數具有如下的形式：\ni\n1\n, 0 x  i 1,2, n\nf(x;)  i\ni\n0, 其他範圍\n請回答下列問題：\nˆ\n令為參數的最大概似估計量（maximumlikelihood estimator）。\n（每小題 3分，共 12 分）\nˆ\n㉑試求出。\nˆ\n㉒是否具有不偏性（unbiased）？請證明之。\nˆ\n㉓的均方誤差（mean square error，簡稱 MSE）是多少？請證明之。\nˆ\n㉔是否是參數的一致性估計量（consistent estimator of ）？請證\n明之。\n令 為利用動差法（method of moments）來對參數做估計所獲得的統\n計量。（每小題3 分，共 12分）\n\u0000\u0000\n㉑試求出 。\n㉒是否具有不偏性？請證明之。\n\u0000\u0000\n㉓的均方誤差是多少？請證明之。\n㉔是否是參數的一致性估計量？請證明之。\nˆ ˆ\n試比較與的MSE，看怎樣的樣本大小會讓或那一個比較具優勢？\n（3 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "dbefc97e6f02",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "106",
+          "s": "1010",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "統計學",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0031",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "essay",
+      "question": "某一出租影印機業者，欲研究維護影印機的時間Y（分鐘）與所出租的影\n印機數量X（台）之間的關係，經業者抽樣調查蒐集了 10 組維護影印機\n的時間與出租影印機數量的資料，如下表所示：\nX 20 23 27 24 19 22 18 19 21 25\ni\nY 520 547 594 551 509 513 495 511 527 534\ni\n若業者想利用這些資料建一個迴歸模型Y  X 作為未來估計與預測\n0 1\n之用，請回答下列問題：（每小題 6 分，共 30分）\n請以最小平方法（leastsquaremethod）求參數 與之估計值。\n0 1\n求參數 與之 95%信賴區間。\n0 1\n針對所算出來的之 95%信賴區間，請解釋其意涵。\n1\n若欲檢定由所蒐集的資料中是否足以顯示影印機維護時間受到出租影\n印機數量的影響，可以怎麼做？結論為何？（顯著水準設為0.05）\n針對某一個月份影印機出租數量為 26 台時，求其維護影印機時間的預\n測值之 95%的信賴區間。",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "dbefc97e6f02",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "106",
+          "s": "1010",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "統計學",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0032",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "essay",
+      "question": "隨機選取 A、B兩廠牌的輪胎各10 個，以成對的方式置入10 部車子的後\n輪中，以測試這兩種輪胎的耐磨程度，並記錄其耐磨的里程數（里程數越\n多代表輪胎越耐磨）。數據資料（單位：千公里）如下表所示：\n輪胎 車子 1 2 3 4 5 6 7 8 9 10\nA廠牌 23 20 26 25 48 26 25 24 15 20\nB廠牌 20 30 16 33 23 24 8 21 13 18\n請回答下列的問題（顯著水準皆設為0.01）：（每小題 5 分，共15 分）\n若已知母體為常態分配，根據上表的資料，請問 A 廠牌的輪胎平均耐\n磨度是否較 B廠牌好？\n若已知母體分配未知，請以符號檢定法（The Sign Test）再檢定之\n結果。\n若已知母體分配未知，請以 Wilcoxon 符號等級檢定法（The Wilcoxon\nSigned-Rank Test）再檢定之結果。",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "dbefc97e6f02",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "106",
+          "s": "1010",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "統計學",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0033",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "essay",
+      "question": "賴總統提出雙軸轉型政策，其中數位轉型部分如果在中長期造成臺灣產業\n生產力的提升，請分析：\n請以總供給曲線AS與總需求曲線AD分析對臺灣總產出與物價的影響。\n（10分）\n政府部門對廠商在數位轉型上的投入，應該採取怎樣的政策。（10分）\n請分析廠商投入數位轉型對社會福利的影響。（5 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "6ce4bd721411",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "106",
+          "s": "0803",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0034",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "essay",
+      "question": "因應淨零碳排的趨勢，歐盟訂定「碳邊境調整機制」（Carbon Border\nAdjustmentMechanism,CBAM），臺灣則課徵碳費，這些將造成短中期廠\n商生產成本的提高，一些文獻稱此為綠色通膨（GreenInflation）；針對綠\n色通膨請分析：\n請以總供給曲線AS與總需求曲線AD分析對臺灣總產出與物價的影響。\n（10分）\n請分析中央銀行進行擴張性貨幣政策對臺灣總產出與物價的影響。（10分）\n如果中央銀行以緊縮性的貨幣政策來紓解綠色通膨，請分析對臺灣就業\n市場的影響。（5 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "6ce4bd721411",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "106",
+          "s": "0803",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0035",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "essay",
+      "question": "近期美國啟動關稅戰，在其他情況不變下，請分析：\n對全球經濟成長率的影響。（10 分）\n對美國物價上漲率的影響。（10 分）\n對美國股價指數的影響。（5分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "6ce4bd721411",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "106",
+          "s": "0803",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0036",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "essay",
+      "question": "我國中央銀行於 2024 年下半年起進行一序列的房地產選擇性信用管制政\n策，請分析：\n對房價和房屋交易量的影響。（10分）\n對不動產類股股價的影響。（10 分）\n對臺灣房地產相關產業就業景氣的影響。（5分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "6ce4bd721411",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114040",
+          "c": "106",
+          "s": "0803",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "經濟學",
+        "year": "114",
+        "exam_name": "114年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0037",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "essay",
+      "question": "請說明「抽樣誤差」與「非抽樣誤差」之意義？並比較兩者之差異。（20分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "7265e1418dde",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "307",
+          "s": "1110",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "抽樣方法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0038",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "essay",
+      "question": "某布料工廠的 1項產品規格為長度 400公分之大型布匹，工廠的品管部門\n為掌握布匹之品質，會定期進行產品規格檢驗，例如：從 1件大型布匹隨\n機裁剪 5 處布料進行化學檢驗，以確保布料產品符合標準規格。如果你身\n為工廠之品管人員，要在布匹上隨機裁剪 5個檢驗點，請分別以系統抽樣\n法、簡單隨機抽樣法及分層隨機抽樣法進行裁剪，請問你所設計之 5 個樣\n本檢驗點位置（以公分為單位）為何？（20分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "7265e1418dde",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "307",
+          "s": "1110",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "抽樣方法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0039",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "essay",
+      "question": "假設有個四面體的公正骰子，骰子的四面體分別有數字{1, 2, 3, 4}，某人\n丟擲此 1 公正骰子 2 次（即為 n=2 樣本），令 表示第i次骰子出現的點\nx +x\n數， 1,2，則樣本平均數為x= 1 2，請問x 與x\u0000 的聯合機率分配為何？\n1 x 2\n2\nx的抽樣分配為何？x的平均數與變異數為何？（30分）\ni =",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "7265e1418dde",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "307",
+          "s": "1110",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "抽樣方法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0040",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "essay",
+      "question": "某電影院行銷經理想要瞭解當前大學生每月觀看電影之次數，經調查後有\n3 個觀看電影之集群資料，集群A有 3 位大學生本月觀看電影次數之資料\n為{3,6,3}；集群B有 4 位大學生本月觀看電影次數之資料為{4,2,6,8}；\n集群 C有 5位大學生本月觀看電影次數之資料為{4, 3, 5, 2, 6}。運用機率\n比例抽樣（probability proportional to size, PPS）方式從上述集群中抽出 2\n個集群為樣本，假設抽出的 2個集群分別為集群A和集群 C，請分別計算\n群體總和（ ）、群體平均數（ ）之估計數及其變異數為何？（30分）\npps pps\n\u0000\n\u0000\u0000 \u0000\u0000",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "7265e1418dde",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "307",
+          "s": "1110",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "抽樣方法",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0041",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "essay",
+      "question": "在一項對某政策支持度進行的民意調查中，100 份有效問卷內有 57 份支\n持，43 份不支持。令 為民眾對該政策之支持率， 為不支持率，在顯著\n水準 0.05 下，檢定是否有足夠證據說：支持率高於不支持率？其 p 值為\n\u0000\u0000 \u0000\u0000\n何？（20分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "1dbab9840b16",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "307",
+          "s": "1105",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "統計學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0042",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "essay",
+      "question": "在下列的分配假設中，求隨機變數 X 的第 5 個百分位數及四分位距\n（interquartilerange）。（每小題15 分，共 30分）\nX為上下界分別為 0 及10 的一致分配\nX為標準常態分配",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "1dbab9840b16",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "307",
+          "s": "1105",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "統計學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0043",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "essay",
+      "question": "為比較 A、B 二種廠牌 2,000 毫升汽車油耗，各挑 20 輛新車測試，結果平\n均A廠牌每10公升可行駛100公里，標準差20公里；B廠牌每10公升可\n行駛110公里，標準差20公里；在顯著水準0.05下，檢定二種廠牌平均油\n耗程度是否相同？（20分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "1dbab9840b16",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "307",
+          "s": "1105",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "統計學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0044",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "essay",
+      "question": "政府擬以問卷訪問方式調查 20歲以上民眾對某政策之支持度。\n（每小題15 分，共 30 分）\n今隨機抽樣得有效樣本1,600份；在 95%的信心水準下，計算其抽樣誤\n差為正負（ ）多少百分點？\n在抽樣誤差為 3%下，則有效樣本數至少需多少份才能保證 99%的信\n±\n心水準？\n±\n附表\n常用根號值\n常態分配表 w2\n√2 = 1.414, √3 = 1.732, √5z= 21.236, √10 = 3.162\nP(Z  z)(z)  e 2 dw\n2\n[(z)1(z)]\nZ\nα\nZ\nα/2",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "1dbab9840b16",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "307",
+          "s": "1105",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "統計學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0045",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "essay",
+      "question": "假設獨占廠商面對的反需求曲線及總成本函數分別為P400.6Q、\nTC 48Q0.2Q2。請回答下列問題，並詳列計算過程：\n利潤最大化產量及利潤水準。（6 分）\n若政府對獨占廠商課徵10 元的定額稅（lump-sumtax），請計算此\n獨占廠商利潤最大化產量和利潤水準。（7 分）\n若政府對獨占廠商課徵每單位10 元的從量稅（specifictax），請計\n算此獨占廠商利潤最大化產量。（6 分）\n若政府對獨占廠商課徵10%的從價稅（advaloremtax），請計算此\n獨占廠商利潤最大化產量。（6分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "6f76ab1b056f",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "307",
+          "s": "0902",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0046",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "essay",
+      "question": "假設某一開放經濟體各部門支出如下：\n消費函數為C 580.4Yd，可支配所得Yd Y T，稅收淨額T 30\n億元，投資支出I 15億元，政府支出G 20億元，淨出口函數為\nNX 150.2Y，其中，Y 是所得。請回答下列問題，並詳列計算過程：\n均衡國內生產毛額（GDP）。（4 分）\n總支出線的斜率。（3分）\n淨出口乘數及稅收淨額乘數。（6 分）\n若充分就業的均衡所得為 140億元，則此時會有膨脹或緊縮缺口？\n缺口有多大？（6 分）\n若以政府支出做為消除此缺口的手段，則政府支出須變動多少，才\n能達到充分就業水準？在政府支出水準下，政府預算會發生多少赤\n字（或盈餘）？（6 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "6f76ab1b056f",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "307",
+          "s": "0902",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0047",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "假設所有財貨的生產皆是固定規模報酬，有關機會成本與國際貿易型態， 下列敘述何者正確？",
+      "options": [
+        "具有絕對利益意味同時擁有比較利益",
+        "假設國家 A 相對於國家 B 在生產電腦時可以用更少的投入得到相同的 產出，則國家A具有生產電腦的比較利益",
+        "假設國家 A 和 B 在生產所有財貨皆有相同的機會成本，則兩國進行國 際貿易不會帶來專業化利得",
+        "假設國家A在生產所有財貨皆較有效率，則兩國進行國際貿易不會互蒙 其利"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "6f76ab1b056f",
+        "answer_pdf_sha1": "aff3e98fba69",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "307",
+          "s": "0902",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0048",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "某財貨的市場需求函數為Q=4-P，其中Q為需求量，P為價格。當價格為 2元時，價格的需求彈性為何？",
+      "options": [
+        "-1/4",
+        "-1",
+        "-2",
+        "-4"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "6f76ab1b056f",
+        "answer_pdf_sha1": "aff3e98fba69",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "307",
+          "s": "0902",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0049",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "在兩期模型下，假設第一期的消費與第二期的消費都是正常財。在其他條 件不變下，當利率下跌時，下列敘述何者正確？",
+      "options": [
+        "第一期的消費必定增加",
+        "第一期的消費必定減少",
+        "第二期的消費必定增加",
+        "第二期的消費必定減少"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "6f76ab1b056f",
+        "answer_pdf_sha1": "aff3e98fba69",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "307",
+          "s": "0902",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0050",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "生產函數的斜率定義為下列何者？",
+      "options": [
+        "邊際替代率（marginalrateofsubstitution）",
+        "邊際技術轉換率（marginalrateoftransformation）",
+        "邊際技術替代率（marginalrateoftechnicalsubstitution）",
+        "邊際產量（marginalproduct）"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "6f76ab1b056f",
+        "answer_pdf_sha1": "aff3e98fba69",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "307",
+          "s": "0902",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0051",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "假設廠商的總成本函數為 TC=3Q+10，其中 TC 為總成本，Q 為產量，下 列敘述何者正確？",
+      "options": [
+        "此成本函數為長期成本函數",
+        "平均成本（AC）函數為AC=3",
+        "邊際成本（MC）函數為MC=3",
+        "固定成本（FC）函數為FC=3"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "6f76ab1b056f",
+        "answer_pdf_sha1": "aff3e98fba69",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "307",
+          "s": "0902",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0052",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "已知一完全競爭廠商，短期總成本函數為TC=q2-8q+110，其中TC為總成本 ，q為產量。若市場的價格為12元，此時廠商最多可賺取的經濟利潤為何？",
+      "options": [
+        "-10",
+        "0",
+        "10",
+        "12"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "6f76ab1b056f",
+        "answer_pdf_sha1": "aff3e98fba69",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "307",
+          "s": "0902",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0053",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "在獨占性競爭市場下，假設廠商有相同的成本，於長期均衡時，下列敘述 何者正確？",
+      "options": [
+        "廠商的平均總成本曲線與邊際成本曲線相交",
+        "廠商的平均總成本曲線與邊際收益曲線相切",
+        "廠商的平均總成本曲線與平均收益曲線相切",
+        "廠商的邊際成本曲線與邊際收益曲線相切"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "6f76ab1b056f",
+        "answer_pdf_sha1": "aff3e98fba69",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "307",
+          "s": "0902",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0054",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "假設市場勞動需求曲線為負斜率，而勞動供給曲線則為正斜率，同時假設 目前勞動供給曲線和需求曲線相交時的工資低於目前的基本工資。如果基 本工資調升時，有關對勞動市場影響的敘述，下列何者錯誤？",
+      "options": [
+        "勞動需求量會下降",
+        "勞動需求會下降",
+        "就業人數會減少",
+        "失業率會上升"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "6f76ab1b056f",
+        "answer_pdf_sha1": "aff3e98fba69",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "307",
+          "s": "0902",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0055",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "風險貼水（riskpremium）的意義為何？",
+      "options": [
+        "為了消除風險所必須付出的代價",
+        "高風險的股票與無風險的政府公債的報酬率之差異",
+        "風險的機會成本",
+        "風險的偏好程度"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "6f76ab1b056f",
+        "answer_pdf_sha1": "aff3e98fba69",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "307",
+          "s": "0902",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0056",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "假設一個經濟社會共有貨幣、勞動、產品、股票、房地產等五個市場，依 據瓦拉斯法則（Walras’law），下列敘述何者正確？",
+      "options": [
+        "瓦拉斯法則屬於部分均衡分析",
+        "除了貨幣市場，其餘四個市場的超額需求加總為0",
+        "除了勞動市場，其餘四個市場的超額需求加總為0",
+        "當貨幣市場有超額供給，可能會造成一般物價、薪資、股價或房價的上漲"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "6f76ab1b056f",
+        "answer_pdf_sha1": "aff3e98fba69",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "307",
+          "s": "0902",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0057",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "假設一個產品在其生產及消費過程中皆具有外部性，在下列何種情形下， 產品的產量會符合柏拉圖效率（Paretoefficiency）？",
+      "options": [
+        "當邊際私人成本等於邊際私人利益",
+        "當邊際私人成本等於邊際社會利益",
+        "當邊際社會成本等於邊際私人利益",
+        "當邊際社會成本等於邊際社會利益"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "6f76ab1b056f",
+        "answer_pdf_sha1": "aff3e98fba69",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "307",
+          "s": "0902",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 11,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0058",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "假設有一建設公司購置所有原料花費600萬元，並支付工人薪資300萬元， 才能蓋好一棟售價1,250萬元的房子，此家建設公司創造的附加價值為何？",
+      "options": [
+        "350萬元",
+        "950萬元",
+        "650萬元",
+        "1,250萬元"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "6f76ab1b056f",
+        "answer_pdf_sha1": "aff3e98fba69",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "307",
+          "s": "0902",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 12,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0059",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "在廠商追求利潤極大的假設下，當勞動的邊際生產力大於實質工資率時， 廠商的：",
+      "options": [
+        "勞動供給量增加",
+        "勞動供給量減少",
+        "勞動需求量增加",
+        "勞動需求量減少"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "6f76ab1b056f",
+        "answer_pdf_sha1": "aff3e98fba69",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "307",
+          "s": "0902",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 13,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0060",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "有關梭羅（Solow）成長模型，下列敘述何者正確？",
+      "options": [
+        "絕對收斂假說係指窮國與富國的實質所得差異會隨著時間而減少",
+        "儲蓄率由模型內生，增加儲蓄能影響長期經濟成長",
+        "邊際儲蓄傾向每期均會改變，直到達成長期均衡",
+        "恆定狀態下每人最適資本存量即為黃金法則下的每人資本存量"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "6f76ab1b056f",
+        "answer_pdf_sha1": "aff3e98fba69",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "307",
+          "s": "0902",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 14,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0061",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "在資本完全移動及浮動匯率體制下，根據 Mundell-Fleming 模型，下列何 種因素會造成本國貨幣的升值？",
+      "options": [
+        "貨幣供給減少",
+        "政府支出減少",
+        "租稅提高",
+        "外國對本國產品課徵反傾銷稅"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "6f76ab1b056f",
+        "answer_pdf_sha1": "aff3e98fba69",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "307",
+          "s": "0902",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 15,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0062",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "下列何種措施不致影響總合需求？",
+      "options": [
+        "中央銀行降低貼現率",
+        "立法機關通過減稅法案",
+        "政府支出增加",
+        "生產技術進步"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "6f76ab1b056f",
+        "answer_pdf_sha1": "aff3e98fba69",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "307",
+          "s": "0902",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 16,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0063",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "若中央銀行採取較積極之貨幣政策，對貨幣政策法則（monetary policy rule, MPR）曲線（實質利率為通貨膨脹的函數）與總合需求曲線會產生何種影響？",
+      "options": [
+        "MPR曲線變得更陡直，總合需求曲線變得更平緩",
+        "MPR曲線變得更平緩，總合需求曲線變得更陡直",
+        "MPR曲線與總合需求曲線皆變得更陡直",
+        "MPR曲線與總合需求曲線皆變得更平緩"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "6f76ab1b056f",
+        "answer_pdf_sha1": "aff3e98fba69",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "307",
+          "s": "0902",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 17,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0064",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "古典學派的長期總合供給曲線為垂直線的原因為何？",
+      "options": [
+        "沒有周期性的通貨膨脹",
+        "在完全就業的情況下，價格是穩定的",
+        "總產出不受物價水準的影響",
+        "貨幣工資率的增加比價格水準快速"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "6f76ab1b056f",
+        "answer_pdf_sha1": "aff3e98fba69",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "307",
+          "s": "0902",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 18,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0065",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "假設邊際消費傾向小於 1。根據 IS-LM 與 AD-AS 模型，如果政府消費支 出與稅收等額增加，則在其他條件不變下，下列敘述何者正確？",
+      "options": [
+        "短期均衡實質GDP與名目利率都不變",
+        "短期均衡實質GDP與名目利率都上升",
+        "短期均衡實質GDP與名目利率都下降",
+        "短期均衡一般物價水準上升且名目利率下降"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "6f76ab1b056f",
+        "answer_pdf_sha1": "aff3e98fba69",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "307",
+          "s": "0902",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 19,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0066",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "根據莫迪格里尼（FrancoModigliani）的生命循環假說，假設消費者希望每 年的消費皆均等、利率為零，且每年所得皆相同，該名消費者還有 40 年 才退休，生命餘年還有60年。該名消費者之所得邊際消費傾向為何？",
+      "options": [
+        "0.20",
+        "0.40",
+        "0.60",
+        "0.67"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "6f76ab1b056f",
+        "answer_pdf_sha1": "aff3e98fba69",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "307",
+          "s": "0902",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 20,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0067",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "若艾維士出租汽車公司今年每一輛汽車價格為60萬元，實質利率為5%， 汽車的實質價格預期會跌10%，折舊率為15%，艾維士出租汽車公司出租 每輛汽車的使用者成本為何？",
+      "options": [
+        "18萬元",
+        "6萬元",
+        "12萬元",
+        "10萬8千元"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "6f76ab1b056f",
+        "answer_pdf_sha1": "aff3e98fba69",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "307",
+          "s": "0902",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 21,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0068",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "若商業銀行的資產負債表顯示，資產包括庫存通貨10億元、短期票券100 億元、長期債券200億元、放款1,000億元以及在中央銀行的存款150億 元，而負債包括活期存款600億元和定期存款900億元。則商業銀行的準 備金為何？",
+      "options": [
+        "150億元",
+        "160億元",
+        "250億元",
+        "260億元"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "6f76ab1b056f",
+        "answer_pdf_sha1": "aff3e98fba69",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "307",
+          "s": "0902",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 22,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0069",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "有關貨幣需求，下列敘述何者正確？",
+      "options": [
+        "信用卡盛行時，則貨幣需求下降",
+        "銀行的存款利率下降時，則貨幣需求下降",
+        "人們的所得越高時，則貨幣需求下降",
+        "債券價格上升時，貨幣需求下降"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "6f76ab1b056f",
+        "answer_pdf_sha1": "aff3e98fba69",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "307",
+          "s": "0902",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 23,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0070",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "根據實質景氣循環（realbusinesscycle）理論，下列何者是引發景氣循環的 主因？",
+      "options": [
+        "生產技術的變動",
+        "中央銀行的貨幣政策",
+        "金融危機爆發",
+        "該國貨幣大幅升值"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "6f76ab1b056f",
+        "answer_pdf_sha1": "aff3e98fba69",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "307",
+          "s": "0902",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 24,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0071",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "有關政府因應景氣循環（business cycle）所採取的總體經濟政策，下列敘 述何者錯誤？",
+      "options": [
+        "財政政策可透過政府支出、稅收和轉移支付來影響經濟",
+        "貨幣政策可透過改變貨幣數量或利率來影響經濟",
+        "匯率政策可透過買賣本幣和外幣來影響匯率",
+        "總合需求管理政策主要是影響一個經濟體系的自然產出水準"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "6f76ab1b056f",
+        "answer_pdf_sha1": "aff3e98fba69",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "113040",
+          "c": "307",
+          "s": "0902",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "經濟學",
+        "year": "113",
+        "exam_name": "113年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 25,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0072",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "essay",
+      "question": "某一新創產業的營運狀況調查，目的是想了解新創產業的營業額。抽樣方\n法採一段集體抽樣（one-stageclustersampling），新創產業共 600家公司\n分散在 30個園區（cluster），首先由 30 個園區抽出 3 個園區，這3 個園\n區內的新創公司數及總營業額列於下表。\n園區總營業額\n園區（cluster） 公司數\n（百萬元）\n（M ）\ni （y）\ni\n1 15 90\n2 25 110\n3 40 280\n分別就下列兩種抽樣設計利用對應的不偏估計量以估計整體新創產業的\n總營業額及該估計量的標準誤。\n若前述一段集體抽樣係結合簡單隨機抽樣（SRS）（one-stage cluster\nsampling with SRS）抽得該 3個園區。（15分）\n若前述一段集體抽樣係結合抽出機率與園區大小成比例（PPS）（one-\nstageclustersampling withPPS）的抽樣方式抽得該3 個園區。（15分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "3c590e92864e",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "104",
+          "s": "1114",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "抽樣方法",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0073",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "essay",
+      "question": "欲估計 2021 年某鄉鎮的總農民所得（Y），由 300家農戶抽樣調查30 家\n農戶，定義 x為普查年（2016年）所得，y為 2021 年所得。母體資料 x與\ny之變異數（S2,S2）、共變數（S ）及y對 x之比率（R）如下所示：\nx y xy\nS2 2500,S2 6400,S 3600,R1.3。\nx y xy\nN\n(x  X)2\ni\n（母體變異數S2係以N 1為分母，例如，S2  1 ，式中X 為母\nx N 1\n體均數。）\n計算迴歸估計量（ ）、比率估計量（ ）及均數估計量（ ）的變異\n數。（15分）\n\u0000\u0000\u0000\u0000 \u0000\u0000\u0000 \u0000\u0000\n根據之結果，比較估計量的相對效率（relativeefficiency），你認為那\n個估計量精確度比較高？說明理由。（10分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "3c590e92864e",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "104",
+          "s": "1114",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "抽樣方法",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0074",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "essay",
+      "question": "針對某一社區 2000 個家戶進行抽樣調查，以了解該社區有老人（65 歲\n以上）的家戶比例（P）及平均家戶年所得（Y）。若欲在 95%的信心水\n準下，估計有老人家戶的比例之估計誤差低於 3%的範圍，且估計平均\n家戶年所得之估計誤差低於實際平均家戶年所得（Y）4%的範圍。實際\n上，如果有老人的家戶比例落在 20%到 40%的範圍內，而實際平均家戶\n年所得Y=1,000（千元）且變異數為 400,000（千元）。若採用簡單隨機\n抽樣方式欲同時滿足前述兩個估計精確度的要求，應抽多大的樣本？\n（20 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "3c590e92864e",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "104",
+          "s": "1114",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "抽樣方法",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0075",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "essay",
+      "question": "在某一城市裡有 N=300 家餐廳，簡單隨機抽出 2/3 為樣本（n'=200 家\n餐廳）以取得其餐廳大小（類別）的資訊。餐廳依其大小分成兩類（層）：\n小型餐廳和大型餐廳。進而再由每一類（層）餐廳抽幾家（n）調查其\n2021年的營業額（y），得到資料如下：\n平均每家營業額\n標準差\n類別（層別） n ' n y\nh h i s\n（百萬元） i\n小型餐廳 120 10 20 10\n大型餐廳 80 5 80 60\n合計 200 15\n請說明這是何種抽樣方式？（5 分）\n就前述調查資料估計該城市餐廳平均每家營業額（Y ）及該估計量之標\n準誤。（20分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:23+00:00",
+        "source_pdf_sha1": "3c590e92864e",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "104",
+          "s": "1114",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "抽樣方法",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0076",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "essay",
+      "question": "假 設 隨 機 變 數 X 服 從 指 數 分 配 ， 其 機 率 密 度 函 數 為\n。令 μ 為其期望值，且 σ 為標準差。（每小題 5\nf(x)ex, x0, 0\n分，共 25分）\n計算機率 P（X>μ+σ）。\n令 Md 為此指數分配之中位數，試計算 Md。\n計算隨機變數X介於中位數和平均數之間的機率。\n自母體隨機抽取一隨機樣本，樣本大小（sample size）為 5。至少\n有一個變數值介於中位數和平均數之間的機率為何？\n計算條件機率P（X>Md|X>μ）。",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "cea57af887d6",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "104",
+          "s": "1106",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "統計學",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0077",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "essay",
+      "question": "大意公司是車用電池製造商，隨機抽取 12件電池並測試其電池壽命，\n電池壽命單位如下：（1 單位：100 小時）\n25,50,45,55,45,28,35,42,25,30,32,38.\n工程師想要以統計假設檢定方法檢定電池壽命的中位數是否為 30 單\n位，顯著水準為0.05。\n寫出虛無假設和對立假設，以符號檢定（signtest）方法檢定之，並\n說明檢定統計量在虛無假設為真下的分配和檢定結果。（10 分）\n電池壽命假設為常態分配。請檢定電池壽命的中位數是否為 30 單\n位。寫出檢定統計量在虛無假設為真下的分配，計算 p值（p-value）\n並說明檢定結果。此外，請說明題和的檢定統計量使用上的差\n異。（10分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "cea57af887d6",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "104",
+          "s": "1106",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "統計學",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0078",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "essay",
+      "question": "自三個獨立的常態母體分別抽取樣本，其樣本大小，樣本平均值和樣\n本變異數分別如下：\n(n 16,x 62, s2 55),(n 16,x 66, s2 53), (n 8,x  44,s2 62)\n1 1 1 2 2 2 3 3 3\n若三個母體變異數都相等，其不偏估計量為何？（5分）\n證明上題的不偏估評估量（unbiased estimator）確實具有不偏性。\n（5 分）\n若三個母體變異數都相等，估計母體變異數的 95%信賴區間\n（confidenceinterval）。（5分）\n在三個母體變異數都相等下，檢定三個母體平均值是否全部相等。\n列出變異數分析表（ANOVA Table），並說明檢定結果。顯著水準\n為 0.05。（10分）\n由題的檢定結果，再據以檢定是否 2（第二個母體平均值）大\n於 （第一個母體平均值）？計算 p 值，並說明檢定結果。顯著\nμ\n水準為 0.05。（5分）\nμ1\n註：若分配的自由度不在附表裡，則以附表裡最接近的自由度代替以\n決定臨界值。",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "cea57af887d6",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "104",
+          "s": "1106",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "統計學",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0079",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "essay",
+      "question": "大千 3C公司的銷售經理想知道硬碟的銷售量是否受價格影響。隨機\n抽取 10筆不同價格下硬碟的銷售量，其數據如下：（單位：百元）\nNo. 1 2 3 4 5 6 7 8 9 10\n價格 30 32 34 35 36 37 38 39 40 42\n銷售量 9 6 3 5 4 3 2 2 2 1\n畫出銷售量和價格的散布圖（scatterplot）。（5 分）\n依據上題的散布圖，寫出迴歸方程式和其誤差項的假設。（5 分）\n以最小平方誤差法（least squares error method）估計上題中迴歸方\n程式的斜率值。（5 分）\n計算誤差變異數的估計值。（5分）\n對迴歸方程式中的斜率檢定是否為零？顯著水準為 0.05。（5 分）\n附表：標準常態分配的累積機率\n附表：t值表\n附表：2表 卡方分配臨界值表\n附表：F (v1,v2)值表\n0.05\n(v )\n1\n)\n2\nv\n(\n附表：二項分配機率表",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "cea57af887d6",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "104",
+          "s": "1106",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "統計學",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0080",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "essay",
+      "question": "某消費者的手機話費合約服務即將到期，因此面臨兩家電信公司手機話費\n方案的抉擇。電信公司 A的合約方案為「吃到飽」方案，不論撥打多少電\n話，每月固定收取 119元的通話服務費。電信公司 B則為「用多少，收多\n少」方案，僅收取每分鐘 1元的通話費，不收取固定服務費。假設消費者\n每月通話分鐘數的需求為 QD = 150－50P，其中 P 為每分鐘的通話價格，\nQD為通話分鐘需求數，請回答下列問題：（每小題 5 分，共 25分）\n對於此二電信公司，此消費者若增加手機通話一分鐘的額外費用各為多\n少？\n根據你對小題的回答，當選擇電信公司 A或B，此消費者每個月在兩\n個合約方案的通話分鐘數是多少？\n接續小題，依據消費者的通話需求與合約方案，消費者每月向每個電\n信公司支付的金額是多少？\n此兩個方案中，消費者將從每個電信公司獲得多少消費者剩餘\n（consumersurplus）？\n最終此消費者將選擇那個電信公司？請說明。",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "be50498ecf56",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "104",
+          "s": "0905",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "經濟學",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0081",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "essay",
+      "question": "在簡單凱因斯模型（KeynesianModel）中，假設政府為了保持預算的平\n衡，選擇增加政府支出 200億元的同時，稅收也增加 200 億元。在此一\n平衡預算的政策下，國民所得將會發生什麼變化？請說明。（5分）\n請說明財政政策影響總體經濟活動的三種主要方式，以及每一種方式影\n響總體經濟活動的途徑及其影響範疇。（10分）\n請說明李嘉圖均等定理（Ricardian equivalence theorem）不太可能完全\n成立的四個原因。（10 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "be50498ecf56",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "104",
+          "s": "0905",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "經濟學",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0082",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "essay",
+      "question": "因應高齡化社會來臨的社會安全需求，假設政府立法通過，要求雇主增加\n負擔員工退休金提撥的成數。此一法案的實施，使得每小時員工平均僱用\n成本增加10 元。請輔以適當的圖形，分析說明下列問題：\n（每小題 5分，共 25 分）\n此一規定，作圖說明對於勞動需求的影響為何？\n如果員工將雇主提撥的退休金數額視為工資的一部分，則此一規定對勞\n動供給的影響為何？\n如果勞動市場的工資可自由調整而達成供需均衡，則此法案對工資和就\n業水準有何影響？雇主的境況因此一法案而改善（better off）或更差\n（worseoff）？員工的境況是更好或更壞？請說明。\n假設法案實施之前，市場工資已較最低工資高出 5 元。在此情況下，請\n作圖說明此一法案的實施對工資、就業水準和失業水準的影響為何？\n假設員工完全忽視此一法案規定對其勞動供給的影響，在此假設下，對\n你在及兩小題所做的結論有無影響？請說明。",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "be50498ecf56",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "104",
+          "s": "0905",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "經濟學",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0083",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "essay",
+      "question": "說明貨幣幻覺（moneyillusion）之意義，並解釋貨幣幻覺對於中央銀行操\n作短期貨幣政策影響產出能力之作用。（10分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "be50498ecf56",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "104",
+          "s": "0905",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "經濟學",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0084",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "essay",
+      "question": "聚酯纖維是紡織業的重要原料，可以製成多種布種，包括各式平織布料、針\n織布料等，而聚酯纖維之上游供應鏈為石化原料。由於COVID-19的影響，\n導致原油及石化原料價格上漲，物流及運輸成本上升，估計此一原物料上\n漲的現象在短期間內不會消失。假設紡織業為完全競爭市場，請回答下列\n問題：\n前述原物料價格上漲對紡織業個別廠商成本和紡織產業市場供給的影\n響為何？請繪圖說明。（5 分）\n在短期來說，原物料價格上漲對個別廠商利潤會發生何種變化？另就長\n期角度來看，對紡織產業的影響為何？請繪圖輔助你的說明。（10 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "be50498ecf56",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "104",
+          "s": "0905",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "經濟學",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "五",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0085",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "essay",
+      "question": "英譯中：請將下列英文句子譯成中文。（15 分）\nOur modern society often prides itself on its free press. With access to\nthe Internet and cable television, the news is broadcast twenty-four hours a\nday. However, we have just completed a study which reveals that the general\npublicis increasinglyill-informed today.",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "792008be0317",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0086",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "essay",
+      "question": "中譯英：請將下列中文句子譯成英文。（15 分）\n因為我們每次開車、煮飯或開燈都製造出二氧化碳，且這種氣體可\n在大氣層存在約一個世紀，二氧化碳在大氣中的比例迅速上升。",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "792008be0317",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0087",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "essay",
+      "question": "英文作文：（20分）\nWrite an essay in which you describe a moment in your life when you\nlearned something you had never known about before (suggested length: 200\nwords).",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "792008be0317",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0088",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "ThepopulationinLosAngelesis HispanicAmerican.Morethanhalfofthepeopletherespeak Spanish.",
+      "options": [
+        "officially",
+        "predominantly",
+        "subsequently",
+        "ultimately"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "792008be0317",
+        "answer_pdf_sha1": "df36763d88bd",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0089",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "Sandyalwaysteacheseveningclasses,buttodaysheis forasickteacherinthemorningclass.",
+      "options": [
+        "searching",
+        "substituting",
+        "striving",
+        "stalking"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "792008be0317",
+        "answer_pdf_sha1": "df36763d88bd",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0090",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "Wewere afteralongdayofcanoeing,sotheroastedchickenoverthecampfiresmelledheavenly.",
+      "options": [
+        "ravenous",
+        "bleached",
+        "genuine",
+        "stringent"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "792008be0317",
+        "answer_pdf_sha1": "df36763d88bd",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0091",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "Thespeakerdidnotdeliverhermessageinanovertmannerwhenshestated abouthercriticism ofthegovernment’spolicytodeporttheillegalimmigrantsinthecountry.",
+      "options": [
+        "impulsively",
+        "imminently",
+        "immensely",
+        "implicitly"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "792008be0317",
+        "answer_pdf_sha1": "df36763d88bd",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0092",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "Thepresident,hailinga“newera”tobringhopestohispeopleinthecountry,was lastmonth.",
+      "options": [
+        "yielded",
+        "executed",
+        "inaugurated",
+        "terminated 請依下文回答第6題至第10題 AbigholeinthecarparkatSpaceX’sheadquartersinLosAngelesisthefirstvisibleevidenceofanother of Elon Musk’s ventures. Mr. Musk who, besides leadingSpaceX, a rocket company, also 6 Tesla, a makerofelectriccars,isgoingintothetunnelingbusiness.ThegoaloftheBoringCompany,ashedubshis newenterprise,isto 7 intotunnelsfasterandmorecheaplythanispossibleatthemoment. 8 the pitinthecarpark,Mr.Musksayshehasalsobegunaseriesoftesttunnelsforaprojectthatwill,ifitcomes to 9 ,carrycarsunderLosAngelesonhigh-speedsledges.Inthisway,peoplecan 10 thedreadful trafficjamsabove.Moreambitiously,heclaimstohaveofficialsupportfora320km(200-mile)tunnelthat would, in half an hour,whisk peopole between New York and Washington, DC, inmagneticallypropelled capsules,usingatechnologyhehasdubbedthehyperloop"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "792008be0317",
+        "answer_pdf_sha1": "df36763d88bd",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0093",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "①ran ②run ③runs ④running",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "792008be0317",
+        "answer_pdf_sha1": "df36763d88bd",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0094",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "①open ②dig ③visit ④destroy",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "792008be0317",
+        "answer_pdf_sha1": "df36763d88bd",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0095",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "①Apartfrom ②Accordingto ③Inviewof ④Inspiteof",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "792008be0317",
+        "answer_pdf_sha1": "df36763d88bd",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0096",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "①mentioning ②frustration ③blooming ④fruition",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "792008be0317",
+        "answer_pdf_sha1": "df36763d88bd",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0097",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "①confront ②allow ③confine ④avoid 請依下文回答第11題至第15題 The clever fool syndrome would explain why one controversial study of Harvard Business School students found that, after a flying start, the alumni (presumablyamong the ablest young men of their day) graduallyslippedbacktothegenerallevelinsidetheirchosenmanagement 11 .AHarvardgraduatehas no reason at all to suppose that he will manage more effectively than a less instructed contemporary. The Harvard man can onlyclaim that he is more highlyeducated; and high education and high achievement in practical affairs don’t necessarily go together. John F Kennedy found that assembling America’s brightest brainsinWashingtonneithergotbills 12 CongressnoravoidedtheBayofPigs;andmanycompanies havediscoveredthatbusinessschooldiplomasareathin 13 againstincompetence. AnoverwhelminglylargeproportionofthehighestandbestAmericanexecutivesdidstudybusiness.All thisprovesthatanoverwhelminglylargeproportionofbusiness-mindedundergraduatesgottherealmessage, whichisthatadiplomawillbegoodfortheircareers,startingwithstartingsalaries.Itdoesnotfollowthatthe education was of any other direct benefit either to the executive or his firm. 14 , of course, that the schoolingwaswasted.Asageneralrule,thewisemanrecruitsthefinestintelligencehecanfind;andgood mindsarefarbetterforgoodtraining.Thequestionisonlywhetheracademictraininginsubjectsthatseemto havesomeconnectionwithmanagement 15 thebesteducationformanaging,andthatissomethingthat nobodycanproveeitherway.",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "792008be0317",
+        "answer_pdf_sha1": "df36763d88bd",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0098",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "①apparatuses ②premonitions ③assessments ④hierarchies",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "792008be0317",
+        "answer_pdf_sha1": "df36763d88bd",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 11,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0099",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "①with ②over ③through ④beyond",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "792008be0317",
+        "answer_pdf_sha1": "df36763d88bd",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 12,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0100",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "①defence ②pretext ③intuition ④reconciliation",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "792008be0317",
+        "answer_pdf_sha1": "df36763d88bd",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 13,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0101",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "①Itisnotfollowed ②Nordoesitfollow ③Onefollows ④Whatfollows",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "792008be0317",
+        "answer_pdf_sha1": "df36763d88bd",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 14,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0102",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "①is ②does ③and ④or 請依下文回答第16題至第20題 Issuesconcerningwomen’sbodilyintegrityandautonomy,suchasabortion,rape,andsterilization,are subjecttostrongopinionsthatgiverisetoequallychargedpoliticalpolicies.Aswithotherissuespertainingto women’sbodies,prostitutiondiscourseislargelyconcernedwithdeterminingwhetherthissocialpracticeis exploitative,empowering,oraconsequenceofimmorality. Prostitution is here defined as a social practice by which men gain sexual access to the bodies of predominantlywomen,children,andsometimesothermen,throughtheexchangeofmoney,goods,orhousing. Prostitution,asasocialconstruct,arisesfrom“men’sdominanceandwomen’ssubordination.” Mostpeopletakeoneofthreesalientpositionsonprostitution.Thefirstpositionarguesthatprostitution is a consequence of deficient moral character. This position draws heavily from patriarchal and religious traditions that equate female sexuality with temptation and male sexuality with dominance and sanctioned insatiability.Thesecondposition,the“sexwork”position,assertsthatprostitutionisavalidformoflaborand arguesthatprostitutionisnotinherentlyharmfultowomen.Thispositionfurthercontendsthatwomenhavea righttodecidewhattheywilldowiththeirbodiesandthatsexwork,thoughoppressiveforsome,ispotentially bothlucrativeandempoweringforotherwomen.Thethirdpositionassertsthatprostitutionisaconsequence of social, political, and economic inequality and argues that women are predominantly conscripted into prostitutionbecauseoftheirsocialvulnerability.Politicalregulationofprostitutionactivityvariesaccording toeachnation’sunderlyingeconomicandsocialjusticecommitments.",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "792008be0317",
+        "answer_pdf_sha1": "df36763d88bd",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 15,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0103",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "According to the passage above, which of the following is NOT a major concern of the practice of prostitution?",
+      "options": [
+        "Whetheritisabusive",
+        "Whetheritistempting",
+        "Whetheritisenpowering",
+        "Whetheritisimmoral"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "792008be0317",
+        "answer_pdf_sha1": "df36763d88bd",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 16,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0104",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "Accordingtothepassage,whichofthefollowingistrueofthepracticeofprostitution?",
+      "options": [
+        "Man’sgainingsexualaccesstothebodyofdifferentspeciesshouldbesanctioned",
+        "Patriarchaldominanceisprevalentintheactofprostitution",
+        "Sexworkharmsfemalesubordination",
+        "Femalesexualityisinherentlyharmful"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "792008be0317",
+        "answer_pdf_sha1": "df36763d88bd",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 17,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0105",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "Accordingtothepassage,whichofthefollowingistrueoftheprostitutiondiscourse?",
+      "options": [
+        "Prostitutionispartiallydefinedasexploitativesexuality",
+        "Prostitutionispartandparcelofsocialwork",
+        "Prostitutionisempoweredbyenhancingmorality",
+        "Socialvulnerabilitysanctionsfemales’sexualinequality"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "792008be0317",
+        "answer_pdf_sha1": "df36763d88bd",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 18,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0106",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "Accordingtothepassage,whatisthemajorreasonprostitutionisimmoral?",
+      "options": [
+        "Religiouscondemnation",
+        "Politicalcommitment",
+        "Economicactivity",
+        "Racialdiscrimination"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "792008be0317",
+        "answer_pdf_sha1": "df36763d88bd",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 19,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0107",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "Whymayprostitutionbearguedtoempowerwomen?",
+      "options": [
+        "Prostitutedwomencouldendureextensivesexualandphysicalviolence",
+        "Sexworkispotentiallyharmfulinthatitislucrative",
+        "Womencouldliberatetheirbodyastheyplease",
+        "Prostitutionreflectswomen’sdemandforsocialjustice. 請依下文回答第21題至第25題 EarthDay,aneventtoincreasepublicawarenessoftheworld’senvironmentalproblems,iscelebratedin the United States for the first time. Itwas the 21 of Senator Gaylord Nelson of Wisconsin,a staunch environmentalist who hoped to provide unity to the grassroots environmental movement and increase ecologicalawareness.“The 22 wastogetanationwidedemonstrationofconcernfortheenvironment so large that it would shake the political establishment out of its lethargy,” Senator Nelson said, “and, finally, 23 this issue permanently onto the national political agenda.” Earth Day indeed increased environmental awareness in America, and in July of that year the Environmental Protection Agency was establishedbyspecialexecutiveorderto 24 andenforcenationalpollutionlegislation. On April 22, 1990, the 20th anniversary of Earth Day, more than 200 million people in 141 countries 25 inEarthDaycelebrations.EarthDayhasbeen celebratedondifferent daysbydifferent groupsinternationally.TheUnitedNationsofficiallycelebratesitonthevernalequinox,whichusuallyoccurs aboutMarch21"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "792008be0317",
+        "answer_pdf_sha1": "df36763d88bd",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 20,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0108",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "①brainchild ②stepchild ③adoptedchild ④spoiledchild",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "792008be0317",
+        "answer_pdf_sha1": "df36763d88bd",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 21,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0109",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "①objection ②objective ③setback ④drawback",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "792008be0317",
+        "answer_pdf_sha1": "df36763d88bd",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 22,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0110",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "①forcing ②force ③toforce ④forced",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "792008be0317",
+        "answer_pdf_sha1": "df36763d88bd",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 23,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0111",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "①challenge ②constrain ③violate ④regulate",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "792008be0317",
+        "answer_pdf_sha1": "df36763d88bd",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 24,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0112",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "①escaped ②excluded ③participated ④persuaded",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "792008be0317",
+        "answer_pdf_sha1": "df36763d88bd",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "111050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "英文",
+        "year": "111",
+        "exam_name": "111年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 25,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0113",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "essay",
+      "question": "025 0.05\n一、利用簡單隨機抽樣法（simplerandomsampling），自母體{6,7,8,9,10}中\n抽出 3個數為一組樣本，樣本中的最大值以 X表示，最小值以 Y表示。\n請列出 X，Y 的聯合機率分配（joint probability distribution）f(x, y)。\n（10 分）\n請求算機率p(X 10,Y 7)。（5 分）\n請求算期望值E(X |Y 6)。（5分）\n令Z  X+Y，請計算期望值E(Z)。（5 分）\n二、公司在全國 250個銷售據點販賣新產品 A，為了解 A產品的市場接受度，\n行銷部門依全國地理位置分為甲、乙、丙、丁四個區域，其中甲區有 85 個\n銷售據點，乙區有 70 個銷售據點，丙區有 60 個銷售據點，丁區有 35 個\n銷售據點。現將每個區域視為一個層別，以分層隨機抽樣（stratifiedrandom\nsampling）法，自甲、乙、丙、丁各區中分別抽出15，12，8，5 個銷售據\n點，調查每個銷售據點 A產品一週的銷售數量。由於各區幅員及交通狀況\n不同，調查費用也隨之不同，已知甲、乙、丙、丁各區，調查每個銷售據\n點的成本分為 6.25、4、9、9（單位：萬元）。調查結果得 A產品在每個\n銷售據點一週銷售數量的平均數及標準差資料如下：\n區域 甲 乙 丙 丁\n平均數 80.6 165 304 482\n標準差 32.5 95.2 129.6 269.1\n估計 A產品一週的總銷售量並計算其 95%信賴區間。（10分）\n現公司的管理高層欲估計 A 產品一週的總銷售量，及要求估計的 95%\n誤差界限為 5000，則各區須調查多少個銷售據點，才能使調查總費用\n最低？同時計算需花費多少的調查費用？（14 分）\n若調查總費用的預算為350萬元，請問各區銷售據點最佳的調查數量為\n何，方能達到的要求？（6分）\n三、某貿易商進口了一批5000箱的機能飲料，每箱飲料依序編號且每一箱內含\n有20瓶飲料。現貿易商的主管想了解每瓶飲料的平均咖啡因含量，遂依每\n箱飲料編號順序，以每隔500箱抽出一箱方式，自此批飲料中抽出10箱，\n檢測每箱飲料的咖啡因含量，分別為y ,y ,...,y 。（每小題10分，共20分）\n1 2 10\n請問貿易商的主管採用何種抽樣方法？母體大小為何？\n參數為何？請寫出該參數的估計量。\n四、報名參加減肥中心春季班的班員共有 200 人，經減肥中心量測得平均體重\n為 72.5 公斤。每位班員均採用減肥中心提供之飲食餐 3 個月後，減肥中\n心主管想了解班員體重情況，於是從班員中隨機選了 10 位班員，並且測\n量其體重。得這10 位班員減肥前及減肥後體重資料如下：\n班員 1 2 3 4 5 6 7 8 9 10\n減肥前體重 58 82 64 76 64 76 54 50 88 94\n減肥後體重 52 70 64 64 58 70 52 46 76 82\n分別以比率估計量（ratioestimator）、廻歸估計量（regressionestimator）\n及差數估計量（differenceestimator），估計班員減肥後的平均體重，並\n計算其變異數。（21分）\n根據的結果，您會建議採用那一個估計量？（4 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "f263ff45b4f7",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "104",
+          "s": "1114",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "抽樣方法",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "0",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0114",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "essay",
+      "question": "令 X 表示自北北基隨機調查 n 人，回答支持 A案公投的人數；p 表示 A\n1 1 1\n案公投在北北基的母體支持率。令 X 表示自高屏區隨機調查 n 人，回答\n2 2\n支持 A案公投的人數；p 表示 A案公投在高屏區的母體支持率。\n2\np,i=1,2 未知時，其最佳估計量( pˆ )為何？（5分）\ni\ni\n試推導出 pˆ  pˆ 的期望值和變異數，並說明 pˆ  pˆ 的分配。（10分）\n1 2 1 2\n若 n =1200，X =500，n =900，X =300。在顯著水準為 0.1 之下，試檢\n1 1 2 2\n定兩區的 A 案支持率是否相等？（寫出虛無假設和對立假設，並說明\n檢定統計量之分配及檢定之結果。）（10分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "90e086715901",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "104",
+          "s": "1106",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "統計學",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0115",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "essay",
+      "question": "一種金屬重量（單位：g）假設為常態分配，平均值和變異數分別為(, 2)，\n即X ~ N(,2)。值未知，但2值已知。\n隨機抽取一樣本，樣本大小為n。在顯著水準為 0.05 下，檢定H :10，\n0\nH :10。\n1\n檢定統計量為何？其分配為何？（5分）\n假設樣本平均值x 12，9，欲使檢定結果拒絕 H，n最少應該為多\n0\n少？（5分）\n續題，在 n=144 之下，請分別計算在=12,14 之型 II誤差機率(β)，\n並畫出檢定力曲線圖（powercurve）（請標示清楚橫軸及縱軸，和=10,\n12,14 的對應機率值）。（20 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "90e086715901",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "104",
+          "s": "1106",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "統計學",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0116",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "essay",
+      "question": "工程師研究電壓大小和溫度高低對手機壽命的影響。在指定的 2 種不同電\n壓（100V,200V）和 2種不同溫度（25℃,35℃）的組合下分別量測手機\n壽命（單位：千小時）；不同電壓和不同溫度組合下的實驗各反覆做2 次，\n且所有實驗順序是隨機的。電壓大小和溫度高低組合下的手機壽命如表 1\n所示。\n表 1 手機壽命\n電壓（V）\n溫度（℃） 總和\n100 200\n25 12,16 10,12 50\n35 8,10 6,8 32\n總和 46 36 82\n這是那種實驗設計（即實驗設計的名稱為何）？（5分）\n寫出變異數分析的固定效應模式（fixedeffectsmodel）及假設。（10 分）\n列出變異數分析表並檢定電壓，溫度和交互作用是否是影響手機壽命的\n顯著因子，顯著水準 α=0.05。（10 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "90e086715901",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "104",
+          "s": "1106",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "統計學",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0117",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "essay",
+      "question": "假設隨機變數 X 服從指數分配，已知其期望值()為 0.5 且變異數(2)為\n0.25。\n令 L =μ，L =X的中位數，L =μ3。\n0 1 2\n計算 P(X< L )之機率值，並求L 的值。（5 分）\n1 1\n計算 P(X< L , X>L )之機率值。（5分）\n1 0\n自母體中連續抽取 5 個數值，計算最多有 1 個數值落在 L 和 L 區間或\n1 0\nL 和 L 區間之機率。（10分）\n0 2\n附表:Z值表\n0.4 0.4\nN(0,1)\n0.3 N(0,1) 0.3\n0.2 0.2\n0.1 0.1\nΦ(z)\nα\nZα\nZα/2\n附表:F (v1,v2) 值表\n0.05",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "90e086715901",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "104",
+          "s": "1106",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "統計學",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0118",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "essay",
+      "question": "假設我國對於蘋果的國內需求與供給分別為P1404Q與P202Q，\n其中P和Q分別代表價格與數量。試問：\n封閉經濟體系下，我國蘋果市場的均衡價格與數量分別是多少？（6分）\n若我國為小型開放經濟體系，蘋果的國際價格為＄40，則我國開放貿易\n後的國內均衡生產量、消費量與進口量分別是多少？（9分）\n承上題，如果本國對於進口產品課徵$4從量關稅，則國內的均衡價格、\n生產量與消費量各為多少？（10分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "a2aa91bdd8f1",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "104",
+          "s": "0905",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "經濟學",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0119",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "essay",
+      "question": "淑美原先在電子公司上班，每月薪資為 30,000 元，因故辭職改開咖啡店，\n第一個月營收 90,000 元。但為了開設咖啡店，淑美從銀行帳戶領出 80 萬\n元並貸款100萬元用來支應咖啡店裝潢費用，此外咖啡店每個月需要支付\n房租 15,000 元、水電瓦斯及材料費 25,000 元與員工薪水 26,000 元。若每\n個月的帳戶利息損失 1,200 元，每個月的貸款利息 2,580 元。根據上述資\n訊回答以下問題：\n請計算咖啡店第一個月的外顯成本、隱含成本、經濟成本、會計利潤及\n經濟利潤。（20分）\n淑美繼續營業的條件是什麼？（5 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "a2aa91bdd8f1",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "104",
+          "s": "0905",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "經濟學",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0120",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "essay",
+      "question": "假設市場上有 A與 B兩群消費者。A群消費者有30 人，其個人需求曲線\n為x 52P 0.04I 0.5P；而 B群消費者有 20人，其個人需求曲線為\nA x A y\nx 3P 0.2I P 。式中，P 為x財貨的價格、P 為y財貨的價格、x\nB x B y x y i\n與I 為i類消費者之x財貨的需求量與所得，i  A,B。如再假設此時\ni\nI  I 100且P 10。試問：\nA B y\n若x是私有財，請求解該財貨的市場需求曲線。（15分）\n若x是公共財，請計算該財貨的市場需求曲線。（10分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "a2aa91bdd8f1",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "104",
+          "s": "0905",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "經濟學",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0121",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "essay",
+      "question": "在一個簡單凱恩斯模型中，若消費函數為C 700.8Y 、預擬投資為\nI 300、政府支出為G150。試問：\n若實際所得Y 4,000時，此時經濟社會的存貨與實際投資分別是多少？\n（15分）\n若政府想將產出提高為4,500，則政府應該怎麼做？（10分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "a2aa91bdd8f1",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "104",
+          "s": "0905",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "經濟學",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0122",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "essay",
+      "question": "英譯中：請將下列英文句子譯成中文。（15分）\nThroughout human history, there have been a number of pandemics\nofdiseasessuchassmallpoxandtuberculosis.Themostfatalpandemicin\nrecordedhistorywastheBlackDeath（alsoknownasThePlague）,which\nkilled an estimated 75–200 million people in the 14th century. Current\npandemics includeCOVID-19 and AIDS.",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "b3639bb583db",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "英文",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0123",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "essay",
+      "question": "中譯英：請將下列中文句子譯成英文。（15分）\n長榮海運貨櫃船在蘇伊士運河擱淺，之後運河堵住了 6天，其他船隻\n無法繞行長賜輪。此運河是世界上最繁忙的貿易路線之一，其阻塞對\n歐洲與亞洲及中東之間的貿易產生了重大影響。（長賜輪：the Ever\nGiven）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "b3639bb583db",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "英文",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0124",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "essay",
+      "question": "英文作文：（20分）\nWrite an English composition in about 200 words on one of the\nenvironmentalissuesinTaiwan.Identifytheproblem,proposeasolution,\nand imagine its consequence. Give a title to your composition to attract\nthereader’sattention.",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "b3639bb583db",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "英文",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0125",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "Severalstylish canbefoundonthechairsondisplay,eventhoughonecouldeasilyrecognize theprototype.",
+      "options": [
+        "visionaries",
+        "variations",
+        "vocations",
+        "valuations"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "b3639bb583db",
+        "answer_pdf_sha1": "80b9bc541bc5",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "英文",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0126",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "Our manager often meditates for about twenty minutes right in his office; afterwards, one could clearlyseethathehasthis lookonhisface.",
+      "options": [
+        "radiate",
+        "radish",
+        "radiant",
+        "ragged"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "b3639bb583db",
+        "answer_pdf_sha1": "80b9bc541bc5",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "英文",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0127",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "Therobber ranintothepolicewhenhewasjustabouttoturnaroundacornerwherehewas tryingtoescapewithhisraid.",
+      "options": [
+        "immensely",
+        "implicitly",
+        "incidentally",
+        "indifferently"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "b3639bb583db",
+        "answer_pdf_sha1": "80b9bc541bc5",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "英文",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0128",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "ChemotherapydidnotmakeJohnfeelbetter.Instead,hishealthstartedto soonafter.",
+      "options": [
+        "underscore",
+        "illustrate",
+        "deteriorate",
+        "stimulate"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "b3639bb583db",
+        "answer_pdf_sha1": "80b9bc541bc5",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "英文",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0129",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "Thejournalistwasfinallycaught allthestorieshehadmadeupforthenewspaperheworked for.",
+      "options": [
+        "dazzling",
+        "equating",
+        "fabricating",
+        "greasing"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "b3639bb583db",
+        "answer_pdf_sha1": "80b9bc541bc5",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "英文",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0130",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "Eveninthefaceofpersonal ,shedoesnotseeherselfastotallydefeated.Shedoeswhatshe cantomaketheworldabetterplace.",
+      "options": [
+        "adversity",
+        "contribution",
+        "denomination",
+        "opulence"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "b3639bb583db",
+        "answer_pdf_sha1": "80b9bc541bc5",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "英文",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0131",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "AlthoughmanypeoplestillviewBosniawith ,itsdramaticlandscapesandsingularhistory aremakingitanincreasinglypopulardestination.",
+      "options": [
+        "ingenuity",
+        "proximity",
+        "revelation",
+        "trepidation"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "b3639bb583db",
+        "answer_pdf_sha1": "80b9bc541bc5",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "英文",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0132",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "What you are getting now is a schedule for events in the coming year, which should be finalizedbytheendofthismonth.",
+      "options": [
+        "permanent",
+        "tentative",
+        "terminal",
+        "deviating"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "b3639bb583db",
+        "answer_pdf_sha1": "80b9bc541bc5",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "英文",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0133",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "Whentravelingalongthecoast,we acrosstheruinsofanoldfortandenjoyedthehistorical site.",
+      "options": [
+        "sneaked",
+        "skipped",
+        "scrambled",
+        "stumbled"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "b3639bb583db",
+        "answer_pdf_sha1": "80b9bc541bc5",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "英文",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0134",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "Yourvisaexpired7monthsago.Itisnot anymore.Youneedtoapplyforanewone.",
+      "options": [
+        "vacant",
+        "valid",
+        "variable",
+        "verified 請依下文回答第11題至第15題 AsignificanteventthatmarkedmeindeliblyoccurredwhenIwastwelve.Thatyearmyschoolheld amusic 11 andIwasoneofthestudentschosentoplaythepiano.Imanagedtogetupthestepsto thestagewithoutanyproblem,butasIwalkedacrossthestage,Ifell.Outoftheaudience,avoicesaid loudlyandclearly,“Ayah!Abaikahshouldn'tbeallowedtoperforminpublic”Igotupbeforeanyone couldgetonstagetohelpmeand,withtears 12 uncontrollablydownmyface,Irushedtothepiano andbegantoplay.Beethoven's“FurElise”hadneverbeenplayedso 13 fastbeforeorsince,butI managedtofinishthewholepiece.That Imanagedtodosomademefeelreallystrong. Ineveragain feared 14 .InlateryearsIwasremindedofthisexperiencefromtimetotime.Duringmyfourthyear asanassistantprofessorattheUniversityofCaliforniaatBerkeley,Iwona 15 teachingaward"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "b3639bb583db",
+        "answer_pdf_sha1": "80b9bc541bc5",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "英文",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0135",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "①citadel ②recital ③script ④score",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "b3639bb583db",
+        "answer_pdf_sha1": "80b9bc541bc5",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "英文",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 11,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0136",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "①blurring ②rising ③fleeing ④streaming",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "b3639bb583db",
+        "answer_pdf_sha1": "80b9bc541bc5",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "英文",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 12,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0137",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "①fiendishly ②categorically ③adversely ④transiently",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "b3639bb583db",
+        "answer_pdf_sha1": "80b9bc541bc5",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "英文",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 13,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0138",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "①research ②rigor ③ridicule ④rebellion",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "b3639bb583db",
+        "answer_pdf_sha1": "80b9bc541bc5",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "英文",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 14,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0139",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "①distinguished ②distinguishing ③extinguished ④extinguishing 請依下文回答第16題至第20題 Formostpetlovers,petsarepartsofthefamily.Forsome,petsareevenmoreimportantthanfamily members.Theyseepetsasindispensablepartners,andspoilandlovethemasmuchasormorethanparents dotheirkids.Therefore,theirmissioninlifebecomes 16 theirpet’swell-being,andmakingsure theystayhealthyandactive. Forinstance,petloversoftenwishto 17 whattheirpetsdowhentheyareaway.Inorder to 18 theirpets,anewtechnologycalleda“smartcollar”wasdeveloped.Thiswearable 19 enables petownerstofollowtheirpets’activities.Itcanalsoobservepets’healthandexercisehabits.VoyceHealth Monitor,whichcollectshealthinformationaboutadog,isanexample. Inadditiontofollowingpets’behaviorandgatheringpets’healthinformation,someproductsfeature amicrophoneandbuilt-inspeakerwhichallowpetownerstocommunicatewiththeirpetswhentheyare notpresent.The 20 intechnologyhavemadetherelationshipbetweenpetsandtheirownersmore convenientandaccessible.",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "b3639bb583db",
+        "answer_pdf_sha1": "80b9bc541bc5",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "英文",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 15,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0140",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "①lookingafter ②lookingaway ③lookingdown ④lookingup",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "b3639bb583db",
+        "answer_pdf_sha1": "80b9bc541bc5",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "英文",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 16,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0141",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "①maintain ②migrate ③monitor ④moderate",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "b3639bb583db",
+        "answer_pdf_sha1": "80b9bc541bc5",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "英文",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 17,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0142",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "①getridof ②dojusticeto ③keeptrackof ④makewayfor",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "b3639bb583db",
+        "answer_pdf_sha1": "80b9bc541bc5",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "英文",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 18,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0143",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "①component ②device ③inventory ④issue",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "b3639bb583db",
+        "answer_pdf_sha1": "80b9bc541bc5",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "英文",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 19,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0144",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "①advances ②impediments ③responses ④fulfillments 請依下文回答第21題至第25題 ATokyo-boundflightmadeaU-turnwhileflyingoverthePacificOceanandreturnedtoLosAngeles becauseonepassenger,forreasonsstillunclear,hadboardedthewrongflight.AllNipponAirwaysFlight 175lefttheLosAngelesInternationalAirportatabout11:30a.m.TuesdayPacificStandardTime,spent abouteighthoursintheairandlandedbackinCaliforniajustafter7:30p.m.,majorlyinconveniencingits passengers,includingmodelChrissyTeigen,wholive-tweetedthe“flighttonowhere”toher9.2million followers.Teigen,whowastravelingwithherhusbandJohnLegend,wroteonTwitterthattheplanewas turnedaroundaboutfourhoursintotheflight.TheTwitterworldwatchedinamusementasTeigenkept her followers updated on the ordeal, which apparently involved an hours-long wait at the airport, unansweredquestions,somepolicepresenceandamicrowaveableRamenmeal. Theincidentinvolvedtwobrothers,oneofwhomwasanauthorizedAllNipponAirways,orANA, passengerwhiletheotherhadaUnitedAirlinesticket,TransportationSecurityAdministrationspokesman MikeEnglandsaid. The brothers, who were not identified, went through security screening without incident and had validpassportsandboardingpasses.BothwereheadedtoTokyoandwerescheduledtoleavearoundthe sametime.BothendedupontheANAflighteventhoughonlyoneofthemwasanauthorizedpassenger. Itremainsunclearhowthathappened.Theairlinesaidthedecisiontoturnaroundwaspartofasecurity procedure. Weatherconcerns,mechanicalproblems,medicalissuesandterroristthreatsareamongthecommon reasonsfordivertingaplane.Othersareunusual,butnotunheardof. In2015,forexample,aBritishAirwaysflightflewbacktoHeathrowAirportjust30minutesinto the seven-hour flight to Dubai because of an overwhelming odor coming from the lavatory. A similar incidenthappenedearlierthisyear,whenaSpiceJetflightheadedtoNewDelhiwasdivertedbecauseof a“veryfoulsmell”comingfromthelavatory.",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "b3639bb583db",
+        "answer_pdf_sha1": "80b9bc541bc5",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "英文",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 20,
+        "answer_corrected": false,
+        "flags": [
+          "incomplete_options"
+        ]
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0145",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "Whatisthemainsubjectofthispassage?",
+      "options": [
+        "Airlinecustomercomplaints",
+        "Violenttreatment",
+        "Unusualflights",
+        "Client-orientedservices"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "b3639bb583db",
+        "answer_pdf_sha1": "80b9bc541bc5",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "英文",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 21,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0146",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "WhatisthemainreasonfortheANAflighttoturnbacktoLosAngeles?",
+      "options": [
+        "ThefamousmodelChrissyTeigenattracted9.2millionfollowersonTwitter",
+        "TheSecurityAdministrationMikeEnglandneededtoinvestigatethetwobrothers",
+        "Theairlinewasrequiredtochecktheoverwhelmingodorinthelavatory",
+        "OneofthetwobrothersboardedANAwithaUnitedAirlinesticket"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "b3639bb583db",
+        "answer_pdf_sha1": "80b9bc541bc5",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "英文",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 22,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0147",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "Whichofthefollowingstatementsbestdescribestheauthor'sopinionabouttheflightturningback?",
+      "options": [
+        "Flightdelayisnotacceptable",
+        "Itsoundsridiculousbutunavoidable",
+        "Itisasecond-bestsolution",
+        "Thepassengersshouldfightfortheirrights"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "b3639bb583db",
+        "answer_pdf_sha1": "80b9bc541bc5",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "英文",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 23,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0148",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "Whichofthefollowingreasonsfordivertingaplanehasbeenmentionedinthispassage?",
+      "options": [
+        "Toiletproblems",
+        "Policepresence",
+        "Publicitystunts",
+        "Twitterupdates"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "b3639bb583db",
+        "answer_pdf_sha1": "80b9bc541bc5",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "英文",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 24,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "customs-03ec2c8b-0149",
+      "exam_id": "customs-03ec2c8b",
+      "question_type": "single_choice",
+      "question": "Whatcanbeinferredfromthepassage?",
+      "options": [
+        "Mostcausesofflightdelayarebeyondcontrolofairlines",
+        "Passengersonboardareawareofwhattheyshouldnotdo",
+        "Long-haulpassengersmightgetextravagantcompensations",
+        "Toflyfastandonscheduleisthetoppriorityforallairlines"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:22:24+00:00",
+        "source_pdf_sha1": "b3639bb583db",
+        "answer_pdf_sha1": "80b9bc541bc5",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "110050",
+          "c": "104",
+          "s": "0201",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "英文",
+        "year": "110",
+        "exam_name": "110年公務人員特種考試關務人員考試、身心障礙人員考試、國軍上校以上軍官轉任公務人員考試",
+        "original_question_number": 25,
+        "answer_corrected": false,
+        "flags": []
+      }
+    }
+  ]
+}

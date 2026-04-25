@@ -1,0 +1,45 @@
+{
+  "slug": "islands-0489de64",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:33:54+00:00",
+  "paper_count": 4,
+  "paper_with_questions": 4,
+  "question_count": 16,
+  "type_counts": {
+    "essay": 16
+  },
+  "issues": [
+    {
+      "year": "114",
+      "subject": "交通政策與行政",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "運輸學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "運輸經濟學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "運輸規劃學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    }
+  ]
+}

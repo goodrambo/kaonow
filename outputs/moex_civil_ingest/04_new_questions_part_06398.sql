@@ -1,0 +1,40 @@
+-- W1.6 questions batch 6398/9310 (10)
+
+INSERT INTO public.questions (id, exam_id, paper_id, subject_id, chapter_id, question_type, question_text, options, correct_answer, correct_answer_json, auto_gradable, source, is_active, version, source_meta, explanation)
+VALUES
+  ('locality-0489de64-moex-00044', 'locality-0489de64', 'locality-0489de64-moex-112-456557e4', 'sub-locality-0489de64-02', NULL, 'essay', '請羅列大型國際機場的完整硬體設施。（25 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:34:04+00:00", "source_pdf_sha1": "516b317b6d82", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "112200", "c": "323", "s": "2005", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "運輸學", "year": "112", "exam_name": "112年特種考試地方政府公務人員考試", "original_question_number": "四", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "交通行政"}'::jsonb, NULL),
+  ('locality-0489de64-moex-00045', 'locality-0489de64', 'locality-0489de64-moex-112-918ea80c', 'sub-locality-0489de64-07', NULL, 'essay', '試闡述運輸行銷管理之意義，並以大眾運輸業為例，試擬運輸行銷管理
+之目標。（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:34:04+00:00", "source_pdf_sha1": "d98b38c28b88", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "112200", "c": "323", "s": "2003", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "運輸管理學", "year": "112", "exam_name": "112年特種考試地方政府公務人員考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "交通行政"}'::jsonb, NULL),
+  ('locality-0489de64-moex-00046', 'locality-0489de64', 'locality-0489de64-moex-112-918ea80c', 'sub-locality-0489de64-07', NULL, 'essay', '小汽車共乘（Carpools）屬多元運輸（PluralTransportation），是一種介於
+個人運輸與大眾運輸之間多人的旅運安排，國內曾有地方政府開設媒合
+平台推動此一運輸系統管理措施。試詳述實施小汽車共乘之成功要件。
+（25 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:34:04+00:00", "source_pdf_sha1": "d98b38c28b88", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "112200", "c": "323", "s": "2003", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "運輸管理學", "year": "112", "exam_name": "112年特種考試地方政府公務人員考試", "original_question_number": "二", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "交通行政"}'::jsonb, NULL),
+  ('locality-0489de64-moex-00047', 'locality-0489de64', 'locality-0489de64-moex-112-918ea80c', 'sub-locality-0489de64-07', NULL, 'essay', '運輸系統安全風險評估係由制定「風險忍受度」的方式進行，並作為後
+續管理行動的依據。試說明軌道運輸安全風險評估應考慮之面向，並繪
+圖說明風險評估三角形（RiskTriangle）之意義。（25 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:34:04+00:00", "source_pdf_sha1": "d98b38c28b88", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "112200", "c": "323", "s": "2003", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "運輸管理學", "year": "112", "exam_name": "112年特種考試地方政府公務人員考試", "original_question_number": "三", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "交通行政"}'::jsonb, NULL),
+  ('locality-0489de64-moex-00048', 'locality-0489de64', 'locality-0489de64-moex-112-918ea80c', 'sub-locality-0489de64-07', NULL, 'essay', '物流共同化（CollaborativeLogistics）是物流未來發展趨勢，然對現行體
+制而言，變革勢必遭遇挑戰，試說明其意義，並分別由經營者與管理部
+門角度探討物流共同化可能面臨的問題與因應對策。（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:34:04+00:00", "source_pdf_sha1": "d98b38c28b88", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "112200", "c": "323", "s": "2003", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "運輸管理學", "year": "112", "exam_name": "112年特種考試地方政府公務人員考試", "original_question_number": "四", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "交通行政"}'::jsonb, NULL),
+  ('locality-0489de64-moex-00049', 'locality-0489de64', 'locality-0489de64-moex-112-5b10e36f', 'sub-locality-0489de64-03', NULL, 'essay', '多項羅吉特模式（MultinomialLogitModel）之效用函數中可納入方案特
+定常數（AlternativeSpecificConstant,ASC）、方案特定變數（Alternative
+SpecificVariable,ASV），以及共生變數（GenericVariable,GV）等 3 種常
+數與變數。試以運具選擇為例說明此 3種常數、變數之意義及模式設定
+方式，並列舉方案特定變數及共生變數各 3個常用的解釋變數。（25 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:34:04+00:00", "source_pdf_sha1": "c78e0202d856", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "112200", "c": "323", "s": "2007", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "運輸經濟學", "year": "112", "exam_name": "112年特種考試地方政府公務人員考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "交通行政"}'::jsonb, NULL),
+  ('locality-0489de64-moex-00050', 'locality-0489de64', 'locality-0489de64-moex-112-5b10e36f', 'sub-locality-0489de64-03', NULL, 'essay', '常見的生產函數有 Linear（ ）、Cobb-Douglas
+（ ）、Leontief（  ）等三種，其中，
+ =  +∑
+    
+y為產出，x 為第i項生產要素，α 為第i項生產要素的對應參數。試推導
+∏i  i
+ =    = min{,,…,}
+此三種函數型式所對應的成本函數以及生產要素間的替代彈性。（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:34:04+00:00", "source_pdf_sha1": "c78e0202d856", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "112200", "c": "323", "s": "2007", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "運輸經濟學", "year": "112", "exam_name": "112年特種考試地方政府公務人員考試", "original_question_number": "二", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "交通行政"}'::jsonb, NULL),
+  ('locality-0489de64-moex-00051', 'locality-0489de64', 'locality-0489de64-moex-112-5b10e36f', 'sub-locality-0489de64-03', NULL, 'essay', '貨運運輸規劃與客運運輸規劃有何不同？試比較客運及貨運運輸規劃
+在規劃程序及使用模式之差異？（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:34:04+00:00", "source_pdf_sha1": "c78e0202d856", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "112200", "c": "323", "s": "2007", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "運輸經濟學", "year": "112", "exam_name": "112年特種考試地方政府公務人員考試", "original_question_number": "三", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "交通行政"}'::jsonb, NULL),
+  ('locality-0489de64-moex-00052', 'locality-0489de64', 'locality-0489de64-moex-112-5b10e36f', 'sub-locality-0489de64-03', NULL, 'essay', '試說明我國在偏鄉地區推動的需求反應式公共運輸服務（Demand
+ResponsiveTransportationService,DRTS），其營運模式與傳統公車服務有
+何不同？如何訂定其合理營運成本計算公式？如何設計合理的補貼機
+制？（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:34:04+00:00", "source_pdf_sha1": "c78e0202d856", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "112200", "c": "323", "s": "2007", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "運輸經濟學", "year": "112", "exam_name": "112年特種考試地方政府公務人員考試", "original_question_number": "四", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "交通行政"}'::jsonb, NULL),
+  ('locality-0489de64-moex-00053', 'locality-0489de64', 'locality-0489de64-moex-112-5e00ff89', 'sub-locality-0489de64-04', NULL, 'essay', '過往軌道運輸系統規劃的案例中，經常發生運量高估的預測結果。試說
+明造成運量高估的可能原因，又這樣運量高估的預測結果對於規劃和後
+續可能的系統營運有何影響？（25 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:34:04+00:00", "source_pdf_sha1": "c911f4927a1c", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "112200", "c": "323", "s": "2009", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "運輸規劃學", "year": "112", "exam_name": "112年特種考試地方政府公務人員考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "civil_slug": "locality", "civil_category": "交通行政"}'::jsonb, NULL)
+ON CONFLICT (id) DO NOTHING;

@@ -1,0 +1,2280 @@
+{
+  "slug": "islands-7fec267e",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:33:58+00:00",
+  "paper_count": 4,
+  "paper_with_questions": 4,
+  "question_count": 62,
+  "type_counts": {
+    "essay": 12,
+    "single_choice": 50
+  },
+  "papers": [
+    {
+      "year": "114",
+      "exam_code": "114190",
+      "c": "301",
+      "s": "0507",
+      "q": "1",
+      "subject": "公共政策",
+      "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "27de1c8ffdaa",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "114",
+      "exam_code": "114190",
+      "c": "301",
+      "s": "0501",
+      "q": "1",
+      "subject": "政治學",
+      "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": false,
+      "corr_pdf_exists": false,
+      "q_pdf_sha1": "37669f543fe0",
+      "a_pdf_sha1": null,
+      "format_detected": "pure_essay",
+      "raw_question_count": 4,
+      "answer_qnums_extracted": 0,
+      "answer_corrections": 0,
+      "is_correction_pdf_used": false,
+      "status": "ok",
+      "question_count": 4,
+      "skipped_count": 0
+    },
+    {
+      "year": "114",
+      "exam_code": "114190",
+      "c": "301",
+      "s": "0511",
+      "q": "1",
+      "subject": "行政學",
+      "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": true,
+      "q_pdf_sha1": "bff614f05892",
+      "a_pdf_sha1": "5df4d6c94037",
+      "format_detected": "mixed",
+      "raw_question_count": 27,
+      "answer_qnums_extracted": 24,
+      "answer_corrections": 1,
+      "is_correction_pdf_used": true,
+      "status": "ok",
+      "question_count": 27,
+      "skipped_count": 0
+    },
+    {
+      "year": "114",
+      "exam_code": "114190",
+      "c": "301",
+      "s": "0608",
+      "q": "1",
+      "subject": "行政法",
+      "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+      "q_pdf_exists": true,
+      "a_pdf_exists": true,
+      "corr_pdf_exists": true,
+      "q_pdf_sha1": "48d6624b1660",
+      "a_pdf_sha1": "655232f0d966",
+      "format_detected": "mixed",
+      "raw_question_count": 27,
+      "answer_qnums_extracted": 24,
+      "answer_corrections": 1,
+      "is_correction_pdf_used": true,
+      "status": "ok",
+      "question_count": 27,
+      "skipped_count": 0
+    }
+  ],
+  "questions": [
+    {
+      "id": "islands-7fec267e-0001",
+      "exam_id": "islands-7fec267e",
+      "question_type": "essay",
+      "question": "請闡釋何謂政策議程（policyagenda）的概念？並列舉至少兩項影響議程\n設定（agendasetting）的條件。（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:57+00:00",
+        "source_pdf_sha1": "27de1c8ffdaa",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0507",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "公共政策",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0002",
+      "exam_id": "islands-7fec267e",
+      "question_type": "essay",
+      "question": "西元 2020年新冠肺炎（COVID-19）國際疫情升溫之際，政府採取各種\n不同的防疫措施，亦即採行多樣化的政策工具；何謂權威型工具\n（authority tools）與象徵或勸勉型工具（symbolic or hortatory tools）？\n請分別闡釋並舉例說明之。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:57+00:00",
+        "source_pdf_sha1": "27de1c8ffdaa",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0507",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "公共政策",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0003",
+      "exam_id": "islands-7fec267e",
+      "question_type": "essay",
+      "question": "請闡釋為何外部性（externalities）因素會造成市場失靈？及政府如何以\n公共政策介入來導正市場失靈問題？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:57+00:00",
+        "source_pdf_sha1": "27de1c8ffdaa",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0507",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "公共政策",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0004",
+      "exam_id": "islands-7fec267e",
+      "question_type": "essay",
+      "question": "請闡釋風險人口（population atrisk）、需要人口（population in need）及\n需求人口（populationatdemand），這三類人口的主要內涵與差異為何？\n（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:57+00:00",
+        "source_pdf_sha1": "27de1c8ffdaa",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0507",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "公共政策",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0005",
+      "exam_id": "islands-7fec267e",
+      "question_type": "essay",
+      "question": "為何「官僚議價模型」是「非理性決策學派」的重要代表？請舉例說明\n之。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:57+00:00",
+        "source_pdf_sha1": "37669f543fe0",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0501",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "政治學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0006",
+      "exam_id": "islands-7fec267e",
+      "question_type": "essay",
+      "question": "如何區分「例行性」與「非例行性」公共政策？請舉例說明之。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:57+00:00",
+        "source_pdf_sha1": "37669f543fe0",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0501",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "政治學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0007",
+      "exam_id": "islands-7fec267e",
+      "question_type": "essay",
+      "question": "在政策執行過程中，須具備那些重要的步驟？（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:57+00:00",
+        "source_pdf_sha1": "37669f543fe0",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0501",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "政治學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "三",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0008",
+      "exam_id": "islands-7fec267e",
+      "question_type": "essay",
+      "question": "行政組織中，政治領導者為何對政府政策的執行具重要性？請舉例說明\n之。（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:57+00:00",
+        "source_pdf_sha1": "37669f543fe0",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0501",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "政治學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "四",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0009",
+      "exam_id": "islands-7fec267e",
+      "question_type": "essay",
+      "question": "試從政策設計、行政管理和民主實踐三個面向，探討AI時代下的政府治\n理應有何種面貌？影響未來政府數位治理，會有那些關鍵要素？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "bff614f05892",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0511",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0010",
+      "exam_id": "islands-7fec267e",
+      "question_type": "essay",
+      "question": "愛德華（GeorgeC.Edwards III）認為影響政策執行力的變數包含溝通、\n資源、執行者意向、機關結構四大面向，其主要內容為何？試以「身心\n障礙者居家照顧」政策為例，說明上述變數如何影響政策執行？（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "bff614f05892",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0511",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0011",
+      "exam_id": "islands-7fec267e",
+      "question_type": "single_choice",
+      "question": "下列何者不是黑堡宣言（BlacksburgManifesto）的主張？",
+      "options": [
+        "公共行政應該是一種制度，而非侷限於討論官僚體制的組織形式",
+        "公務人員的首要任務是以理性的技術來追求有效率的管理",
+        "公共行政無法完全獨立於政治之外",
+        "公共行政是捍衛三權分立憲政體制的重要角色"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "bff614f05892",
+        "answer_pdf_sha1": "5df4d6c94037",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0511",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0012",
+      "exam_id": "islands-7fec267e",
+      "question_type": "single_choice",
+      "question": "下列對於行為科學學派的描述，何者正確？",
+      "options": [
+        "強調社會現象應然面的研究",
+        "從組織的制度結構著手研究",
+        "以科學方法研究人類的行為",
+        "試圖提出單一學科導向管理原則"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "bff614f05892",
+        "answer_pdf_sha1": "5df4d6c94037",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0511",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0013",
+      "exam_id": "islands-7fec267e",
+      "question_type": "single_choice",
+      "question": "有關公營事業民營化興起之理由，下列敘述何者錯誤？",
+      "options": [
+        "公營事業受限於政治因素和法規限制，導致績效低落",
+        "政府預算有限，民營化可撙節政府開支",
+        "大政府意識形態興起，讓政府選擇以民營方式提供公共服務",
+        "可借重民間企業的創意與活力"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "bff614f05892",
+        "answer_pdf_sha1": "5df4d6c94037",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0511",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 3,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0014",
+      "exam_id": "islands-7fec267e",
+      "question_type": "single_choice",
+      "question": "下列何者不是代理人理論所關注的問題？",
+      "options": [
+        "道德風險",
+        "集體行動邏輯",
+        "逆向選擇",
+        "資訊不對稱"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "bff614f05892",
+        "answer_pdf_sha1": "5df4d6c94037",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0511",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0015",
+      "exam_id": "islands-7fec267e",
+      "question_type": "single_choice",
+      "question": "行政倫理中的爭議之一，為用組織或政策的成功，來合理化組織或個人不正當的行為。這種「以 目的合理化手段」的現象稱之為：",
+      "options": [
+        "髒手問題",
+        "雙環困境",
+        "寡頭鐵律",
+        "多手問題 30450、31150 31650、50140"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "bff614f05892",
+        "answer_pdf_sha1": "5df4d6c94037",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0511",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0016",
+      "exam_id": "islands-7fec267e",
+      "question_type": "single_choice",
+      "question": "公務人員的專案考績於何時舉行？",
+      "options": [
+        "每年年初",
+        "每年年終",
+        "有重大功過時，隨時辦理",
+        "任職不滿1年，而連續任職已達6個月"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "bff614f05892",
+        "answer_pdf_sha1": "5df4d6c94037",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0511",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0017",
+      "exam_id": "islands-7fec267e",
+      "question_type": "single_choice",
+      "question": "下列那一項社會資本是影響網絡組織運作成功與否的關鍵因素？",
+      "options": [
+        "法規",
+        "權威",
+        "控制",
+        "信任"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "bff614f05892",
+        "answer_pdf_sha1": "5df4d6c94037",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0511",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0018",
+      "exam_id": "islands-7fec267e",
+      "question_type": "single_choice",
+      "question": "下列何者是界定地方政府中輔助單位和業務單位差異的主要依據？",
+      "options": [
+        "組織規模大小",
+        "專業性高低",
+        "是否須直接面對民眾",
+        "是否須經常加班"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "bff614f05892",
+        "answer_pdf_sha1": "5df4d6c94037",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0511",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0019",
+      "exam_id": "islands-7fec267e",
+      "question_type": "single_choice",
+      "question": "「組織內的成員即便有人感到不滿，仍然鼓勵其表達自己的意見，說明自己的立場與想法，以增 進大家對問題的了解」，是屬於何種衝突？",
+      "options": [
+        "障礙性衝突（dysfunctionalconflict）",
+        "計畫性衝突（programmedconflict）",
+        "跨團體衝突（intergroupconflict）",
+        "組織間衝突（interorganizationconflict）"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "bff614f05892",
+        "answer_pdf_sha1": "5df4d6c94037",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0511",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0020",
+      "exam_id": "islands-7fec267e",
+      "question_type": "single_choice",
+      "question": "美國政府預算制度經歷多次改革，每每與當代公共管理的主要內涵相互呼應，下列那個預算制度 最重視彈性、授權的原則？",
+      "options": [
+        "績效預算制度（performancebudgeting）",
+        "設計計畫預算制度（planning-programing-budgeting）",
+        "零基預算制度（zero-basedbudgeting）",
+        "企業化預算制度（entrepreneurialbudgeting）"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "bff614f05892",
+        "answer_pdf_sha1": "5df4d6c94037",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0511",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0021",
+      "exam_id": "islands-7fec267e",
+      "question_type": "single_choice",
+      "question": "有關中央政府機關總員額法的敘述，下列何者正確？",
+      "options": [
+        "立法目的之一是增進員額調配彈性",
+        "地方政府機關適用之",
+        "各機關員額總數最高限為600人",
+        "司法院及所屬機關配置之員額數不受該法所訂員額總數限制"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "bff614f05892",
+        "answer_pdf_sha1": "5df4d6c94037",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0511",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 11,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0022",
+      "exam_id": "islands-7fec267e",
+      "question_type": "single_choice",
+      "question": "針對我國高階公務人員養成及培育的相關敘述，下列何者正確？",
+      "options": [
+        "須具備國外專題研究1年以上資歷",
+        "接受中長期發展性訓練評鑑合格者，納入人才資料庫",
+        "享有高階文官加給",
+        "不占各機關職缺，由銓敘部統一調任"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "bff614f05892",
+        "answer_pdf_sha1": "5df4d6c94037",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0511",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 12,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0023",
+      "exam_id": "islands-7fec267e",
+      "question_type": "single_choice",
+      "question": "「政府經常收支，應保持平衡」，此為維持財政健全之重要原則。下列何者符合此一原則之內涵？",
+      "options": [
+        "政府若全年稅收實徵數超過預算數，則超徵數額須全數撥入償債基金",
+        "政府之年度預算應保持平衡，不得有預算赤字",
+        "政府不得以賒借收入支應高速公路之興建經費",
+        "政府得以稅課收入支應公務人員調薪所需經費"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "bff614f05892",
+        "answer_pdf_sha1": "5df4d6c94037",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0511",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 13,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0024",
+      "exam_id": "islands-7fec267e",
+      "question_type": "single_choice",
+      "question": "有關中央政府之特別預算與追加預算的描述，下列何者正確？",
+      "options": [
+        "特別預算與追加預算皆不得提出新的施政計畫",
+        "預算法規範得提出特別預算與追加預算之情形",
+        "特別預算與追加預算都可因應情勢舉債，不受公債法的限制",
+        "特別預算與追加預算於年度中提出，年底併入總預算一起辦理決算"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "bff614f05892",
+        "answer_pdf_sha1": "5df4d6c94037",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0511",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 14,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0025",
+      "exam_id": "islands-7fec267e",
+      "question_type": "single_choice",
+      "question": "特別收入基金係指有特定收入來源而供特殊用途者，下列何者非屬我國中央政府之特別收入基金？",
+      "options": [
+        "離島建設基金",
+        "促進轉型正義基金",
+        "毒品防制基金",
+        "國立大學校院校務基金 30450、31150 31650、50140"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "bff614f05892",
+        "answer_pdf_sha1": "5df4d6c94037",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0511",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 15,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0026",
+      "exam_id": "islands-7fec267e",
+      "question_type": "single_choice",
+      "question": "國家發展委員會運用不同指標評選「政府服務獎」，其目的之一是透過獲獎機關優良事蹟的公開， 以作為其他機關的典範。此一目的是何種績效評估工具的具體展現？",
+      "options": [
+        "平衡計分卡（balancedscorecard）",
+        "關鍵績效指標（keyperformanceindicators）",
+        "全面品質管理（totalqualitymanagement）",
+        "標竿學習（benchmarking）"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "bff614f05892",
+        "answer_pdf_sha1": "5df4d6c94037",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0511",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 16,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0027",
+      "exam_id": "islands-7fec267e",
+      "question_type": "single_choice",
+      "question": "美國公共行政學者裴利（J.Perry），對於公共服務動機（PSM）提出了具體測量的方法。下列何 者不是測量公共服務動機的四大構面？",
+      "options": [
+        "對公共政策制定的興趣",
+        "對公共利益的承諾",
+        "自我能力培養",
+        "自我犧牲"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "bff614f05892",
+        "answer_pdf_sha1": "5df4d6c94037",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0511",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 17,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0028",
+      "exam_id": "islands-7fec267e",
+      "question_type": "single_choice",
+      "question": "下列何者非屬政府可以依法限制公開或不予提供之資訊？",
+      "options": [
+        "依法核定為國家機密之資訊",
+        "政府機關作成意思決定前內部單位之擬稿",
+        "書面之公共工程及採購契約",
+        "有關專門知識、技能或資格所為之考試、檢定或鑑定等有關資料"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "bff614f05892",
+        "answer_pdf_sha1": "5df4d6c94037",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0511",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 18,
+        "answer_corrected": true,
+        "flags": [
+          "answer_corrected_skip_v1"
+        ]
+      }
+    },
+    {
+      "id": "islands-7fec267e-0029",
+      "exam_id": "islands-7fec267e",
+      "question_type": "single_choice",
+      "question": "電子化政府係透過資訊科技的應用來提供公共服務，但多數的服務仍同時提供線上和線下（實體） 的途徑，最主要是為了解決什麼問題？",
+      "options": [
+        "貧富差距",
+        "城鄉差距",
+        "數位落差",
+        "性別差異"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "bff614f05892",
+        "answer_pdf_sha1": "5df4d6c94037",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0511",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 19,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0030",
+      "exam_id": "islands-7fec267e",
+      "question_type": "single_choice",
+      "question": "有關團體迷思（groupthink）的相關敘述，下列何者錯誤？",
+      "options": [
+        "易造成解決問題的選項太多，無所適從",
+        "易拒絕專家的意見",
+        "拒絕接受外來的不同意見",
+        "不易提出有創新的想法"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "bff614f05892",
+        "answer_pdf_sha1": "5df4d6c94037",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0511",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 20,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0031",
+      "exam_id": "islands-7fec267e",
+      "question_type": "single_choice",
+      "question": "有關政府建立公眾關係的目的與原則，下列敘述何者錯誤？",
+      "options": [
+        "爭取公眾對政府的了解",
+        "消除公眾對政府的誤會",
+        "維持較佳的社會氣候",
+        "應遵循20／80法則：即20%的政府績效和80%的宣傳"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "bff614f05892",
+        "answer_pdf_sha1": "5df4d6c94037",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0511",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 21,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0032",
+      "exam_id": "islands-7fec267e",
+      "question_type": "single_choice",
+      "question": "下列對於參與式預算的敘述，何者正確？",
+      "options": [
+        "執行單位為中央層級，以彌補代議失靈問題",
+        "參與式預算以落實全民自治為目標",
+        "參與式預算強調草根性，在鄉下比都市容易實行",
+        "參與式預算有助於累積社會資本"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "bff614f05892",
+        "answer_pdf_sha1": "5df4d6c94037",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0511",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 22,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0033",
+      "exam_id": "islands-7fec267e",
+      "question_type": "single_choice",
+      "question": "有關非營利組織在公共服務上的功能，下列何者錯誤？",
+      "options": [
+        "非營利組織能補充政府不能提供的服務",
+        "非營利組織能提供更多公民參與的機會",
+        "非營利組織能監督政府的施政",
+        "非營利組織本身具有公權力，可協助政府執行業務"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "bff614f05892",
+        "answer_pdf_sha1": "5df4d6c94037",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0511",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 23,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0034",
+      "exam_id": "islands-7fec267e",
+      "question_type": "single_choice",
+      "question": "有關公民會議與里民大會的區別，下列何者錯誤？",
+      "options": [
+        "兩者均重視集體討論",
+        "兩者運作過程均重視平等公開",
+        "兩者均強調社會信用評價",
+        "兩者均希望能體現參與式民主"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "bff614f05892",
+        "answer_pdf_sha1": "5df4d6c94037",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0511",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 24,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0035",
+      "exam_id": "islands-7fec267e",
+      "question_type": "single_choice",
+      "question": "政府發行振興券或夜市券等抵用券（voucher）最有可能滿足下列何種財貨與服務提供的型態？",
+      "options": [
+        "政府安排、民間生產",
+        "政府安排、政府生產",
+        "民間安排、民間生產",
+        "民間安排、政府生產"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "bff614f05892",
+        "answer_pdf_sha1": "5df4d6c94037",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0511",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政學",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 25,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0036",
+      "exam_id": "islands-7fec267e",
+      "question_type": "essay",
+      "question": "甲為居住於宜蘭縣蘇澳鎮之自耕農，於 112 年 5 月 1 日年滿 65 歲。依\n據老年農民福利津貼暫行條例，年滿 65歲以上者得請領該津貼。甲遂向\n其所屬農會申報，經主管機關審查合格後發給其老年農民福利津貼（下\n稱老農年金）。\n114 年 1 月 1 日某報紙報導甲的配偶乙，自述其配偶甲出生時由於戶\n政事務所作業疏失誤填出生年月日，甲將於 114 年 5 月 1 日度過 65 歲\n生日。見報後，即有鄉民向縣政府檢舉，甲過去兩年應該沒有資格領取\n老農年金，因此主管機關打算向其追討過去誤發的老農年金，試問應如\n何為之？但甲認為其非常無辜，因為有錯的不是他，是戶政事務所，而\n且發下來的錢都已經拿來繳交房租了，請問甲的說法有無理由？（25 分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "48d6624b1660",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0608",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "一",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0037",
+      "exam_id": "islands-7fec267e",
+      "question_type": "essay",
+      "question": "證券交易法第 57條規定：「證券商取得經營證券業務之特許，或設立分\n支機構之許可後，經主管機關發覺有違反法令或虛偽情事者，得撤銷其\n特許或許可。」請問特許與許可的差別為何？又行政程序法第 148 條規\n定行政契約約定自願接受執行時，債務人不為給付時，債權人得以該契\n約為強制執行之執行名義。但此項約定，締約之一方為中央行政機關時，\n應經主管院、部或同等級機關之認可，此處之認可又與前述的許可差別\n為何？（25分）",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "48d6624b1660",
+        "answer_pdf_sha1": null,
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0608",
+          "q": "1"
+        },
+        "raw_section_label": "甲、申論題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": "二",
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0038",
+      "exam_id": "islands-7fec267e",
+      "question_type": "single_choice",
+      "question": "依司法院大法官解釋意旨，下列何者非屬法規之制定或發布時無信賴保護原則適用之情形？",
+      "options": [
+        "經廢止或變更之法規有重大明顯違反上位規範情形者",
+        "相關法規係因主張權益受害者提供不正確資料而發布",
+        "純屬法規適用對象主觀之願望而未有表現已生信賴之事實者",
+        "相關法規之訂定並未有法律之明確授權 30840、31140 31940 50430"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "48d6624b1660",
+        "answer_pdf_sha1": "655232f0d966",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 1,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0039",
+      "exam_id": "islands-7fec267e",
+      "question_type": "single_choice",
+      "question": "法律為防止盤商囤積雞蛋，以平抑蛋價及滿足民生需求，對違法囤積者每一盒處罰新臺幣 2,500 元，某盤商經主管機關查獲囤積大量雞蛋而被裁處上億元罰鍰，依司法院大法官解釋意旨，此種 裁罰結果最可能牴觸比例原則之何項子原則？",
+      "options": [
+        "正當立法目的",
+        "適當性原則",
+        "必要性原則",
+        "狹義比例原則"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "48d6624b1660",
+        "answer_pdf_sha1": "655232f0d966",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 2,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0040",
+      "exam_id": "islands-7fec267e",
+      "question_type": "single_choice",
+      "question": "有關公用地役關係之敘述，下列何者正確？",
+      "options": [
+        "公用地役關係因行政機關所為之行政處分而創設",
+        "具公用地役關係之現有巷道，於喪失其原有功能或已無繼續供公眾通行之必要時，公用地役關 係自動消滅",
+        "土地成立公用地役關係之所有權人對於國家有土地使用費之請求權",
+        "行政機關廢止公用地役關係，其性質屬一般處分"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": false,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "48d6624b1660",
+        "answer_pdf_sha1": "655232f0d966",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 3,
+        "answer_corrected": true,
+        "flags": [
+          "answer_corrected_skip_v1"
+        ]
+      }
+    },
+    {
+      "id": "islands-7fec267e-0041",
+      "exam_id": "islands-7fec267e",
+      "question_type": "single_choice",
+      "question": "有關行政組織之敘述，下列何者正確？",
+      "options": [
+        "獨立機關為依據公法設立而具有公法上權利能力者",
+        "中央選舉委員會為合議制機關",
+        "中小學校家長會屬於學校之行政組織",
+        "金融監督管理委員會為獨立機關"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "48d6624b1660",
+        "answer_pdf_sha1": "655232f0d966",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 4,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0042",
+      "exam_id": "islands-7fec267e",
+      "question_type": "single_choice",
+      "question": "下列何者非屬地方制度法所稱之委辦事項？",
+      "options": [
+        "內政部將有關外國人入出國、停留、居留、永久居留、收容管理及驅逐出國等業務，委由各直 轄市、縣（市）政府辦理",
+        "宜蘭縣政府將核發土地使用分區證明書之權限，委由其轄區內鄉鎮市公所辦理",
+        "臺北市政府將部分涉及捷運管理之業務交由新北市政府辦理",
+        "內政部將土地徵收補償費、遷移費的查估委由各直轄市或縣（市）政府辦理"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "48d6624b1660",
+        "answer_pdf_sha1": "655232f0d966",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 5,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0043",
+      "exam_id": "islands-7fec267e",
+      "question_type": "single_choice",
+      "question": "法律規定「本法所稱主管機關：在中央為內政部」，下列敘述何者錯誤？",
+      "options": [
+        "該法條可作為定管轄競合之依據",
+        "該法條不得作為行政機關限制人民基本權利之依據",
+        "該法條為事務管轄之依據",
+        "該法條屬於組織法規定"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "48d6624b1660",
+        "answer_pdf_sha1": "655232f0d966",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 6,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0044",
+      "exam_id": "islands-7fec267e",
+      "question_type": "single_choice",
+      "question": "依公務員懲戒法規定，下列敘述何者正確？",
+      "options": [
+        "受降級處分者，自改敘之日起，4年內不得晉敘、陞任或遷調主管職務",
+        "申誡處分，得以口頭方式為之，受申誡人請求，方須作成書面",
+        "罰款之懲戒處分不得與剝奪、減少退休（職、伍）金之懲戒處分併為處分",
+        "剝奪、減少退休（職、伍）金之懲戒處分，得對現任公務員將來之退休（職、伍）金扣減之"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "48d6624b1660",
+        "answer_pdf_sha1": "655232f0d966",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 7,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0045",
+      "exam_id": "islands-7fec267e",
+      "question_type": "single_choice",
+      "question": "甲任職於某縣政府教育處體育保健科之薦任6職等科員，經同縣府農業處借調到自然生態保育科 擔任薦任6職等科員並占其職缺，甲不服其借調，應依下列何種管道尋求救濟？",
+      "options": [
+        "申訴、再申訴程序",
+        "訴願程序",
+        "復審程序",
+        "復查程序"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "48d6624b1660",
+        "answer_pdf_sha1": "655232f0d966",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 8,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0046",
+      "exam_id": "islands-7fec267e",
+      "question_type": "single_choice",
+      "question": "有關公務人員權利義務之敘述，下列何者錯誤？",
+      "options": [
+        "甲為公立學校校長，有公務員服務法之適用",
+        "乙為縣長之機要秘書，亦受公務人員任用法之保障，縣長對其機要職務不可隨時將其免職",
+        "丙公務人員在職死亡者，其遺族丁可向丙之服務機關申辦撫卹",
+        "戊為現職軍人，不得參加公務人員協會"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "48d6624b1660",
+        "answer_pdf_sha1": "655232f0d966",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 9,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0047",
+      "exam_id": "islands-7fec267e",
+      "question_type": "single_choice",
+      "question": "衛生福利部就違反食品安全衛生管理法事件之裁罰，訂定「食品安全衛生管理法第四十七條第八 款及第十款標示違規罰鍰處理原則」，此處理原則性質屬於下列何者？",
+      "options": [
+        "一般處分",
+        "法規命令",
+        "行政規則",
+        "行政指導 30840、31140 31940 50430"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "48d6624b1660",
+        "answer_pdf_sha1": "655232f0d966",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 10,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0048",
+      "exam_id": "islands-7fec267e",
+      "question_type": "single_choice",
+      "question": "下列何者非屬對物的一般處分？",
+      "options": [
+        "管理機關公告封閉危橋，不再提供人車通行",
+        "市政府將某大樓啟用為市府某局處辦公室",
+        "主管機關將海軍管理之眷村指定為文化景觀",
+        "交通路口所設紅綠燈號誌之指揮交通"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "48d6624b1660",
+        "answer_pdf_sha1": "655232f0d966",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 11,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0049",
+      "exam_id": "islands-7fec267e",
+      "question_type": "single_choice",
+      "question": "甲向乙戶政事務所申請改名遭拒，下列敘述何者錯誤？",
+      "options": [
+        "乙拒絕甲改名之行為性質為行政處分",
+        "甲不服乙拒絕更名得依法循序提訴願、行政訴訟",
+        "甲提起爭訟中，乙同意甲改名並為登記，且通知財稅機關改名之事實，該通知性質為行政處分",
+        "財稅機關依乙通知，將甲所有稅籍姓名變更並通知甲，該通知甲稅籍變更之行為，為行政處分"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "48d6624b1660",
+        "answer_pdf_sha1": "655232f0d966",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 12,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0050",
+      "exam_id": "islands-7fec267e",
+      "question_type": "single_choice",
+      "question": "依行政程序法規定，關於行政處分之補正，下列敘述何者正確？",
+      "options": [
+        "經聽證之行政處分，僅得於向行政法院起訴前補正",
+        "必須記明之附款，得因事後記明而補正",
+        "處分機關告知之救濟期間有錯誤時，應由該機關以通知補正之，並自通知送達之翌日起算法定 期間",
+        "應以證書方式作成而未給予證書，得因事後補發而補正"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "48d6624b1660",
+        "answer_pdf_sha1": "655232f0d966",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 13,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0051",
+      "exam_id": "islands-7fec267e",
+      "question_type": "single_choice",
+      "question": "衛生福利部中央健康保險署與保險醫事服務機構可以簽訂全民健保契約，中央健康保險署得就醫 事服務機構申請同意為特約醫事服務機構之資格、程序、審查基準訂定法規命令，依實務見解， 關於該法規命令之敘述，下列何者正確？",
+      "options": [
+        "授權是否具體明確，僅以該授權法律之文義為準",
+        "法規命令之規範內容，衛生福利部享有判斷餘地",
+        "屬於相對法律保留範圍",
+        "衛生福利部得選擇訂定行政規則替代該法規命令"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "48d6624b1660",
+        "answer_pdf_sha1": "655232f0d966",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 14,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0052",
+      "exam_id": "islands-7fec267e",
+      "question_type": "single_choice",
+      "question": "下列何者非屬行政契約？",
+      "options": [
+        "國家賠償協議",
+        "臺北市與基隆市簽訂的區域間都市垃圾緊急處理互助協議書",
+        "新北市社會住宅之租約",
+        "衛生福利部與公費醫學生所簽訂重點科別培育公費醫學生契約"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "48d6624b1660",
+        "answer_pdf_sha1": "655232f0d966",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 15,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0053",
+      "exam_id": "islands-7fec267e",
+      "question_type": "single_choice",
+      "question": "外交部對A國為旅遊警示，意即「避免非必要旅行」。關於此旅遊警示之敘述，下列何者正確？",
+      "options": [
+        "該旅遊警示欠缺直接法律效力，屬行政事實行為",
+        "該旅遊警示由外交部單方發布，屬於行政處分",
+        "該旅遊警示係對於不特定人民所為，屬於法規命令",
+        "該旅遊警示僅有行政內部效力，屬於行政規則"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "48d6624b1660",
+        "answer_pdf_sha1": "655232f0d966",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 16,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0054",
+      "exam_id": "islands-7fec267e",
+      "question_type": "single_choice",
+      "question": "不得因不知法規而免除行政處罰責任。但按其情節，得減輕或免除其處罰。所稱「不知法規」， 係指下列何者？",
+      "options": [
+        "依行為人之社會地位及個人能力，對於該行為之合法性產生懷疑",
+        "指行為人不知法規之可責性高低而言",
+        "指違反行政法上義務行為人必須要對自己行為究係違反何法規之規定有所認知",
+        "指行為人不知法規所「禁止」或「要求應為」之行為或不行為義務為何"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "48d6624b1660",
+        "answer_pdf_sha1": "655232f0d966",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 17,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0055",
+      "exam_id": "islands-7fec267e",
+      "question_type": "single_choice",
+      "question": "下列何者並非行政執行法規定之對於公法上金錢給付義務之執行方法？",
+      "options": [
+        "科處義務人怠金",
+        "查封義務人之財產",
+        "命義務人提供相當擔保，限期履行",
+        "限制義務人之住居 30840、31140 31940 50430"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "48d6624b1660",
+        "answer_pdf_sha1": "655232f0d966",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 18,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0056",
+      "exam_id": "islands-7fec267e",
+      "question_type": "single_choice",
+      "question": "關於政府資訊限制公開或不予公開事由之敘述，下列何者錯誤？",
+      "options": [
+        "政府機關為實施取締業務，而取得取締對象之相關資料，其公開將對實施目的造成困難者，應 限制或不予公開，並無例外",
+        "公營事業機構經營之有關資料，其公開將妨害其經營上之正當利益者，應限制或不予公開，並 無例外",
+        "政府機關作成意思決定前，內部單位之擬稿或其他準備作業，如對公益有必要者，仍得公開",
+        "資訊之公開有侵害個人隱私，如對公益有必要者，仍得公開"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "48d6624b1660",
+        "answer_pdf_sha1": "655232f0d966",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 19,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0057",
+      "exam_id": "islands-7fec267e",
+      "question_type": "single_choice",
+      "question": "經濟部智慧財產局訂頒商標識別性審查基準，如甲文創公司認經營環境受到限制，不服該審查基 準，關於其救濟，下列敘述何者正確？",
+      "options": [
+        "甲得逕向憲法法庭聲請宣告該審查基準為違憲",
+        "甲得逕向高等行政法院起訴請求撤銷該審查基準",
+        "甲得請求行政法院聲請憲法法庭宣告該審查基準違憲",
+        "需由經濟部智慧財產局依該審查基準對甲作成處分後，甲始得對該處分提起訴願、行政訴訟"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "48d6624b1660",
+        "answer_pdf_sha1": "655232f0d966",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 20,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0058",
+      "exam_id": "islands-7fec267e",
+      "question_type": "single_choice",
+      "question": "關於訴願期間行政處分停止執行之敘述，下列何者錯誤？",
+      "options": [
+        "訴願人於訴願程序終結前，亦得向行政法院聲請停止執行",
+        "原行政處分之執行，原則上不因提起訴願而停止",
+        "訴願人僅得就原行政處分之全部聲請停止執行，以維護行政權之完整性",
+        "受理訴願機關認為原行政處分之合法性顯有疑義，得依職權命原處分機關停止執行"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "48d6624b1660",
+        "answer_pdf_sha1": "655232f0d966",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 21,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0059",
+      "exam_id": "islands-7fec267e",
+      "question_type": "single_choice",
+      "question": "甲為公益團體，認為A工廠長年違法傾倒廢棄物，致使周遭農地受到污染，遂依廢棄物清理法規 定，以書面向當地主管機關乙請求依法行使公權力。若乙未在法定期間內採取任何作為，而甲欲 依行政訴訟法規定提起公益訴訟時，下列敘述何者正確？",
+      "options": [
+        "本案仍應視其具體主張而提起特定訴訟類型",
+        "甲必須證明自身權益亦遭受損害，始得提起本案訴訟",
+        "向行政法院提起訴訟前，一律須經訴願程序",
+        "此種訴訟屬於備位性質，必須限於無法提起其他行政訴訟時，始得提起"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "48d6624b1660",
+        "answer_pdf_sha1": "655232f0d966",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 22,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0060",
+      "exam_id": "islands-7fec267e",
+      "question_type": "single_choice",
+      "question": "關於行政訴訟制度之敘述，下列何者正確？",
+      "options": [
+        "提起一般給付訴訟應經訴願先行程序",
+        "提起都市計畫審查程序應向都市計畫區所在地之高等行政法院為之",
+        "公職人員選舉罷免法明定之選舉訴訟係向行政法院提起",
+        "不服律師懲戒委員會作成之懲戒處分係向行政法院提起訴訟"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "48d6624b1660",
+        "answer_pdf_sha1": "655232f0d966",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 23,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0061",
+      "exam_id": "islands-7fec267e",
+      "question_type": "single_choice",
+      "question": "關於賠償義務機關，下列敘述何者正確？",
+      "options": [
+        "公共設施委託民間團體管理時，因管理欠缺致人民生命受有損害者，以該民間團體為賠償義務 機關",
+        "受託行使公權力之團體，其執行職務之人於行使公權力時所生之國家賠償責任，以該團體為賠 償義務機關",
+        "賠償義務機關經裁撤或改組者，原則上應優先以其裁撤或改組前之上級機關為賠償義務機關",
+        "無法確定賠償義務機關而請求上級機關確定，上級機關逾期不為確定者，得逕以該上級機關為 賠償義務機關"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "48d6624b1660",
+        "answer_pdf_sha1": "655232f0d966",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 24,
+        "answer_corrected": false,
+        "flags": []
+      }
+    },
+    {
+      "id": "islands-7fec267e-0062",
+      "exam_id": "islands-7fec267e",
+      "question_type": "single_choice",
+      "question": "下列何種情形，國家應負損害賠償責任？",
+      "options": [
+        "各級政府機關依中央流行疫情指揮中心指揮官之指示，徵用私立醫療機構設立檢疫場所",
+        "既成道路或都市計畫道路用地，在依法徵收或價購前所埋設之地下設施，致妨礙土地權利人對 其權利之行使",
+        "私人建築物被指定為古蹟，致所有權人無法為使用收益",
+        "土地因地政機關登記遺漏，致人民無法主張權利"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "auto_gradable": true,
+      "explanation": null,
+      "source_meta": {
+        "parser_version": "moex_license_v1.0",
+        "parsed_at": "2026-04-25T12:33:58+00:00",
+        "source_pdf_sha1": "48d6624b1660",
+        "answer_pdf_sha1": "655232f0d966",
+        "source_family": "moex-gov-tw",
+        "moex": {
+          "exam_code": "114190",
+          "c": "301",
+          "s": "0608",
+          "q": "1"
+        },
+        "raw_section_label": "乙、測驗題部分",
+        "subject": "行政法",
+        "year": "114",
+        "exam_name": "114年特種考試地方政府公務人員考試、離島地區公務人員考試",
+        "original_question_number": 25,
+        "answer_corrected": false,
+        "flags": []
+      }
+    }
+  ]
+}

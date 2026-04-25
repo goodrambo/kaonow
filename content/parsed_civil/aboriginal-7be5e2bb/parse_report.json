@@ -1,0 +1,38 @@
+{
+  "slug": "aboriginal-7be5e2bb",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:36:55+00:00",
+  "paper_count": 4,
+  "paper_with_questions": 4,
+  "question_count": 37,
+  "type_counts": {
+    "single_choice": 25,
+    "essay": 12
+  },
+  "issues": [
+    {
+      "year": "114",
+      "subject": "運動社會學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "運動自然科學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "體育行政與管理",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    }
+  ]
+}

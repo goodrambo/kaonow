@@ -1,0 +1,62 @@
+{
+  "slug": "promotion-660afcb0",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:28:52+00:00",
+  "paper_count": 12,
+  "paper_with_questions": 12,
+  "question_count": 186,
+  "type_counts": {
+    "essay": 36,
+    "single_choice": 150
+  },
+  "issues": [
+    {
+      "year": "114",
+      "subject": "國際關係",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "經濟學(包括國際經濟學)",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "國際關係",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "經濟學(包括國際經濟學)",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "國際關係",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "110",
+      "subject": "經濟學(包括國際經濟學)",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+-- W1.6 questions batch 6279/9310 (10)
+
+INSERT INTO public.questions (id, exam_id, paper_id, subject_id, chapter_id, question_type, question_text, options, correct_answer, correct_answer_json, auto_gradable, source, is_active, version, source_meta, explanation)
+VALUES
+  ('judicial-d41b007d-moex-00014', 'judicial-d41b007d', 'judicial-d41b007d-moex-114-cb97a385', 'sub-judicial-d41b007d-04', NULL, 'essay', '社會工作的助人專業關係中，部分案主與社會工作者可能不知不覺出現
+情感轉移（transference）或情感反轉移（counter-transference）現象而影
+響專業關係。請說明情感轉移和情感反轉移的意義與內涵為何？（25 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:26:06+00:00", "source_pdf_sha1": "269190bfa641", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "114120", "c": "102", "s": "0802", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "社會工作概論", "year": "114", "exam_name": "114年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、未具擬任職務任用資格取得法官遴選資格考試", "original_question_number": "二", "answer_corrected": false, "flags": [], "civil_slug": "judicial", "civil_category": "觀護人(選試少年事件處理法)"}'::jsonb, NULL),
+  ('judicial-d41b007d-moex-00015', 'judicial-d41b007d', 'judicial-d41b007d-moex-114-cb97a385', 'sub-judicial-d41b007d-04', NULL, 'essay', '評估是社會工作實施過程之一，請說明社會工作者進行評估時必須考慮
+那些重點？（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:26:06+00:00", "source_pdf_sha1": "269190bfa641", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "114120", "c": "102", "s": "0802", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "社會工作概論", "year": "114", "exam_name": "114年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、未具擬任職務任用資格取得法官遴選資格考試", "original_question_number": "三", "answer_corrected": false, "flags": [], "civil_slug": "judicial", "civil_category": "觀護人(選試少年事件處理法)"}'::jsonb, NULL),
+  ('judicial-d41b007d-moex-00016', 'judicial-d41b007d', 'judicial-d41b007d-moex-114-cb97a385', 'sub-judicial-d41b007d-04', NULL, 'essay', '社會工作專業倫理守則是引導社會工作者在實務工作上表現合乎倫理
+的專業標準依據。從各國制定的社會工作專業倫理守則來看，社會工作
+專業倫理守則包括六大範疇，請說明六大範疇的內涵為何？（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:26:06+00:00", "source_pdf_sha1": "269190bfa641", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "114120", "c": "102", "s": "0802", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "社會工作概論", "year": "114", "exam_name": "114年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、未具擬任職務任用資格取得法官遴選資格考試", "original_question_number": "四", "answer_corrected": false, "flags": [], "civil_slug": "judicial", "civil_category": "觀護人(選試少年事件處理法)"}'::jsonb, NULL),
+  ('judicial-d41b007d-moex-00017', 'judicial-d41b007d', 'judicial-d41b007d-moex-114-696aa37c', 'sub-judicial-d41b007d-05', NULL, 'essay', '請試述三項「焦點解決短期治療」的基本假設及治療目標。（15 分）
+若面對一位不願意去上學的青少年，你會如何使用「奇蹟問句」及「量
+尺問句」技術來進行輔導？（10 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:26:06+00:00", "source_pdf_sha1": "2165d5645a9d", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "114120", "c": "102", "s": "0807", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "諮商與輔導", "year": "114", "exam_name": "114年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、未具擬任職務任用資格取得法官遴選資格考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "civil_slug": "judicial", "civil_category": "觀護人(選試少年事件處理法)"}'::jsonb, NULL),
+  ('judicial-d41b007d-moex-00018', 'judicial-d41b007d', 'judicial-d41b007d-moex-114-696aa37c', 'sub-judicial-d41b007d-05', NULL, 'essay', 'AaronT.Beck 創建的認知治療認為心理問題的根源來自於錯誤的思考、
+從不當的前提或錯誤訊息進行推論或無法區分想像和真實等，因此有情
+緒困難的人常會出現某些認知扭曲方式。請先試述下列四種認知扭曲方
+式：「獨斷的推論」、「誇大與貶低」、「個人化」、「標籤化和錯誤標籤化」，
+再以一位易出現逞凶鬥狠行為或情緒的 16 歲少年為例，說明各認知扭
+曲方式如何造成其不適當的情緒或行為。（20分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:26:06+00:00", "source_pdf_sha1": "2165d5645a9d", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "114120", "c": "102", "s": "0807", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "諮商與輔導", "year": "114", "exam_name": "114年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、未具擬任職務任用資格取得法官遴選資格考試", "original_question_number": "二", "answer_corrected": false, "flags": [], "civil_slug": "judicial", "civil_category": "觀護人(選試少年事件處理法)"}'::jsonb, NULL),
+  ('judicial-d41b007d-moex-00019', 'judicial-d41b007d', 'judicial-d41b007d-moex-114-696aa37c', 'sub-judicial-d41b007d-05', NULL, 'essay', '請試述「網路／數位性別暴力」之定義，並請寫出五項青少年常見「網
+路／數位性別暴力」行為類型及做法。（25 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:26:06+00:00", "source_pdf_sha1": "2165d5645a9d", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "114120", "c": "102", "s": "0807", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "諮商與輔導", "year": "114", "exam_name": "114年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、未具擬任職務任用資格取得法官遴選資格考試", "original_question_number": "三", "answer_corrected": false, "flags": [], "civil_slug": "judicial", "civil_category": "觀護人(選試少年事件處理法)"}'::jsonb, NULL),
+  ('judicial-d41b007d-moex-00020', 'judicial-d41b007d', 'judicial-d41b007d-moex-114-696aa37c', 'sub-judicial-d41b007d-05', NULL, 'essay', '動機式晤談認為想要改變個案長期形成的問題，就要協助個案產生改變
+的動機，因此動機式晤談重視採用五個策略以提高改變動機，及六個方
+法以強化對改變的承諾。請試述提高改變動機的五個策略及強化對改變
+的承諾的六個方法，並分別舉例說明之。（30分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:26:06+00:00", "source_pdf_sha1": "2165d5645a9d", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "114120", "c": "102", "s": "0807", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "諮商與輔導", "year": "114", "exam_name": "114年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、未具擬任職務任用資格取得法官遴選資格考試", "original_question_number": "四", "answer_corrected": false, "flags": [], "civil_slug": "judicial", "civil_category": "觀護人(選試少年事件處理法)"}'::jsonb, NULL),
+  ('judicial-d41b007d-moex-00021', 'judicial-d41b007d', 'judicial-d41b007d-moex-113-4faa7196', 'sub-judicial-d41b007d-01', NULL, 'essay', '甲某日與友人乙、丙等人去 KTV唱歌，三人飲酒作樂後，甲開車載乙、
+丙兩人回家途中，正好碰到警察丁在馬路上攔停車輛，檢查駕駛人有無
+酒駕，甲酒氣甚重，但仍配合酒測，酒測後發現甲吐氣所含酒精濃度已
+超過每公升 0.25毫克，丁立即以酒駕現行犯逮捕甲，現場雖無其他異狀，
+丁仍以附帶搜索為依據，當場直接強制翻弄丙隨身攜帶的手提袋，在其
+中發現毒品 10克。請問丁搜索丙手提袋之行為是否合法？（25 分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:26:06+00:00", "source_pdf_sha1": "2fda231c9a36", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "113120", "c": "102", "s": "0515", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "刑事訴訟法與保安處分執行法", "year": "113", "exam_name": "113年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、未具擬任職務任用資格取得法官遴選資格考試", "original_question_number": "一", "answer_corrected": false, "flags": [], "civil_slug": "judicial", "civil_category": "觀護人(選試少年事件處理法)"}'::jsonb, NULL),
+  ('judicial-d41b007d-moex-00022', 'judicial-d41b007d', 'judicial-d41b007d-moex-113-4faa7196', 'sub-judicial-d41b007d-01', NULL, 'essay', '甲為地方法院法官，涉嫌收受酒駕被告乙所提供之 20 萬元，故意在一審
+判決乙酒駕無罪。此事爆發之後，檢察官已先行扣押乙所提供之 20 萬
+元，並起訴甲犯違背職務受賄罪，一審法院認定甲有罪，並諭知沒收 20
+萬元犯罪所得。上訴至二審法院後，二審法院調查發現乙提供之賄賂不
+只有 20萬，還另外提供甲之親密友人丙黃金項鍊一條（惟丙不知甲、乙
+間賄賂情事），請問二審法院得否於檢察官未聲請之情況下，逕依職權裁
+定命丙參與二審訴訟程序？（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:26:06+00:00", "source_pdf_sha1": "2fda231c9a36", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "113120", "c": "102", "s": "0515", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "刑事訴訟法與保安處分執行法", "year": "113", "exam_name": "113年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、未具擬任職務任用資格取得法官遴選資格考試", "original_question_number": "二", "answer_corrected": false, "flags": [], "civil_slug": "judicial", "civil_category": "觀護人(選試少年事件處理法)"}'::jsonb, NULL),
+  ('judicial-d41b007d-moex-00023', 'judicial-d41b007d', 'judicial-d41b007d-moex-113-4faa7196', 'sub-judicial-d41b007d-01', NULL, 'essay', '大法官於司法院釋字第 812號解釋認定「強制工作」違憲，其中理由之
+一為強制工作牴觸「明顯區隔原則」，試說明明顯區隔原則之憲法法理基
+礎、判斷方法以及何以強制工作牴觸明顯區隔原則。（25分）', '[]'::jsonb, 0, NULL, FALSE, 'official', TRUE, 1, '{"parser_version": "moex_license_v1.0", "parsed_at": "2026-04-25T12:26:06+00:00", "source_pdf_sha1": "2fda231c9a36", "answer_pdf_sha1": null, "source_family": "moex-gov-tw", "moex": {"exam_code": "113120", "c": "102", "s": "0515", "q": "1"}, "raw_section_label": "甲、申論題部分", "subject": "刑事訴訟法與保安處分執行法", "year": "113", "exam_name": "113年公務人員特種考試司法人員考試、法務部調查局調查人員考試、海岸巡防人員考試、未具擬任職務任用資格取得法官遴選資格考試", "original_question_number": "三", "answer_corrected": false, "flags": [], "civil_slug": "judicial", "civil_category": "觀護人(選試少年事件處理法)"}'::jsonb, NULL)
+ON CONFLICT (id) DO NOTHING;

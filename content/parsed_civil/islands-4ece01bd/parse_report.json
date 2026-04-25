@@ -1,0 +1,46 @@
+{
+  "slug": "islands-4ece01bd",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:33:55+00:00",
+  "paper_count": 5,
+  "paper_with_questions": 5,
+  "question_count": 46,
+  "type_counts": {
+    "essay": 16,
+    "single_choice": 30
+  },
+  "issues": [
+    {
+      "year": "114",
+      "subject": "土壤力學與測量學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "材料力學與結構學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "營建管理與工程材料",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "114",
+      "subject": "鋼筋混凝土學與設計",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    }
+  ]
+}

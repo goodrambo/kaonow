@@ -1,0 +1,54 @@
+{
+  "slug": "aboriginal-0f640084",
+  "parser_version": "moex_license_v1.0",
+  "parsed_at": "2026-04-25T12:38:08+00:00",
+  "paper_count": 7,
+  "paper_with_questions": 7,
+  "question_count": 75,
+  "type_counts": {
+    "essay": 25,
+    "single_choice": 50
+  },
+  "issues": [
+    {
+      "year": "112",
+      "subject": "計算機概論",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 6,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "電力系統",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "電子學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 5,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "電機機械",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    },
+    {
+      "year": "112",
+      "subject": "電路學",
+      "status": "ok",
+      "format": "pure_essay",
+      "raw_q": 4,
+      "answers": 0
+    }
+  ]
+}
