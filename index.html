@@ -1964,7 +1964,7 @@ const cloud = (() => {
   }
 
   // ── 題庫載入（含快取，24h TTL） ─────────────────────────
-  const Q_CACHE_PREFIX = 'kaonow_q18_';  // bump 2026-04-26 W1.9.5 footer strip：10 題 D 選項清掉「請翻頁繼續作答」雜訊
+  const Q_CACHE_PREFIX = 'kaonow_q19_';  // bump 2026-04-26 W1.9.5 manual fix：cap-104-math-004 + cap-105-math-002 從 PDF bbox 人工確認
   const Q_CACHE_TTL = 24 * 3600 * 1000;
   const qMemCache = {};  // 記憶體快取，避免同一 session 重複打
 

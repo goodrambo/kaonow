@@ -107,26 +107,26 @@ def map_qnum_to_page(pdf: Path) -> Dict[int, int]:
     return qmap
 
 
-def render_page(pdf: Path, page_idx: int, out_dir: Path) -> Optional[Path]:
+def render_page(pdf: Path, page_idx: int, out_dir: Path, dpi: int = 200) -> Optional[Path]:
     out_dir.mkdir(parents=True, exist_ok=True)
-    prefix = str(out_dir / f"page-{page_idx:02d}")
+    prefix = str(out_dir / f"page-{page_idx:02d}-r{dpi}")
     subprocess.run(
-        ["pdftoppm", "-r", "200", "-png", "-f", str(page_idx), "-l", str(page_idx),
+        ["pdftoppm", "-r", str(dpi), "-png", "-f", str(page_idx), "-l", str(page_idx),
          str(pdf), prefix],
         check=True, capture_output=True,
     )
-    cands = sorted(out_dir.glob(f"page-{page_idx:02d}-*.png"))
+    cands = sorted(out_dir.glob(f"page-{page_idx:02d}-r{dpi}-*.png"))
     return cands[0] if cands else None
 
 
-def call_vision(api_key: str, image_b64: str, qnum: int, year: int) -> Tuple[bool, dict, str]:
+def call_vision(api_key: str, image_b64: str, qnum: int, year: int, temperature: float = 0.0) -> Tuple[bool, dict, str]:
     """改用 curl 送 request，繞過 Python urllib 對 header / payload 的 latin-1 編碼雷。"""
-    user_text = f"請抽取 {year} 年國中會考數學試題第 {qnum} 題。"
+    user_text = f"請抽取 {year} 年國中會考數學試題第 {qnum} 題。**仔細看每個指數、分子、分母的數字**，不要猜測。"
     body = json.dumps({
         "model": MODEL_HAIKU,
         "max_tokens": 1500,
         "system": SYSTEM_PROMPT,
-        "temperature": 0.0,
+        "temperature": temperature,
         "messages": [{
             "role": "user",
             "content": [
@@ -241,8 +241,12 @@ def update_db(qid: str, stem: str, opts: List[str], token: str) -> Tuple[bool, s
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--ids", default=",".join(DEFAULT_IDS),
-                    help="comma-separated question id list（預設 4 題）")
+                    help="comma-separated question id list")
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--dpi", type=int, default=200,
+                    help="pdftoppm rendering DPI（預設 200，retry 用 300）")
+    ap.add_argument("--temp", type=float, default=0.0,
+                    help="Haiku temperature（預設 0.0，retry 用 0.2 引入隨機）")
     args = ap.parse_args()
 
     api_key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
@@ -291,13 +295,13 @@ def main():
             print(f"  Q{qnum} page mapping fail"); grand_fail += 1; continue
         # 渲染
         page_dir = out_dir / f"cap-{year}-math"
-        page_png = render_page(pdf, page_idx, page_dir)
+        page_png = render_page(pdf, page_idx, page_dir, dpi=args.dpi)
         if not page_png:
             print(f"  page render fail"); grand_fail += 1; continue
         # vision
         b64 = base64.b64encode(page_png.read_bytes()).decode("ascii")
-        print(f"  page {page_idx} → vision ...", end=" ", flush=True)
-        ok, payload, err = call_vision(api_key, b64, qnum, year)
+        print(f"  page {page_idx} (dpi={args.dpi} temp={args.temp}) → vision ...", end=" ", flush=True)
+        ok, payload, err = call_vision(api_key, b64, qnum, year, temperature=args.temp)
         if not ok:
             print(f"FAIL: {err[:120]}"); grand_fail += 1; continue
         in_tok += int(payload.get("usage", {}).get("input_tokens", 0) or 0)
