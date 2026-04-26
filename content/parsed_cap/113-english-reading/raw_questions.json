@@ -1,0 +1,931 @@
+{
+  "paper_slug": "cap-113-english-reading",
+  "exam_id": "cap",
+  "subject_id": "sub-cap-english-reading",
+  "year": 113,
+  "subject": "english-reading",
+  "parser_version": "cap_v0.1",
+  "parsed_at": "2026-04-25T19:26:42+00:00",
+  "source_pdf": "content/sources/_inbox/openclaw-data/cap-rcpet-edu-tw/study/cap/main/questions/by-year/113/113P_English.pdf",
+  "source_pdf_sha1": "75b1ef57c78d",
+  "sections_detected": [
+    {
+      "label": "單題",
+      "range": [
+        1,
+        21
+      ]
+    },
+    {
+      "label": "題組",
+      "range": [
+        22,
+        43
+      ]
+    }
+  ],
+  "passage_count": 8,
+  "question_count": 43,
+  "records": [
+    {
+      "kind": "single",
+      "key": "cap-113-english-reading-001",
+      "qnum": 1,
+      "stem": "Look at the picture. There is         under the door.",
+      "options": [
+        "an envelope",
+        "a plant",
+        "a sign",
+        "an umbrella"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 3,
+      "raw_text": "1.   Look at the picture. There is         under the door.\n     (A) an envelope\n     (B) a plant\n     (C) a sign\n     (D) an umbrella\n\n\n\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-113-english-reading-002",
+      "qnum": 2,
+      "stem": "My          hurts so much that I cannot even turn my head.",
+      "options": [
+        "arm",
+        "knee",
+        "neck",
+        "stomach"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 12,
+      "raw_text": "2.   My          hurts so much that I cannot even turn my head.\n     (A) arm               (B) knee               (C) neck                 (D) stomach\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-113-english-reading-003",
+      "qnum": 3,
+      "stem": "Our school basketball team won the national game last night. We are so        them.",
+      "options": [
+        "popular with",
+        "proud of",
+        "sorry for",
+        "worried about"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 15,
+      "raw_text": "3.   Our school basketball team won the national game last night. We are so        them.\n     (A) popular with      (B) proud of          (C) sorry for        (D) worried about\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-113-english-reading-004",
+      "qnum": 4,
+      "stem": "Tomorrow is Sam’s last day in the office.  Nobody knows why he decided to              .",
+      "options": [
+        "hide",
+        "leave",
+        "pack",
+        "walk"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 18,
+      "raw_text": "4.   Tomorrow is Sam’s last day in the office.  Nobody knows why he decided to              .\n     (A) hide             (B) leave               (C) pack            (D) walk\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-113-english-reading-005",
+      "qnum": 5,
+      "stem": "It’s not a good idea to go mountain climbing in this bad           . We should wait until the\ntyphoon goes away.",
+      "options": [
+        "chance",
+        "dream",
+        "habit",
+        "weather"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 21,
+      "raw_text": "5.   It’s not a good idea to go mountain climbing in this bad           . We should wait until the\n     typhoon goes away.\n     (A) chance              (B) dream            (C) habit                (D) weather\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-113-english-reading-006",
+      "qnum": 6,
+      "stem": "Chris loves walking with Anna on snowy days, but Anna hates               very much.",
+      "options": [
+        "them",
+        "so",
+        "one",
+        "it"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 25,
+      "raw_text": "6.   Chris loves walking with Anna on snowy days, but Anna hates               very much.\n     (A) them             (B) so              (C) one                      (D) it\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-113-english-reading-007",
+      "qnum": 7,
+      "stem": "Lora likes to eat bananas that are already a little brown on the outside, and so           I.",
+      "options": [
+        "am",
+        "do",
+        "have",
+        "will"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 28,
+      "raw_text": "7.   Lora likes to eat bananas that are already a little brown on the outside, and so           I.\n     (A) am                 (B) do                  (C) have               (D) will\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-113-english-reading-008",
+      "qnum": 8,
+      "stem": "Your refrigerator shouldn’t be making loud noises now, but if it          does, just give me a\ncall and I’ll come check it again.",
+      "options": [
+        "already",
+        "even",
+        "finally",
+        "still"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 31,
+      "raw_text": "8.   Your refrigerator shouldn’t be making loud noises now, but if it          does, just give me a\n     call and I’ll come check it again.\n     (A) already            (B) even             (C) finally               (D) still\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-113-english-reading-009",
+      "qnum": 9,
+      "stem": "After winning money in the card game, Jay decided to try again. He felt that he might also\nbe        a second time.",
+      "options": [
+        "famous",
+        "interested",
+        "lucky",
+        "ready"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 35,
+      "raw_text": "9.   After winning money in the card game, Jay decided to try again. He felt that he might also\n     be        a second time.\n     (A) famous            (B) interested       (C) lucky             (D) ready\n\n\n\n\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-113-english-reading-010",
+      "qnum": 10,
+      "stem": "The knife doesn’t cut very well. It’s not as       as before.",
+      "options": [
+        "bright",
+        "heavy",
+        "quick",
+        "sharp"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 44,
+      "raw_text": "10. The knife doesn’t cut very well. It’s not as       as before.\n    (A) bright             (B) heavy             (C) quick                 (D) sharp\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-113-english-reading-011",
+      "qnum": 11,
+      "stem": "John will stay with his sister until he        an apartment.",
+      "options": [
+        "will find",
+        "would find",
+        "finds",
+        "found"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 47,
+      "raw_text": "11.   John will stay with his sister until he        an apartment.\n      (A) will find          (B) would find          (C) finds             (D) found\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-113-english-reading-012",
+      "qnum": 12,
+      "stem": "Students           to go on the school trip should ask their parents first.",
+      "options": [
+        "who want",
+        "want",
+        "who they want",
+        "what they want"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 50,
+      "raw_text": "12. Students           to go on the school trip should ask their parents first.\n    (A) who want             (B) want               (C) who they want       (D) what they want\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-113-english-reading-013",
+      "qnum": 13,
+      "stem": "The temple sits alone in the mountains at a height of 3,000m            sea level.",
+      "options": [
+        "above",
+        "at",
+        "below",
+        "in"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 53,
+      "raw_text": "13. The temple sits alone in the mountains at a height of 3,000m            sea level.\n    (A) above              (B) at                (C) below                 (D) in\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-113-english-reading-014",
+      "qnum": 14,
+      "stem": "Patty spent several days planning to invite Charlie to dinner,           she couldn’t say a word\nwhen they met.",
+      "options": [
+        "but",
+        "if",
+        "or",
+        "so"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 56,
+      "raw_text": "14. Patty spent several days planning to invite Charlie to dinner,           she couldn’t say a word\n    when they met.\n    (A) but                (B) if                 (C) or                   (D) so\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-113-english-reading-015",
+      "qnum": 15,
+      "stem": "I can’t tell you what I think of the movie because I         it. I’ll probably watch it this\nSaturday.",
+      "options": [
+        "am not seeing",
+        "don’t see",
+        "haven’t seen",
+        "won’t see"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 60,
+      "raw_text": "15. I can’t tell you what I think of the movie because I         it. I’ll probably watch it this\n    Saturday.\n    (A) am not seeing        (B) don’t see         (C) haven’t seen         (D) won’t see\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-113-english-reading-016",
+      "qnum": 16,
+      "stem": "The new guy at the help desk answers calls like a            . There are no ups and downs in\nhis voice and you can’t tell if he is happy or sad.",
+      "options": [
+        "father",
+        "foreigner",
+        "radio",
+        "robot"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 64,
+      "raw_text": "16. The new guy at the help desk answers calls like a            . There are no ups and downs in\n    his voice and you can’t tell if he is happy or sad.\n    (A) father             (B) foreigner            (C) radio              (D) robot\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-113-english-reading-017",
+      "qnum": 17,
+      "stem": "Jasmine planned to spend her summer in the country, but right after she got there, she started\nto        the noise in the city.",
+      "options": [
+        "enjoy",
+        "mind",
+        "miss",
+        "notice"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 68,
+      "raw_text": "17.   Jasmine planned to spend her summer in the country, but right after she got there, she started\n      to        the noise in the city.\n      (A) enjoy              (B) mind            (C) miss                 (D) notice\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-113-english-reading-018",
+      "qnum": 18,
+      "stem": "“Bad traffic” is perhaps the      excuse for being late when your boss knows it only takes\nyou five minutes to walk to work.",
+      "options": [
+        "easiest",
+        "oldest",
+        "smartest",
+        "worst"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 72,
+      "raw_text": "18. “Bad traffic” is perhaps the      excuse for being late when your boss knows it only takes\n    you five minutes to walk to work.\n    (A) easiest            (B) oldest          (C) smartest           (D) worst\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-113-english-reading-019",
+      "qnum": 19,
+      "stem": "The housework in Mr. and Mrs. Wang’s family         between them and their kids.\nEveryone’s got their own job to do.",
+      "options": [
+        "is shared",
+        "are shared",
+        "shares",
+        "share"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 76,
+      "raw_text": "19. The housework in Mr. and Mrs. Wang’s family         between them and their kids.\n    Everyone’s got their own job to do.\n    (A) is shared         (B) are shared     (C) shares            (D) share\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-113-english-reading-020",
+      "qnum": 20,
+      "stem": "I want to find another dentist because           pulled out a good tooth last time I went to him.",
+      "options": [
+        "I",
+        "me",
+        "mine",
+        "myself"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 80,
+      "raw_text": "20. I want to find another dentist because           pulled out a good tooth last time I went to him.\n    (A) I                  (B) me                    (C) mine              (D) myself\n\n\n\n\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-113-english-reading-021",
+      "qnum": 21,
+      "stem": "Mom:\u0007 Linda, you’ve been playing computer games all evening!  Have you finished your\nreport?\nLinda:\u0007 Well,       most of it this afternoon, and I’ll finish it by Friday.",
+      "options": [
+        "I would do",
+        "I did",
+        "I was doing",
+        "I’ll do"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 89,
+      "raw_text": "21.     Mom:\u0007 Linda, you’ve been playing computer games all evening!  Have you finished your\n               report?\n        Linda:\u0007 Well,       most of it this afternoon, and I’ll finish it by Friday.\n        (A) I would do       (B) I did               (C) I was doing           (D) I’ll do\n\n\n\n"
+    },
+    {
+      "kind": "passage_parent",
+      "key": "cap-113-english-reading-passage-22",
+      "intro_line": "(22-23)",
+      "child_qnums": [
+        22,
+        23
+      ],
+      "passage_text": "It was around eight o’clock on Saturday night. Philip was at home with his little\nbrother, Jason. Jason was hungry and kept crying. But Philip couldn’t cook and their\nfather was not home yet because he was working late in the office.  So Philip decided to\ntake Jason out for some food.\nHalf an hour later, when they came back home, Philip was surprised to find that their\nfather was talking to the police and a woman outside their house. He didn’t know who\nthe woman was. She looked scared and stood behind the police. Philip’s father was very\nangry and kept shouting, “I didn’t do anything wrong! I forgot my keys and was just\ntrying to get into MY OWN HOUSE!”  But the police didn’t believe him until Philip ran\nto them and explained everything.\nThe police told Philip that the woman called 110 when she saw Philip’s father trying\nto get into a house through a window. That was how it all happened.",
+      "passage_md": null,
+      "kind_hint": "single",
+      "footnotes": [],
+      "raw_line_idx": 99
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-113-english-reading-022",
+      "qnum": 22,
+      "stem": "Why did Philip go out?",
+      "options": [
+        "To meet a woman.",
+        "To look for his father.",
+        "To ask the police for help.",
+        "To buy food for his brother."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-113-english-reading-passage-22",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 114,
+      "raw_text": "22. Why did Philip go out?\n    (A) To meet a woman.\n    (B) To look for his father.\n    (C) To ask the police for help.\n    (D) To buy food for his brother.\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-113-english-reading-023",
+      "qnum": 23,
+      "stem": "Why was Philip’s father angry?",
+      "options": [
+        "He forgot his keys.",
+        "The woman was hiding from him.",
+        "The police didn’t believe what he said.",
+        "Philip and his brother went out at night."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-113-english-reading-passage-22",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 120,
+      "raw_text": "23. Why was Philip’s father angry?\n    (A) He forgot his keys.\n    (B) The woman was hiding from him.\n    (C) The police didn’t believe what he said.\n    (D) Philip and his brother went out at night.\n\n\n\n\n"
+    },
+    {
+      "kind": "passage_parent",
+      "key": "cap-113-english-reading-passage-24",
+      "intro_line": "(24-25)",
+      "child_qnums": [
+        24,
+        25
+      ],
+      "passage_text": " oven 烤爐",
+      "passage_md": null,
+      "kind_hint": "single",
+      "footnotes": [],
+      "raw_line_idx": 131
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-113-english-reading-024",
+      "qnum": 24,
+      "stem": "Kevin is going to buy some fresh bread at Baker’s Kitchen. He loves white bread, his mom\nlikes farm bread, his father enjoys bagels, and his sister eats only challah. Which is the\nearliest possible time for him to get all these breads for his family?",
+      "options": [
+        "11:00am.",
+        "4:00pm.",
+        "5:00pm.",
+        "7:00pm."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-113-english-reading-passage-24",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 137,
+      "raw_text": "24. Kevin is going to buy some fresh bread at Baker’s Kitchen. He loves white bread, his mom\n    likes farm bread, his father enjoys bagels, and his sister eats only challah. Which is the\n    earliest possible time for him to get all these breads for his family?\n    (A) 11:00am.            (B) 4:00pm.             (C) 5:00pm.            (D) 7:00pm.\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-113-english-reading-025",
+      "qnum": 25,
+      "stem": "What do we know about Baker’s Kitchen?",
+      "options": [
+        "It is open five days a week.",
+        "Its breads are half price one hour before closing.",
+        "Its croissants and pretzels are sold on weekends.",
+        "Its members can save $100 when they shop on Fridays."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-113-english-reading-passage-24",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 142,
+      "raw_text": "25. What do we know about Baker’s Kitchen?\n    (A) It is open five days a week.\n    (B) Its breads are half price one hour before closing.\n    (C) Its croissants and pretzels are sold on weekends.\n    (D) Its members can save $100 when they shop on Fridays.\n\n\n"
+    },
+    {
+      "kind": "passage_parent",
+      "key": "cap-113-english-reading-passage-26",
+      "intro_line": "(26-27)",
+      "child_qnums": [
+        26,
+        27
+      ],
+      "passage_text": "",
+      "passage_md": null,
+      "kind_hint": "single",
+      "footnotes": [],
+      "raw_line_idx": 152
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-113-english-reading-026",
+      "qnum": 26,
+      "stem": "What is recommended to people who want to visit the festival?         recommend 推薦",
+      "options": [
+        "Using the free festival bus service.",
+        "Visiting the festival on the weekend.",
+        "Entering Satyr’s Park from Fox Street.",
+        "Parking in Garden Square and walking to the festival."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-113-english-reading-passage-26",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 157,
+      "raw_text": "26. What is recommended to people who want to visit the festival?         recommend 推薦\n    (A) Using the free festival bus service.\n    (B) Visiting the festival on the weekend.\n    (C) Entering Satyr’s Park from Fox Street.\n    (D) Parking in Garden Square and walking to the festival.\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-113-english-reading-027",
+      "qnum": 27,
+      "stem": "What can we learn about the farmers’ market from the map?",
+      "options": [
+        "The farmers’ market is next to the flower market.",
+        "The farmers’ market and the festival are on the same block.",
+        "You can go to the farmers’ market by taking Bus No. 157 to Puppy Street.",
+        "The nearest metro station to the farmers’ market is the Koala Street Station."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-113-english-reading-passage-26",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 163,
+      "raw_text": "27. What can we learn about the farmers’ market from the map?\n    (A) The farmers’ market is next to the flower market.\n    (B) The farmers’ market and the festival are on the same block.\n    (C) You can go to the farmers’ market by taking Bus No. 157 to Puppy Street.\n    (D) The nearest metro station to the farmers’ market is the Koala Street Station.\n\n"
+    },
+    {
+      "kind": "passage_parent",
+      "key": "cap-113-english-reading-passage-28",
+      "intro_line": "(28-29)",
+      "child_qnums": [
+        28,
+        29
+      ],
+      "passage_text": "Yan lived a good life in a big house. One day he invited a friend to dinner at his\nhouse. However, on the dinner table there was only one small dish of one small fish.\nThe friend looked quietly at the fish. It was no bigger than a finger.\nThen he asked Yan if he could borrow a lamp.\n“What for?” Yan asked.\n“Well, it’s so dark in here,” the friend said with a dry smile,\n“I can’t see the other delicious dishes you’ve prepared for me.”\nChang kept a lot of ducks and chickens on his farm. One day, his best friend\ncame to visit him. At noon, Chang told his friend that he couldn’t let him stay for lunch\nbecause there wasn’t much food to eat. The friend looked out at Chang’s farm animals\nfor a moment. Then he asked Chang if he had a big knife.\n“Yes, but what for?” Chang asked.\n“I’m thinking about killing the horse I rode here so we’ll\nhave something for lunch,” the friend said.\n“But how are you going to go home without it?”\n“Well, you wouldn’t mind lending me one of your many\nducks or chickens so I can ride it home, would you?”",
+      "passage_md": null,
+      "kind_hint": "single",
+      "footnotes": [],
+      "raw_line_idx": 171
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-113-english-reading-028",
+      "qnum": 28,
+      "stem": "What kind of people do Yan’s and Chang’s friends most likely think            likely 可能\nYan and Chang are?",
+      "options": [
+        "They enjoy good food.",
+        "They don’t like to share.",
+        "They like to make friends.",
+        "They don’t like new things."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-113-english-reading-passage-28",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 199,
+      "raw_text": "28. What kind of people do Yan’s and Chang’s friends most likely think            likely 可能\n    Yan and Chang are?\n    (A) They enjoy good food.\n    (B) They don’t like to share.\n    (C) They like to make friends.\n    (D) They don’t like new things.\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-113-english-reading-029",
+      "qnum": 29,
+      "stem": "What is it in the second story?",
+      "options": [
+        "A big knife.",
+        "The horse.",
+        "Lunch.",
+        "One of Chang’s ducks or chickens."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-113-english-reading-passage-28",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 206,
+      "raw_text": "29. What is it in the second story?\n    (A) A big knife.\n    (B) The horse.\n    (C) Lunch.\n    (D) One of Chang’s ducks or chickens.\n\n\n\n\n"
+    },
+    {
+      "kind": "passage_parent",
+      "key": "cap-113-english-reading-passage-30",
+      "intro_line": "(30-32)",
+      "child_qnums": [
+        30,
+        31,
+        32
+      ],
+      "passage_text": "Usually, people visit bookstores to buy books. But those who walk\ninto Cotoha come to see its owner, Chen Bing-Hong. They bring him\nbooks with different problems. Some have lost their covers, some are\nmissing a few pages, and some have pages that are falling out. Chen can\nalways fix the books and make them whole again.\nChen sees himself as a doctor. He says that books, like people, get\nsick and need help. In Taiwan, there are not many “doctors” like him,\nand most of them work for big libraries and museums. If big libraries and\nmuseums are hospitals, Chen’s bookstore is a health center. Big libraries\nand museums fix important old books with serious problems, and Chen\nhelps people with books that have smaller problems. However, the smaller\nsize of the problems doesn’t mean Chen’s job is less important.\nChen gave an example of a science book he once worked on. It was\nvery old and half of its cover was lost. Its owner still wanted to keep it\nbecause it was a gift from a teacher who helped him follow his dream of\nstudying science. When he got his book back, he was very surprised at the\nnew-old book. He felt he was brought back to the days with his teacher.\nSeeing the owner’s smile made Chen happy, because smiles like that are\nwhat his magic is for.",
+      "passage_md": null,
+      "kind_hint": "single",
+      "footnotes": [],
+      "raw_line_idx": 218
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-113-english-reading-030",
+      "qnum": 30,
+      "stem": "Why does the writer talk about doctors and a health center in the reading?",
+      "options": [
+        "To explain Chen’s services.",
+        "To talk about Chen’s future plans.",
+        "To explain Chen’s love for books.",
+        "To show why bookstores are important."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-113-english-reading-passage-30",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 248,
+      "raw_text": "30. Why does the writer talk about doctors and a health center in the reading?\n    (A) To explain Chen’s services.\n    (B) To talk about Chen’s future plans.\n    (C) To explain Chen’s love for books.\n    (D) To show why bookstores are important.\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-113-english-reading-031",
+      "qnum": 31,
+      "stem": "Why is Chen Bing-Hong’s job important in the example he gave?",
+      "options": [
+        "It allows people to get books as gifts.",
+        "It saves people money on new books.",
+        "It gives people hope to follow their dreams.",
+        "It helps people think of special moments in the past."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-113-english-reading-passage-30",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 254,
+      "raw_text": "31.   Why is Chen Bing-Hong’s job important in the example he gave?\n      (A) It allows people to get books as gifts.\n      (B) It saves people money on new books.\n      (C) It gives people hope to follow their dreams.\n      (D) It helps people think of special moments in the past.\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-113-english-reading-032",
+      "qnum": 32,
+      "stem": "What is his magic?",
+      "options": [
+        "Fixing books.",
+        "Making book owners smile.",
+        "Finding books that are long lost.",
+        "Changing his bookstore into a library."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-113-english-reading-passage-30",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 260,
+      "raw_text": "32. What is his magic?\n    (A) Fixing books.\n    (B) Making book owners smile.\n    (C) Finding books that are long lost.\n    (D) Changing his bookstore into a library.\n\n\n\n\n"
+    },
+    {
+      "kind": "passage_parent",
+      "key": "cap-113-english-reading-passage-33",
+      "intro_line": "(33-35)",
+      "child_qnums": [
+        33,
+        34,
+        35
+      ],
+      "passage_text": "\u0007A Delicious Surprise and Welcome Change\nBy Karl Falk, June 1, 2016\nIn Austria, there are not many restaurants like Habibi\n& Hawara. Here you can enjoy Austrian and Syrian\nfood together. Two Austrians, Martin Rohla and\nDavid Kreytenberg, started this yummy plan from\ntheir experience of working with refugees.\nEvery year, thousands of people have to leave\ntheir homes and families because of war in their\ncountries. So many of them go to Austria that some\npeople in the country think they have become a problem. They are afraid refugees\nmay take away their jobs and they don’t feel safe around them, either. But Rohla\nand Kreytenberg would beg to differ: The refugees don’t have to be a problem.\nThey want to help them start a new life. They invited refugees to meetings and\nfound that some of them were cooks back in Syria. So the idea of Habibi & Hawara\nwas born—a restaurant that brings together Austrian and Syrian food. “The two\nworlds far away from each other meet together,” Kreytenberg said.\nBut Rohla and Kreytenberg want to do more than just give the refugees work. They\nwant their best workers to buy the restaurant in the end. They hope that Habibi &\nHawara is not just a one-time plan and that other Austrians will join them and help\nmore refugees.\n refugee 難民       war 戰爭",
+      "passage_md": null,
+      "kind_hint": "single",
+      "footnotes": [],
+      "raw_line_idx": 272
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-113-english-reading-033",
+      "qnum": 33,
+      "stem": "According to the reading, why did Rohla and Kreytenberg open Habibi & Hawara?",
+      "options": [
+        "To help refugees live better in Austria.",
+        "To collect money to help Syria fight the war.",
+        "To help Austrians learn about the war in Syria.",
+        "To help refugees go back to their home countries."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-113-english-reading-passage-33",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 307,
+      "raw_text": "33. According to the reading, why did Rohla and Kreytenberg open Habibi & Hawara?\n    (A) To help refugees live better in Austria.\n    (B) To collect money to help Syria fight the war.\n    (C) To help Austrians learn about the war in Syria.\n    (D) To help refugees go back to their home countries.\n\n\n\n\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-113-english-reading-034",
+      "qnum": 34,
+      "stem": "What can we learn about Habibi & Hawara?",
+      "options": [
+        "It was moved from Syria to Austria.",
+        "It may finally be sold to its workers.",
+        "It has cooking classes in Syrian food.",
+        "It is an important meeting place for Syrians."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-113-english-reading-passage-33",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 318,
+      "raw_text": "34. What can we learn about Habibi & Hawara?\n    (A) It was moved from Syria to Austria.\n    (B) It may finally be sold to its workers.\n    (C) It has cooking classes in Syrian food.\n    (D) It is an important meeting place for Syrians.\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-113-english-reading-035",
+      "qnum": 35,
+      "stem": "What does it mean when people beg to differ?",
+      "options": [
+        "They do not agree.",
+        "They look different.",
+        "They cannot speak for others.",
+        "They do not notice something."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-113-english-reading-passage-33",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 324,
+      "raw_text": "35. What does it mean when people beg to differ?\n    (A) They do not agree.\n    (B) They look different.\n    (C) They cannot speak for others.\n    (D) They do not notice something.\n\n\n\n\n"
+    },
+    {
+      "kind": "passage_parent",
+      "key": "cap-113-english-reading-passage-36",
+      "intro_line": "(36-39)",
+      "child_qnums": [
+        36,
+        37,
+        38,
+        39
+      ],
+      "passage_text": "VOICES OF PEOPLE\nIf you want to learn about bringing back extinct animals, reading\nJohn Smith’s Back from the Dead is a good start. But I have to say\nI can’t agree with everything he says.\nEllen Zimmer\nFrom his book, I can see Smith is an advocate of bringing extinct animals back. He\nsays we have lost many animals because we made their living spaces too dirty. He also\nthinks we must do everything we can to bring them back. However, I don’t know how\nmuch time and money we would need to make the world a better place for them, and\nhonestly no one knows if they could actually come back.\nSmith also says that bringing back extinct animals may be good for us. He talks about\nan extinct frog that grew tadpoles in its stomach. Some women’s babies die before they\nare born, and Smith believes bringing back the frog may be an answer to the problem.\nAccording to him, by studying how the tadpoles grow inside the frog’s stomach, we\nmight be able to find new ways to help these women successfully keep their babies.  But\nI don’t think things are as easy as Smith thinks. We have spent ten years and millions\nof dollars on this kind of frog, but all we have got are only a few dead frog eggs. If we\ncan’t see a real frog, how can we be sure women will get the help they need?\nDr. Solomon Wang from the Animal Saving Office says the study of bringing back\nextinct animals is “throwing good money after bad.”  And he’s right.  A lot of hard work\nhas been put into this expensive dream, but we haven’t seen anything come out of it.\nSo should we still keep going down this road?\n extinct 絕種的         tadpole 蝌蚪",
+      "passage_md": null,
+      "kind_hint": "single",
+      "footnotes": [],
+      "raw_line_idx": 336
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-113-english-reading-036",
+      "qnum": 36,
+      "stem": "What does it mean when someone is an advocate of something?",
+      "options": [
+        "They talk a lot but do little about it.",
+        "They believe it is good and should be done.",
+        "They have had some bad experiences with it.",
+        "They are one of the first people who have done it."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-113-english-reading-passage-36",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 374,
+      "raw_text": "36. What does it mean when someone is an advocate of something?\n    (A) They talk a lot but do little about it.\n    (B) They believe it is good and should be done.\n    (C) They have had some bad experiences with it.\n    (D) They are one of the first people who have done it.\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-113-english-reading-037",
+      "qnum": 37,
+      "stem": "What is special about the extinct frog in Smith’s book?",
+      "options": [
+        "It can live in a dirty living space.",
+        "It might help fix a health problem.",
+        "It eats its babies when it cannot find food.",
+        "It is the first extinct animal that people studied."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-113-english-reading-passage-36",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 380,
+      "raw_text": "37.   What is special about the extinct frog in Smith’s book?\n      (A) It can live in a dirty living space.\n      (B) It might help fix a health problem.\n      (C) It eats its babies when it cannot find food.\n      (D) It is the first extinct animal that people studied.\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-113-english-reading-038",
+      "qnum": 38,
+      "stem": "Why does Ellen Zimmer use the words from Dr. Solomon Wang?",
+      "options": [
+        "To start a new topic.",
+        "To share a big dream.",
+        "To make her idea clearer.",
+        "To invite people to take action."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-113-english-reading-passage-36",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 386,
+      "raw_text": "38. Why does Ellen Zimmer use the words from Dr. Solomon Wang?\n    (A) To start a new topic.\n    (B) To share a big dream.\n    (C) To make her idea clearer.\n    (D) To invite people to take action.\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-113-english-reading-039",
+      "qnum": 39,
+      "stem": "What does Ellen Zimmer most likely think about bringing back extinct animals?",
+      "options": [
+        "It is possible.  likely 可能",
+        "It is dangerous.",
+        "It is not possible.",
+        "It is not dangerous."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-113-english-reading-passage-36",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 392,
+      "raw_text": "39. What does Ellen Zimmer most likely think about bringing back extinct animals?\n    (A) It is possible.\n                                                                             likely 可能\n    (B) It is dangerous.\n    (C) It is not possible.\n    (D) It is not dangerous.\n\n\n\n\n"
+    },
+    {
+      "kind": "passage_parent",
+      "key": "cap-113-english-reading-passage-40",
+      "intro_line": "(40-43)",
+      "child_qnums": [
+        40,
+        41,
+        42,
+        43
+      ],
+      "passage_text": "A HISTORY LESSON ON THE PANDEMIC                                        2020.10.29\nSince the Covid-19 pandemic started, people have begun “social distancing”—\nkeeping a safe space between you and anyone you don’t live with. Though it\nhas been a very popular topic this year, social distancing 40 . In fact, it was\nwidely used in the U.S. in the flu pandemic in 1918. But how well did it work? The\nAmericans’ experience can tell us whether it really saved lives.\nFrom the picture, we can see that 41 started social distancing earlier than\nthe other three cities. This helped the city keep the number of deaths down. Besides\ntaking early action, keeping the action long enough was also important in fighting\nthe pandemic. The picture shows that Portland and Denver did well in the first few\nweeks. However, both cities 42 , and the numbers of deaths climbed again.\nBut there was one thing Portland did right. The city used several ways of social\ndistancing at the same time to deal with the pandemic. 43 , sick people were kept\naway from healthy ones; schools were closed; public activities were not allowed. All\nthese were useful in keeping people safe.\nThe lessons of the 1918 pandemic bring us hope. While we are still learning to\nfight Covid-19, social distancing may be the best way to get us through the dark days,\nat least for now.\n pandemic （疾病的）大流行         per 每(一)",
+      "passage_md": null,
+      "kind_hint": "single",
+      "footnotes": [],
+      "raw_line_idx": 405
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-113-english-reading-040",
+      "qnum": 40,
+      "stem": "(A) is not a new idea",
+      "options": [
+        "",
+        "has not been very useful",
+        "may bring some problems",
+        "is not welcomed by everyone"
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-113-english-reading-passage-40",
+      "flags": [
+        "option_incomplete"
+      ],
+      "parse_confidence": 0.75,
+      "raw_line_idx": 436,
+      "raw_text": "40. (A) is not a new idea\n    (B) has not been very useful\n    (C) may bring some problems\n    (D) is not welcomed by everyone\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-113-english-reading-041",
+      "qnum": 41,
+      "stem": "(A) Portland",
+      "options": [
+        "",
+        "New York",
+        "Denver",
+        "Pittsburgh"
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-113-english-reading-passage-40",
+      "flags": [
+        "option_incomplete"
+      ],
+      "parse_confidence": 0.75,
+      "raw_line_idx": 441,
+      "raw_text": "41.   (A) Portland\n      (B) New York\n      (C) Denver\n      (D) Pittsburgh\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-113-english-reading-042",
+      "qnum": 42,
+      "stem": "(A) had higher numbers of deaths",
+      "options": [
+        "",
+        "stopped social distancing too soon",
+        "began social distancing a second time",
+        "had the most days of social distancing"
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-113-english-reading-passage-40",
+      "flags": [
+        "option_incomplete"
+      ],
+      "parse_confidence": 0.75,
+      "raw_line_idx": 446,
+      "raw_text": "42. (A) had higher numbers of deaths\n    (B) stopped social distancing too soon\n    (C) began social distancing a second time\n    (D) had the most days of social distancing\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-113-english-reading-043",
+      "qnum": 43,
+      "stem": "(A) Also",
+      "options": [
+        "",
+        "At first",
+        "However",
+        "For example"
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-113-english-reading-passage-40",
+      "flags": [
+        "option_incomplete"
+      ],
+      "parse_confidence": 0.75,
+      "raw_line_idx": 451,
+      "raw_text": "43. (A) Also\n    (B) At first\n    (C) However\n    (D) For example\n\n\n\n\n"
+    }
+  ]
+}

@@ -1,0 +1,1024 @@
+{
+  "paper": {
+    "id": "cap-106-math",
+    "exam_id": "cap",
+    "subject_id": "sub-cap-math",
+    "roc_year": 106,
+    "year": 2017,
+    "paper_title": "106 年國中教育會考數學科",
+    "source_family": "cap-rcpet-edu-tw",
+    "source_ref": {
+      "pdf_path": "content/sources/_inbox/openclaw-data/cap-rcpet-edu-tw/study/cap/main/questions/by-year/106/106P_Math150DPI.pdf",
+      "pdf_sha1": "b378ee559c35",
+      "answer_pdf_sha1": "0fa526cf1539"
+    },
+    "meta": {
+      "parser_version": "cap_v0.1",
+      "merger_version": "cap_merger_v0.2",
+      "parsed_at": "2026-04-25T19:26:38+00:00"
+    }
+  },
+  "questions": [
+    {
+      "id": "cap-106-math-001",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-106-math",
+      "question_type": "single_choice",
+      "question_text": "算式(−2) × −5 − −3 之值為何？",
+      "options": [
+        "13",
+        "7",
+        "−13",
+        "−7"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:38+00:00",
+        "source_pdf_sha1": "b378ee559c35",
+        "answer_pdf_sha1": "0fa526cf1539",
+        "flags": [],
+        "parse_confidence": 1.0,
+        "original_question_number": 1,
+        "raw_text": "1.   算式(−2) × −5 − −3 之值為何？\n     (A) 13\n     (B) 7\n     (C) −13\n     (D) −7\n\n\n"
+      },
+      "is_active": true,
+      "auto_gradable": true,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-106-math-001",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-106-math",
+      "question_type": "single_choice",
+      "question_text": "今有甲、乙、丙三名候選人參與某村村長選舉，共發出 1800 張選票，得票數\n最高者為當選人，且廢票不計入任何一位候選人之得票數內。全村設有四個\n投開票所，目前第一、第二、第三投開票所已開完所有選票，剩下第四投開\n票所尚未開票，結果如表 ( 一 ) 所示：\n表(一)\n請回答下列問題：\n(1) 請分別寫出目前甲、乙、丙三名候選人的得票數。\n(2) 承 (1)，請分別判斷甲、乙兩名候選人是否還有機會當選村長，並詳細解\n釋或完整寫出你的解題過程。",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:38+00:00",
+        "source_pdf_sha1": "b378ee559c35",
+        "answer_pdf_sha1": "0fa526cf1539",
+        "flags": [
+          "needs_image",
+          "option_incomplete",
+          "option_image"
+        ],
+        "parse_confidence": 0.25,
+        "original_question_number": 1,
+        "raw_text": "1.   今有甲、乙、丙三名候選人參與某村村長選舉，共發出 1800 張選票，得票數\n     最高者為當選人，且廢票不計入任何一位候選人之得票數內。全村設有四個\n     投開票所，目前第一、第二、第三投開票所已開完所有選票，剩下第四投開\n     票所尚未開票，結果如表 ( 一 ) 所示：\n\n                          表(一)\n\n\n\n\n     請回答下列問題：\n     (1) 請分別寫出目前甲、乙、丙三名候選人的得票數。\n     (2) 承 (1)，請分別判斷甲、乙兩名候選人是否還有機會當選村長，並詳細解\n       釋或完整寫出你的解題過程。\n\n\n\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-106-math-002",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-106-math",
+      "question_type": "single_choice",
+      "question_text": "下列哪一個選項中的等式成立？",
+      "options": [
+        "2 =2",
+        "3 =3",
+        "4 =4",
+        "5 =5"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:38+00:00",
+        "source_pdf_sha1": "b378ee559c35",
+        "answer_pdf_sha1": "0fa526cf1539",
+        "flags": [],
+        "parse_confidence": 1.0,
+        "original_question_number": 2,
+        "raw_text": "2.   下列哪一個選項中的等式成立？\n     (A)     2 =2\n     (B)     3 =3\n     (C)     4 =4\n     (D)     5 =5\n\n\n"
+      },
+      "is_active": true,
+      "auto_gradable": true,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-106-math-002",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-106-math",
+      "question_type": "single_choice",
+      "question_text": "如圖 ( 十五 ) ，在坐標平面上，O 為原點，另有 A ( 0,3 ) 、B ( − 5,0 ) 、C ( 6,0 )\n三點，直線 L 通過 C 點且與 y 軸相交於 D 點。\n請回答下列問題：\n(1) 已知直線 L 的方程式為 5x − 3y = k，求 k 的值。\n(2) 承 (1)，請完整說明 △ AOB 與 △ COD 相似\n的理由。\n圖 ( 十五 )\n參考公式：\n 和的平方公式：( a + b ) 2 = a 2 + 2ab + b 2\n差的平方公式：( a − b ) 2 = a 2 − 2ab + b 2\n平方差公式：a 2 − b 2 = ( a + b )( a − b )\n 若直角三角形兩股長為 a、b，斜邊長為 c ，則 c 2 = a 2 + b 2\n 若圓的半徑為 r，圓周率為 π，則圓面積 = π r 2 ，圓周長 = 2 π r\n 若一個等差數列的首項為 a 1，公差為 d，第 n 項為 a n，前 n 項和為 S n，\nn ( a1 + an)\n則 an = a1 + (n − 1) d，Sn =\n−b ± b2 − 4 a c\n 一元二次方程式 ax + bx + c = 0 的解為 x =\n2a",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:38+00:00",
+        "source_pdf_sha1": "b378ee559c35",
+        "answer_pdf_sha1": "0fa526cf1539",
+        "flags": [
+          "needs_image",
+          "option_incomplete",
+          "option_image"
+        ],
+        "parse_confidence": 0.25,
+        "original_question_number": 2,
+        "raw_text": "2.     如圖 ( 十五 ) ，在坐標平面上，O 為原點，另有 A ( 0,3 ) 、B ( − 5,0 ) 、C ( 6,0 )\n       三點，直線 L 通過 C 點且與 y 軸相交於 D 點。\n       請回答下列問題：\n       (1) 已知直線 L 的方程式為 5x − 3y = k，求 k 的值。\n       (2) 承 (1)，請完整說明 △ AOB 與 △ COD 相似\n          的理由。\n\n\n\n\n                                                       圖 ( 十五 )\n\n\n\n\n\n\n參考公式：\n\n      和的平方公式：( a + b ) 2 = a 2 + 2ab + b 2\n        差的平方公式：( a − b ) 2 = a 2 − 2ab + b 2\n        平方差公式：a 2 − b 2 = ( a + b )( a − b )\n      若直角三角形兩股長為 a、b，斜邊長為 c ，則 c 2 = a 2 + b 2\n      若圓的半徑為 r，圓周率為 π，則圓面積 = π r 2 ，圓周長 = 2 π r\n      若一個等差數列的首項為 a 1，公差為 d，第 n 項為 a n，前 n 項和為 S n，\n                        n ( a1 + an)\n       則 an = a1 + (n − 1) d，Sn =\n                                       −b ± b2 − 4 a c\n      一元二次方程式 ax + bx + c = 0 的解為 x =\n                                            2a\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-106-math-003",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-106-math",
+      "question_type": "single_choice",
+      "question_text": "計算 6x•(3 − 2x) 的結果，與下列哪一個式子相同？",
+      "options": [
+        "−12x2 + 18x",
+        "−12x2 + 3",
+        "16x",
+        "6x"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:38+00:00",
+        "source_pdf_sha1": "b378ee559c35",
+        "answer_pdf_sha1": "0fa526cf1539",
+        "flags": [],
+        "parse_confidence": 1.0,
+        "original_question_number": 3,
+        "raw_text": "3.   計算 6x•(3 − 2x) 的結果，與下列哪一個式子相同？\n     (A) −12x2 + 18x\n     (B) −12x2 + 3\n     (C) 16x\n     (D) 6x\n\n\n\n"
+      },
+      "is_active": true,
+      "auto_gradable": true,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-106-math-004",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-106-math",
+      "question_type": "single_choice",
+      "question_text": "若阿光以四種不同的方式連接正六邊形 ABCDEF 的兩條對角線，連接後的\n情形如下列選項中的圖形所示，則下列哪一個圖形不是線對稱圖形？",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:38+00:00",
+        "source_pdf_sha1": "b378ee559c35",
+        "answer_pdf_sha1": "0fa526cf1539",
+        "flags": [
+          "option_incomplete",
+          "option_image"
+        ],
+        "parse_confidence": 0.4,
+        "original_question_number": 4,
+        "raw_text": "4.   若阿光以四種不同的方式連接正六邊形 ABCDEF 的兩條對角線，連接後的\n     情形如下列選項中的圖形所示，則下列哪一個圖形不是線對稱圖形？\n     (A)\t\t\t(B)                    (C)    (D)\n\n\n\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-106-math-005",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-106-math",
+      "question_type": "single_choice",
+      "question_text": "已 知 坐 標 平 面 上 有 兩 直 線 相 交 於 一 點 ( 2,a ) ， 且 兩 直 線 的 方 程 式 分 別 為\n2x + 3y = 7、 3x − 2y = b，其中 a、 b 為兩數。求 a + b 之值為何？",
+      "options": [
+        "1",
+        "−1",
+        "5",
+        "−5"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:38+00:00",
+        "source_pdf_sha1": "b378ee559c35",
+        "answer_pdf_sha1": "0fa526cf1539",
+        "flags": [],
+        "parse_confidence": 1.0,
+        "original_question_number": 5,
+        "raw_text": "5.   已 知 坐 標 平 面 上 有 兩 直 線 相 交 於 一 點 ( 2,a ) ， 且 兩 直 線 的 方 程 式 分 別 為\n     2x + 3y = 7、 3x − 2y = b，其中 a、 b 為兩數。求 a + b 之值為何？\n     (A) 1\n     (B) −1\n     (C) 5\n     (D) −5\n\n\n"
+      },
+      "is_active": true,
+      "auto_gradable": true,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-106-math-006",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-106-math",
+      "question_type": "single_choice",
+      "question_text": "阿信、小怡兩人打算搭乘同一班次電車上學。若此班次電車共有 5 節車廂，且\n阿信從任意一節車廂上車的機會相等，小怡從任意一節車廂上車的機會相等，\n則兩人從同一節車廂上車的機率為何？",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:38+00:00",
+        "source_pdf_sha1": "b378ee559c35",
+        "answer_pdf_sha1": "0fa526cf1539",
+        "flags": [
+          "option_incomplete",
+          "option_image"
+        ],
+        "parse_confidence": 0.4,
+        "original_question_number": 6,
+        "raw_text": "6.   阿信、小怡兩人打算搭乘同一班次電車上學。若此班次電車共有 5 節車廂，且\n     阿信從任意一節車廂上車的機會相等，小怡從任意一節車廂上車的機會相等，\n     則兩人從同一節車廂上車的機率為何？\n     (A)\n     (B)\n     (C)\n     (D)\n\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-106-math-007",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-106-math",
+      "question_type": "single_choice",
+      "question_text": "平面上有 A、B、C 三點，其中 AB = 3，BC = 4，AC = 5。若分別以 A、B、C\n為圓心，半徑長為 2 畫圓，畫出圓 A、圓 B、圓 C，則下列敘述何者正確？",
+      "options": [
+        "圓 A 與圓 C 外切，圓 B 與圓 C 外切",
+        "圓 A 與圓 C 外切，圓 B 與圓 C 外離",
+        "圓 A 與圓 C 外離，圓 B 與圓 C 外切",
+        "圓 A 與圓 C 外離，圓 B 與圓 C 外離"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:38+00:00",
+        "source_pdf_sha1": "b378ee559c35",
+        "answer_pdf_sha1": "0fa526cf1539",
+        "flags": [],
+        "parse_confidence": 1.0,
+        "original_question_number": 7,
+        "raw_text": "7.   平面上有 A、B、C 三點，其中 AB = 3，BC = 4，AC = 5。若分別以 A、B、C\n     為圓心，半徑長為 2 畫圓，畫出圓 A、圓 B、圓 C，則下列敘述何者正確？\n     (A) 圓 A 與圓 C 外切，圓 B 與圓 C 外切\n     (B) 圓 A 與圓 C 外切，圓 B 與圓 C 外離\n     (C) 圓 A 與圓 C 外離，圓 B 與圓 C 外切\n     (D) 圓 A 與圓 C 外離，圓 B 與圓 C 外離\n\n\n\n"
+      },
+      "is_active": true,
+      "auto_gradable": true,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-106-math-008",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-106-math",
+      "question_type": "single_choice",
+      "question_text": "下列選項中所表示的數，哪一個與 252 的最大公因數為 42 ？",
+      "options": [
+        "2 × 3 × 52 × 72",
+        "2 × 32 × 5 × 72",
+        "22 × 3 × 52 × 7",
+        "22 × 32 × 5 × 7"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:38+00:00",
+        "source_pdf_sha1": "b378ee559c35",
+        "answer_pdf_sha1": "0fa526cf1539",
+        "flags": [],
+        "parse_confidence": 1.0,
+        "original_question_number": 8,
+        "raw_text": "8.   下列選項中所表示的數，哪一個與 252 的最大公因數為 42 ？\n     (A) 2 × 3 × 52 × 72\n     (B) 2 × 32 × 5 × 72\n     (C) 22 × 3 × 52 × 7\n     (D) 22 × 32 × 5 × 7\n\n\n\n"
+      },
+      "is_active": true,
+      "auto_gradable": true,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-106-math-009",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-106-math",
+      "question_type": "single_choice",
+      "question_text": "某高中的籃球隊成員中，一、二年級的成員共有 8 人，三年級的成員有 3 人。\n一、二年級的成員身高 ( 單位：公分 ) 如下：\n172 、172 、174 、174 、 176 、 176 、 178 、 178\n若隊中所有成員的平均身高為 178 公分，則隊中三年級成員的平均身高為幾公分？",
+      "options": [
+        "178",
+        "181",
+        "183",
+        "186"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:38+00:00",
+        "source_pdf_sha1": "b378ee559c35",
+        "answer_pdf_sha1": "0fa526cf1539",
+        "flags": [],
+        "parse_confidence": 1.0,
+        "original_question_number": 9,
+        "raw_text": "9.   某高中的籃球隊成員中，一、二年級的成員共有 8 人，三年級的成員有 3 人。\n     一、二年級的成員身高 ( 單位：公分 ) 如下：\n             172 、172 、174 、174 、 176 、 176 、 178 、 178\n     若隊中所有成員的平均身高為 178 公分，則隊中三年級成員的平均身高為幾公分？\n     (A) 178\n     (B) 181\n     (C) 183\n     (D) 186\n\n\n"
+      },
+      "is_active": true,
+      "auto_gradable": true,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-106-math-010",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-106-math",
+      "question_type": "single_choice",
+      "question_text": "已知在卡樂芙超市內購物總金額超過 190 元時， 購物總金額有打八折的優惠。\n安妮帶 200 元到卡樂芙超市買棒棒糖，若棒棒糖每根 9 元，則她最多可買多少\n根棒棒糖？",
+      "options": [
+        "22",
+        "23",
+        "27",
+        "28"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:38+00:00",
+        "source_pdf_sha1": "b378ee559c35",
+        "answer_pdf_sha1": "0fa526cf1539",
+        "flags": [],
+        "parse_confidence": 1.0,
+        "original_question_number": 10,
+        "raw_text": "10. 已知在卡樂芙超市內購物總金額超過 190 元時， 購物總金額有打八折的優惠。\n     安妮帶 200 元到卡樂芙超市買棒棒糖，若棒棒糖每根 9 元，則她最多可買多少\n     根棒棒糖？\n     (A) 22\n     (B) 23\n     (C) 27\n     (D) 28\n\n"
+      },
+      "is_active": true,
+      "auto_gradable": true,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-106-math-011",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-106-math",
+      "question_type": "single_choice",
+      "question_text": "如圖 ( 一 ) ，△ ABC 中，D、E 兩點分別在 AB、BC 上。若\nAD ： DB = CE ： EB = 2：3，則 △ DBE 與 △ ADC\n的面積比為何？",
+      "options": [
+        "3：5 (B) 4：5                                     圖(一)",
+        "",
+        "9：10",
+        "15：16"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:38+00:00",
+        "source_pdf_sha1": "b378ee559c35",
+        "answer_pdf_sha1": "0fa526cf1539",
+        "flags": [
+          "needs_image",
+          "option_incomplete"
+        ],
+        "parse_confidence": 0.6,
+        "original_question_number": 11,
+        "raw_text": "11. 如圖 ( 一 ) ，△ ABC 中，D、E 兩點分別在 AB、BC 上。若\n     AD ： DB = CE ： EB = 2：3，則 △ DBE 與 △ ADC\n     的面積比為何？\n     (A) 3：5\n     (B) 4：5                                     圖(一)\n     (C) 9：10\n     (D) 15：16\n\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-106-math-012",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-106-math",
+      "question_type": "single_choice",
+      "question_text": "一元二次方程式 x2 − 8x = 48 可表示成 (x − a)2 = 48 + b 的形式，其中 a、 b\n為整數。求 a + b 之值為何？",
+      "options": [
+        "20",
+        "12",
+        "−12",
+        "−20"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:38+00:00",
+        "source_pdf_sha1": "b378ee559c35",
+        "answer_pdf_sha1": "0fa526cf1539",
+        "flags": [],
+        "parse_confidence": 1.0,
+        "original_question_number": 12,
+        "raw_text": "12. 一元二次方程式 x2 − 8x = 48 可表示成 (x − a)2 = 48 + b 的形式，其中 a、 b\n    為整數。求 a + b 之值為何？\n     (A) 20\n     (B) 12\n     (C) −12\n     (D) −20\n\n\n\n\n"
+      },
+      "is_active": true,
+      "auto_gradable": true,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-106-math-013",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-106-math",
+      "question_type": "single_choice",
+      "question_text": "已知坐標平面上有一長方形 ABCD，其坐標分別為 A(0,0)、 B(2,0)、C(2,1) 、\nD(0,1)。今固定 B 點並將此長方形依順時針方向旋轉，如圖 ( 二 ) 所示。\n若旋轉後 C 點的坐標為 (3,0)，則旋轉後 D 點的坐標為何？\n(A) (2,2)\n(B) (2,3)\n(C) (3,3)\n(D) (3,2)\n圖(二)",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:38+00:00",
+        "source_pdf_sha1": "b378ee559c35",
+        "answer_pdf_sha1": "0fa526cf1539",
+        "flags": [
+          "needs_image",
+          "option_incomplete",
+          "option_image"
+        ],
+        "parse_confidence": 0.25,
+        "original_question_number": 13,
+        "raw_text": "13. 已知坐標平面上有一長方形 ABCD，其坐標分別為 A(0,0)、 B(2,0)、C(2,1) 、\n  D(0,1)。今固定 B 點並將此長方形依順時針方向旋轉，如圖 ( 二 ) 所示。\n  若旋轉後 C 點的坐標為 (3,0)，則旋轉後 D 點的坐標為何？\n  (A) (2,2)\n  (B) (2,3)\n  (C) (3,3)\n  (D) (3,2)\n\n\n\n                                         圖(二)\n\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-106-math-014",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-106-math",
+      "question_type": "single_choice",
+      "question_text": "圖 ( 三 ) 為平面上五條直線 L1、 L2、 L3、 L4、 L5 相交的情形。根據圖中標示\n的角度，判斷下列敘述何者正確？",
+      "options": [
+        "L1 和 L3 平行， L2 和 L3 平行",
+        "L1 和 L3 平行， L2 和 L3 不平行",
+        "L1 和 L3 不平行， L2 和 L3 平行",
+        "L1 和 L3 不平行， L2 和 L3 不平行 圖(三)"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:38+00:00",
+        "source_pdf_sha1": "b378ee559c35",
+        "answer_pdf_sha1": "0fa526cf1539",
+        "flags": [
+          "needs_image"
+        ],
+        "parse_confidence": 0.85,
+        "original_question_number": 14,
+        "raw_text": "14. 圖 ( 三 ) 為平面上五條直線 L1、 L2、 L3、 L4、 L5 相交的情形。根據圖中標示\n    的角度，判斷下列敘述何者正確？\n  (A) L1 和 L3 平行， L2 和 L3 平行\n  (B) L1 和 L3 平行， L2 和 L3 不平行\n  (C) L1 和 L3 不平行， L2 和 L3 平行\n  (D) L1 和 L3 不平行， L2 和 L3 不平行\n\n                                         圖(三)\n\n\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-106-math-015",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-106-math",
+      "question_type": "single_choice",
+      "question_text": "威立到小吃店買水餃，他身上帶的錢恰好等於 15 粒蝦仁水餃或 20 粒韭菜\n水餃的價錢。若威立先買了 9 粒蝦仁水餃，則他身上剩下的錢恰好可買多少粒\n韭菜水餃？",
+      "options": [
+        "6",
+        "8",
+        "9",
+        "12"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:38+00:00",
+        "source_pdf_sha1": "b378ee559c35",
+        "answer_pdf_sha1": "0fa526cf1539",
+        "flags": [],
+        "parse_confidence": 1.0,
+        "original_question_number": 15,
+        "raw_text": "15. 威立到小吃店買水餃，他身上帶的錢恰好等於 15 粒蝦仁水餃或 20 粒韭菜\n  水餃的價錢。若威立先買了 9 粒蝦仁水餃，則他身上剩下的錢恰好可買多少粒\n  韭菜水餃？\n  (A) 6\n  (B) 8\n  (C) 9\n  (D) 12\n\n\n\n\n"
+      },
+      "is_active": true,
+      "auto_gradable": true,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-106-math-016",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-106-math",
+      "question_type": "single_choice",
+      "question_text": "將圖 ( 四 ) 中五邊形紙片 ABCDE 的 A 點以 BE 為摺線往下摺，A 點恰好落\n在 CD 上，如圖 ( 五 ) 所示。再分別以圖 ( 五 ) 的 AB、AE 為摺線，將 C、 D\n兩點往上摺，使得 A、 B、C、D、E 五點均在同一平面上，如圖 ( 六 ) 所示。\n若圖 ( 四 ) 中 ∠A = 124°，則圖 ( 六 ) 中 ∠CAD 的度數為何？",
+      "options": [
+        "56",
+        "60",
+        "62",
+        "68 圖(四)            圖(五)          圖(六)"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:38+00:00",
+        "source_pdf_sha1": "b378ee559c35",
+        "answer_pdf_sha1": "0fa526cf1539",
+        "flags": [
+          "needs_image"
+        ],
+        "parse_confidence": 0.85,
+        "original_question_number": 16,
+        "raw_text": "16. 將圖 ( 四 ) 中五邊形紙片 ABCDE 的 A 點以 BE 為摺線往下摺，A 點恰好落\n  在 CD 上，如圖 ( 五 ) 所示。再分別以圖 ( 五 ) 的 AB、AE 為摺線，將 C、 D\n  兩點往上摺，使得 A、 B、C、D、E 五點均在同一平面上，如圖 ( 六 ) 所示。\n  若圖 ( 四 ) 中 ∠A = 124°，則圖 ( 六 ) 中 ∠CAD 的度數為何？\n  (A) 56\n  (B) 60\n  (C) 62\n  (D) 68\n             圖(四)            圖(五)          圖(六)\n\n\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-106-math-017",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-106-math",
+      "question_type": "single_choice",
+      "question_text": "若 a、 b 為兩質數且相差 2，則 ab + 1 之值可能為下列何者？",
+      "options": [
+        "392",
+        "402",
+        "412",
+        "422"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:38+00:00",
+        "source_pdf_sha1": "b378ee559c35",
+        "answer_pdf_sha1": "0fa526cf1539",
+        "flags": [],
+        "parse_confidence": 1.0,
+        "original_question_number": 17,
+        "raw_text": "17. 若 a、 b 為兩質數且相差 2，則 ab + 1 之值可能為下列何者？\n  (A) 392\n  (B) 402\n  (C) 412\n  (D) 422\n\n\n\n"
+      },
+      "is_active": true,
+      "auto_gradable": true,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-106-math-018",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-106-math",
+      "question_type": "single_choice",
+      "question_text": "如圖 ( 七 )， O 為銳角三角形 ABC 的外心，四邊形 OCDE 為正方形，其中\nE 點在 △ ABC 的外部。判斷下列敘述何者正確？",
+      "options": [
+        "O 是 △ AEB 的外心， O 是 △ AED 的外心",
+        "O 是 △ AEB 的外心， O 不是 △ AED 的外心",
+        "O 不是 △ AEB 的外心， O 是 △ AED 的外心",
+        "O 不是 △ AEB 的外心， O 不是 △ AED 的外心 圖(七)"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:38+00:00",
+        "source_pdf_sha1": "b378ee559c35",
+        "answer_pdf_sha1": "0fa526cf1539",
+        "flags": [
+          "needs_image"
+        ],
+        "parse_confidence": 0.85,
+        "original_question_number": 18,
+        "raw_text": "18. 如圖 ( 七 )， O 為銳角三角形 ABC 的外心，四邊形 OCDE 為正方形，其中\n  E 點在 △ ABC 的外部。判斷下列敘述何者正確？\n  (A) O 是 △ AEB 的外心， O 是 △ AED 的外心\n  (B) O 是 △ AEB 的外心， O 不是 △ AED 的外心\n  (C) O 不是 △ AEB 的外心， O 是 △ AED 的外心\n  (D) O 不是 △ AEB 的外心， O 不是 △ AED 的外心\n                                           圖(七)\n\n\n\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-106-math-019",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-106-math",
+      "question_type": "single_choice",
+      "question_text": "圖 ( 八 ) 為 互 相 垂 直 的 兩 直線 將 四 邊 形 ABCD 分 成 四 個 區 域 的 情 形 。\n若 ∠A = 100°， ∠B = ∠D = 85°， ∠C = 90°， 則根據圖中標示的角，判斷\n下列 ∠1、∠2、∠3 的大小關係，何者正確？",
+      "options": [
+        "∠1 = ∠2 > ∠3",
+        "∠1 = ∠3 > ∠2",
+        "∠2 > ∠1 = ∠3",
+        "∠3 > ∠1 = ∠2 圖(八)"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:38+00:00",
+        "source_pdf_sha1": "b378ee559c35",
+        "answer_pdf_sha1": "0fa526cf1539",
+        "flags": [
+          "needs_image"
+        ],
+        "parse_confidence": 0.85,
+        "original_question_number": 19,
+        "raw_text": "19. 圖 ( 八 ) 為 互 相 垂 直 的 兩 直線 將 四 邊 形 ABCD 分 成 四 個 區 域 的 情 形 。\n    若 ∠A = 100°， ∠B = ∠D = 85°， ∠C = 90°， 則根據圖中標示的角，判斷\n   下列 ∠1、∠2、∠3 的大小關係，何者正確？\n   (A) ∠1 = ∠2 > ∠3\n   (B) ∠1 = ∠3 > ∠2\n   (C) ∠2 > ∠1 = ∠3\n   (D) ∠3 > ∠1 = ∠2\n\n                                                   圖(八)\n\n\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-106-math-020",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-106-math",
+      "question_type": "single_choice",
+      "question_text": "圖 ( 九 ) 的數線上有 O、A、B 三點，其中 O 為原點，A 點所表示的數為 106。根據\n圖中數線上這三點之間的實際距離進行估計，下列何者最接近 B 點所表示的數？",
+      "options": [
+        "2 × 106",
+        "4 × 106",
+        "2 × 107 圖(九)",
+        "4 × 108"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:38+00:00",
+        "source_pdf_sha1": "b378ee559c35",
+        "answer_pdf_sha1": "0fa526cf1539",
+        "flags": [
+          "needs_image"
+        ],
+        "parse_confidence": 0.85,
+        "original_question_number": 20,
+        "raw_text": "20. 圖 ( 九 ) 的數線上有 O、A、B 三點，其中 O 為原點，A 點所表示的數為 106。根據\n    圖中數線上這三點之間的實際距離進行估計，下列何者最接近 B 點所表示的數？\n   (A) 2 × 106\n   (B) 4 × 106\n   (C) 2 × 107\n                                      圖(九)\n   (D) 4 × 108\n\n\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-106-math-021",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-106-math",
+      "question_type": "single_choice",
+      "question_text": "如 圖 ( 十 ) ， △ ABC 、 △ ADE 中， C 、 E 兩 點 分 別 在 AD 、 AB 上， 且\nBC 與 DE 相交於 F 點。若 ∠A = 90°，∠B = ∠D = 30°，AC = AE = 1，則\n四邊形 AEFC 的周長為何？",
+      "options": [
+        "2 2",
+        "2 3",
+        "2 + 2",
+        "2 + 3 圖(十)"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:38+00:00",
+        "source_pdf_sha1": "b378ee559c35",
+        "answer_pdf_sha1": "0fa526cf1539",
+        "flags": [
+          "needs_image"
+        ],
+        "parse_confidence": 0.85,
+        "original_question_number": 21,
+        "raw_text": "21. 如 圖 ( 十 ) ， △ ABC 、 △ ADE 中， C 、 E 兩 點 分 別 在 AD 、 AB 上， 且\n    BC 與 DE 相交於 F 點。若 ∠A = 90°，∠B = ∠D = 30°，AC = AE = 1，則\n   四邊形 AEFC 的周長為何？\n   (A) 2 2\n   (B) 2 3\n   (C) 2 + 2\n   (D) 2 + 3\n                                                 圖(十)\n\n\n\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-106-math-022",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-106-math",
+      "question_type": "single_choice",
+      "question_text": "已知坐標平面上有兩個二次函數 y = a(x + 1)(x − 7)、 y = b(x + 1)(x − 15) 的\n圖形，其中 a、b 為整數。判斷將二次函數 y = b(x + 1)(x − 15) 的圖形依下列\n哪一種方式平移後，會使得此兩圖形的對稱軸重疊？",
+      "options": [
+        "向左平移 4 單位",
+        "向右平移 4 單位",
+        "向左平移 8 單位",
+        "向右平移 8 單位"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:38+00:00",
+        "source_pdf_sha1": "b378ee559c35",
+        "answer_pdf_sha1": "0fa526cf1539",
+        "flags": [],
+        "parse_confidence": 1.0,
+        "original_question_number": 22,
+        "raw_text": "22. 已知坐標平面上有兩個二次函數 y = a(x + 1)(x − 7)、 y = b(x + 1)(x − 15) 的\n   圖形，其中 a、b 為整數。判斷將二次函數 y = b(x + 1)(x − 15) 的圖形依下列\n   哪一種方式平移後，會使得此兩圖形的對稱軸重疊？\n   (A) 向左平移 4 單位\n   (B) 向右平移 4 單位\n   (C) 向左平移 8 單位\n   (D) 向右平移 8 單位\n\n"
+      },
+      "is_active": true,
+      "auto_gradable": true,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-106-math-023",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-106-math",
+      "question_type": "single_choice",
+      "question_text": "圖 ( 十一 ) 為阿輝、小薰一起到商店分別買了數杯飲料與在家分飲料的經過。\n2000 Ƕ\n圖 ( 十一 )\n若每杯飲料的價格均相等， 則根據圖中的對話，判斷阿輝買了多少杯飲料？",
+      "options": [
+        "22",
+        "25",
+        "47",
+        "50"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:38+00:00",
+        "source_pdf_sha1": "b378ee559c35",
+        "answer_pdf_sha1": "0fa526cf1539",
+        "flags": [
+          "needs_image"
+        ],
+        "parse_confidence": 0.85,
+        "original_question_number": 23,
+        "raw_text": "23. 圖 ( 十一 ) 為阿輝、小薰一起到商店分別買了數杯飲料與在家分飲料的經過。\n\n              2000 Ƕ\n\n\n\n\n                            圖 ( 十一 )\n   若每杯飲料的價格均相等， 則根據圖中的對話，判斷阿輝買了多少杯飲料？\n   (A) 22\n   (B) 25\n   (C) 47\n   (D) 50\n\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-106-math-024",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-106-math",
+      "question_type": "single_choice",
+      "question_text": "如圖 ( 十二 )，水平桌面上有個內部裝水的長方體箱子，箱內有一個與底面垂直的\n隔板，且隔板左右兩側的水面高度分別為 40 公分、50 公分。今將隔板抽出，若\n過程中箱內的水量未改變，且不計箱子及隔板厚度，則根據圖中的數據，求隔板\n抽出後水面靜止時，箱內的水面高度為多少公分？",
+      "options": [
+        "43",
+        "44",
+        "45",
+        "46 ൂՏǺϦϩ 圖 ( 十二 )"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:38+00:00",
+        "source_pdf_sha1": "b378ee559c35",
+        "answer_pdf_sha1": "0fa526cf1539",
+        "flags": [
+          "needs_image"
+        ],
+        "parse_confidence": 0.85,
+        "original_question_number": 24,
+        "raw_text": "24. 如圖 ( 十二 )，水平桌面上有個內部裝水的長方體箱子，箱內有一個與底面垂直的\n   隔板，且隔板左右兩側的水面高度分別為 40 公分、50 公分。今將隔板抽出，若\n   過程中箱內的水量未改變，且不計箱子及隔板厚度，則根據圖中的數據，求隔板\n   抽出後水面靜止時，箱內的水面高度為多少公分？\n   (A) 43\n   (B) 44\n   (C) 45\n   (D) 46\n                                                         ൂՏǺϦϩ\n\n                                              圖 ( 十二 )\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-106-math-025",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-106-math",
+      "question_type": "single_choice",
+      "question_text": "如圖 ( 十三 )，某計算機中有   、   、   三個按鍵，以下\n是這三個按鍵的功能。\n1.     ：將螢幕顯示的數變成它的正平方根，                  C    √        1/x   x2   +_\n例如：螢幕顯示的數為 49 時，按下         後會變成 7。       CE    7       8     9    ÷\n2.     ：將螢幕顯示的數變成它的倒數，                    MC    4       5     6\n+\n_\n例如：螢幕顯示的數為 25 時，按下         後會變成 0.04。    MR    1       2     3\nM+    0        .    =    +\n3.     ：將螢幕顯示的數變成它的平方，\n例如：螢幕顯示的數為 6 時，按下          後會變成 36。          圖 ( 十三 )\n若螢幕顯示的數為 100 時，小劉第一下按          ，第二下按      ，第三下按                     ，\n之後以  、      、   的順序輪流按，則當他按了第 100 下後螢幕顯示的數\n是多少？",
+      "options": [
+        "0.01",
+        "0.1",
+        "10",
+        "100"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:38+00:00",
+        "source_pdf_sha1": "b378ee559c35",
+        "answer_pdf_sha1": "0fa526cf1539",
+        "flags": [
+          "needs_image"
+        ],
+        "parse_confidence": 0.85,
+        "original_question_number": 25,
+        "raw_text": "25. 如圖 ( 十三 )，某計算機中有   、   、   三個按鍵，以下\n  是這三個按鍵的功能。\n   1.     ：將螢幕顯示的數變成它的正平方根，                  C    √        1/x   x2   +_\n\n    例如：螢幕顯示的數為 49 時，按下         後會變成 7。       CE    7       8     9    ÷\n\n   2.     ：將螢幕顯示的數變成它的倒數，                    MC    4       5     6\n\n\n\n\n                                                                      +\n                                                                      _\n    例如：螢幕顯示的數為 25 時，按下         後會變成 0.04。    MR    1       2     3\n\n                                             M+    0        .    =    +\n   3.     ：將螢幕顯示的數變成它的平方，\n    例如：螢幕顯示的數為 6 時，按下          後會變成 36。          圖 ( 十三 )\n  若螢幕顯示的數為 100 時，小劉第一下按          ，第二下按      ，第三下按                     ，\n  之後以  、      、   的順序輪流按，則當他按了第 100 下後螢幕顯示的數\n  是多少？\n  (A) 0.01\n  (B) 0.1\n  (C) 10\n  (D) 100\n\n\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-106-math-026",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-106-math",
+      "question_type": "single_choice",
+      "question_text": "圖 ( 十四 ) 為兩正方形 ABCD、 BPQR 重疊的情形，其中 R 點在 AD 上，CD\n與 QR 相交於 S 點。若兩正方形 ABCD、BPQR 的面積分別為 16、25 ，則\n四邊形 RBCS 的面積為何？",
+      "options": [
+        "8                               A      R         D 17                                        S",
+        "Q",
+        "B                 C",
+        "P 圖 ( 十四 )"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:38+00:00",
+        "source_pdf_sha1": "b378ee559c35",
+        "answer_pdf_sha1": "0fa526cf1539",
+        "flags": [
+          "needs_image"
+        ],
+        "parse_confidence": 0.85,
+        "original_question_number": 26,
+        "raw_text": "26. 圖 ( 十四 ) 為兩正方形 ABCD、 BPQR 重疊的情形，其中 R 點在 AD 上，CD\n  與 QR 相交於 S 點。若兩正方形 ABCD、BPQR 的面積分別為 16、25 ，則\n  四邊形 RBCS 的面積為何？\n  (A) 8                               A      R         D\n\n        17                                        S\n  (B)\n                                                                          Q\n  (C)                                B                 C\n  (D)\n                                                 P\n                                            圖 ( 十四 )\n\n\n\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    }
+  ],
+  "stats": {
+    "total_records": 28,
+    "passage_parents": 0,
+    "single_questions": 28,
+    "active": 12,
+    "inactive": 16,
+    "no_answer": 0
+  }
+}

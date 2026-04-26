@@ -1,0 +1,917 @@
+{
+  "paper_slug": "cap-104-english-reading",
+  "exam_id": "cap",
+  "subject_id": "sub-cap-english-reading",
+  "year": 104,
+  "subject": "english-reading",
+  "parser_version": "cap_v0.1",
+  "parsed_at": "2026-04-25T19:26:37+00:00",
+  "source_pdf": "content/sources/_inbox/openclaw-data/cap-rcpet-edu-tw/study/cap/main/questions/by-year/104/104P_English.pdf",
+  "source_pdf_sha1": "7e06d678a537",
+  "sections_detected": [
+    {
+      "label": "單題",
+      "range": [
+        1,
+        12
+      ]
+    },
+    {
+      "label": "題組",
+      "range": [
+        13,
+        40
+      ]
+    }
+  ],
+  "passage_count": 10,
+  "question_count": 40,
+  "records": [
+    {
+      "kind": "single",
+      "key": "cap-104-english-reading-001",
+      "qnum": 1,
+      "stem": "Look at the picture. The girl drew two             on the wall.",
+      "options": [
+        "circles",
+        "lines",
+        "points",
+        "squares"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 40,
+      "raw_text": "1.   Look at the picture. The girl drew two             on the wall.\n     (A) circles\n     (B) lines\n     (C) points\n     (D) squares\n\n\n\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-104-english-reading-002",
+      "qnum": 2,
+      "stem": "This dress is pretty,       it does not look good on me.",
+      "options": [
+        "so",
+        "but",
+        "or",
+        "if"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 49,
+      "raw_text": "2.   This dress is pretty,       it does not look good on me.\n     (A) so                (B) but              (C) or                 (D) if\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-104-english-reading-003",
+      "qnum": 3,
+      "stem": "Getting up early on a cold morning is not easy,      ?",
+      "options": [
+        "are you",
+        "do you",
+        "does it",
+        "is it"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 52,
+      "raw_text": "3.   Getting up early on a cold morning is not easy,      ?\n     (A) are you          (B) do you          (C) does it              (D) is it\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-104-english-reading-004",
+      "qnum": 4,
+      "stem": "Tonight I’ll stay at the office until I        the work.",
+      "options": [
+        "finish",
+        "am finishing",
+        "finished",
+        "will finish"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 55,
+      "raw_text": "4.   Tonight I’ll stay at the office until I        the work.\n     (A) finish             (B) am finishing       (C) finished        (D) will finish\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-104-english-reading-005",
+      "qnum": 5,
+      "stem": "Charles        a day in the department store looking for a hat for his wife.",
+      "options": [
+        "cost",
+        "spent",
+        "saw",
+        "made"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 58,
+      "raw_text": "5.   Charles        a day in the department store looking for a hat for his wife.\n     (A) cost            (B) spent            (C) saw               (D) made\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-104-english-reading-006",
+      "qnum": 6,
+      "stem": "Tom         ten pounds over the past two months. He looks much thinner now.",
+      "options": [
+        "loses",
+        "has lost",
+        "will lose",
+        "was losing"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 61,
+      "raw_text": "6.   Tom         ten pounds over the past two months. He looks much thinner now.\n     (A) loses           (B) has lost         (C) will lose     (D) was losing\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-104-english-reading-007",
+      "qnum": 7,
+      "stem": "I don’t like any one of these three watches. Can you show me        one?",
+      "options": [
+        "the others",
+        "other",
+        "either",
+        "another"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 64,
+      "raw_text": "7.   I don’t like any one of these three watches. Can you show me        one?\n     (A) the others        (B) other           (C) either         (D) another\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-104-english-reading-008",
+      "qnum": 8,
+      "stem": "The waiters are asked to be        ; they should always smile and remember to say\n“Welcome” and “Please.”",
+      "options": [
+        "honest",
+        "polite",
+        "special",
+        "strong"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 67,
+      "raw_text": "8.   The waiters are asked to be        ; they should always smile and remember to say\n     “Welcome” and “Please.”\n     (A) honest          (B) polite                (C) special         (D) strong\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-104-english-reading-009",
+      "qnum": 9,
+      "stem": "On Children’s Day, Ms. Lee, a famous storybook writer,           to Molly’s Bookstore\nto talk about her new book. My two little kids just can’t wait to see her.",
+      "options": [
+        "came",
+        "was coming",
+        "has come",
+        "is going to come"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 71,
+      "raw_text": "9.   On Children’s Day, Ms. Lee, a famous storybook writer,           to Molly’s Bookstore\n     to talk about her new book. My two little kids just can’t wait to see her.\n     (A) came             (B) was coming      (C) has come           (D) is going to come\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-104-english-reading-010",
+      "qnum": 10,
+      "stem": "No one thought James would appear at Katie’s party. So when he                 , everyone\nwas surprised and could not believe their eyes.",
+      "options": [
+        "would",
+        "was",
+        "had",
+        "did"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 75,
+      "raw_text": "10. No one thought James would appear at Katie’s party. So when he                 , everyone\n    was surprised and could not believe their eyes.\n    (A) would           (B) was               (C) had          (D) did\n\n\n\n\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-104-english-reading-011",
+      "qnum": 11,
+      "stem": "B&J Café         known as the tallest building in town. However, O&G Restaurant\nbecame the tallest building in 2010.",
+      "options": [
+        "has been",
+        "had been",
+        "is",
+        "would be"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 85,
+      "raw_text": "11. B&J Café         known as the tallest building in town. However, O&G Restaurant\n    became the tallest building in 2010.\n    (A) has been         (B) had been         (C) is            (D) would be\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-104-english-reading-012",
+      "qnum": 12,
+      "stem": "Actor David Piper became tired of talking about the movie       after he was interviewed\nabout it many times.",
+      "options": [
+        "he is famous",
+        "that he is famous",
+        "that is famous for",
+        "he is famous for"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 89,
+      "raw_text": "12. Actor David Piper became tired of talking about the movie       after he was interviewed\n    about it many times.\n    (A) he is famous \t\t                         (B) that he is famous\n    (C) that is famous for                      (D) he is famous for\n\n\n"
+    },
+    {
+      "kind": "passage_parent",
+      "key": "cap-104-english-reading-passage-13",
+      "intro_line": "(13-15)",
+      "child_qnums": [
+        13,
+        14,
+        15
+      ],
+      "passage_text": "From: Lisa Clyne (lisaclyne@mail.com)\nTo: Mary Faber (maryfaber@mail.com)\nDate: Thursday, April 2, 2015\nSubject: Welcome\n--------------------------------------------------------------------------------------------------------------\nDear Mary,\nUncle Billy and I are excited about your visit.\nThe weather has 13 these days. Like today, it was sunny in the morning, but\nrained heavily at noon. So we’ve 14 : If the weather is nice, I’m going to take you\nto Smith Farm. They’re having a special horse show this week. I’m sure you’ll like it.\nAnd 15 . We can go shopping at Mimi’s Department Store; there we can walk\naround without getting wet. Rain or shine, we hope you will have a good time here.\nSee you tomorrow at the train station at 9:00 a.m.\nLove,\nAunt Lisa",
+      "passage_md": null,
+      "kind_hint": "single",
+      "footnotes": [],
+      "raw_line_idx": 98
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-104-english-reading-013",
+      "qnum": 13,
+      "stem": "(A) got better                                           (B) been warm",
+      "options": [
+        "",
+        "",
+        "changed a lot",
+        "become wet and cold"
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-104-english-reading-passage-13",
+      "flags": [
+        "option_incomplete"
+      ],
+      "parse_confidence": 0.75,
+      "raw_line_idx": 115,
+      "raw_text": "13. (A) got better                                           (B) been warm\n    (C) changed a lot\t\t                                      (D) become wet and cold\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-104-english-reading-014",
+      "qnum": 14,
+      "stem": "(A) made two plans for you\t\t                            (B) worried about your trip to here",
+      "options": [
+        "",
+        "",
+        "decided to take you to a nice place",
+        "prepared everything you’ve asked for"
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-104-english-reading-passage-13",
+      "flags": [
+        "option_incomplete"
+      ],
+      "parse_confidence": 0.75,
+      "raw_line_idx": 118,
+      "raw_text": "14. (A) made two plans for you\t\t                            (B) worried about your trip to here\n    (C) decided to take you to a nice place                 (D) prepared everything you’ve asked for\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-104-english-reading-015",
+      "qnum": 15,
+      "stem": "(A) we’ll agree with each other                         (B) don’t worry if it rains",
+      "options": [
+        "",
+        "",
+        "we all love animals very much",
+        "don’t forget to check the weather"
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-104-english-reading-passage-13",
+      "flags": [
+        "option_incomplete"
+      ],
+      "parse_confidence": 0.75,
+      "raw_line_idx": 121,
+      "raw_text": "15. (A) we’ll agree with each other                         (B) don’t worry if it rains\n    (C) we all love animals very much                       (D) don’t forget to check the weather\n\n\n\n\n"
+    },
+    {
+      "kind": "passage_parent",
+      "key": "cap-104-english-reading-passage-16",
+      "intro_line": "(16-18)",
+      "child_qnums": [
+        16,
+        17,
+        18
+      ],
+      "passage_text": "NEWS HUNT\nKieran Hardy 11/07/2013\nFor years, we thought our Earth was the only blue dot up there. Now\nanother has been found. Its name is HD189773b. HD189773b is an\nexoplanet, a planet outside our Solar System, and is one of the nearest\nexoplanets to Earth. Even so, 16 . Here’s why: It is 63 light years away.\nThat means it is 370,440,000,000,000 miles from us. Even if we fly at 3,500\nmiles an hour, it will take more than 12 million years to get there.\n17 : It is much bigger, it is made of gas and it is burning hot. In\nheat as great as 1,000°C, life is not possible. What is worse, it rains glass. If\n1,000°C does not kill you, glass rain will.\nEven so, finding this blue giant 18 . It is the first time that we have\nbeen able to see the color of an exoplanet. The color of a planet gives us\nideas about what is happening on it. While we have a long way to go before\nwe find a new planet to live on, finding a blue dot is a good start.\n exoplanet 系外行星 Solar System 太陽系",
+      "passage_md": null,
+      "kind_hint": "single",
+      "footnotes": [],
+      "raw_line_idx": 129
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-104-english-reading-016",
+      "qnum": 16,
+      "stem": "(A) we cannot really call it a neighbor",
+      "options": [
+        "",
+        "we do not know anything about it yet",
+        "we might not be able to stay there for long",
+        "we are not sure how long it takes to get there"
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-104-english-reading-passage-16",
+      "flags": [
+        "option_incomplete"
+      ],
+      "parse_confidence": 0.75,
+      "raw_line_idx": 154,
+      "raw_text": "16. (A) we cannot really call it a neighbor\n    (B) we do not know anything about it yet\n    (C) we might not be able to stay there for long\n    (D) we are not sure how long it takes to get there\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-104-english-reading-017",
+      "qnum": 17,
+      "stem": "(A) What’s more, it is not water that makes HD189773b look blue",
+      "options": [
+        "",
+        "With its blue color, HD189773b could be a second Earth for us",
+        "Except for its blue color, HD189773b is nothing like our home planet",
+        "Because of its blue color, people guess there might be life on HD189773b"
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-104-english-reading-passage-16",
+      "flags": [
+        "option_incomplete"
+      ],
+      "parse_confidence": 0.75,
+      "raw_line_idx": 159,
+      "raw_text": "17. (A) What’s more, it is not water that makes HD189773b look blue\n    (B) With its blue color, HD189773b could be a second Earth for us\n    (C) Except for its blue color, HD189773b is nothing like our home planet\n    (D) Because of its blue color, people guess there might be life on HD189773b\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-104-english-reading-018",
+      "qnum": 18,
+      "stem": "(A) gives us hope",
+      "options": [
+        "",
+        "took hard work",
+        "has changed our life",
+        "helps us know more about Earth"
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-104-english-reading-passage-16",
+      "flags": [
+        "option_incomplete"
+      ],
+      "parse_confidence": 0.75,
+      "raw_line_idx": 164,
+      "raw_text": "18. (A) gives us hope\n    (B) took hard work\n    (C) has changed our life\n    (D) helps us know more about Earth\n\n\n\n\n"
+    },
+    {
+      "kind": "passage_parent",
+      "key": "cap-104-english-reading-passage-19",
+      "intro_line": "(19-20)",
+      "child_qnums": [
+        19,
+        20
+      ],
+      "passage_text": "Last Saturday, Ginny and her friends had lunch at Howell’s Bowl. Here is their\norder, and the poster of the restaurant.\nHowell’s Bowl\nTable 2     3    person(s) Order taken by Fred 12:30 12/23\nHowell’s Bowl\n1   pumpkin pie                                     220 x 2\nOpen Hours:\n2   cheese cake                                     120 x 1\n11:30 am - 11:30 pm\n3   milk shake (chocolate) (large)                  200 x 2\nmilk shake (banana)                             110 x 1\nTues. to Sun.\n5   chicken sandwich                                100 x 1\n6   chicken sandwich (with cheese)                  120 x 1\n7   cola (no ice)                                    65 x 1\n8   orange juice (no ice)                            90 x 1    Joy Time: 20% off\n9   grape juice                                      95 x 1    2:00 - 4:00 pm\n10                                                              9:30 - 11:30 pm\nTotal Price: $ 1,540\nThank You & Hope to See You Soon!!\nTel: XXX-XXXX                             poster 海報",
+      "passage_md": null,
+      "kind_hint": "single",
+      "footnotes": [],
+      "raw_line_idx": 175
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-104-english-reading-019",
+      "qnum": 19,
+      "stem": "On the order list, Ginny ordered a sandwich with cheese, a fruit milk shake, and a\nfruit drink without ice. How much did she have to pay for her food?",
+      "options": [
+        "$300.",
+        "$320.",
+        "$385.",
+        "$410."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-104-english-reading-passage-19",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 200,
+      "raw_text": "19. On the order list, Ginny ordered a sandwich with cheese, a fruit milk shake, and a\n    fruit drink without ice. How much did she have to pay for her food?\n    (A) $300.\n    (B) $320.\n    (C) $385.\n    (D) $410.\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-104-english-reading-020",
+      "qnum": 20,
+      "stem": "Ginny wants to go to Howell’s Bowl again during Joy Time. When will she possibly\ngo there?",
+      "options": [
+        "11:00 a.m. on Wednesday.",
+        "2:30 p.m. on Monday.",
+        "8:00 p.m. on Friday.",
+        "10:00 p.m. on Thursday."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-104-english-reading-passage-19",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 207,
+      "raw_text": "20. Ginny wants to go to Howell’s Bowl again during Joy Time. When will she possibly\n    go there?\n    (A) 11:00 a.m. on Wednesday.\n    (B) 2:30 p.m. on Monday.\n    (C) 8:00 p.m. on Friday.\n    (D) 10:00 p.m. on Thursday.\n\n\n\n\n"
+    },
+    {
+      "kind": "passage_parent",
+      "key": "cap-104-english-reading-passage-21",
+      "intro_line": "(21-23)",
+      "child_qnums": [
+        21,
+        22,
+        23
+      ],
+      "passage_text": "Below is how four students answered their teacher’s question in class.\nLily: I like shopping and talking to people. I think I can learn how to do business.\nMaybe selling clothes is a good business for me.\nRyan: My hobbies are playing computer games and making friends online. We often\nshare our funny stories by e-mail. I guess I will learn more about computers and\nmake super-smart computer programs.\nBill: My parents have kept lots of pets since I was little. We’ve experienced many\nthings together, good and bad, happy and sad. Those stories have always stayed\nin my mind. One day, I will share them with people by drawing and writing\nbooks.\nAnna: Though my mom and two sisters are all doctors, I’m sure I will stay as far away\nfrom a hospital as I can. I hate being sick, and I’m afraid of seeing sick people\nlooking weak and sad. I’ll keep strong by playing my favorite sport, tennis,\nevery day. One day I’ll join the national team and be another Lu Yen-Hsun.",
+      "passage_md": null,
+      "kind_hint": "single",
+      "footnotes": [],
+      "raw_line_idx": 219
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-104-english-reading-021",
+      "qnum": 21,
+      "stem": "What question did the teacher most likely ask in class?",
+      "options": [
+        "“What do you want to do in the future?”                           likely 可能",
+        "“What’s your plan for the coming vacation?”",
+        "“What do you like to talk about with your friends?”",
+        "“What’s your favorite thing to do with your family?”"
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-104-english-reading-passage-21",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 240,
+      "raw_text": "21. What question did the teacher most likely ask in class?\n    (A) “What do you want to do in the future?”                           likely 可能\n    (B) “What’s your plan for the coming vacation?”\n    (C) “What do you like to talk about with your friends?”\n    (D) “What’s your favorite thing to do with your family?”\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-104-english-reading-022",
+      "qnum": 22,
+      "stem": "What do we know from the reading?",
+      "options": [
+        "Lily is good at making clothes.",
+        "One of Bill’s parents is an animal doctor.",
+        "Ryan enjoys meeting people on the Internet.",
+        "Anna was once very sick and stayed in the hospital for a long time."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-104-english-reading-passage-21",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 246,
+      "raw_text": "22. What do we know from the reading?\n    (A) Lily is good at making clothes.\n    (B) One of Bill’s parents is an animal doctor.\n    (C) Ryan enjoys meeting people on the Internet.\n    (D) Anna was once very sick and stayed in the hospital for a long time.\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-104-english-reading-023",
+      "qnum": 23,
+      "stem": "What does them mean?",
+      "options": [
+        "Pets.",
+        "Books.",
+        "Stories.",
+        "Parents."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-104-english-reading-passage-21",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 252,
+      "raw_text": "23. What does them mean?\n    (A) Pets.\n    (B) Books.\n    (C) Stories.\n    (D) Parents.\n\n\n\n\n"
+    },
+    {
+      "kind": "passage_parent",
+      "key": "cap-104-english-reading-passage-24",
+      "intro_line": "(24-25)",
+      "child_qnums": [
+        24,
+        25
+      ],
+      "passage_text": "Here is the preface of Nick Foster’s new book Married to Food.\nMy mother was lousy at cooking. To her, cooking was more like an\nexciting experiment. You put some of this and some of that in a pot, and you\nwait and see what will happen. “No experiments, no experiences.” is what\nshe would say when her experiment did not turn out good, and I heard that\na lot.\nMy father was a good cook, and he loved to cook, too. He often said that\nhe got my mother to marry him with a table of delicious food, not with a\nbeautiful ring. “A family needs only one good cook,” he said.\nNow I am a cook myself. And I have my own restaurant. I learned how\nto cook from my father, of course. From him, I learned the art of cooking.\nBut I did learn one thing from my mother. It’s her famous saying: “No\nexperiments, no experiences.”\n preface 前言 experiment 實驗",
+      "passage_md": null,
+      "kind_hint": "single",
+      "footnotes": [],
+      "raw_line_idx": 264
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-104-english-reading-024",
+      "qnum": 24,
+      "stem": "What does it mean when someone is lousy at something?",
+      "options": [
+        "They are famous for it.",
+        "They cannot do it well.",
+        "They think it is important.",
+        "They are not interested in it."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-104-english-reading-passage-24",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 288,
+      "raw_text": "24. What does it mean when someone is lousy at something?\n    (A) They are famous for it.\n    (B) They cannot do it well.\n    (C) They think it is important.\n    (D) They are not interested in it.\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-104-english-reading-025",
+      "qnum": 25,
+      "stem": "What can we learn from the preface?",
+      "options": [
+        "How Foster started his own restaurant.",
+        "When Foster’s father married Foster’s mother.",
+        "What Foster’s mother taught him about cooking.",
+        "How Foster learned the art of cooking from his father."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-104-english-reading-passage-24",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 294,
+      "raw_text": "25. What can we learn from the preface?\n    (A) How Foster started his own restaurant.\n    (B) When Foster’s father married Foster’s mother.\n    (C) What Foster’s mother taught him about cooking.\n    (D) How Foster learned the art of cooking from his father.\n\n\n\n\n"
+    },
+    {
+      "kind": "passage_parent",
+      "key": "cap-104-english-reading-passage-26",
+      "intro_line": "(26-27)",
+      "child_qnums": [
+        26,
+        27
+      ],
+      "passage_text": "Here are the rules for a game called “Trip to Dreamland.”\n1. Each player begins at          .\n2. In each turn, first take one of the four cards           to decide how many spaces\nto move:    for one space,   for two spaces,    for three spaces, and     for four\nspaces. Then follow the words next to the      , if there is a     at the place you\narrive at.\n3. The first one who gets to Dreamland wins the game. \nturn 回合 space 步、格",
+      "passage_md": null,
+      "kind_hint": "single",
+      "footnotes": [],
+      "raw_line_idx": 305
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-104-english-reading-026",
+      "qnum": 26,
+      "stem": "Below are the cards which four kids have taken since they began the game. Who\nhas won the game?",
+      "options": [
+        "Anna:     →      →     .",
+        "Kate:   →   →    .",
+        "Billy:    →      →     .",
+        "Ivan:   →   →    ."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-104-english-reading-passage-26",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 318,
+      "raw_text": "26. Below are the cards which four kids have taken since they began the game. Who\n    has won the game?\n    (A) Anna:     →      →     .                 (B) Kate:   →   →    .\n    (C) Billy:    →      →     .                 (D) Ivan:   →   →    .\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-104-english-reading-027",
+      "qnum": 27,
+      "stem": "What can we learn about the game?",
+      "options": [
+        "One can never begin his turn from Lion King.",
+        "The cards can be used to decide who goes first.",
+        "One can never get to Light Church at the first turn.",
+        "The cards can be used to decide where to start the game."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-104-english-reading-passage-26",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 323,
+      "raw_text": "27. What can we learn about the game?\n    (A) One can never begin his turn from Lion King.\n    (B) The cards can be used to decide who goes first.\n    (C) One can never get to Light Church at the first turn.\n    (D) The cards can be used to decide where to start the game.\n\n"
+    },
+    {
+      "kind": "passage_parent",
+      "key": "cap-104-english-reading-passage-28",
+      "intro_line": "(28-31)",
+      "child_qnums": [
+        28,
+        29,
+        30,
+        31
+      ],
+      "passage_text": "The idea may hit you once or twice a year. You come home on a hot summer\nday, hoping to have a cool bath, and find out there is no water.  Then you see how\nimportant water is in your everyday life. However, in many parts of the world, water\nis not just about one’s everyday needs.\nIn countries like Tanzania, water is hard to get, and the job of collecting water\nfalls on women’s shoulders. Girls are often kept home from school to collect water\nwhile their brothers stay at school studying. Studies show Tanzanian girls who live\n15 minutes from clean water spend 12% more time at school than those who live an\nhour away. More time spent collecting water means less time for learning. For these\ngirls, “Knowledge is power” is not just words; it is a sad fact in real life. With less\ntime spent at school, their chances of getting well-paid jobs are small, and they often\nhave no voice in important matters, like who to marry. These girls are often married\ninto poor families. They have little money or knowledge to take care of their children,\nwho often end up dying young. For the baby girls who are lucky enough to live, their\nlife may still center around “water,” just like it did for their mothers.",
+      "passage_md": null,
+      "kind_hint": "single",
+      "footnotes": [],
+      "raw_line_idx": 332
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-104-english-reading-028",
+      "qnum": 28,
+      "stem": "What does The idea mean in the reading?",
+      "options": [
+        "Water is important in one’s everyday life.",
+        "Water is not just about one’s everyday needs.",
+        "It is nice to have a cool bath on a hot summer day.",
+        "We should not take a bath when there is little water."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-104-english-reading-passage-28",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 350,
+      "raw_text": "28. What does The idea mean in the reading?\n    (A) Water is important in one’s everyday life.\n    (B) Water is not just about one’s everyday needs.\n    (C) It is nice to have a cool bath on a hot summer day.\n    (D) We should not take a bath when there is little water.\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-104-english-reading-029",
+      "qnum": 29,
+      "stem": "What is the reading mostly about?",
+      "options": [
+        "Why it is important to save water.",
+        "How water may give a country power.",
+        "How water may play a part in one’s future.",
+        "Why it is hard to get water in poor countries."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-104-english-reading-passage-28",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 356,
+      "raw_text": "29. What is the reading mostly about?\n    (A) Why it is important to save water.\n    (B) How water may give a country power.\n    (C) How water may play a part in one’s future.\n    (D) Why it is hard to get water in poor countries.\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-104-english-reading-030",
+      "qnum": 30,
+      "stem": "What do we know from the reading?",
+      "options": [
+        "Children in poor countries die from drinking dirty water every day.",
+        "Girls who spend little time at school have a harder life when they grow up.",
+        "Girls in countries like Tanzania are often paid less for the same job than the boys are.",
+        "Children from poor families are often kept from school to take care of younger children."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-104-english-reading-passage-28",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 362,
+      "raw_text": "30. What do we know from the reading?\n    (A) Children in poor countries die from drinking dirty water every day.\n    (B) Girls who spend little time at school have a harder life when they grow up.\n    (C) Girls in countries like Tanzania are often paid less for the same job than the boys are.\n    (D) Children from poor families are often kept from school to take care of younger children.\n\n\n\n\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-104-english-reading-031",
+      "qnum": 31,
+      "stem": "Families in the countries of Benin, Ghana, Guinea and Madagascar\ndeal with the job of water-collecting the same way Tanzanian families\n\nchart 圖表\ndo. From the reading, which chart best shows the fact?",
+      "options": [
+        "",
+        "How long people spend getting water                            How long people spend getting water (minutes a day)                                                (minutes a day) 50                                           girls             50                                           girls 40                                           boys              40                                           boys minutes minutes 30                                                             30 20                                                             20 10                                                             10 0                                                             0 %HQLQ   *KDQD     *XLQHD   0DGDJDVFDU                          %HQLQ   *KDQD     *XLQHD   0DGDJDVFDU country                                                        country",
+        "",
+        "How long people spend getting water                            How long people spend getting water (minutes a day)                                                (minutes a day) 50                                           girls             50                                           girls 40                                           boys              40                                           boys minutes minutes 30                                                             30 20                                                             20 10                                                             10 0                                                             0 %HQLQ   *KDQD     *XLQHD   0DGDJDVFDU                          %HQLQ   *KDQD     *XLQHD   0DGDJDVFDU country                                                        country"
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-104-english-reading-passage-28",
+      "flags": [
+        "option_incomplete"
+      ],
+      "parse_confidence": 0.75,
+      "raw_line_idx": 373,
+      "raw_text": "31. Families in the countries of Benin, Ghana, Guinea and Madagascar\n    deal with the job of water-collecting the same way Tanzanian families\n                                                                                                               \n                                                                                                               chart 圖表\n    do. From the reading, which chart best shows the fact?\n\n    (A)\t\t                                                          (B)\n                   How long people spend getting water                            How long people spend getting water\n                             (minutes a day)                                                (minutes a day)\n              50                                           girls             50                                           girls\n              40                                           boys              40                                           boys\n    minutes\n\n\n\n\n                                                                   minutes\n              30                                                             30\n              20                                                             20\n              10                                                             10\n               0                                                             0\n                   %HQLQ   *KDQD     *XLQHD   0DGDJDVFDU                          %HQLQ   *KDQD     *XLQHD   0DGDJDVFDU\n                                   country                                                        country\n\n\n    (C)\t\t                                                          (D)\n                   How long people spend getting water                            How long people spend getting water\n                             (minutes a day)                                                (minutes a day)\n              50                                           girls             50                                           girls\n              40                                           boys              40                                           boys\n    minutes\n\n\n\n\n                                                                   minutes\n\n\n\n              30                                                             30\n              20                                                             20\n              10                                                             10\n               0                                                             0\n                   %HQLQ   *KDQD     *XLQHD   0DGDJDVFDU                          %HQLQ   *KDQD     *XLQHD   0DGDJDVFDU\n                                   country                                                        country\n\n\n\n\n"
+    },
+    {
+      "kind": "passage_parent",
+      "key": "cap-104-english-reading-passage-32",
+      "intro_line": "(32-34)",
+      "child_qnums": [
+        32,
+        33,
+        34
+      ],
+      "passage_text": "(At Liz’s birthday party)\nAmber: Don’t tell me you didn’t go to Garden House.\nKeith: Why would I go there?\nAmber: For Liz’s birthday cake! I left you a voice message this morning!\nKeith:  But you said Matt would go to the bakery! And why did you come here\nwithout me? I was waiting outside your apartment for an hour!\nAmber:   No! I said I’d have lunch with Matt, and we’d come straight here from the\nrestaurant. So I asked you to help get the cake after work.\nKeith: No, you did not! And why didn’t you answer my calls?\nAmber: My cellphone is dead! I said in the message that you could call Matt’s number\nif you wanted to find me.  Now please tell me you did bring the gift we got for Liz.\nKeith: What gift? I’m sure you didn’t say anything about a gift in the message.\nAmber: I told you that yesterday!\n message 留言",
+      "passage_md": null,
+      "kind_hint": "single",
+      "footnotes": [],
+      "raw_line_idx": 425
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-104-english-reading-032",
+      "qnum": 32,
+      "stem": "What is Garden House?",
+      "options": [
+        "A bakery.",
+        "A gift shop.",
+        "A flower shop.",
+        "An apartment."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-104-english-reading-passage-32",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 441,
+      "raw_text": "32. What is Garden House?\n    (A) A bakery.\n    (B) A gift shop.\n    (C) A flower shop.\n    (D) An apartment.\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-104-english-reading-033",
+      "qnum": 33,
+      "stem": "What can we learn about Keith?",
+      "options": [
+        "He forgot to meet Amber and Matt for lunch.",
+        "He did not know how to get to Amber’s apartment.",
+        "He called Amber without knowing her phone was not working.",
+        "He did not know Amber left him a voice message this morning."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-104-english-reading-passage-32",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 447,
+      "raw_text": "33. What can we learn about Keith?\n    (A) He forgot to meet Amber and Matt for lunch.\n    (B) He did not know how to get to Amber’s apartment.\n    (C) He called Amber without knowing her phone was not working.\n    (D) He did not know Amber left him a voice message this morning.\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-104-english-reading-034",
+      "qnum": 34,
+      "stem": "Which sentence was most likely part of the message that Amber left Keith this morning?",
+      "options": [
+        "“Matt and I will go to the party after lunch.”",
+        "“Don’t forget to buy a birthday gift for Liz.”                   likely 可能",
+        "“You can go straight to the party from your office.”",
+        "“I need to talk to you about the party this weekend.”"
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-104-english-reading-passage-32",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 453,
+      "raw_text": "34. Which sentence was most likely part of the message that Amber left Keith this morning?\n    (A) “Matt and I will go to the party after lunch.”\n    (B) “Don’t forget to buy a birthday gift for Liz.”                   likely 可能\n    (C) “You can go straight to the party from your office.”\n    (D) “I need to talk to you about the party this weekend.”\n\n\n\n\n"
+    },
+    {
+      "kind": "passage_parent",
+      "key": "cap-104-english-reading-passage-35",
+      "intro_line": "(35-36)",
+      "child_qnums": [
+        35,
+        36
+      ],
+      "passage_text": "Froggie was a frog who never remembered where he had been.\nHis biggest dream was to find the best pond to swim freely without\nworrying about water snakes. One day, Froggie hopped to a kitchen and\njumped into a pot full of hot water. Froggie felt the burning heat and\nhurried out of the water as fast as his legs could carry him. “I almost\ndied there!” Froggie thought.\nA few days later, Froggie went back to the same kitchen, totally\nforgetting he had been there. He again hopped into the same pot. This\ntime, the water inside was cool. He looked around and thought, “There’s\nno water snake trying to eat me and I can have this place all to myself!”\nAt that moment, Froggie knew it was his dream pond. What he didn’t\nknow was that the water was warming up over a low heat.\nAfter thirty minutes of swimming, Froggie felt the water was\nwarmer but he thought of this as a nice surprise. “This sure is the\nbest place for swimming. I get to have a hot bath, too.” During his\ncomfortable bath, the water kept getting warmer and warmer. Froggie\nwas so comfortable that he fell asleep. And he never woke up.",
+      "passage_md": null,
+      "kind_hint": "single",
+      "footnotes": [],
+      "raw_line_idx": 464
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-104-english-reading-035",
+      "qnum": 35,
+      "stem": "What lesson can we learn from Froggie’s story?",
+      "options": [
+        "Life is too short; one should live it to the fullest.",
+        "Those who use their time well will win in the end.",
+        "People are blind to problems that slowly get worse over time.",
+        "It is difficult to give up old habits, but easy to pick up new ones."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-104-english-reading-passage-35",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 490,
+      "raw_text": "35. What lesson can we learn from Froggie’s story?\n    (A) Life is too short; one should live it to the fullest.\n    (B) Those who use their time well will win in the end.\n    (C) People are blind to problems that slowly get worse over time.\n    (D) It is difficult to give up old habits, but easy to pick up new ones.\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-104-english-reading-036",
+      "qnum": 36,
+      "stem": "What do we know about Froggie?",
+      "options": [
+        "He learned to share what he liked with others.",
+        "He thought what he had hoped for became real.",
+        "He once almost lost a dear friend to a water snake.",
+        "He wanted to go back to the same pot for a hot bath."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-104-english-reading-passage-35",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 496,
+      "raw_text": "36. What do we know about Froggie?\n    (A) He learned to share what he liked with others.\n    (B) He thought what he had hoped for became real.\n    (C) He once almost lost a dear friend to a water snake.\n    (D) He wanted to go back to the same pot for a hot bath.\n\n"
+    },
+    {
+      "kind": "passage_parent",
+      "key": "cap-104-english-reading-passage-37",
+      "intro_line": "(37-40)",
+      "child_qnums": [
+        37,
+        38,
+        39,
+        40
+      ],
+      "passage_text": "These years churches are in a calamitous state. To start with, the number of\nchurch-goers is dropping sharply (see Figure 1). Many say they do not belong to\nany church, and those who do go less often than they used to. Going to church\nappears less and less on people’s to-do list. Another worrying fact is that fewer\nand fewer young people go to church, which leads to an older church (see Figure 2).\nAnd there is also the problem with money. Keeping a church door open is not\ncheap. Fewer people going to church means little money coming in. This makes it\nharder to keep a church open.\nWhen the time comes for a church to close, there is little to do but to sell it.\nChurches that were lucky enough to find a buyer were put to other uses. Some\nwere changed into restaurants or school gyms, and some even became nightclubs,\nfor example. Churches that had little luck were knocked down in the end.\nJust like a store that keeps losing business needs to think of ways to save\nitself, it is perhaps time for the church to try to win people’s hearts back and\nplay an important part in people’s lives again. This is not something that one can\nsimply pray to get an answer to.\nFigure 1                                Figure 2\n12 11                                    60                      54\npercentage (%)\n10        9.6                            50                47       56\n10.2        7.6                           39    41       51\n8                                       40             43\n8.5\nage\n6                          40\n6                 6.8                   30 37\n4.4\n4                       5.2             20\n2                                       10\n0                                        0\n1980 1990 2000 2010 2020                 1980 1990 2000 2010 2020\nyear                                    year\nPercentage (%) of church-goers           Average age of church-goers\nin our country                           in our country\n figure 圖 average 平均",
+      "passage_md": null,
+      "kind_hint": "single",
+      "footnotes": [],
+      "raw_line_idx": 505
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-104-english-reading-037",
+      "qnum": 37,
+      "stem": "What does it mean when someone is in a calamitous state?",
+      "options": [
+        "They have serious trouble.",
+        "They try to change themselves.",
+        "They are looking for a second chance.",
+        "They lost interest in the outside world."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-104-english-reading-passage-37",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 561,
+      "raw_text": "37. What does it mean when someone is in a calamitous state?\n    (A) They have serious trouble.\n    (B) They try to change themselves.\n    (C) They are looking for a second chance.\n    (D) They lost interest in the outside world.\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-104-english-reading-038",
+      "qnum": 38,
+      "stem": "What can we learn about the church-goers from the report?",
+      "options": [
+        "Between 1980 and 2005, few church-goers were younger than 50.",
+        "In 2010, only 6% of church-goers were younger than 50 years old. (C) In 2020, the percentage (%) of church-goers drops to lower than half that in 1980.",
+        "",
+        "Between 1980 and 2020, the rising number of old church-goers has led to an old church."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-104-english-reading-passage-37",
+      "flags": [
+        "option_incomplete"
+      ],
+      "parse_confidence": 0.75,
+      "raw_line_idx": 567,
+      "raw_text": "38. What can we learn about the church-goers from the report?\n    (A) Between 1980 and 2005, few church-goers were younger than 50.\n    (B) In 2010, only 6% of church-goers were younger than 50 years old.\n    (C) In 2020, the percentage (%) of church-goers drops to lower than half that in 1980.\n    (D) Between 1980 and 2020, the rising number of old church-goers has led to an old church.\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-104-english-reading-039",
+      "qnum": 39,
+      "stem": "What is talked about in the report?",
+      "options": [
+        "Where the church’s money goes.",
+        "How people decide to join a church.",
+        "What happens to churches that are closed.",
+        "Why people have stopped going to church."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-104-english-reading-passage-37",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 573,
+      "raw_text": "39. What is talked about in the report?\n    (A) Where the church’s money goes.\n    (B) How people decide to join a church.\n    (C) What happens to churches that are closed.\n    (D) Why people have stopped going to church.\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-104-english-reading-040",
+      "qnum": 40,
+      "stem": "Below are four findings from other reports.  Which does NOT agree with the idea of\nthe report?",
+      "options": [
+        "“Reports show over 90% of church-goers go to church because their fathers do. In the last 20 years, 49% of men under 30 have left the church. That means there’s a 90% chance that their children won’t go to church. This is hard for the church to take in.”",
+        "“Between 2003 and 2010, over 1,000 new churches were built in the country. This may sound like good news. During the same years, however, more than 2,000 were closed.”",
+        "“In the report, 33% of the people that were interviewed say they never go to church and another 33% say they used to. Only 15% go to church at least once a month.” (D) “Of the 15 countries in the report, the percentage (%) of church-goers in some countries, like Denmark, is lower than 10%; in others, like Poland, the percentage is higher than 70%.”",
+        ""
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-104-english-reading-passage-37",
+      "flags": [
+        "option_incomplete"
+      ],
+      "parse_confidence": 0.75,
+      "raw_line_idx": 579,
+      "raw_text": "40. Below are four findings from other reports.  Which does NOT agree with the idea of\n    the report?\n    (A) “Reports show over 90% of church-goers go to church because their fathers do. In\n        the last 20 years, 49% of men under 30 have left the church. That means there’s\n        a 90% chance that their children won’t go to church. This is hard for the church\n        to take in.”\n    (B) “Between 2003 and 2010, over 1,000 new churches were built in the country.\n         This may sound like good news. During the same years, however, more than\n         2,000 were closed.”\n    (C) “In the report, 33% of the people that were interviewed say they never go to\n         church and another 33% say they used to. Only 15% go to church at least once a\n         month.”\n    (D) “Of the 15 countries in the report, the percentage (%) of church-goers in some\n          countries, like Denmark, is lower than 10%; in others, like Poland, the\n         percentage is higher than 70%.”\n\n\n\n\n"
+    }
+  ]
+}

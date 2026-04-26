@@ -1,0 +1,567 @@
+{
+  "paper_slug": "cap-105-math",
+  "exam_id": "cap",
+  "subject_id": "sub-cap-math",
+  "year": 105,
+  "subject": "math",
+  "parser_version": "cap_v0.1",
+  "parsed_at": "2026-04-25T19:26:37+00:00",
+  "source_pdf": "content/sources/_inbox/openclaw-data/cap-rcpet-edu-tw/study/cap/main/questions/by-year/105/105P_Math150DPI.pdf",
+  "source_pdf_sha1": "38269b505e4e",
+  "sections_detected": [
+    {
+      "label": "選擇題",
+      "range": null
+    },
+    {
+      "label": "非選擇題",
+      "range": null
+    },
+    {
+      "label": "選擇題",
+      "range": [
+        1,
+        25
+      ]
+    },
+    {
+      "label": "非選擇題",
+      "range": [
+        1,
+        2
+      ]
+    }
+  ],
+  "passage_count": 0,
+  "question_count": 27,
+  "records": [
+    {
+      "kind": "single",
+      "key": "cap-105-math-001",
+      "qnum": 1,
+      "stem": "x = − 3 ， y = 1 為下列哪一個二元一次方程式的解？",
+      "options": [
+        "x + 2y = −1",
+        "x − 2y = 1",
+        "2x + 3y = 6",
+        "2x − 3y = −6 3 × 算式 [ −5 − (−11) ] ÷ ("
+      ],
+      "section_label": "選擇題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 46,
+      "raw_text": "1.   x = − 3 ， y = 1 為下列哪一個二元一次方程式的解？\n     (A) x + 2y = −1\n     (B) x − 2y = 1\n     (C) 2x + 3y = 6\n     (D) 2x − 3y = −6\n\n\n\n                             3 ×\n     算式 [ −5 − (−11) ] ÷ ("
+    },
+    {
+      "kind": "single",
+      "key": "cap-105-math-001",
+      "qnum": 1,
+      "stem": "如圖 ( 十七 ) ， △ ABC 中 ， AB = AC ， D 點在 BC 上 ， ∠ BAD = 30° ，\n且 ∠ ADC = 60° 。 請完整說明為何 AD = BD 與 CD = 2BD 的理由。\nA\n1 2\n3 4\nB     D             C\n圖 ( 十七 )",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "section_label": "非選擇題",
+      "parent_key": null,
+      "flags": [
+        "needs_image",
+        "option_incomplete",
+        "option_image"
+      ],
+      "parse_confidence": 0.25,
+      "raw_line_idx": 408,
+      "raw_text": "1.   如圖 ( 十七 ) ， △ ABC 中 ， AB = AC ， D 點在 BC 上 ， ∠ BAD = 30° ，\n     且 ∠ ADC = 60° 。 請完整說明為何 AD = BD 與 CD = 2BD 的理由。\n                                                       A\n                                                      1 2\n\n                                                3 4\n                                         B     D             C\n\n                                                圖 ( 十七 )\n\n\n\n\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-105-math-002",
+      "qnum": 2,
+      "stem": "2 4 ) 之值為何？",
+      "options": [
+        "1",
+        "16",
+        "− 3",
+        "−     3"
+      ],
+      "section_label": "選擇題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 56,
+      "raw_text": "2.\n                             2 4 ) 之值為何？\n     (A) 1\n     (B) 16\n     (C) − 3\n     (D) −     3\n\n\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-105-math-002",
+      "qnum": 2,
+      "stem": "如圖 ( 十八 )， 正方形 ABCD 是一張邊長為 12 公分              D          P    C\n的皮革。皮雕師傅想在此皮革兩相鄰的角落分別切下\n△ PDQ 與 △ PCR 後得到一個五邊形 PQABR ，               Q                R\n其中 PD = 2 DQ，PC = RC，且 P、Q、R 三點分別在\nCD、AD、BC 上，如圖 ( 十八 ) 所示。\n(1) 當皮雕師傅切下 △ PDQ 時，若 DQ 長度為 x 公分，           A                B\n請你以 x 表示此時 △ PDQ 的面積。                          圖 ( 十八 )\n(2) 承 (1)，當 x 的值為多少時，五邊形 PQABR 的\n面積最大？請完整說明你的理由並求出答案。\n參考公式：\n 和的平方公式：( a + b ) 2 = a 2 + 2ab + b 2\n差的平方公式：( a − b ) 2 = a 2 − 2ab + b 2\n平方差公式：a 2 − b 2 = ( a + b )( a − b )\n 若直角三角形兩股長為 a、b，斜邊長為 c ，則 c 2 = a 2 + b 2\n 若圓的半徑為 r，圓周率為 π，則圓面積 = π r 2 ，圓周長 = 2 π r\n 若一個等差數列的首項為 a 1，公差為 d，第 n 項為 a n，前 n 項和為 S n，\nn ( a1 + an)\n則 an = a1 + (n − 1) d，Sn =\n−b ± b2 − 4 a c\n 一元二次方程式 ax + bx + c = 0 的解為 x =\n2a",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "section_label": "非選擇題",
+      "parent_key": null,
+      "flags": [
+        "needs_image",
+        "option_incomplete",
+        "option_image"
+      ],
+      "parse_confidence": 0.25,
+      "raw_line_idx": 424,
+      "raw_text": "2.    如圖 ( 十八 )， 正方形 ABCD 是一張邊長為 12 公分              D          P    C\n      的皮革。皮雕師傅想在此皮革兩相鄰的角落分別切下\n      △ PDQ 與 △ PCR 後得到一個五邊形 PQABR ，               Q                R\n      其中 PD = 2 DQ，PC = RC，且 P、Q、R 三點分別在\n      CD、AD、BC 上，如圖 ( 十八 ) 所示。\n      (1) 當皮雕師傅切下 △ PDQ 時，若 DQ 長度為 x 公分，           A                B\n          請你以 x 表示此時 △ PDQ 的面積。                          圖 ( 十八 )\n      (2) 承 (1)，當 x 的值為多少時，五邊形 PQABR 的\n         面積最大？請完整說明你的理由並求出答案。\n\n\n\n\n\n\n參考公式：\n      和的平方公式：( a + b ) 2 = a 2 + 2ab + b 2\n        差的平方公式：( a − b ) 2 = a 2 − 2ab + b 2\n        平方差公式：a 2 − b 2 = ( a + b )( a − b )\n      若直角三角形兩股長為 a、b，斜邊長為 c ，則 c 2 = a 2 + b 2\n      若圓的半徑為 r，圓周率為 π，則圓面積 = π r 2 ，圓周長 = 2 π r\n      若一個等差數列的首項為 a 1，公差為 d，第 n 項為 a n，前 n 項和為 S n，\n                        n ( a1 + an)\n       則 an = a1 + (n − 1) d，Sn =\n                                       −b ± b2 − 4 a c\n      一元二次方程式 ax + bx + c = 0 的解為 x =\n                                            2a\n\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-105-math-003",
+      "qnum": 3,
+      "stem": "計算 ( 2x + 1 )( x − 1 ) − ( x2 + x − 2 ) 的結果，與下列哪一個式子相同？",
+      "options": [
+        "x2 − 2x + 1",
+        "x2 − 2x − 3",
+        "x2 + x − 3",
+        "x2 − 3"
+      ],
+      "section_label": "選擇題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 67,
+      "raw_text": "3.   計算 ( 2x + 1 )( x − 1 ) − ( x2 + x − 2 ) 的結果，與下列哪一個式子相同？\n     (A) x2 − 2x + 1\n     (B) x2 − 2x − 3\n     (C) x2 + x − 3\n     (D) x2 − 3\n\n\n\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-105-math-004",
+      "qnum": 4,
+      "stem": "如圖 ( 一 )，已知扇形 AOB 的半徑為 10 公分，圓心角為 54°，        A           B\n則此扇形面積為多少平方公分？",
+      "options": [
+        "100 π",
+        "20 π 54 °",
+        "15 π",
+        "5 π                                             O 圖(一)"
+      ],
+      "section_label": "選擇題",
+      "parent_key": null,
+      "flags": [
+        "needs_image"
+      ],
+      "parse_confidence": 0.85,
+      "raw_line_idx": 76,
+      "raw_text": "4.   如圖 ( 一 )，已知扇形 AOB 的半徑為 10 公分，圓心角為 54°，        A           B\n     則此扇形面積為多少平方公分？\n     (A) 100 π\n     (B) 20 π\n                                                        54 °\n     (C) 15 π\n     (D) 5 π                                             O\n                                                       圖(一)\n\n\n\n\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-105-math-005",
+      "qnum": 5,
+      "stem": "圖 ( 二 ) 數線上的 A、B、C 三點所表示的數分別為\na、 b、 c 。若 a − b = 3， b − c = 5 ， 且原點 O 與          A    B      C\nA、 B 的距離分別為 4、 1 ，則關於 O 的位置，下列                         圖(二)\n敘述何者正確？",
+      "options": [
+        "在 A 的左邊",
+        "介於 A 、B 之間",
+        "介於 B 、C 之間",
+        "在 C 的右邊"
+      ],
+      "section_label": "選擇題",
+      "parent_key": null,
+      "flags": [
+        "needs_image"
+      ],
+      "parse_confidence": 0.85,
+      "raw_line_idx": 91,
+      "raw_text": "5.   圖 ( 二 ) 數線上的 A、B、C 三點所表示的數分別為\n     a、 b、 c 。若 a − b = 3， b − c = 5 ， 且原點 O 與          A    B      C\n     A、 B 的距離分別為 4、 1 ，則關於 O 的位置，下列                         圖(二)\n     敘述何者正確？\n     (A) 在 A 的左邊\n     (B) 介於 A 、B 之間\n     (C) 介於 B 、C 之間\n     (D) 在 C 的右邊\n\n\n\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-105-math-006",
+      "qnum": 6,
+      "stem": "多項式 77x2 − 13x − 30 可因式分解成 ( 7x + a )( bx + c )，其中 a、 b、c 均為\n整數，求 a + b + c 之值為何？",
+      "options": [
+        "0",
+        "10",
+        "12",
+        "22"
+      ],
+      "section_label": "選擇題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 103,
+      "raw_text": "6.   多項式 77x2 − 13x − 30 可因式分解成 ( 7x + a )( bx + c )，其中 a、 b、c 均為\n     整數，求 a + b + c 之值為何？\n     (A) 0\n     (B) 10\n     (C) 12\n     (D) 22\n\n\n\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-105-math-007",
+      "qnum": 7,
+      "stem": "圖 ( 三 )、圖 ( 四 ) 分別為甲、乙兩班學生參加投籃測驗的投進球數長條圖。\n若甲、乙兩班學生的投進球數的衆數分別為 a、b ；中位數分別為 c、d ，則\n下列關於 a、b、c、d 的大小關係，何者正確？",
+      "options": [
+        "a > b， c > d            Ҙ੤                           Ό੤ ԛኧ ԛኧ",
+        "a > b， c < d 25                       25",
+        "a < b， c > d (!!) (!!) Γ 20                     Γ 20",
+        "a < b， c < d 15                       15 10                       10 5                        5 5 6 7 8 9                    5 6 7 8 9 ‫׫‬຾ౚኧ(ౚ)                      ‫׫‬຾ౚኧ(ౚ) 圖(三)                        圖(四)"
+      ],
+      "section_label": "選擇題",
+      "parent_key": null,
+      "flags": [
+        "needs_image"
+      ],
+      "parse_confidence": 0.85,
+      "raw_line_idx": 113,
+      "raw_text": "7.   圖 ( 三 )、圖 ( 四 ) 分別為甲、乙兩班學生參加投籃測驗的投進球數長條圖。\n     若甲、乙兩班學生的投進球數的衆數分別為 a、b ；中位數分別為 c、d ，則\n     下列關於 a、b、c、d 的大小關係，何者正確？\n     (A) a > b， c > d            Ҙ੤                           Ό੤\n                         ԛኧ\n\n\n\n\n                                                  ԛኧ\n\n\n\n\n     (B) a > b， c < d\n                          25                       25\n     (C) a < b， c > d\n                        (!!)\n\n\n\n\n                                                 (!!)\n\n\n\n\n                        Γ 20                     Γ 20\n     (D) a < b， c < d\n                          15                       15\n                          10                       10\n                           5                        5\n                               5 6 7 8 9                    5 6 7 8 9\n                                ‫׫‬຾ౚኧ(ౚ)                      ‫׫‬຾ౚኧ(ౚ)\n                                 圖(三)                        圖(四)\n\n\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-105-math-008",
+      "qnum": 8,
+      "stem": "如圖 ( 五 )，有一平行四邊形 ABCD 與一正方形 CEFG，其中 E 點在 AD 上。\n若 ∠ ECD = 35°，∠ AEF = 15°，則 ∠ B 的度數為何？",
+      "options": [
+        "50                                           A   E      D",
+        "55                                   F",
+        "70",
+        "75 B              C G 圖(五)"
+      ],
+      "section_label": "選擇題",
+      "parent_key": null,
+      "flags": [
+        "needs_image"
+      ],
+      "parse_confidence": 0.85,
+      "raw_line_idx": 152,
+      "raw_text": "8.   如圖 ( 五 )，有一平行四邊形 ABCD 與一正方形 CEFG，其中 E 點在 AD 上。\n     若 ∠ ECD = 35°，∠ AEF = 15°，則 ∠ B 的度數為何？\n     (A) 50                                           A   E      D\n     (B) 55                                   F\n\n     (C) 70\n     (D) 75\n                                              B              C\n                                                  G\n                                                      圖(五)\n\n\n\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-105-math-009",
+      "qnum": 9,
+      "stem": "小昱和阿帆均從同一本書的第 1 頁開始，逐頁依順序在每一頁上寫一個數。小昱\n在第 1 頁寫 1，且之後每一頁寫的數均為他在前一頁寫的數加 2；阿帆在第 1 頁\n寫 1，且之後每一頁寫的數均為他在前一頁寫的數加 7。若小昱在某頁寫的數為\n101，則阿帆在該頁寫的數為何？",
+      "options": [
+        "350",
+        "351",
+        "356",
+        "358"
+      ],
+      "section_label": "選擇題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 166,
+      "raw_text": "9.   小昱和阿帆均從同一本書的第 1 頁開始，逐頁依順序在每一頁上寫一個數。小昱\n     在第 1 頁寫 1，且之後每一頁寫的數均為他在前一頁寫的數加 2；阿帆在第 1 頁\n     寫 1，且之後每一頁寫的數均為他在前一頁寫的數加 7。若小昱在某頁寫的數為\n     101，則阿帆在該頁寫的數為何？\n     (A) 350\n     (B) 351\n     (C) 356\n     (D) 358\n\n\n\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-105-math-010",
+      "qnum": 10,
+      "stem": "甲箱內有 4 顆球，顏色分別為紅、 黃、 綠、藍；乙箱內有 3 顆球，顏色分別\n為紅、黃、黑。小賴打算同時從甲、乙兩個箱子中各抽出一顆球，若同一箱中\n每球被抽出的機會相等，則小賴抽出的兩顆球顏色相同的機率為何？",
+      "options": [
+        "3",
+        "6",
+        "",
+        ""
+      ],
+      "section_label": "選擇題",
+      "parent_key": null,
+      "flags": [
+        "option_incomplete"
+      ],
+      "parse_confidence": 0.75,
+      "raw_line_idx": 178,
+      "raw_text": "10. 甲箱內有 4 顆球，顏色分別為紅、 黃、 綠、藍；乙箱內有 3 顆球，顏色分別\n     為紅、黃、黑。小賴打算同時從甲、乙兩個箱子中各抽出一顆球，若同一箱中\n     每球被抽出的機會相等，則小賴抽出的兩顆球顏色相同的機率為何？\n     (A) 3\n\n     (B) 6\n\n     (C)\n     (D)\n\n\n\n\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-105-math-011",
+      "qnum": 11,
+      "stem": "坐標平面上有一個二元一次方程式的圖形，此圖形通過 ( − 3 , 0 )、( 0 , − 5 ) 兩點。\n判斷此圖形與下列哪一個方程式的圖形的交點在第三象限？",
+      "options": [
+        "x − 4 = 0",
+        "x + 4 = 0",
+        "y − 4 = 0",
+        "y + 4 = 0"
+      ],
+      "section_label": "選擇題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 200,
+      "raw_text": "11. 坐標平面上有一個二元一次方程式的圖形，此圖形通過 ( − 3 , 0 )、( 0 , − 5 ) 兩點。\n   判斷此圖形與下列哪一個方程式的圖形的交點在第三象限？\n   (A) x − 4 = 0\n   (B) x + 4 = 0\n   (C) y − 4 = 0\n   (D) y + 4 = 0\n\n\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-105-math-012",
+      "qnum": 12,
+      "stem": "如圖 ( 六 )，△ ABC 中， D、E 兩點分別在 AC 、    A\nBC 上， DE 為 BC 的中垂線， BD 為 ∠ ADE\n的角平分線。若 ∠ A = 58°，則 ∠ ABD 的度數為何？                    D",
+      "options": [
+        "58",
+        "59 B              E           C",
+        "61 圖(六)",
+        "62"
+      ],
+      "section_label": "選擇題",
+      "parent_key": null,
+      "flags": [
+        "needs_image"
+      ],
+      "parse_confidence": 0.85,
+      "raw_line_idx": 209,
+      "raw_text": "12. 如圖 ( 六 )，△ ABC 中， D、E 兩點分別在 AC 、    A\n   BC 上， DE 為 BC 的中垂線， BD 為 ∠ ADE\n   的角平分線。若 ∠ A = 58°，則 ∠ ABD 的度數為何？                    D\n   (A) 58\n   (B) 59\n                                        B              E           C\n   (C) 61\n                                                   圖(六)\n   (D) 62\n\n\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-105-math-013",
+      "qnum": 13,
+      "stem": "若一正方形的面積為 20 平方公分，周長為 x 公分，則 x 的值介於下列哪兩個\n整數之間？",
+      "options": [
+        "16，17",
+        "17，18",
+        "18，19",
+        "19，20"
+      ],
+      "section_label": "選擇題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 221,
+      "raw_text": "13. 若一正方形的面積為 20 平方公分，周長為 x 公分，則 x 的值介於下列哪兩個\n   整數之間？\n   (A) 16，17\n   (B) 17，18\n   (C) 18，19\n   (D) 19，20\n\n\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-105-math-014",
+      "qnum": 14,
+      "stem": "如圖 ( 七 )，圓 O 通過五邊形 OABCD 的四個頂點。\n若 ABD = 150°，∠ A = 65°，∠ D = 60°，則 BC 的度數\nO\n為何？\nA                   D",
+      "options": [
+        "25",
+        "40                                          B           C",
+        "50 圖(七)",
+        "55"
+      ],
+      "section_label": "選擇題",
+      "parent_key": null,
+      "flags": [
+        "needs_image"
+      ],
+      "parse_confidence": 0.85,
+      "raw_line_idx": 230,
+      "raw_text": "14. 如圖 ( 七 )，圓 O 通過五邊形 OABCD 的四個頂點。\n   若 ABD = 150°，∠ A = 65°，∠ D = 60°，則 BC 的度數\n                                                           O\n   為何？\n                                               A                   D\n   (A) 25\n   (B) 40                                          B           C\n   (C) 50\n                                                       圖(七)\n   (D) 55\n\n\n\n\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-105-math-015",
+      "qnum": 15,
+      "stem": "圖 ( 八 ) 的六邊形是由甲、乙兩個長方形和丙、丁兩個等腰直角三角形所組成，\n其中甲、乙的面積和等於丙、丁的面積和。若丙的一股長為 2，且丁的面積比\n丙的面積小，則丁的一股長為何？",
+      "options": [
+        "2",
+        "5 圖(八)",
+        "2 − 3",
+        "4 − 2 3"
+      ],
+      "section_label": "選擇題",
+      "parent_key": null,
+      "flags": [
+        "needs_image"
+      ],
+      "parse_confidence": 0.85,
+      "raw_line_idx": 246,
+      "raw_text": "15. 圖 ( 八 ) 的六邊形是由甲、乙兩個長方形和丙、丁兩個等腰直角三角形所組成，\n   其中甲、乙的面積和等於丙、丁的面積和。若丙的一股長為 2，且丁的面積比\n   丙的面積小，則丁的一股長為何？\n   (A) 2\n\n   (B) 5\n                                              圖(八)\n   (C) 2 − 3\n   (D) 4 − 2 3\n\n\n\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-105-math-016",
+      "qnum": 16,
+      "stem": "圖 ( 九 ) 的矩形 ABCD 中， E 點在 CD 上，且 AE < AC 。若 P、Q 兩點分別在\nAD 、 AE 上， AP：PD = 4：1， AQ：QE = 4：1，直線 PQ 交 AC 於 R 點，\n且 Q、R 兩點到 CD 的距離分別為 q、r ，則下列關係何者正確？",
+      "options": [
+        "q < r，QE = RC                      D        E   C",
+        "q < r，QE < RC",
+        "q = r，QE = RC",
+        "q = r，QE < RC A           B 圖(九)"
+      ],
+      "section_label": "選擇題",
+      "parent_key": null,
+      "flags": [
+        "needs_image"
+      ],
+      "parse_confidence": 0.85,
+      "raw_line_idx": 261,
+      "raw_text": "16. 圖 ( 九 ) 的矩形 ABCD 中， E 點在 CD 上，且 AE < AC 。若 P、Q 兩點分別在\n   AD 、 AE 上， AP：PD = 4：1， AQ：QE = 4：1，直線 PQ 交 AC 於 R 點，\n   且 Q、R 兩點到 CD 的距離分別為 q、r ，則下列關係何者正確？\n   (A) q < r，QE = RC                      D        E   C\n   (B) q < r，QE < RC\n   (C) q = r，QE = RC\n   (D) q = r，QE < RC\n                                          A           B\n                                               圖(九)\n\n\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-105-math-017",
+      "qnum": 17,
+      "stem": "已知 a、b、c 為三正整數，且 a、b 的最大公因數為 12，a、c 的最大公因數\n為 18。若 a 介於 50 與 100 之間，則下列敘述何者正確？",
+      "options": [
+        "8 是 a 的因數， 8 是 b 的因數",
+        "8 是 a 的因數， 8 不是 b 的因數",
+        "8 不是 a 的因數， 8 是 c 的因數",
+        "8 不是 a 的因數， 8 不是 c 的因數"
+      ],
+      "section_label": "選擇題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 273,
+      "raw_text": "17. 已知 a、b、c 為三正整數，且 a、b 的最大公因數為 12，a、c 的最大公因數\n   為 18。若 a 介於 50 與 100 之間，則下列敘述何者正確？\n   (A) 8 是 a 的因數， 8 是 b 的因數\n   (B) 8 是 a 的因數， 8 不是 b 的因數\n   (C) 8 不是 a 的因數， 8 是 c 的因數\n   (D) 8 不是 a 的因數， 8 不是 c 的因數\n\n\n\n\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-105-math-018",
+      "qnum": 18,
+      "stem": "如圖 ( 十 )，有一內部裝有水的直圓柱形水桶，桶高 20 公分；另有一直圓柱形的\n實心鐵柱，柱高 30 公分，直立放置於水桶底面上，水桶內的水面高度為 12 公分，\n且水桶與鐵柱的底面半徑比為 2：1。今小賢將鐵柱移至水桶外部，過程中\n水桶內的水量未改變，若不計水桶厚度，則水桶內的水面高度變為多少公分？",
+      "options": [
+        "4.5",
+        "6",
+        "8                                          30",
+        "9                                     20 圖(十)"
+      ],
+      "section_label": "選擇題",
+      "parent_key": null,
+      "flags": [
+        "needs_image"
+      ],
+      "parse_confidence": 0.85,
+      "raw_line_idx": 286,
+      "raw_text": "18. 如圖 ( 十 )，有一內部裝有水的直圓柱形水桶，桶高 20 公分；另有一直圓柱形的\n  實心鐵柱，柱高 30 公分，直立放置於水桶底面上，水桶內的水面高度為 12 公分，\n  且水桶與鐵柱的底面半徑比為 2：1。今小賢將鐵柱移至水桶外部，過程中\n  水桶內的水量未改變，若不計水桶厚度，則水桶內的水面高度變為多少公分？\n  (A) 4.5\n  (B) 6\n  (C) 8                                          30\n  (D) 9                                     20\n\n\n                                                 圖(十)\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-105-math-019",
+      "qnum": 19,
+      "stem": "表 ( 一 ) 為小潔打算在某電信公司購買一支 MAT 手機與搭配一個門號的兩種方案。\n此公司每個月收取通話費與月租費的方式如下：若通話費超過月租費，只收通話費；\n若通話費不超過月租費，只收月租費。若小潔每個月的通話費均為 x 元，x 為 400\n到 600 之間的整數，則在不考慮其他費用並使用兩年的情況下，x 至少為多少\n才會使得選擇乙方案的總花費比甲方案便宜？              表(一)",
+      "options": [
+        "500 ҘБਢ   ΌБਢ (B) 516               ߐဦ‫ޑ‬Дચ຤(ϡ)   400   600 (C) 517               MATЋᐒሽ਱(ϡ) 15000 13000",
+        "",
+        "",
+        "600               ‫ݙ‬ཀ٣໨Ǻа΢Бਢ‫ٿ‬ԃϣόёᡂ‫׳‬Дચ຤ A               D"
+      ],
+      "section_label": "選擇題",
+      "parent_key": null,
+      "flags": [
+        "needs_image",
+        "option_incomplete"
+      ],
+      "parse_confidence": 0.6,
+      "raw_line_idx": 299,
+      "raw_text": "19. 表 ( 一 ) 為小潔打算在某電信公司購買一支 MAT 手機與搭配一個門號的兩種方案。\n  此公司每個月收取通話費與月租費的方式如下：若通話費超過月租費，只收通話費；\n  若通話費不超過月租費，只收月租費。若小潔每個月的通話費均為 x 元，x 為 400\n  到 600 之間的整數，則在不考慮其他費用並使用兩年的情況下，x 至少為多少\n  才會使得選擇乙方案的總花費比甲方案便宜？              表(一)\n  (A) 500\n                                   ҘБਢ   ΌБਢ\n  (B) 516               ߐဦ‫ޑ‬Дચ຤(ϡ)   400   600\n  (C) 517               MATЋᐒሽ਱(ϡ) 15000 13000\n  (D) 600               ‫ݙ‬ཀ٣໨Ǻа΢Бਢ‫ٿ‬ԃϣόёᡂ‫׳‬Дચ຤\n\n\n\n\n                                            A               D"
+    },
+    {
+      "kind": "single",
+      "key": "cap-105-math-020",
+      "qnum": 20,
+      "stem": "如圖 ( 十一 )，以矩形 ABCD 的 A 為圓心，AD 長為半徑\n畫弧，交 AB 於 F 點；再以 C 為圓心，CD 長為半徑畫弧，\n交 AB 於 E 點。若 AD = 5，CD = 3 ，則 EF 的長度為何？   E",
+      "options": [
+        "2                                     F B               C",
+        "3 圖 ( 十一 )",
+        "3",
+        "3"
+      ],
+      "section_label": "選擇題",
+      "parent_key": null,
+      "flags": [
+        "needs_image"
+      ],
+      "parse_confidence": 0.85,
+      "raw_line_idx": 314,
+      "raw_text": "20. 如圖 ( 十一 )，以矩形 ABCD 的 A 為圓心，AD 長為半徑\n  畫弧，交 AB 於 F 點；再以 C 為圓心，CD 長為半徑畫弧，\n  交 AB 於 E 點。若 AD = 5，CD = 3 ，則 EF 的長度為何？   E\n  (A) 2                                     F\n                                            B               C\n  (B) 3\n                                                 圖 ( 十一 )\n  (C) 3\n\n  (D) 3\n\n\n\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-105-math-021",
+      "qnum": 21,
+      "stem": "坐標平面上，某二次函數圖形的頂點為 ( 2 , −1 )，此函數圖形與 x 軸相交於 P、Q\n兩點，且 PQ = 6。若此函數圖形通過 ( 1 , a )、 ( 3 , b )、 ( −1 , c )、 ( −3 , d )\n四點，則 a、b 、c 、d 之值何者為正？",
+      "options": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "section_label": "選擇題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 332,
+      "raw_text": "21. 坐標平面上，某二次函數圖形的頂點為 ( 2 , −1 )，此函數圖形與 x 軸相交於 P、Q\n  兩點，且 PQ = 6。若此函數圖形通過 ( 1 , a )、 ( 3 , b )、 ( −1 , c )、 ( −3 , d )\n  四點，則 a、b 、c 、d 之值何者為正？\n  (A) a\n  (B) b\n  (C) c\n  (D) d\n\n\n\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-105-math-022",
+      "qnum": 22,
+      "stem": "圖 ( 十二 ) 的矩形 ABCD 中， E 為 AB 的中點，有一圓過 C、D、E 三點，\n且此圓分別與 AD、BC 相交於 P、Q 兩點。甲、乙兩人想找到此圓的圓心 O ，\n其作法如下：\n( 甲 ) 作 ∠ DEC 的角平分線 L，作 DE 的中垂線，交 L 於 O 點，則 O 即為所求\n( 乙 ) 連接 PC、QD ，兩線段交於一點 O，則 O 即為所求\n對於甲、乙兩人的作法，下列判斷何者正確？\nA               D",
+      "options": [
+        "兩人皆正確                                            P",
+        "兩人皆錯誤                                        E",
+        "甲正確，乙錯誤                                          Q B                C",
+        "甲錯誤，乙正確 圖 ( 十二 )"
+      ],
+      "section_label": "選擇題",
+      "parent_key": null,
+      "flags": [
+        "needs_image"
+      ],
+      "parse_confidence": 0.85,
+      "raw_line_idx": 343,
+      "raw_text": "22. 圖 ( 十二 ) 的矩形 ABCD 中， E 為 AB 的中點，有一圓過 C、D、E 三點，\n  且此圓分別與 AD、BC 相交於 P、Q 兩點。甲、乙兩人想找到此圓的圓心 O ，\n  其作法如下：\n  ( 甲 ) 作 ∠ DEC 的角平分線 L，作 DE 的中垂線，交 L 於 O 點，則 O 即為所求\n  ( 乙 ) 連接 PC、QD ，兩線段交於一點 O，則 O 即為所求\n  對於甲、乙兩人的作法，下列判斷何者正確？\n                                                   A               D\n  (A) 兩人皆正確                                            P\n  (B) 兩人皆錯誤                                        E\n  (C) 甲正確，乙錯誤                                          Q\n                                                  B                C\n  (D) 甲錯誤，乙正確\n                                                       圖 ( 十二 )\n\n\n\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-105-math-023",
+      "qnum": 23,
+      "stem": "如圖 ( 十三 )，正六邊形 ABCDEF 中， P、 Q 兩點                   A       F\n分 別 為 △ ACF、 △ CEF 的 內 心。 若 AF = 2， 則                    P\nPQ 的長度為何？                                                    Q\nB                 E",
+      "options": [
+        "1",
+        "2",
+        "2 3 − 2                                          C       D (D) 4 − 2 3                                          圖 ( 十三 )",
+        ""
+      ],
+      "section_label": "選擇題",
+      "parent_key": null,
+      "flags": [
+        "needs_image",
+        "option_incomplete"
+      ],
+      "parse_confidence": 0.6,
+      "raw_line_idx": 360,
+      "raw_text": "23. 如圖 ( 十三 )，正六邊形 ABCDEF 中， P、 Q 兩點                   A       F\n  分 別 為 △ ACF、 △ CEF 的 內 心。 若 AF = 2， 則                    P\n  PQ 的長度為何？                                                    Q\n                                                 B                 E\n  (A) 1\n  (B) 2\n  (C) 2 3 − 2                                          C       D\n\n  (D) 4 − 2 3                                          圖 ( 十三 )\n\n\n\n\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-105-math-024",
+      "qnum": 24,
+      "stem": "如圖 ( 十四 )，OP 為一條拉直的細線，A、B 兩點在 OP 上，且 OA：AP = 1：3，\nOB：BP = 3：5。若先固定 B 點，將 OB 摺向 BP，使得 OB 重疊在 BP 上，\n如圖 ( 十五 )，再從圖 ( 十五 ) 的 A 點及與 A 點重疊處一起剪開，使得細線\n分成三段，則此三段細線由小到大的長度比為何？",
+      "options": [
+        "1：1：1     O      A       B                P 圖 ( 十四 )",
+        "1：1：2",
+        "1：2：2 B   A   O        P 圖 ( 十五 )",
+        "1：2：5"
+      ],
+      "section_label": "選擇題",
+      "parent_key": null,
+      "flags": [
+        "needs_image"
+      ],
+      "parse_confidence": 0.85,
+      "raw_line_idx": 376,
+      "raw_text": "24. 如圖 ( 十四 )，OP 為一條拉直的細線，A、B 兩點在 OP 上，且 OA：AP = 1：3，\n  OB：BP = 3：5。若先固定 B 點，將 OB 摺向 BP，使得 OB 重疊在 BP 上，\n  如圖 ( 十五 )，再從圖 ( 十五 ) 的 A 點及與 A 點重疊處一起剪開，使得細線\n  分成三段，則此三段細線由小到大的長度比為何？\n  (A) 1：1：1     O      A       B                P\n                                                    圖 ( 十四 )\n  (B) 1：1：2\n  (C) 1：2：2\n                               B   A   O        P 圖 ( 十五 )\n  (D) 1：2：5\n\n\n\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-105-math-025",
+      "qnum": 25,
+      "stem": "如圖 ( 十六 )，矩形 ABCD 中，M、E、F 三點在 AD 上，N 是矩形兩對角線\n的交點。若 AB = 24，AD = 32，MD = 16，ED = 8，FD = 7，則下列哪一條\n直線是 A、 C 兩點的對稱軸？\nA        M EF D",
+      "options": [
+        "直線 MN",
+        "直線 EN                                         N",
+        "直線 FN",
+        "直線 DN B              C 圖 ( 十六 )"
+      ],
+      "section_label": "選擇題",
+      "parent_key": null,
+      "flags": [
+        "needs_image"
+      ],
+      "parse_confidence": 0.85,
+      "raw_line_idx": 390,
+      "raw_text": "25. 如圖 ( 十六 )，矩形 ABCD 中，M、E、F 三點在 AD 上，N 是矩形兩對角線\n  的交點。若 AB = 24，AD = 32，MD = 16，ED = 8，FD = 7，則下列哪一條\n  直線是 A、 C 兩點的對稱軸？\n                                           A        M EF D\n  (A) 直線 MN\n  (B) 直線 EN                                         N\n  (C) 直線 FN\n  (D) 直線 DN\n                                           B              C\n                                               圖 ( 十六 )\n\n\n\n\n"
+    }
+  ]
+}

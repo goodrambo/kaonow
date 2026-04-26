@@ -1,0 +1,940 @@
+{
+  "paper_slug": "cap-114-english-reading",
+  "exam_id": "cap",
+  "subject_id": "sub-cap-english-reading",
+  "year": 114,
+  "subject": "english-reading",
+  "parser_version": "cap_v0.1",
+  "parsed_at": "2026-04-25T18:39:39+00:00",
+  "source_pdf": "content/sources/_inbox/openclaw-data/cap-rcpet-edu-tw/study/cap/main/questions/by-year/114/114P_English.pdf",
+  "source_pdf_sha1": "dec9486b85ec",
+  "sections_detected": [
+    {
+      "label": "單題",
+      "range": [
+        1,
+        19
+      ]
+    },
+    {
+      "label": "題組",
+      "range": [
+        20,
+        43
+      ]
+    }
+  ],
+  "passage_count": 8,
+  "question_count": 43,
+  "records": [
+    {
+      "kind": "single",
+      "key": "cap-114-english-reading-001",
+      "qnum": 1,
+      "stem": "Look at the picture. A         is flying over the houses.",
+      "options": [
+        "bird",
+        "butterfly",
+        "kite",
+        "plane"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 36,
+      "raw_text": "1.   Look at the picture. A         is flying over the houses.\n     (A) bird\n     (B) butterfly\n     (C) kite\n     (D) plane\n\n\n\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-114-english-reading-002",
+      "qnum": 2,
+      "stem": "When I was a teenager, I was very          .  But now, it’s easier for me to talk to people.",
+      "options": [
+        "happy",
+        "lazy",
+        "popular",
+        "shy"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 45,
+      "raw_text": "2. \t When I was a teenager, I was very          .  But now, it’s easier for me to talk to people.\n     (A) happy            (B) lazy                 (C) popular             (D) shy\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-114-english-reading-003",
+      "qnum": 3,
+      "stem": "Lena doesn’t want to go         with John because she is afraid of water.",
+      "options": [
+        "dancing",
+        "hiking",
+        "sailing",
+        "shopping"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 48,
+      "raw_text": "3. \t Lena doesn’t want to go         with John because she is afraid of water.\n     (A) dancing           (B) hiking            (C) sailing            (D) shopping\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-114-english-reading-004",
+      "qnum": 4,
+      "stem": "Cindy enjoys         her dad read stories to her before bed.",
+      "options": [
+        "to listen to",
+        "listening to",
+        "listen to",
+        "listens to"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 51,
+      "raw_text": "4. \t Cindy enjoys         her dad read stories to her before bed.\n     (A) to listen to      (B) listening to        (C) listen to           (D) listens to\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-114-english-reading-005",
+      "qnum": 5,
+      "stem": "Dad is busy cooking in the kitchen.  Dinner will be            in ten minutes.",
+      "options": [
+        "free",
+        "full",
+        "medium",
+        "ready"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 54,
+      "raw_text": "5. \t Dad is busy cooking in the kitchen.  Dinner will be            in ten minutes.\n     (A) free             (B) full               (C) medium                 (D) ready\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-114-english-reading-006",
+      "qnum": 6,
+      "stem": "There are so many new          in the office.  It’ll take me some time to remember who is\nwho.",
+      "options": [
+        "faces",
+        "ideas",
+        "rules",
+        "tools"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 57,
+      "raw_text": "6. \t There are so many new          in the office.  It’ll take me some time to remember who is\n     who.\n     (A) faces            (B) ideas                (C) rules              (D) tools\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-114-english-reading-007",
+      "qnum": 7,
+      "stem": "I feel like a       .  I was looking for my keys for hours but they have been in my pocket\nthe whole time.",
+      "options": [
+        "fool",
+        "ghost",
+        "king",
+        "stranger"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 61,
+      "raw_text": "7. \t I feel like a       .  I was looking for my keys for hours but they have been in my pocket\n     the whole time.\n     (A) fool               (B) ghost               (C) king               (D) stranger\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-114-english-reading-008",
+      "qnum": 8,
+      "stem": "Mr. and Mrs. Wu have three daughters.  Two are in high school, and        is in\nelementary school.",
+      "options": [
+        "each",
+        "the other",
+        "the one",
+        "the next"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 65,
+      "raw_text": "8. \t Mr. and Mrs. Wu have three daughters.  Two are in high school, and        is in\n     elementary school.\n     (A) each           (B) the other        (C) the one          (D) the next\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-114-english-reading-009",
+      "qnum": 9,
+      "stem": "It is hard for trees to       along this beach because of the strong winds from the sea.",
+      "options": [
+        "blow",
+        "build",
+        "follow",
+        "grow"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 69,
+      "raw_text": "9. \t It is hard for trees to       along this beach because of the strong winds from the sea.\n     (A) blow                (B) build             (C) follow             (D) grow\n\n\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-114-english-reading-010",
+      "qnum": 10,
+      "stem": "Christmas            and I want to visit my aunt abroad.  Do you have any plans yet?",
+      "options": [
+        "came",
+        "comes",
+        "is coming",
+        "was coming"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 75,
+      "raw_text": "10. Christmas            and I want to visit my aunt abroad.  Do you have any plans yet?\n    (A) came                (B) comes              (C) is coming         (D) was coming\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-114-english-reading-011",
+      "qnum": 11,
+      "stem": "Jo won’t be happy if you’re late for his party tonight, so      sure that you arrive on time.",
+      "options": [
+        "make",
+        "makes",
+        "to make",
+        "is making"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 78,
+      "raw_text": "11.   Jo won’t be happy if you’re late for his party tonight, so      sure that you arrive on time.  \n      (A) make              (B) makes                (C) to make          (D) is making\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-114-english-reading-012",
+      "qnum": 12,
+      "stem": "You may have a long drive because of the terrible       .  There are usually a lot of cars\nand buses during this time.",
+      "options": [
+        "experience",
+        "machine",
+        "service",
+        "traffic"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 81,
+      "raw_text": "12. You may have a long drive because of the terrible       .  There are usually a lot of cars\n    and buses during this time.\n    (A) experience         (B) machine          (C) service           (D) traffic\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-114-english-reading-013",
+      "qnum": 13,
+      "stem": "In the future, there will         be greater basketball players than Stephen Curry, but now\nwe believe he is the best!",
+      "options": [
+        "again",
+        "already",
+        "never",
+        "perhaps"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 85,
+      "raw_text": "13. In the future, there will         be greater basketball players than Stephen Curry, but now\n    we believe he is the best!\n    (A) again               (B) already            (C) never              (D) perhaps\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-114-english-reading-014",
+      "qnum": 14,
+      "stem": "I guess the rainwater has come in from the kitchen.  See?           of the windows are closed\nexcept the one in the kitchen.",
+      "options": [
+        "All",
+        "Both",
+        "Most",
+        "Some"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 89,
+      "raw_text": "14. I guess the rainwater has come in from the kitchen.  See?           of the windows are closed\n    except the one in the kitchen.\n    (A) All                (B) Both              (C) Most                 (D) Some\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-114-english-reading-015",
+      "qnum": 15,
+      "stem": "machines have been used to pick fruits for a long time, they were not used on\nstrawberry farms until several years ago.",
+      "options": [
+        "Although",
+        "Because",
+        "Before",
+        "If"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 93,
+      "raw_text": "15.\t        machines have been used to pick fruits for a long time, they were not used on\n    strawberry farms until several years ago.\n    (A) Although          (B) Because          (C) Before              (D) If\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-114-english-reading-016",
+      "qnum": 16,
+      "stem": "There are online videos that teach you exercises you can do at home.  They’ll            you a\ntrip to the gym, and some money too.",
+      "options": [
+        "cost",
+        "give",
+        "keep",
+        "save"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 97,
+      "raw_text": "16. There are online videos that teach you exercises you can do at home.  They’ll            you a\n    trip to the gym, and some money too.\n    (A) cost               (B) give              (C) keep             (D) save\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-114-english-reading-017",
+      "qnum": 17,
+      "stem": "Jane’s parents are always happy to see their grandchildren, but mine        less so when I\nvisit them with my kids.",
+      "options": [
+        "is",
+        "are",
+        "do",
+        "does"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 101,
+      "raw_text": "17.   Jane’s parents are always happy to see their grandchildren, but mine        less so when I\n      visit them with my kids.\n      (A) is                 (B) are                (C) do               (D) does\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-114-english-reading-018",
+      "qnum": 18,
+      "stem": "Before she           about it, you should tell Daphne you broke her favorite cup.",
+      "options": [
+        "asks",
+        "asked",
+        "was asking",
+        "will ask"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 105,
+      "raw_text": "18. Before she           about it, you should tell Daphne you broke her favorite cup.\n    (A) asks                (B) asked               (C) was asking        (D) will ask\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-114-english-reading-019",
+      "qnum": 19,
+      "stem": "It was very windy this morning.   Some of the shirts on the balcony were blown away\nin the pond.",
+      "options": [
+        "fell",
+        "and fell",
+        "fallen",
+        "and fallen"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 108,
+      "raw_text": "19. It was very windy this morning.   Some of the shirts on the balcony were blown away\n             in the pond.\n    (A) fell              (B) and fell       (C) fallen            (D) and fallen\n\n\n\n\n"
+    },
+    {
+      "kind": "passage_parent",
+      "key": "cap-114-english-reading-passage-20",
+      "intro_line": "(20-21)",
+      "child_qnums": [
+        20,
+        21
+      ],
+      "passage_text": "Rex is a dog that lives at the bakery next to our school.  He is cute and friendly.\nEvery morning, he stands in front of the school to welcome everybody.  We all see Rex\nas one of us.  But one Monday morning, I was surprised that Rex was not there to say\nhello to us.  “Rex is in the hospital.  He was hit by a car last night,” my classmate told me.\nWe went to see Rex in the hospital that day after school.  Two weeks later, Rex was much\nbetter, and we decided to take him for a walk every evening.  Because of the exercise, Rex\nbecame healthier and stronger.  Soon he could happily run and jump again.  He is now as\nhandsome and strong as before!",
+      "passage_md": null,
+      "kind_hint": "single",
+      "footnotes": [],
+      "raw_line_idx": 120
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-114-english-reading-020",
+      "qnum": 20,
+      "stem": "What happened to Rex?",
+      "options": [
+        "He got lost.",
+        "He got hurt.",
+        "He bit people.",
+        "He ate too much."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-114-english-reading-passage-20",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 134,
+      "raw_text": "20. What happened to Rex?\n    (A) He got lost.\n    (B) He got hurt.\n    (C) He bit people.\n    (D) He ate too much.\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-114-english-reading-021",
+      "qnum": 21,
+      "stem": "How did the writer help Rex?",
+      "options": [
+        "By calling the police.",
+        "By making him exercise.",
+        "By taking him to see a doctor.",
+        "By looking for a new home for him."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-114-english-reading-passage-20",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 140,
+      "raw_text": "21.     How did the writer help Rex?\n        (A) By calling the police.\n        (B) By making him exercise.\n        (C) By taking him to see a doctor.\n        (D) By looking for a new home for him.\n\n\n\n\n"
+    },
+    {
+      "kind": "passage_parent",
+      "key": "cap-114-english-reading-passage-22",
+      "intro_line": "(22-23)",
+      "child_qnums": [
+        22,
+        23
+      ],
+      "passage_text": "",
+      "passage_md": null,
+      "kind_hint": "single",
+      "footnotes": [],
+      "raw_line_idx": 151
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-114-english-reading-022",
+      "qnum": 22,
+      "stem": "What do we know about Mark from the dialogue?",
+      "options": [
+        "He made Linda unhappy.",
+        "He is looking for a new job.",
+        "He did not like Linda’s cake.",
+        "He is getting married to Jenny."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-114-english-reading-passage-22",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 156,
+      "raw_text": "22. What do we know about Mark from the dialogue?\n    (A) He made Linda unhappy.\n    (B) He is looking for a new job.\n    (C) He did not like Linda’s cake.\n    (D) He is getting married to Jenny.\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-114-english-reading-023",
+      "qnum": 23,
+      "stem": "Which is most likely an example of stealing someone＇     s thunder?           likely 可能",
+      "options": [
+        "Dennis never changes his mind except when his wife tells him to.",
+        "Melisa tells Tom she’ll go to the party but tells her mom she’ll stay home.",
+        "Jeff tells everyone he’ll move abroad when Ivy is still telling them about her baby.",
+        "\u0007Alisa says she doesn’t care what we have for lunch but also doesn’t like the restaurant we chose."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-114-english-reading-passage-22",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 162,
+      "raw_text": "23. Which is most likely an example of stealing someone＇     s thunder?           likely 可能\n    (A) Dennis never changes his mind except when his wife tells him to.\n    (B) Melisa tells Tom she’ll go to the party but tells her mom she’ll stay home.\n    (C) Jeff tells everyone he’ll move abroad when Ivy is still telling them about her baby.\n    (D) \u0007Alisa says she doesn’t care what we have for lunch but also doesn’t like the restaurant\n        we chose.\n\n"
+    },
+    {
+      "kind": "passage_parent",
+      "key": "cap-114-english-reading-passage-24",
+      "intro_line": "(24-25)",
+      "child_qnums": [
+        24,
+        25
+      ],
+      "passage_text": "Buy a White Lake City Card When You’re in the City\n With any of the Cards, you can\n- visit the city by metro, bus, or train as many times as you want. *\n- take one child under 12 with you for free.\n- save 20% on tickets to public museums.\n \u0007The 1-day, 3-day, and 5-day Cards are for trips from Monday to Friday, and the\nWeekend Card is for trips on weekends and holidays.\n Check the map and buy the right Card for the zones you’ll be entering.\nCard    Zone 1 Zones 1-2          Zones 1-3\n1-day     $20           $40         $60\n3-day     $40           $60         $80\n5-day     $50           $80         $110\nWeekend        $30           $50         $80\n* The Cards are only for trips inside the three zones.\nⓐ White Lake Main Station\nⓑ Museum of White Lake City History\nⓒ Museum of Modern Art\nⓓ White Lake\nⓔ White Lake Castle\nⓕ White Lake Airport\n zone 區",
+      "passage_md": null,
+      "kind_hint": "single",
+      "footnotes": [],
+      "raw_line_idx": 172
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-114-english-reading-024",
+      "qnum": 24,
+      "stem": "What can you do with a White Lake City Card?",
+      "options": [
+        "Save 20% on children’s train tickets.",
+        "Visit any public museum in the city for free.",
+        "Take a train to places out of the three zones.",
+        "Move around the city by metro as much as you want."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-114-english-reading-passage-24",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 200,
+      "raw_text": "24. What can you do with a White Lake City Card?\n    (A) Save 20% on children’s train tickets.   \n    (B) Visit any public museum in the city for free.  \n    (C) Take a train to places out of the three zones.  \n    (D) Move around the city by metro as much as you want.  \n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-114-english-reading-025",
+      "qnum": 25,
+      "stem": "Stacy is going to White Lake City and is staying at a hotel near the White Lake Main\nStation.  She wants to visit the Museum of White Lake City History on Friday and see\nWhite Lake on Saturday.  If she plans to buy (a) White Lake City Card(s), which of the four\nchoices will be best for her and cost her the least?",
+      "options": [
+        "A 3-day Card for Zone 1.",
+        "A Weekend Card for Zones 1-3.",
+        "A 1-day Card for Zone 1 and a Weekend Card for Zones 1-2.",
+        "A 1-day Card for Zones 1-2 and a Weekend Card for Zones 1-2."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-114-english-reading-passage-24",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 206,
+      "raw_text": "25. Stacy is going to White Lake City and is staying at a hotel near the White Lake Main\n    Station.  She wants to visit the Museum of White Lake City History on Friday and see\n    White Lake on Saturday.  If she plans to buy (a) White Lake City Card(s), which of the four\n    choices will be best for her and cost her the least?\n    (A) A 3-day Card for Zone 1.\n    (B) A Weekend Card for Zones 1-3.\n    (C) A 1-day Card for Zone 1 and a Weekend Card for Zones 1-2.\n    (D) A 1-day Card for Zones 1-2 and a Weekend Card for Zones 1-2.\n"
+    },
+    {
+      "kind": "passage_parent",
+      "key": "cap-114-english-reading-passage-26",
+      "intro_line": "(26-28)",
+      "child_qnums": [
+        26,
+        27,
+        28
+      ],
+      "passage_text": "At 5 o’clock every morning, while most people are sleeping,\n16-year-old Libby Larson is already up.  She mops the floor, gets\nthe mail and the newspapers, and gets ready for visitors to Rolling\nAcres.   Libby’s grandparents started Rolling Acres in 1970, and\nsince then all of the Larson family have been working there.\nRolling Acres used to be just a sheep farm, but now, with its fruit\ntrees, vegetable gardens, and many other kinds of animals, it has\nbecome a popular place for families to go on vacation.  Visitors can\npick fruits, collect eggs, and feed the animals.  It is one of Libby’s\njobs to show kids how to feed the baby sheep.\nFor her work, Libby is paid $10 an hour.  This summer, she expects to make about $1,200\nand plans to buy a cell phone.  Her friends think it’s great to make that much money in a\nsummer.  However, for Libby, working at a family business also means making sacrifices.\n“I’d love to sleep until noon or go to summer camp like other kids.  My friends stopped\ninviting me on trips because I’m always busy in the summer.”  However, Libby also said,\n“But it’s better to see both sides.  Working with your family is great.  You feel closer to\neach other.”",
+      "passage_md": null,
+      "kind_hint": "single",
+      "footnotes": [],
+      "raw_line_idx": 216
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-114-english-reading-026",
+      "qnum": 26,
+      "stem": "What is Rolling Acres?",
+      "options": [
+        "A zoo.",
+        "A campground.",
+        "A vacation farm.",
+        "A family restaurant."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-114-english-reading-passage-26",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 237,
+      "raw_text": "26. What is Rolling Acres?\n    (A) A zoo.\n    (B) A campground.\n    (C) A vacation farm.\n    (D) A family restaurant.\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-114-english-reading-027",
+      "qnum": 27,
+      "stem": "What do we learn from the first paragraph?                             paragraph 段落",
+      "options": [
+        "What Libby does at Rolling Acres.",
+        "What visitors think of Rolling Acres.",
+        "Why Libby’s grandparents started Rolling Acres.",
+        "What the Larson family’s plans are for Rolling Acres."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-114-english-reading-passage-26",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 243,
+      "raw_text": "27. What do we learn from the first paragraph?                             paragraph 段落\n    (A) What Libby does at Rolling Acres.\n    (B) What visitors think of Rolling Acres.\n    (C) Why Libby’s grandparents started Rolling Acres.\n    (D) What the Larson family’s plans are for Rolling Acres.\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-114-english-reading-028",
+      "qnum": 28,
+      "stem": "What does making sacrifices mean?",
+      "options": [
+        "Learning to make money and use it wisely.",
+        "Getting to know different sides of your family.",
+        "Making excuses for failing to do something difficult.",
+        "Giving up something important to do something else."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-114-english-reading-passage-26",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 249,
+      "raw_text": "28. What does making sacrifices mean?\n    (A) Learning to make money and use it wisely.\n    (B) Getting to know different sides of your family.\n    (C) Making excuses for failing to do something difficult.\n    (D) Giving up something important to do something else.\n\n\n\n\n"
+    },
+    {
+      "kind": "passage_parent",
+      "key": "cap-114-english-reading-passage-29",
+      "intro_line": "(29-31)",
+      "child_qnums": [
+        29,
+        30,
+        31
+      ],
+      "passage_text": "Around the year 400, people came to Easter Island.\nSo many trees here!\nIn their free time, they loved\nThey used trees to make fire and                  making statues with big rocks. With\nbuild houses. Because of the trees,               the trees they cut down, they could\npeople had a great life on the island.            move the statues around easily.\nTrees were needed and used in every part of their life.\nYears passed, and there were fewer and fewer trees on Easter Island.\nWithout enough trees to keep                                 And I’m hungry.\nwater under the ground, the land              I’m thirsty.\nbecame dry, and plants didn’t grow.\nPeople began to fight for water and food. The statues were moved to fighting\ngrounds to show their power. The last trees were probably cut down at this time.\nThose who cut down                               Let’s not make Earth, our only home,\nthe last trees surely                            another Easter Island.\nunderstood how\nimportant trees were\nto them—but still,\nthey did it. When the\nlast trees fell to the\nground, people on the\nisland fell, too.",
+      "passage_md": null,
+      "kind_hint": "single",
+      "footnotes": [],
+      "raw_line_idx": 261
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-114-english-reading-029",
+      "qnum": 29,
+      "stem": "What do the comics tell us?",
+      "options": [
+        "Enjoy life while we can.",
+        "Follow the old ways of life.",
+        "Save our planet before it’s too late.",
+        "Treat others the way we want to be treated."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-114-english-reading-passage-29",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 314,
+      "raw_text": "29. What do the comics tell us?\n    (A) Enjoy life while we can.\n    (B) Follow the old ways of life.\n    (C) Save our planet before it’s too late.\n    (D) Treat others the way we want to be treated.\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-114-english-reading-030",
+      "qnum": 30,
+      "stem": "What can we learn about the people in the comics?",
+      "options": [
+        "They made fire before starting a fight.",
+        "They fought for land and plants all the time.",
+        "They prayed to the statues beside a large fire.",
+        "They used statues to show how strong they were."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-114-english-reading-passage-29",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 320,
+      "raw_text": "30. What can we learn about the people in the comics?\n    (A) They made fire before starting a fight.\n    (B) They fought for land and plants all the time.\n    (C) They prayed to the statues beside a large fire.\n    (D) They used statues to show how strong they were.\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-114-english-reading-031",
+      "qnum": 31,
+      "stem": "What does did it in Picture 7 mean?",
+      "options": [
+        "Fall to the ground.",
+        "Cut down the last trees.",
+        "Move the statues to fighting grounds.",
+        "Understand how important trees were."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-114-english-reading-passage-29",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 326,
+      "raw_text": "31.    What does did it in Picture 7 mean?\n       (A) Fall to the ground.\n       (B) Cut down the last trees.\n       (C) Move the statues to fighting grounds.\n       (D) Understand how important trees were.\n\n\n\n\n"
+    },
+    {
+      "kind": "passage_parent",
+      "key": "cap-114-english-reading-passage-32",
+      "intro_line": "(32-34)",
+      "child_qnums": [
+        32,
+        33,
+        34
+      ],
+      "passage_text": "Many years ago, Dan Ariely bought a cabinet from IKEA.  IKEA is a\nfamous furniture store that sells boxes of furniture parts.  People who\nbuy them have to put all the parts together themselves.  It took Ariely hours to build\nhis cabinet.  Ariely didn’t really enjoy himself when he was trying to put all the parts\ntogether.  However, after he finished, he felt quite good about himself and his cabinet.\nLater, he found that he loved his cabinet more than any of his other furniture.\nAriely wanted to know if anyone shared his feelings, so he did\na fun origami study.  He invited two groups of people to join his\nstudy.  He called one group “builders” and the other group “buyers.”\nBuilders were told to make origami, like paper frogs or paper birds.  When they\nfinished, they were asked how much they would spend on their works.  Ariely then\nshowed the origami to buyers and asked them how much they would pay for them.\nThe two groups gave very different answers.  Though buyers would pay only five\ncents for builders’ origami, builders would spend 25 cents!  Interestingly, builders\nbelieved others would think their works were good enough to cost that much money!\nAriely’s study showed that he was not alone in his IKEA experience — we just love\nthings more, sometimes blindly, when we make them ourselves.  Ariely called it “the\nIKEA effect.”\n effect 效應          furniture 家具",
+      "passage_md": null,
+      "kind_hint": "single",
+      "footnotes": [],
+      "raw_line_idx": 338
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-114-english-reading-032",
+      "qnum": 32,
+      "stem": "What did Ariely try to find out in the origami study?",
+      "options": [
+        "If he could stop the IKEA effect.",
+        "Why people love making origami.",
+        "Why IKEA furniture is so famous.",
+        "If anyone shared his IKEA experience."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-114-english-reading-passage-32",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 369,
+      "raw_text": "32. What did Ariely try to find out in the origami study?\n    (A) If he could stop the IKEA effect.\n    (B) Why people love making origami.\n    (C) Why IKEA furniture is so famous.\n    (D) If anyone shared his IKEA experience.\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-114-english-reading-033",
+      "qnum": 33,
+      "stem": "Which is true about the origami study?",
+      "options": [
+        "Buyers would spend less on builders’ origami than builders would.",
+        "Builders and buyers needed to decide a price on the origami they made.",
+        "Builders knew others would not pay as much for the origami as they would.",
+        "Buyers would spend more on builders’ origami after knowing how they were made."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-114-english-reading-passage-32",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 375,
+      "raw_text": "33. Which is true about the origami study?\n    (A) Buyers would spend less on builders’ origami than builders would.\n    (B) Builders and buyers needed to decide a price on the origami they made.\n    (C) Builders knew others would not pay as much for the origami as they would.\n    (D) Buyers would spend more on builders’ origami after knowing how they were made.\n\n\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-114-english-reading-034",
+      "qnum": 34,
+      "stem": "Jerry just can’t get his daughter Mia to eat more vegetables at dinner.  Every time he tries\nto do so, there is always a lot of shouting and crying.  If Jerry wants to have Mia eat more\nvegetables by using the IKEA effect, what should he do?",
+      "options": [
+        "Tell Mia that he cooks the vegetables just for her.",
+        "Ask Mia to help him cook vegetables for her meal.",
+        "Give Mia her favorite candy after she eats vegetables.",
+        "Ask Mia what vegetables she likes and cook them for her."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-114-english-reading-passage-32",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 384,
+      "raw_text": "34. Jerry just can’t get his daughter Mia to eat more vegetables at dinner.  Every time he tries\n    to do so, there is always a lot of shouting and crying.  If Jerry wants to have Mia eat more\n    vegetables by using the IKEA effect, what should he do?\n    (A) Tell Mia that he cooks the vegetables just for her.\n    (B) Ask Mia to help him cook vegetables for her meal.\n    (C) Give Mia her favorite candy after she eats vegetables.\n    (D) Ask Mia what vegetables she likes and cook them for her.\n\n\n\n\n"
+    },
+    {
+      "kind": "passage_parent",
+      "key": "cap-114-english-reading-passage-35",
+      "intro_line": "(35-37)",
+      "child_qnums": [
+        35,
+        36,
+        37
+      ],
+      "passage_text": "In the picture is a UK electricity worker in the 1970s.  Pictures like this appeared in\nmany newspapers at the time.  In 1972, electricity workers in the UK asked to be paid more,\nand they decided to stop working until their wish was answered.  The government worried\nthat there wouldn’t be enough electricity for the country if these workers didn’t go to work,\nso it agreed to give them the pay rise.  However, the story didn’t end there.\nA year later, the electricity workers asked for another pay rise.  To get what they\nwanted, they worked shorter hours and acted like they would walk away from their job\nanytime.  But this time, the government decided to fight.  To save electricity, it made new\nrules for people to follow.  For example, each family could turn on the heat in only one\nroom; TV stations had to stop their shows at 10:30 p.m.; businesses could open only three\ndays a week.\nPeople’s lives were greatly changed.  Without enough heat to keep the house warm,\npeople covered themselves in blankets all the time.  Hospitals had to use candles because\nthey couldn’t keep all the lights on.  Factories couldn’t keep their machines working.  Many\npeople lost their jobs.   For months, people were paying the price while the electricity\nworkers were fighting for their wish.  In the end, the government agreed to the second pay\nrise.  This picture shows what many people thought of the electricity workers during the\n“dark” time.\n electricity 電力 government 政府",
+      "passage_md": null,
+      "kind_hint": "single",
+      "footnotes": [],
+      "raw_line_idx": 398
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-114-english-reading-035",
+      "qnum": 35,
+      "stem": "What is the reading mainly about?",
+      "options": [
+        "The tips on using a picture to tell a story.",
+        "The change that electricity brought to people’s lives.",
+        "The history behind the picture of a UK electricity worker.",
+        "The story of a famous UK electricity worker from the 1970s."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-114-english-reading-passage-35",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 423,
+      "raw_text": "35. What is the reading mainly about?\n    (A) The tips on using a picture to tell a story.\n    (B) The change that electricity brought to people’s lives.\n    (C) The history behind the picture of a UK electricity worker.\n    (D) The story of a famous UK electricity worker from the 1970s.\n\n\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-114-english-reading-036",
+      "qnum": 36,
+      "stem": "In the UK in the 1970s, what did people most likely think of the UK electricity workers?",
+      "options": [
+        "They were not brave enough to fix their problems.",
+        "They worked like robots and never learned to change.                   likely 可能",
+        "They were asking too much and did not know when to stop.",
+        "They did not care whether their job might hurt people’s health."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-114-english-reading-passage-35",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 432,
+      "raw_text": "36. In the UK in the 1970s, what did people most likely think of the UK electricity workers?\n    (A) They were not brave enough to fix their problems.\n    (B) They worked like robots and never learned to change.                   likely 可能\n    (C) They were asking too much and did not know when to stop.\n    (D) They did not care whether their job might hurt people’s health.\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-114-english-reading-037",
+      "qnum": 37,
+      "stem": "Why does the writer put the “ ” mark around the word dark in the last sentence?",
+      "options": [
+        "To say that the “dark” time was actually not dark.",
+        "To tell people that the word was said by the government.",
+        "To mean both the days without lights and the difficult lives people lived.",
+        "To show that the government and the electricity workers both lost their fights."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-114-english-reading-passage-35",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 438,
+      "raw_text": "37.   Why does the writer put the “ ” mark around the word dark in the last sentence?\n      (A) To say that the “dark” time was actually not dark.\n      (B) To tell people that the word was said by the government.\n      (C) To mean both the days without lights and the difficult lives people lived.\n      (D) To show that the government and the electricity workers both lost their fights.\n\n\n\n\n"
+    },
+    {
+      "kind": "passage_parent",
+      "key": "cap-114-english-reading-passage-38",
+      "intro_line": "(38-43)",
+      "child_qnums": [
+        38,
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "passage_text": "Most kids want gifts from their parents on their birthdays, but Cameron doesn’t.  On his\nbirthday, he gives his mom a gift.  He 38 doing this in his first year of junior high\nschool.  That year, during one class, he watched a video about how a baby is pushed from its\nmother’s body.  After class, 39 .  How brave a woman is to have a baby!  Thank God I’ll\nnever have to do that!\nWhen Cameron came home that day, he held his mom in his arms for a long time.  He\ndecided that his birthday 40 .  During those nine months inside his mom, he just ate and\nslept while his mom was doing all the hard work.  So why should he get a birthday gift for\ndoing nothing?  If anyone should get a gift on his birthday, it should be his mom.\nThe 41 “birthday gift” Cameron prepared was a bag of cookies he baked.  The cookies\ntasted so bad, but his mom said they were the best thing she ever got.  Hearing that 42 .\nIt was so much better than getting a gift.  Now, on his birthday every year, Cameron makes\na gift for his mother to thank her for giving him life.\nThis year, Cameron 43 his mom a nice dress.  A few months ago, he learned to make\ndresses at school and decided to make one for his mom.  Now the dress is finished and\nhanging behind Cameron’s bedroom door.  He believes the gift will tell his mother how\nmuch he loves her.",
+      "passage_md": null,
+      "kind_hint": "single",
+      "footnotes": [],
+      "raw_line_idx": 450
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-114-english-reading-038",
+      "qnum": 38,
+      "stem": "(A) starts             (B) started              (C) has started      (D) will start",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-114-english-reading-passage-38",
+      "flags": [
+        "option_incomplete",
+        "option_image"
+      ],
+      "parse_confidence": 0.4,
+      "raw_line_idx": 473,
+      "raw_text": "38. (A) starts             (B) started              (C) has started      (D) will start\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-114-english-reading-039",
+      "qnum": 39,
+      "stem": "(A) he got quite scared of two things",
+      "options": [
+        "",
+        "he still couldn’t understand two things",
+        "he couldn’t stop thinking about two things",
+        "he did two things that would change his life"
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-114-english-reading-passage-38",
+      "flags": [
+        "option_incomplete"
+      ],
+      "parse_confidence": 0.75,
+      "raw_line_idx": 475,
+      "raw_text": "39. (A) he got quite scared of two things\n    (B) he still couldn’t understand two things\n    (C) he couldn’t stop thinking about two things\n    (D) he did two things that would change his life\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-114-english-reading-040",
+      "qnum": 40,
+      "stem": "(A) should be spent helping his mom",
+      "options": [
+        "",
+        "should be a time of welcoming a new start",
+        "should not be about him, but about his mom",
+        "should not be celebrated for just one day, but for nine months"
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-114-english-reading-passage-38",
+      "flags": [
+        "option_incomplete"
+      ],
+      "parse_confidence": 0.75,
+      "raw_line_idx": 480,
+      "raw_text": "40. (A) should be spent helping his mom\n    (B) should be a time of welcoming a new start\n    (C) should not be about him, but about his mom\n    (D) should not be celebrated for just one day, but for nine months\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-114-english-reading-041",
+      "qnum": 41,
+      "stem": "(A) first              (B) last                 (C) only             (D) other",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-114-english-reading-passage-38",
+      "flags": [
+        "option_incomplete",
+        "option_image"
+      ],
+      "parse_confidence": 0.4,
+      "raw_line_idx": 485,
+      "raw_text": "41. (A) first              (B) last                 (C) only             (D) other\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-114-english-reading-042",
+      "qnum": 42,
+      "stem": "(A) made his head hurt                          (B) made his heart sing",
+      "options": [
+        "",
+        "",
+        "made him change his mind",
+        "made him give up baking"
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-114-english-reading-passage-38",
+      "flags": [
+        "option_incomplete"
+      ],
+      "parse_confidence": 0.75,
+      "raw_line_idx": 487,
+      "raw_text": "42. (A) made his head hurt                          (B) made his heart sing\n    (C) made him change his mind \t                  (D) made him give up baking\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-114-english-reading-043",
+      "qnum": 43,
+      "stem": "(A) is going to give   (B) gives                (C) has given        (D) gave",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-114-english-reading-passage-38",
+      "flags": [
+        "option_incomplete",
+        "option_image"
+      ],
+      "parse_confidence": 0.4,
+      "raw_line_idx": 490,
+      "raw_text": "43. (A) is going to give   (B) gives                (C) has given        (D) gave\n\n\n\n"
+    }
+  ]
+}

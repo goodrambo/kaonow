@@ -1,0 +1,927 @@
+{
+  "paper_slug": "cap-110-english-reading",
+  "exam_id": "cap",
+  "subject_id": "sub-cap-english-reading",
+  "year": 110,
+  "subject": "english-reading",
+  "parser_version": "cap_v0.1",
+  "parsed_at": "2026-04-25T19:26:40+00:00",
+  "source_pdf": "content/sources/_inbox/openclaw-data/cap-rcpet-edu-tw/study/cap/main/questions/by-year/110/110P_English.pdf",
+  "source_pdf_sha1": "cae155b30a50",
+  "sections_detected": [
+    {
+      "label": "單題",
+      "range": [
+        1,
+        14
+      ]
+    },
+    {
+      "label": "題組",
+      "range": [
+        15,
+        41
+      ]
+    }
+  ],
+  "passage_count": 9,
+  "question_count": 41,
+  "records": [
+    {
+      "kind": "single",
+      "key": "cap-110-english-reading-001",
+      "qnum": 1,
+      "stem": "In the picture, the boy is       the old man.",
+      "options": [
+        "smiling at",
+        "dancing with",
+        "cheering for",
+        "bowing to"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 40,
+      "raw_text": "1.   In the picture, the boy is       the old man.\n     (A) smiling at\n     (B) dancing with\n     (C) cheering for\n     (D) bowing to\n\n\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-110-english-reading-002",
+      "qnum": 2,
+      "stem": "Listen! The baby          in the bedroom. Why don’t you go in and take a look?",
+      "options": [
+        "cried",
+        "cries",
+        "is crying",
+        "will cry"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 48,
+      "raw_text": "2.   Listen! The baby          in the bedroom. Why don’t you go in and take a look?\n     (A) cried             (B) cries           (C) is crying      (D) will cry\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-110-english-reading-003",
+      "qnum": 3,
+      "stem": "Jill is     that the city park is closed for the music festival because now she can’t\njog there.",
+      "options": [
+        "excited",
+        "proud",
+        "scared",
+        "unhappy"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 51,
+      "raw_text": "3.   Jill is     that the city park is closed for the music festival because now she can’t\n     jog there.\n     (A) excited          (B) proud             (C) scared            (D) unhappy\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-110-english-reading-004",
+      "qnum": 4,
+      "stem": "Steven wants to be a      , because he loves to watch people enjoy the food he prepares.",
+      "options": [
+        "cook",
+        "doctor",
+        "driver",
+        "farmer"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 55,
+      "raw_text": "4.   Steven wants to be a      , because he loves to watch people enjoy the food he prepares.\n     (A) cook             (B) doctor           (C) driver            (D) farmer\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-110-english-reading-005",
+      "qnum": 5,
+      "stem": "Paul misses his parents a lot. He        them since he came to work in Taiwan a\nyear ago.",
+      "options": [
+        "didn’t see",
+        "doesn’t see",
+        "hasn’t seen",
+        "won’t see"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 58,
+      "raw_text": "5.   Paul misses his parents a lot. He        them since he came to work in Taiwan a\n     year ago.\n     (A) didn’t see      (B) doesn’t see         (C) hasn’t seen        (D) won’t see\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-110-english-reading-006",
+      "qnum": 6,
+      "stem": "Our teacher Ms. Wu seldom laughs, but when she                , everyone in the same\nbuilding can hear her.",
+      "options": [
+        "can",
+        "does",
+        "has",
+        "will"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 62,
+      "raw_text": "6.   Our teacher Ms. Wu seldom laughs, but when she                , everyone in the same\n     building can hear her.\n     (A) can              (B) does          (C) has                     (D) will\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-110-english-reading-007",
+      "qnum": 7,
+      "stem": "My sister is coming to my home today. She        with me for a week.",
+      "options": [
+        "stays",
+        "stayed",
+        "has stayed",
+        "will stay"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 66,
+      "raw_text": "7.   My sister is coming to my home today. She        with me for a week.\n     (A) stays            (B) stayed        (C) has stayed      (D) will stay\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-110-english-reading-008",
+      "qnum": 8,
+      "stem": "Edward had worked as a computer engineer for ten years. This       helped him a\nlot when he started his own computer shop.",
+      "options": [
+        "chance",
+        "experience",
+        "hobby",
+        "knowledge"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 69,
+      "raw_text": "8.   Edward had worked as a computer engineer for ten years. This       helped him a\n     lot when he started his own computer shop.\n     (A) chance           (B) experience     (C) hobby          (D) knowledge\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-110-english-reading-009",
+      "qnum": 9,
+      "stem": "If you’re interested in our business plan,       this number and ask for Ms. Lee.\nShe’ll answer your questions.",
+      "options": [
+        "calling",
+        "call",
+        "and call",
+        "to call"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 73,
+      "raw_text": "9.   If you’re interested in our business plan,       this number and ask for Ms. Lee.\n     She’ll answer your questions.\n     (A) calling           (B) call             (C) and call        (D) to call\n\n\n\n\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-110-english-reading-010",
+      "qnum": 10,
+      "stem": "Jimmy would not get up for breakfast,             his dad had already tried to pull him\nfrom his bed several times.",
+      "options": [
+        "although",
+        "because",
+        "if",
+        "until"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 83,
+      "raw_text": "10. Jimmy would not get up for breakfast,             his dad had already tried to pull him\n    from his bed several times.\n    (A) although          (B) because             (C) if               (D) until\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-110-english-reading-011",
+      "qnum": 11,
+      "stem": "Duncan spent all his money trying to          the bookstore his mom left him. Sadly,\nthe business never got better, and he had to close it in the end.",
+      "options": [
+        "build",
+        "buy",
+        "save",
+        "start"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 87,
+      "raw_text": "11. Duncan spent all his money trying to          the bookstore his mom left him. Sadly,\n    the business never got better, and he had to close it in the end.\n    (A) build            (B) buy               (C) save               (D) start\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-110-english-reading-012",
+      "qnum": 12,
+      "stem": "Fiona loves listening to her children sing songs         at school.",
+      "options": [
+        "are learned",
+        "that learned",
+        "they learned",
+        "that they are learned"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 91,
+      "raw_text": "12. Fiona loves listening to her children sing songs         at school.\n    (A) are learned      (B) that learned      (C) they learned      (D) that they are learned\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-110-english-reading-013",
+      "qnum": 13,
+      "stem": "Beverly eats lots of snacks       meals. That’s why she is often too full to eat\nanything at mealtimes.",
+      "options": [
+        "after",
+        "between",
+        "during",
+        "from"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 94,
+      "raw_text": "13. Beverly eats lots of snacks       meals. That’s why she is often too full to eat\n    anything at mealtimes.\n    (A) after             (B) between        (C) during           (D) from\n"
+    },
+    {
+      "kind": "single",
+      "key": "cap-110-english-reading-014",
+      "qnum": 14,
+      "stem": "Nora: Can I check your drawer for some tools we can use?\nMatt: Sure.  Take a look.  See if you can find        in there.",
+      "options": [
+        "any",
+        "it",
+        "others",
+        "those"
+      ],
+      "section_label": "單題",
+      "parent_key": null,
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 98,
+      "raw_text": "14. Nora: Can I check your drawer for some tools we can use?\n    Matt: Sure.  Take a look.  See if you can find        in there.\n    (A) any              (B) it                (C) others           (D) those\n\n\n\n\n"
+    },
+    {
+      "kind": "passage_parent",
+      "key": "cap-110-english-reading-passage-15",
+      "intro_line": "(15-16)",
+      "child_qnums": [
+        15,
+        16
+      ],
+      "passage_text": "We’ve prepared many wonderful surprises for you at e-BeautiMed, BeautiMed’s\nonline store!\nSurprise 1      Join “BeautiMed Friend” online for free and get 2000\nBeautiMed points!\nSurprise 2      Already a “BeautiMed Friend” ? Come collect your free\ngift by entering your “BeautiMed Friend” card number at\ne-BeautiMed before 8/31.\nSurprise 3      Get 500 BeautiMed points by shopping at e-BeautiMed and\nyou’ll get 500 more points if you spend more than $1,000.\nSurprise 4      Shop at e-BeautiMed during 7/1-8/31 and you may win $5,000\nor free movie tickets!\nSurprise 5      Invite a friend to join “BeautiMed Friend” and you both can\nget 1000 points each!\n enter 輸入",
+      "passage_md": null,
+      "kind_hint": "single",
+      "footnotes": [],
+      "raw_line_idx": 109
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-110-english-reading-015",
+      "qnum": 15,
+      "stem": "What is this ad for?",
+      "options": [
+        "Teaching people how to use their BeautiMed points.",
+        "Telling people they can shop at BeautiMed on the Internet now.",
+        "Inviting people to share their shopping experience at e-BeautiMed.",
+        "Letting people know what is on sale at e-BeautiMed from 7/1 to 8/31."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-110-english-reading-passage-15",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 136,
+      "raw_text": "15. What is this ad for?\n    (A) Teaching people how to use their BeautiMed points.\n    (B) Telling people they can shop at BeautiMed on the Internet now.\n    (C) Inviting people to share their shopping experience at e-BeautiMed.\n    (D) Letting people know what is on sale at e-BeautiMed from 7/1 to 8/31.\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-110-english-reading-016",
+      "qnum": 16,
+      "stem": "What will NOT get you BeautiMed points?",
+      "options": [
+        "Shopping at e-BeautiMed.",
+        "Joining “BeautiMed Friend” online.",
+        "Inviting a friend to join “BeautiMed Friend.”",
+        "Entering the “BeautiMed Friend” card number."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-110-english-reading-passage-15",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 142,
+      "raw_text": "16. What will NOT get you BeautiMed points?\n    (A) Shopping at e-BeautiMed.\n    (B) Joining “BeautiMed Friend” online.\n    (C) Inviting a friend to join “BeautiMed Friend.”\n    (D) Entering the “BeautiMed Friend” card number.\n\n"
+    },
+    {
+      "kind": "passage_parent",
+      "key": "cap-110-english-reading-passage-17",
+      "intro_line": "(17-18)",
+      "child_qnums": [
+        17,
+        18
+      ],
+      "passage_text": "Joey: Lynn, have you tried Caldron? I’ve heard that restaurant is good.\nLynn: I have. I went there once for Tom’s party.\nJoey: And?\nLynn: Well, I never thought I would have to cook for myself when eating out.\nJoey: But it’s fun to cook your own food.\nLynn: I don’t see any fun in that. Besides, I want nice food.\nJoey: So you didn’t like the food there?\nLynn: Everything tasted the same. I mean, they were all cooked in the same boiling\npot. How could they taste different? I just kept throwing strange things into\nthe pot. I didn’t even know what half the things were made of.\nJoey: Don’t worry. Everything should be safe to eat after a hot bath in the pot.\nAnd you didn’t get sick after that, right? Besides, you tried something\ndifferent there. Still a good experience, I think?\nLynn: I don’t think we share the same idea of good experiences.",
+      "passage_md": null,
+      "kind_hint": "single",
+      "footnotes": [],
+      "raw_line_idx": 151
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-110-english-reading-017",
+      "qnum": 17,
+      "stem": "Lynn took some photos at Tom’s party. Which is most likely one of them?",
+      "options": [
+        "",
+        " likely 可能",
+        "",
+        ""
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-110-english-reading-passage-17",
+      "flags": [
+        "option_incomplete"
+      ],
+      "parse_confidence": 0.75,
+      "raw_line_idx": 167,
+      "raw_text": "17. Lynn took some photos at Tom’s party. Which is most likely one of them?\n    (A)                            (B)\n                                                                      likely 可能\n\n\n\n\n    (C)                              (D)\n\n\n\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-110-english-reading-018",
+      "qnum": 18,
+      "stem": "What can we learn about Lynn from the dialogue?",
+      "options": [
+        "She does not cook.",
+        "She likes to try new food.",
+        "She did not enjoy the food at Caldron.",
+        "She changed Joey’s idea about Caldron."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-110-english-reading-passage-17",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 179,
+      "raw_text": "18. What can we learn about Lynn from the dialogue?\n    (A) She does not cook.\n    (B) She likes to try new food.\n    (C) She did not enjoy the food at Caldron.\n    (D) She changed Joey’s idea about Caldron.\n\n\n\n"
+    },
+    {
+      "kind": "passage_parent",
+      "key": "cap-110-english-reading-passage-19",
+      "intro_line": "(19-21)",
+      "child_qnums": [
+        19,
+        20,
+        21
+      ],
+      "passage_text": "Below is a page from Katie’s diary.\nDear Diary,                                       June 7, 2011\nI was very sad to hear what happened to Woollie yesterday.\nWoollie was my favorite sheep. I have a storybook about Woollie.\nIt says when Woollie was four, he ran away from Mr. Armstrong’s\nfarm, and it took Mr. Armstrong six years to find Woollie. But\nWoollie had grown so much fleece that he didn’t even look like a\nsheep. Mr. Armstrong decided to cut his fleece on TV so everyone\ncould see. Daddy said this happened on the day I was born.\nWoollie’s fleece weighed 27 kg, and could make clothes for 20 large\nmen. I asked Daddy if his favorite vest was made from Woollie’s\nfleece. Daddy said no, because Woollie’s fleece was sold to collect\nmoney for sick kids. In the storybook, Woollie was taken to see\nMs. Stella Clark, the leader of our city then. They even had tea\ntogether. Daddy said Woollie did meet Ms. Clark, but he wasn’t\nsure if they had tea. Daddy said Woollie was put down because he\nwas too sick and there was no way to help him. I cried. I hope\nWoollie will be happy up there in the sky.\n fleece 羊毛 weigh 重達",
+      "passage_md": null,
+      "kind_hint": "single",
+      "footnotes": [],
+      "raw_line_idx": 189
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-110-english-reading-019",
+      "qnum": 19,
+      "stem": "What do we know about Woollie from Katie’s diary?",
+      "options": [
+        "Woollie was older than Katie.",
+        "Woollie was taken to visit sick kids.",
+        "Woollie was sick when he ran away.",
+        "Woollie looked strange without his fleece."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-110-english-reading-passage-19",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 210,
+      "raw_text": "19. What do we know about Woollie from Katie’s diary?\n    (A) Woollie was older than Katie.\n    (B) Woollie was taken to visit sick kids.\n    (C) Woollie was sick when he ran away.\n    (D) Woollie looked strange without his fleece.\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-110-english-reading-020",
+      "qnum": 20,
+      "stem": "Which picture of Woollie and Ms. Clark did Katie talk about in her diary?",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-110-english-reading-passage-19",
+      "flags": [
+        "option_incomplete",
+        "option_image"
+      ],
+      "parse_confidence": 0.4,
+      "raw_line_idx": 216,
+      "raw_text": "20. Which picture of Woollie and Ms. Clark did Katie talk about in her diary?\n    (A)                (B)                  (C)                   (D)\n\n\n\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-110-english-reading-021",
+      "qnum": 21,
+      "stem": "What happened when Woollie was put down?",
+      "options": [
+        "He was sold.",
+        "He couldn’t be found.",
+        "He died.",
+        "He became famous."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-110-english-reading-passage-19",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 222,
+      "raw_text": "21. What happened when Woollie was put down?\n    (A) He was sold.\t\t                   (B) He couldn’t be found.\n    (C) He died.\t\t                       (D) He became famous.\n\n"
+    },
+    {
+      "kind": "passage_parent",
+      "key": "cap-110-english-reading-passage-22",
+      "intro_line": "(22-24)",
+      "child_qnums": [
+        22,
+        23,
+        24
+      ],
+      "passage_text": "Here’s The Piano Lesson, one of Henri\nMatisse’s most famous paintings. The boy in\nthe picture is the painter’s son, Pierre. In the\npicture, Pierre looks quite serious. Why? Well,\nlook at the yellow candle on the red piano. It’s\nalmost burned down. So maybe Pierre has\nalready practiced for hours. And Matisse uses a\nlot of gray, not a very fun color, right? It shows\nhow the poor kid feels, don’t you think?\nOn the top right corner, you can see a woman\nsitting straight on a seat. Is she Pierre’s piano\nteacher? Or his mother? Well, if you’re a\nMatisse fan, you’ll know this is in fact another\npainting by him, Woman on a High Stool. Interesting, right? Matisse likes to do that\na lot.  In fact, there’s another work by Matisse in the picture.  Did you find it?  Right!\nThe sculpture on the bottom left corner!\nMatisse painted this picture in 1916. Pierre was already 16 then, but the artist\npainted his son much younger than he really was. Pierre\nhad gone away to be a soldier, and Matisse didn’t know\nwhether he would come back. Maybe this is a worried\nfather’s way to remember the good old days.\n sculpture 雕像",
+      "passage_md": null,
+      "kind_hint": "single",
+      "footnotes": [],
+      "raw_line_idx": 229
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-110-english-reading-022",
+      "qnum": 22,
+      "stem": "What can we learn about The Piano Lesson from the reading?",
+      "options": [
+        "Matisse painted it when his son was away from home.",
+        "The woman who sits on a seat behind the boy is his mother.",
+        "Matisse uses yellow and red to show that his son was happy.",
+        "The candle on the piano shows that the piano lesson has just begun."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-110-english-reading-passage-22",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 254,
+      "raw_text": "22. What can we learn about The Piano Lesson from the reading?\n    (A) Matisse painted it when his son was away from home.\n    (B) The woman who sits on a seat behind the boy is his mother.\n    (C) Matisse uses yellow and red to show that his son was happy.\n    (D) The candle on the piano shows that the piano lesson has just begun.\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-110-english-reading-023",
+      "qnum": 23,
+      "stem": "What does do that mean in the reading?",
+      "options": [
+        "Put his family in his paintings.",
+        "Paint to remember the good old days.",
+        "Use a lot of fun colors in his art works.",
+        "Put his earlier art work in a new painting."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-110-english-reading-passage-22",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 260,
+      "raw_text": "23. What does do that mean in the reading?\n    (A) Put his family in his paintings.\n    (B) Paint to remember the good old days.\n    (C) Use a lot of fun colors in his art works.\n    (D) Put his earlier art work in a new painting.\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-110-english-reading-024",
+      "qnum": 24,
+      "stem": "What is NOT used in the reading to refer to Henri Matisse?             refer to 指稱",
+      "options": [
+        "The artist.",
+        "The painter.",
+        "The poor kid.",
+        "A worried father."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-110-english-reading-passage-22",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 266,
+      "raw_text": "24. What is NOT used in the reading to refer to Henri Matisse?             refer to 指稱\n    (A) The artist.\t\t                        (B) The painter.\n    (C) The poor kid. \t\t                     (D) A worried father.\n"
+    },
+    {
+      "kind": "passage_parent",
+      "key": "cap-110-english-reading-passage-25",
+      "intro_line": "(25-28)",
+      "child_qnums": [
+        25,
+        26,
+        27,
+        28
+      ],
+      "passage_text": "On Teachers’ Day, we thank our teachers for their hard work. We also celebrate\nthis day to remember Confucius, the great Chinese teacher from 2,500 years ago.\nWell, that’s everything we’re taught about Teachers’ Day. But, the first Teachers’\nDay was not on Confucius’s birthday, and it was not about thanking our teachers.\nIn 1930, Mr. Tai Shuang-qiu and other teachers celebrated the first Teachers’\nDay in Nanjing. But there was nothing to celebrate. Teachers were paid very little\nand not respected. These teachers took this chance to shout out their problems. They\nhad Teachers’ Day on June 6 because the date was easy to remember and near the\nend of the school year. This action by Mr. Tai and the other teachers was welcomed\nand followed by teachers from other cities. In 1939, the government made Teachers’\nDay a national holiday. However, it was on August 27, the day when Confucius’s\nbirthday was celebrated. Not everyone hailed this decision: Teachers’ Day was never\nabout Confucius, and Confucius couldn’t speak for all the teachers either.\nOne funny thing was that the government was wrong about the date of\nConfucius’s birthday. In 1952, people found out he was in fact born on September\n28. That was when we started to celebrate Teachers’ Day on Confucius’s real\nbirthday.\n respect 尊敬 government 政府",
+      "passage_md": null,
+      "kind_hint": "single",
+      "footnotes": [],
+      "raw_line_idx": 271
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-110-english-reading-025",
+      "qnum": 25,
+      "stem": "What idea is talked about in the reading?",
+      "options": [
+        "How Teachers’ Day is celebrated now.",
+        "Why Teachers’ Day was celebrated at first.",
+        "Why Confucius was seen as a great teacher.",
+        "How teachers today feel about Teachers’ Day."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-110-english-reading-passage-25",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 292,
+      "raw_text": "25. What idea is talked about in the reading?\n    (A) How Teachers’ Day is celebrated now.\n    (B) Why Teachers’ Day was celebrated at first.\n    (C) Why Confucius was seen as a great teacher.\n    (D) How teachers today feel about Teachers’ Day.\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-110-english-reading-026",
+      "qnum": 26,
+      "stem": "Which is true about Teachers’ Day from the reading?",
+      "options": [
+        "It used to be celebrated on different dates.",
+        "It was started by students for their teachers.",
+        "It has been celebrated in Nanjing for over 2,500 years.",
+        "Teachers decided to celebrate it on Confucius’s birthday."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-110-english-reading-passage-25",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 298,
+      "raw_text": "26. Which is true about Teachers’ Day from the reading?\n    (A) It used to be celebrated on different dates.\n    (B) It was started by students for their teachers.\n    (C) It has been celebrated in Nanjing for over 2,500 years.\n    (D) Teachers decided to celebrate it on Confucius’s birthday.\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-110-english-reading-027",
+      "qnum": 27,
+      "stem": "What does “not everyone hailed this decision” mean in the reading?",
+      "options": [
+        "Not everyone cared about the decision.",
+        "Not everyone welcomed the decision.",
+        "Not everyone heard about the decision.",
+        "Not everyone remembered the decision."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-110-english-reading-passage-25",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 304,
+      "raw_text": "27. What does “not everyone hailed this decision” mean in the reading?\n    (A) Not everyone cared about the decision. (B) Not everyone welcomed the decision.\n    (C) Not everyone heard about the decision. (D) Not everyone remembered the decision.\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-110-english-reading-028",
+      "qnum": 28,
+      "stem": "What does the writer try to do with this reading?",
+      "options": [
+        "To talk about a problem that no one notices.",
+        "To share a fun experience that was not common.",
+        "To tell a piece of history that few people know about.",
+        "To give an example of an idea that is hard to understand."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-110-english-reading-passage-25",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 308,
+      "raw_text": "28. What does the writer try to do with this reading?\n     (A) To talk about a problem that no one notices.\n     (B) To share a fun experience that was not common.\n     (C) To tell a piece of history that few people know about.\n     (D) To give an example of an idea that is hard to understand.\n"
+    },
+    {
+      "kind": "passage_parent",
+      "key": "cap-110-english-reading-passage-29",
+      "intro_line": "(29-31)",
+      "child_qnums": [
+        29,
+        30,
+        31
+      ],
+      "passage_text": "Dear Traveler,\nYou have bought an NFR ticket online for a train that runs between White\nWater City and Cloud City.\nWe are sorry to tell you that, because of the typhoon last month, the Sand\nTown – Spring Town line will be closed between August 14 and 28 2016. During\nthis time, some trains will change lines and will not stop at a few stations.\nThere will be free buses to take travelers to these stations. Please check below\nfor the changes. Visit http://www.nfr.gov/ for more information.\nWe wish you a nice summer.\nLena Muller\nNational Formosa Railway\n1. Trains that run between Green City and Cloud\nCity will take the Smoke Town – Spring Town\nline, and will stop at every station. Below are\nthe trains that will change lines.                               White Water City\nTrain   New Line (from 8/14 to 8/28)\nGoing RL101 White Water City \u001f Cloud City\nSouth RL102 White Water City \u001f Spring Town                         Green City\nRL103 Green City \u001f Cloud City               Sand Town\nGoing RL201 Spring Town \u001f Green City                Gray Village        Smoke Town\nNorth RL202 Cloud City \u001f Green City\nBlack Town          Hill Town\n2. The free buses for the Sand Town – Spring\nTown line will wait at Green City (going south)                        Spring Town\nand Spring Town (going north) stations. No\nCloud City\nstop at Gray Village.\n line 路線",
+      "passage_md": null,
+      "kind_hint": "single",
+      "footnotes": [],
+      "raw_line_idx": 316
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-110-english-reading-029",
+      "qnum": 29,
+      "stem": "Why does National Formosa Railway write this letter?",
+      "options": [
+        "There is a train ticket sale.",
+        "A train line will be closed in July.",
+        "It will open a new train line in August.",
+        "Some of its trains will run on different lines."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-110-english-reading-passage-29",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 360,
+      "raw_text": "29. Why does National Formosa Railway write this letter?\n    (A) There is a train ticket sale.\n    (B) A train line will be closed in July.\n    (C) It will open a new train line in August.\n    (D) Some of its trains will run on different lines.\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-110-english-reading-030",
+      "qnum": 30,
+      "stem": "What is true about NFR’s trains between August 14 and 28 2016?",
+      "options": [
+        "No trains will stop at Spring Town.",
+        "Trains that change lines will all stop at Cloud City.",
+        "People can take the free buses to any station on the Sand Town - Spring Town line.",
+        "People can go to Hill Town on any train that runs between Green City and Cloud City."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-110-english-reading-passage-29",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 366,
+      "raw_text": "30. What is true about NFR’s trains between August 14 and 28 2016?\n    (A) No trains will stop at Spring Town.\n    (B) Trains that change lines will all stop at Cloud City.\n    (C) People can take the free buses to any station on the Sand Town - Spring Town line.\n    (D) People can go to Hill Town on any train that runs between Green City and Cloud City.\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-110-english-reading-031",
+      "qnum": 31,
+      "stem": "James lives in Smoke Town. He wants to go to Black Town on August 19. How can\nhe get there?",
+      "options": [
+        "Take Train RL202 to Green City, get off there, and take the free bus.",
+        "Take Train RL103 to Green City, get off there, and take the free bus.",
+        "Take Train RL102 to Spring Town, get off there, and take Train RL201.",
+        "Take Train RL101 to Cloud City, get off there, and take the free bus."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-110-english-reading-passage-29",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 372,
+      "raw_text": "31. James lives in Smoke Town. He wants to go to Black Town on August 19. How can\n    he get there?\n    (A) Take Train RL202 to Green City, get off there, and take the free bus.\n    (B) Take Train RL103 to Green City, get off there, and take the free bus.\n    (C) Take Train RL102 to Spring Town, get off there, and take Train RL201.\n    (D) Take Train RL101 to Cloud City, get off there, and take the free bus.\n\n\n\n\n"
+    },
+    {
+      "kind": "passage_parent",
+      "key": "cap-110-english-reading-passage-32",
+      "intro_line": "(32-34)",
+      "child_qnums": [
+        32,
+        33,
+        34
+      ],
+      "passage_text": "SYRIA\nDarayya\nIn Darayya, a city in Syria, there’s a library, and it has 15,000 books on almost\nevery subject you can think of. However, it is different from any libraries you know:\nIt is a secret underground library, and only people in Darayya know where it is.\nOver the years, war has shaken Darayya badly. Every day, houses are bombed\nand people are killed. Stores are closed one after another, and so are schools. To\nhelp the kids in Darayya with their learning, Anas Ahmad, a 19-year-old student, and\nhis friends decided to build a library. They built the library under the ground to keep\nit safe from bombing. But it is dangerous to collect books for the library. Often,\nAhmad and his friends look for books in houses that were bombed. They need to be\ncareful because they may be killed in another bombing.\nYou may ask, “In a place like Darayya, would people be interested in books?”\n“Just like the body needs food, the mind needs books,” says one library user. In the\nlibrary, people enjoy their time of reading and forget about the terrible world above,\nso their life doesn’t seem so hard. Through reading, they are able to dream of a\nbetter life after war.\n war 戰爭 bomb 轟炸 seem 彷彿",
+      "passage_md": null,
+      "kind_hint": "single",
+      "footnotes": [],
+      "raw_line_idx": 385
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-110-english-reading-032",
+      "qnum": 32,
+      "stem": "Below are the ideas that are talked about in the reading.\na. The problems Darayya has.\nb. How Darayya’s library was started.\nc. What makes Darayya’s library special.\nd. How Darayya’s library helps people there.\nIn what order does the writer put his ideas in the reading?          order 順序",
+      "options": [
+        "c b a d.",
+        "b a d c.",
+        "a c b d.",
+        "c a b d."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-110-english-reading-passage-32",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 409,
+      "raw_text": "32. Below are the ideas that are talked about in the reading.\n       a. The problems Darayya has.\n       b. How Darayya’s library was started.\n       c. What makes Darayya’s library special.\n       d. How Darayya’s library helps people there.\n    In what order does the writer put his ideas in the reading?          order 順序\n    (A) c b a d.         (B) b a d c.          (C) a c b d.        (D) c a b d.\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-110-english-reading-033",
+      "qnum": 33,
+      "stem": "Why do people in Darayya go to the library even during the war?",
+      "options": [
+        "They can get free food.",
+        "They find joy and hope in reading.",
+        "They want to learn how to win the war.",
+        "Their school teachers give lessons there."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-110-english-reading-passage-32",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 417,
+      "raw_text": "33. Why do people in Darayya go to the library even during the war?\n    (A) They can get free food.\n    (B) They find joy and hope in reading.\n    (C) They want to learn how to win the war.\n    (D) Their school teachers give lessons there.\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-110-english-reading-034",
+      "qnum": 34,
+      "stem": "What do we know about Darayya’s library?",
+      "options": [
+        "It was built during the war.",
+        "It has been bombed many times.",
+        "It was built to remember people who died in the war.",
+        "Most of its books are collected from outside of Darayya."
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-110-english-reading-passage-32",
+      "flags": [],
+      "parse_confidence": 1.0,
+      "raw_line_idx": 423,
+      "raw_text": "34. What do we know about Darayya’s library?\n    (A) It was built during the war.\t\t\t\t\n    (B) It has been bombed many times.\n    (C) It was built to remember people who died in the war.\n    (D) Most of its books are collected from outside of Darayya.\n"
+    },
+    {
+      "kind": "passage_parent",
+      "key": "cap-110-english-reading-passage-35",
+      "intro_line": "(35-37)",
+      "child_qnums": [
+        35,
+        36,
+        37
+      ],
+      "passage_text": "From:      Mia Loren <mloren@qmail.com>\nTo:        Dave Doddo <dd1225@qmail.com>\nDate:      Tue, Oct 24, 2017 at 10:01 AM\nSubject:   Daniel’s 5th Birthday Party – This Saturday!\nHello Dave,\nWe’re happy to invite you and your family to Daniel’s fifth birthday\nparty this Saturday.\nWe know we told you that the party would be in   35  . However,\nwe just moved to Carlton City last month, so the party won’t be in\nPattersons Town. It’ll be at Mosman Garden right next to Victor Zoo,\njust across from our new apartment. Please don’t go to Northbank\nPark next to our old house.\nThe weather report said that it may be rainy this weekend, but   36  .\nIf it rains, we’ll move the party inside our home. However, if we’re\n37   and it is fine, we’ll still have the party at the garden.\nAgain, we’re all very happy and excited to welcome you to join us for\nsome fun this weekend!\nBest,\nMia, Sam & Daniel",
+      "passage_md": null,
+      "kind_hint": "single",
+      "footnotes": [],
+      "raw_line_idx": 430
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-110-english-reading-035",
+      "qnum": 35,
+      "stem": "(A) Victor Zoo",
+      "options": [
+        "",
+        "Carlton City",
+        "Mosman Garden",
+        "Northbank Park"
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-110-english-reading-passage-35",
+      "flags": [
+        "option_incomplete"
+      ],
+      "parse_confidence": 0.75,
+      "raw_line_idx": 459,
+      "raw_text": "35. (A) Victor Zoo\t\t\t\n    (B) Carlton City\t\t\n    (C) Mosman Garden\t\t\n    (D) Northbank Park\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-110-english-reading-036",
+      "qnum": 36,
+      "stem": "(A) we have a plan if this happens",
+      "options": [
+        "",
+        "we could just wait for the rain to stop",
+        "we should be fine if the rain isn’t too heavy",
+        "we will let you know if we’ll still have the party"
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-110-english-reading-passage-35",
+      "flags": [
+        "option_incomplete"
+      ],
+      "parse_confidence": 0.75,
+      "raw_line_idx": 464,
+      "raw_text": "36. (A) we have a plan if this happens\n    (B) we could just wait for the rain to stop\n    (C) we should be fine if the rain isn’t too heavy\n    (D) we will let you know if we’ll still have the party\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-110-english-reading-037",
+      "qnum": 37,
+      "stem": "(A) crazy",
+      "options": [
+        "",
+        "good",
+        "lucky",
+        "strong"
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-110-english-reading-passage-35",
+      "flags": [
+        "option_incomplete"
+      ],
+      "parse_confidence": 0.75,
+      "raw_line_idx": 469,
+      "raw_text": "37. (A) crazy\t\t\t\t\n    (B) good\t\t\n    (C) lucky\t\t\t\t\n    (D) strong\n\n"
+    },
+    {
+      "kind": "passage_parent",
+      "key": "cap-110-english-reading-passage-38",
+      "intro_line": "(38-41)",
+      "child_qnums": [
+        38,
+        39,
+        40,
+        41
+      ],
+      "passage_text": "Usually I wouldn’t cross the park at this time\nof night. But walking around the park would take\nmore time, and it was raining so hard that I couldn’t\neven see clearly what was right before me. So I\nentered the park. And that was the first stupid thing\nI did tonight.\nSoon after I walked into the park, I saw a man under a tree up\nahead. My heart fell. The stories I’d heard about the park   38   into\nmy head at this moment. Anyone with a clear mind would just turn back.\nBut me? No. I did   39   stupid thing: I decided to hurry past him.\nJust when I was passing the man, he raised his head and gave me the\nstrangest smile ever. I got scared and started running. “Hey!” the man\nshouted from behind. “Wait!” He was running after me!\nI ran like crazy. I had hoped the trees would keep some rain off.\nAnd they   40  . But they also made the park look even darker. I\ncouldn’t see what was ahead of me. Then, I ran into something. It was\nthe man!\n“Don’t kill me!” I cried.\n“What? I   41   to give back your bag! You dropped it,” the man\ngave me my bag.\nNow, I felt saying that to the man was the stupidest thing I did\ntonight.\n ahead 在前面",
+      "passage_md": null,
+      "kind_hint": "single",
+      "footnotes": [],
+      "raw_line_idx": 477
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-110-english-reading-038",
+      "qnum": 38,
+      "stem": "(A) are all coming     (B) have all come     (C) were all coming (D) would all come",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-110-english-reading-passage-38",
+      "flags": [
+        "option_incomplete",
+        "option_image"
+      ],
+      "parse_confidence": 0.4,
+      "raw_line_idx": 508,
+      "raw_text": "38. (A) are all coming     (B) have all come     (C) were all coming (D) would all come\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-110-english-reading-039",
+      "qnum": 39,
+      "stem": "(A) another\t\t          (B) one\t\t             (C) the last\t\t       (D) the other",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-110-english-reading-passage-38",
+      "flags": [
+        "option_incomplete",
+        "option_image"
+      ],
+      "parse_confidence": 0.4,
+      "raw_line_idx": 510,
+      "raw_text": "39. (A) another\t\t          (B) one\t\t             (C) the last\t\t       (D) the other\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-110-english-reading-040",
+      "qnum": 40,
+      "stem": "(A) have\t\t\t            (B) did\t\t             (C) had\t\t            (D) would",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-110-english-reading-passage-38",
+      "flags": [
+        "option_incomplete",
+        "option_image"
+      ],
+      "parse_confidence": 0.4,
+      "raw_line_idx": 512,
+      "raw_text": "40. (A) have\t\t\t            (B) did\t\t             (C) had\t\t            (D) would\n"
+    },
+    {
+      "kind": "passage_child",
+      "key": "cap-110-english-reading-041",
+      "qnum": 41,
+      "stem": "(A) was trying\t\t       (B) try\t\t\t            (C) would try        (D) will try",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "section_label": "題組",
+      "parent_key": "cap-110-english-reading-passage-38",
+      "flags": [
+        "option_incomplete",
+        "option_image"
+      ],
+      "parse_confidence": 0.4,
+      "raw_line_idx": 514,
+      "raw_text": "41. (A) was trying\t\t       (B) try\t\t\t            (C) would try        (D) will try\n\n\n\n\n"
+    }
+  ]
+}

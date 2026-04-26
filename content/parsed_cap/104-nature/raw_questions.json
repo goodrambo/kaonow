@@ -1,0 +1,15 @@
+{
+  "paper_slug": "cap-104-nature",
+  "exam_id": "cap",
+  "subject_id": "sub-cap-science",
+  "year": 104,
+  "subject": "nature",
+  "parser_version": "cap_v0.1",
+  "parsed_at": "2026-04-25T19:26:37+00:00",
+  "source_pdf": "content/sources/_inbox/openclaw-data/cap-rcpet-edu-tw/study/cap/main/questions/by-year/104/104P_Nature.pdf",
+  "source_pdf_sha1": "b35d74a4f102",
+  "sections_detected": [],
+  "passage_count": 0,
+  "question_count": 0,
+  "records": []
+}

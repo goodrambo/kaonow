@@ -1,0 +1,1030 @@
+{
+  "paper": {
+    "id": "cap-112-math",
+    "exam_id": "cap",
+    "subject_id": "sub-cap-math",
+    "roc_year": 112,
+    "year": 2023,
+    "paper_title": "112 年國中教育會考數學科",
+    "source_family": "cap-rcpet-edu-tw",
+    "source_ref": {
+      "pdf_path": "content/sources/_inbox/openclaw-data/cap-rcpet-edu-tw/study/cap/main/questions/by-year/112/112P_Math.pdf",
+      "pdf_sha1": "c426053cd722",
+      "answer_pdf_sha1": "16ca7e0abba6"
+    },
+    "meta": {
+      "parser_version": "cap_v0.1",
+      "merger_version": "cap_merger_v0.2",
+      "parsed_at": "2026-04-25T19:26:41+00:00"
+    }
+  },
+  "questions": [
+    {
+      "id": "cap-112-math-001",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-112-math",
+      "question_type": "single_choice",
+      "question_text": "(−3)3 之值為何？",
+      "options": [
+        "−27",
+        "−9",
+        "9",
+        "27"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:41+00:00",
+        "source_pdf_sha1": "c426053cd722",
+        "answer_pdf_sha1": "16ca7e0abba6",
+        "flags": [],
+        "parse_confidence": 1.0,
+        "original_question_number": 1,
+        "raw_text": "1.   (−3)3 之值為何？\n     (A) −27\n     (B) −9\n     (C) 9\n     (D) 27\n\n\n"
+      },
+      "is_active": true,
+      "auto_gradable": true,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-112-math-001",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-112-math",
+      "question_type": "single_choice",
+      "question_text": "A、B 兩廠牌的疫苗皆進行實驗以計算其疫苗效力。兩廠牌的疫苗實驗人數\n皆為 30000 人，各廠牌實驗人數中一半的人施打疫苗，另一半的人施打不具\n疫苗成分的安慰劑。經過一段時間後觀察得知，在 A 廠牌的實驗中，施打疫苗\n後仍感染的人數為 50 人，施打安慰劑後感染的人數為 500 人。而疫苗效力的\n算式如下：\nǴ\n請根據上述資訊回答下列問題，完整寫出你的解題過程並詳細解釋：\n(1) 根據實驗數據算出 A 廠牌的疫苗效力為多少？\n(2) 若 B 廠牌的實驗數據算出的疫苗效力高於 A 廠牌，請詳細說明 B 廠牌的實驗中\n施打疫苗後仍感染的人數，是否一定低於 A 廠牌實驗中施打疫苗後仍感染的\n人數？",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:41+00:00",
+        "source_pdf_sha1": "c426053cd722",
+        "answer_pdf_sha1": "16ca7e0abba6",
+        "flags": [
+          "option_incomplete",
+          "option_image"
+        ],
+        "parse_confidence": 0.4,
+        "original_question_number": 1,
+        "raw_text": "1.   A、B 兩廠牌的疫苗皆進行實驗以計算其疫苗效力。兩廠牌的疫苗實驗人數\n     皆為 30000 人，各廠牌實驗人數中一半的人施打疫苗，另一半的人施打不具\n     疫苗成分的安慰劑。經過一段時間後觀察得知，在 A 廠牌的實驗中，施打疫苗\n     後仍感染的人數為 50 人，施打安慰劑後感染的人數為 500 人。而疫苗效力的\n     算式如下：\n\n\n\n\n                         Ǵ\n\n\n     請根據上述資訊回答下列問題，完整寫出你的解題過程並詳細解釋：\n     (1) 根據實驗數據算出 A 廠牌的疫苗效力為多少？\n     (2) 若 B 廠牌的實驗數據算出的疫苗效力高於 A 廠牌，請詳細說明 B 廠牌的實驗中\n      施打疫苗後仍感染的人數，是否一定低於 A 廠牌實驗中施打疫苗後仍感染的\n      人數？\n\n\n\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-112-math-002",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-112-math",
+      "question_type": "single_choice",
+      "question_text": "下列何者為多項式 x2 − 36 的因式？",
+      "options": [
+        "x − 3",
+        "x − 4",
+        "x − 6",
+        "x − 9"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:41+00:00",
+        "source_pdf_sha1": "c426053cd722",
+        "answer_pdf_sha1": "16ca7e0abba6",
+        "flags": [],
+        "parse_confidence": 1.0,
+        "original_question_number": 2,
+        "raw_text": "2.   下列何者為多項式 x2 − 36 的因式？\n     (A) x − 3\n     (B) x − 4\n     (C) x − 6\n     (D) x − 9\n\n\n"
+      },
+      "is_active": true,
+      "auto_gradable": true,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-112-math-002",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-112-math",
+      "question_type": "single_choice",
+      "question_text": "小儀利用一副撲克牌摺疊出一個環套，如圖 ( 十六 ) 所示。環套的上視圖為\n邊長 6 公分的正八邊形，如圖 ( 十七 ) 所示。\n圖 ( 十六 )             圖 ( 十七 )\n請根據上述資訊回答下列問題，完整寫出你的解題過程並詳細解釋：\n(1) 圖 ( 十七 ) 的正八邊形的一個內角度數為多少？\n(2) 已知有一個圓柱形花瓶其底面半徑為 8 公分，假設不考慮花瓶與環套厚度，\n判斷圖 ( 十六 ) 的環套是否能在不變形的前提下，套在此圓柱形花瓶側面\n外圍？\n圖(十八)呈現 45° − 45° − 90° 的三角形與\n22.5° − 67.5° − 90° 的三角形，當斜邊為 1\n時的兩股近似值，供作答時參考。\n圖 ( 十八 )\n11                    試題結束\n參考公式：\n 和的平方公式：( a + b ) 2 = a 2 + 2ab + b 2\n差的平方公式：( a − b ) 2 = a 2 − 2ab + b 2\n平方差公式：a 2 − b 2 = ( a + b )( a − b )\n 若直角三角形兩股長為 a、b，斜邊長為 c ，則 c 2 = a 2 + b 2\n 若圓的半徑為 r，圓周率為 π，則圓面積 = π r 2 ，圓周長 = 2 π r\n 凸 n 邊形的內角和為 (n − 2) × 180° ， n ≥ 3\n 若一個等差數列的首項為 a1，公差為 d，第 n 項為 an，前 n 項和為 Sn，\nn ( a1 + an)\n則 an = a1 + (n − 1) d，Sn =\n 若一個等比數列的首項為 a1，公比為 r ，第 n 項為 an，則 an = a1r n − 1\n−b ± b2 − 4 a c\n 一元二次方程式 ax + bx + c = 0 的解為 x =\n2a",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:41+00:00",
+        "source_pdf_sha1": "c426053cd722",
+        "answer_pdf_sha1": "16ca7e0abba6",
+        "flags": [
+          "needs_image",
+          "option_incomplete",
+          "option_image"
+        ],
+        "parse_confidence": 0.25,
+        "original_question_number": 2,
+        "raw_text": "2.   小儀利用一副撲克牌摺疊出一個環套，如圖 ( 十六 ) 所示。環套的上視圖為\n     邊長 6 公分的正八邊形，如圖 ( 十七 ) 所示。\n\n\n\n\n              圖 ( 十六 )             圖 ( 十七 )\n\n     請根據上述資訊回答下列問題，完整寫出你的解題過程並詳細解釋：\n     (1) 圖 ( 十七 ) 的正八邊形的一個內角度數為多少？\n     (2) 已知有一個圓柱形花瓶其底面半徑為 8 公分，假設不考慮花瓶與環套厚度，\n      判斷圖 ( 十六 ) 的環套是否能在不變形的前提下，套在此圓柱形花瓶側面\n      外圍？\n                         圖(十八)呈現 45° − 45° − 90° 的三角形與\n                         22.5° − 67.5° − 90° 的三角形，當斜邊為 1\n                         時的兩股近似值，供作答時參考。\n\n\n\n\n                                     圖 ( 十八 )\n\n\n\n\n                          11                    試題結束\n\n參考公式：\n\n  和的平方公式：( a + b ) 2 = a 2 + 2ab + b 2\n    差的平方公式：( a − b ) 2 = a 2 − 2ab + b 2\n    平方差公式：a 2 − b 2 = ( a + b )( a − b )\n  若直角三角形兩股長為 a、b，斜邊長為 c ，則 c 2 = a 2 + b 2\n  若圓的半徑為 r，圓周率為 π，則圓面積 = π r 2 ，圓周長 = 2 π r\n  凸 n 邊形的內角和為 (n − 2) × 180° ， n ≥ 3\n  若一個等差數列的首項為 a1，公差為 d，第 n 項為 an，前 n 項和為 Sn，\n                                n ( a1 + an)\n   則 an = a1 + (n − 1) d，Sn =\n  若一個等比數列的首項為 a1，公比為 r ，第 n 項為 an，則 an = a1r n − 1\n\n                                   −b ± b2 − 4 a c\n  一元二次方程式 ax + bx + c = 0 的解為 x =\n                                        2a\n\n\n\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-112-math-003",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-112-math",
+      "question_type": "single_choice",
+      "question_text": "圖 ( 一 ) 的立體圖形由相同大小的正方體積木堆疊\n而成。判斷拿走圖 ( 一 ) 的哪一個積木後，此圖形\n前視圖的形狀會改變？",
+      "options": [
+        "甲",
+        "乙",
+        "丙",
+        "丁 圖(一)"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:41+00:00",
+        "source_pdf_sha1": "c426053cd722",
+        "answer_pdf_sha1": "16ca7e0abba6",
+        "flags": [
+          "needs_image"
+        ],
+        "parse_confidence": 0.85,
+        "original_question_number": 3,
+        "raw_text": "3.   圖 ( 一 ) 的立體圖形由相同大小的正方體積木堆疊\n     而成。判斷拿走圖 ( 一 ) 的哪一個積木後，此圖形\n     前視圖的形狀會改變？\n     (A) 甲\n     (B) 乙\n     (C) 丙\n     (D) 丁\n\n                                  圖(一)\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-112-math-004",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-112-math",
+      "question_type": "single_choice",
+      "question_text": "化簡    135 的結果為下列何者？",
+      "options": [
+        "3 5",
+        "27 5",
+        "3 15",
+        "9 15"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:41+00:00",
+        "source_pdf_sha1": "c426053cd722",
+        "answer_pdf_sha1": "16ca7e0abba6",
+        "flags": [],
+        "parse_confidence": 1.0,
+        "original_question_number": 4,
+        "raw_text": "4.   化簡    135 的結果為下列何者？\n     (A) 3 5\n     (B) 27 5\n     (C) 3 15\n     (D) 9 15\n\n\n\n\n"
+      },
+      "is_active": true,
+      "auto_gradable": true,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-112-math-005",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-112-math",
+      "question_type": "single_choice",
+      "question_text": "坐標平面上，一次函數 y = −2x − 6 的圖形通過下列哪一個點？\n(A) (− 4 , 1 )\n(B) (− 4 , 2 )\n(C) (− 4 , − 1 )\n(D) (− 4 , − 2 )\n3        5",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:41+00:00",
+        "source_pdf_sha1": "c426053cd722",
+        "answer_pdf_sha1": "16ca7e0abba6",
+        "flags": [
+          "option_incomplete",
+          "option_image"
+        ],
+        "parse_confidence": 0.4,
+        "original_question_number": 5,
+        "raw_text": "5.   坐標平面上，一次函數 y = −2x − 6 的圖形通過下列哪一個點？\n     (A) (− 4 , 1 )\n     (B) (− 4 , 2 )\n     (C) (− 4 , − 1 )\n     (D) (− 4 , − 2 )\n\n\n\n                            3        5"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-112-math-006",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-112-math",
+      "question_type": "single_choice",
+      "question_text": "已知 a = −1，b = −1         ，c = −1 ，下列關於 a、b、c 三數的大小關係，何者\n4        8\n正確？",
+      "options": [
+        "a > c > b",
+        "a > b > c",
+        "b > c > a",
+        "c > b > a"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:41+00:00",
+        "source_pdf_sha1": "c426053cd722",
+        "answer_pdf_sha1": "16ca7e0abba6",
+        "flags": [],
+        "parse_confidence": 1.0,
+        "original_question_number": 6,
+        "raw_text": "6.   已知 a = −1，b = −1         ，c = −1 ，下列關於 a、b、c 三數的大小關係，何者\n                            4        8\n     正確？\n     (A) a > c > b\n     (B) a > b > c\n     (C) b > c > a\n     (D) c > b > a\n\n\n"
+      },
+      "is_active": true,
+      "auto_gradable": true,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-112-math-007",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-112-math",
+      "question_type": "single_choice",
+      "question_text": "如圖 ( 二 )，坐標平面上直線 L 的方程式為 x = −5，\n直線 M 的方程式為 y = − 3 ，P 點的坐標為 ( a , b ) 。\n根據圖 ( 二 ) 中 P 點位置判斷，下列關係何者正確？",
+      "options": [
+        "a < − 5 ，b > − 3",
+        "a < − 5 ，b < − 3",
+        "a > − 5 ，b > − 3",
+        "a > − 5 ，b < − 3 圖(二)"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:41+00:00",
+        "source_pdf_sha1": "c426053cd722",
+        "answer_pdf_sha1": "16ca7e0abba6",
+        "flags": [
+          "needs_image"
+        ],
+        "parse_confidence": 0.85,
+        "original_question_number": 7,
+        "raw_text": "7.   如圖 ( 二 )，坐標平面上直線 L 的方程式為 x = −5，\n     直線 M 的方程式為 y = − 3 ，P 點的坐標為 ( a , b ) 。\n     根據圖 ( 二 ) 中 P 點位置判斷，下列關係何者正確？\n     (A) a < − 5 ，b > − 3\n     (B) a < − 5 ，b < − 3\n     (C) a > − 5 ，b > − 3\n     (D) a > − 5 ，b < − 3\n                                                   圖(二)\n\n\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-112-math-008",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-112-math",
+      "question_type": "single_choice",
+      "question_text": "如圖 ( 三 )，梯形 ABCD 中，AD // BC。若 ∠ ADC = 140°，且 BD ⊥ CD，\n則 ∠ DBC 的度數為何？                         A    D",
+      "options": [
+        "30",
+        "40",
+        "50                                    B           C (D) 60                                        圖(三)",
+        ""
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:41+00:00",
+        "source_pdf_sha1": "c426053cd722",
+        "answer_pdf_sha1": "16ca7e0abba6",
+        "flags": [
+          "needs_image",
+          "option_incomplete"
+        ],
+        "parse_confidence": 0.6,
+        "original_question_number": 8,
+        "raw_text": "8.   如圖 ( 三 )，梯形 ABCD 中，AD // BC。若 ∠ ADC = 140°，且 BD ⊥ CD，\n     則 ∠ DBC 的度數為何？                         A    D\n     (A) 30\n     (B) 40\n     (C) 50                                    B           C\n     (D) 60                                        圖(三)\n\n\n\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-112-math-009",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-112-math",
+      "question_type": "single_choice",
+      "question_text": "有多少個正整數是 18 的倍數，同時也是 216 的因數？",
+      "options": [
+        "2",
+        "6",
+        "10",
+        "12"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:41+00:00",
+        "source_pdf_sha1": "c426053cd722",
+        "answer_pdf_sha1": "16ca7e0abba6",
+        "flags": [],
+        "parse_confidence": 1.0,
+        "original_question_number": 9,
+        "raw_text": "9.   有多少個正整數是 18 的倍數，同時也是 216 的因數？\n     (A) 2\n     (B) 6\n     (C) 10\n     (D) 12\n\n\n"
+      },
+      "is_active": true,
+      "auto_gradable": true,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-112-math-010",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-112-math",
+      "question_type": "single_choice",
+      "question_text": "利用公式解可得一元二次方程式 3x2 − 11x − 1 = 0 的兩解為 a、b，且 a > b，\n求 a 值為何？\n−11 + 109",
+      "options": [
+        "− + 133",
+        "11",
+        "11 + 109",
+        "11 + 133"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:41+00:00",
+        "source_pdf_sha1": "c426053cd722",
+        "answer_pdf_sha1": "16ca7e0abba6",
+        "flags": [],
+        "parse_confidence": 1.0,
+        "original_question_number": 10,
+        "raw_text": "10. 利用公式解可得一元二次方程式 3x2 − 11x − 1 = 0 的兩解為 a、b，且 a > b，\n    求 a 值為何？\n         −11 + 109\n     (A)\n         − + 133\n     (B) 11\n     (C) 11\n            + 109\n     (D) 11\n            + 133\n\n\n"
+      },
+      "is_active": true,
+      "auto_gradable": true,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-112-math-011",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-112-math",
+      "question_type": "single_choice",
+      "question_text": "業者販售含咖啡因飲料時通常會以紅、黃、綠三色來標示每杯飲料的咖啡因\n含量，各顏色的意義如表 ( 一 ) 所示。\n表(ㄧ)            表(二)\n我國建議每位成人一日的咖啡因攝取量不超過 300 毫克，歐盟則建議一日\n不超過 400 毫克。表 ( 二 ) 為某商店美式咖啡的容量及咖啡因含量標示，已知\n該店美式咖啡每毫升的咖啡因含量相同，判斷一位成人一日喝 2 杯該店中杯的\n美式咖啡，其咖啡因攝取量是否符合我國或歐盟的建議？",
+      "options": [
+        "符合我國也符合歐盟",
+        "不符合我國也不符合歐盟",
+        "符合我國，不符合歐盟",
+        "不符合我國，符合歐盟"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:41+00:00",
+        "source_pdf_sha1": "c426053cd722",
+        "answer_pdf_sha1": "16ca7e0abba6",
+        "flags": [
+          "needs_image"
+        ],
+        "parse_confidence": 0.85,
+        "original_question_number": 11,
+        "raw_text": "11. 業者販售含咖啡因飲料時通常會以紅、黃、綠三色來標示每杯飲料的咖啡因\n     含量，各顏色的意義如表 ( 一 ) 所示。\n                     表(ㄧ)            表(二)\n\n\n\n\n     我國建議每位成人一日的咖啡因攝取量不超過 300 毫克，歐盟則建議一日\n     不超過 400 毫克。表 ( 二 ) 為某商店美式咖啡的容量及咖啡因含量標示，已知\n     該店美式咖啡每毫升的咖啡因含量相同，判斷一位成人一日喝 2 杯該店中杯的\n     美式咖啡，其咖啡因攝取量是否符合我國或歐盟的建議？\n     (A) 符合我國也符合歐盟\n     (B) 不符合我國也不符合歐盟\n     (C) 符合我國，不符合歐盟\n     (D) 不符合我國，符合歐盟\n\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-112-math-012",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-112-math",
+      "question_type": "single_choice",
+      "question_text": "盒玩的販售方式是將一款玩具裝在盒子中販賣，購買者只能從外盒知道購買\n的是哪一系列玩具，但無法知道是系列中的哪一款。圖 ( 四 )、圖 ( 五 ) 分別\n為動物系列、汽車系列盒玩中所有可能出現的款式。\n圖(四)                       圖(五)\n已知小友喜歡圖 ( 四 ) 中的 A 款、C 款，喜歡圖 ( 五 ) 中的 B 款，若他打算\n購買圖 ( 四 ) 的盒玩一盒，且他買到圖 ( 四 ) 中每款玩具的機會相等；他也打算\n購買圖 ( 五 ) 的盒玩一盒，且他買到圖 ( 五 ) 中每款玩具的機會相等，則他買\n到的兩盒盒玩內的玩具都是他喜歡的款式的機率為何？",
+      "options": [
+        "",
+        "1",
+        "2",
+        ""
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:41+00:00",
+        "source_pdf_sha1": "c426053cd722",
+        "answer_pdf_sha1": "16ca7e0abba6",
+        "flags": [
+          "needs_image",
+          "option_incomplete"
+        ],
+        "parse_confidence": 0.6,
+        "original_question_number": 12,
+        "raw_text": "12. 盒玩的販售方式是將一款玩具裝在盒子中販賣，購買者只能從外盒知道購買\n   的是哪一系列玩具，但無法知道是系列中的哪一款。圖 ( 四 )、圖 ( 五 ) 分別\n   為動物系列、汽車系列盒玩中所有可能出現的款式。\n\n\n\n\n                圖(四)                       圖(五)\n\n   已知小友喜歡圖 ( 四 ) 中的 A 款、C 款，喜歡圖 ( 五 ) 中的 B 款，若他打算\n   購買圖 ( 四 ) 的盒玩一盒，且他買到圖 ( 四 ) 中每款玩具的機會相等；他也打算\n   購買圖 ( 五 ) 的盒玩一盒，且他買到圖 ( 五 ) 中每款玩具的機會相等，則他買\n   到的兩盒盒玩內的玩具都是他喜歡的款式的機率為何？\n   (A)\n   (B) 1\n   (C) 2\n   (D)\n\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-112-math-013",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-112-math",
+      "question_type": "single_choice",
+      "question_text": "如圖 ( 六 )，直角柱 ABCDEF 的底面為直角三角形。\n若 ∠ ABC = ∠ DEF = 90°， BC > AB > BE，則連接 AE\n後，下列敘述何者正確？",
+      "options": [
+        "∠ ACB < ∠ FDE，∠ AEB > ∠ ACB",
+        "∠ ACB < ∠ FDE，∠ AEB < ∠ ACB",
+        "∠ ACB > ∠ FDE，∠ AEB > ∠ ACB (D) ∠ ACB > ∠ FDE，∠ AEB < ∠ ACB                圖(六)",
+        ""
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:41+00:00",
+        "source_pdf_sha1": "c426053cd722",
+        "answer_pdf_sha1": "16ca7e0abba6",
+        "flags": [
+          "needs_image",
+          "option_incomplete"
+        ],
+        "parse_confidence": 0.6,
+        "original_question_number": 13,
+        "raw_text": "13. 如圖 ( 六 )，直角柱 ABCDEF 的底面為直角三角形。\n    若 ∠ ABC = ∠ DEF = 90°， BC > AB > BE，則連接 AE\n   後，下列敘述何者正確？\n   (A) ∠ ACB < ∠ FDE，∠ AEB > ∠ ACB\n   (B) ∠ ACB < ∠ FDE，∠ AEB < ∠ ACB\n   (C) ∠ ACB > ∠ FDE，∠ AEB > ∠ ACB\n   (D) ∠ ACB > ∠ FDE，∠ AEB < ∠ ACB                圖(六)\n\n\n\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-112-math-014",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-112-math",
+      "question_type": "single_choice",
+      "question_text": "坐標平面上有兩個二次函數的圖形，其頂點 P、Q 皆在 x 軸上，且有一水平線\n與兩圖形相交於 A、B、C、D 四點，各點位置如圖 ( 七 ) 所示。若 AB = 10，\nBC = 5，CD = 6，則 PQ 的長度為何？",
+      "options": [
+        "7",
+        "8",
+        "9 (D) 10                                圖(七)",
+        ""
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:41+00:00",
+        "source_pdf_sha1": "c426053cd722",
+        "answer_pdf_sha1": "16ca7e0abba6",
+        "flags": [
+          "needs_image",
+          "option_incomplete"
+        ],
+        "parse_confidence": 0.6,
+        "original_question_number": 14,
+        "raw_text": "14. 坐標平面上有兩個二次函數的圖形，其頂點 P、Q 皆在 x 軸上，且有一水平線\n  與兩圖形相交於 A、B、C、D 四點，各點位置如圖 ( 七 ) 所示。若 AB = 10，\n  BC = 5，CD = 6，則 PQ 的長度為何？\n  (A) 7\n  (B) 8\n  (C) 9\n  (D) 10                                圖(七)\n\n\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-112-math-015",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-112-math",
+      "question_type": "single_choice",
+      "question_text": "若想在等差數列 1 , 2 , 3 , 4 , 5 中插入一些數，使得新的數列也是等差數列，且\n新的數列的首項仍是 1，末項仍是 5，則新的數列的項數可能為下列何者？",
+      "options": [
+        "11",
+        "15",
+        "30",
+        "33"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:41+00:00",
+        "source_pdf_sha1": "c426053cd722",
+        "answer_pdf_sha1": "16ca7e0abba6",
+        "flags": [],
+        "parse_confidence": 1.0,
+        "original_question_number": 15,
+        "raw_text": "15. 若想在等差數列 1 , 2 , 3 , 4 , 5 中插入一些數，使得新的數列也是等差數列，且\n  新的數列的首項仍是 1，末項仍是 5，則新的數列的項數可能為下列何者？\n  (A) 11\n  (B) 15\n  (C) 30\n  (D) 33\n\n\n\n"
+      },
+      "is_active": true,
+      "auto_gradable": true,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-112-math-016",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-112-math",
+      "question_type": "single_choice",
+      "question_text": "已知某速食店販售的套餐內容為一片雞排和一杯可樂，且一份套餐的價錢比\n單點一片雞排再單點一杯可樂的總價錢便宜 40 元。阿俊打算到該速食店\n買兩份套餐，若他發現店內有單點一片雞排就再送一片雞排的促銷活動，\n且單點一片雞排再單點兩杯可樂的總價錢，比兩份套餐的總價錢便宜 10 元，\n則根據題意可得到下列哪一個結論？",
+      "options": [
+        "一份套餐的價錢必為 140 元",
+        "一份套餐的價錢必為 120 元",
+        "單點一片雞排的價錢必為 90 元",
+        "單點一片雞排的價錢必為 70 元"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:41+00:00",
+        "source_pdf_sha1": "c426053cd722",
+        "answer_pdf_sha1": "16ca7e0abba6",
+        "flags": [],
+        "parse_confidence": 1.0,
+        "original_question_number": 16,
+        "raw_text": "16. 已知某速食店販售的套餐內容為一片雞排和一杯可樂，且一份套餐的價錢比\n  單點一片雞排再單點一杯可樂的總價錢便宜 40 元。阿俊打算到該速食店\n  買兩份套餐，若他發現店內有單點一片雞排就再送一片雞排的促銷活動，\n  且單點一片雞排再單點兩杯可樂的總價錢，比兩份套餐的總價錢便宜 10 元，\n  則根據題意可得到下列哪一個結論？\n  (A) 一份套餐的價錢必為 140 元\n  (B) 一份套餐的價錢必為 120 元\n  (C) 單點一片雞排的價錢必為 90 元\n  (D) 單點一片雞排的價錢必為 70 元\n\n\n\n\n"
+      },
+      "is_active": true,
+      "auto_gradable": true,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-112-math-017",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-112-math",
+      "question_type": "single_choice",
+      "question_text": "圖 ( 八 ) 的方格紙中，每個方格的邊長\n為 1，A、O 兩點皆在格線的交點上。\n今在此方格紙格線的交點上另外找兩點\nB、C， 使 得 ΔABC 的 外 心 為 O， 求\nBC 的長度為何？",
+      "options": [
+        "4 (B) 5                               圖(八)",
+        "",
+        "10",
+        "20"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:41+00:00",
+        "source_pdf_sha1": "c426053cd722",
+        "answer_pdf_sha1": "16ca7e0abba6",
+        "flags": [
+          "needs_image",
+          "option_incomplete"
+        ],
+        "parse_confidence": 0.6,
+        "original_question_number": 17,
+        "raw_text": "17. 圖 ( 八 ) 的方格紙中，每個方格的邊長\n  為 1，A、O 兩點皆在格線的交點上。\n  今在此方格紙格線的交點上另外找兩點\n  B、C， 使 得 ΔABC 的 外 心 為 O， 求\n  BC 的長度為何？\n  (A) 4\n  (B) 5                               圖(八)\n  (C) 10\n  (D) 20\n\n\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-112-math-018",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-112-math",
+      "question_type": "single_choice",
+      "question_text": "樂樂停車場為 24 小時營業，其收費方式如             表(三)\n表 ( 三 ) 所示。已知阿虹某日 10:00 進場\n停車，停了 x 小時後離場，x 為整數。若\n阿虹離場的時間介於當日的 20:00 ~ 24:00\n間，則他此次停車的費用為多少元？",
+      "options": [
+        "5x + 30",
+        "5x + 50",
+        "5x + 150",
+        "5x + 200"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:41+00:00",
+        "source_pdf_sha1": "c426053cd722",
+        "answer_pdf_sha1": "16ca7e0abba6",
+        "flags": [
+          "needs_image"
+        ],
+        "parse_confidence": 0.85,
+        "original_question_number": 18,
+        "raw_text": "18. 樂樂停車場為 24 小時營業，其收費方式如             表(三)\n  表 ( 三 ) 所示。已知阿虹某日 10:00 進場\n  停車，停了 x 小時後離場，x 為整數。若\n  阿虹離場的時間介於當日的 20:00 ~ 24:00\n  間，則他此次停車的費用為多少元？\n  (A) 5x + 30\n  (B) 5x + 50\n  (C) 5x + 150\n  (D) 5x + 200\n\n\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-112-math-019",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-112-math",
+      "question_type": "single_choice",
+      "question_text": "圖 ( 九 ) 為一圓形紙片，A、B、C 為圓周上三點，其中 AC 為直徑。今以\nAB 為摺線將紙片向右摺後，紙片蓋住部分的 AC，而 AB 上與 AC 重疊的點\n為 D，如圖 ( 十 ) 所示。若 BC = 35°，則 AD 的度數為何？",
+      "options": [
+        "105",
+        "110",
+        "120",
+        "145 圖(九)          圖(十)"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:41+00:00",
+        "source_pdf_sha1": "c426053cd722",
+        "answer_pdf_sha1": "16ca7e0abba6",
+        "flags": [
+          "needs_image"
+        ],
+        "parse_confidence": 0.85,
+        "original_question_number": 19,
+        "raw_text": "19. 圖 ( 九 ) 為一圓形紙片，A、B、C 為圓周上三點，其中 AC 為直徑。今以\n  AB 為摺線將紙片向右摺後，紙片蓋住部分的 AC，而 AB 上與 AC 重疊的點\n  為 D，如圖 ( 十 ) 所示。若 BC = 35°，則 AD 的度數為何？\n  (A) 105\n  (B) 110\n  (C) 120\n  (D) 145\n\n\n                               圖(九)          圖(十)\n\n\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-112-math-020",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-112-math",
+      "question_type": "single_choice",
+      "question_text": "如圖 ( 十一 )，ΔABC 中，D 點在 BC 上，且 BD\n的中垂線與 AB 相交於 E 點，CD 的中垂線與 AC\n相交於 F 點。已知 ΔABC 的三個內角皆不相等，\n根據圖 ( 十一 ) 中標示的角，判斷下列敘述何者正確？",
+      "options": [
+        "∠ 1 = ∠ 3，∠ 2 = ∠ 4 (B) ∠ 1 = ∠ 3，∠ 2 ≠ ∠ 4              圖 ( 十一 )",
+        "",
+        "∠ 1 ≠ ∠ 3，∠ 2 = ∠ 4",
+        "∠ 1 ≠ ∠ 3，∠ 2 ≠ ∠ 4"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:41+00:00",
+        "source_pdf_sha1": "c426053cd722",
+        "answer_pdf_sha1": "16ca7e0abba6",
+        "flags": [
+          "needs_image",
+          "option_incomplete"
+        ],
+        "parse_confidence": 0.6,
+        "original_question_number": 20,
+        "raw_text": "20. 如圖 ( 十一 )，ΔABC 中，D 點在 BC 上，且 BD\n      的中垂線與 AB 相交於 E 點，CD 的中垂線與 AC\n      相交於 F 點。已知 ΔABC 的三個內角皆不相等，\n      根據圖 ( 十一 ) 中標示的角，判斷下列敘述何者正確？\n      (A) ∠ 1 = ∠ 3，∠ 2 = ∠ 4\n      (B) ∠ 1 = ∠ 3，∠ 2 ≠ ∠ 4              圖 ( 十一 )\n      (C) ∠ 1 ≠ ∠ 3，∠ 2 = ∠ 4\n      (D) ∠ 1 ≠ ∠ 3，∠ 2 ≠ ∠ 4\n\n\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-112-math-021",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-112-math",
+      "question_type": "single_choice",
+      "question_text": "圖 ( 十二 )\n有一東西向的直線吊橋橫跨溪谷，小維、阿良分別從西橋頭、東橋頭同時開始\n往吊橋的另一頭筆直地走過去， 如圖 ( 十二 ) 所示。 已知小維從西橋頭走了\n84 步，阿良從東橋頭走了 60 步時，兩人在吊橋上的某點交會，且交會之後\n阿良再走 70 步恰好走到西橋頭。若小維每步的距離相等，阿良每步的距離\n相等，則交會之後小維再走多少步會恰好走到東橋頭？",
+      "options": [
+        "46",
+        "50",
+        "60",
+        "72"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:41+00:00",
+        "source_pdf_sha1": "c426053cd722",
+        "answer_pdf_sha1": "16ca7e0abba6",
+        "flags": [
+          "needs_image"
+        ],
+        "parse_confidence": 0.85,
+        "original_question_number": 21,
+        "raw_text": "21.\n\n\n\n\n                                圖 ( 十二 )\n      有一東西向的直線吊橋橫跨溪谷，小維、阿良分別從西橋頭、東橋頭同時開始\n      往吊橋的另一頭筆直地走過去， 如圖 ( 十二 ) 所示。 已知小維從西橋頭走了\n      84 步，阿良從東橋頭走了 60 步時，兩人在吊橋上的某點交會，且交會之後\n      阿良再走 70 步恰好走到西橋頭。若小維每步的距離相等，阿良每步的距離\n      相等，則交會之後小維再走多少步會恰好走到東橋頭？\n      (A) 46\n      (B) 50\n      (C) 60\n      (D) 72\n\n\n\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-112-math-022",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-112-math",
+      "question_type": "single_choice",
+      "question_text": "如 圖 ( 十 三 )， 正 方 形 ABCD 與 ΔEBC 中，AD 分 別 與\nEB 、 EC 相交於 F 點、 G 點。若 Δ EBG 的面積為 6 ，\n正方形 ABCD 的面積為 16，則 FG 與 BC 的長度比為何？",
+      "options": [
+        "3 : 5",
+        "3 : 6",
+        "3 : 7",
+        "3 : 8 圖 ( 十三 )"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:41+00:00",
+        "source_pdf_sha1": "c426053cd722",
+        "answer_pdf_sha1": "16ca7e0abba6",
+        "flags": [
+          "needs_image"
+        ],
+        "parse_confidence": 0.85,
+        "original_question_number": 22,
+        "raw_text": "22. 如 圖 ( 十 三 )， 正 方 形 ABCD 與 ΔEBC 中，AD 分 別 與\n   EB 、 EC 相交於 F 點、 G 點。若 Δ EBG 的面積為 6 ，\n   正方形 ABCD 的面積為 16，則 FG 與 BC 的長度比為何？\n   (A) 3 : 5\n   (B) 3 : 6\n   (C) 3 : 7\n   (D) 3 : 8\n\n                                                   圖 ( 十三 )\n\n\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-112-math-023",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-112-math",
+      "question_type": "single_choice",
+      "question_text": "如圖 ( 十四 )，矩形 ABCD 中， AB = 6，AD = 8，且有一點 P 從 B 點沿著\nBD 往 D 點移動。若過 P 點作 AB 的垂線交 AB 於 E 點，過 P 點作 AD 的\n垂線交 AD 於 F 點，則 EF 的長度最小為多少？",
+      "options": [
+        "14",
+        "24",
+        "5 圖 ( 十四 )",
+        "7"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:41+00:00",
+        "source_pdf_sha1": "c426053cd722",
+        "answer_pdf_sha1": "16ca7e0abba6",
+        "flags": [
+          "needs_image"
+        ],
+        "parse_confidence": 0.85,
+        "original_question_number": 23,
+        "raw_text": "23. 如圖 ( 十四 )，矩形 ABCD 中， AB = 6，AD = 8，且有一點 P 從 B 點沿著\n   BD 往 D 點移動。若過 P 點作 AB 的垂線交 AB 於 E 點，過 P 點作 AD 的\n   垂線交 AD 於 F 點，則 EF 的長度最小為多少？\n   (A) 14\n\n   (B) 24\n   (C) 5\n                                                圖 ( 十四 )\n   (D) 7\n\n\n\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-112-math-passage-24",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-112-math",
+      "question_type": "reading_passage",
+      "question_text": "請閱讀下列敘述後，回答 24 ～ 25 題",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": {
+        "passage_text": "人口老化是國家人口分布向高年齡偏移的現象，許多國家已開始面臨此問題。\n依國際常用定義，一個國家中的 65 歲以上人口占總人口的百分比為 7% 以上(含)\n且未達 14% 時稱作「高齡化社會」，14% 以上(含)且未達 20% 時稱作「高齡\n社會」，20% 以上(含)時稱作「超高齡社會」。\n 百分比＝百分率",
+        "kind_hint": "single"
+      },
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:41+00:00",
+        "source_pdf_sha1": "c426053cd722",
+        "answer_pdf_sha1": "16ca7e0abba6",
+        "flags": [],
+        "parse_confidence": null,
+        "intro_line": "請閱讀下列敘述後，回答 24 ～ 25 題",
+        "child_qnums": [
+          24,
+          25
+        ]
+      },
+      "is_active": true,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-112-math-024",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-112-math",
+      "question_type": "single_choice",
+      "question_text": "圖 ( 十五 ) 為某機構於 2020 年繪製的四個國家 65 歲以上人口占總人口百分比\n之折線圖，其中 2020 年之後的數值為推估值。\n圖 ( 十五 )\n根據圖 ( 十五 ) 推測，下列哪一個國家從進入「高齡社會」到進入「超高齡\n社會」所花的時間最短？",
+      "options": [
+        "法國",
+        "義大利",
+        "美國",
+        "韓國"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "parent_question_id": "cap-112-math-passage-24",
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:41+00:00",
+        "source_pdf_sha1": "c426053cd722",
+        "answer_pdf_sha1": "16ca7e0abba6",
+        "flags": [
+          "needs_image"
+        ],
+        "parse_confidence": 0.85,
+        "original_question_number": 24,
+        "raw_text": "24. 圖 ( 十五 ) 為某機構於 2020 年繪製的四個國家 65 歲以上人口占總人口百分比\n  之折線圖，其中 2020 年之後的數值為推估值。\n\n\n\n\n                     圖 ( 十五 )\n  根據圖 ( 十五 ) 推測，下列哪一個國家從進入「高齡社會」到進入「超高齡\n  社會」所花的時間最短？\n  (A) 法國\n  (B) 義大利\n  (C) 美國\n  (D) 韓國\n\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-112-math-025",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-math",
+      "paper_id": "cap-112-math",
+      "question_type": "single_choice",
+      "question_text": "已知 2019 年我國進入「高齡社會」，預測 2025 年會進入「超高齡社會」。\n假設我國 2019 年與 2025 年總人口數皆為 2300 萬人，且 2019 年我國 65 歲\n以上人口占總人口的百分比恰好達到「高齡社會」的最低標準，則根據上述\n預測，關於我國 65 歲以上人口數，2025 年與 2019 年相比至少增加了多少萬人？",
+      "options": [
+        "138",
+        "161",
+        "322",
+        "460"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "parent_question_id": "cap-112-math-passage-24",
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-25T19:26:41+00:00",
+        "source_pdf_sha1": "c426053cd722",
+        "answer_pdf_sha1": "16ca7e0abba6",
+        "flags": [],
+        "parse_confidence": 1.0,
+        "original_question_number": 25,
+        "raw_text": "25. 已知 2019 年我國進入「高齡社會」，預測 2025 年會進入「超高齡社會」。\n  假設我國 2019 年與 2025 年總人口數皆為 2300 萬人，且 2019 年我國 65 歲\n  以上人口占總人口的百分比恰好達到「高齡社會」的最低標準，則根據上述\n  預測，關於我國 65 歲以上人口數，2025 年與 2019 年相比至少增加了多少萬人？\n  (A) 138\n  (B) 161\n  (C) 322\n  (D) 460\n\n\n"
+      },
+      "is_active": true,
+      "auto_gradable": true,
+      "difficulty": 3,
+      "explanation": null
+    }
+  ],
+  "stats": {
+    "total_records": 28,
+    "passage_parents": 1,
+    "single_questions": 27,
+    "active": 10,
+    "inactive": 18,
+    "no_answer": 0
+  }
+}
