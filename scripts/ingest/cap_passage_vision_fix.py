@@ -50,13 +50,13 @@ DEFAULT_IDS = [
 
 SUBJECT_PDF = {
     "math": ["{year}P_Math.pdf", "{year}P_Math150DPI.pdf"],
-    "nature": ["{year}P_Nature.pdf"],
-    "science": ["{year}P_Nature.pdf"],
-    "social": ["{year}P_Society.pdf"],
-    "society": ["{year}P_Society.pdf"],   # qid 實際用 society
-    "chinese": ["{year}P_Chinese.pdf"],
-    "english-reading": ["{year}P_English.pdf"],
-    "english": ["{year}P_English.pdf"],
+    "nature": ["{year}P_Nature.pdf", "{year}P_Nature150DPI.pdf"],
+    "science": ["{year}P_Nature.pdf", "{year}P_Nature150DPI.pdf"],
+    "social": ["{year}P_Society.pdf", "{year}P_Society150DPI.pdf"],
+    "society": ["{year}P_Society.pdf", "{year}P_Society150DPI.pdf"],
+    "chinese": ["{year}P_Chinese.pdf", "{year}P_Chinese150DPI.pdf"],
+    "english-reading": ["{year}P_English.pdf", "{year}P_English150DPI.pdf"],
+    "english": ["{year}P_English.pdf", "{year}P_English150DPI.pdf"],
 }
 
 SYSTEM_PROMPT = """你是國中會考題組閱讀文本抽取助手。我會給你一張試卷頁面，請抽取**指定題組**的完整閱讀文本（不含子題與選項），輸出 JSON：
