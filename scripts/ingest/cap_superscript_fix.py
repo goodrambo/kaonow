@@ -144,16 +144,62 @@ def detect_super_sub(words: List[Dict]) -> List[Dict]:
     return words
 
 
-def reconstruct_text_with_super(words: List[Dict]) -> str:
-    """把標記過的 words 重組，上標用 Unicode 取代"""
+def reconstruct_text_with_super(words: List[Dict], mode: str = "latex") -> str:
+    """把標記過的 words 重組。
+    mode='unicode': 用 Unicode 上下標字元（⁰¹²³...）
+    mode='latex': 用 KaTeX inline `$base^{sup}$` 格式
+    """
+    if mode == "unicode":
+        out = []
+        for w in words:
+            text = w["text"]
+            if w.get("is_super"):
+                text = to_superscript(text)
+            elif w.get("is_sub"):
+                text = to_subscript(text)
+            out.append(text)
+        return "".join(out)
+
+    # latex mode: 把連續 super 或 sub group 跟前面 base 合併成 $base^{sup}$
+    # 規則：base = 上一個非 super/sub word；後面連續若干 super/sub 都歸這個 base
     out = []
-    for i, w in enumerate(words):
-        text = w["text"]
-        if w.get("is_super"):
-            text = to_superscript(text)
-        elif w.get("is_sub"):
-            text = to_subscript(text)
-        out.append(text)
+    i = 0
+    n = len(words)
+    while i < n:
+        w = words[i]
+        if w.get("is_super") or w.get("is_sub"):
+            # 沒有 base（孤兒）→ 直接 append 原文（極少數）
+            out.append(w["text"])
+            i += 1
+            continue
+        # 是 base
+        base_text = w["text"]
+        # collect 後面連續的 super / sub
+        sups = []
+        subs = []
+        j = i + 1
+        while j < n and (words[j].get("is_super") or words[j].get("is_sub")):
+            if words[j].get("is_super"):
+                sups.append(words[j]["text"])
+            else:
+                subs.append(words[j]["text"])
+            j += 1
+        if sups or subs:
+            # KaTeX 用 - 不用 −；- 統一處理成 ASCII
+            base_clean = base_text.replace("−", "-")
+            sup_clean = "".join(sups).replace("−", "-") if sups else ""
+            sub_clean = "".join(subs).replace("−", "-") if subs else ""
+            latex = base_clean
+            if sub_clean:
+                latex += f"_{{{sub_clean}}}"
+            if sup_clean:
+                latex += f"^{{{sup_clean}}}"
+            # 若 base 含特殊字元（如 *, \, $）需要 escape，這裡簡化先不做
+            out.append(f"${latex}$")
+            i = j
+        else:
+            out.append(base_text)
+            i += 1
     return "".join(out)
 
 
@@ -213,7 +259,7 @@ def split_stem_options(text: str) -> Tuple[str, List[str]]:
     return stem, opts
 
 
-def fix_paper(year: int, subject: str) -> Dict[str, Tuple[str, List[str]]]:
+def fix_paper(year: int, subject: str, mode: str = "latex") -> Dict[str, Tuple[str, List[str]]]:
     """跑單一 paper，回 {qid: (new_stem, new_options)}"""
     pdf = find_pdf_path(year, subject)
     if not pdf:
@@ -224,7 +270,7 @@ def fix_paper(year: int, subject: str) -> Dict[str, Tuple[str, List[str]]]:
     results: Dict[str, Tuple[str, List[str]]] = {}
     for page_words in pages:
         page_words = detect_super_sub(page_words)
-        qblocks = extract_question_blocks(page_words)
+        qblocks = extract_question_blocks_mode(page_words, mode)
         for qnum, text in qblocks.items():
             stem, opts = split_stem_options(text)
             if not stem and not any(opts):
@@ -232,6 +278,37 @@ def fix_paper(year: int, subject: str) -> Dict[str, Tuple[str, List[str]]]:
             qid = f"{paper_id}-{qnum:03d}"
             results[qid] = (stem, opts)
     return results
+
+
+def extract_question_blocks_mode(words: List[Dict], mode: str = "latex") -> Dict[int, str]:
+    """同 extract_question_blocks 但走 mode-aware reconstruct"""
+    questions: Dict[int, str] = {}
+    cur_qnum = None
+    cur_words: List[Dict] = []
+    re_qnum = re.compile(r"^(\d+)\.$")
+
+    def commit():
+        nonlocal cur_qnum, cur_words
+        if cur_qnum is None or not cur_words:
+            return
+        text = reconstruct_text_with_super(cur_words, mode)
+        if re.search(r"\(\s*A\s*\)", text):
+            if cur_qnum not in questions or len(text) > len(questions[cur_qnum]):
+                questions[cur_qnum] = text
+        cur_qnum = None
+        cur_words = []
+
+    for w in words:
+        m = re_qnum.match(w["text"].strip())
+        if m and 1 <= int(m.group(1)) <= 60:
+            commit()
+            cur_qnum = int(m.group(1))
+            cur_words = []
+            continue
+        if cur_qnum is not None:
+            cur_words.append(w)
+    commit()
+    return questions
 
 
 def execute_sql(sql: str, token: str) -> Tuple[bool, str]:
@@ -279,6 +356,8 @@ def main():
     ap.add_argument("--all-nature", action="store_true")
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--limit", type=int, default=0, help="只處理前 N 題（debug）")
+    ap.add_argument("--mode", choices=["unicode", "latex"], default="latex",
+                    help="latex: $base^{sup}$ KaTeX 格式（預設）；unicode: ⁰¹²³ 字元")
     args = ap.parse_args()
 
     token = os.environ.get("SUPABASE_ACCESS_TOKEN", "")
@@ -297,8 +376,8 @@ def main():
 
     grand_changed = 0
     for y, s in targets:
-        print(f"\n=== {y}-{s} ===")
-        results = fix_paper(y, s)
+        print(f"\n=== {y}-{s} ({args.mode}) ===")
+        results = fix_paper(y, s, args.mode)
         if not results:
             continue
         changed = 0
@@ -307,9 +386,10 @@ def main():
             if args.limit and i >= args.limit:
                 break
             i += 1
-            # 只顯示真有上標變動的
-            has_super_chars = any(c in (stem + " ".join(opts)) for c in "⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻⁼⁽⁾ⁿⁱᵃᵇˣ")
-            if not has_super_chars:
+            # 只顯示真有上標變動的（含 LaTeX 標記）
+            has_changed = ("$" in stem or any("$" in o for o in opts)
+                           or any(c in (stem + " ".join(opts)) for c in "⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻⁼⁽⁾ⁿⁱᵃᵇˣ"))
+            if not has_changed:
                 continue
             print(f"\n  {qid}")
             print(f"    new stem: {stem[:120]}")

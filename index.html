@@ -1053,6 +1053,10 @@ html:not(.auth-ready) [data-when]{display:none}
 .ref-gate .btn-primary{margin-top:4px}
 </style>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+<!-- KaTeX：數學公式渲染（W1.9.5 phase 2） -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" integrity="sha384-nB0miv6/jRmo5UMMR1wu3Gz6NLsoTkbqJghGIsx//Rlm+ZU03BU6SQNC66uf4l5+" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" integrity="sha384-7zkQWkzuo3B5mTepMUcHkMB5jZaolc2xDwL6VFqjFALcbeS9Ggm/Yr2r3Dy4lfFg" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" integrity="sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk" crossorigin="anonymous"></script>
 <meta name="supabase-url" content="https://myvfboezhnzgovowhaff.supabase.co">
 <meta name="supabase-key" content="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im15dmZib2V6aG56Z292b3doYWZmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzYyNDE3NTIsImV4cCI6MjA5MTgxNzc1Mn0.yPU7NXWOHO8zTFywGBflCuBoiwEZda-FYhQcnszWLOQ">
 </head>
@@ -1960,7 +1964,7 @@ const cloud = (() => {
   }
 
   // ── 題庫載入（含快取，24h TTL） ─────────────────────────
-  const Q_CACHE_PREFIX = 'kaonow_q14_';  // bump 2026-04-26 W1.9.5-fix v2：refreshTier ReferenceError 修（用 cloud._request 取代 closure 內 request）
+  const Q_CACHE_PREFIX = 'kaonow_q15_';  // bump 2026-04-26 W1.9.5 phase 2：KaTeX 數學公式渲染 + math 50 題上標 LaTeX 重抽
   const Q_CACHE_TTL = 24 * 3600 * 1000;
   const qMemCache = {};  // 記憶體快取，避免同一 session 重複打
 
@@ -7216,7 +7220,21 @@ function renderQuestion(){
     html += `<button class="btn-primary" onclick="_markReadonlyViewed()">我已閱覽，下一題 →</button>`;
   }
   html += '</div>';
-  document.getElementById('question-area').innerHTML = html;
+  const qaEl = document.getElementById('question-area');
+  qaEl.innerHTML = html;
+  // KaTeX auto-render（W1.9.5 phase 2）：把 $...$ 包圍的 LaTeX 渲染成數學排版
+  if (window.renderMathInElement) {
+    try {
+      window.renderMathInElement(qaEl, {
+        delimiters: [
+          { left: "$$", right: "$$", display: true },
+          { left: "$", right: "$", display: false }
+        ],
+        throwOnError: false,
+        errorColor: '#888',
+      });
+    } catch (e) { /* ignore — KaTeX failed gracefully */ }
+  }
   renderDots();
 }
 
