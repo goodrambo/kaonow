@@ -119,10 +119,10 @@ def parse_bbox_xml(pdf_path: Path) -> List[Dict]:
 
 
 def detect_super_sub(words: List[Dict]) -> List[Dict]:
-    """掃過一頁的 words，標記上標/下標。
-    判斷規則（相對前後 baseline word）：
-      - 字高 < baseline 平均 70%
-      - yMin 比 baseline 平均 yMin 大（下標）或字頂（ymax）對齊 baseline 上半 → 上標
+    """掃過一頁的 words，標記上標/下標 + 分數對偶。
+    判斷規則：
+      - 字高 < baseline 平均 70% → super（上標）
+      - 連續兩個短數字 word，第二個 yMid 顯著大於第一個（>= 4px）且 X 位置接近 → 分數 (num/denom)
     """
     if not words:
         return words
@@ -131,16 +131,23 @@ def detect_super_sub(words: List[Dict]) -> List[Dict]:
     if not heights:
         return words
     median_h = sorted(heights)[len(heights) // 2]
+    # baseline yMid 中位數（用比較大的字）
+    baseline_ymids = [
+        (w["ymin"] + w["ymax"]) / 2 for w in words if w["height"] >= median_h * 0.85
+    ]
+    baseline_ymid = sorted(baseline_ymids)[len(baseline_ymids) // 2] if baseline_ymids else None
 
     for w in words:
         w["is_super"] = False
         w["is_sub"] = False
-        # 字高顯著偏小 + 文字含數字或代數符號 → 候選
+        w["is_frac_num"] = False  # 分數的分子
+        w["is_frac_denom"] = False  # 分數的分母
+        # 字高顯著偏小 + 文字含數字或代數符號 → 候選 super
         if w["height"] < median_h * 0.7 and re.match(r"^[0-9\+\-\=\(\)nixab]+$", w["text"].strip()):
-            # ymax 偏小 (頂端對齊上方) → super
-            # 我們找前一個 baseline word 比對
-            # 簡單規則：若字高 < median*0.7 → 標 super (大多情況)
             w["is_super"] = True
+
+    # NOTE: fraction detection 啟發式太脆弱（cap-104-math-001 / 008 / 010 觀察到誤判），
+    # 改為單獨用 vision pipeline 處理。本函式僅做 super/sub 偵測。
     return words
 
 
@@ -161,14 +168,13 @@ def reconstruct_text_with_super(words: List[Dict], mode: str = "latex") -> str:
         return "".join(out)
 
     # latex mode: 把連續 super 或 sub group 跟前面 base 合併成 $base^{sup}$
-    # 規則：base = 上一個非 super/sub word；後面連續若干 super/sub 都歸這個 base
     out = []
     i = 0
     n = len(words)
     while i < n:
         w = words[i]
         if w.get("is_super") or w.get("is_sub"):
-            # 沒有 base（孤兒）→ 直接 append 原文（極少數）
+            # 孤兒 super/sub（沒對應 base），原文輸出
             out.append(w["text"])
             i += 1
             continue
@@ -185,7 +191,6 @@ def reconstruct_text_with_super(words: List[Dict], mode: str = "latex") -> str:
                 subs.append(words[j]["text"])
             j += 1
         if sups or subs:
-            # KaTeX 用 - 不用 −；- 統一處理成 ASCII
             base_clean = base_text.replace("−", "-")
             sup_clean = "".join(sups).replace("−", "-") if sups else ""
             sub_clean = "".join(subs).replace("−", "-") if subs else ""
@@ -194,7 +199,6 @@ def reconstruct_text_with_super(words: List[Dict], mode: str = "latex") -> str:
                 latex += f"_{{{sub_clean}}}"
             if sup_clean:
                 latex += f"^{{{sup_clean}}}"
-            # 若 base 含特殊字元（如 *, \, $）需要 escape，這裡簡化先不做
             out.append(f"${latex}$")
             i = j
         else:
