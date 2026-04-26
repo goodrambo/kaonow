@@ -41,10 +41,24 @@ PROJECT_REF = "myvfboezhnzgovowhaff"
 SUPABASE_MGMT_URL = f"https://api.supabase.com/v1/projects/{PROJECT_REF}/database/query"
 
 DEFAULT_IDS = [
+    # Phase 3 第一批（已修，2026-04-26）
     "cap-104-math-001",
     "cap-109-math-004",
     "cap-112-math-004",
     "cap-114-math-008",
+    # Phase 3 第二批（QA 掃出 10 題 stem-opts 黏連）
+    # Type B1: 二元一次聯立方程式（大括號失敗）
+    "cap-110-math-003",
+    "cap-113-math-003",
+    "cap-107-math-005",
+    # Type B2: 算式 / 分數 / 根號 黏連
+    "cap-104-math-004",
+    "cap-108-math-001",
+    "cap-108-math-016",
+    "cap-112-math-010",
+    "cap-105-math-002",
+    "cap-106-math-002",
+    "cap-110-math-006",
 ]
 
 SUBJECT_PDF = {
