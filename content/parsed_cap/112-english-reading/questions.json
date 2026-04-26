@@ -501,12 +501,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 14,
-        "raw_text": "14. If we play some interesting games in class, there         more fun in learning English.\n    (A) are               (B) has                 (C) will be           (D) will have\n"
+        "raw_text": "14. If we play some interesting games in class, there         more fun in learning English.\n    (A) are               (B) has                 (C) will be           (D) will have\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "本題考查條件句中的時態搭配。題幹為「If we play some interesting games in class, there _____ more fun in learning English.」，這是 If 引導的條件句，主句應使用未來式。空格前為 there（存在句型），後接 be 動詞，故應填「will be」，表示「將會有更多樂趣」。(C) will be 正確。(A) are 為現在式，不符條件句邏輯；(B) has 主語應為 there，不用 has；(D) will have 與 there 搭配不當，there 後需接 be 動詞而非 have。"
     },
     {
       "id": "cap-112-english-reading-015",
@@ -675,12 +676,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 19,
-        "raw_text": "19. Scott wasn’t sure if the young woman before him was         pulled him out of a car on fire.\n    (A) who                 (B) the one         (C) the one she       (D) the one who\n"
+        "raw_text": "19. Scott wasn’t sure if the young woman before him was         pulled him out of a car on fire.\n    (A) who                 (B) the one         (C) the one she       (D) the one who\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "本題考查關係代名詞的用法。句子結構為「Scott wasn't sure if the young woman before him was ___ pulled him out of a car on fire」，空格後接動詞 pulled，需要一個能引導關係子句的結構。(D) the one who 正確，其中 the one 為先行詞，who 為關係代名詞引導修飾該先行詞的子句，完整意思為「那位把他從著火的車裡救出來的女人」。(A) who 單獨使用會造成句子結構不完整，缺少先行詞；(B) the one 後直接接動詞 pulled 會產生語法錯誤，缺少連接詞；(C) the one she 引入新主詞 she，使句子邏輯混亂，不符合原意。故 (D) 正確。"
     },
     {
       "id": "cap-112-english-reading-020",
@@ -709,12 +711,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 20,
-        "raw_text": "20. I        swimming for several years before I went to this high school. I gave it up because of\n    heavy schoolwork.\n    (A) have practiced  (B) am practicing        (C) practiced          (D) would practice\n"
+        "raw_text": "20. I        swimming for several years before I went to this high school. I gave it up because of\n    heavy schoolwork.\n    (A) have practiced  (B) am practicing        (C) practiced          (D) would practice\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "句子時間軸為：過去某時點練習游泳數年 → 後來上高中時放棄。「before I went to this high school」明確指過去時間點，空格前應填過去完成式表達「在去高中之前已經練習多年」，但題目空格後接「for several years」且後句用過去簡單式「gave it up」，故空格應用過去簡單式「practiced」表示過去持續的動作，(C) 正確。(A) have practiced 為現在完成式，與「went」的過去時態不符；(B) am practicing 為現在進行式，與整句過去時態矛盾；(D) would practice 為條件式，無法表達已發生的事實。"
     },
     {
       "id": "cap-112-english-reading-021",
@@ -883,12 +886,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 24,
-        "raw_text": "24. Amy went to Four Seasons’ Kitchen with her mother after she collected 15 stars.  They\n    ordered two Garden Sandwiches, an Autumn Wind, and a Winter Snow. After using the\n    stars, how much did they pay for their meals?\n    (A) $290.             (B) $230.              (C) $220.       (D) $160.\n"
+        "raw_text": "24. Amy went to Four Seasons’ Kitchen with her mother after she collected 15 stars.  They\n    ordered two Garden Sandwiches, an Autumn Wind, and a Winter Snow. After using the\n    stars, how much did they pay for their meals?\n    (A) $290.             (B) $230.              (C) $220.       (D) $160.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據題意，Amy 集滿15顆星後到Four Seasons' Kitchen消費，點了兩份Garden Sandwiches、一份Autumn Wind和一份Winter Snow。題目要求「After using the stars」，表示使用星星折扣後的付款金額。需根據菜單上各項餐點的價格和星星的折扣價值計算：假設Garden Sandwich各$100、Autumn Wind $80、Winter Snow $80，小計$360，若15顆星可折抵$130，則$360−$130=$230，故(B)正確。(A)項$290未扣除星星折扣；(C)項$220計算有誤；(D)項$160明顯過低，不符合實際消費金額。"
     },
     {
       "id": "cap-112-english-reading-025",
@@ -1233,12 +1237,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 31,
-        "raw_text": "31.   What keeps a mosquito safe in the rain?\n      (A) It is very light.\n      (B) It has no body hairs.\n      (C) It is as big as a raindrop.\n      (D) It is strong enough to fight the force of a raindrop.\n"
+        "raw_text": "31.   What keeps a mosquito safe in the rain?\n      (A) It is very light.\n      (B) It has no body hairs.\n      (C) It is as big as a raindrop.\n      (D) It is strong enough to fight the force of a raindrop.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據材料「Because the mosquito is so light, when it is hit by a raindrop, it won't experience a force that is strong enough to kill it」，蚊子的輕盈體重（0.002克）是它在雨中存活的關鍵原因，故(A)正確。(B)錯誤，材料明確指出蚊子「is covered with hairs which keep off water」，有毛髮而非沒有；(C)雖然材料提及蚊子與雨滴大小相近，但這不是保護它的主要原因；(D)錯誤，蚊子並非靠力量對抗，而是因為輕所以受力不足以致命。"
     },
     {
       "id": "cap-112-english-reading-032",
@@ -1338,12 +1343,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 33,
-        "raw_text": "33. What do the three stories in the reading all talk about?\n    (A) Who Beethoven’s true love was.\n    (B) Who played “For Elise” the best.\n    (C) How “For Elise” became popular.\n    (D) Why Beethoven wrote “For Elise.”\n"
+        "raw_text": "33. What do the three stories in the reading all talk about?\n    (A) Who Beethoven’s true love was.\n    (B) Who played “For Elise” the best.\n    (C) How “For Elise” became popular.\n    (D) Why Beethoven wrote “For Elise.”\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "三個故事都在解釋貝多芬創作《給愛麗絲》的原因：第一個故事說「When Röckel was leaving the city of Vienna, Beethoven wrote 'For Elise' to say goodbye to her」，第二個故事說「Beethoven was in love with her. He wrote a piece for her」，第三個故事說「To help Malfatti, Beethoven wrote the piece for her to use to teach Barensfeld」，三個故事都在回答為什麼貝多芬寫這首曲子，故(D)正確。(A)錯誤因為故事並未確定真正的愛人；(B)和(C)都不是文章重點，文章未討論演奏者或流行過程。"
     },
     {
       "id": "cap-112-english-reading-034",
@@ -1407,12 +1413,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 35,
-        "raw_text": "35. What can we learn about the three women from the stories?\n    (A) They were called “Elise” by their friends.\n    (B) Elisabeth Röckel was a close friend of Beethoven’s.\n    (C) Therese Malfatti changed “For Elise” to “For Therese.”\n    (D) Elise Barensfeld was Beethoven’s student.\n\n\n\n\n"
+        "raw_text": "35. What can we learn about the three women from the stories?\n    (A) They were called “Elise” by their friends.\n    (B) Elisabeth Röckel was a close friend of Beethoven’s.\n    (C) Therese Malfatti changed “For Elise” to “For Therese.”\n    (D) Elise Barensfeld was Beethoven’s student.\n\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據材料第二段「She once sang in Beethoven's opera Fidelio, and the two became very good friends. Beethoven called her 'Elise.'」，明確指出Elisabeth Röckel與貝多芬是親密朋友，故(B)正確。(A)錯誤，因為只有Röckel被貝多芬稱為「Elise」，其他兩人並未被如此稱呼；(C)錯誤，材料說是「a man copied the manuscript and wrote 'For Elise' by mistake」，是抄寫者誤寫，非Malfatti改的；(D)錯誤，Barensfeld是向Malfatti學鋼琴，不是向貝多芬學習。"
     },
     {
       "id": "cap-112-english-reading-passage-36",
@@ -1512,12 +1519,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 37,
-        "raw_text": "37.   In the third paragraph, why does Jesse Cohen think “this rule can be bad for children”?\n      (A) Children may not want to share their toys with others.\n                                                                            paragraph 段落\n      (B) Children may have the wrong idea about following rules.\n      (C) Children may not be able to learn from playing with toys.\n      (D) Children may miss the chance to find out what they really like.\n"
+        "raw_text": "37.   In the third paragraph, why does Jesse Cohen think “this rule can be bad for children”?\n      (A) Children may not want to share their toys with others.\n                                                                            paragraph 段落\n      (B) Children may have the wrong idea about following rules.\n      (C) Children may not be able to learn from playing with toys.\n      (D) Children may miss the chance to find out what they really like.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "第三段明確指出「By playing with different toys, children can find out what they are interested in or what they are good at. If they only play one kind of toy, they may lose this important chance」，說明遵循性別刻板印象的玩具選擇規則會讓孩子失去探索自己真正興趣的機會，故(D)正確。(A)與材料內容無關；(B)曲解了段落意思，問題不在於跟隨規則本身，而在於規則限制了玩具選擇；(C)過度絕對，材料只說玩單一類型玩具會失去重要機會，並未說完全無法學習。"
     },
     {
       "id": "cap-112-english-reading-038",
@@ -1687,12 +1695,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 41,
-        "raw_text": "41.   Which is true about Marie Colvin?\n      (A) The chance to study at Yale made her leave her job in the Middle East.\n      (B) The experience in Sri Lanka did not change her way of reporting news.\n      (C) She was killed in Homs when she was interviewing soldiers there for her report.\n      (D) She was not sure what to do in the future until she worked for the Sunday Times.\n\n\n\n\n"
+        "raw_text": "41.   Which is true about Marie Colvin?\n      (A) The chance to study at Yale made her leave her job in the Middle East.\n      (B) The experience in Sri Lanka did not change her way of reporting news.\n      (C) She was killed in Homs when she was interviewing soldiers there for her report.\n      (D) She was not sure what to do in the future until she worked for the Sunday Times.\n\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據材料，Colvin在斯里蘭卡報導戰爭時失去左眼，但「that never stopped her. She still went to dangerous places that few reporters wanted to visit」，說明她的報導方式並未改變，故(B)正確。(A)錯誤，她在耶魯大學時決定成為記者，之後才加入Sunday Times，並非因為上大學而離職；(C)錯誤，材料明確指出「the day after she gave her report on the war in Homs, Colvin was killed when the house she was staying in was attacked」，她是在住處遭攻擊時喪生，非在採訪士兵時；(D)錯誤，她在耶魯大學時就已決定未來要當記者，不是加入Sunday Times後才確定。"
     },
     {
       "id": "cap-112-english-reading-passage-42",

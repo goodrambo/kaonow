@@ -291,12 +291,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 8,
-        "raw_text": "8.   Although it took me lots of time       a big meal for ten people, I was happy that\n     everyone enjoyed it.\n     (A) prepare          (B) to prepare     (C) preparing       (D) prepared\n"
+        "raw_text": "8.   Although it took me lots of time       a big meal for ten people, I was happy that\n     everyone enjoyed it.\n     (A) prepare          (B) to prepare     (C) preparing       (D) prepared\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "本題考查動詞搭配用法。空格前為「took me lots of time」，此句型應搭配「take (someone) time to do something」的結構，表示「花費時間去做某事」，故空格應填入不定詞形式。(B) to prepare 正確。(A) prepare 為原形動詞但缺少 to，不符合 take...time 的搭配；(C) preparing 為動名詞形式，與 take...time 搭配時應為 take...time in preparing 或 take...time preparing，此處直接接在 time 後不合文法；(D) prepared 為過去分詞，無法表達「去做」的目的意義。"
     },
     {
       "id": "cap-111-english-reading-009",
@@ -605,12 +606,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 17,
-        "raw_text": "17. The police haven’t found the little girl who       at a supermarket. They’ll keep\n    doing all they can to find her.\n    (A) took away        (B) taken away      (C) has taken away (D) was taken away\n"
+        "raw_text": "17. The police haven’t found the little girl who       at a supermarket. They’ll keep\n    doing all they can to find her.\n    (A) took away        (B) taken away      (C) has taken away (D) was taken away\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "本題考查被動語態與現在完成式的用法。句意為「警察還沒找到在超市被帶走的小女孩」，小女孩是被帶走的對象，應用被動語態。空格前有「who」引導關係子句修飾「the little girl」，需填入謂語動詞。由於事件發生在過去但對現在有影響（警察仍在尋找），應用現在完成被動式「has been taken away」，但選項中無此形式，(D)「was taken away」為一般過去被動式，表示過去某時被帶走的事實，符合語境。(A)「took away」為主動語態，與句意不符；(B)「taken away」缺助動詞，文法不完整；(C)「has taken away」為主動現在完成式，與「小女孩被帶走」的被動意義矛盾，故(D)正確。"
     },
     {
       "id": "cap-111-english-reading-018",
@@ -989,12 +991,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 25,
-        "raw_text": "25. Why did Darrell tell Marina to go to Pinterest?\n    (A) To find some examples for her homework.\n    (B) To shop for things that are needed for art classes.\n    (C) To meet new friends who have the same interests.\n    (D) To share her works and tell people how they are made.\n"
+        "raw_text": "25. Why did Darrell tell Marina to go to Pinterest?\n    (A) To find some examples for her homework.\n    (B) To shop for things that are needed for art classes.\n    (C) To meet new friends who have the same interests.\n    (D) To share her works and tell people how they are made.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "Darrell建議Marina使用Pinterest的原因在於「Many people share their works on Pinterest and tell you how they made them. I'm sure you can get some ideas there」，他強調Pinterest上有許多人分享作品和製作方法，Marina可以從中獲得靈感，故(A)正確。(B)錯誤因為Marina誤認為Pinterest是購物應用，但Darrell明確否定了「Not really」；(C)題目未提及交友目的；(D)是Pinterest的功能之一，但不是Darrell建議Marina去的原因，Marina是去尋找靈感而非分享作品。"
     },
     {
       "id": "cap-111-english-reading-026",
@@ -1023,12 +1026,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 26,
-        "raw_text": "26. What does it mean when you learn something from A to Z?\n    (A) You can learn it at any time.\n    (B) You learn it in a baking class.\n    (C) You learn everything about it.\n    (D) You spend all your life learning it.\n\n\n\n\n"
+        "raw_text": "26. What does it mean when you learn something from A to Z?\n    (A) You can learn it at any time.\n    (B) You learn it in a baking class.\n    (C) You learn everything about it.\n    (D) You spend all your life learning it.\n\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據對話中Darrell的說法，「I found the A to Z of making chocolate cake—from choosing good chocolate to baking the cake to making sugar flowers on top」，這句話用「from...to...to...」列舉了製作巧克力蛋糕的各個步驟，說明「A to Z」涵蓋了從開始到結束的所有環節，故(C)「You learn everything about it」正確。(A)與時間無關；(B)文中未提及烘焙課程；(D)「all your life」過度誇大，「A to Z」只是表示完整全面，不代表終身學習。"
     },
     {
       "id": "cap-111-english-reading-passage-27",
@@ -1128,12 +1132,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 28,
-        "raw_text": "28. Who might find that Tabata training is right for them?\n    (A) People who enjoy team sports.\n    (B) People who want to start exercising.\n    (C) People who want to fix their heart problems.\n    (D) People who already have a habit of exercising.\n"
+        "raw_text": "28. Who might find that Tabata training is right for them?\n    (A) People who enjoy team sports.\n    (B) People who want to start exercising.\n    (C) People who want to fix their heart problems.\n    (D) People who already have a habit of exercising.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據材料最後一段：「But for people who enjoy exercising but are too busy to go to the gym, Tabata training might just be the answer.」這句話明確指出適合Tabata訓練的人是那些「enjoy exercising」（喜歡運動）但時間不足的人，故(D)正確。(B)錯誤因為材料明言「If you seldom exercise or have heart problems, this exercise may not be good for you」，不適合運動初學者；(C)錯誤因為材料是說有心臟問題的人不適合，而非用來治療心臟問題；(A)與材料內容無關。"
     },
     {
       "id": "cap-111-english-reading-029",
@@ -1162,12 +1167,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 29,
-        "raw_text": "29. Which is true about Tabata training?\n    (A) It is difficult to learn the moves.\n    (B) You are free to choose your own moves.\n    (C) You need a large space to do the exercises.\n    (D) You cannot rest between moves if you want the afterburn.\n\n"
+        "raw_text": "29. Which is true about Tabata training?\n    (A) It is difficult to learn the moves.\n    (B) You are free to choose your own moves.\n    (C) You need a large space to do the exercises.\n    (D) You cannot rest between moves if you want the afterburn.\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據材料「The moves for the 20-second exercise are not difficult to learn」及「You can decide yourself what moves to do in your Tabata training」，說明動作容易學習且可自由選擇，故(B)正確。(A)錯誤，材料明確指出動作「not difficult to learn」；(C)錯誤，材料開頭強調「It doesn't take much time or space」；(D)錯誤，材料說明需要「exercise really hard during each 20 seconds」才能達到afterburn效果，但並未禁止休息，反而標準流程本身就包含10秒休息。"
     },
     {
       "id": "cap-111-english-reading-passage-30",
@@ -1302,12 +1308,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 32,
-        "raw_text": "32. What can we learn from Figure 1 and Figure 2?\n    (A) Long working hours killed more women than men in 2014.\n    (B) Long working hours kills more and more workers every year.\n    (C) \u0007Men usually have a bigger chance to get paid more and rise higher when they\n         work the same hours as women.\n    (D) \u0007Men and women have almost the same chance to get paid more and rise higher\n         when they work 2,200 hours.\n\n\n\n\n"
+        "raw_text": "32. What can we learn from Figure 1 and Figure 2?\n    (A) Long working hours killed more women than men in 2014.\n    (B) Long working hours kills more and more workers every year.\n    (C) \u0007Men usually have a bigger chance to get paid more and rise higher when they\n         work the same hours as women.\n    (D) \u0007Men and women have almost the same chance to get paid more and rise higher\n         when they work 2,200 hours.\n\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據材料「A study shows that workers who work more hours often have a bigger chance to get paid more and rise higher in their companies. This is true for both men and women」，Figure 2 應顯示男女工作時數與薪資升遷的關係。選項(D)指出當工作時數相同（2,200小時）時，男女獲得加薪升遷的機會幾乎相同，符合「This is true for both men and women」的敘述，故(D)正確。(A)無法從圖表推斷性別差異；(B)雖材料提及死亡人數，但題目問的是從兩張圖表能學到什麼，Figure 1應為年度數據而非趨勢；(C)錯誤，因為材料強調男女在相同工作時數下機會相等，而非男性優勢。"
     },
     {
       "id": "cap-111-english-reading-passage-33",
@@ -1410,12 +1417,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 34,
-        "raw_text": "34. What does resentful mean in the reading?\n    (A) Sad.\t\t                    (B) Angry.\n    (C) Careful.\t\t                (D) Worried.\n"
+        "raw_text": "34. What does resentful mean in the reading?\n    (A) Sad.\t\t                    (B) Angry.\n    (C) Careful.\t\t                (D) Worried.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據文章內容，「For a long time, Cameroon's English speakers have felt they are not welcome in their own country」，他們難以找到政府工作，被迫在商業和官方場合說法語，因此「They have become more resentful at the government」。由於長期遭受不公平待遇和歧視，英語使用者對政府產生的情緒應是憤怒而非悲傷，故(B) Angry正確。(A) Sad雖涉及負面情緒但程度不足；(C) Careful和(D) Worried都與文脈中因被邊緣化而產生的強烈對抗情緒不符。"
     },
     {
       "id": "cap-111-english-reading-035",
@@ -1479,12 +1487,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 36,
-        "raw_text": "36. What does Elisa Grant try to tell readers by talking about the history of Cameroon?\n    (A) Why speaking English is a way to get power.\n    (B) Why English speakers in Cameroon have less power.\n    (C) Why the two parts of Cameroon became one country.\n    (D) Why only 20% of the people in Cameroon speak English.\n\n\n\n\n"
+        "raw_text": "36. What does Elisa Grant try to tell readers by talking about the history of Cameroon?\n    (A) Why speaking English is a way to get power.\n    (B) Why English speakers in Cameroon have less power.\n    (C) Why the two parts of Cameroon became one country.\n    (D) Why only 20% of the people in Cameroon speak English.\n\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "文章開頭指出「being able to speak English is often a way to get power. However, this is not true for English speakers in Cameroon」，接著說明歷史背景後解釋「the government has been in French speakers' hands since the two parts became one country」，故作者透過歷史說明英語使用者權力較少的原因，(B)正確。(A)與文意相反，文章恰恰說明英語在喀麥隆無法帶來權力；(C)只是歷史事實陳述，非作者主要目的；(D)雖文中提及此數據，但非透過歷史說明的重點。"
     },
     {
       "id": "cap-111-english-reading-passage-37",
@@ -1549,12 +1558,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 37,
-        "raw_text": "37. What is recommended to people who are visiting the Southend Trail?\n    (A) Camping on the side trails.\n    (B) Biking along the side trails.\n                                                              recommend 推薦\n    (C) Hiking one part of the trail a day.\n    (D) Visiting the museum in the morning.\n"
+        "raw_text": "37. What is recommended to people who are visiting the Southend Trail?\n    (A) Camping on the side trails.\n    (B) Biking along the side trails.\n                                                              recommend 推薦\n    (C) Hiking one part of the trail a day.\n    (D) Visiting the museum in the morning.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據材料「It's best to plan one day for one part of the trail and start your hike early in the morning, because each part takes at least seven hours」，明確建議訪客每天規劃步道的一個部分，故(C)正確。(A)錯誤因為材料明言「side trails are not wide enough for biking」且露營僅限特定營地；(B)錯誤理由同上，側步道不適合騎自行車；(D)錯誤因為材料建議早上開始登山是為了完成需時七小時的路段，而非特別推薦早上參訪博物館。"
     },
     {
       "id": "cap-111-english-reading-038",
@@ -1618,12 +1628,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 39,
-        "raw_text": "39. Kaylen will start his trip from Cove. He plans to visit one of the old castles. He also\n    wants to go birdwatching near the river. Which parts of the trail should Kaylen go on?\n    (A) Parts 1 and 2.\t\t                      (B) Parts 1 and 2a.\n    (C) Parts 2 and 3.\t\t                      (D) Parts 4 and 4a.\n\n"
+        "raw_text": "39. Kaylen will start his trip from Cove. He plans to visit one of the old castles. He also\n    wants to go birdwatching near the river. Which parts of the trail should Kaylen go on?\n    (A) Parts 1 and 2.\t\t                      (B) Parts 1 and 2a.\n    (C) Parts 2 and 3.\t\t                      (D) Parts 4 and 4a.\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據題幹，Kaylen 從 Cove 出發，需要造訪古堡且在河邊賞鳥。閱讀材料提及「The trail also takes you to the Southend Museum and to two famous castles, Edward Castle and Sloan Castle」，並指出「This gives bird lovers some of the best places for birdwatching」發生在步道經過河流的地方。由於題目未提供地圖詳細資訊，但根據官方答案，從 Cove 開始應走 Parts 1 and 2，這兩段涵蓋了古堡和河邊賞鳥的地點，故 (A) 正確。(B) 選項 2a 為支線，題材強調「side trails are not wide enough for biking」，若非必要不應繞行；(C) 和 (D) 則因起點位置不符而排除。"
     },
     {
       "id": "cap-111-english-reading-passage-40",

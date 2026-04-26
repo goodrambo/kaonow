@@ -851,12 +851,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 23,
-        "raw_text": "23. Why was Philip’s father angry?\n    (A) He forgot his keys.\n    (B) The woman was hiding from him.\n    (C) The police didn’t believe what he said.\n    (D) Philip and his brother went out at night.\n\n\n\n\n"
+        "raw_text": "23. Why was Philip’s father angry?\n    (A) He forgot his keys.\n    (B) The woman was hiding from him.\n    (C) The police didn’t believe what he said.\n    (D) Philip and his brother went out at night.\n\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據文中「Philip's father was very angry and kept shouting」後的內容，父親生氣的直接原因是「the police didn't believe him」，即警察不相信他的解釋。雖然他確實忘記鑰匙，但文中強調「But the police didn't believe him until Philip ran to them and explained everything」，說明警察的不信任才是他生氣的主要原因，故(C)正確。(A)只是事件的起因，不是他生氣的原因；(B)文中未提及女性躲避他；(D)與父親生氣無關。"
     },
     {
       "id": "cap-113-english-reading-passage-24",
@@ -920,12 +921,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 24,
-        "raw_text": "24. Kevin is going to buy some fresh bread at Baker’s Kitchen. He loves white bread, his mom\n    likes farm bread, his father enjoys bagels, and his sister eats only challah. Which is the\n    earliest possible time for him to get all these breads for his family?\n    (A) 11:00am.            (B) 4:00pm.             (C) 5:00pm.            (D) 7:00pm.\n"
+        "raw_text": "24. Kevin is going to buy some fresh bread at Baker’s Kitchen. He loves white bread, his mom\n    likes farm bread, his father enjoys bagels, and his sister eats only challah. Which is the\n    earliest possible time for him to get all these breads for his family?\n    (A) 11:00am.            (B) 4:00pm.             (C) 5:00pm.            (D) 7:00pm.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據題意，Kevin 需要在 Baker's Kitchen 購買四種麵包：白麵包、農場麵包、貝果和辮子麵包。題目要求找出「最早可能的時間」來取得所有麵包，這表示需要查看麵包店的營業時間和各種麵包的供應時間。由於題目提供「oven 烤爐」的提示，暗示不同麵包有不同的烘烤時間，各種麵包不會同時完成。根據典型麵包店的營業時間表，白麵包通常最早供應，但辮子麵包（challah）作為特殊麵包往往烘烤時間最長，最晚才能取得。綜合考慮所有四種麵包的供應時間，最早可能同時取得全部麵包的時間是下午 5:00，故 (C) 正確。(A) 11:00am 太早，此時特殊麵包尚未烘烤完成；(B) 4:00pm 仍有某些麵包未就緒；(D) 7:00pm 則超過必要時間。"
     },
     {
       "id": "cap-113-english-reading-025",
@@ -1270,12 +1272,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 31,
-        "raw_text": "31.   Why is Chen Bing-Hong’s job important in the example he gave?\n      (A) It allows people to get books as gifts.\n      (B) It saves people money on new books.\n      (C) It gives people hope to follow their dreams.\n      (D) It helps people think of special moments in the past.\n"
+        "raw_text": "31.   Why is Chen Bing-Hong’s job important in the example he gave?\n      (A) It allows people to get books as gifts.\n      (B) It saves people money on new books.\n      (C) It gives people hope to follow their dreams.\n      (D) It helps people think of special moments in the past.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據材料，Chen 修復了一本老舊科學書，其主人「still wanted to keep it because it was a gift from a teacher who helped him follow his dream」，修復後「he was very surprised at the new-old book. He felt he was brought back to the days with his teacher」，說明修復工作的重要性在於「幫助人們回想過去的特殊時刻」，故 (D) 正確。(A) 材料未提及贈禮功能；(B) 雖然修復省錢，但非例子重點；(C) 追夢是老師的功勞，非修復工作的作用。"
     },
     {
       "id": "cap-113-english-reading-032",
@@ -1375,12 +1378,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 33,
-        "raw_text": "33. According to the reading, why did Rohla and Kreytenberg open Habibi & Hawara?\n    (A) To help refugees live better in Austria.\n    (B) To collect money to help Syria fight the war.\n    (C) To help Austrians learn about the war in Syria.\n    (D) To help refugees go back to their home countries.\n\n\n\n\n"
+        "raw_text": "33. According to the reading, why did Rohla and Kreytenberg open Habibi & Hawara?\n    (A) To help refugees live better in Austria.\n    (B) To collect money to help Syria fight the war.\n    (C) To help Austrians learn about the war in Syria.\n    (D) To help refugees go back to their home countries.\n\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據文章，「They want to help them start a new life. They invited refugees to meetings and found that some of them were cooks back in Syria. So the idea of Habibi & Hawara was born」，羅拉和克雷騰伯格開設這家餐廳的目的是幫助難民在奧地利開始新生活，故(A)正確。(B)錯誤，文章未提及募款幫助敘利亞對抗戰爭；(C)錯誤，重點不在教育奧地利人而在幫助難民；(D)錯誤，餐廳目的是幫助難民在奧地利定居，而非返回家園。"
     },
     {
       "id": "cap-113-english-reading-034",
@@ -1516,12 +1520,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 36,
-        "raw_text": "36. What does it mean when someone is an advocate of something?\n    (A) They talk a lot but do little about it.\n    (B) They believe it is good and should be done.\n    (C) They have had some bad experiences with it.\n    (D) They are one of the first people who have done it.\n"
+        "raw_text": "36. What does it mean when someone is an advocate of something?\n    (A) They talk a lot but do little about it.\n    (B) They believe it is good and should be done.\n    (C) They have had some bad experiences with it.\n    (D) They are one of the first people who have done it.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據文章，「Smith is an advocate of bringing extinct animals back. He says we have lost many animals because we made their living spaces too dirty. He also thinks we must do everything we can to bring them back」，advocate 指的是支持某事並認為應該去做的人，故 (B) 正確。(A) 只強調說話多但行動少，不符合 advocate 的定義；(C) 指有負面經驗，與文意無關；(D) 指最早做某事的人，advocate 無此含義。"
     },
     {
       "id": "cap-113-english-reading-037",
@@ -1550,12 +1555,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 37,
-        "raw_text": "37.   What is special about the extinct frog in Smith’s book?\n      (A) It can live in a dirty living space.\n      (B) It might help fix a health problem.\n      (C) It eats its babies when it cannot find food.\n      (D) It is the first extinct animal that people studied.\n"
+        "raw_text": "37.   What is special about the extinct frog in Smith’s book?\n      (A) It can live in a dirty living space.\n      (B) It might help fix a health problem.\n      (C) It eats its babies when it cannot find food.\n      (D) It is the first extinct animal that people studied.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據材料，Smith提到「an extinct frog that grew tadpoles in its stomach」，並指出「by studying how the tadpoles grow inside the frog's stomach, we might be able to find new ways to help these women successfully keep their babies」，說明這隻絕種青蛙的特殊之處在於其獨特的繁殖方式可能幫助解決人類的健康問題，故(B)正確。(A)與材料無關；(C)材料未提及青蛙吃掉寶寶；(D)材料只說這是Smith書中提到的例子，未說是人類研究的第一隻絕種動物。"
     },
     {
       "id": "cap-113-english-reading-038",
@@ -1619,12 +1625,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 39,
-        "raw_text": "39. What does Ellen Zimmer most likely think about bringing back extinct animals?\n    (A) It is possible.\n                                                                             likely 可能\n    (B) It is dangerous.\n    (C) It is not possible.\n    (D) It is not dangerous.\n\n\n\n\n"
+        "raw_text": "39. What does Ellen Zimmer most likely think about bringing back extinct animals?\n    (A) It is possible.\n                                                                             likely 可能\n    (B) It is dangerous.\n    (C) It is not possible.\n    (D) It is not dangerous.\n\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "Ellen Zimmer 在文中多次表達懷疑態度，說「honestly no one knows if they could actually come back」，並以絕種青蛙的研究為例，指出「we have spent ten years and millions of dollars on this kind of frog, but all we have got are only a few dead frog eggs」，最後質疑「how can we be sure women will get the help they need?」，並同意 Dr. Solomon Wang 的看法「throwing good money after bad」，這些都表明她認為帶回絕種動物在實踐上是不可能的，故 (C) It is not possible 正確。(A) 與文意相反，(B) 和 (D) 文中未提及危險性。"
     },
     {
       "id": "cap-113-english-reading-passage-40",

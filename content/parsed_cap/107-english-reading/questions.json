@@ -930,12 +930,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 23,
-        "raw_text": "23. From the reading, what can we learn about holiday apartments?\n    (A) They are good for people who like to take one-day trips.\n    (B) They are good for people who travel in a group of three or more.\n    (C) They are good for people who want to make new friends when traveling.\n    (D) They are good for people who like to spend their holidays in the country.\n"
+        "raw_text": "23. From the reading, what can we learn about holiday apartments?\n    (A) They are good for people who like to take one-day trips.\n    (B) They are good for people who travel in a group of three or more.\n    (C) They are good for people who want to make new friends when traveling.\n    (D) They are good for people who like to spend their holidays in the country.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據材料「If you travel with friends or your family, a holiday apartment will be your best choice!」以及「The price for a holiday apartment is for two people...You only need to pay a little more for a third or fourth person」，可知假日公寓特別適合多人旅遊，因為價格相對便宜且空間充足，故(B)正確。(A)錯誤，材料未提及一日遊；(C)錯誤，公寓強調私人空間而非交友機會；(D)錯誤，材料未限定地點必須在鄉村。"
     },
     {
       "id": "cap-107-english-reading-024",
@@ -1245,12 +1246,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 29,
-        "raw_text": "29. What does the reading say about shaking?\n    (A) Different animals’ shaking begins with different body parts.\n    (B) Shaking is a way that animals use to make other animals scared.\n    (C) Animals that are not kept as pets do the shaking better than those that are.\n    (D) Shaking themselves dry may help animals run faster in dangerous moments.\n"
+        "raw_text": "29. What does the reading say about shaking?\n    (A) Different animals’ shaking begins with different body parts.\n    (B) Shaking is a way that animals use to make other animals scared.\n    (C) Animals that are not kept as pets do the shaking better than those that are.\n    (D) Shaking themselves dry may help animals run faster in dangerous moments.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據文章「Being wet makes animals heavier, and that makes it harder to run. In the animal world, how fast an animal can run often decides whether it will live or not.」可知，動物搖動身體甩乾水分能減輕體重，進而跑得更快，這在危急時刻攸關生死，故(D)正確。(A)錯誤，文章明確指出「animal shaking begins with the head and ends with the tail」，所有動物搖動方式相同；(B)無根據，文章未提及嚇唬其他動物的目的；(C)過度推論，文章未區分寵物與野生動物的搖動效果差異。"
     },
     {
       "id": "cap-107-english-reading-030",
@@ -1314,12 +1316,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 31,
-        "raw_text": "31. The four pictures below show how fast tigers, cats and mice can shake. From the\n    reading, which picture is most likely correct?\n                                                                     likely 可能\n    (A)\t\t\n        How fast can animals shake?\n          Number of shakes\n\n            in a second\n\n\n                                  tiger     cat      mouse\n\n    (B)                           How fast can animals shake?\n          Number of shakes\n\n\n\n\n            in a second\n\n\n\n\n\n                                  tiger     cat     mouse\n\n    (C)\t\t\n        How fast can animals shake?\n          Number of shakes\n\n\n\n\n            in a second\n\n\n\n\n\n                                  tiger     cat      mouse\n\n\n    (D)                           How fast can animals shake?\n          Number of shakes\n\n\n\n\n            in a second\n\n\n\n\n\n                                  tiger     cat      mouse\n\n\n\n\n"
+        "raw_text": "31. The four pictures below show how fast tigers, cats and mice can shake. From the\n    reading, which picture is most likely correct?\n                                                                     likely 可能\n    (A)\t\t\n        How fast can animals shake?\n          Number of shakes\n\n            in a second\n\n\n                                  tiger     cat      mouse\n\n    (B)                           How fast can animals shake?\n          Number of shakes\n\n\n\n\n            in a second\n\n\n\n\n\n                                  tiger     cat     mouse\n\n    (C)\t\t\n        How fast can animals shake?\n          Number of shakes\n\n\n\n\n            in a second\n\n\n\n\n\n                                  tiger     cat      mouse\n\n\n    (D)                           How fast can animals shake?\n          Number of shakes\n\n\n\n\n            in a second\n\n\n\n\n\n                                  tiger     cat      mouse\n\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據文章「Smaller animals must shake faster than bigger animals to get water off. For example, in one second, a rat can shake 18 times, a dog 6 times, and a bear 4 times.」，可知動物體型越小搖晃次數越多，體型越大次數越少。老鼠18次、狗6次、熊4次，形成遞減趨勢。題目中老虎、貓、老鼠的大小順序為老虎>貓>老鼠，故搖晃次數應為老虎最少、貓次之、老鼠最多，符合此遞減規律的選項為(B)正確。其他選項違反了「體型越小搖晃越快」的原理，未能正確反映文章所述的動物搖晃規律。"
     },
     {
       "id": "cap-107-english-reading-passage-32",
@@ -1384,12 +1387,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 32,
-        "raw_text": "32. What does things like that mean?\n    (A) Problems about the free coffee plan.\n    (B) Trouble for people who go to Flora Café.\n    (C) Ways to make the free coffee plan successful.\n    (D) Good things free coffee will bring to Flora Café.\n"
+        "raw_text": "32. What does things like that mean?\n    (A) Problems about the free coffee plan.\n    (B) Trouble for people who go to Flora Café.\n    (C) Ways to make the free coffee plan successful.\n    (D) Good things free coffee will bring to Flora Café.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據對話內容，Eric 在說「But will poor people go and ask for a free coffee? Won't they worry about losing face?」之後，Josh 問「Why do you always say things like that?」，這裡的「things like that」指的是 Eric 之前提出的各種疑慮和問題，如「誰來決定給誰」、「有人可能濫用」、「窮人可能不好意思去領」等，都是對這個計畫的質疑和潛在問題。故 (A) 正確。(B) 錯誤，因為這些問題不是針對「去咖啡館的人」的麻煩，而是計畫本身的問題；(C) 錯誤，Eric 提出的是困難而非成功方法；(D) 錯誤，Eric 的言論是負面質疑，不是正面效益。"
     },
     {
       "id": "cap-107-english-reading-033",
@@ -1418,12 +1422,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 33,
-        "raw_text": "33. What can we learn about Josh and Eric?\n    (A) Josh was not able to change Eric’s mind about free coffee.\n    (B) Eric has more hope for the free coffee plan than Josh does.\n    (C) They found a way to make people feel OK to take free coffee.\n    (D) They do not know whether Flora Café will do business honestly.\n"
+        "raw_text": "33. What can we learn about Josh and Eric?\n    (A) Josh was not able to change Eric’s mind about free coffee.\n    (B) Eric has more hope for the free coffee plan than Josh does.\n    (C) They found a way to make people feel OK to take free coffee.\n    (D) They do not know whether Flora Café will do business honestly.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "對話中Josh多次試圖說服Eric相信「pay it forward coffee」計畫的價值，但Eric始終提出疑慮：「But will Flora Café really give this cup of coffee to someone later?」、「But how will they know who to give?」、「But will poor people go and ask for a free coffee?」，最後Josh說「I still think it's a good thing to do」，而Eric只回應「Perhaps」，顯示Eric的疑慮未被消除，故(A)正確。(B)錯誤，Eric對計畫充滿懷疑，希望反而較低；(C)錯誤，對話中兩人並未找到解決方案；(D)錯誤，Josh明確表示「I've known the shopkeeper well. He's an honest man」，已確認店家誠實，Eric的疑慮也非針對誠實度。"
     },
     {
       "id": "cap-107-english-reading-034",
@@ -1523,12 +1528,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 35,
-        "raw_text": "35. Below are the writer’s points in the reading:\n       a. Whether we should stop tribespeople whaling\n       b. The problem of whaling\n       c. Whaling as a way of life\n    In what order does the writer talk about his points?                order 順序\n    (A) a c b.           (B) b c a.            (C) c a b.         (D) c   b   a.\n"
+        "raw_text": "35. Below are the writer’s points in the reading:\n       a. Whether we should stop tribespeople whaling\n       b. The problem of whaling\n       c. Whaling as a way of life\n    In what order does the writer talk about his points?                order 順序\n    (A) a c b.           (B) b c a.            (C) c a b.         (D) c   b   a.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "作者依序討論三個重點：首先提出「捕鯨的問題」(b)，開篇即說「鯨魚數量急劇下降」與「人們擔心未來只能在圖片中看到鯨魚」；其次闡述「捕鯨作為一種生活方式」(c)，說明「Whaling started as early as 1,500 years ago. This was how tribespeople fed their families」與「Over the years, whaling became their way of living, and even part of who they are」；最後才討論「我們是否應該停止部落捕鯨」(a)，結尾問「we should think what we are asking tribespeople to give up and whether this is the best answer」。故(B)正確。(A)項順序錯誤，(C)與(D)項皆未按作者實際論述邏輯排列。"
     },
     {
       "id": "cap-107-english-reading-036",
@@ -1557,12 +1563,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 36,
-        "raw_text": "36. Which idea may the writer agree with?\n    (A) We should stop all kinds of whale hunting.\n    (B) We should not worry about the number of whales.\n    (C) Tribespeople’s way of living is as important as animal lives.\n    (D) Working with the whaling business can make tribespeople’s lives better.\n"
+        "raw_text": "36. Which idea may the writer agree with?\n    (A) We should stop all kinds of whale hunting.\n    (B) We should not worry about the number of whales.\n    (C) Tribespeople’s way of living is as important as animal lives.\n    (D) Working with the whaling business can make tribespeople’s lives better.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "文章指出「Of all the whales that were killed over the past forty years, only 10% were hunted by tribespeople. The other 90% died at the hands of the money-making whaling business」，強調部落捕鯨只占10%，真正問題在商業捕鯨。作者進而質疑「When we try to stop all kinds of whaling, we should think what we are asking tribespeople to give up and whether this is the best answer」，表示禁止所有捕鯨會要求部落放棄其生活方式，暗示部落的生存方式與動物生命同樣重要需被考量，故(C)正確。(A)過於絕對，與作者區分部落捕鯨與商業捕鯨的立場不符；(B)曲解文意，作者確實關心鯨魚數量；(D)無根據，文章未提及與商業捕鯨合作。"
     },
     {
       "id": "cap-107-english-reading-037",
@@ -1591,12 +1598,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 37,
-        "raw_text": "37. What can we learn from the reading?\n    (A) Tribespeople believe whales bring good luck.\n    (B) Tribespeople become rich by selling whale oil.\n    (C) Whaling was not a problem until 1,500 years ago.\n    (D) Whaling helped tribespeople’s lives in different ways.\n\n"
+        "raw_text": "37. What can we learn from the reading?\n    (A) Tribespeople believe whales bring good luck.\n    (B) Tribespeople become rich by selling whale oil.\n    (C) Whaling was not a problem until 1,500 years ago.\n    (D) Whaling helped tribespeople’s lives in different ways.\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "文章明確指出「They hunted whales for meat because almost nothing could grow on their land. They also made whale fat into oil and used it to make candles or oil lamps」，說明捕鯨以多種方式幫助部落人民的生活，包括提供食物和製造燈油，故(D)正確。(A)文中未提及幸運的信念；(B)雖提到製油但未說明販售致富；(C)邏輯錯誤，捕鯨1,500年前就開始，問題是近40年商業捕鯨造成的，而非1,500年前開始就是問題。"
     },
     {
       "id": "cap-107-english-reading-passage-38",
@@ -1697,12 +1705,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 39,
-        "raw_text": "39. Which is most likely true about the Inscriber Prize?\n    (A) It was started by NBN News.                                 likely 可能\n    (B) It is a new prize for picture books.\n    (C) It is a prize only for first-time writers.\n    (D) It is treated seriously by writers in the country.\n\n\n\n\n"
+        "raw_text": "39. Which is most likely true about the Inscriber Prize?\n    (A) It was started by NBN News.                                 likely 可能\n    (B) It is a new prize for picture books.\n    (C) It is a prize only for first-time writers.\n    (D) It is treated seriously by writers in the country.\n\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據文章，Thomas Goode 是知名圖書作家，卻選擇「用不同的名字寫書」，因為「他認為如果人們不知道這是來自圖書作家的作品，人們可能會認真對待他的書」(Goode thought that people might treat his book seriously if they did not know it was from a picture book writer)，這說明 Inscriber 獎在國家中受到重視，作家們希望透過它獲得認可，故 (D) 正確。(A) 錯誤，文章未提及 NBN 創辦該獎；(B) 錯誤，該獎並非專為圖書作家設立；(C) 錯誤，文章只說這是首次有新手作家獲獎，不代表獎項只限新手。"
     },
     {
       "id": "cap-107-english-reading-040",

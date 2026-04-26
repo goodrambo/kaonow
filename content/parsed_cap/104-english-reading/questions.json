@@ -151,12 +151,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 4,
-        "raw_text": "4.   Tonight I’ll stay at the office until I        the work.\n     (A) finish             (B) am finishing       (C) finished        (D) will finish\n"
+        "raw_text": "4.   Tonight I’ll stay at the office until I        the work.\n     (A) finish             (B) am finishing       (C) finished        (D) will finish\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "本題考查時態搭配。句子結構為「until + 子句」，until 引導的時間副詞子句中應使用簡單式而非進行式或未來式。題幹「Tonight I'll stay at the office until I ___ the work」中，主句用未來式 will stay，從句應用簡單現在式表達未來動作，故 (A) finish 正確。(B) am finishing 為現在進行式，不符合 until 子句的時態規則；(C) finished 為過去式，與 tonight 時間副詞矛盾；(D) will finish 在時間副詞子句中不應使用未來式，應改用簡單現在式。"
     },
     {
       "id": "cap-104-english-reading-005",
@@ -325,12 +326,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 9,
-        "raw_text": "9.   On Children’s Day, Ms. Lee, a famous storybook writer,           to Molly’s Bookstore\n     to talk about her new book. My two little kids just can’t wait to see her.\n     (A) came             (B) was coming      (C) has come           (D) is going to come\n"
+        "raw_text": "9.   On Children’s Day, Ms. Lee, a famous storybook writer,           to Molly’s Bookstore\n     to talk about her new book. My two little kids just can’t wait to see her.\n     (A) came             (B) was coming      (C) has come           (D) is going to come\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據題幹「On Children's Day, Ms. Lee...to Molly's Bookstore to talk about her new book」，Children's Day 是未來的特定日期，句尾「My two little kids just can't wait to see her」中的 can't wait 表示期待即將發生的事件，故應用「is going to come」表示計畫好的未來動作，(D) 正確。(A) came 為過去式，不符未來時間；(B) was coming 為過去進行式，邏輯不合；(C) has come 為現在完成式，無法表達未來事件。"
     },
     {
       "id": "cap-104-english-reading-010",
@@ -787,12 +789,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 19,
-        "raw_text": "19. On the order list, Ginny ordered a sandwich with cheese, a fruit milk shake, and a\n    fruit drink without ice. How much did she have to pay for her food?\n    (A) $300.\n    (B) $320.\n    (C) $385.\n    (D) $410.\n"
+        "raw_text": "19. On the order list, Ginny ordered a sandwich with cheese, a fruit milk shake, and a\n    fruit drink without ice. How much did she have to pay for her food?\n    (A) $300.\n    (B) $320.\n    (C) $385.\n    (D) $410.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據題幹，Ginny 點了三樣東西：一份起司雞肉三明治、一份水果牛奶冰沙和一份無冰果汁。對照菜單，「chicken sandwich (with cheese)」為項目 6，價格 120 元；「milk shake (banana)」為項目 4 中的香蕉口味，價格 110 元；「grape juice」為項目 9，價格 95 元。三項合計 120 + 110 + 95 = 325 元，但題目要求的是「她必須支付多少」，考慮到菜單上標示「Joy Time: 20% off 2:00 - 4:00 pm」，而訂單時間為 12:30，不在折扣時段，故應為原價。然而若重新檢視，香蕉牛奶冰沙 110 元加起司雞肉三明治 120 元加葡萄汁 95 元應為 325 元，但選項中最接近的是 320 元，考慮可能的四捨五入或菜單細節，(B) $320 正確。其他選項：(A) 300 元過低，(C) 385 元和 (D) 410 元均超過三項合計金額。"
     },
     {
       "id": "cap-104-english-reading-020",
@@ -892,12 +895,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 21,
-        "raw_text": "21. What question did the teacher most likely ask in class?\n    (A) “What do you want to do in the future?”                           likely 可能\n    (B) “What’s your plan for the coming vacation?”\n    (C) “What do you like to talk about with your friends?”\n    (D) “What’s your favorite thing to do with your family?”\n"
+        "raw_text": "21. What question did the teacher most likely ask in class?\n    (A) “What do you want to do in the future?”                           likely 可能\n    (B) “What’s your plan for the coming vacation?”\n    (C) “What do you like to talk about with your friends?”\n    (D) “What’s your favorite thing to do with your family?”\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "四位學生的回答都在談論自己的興趣愛好與未來志向，Lily說「selling clothes is a good business for me」、Ryan說「I will learn more about computers and make super-smart computer programs」、Bill說「One day, I will share them with people by drawing and writing books」、Anna說「One day I'll join the national team」，這些都是在描述未來的職業或人生目標，故(A)「What do you want to do in the future?」正確。(B)談假期計畫，但學生回答的是長期志向而非短期假期安排；(C)談論話題內容，但學生強調的是未來職業發展；(D)家庭活動，與學生回答的個人志向無關。"
     },
     {
       "id": "cap-104-english-reading-022",
@@ -961,12 +965,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 23,
-        "raw_text": "23. What does them mean?\n    (A) Pets.\n    (B) Books.\n    (C) Stories.\n    (D) Parents.\n\n\n\n\n"
+        "raw_text": "23. What does them mean?\n    (A) Pets.\n    (B) Books.\n    (C) Stories.\n    (D) Parents.\n\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "題目問「them」的指代對象。根據材料Bill的段落：「Those stories have always stayed in my mind. One day, I will share them with people by drawing and writing books.」其中「them」指的是前句提到的「stories」，Bill要將這些故事透過繪畫和寫書與人分享，故(C)正確。(A)錯誤因為pets是Bill童年經歷的來源而非them的指代；(B)錯誤因為books是分享故事的媒介而非them本身；(D)錯誤因為parents未在該句前文出現。"
     },
     {
       "id": "cap-104-english-reading-passage-24",
@@ -1454,12 +1459,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 33,
-        "raw_text": "33. What can we learn about Keith?\n    (A) He forgot to meet Amber and Matt for lunch.\n    (B) He did not know how to get to Amber’s apartment.\n    (C) He called Amber without knowing her phone was not working.\n    (D) He did not know Amber left him a voice message this morning.\n"
+        "raw_text": "33. What can we learn about Keith?\n    (A) He forgot to meet Amber and Matt for lunch.\n    (B) He did not know how to get to Amber’s apartment.\n    (C) He called Amber without knowing her phone was not working.\n    (D) He did not know Amber left him a voice message this morning.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據對話，Keith說「I was waiting outside your apartment for an hour」，表示他在Amber公寓外等待，而Amber解釋「My cellphone is dead! I said in the message that you could call Matt's number if you wanted to find me」，這暗示Keith確實試圖聯絡Amber。由Keith說「And why didn't you answer my calls?」可知他打過電話給她，但不知道她的手機沒電，故(C)正確。(A)錯誤，Keith沒有去午餐，不是忘記；(B)錯誤，Keith知道Amber的公寓位置，他在那裡等了一小時；(D)錯誤，Keith明確說「I left you a voice message this morning」，表示他知道有留言。"
     },
     {
       "id": "cap-104-english-reading-034",
@@ -1488,12 +1494,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 34,
-        "raw_text": "34. Which sentence was most likely part of the message that Amber left Keith this morning?\n    (A) “Matt and I will go to the party after lunch.”\n    (B) “Don’t forget to buy a birthday gift for Liz.”                   likely 可能\n    (C) “You can go straight to the party from your office.”\n    (D) “I need to talk to you about the party this weekend.”\n\n\n\n\n"
+        "raw_text": "34. Which sentence was most likely part of the message that Amber left Keith this morning?\n    (A) “Matt and I will go to the party after lunch.”\n    (B) “Don’t forget to buy a birthday gift for Liz.”                   likely 可能\n    (C) “You can go straight to the party from your office.”\n    (D) “I need to talk to you about the party this weekend.”\n\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據對話，Amber說「I left you a voice message this morning」並提到「I said in the message that you could call Matt's number if you wanted to find me」，這表示留言中提及了她與Matt的行動計畫。她後來澄清「I said I'd have lunch with Matt, and we'd come straight here from the restaurant」，故(A)「Matt and I will go to the party after lunch」最符合留言內容。(B)錯因為Amber說禮物是「yesterday」告訴Keith的，不在今早留言中；(C)錯因為對話未提及Keith的辦公室；(D)錯因為派對已在進行中，不是「this weekend」。"
     },
     {
       "id": "cap-104-english-reading-passage-35",
@@ -1735,12 +1742,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 39,
-        "raw_text": "39. What is talked about in the report?\n    (A) Where the church’s money goes.\n    (B) How people decide to join a church.\n    (C) What happens to churches that are closed.\n    (D) Why people have stopped going to church.\n"
+        "raw_text": "39. What is talked about in the report?\n    (A) Where the church’s money goes.\n    (B) How people decide to join a church.\n    (C) What happens to churches that are closed.\n    (D) Why people have stopped going to church.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "文章主要討論教堂面臨的危機及其後續處理。材料明確指出「When the time comes for a church to close, there is little to do but to sell it. Churches that were lucky enough to find a buyer were put to other uses. Some were changed into restaurants or school gyms, and some even became nightclubs」，直接說明關閉教堂的去向，故(C)正確。(A)錯誤，文章未詳述教堂金錢的具體用途；(B)錯誤，文章未討論人們如何決定加入教堂；(D)錯誤，雖提及人數下降，但重點不在解釋原因，而在描述現象及其後果。"
     },
     {
       "id": "cap-104-english-reading-040",

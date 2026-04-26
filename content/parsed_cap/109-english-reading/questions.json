@@ -711,12 +711,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 18,
-        "raw_text": "18. What can we learn about Buffy’s friends?\n    (A) Matt has experience of yard sales.\n    (B) Jamie had a successful yard sale last week.\n    (C) Albert thinks weather is important for yard sales.\n    (D) Debby thinks things are cheaper online than at yard sales.\n"
+        "raw_text": "18. What can we learn about Buffy’s friends?\n    (A) Matt has experience of yard sales.\n    (B) Jamie had a successful yard sale last week.\n    (C) Albert thinks weather is important for yard sales.\n    (D) Debby thinks things are cheaper online than at yard sales.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據材料，Albert說「It's a great chance to make big money if you pick the right day. In my experience, Saturday is the best」，表明Albert有舉辦yard sale的經驗，故(A)正確。(B)錯誤，Jamie說的是「made some good friends at my last yard sale」，未提及上週；(C)錯誤，Albert強調的是選對日期（Saturday），非天氣；(D)錯誤，Debby建議「sell your things online for higher prices」，意指線上價格更高而非更便宜。"
     },
     {
       "id": "cap-109-english-reading-019",
@@ -745,12 +746,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 19,
-        "raw_text": "19. What do Buffy’s friends think about having a yard sale?\n    (A) Albert and Matt think it’s a nice way to make friends.\n    (B) Debby and Albert think it’s difficult to make money from it.\n    (C) Matt agrees with Jamie that it’s a good chance to help people.\n    (D) Jamie agrees with Debby that it’s a lot of trouble to prepare for it.\n\n\n\n\n"
+        "raw_text": "19. What do Buffy’s friends think about having a yard sale?\n    (A) Albert and Matt think it’s a nice way to make friends.\n    (B) Debby and Albert think it’s difficult to make money from it.\n    (C) Matt agrees with Jamie that it’s a good chance to help people.\n    (D) Jamie agrees with Debby that it’s a lot of trouble to prepare for it.\n\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據材料，Debby說「Having a yard sale is not easy. You have to collect things, put prices on them...For all that time and work, you make very little money」，強調準備工作繁重；Jamie則說「I just sent out a lot of things last week」表示寧願捐贈，暗示認同Debby的麻煩之處。故(D)正確。(A)錯誤，Albert提到「make big money」和「meet interesting people」，但Albert是看好yard sale的；(B)錯誤，Debby認為麻煩多但賺錢少，Albert卻認為「pick the right day」能「make big money」，兩人意見相反；(C)錯誤，Jamie主張捐贈而非yard sale，與Albert的看法不同。"
     },
     {
       "id": "cap-109-english-reading-passage-20",
@@ -814,12 +816,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 20,
-        "raw_text": "20. From the ad, which is true about Sunny Sun pictures?\n    (A) The first day to use Sunny Sun pictures is Feb. 4.\n    (B) The last day to collect Sunny Sun pictures is Feb. 10.\n    (C) You cannot use Sunny Sun pictures to get free desserts.\n    (D) You cannot get Sunny Sun pictures when you buy books.\n"
+        "raw_text": "20. From the ad, which is true about Sunny Sun pictures?\n    (A) The first day to use Sunny Sun pictures is Feb. 4.\n    (B) The last day to collect Sunny Sun pictures is Feb. 10.\n    (C) You cannot use Sunny Sun pictures to get free desserts.\n    (D) You cannot get Sunny Sun pictures when you buy books.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據廣告開頭「for each $50 you spend (on anything EXCEPT books and CDs) at Sunny Market, you'll get a Sunny Sun picture」，購買書籍和光碟時無法獲得Sunny Sun圖片，故(D)正確。(A)錯誤，因為廣告明確指出「From Jan. 4 to Feb. 4」可以收集圖片，首日是1月4日而非2月4日；(B)錯誤，收集圖片的截止日是2月4日，而使用圖片的截止日才是2月10日；(C)錯誤，廣告清楚表示「Collect 10 pictures, and you can get any of the desserts on the right for free」，可以用圖片免費獲得甜點。"
     },
     {
       "id": "cap-109-english-reading-021",
@@ -848,12 +851,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 21,
-        "raw_text": "21. Sammy has 7 Sunny Sun pictures.  She wants to get a Sunny Cup.  How can she get one?\n    (A) Use 6 Sunny Sun pictures and pay $100.\n    (B) Use 6 Sunny Sun pictures and pay $200.\n    (C) Spend $150 to get 3 more Sunny Sun pictures.\n    (D) Spend $200 to get 4 more Sunny Sun pictures.\n\n\n\n\n"
+        "raw_text": "21. Sammy has 7 Sunny Sun pictures.  She wants to get a Sunny Cup.  How can she get one?\n    (A) Use 6 Sunny Sun pictures and pay $100.\n    (B) Use 6 Sunny Sun pictures and pay $200.\n    (C) Spend $150 to get 3 more Sunny Sun pictures.\n    (D) Spend $200 to get 4 more Sunny Sun pictures.\n\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "Sammy 現有 7 張圖片，要取得 Sunny Cup。根據廣告「Collect 12 pictures, and you can get a Sunny Cup for free」，她需要 12 張圖片才能免費獲得；或根據「Collect 6 pictures, and you can buy a Sunny Cup for $200」，她可用 6 張圖片加付 $200 購買。Sammy 有 7 張圖片，超過 6 張的要求，故 (B) 正確。(A) 錯誤因為用 6 張圖片購買 Sunny Cup 需付 $200 而非 $100；(C) 和 (D) 雖能增加圖片數，但不是最直接的方式，且 (C) 花費 $150 只得 3 張（共 10 張仍不足 12 張），(D) 花費 $200 得 4 張（共 11 張仍不足 12 張）。"
     },
     {
       "id": "cap-109-english-reading-passage-22",
@@ -955,12 +959,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 23,
-        "raw_text": "23. What does them mean in the reading?\n    (A) Bains-marie.                          (B) Butter and sugar.\n    (C) Chocolate desserts.                   (D) Small pieces of chocolate.\n"
+        "raw_text": "23. What does them mean in the reading?\n    (A) Bains-marie.                          (B) Butter and sugar.\n    (C) Chocolate desserts.                   (D) Small pieces of chocolate.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據文章「Usually when making chocolate desserts, you'll need to mix chocolate with butter and sugar. So if you do, put them in the pot too.」，them 指的是前句提到的 butter and sugar，故 (B) 正確。(A) 錯誤因為 bains-marie 在此段落未被提及需放入鍋中；(C) chocolate desserts 是名詞片語，不符合 them 的代詞用法；(D) small pieces of chocolate 已用 them 代稱過，不會再用 them 指代。"
     },
     {
       "id": "cap-109-english-reading-024",
@@ -989,12 +994,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 24,
-        "raw_text": "24. From the reading, which is true about working with chocolate?\n    (A) It is better to use a “bain-marie” than a “water bath.”\n    (B) The water in the pot should not be warmer than 50ºC.\n    (C) It is better to finish mixing it in less than five minutes.\n    (D) We should not mix butter and sugar together at the same time.\n\n"
+        "raw_text": "24. From the reading, which is true about working with chocolate?\n    (A) It is better to use a “bain-marie” than a “water bath.”\n    (B) The water in the pot should not be warmer than 50ºC.\n    (C) It is better to finish mixing it in less than five minutes.\n    (D) We should not mix butter and sugar together at the same time.\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "材料明確指出「Keep the water under 50ºC, or the chocolate may lose its shine」，表示水溫不應超過50°C，故(B)正確。(A)錯誤，因為「bain-marie」和「water bath」是同一種方法的不同名稱，材料說「some people call it 'water bath'」，並無優劣之分。(C)錯誤，材料建議「Keep mixing for about five to ten minutes」，表示需要5至10分鐘，不是越快越好。(D)錯誤，材料說「you'll need to mix chocolate with butter and sugar」，表示可以同時混合這三種材料。"
     },
     {
       "id": "cap-109-english-reading-passage-25",
@@ -1059,12 +1065,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 25,
-        "raw_text": "25. What does the news story say about the Yangs’ food truck?\n    (A) What people love about their food.\n    (B) What made them start their business.\n    (C) How they made delicious fried chicken.\n    (D) How they fixed their business problems."
+        "raw_text": "25. What does the news story say about the Yangs’ food truck?\n    (A) What people love about their food.\n    (B) What made them start their business.\n    (C) How they made delicious fried chicken.\n    (D) How they fixed their business problems.",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "文章重點在於楊氏兄妹如何解決生意冷清的問題。材料明確指出「At first, business was slack」，但他們透過「painted their truck blue, and drew Taiwan's national flower, the plum blossom, on it. They also changed the food truck's name to 'bian-dang'」等策略改善，「Soon people started to notice them, and business finally got better」，故(D)正確。(A)只是提及菜單內容，非新聞重點；(B)文中未說明創業原因；(C)文章未討論烹飪方法，只列舉菜色。"
     },
     {
       "id": "cap-109-english-reading-026",
@@ -1128,12 +1135,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 27,
-        "raw_text": "27. What does that mean in the news story?  \n    (A) A Taiwanese restaurant.\n    (B) A second Taiwanese food truck.\n    (C) A city block that sells Taiwanese food.\n    (D) A business that is popular across the country.\n"
+        "raw_text": "27. What does that mean in the news story?  \n    (A) A Taiwanese restaurant.\n    (B) A second Taiwanese food truck.\n    (C) A city block that sells Taiwanese food.\n    (D) A business that is popular across the country.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "題目問「that」在新聞故事中指什麼。根據文末段落，「they hope one day there will be a block with Taiwanese food in the city, just like there is a Chinatown, a Korea Town, and a Little Italy」，「that」指的是這個希望實現的願景，即「a block with Taiwanese food in the city」，故(C)正確。(A)混淆了餐廳與街區的概念；(B)文中未提及第二台食品車；(D)的「across the country」超出原文範圍，原文只談紐約市內的一個街區。"
     },
     {
       "id": "cap-109-english-reading-passage-28",
@@ -1198,12 +1206,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 28,
-        "raw_text": "28. What problem is Selena Bieber trying to fix?\n    (A) High school lessons are too difficult.\n    (B) Classes start too early in the morning.\n    (C) Too many students are late for school.\n    (D) Lunch break is too short for taking a rest.\n"
+        "raw_text": "28. What problem is Selena Bieber trying to fix?\n    (A) High school lessons are too difficult.\n    (B) Classes start too early in the morning.\n    (C) Too many students are late for school.\n    (D) Lunch break is too short for taking a rest.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據信件內容，Selena Bieber指出「We're asked to get to school by 7:30 a.m. That means we have to get up before 7, when our brains should still be sleeping」，並提出「If we can't change how our body works, why can't school start later?」，明確表示她要解決的問題是學校開始時間過早，故(B)正確。(A)文中未提及課程難度，(C)信件重點不在遲到問題，(D)完全未涉及午餐時間。"
     },
     {
       "id": "cap-109-english-reading-029",
@@ -1339,12 +1348,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 31,
-        "raw_text": "31. What can we learn about Kivalina?\n    (A) It is waiting to shine.\n    (B) It has become history.\n    (C) It is fighting for one last hope.\n    (D) It has given up its chance to rise.\n\n\n\n\n"
+        "raw_text": "31. What can we learn about Kivalina?\n    (A) It is waiting to shine.\n    (B) It has become history.\n    (C) It is fighting for one last hope.\n    (D) It has given up its chance to rise.\n\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "文章指出Kivalina面臨海平面上升威脅，「their home will become uninhabitable because the island could be covered by the Chukchi Sea by 2025」，但同時提到「Groups like ReLocate are working together with the Inuit people to save Kivalina」，說明雖然處境困難，村民仍在努力爭取最後的希望，故(C)正確。(A)「等待閃耀」過於樂觀，不符合村莊面臨滅頂的現實；(B)「已成歷史」錯誤，村莊仍存在且在抵抗；(D)「放棄上升機會」與文中積極救援的努力相悖。"
     },
     {
       "id": "cap-109-english-reading-032",

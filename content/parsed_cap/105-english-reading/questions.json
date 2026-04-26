@@ -116,12 +116,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 3,
-        "raw_text": "3.   My cat got excited when it saw the boy            the birds.\n     (A) catches         (B) catching             (C) to catch       (D) caught\n"
+        "raw_text": "3.   My cat got excited when it saw the boy            the birds.\n     (A) catches         (B) catching             (C) to catch       (D) caught\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "本題考查感官動詞搭配分詞的用法。句子結構為「see + 受詞 + 分詞」，表示看到某人正在進行某動作。題幹「My cat got excited when it saw the boy ___ the birds」中，saw 後接受詞 the boy，需用現在分詞 catching 表示「看到男孩正在抓鳥」的進行狀態，故 (B) 正確。(A) catches 為第三人稱單數現在式，不符合感官動詞後的分詞結構；(C) to catch 為不定式，用於「see sb. do sth.」結構但此處已用 saw 過去式，應搭配分詞；(D) caught 為過去式，無法表達「正在進行」的意義。"
     },
     {
       "id": "cap-105-english-reading-004",
@@ -605,12 +606,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 16,
-        "raw_text": "16. What is the reading for?\n    (A) Finding out why the old street was on fire.\n    (B) Inviting people to do business on the old street.\n    (C) Getting people to find ways to save the old street.\n    (D) Asking for help for people who got hurt in the fire.\n"
+        "raw_text": "16. What is the reading for?\n    (A) Finding out why the old street was on fire.\n    (B) Inviting people to do business on the old street.\n    (C) Getting people to find ways to save the old street.\n    (D) Asking for help for people who got hurt in the fire.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "文章開頭說「Pinky Street...was almost lost to a big fire」，中段強調「we should never give up」和「we must do something together to get the old Pinky back」，最後宣布「There will be a meeting at 2:00 this Saturday afternoon at Town Office. Anyone who wants to help is welcome」，明確呼籲民眾參與會議共同想辦法拯救老街，故(C)正確。(A)只是火災原因，文中未探討；(B)談商業活動，與文意無關；(D)針對傷患救助，但文章重點在街道保護而非人員傷害。"
     },
     {
       "id": "cap-105-english-reading-017",
@@ -780,12 +782,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 20,
-        "raw_text": "20. What does adjacent to mean?\n    (A) Like.\n    (B) Near.\n    (C) Bigger than.\n    (D) Warmer than.\n\n\n\n\n                                           3                 請翻頁繼續作答\n"
+        "raw_text": "20. What does adjacent to mean?\n    (A) Like.\n    (B) Near.\n    (C) Bigger than.\n    (D) Warmer than.\n\n\n\n\n                                           3                 請翻頁繼續作答\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據閱讀材料，「Piso Island is adjacent to Wako Island, the biggest island in Gana, so it is only 15 minutes away by boat from Wako Island」，從「only 15 minutes away by boat」可知 adjacent to 表示距離很近，故 (B) Near 正確。(A) Like 為「喜歡」，與距離無關；(C) Bigger than 與文意不符，因為 Wako Island 才是最大的島；(D) Warmer than 文中未提及溫度比較。"
     },
     {
       "id": "cap-105-english-reading-passage-21",
@@ -849,12 +852,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 21,
-        "raw_text": "21. What do we know from the notice?\n    (A) The summer school is three weeks long.\n    (B) Students can order lunch from the school restaurant.\n    (C) There are basketball classes in the gym every week except the third week.\n    (D) Those who need to borrow dancing shoes must tell Mr. Shum the day before.\n"
+        "raw_text": "21. What do we know from the notice?\n    (A) The summer school is three weeks long.\n    (B) Students can order lunch from the school restaurant.\n    (C) There are basketball classes in the gym every week except the third week.\n    (D) Those who need to borrow dancing shoes must tell Mr. Shum the day before.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據通知「During the third week, the gym will be used for the High School Ball Games. Please go to the playground for the basketball classes of the week.」可知，第三週體育館被占用，籃球課改到操場上課，這表示其他週籃球課在體育館進行，故(C)正確。(A)錯誤，通知只提及7/4~7/31的時間範圍，未明確說明課程長度；(B)錯誤，通知明確指出「The school restaurant is closed」，學生需自帶午餐或提前告知班長訂餐；(D)錯誤，通知說「can be borrowed with your summer school card. Please find Mr. Shum」，只需帶卡片找Shum先生，無需提前告知。"
     },
     {
       "id": "cap-105-english-reading-022",
@@ -883,12 +887,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 22,
-        "raw_text": "22. Below is what Tina told her friends about the classes in her summer school schedule.\n\n       Mr. Reed was really crazy to give us so many new words at one time. Who can\n possibly remember all of them in a night? In our art class, when Ms. Grant asked us\n to draw a picture, I just drew a mad me looking at Mr. Reed. But then I totally forgot\n about Mr. Reed after two hours of PE classes in the afternoon. I was just too tired\n to think! Luckily, there was no computer class today to make it a really bad day.\n\n    Which day was Tina talking about?\n    (A) Monday.          (B) Tuesday.           (C) Wednesday.       (D) Thursday.\n\n\n\n\n"
+        "raw_text": "22. Below is what Tina told her friends about the classes in her summer school schedule.\n\n       Mr. Reed was really crazy to give us so many new words at one time. Who can\n possibly remember all of them in a night? In our art class, when Ms. Grant asked us\n to draw a picture, I just drew a mad me looking at Mr. Reed. But then I totally forgot\n about Mr. Reed after two hours of PE classes in the afternoon. I was just too tired\n to think! Luckily, there was no computer class today to make it a really bad day.\n\n    Which day was Tina talking about?\n    (A) Monday.          (B) Tuesday.           (C) Wednesday.       (D) Thursday.\n\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據Tina的敘述，她提到「Mr. Reed was really crazy to give us so many new words」（英文課），「Ms. Grant asked us to draw a picture」（美術課），「two hours of PE classes in the afternoon」（下午兩小時體育課），以及「there was no computer class today」（沒有電腦課）。對照課表，週三（Wednesday）的課程為：09:30-10:30英文、10:40-11:40美術、13:30-14:30網球、14:40-15:40游泳，完全符合Tina的描述——有英文課、有美術課、下午有兩堂連續體育課（網球和游泳），且沒有電腦課。故(C)正確。(A)週一有電腦課，(B)週二沒有美術課，(D)週四下午是繪畫和籃球，不符合「兩小時PE」的描述。"
     },
     {
       "id": "cap-105-english-reading-passage-23",
@@ -952,12 +957,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 23,
-        "raw_text": "23. Which is most likely true about the speaker in the reading?\n    (A) He thinks a black cat is hiding somewhere in the house.          likely 可能\n    (B) He feels lonely because he is the only child in his family.\n    (C) He is looking for something he left somewhere in the house.\n    (D) He is afraid of being by himself when he feels ghosts around.\n"
+        "raw_text": "23. Which is most likely true about the speaker in the reading?\n    (A) He thinks a black cat is hiding somewhere in the house.          likely 可能\n    (B) He feels lonely because he is the only child in his family.\n    (C) He is looking for something he left somewhere in the house.\n    (D) He is afraid of being by himself when he feels ghosts around.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "詩中說話者反覆問「Will you be with me, my dear Lucy」，並懇求Lucy「stay with me and sing」來驅趕那些「kicking the door, riding the wind, pulling me down to their house under the ground」的東西，這些描寫暗示說話者感受到超自然的威脅。關鍵句「They'll go away if you sing here for me」表明說話者需要Lucy的陪伴來對抗恐懼，故(D)正確。(A)錯誤，黑貓只是比喻Lucy歌聲的威力；(B)無根據，詩未提及家庭成員；(C)錯誤，說話者尋求的是陪伴而非物品。"
     },
     {
       "id": "cap-105-english-reading-024",
@@ -986,12 +992,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 24,
-        "raw_text": "24. What can we learn about Lucy in the reading?\n    (A) She keeps opening the door.\n    (B) Her voice makes the speaker feel safe.\n    (C) Her candy was hidden in the kitchen.\n    (D) She was away from home last Halloween.\n\n                                           5                    請翻頁繼續作答\n"
+        "raw_text": "24. What can we learn about Lucy in the reading?\n    (A) She keeps opening the door.\n    (B) Her voice makes the speaker feel safe.\n    (C) Her candy was hidden in the kitchen.\n    (D) She was away from home last Halloween.\n\n                                           5                    請翻頁繼續作答\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "詩中主角Tommy多次懇求Lucy與他同在，並明確指出「Wish you could always be with me And make them go away with your Do-Re-Me」，說明Lucy能透過唱歌驅散恐懼，且回憶「last Halloween They ran away when you started to sing」，證實Lucy的歌聲具有保護作用，故(B)正確。(A)混淆了風和門的動作，非Lucy所為；(C)糖果是Tommy要找的東西，非Lucy的；(D)詩文未提Lucy去年萬聖節的位置，只說Tommy當時有Lucy的陪伴。"
     },
     {
       "id": "cap-105-english-reading-passage-25",
@@ -1056,12 +1063,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 25,
-        "raw_text": "25. What does IT in picture 7 mean?\n    (A) Rule 22 is easy to follow.\n    (B) Anyone can die at any time.\n    (C) Flying airplanes is dangerous.\n    (D) The soldier has become crazy.\n"
+        "raw_text": "25. What does IT in picture 7 mean?\n    (A) Rule 22 is easy to follow.\n    (B) Anyone can die at any time.\n    (C) Flying airplanes is dangerous.\n    (D) The soldier has become crazy.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據圖表，醫生說「That's easy!」是在回應士兵「how can I get out of my dangerous job?」的問題，醫生隨後解釋Rule 22的邏輯陷阱，最後說「You see, you're caught by Rule 22. You have no way out. You will still need to fly.」，這表示IT指的是士兵已經陷入無法逃脫的困境。圖表下方的流程圖顯示「want to stop → get crazy first BUT... already got crazy → will not want to stop」，說明士兵若真的瘋狂了，就不會想停止飛行，故(D)正確。(A)錯誤因為Rule 22實際上是無法逃脫的陷阱；(B)過於籠統，非題意；(C)只是背景設定，不是IT所指。"
     },
     {
       "id": "cap-105-english-reading-026",
@@ -1197,12 +1205,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 28,
-        "raw_text": "28. What does it in the first line mean?  \n    (A) The gate of Buzzing World.\n    (B) Alec’s butterfly photo.\n    (C) Alec’s plan for his date.\n    (D) Anything with six legs.\n\n\n\n\n"
+        "raw_text": "28. What does it in the first line mean?  \n    (A) The gate of Buzzing World.\n    (B) Alec’s butterfly photo.\n    (C) Alec’s plan for his date.\n    (D) Anything with six legs.\n\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "題幹問「it」在第一句「So, what do you think about it?」的指代對象。根據對話脈絡，Alec 詢問 Ellie 對某事的看法，Ellie 回答「It's…interesting」，隨後 Ellie 開始逐一評論 Alec 的約會計畫（帶 Olivia 去 Buzzing World、去 Wavelength 餐廳等），最後 Lori 直言「If you follow this plan, I'm sure it'll be your only date with her」，明確指出問題所在是「this plan」。因此「it」指的是「Alec's plan for his date」，故 (C) 正確。(A) 只是計畫的一部分；(B) 是過去的事，不是當下討論的焦點；(D) 是 Ellie 對 Olivia 特性的描述，而非 Alec 尋求意見的對象。"
     },
     {
       "id": "cap-105-english-reading-029",
@@ -1231,12 +1240,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 29,
-        "raw_text": "29. What does this one mean in the dialogue?\n    (A) What food Wavelength sells.\n    (B) Why Olivia does not like seafood.\n    (C) What Alec thinks about Wavelength.\n    (D) What food Olivia does not like to eat.\n"
+        "raw_text": "29. What does this one mean in the dialogue?\n    (A) What food Wavelength sells.\n    (B) Why Olivia does not like seafood.\n    (C) What Alec thinks about Wavelength.\n    (D) What food Olivia does not like to eat.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據對話，Ellie說「I wouldn't say a dead fish is really her idea of a nice dinner, and this restaurant sells seafood」，暗示Olivia不喜歡海鮮。Alec回應「Now you're wrong about this one」，意指「你在這一點上錯了」，即「this one」指的是Ellie所說關於Olivia不喜歡海鮮的看法。故(D)正確。(A)只是餐廳販售的食物，非「this one」所指；(B)雖涉及Olivia與海鮮的關係，但「this one」指的是Alec對Ellie評論的反駁對象，即Olivia的飲食偏好本身；(C)是Alec對餐廳的看法，與「this one」無關。"
     },
     {
       "id": "cap-105-english-reading-030",

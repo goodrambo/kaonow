@@ -606,12 +606,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 16,
-        "raw_text": "16. What will NOT get you BeautiMed points?\n    (A) Shopping at e-BeautiMed.\n    (B) Joining “BeautiMed Friend” online.\n    (C) Inviting a friend to join “BeautiMed Friend.”\n    (D) Entering the “BeautiMed Friend” card number.\n\n"
+        "raw_text": "16. What will NOT get you BeautiMed points?\n    (A) Shopping at e-BeautiMed.\n    (B) Joining “BeautiMed Friend” online.\n    (C) Inviting a friend to join “BeautiMed Friend.”\n    (D) Entering the “BeautiMed Friend” card number.\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "題目問「什麼不會讓你獲得BeautiMed點數」。根據材料，Surprise 1提到「Join 'BeautiMed Friend' online for free and get 2000 BeautiMed points」，Surprise 3說「Get 500 BeautiMed points by shopping」，Surprise 5指「you both can get 1000 points each」，這三項都明確提供點數。但Surprise 2只說「Come collect your free gift by entering your 'BeautiMed Friend' card number」，重點是領取「free gift」而非點數，故(D)正確。(A)、(B)、(C)都在材料中明確標示會獲得點數，只有(D)輸入卡號是領取禮物而非點數。"
     },
     {
       "id": "cap-110-english-reading-passage-17",
@@ -711,12 +712,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 18,
-        "raw_text": "18. What can we learn about Lynn from the dialogue?\n    (A) She does not cook.\n    (B) She likes to try new food.\n    (C) She did not enjoy the food at Caldron.\n    (D) She changed Joey’s idea about Caldron.\n\n\n\n"
+        "raw_text": "18. What can we learn about Lynn from the dialogue?\n    (A) She does not cook.\n    (B) She likes to try new food.\n    (C) She did not enjoy the food at Caldron.\n    (D) She changed Joey’s idea about Caldron.\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "Lynn在對話中明確表示「Everything tasted the same」且「I don't see any fun in that」，並強調「I just kept throwing strange things into the pot」，這些陳述都表明她對Caldron的食物體驗不滿意，故(C)正確。(A)錯誤因為Lynn在Caldron確實自己煮食，只是不喜歡；(B)錯誤因為Lynn說「I don't think we share the same idea of good experiences」，明確拒絕了嘗試新食物的想法；(D)錯誤因為對話結尾Lynn與Joey的意見仍有分歧，並未改變Joey的看法。"
     },
     {
       "id": "cap-110-english-reading-passage-19",
@@ -781,12 +783,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 19,
-        "raw_text": "19. What do we know about Woollie from Katie’s diary?\n    (A) Woollie was older than Katie.\n    (B) Woollie was taken to visit sick kids.\n    (C) Woollie was sick when he ran away.\n    (D) Woollie looked strange without his fleece.\n"
+        "raw_text": "19. What do we know about Woollie from Katie’s diary?\n    (A) Woollie was older than Katie.\n    (B) Woollie was taken to visit sick kids.\n    (C) Woollie was sick when he ran away.\n    (D) Woollie looked strange without his fleece.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據日記內容，「when Woollie was four, he ran away from Mr. Armstrong's farm, and it took Mr. Armstrong six years to find Woollie」，表示Woollie四歲時逃跑，六年後被找到，即Woollie十歲時被發現；而「Daddy said this happened on the day I was born」說明這件事發生在Katie出生那天，故Woollie比Katie年長十歲，(A)正確。(B)錯誤，日記明確指出「Woollie's fleece was sold to collect money for sick kids」，是羊毛被用來幫助病童，不是Woollie本身去探訪；(C)無根據，日記未提及Woollie逃跑時生病；(D)與事實相反，日記說Woollie長了太多羊毛「didn't even look like a sheep」，剪毛後才恢復正常外觀。"
     },
     {
       "id": "cap-110-english-reading-020",
@@ -923,12 +926,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 22,
-        "raw_text": "22. What can we learn about The Piano Lesson from the reading?\n    (A) Matisse painted it when his son was away from home.\n    (B) The woman who sits on a seat behind the boy is his mother.\n    (C) Matisse uses yellow and red to show that his son was happy.\n    (D) The candle on the piano shows that the piano lesson has just begun.\n"
+        "raw_text": "22. What can we learn about The Piano Lesson from the reading?\n    (A) Matisse painted it when his son was away from home.\n    (B) The woman who sits on a seat behind the boy is his mother.\n    (C) Matisse uses yellow and red to show that his son was happy.\n    (D) The candle on the piano shows that the piano lesson has just begun.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據文章「Pierre had gone away to be a soldier, and Matisse didn't know whether he would come back」，馬蒂斯在兒子離家當兵期間創作了這幅畫，故(A)正確。(B)錯誤，文中明確指出那位女性「is in fact another painting by him, Woman on a High Stool」，是另一幅畫作而非他的母親。(C)錯誤，文章說「Matisse uses a lot of gray, not a very fun color」來表現孩子的感受，並非用黃色和紅色表現快樂。(D)錯誤，蠟燭「almost burned down」表示已經練習多小時，課程即將結束而非剛開始。"
     },
     {
       "id": "cap-110-english-reading-023",
@@ -957,12 +961,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 23,
-        "raw_text": "23. What does do that mean in the reading?\n    (A) Put his family in his paintings.\n    (B) Paint to remember the good old days.\n    (C) Use a lot of fun colors in his art works.\n    (D) Put his earlier art work in a new painting.\n"
+        "raw_text": "23. What does do that mean in the reading?\n    (A) Put his family in his paintings.\n    (B) Paint to remember the good old days.\n    (C) Use a lot of fun colors in his art works.\n    (D) Put his earlier art work in a new painting.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據閱讀材料，「Matisse likes to do that a lot」中的「that」指的是前文提到的行為：「if you're a Matisse fan, you'll know this is in fact another painting by him, Woman on a High Stool」，即將他之前的作品融入新的畫作中。材料隨後又說「In fact, there's another work by Matisse in the picture」，進一步確認這個模式。故(D)「Put his earlier art work in a new painting」正確。(A)過於籠統，未抓住「earlier art work」的關鍵；(B)是畫作的主題而非「do that」的行為；(C)與材料內容相反，Matisse用了灰色等沉悶色調。"
     },
     {
       "id": "cap-110-english-reading-024",
@@ -991,12 +996,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 24,
-        "raw_text": "24. What is NOT used in the reading to refer to Henri Matisse?             refer to 指稱\n    (A) The artist.\t\t                        (B) The painter.\n    (C) The poor kid. \t\t                     (D) A worried father.\n"
+        "raw_text": "24. What is NOT used in the reading to refer to Henri Matisse?             refer to 指稱\n    (A) The artist.\t\t                        (B) The painter.\n    (C) The poor kid. \t\t                     (D) A worried father.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "題目問「閱讀中哪個詞語『不是』用來指稱亨利·馬蒂斯」。逐項檢視：(A)「The artist」出現在「this is in fact another painting by him, Woman on a High Stool」前的「if you're a Matisse fan」段落中；(B)「The painter」明確出現在開頭「the painter's son, Pierre」；(D)「A worried father」出現在最後「Maybe this is a worried father's way to remember the good old days」。(C)「The poor kid」則在文中指的是「Pierre looks quite serious...It shows how the poor kid feels」，此處「the poor kid」明確指稱的是皮埃爾（兒子），而非馬蒂斯本人，故(C)正確。"
     },
     {
       "id": "cap-110-english-reading-passage-25",
@@ -1097,12 +1103,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 26,
-        "raw_text": "26. Which is true about Teachers’ Day from the reading?\n    (A) It used to be celebrated on different dates.\n    (B) It was started by students for their teachers.\n    (C) It has been celebrated in Nanjing for over 2,500 years.\n    (D) Teachers decided to celebrate it on Confucius’s birthday.\n"
+        "raw_text": "26. Which is true about Teachers’ Day from the reading?\n    (A) It used to be celebrated on different dates.\n    (B) It was started by students for their teachers.\n    (C) It has been celebrated in Nanjing for over 2,500 years.\n    (D) Teachers decided to celebrate it on Confucius’s birthday.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據文章，教師節的慶祝日期確實改變過多次：「They had Teachers' Day on June 6」（1930年），後來「in 1939, the government made Teachers' Day a national holiday. However, it was on August 27」，最後「In 1952, people found out he was in fact born on September 28. That was when we started to celebrate Teachers' Day on Confucius's real birthday」，故(A)正確。(B)錯誤，因為是教師自己發起而非學生；(C)錯誤，教師節始於1930年，不是2,500年前；(D)錯誤，文章明確指出「Teachers' Day was never about Confucius」，是政府而非教師決定改為孔子生日。"
     },
     {
       "id": "cap-110-english-reading-027",
@@ -1237,12 +1244,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 29,
-        "raw_text": "29. Why does National Formosa Railway write this letter?\n    (A) There is a train ticket sale.\n    (B) A train line will be closed in July.\n    (C) It will open a new train line in August.\n    (D) Some of its trains will run on different lines.\n"
+        "raw_text": "29. Why does National Formosa Railway write this letter?\n    (A) There is a train ticket sale.\n    (B) A train line will be closed in July.\n    (C) It will open a new train line in August.\n    (D) Some of its trains will run on different lines.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "信件開頭明確指出「because of the typhoon last month, the Sand Town – Spring Town line will be closed between August 14 and 28 2016. During this time, some trains will change lines and will not stop at a few stations」，說明鐵路公司寫信的目的是通知乘客某些列車將改道運行，故(D)正確。(A)錯誤，信件未提及售票；(B)錯誤，關閉時間是8月14至28日而非7月；(C)錯誤，是既有路線改用，非開設新路線。"
     },
     {
       "id": "cap-110-english-reading-030",
@@ -1271,12 +1279,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 30,
-        "raw_text": "30. What is true about NFR’s trains between August 14 and 28 2016?\n    (A) No trains will stop at Spring Town.\n    (B) Trains that change lines will all stop at Cloud City.\n    (C) People can take the free buses to any station on the Sand Town - Spring Town line.\n    (D) People can go to Hill Town on any train that runs between Green City and Cloud City.\n"
+        "raw_text": "30. What is true about NFR’s trains between August 14 and 28 2016?\n    (A) No trains will stop at Spring Town.\n    (B) Trains that change lines will all stop at Cloud City.\n    (C) People can take the free buses to any station on the Sand Town - Spring Town line.\n    (D) People can go to Hill Town on any train that runs between Green City and Cloud City.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據材料第1部分，「Trains that run between Green City and Cloud City will take the Smoke Town – Spring Town line, and will stop at every station」，綠城至雲城的列車會改走煙鎮–春鎮線並停靠每一站，而根據路線圖，煙鎮–春鎮線經過希爾鎮，故(D)正確。(A)錯誤因為RL101、RL102等列車仍停靠春鎮；(B)錯誤因為RL201終點為綠城而非雲城；(C)錯誤因為材料明確指出「No stop at Gray Village」，免費巴士不停灰村。"
     },
     {
       "id": "cap-110-english-reading-031",
@@ -1375,12 +1384,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 32,
-        "raw_text": "32. Below are the ideas that are talked about in the reading.\n       a. The problems Darayya has.\n       b. How Darayya’s library was started.\n       c. What makes Darayya’s library special.\n       d. How Darayya’s library helps people there.\n    In what order does the writer put his ideas in the reading?          order 順序\n    (A) c b a d.         (B) b a d c.          (C) a c b d.        (D) c a b d.\n"
+        "raw_text": "32. Below are the ideas that are talked about in the reading.\n       a. The problems Darayya has.\n       b. How Darayya’s library was started.\n       c. What makes Darayya’s library special.\n       d. How Darayya’s library helps people there.\n    In what order does the writer put his ideas in the reading?          order 順序\n    (A) c b a d.         (B) b a d c.          (C) a c b d.        (D) c a b d.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "本題考查閱讀文章的邏輯組織順序。逐段分析：第一段開頭介紹「It is a secret underground library」，強調其特殊性，對應 c；第二段說明「war has shaken Darayya badly」及「houses are bombed」，介紹城市問題，對應 a；第三段敘述「Anas Ahmad...decided to build a library」和「They built the library under the ground」，說明圖書館如何建立，對應 b；最後一段引用「Just like the body needs food, the mind needs books」，闡述圖書館如何幫助人們，對應 d。故文章順序為 c a b d，(D) 正確。(A) 項順序顛倒，(B) 項將 a 置於 b 前不符文意，(C) 項將 c 置於最後與文章結構不符。"
     },
     {
       "id": "cap-110-english-reading-033",
@@ -1409,12 +1419,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 33,
-        "raw_text": "33. Why do people in Darayya go to the library even during the war?\n    (A) They can get free food.\n    (B) They find joy and hope in reading.\n    (C) They want to learn how to win the war.\n    (D) Their school teachers give lessons there.\n"
+        "raw_text": "33. Why do people in Darayya go to the library even during the war?\n    (A) They can get free food.\n    (B) They find joy and hope in reading.\n    (C) They want to learn how to win the war.\n    (D) Their school teachers give lessons there.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據材料，「Just like the body needs food, the mind needs books」，且「people enjoy their time of reading and forget about the terrible world above」、「Through reading, they are able to dream of a better life after war」，說明人們透過閱讀獲得精神寄託與希望，故(B)正確。(A)材料未提供食物；(C)未涉及戰爭知識；(D)材料明確指出「schools」已關閉，圖書館是學生Anas Ahmad為幫助孩童學習而建立的替代場所。"
     },
     {
       "id": "cap-110-english-reading-034",
@@ -1443,12 +1454,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 34,
-        "raw_text": "34. What do we know about Darayya’s library?\n    (A) It was built during the war.\t\t\t\t\n    (B) It has been bombed many times.\n    (C) It was built to remember people who died in the war.\n    (D) Most of its books are collected from outside of Darayya.\n"
+        "raw_text": "34. What do we know about Darayya’s library?\n    (A) It was built during the war.\t\t\t\t\n    (B) It has been bombed many times.\n    (C) It was built to remember people who died in the war.\n    (D) Most of its books are collected from outside of Darayya.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據材料「To help the kids in Darayya with their learning, Anas Ahmad, a 19-year-old student, and his friends decided to build a library」以及「Over the years, war has shaken Darayya badly」的時間順序，可知圖書館是在戰爭期間為了幫助孩子學習而建立的，故(A)正確。(B)錯誤，材料未提及圖書館本身被轟炸；(C)錯誤，建立目的是幫助孩子學習而非紀念死者；(D)錯誤，材料說「Ahmad and his friends look for books in houses that were bombed」，表示書籍來自當地被轟炸的房屋，而非外地。"
     },
     {
       "id": "cap-110-english-reading-passage-35",

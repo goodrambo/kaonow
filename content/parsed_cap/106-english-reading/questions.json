@@ -959,12 +959,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 24,
-        "raw_text": "24. What do we know from the dialogue?\n    (A) Ruth will go to London next Saturday.\n    (B) Ruth had trouble booking a hotel room in London.\n    (C) Nate is the first person that Ruth thought of for help.\n    (D) Nate is surprised that Ruth was able to book a table at Leeds.\n\n\n"
+        "raw_text": "24. What do we know from the dialogue?\n    (A) Ruth will go to London next Saturday.\n    (B) Ruth had trouble booking a hotel room in London.\n    (C) Nate is the first person that Ruth thought of for help.\n    (D) Nate is surprised that Ruth was able to book a table at Leeds.\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據對話，Ruth提到「And a table for two at Leeds」後，Nate立即驚訝地說「Leeds?! But I called them yesterday and they said they were all booked for the year!」，表明Nate對Ruth能夠訂到Leeds的位子感到驚訝，故(D)正確。(A)錯誤，Ruth說「this Friday I'm leaving for my vacation in London」，是這週五離開，不是下週六；(B)對話未提及飯店房間；(C)錯誤，Ruth說「You're my last hope」表示Nate是最後的希望，暗示她已問過其他人，而非第一個想到的人。"
     },
     {
       "id": "cap-106-english-reading-passage-25",
@@ -1139,12 +1140,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 27,
-        "raw_text": "27. What does Wonky Markt care about?\n    (A) Supermarkets often sell “seconds” at a lower price.\n    (B) Farmers don’t know how to grow fewer “seconds.”\n    (C) “Seconds” are thrown away because of how they look.\n    (D) People don’t know much about picking fresh “seconds.”\n"
+        "raw_text": "27. What does Wonky Markt care about?\n    (A) Supermarkets often sell “seconds” at a lower price.\n    (B) Farmers don’t know how to grow fewer “seconds.”\n    (C) “Seconds” are thrown away because of how they look.\n    (D) People don’t know much about picking fresh “seconds.”\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據材料，Wonky Markt 的核心關懷在於「these 'seconds' seldom arrive at your table, but often go straight into the trash can」，以及「supermarkets don't want to buy them from farmers—they believe their shoppers only love beautiful things」，說明「Seconds」被丟棄的原因是外觀不美，故(C)正確。(A)曲解材料，超市根本不賣「seconds」；(B)材料未提農民種植技術問題；(D)與材料主旨無關，材料重點不在消費者如何挑選，而在於外觀導致浪費。"
     },
     {
       "id": "cap-106-english-reading-028",
@@ -1243,12 +1245,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 29,
-        "raw_text": "29. What can we learn from the reading?\n    (A) No buses go from Apple City to Orange Island before the bus line changes.\n    (B) Before July 1, those who want to visit Mango Island have to take a bus at Berry City.\n    (C) Traveling from Apple City to Grape Town will take less time after the bus line changes.\n    (D) Before July 1, Dashing Shuttle does not have buses from Apple City to Peach City.\n\n\n"
+        "raw_text": "29. What can we learn from the reading?\n    (A) No buses go from Apple City to Orange Island before the bus line changes.\n    (B) Before July 1, those who want to visit Mango Island have to take a bus at Berry City.\n    (C) Traveling from Apple City to Grape Town will take less time after the bus line changes.\n    (D) Before July 1, Dashing Shuttle does not have buses from Apple City to Peach City.\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據材料第3點「Dashing Shuttle is the first in the country to open a bus line between Apple City and Orange Island」，說明該公司是「第一個」開設蘋果城至橙島的巴士線路，意即七月一日前沒有巴士往來這兩地，故(A)正確。(B)錯誤，材料未提及七月一日前芒果島的轉乘點；(C)錯誤，材料第4點說葡萄鎮線路停運，改為在番石榴鎮或香蕉鎮轉乘，並未說時間會減少；(D)錯誤，材料第1點明確指出「From July 1, we have three more buses」表示原本就有巴士往來桃城，只是增加班次。"
     },
     {
       "id": "cap-106-english-reading-030",
@@ -1349,12 +1352,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 31,
-        "raw_text": "31. What does the report say about globalization’s influence on the movie world?\n    (A) It has changed the way of making movies.\n                                                                     influence 影響\n    (B) It has changed a country’s domestic market for movies.\n    (C) It has brought together movie makers from around the world.\n    (D) It has helped US movies make more money abroad than in the US.\n"
+        "raw_text": "31. What does the report say about globalization’s influence on the movie world?\n    (A) It has changed the way of making movies.\n                                                                     influence 影響\n    (B) It has changed a country’s domestic market for movies.\n    (C) It has brought together movie makers from around the world.\n    (D) It has helped US movies make more money abroad than in the US.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "文章明確指出「globalization」的影響在於改變了電影市場的結構。材料中提到「Chart 2 shows the percentages (%) of domestic movies in the five countries in 1984 and in 2001」，並強調「domestic movies in the five countries are not doing well in their domestic market」，說明全球化導致各國本土電影在自身市場中的表現下滑，故(B)正確。(A)文中未提及電影製作方式的改變；(C)文章重點不在製片人聚集，而在市場份額變化；(D)文中未比較美國電影在國內外的收入差異，只提及其在國外市場的高佔有率。"
     },
     {
       "id": "cap-106-english-reading-032",
