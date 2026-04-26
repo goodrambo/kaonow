@@ -257,6 +257,12 @@ def main():
         print(f"[env] WARN: API key 不是 sk-ant- 開頭，可能複製錯")
     if len(api_key) < 80:
         print(f"[env] WARN: API key 長度只有 {len(api_key)}，正常 sk-ant- key 應該 100+ 字元")
+    if not args.dry_run:
+        print(f"[env] SUPABASE_ACCESS_TOKEN len={len(sb_token)} prefix={sb_token[:6]}…")
+        if not sb_token.startswith("sbp_"):
+            print(f"[env] WARN: SB token 不是 sbp_ 開頭，可能複製錯（管理 API key 是 sbp_）")
+        if len(sb_token) < 30:
+            print(f"[env] WARN: SB token 長度只有 {len(sb_token)}，可能截斷")
 
     ids = [s.strip() for s in args.ids.split(",") if s.strip()]
     re_id = re.compile(r"^cap-(\d+)-math-(\d+)$")
@@ -298,7 +304,10 @@ def main():
         out_tok += int(payload.get("usage", {}).get("output_tokens", 0) or 0)
         result = parse_json(payload["raw"])
         if not result or not result.get("stem") or not result.get("options"):
-            print(f"PARSE FAIL"); grand_fail += 1; continue
+            print(f"PARSE FAIL")
+            print(f"  raw[:300]: {payload['raw'][:300]}")
+            grand_fail += 1
+            continue
 
         stem = result["stem"]
         opts = result["options"]
