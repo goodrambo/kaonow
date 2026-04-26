@@ -756,12 +756,13 @@
         "parse_confidence": 1.0,
         "original_question_number": 18,
         "section_label": "選擇題",
-        "raw_text": "18. 已知 a、b、c 皆為正整數，且 a、b 兩數的最大公因數與最小公倍數分別為\n  11 與 88。關於 a、b、c 三數的最大公因數與最小公倍數，甲、乙兩人分別\n  提出看法如下：\n    甲：a、b、c 三數的最大公因數可能比 11 大\n    乙：a、b、c 三數的最小公倍數可能比 88 小\n  對於甲、乙兩人的看法，下列判斷何者正確？\n  (A) 甲、乙皆正確\n  (B) 甲、乙皆錯誤\n  (C) 甲正確，乙錯誤\n  (D) 甲錯誤，乙正確\n\n"
+        "raw_text": "18. 已知 a、b、c 皆為正整數，且 a、b 兩數的最大公因數與最小公倍數分別為\n  11 與 88。關於 a、b、c 三數的最大公因數與最小公倍數，甲、乙兩人分別\n  提出看法如下：\n    甲：a、b、c 三數的最大公因數可能比 11 大\n    乙：a、b、c 三數的最小公倍數可能比 88 小\n  對於甲、乙兩人的看法，下列判斷何者正確？\n  (A) 甲、乙皆正確\n  (B) 甲、乙皆錯誤\n  (C) 甲正確，乙錯誤\n  (D) 甲錯誤，乙正確\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "由 gcd(a,b)=11 與 lcm(a,b)=88 可知，a=11m、b=11n，其中 gcd(m,n)=1 且 mn=8。因此 (m,n) 只能是 (1,8) 或 (8,1)，即 a、b 必為 {11,88}。甲說「a、b、c 三數的最大公因數可能比 11 大」，但 gcd(a,b,c)=gcd(gcd(a,b),c)=gcd(11,c)，由於 11 是質數，gcd(11,c) 只能是 1 或 11，不可能大於 11，故甲錯誤。乙說「a、b、c 三數的最小公倍數可能比 88 小」，但 lcm(a,b,c)=lcm(lcm(a,b),c)=lcm(88,c)，而 lcm(88,c)≥88 恆成立，故乙錯誤。(B) 正確。"
     },
     {
       "id": "cap-114-math-019",

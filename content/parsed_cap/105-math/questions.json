@@ -307,12 +307,13 @@
         "parse_confidence": 1.0,
         "original_question_number": 6,
         "section_label": "選擇題",
-        "raw_text": "6.   多項式 77x2 − 13x − 30 可因式分解成 ( 7x + a )( bx + c )，其中 a、 b、c 均為\n     整數，求 a + b + c 之值為何？\n     (A) 0\n     (B) 10\n     (C) 12\n     (D) 22\n\n\n\n"
+        "raw_text": "6.   多項式 77x2 − 13x − 30 可因式分解成 ( 7x + a )( bx + c )，其中 a、 b、c 均為\n     整數，求 a + b + c 之值為何？\n     (A) 0\n     (B) 10\n     (C) 12\n     (D) 22\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "將 77x² − 13x − 30 因式分解成 (7x + a)(bx + c) 的形式，展開得 7bx² + (7c + ab)x + ac = 77x² − 13x − 30。比較係數：7b = 77 得 b = 11，ac = −30，7c + ab = −13。由 7c + 11a = −13 與 ac = −30，若 a = −6，則 c = 5，驗證 7(5) + 11(−6) = 35 − 66 = −31（不符）；若 a = 6，則 c = −5，驗證 7(−5) + 11(6) = −35 + 66 = 31（不符）；若 a = −5，則 c = 6，驗證 7(6) + 11(−5) = 42 − 55 = −13（正確）。故 a = −5、b = 11、c = 6，a + b + c = −5 + 11 + 6 = 12，(C) 正確。B 項為 10，D 項為 22，均因係數計算錯誤而得出。"
     },
     {
       "id": "cap-105-math-007",
@@ -489,12 +490,13 @@
         "parse_confidence": 1.0,
         "original_question_number": 11,
         "section_label": "選擇題",
-        "raw_text": "11. 坐標平面上有一個二元一次方程式的圖形，此圖形通過 ( − 3 , 0 )、( 0 , − 5 ) 兩點。\n   判斷此圖形與下列哪一個方程式的圖形的交點在第三象限？\n   (A) x − 4 = 0\n   (B) x + 4 = 0\n   (C) y − 4 = 0\n   (D) y + 4 = 0\n\n\n"
+        "raw_text": "11. 坐標平面上有一個二元一次方程式的圖形，此圖形通過 ( − 3 , 0 )、( 0 , − 5 ) 兩點。\n   判斷此圖形與下列哪一個方程式的圖形的交點在第三象限？\n   (A) x − 4 = 0\n   (B) x + 4 = 0\n   (C) y − 4 = 0\n   (D) y + 4 = 0\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "先求通過(−3, 0)、(0, −5)的直線方程式。斜率為(−5−0)/(0−(−3))=−5/3，y截距為−5，故直線方程式為y=−(5/3)x−5。選項(A)、(B)、(C)、(D)分別為x=4、x=−4、y=4、y=−4的垂直或水平線。將各直線與y=−(5/3)x−5聯立求交點：(A)x=4時，y=−(5/3)×4−5=−35/3，在第四象限；(B)x=−4時，y=−(5/3)×(−4)−5=20/3−5=5/3，在第二象限；(C)y=4時，−(5/3)x−5=4，x=−27/5，在第二象限；(D)y=−4時，−(5/3)x−5=−4，−(5/3)x=1，x=−3/5，交點為(−3/5, −4)，x<0、y<0在第三象限，故(D)正確。"
     },
     {
       "id": "cap-105-math-012",
@@ -708,12 +710,13 @@
         "parse_confidence": 1.0,
         "original_question_number": 17,
         "section_label": "選擇題",
-        "raw_text": "17. 已知 a、b、c 為三正整數，且 a、b 的最大公因數為 12，a、c 的最大公因數\n   為 18。若 a 介於 50 與 100 之間，則下列敘述何者正確？\n   (A) 8 是 a 的因數， 8 是 b 的因數\n   (B) 8 是 a 的因數， 8 不是 b 的因數\n   (C) 8 不是 a 的因數， 8 是 c 的因數\n   (D) 8 不是 a 的因數， 8 不是 c 的因數\n\n\n\n\n"
+        "raw_text": "17. 已知 a、b、c 為三正整數，且 a、b 的最大公因數為 12，a、c 的最大公因數\n   為 18。若 a 介於 50 與 100 之間，則下列敘述何者正確？\n   (A) 8 是 a 的因數， 8 是 b 的因數\n   (B) 8 是 a 的因數， 8 不是 b 的因數\n   (C) 8 不是 a 的因數， 8 是 c 的因數\n   (D) 8 不是 a 的因數， 8 不是 c 的因數\n\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "由 gcd(a,b)=12 知 a 是 12 的倍數，由 gcd(a,c)=18 知 a 是 18 的倍數，故 a 是 lcm(12,18)=36 的倍數。在 50 至 100 間，36 的倍數只有 72，故 a=72=8×9。因為 a=72 含因數 8，所以 8 是 a 的因數；又 gcd(a,b)=12=4×3 不含因數 8，故 gcd(72,b)=12 表示 b 不能被 8 整除，即 8 不是 b 的因數，故 (B) 正確。(A) 錯在 8 是 b 的因數；(C) 錯在 8 是 c 的因數，因 gcd(a,c)=18=2×9 不含因數 8，c 也不被 8 整除；(D) 錯在前半，8 確實是 a 的因數。"
     },
     {
       "id": "cap-105-math-018",
@@ -855,12 +858,13 @@
         "parse_confidence": 1.0,
         "original_question_number": 21,
         "section_label": "選擇題",
-        "raw_text": "21. 坐標平面上，某二次函數圖形的頂點為 ( 2 , −1 )，此函數圖形與 x 軸相交於 P、Q\n  兩點，且 PQ = 6。若此函數圖形通過 ( 1 , a )、 ( 3 , b )、 ( −1 , c )、 ( −3 , d )\n  四點，則 a、b 、c 、d 之值何者為正？\n  (A) a\n  (B) b\n  (C) c\n  (D) d\n\n\n\n"
+        "raw_text": "21. 坐標平面上，某二次函數圖形的頂點為 ( 2 , −1 )，此函數圖形與 x 軸相交於 P、Q\n  兩點，且 PQ = 6。若此函數圖形通過 ( 1 , a )、 ( 3 , b )、 ( −1 , c )、 ( −3 , d )\n  四點，則 a、b 、c 、d 之值何者為正？\n  (A) a\n  (B) b\n  (C) c\n  (D) d\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "頂點為(2, −1)的二次函數可設為 f(x) = k(x − 2)² − 1。由於圖形與x軸相交於P、Q兩點且PQ = 6，設P、Q的x坐標分別為 2 − 3 = −1 與 2 + 3 = 5（對稱於頂點x = 2，距離各為3），代入得 0 = k(−1 − 2)² − 1 = 9k − 1，故 k = 1/9，函數為 f(x) = (1/9)(x − 2)² − 1。計算各點函數值：f(1) = (1/9)(−1)² − 1 = 1/9 − 1 = −8/9 < 0，故a < 0；f(3) = (1/9)(1)² − 1 = 1/9 − 1 = −8/9 < 0，故b < 0；f(−1) = (1/9)(−3)² − 1 = 1 − 1 = 0，故c = 0；f(−3) = (1/9)(−5)² − 1 = 25/9 − 1 = 16/9 > 0，故d > 0。因此(D)正確。"
     },
     {
       "id": "cap-105-math-022",

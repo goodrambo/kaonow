@@ -1345,12 +1345,13 @@
         "parse_confidence": 1.0,
         "original_question_number": 31,
         "section_label": "題組",
-        "raw_text": "31. James lives in Smoke Town. He wants to go to Black Town on August 19. How can\n    he get there?\n    (A) Take Train RL202 to Green City, get off there, and take the free bus.\n    (B) Take Train RL103 to Green City, get off there, and take the free bus.\n    (C) Take Train RL102 to Spring Town, get off there, and take Train RL201.\n    (D) Take Train RL101 to Cloud City, get off there, and take the free bus.\n\n\n\n\n"
+        "raw_text": "31. James lives in Smoke Town. He wants to go to Black Town on August 19. How can\n    he get there?\n    (A) Take Train RL202 to Green City, get off there, and take the free bus.\n    (B) Take Train RL103 to Green City, get off there, and take the free bus.\n    (C) Take Train RL102 to Spring Town, get off there, and take Train RL201.\n    (D) Take Train RL101 to Cloud City, get off there, and take the free bus.\n\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "James 住在 Smoke Town，要在 8 月 19 日前往 Black Town。根據材料，Sand Town – Spring Town 路線關閉期間，「free buses for the Sand Town – Spring Town line will wait at Green City (going south) and Spring Town (going north) stations」，且「No stop at Gray Village」。James 需要先搭車到 Green City，再轉乘免費巴士前往 Black Town。RL202 從 Cloud City 開往 Green City，經過 Smoke Town，故 (A) 正確。(B) 錯誤因為 RL103 是從 Green City 出發，James 無法在 Smoke Town 上車；(C) 錯誤因為 RL102 終點是 Spring Town，RL201 從 Spring Town 開往 Green City，方向相反；(D) 錯誤因為 RL101 終點是 Cloud City，無法到達 Black Town。"
     },
     {
       "id": "cap-110-english-reading-passage-32",

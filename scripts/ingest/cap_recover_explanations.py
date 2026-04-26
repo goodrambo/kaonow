@@ -23,7 +23,7 @@ REPO = Path(__file__).resolve().parents[2]
 FAIL_DIR = REPO / "outputs/cap_explain"
 EXPL_DIR = REPO / "content/parsed_cap/explanations"
 
-LEN_MAX_RELAXED = 500
+LEN_MAX_RELAXED = 600  # math 解題敘述偏長，提高到 600 涵蓋 554 outlier
 LETTER_RE = re.compile(r"\(([ABCD])\)")
 MARKDOWN_RE = re.compile(r"(^|\n)\s*(#|\*\s|-\s|>\s|\*\*)|`")
 
