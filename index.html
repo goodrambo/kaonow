@@ -110,12 +110,20 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;font-size:
 .header-cta:hover{background:var(--accent-hover) !important;box-shadow:0 4px 16px rgba(45,95,45,0.45) !important;transform:translateY(-1px)}
 .menu-toggle{display:none;font-size:20px;padding:8px 10px;border-radius:8px;color:var(--text)}
 .menu-toggle:hover{background:var(--surface-alt)}
+.header-cta .cta-short{display:none}
 @media(max-width:720px){
   .header-nav{display:none;position:absolute;top:var(--header-h);left:0;right:0;background:var(--surface);border-bottom:1px solid var(--border-light);flex-direction:column;padding:8px 16px 16px;gap:2px;box-shadow:var(--shadow-lg)}
   .header-nav.open{display:flex}
-  .header-nav a,.header-cta{padding:12px 16px !important;border-radius:var(--radius-sm) !important;font-size:15px !important;width:100%;box-shadow:none !important}
-  .header-cta{text-align:center;margin-top:6px}
+  .header-nav a{padding:12px 16px !important;border-radius:var(--radius-sm) !important;font-size:15px !important;width:100%;box-shadow:none !important}
+  /* CTA 在 mobile 保留為 inline pill，不被 hamburger 吃掉 */
+  .header-cta{padding:7px 14px !important;font-size:13px !important;margin:0 !important;text-align:center;flex-shrink:0}
+  .header-cta .cta-long{display:none}
+  .header-cta .cta-short{display:inline}
   .menu-toggle{display:flex;align-items:center;justify-content:center}
+}
+@media(max-width:520px){
+  .user-pill .user-name{display:none}
+  .user-pill{padding:4px 6px}
 }
 
 /* SCREENS */
@@ -371,7 +379,54 @@ html{scroll-padding-top:calc(var(--header-h) + 16px)}
 .exam-hero-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(110px,1fr));gap:10px;margin-top:18px}
 .eh-stat{background:var(--surface-alt);padding:14px;border-radius:var(--radius);text-align:center}
 .eh-stat-num{font-size:22px;font-weight:800;color:var(--accent);line-height:1.2}
+.eh-stat-num.warn{color:#c85d48}
+.eh-stat-num.tiny{font-size:13px;padding-top:4px;color:var(--text-secondary)}
 .eh-stat-label{font-size:11px;color:var(--text-secondary);margin-top:3px}
+.eh-stat-sub{font-size:10px;color:var(--text-tertiary);margin-top:2px}
+/* 主 CTA bar — 已登入優先「繼續上次」，未登入「立即開始」 */
+.exam-cta-bar{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:16px 20px;background:linear-gradient(135deg,var(--accent) 0%,var(--accent-dark,#1f4a23) 100%);border-radius:var(--radius-lg);margin-bottom:22px;color:#fff;flex-wrap:wrap;box-shadow:0 4px 16px rgba(45,95,45,0.2)}
+.exam-cta-bar .cta-text{font-size:14.5px;font-weight:600;line-height:1.5;flex:1;min-width:200px}
+.exam-cta-bar .cta-text small{display:block;font-size:12px;opacity:0.85;font-weight:400;margin-top:2px}
+.exam-cta-bar .cta-btn{background:#fff;color:var(--accent);padding:10px 22px;border-radius:999px;font-weight:700;font-size:14px;border:none;cursor:pointer;white-space:nowrap;transition:var(--transition);box-shadow:0 2px 8px rgba(0,0,0,0.12)}
+.exam-cta-bar .cta-btn:hover{transform:translateY(-1px);box-shadow:0 4px 14px rgba(0,0,0,0.18)}
+.exam-cta-bar .cta-btn-secondary{background:rgba(255,255,255,0.15);color:#fff;border:1.5px solid rgba(255,255,255,0.4);padding:10px 18px;border-radius:999px;font-weight:600;font-size:13px;cursor:pointer;white-space:nowrap;transition:var(--transition)}
+.exam-cta-bar .cta-btn-secondary:hover{background:rgba(255,255,255,0.22)}
+/* 進度儀表板 */
+.exam-progress{display:grid;grid-template-columns:1.4fr 1fr;gap:14px;margin-bottom:22px}
+.exam-progress-card{background:var(--surface);border:1px solid var(--border-light);border-radius:var(--radius-lg);padding:18px 20px}
+.exam-progress-card h3{font-size:13px;color:var(--text-tertiary);font-weight:600;margin-bottom:10px;letter-spacing:0.3px}
+.exam-progress-nums{display:flex;align-items:baseline;gap:8px;margin-bottom:8px}
+.exam-progress-nums .big{font-size:28px;font-weight:800;color:var(--accent);line-height:1}
+.exam-progress-nums .small{font-size:13px;color:var(--text-secondary)}
+.exam-progress-nums .chip{margin-left:auto;font-size:12px;font-weight:700;color:var(--accent);background:var(--accent-light);padding:3px 10px;border-radius:999px}
+.exam-progress-track{height:6px;background:var(--surface-alt);border-radius:999px;overflow:hidden;margin-top:10px}
+.exam-progress-bar{height:100%;background:var(--accent);border-radius:999px;transition:width .4s ease}
+.exam-progress-meta{font-size:12.5px;color:var(--text-tertiary);margin-top:8px;line-height:1.6}
+.exam-weak-list{display:flex;flex-direction:column;gap:8px;margin-top:8px}
+.exam-weak-row{display:flex;align-items:center;gap:8px;font-size:13px}
+.exam-weak-row .name{flex:1;color:var(--text-secondary);min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.exam-weak-row .pct{font-weight:700;color:#c85d48}
+.exam-progress-empty{font-size:13px;color:var(--text-tertiary);line-height:1.7}
+.exam-progress-empty a{color:var(--accent);font-weight:600;cursor:pointer}
+@media(max-width:720px){.exam-progress{grid-template-columns:1fr}}
+/* 歷屆試卷 */
+.papers-year{margin-bottom:18px}
+.papers-year:last-child{margin-bottom:0}
+.papers-year-label{font-size:13px;font-weight:700;color:var(--text);margin-bottom:8px;display:flex;align-items:center;gap:8px}
+.papers-year-label .badge{font-size:11px;font-weight:600;color:var(--text-tertiary);background:var(--surface-alt);padding:2px 8px;border-radius:999px}
+.papers-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:10px}
+.paper-card{background:var(--surface);border:1px solid var(--border-light);border-radius:var(--radius);padding:12px 14px;cursor:pointer;transition:var(--transition);display:flex;flex-direction:column;gap:4px}
+.paper-card:hover{border-color:var(--accent);transform:translateY(-1px);box-shadow:var(--shadow)}
+.paper-card .pc-title{font-size:13.5px;font-weight:700;color:var(--text);line-height:1.4}
+.paper-card .pc-meta{font-size:11.5px;color:var(--text-tertiary);display:flex;justify-content:space-between;align-items:center}
+.paper-card .pc-meta .arrow{color:var(--accent);font-weight:700}
+/* 科目卡片補強 */
+.subject-flag{display:inline-flex;align-items:center;gap:4px;font-size:10.5px;font-weight:600;padding:3px 8px;border-radius:999px;margin-right:6px;letter-spacing:0.2px}
+.subject-flag.special{background:#FFF7E0;color:#A66B00;border:1px solid #FCD888}
+.subject-flag.audio{background:#E8F1FB;color:#1B5BA8;border:1px solid #BBD4F2}
+.subject-flag.coming{background:#F3F4F6;color:#6B7280;border:1px solid #D9DCE0}
+.exam-card .meta-q{font-weight:700;color:var(--text)}
+.exam-card .meta-q.empty{color:var(--text-tertiary);font-weight:400}
 .tabs{display:flex;gap:2px;border-bottom:1px solid var(--border);margin-bottom:26px;overflow-x:auto;scrollbar-width:none}
 .tabs::-webkit-scrollbar{display:none}
 .tab{padding:12px 16px;font-size:14px;font-weight:600;color:var(--text-secondary);transition:var(--transition);border-bottom:2px solid transparent;margin-bottom:-1px;white-space:nowrap}
@@ -1077,8 +1132,11 @@ html:not(.auth-ready) [data-when]{display:none}
         <a href="#/me" data-nav="me" data-when="logged-in">我的學習</a>
         <a href="#/catalog" data-nav="catalog" data-when="logged-in">考試專區</a>
         <a href="#/review" data-nav="review" data-when="logged-in">重點複習</a>
-        <a href="#" class="header-cta" data-nav="_cta" data-when="logged-in" onclick="resumeLastQuiz(event)">繼續練習</a>
       </nav>
+      <!-- 主 CTA：mobile 也保留可見（不被漢堡吃掉） -->
+      <a href="#" class="header-cta" data-nav="_cta" data-when="logged-in" onclick="resumeLastQuiz(event)">
+        <span class="cta-long">繼續練習</span><span class="cta-short">繼續</span>
+      </a>
       <div class="auth-area" id="auth-area">
         <button class="login-btn" id="login-btn" onclick="openLoginModal()">登入 / 註冊</button>
         <div class="user-pill-wrap" id="user-pill-wrap" style="display:none">
@@ -5519,6 +5577,29 @@ function pushRecentViewed(examId) {
 }
 
 // ===== EXAM DETAIL =====
+// 已知考試的下次考期（年年固定的考試）。沒登入也能顯示倒數。
+// 註：使用者若有設定 target.examDate 且 examId 對得上，會優先使用 user 的日期。
+const KNOWN_EXAM_DATES = {
+  cap: '2026-05-16'   // 國中教育會考 2026 年 5/16-17
+};
+function getExamCountdown(examId) {
+  // 1) 優先使用使用者自設目標
+  try {
+    const t = (typeof loadTargetExam === 'function') ? loadTargetExam() : null;
+    if (t && t.examId === examId && t.examDate) {
+      const d = daysBetween(t.examDate);
+      if (d !== null && d >= 0) return { days: d, date: t.examDate, source: 'user' };
+    }
+  } catch(e) {}
+  // 2) fallback：站方已知考期
+  const k = KNOWN_EXAM_DATES[examId];
+  if (k) {
+    const d = daysBetween(k);
+    if (d !== null && d >= 0) return { days: d, date: k, source: 'known' };
+  }
+  return null;
+}
+
 async function renderExam(id){
   const exam = exams.find(e => e.id === id);
   if(!exam){ nav('catalog'); return; }
@@ -5531,18 +5612,24 @@ async function renderExam(id){
   const _dbCount = exam.dbQuestionCount;
   const _plannedCount = (exam.chapters||[]).reduce((s,c)=>s+(c.count||0),0) || (exam.totalQuestions||0);
   const totalQs = (_dbCount !== undefined) ? _dbCount : _plannedCount;
+
+  // 三大 KPI 設計：題目數 / 歷屆試卷 / 考試倒數（不再放「章節數」「考試形式」）
+  const cd = getExamCountdown(id);
+  const countdownCell = cd
+    ? `<div class="eh-stat"><div class="eh-stat-num ${cd.days <= 30 ? 'warn' : ''}">${cd.days}</div><div class="eh-stat-label">距下次考試</div><div class="eh-stat-sub">${cd.date.replace(/-/g,'/')}</div></div>`
+    : `<div class="eh-stat"><div class="eh-stat-num tiny">${exam.examFormat || '—'}</div><div class="eh-stat-label">考試形式</div></div>`;
+
   document.getElementById('exam-hero').innerHTML =
     `<span class="exam-category">${cat?cat.name:''}</span>
      <h1>${exam.name}</h1>
-     <div class="sub">${exam.desc||''}${exam.issuer?`<br><small style="color:var(--text-tertiary)">認證單位：${exam.issuer}</small>`:''}</div>
+     <div class="sub">${exam.desc||''}${exam.issuer?`　<small style="color:var(--text-tertiary)">・主辦：${exam.issuer}${exam.examFormat?`・${exam.examFormat}`:''}</small>`:''}</div>
      ${exam.available?`<div class="exam-hero-stats">
        <div class="eh-stat"><div class="eh-stat-num" id="eh-stat-total">${totalQs}</div><div class="eh-stat-label" id="eh-stat-total-label">題目數</div></div>
-       <div class="eh-stat"><div class="eh-stat-num">${(exam.chapters||[]).length}</div><div class="eh-stat-label">章節數</div></div>
-       ${exam.durationHours?`<div class="eh-stat"><div class="eh-stat-num">${exam.durationHours}h</div><div class="eh-stat-label">訓練時數</div></div>`:''}
-       <div class="eh-stat"><div class="eh-stat-num" style="font-size:13px;padding-top:4px">${exam.examFormat||'—'}</div><div class="eh-stat-label">考試形式</div></div>
+       <div class="eh-stat"><div class="eh-stat-num" id="eh-stat-papers">—</div><div class="eh-stat-label">歷屆試卷</div></div>
+       ${countdownCell}
      </div>`:''}`;
 
-  // 異步補上題庫來源細節（歷屆 / 社群）
+  // 異步補上題庫來源細節（歷屆 / 社群）+ 各科題數
   if (exam.available) {
     (async () => {
       try {
@@ -5553,15 +5640,28 @@ async function renderExam(id){
         const com = qs.filter(q => q.source === 'community').length;
         const numEl = document.getElementById('eh-stat-total');
         const labEl = document.getElementById('eh-stat-total-label');
-        if (!numEl || !labEl) return;
-        numEl.textContent = qs.length;
-        const parts = [];
-        if (off) parts.push(`${off} 歷屆`);
-        if (com) parts.push(`${com} 社群`);
-        if (parts.length > 1) {
-          labEl.innerHTML = `題目數 <span style="color:var(--text-tertiary);font-size:11px">(${parts.join(' / ')})</span>`;
+        if (numEl && labEl) {
+          numEl.textContent = qs.length;
+          const parts = [];
+          if (off) parts.push(`${off} 歷屆`);
+          if (com) parts.push(`${com} 社群`);
+          if (parts.length > 1) {
+            labEl.innerHTML = `題目數 <span style="color:var(--text-tertiary);font-size:11px">(${parts.join(' / ')})</span>`;
+          }
         }
-      } catch(e) {}
+        // 各科目題數聚合 → 寫進每張 subject card
+        const bySubj = {};
+        qs.forEach(q => { if (q.subject_id) bySubj[q.subject_id] = (bySubj[q.subject_id]||0) + 1; });
+        document.querySelectorAll('[data-subj-q]').forEach(el => {
+          const sid = el.getAttribute('data-subj-q');
+          const n = bySubj[sid] || 0;
+          if (n > 0) {
+            el.innerHTML = `<span class="meta-q">${n}</span> 題`;
+          } else {
+            el.innerHTML = `<span class="meta-q empty">尚未上線</span>`;
+          }
+        });
+      } catch(e) { console.warn('[hero/subject question count]', e); }
     })();
   }
 
@@ -5575,20 +5675,150 @@ async function renderExam(id){
   body.innerHTML =
     `<div style="padding:40px 0;text-align:center;color:var(--text-tertiary);font-size:13px">載入考試結構…</div>`;
 
-  // 平行載入 exam_subjects + news
-  const [es, news] = await Promise.all([
+  // 平行載入 exam_subjects + news + papers
+  const [es, news, papers] = await Promise.all([
     cloud.loadExamSubjects(id).catch(e => { console.warn('[exam_subjects load]', e); return []; }),
-    cloud.loadExamNews(id).catch(e => { console.warn('[exam_news load]', e); return []; })
+    cloud.loadExamNews(id).catch(e => { console.warn('[exam_news load]', e); return []; }),
+    exam.available ? cloud.loadExamPapers(id).catch(e => { console.warn('[exam_papers load]', e); return []; }) : Promise.resolve([])
   ]);
 
+  // 更新 hero「歷屆試卷」KPI
+  const papersEl = document.getElementById('eh-stat-papers');
+  if (papersEl) papersEl.textContent = papers.length || '—';
+
   state.currentExamSubjects = es || [];
+  state.currentExamPapers = papers || [];
   const tracks = Array.from(new Set((es||[]).map(r => r.track_name))).filter(t => t !== null);
   const isSingleNoTrack = es && es.length === 1 && es[0].track_name === null;
   const hasMultiSubject = es && es.length > 0 && !isSingleNoTrack;
   state.currentTrack = tracks.length ? tracks[0] : null;
   if (isSingleNoTrack) state.currentSubjectId = es[0].subject_id;
 
-  body.innerHTML = _examPageSections(exam, es, news, { isSingleNoTrack, hasMultiSubject, tracks });
+  body.innerHTML = _examPageSections(exam, es, news, { isSingleNoTrack, hasMultiSubject, tracks, papers });
+
+  // 進度儀表板（async，不阻塞首屏）
+  if (exam.available) _hydrateExamProgress(id, exam, es);
+}
+
+// 載入並填入「我的進度」+ 弱章節 — 對應 P1 主 CTA + 進度儀表板
+async function _hydrateExamProgress(examId, exam, es) {
+  const host = document.getElementById('exam-progress-host');
+  const ctaHost = document.getElementById('exam-cta-host');
+  if (!host && !ctaHost) return;
+
+  // 未登入：CTA = 立即開始；進度卡 = 鼓勵登入
+  if (!currentUser) {
+    if (host) host.innerHTML = '';  // 未登入不顯示進度卡（CTA 已含意圖）
+    if (ctaHost) ctaHost.innerHTML = `
+      <div class="exam-cta-bar">
+        <div class="cta-text">準備好了嗎？立即抽 10 題試試手感
+          <small>登入後可追蹤答對率、自動找弱點章節</small>
+        </div>
+        <button class="cta-btn" onclick="startQuizFromExam('random')">立即開始 10 題 →</button>
+        <button class="cta-btn-secondary" onclick="openLoginModal()">登入追蹤進度</button>
+      </div>`;
+    return;
+  }
+
+  // 已登入：抓 exam_progress + chapter_progress
+  const uid = currentUser.id;
+  let totalAttempts = 0, totalCorrect = 0, lastPracticed = null;
+  let weakRows = [];
+  try {
+    const [epR, cpR] = await Promise.all([
+      fetch(`${SUPA_URL}/rest/v1/exam_progress?user_id=eq.${uid}&exam_id=eq.${examId}&select=total_attempts,correct_attempts,last_practiced_at`,
+        { headers: { apikey: SUPA_KEY, Authorization: 'Bearer ' + SUPA_KEY } }).then(r => r.json()).catch(() => []),
+      fetch(`${SUPA_URL}/rest/v1/chapter_progress?user_id=eq.${uid}&exam_id=eq.${examId}&select=chapter_id,total_attempts,correct_attempts`,
+        { headers: { apikey: SUPA_KEY, Authorization: 'Bearer ' + SUPA_KEY } }).then(r => r.json()).catch(() => [])
+    ]);
+    if (Array.isArray(epR) && epR[0]) {
+      totalAttempts = epR[0].total_attempts || 0;
+      totalCorrect = epR[0].correct_attempts || 0;
+      lastPracticed = epR[0].last_practiced_at || null;
+    }
+    weakRows = (Array.isArray(cpR) ? cpR : [])
+      .filter(r => (r.total_attempts || 0) >= 3)
+      .map(r => ({
+        id: r.chapter_id,
+        pct: Math.round((r.correct_attempts / r.total_attempts) * 100)
+      }))
+      .sort((a, b) => a.pct - b.pct)
+      .slice(0, 3);
+  } catch (e) { console.warn('[hydrate progress]', e); }
+
+  const totalQs = exam.dbQuestionCount || (exam.chapters||[]).reduce((s,c)=>s+(c.count||0),0) || 0;
+  const correctRate = totalAttempts > 0 ? Math.round(totalCorrect / totalAttempts * 100) : null;
+  const completionPct = totalQs > 0 ? Math.min(100, Math.round(totalAttempts / totalQs * 100)) : null;
+
+  // CTA：依進度 + 弱點 決定文字
+  if (ctaHost) {
+    let ctaText, ctaLabel, ctaMode;
+    if (totalAttempts === 0) {
+      ctaText = '還沒開始？先抽 10 題暖身';
+      ctaLabel = '立即開始 10 題';
+      ctaMode = 'random';
+    } else if (weakRows.length) {
+      ctaText = `已練 <b>${totalAttempts}</b> 題，答對率 <b>${correctRate}%</b>`;
+      ctaLabel = `加強弱點章節 →`;
+      ctaMode = 'weak';
+    } else {
+      ctaText = `已練 <b>${totalAttempts}</b> 題，答對率 <b>${correctRate}%</b>`;
+      ctaLabel = `繼續練習 10 題`;
+      ctaMode = 'random';
+    }
+    const lastDate = lastPracticed ? new Date(lastPracticed).toLocaleDateString('zh-TW') : null;
+    ctaHost.innerHTML = `
+      <div class="exam-cta-bar">
+        <div class="cta-text">${ctaText}
+          ${lastDate ? `<small>最近練習：${lastDate}</small>` : `<small>準備好就出發吧</small>`}
+        </div>
+        <button class="cta-btn" onclick="startQuizFromExam('${ctaMode}')">${ctaLabel}</button>
+      </div>`;
+  }
+
+  // 進度儀表板（已登入才有）
+  if (host) {
+    const lastDate = lastPracticed ? new Date(lastPracticed).toLocaleDateString('zh-TW') : null;
+    host.innerHTML = `
+      <div class="exam-progress">
+        <div class="exam-progress-card">
+          <h3>📊 我的進度</h3>
+          ${totalAttempts > 0 ? `
+            <div class="exam-progress-nums">
+              <span class="big">${totalAttempts}</span>
+              <span class="small">${totalQs ? '/ ' + totalQs : ''} 題</span>
+              ${correctRate !== null ? `<span class="chip">答對率 ${correctRate}%</span>` : ''}
+            </div>
+            ${completionPct !== null ? `<div class="exam-progress-track"><div class="exam-progress-bar" style="width:${completionPct}%"></div></div>` : ''}
+            <div class="exam-progress-meta">
+              累計答對 <b>${totalCorrect}</b> 題${lastDate ? `・最近練習：${lastDate}` : ''}
+            </div>
+          ` : `
+            <div class="exam-progress-empty">
+              還沒開始這門考試。先抽 10 題試試手感，每章累積 3 題後就會出現弱點排行。<br>
+              <a onclick="startQuizFromExam('random')">立即開始 →</a>
+            </div>
+          `}
+        </div>
+        <div class="exam-progress-card">
+          <h3>🎯 弱點章節</h3>
+          ${weakRows.length ? `
+            <div class="exam-weak-list">
+              ${weakRows.map(w => {
+                const chNum = (w.id || '').split('-ch').pop() || '?';
+                return `<div class="exam-weak-row"><span class="name">第 ${chNum} 章</span><span class="pct">${w.pct}%</span></div>`;
+              }).join('')}
+            </div>
+            <div class="exam-progress-meta" style="margin-top:10px"><a onclick="startQuizFromExam('weak')" style="color:var(--accent);font-weight:600;cursor:pointer">針對弱點練習 →</a></div>
+          ` : `
+            <div class="exam-progress-empty">
+              每章累積 <b>3 題</b>以上就會出現需要加強的章節。
+              ${totalAttempts > 0 ? `已練 ${totalAttempts} 題，繼續加油！` : ''}
+            </div>
+          `}
+        </div>
+      </div>`;
+  }
 }
 
 // 依目前 state 重繪 exam-body（track 切換時使用）
@@ -5596,6 +5826,7 @@ function _rerenderExamBody() {
   const exam = exams.find(e => e.id === state.currentExamId);
   if (!exam) return;
   const es = state.currentExamSubjects || [];
+  const papers = state.currentExamPapers || [];
   const tracks = Array.from(new Set(es.map(r => r.track_name))).filter(t => t !== null);
   const isSingleNoTrack = es.length === 1 && es[0].track_name === null;
   const hasMultiSubject = es.length > 0 && !isSingleNoTrack;
@@ -5605,7 +5836,20 @@ function _rerenderExamBody() {
   if (!body) return;
   // 保留已渲染的 news DOM：只重繪 subject/quick 區塊 — 但為簡化 Phase 2，直接整頁重繪（news 來自 cache，不會多打 API）
   cloud.loadExamNews(state.currentExamId).then(news => {
-    body.innerHTML = _examPageSections(exam, es, news || [], { isSingleNoTrack, hasMultiSubject, tracks });
+    body.innerHTML = _examPageSections(exam, es, news || [], { isSingleNoTrack, hasMultiSubject, tracks, papers });
+    // 重繪後 hosts 是空的 → 重新 hydrate
+    if (exam.available) _hydrateExamProgress(exam.id, exam, es);
+    // 同時重觸 subject question count 注入（loadQuestions 是 cache 的，便宜）
+    cloud.loadQuestions(exam.id).then(qs => {
+      if (!qs || !qs.length) return;
+      const bySubj = {};
+      qs.forEach(q => { if (q.subject_id) bySubj[q.subject_id] = (bySubj[q.subject_id]||0) + 1; });
+      document.querySelectorAll('[data-subj-q]').forEach(el => {
+        const sid = el.getAttribute('data-subj-q');
+        const n = bySubj[sid] || 0;
+        el.innerHTML = n > 0 ? `<span class="meta-q">${n}</span> 題` : `<span class="meta-q empty">尚未上線</span>`;
+      });
+    }).catch(()=>{});
   });
 }
 
@@ -5744,9 +5988,27 @@ function pickSubjectAndStart(subjectId) {
   startSubjectQuiz(mode);
 }
 
-// 組頁：科目區 + 快速入口 + 考情 + 連結
+// 判斷科目卡是否需要特別標籤（如：寫作只有一題作文、英聽需音檔）
+function _subjectFlags(row) {
+  const sid = row.subject_id || '';
+  const name = (row.subject || {}).name || '';
+  if (sid.endsWith('-writing') || /寫作/.test(name)) {
+    return '<span class="subject-flag special">📝 一題作文・無模考</span>';
+  }
+  if (sid.endsWith('-listening') || /聽力/.test(name) || /英聽/.test(name)) {
+    return '<span class="subject-flag audio">🎧 需音檔</span>';
+  }
+  return '';
+}
+
+// 組頁：CTA + 進度 + 科目區 + 歷屆試卷 + 快速入口 + 考情 + 連結
 function _examPageSections(exam, es, news, flags) {
-  const { isSingleNoTrack, hasMultiSubject, tracks } = flags;
+  const { isSingleNoTrack, hasMultiSubject, tracks, papers } = flags;
+
+  // 主 CTA + 進度 host（內容由 _hydrateExamProgress 填）
+  const heroBlock = exam.available
+    ? `<div id="exam-cta-host"></div><div id="exam-progress-host"></div>`
+    : '';
 
   // 科目區塊
   let subjectSection;
@@ -5803,20 +6065,30 @@ function _examPageSections(exam, es, news, flags) {
       const s = row.subject || {};
       const isCommon = row.track_name === null;
       // 只有真的有多類科時才顯示 共同/專業 badge
-      const badge = hasTracks
+      const trackBadge = hasTracks
         ? (isCommon
             ? '<span class="subj-badge common">共同</span>'
             : '<span class="subj-badge pro">專業</span>')
         : '';
       const name = s.name || row.subject_id;
-      const desc = (s.description || '').replace(/"/g,'&quot;');
+      // description 若幾乎等於科目名（如「國中教育會考國文」對「會考國文」）→ 不顯示
+      // 衡量：去除常見前綴後若仍包含 name 或 name 包含 desc → 視為重複
+      const rawDesc = (s.description || '').replace(/"/g,'&quot;');
+      const stripped = rawDesc.replace(/^國中教育/,'').replace(/^國中/,'').replace(/^考試/,'');
+      const isDupDesc = !rawDesc
+        || rawDesc === name
+        || name.includes(stripped)
+        || stripped.includes(name);
+      const desc = isDupDesc ? '' : rawDesc;
+      const flag = _subjectFlags(row);
       return `
         <div class="exam-card available" onclick="navToSubject('${row.subject_id}')" style="cursor:pointer">
-          ${badge}
+          ${trackBadge}
           <div class="exam-name" style="margin-top:4px">${name}</div>
-          <div class="exam-desc" style="min-height:auto">${desc || '點擊進入科目學習 →'}</div>
-          <div class="exam-meta" style="margin-top:8px">
-            <span>📖 章節 / 題庫</span>
+          ${flag ? `<div style="margin-top:4px">${flag}</div>` : ''}
+          ${desc ? `<div class="exam-desc" style="min-height:auto;margin-top:4px">${desc}</div>` : ''}
+          <div class="exam-meta" style="margin-top:auto;padding-top:10px">
+            <span data-subj-q="${row.subject_id}" style="color:var(--text-tertiary)">📖 載入題數中…</span>
             <span style="margin-left:auto;color:var(--accent);font-weight:600">進入 →</span>
           </div>
         </div>`;
@@ -5833,6 +6105,48 @@ function _examPageSections(exam, es, news, flags) {
         <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:14px">
           ${subjectCards}
         </div>
+      </div>`;
+  }
+
+  // 歷屆試卷區塊（按年份）— 只在有 papers 時顯示
+  let papersSection = '';
+  if (papers && papers.length) {
+    // 按 roc_year 分組
+    const byYear = {};
+    papers.forEach(p => {
+      const y = p.roc_year || '其他';
+      (byYear[y] = byYear[y] || []).push(p);
+    });
+    // 排序：有年份的 desc，「其他」放最後
+    const yearKeys = Object.keys(byYear).sort((a, b) => {
+      if (a === '其他') return 1;
+      if (b === '其他') return -1;
+      return Number(b) - Number(a);
+    });
+    const yearBlocks = yearKeys.map(yk => {
+      const ps = byYear[yk];
+      const yearLabel = yk === '其他' ? '其他' : `民國 ${yk} 年（西元 ${Number(yk) + 1911}）`;
+      const cards = ps.map(p => `
+        <div class="paper-card" onclick="startQuizByPaper('${p.id}','${exam.id}')">
+          <div class="pc-title">${p.paper_title || '試卷'}</div>
+          <div class="pc-meta">
+            <span>${p.question_count || 0} 題</span>
+            <span class="arrow">開始 →</span>
+          </div>
+        </div>`).join('');
+      return `
+        <div class="papers-year">
+          <div class="papers-year-label">${yearLabel}<span class="badge">${ps.length} 份</span></div>
+          <div class="papers-grid">${cards}</div>
+        </div>`;
+    }).join('');
+    papersSection = `
+      <div class="panel">
+        <h2>📜 歷屆試卷</h2>
+        <div style="font-size:13px;color:var(--text-secondary);line-height:1.7;margin-bottom:14px">
+          按年度直接挑一份卷子練習，每份卷會抽 10 題進行隨機練習。
+        </div>
+        ${yearBlocks}
       </div>`;
   }
 
@@ -5912,25 +6226,19 @@ function _examPageSections(exam, es, news, flags) {
       </div>`;
   }
 
-  // 考試簡介
-  const examIntro = `
-    <div class="panel">
-      <h2>📋 考試簡介</h2>
-      <p style="font-size:14.5px;color:var(--text-secondary);line-height:1.8">${exam.desc || ''}</p>
-      ${exam.issuer ? `<p style="font-size:13px;color:var(--text-tertiary);margin-top:10px">發證單位：${exam.issuer}${exam.examFormat?` · ${exam.examFormat}`:''}${exam.durationHours?` · 訓練時數 ${exam.durationHours} 小時`:''}</p>` : ''}
-    </div>`;
-
-  // 資源連結
+  // 資源連結（順序：題庫 → 官網 → 報名，貼近 user 心流）
   const lk = exam.links || {};
   const linksArr = [];
+  if (lk.bank)     linksArr.push(`<a href="${lk.bank}" target="_blank" rel="noopener" style="padding:10px 16px;border-radius:8px;border:1px solid var(--border);font-size:13px;color:var(--accent);background:var(--accent-light);text-decoration:none">📚 官方題庫 ↗</a>`);
   if (lk.official) linksArr.push(`<a href="${lk.official}" target="_blank" rel="noopener" style="padding:10px 16px;border-radius:8px;border:1px solid var(--border);font-size:13px;color:var(--text);background:var(--surface);text-decoration:none">🏛 官方網站 ↗</a>`);
   if (lk.reg)      linksArr.push(`<a href="${lk.reg}" target="_blank" rel="noopener" style="padding:10px 16px;border-radius:8px;border:1px solid var(--border);font-size:13px;color:var(--text);background:var(--surface);text-decoration:none">📝 線上報名 ↗</a>`);
-  if (lk.bank)     linksArr.push(`<a href="${lk.bank}" target="_blank" rel="noopener" style="padding:10px 16px;border-radius:8px;border:1px solid var(--border);font-size:13px;color:var(--accent);background:var(--accent-light);text-decoration:none">📚 官方題庫 ↗</a>`);
   const linksSection = linksArr.length
     ? `<div class="panel"><h2>🔗 官方資源</h2><div style="display:flex;gap:10px;flex-wrap:wrap">${linksArr.join('')}</div></div>`
     : '';
 
-  return examIntro + subjectSection + quickSection + newsSection + linksSection;
+  // 順序：CTA + 進度 → 科目組成 → 歷屆試卷 → 快速入口 → 考情 → 官方資源
+  // （已移除「考試簡介」，因內容與 hero 副標完全重複）
+  return heroBlock + subjectSection + papersSection + quickSection + newsSection + linksSection;
 }
 
 // 在考試詳情頁塞「類科選擇 + 科目卡片」（覆蓋 overview/bank pane）
