@@ -53,8 +53,10 @@ SUBJECT_PDF = {
     "nature": ["{year}P_Nature.pdf"],
     "science": ["{year}P_Nature.pdf"],
     "social": ["{year}P_Society.pdf"],
+    "society": ["{year}P_Society.pdf"],   # qid 實際用 society
     "chinese": ["{year}P_Chinese.pdf"],
     "english-reading": ["{year}P_English.pdf"],
+    "english": ["{year}P_English.pdf"],
 }
 
 SYSTEM_PROMPT = """你是國中會考題組閱讀文本抽取助手。我會給你一張試卷頁面，請抽取**指定題組**的完整閱讀文本（不含子題與選項），輸出 JSON：
