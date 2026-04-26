@@ -209,8 +209,10 @@ def execute_sql(sql: str, token: str) -> Tuple[bool, str]:
 
 
 def update_db(qid: str, stem: str, opts: List[str], token: str) -> Tuple[bool, str]:
-    stem_lit = stem.replace("\\", "\\\\").replace("'", "''").replace("\x00", "")
-    opts_lit = json.dumps(opts, ensure_ascii=False).replace("\\", "\\\\").replace("'", "''").replace("\x00", "")
+    # PG standard_conforming_strings=on：SQL string literal 不需 double backslash
+    # jsonb 內的 backslash 由 json.dumps 處理，這層只要 single-quote escape
+    stem_lit = stem.replace("'", "''").replace("\x00", "")
+    opts_lit = json.dumps(opts, ensure_ascii=False).replace("'", "''").replace("\x00", "")
     sql = (
         f"UPDATE public.questions "
         f"SET question_text = '{stem_lit}', "

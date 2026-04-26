@@ -1964,7 +1964,7 @@ const cloud = (() => {
   }
 
   // ── 題庫載入（含快取，24h TTL） ─────────────────────────
-  const Q_CACHE_PREFIX = 'kaonow_q16_';  // bump 2026-04-26 W1.9.5 phase 3：4 題分數/根號 vision 重抽 LaTeX
+  const Q_CACHE_PREFIX = 'kaonow_q17_';  // bump 2026-04-26 W1.9.5 phase 3 fix：vision 4 題 SQL escape 修（之前存成 \\\\frac，KaTeX 渲染失敗）
   const Q_CACHE_TTL = 24 * 3600 * 1000;
   const qMemCache = {};  // 記憶體快取，避免同一 session 重複打
 
