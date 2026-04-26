@@ -32,6 +32,13 @@ Rambo 負責維護這份文件。若實作與文件有出入，**以實作為準
 
 狀態圖例：✅ 上線 ⏳ 開發中 🚧 持續進行 🟡 待外部審核
 
+## Handoff / Inventory（時點性、不歸某模組）
+
+| 日期 | 文件 | 主題 |
+|---|---|---|
+| 2026-04-24 | [wave1_ingest_inventory_2026-04-24.md](./wave1_ingest_inventory_2026-04-24.md) | Wave 1 _inbox 175k PDFs / 956 exams 全面盤點 |
+| 2026-04-26 | [W1.9_cap_handoff_2026-04-26.md](./W1.9_cap_handoff_2026-04-26.md) | 國中會考 W1.9.1–W1.9.5 完成；KaTeX 數學排版 + vision 分數根號 fix；圖題抽取延後 + 推薦方案 |
+
 ## 寫 / 改這份文件的原則
 
 1. **事實優於意見**：「目前 `correct_answer` 0-indexed」比「我認為 0-indexed 比較好」有用
