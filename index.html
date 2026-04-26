@@ -1960,7 +1960,7 @@ const cloud = (() => {
   }
 
   // ── 題庫載入（含快取，24h TTL） ─────────────────────────
-  const Q_CACHE_PREFIX = 'kaonow_q13_';  // bump 2026-04-26 W1.9.5-fix：loadQuestions 加 paginate（PostgREST 1000-row cap），refreshTier 改 fetch 不卡 supa.from
+  const Q_CACHE_PREFIX = 'kaonow_q14_';  // bump 2026-04-26 W1.9.5-fix v2：refreshTier ReferenceError 修（用 cloud._request 取代 closure 內 request）
   const Q_CACHE_TTL = 24 * 3600 * 1000;
   const qMemCache = {};  // 記憶體快取，避免同一 session 重複打
 
@@ -2650,14 +2650,14 @@ const billing = (() => {
       return { tier: 'free' };
     }
     try {
-      // W1.9.5 fix: 改用 cloud request() 走 fetch，避免 supa.from 卡死導致 tier 永遠 'free'
-      const r1 = await request('profiles?select=current_tier,current_subscription_id,trial_expires_at,trial_questions_used&id=eq.' + currentUser.id);
+      // W1.9.5 fix: 用 cloud._request 走 fetch（refreshTier 在 billing IIFE 內、看不到 cloud 的閉包 request）
+      const r1 = await cloud._request('profiles?select=current_tier,current_subscription_id,trial_expires_at,trial_questions_used&id=eq.' + currentUser.id);
       const prof = (r1.ok && Array.isArray(r1.data) && r1.data[0]) ? r1.data[0] : null;
       const tier = prof?.current_tier || 'free';
       let unlocked_exams = [];
       let current_period_end = null;
       if (prof?.current_subscription_id) {
-        const r2 = await request('subscriptions?select=tier,current_period_end,meta,status&id=eq.' + prof.current_subscription_id);
+        const r2 = await cloud._request('subscriptions?select=tier,current_period_end,meta,status&id=eq.' + prof.current_subscription_id);
         const sub = (r2.ok && Array.isArray(r2.data) && r2.data[0]) ? r2.data[0] : null;
         if (sub && sub.status === 'active') {
           current_period_end = sub.current_period_end;
