@@ -106,8 +106,9 @@ def render_page(pdf: Path, page_idx: int, out_dir: Path) -> Optional[Path]:
 
 
 def call_vision(api_key: str, image_b64: str, qnum: int, year: int) -> Tuple[bool, dict, str]:
+    """改用 curl 送 request，繞過 Python urllib 對 header / payload 的 latin-1 編碼雷。"""
     user_text = f"請抽取 {year} 年國中會考數學試題第 {qnum} 題。"
-    payload = json.dumps({
+    body = json.dumps({
         "model": MODEL_HAIKU,
         "max_tokens": 1500,
         "system": SYSTEM_PROMPT,
@@ -119,33 +120,56 @@ def call_vision(api_key: str, image_b64: str, qnum: int, year: int) -> Tuple[boo
                 {"type": "text", "text": user_text},
             ],
         }],
-    }).encode("utf-8")
-    req = urllib.request.Request(
-        ANTHROPIC_API_URL, data=payload,
-        headers={
-            "x-api-key": api_key,
-            "anthropic-version": ANTHROPIC_VERSION,
-            "content-type": "application/json",
-            "User-Agent": "kaonow-math-vision/0.1",
-        },
-        method="POST",
-    )
-    backoff = 1.0
-    for attempt in range(4):
-        try:
-            with urllib.request.urlopen(req, timeout=90) as r:
-                resp = json.loads(r.read().decode("utf-8"))
+    })
+    # 寫進 tmp 檔避免 cmd line 太長
+    import tempfile
+    with tempfile.NamedTemporaryFile(mode="w", suffix=".json", delete=False, encoding="utf-8") as f:
+        f.write(body)
+        body_file = f.name
+    try:
+        for attempt in range(4):
+            try:
+                cp = subprocess.run(
+                    [
+                        "curl", "-sS", "-X", "POST", ANTHROPIC_API_URL,
+                        "-H", f"x-api-key: {api_key}",
+                        "-H", f"anthropic-version: {ANTHROPIC_VERSION}",
+                        "-H", "content-type: application/json",
+                        "--data-binary", f"@{body_file}",
+                        "--max-time", "90",
+                        "-w", "\n%{http_code}",
+                    ],
+                    capture_output=True, text=True, timeout=120,
+                )
+                stdout = cp.stdout
+                # 最後一行是 http_code（因為 -w 加在 stdout 末尾）
+                lines = stdout.rsplit("\n", 1)
+                if len(lines) == 2:
+                    body_resp, code_str = lines
+                    try:
+                        code = int(code_str.strip())
+                    except ValueError:
+                        code = 0
+                else:
+                    body_resp, code = stdout, 0
+                if code != 200:
+                    err = f"HTTP {code}: {body_resp[:300]}"
+                    if code in (429, 500, 502, 503, 504) and attempt < 3:
+                        time.sleep(1 << attempt); continue
+                    return False, {}, err
+                resp = json.loads(body_resp)
                 txts = [c.get("text", "") for c in resp.get("content", []) if c.get("type") == "text"]
                 return True, {"raw": "".join(txts).strip(), "usage": resp.get("usage", {})}, ""
-        except urllib.error.HTTPError as e:
-            err = f"HTTP {e.code}: {e.read().decode('utf-8', errors='replace')[:200]}"
-            if e.code in (429, 500, 502, 503, 504) and attempt < 3:
-                time.sleep(backoff); backoff *= 2; continue
-            return False, {}, err
-        except Exception as e:
-            if attempt < 3:
-                time.sleep(backoff); backoff *= 2; continue
-            return False, {}, str(e)
+            except Exception as e:
+                if attempt < 3:
+                    time.sleep(1 << attempt); continue
+                return False, {}, str(e)
+        return False, {}, "exhausted retries"
+    finally:
+        try:
+            os.unlink(body_file)
+        except Exception:
+            pass
 
 
 def parse_json(raw: str) -> Optional[dict]:
@@ -205,12 +229,18 @@ def main():
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
 
-    api_key = os.environ.get("ANTHROPIC_API_KEY", "")
-    sb_token = os.environ.get("SUPABASE_ACCESS_TOKEN", "")
+    api_key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
+    sb_token = os.environ.get("SUPABASE_ACCESS_TOKEN", "").strip()
     if not api_key:
         sys.exit("ERROR: 缺 ANTHROPIC_API_KEY")
     if not args.dry_run and not sb_token:
         sys.exit("ERROR: 缺 SUPABASE_ACCESS_TOKEN")
+    # sanity print（不洩 key 內容）
+    print(f"[env] ANTHROPIC_API_KEY len={len(api_key)} prefix={api_key[:10]}…")
+    if not api_key.startswith("sk-ant-"):
+        print(f"[env] WARN: API key 不是 sk-ant- 開頭，可能複製錯")
+    if len(api_key) < 80:
+        print(f"[env] WARN: API key 長度只有 {len(api_key)}，正常 sk-ant- key 應該 100+ 字元")
 
     ids = [s.strip() for s in args.ids.split(",") if s.strip()]
     re_id = re.compile(r"^cap-(\d+)-math-(\d+)$")
