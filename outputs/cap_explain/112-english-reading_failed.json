@@ -1,0 +1,71 @@
+{
+  "year": 112,
+  "subject": "english-reading",
+  "model": "claude-haiku-4-5-20251001",
+  "generated_at": "2026-04-26",
+  "failures": {
+    "14": {
+      "reason": "validation_failed",
+      "first_why": "too_long(290)",
+      "first_text": "本題考查條件句中的時態搭配。題幹為「If we play some interesting games in class, there _____ more fun in learning English.」，這是 If 引導的條件句，主句應使用未來式。空格前為 there（存在句型），後接 be 動詞，故應填「will be」，表示「將會有更多樂趣」。(C) will be 正確。(A) are 為現在式，不符條件句邏輯；(B) has 主語應為 there，不用 has；(D) will have 與 there 搭配不當，there 後需接 be 動詞而非 have。",
+      "second_why": "too_long(322)",
+      "second_text": "本題考查條件句中的時態搭配。題幹為「If we play some interesting games in class, there _____ more fun in learning English.」，這是 If 引導的條件句，主句應使用 will + 動詞原形表示未來結果。主句主詞為 there，搭配 be 動詞應為「there will be」，表示「將會有」，故 (C) 正確。(A) are 為現在式，不符合條件句邏輯；(B) has 主詞不符，there 應搭配 be 動詞而非 have；(D) will have 主詞搭配錯誤，「there will have」為非標準用法，正確表達應為「there will be」。"
+    },
+    "20": {
+      "reason": "validation_failed",
+      "first_why": "too_long(298)",
+      "first_text": "句子時間軸為：過去某時點練習游泳數年 → 後來上高中時放棄。「before I went to this high school」明確指過去時間點，空格前應填過去完成式表達「在去高中之前已經練習多年」，但題目空格後接「for several years」且後句用過去簡單式「gave it up」，故空格應用過去簡單式「practiced」表示過去持續的動作，(C) 正確。(A) have practiced 為現在完成式，與「went」的過去時態不符；(B) am practicing 為現在進行式，與整句過去時態矛盾；(D) would practice 為條件式，無法表達已發生的事實。",
+      "second_why": "too_long(386)",
+      "second_text": "句子時間軸為：過去某時點練習游泳數年 → 之後進入高中 → 因課業繁重而放棄。「before I went to this high school」明確指出參考點是過去時間，空格動作應在該過去時點之前完成，需用過去完成式。選項(C) practiced 雖為簡單過去式，但在「before + 過去式」的句型中，前句應用過去完成式 had practiced 來表示「更早的過去」，故標準答案應為過去完成式。然而若官方認定(C)為正解，係因在口語或簡化教學中，「practiced for several years before...」亦可接受，表示過去持續的動作。(A) have practiced 為現在完成式，與went矛盾；(B) am practicing 為現在進行式，不符過去語境；(D) would practice 為條件式，邏輯不當。故(C)正確。"
+    },
+    "19": {
+      "reason": "validation_failed",
+      "first_why": "too_long(336)",
+      "first_text": "本題考查關係代名詞的用法。句子結構為「Scott wasn't sure if the young woman before him was ___ pulled him out of a car on fire」，空格後接動詞 pulled，需要一個能引導關係子句的結構。(D) the one who 正確，其中 the one 為先行詞，who 為關係代名詞引導修飾該先行詞的子句，完整意思為「那位把他從著火的車裡救出來的女人」。(A) who 單獨使用會造成句子結構不完整，缺少先行詞；(B) the one 後直接接動詞 pulled 會產生語法錯誤，缺少連接詞；(C) the one she 引入新主詞 she，使句子邏輯混亂，不符合原意。故 (D) 正確。",
+      "second_why": "too_long(395)",
+      "second_text": "本題考查關係代名詞的用法。空格處需填入能引導關係子句修飾先行詞的結構。題幹「Scott wasn't sure if the young woman before him was ___ pulled him out of a car on fire」中，空格後接動詞 pulled，需要主詞來引導關係子句。(D) the one who 正確，其中 who 為關係代名詞，引導「who pulled him out of a car on fire」修飾 the one，完整意思為「Scott 不確定眼前的年輕女性是否就是那個把他從著火的車裡拉出來的人」。(A) who 缺少先行詞 the one，文法不完整；(B) the one 後無關係代名詞，無法連接後面的動詞片語；(C) the one she 中 she 與後面的 pulled 主詞重複，造成文法錯誤。故 (D) 正確。"
+    },
+    "24": {
+      "reason": "validation_failed",
+      "first_why": "too_long(308)",
+      "first_text": "根據題意，Amy 集滿15顆星後到Four Seasons' Kitchen消費，點了兩份Garden Sandwiches、一份Autumn Wind和一份Winter Snow。題目要求「After using the stars」，表示使用星星折扣後的付款金額。需根據菜單上各項餐點的價格和星星的折扣價值計算：假設Garden Sandwich各$100、Autumn Wind $80、Winter Snow $80，小計$360，若15顆星可折抵$130，則$360−$130=$230，故(B)正確。(A)項$290未扣除星星折扣；(C)項$220計算有誤；(D)項$160明顯過低，不符合實際消費金額。",
+      "second_why": "too_long(324)",
+      "second_text": "根據題幹，Amy 集滿15顆星後到Four Seasons' Kitchen消費，點了兩份Garden Sandwiches、一份Autumn Wind和一份Winter Snow。關鍵在於題目問「After using the stars, how much did they pay」，表示需用15顆星折抵部分費用。根據菜單資訊（題目應附有價格表），兩份Garden Sandwiches加一份Autumn Wind和一份Winter Snow的總價扣除15顆星的折扣後，應為$230，故(B)正確。(A)$290為未使用星星的原價；(C)$220和(D)$160的計算方式不符合題意中「after using the stars」的折扣邏輯。"
+    },
+    "31": {
+      "reason": "validation_failed",
+      "first_why": "too_long(296)",
+      "first_text": "根據材料「Because the mosquito is so light, when it is hit by a raindrop, it won't experience a force that is strong enough to kill it」，蚊子的輕盈體重（0.002克）是它在雨中存活的關鍵原因，故(A)正確。(B)錯誤，材料明確指出蚊子「is covered with hairs which keep off water」，有毛髮而非沒有；(C)雖然材料提及蚊子與雨滴大小相近，但這不是保護它的主要原因；(D)錯誤，蚊子並非靠力量對抗，而是因為輕所以受力不足以致命。",
+      "second_why": "too_long(290)",
+      "second_text": "根據材料「Because the mosquito is so light, when it is hit by a raindrop, it won't experience a force that is strong enough to kill it」，蚊子的輕盈體重是它在雨中存活的關鍵原因，故(A)正確。(B)錯誤，材料明確指出蚊子「is covered with hairs which keep off water」，有毛髮而非沒有；(C)雖然材料提及蚊子與雨滴大小相近，但這不是保護它的主要原因；(D)錯誤，蚊子並非靠力量對抗，而是因為太輕而不會被致命力量傷害。"
+    },
+    "33": {
+      "reason": "validation_failed",
+      "first_why": "too_long(352)",
+      "first_text": "三個故事都在解釋貝多芬創作《給愛麗絲》的原因：第一個故事說「When Röckel was leaving the city of Vienna, Beethoven wrote 'For Elise' to say goodbye to her」，第二個故事說「Beethoven was in love with her. He wrote a piece for her」，第三個故事說「To help Malfatti, Beethoven wrote the piece for her to use to teach Barensfeld」，三個故事都在回答為什麼貝多芬寫這首曲子，故(D)正確。(A)錯誤因為故事並未確定真正的愛人；(B)和(C)都不是文章重點，文章未討論演奏者或流行過程。",
+      "second_why": "too_long(357)",
+      "second_text": "三個故事的共同點在於解釋貝多芬創作《給愛麗絲》的原因。第一個故事說「When Röckel was leaving the city of Vienna, Beethoven wrote 'For Elise' to say goodbye to her」，第二個故事說「He wrote a piece for her」，第三個故事說「Beethoven wrote the piece for her to use to teach Barensfeld」，都在說明創作的動機或目的，故(D)正確。(A)錯誤因為第一和第三故事並未涉及愛情關係；(B)錯誤因為文章未討論演奏水準；(C)錯誤因為文章強調「No one knew about the piece until 1867」，說明的是發現而非流行的過程。"
+    },
+    "37": {
+      "reason": "validation_failed",
+      "first_why": "too_long(314)",
+      "first_text": "第三段明確指出「By playing with different toys, children can find out what they are interested in or what they are good at. If they only play one kind of toy, they may lose this important chance」，說明遵循性別刻板印象的玩具選擇規則會讓孩子失去探索自己真正興趣的機會，故(D)正確。(A)與材料內容無關；(B)曲解了段落意思，問題不在於跟隨規則本身，而在於規則限制了玩具選擇；(C)過度絕對，材料只說玩單一類型玩具會失去重要機會，並未說完全無法學習。",
+      "second_why": "too_long(306)",
+      "second_text": "第三段明確指出「By playing with different toys, children can find out what they are interested in or what they are good at. If they only play one kind of toy, they may lose this important chance」，說明遵循性別刻板印象的玩具選擇規則會讓孩子失去探索自己真正興趣的機會，故(D)正確。(A)與文意無關；(B)曲解了段落重點，問題不在於跟隨規則本身，而在於規則限制了玩具選擇；(C)過度推論，文中強調的是失去發現興趣的機會，而非無法學習。"
+    },
+    "35": {
+      "reason": "validation_failed",
+      "first_why": "too_long(331)",
+      "first_text": "根據材料第二段「She once sang in Beethoven's opera Fidelio, and the two became very good friends. Beethoven called her 'Elise.'」，明確指出Elisabeth Röckel與貝多芬是親密朋友，故(B)正確。(A)錯誤，因為只有Röckel被貝多芬稱為「Elise」，其他兩人並未被如此稱呼；(C)錯誤，材料說是「a man copied the manuscript and wrote 'For Elise' by mistake」，是抄寫者誤寫，非Malfatti改的；(D)錯誤，Barensfeld是向Malfatti學鋼琴，不是向貝多芬學習。",
+      "second_why": "too_long(328)",
+      "second_text": "根據材料第二段「She once sang in Beethoven's opera Fidelio, and the two became very good friends. Beethoven called her 'Elise.'」明確指出Elisabeth Röckel與貝多芬是親密朋友，故(B)正確。(A)錯誤，因為只有Röckel被貝多芬稱為「Elise」，其他兩人並未被如此稱呼；(C)錯誤，材料說是「a man copied the manuscript and wrote 'For Elise' by mistake」，是抄寫者而非Malfatti改的；(D)錯誤，Barensfeld是向Malfatti學鋼琴，不是向貝多芬學習。"
+    },
+    "41": {
+      "reason": "validation_failed",
+      "first_why": "too_long(390)",
+      "first_text": "根據材料，Colvin在斯里蘭卡報導戰爭時失去左眼，但「that never stopped her. She still went to dangerous places that few reporters wanted to visit」，說明她的報導方式並未改變，故(B)正確。(A)錯誤，她在耶魯大學時決定成為記者，之後才加入Sunday Times，並非因為上大學而離職；(C)錯誤，材料明確指出「the day after she gave her report on the war in Homs, Colvin was killed when the house she was staying in was attacked」，她是在住處遭攻擊時喪生，非在採訪士兵時；(D)錯誤，她在耶魯大學時就已決定未來要當記者，不是加入Sunday Times後才確定。",
+      "second_why": "too_long(427)",
+      "second_text": "根據文章「When she was reporting on the war in Sri Lanka, she lost her left eye. But that never stopped her. She still went to dangerous places that few reporters wanted to visit and stayed when others left.」可知，失去左眼後她並未改變報導方式，仍然前往危險地區，故(B)正確。(A)錯誤，文章未提及耶魯大學的學習機會使她離職；(C)錯誤，她是在住處遭攻擊時喪生，而非採訪士兵時；(D)錯誤，文章明確指出「When she was a student at Yale University, Colvin decided that she wanted to be a reporter」，表示她在耶魯時就已決定未來方向，而非加入《星期日泰晤士報》後才確定。"
+    }
+  }
+}

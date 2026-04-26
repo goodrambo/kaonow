@@ -1,0 +1,71 @@
+{
+  "year": 107,
+  "subject": "english-reading",
+  "model": "claude-haiku-4-5-20251001",
+  "generated_at": "2026-04-26",
+  "failures": {
+    "23": {
+      "reason": "validation_failed",
+      "first_why": "too_long(307)",
+      "first_text": "根據材料「If you travel with friends or your family, a holiday apartment will be your best choice!」以及「The price for a holiday apartment is for two people...You only need to pay a little more for a third or fourth person」，可知假日公寓特別適合多人旅遊，因為價格相對便宜且空間充足，故(B)正確。(A)錯誤，材料未提及一日遊；(C)錯誤，公寓強調私人空間而非交友機會；(D)錯誤，材料未限定地點必須在鄉村。",
+      "second_why": "too_long(305)",
+      "second_text": "根據材料「If you travel with friends or your family, a holiday apartment will be your best choice!」以及「The price for a holiday apartment is for two people...You only need to pay a little more for a third or fourth person」，可知假日公寓對於三人或以上的團體旅遊最划算，故(B)正確。(A)錯誤因為材料未提及一日遊；(C)錯誤因為假日公寓強調私人空間而非交友機會；(D)錯誤因為材料未限定地點必須在鄉村。"
+    },
+    "29": {
+      "reason": "validation_failed",
+      "first_why": "too_long(340)",
+      "first_text": "根據文章「Being wet makes animals heavier, and that makes it harder to run. In the animal world, how fast an animal can run often decides whether it will live or not.」可知，動物搖動身體甩乾水分能減輕體重，進而跑得更快，這在危急時刻攸關生死，故(D)正確。(A)錯誤，文章明確指出「animal shaking begins with the head and ends with the tail」，所有動物搖動方式相同；(B)無根據，文章未提及嚇唬其他動物的目的；(C)過度推論，文章未區分寵物與野生動物的搖動效果差異。",
+      "second_why": "too_long(356)",
+      "second_text": "根據文章，「Being wet makes animals heavier, and that makes it harder to run. In the animal world, how fast an animal can run often decides whether it will live or not.」說明動物抖動身體除了變乾，更重要的是「saving their lives」，因為變乾後能跑得更快，而速度往往決定生死，故(D)正確。(A)錯誤，文章明確指出「animal shaking begins with the head and ends with the tail」，所有動物都相同；(B)無根據，文章未提及嚇唬其他動物；(C)過度推論，文章未區分寵物與野生動物的抖動效果。"
+    },
+    "31": {
+      "reason": "validation_failed",
+      "first_why": "too_long(313)",
+      "first_text": "根據文章「Smaller animals must shake faster than bigger animals to get water off. For example, in one second, a rat can shake 18 times, a dog 6 times, and a bear 4 times.」，可知動物體型越小搖晃次數越多，體型越大次數越少。老鼠18次、狗6次、熊4次，形成遞減趨勢。題目中老虎、貓、老鼠的大小順序為老虎>貓>老鼠，故搖晃次數應為老虎最少、貓次之、老鼠最多，符合此遞減規律的選項為(B)正確。其他選項違反了「體型越小搖晃越快」的原理，未能正確反映文章所述的動物搖晃規律。",
+      "second_why": "too_long(284)",
+      "second_text": "根據文章「in one second, a rat can shake 18 times, a dog 6 times, and a bear 4 times. Bigger animals must shake faster than bigger animals to get water off」，可知動物體型越大搖晃次數越少。老鼠18次、狗6次、熊4次，因此老虎（大型動物）應少於貓（中型動物），貓應少於老鼠（小型動物），呈現遞減趨勢。選項(B)正確地顯示老虎搖晃次數最少、老鼠最多的正確順序，故(B)正確。其他選項未能正確反映「體型越大搖晃次數越少」的規律。"
+    },
+    "32": {
+      "reason": "validation_failed",
+      "first_why": "too_long(346)",
+      "first_text": "根據對話內容，Eric 在說「But will poor people go and ask for a free coffee? Won't they worry about losing face?」之後，Josh 問「Why do you always say things like that?」，這裡的「things like that」指的是 Eric 之前提出的各種疑慮和問題，如「誰來決定給誰」、「有人可能濫用」、「窮人可能不好意思去領」等，都是對這個計畫的質疑和潛在問題。故 (A) 正確。(B) 錯誤，因為這些問題不是針對「去咖啡館的人」的麻煩，而是計畫本身的問題；(C) 錯誤，Eric 提出的是困難而非成功方法；(D) 錯誤，Eric 的言論是負面質疑，不是正面效益。",
+      "second_why": "too_long(376)",
+      "second_text": "根據對話，Eric 說「But will poor people go and ask for a free coffee? Won't they worry about losing face?」之後，Josh 問「Why do you always say things like that?」，這裡「things like that」指的是 Eric 之前提出的疑慮和問題，包括「Flora Café 真的會給窮人咖啡嗎」、「誰來決定給誰」、「窮人會不會不好意思去要」等，都是對這個計畫的「problems about the free coffee plan」，故 (A) 正確。(B) 錯誤因為這些問題不是針對去咖啡館的人的麻煩；(C) 錯誤因為 Eric 提的是問題而非解決方案；(D) 錯誤因為 Eric 的言論是質疑而非讚揚計畫的好處。"
+    },
+    "33": {
+      "reason": "validation_failed",
+      "first_why": "too_long(443)",
+      "first_text": "對話中Josh多次試圖說服Eric相信「pay it forward coffee」計畫的價值，但Eric始終提出疑慮：「But will Flora Café really give this cup of coffee to someone later?」、「But how will they know who to give?」、「But will poor people go and ask for a free coffee?」，最後Josh說「I still think it's a good thing to do」，而Eric只回應「Perhaps」，顯示Eric的疑慮未被消除，故(A)正確。(B)錯誤，Eric對計畫充滿懷疑，希望反而較低；(C)錯誤，對話中兩人並未找到解決方案；(D)錯誤，Josh明確表示「I've known the shopkeeper well. He's an honest man」，已確認店家誠實，Eric的疑慮也非針對誠實度。",
+      "second_why": "too_long(415)",
+      "second_text": "對話中Josh多次試圖說服Eric相信「pay it forward coffee」計畫的價值，但Eric始終提出疑慮：「But will Flora Café really give this cup of coffee to someone later?」、「But how will they know who to give?」、「Won't they worry about losing face?」，最後Josh說「I still think it's a good thing to do」，而Eric只回應「Perhaps」，顯示Eric的疑慮未被消除，故(A)正確。(B)錯誤，Eric對計畫充滿懷疑，希望反而較低；(C)錯誤，對話中兩人並未找到解決方案；(D)錯誤，Josh明確表示「I've known the shopkeeper well. He's an honest man」，證明他相信店家誠實。"
+    },
+    "35": {
+      "reason": "validation_failed",
+      "first_why": "too_long(419)",
+      "first_text": "作者依序討論三個重點：首先提出「捕鯨的問題」(b)，開篇即說「鯨魚數量急劇下降」與「人們擔心未來只能在圖片中看到鯨魚」；其次闡述「捕鯨作為一種生活方式」(c)，說明「Whaling started as early as 1,500 years ago. This was how tribespeople fed their families」與「Over the years, whaling became their way of living, and even part of who they are」；最後才討論「我們是否應該停止部落捕鯨」(a)，結尾問「we should think what we are asking tribespeople to give up and whether this is the best answer」。故(B)正確。(A)項順序錯誤，(C)與(D)項皆未按作者實際論述邏輯排列。",
+      "second_why": "too_long(363)",
+      "second_text": "文章首先介紹「The number of whales has dropped sharply」說明捕鯨的問題(b)，接著解釋「Whaling started as early as 1,500 years ago. This was how tribespeople fed their families」說明捕鯨作為生活方式(c)，最後提出「When we try to stop all kinds of whaling, we should think what we are asking tribespeople to give up」質疑是否應停止部落捕鯨(a)，故(B)正確。(A)項順序錯誤，先談部落捕鯨再談生活方式不符文章邏輯；(C)和(D)項都將生活方式置於問題之前，與文章開篇即提出捕鯨問題的結構不符。"
+    },
+    "36": {
+      "reason": "validation_failed",
+      "first_why": "too_long(460)",
+      "first_text": "文章指出「Of all the whales that were killed over the past forty years, only 10% were hunted by tribespeople. The other 90% died at the hands of the money-making whaling business」，強調部落捕鯨只占10%，真正問題在商業捕鯨。作者進而質疑「When we try to stop all kinds of whaling, we should think what we are asking tribespeople to give up and whether this is the best answer」，表示禁止所有捕鯨會要求部落放棄其生活方式，暗示部落的生存方式與動物生命同樣重要需被考量，故(C)正確。(A)過於絕對，與作者區分部落捕鯨與商業捕鯨的立場不符；(B)曲解文意，作者確實關心鯨魚數量；(D)無根據，文章未提及與商業捕鯨合作。",
+      "second_why": "too_long(424)",
+      "second_text": "作者在文中指出「Tribe whaling is not the thing we should worry about」，並強調「Of all the whales that were killed over the past forty years, only 10% were hunted by tribespeople」，說明部落捕鯨只佔少數，真正問題在商業捕鯨。作者進而質疑「When we try to stop all kinds of whaling, we should think what we are asking tribespeople to give up and whether this is the best answer」，暗示部落的生活方式與傳統同樣重要，不應被忽視，故(C)正確。(A)過於絕對，作者區分了部落捕鯨與商業捕鯨；(B)曲解文意，作者確實關心鯨魚數量；(D)無根據，作者未提及與商業捕鯨合作。"
+    },
+    "37": {
+      "reason": "validation_failed",
+      "first_why": "too_long(281)",
+      "first_text": "文章明確指出「They hunted whales for meat because almost nothing could grow on their land. They also made whale fat into oil and used it to make candles or oil lamps」，說明捕鯨以多種方式幫助部落人民的生活，包括提供食物和製造燈油，故(D)正確。(A)文中未提及幸運的信念；(B)雖提到製油但未說明販售致富；(C)邏輯錯誤，捕鯨1,500年前就開始，問題是近40年商業捕鯨造成的，而非1,500年前開始就是問題。",
+      "second_why": "too_long(376)",
+      "second_text": "文章明確指出「They hunted whales for meat because almost nothing could grow on their land. They also made whale fat into oil and used it to make candles or oil lamps. Over the years, whaling became their way of living, and even part of who they are」，說明捕鯨以多種方式幫助部落人民的生活，包括提供食物、製造燈油等，故(D)正確。(A)文中未提及幸運；(B)說「變富有」過度推論，文章只說他們利用鯨油製作生活用品，非商業販售；(C)邏輯錯誤，捕鯨1,500年前就開始，不是那時才成為問題，問題出現在近40年的商業捕鯨。"
+    },
+    "39": {
+      "reason": "validation_failed",
+      "first_why": "too_long(313)",
+      "first_text": "根據文章，Thomas Goode 是知名圖書作家，卻選擇「用不同的名字寫書」，因為「他認為如果人們不知道這是來自圖書作家的作品，人們可能會認真對待他的書」(Goode thought that people might treat his book seriously if they did not know it was from a picture book writer)，這說明 Inscriber 獎在國家中受到重視，作家們希望透過它獲得認可，故 (D) 正確。(A) 錯誤，文章未提及 NBN 創辦該獎；(B) 錯誤，該獎並非專為圖書作家設立；(C) 錯誤，文章只說這是首次有新手作家獲獎，不代表獎項只限新手。",
+      "second_why": "too_long(330)",
+      "second_text": "根據材料，Goode 是知名圖書作家，卻選擇「用不同的名字寫書」，因為「他認為如果人們不知道這是來自圖書作家的作品，人們可能會認真對待他的書」(Goode thought that people might treat his book seriously if they did not know it was from a picture book writer)。這說明 Inscriber 獎在該國受到重視，作家們希望透過它獲得認可，故 (D) 正確。(A) 材料未提及 NBN 創辦獎項；(B) 材料明確指出這是「國家最大的書獎」且 Carolyn Cole 以嚴肅文學作品獲獎，非圖書獎；(C) 材料只說這是首次有新人作家獲獎，不代表獎項只給新人。"
+    }
+  }
+}

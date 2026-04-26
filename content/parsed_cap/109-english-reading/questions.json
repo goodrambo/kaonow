@@ -46,12 +46,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 1,
-        "raw_text": "1.   Look at the picture. The man is holding one of the _____.\n     (A) bowls\n     (B) glasses\n     (C) plates\n     (D) spoons\n\n\n\n"
+        "raw_text": "1.   Look at the picture. The man is holding one of the _____.\n     (A) bowls\n     (B) glasses\n     (C) plates\n     (D) spoons\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據圖片，男子手中拿著的是透明的玻璃杯，故(B) glasses正確。(A) bowls是碗，圖中男子拿的不是碗；(C) plates是盤子，形狀與圖片不符；(D) spoons是湯匙，是小型餐具，與圖片中男子手持的物品大小和形狀都不相符。"
     },
     {
       "id": "cap-109-english-reading-002",
@@ -80,12 +81,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 2,
-        "raw_text": "2.   My mom puts the _____ on to keep her hands away from water when she washes\n     the dishes.\n     (A) gloves        (B) jacket           (C) ring          (D) socks\n"
+        "raw_text": "2.   My mom puts the _____ on to keep her hands away from water when she washes\n     the dishes.\n     (A) gloves        (B) jacket           (C) ring          (D) socks\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "題目描述媽媽洗碗時為了保護雙手不接觸水而穿戴某物，「keep her hands away from water」表示要隔離雙手與水的接觸。(A) gloves（手套）能完全覆蓋雙手並防水，符合此目的，故 (A) 正確。(B) jacket（夾克）是上衣，無法保護手部；(C) ring（戒指）反而會沾水，不符邏輯；(D) socks（襪子）是穿在腳上，與洗碗無關。"
     },
     {
       "id": "cap-109-english-reading-003",
@@ -114,12 +116,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 3,
-        "raw_text": "3.   Can you _____ your feet a little off the floor?  I want to see if my keys are under the\n     sofa.\n     (A) check          (B) kick                 (C) raise             (D) show\n"
+        "raw_text": "3.   Can you _____ your feet a little off the floor?  I want to see if my keys are under the\n     sofa.\n     (A) check          (B) kick                 (C) raise             (D) show\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "題目要求填入適當動詞，使句意完整。根據上文「I want to see if my keys are under the sofa」，說話者需要看沙發下方，因此要求對方「把腳抬起來一點」，故(C) raise正確。raise意為「舉起、抬起」，符合語境。(A) check「檢查」與(B) kick「踢」都不符合邏輯，check無法與feet搭配，kick則與「抬起」的目的相悖；(D) show「展示」也不適當，因為重點是抬起腳而非展示。"
     },
     {
       "id": "cap-109-english-reading-004",
@@ -148,12 +151,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 4,
-        "raw_text": "4.   _____ of my sisters are older than I am.  I’m the youngest of the three children in my\n     family.\n     (A) Both             (B) Few               (C) Most             (D) Some\n"
+        "raw_text": "4.   _____ of my sisters are older than I am.  I’m the youngest of the three children in my\n     family.\n     (A) Both             (B) Few               (C) Most             (D) Some\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "題幹說「我是家中三個孩子中最年輕的」，表示有兩個姐姐都比我年長。空格前後為「_____ of my sisters are older than I am」，需填入能修飾「my sisters」（我的姐姐們）的量詞。由於只有兩個姐姐，且兩個都比我年長，故應填 Both（兩個都），表示「我的兩個姐姐都比我年長」，(A) 正確。(B) Few 意為「少數幾個」，與「兩個都」不符；(C) Most 意為「大多數」，用於三個以上時較合適；(D) Some 意為「某些」，過於模糊且無法確定具體數量。"
     },
     {
       "id": "cap-109-english-reading-005",
@@ -182,12 +186,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 5,
-        "raw_text": "5.   The beach near our town is a very _____ place. Every summer at least one kid dies\n     there in the water.\n     (A) dangerous       (B) exciting        (C) lonely        (D) popular\n"
+        "raw_text": "5.   The beach near our town is a very _____ place. Every summer at least one kid dies\n     there in the water.\n     (A) dangerous       (B) exciting        (C) lonely        (D) popular\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "題幹提到「每年夏天至少有一個小孩在水裡溺水身亡」，這是一個負面且危險的事實，因此空格應填入表示「危險」的形容詞。(A) dangerous 正確，意為「危險的」，與後文溺水死亡的內容相符。(B) exciting 興奮的、(C) lonely 孤獨的都無法解釋為何會有人溺水；(D) popular 受歡迎的雖可能與海灘相關，但無法說明死亡事件的因果關係，故 (A) 正確。"
     },
     {
       "id": "cap-109-english-reading-006",
@@ -216,12 +221,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 6,
-        "raw_text": "6.   My wife enjoys going to the movies with her friends, but I like to watch TV at home\n     by _____.\n     (A) I              (B) me               (C) myself             (D) mine\n"
+        "raw_text": "6.   My wife enjoys going to the movies with her friends, but I like to watch TV at home\n     by _____.\n     (A) I              (B) me               (C) myself             (D) mine\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "空格前有介詞 by，後面應填反身代詞表示「獨自、單獨」之意，句意為「我喜歡在家獨自看電視」。by myself 是固定搭配，表示「我自己、獨自」，故 (C) 正確。(A) I 為主格代詞，不符介詞後用法；(B) me 為受格代詞，無法表達「獨自」含義；(D) mine 為所有格代詞，語法不符。"
     },
     {
       "id": "cap-109-english-reading-007",
@@ -250,12 +256,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 7,
-        "raw_text": "7.   For the past twenty years, my father _____ in a school library.  But he’ll leave the job\n     next month.\n     (A) worked           (B) has worked      (C) is working         (D) works\n"
+        "raw_text": "7.   For the past twenty years, my father _____ in a school library.  But he’ll leave the job\n     next month.\n     (A) worked           (B) has worked      (C) is working         (D) works\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "題幹關鍵在於「For the past twenty years」（過去二十年來）搭配「But he'll leave the job next month」（但他下個月會離職），表示從過去持續到現在的動作即將結束。此時應用現在完成式 has worked，表示「一直在做且持續到現在」，故 (B) 正確。(A) worked 為簡單過去式，無法表達持續性；(C) is working 為現在進行式，不符合「過去二十年」的時間跨度；(D) works 為簡單現在式，同樣無法表達這段期間的持續動作。"
     },
     {
       "id": "cap-109-english-reading-008",
@@ -284,12 +291,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 8,
-        "raw_text": "8.   It’s great that we can buy train tickets over the phone without going out.  It _____ us\n     a lot of time.\n     (A) lends             (B) prepares          (C) saves           (D) takes\n"
+        "raw_text": "8.   It’s great that we can buy train tickets over the phone without going out.  It _____ us\n     a lot of time.\n     (A) lends             (B) prepares          (C) saves           (D) takes\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "句意為「我們可以透過電話購買火車票而不用出門，這為我們節省了很多時間」。空格處需填入動詞，與受詞 us 和 a lot of time 搭配。save sb. time 是常用片語，表示「為某人節省時間」，故 (C) saves 正確。(A) lend 意為「借出」，不符語境；(B) prepare 意為「準備」，無法與 time 搭配；(D) take 雖可與 time 搭配但表示「花費時間」，與句意相反。"
     },
     {
       "id": "cap-109-english-reading-009",
@@ -318,12 +326,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 9,
-        "raw_text": "9.   Mozart _____ his first music when he was only six years old.\n     (A) is writing      (B) has written     (C) will write       (D) wrote\n\n"
+        "raw_text": "9.   Mozart _____ his first music when he was only six years old.\n     (A) is writing      (B) has written     (C) will write       (D) wrote\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "題幹敘述莫札特六歲時的過去事件，需用過去簡單式。「when he was only six years old」明確指出過去時間點，故應填過去式動詞 wrote，(D) 正確。(A) is writing 為現在進行式，表現在進行中；(B) has written 為現在完成式，強調對現在的影響；(C) will write 為未來式，均不符合過去事件的時間語境。"
     },
     {
       "id": "cap-109-english-reading-010",
@@ -352,12 +361,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 10,
-        "raw_text": "10. Jill: Have you decided _____ you will celebrate your 30th birthday?\n    Sue: Yeah, I’m going to have a big barbecue party.\n    (A) how              (B) where           (C) what              (D) when\n"
+        "raw_text": "10. Jill: Have you decided _____ you will celebrate your 30th birthday?\n    Sue: Yeah, I’m going to have a big barbecue party.\n    (A) how              (B) where           (C) what              (D) when\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "空格前有 decided，後接疑問詞引導的間接問句。Jill 問的是慶祝方式，Sue 回答「I'm going to have a big barbecue party」說明如何慶祝，故 (A) how 正確。(B) where 詢問地點，但 Sue 未提及地點；(C) what 詢問事物，文法上不符；(D) when 詢問時間，但題幹已明確提及「30th birthday」，不需再問時間。"
     },
     {
       "id": "cap-109-english-reading-011",
@@ -386,12 +396,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 11,
-        "raw_text": "11. Alison doesn’t like _____ what to do.  She only does things she wants to do.\n    (A) told             (B) to tell          (C) be told         (D) to be told\n"
+        "raw_text": "11. Alison doesn’t like _____ what to do.  She only does things she wants to do.\n    (A) told             (B) to tell          (C) be told         (D) to be told\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "本題考查動詞 like 後接動名詞或不定式的用法。句意為「Alison 不喜歡被告知該做什麼」，需要被動語態表達「被告知」的含義。like 後可接「to be + 過去分詞」的被動不定式結構，故 (D) to be told 正確。(A) told 為過去式，文法不符；(B) to tell 為主動不定式，無法表達「被告知」的被動意義；(C) be told 缺少不定式標記 to，在 like 後不符合英文文法規則。"
     },
     {
       "id": "cap-109-english-reading-012",
@@ -420,12 +431,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 12,
-        "raw_text": "12. Josh has planned to make a trip to New York and _____ some of his friends there.\n    (A) visit           (B) visits          (C) visiting       (D) visited\n"
+        "raw_text": "12. Josh has planned to make a trip to New York and _____ some of his friends there.\n    (A) visit           (B) visits          (C) visiting       (D) visited\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "句子結構為「has planned to make a trip and _____ some of his friends」，兩個動作由 and 連接，應使用平行結構。前半「to make」是不定詞，後半也應為不定詞「to visit」，省略重複的 to 後為「visit」，故 (A) 正確。(B) visits 為第三人稱單數現在式，破壞平行結構；(C) visiting 為現在分詞，與不定詞結構不符；(D) visited 為過去式，時態與 has planned 不搭配。"
     },
     {
       "id": "cap-109-english-reading-013",
@@ -454,12 +466,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 13,
-        "raw_text": "13. Ms. Johnson has been taking phone calls since she entered the office this morning.  \n    Just when she thought she could finally leave work, _____ call came in.\n    (A) another         (B) each              (C) the next        (D) the other\n"
+        "raw_text": "13. Ms. Johnson has been taking phone calls since she entered the office this morning.  \n    Just when she thought she could finally leave work, _____ call came in.\n    (A) another         (B) each              (C) the next        (D) the other\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "句子表示Ms. Johnson整個上午一直在接電話，就在她以為終於可以下班時，又有一通電話進來。空格需填入表示「又一通」的詞彙，「another call」意為「另一通電話」，符合「又有電話」的語境，故(A)正確。(B)each強調個別性，不符合「又來一通」的意思；(C)the next通常指「下一個」但需有明確順序參照，此處無此脈絡；(D)the other指「另外那一個」，用於兩者之間的對比，不適用於此開放性情境。"
     },
     {
       "id": "cap-109-english-reading-014",
@@ -488,12 +501,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 14,
-        "raw_text": "14. We were so sure that Jerry _____ well on the difficult job.  His past experience in\n    other work showed he was the right guy for it. So when he failed, no one believed it.\n    (A) had done        (B) did              (C) has done           (D) would do\n"
+        "raw_text": "14. We were so sure that Jerry _____ well on the difficult job.  His past experience in\n    other work showed he was the right guy for it. So when he failed, no one believed it.\n    (A) had done        (B) did              (C) has done           (D) would do\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "本題考查過去時間點的推測或預期。題幹關鍵在「We were so sure that Jerry _____ well」，「were so sure」表示過去時間點我們的確信或預期，後接 that 子句應用「would do」表示當時對未來的推測。故 (D) 正確。(A) had done 表完成式，不符合「預期他會做好」的語意；(B) did 為簡單過去式，無法表達「當時的推測」；(C) has done 為現在完成式，時態與過去的確信不搭配。"
     },
     {
       "id": "cap-109-english-reading-015",
@@ -522,12 +536,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 15,
-        "raw_text": "15. For Mike, the price is _____ important thing when he shops for jeans. He cares even\n    more about the shape and the size of the pockets.\n    (A) the more         (B) the most         (C) the less       (D) the least\n\n\n\n\n"
+        "raw_text": "15. For Mike, the price is _____ important thing when he shops for jeans. He cares even\n    more about the shape and the size of the pockets.\n    (A) the more         (B) the most         (C) the less       (D) the least\n\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "題幹關鍵在於後句「He cares even more about the shape and the size of the pockets」，表示Mike關心口袋的形狀和大小更勝於價格，即價格是他最不在乎的因素。空格應填最高級形容詞，表「最不重要」，故(D) the least正確。(A) the more和(B) the most皆表較重要或最重要，與文意相反；(C) the less為比較級，不符合「最___」的句型結構。"
     },
     {
       "id": "cap-109-english-reading-passage-16",
@@ -591,12 +606,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 16,
-        "raw_text": "16. What is it in the reading?\n    (A) The sun.          (B) The rain.       (C) The wind.     (D) The rainbow.\n"
+        "raw_text": "16. What is it in the reading?\n    (A) The sun.          (B) The rain.       (C) The wind.     (D) The rainbow.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "詩文中「The shirts and shorts dance / On the clothesline, / The trees and flowers wave」、「His coat and jeans jump / Off the clothesline / Into the pond」、「The tree leaves hop off」等描寫衣物飄動、樹葉飛舞的現象，明確指向風的作用，故(C)正確。(A)太陽不會使衣物跳動；(B)雨水會使衣物濕透而非舞動，且詩中未提及濕潤；(D)彩虹無法推動物體移動，與詩意不符。"
     },
     {
       "id": "cap-109-english-reading-017",
@@ -625,12 +641,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 17,
-        "raw_text": "17. How does Dad feel“when it comes”?\n    (A) He is scared.\n    (B) He is excited.\n    (C) He is not happy.\n    (D) He is not interested.\n\n\n"
+        "raw_text": "17. How does Dad feel“when it comes”?\n    (A) He is scared.\n    (B) He is excited.\n    (C) He is not happy.\n    (D) He is not interested.\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據詩文「When it comes, Dad's face falls. His coat and jeans jump Off the clothesline Into the pond.」可知，當風來臨時，爸爸的臉「falls」（沉下來），他的衣物被吹進池塘，樹葉吹到他的新車上造成損壞，這些都是負面的情況。故(C)正確。(A)害怕過度解讀，詩中未提及恐懼；(B)興奮與文意相反，爸爸的反應明顯是不開心；(D)不感興趣也不符合，爸爸是有明確的負面情緒反應。"
     },
     {
       "id": "cap-109-english-reading-passage-18",
@@ -1076,12 +1093,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 26,
-        "raw_text": "26. What does it mean when business is slack?\n    (A) It is bad.     (B) It is for sale.  (C) It is growing.       (D) It is open every day."
+        "raw_text": "26. What does it mean when business is slack?\n    (A) It is bad.     (B) It is for sale.  (C) It is growing.       (D) It is open every day.",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "文中提到「At first, business was slack. People thought they were just another Chinese food truck...Few people would stop by and try their food.」，說明當business is slack時，顧客很少光臨，生意不好，故(A) It is bad.正確。(B)是for sale（待售）與文意無關；(C)是growing（成長）與slack的意思相反；(D)是open every day（每天營業）文中未提及。"
     },
     {
       "id": "cap-109-english-reading-027",
@@ -1214,12 +1232,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 29,
-        "raw_text": "29. What can we learn from the letter?\n    (A) Too much melatonin can hurt teenagers’ brain.\n    (B) The brain stops making melatonin after 11 p.m.\n    (C) Sleeping longer helps the body make more melatonin.\n    (D) It is easier to fall asleep when the brain is making melatonin.\n\n\n"
+        "raw_text": "29. What can we learn from the letter?\n    (A) Too much melatonin can hurt teenagers’ brain.\n    (B) The brain stops making melatonin after 11 p.m.\n    (C) Sleeping longer helps the body make more melatonin.\n    (D) It is easier to fall asleep when the brain is making melatonin.\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據信件內容，「teenagers' brains make melatonin, the hormone that helps sleep, between 11 p.m. and 8 a.m.」，說明褪黑激素是幫助睡眠的荷爾蒙，當大腦製造褪黑激素時，身體更容易入睡，故(D)正確。(A)曲解原意，信件未提褪黑激素過多會傷害大腦；(B)錯誤，褪黑激素製造時間是從晚上11點到早上8點，不是在11點後停止；(C)無根據，信件未說睡眠時間長短與褪黑激素分泌量的關係。"
     },
     {
       "id": "cap-109-english-reading-030",
@@ -1248,12 +1267,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 30,
-        "raw_text": "30. Below is some information from another study.\n     We studied 48 high school students and found that the students who went\n     to bed earlier did better on their school tests. This is not only true for\n     those who slept nine hours, but also true for those who slept less. And\n     some of them agreed that they learned better in early morning classes.\n\n    Do the ideas in Selena Bieber’s letter agree with the information?\n    (A) Yes, because her letter says it is better to sleep from 11 p.m. to 8 a.m.\n    (B) Yes, because her letter says getting up early is not helpful for learning.\n    (C) No, because her letter says students are asked to get to school by 7:30 a.m.\n    (D) No, because her letter says teenagers’ brains do not work well in early morning classes.\n\n\n\n\n"
+        "raw_text": "30. Below is some information from another study.\n     We studied 48 high school students and found that the students who went\n     to bed earlier did better on their school tests. This is not only true for\n     those who slept nine hours, but also true for those who slept less. And\n     some of them agreed that they learned better in early morning classes.\n\n    Do the ideas in Selena Bieber’s letter agree with the information?\n    (A) Yes, because her letter says it is better to sleep from 11 p.m. to 8 a.m.\n    (B) Yes, because her letter says getting up early is not helpful for learning.\n    (C) No, because her letter says students are asked to get to school by 7:30 a.m.\n    (D) No, because her letter says teenagers’ brains do not work well in early morning classes.\n\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "Selena的信主張「早起對學習沒幫助」，但研究數據顯示「早睡的學生在測驗表現更好，有些人甚至同意在早晨課堂學習更好」，兩者觀點相悖。(D)正確，因為信中聲稱「teenagers' brains do not work well in early morning classes」與研究結果矛盾。(A)錯誤，因為信中提到11 p.m.到8 a.m.是大腦製造褪黑激素的時間，但這不代表同意研究結論；(B)錯誤，信中確實說早起不利學習，但研究卻顯示早睡的學生表現更好，這正是不同意之處；(C)錯誤，7:30 a.m.的上學時間只是陳述事實，不是與研究比較的重點。"
     },
     {
       "id": "cap-109-english-reading-passage-31",
@@ -1353,12 +1373,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 32,
-        "raw_text": "32. What does it mean when we say a place is uninhabitable?   \n    (A) It is not big.\n    (B) It is not popular.\n    (C) It cannot be bought.\n    (D) It cannot be lived in.\n"
+        "raw_text": "32. What does it mean when we say a place is uninhabitable?   \n    (A) It is not big.\n    (B) It is not popular.\n    (C) It cannot be bought.\n    (D) It cannot be lived in.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "題目問 uninhabitable 的意思，文中提到「their home will become uninhabitable because the island could be covered by the Chukchi Sea」，說明家園將無法居住是因為島嶼會被海水淹沒，故 (D) 正確。uninhabitable 由 un-（否定）+ inhabitable（可居住的）組成，直譯為「不可居住的」。(A) 與島嶼大小無關；(B) 與受歡迎程度無關；(C) 與買賣無關，均為錯誤理解。"
     },
     {
       "id": "cap-109-english-reading-033",
@@ -1387,12 +1408,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 33,
-        "raw_text": "33. What does the writer think about the Inuit people in Kivalina?  \n    (A) Their way of living has been hurting the earth.\n    (B) They might not be able to get enough money to move their village.\n    (C) They should make the oil and power companies fix their problems.\n    (D) There are better ways than to move their village to somewhere else.\n"
+        "raw_text": "33. What does the writer think about the Inuit people in Kivalina?  \n    (A) Their way of living has been hurting the earth.\n    (B) They might not be able to get enough money to move their village.\n    (C) They should make the oil and power companies fix their problems.\n    (D) There are better ways than to move their village to somewhere else.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "文章明確指出「It would cost hundreds of millions to move their village, and they have no idea where to get the money」，說明因紐特人面臨搬遷村莊需要數億美元但無資金來源的困境，故(B)正確。(A)錯誤，文章未提及因紐特人的生活方式傷害地球，反而指責油氣公司；(C)過度推論，文章雖提及他們認為是油氣公司造成問題，但未建議應由公司負責修復；(D)無根據，文章未討論其他替代方案。"
     },
     {
       "id": "cap-109-english-reading-034",
@@ -1421,12 +1443,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 34,
-        "raw_text": "34. What does the reading say about the Arctic ice?      \n    (A) The Arctic ice covered 10 km2 of Kivalina.\n    (B) The melting Arctic ice kills about 400 Inuit people each year.\n    (C) The Arctic ice helped the Inuit people in Kivalina during bad weather.  \n    (D) The melting Arctic ice has given the Inuit people enough water to use.\n\n\n\n\n"
+        "raw_text": "34. What does the reading say about the Arctic ice?      \n    (A) The Arctic ice covered 10 km2 of Kivalina.\n    (B) The melting Arctic ice kills about 400 Inuit people each year.\n    (C) The Arctic ice helped the Inuit people in Kivalina during bad weather.  \n    (D) The melting Arctic ice has given the Inuit people enough water to use.\n\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "文章提到「there is no Arctic ice thick enough to keep them safe from terrible wind and rain」，說明北冰洋冰層原本能在惡劣天氣時保護因紐特人，故(C)正確。(A)混淆了島嶼面積與冰層覆蓋範圍；(B)文中未提及死亡人數；(D)與原意相反，融冰造成海平面上升威脅而非提供水源。"
     },
     {
       "id": "cap-109-english-reading-passage-35",

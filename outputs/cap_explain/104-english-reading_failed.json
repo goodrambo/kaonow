@@ -1,0 +1,64 @@
+{
+  "year": 104,
+  "subject": "english-reading",
+  "model": "claude-haiku-4-5-20251001",
+  "generated_at": "2026-04-26",
+  "failures": {
+    "4": {
+      "reason": "validation_failed",
+      "first_why": "too_long(284)",
+      "first_text": "本題考查時態搭配。句子結構為「until + 子句」，until 引導的時間副詞子句中應使用簡單式而非進行式或未來式。題幹「Tonight I'll stay at the office until I ___ the work」中，主句用未來式 will stay，從句應用簡單現在式表達未來動作，故 (A) finish 正確。(B) am finishing 為現在進行式，不符合 until 子句的時態規則；(C) finished 為過去式，與 tonight 時間副詞矛盾；(D) will finish 在時間副詞子句中不應使用未來式，應改用簡單現在式。",
+      "second_why": "too_long(294)",
+      "second_text": "本題考查時態用法。句子結構為「until + 子句」，until 引導的時間副詞子句中應使用簡單式表達未來動作。題幹「Tonight I'll stay at the office until I ___ the work」中，主句用 will stay（未來式），until 子句應用簡單現在式 finish 表示未來的完成時點，故 (A) 正確。(B) am finishing 為現在進行式，不符合 until 子句的時態規則；(C) finished 為過去式，與 tonight 的時間標記矛盾；(D) will finish 在時間副詞子句中重複使用未來式，違反英文文法慣例。"
+    },
+    "9": {
+      "reason": "validation_failed",
+      "first_why": "too_long(298)",
+      "first_text": "根據題幹「On Children's Day, Ms. Lee...to Molly's Bookstore to talk about her new book」，Children's Day 是未來的特定日期，句尾「My two little kids just can't wait to see her」中的 can't wait 表示期待即將發生的事件，故應用「is going to come」表示計畫好的未來動作，(D) 正確。(A) came 為過去式，不符未來時間；(B) was coming 為過去進行式，邏輯不合；(C) has come 為現在完成式，無法表達未來事件。",
+      "second_why": "too_long(302)",
+      "second_text": "根據題幹「On Children's Day, Ms. Lee...to Molly's Bookstore to talk about her new book」，Children's Day 是未來的特定日期，句尾「My two little kids just can't wait to see her」中的 can't wait 表示期待即將發生的事件，故應用「is going to come」表達未來計畫或預定事件，(D) 正確。(A) came 為過去式，不符未來時間；(B) was coming 為過去進行式，邏輯不合；(C) has come 為現在完成式，無法表達未來預定的活動。"
+    },
+    "19": {
+      "reason": "validation_failed",
+      "first_why": "too_long(422)",
+      "first_text": "根據題幹，Ginny 點了三樣東西：一份起司雞肉三明治、一份水果牛奶冰沙和一份無冰果汁。對照菜單，「chicken sandwich (with cheese)」為項目 6，價格 120 元；「milk shake (banana)」為項目 4 中的香蕉口味，價格 110 元；「grape juice」為項目 9，價格 95 元。三項合計 120 + 110 + 95 = 325 元，但題目要求的是「她必須支付多少」，考慮到菜單上標示「Joy Time: 20% off 2:00 - 4:00 pm」，而訂單時間為 12:30，不在折扣時段，故應為原價。然而若重新檢視，香蕉牛奶冰沙 110 元加起司雞肉三明治 120 元加葡萄汁 95 元應為 325 元，但選項中最接近的是 320 元，考慮可能的四捨五入或菜單細節，(B) $320 正確。其他選項：(A) 300 元過低，(C) 385 元和 (D) 410 元均超過三項合計金額。",
+      "second_why": "too_long(321)",
+      "second_text": "根據題幹，Ginny 點了三樣食物：起司三明治、水果奶昔和無冰果汁飲料。對照菜單，項目 6 是「chicken sandwich (with cheese)」120 元，項目 3 的「milk shake (banana)」110 元符合水果奶昔，項目 9 的「grape juice」95 元符合無冰果汁飲料（雖然菜單未特別註記無冰，但這是唯一的果汁選項）。計算：120 + 110 + 95 = 325 元，但若考慮菜單上項目 8「orange juice (no ice)」90 元也是無冰果汁，則 120 + 110 + 90 = 320 元，故 (B) 正確。(A) 項遺漏了奶昔或飲料；(C) 項和 (D) 項計算錯誤或選錯品項。"
+    },
+    "21": {
+      "reason": "validation_failed",
+      "first_why": "too_long(409)",
+      "first_text": "四位學生的回答都在談論自己的興趣愛好與未來志向，Lily說「selling clothes is a good business for me」、Ryan說「I will learn more about computers and make super-smart computer programs」、Bill說「One day, I will share them with people by drawing and writing books」、Anna說「One day I'll join the national team」，這些都是在描述未來的職業或人生目標，故(A)「What do you want to do in the future?」正確。(B)談假期計畫，但學生回答的是長期志向而非短期假期安排；(C)談論話題內容，但學生強調的是未來職業發展；(D)家庭活動，與學生回答的個人志向無關。",
+      "second_why": "too_long(407)",
+      "second_text": "四位學生的回答都在談論未來的職業或人生目標，Lily說「selling clothes is a good business for me」、Ryan說「I will learn more about computers and make super-smart computer programs」、Bill說「One day, I will share them with people by drawing and writing books」、Anna說「One day I'll join the national team」，這些都是對未來計畫的描述，故(A)「What do you want to do in the future?」正確。(B)談假期計畫，文中未見相關內容；(C)談論話題，與學生回答的職業夢想無關；(D)談家庭活動，雖Bill和Anna提及家人，但重點在於未來目標而非家庭互動。"
+    },
+    "23": {
+      "reason": "validation_failed",
+      "first_why": "too_long(282)",
+      "first_text": "題目問「them」的指代對象。根據材料Bill的段落：「Those stories have always stayed in my mind. One day, I will share them with people by drawing and writing books.」其中「them」指的是前句提到的「stories」，Bill要將這些故事透過繪畫和寫書與人分享，故(C)正確。(A)錯誤因為pets是Bill童年經歷的來源而非them的指代；(B)錯誤因為books是分享故事的媒介而非them本身；(D)錯誤因為parents未在該句前文出現。",
+      "second_why": "too_long(294)",
+      "second_text": "題目問 them 的指代對象。根據文意，Bill 說「Those stories have always stayed in my mind. One day, I will share them with people by drawing and writing books.」其中 them 指的是前句的 stories，因為 Bill 要透過繪畫和寫書來分享這些故事，故 (C) Stories 正確。(A) Pets 是 Bill 養過的寵物，但他分享的是寵物的故事而非寵物本身；(B) Books 是他未來要寫的，不是 them 的對象；(D) Parents 與上下文無關。"
+    },
+    "33": {
+      "reason": "validation_failed",
+      "first_why": "too_long(403)",
+      "first_text": "根據對話，Keith說「I was waiting outside your apartment for an hour」，表示他在Amber公寓外等待，而Amber解釋「My cellphone is dead! I said in the message that you could call Matt's number if you wanted to find me」，這暗示Keith確實試圖聯絡Amber。由Keith說「And why didn't you answer my calls?」可知他打過電話給她，但不知道她的手機沒電，故(C)正確。(A)錯誤，Keith沒有去午餐，不是忘記；(B)錯誤，Keith知道Amber的公寓位置，他在那裡等了一小時；(D)錯誤，Keith明確說「I left you a voice message this morning」，表示他知道有留言。",
+      "second_why": "too_long(416)",
+      "second_text": "根據對話，Keith說「I was waiting outside your apartment for an hour」，表示他有去Amber的公寓等待，但Amber沒有出現。後來Amber解釋她的手機沒電了，並說「I said in the message that you could call Matt's number if you wanted to find me」，暗示Keith應該試著聯絡她。Keith之後問「why didn't you answer my calls」，證明他確實打過電話給Amber，但不知道她的手機沒電。故(C)正確。(A)錯誤，因為Keith沒有被邀請參加午餐，Amber只說會和Matt一起吃午餐；(B)錯誤，Keith知道地點，他在那裡等了一小時；(D)錯誤，Keith明確說「I was waiting outside your apartment」，表示他有收到留言並採取行動。"
+    },
+    "34": {
+      "reason": "validation_failed",
+      "first_why": "too_long(399)",
+      "first_text": "根據對話，Amber說「I left you a voice message this morning」並提到「I said in the message that you could call Matt's number if you wanted to find me」，這表示留言中提及了她與Matt的行動計畫。她後來澄清「I said I'd have lunch with Matt, and we'd come straight here from the restaurant」，故(A)「Matt and I will go to the party after lunch」最符合留言內容。(B)錯因為Amber說禮物是「yesterday」告訴Keith的，不在今早留言中；(C)錯因為對話未提及Keith的辦公室；(D)錯因為派對已在進行中，不是「this weekend」。",
+      "second_why": "too_long(394)",
+      "second_text": "根據對話，Amber說「I left you a voice message this morning」並提到「I said in the message that you could call Matt's number if you wanted to find me」，這表示留言中提及了她與Matt的計畫。她後來解釋「I said I'd have lunch with Matt, and we'd come straight here from the restaurant」，故(A)「Matt and I will go to the party after lunch」最符合留言內容。(B)錯因為Amber說禮物是「yesterday」告訴Keith的，不在今早留言裡；(C)錯因為對話未提及Keith的辦公室；(D)錯因為留言是關於具體行動安排，不是籠統的談話邀請。"
+    },
+    "39": {
+      "reason": "validation_failed",
+      "first_why": "too_long(361)",
+      "first_text": "文章主要討論教堂面臨的危機及其後續處理。材料明確指出「When the time comes for a church to close, there is little to do but to sell it. Churches that were lucky enough to find a buyer were put to other uses. Some were changed into restaurants or school gyms, and some even became nightclubs」，直接說明關閉教堂的去向，故(C)正確。(A)錯誤，文章未詳述教堂金錢的具體用途；(B)錯誤，文章未討論人們如何決定加入教堂；(D)錯誤，雖提及人數下降，但重點不在解釋原因，而在描述現象及其後果。",
+      "second_why": "too_long(383)",
+      "second_text": "文章主要討論教堂面臨的危機及其後續處理。題幹問「報告談論什麼」，文中明確指出「When the time comes for a church to close, there is little to do but to sell it. Churches that were lucky enough to find a buyer were put to other uses. Some were changed into restaurants or school gyms, and some even became nightclubs」，詳細說明關閉教堂的處置方式，故(C)正確。(A)錯誤，文中未討論教堂金錢的具體用途；(B)錯誤，文章未涉及人們如何決定加入教堂；(D)錯誤，雖提及人數下降的現象，但重點不在解釋原因，而在描述危機及教堂關閉後的命運。"
+    }
+  }
+}

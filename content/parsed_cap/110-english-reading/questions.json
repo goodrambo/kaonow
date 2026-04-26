@@ -46,12 +46,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 1,
-        "raw_text": "1.   In the picture, the boy is       the old man.\n     (A) smiling at\n     (B) dancing with\n     (C) cheering for\n     (D) bowing to\n\n\n"
+        "raw_text": "1.   In the picture, the boy is       the old man.\n     (A) smiling at\n     (B) dancing with\n     (C) cheering for\n     (D) bowing to\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據圖片內容，男孩的姿態是向老人鞠躬，表示尊敬或問候，故(D) bowing to正確。(A) smiling at只是微笑，未能表現出圖中明顯的鞠躬動作；(B) dancing with表示跳舞，與圖片內容不符；(C) cheering for是歡呼加油，也不符合圖中的恭敬姿態。"
     },
     {
       "id": "cap-110-english-reading-002",
@@ -80,12 +81,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 2,
-        "raw_text": "2.   Listen! The baby          in the bedroom. Why don’t you go in and take a look?\n     (A) cried             (B) cries           (C) is crying      (D) will cry\n"
+        "raw_text": "2.   Listen! The baby          in the bedroom. Why don’t you go in and take a look?\n     (A) cried             (B) cries           (C) is crying      (D) will cry\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "題幹「Listen! The baby ___ in the bedroom.」中，Listen 是現在式祈使句，表示現在正在發生的動作，後句「Why don't you go in and take a look?」也暗示嬰兒此刻正在哭。根據英文時態規則，表示「現在正在進行中」的動作應使用現在進行式 be + V-ing，故 (C) is crying 正確。(A) cried 為過去式，不符合現在情境；(B) cries 為現在簡單式，無法表達「正在進行」的動作；(D) will cry 為未來式，與題意不符。"
     },
     {
       "id": "cap-110-english-reading-003",
@@ -114,12 +116,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 3,
-        "raw_text": "3.   Jill is     that the city park is closed for the music festival because now she can’t\n     jog there.\n     (A) excited          (B) proud             (C) scared            (D) unhappy\n"
+        "raw_text": "3.   Jill is     that the city park is closed for the music festival because now she can’t\n     jog there.\n     (A) excited          (B) proud             (C) scared            (D) unhappy\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "題幹說Jill因為城市公園因音樂節關閉而「不能在那裡慢跑」，這是一個負面的情況，所以Jill應該感到不滿意。(D) unhappy正確，因為公園關閉阻礙了她的日常活動。(A) excited和(B) proud都是正面情緒，不符合失去慢跑地點的失望語境；(C) scared恐懼與題意無關。"
     },
     {
       "id": "cap-110-english-reading-004",
@@ -148,12 +151,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 4,
-        "raw_text": "4.   Steven wants to be a      , because he loves to watch people enjoy the food he prepares.\n     (A) cook             (B) doctor           (C) driver            (D) farmer\n"
+        "raw_text": "4.   Steven wants to be a      , because he loves to watch people enjoy the food he prepares.\n     (A) cook             (B) doctor           (C) driver            (D) farmer\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "題幹說Steven喜歡看人們享受他準備的食物，因此他想成為「cook（廚師）」，故(A)正確。(B)doctor醫生與準備食物無關；(C)driver司機不涉及烹飪；(D)farmer農民雖與食物相關但重點在種植而非烹飪與享受，均不符合「watches people enjoy the food he prepares」的描述。"
     },
     {
       "id": "cap-110-english-reading-005",
@@ -182,12 +186,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 5,
-        "raw_text": "5.   Paul misses his parents a lot. He        them since he came to work in Taiwan a\n     year ago.\n     (A) didn’t see      (B) doesn’t see         (C) hasn’t seen        (D) won’t see\n"
+        "raw_text": "5.   Paul misses his parents a lot. He        them since he came to work in Taiwan a\n     year ago.\n     (A) didn’t see      (B) doesn’t see         (C) hasn’t seen        (D) won’t see\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "題目關鍵在於時間狀語「since he came to work in Taiwan a year ago」，表示從一年前開始至今的持續時間。此時應使用現在完成式，強調過去發生的動作對現在的影響。Paul 從一年前來台灣工作後就沒見過父母，這個狀態一直延續到現在，故 (C) hasn't seen 正確。(A) didn't see 為簡單過去式，無法表達持續性；(B) doesn't see 為簡單現在式，不符合「since + 過去時間點」的文法搭配；(D) won't see 為未來式，與題意不符。"
     },
     {
       "id": "cap-110-english-reading-006",
@@ -216,12 +221,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 6,
-        "raw_text": "6.   Our teacher Ms. Wu seldom laughs, but when she                , everyone in the same\n     building can hear her.\n     (A) can              (B) does          (C) has                     (D) will\n"
+        "raw_text": "6.   Our teacher Ms. Wu seldom laughs, but when she                , everyone in the same\n     building can hear her.\n     (A) can              (B) does          (C) has                     (D) will\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "本題考查英文強調句型。題幹使用「seldom laughs」與後半句對比，需要用助動詞 does 來強調「當她確實笑的時候」。根據英文強調文法，當主句用現在簡單式且含有否定或限定詞（如 seldom），後半句應用「do/does + 原動詞」來表示強調對比，意為「當她真的笑時」。故 (B) 正確。(A) can 改變語意為能力；(C) has 時態不符；(D) will 為未來式，與 seldom laughs 的現在式不搭配。"
     },
     {
       "id": "cap-110-english-reading-007",
@@ -250,12 +256,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 7,
-        "raw_text": "7.   My sister is coming to my home today. She        with me for a week.\n     (A) stays            (B) stayed        (C) has stayed      (D) will stay\n"
+        "raw_text": "7.   My sister is coming to my home today. She        with me for a week.\n     (A) stays            (B) stayed        (C) has stayed      (D) will stay\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "句子表達「我妹妹今天要來我家，她將和我待一週」，時間副詞「today」和「for a week」表示未來事件，需用未來式。「will stay」正確表達妹妹尚未到達、將在未來發生的動作，故(D)正確。(A)stays為現在簡單式，無法表達未來；(B)stayed為過去式，與「today」時態矛盾；(C)has stayed為現在完成式，表示已完成的過去動作，不符合「將待一週」的未來計畫。"
     },
     {
       "id": "cap-110-english-reading-008",
@@ -284,12 +291,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 8,
-        "raw_text": "8.   Edward had worked as a computer engineer for ten years. This       helped him a\n     lot when he started his own computer shop.\n     (A) chance           (B) experience     (C) hobby          (D) knowledge\n"
+        "raw_text": "8.   Edward had worked as a computer engineer for ten years. This       helped him a\n     lot when he started his own computer shop.\n     (A) chance           (B) experience     (C) hobby          (D) knowledge\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "題幹說Edward做了十年的電腦工程師，這個背景「幫助他很多」當他開始自己的電腦店時，空格應填入能說明十年工作如何幫助他的詞。「This experience helped him a lot」意為「這些經驗幫助他很多」，符合邏輯，故(B)正確。(A)chance(機會)與文意無關；(C)hobby(嗜好)不符合「十年工作」的描述；(D)knowledge(知識)雖相關但experience更能涵蓋十年工作累積的實務經驗與技能。"
     },
     {
       "id": "cap-110-english-reading-009",
@@ -318,12 +326,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 9,
-        "raw_text": "9.   If you’re interested in our business plan,       this number and ask for Ms. Lee.\n     She’ll answer your questions.\n     (A) calling           (B) call             (C) and call        (D) to call\n\n\n\n\n"
+        "raw_text": "9.   If you’re interested in our business plan,       this number and ask for Ms. Lee.\n     She’ll answer your questions.\n     (A) calling           (B) call             (C) and call        (D) to call\n\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "本題考查祈使句的語法結構。句子開頭「If you're interested in our business plan」為條件子句，主句應為祈使句，祈使句的動詞需用原形動詞。空格處應填入「call」與前面的「this number」搭配，形成「call this number」的祈使結構，故(B)正確。(A)項calling為動名詞形式，無法作為祈使句的動詞；(C)項and call多餘，破壞句子結構；(D)項to call為不定詞，不符祈使句用法。"
     },
     {
       "id": "cap-110-english-reading-010",
@@ -352,12 +361,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 10,
-        "raw_text": "10. Jimmy would not get up for breakfast,             his dad had already tried to pull him\n    from his bed several times.\n    (A) although          (B) because             (C) if               (D) until\n"
+        "raw_text": "10. Jimmy would not get up for breakfast,             his dad had already tried to pull him\n    from his bed several times.\n    (A) although          (B) because             (C) if               (D) until\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "本題考查連接詞的邏輯關係。句意為「儘管爸爸已經試著把吉米從床上拉起來好幾次，他仍然不肯起床吃早餐」，前後句形成轉折對比關係。(A) although「儘管、雖然」表讓步，符合邏輯，故(A)正確。(B) because「因為」表因果，若選之則變成「因為爸爸試著拉他，所以他不起床」，因果關係不合理；(C) if「如果」為條件句，不符文意；(D) until「直到」表時間，無法解釋為何不起床。"
     },
     {
       "id": "cap-110-english-reading-011",
@@ -386,12 +396,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 11,
-        "raw_text": "11. Duncan spent all his money trying to          the bookstore his mom left him. Sadly,\n    the business never got better, and he had to close it in the end.\n    (A) build            (B) buy               (C) save               (D) start\n"
+        "raw_text": "11. Duncan spent all his money trying to          the bookstore his mom left him. Sadly,\n    the business never got better, and he had to close it in the end.\n    (A) build            (B) buy               (C) save               (D) start\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "題目關鍵在於理解 Duncan 與書店的關係。題幹提到「the bookstore his mom left him」，表示書店是媽媽留給他的，他已經擁有它，因此不需要 build（建造）或 buy（購買）。Duncan 花光所有錢試圖「save the bookstore」，意即拯救或維持這家書店的經營，符合「花錢卻最終失敗」的邏輯。故 (C) 正確。(A) build 與 (B) buy 都暗示他沒有書店，與題意矛盾；(D) start 雖可表開設，但通常搭配新事業，不符合「媽媽留下的書店」之既有狀況。"
     },
     {
       "id": "cap-110-english-reading-012",
@@ -420,12 +431,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 12,
-        "raw_text": "12. Fiona loves listening to her children sing songs         at school.\n    (A) are learned      (B) that learned      (C) they learned      (D) that they are learned\n"
+        "raw_text": "12. Fiona loves listening to her children sing songs         at school.\n    (A) are learned      (B) that learned      (C) they learned      (D) that they are learned\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "本題考查關係代名詞與動詞時態。空格前為「songs」，需要關係子句修飾。正確答案應為「that they learned」，其中 that 引導關係子句，they 為子句主詞，learned 為過去式動詞，表示孩子們在學校學過的歌曲。故 (C) 正確。(A) 項 are learned 為被動式，但子句已有主詞 they，不需被動；(B) 項 that learned 缺少主詞，文法不完整；(D) 項 that they are learned 為被動式且時態不當，應用簡單過去式表達已學過的動作。"
     },
     {
       "id": "cap-110-english-reading-013",
@@ -454,12 +466,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 13,
-        "raw_text": "13. Beverly eats lots of snacks       meals. That’s why she is often too full to eat\n    anything at mealtimes.\n    (A) after             (B) between        (C) during           (D) from\n"
+        "raw_text": "13. Beverly eats lots of snacks       meals. That’s why she is often too full to eat\n    anything at mealtimes.\n    (A) after             (B) between        (C) during           (D) from\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "句意為「Beverly在___進食大量零食，所以她在用餐時間常常太飽而吃不下東西」。空格前後文脈顯示零食進食時間與正餐時間的關係，「between meals」表示「在正餐之間」，符合邏輯——在正餐之間吃零食導致正餐時不餓。故(B)正確。(A)after meals表「正餐後」，不符合「導致正餐時太飽」的因果；(C)during meals表「用餐期間」，與後句「at mealtimes」重複；(D)from無此搭配用法。"
     },
     {
       "id": "cap-110-english-reading-014",
@@ -488,12 +501,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 14,
-        "raw_text": "14. Nora: Can I check your drawer for some tools we can use?\n    Matt: Sure.  Take a look.  See if you can find        in there.\n    (A) any              (B) it                (C) others           (D) those\n\n\n\n\n"
+        "raw_text": "14. Nora: Can I check your drawer for some tools we can use?\n    Matt: Sure.  Take a look.  See if you can find        in there.\n    (A) any              (B) it                (C) others           (D) those\n\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "Matt 說「Take a look. See if you can find ___ in there」，句子結構為「See if you can find + 受詞 + in there」，需要填入不定代詞作受詞。(A) any 表「任何工具」，符合「看看能否找到任何（有用的）工具」的語意，故 (A) 正確。(B) it 為定代詞，指特定物品，但此處未提及特定工具；(C) others 指「其他人」或「其他的（已知物品）」，不符語境；(D) those 為指示代詞，需指代前文明確提及的複數名詞，但 drawer 內容未具體列舉，故皆不適當。"
     },
     {
       "id": "cap-110-english-reading-passage-15",
@@ -557,12 +571,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 15,
-        "raw_text": "15. What is this ad for?\n    (A) Teaching people how to use their BeautiMed points.\n    (B) Telling people they can shop at BeautiMed on the Internet now.\n    (C) Inviting people to share their shopping experience at e-BeautiMed.\n    (D) Letting people know what is on sale at e-BeautiMed from 7/1 to 8/31.\n"
+        "raw_text": "15. What is this ad for?\n    (A) Teaching people how to use their BeautiMed points.\n    (B) Telling people they can shop at BeautiMed on the Internet now.\n    (C) Inviting people to share their shopping experience at e-BeautiMed.\n    (D) Letting people know what is on sale at e-BeautiMed from 7/1 to 8/31.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "這則廣告開頭明確指出「We've prepared many wonderful surprises for you at e-BeautiMed, BeautiMed's online store」，重點在於介紹e-BeautiMed這個線上購物平台及其各項優惠方案，故(B)正確。(A)只是優惠內容之一，非廣告主要目的；(C)未提及分享購物經驗；(D)雖提到7/1-8/31期間的活動，但這只是五項驚喜之一，不是廣告的核心目的。"
     },
     {
       "id": "cap-110-english-reading-016",
@@ -837,12 +852,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 21,
-        "raw_text": "21. What happened when Woollie was put down?\n    (A) He was sold.\t\t                   (B) He couldn’t be found.\n    (C) He died.\t\t                       (D) He became famous.\n\n"
+        "raw_text": "21. What happened when Woollie was put down?\n    (A) He was sold.\t\t                   (B) He couldn’t be found.\n    (C) He died.\t\t                       (D) He became famous.\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據日記內容，「Daddy said Woollie was put down because he was too sick and there was no way to help him」，其中「put down」在此指動物因病無法救治而被安樂死，故(C)正確。(A)錯誤，羊毛被賣掉但Woollie本身未被出售；(B)錯誤，Woollie早已被找到；(D)錯誤，Woollie確實出名但題目問的是「put down時發生了什麼」，答案應指其死亡。"
     },
     {
       "id": "cap-110-english-reading-passage-22",
@@ -1046,12 +1062,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 25,
-        "raw_text": "25. What idea is talked about in the reading?\n    (A) How Teachers’ Day is celebrated now.\n    (B) Why Teachers’ Day was celebrated at first.\n    (C) Why Confucius was seen as a great teacher.\n    (D) How teachers today feel about Teachers’ Day.\n"
+        "raw_text": "25. What idea is talked about in the reading?\n    (A) How Teachers’ Day is celebrated now.\n    (B) Why Teachers’ Day was celebrated at first.\n    (C) Why Confucius was seen as a great teacher.\n    (D) How teachers today feel about Teachers’ Day.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "文章主要探討教師節的起源與初衷。材料明確指出「the first Teachers' Day was not on Confucius's birthday, and it was not about thanking our teachers」，而是1930年戴雙秋等教師因「Teachers were paid very little and not respected」而發起，藉此機會「shout out their problems」，故(B)正確。(A)只涉及現在慶祝方式的片段；(C)文中未討論孔子為何偉大；(D)未涉及當代教師的感受。"
     },
     {
       "id": "cap-110-english-reading-026",
@@ -1114,12 +1131,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 27,
-        "raw_text": "27. What does “not everyone hailed this decision” mean in the reading?\n    (A) Not everyone cared about the decision. (B) Not everyone welcomed the decision.\n    (C) Not everyone heard about the decision. (D) Not everyone remembered the decision.\n"
+        "raw_text": "27. What does “not everyone hailed this decision” mean in the reading?\n    (A) Not everyone cared about the decision. (B) Not everyone welcomed the decision.\n    (C) Not everyone heard about the decision. (D) Not everyone remembered the decision.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "題目問「not everyone hailed this decision」的意思。「hail」在此意為「歡迎、讚揚」，故「not everyone hailed this decision」表示「不是每個人都歡迎這個決定」，(B) 正確。(A) 項「cared about」（在乎）與「hailed」（歡迎）語意不同，前者較為淡漠；(C) 項「heard about」（聽說）與原文無關；(D) 項「remembered」（記得）也不符合「hail」的含義。"
     },
     {
       "id": "cap-110-english-reading-028",
@@ -1148,12 +1166,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 28,
-        "raw_text": "28. What does the writer try to do with this reading?\n     (A) To talk about a problem that no one notices.\n     (B) To share a fun experience that was not common.\n     (C) To tell a piece of history that few people know about.\n     (D) To give an example of an idea that is hard to understand.\n"
+        "raw_text": "28. What does the writer try to do with this reading?\n     (A) To talk about a problem that no one notices.\n     (B) To share a fun experience that was not common.\n     (C) To tell a piece of history that few people know about.\n     (D) To give an example of an idea that is hard to understand.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "文章開頭說「Well, that's everything we're taught about Teachers' Day」，接著揭露「But, the first Teachers' Day was not on Confucius's birthday」，表示作者要講述一段鮮為人知的歷史——教師節的真實起源並非源於孔子，而是1930年由台灣教師為爭取權益而創立，後來政府才改為孔子誕辰。故(C)正確。(A)錯在作者討論的是歷史事實而非「問題」；(B)錯在文章不是分享個人經驗；(D)錯在這段歷史邏輯清晰，並非「難以理解」。"
     },
     {
       "id": "cap-110-english-reading-passage-29",

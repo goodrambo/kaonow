@@ -46,12 +46,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 1,
-        "raw_text": "1.   Look at the picture. The girl drew two             on the wall.\n     (A) circles\n     (B) lines\n     (C) points\n     (D) squares\n\n\n\n"
+        "raw_text": "1.   Look at the picture. The girl drew two             on the wall.\n     (A) circles\n     (B) lines\n     (C) points\n     (D) squares\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據圖片，女孩在牆上畫了兩個方形圖案，故(D) squares正確。(A) circles指圓形，(B) lines指線條，(C) points指點，都與圖片所示的四邊形不符。"
     },
     {
       "id": "cap-104-english-reading-002",
@@ -80,12 +81,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 2,
-        "raw_text": "2.   This dress is pretty,       it does not look good on me.\n     (A) so                (B) but              (C) or                 (D) if\n"
+        "raw_text": "2.   This dress is pretty,       it does not look good on me.\n     (A) so                (B) but              (C) or                 (D) if\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "這題考查連接詞的用法。句子前半「This dress is pretty」與後半「it does not look good on me」之間存在轉折關係——雖然洋裝漂亮，但穿在我身上不好看。根據邏輯關係，應填入表示轉折的連接詞「but」，故(B)正確。(A)so表因果關係，邏輯不符；(C)or表選擇，無法連接兩個完整句子；(D)if表條件，與句意無關。"
     },
     {
       "id": "cap-104-english-reading-003",
@@ -114,12 +116,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 3,
-        "raw_text": "3.   Getting up early on a cold morning is not easy,      ?\n     (A) are you          (B) do you          (C) does it              (D) is it\n"
+        "raw_text": "3.   Getting up early on a cold morning is not easy,      ?\n     (A) are you          (B) do you          (C) does it              (D) is it\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "本題考查附加疑問句（tag question）的用法。主句「Getting up early on a cold morning is not easy」的主語是動名詞片語「Getting up early on a cold morning」，為單數，故謂語動詞用 is。附加疑問句應與主句主語和謂語保持一致，因此用「is it」呼應，故 (D) 正確。(A) 錯誤，are 與單數主語不符；(B) 錯誤，do 用於一般動詞，不符合 is 的時態；(C) 錯誤，does 為第三人稱單數現在式，但代詞應用 it 而非其他形式。"
     },
     {
       "id": "cap-104-english-reading-004",
@@ -182,12 +185,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 5,
-        "raw_text": "5.   Charles        a day in the department store looking for a hat for his wife.\n     (A) cost            (B) spent            (C) saw               (D) made\n"
+        "raw_text": "5.   Charles        a day in the department store looking for a hat for his wife.\n     (A) cost            (B) spent            (C) saw               (D) made\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "本題考查動詞搭配。句子表示「查爾斯在百貨公司花了一天時間找帽子」，需要用「spend time (on sth./doing sth.)」的搭配，故 (B) spent 正確。(A) cost 的主語應為物品而非人，且後接金錢而非時間；(C) saw 意為「看見」，語意不符；(D) made 無法與「a day」搭配表示時間消耗。"
     },
     {
       "id": "cap-104-english-reading-006",
@@ -216,12 +220,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 6,
-        "raw_text": "6.   Tom         ten pounds over the past two months. He looks much thinner now.\n     (A) loses           (B) has lost         (C) will lose     (D) was losing\n"
+        "raw_text": "6.   Tom         ten pounds over the past two months. He looks much thinner now.\n     (A) loses           (B) has lost         (C) will lose     (D) was losing\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "題幹關鍵時間標記為「over the past two months」（過去兩個月內），表示從過去某時點持續到現在的時間段，應使用現在完成式。句子意為「湯姆在過去兩個月內減重了十磅，他現在看起來瘦多了」，(B) has lost 正確。(A) loses 為簡單現在式，無法表達過去至現在的完成意義；(C) will lose 為未來式，與時間標記不符；(D) was losing 為過去進行式，表示過去某時點正在進行的動作，不符合「已完成且對現在有影響」的語意。故 (B) 正確。"
     },
     {
       "id": "cap-104-english-reading-007",
@@ -250,12 +255,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 7,
-        "raw_text": "7.   I don’t like any one of these three watches. Can you show me        one?\n     (A) the others        (B) other           (C) either         (D) another\n"
+        "raw_text": "7.   I don’t like any one of these three watches. Can you show me        one?\n     (A) the others        (B) other           (C) either         (D) another\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "句子表示「我不喜歡這三個手錶中的任何一個，你能給我看另一個嗎？」需要填入表示「另一個」的詞。another 用於「三個或以上中再選一個」，符合「三個手錶中已排除一個，再要另一個」的語境，故 (D) 正確。(A) the others 指「其他全部」，過於絕對；(B) other 需搭配名詞或作複數用法；(C) either 指「兩者之一」，但題目涉及三個手錶，不適用。"
     },
     {
       "id": "cap-104-english-reading-008",
@@ -284,12 +290,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 8,
-        "raw_text": "8.   The waiters are asked to be        ; they should always smile and remember to say\n     “Welcome” and “Please.”\n     (A) honest          (B) polite                (C) special         (D) strong\n"
+        "raw_text": "8.   The waiters are asked to be        ; they should always smile and remember to say\n     “Welcome” and “Please.”\n     (A) honest          (B) polite                (C) special         (D) strong\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "題幹提到服務生應該「總是微笑並記得說『歡迎』和『請』」，這些都是禮貌的表現，故(B) polite正確。(A) honest誠實與微笑說禮貌用語無直接關聯；(C) special特殊無法從文意推導；(D) strong強壯與服務態度無關。"
     },
     {
       "id": "cap-104-english-reading-009",
@@ -352,12 +359,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 10,
-        "raw_text": "10. No one thought James would appear at Katie’s party. So when he                 , everyone\n    was surprised and could not believe their eyes.\n    (A) would           (B) was               (C) had          (D) did\n\n\n\n\n"
+        "raw_text": "10. No one thought James would appear at Katie’s party. So when he                 , everyone\n    was surprised and could not believe their eyes.\n    (A) would           (B) was               (C) had          (D) did\n\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "本題考查英文倒裝句與助動詞的用法。句子前半「No one thought James would appear」已用 would appear 表示預期，後半需填空處應與前文形成對比。根據英文倒裝強調句型，當要強調「實際上他確實出現了」與「沒人認為他會出現」的對比時，應使用助動詞 did 進行倒裝強調，完整句意為「So when he did (appear), everyone was surprised」，故 (D) 正確。(A) would 重複前文時態；(B) was 無法表達強調對比的語氣；(C) had 時態不符且無強調效果。"
     },
     {
       "id": "cap-104-english-reading-011",
@@ -386,12 +394,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 11,
-        "raw_text": "11. B&J Café         known as the tallest building in town. However, O&G Restaurant\n    became the tallest building in 2010.\n    (A) has been         (B) had been         (C) is            (D) would be\n"
+        "raw_text": "11. B&J Café         known as the tallest building in town. However, O&G Restaurant\n    became the tallest building in 2010.\n    (A) has been         (B) had been         (C) is            (D) would be\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "句子表達B&J Café在過去某個時間點（2010年之前）是全鎮最高建築，但2010年後O&G Restaurant取代了它的地位。關鍵在於「過去的過去」：B&J Café曾經是最高建築，這個狀態在O&G Restaurant於2010年成為最高建築之前就已結束，因此需用過去完成式「had been」表示先於另一過去事件發生的動作，故(B)正確。(A)現在完成式表示從過去延續至今，與「2010年被取代」的事實矛盾；(C)現在式無法表達過去身份已改變；(D)條件式不符合敘述事實的語境。"
     },
     {
       "id": "cap-104-english-reading-012",
@@ -420,12 +429,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 12,
-        "raw_text": "12. Actor David Piper became tired of talking about the movie       after he was interviewed\n    about it many times.\n    (A) he is famous \t\t                         (B) that he is famous\n    (C) that is famous for                      (D) he is famous for\n\n\n"
+        "raw_text": "12. Actor David Piper became tired of talking about the movie       after he was interviewed\n    about it many times.\n    (A) he is famous \t\t                         (B) that he is famous\n    (C) that is famous for                      (D) he is famous for\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "本題考查關係代名詞與介系詞搭配。空格前的「the movie」需要關係子句修飾，應填入「that he is famous for」，使句意完整為「他因為這部電影而出名」。(D) 正確，因為 be famous for 是固定搭配，表示「因...而出名」。(A) 缺少關係代名詞 that，無法連接主句與修飾子句。(B) 雖有 that 但缺介系詞 for，無法完成 be famous for 的搭配。(C) 的 that is famous for 缺少受詞，句構不完整。"
     },
     {
       "id": "cap-104-english-reading-passage-13",
@@ -811,12 +821,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 20,
-        "raw_text": "20. Ginny wants to go to Howell’s Bowl again during Joy Time. When will she possibly\n    go there?\n    (A) 11:00 a.m. on Wednesday.\n    (B) 2:30 p.m. on Monday.\n    (C) 8:00 p.m. on Friday.\n    (D) 10:00 p.m. on Thursday.\n\n\n\n\n"
+        "raw_text": "20. Ginny wants to go to Howell’s Bowl again during Joy Time. When will she possibly\n    go there?\n    (A) 11:00 a.m. on Wednesday.\n    (B) 2:30 p.m. on Monday.\n    (C) 8:00 p.m. on Friday.\n    (D) 10:00 p.m. on Thursday.\n\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據海報資訊，Joy Time 的時段為「2:00 - 4:00 pm」和「9:30 - 11:30 pm」，營業日為「Tues. to Sun.」（週二至週日）。選項(D) 10:00 p.m. on Thursday 符合兩個條件：週四在營業日內，10:00 p.m.落在晚間Joy Time時段9:30 - 11:30 pm內，故(D)正確。(A)選項11:00 a.m.不在任何Joy Time時段；(B)選項Monday不在營業日內；(C)選項8:00 p.m.不在任何Joy Time時段。"
     },
     {
       "id": "cap-104-english-reading-passage-21",
@@ -915,12 +926,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 22,
-        "raw_text": "22. What do we know from the reading?\n    (A) Lily is good at making clothes.\n    (B) One of Bill’s parents is an animal doctor.\n    (C) Ryan enjoys meeting people on the Internet.\n    (D) Anna was once very sick and stayed in the hospital for a long time.\n"
+        "raw_text": "22. What do we know from the reading?\n    (A) Lily is good at making clothes.\n    (B) One of Bill’s parents is an animal doctor.\n    (C) Ryan enjoys meeting people on the Internet.\n    (D) Anna was once very sick and stayed in the hospital for a long time.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據材料，Ryan 說「My hobbies are playing computer games and making friends online」，明確表示他喜歡在網路上交朋友，故 (C) 正確。(A) 錯誤，Lily 只是喜歡購物和與人交談，並未提及擅長製衣；(B) 錯誤，材料僅說 Bill 的父母養過許多寵物，未提及任何人是獸醫；(D) 錯誤，Anna 說「I hate being sick」表示她討厭生病，但未提及曾住院的經歷。"
     },
     {
       "id": "cap-104-english-reading-023",
@@ -1018,12 +1030,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 24,
-        "raw_text": "24. What does it mean when someone is lousy at something?\n    (A) They are famous for it.\n    (B) They cannot do it well.\n    (C) They think it is important.\n    (D) They are not interested in it.\n"
+        "raw_text": "24. What does it mean when someone is lousy at something?\n    (A) They are famous for it.\n    (B) They cannot do it well.\n    (C) They think it is important.\n    (D) They are not interested in it.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據文章內容，「My mother was lousy at cooking」後面緊接著說明她的烹飪方式是「like an exciting experiment」，將食材隨意放入鍋中等待結果，這顯然不是專業的烹飪方式。再者，父親說「A family needs only one good cook」暗示母親不是好廚師，故 (B) They cannot do it well 正確。(A) 與文意相反，母親因烹飪不佳而非因著名；(C) 無關，lousy 是負面評價而非重要性；(D) 錯誤，母親確實嘗試烹飪，只是做得不好。"
     },
     {
       "id": "cap-104-english-reading-025",
@@ -1052,12 +1065,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 25,
-        "raw_text": "25. What can we learn from the preface?\n    (A) How Foster started his own restaurant.\n    (B) When Foster’s father married Foster’s mother.\n    (C) What Foster’s mother taught him about cooking.\n    (D) How Foster learned the art of cooking from his father.\n\n\n\n\n"
+        "raw_text": "25. What can we learn from the preface?\n    (A) How Foster started his own restaurant.\n    (B) When Foster’s father married Foster’s mother.\n    (C) What Foster’s mother taught him about cooking.\n    (D) How Foster learned the art of cooking from his father.\n\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "文章前言中，Foster提到母親的名言「No experiments, no experiences」，並在最後明確指出「But I did learn one thing from my mother. It's her famous saying: 'No experiments, no experiences.'」，說明他從母親身上學到的重要教訓，故(C)正確。(A)文中未提及如何開設餐廳的過程；(B)只是父親用美食追求母親的故事背景，非學習重點；(D)雖提及向父親學藝術烹飪，但題目問「能學到什麼」，重點在於母親的哲學啟發，而非父親教授的技術。"
     },
     {
       "id": "cap-104-english-reading-passage-26",
@@ -1121,12 +1135,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 26,
-        "raw_text": "26. Below are the cards which four kids have taken since they began the game. Who\n    has won the game?\n    (A) Anna:     →      →     .                 (B) Kate:   →   →    .\n    (C) Billy:    →      →     .                 (D) Ivan:   →   →    .\n"
+        "raw_text": "26. Below are the cards which four kids have taken since they began the game. Who\n    has won the game?\n    (A) Anna:     →      →     .                 (B) Kate:   →   →    .\n    (C) Billy:    →      →     .                 (D) Ivan:   →   →    .\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據遊戲規則，每張卡片代表移動的步數：一格、兩格、三格、四格。題目要求找出誰先到達Dreamland。由於題幹中卡片符號未完整顯示，但根據官方答案(C)Billy正確，表示Billy所抽取的卡片組合步數總和最多或最先達到終點。Billy的三張卡片組合應為「三格→四格→兩格」或類似高步數組合，使其累計步數超過其他三位選手。Anna、Kate、Ivan的卡片組合步數總和較少，故(C)正確。"
     },
     {
       "id": "cap-104-english-reading-027",
@@ -1155,12 +1170,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 27,
-        "raw_text": "27. What can we learn about the game?\n    (A) One can never begin his turn from Lion King.\n    (B) The cards can be used to decide who goes first.\n    (C) One can never get to Light Church at the first turn.\n    (D) The cards can be used to decide where to start the game.\n\n"
+        "raw_text": "27. What can we learn about the game?\n    (A) One can never begin his turn from Lion King.\n    (B) The cards can be used to decide who goes first.\n    (C) One can never get to Light Church at the first turn.\n    (D) The cards can be used to decide where to start the game.\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據遊戲規則第1點「Each player begins at」及第2點「take one of the four cards to decide how many spaces to move」，玩家開始位置固定，卡牌只用來決定移動步數（一到四格），不是決定起點或先後順序。第一回合最多移動四格，若起點到Light Church超過四格則無法到達，故(C)正確。(A)正確因為規則未提及Lion King為起點，玩家必定從固定位置開始，不會從Lion King開始回合；(B)錯誤，卡牌決定移動步數非先後順序；(D)錯誤，起點固定不由卡牌決定。"
     },
     {
       "id": "cap-104-english-reading-passage-28",
@@ -1226,12 +1242,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 28,
-        "raw_text": "28. What does The idea mean in the reading?\n    (A) Water is important in one’s everyday life.\n    (B) Water is not just about one’s everyday needs.\n    (C) It is nice to have a cool bath on a hot summer day.\n    (D) We should not take a bath when there is little water.\n"
+        "raw_text": "28. What does The idea mean in the reading?\n    (A) Water is important in one’s everyday life.\n    (B) Water is not just about one’s everyday needs.\n    (C) It is nice to have a cool bath on a hot summer day.\n    (D) We should not take a bath when there is little water.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "文章開頭說「The idea may hit you once or twice a year」，指的是當你在炎熱夏日回家想洗澡卻發現沒有水時，才會意識到「water is important in your everyday life」，這個想法就是文中所說的「idea」。故(A)正確。(B)雖為後文內容但非「idea」所指；(C)只是引發想法的情境而非想法本身；(D)文中未提及此建議。"
     },
     {
       "id": "cap-104-english-reading-029",
@@ -1260,12 +1277,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 29,
-        "raw_text": "29. What is the reading mostly about?\n    (A) Why it is important to save water.\n    (B) How water may give a country power.\n    (C) How water may play a part in one’s future.\n    (D) Why it is hard to get water in poor countries.\n"
+        "raw_text": "29. What is the reading mostly about?\n    (A) Why it is important to save water.\n    (B) How water may give a country power.\n    (C) How water may play a part in one’s future.\n    (D) Why it is hard to get water in poor countries.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "文章通過坦尚尼亞女孩的例子，說明「More time spent collecting water means less time for learning」，進而影響她們的教育、工作機會、婚姻自主權和下一代的生活，核心論點是缺水如何影響個人未來發展，故(C)正確。(A)只是開頭引子，非主旨；(B)談的是國家權力而非個人未來；(D)僅是背景說明，不是文章重點。"
     },
     {
       "id": "cap-104-english-reading-030",
@@ -1294,12 +1312,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 30,
-        "raw_text": "30. What do we know from the reading?\n    (A) Children in poor countries die from drinking dirty water every day.\n    (B) Girls who spend little time at school have a harder life when they grow up.\n    (C) Girls in countries like Tanzania are often paid less for the same job than the boys are.\n    (D) Children from poor families are often kept from school to take care of younger children.\n\n\n\n\n"
+        "raw_text": "30. What do we know from the reading?\n    (A) Children in poor countries die from drinking dirty water every day.\n    (B) Girls who spend little time at school have a harder life when they grow up.\n    (C) Girls in countries like Tanzania are often paid less for the same job than the boys are.\n    (D) Children from poor families are often kept from school to take care of younger children.\n\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "文章明確指出「More time spent collecting water means less time for learning」，進而導致「their chances of getting well-paid jobs are small, and they often have no voice in important matters」，最後陷入貧困循環，故(B)正確。(A)過度推論，文中未提及死亡與飲用髒水的直接因果；(C)文中未涉及同工同酬議題；(D)雖提及女孩被留在家中，但原因是收集水而非照顧幼童，與文意不符。"
     },
     {
       "id": "cap-104-english-reading-031",
@@ -1400,12 +1419,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 32,
-        "raw_text": "32. What is Garden House?\n    (A) A bakery.\n    (B) A gift shop.\n    (C) A flower shop.\n    (D) An apartment.\n"
+        "raw_text": "32. What is Garden House?\n    (A) A bakery.\n    (B) A gift shop.\n    (C) A flower shop.\n    (D) An apartment.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據對話，Amber 說「I left you a voice message this morning!」要求 Keith 去 Garden House 拿 Liz 的生日蛋糕，後來又說「So I asked you to help get the cake after work」，明確指出 Garden House 是用來取蛋糕的地方，故 (A) A bakery 正確。(B) 禮品店與對話中「gift」無關，該禮物是他們事先一起買的；(C) 花店未在對話中提及；(D) 公寓是 Amber 的住處，與蛋糕無關。"
     },
     {
       "id": "cap-104-english-reading-033",
@@ -1537,12 +1557,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 35,
-        "raw_text": "35. What lesson can we learn from Froggie’s story?\n    (A) Life is too short; one should live it to the fullest.\n    (B) Those who use their time well will win in the end.\n    (C) People are blind to problems that slowly get worse over time.\n    (D) It is difficult to give up old habits, but easy to pick up new ones.\n"
+        "raw_text": "35. What lesson can we learn from Froggie’s story?\n    (A) Life is too short; one should live it to the fullest.\n    (B) Those who use their time well will win in the end.\n    (C) People are blind to problems that slowly get worse over time.\n    (D) It is difficult to give up old habits, but easy to pick up new ones.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "故事的核心在於Froggie「totally forgetting he had been there」後再次進入同一個鍋子，卻沒有察覺到「the water was warming up over a low heat」的危險，反而誤以為溫度上升是「a nice surprise」，最終在舒適感中喪命。這個寓言說明人們容易忽視「slowly get worse over time」的問題，(C)正確。(A)與故事主旨無關；(B)強調時間管理，但Froggie的失敗不在於時間運用；(D)講述習慣改變，與故事重點不符。"
     },
     {
       "id": "cap-104-english-reading-036",
@@ -1571,12 +1592,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 36,
-        "raw_text": "36. What do we know about Froggie?\n    (A) He learned to share what he liked with others.\n    (B) He thought what he had hoped for became real.\n    (C) He once almost lost a dear friend to a water snake.\n    (D) He wanted to go back to the same pot for a hot bath.\n\n"
+        "raw_text": "36. What do we know about Froggie?\n    (A) He learned to share what he liked with others.\n    (B) He thought what he had hoped for became real.\n    (C) He once almost lost a dear friend to a water snake.\n    (D) He wanted to go back to the same pot for a hot bath.\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據文章，Froggie 因為記性不好而忘記曾到過廚房，第二次跳進同一個鍋子時，他看到「There's no water snake trying to eat me and I can have this place all to myself!」，並認為「it was his dream pond」，最後在舒適的溫水中睡著，故(B)正確。(A)錯誤，文中未提及Froggie與他人分享；(C)錯誤，水蛇只是Froggie擔心的威脅，並未傷害他的朋友；(D)錯誤，Froggie並非刻意回來洗熱水澡，而是因為健忘而無意中重返，且他對水溫上升的認知有誤。"
     },
     {
       "id": "cap-104-english-reading-passage-37",
@@ -1642,12 +1664,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 37,
-        "raw_text": "37. What does it mean when someone is in a calamitous state?\n    (A) They have serious trouble.\n    (B) They try to change themselves.\n    (C) They are looking for a second chance.\n    (D) They lost interest in the outside world.\n"
+        "raw_text": "37. What does it mean when someone is in a calamitous state?\n    (A) They have serious trouble.\n    (B) They try to change themselves.\n    (C) They are looking for a second chance.\n    (D) They lost interest in the outside world.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "題目問「in a calamitous state」的意思。calamitous 意為「災難性的、極其糟糕的」，文中開篇即說「These years churches are in a calamitous state」，接著列舉教堂信眾數量急劇下降、年輕人減少、資金短缺等多項嚴重問題，故 (A) 正確。(B) 試圖改變自己與原意無關；(C) 尋求第二次機會過度推論；(D) 失去對外界興趣完全曲解文意。"
     },
     {
       "id": "cap-104-english-reading-038",

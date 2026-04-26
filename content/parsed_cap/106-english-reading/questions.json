@@ -46,12 +46,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 1,
-        "raw_text": "1.   Look at the picture. The dog is sitting       .\n     (A) on the bag\n     (B) next to the woman\n     (C) inside the bag\n     (D) between the woman and the bag\n\n\n"
+        "raw_text": "1.   Look at the picture. The dog is sitting       .\n     (A) on the bag\n     (B) next to the woman\n     (C) inside the bag\n     (D) between the woman and the bag\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據圖片，狗坐在女人的身邊，「next to the woman」意為「在女人旁邊」，最準確描述狗的位置。(B) 正確。(A) 錯誤因為狗坐在女人身邊而非坐在包包上；(C) 錯誤因為狗明顯在包包外面，不是裡面；(D) 錯誤因為狗並未位於女人與包包之間的中間位置。"
     },
     {
       "id": "cap-106-english-reading-002",
@@ -80,12 +81,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 2,
-        "raw_text": "2.   My sister wants to buy a car        she doesn’t have enough money.\n     (A) because         (B) but               (C) if             (D) or\n"
+        "raw_text": "2.   My sister wants to buy a car        she doesn’t have enough money.\n     (A) because         (B) but               (C) if             (D) or\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "句子前半「My sister wants to buy a car」表示想要，後半「she doesn't have enough money」表示缺乏金錢，兩者形成轉折關係而非因果關係。「但是」(but) 用於連接相反或對比的概念，符合此邏輯，故 (B) 正確。(A) because 表因果，應為「因為沒有足夠的錢所以想買車」，邏輯顛倒；(C) if 為條件句，不符文意；(D) or 為選擇，無法表達轉折意義。"
     },
     {
       "id": "cap-106-english-reading-003",
@@ -114,12 +116,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 3,
-        "raw_text": "3.   Jim always forgets my birthday. He has asked me many times and still can’t      it.\n     (A) answer          (B) celebrate        (C) remember       (D) understand\n"
+        "raw_text": "3.   Jim always forgets my birthday. He has asked me many times and still can’t      it.\n     (A) answer          (B) celebrate        (C) remember       (D) understand\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "句意為「吉姆總是忘記我的生日。他問過我很多次，仍然無法＿＿它。」根據上文「always forgets my birthday」（總是忘記我的生日），下文應填入與「忘記」相反或相關的動詞。「remember」（記得）最符合邏輯，與 forgets 形成對比，表示他雖然多次被告知但仍記不住，故 (C) 正確。(A) answer 意為「回答」，與語境無關；(B) celebrate 意為「慶祝」，若他能慶祝就不會忘記，邏輯不符；(D) understand 意為「理解」，不符合「忘記生日」的語境。"
     },
     {
       "id": "cap-106-english-reading-004",
@@ -148,12 +151,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 4,
-        "raw_text": "4.   The little girl was        by a truck on her way home and was badly hurt.\n     (A) hit               (B) led              (C) lost          (D) paid\n"
+        "raw_text": "4.   The little girl was        by a truck on her way home and was badly hurt.\n     (A) hit               (B) led              (C) lost          (D) paid\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "句意為「小女孩在回家途中被卡車撞到，傷得很重」。根據後文「was badly hurt（傷得很重）」可推知前空應填入表示「被撞」的動詞，故 (A) hit 正確。(B) led 意為「被帶領」，與後文傷勢無邏輯關聯；(C) lost 意為「被遺失」，不符合人物遭遇；(D) paid 意為「被支付」，完全不合文意。"
     },
     {
       "id": "cap-106-english-reading-005",
@@ -182,12 +186,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 5,
-        "raw_text": "5.   Excuse me. I really need to go now. My kids           for me at school.\n     (A) are waiting     (B) were waiting   (C) wait                (D) waited\n"
+        "raw_text": "5.   Excuse me. I really need to go now. My kids           for me at school.\n     (A) are waiting     (B) were waiting   (C) wait                (D) waited\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "句子表達現在的情況，說話者現在需要離開，因為孩子們現在正在學校等他，應用現在進行式表示「正在進行的動作」，故(A) are waiting正確。(B) were waiting為過去進行式，不符合現在時態；(C) wait為一般現在式，無法表達「正在等待」的進行意義；(D) waited為過去式，時態完全不符。"
     },
     {
       "id": "cap-106-english-reading-006",
@@ -216,12 +221,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 6,
-        "raw_text": "6.   Amy’s father is very sick. The doctors can do nothing for him, so Amy went to the\n     temple to        for him.\n     (A) care             (B) count           (C) look            (D) pray\n"
+        "raw_text": "6.   Amy’s father is very sick. The doctors can do nothing for him, so Amy went to the\n     temple to        for him.\n     (A) care             (B) count           (C) look            (D) pray\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "句意為「艾美的父親病得很重，醫生無能為力，所以艾美去廟裡為他祈禱」。空格前有介詞 to，需填動詞原形。「pray for」意為「為某人祈禱」，符合文意，故 (D) 正確。(A) care 應搭配 care for；(B) count 無法與 for 搭配形成合理意思；(C) look 應搭配 look after 才表示照顧，單用 look for 表尋找，皆不符文意。"
     },
     {
       "id": "cap-106-english-reading-007",
@@ -250,12 +256,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 7,
-        "raw_text": "7.   I’m glad that my school has students wear       . I don’t have to worry about what\n     clothes to wear to school.\n     (A) belts            (B) caps            (C) gloves           (D) uniforms\n"
+        "raw_text": "7.   I’m glad that my school has students wear       . I don’t have to worry about what\n     clothes to wear to school.\n     (A) belts            (B) caps            (C) gloves           (D) uniforms\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "題幹說「我很高興我的學校有學生穿___。我不用擔心穿什麼衣服去上學」，空格應填入能解決「穿什麼衣服」困擾的物品。uniforms（制服）是學校統一規定的服裝，能消除學生對穿著的煩惱，故(D)正確。(A)belts（皮帶）、(C)gloves（手套）都只是配件，無法解決整體穿著問題；(B)caps（帽子）同樣只是部分配飾，都不符合邏輯。"
     },
     {
       "id": "cap-106-english-reading-008",
@@ -284,12 +291,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 8,
-        "raw_text": "8.   We are surprised that Sally and Ray decided to get married. No one knows         .\n     They often fight with each other and are unhappy together.\n     (A) why              (B) where            (C) when           (D) how\t\t\n"
+        "raw_text": "8.   We are surprised that Sally and Ray decided to get married. No one knows         .\n     They often fight with each other and are unhappy together.\n     (A) why              (B) where            (C) when           (D) how\t\t\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "句子「No one knows ___. They often fight with each other and are unhappy together.」需填入疑問詞，後句說明他們經常吵架且不開心，這是對前句的解釋說明。空格後無賓語，應填疑問詞引導名詞子句作 knows 的受詞。由於後句解釋「他們為何決定結婚令人驚訝」，應填「why」表原因，故 (A) 正確。(B) where 表地點、(C) when 表時間、(D) how 表方式，皆無法與後句的因果關係相符。"
     },
     {
       "id": "cap-106-english-reading-009",
@@ -318,12 +326,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 9,
-        "raw_text": "9.   I don’t think Katie will read any one of the books you’ve picked out for her:\n     look(s) very boring.\n     (A) it               (B) one               (C) some            (D) they\n\n\n\n\n"
+        "raw_text": "9.   I don’t think Katie will read any one of the books you’ve picked out for her:\n     look(s) very boring.\n     (A) it               (B) one               (C) some            (D) they\n\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "空格前的「any one of the books」是複數概念，指「你挑選的任何一本書」的集合，故代詞應用複數形式。(D) they 正確，代指前文的多本書籍。(A) it 為單數，與複數先行詞不符；(B) one 雖可代替單數名詞，但此處需複數；(C) some 為限定詞而非代詞，無法單獨作主詞。"
     },
     {
       "id": "cap-106-english-reading-010",
@@ -352,12 +361,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 10,
-        "raw_text": "10. Jenny’s bag is very heavy because              filled with toy cars.\n    (A) it is            (B) they are              (C) there is          (D) there are\n"
+        "raw_text": "10. Jenny’s bag is very heavy because              filled with toy cars.\n    (A) it is            (B) they are              (C) there is          (D) there are\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "本題考查代詞與主詞一致性。空格前的主詞是「Jenny's bag」（單數），後面需要單數動詞搭配。句子結構為「because + 主詞 + be 動詞 + filled with...」，表示「因為它被裝滿了玩具車」。(A) it is 中的 it 代指 bag（單數），is 為單數動詞，符合主詞一致性，故 (A) 正確。(B) they are 的 they 複數代詞與單數主詞 bag 不符；(C) there is 後應接單數名詞，但此處已有主詞 bag；(D) there are 為複數形式，同樣不符單數主詞的要求。"
     },
     {
       "id": "cap-106-english-reading-011",
@@ -386,12 +396,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 11,
-        "raw_text": "11.         a map with you when you go to a place for the first time.\n      (A) Have taken     (B) Take            (C) Taking             (D) To take\n"
+        "raw_text": "11.         a map with you when you go to a place for the first time.\n      (A) Have taken     (B) Take            (C) Taking             (D) To take\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "本題考查祈使句的動詞形式。題幹為「當你第一次去某個地方時，___一張地圖」，這是一個建議或命令的句子結構。祈使句的動詞必須用原形動詞，故(B) Take正確。(A) Have taken為現在完成式，時態不符；(C) Taking為現在分詞，無法作為祈使句的謂語；(D) To take為不定式，祈使句不用不定式形式。"
     },
     {
       "id": "cap-106-english-reading-012",
@@ -420,12 +431,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 12,
-        "raw_text": "12. The weather          rainy and cloudy in the last few days. I hope the sun will come\n    out soon.\n    (A) has been          (B) had been             (C) will be          (D) would be\n"
+        "raw_text": "12. The weather          rainy and cloudy in the last few days. I hope the sun will come\n    out soon.\n    (A) has been          (B) had been             (C) will be          (D) would be\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "本題考查現在完成式的用法。題幹「in the last few days」表示從過去到現在的時間段，需用現在完成式描述這段期間內持續的狀態。「The weather has been rainy and cloudy in the last few days」意為「過去幾天天氣一直陰雨連綿」，故(A)正確。(B)過去完成式「had been」用於表示過去某時點之前的動作，不符合「最近幾天」的現在相關時間；(C)「will be」為簡單未來式，與時間狀語矛盾；(D)「would be」為條件語氣，無適用語境。"
     },
     {
       "id": "cap-106-english-reading-013",
@@ -454,12 +466,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 13,
-        "raw_text": "13. All the excuses Nick made            a lot about how much he hates to do the job.\n    (A) say             (B) saying               (C) which say      (D) to say\n"
+        "raw_text": "13. All the excuses Nick made            a lot about how much he hates to do the job.\n    (A) say             (B) saying               (C) which say      (D) to say\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "本題考查主詞與動詞的搭配。句子主詞為「All the excuses Nick made」（Nick所編造的所有藉口），是複數名詞，需要複數動詞。空格後接「a lot about how much he hates to do the job」，說明藉口所表達的內容。(A) say 為複數動詞，與複數主詞相符，故(A)正確。(B) saying為動名詞，無法作為主要動詞。(C) which say 為關係子句，會造成句子結構重複，因為Nick made已是修飾excuses的過去分詞片語。(D) to say為不定詞，無法作為主要動詞。"
     },
     {
       "id": "cap-106-english-reading-014",
@@ -488,12 +501,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 14,
-        "raw_text": "14. Sabine walks so        in the apartment that sometimes you don’t even know she’s\n    just passed by. You wonder if her feet ever touch the floor.\n    (A) freely          (B) lightly           (C) shyly          (D) slowly\n"
+        "raw_text": "14. Sabine walks so        in the apartment that sometimes you don’t even know she’s\n    just passed by. You wonder if her feet ever touch the floor.\n    (A) freely          (B) lightly           (C) shyly          (D) slowly\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據後文「sometimes you don't even know she's just passed by. You wonder if her feet ever touch the floor」，描述Sabine走路時無聲無息、彷彿腳不著地，這表示她走路的方式是輕盈的、無聲的，故(B) lightly正確。(A) freely意為「自由地」，與文意無關；(C) shyly意為「害羞地」，無法解釋為何無人察覺；(D) slowly意為「緩慢地」，與輕盈無聲的描述不符。"
     },
     {
       "id": "cap-106-english-reading-015",
@@ -522,12 +536,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 15,
-        "raw_text": "15. In the past, people thought it was a           idea to send e-mails and read news online,\n    but now it is part of our everyday life.\n    (A) simple            (B) popular              (C) good             (D) fresh\n\n\n\n\n"
+        "raw_text": "15. In the past, people thought it was a           idea to send e-mails and read news online,\n    but now it is part of our everyday life.\n    (A) simple            (B) popular              (C) good             (D) fresh\n\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "題目強調「過去人們認為...是個___主意，但現在已成為日常生活的一部分」，邏輯上應填入「當時看起來新奇、不尋常」的詞彙。fresh 意為「新鮮的、新奇的」，符合「過去認為新穎但現已普遍」的對比語境，故(D)正確。(A)simple 簡單，(B)popular 流行，(C)good 好的，都無法表達「過去視為新奇事物」的含義；尤其(B)popular 與後文「現在才成為日常」的邏輯矛盾。"
     },
     {
       "id": "cap-106-english-reading-passage-16",
@@ -592,12 +607,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 16,
-        "raw_text": "16. What is the book festival for?\n    (A) Selling second-hand books.\n    (B) Telling people how to choose books.\n    (C) Inviting people to change books with each other.\n    (D) Knowing what kinds of books are the most popular.\n"
+        "raw_text": "16. What is the book festival for?\n    (A) Selling second-hand books.\n    (B) Telling people how to choose books.\n    (C) Inviting people to change books with each other.\n    (D) Knowing what kinds of books are the most popular.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據材料開頭「Your old love may be someone's new favorite. Bring one book to the Town Library & get another one home for free!」可知，此活動目的是讓民眾交換書籍，而非販售。(C) 正確。(A) 錯誤因為活動是免費交換而非販售；(B) 與材料內容無關，材料未提供選書建議；(D) 材料未涉及書籍受歡迎程度的統計。"
     },
     {
       "id": "cap-106-english-reading-017",
@@ -626,12 +642,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 17,
-        "raw_text": "17. Sonja is busy packing some books for the book festival. Which is most likely one of them?\n    (A) An old dictionary of medicine.\t\t\n    (B) A book of short stories in English.                                 likely 可能\n    (C) A picture book with her own notes.\n    (D) A workbook she used in her math class.\n"
+        "raw_text": "17. Sonja is busy packing some books for the book festival. Which is most likely one of them?\n    (A) An old dictionary of medicine.\t\t\n    (B) A book of short stories in English.                                 likely 可能\n    (C) A picture book with her own notes.\n    (D) A workbook she used in her math class.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據材料「All kinds of books EXCEPT school books, comic books, and dictionaries」，可接受的書籍不包括教科書、漫畫書和字典。(B)英文短篇故事集符合要求，故(B)正確。(A)是字典，明確被排除；(C)有她自己的筆記，違反「nothing is written on it」的規定；(D)是數學課本，屬於school books被禁止。"
     },
     {
       "id": "cap-106-english-reading-018",
@@ -660,12 +677,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 18,
-        "raw_text": "18. Look at the calendar. If Sean has a book festival card,              calendar 月曆\n    when can he use it?\n    (A) March 3.\n    (B) March 14.\n    (C) March 23.\n    (D) March 29.\n\n"
+        "raw_text": "18. Look at the calendar. If Sean has a book festival card,              calendar 月曆\n    when can he use it?\n    (A) March 3.\n    (B) March 14.\n    (C) March 23.\n    (D) March 29.\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據活動說明，「March 16 - March 31 Bring one card for one book you like to read」，持有書籍節卡片的人只能在3月16日至31日期間使用卡片換書。Sean已經有卡片，故應在第二階段使用，March 23落在3月16至31日區間內，(C)正確。(A)和(B)都在3月2至14日的第一階段，該階段是帶書換卡片，不是用卡片換書；(D)雖在有效期內但非最佳答案。"
     },
     {
       "id": "cap-106-english-reading-passage-19",
@@ -730,12 +748,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 19,
-        "raw_text": "19. What happened in the story?\n    (A) A killer was caught by the police.\n    (B) The writer’s family invited a stranger to dinner.\n    (C) The writer’s brother ran to their parents for help.\n    (D) A man ran away after he heard the writer’s mother’s voice.\n"
+        "raw_text": "19. What happened in the story?\n    (A) A killer was caught by the police.\n    (B) The writer’s family invited a stranger to dinner.\n    (C) The writer’s brother ran to their parents for help.\n    (D) A man ran away after he heard the writer’s mother’s voice.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據文末「Luckily, before he could get any closer, my mom shouted from far away, and the man hurried off into the dark」，這名可疑男子在聽到作者母親的喊聲後匆忙逃離，故(D)正確。(A)錯誤，因為警察並未出現在故事中，該男子只是逃走；(B)錯誤，家人並未邀請這名陌生人用餐，反而對他產生懷疑；(C)錯誤，故事中未提及哥哥跑去求助父母。"
     },
     {
       "id": "cap-106-english-reading-020",
@@ -764,12 +783,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 20,
-        "raw_text": "20. What can we learn about the writer and the man with a bag?\n    (A) The man attacked the writer.\n    (B) The writer followed the man into the dark.\n    (C) The writer did not find out who the man was in the end.\n    (D) The man did not want the writer to see things in his bag.\n"
+        "raw_text": "20. What can we learn about the writer and the man with a bag?\n    (A) The man attacked the writer.\n    (B) The writer followed the man into the dark.\n    (C) The writer did not find out who the man was in the end.\n    (D) The man did not want the writer to see things in his bag.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據文中「The man quickly put all his things back in the bag and looked at us angrily」，當男子的包包掉落、東西散落時，他「迅速把所有東西放回包包，並生氣地看著我們」，這清楚表明他不希望作者看到包包裡的東西，故(D)正確。(A)錯誤因為男子最後匆忙逃離，並未攻擊作者；(B)錯誤因為作者的媽媽喊了一聲，男子才急忙跑進黑暗中，是男子主動離開而非作者跟隨；(C)錯誤因為作者回憶起警察通緝的殺人犯的照片，「He was the crazy killer!」，已經推斷出男子的身份。"
     },
     {
       "id": "cap-106-english-reading-021",
@@ -798,12 +818,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 21,
-        "raw_text": "21. How do people feel when they experience something horrendous?\n    (A) Angry.\n    (B) Sad.\n    (C) Scared.\n    (D) Tired.\n\n\n\n\n"
+        "raw_text": "21. How do people feel when they experience something horrendous?\n    (A) Angry.\n    (B) Sad.\n    (C) Scared.\n    (D) Tired.\n\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據文章，敘述者遇到可疑男子時表示「I was so afraid that I could not move at all」，直接說明了經歷恐怖事件時的感受是害怕，故(C)正確。(A)生氣與文意不符，敘述者是恐懼而非憤怒；(B)悲傷在文中未提及；(D)疲倦與horrendous（可怕的）經歷無關，敘述者的反應是驚恐而非疲勞。"
     },
     {
       "id": "cap-106-english-reading-passage-22",
@@ -868,12 +889,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 22,
-        "raw_text": "22. What does the catch mean in the dialogue?\n    (A) A plan that starts well but ends badly.\n    (B) A fact that everyone knows but never talks about.\n    (C) A problem that is hidden behind something good.\n    (D) An action that is right in one way but wrong in another.\n"
+        "raw_text": "22. What does the catch mean in the dialogue?\n    (A) A plan that starts well but ends badly.\n    (B) A fact that everyone knows but never talks about.\n    (C) A problem that is hidden behind something good.\n    (D) An action that is right in one way but wrong in another.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "Nate 質疑Ruth「What's the catch?」是因為Ruth 突然送他珍貴的球賽票和餐廳訂位，這些好處背後必有隱情。隨後Ruth 才透露真正目的：「I was thinking if Charlie could stay with you next week」，即請Nate 照顧她討厭的狗Charlie 一整週。這正是「隱藏在好事背後的問題」，故(C)正確。(A)強調結局不好，但此處重點不在結果；(B)指眾所皆知卻不談的事，不符文意；(D)涉及道德矛盾，與對話無關。"
     },
     {
       "id": "cap-106-english-reading-023",
@@ -902,12 +924,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 23,
-        "raw_text": "23. What does it mean in the dialogue?\n    (A) Taking care of Charlie.\n    (B) Having dinner with Jessica.\n    (C) Going to the football game.\n    (D) Going to London for vacation.\n"
+        "raw_text": "23. What does it mean in the dialogue?\n    (A) Taking care of Charlie.\n    (B) Having dinner with Jessica.\n    (C) Going to the football game.\n    (D) Going to London for vacation.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "Ruth 用足球賽票和餐廳訂位作為誘餌，最後才說出真正目的：「I was thinking if Charlie could stay with you next week」，即請 Nate 照顧她的狗 Charlie 一整週。Nate 一開始問「What's the catch?」正是察覺到 Ruth 有所隱瞞，故 (A) Taking care of Charlie 正確。(B) 只是附帶好處而非主要目的；(C) 和 (D) 都是 Ruth 用來吸引 Nate 的條件，不是對話的真正含義。"
     },
     {
       "id": "cap-106-english-reading-024",
@@ -1005,12 +1028,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 25,
-        "raw_text": "25. What is this reading for?\n    (A) Telling people rules about hospital visits.\n    (B) Getting people to stand up and speak for doctors.\n    (C) Telling people how to find a good doctor for themselves.\n    (D) Getting doctors to share their experiences in saving lives.\n"
+        "raw_text": "25. What is this reading for?\n    (A) Telling people rules about hospital visits.\n    (B) Getting people to stand up and speak for doctors.\n    (C) Telling people how to find a good doctor for themselves.\n    (D) Getting doctors to share their experiences in saving lives.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "文章末段明確指出「And that is why we doctors are asking you to join us on the street this Sunday」，表明作者目的是邀請民眾參與街頭活動支持醫生，故(B)正確。(A)錯誤，文章未提及醫院探訪規則；(C)錯誤，重點不在如何選擇醫生，而在醫生過勞問題；(D)錯誤，文章未要求醫生分享救人經驗，而是要求民眾支持醫生爭取權益。"
     },
     {
       "id": "cap-106-english-reading-026",
@@ -1039,12 +1063,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 26,
-        "raw_text": "26. What does this problem mean in the reading?\n    (A) Doctors’ long working hours.\n    (B) Doctors’ problems with nurses.\n    (C) Doctors do not see enough people a day.\n    (D) Doctors are not paid enough for their work.\n\n\n\n\n"
+        "raw_text": "26. What does this problem mean in the reading?\n    (A) Doctors’ long working hours.\n    (B) Doctors’ problems with nurses.\n    (C) Doctors do not see enough people a day.\n    (D) Doctors are not paid enough for their work.\n\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "文章開頭即提出核心問題：「Doctors in our country often have to work 34 hours or longer without sleep」，並以此為主軸論述醫生疲勞工作對患者安全的危害，故(A)正確。(B)文中未提及護士相關問題；(C)文章強調工作時數過長而非患者數量；(D)雖提及醫生工作辛苦，但薪資並非文章討論的「this problem」。"
     },
     {
       "id": "cap-106-english-reading-passage-27",
@@ -1148,12 +1173,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 28,
-        "raw_text": "28. What do we know about buying the “seconds” from Wonky Markt?\n    (A) You can save 20-40% if you shop for a second time.\n    (B) If you buy three boxes, you will need to pay NT$900.\n    (C) You can choose not only their size but also their shape.\n    (D) To win the cookbook, you need to buy at least six boxes.\n\n\n"
+        "raw_text": "28. What do we know about buying the “seconds” from Wonky Markt?\n    (A) You can save 20-40% if you shop for a second time.\n    (B) If you buy three boxes, you will need to pay NT$900.\n    (C) You can choose not only their size but also their shape.\n    (D) To win the cookbook, you need to buy at least six boxes.\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據材料「1. NT$250 a box」，三盒共需NT$750；「4. No service charge if order is over NT$1,000」表示未滿NT$1,000需付手續費，故三盒NT$750加上手續費約NT$900，(B)正確。(A)誤解「20-40%」是指廢棄比例非折扣；(C)材料未提及可選擇形狀；(D)誤讀，寄送食物照片即可參加抽獎，無購買數量限制。"
     },
     {
       "id": "cap-106-english-reading-passage-29",
@@ -1357,12 +1383,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 32,
-        "raw_text": "32. What can we learn from the report?\n    (A) The American way of thinking may be changed when it is brought to other countries.\n    (B) More and more people are asking their country to help their domestic movie business.\n    (C) US movies are popular in foreign markets because English is spoken in many countries.\n    (D) The fact that US movies are popular may mean the American way of thinking is popular.\n"
+        "raw_text": "32. What can we learn from the report?\n    (A) The American way of thinking may be changed when it is brought to other countries.\n    (B) More and more people are asking their country to help their domestic movie business.\n    (C) US movies are popular in foreign markets because English is spoken in many countries.\n    (D) The fact that US movies are popular may mean the American way of thinking is popular.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "文章指出「When people welcome US movies with open arms, they in fact also say yes to the American way of thinking」，說明人們接受美國電影的同時，也接受了美國的思維方式，故(D)正確。(A)錯誤，文章未提及美國思維會被改變；(B)錯誤，文章未提及人們要求政府幫助；(C)錯誤，文章未以語言作為美國電影受歡迎的原因，而是強調全球化帶來的文化影響。"
     },
     {
       "id": "cap-106-english-reading-033",

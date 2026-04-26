@@ -1,0 +1,36 @@
+{
+  "year": 106,
+  "subject": "english-reading",
+  "model": "claude-haiku-4-5-20251001",
+  "generated_at": "2026-04-26",
+  "failures": {
+    "24": {
+      "reason": "validation_failed",
+      "first_why": "too_long(329)",
+      "first_text": "根據對話，Ruth提到「And a table for two at Leeds」後，Nate立即驚訝地說「Leeds?! But I called them yesterday and they said they were all booked for the year!」，表明Nate對Ruth能夠訂到Leeds的位子感到驚訝，故(D)正確。(A)錯誤，Ruth說「this Friday I'm leaving for my vacation in London」，是這週五離開，不是下週六；(B)對話未提及飯店房間；(C)錯誤，Ruth說「You're my last hope」表示Nate是最後的希望，暗示她已問過其他人，而非第一個想到的人。",
+      "second_why": "too_long(319)",
+      "second_text": "根據對話，Ruth提到「And a table for two at Leeds」後，Nate立即驚訝地說「Leeds?! But I called them yesterday and they said they were all booked for the year!」，表明Nate對Ruth能夠訂到Leeds的位子感到驚訝，故(D)正確。(A)錯誤，Ruth說「this Friday I'm leaving for my vacation in London」，是這週五離開，不是下週六；(B)對話未提及倫敦飯店；(C)錯誤，Ruth說「You're my last hope」表示Nate是最後的希望，而非第一個想到的人。"
+    },
+    "27": {
+      "reason": "validation_failed",
+      "first_why": "too_long(325)",
+      "first_text": "根據材料，Wonky Markt 的核心關懷在於「these 'seconds' seldom arrive at your table, but often go straight into the trash can」，以及「supermarkets don't want to buy them from farmers—they believe their shoppers only love beautiful things」，說明「Seconds」被丟棄的原因是外觀不美，故(C)正確。(A)曲解材料，超市根本不賣「seconds」；(B)材料未提農民種植技術問題；(D)與材料主旨無關，材料重點不在消費者如何挑選，而在於外觀導致浪費。",
+      "second_why": "too_long(316)",
+      "second_text": "文章開頭指出「these 'seconds' seldom arrive at your table, but often go straight into the trash can」，並解釋原因是「supermarkets don't want to buy them from farmers—they believe their shoppers only love beautiful things」，說明Wonky Markt關心的核心問題是外觀不佳的農產品被丟棄的浪費現象。故(C)正確。(A)曲解文意，文章強調超市拒買而非低價販售；(B)無關，農民並非不知道如何種植；(D)與文章重點無關，文章未涉及消費者挑選知識。"
+    },
+    "29": {
+      "reason": "validation_failed",
+      "first_why": "too_long(299)",
+      "first_text": "根據材料第3點「Dashing Shuttle is the first in the country to open a bus line between Apple City and Orange Island」，說明該公司是「第一個」開設蘋果城至橙島的巴士線路，意即七月一日前沒有巴士往來這兩地，故(A)正確。(B)錯誤，材料未提及七月一日前芒果島的轉乘點；(C)錯誤，材料第4點說葡萄鎮線路停運，改為在番石榴鎮或香蕉鎮轉乘，並未說時間會減少；(D)錯誤，材料第1點明確指出「From July 1, we have three more buses」表示原本就有巴士往來桃城，只是增加班次。",
+      "second_why": "too_long(295)",
+      "second_text": "根據材料第3點「Dashing Shuttle is the first in the country to open a bus line between Apple City and Orange Island」，說明該公司是「第一個」開設此路線，表示七月一日前沒有巴士往來這兩城市，故(A)正確。(B)錯誤，材料未提及七月一日前往芒果島的路線；(C)錯誤，材料第4點說葡萄鎮路線停運，改為在番石榴鎮或香蕉鎮轉車，反而更麻煩，非更快；(D)錯誤，材料第1點提到「From July 1, we have three more buses」意指增加三班，暗示七月一日前已有巴士往來蜜桃城。"
+    },
+    "31": {
+      "reason": "validation_failed",
+      "first_why": "too_long(337)",
+      "first_text": "文章明確指出「globalization」的影響在於改變了電影市場的結構。材料中提到「Chart 2 shows the percentages (%) of domestic movies in the five countries in 1984 and in 2001」，並強調「domestic movies in the five countries are not doing well in their domestic market」，說明全球化導致各國本土電影在自身市場中的表現下滑，故(B)正確。(A)文中未提及電影製作方式的改變；(C)文章重點不在製片人聚集，而在市場份額變化；(D)文中未比較美國電影在國內外的收入差異，只提及其在國外市場的高佔有率。",
+      "second_why": "too_long(323)",
+      "second_text": "材料明確指出「globalization」的影響在於改變了電影市場的結構。文中提到「Chart 2 shows the percentages (%) of domestic movies in the five countries in 1984 and in 2001」，並強調「domestic movies in the five countries are not doing well in their domestic market」，說明全球化導致各國本土電影在自身市場的表現下滑，故(B)正確。(A)文中未提及電影製作方式的改變；(C)材料重點不在製片人的聚集，而在市場佔有率的變化；(D)文中未比較美國電影在國內外的收益差異。"
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "year": 105,
+  "subject": "english-reading",
+  "model": "claude-haiku-4-5-20251001",
+  "generated_at": "2026-04-26",
+  "failures": {
+    "3": {
+      "reason": "validation_failed",
+      "first_why": "too_long(295)",
+      "first_text": "本題考查感官動詞搭配分詞的用法。句子結構為「see + 受詞 + 分詞」，表示看到某人正在進行某動作。題幹「My cat got excited when it saw the boy ___ the birds」中，saw 後接受詞 the boy，需用現在分詞 catching 表示「看到男孩正在抓鳥」的進行狀態，故 (B) 正確。(A) catches 為第三人稱單數現在式，不符合感官動詞後的分詞結構；(C) to catch 為不定式，用於「see sb. do sth.」結構但此處已用 saw 過去式，應搭配分詞；(D) caught 為過去式，無法表達「正在進行」的意義。",
+      "second_why": "too_long(302)",
+      "second_text": "本題考查感官動詞搭配現在分詞的用法。句子結構為「see + 受詞 + 現在分詞」，表示「看到某人正在做某事」。原句「My cat got excited when it saw the boy catching the birds」意為「我的貓看到男孩正在抓鳥時感到興奮」，catching 作為現在分詞修飾 the boy，表示動作正在進行中，故 (B) 正確。(A) catches 為第三人稱單數現在式，無法在此位置使用；(C) to catch 為不定式，與 see 搭配時表示完整動作而非進行中的動作，不符語境；(D) caught 為過去式，與 saw 時態重複且無法表達「正在進行」的意義。"
+    },
+    "16": {
+      "reason": "validation_failed",
+      "first_why": "too_long(339)",
+      "first_text": "文章開頭說「Pinky Street...was almost lost to a big fire」，中段強調「we should never give up」和「we must do something together to get the old Pinky back」，最後宣布「There will be a meeting at 2:00 this Saturday afternoon at Town Office. Anyone who wants to help is welcome」，明確呼籲民眾參與會議共同想辦法拯救老街，故(C)正確。(A)只是火災原因，文中未探討；(B)談商業活動，與文意無關；(D)針對傷患救助，但文章重點在街道保護而非人員傷害。",
+      "second_why": "too_long(337)",
+      "second_text": "文章開頭說「Pinky Street...was almost lost to a big fire」，中段強調「we should never give up」與「we must do something together to get the old Pinky back」，最後宣布「There will be a meeting at 2:00 this Saturday afternoon at Town Office. Anyone who wants to help is welcome」，明確呼籲民眾參與會議共同想辦法拯救老街，故(C)正確。(A)只是火災原因，文中未探討；(B)談商業用途，與文意無關；(D)針對傷患，但文章重點在街道保護而非救援傷者。"
+    },
+    "20": {
+      "reason": "validation_failed",
+      "first_why": "too_long(290)",
+      "first_text": "根據閱讀材料，「Piso Island is adjacent to Wako Island, the biggest island in Gana, so it is only 15 minutes away by boat from Wako Island」，從「only 15 minutes away by boat」可知 adjacent to 表示距離很近，故 (B) Near 正確。(A) Like 為「喜歡」，與距離無關；(C) Bigger than 與文意不符，因為 Wako Island 才是最大的島；(D) Warmer than 文中未提及溫度比較。",
+      "second_why": "too_long(301)",
+      "second_text": "題目問 adjacent to 的意思。根據材料「Piso Island is adjacent to Wako Island, the biggest island in Gana, so it is only 15 minutes away by boat from Wako Island」，後句說明兩島相距只有 15 分鐘船程，足以推斷 adjacent to 表示「靠近、相鄰」，故 (B) Near 正確。(A) Like 為「喜歡」，與文意無關；(C) Bigger than 與材料中 Wako Island 才是最大島嶼的敘述矛盾；(D) Warmer than 文中未提及溫度比較。"
+    },
+    "21": {
+      "reason": "validation_failed",
+      "first_why": "too_long(391)",
+      "first_text": "根據通知「During the third week, the gym will be used for the High School Ball Games. Please go to the playground for the basketball classes of the week.」可知，第三週體育館被占用，籃球課改到操場上課，這表示其他週籃球課在體育館進行，故(C)正確。(A)錯誤，通知只提及7/4~7/31的時間範圍，未明確說明課程長度；(B)錯誤，通知明確指出「The school restaurant is closed」，學生需自帶午餐或提前告知班長訂餐；(D)錯誤，通知說「can be borrowed with your summer school card. Please find Mr. Shum」，只需帶卡片找Shum先生，無需提前告知。",
+      "second_why": "too_long(321)",
+      "second_text": "根據通知「During the third week, the gym will be used for the High School Ball Games. Please go to the playground for the basketball classes of the week.」可知，第三週體育館被佔用，籃球課改到操場上課，言外之意是其他週的籃球課在體育館進行，故(C)正確。(A)錯誤，通知只提及7/4~7/31但未明確說明共幾週；(B)錯誤，通知明確說「The school restaurant is closed」，學生只能自帶便當或提前一天告知班長訂餐；(D)錯誤，借舞蹈鞋只需找Shum先生，不需提前一天告知。"
+    },
+    "22": {
+      "reason": "validation_failed",
+      "first_why": "too_long(400)",
+      "first_text": "根據Tina的敘述，她提到「Mr. Reed was really crazy to give us so many new words」（英文課），「Ms. Grant asked us to draw a picture」（美術課），「two hours of PE classes in the afternoon」（下午兩小時體育課），以及「there was no computer class today」（沒有電腦課）。對照課表，週三（Wednesday）的課程為：09:30-10:30英文、10:40-11:40美術、13:30-14:30網球、14:40-15:40游泳，完全符合Tina的描述——有英文課、有美術課、下午有兩堂連續體育課（網球和游泳），且沒有電腦課。故(C)正確。(A)週一有電腦課，(B)週二沒有美術課，(D)週四下午是繪畫和籃球，不符合「兩小時PE」的描述。",
+      "second_why": "too_long(497)",
+      "second_text": "根據Tina的敘述，她提到「Mr. Reed was really crazy to give us so many new words」（英文課），「Ms. Grant asked us to draw a picture」（美術課），「two hours of PE classes in the afternoon」（下午兩小時體育課），以及「there was no computer class today」（沒有電腦課）。對照課表，週三（Wednesday）上午09:30-10:30為English、10:40-11:40為Painting，下午13:30-14:30為Tennis、14:40-15:40為Swimming，共四堂課且下午兩堂都是體育課，沒有Computer課；而其他日期若有英文和美術課，下午也不會恰好都是體育課，故(C)正確。(A)週一下午有Baseball和Tennis，不符合「兩小時PE」；(B)週二有Computer課，與「no computer class」矛盾；(D)週四下午有Painting和Basketball，不符合連續兩小時PE的描述。"
+    },
+    "23": {
+      "reason": "validation_failed",
+      "first_why": "too_long(315)",
+      "first_text": "詩中說話者反覆問「Will you be with me, my dear Lucy」，並懇求Lucy「stay with me and sing」來驅趕那些「kicking the door, riding the wind, pulling me down to their house under the ground」的東西，這些描寫暗示說話者感受到超自然的威脅。關鍵句「They'll go away if you sing here for me」表明說話者需要Lucy的陪伴來對抗恐懼，故(D)正確。(A)錯誤，黑貓只是比喻Lucy歌聲的威力；(B)無根據，詩未提及家庭成員；(C)錯誤，說話者尋求的是陪伴而非物品。",
+      "second_why": "too_long(301)",
+      "second_text": "詩中說話者反覆問「Will you be with me, my dear Lucy」，並懇求Lucy留下來唱歌，因為「They'll go away if you sing here for me」，這些「They」指的是鬼魂般的存在。關鍵在於說話者在面對「the wind keeps blowing」、「the door keeps opening」等詭異現象時，急切地需要Lucy的陪伴和歌聲來驅趕它們，顯示他害怕獨自面對這些幽靈般的東西，故(D)正確。(A)錯在黑貓只是比喻Lucy歌聲的威力，非真實存在；(B)無根據，詩未提及家庭成員；(C)錯在說話者尋求的是陪伴和保護，不是尋找遺失物品。"
+    },
+    "24": {
+      "reason": "validation_failed",
+      "first_why": "too_long(284)",
+      "first_text": "詩中主角Tommy多次懇求Lucy與他同在，並明確指出「Wish you could always be with me And make them go away with your Do-Re-Me」，說明Lucy能透過唱歌驅散恐懼，且回憶「last Halloween They ran away when you started to sing」，證實Lucy的歌聲具有保護作用，故(B)正確。(A)混淆了風和門的動作，非Lucy所為；(C)糖果是Tommy要找的東西，非Lucy的；(D)詩文未提Lucy去年萬聖節的位置，只說Tommy當時有Lucy的陪伴。",
+      "second_why": "too_long(339)",
+      "second_text": "詩中主角Tommy反覆懇求Lucy陪伴他，並說「Wish you could always be with me And make them go away with your Do-Re-Me」，表明Lucy能用歌聲驅趕令他害怕的東西。最後更強調「They'll go away if you sing here for me, In a voice that gets a black cat's hair standing」，說明Lucy的歌聲具有強大的力量，能讓主角感到安心，故(B)正確。(A)錯誤因為開門的是風而非Lucy；(C)錯誤因為糖果是Tommy要找的東西，不是Lucy藏的；(D)錯誤因為詩中說Lucy去年萬聖節唱歌趕走了怪物，表示她當時在場，並非不在家。"
+    },
+    "25": {
+      "reason": "validation_failed",
+      "first_why": "too_long(376)",
+      "first_text": "根據圖表，醫生說「That's easy!」是在回應士兵「how can I get out of my dangerous job?」的問題，醫生隨後解釋Rule 22的邏輯陷阱，最後說「You see, you're caught by Rule 22. You have no way out. You will still need to fly.」，這表示IT指的是士兵已經陷入無法逃脫的困境。圖表下方的流程圖顯示「want to stop → get crazy first BUT... already got crazy → will not want to stop」，說明士兵若真的瘋狂了，就不會想停止飛行，故(D)正確。(A)錯誤因為Rule 22實際上是無法逃脫的陷阱；(B)過於籠統，非題意；(C)只是背景設定，不是IT所指。",
+      "second_why": "too_long(312)",
+      "second_text": "根據圖表第7處醫生所說「That's easy!」中的「it」指的是前文士兵提出的問題「how can I get out of my dangerous job?」，醫生認為很簡單，接著解釋Rule 22的邏輯悖論：「If you are crazy, you won't worry about your life. Then you would never think you should stop flying airplanes.」意即只要士兵真的變瘋了，就不會想停止飛行，故(D)正確。(A)錯誤因為Rule 22恰恰相反是無法逃脫的悖論；(B)過於籠統且與題意無關；(C)雖是事實但不是「it」所指代的內容。"
+    },
+    "29": {
+      "reason": "validation_failed",
+      "first_why": "too_long(345)",
+      "first_text": "根據對話，Ellie說「I wouldn't say a dead fish is really her idea of a nice dinner, and this restaurant sells seafood」，暗示Olivia不喜歡海鮮。Alec回應「Now you're wrong about this one」，意指「你在這一點上錯了」，即「this one」指的是Ellie所說關於Olivia不喜歡海鮮的看法。故(D)正確。(A)只是餐廳販售的食物，非「this one」所指；(B)雖涉及Olivia與海鮮的關係，但「this one」指的是Alec對Ellie評論的反駁對象，即Olivia的飲食偏好本身；(C)是Alec對餐廳的看法，與「this one」無關。",
+      "second_why": "too_long(297)",
+      "second_text": "Ellie說「I wouldn't say a dead fish is really her idea of a nice dinner」暗示Olivia不喜歡死魚，Alec則反駁「Now you're wrong about this one」，其中「this one」指的是Ellie剛才提出的觀點，即「Olivia不喜歡吃海鮮」，故(D)正確。(A)錯誤因為Wavelength賣什麼食物已在對話中明確提及，不需用「this one」代稱；(B)混淆了Ellie的暗示與Alec的反駁，Alec是說Olivia其實喜歡魚丸；(C)偏離主題，對話重點在Olivia的飲食偏好而非餐廳本身。"
+    },
+    "28": {
+      "reason": "validation_failed",
+      "first_why": "too_long(396)",
+      "first_text": "題幹問「it」在第一句「So, what do you think about it?」的指代對象。根據對話脈絡，Alec 詢問 Ellie 對某事的看法，Ellie 回答「It's…interesting」，隨後 Ellie 開始逐一評論 Alec 的約會計畫（帶 Olivia 去 Buzzing World、去 Wavelength 餐廳等），最後 Lori 直言「If you follow this plan, I'm sure it'll be your only date with her」，明確指出問題所在是「this plan」。因此「it」指的是「Alec's plan for his date」，故 (C) 正確。(A) 只是計畫的一部分；(B) 是過去的事，不是當下討論的焦點；(D) 是 Ellie 對 Olivia 特性的描述，而非 Alec 尋求意見的對象。",
+      "second_why": "too_long(342)",
+      "second_text": "題幹問「it」在第一句「So, what do you think about it?」的指代對象。根據對話脈絡，Alec詢問Ellie對某事的看法，Ellie回答「It's…interesting」，隨後Ellie開始逐一指出Alec計畫的問題——Olivia害怕六隻腳的生物、不喜歡活動的蝴蝶、不適合吃海鮮等。最後Lori直言「If you follow this plan, I'm sure it'll be your only date with her」，明確點出Alec有一份計畫（plan）。故(C)正確。(A)、(B)、(D)都是對話中提及的具體事物，但都不是Alec一開始詢問的對象；只有(C)「Alec的約會計畫」才是貫穿整段對話、Ellie逐項評論的核心內容。"
+    }
+  }
+}

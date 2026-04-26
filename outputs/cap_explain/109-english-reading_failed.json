@@ -1,0 +1,78 @@
+{
+  "year": 109,
+  "subject": "english-reading",
+  "model": "claude-haiku-4-5-20251001",
+  "generated_at": "2026-04-26",
+  "failures": {
+    "18": {
+      "reason": "validation_failed",
+      "first_why": "too_long(321)",
+      "first_text": "根據材料，Albert說「It's a great chance to make big money if you pick the right day. In my experience, Saturday is the best」，表明Albert有舉辦yard sale的經驗，故(A)正確。(B)錯誤，Jamie說的是「made some good friends at my last yard sale」，未提及上週；(C)錯誤，Albert強調的是選對日期（Saturday），非天氣；(D)錯誤，Debby建議「sell your things online for higher prices」，意指線上價格更高而非更便宜。",
+      "second_why": "too_long(304)",
+      "second_text": "根據材料，Albert說「It's a great chance to make big money if you pick the right day. In my experience, Saturday is the best」，表明Albert有舉辦庭院拍賣的經驗，故(A)正確。(B)錯誤，Jamie說的是「I made some good friends at my last yard sale」，重點在交友而非成功賺錢；(C)錯誤，Albert強調的是選對日期（Saturday），非天氣；(D)錯誤，Debby建議線上販售「for higher prices」，表示線上價格更高而非更便宜。"
+    },
+    "19": {
+      "reason": "validation_failed",
+      "first_why": "too_long(430)",
+      "first_text": "根據材料，Debby說「Having a yard sale is not easy. You have to collect things, put prices on them...For all that time and work, you make very little money」，強調準備工作繁重；Jamie則說「I just sent out a lot of things last week」表示寧願捐贈，暗示認同Debby的麻煩之處。故(D)正確。(A)錯誤，Albert提到「make big money」和「meet interesting people」，但Albert是看好yard sale的；(B)錯誤，Debby認為麻煩多但賺錢少，Albert卻認為「pick the right day」能「make big money」，兩人意見相反；(C)錯誤，Jamie主張捐贈而非yard sale，與Albert的看法不同。",
+      "second_why": "too_long(543)",
+      "second_text": "根據材料，Debby說「Having a yard sale is not easy. You have to collect things, put prices on them...For all that time and work, you make very little money」，強調準備工作繁重；Jamie則說「I just sent out a lot of things last week」主張捐贈給需要的人，但隨後Matt說「I agree with Albert. You can make money and meet interesting people」，而Albert認為「It's a great chance to make big money if you pick the right day」。仔細看Jamie的發言，他先同意Debby的看法「Debby's right」，表示認同準備工作麻煩，然後才提出自己的替代方案，故(D)正確。(A)錯因Albert和Matt強調賺錢和交朋友，但不是都認為交朋友是主要目的；(B)錯因Albert認為能賺大錢；(C)錯因Jamie同意的是Debby關於準備困難的看法，不是Albert的賺錢觀點。"
+    },
+    "20": {
+      "reason": "validation_failed",
+      "first_why": "too_long(345)",
+      "first_text": "根據廣告開頭「for each $50 you spend (on anything EXCEPT books and CDs) at Sunny Market, you'll get a Sunny Sun picture」，購買書籍和光碟時無法獲得Sunny Sun圖片，故(D)正確。(A)錯誤，因為廣告明確指出「From Jan. 4 to Feb. 4」可以收集圖片，首日是1月4日而非2月4日；(B)錯誤，收集圖片的截止日是2月4日，而使用圖片的截止日才是2月10日；(C)錯誤，廣告清楚表示「Collect 10 pictures, and you can get any of the desserts on the right for free」，可以用圖片免費獲得甜點。",
+      "second_why": "too_long(385)",
+      "second_text": "根據廣告開頭「for each $50 you spend (on anything EXCEPT books and CDs) at Sunny Market, you'll get a Sunny Sun picture」，購買書籍和光碟時無法獲得Sunny Sun圖片，故(D)正確。(A)錯誤，廣告明確說明「From Jan. 4 to Feb. 4」收集圖片，「From Jan. 4 to Feb. 10」才能使用圖片，故使用圖片的第一天是1月4日而非2月4日。(B)錯誤，收集圖片的最後一天是2月4日，不是2月10日；2月10日是使用圖片的最後期限。(C)錯誤，廣告明確指出「Collect 10 pictures, and you can get any of the desserts on the right for free」，可用圖片免費換甜點。"
+    },
+    "23": {
+      "reason": "validation_failed",
+      "first_why": "too_long(311)",
+      "first_text": "根據文章「Usually when making chocolate desserts, you'll need to mix chocolate with butter and sugar. So if you do, put them in the pot too.」，them 指的是前句提到的 butter and sugar，故 (B) 正確。(A) 錯誤因為 bains-marie 在此段落未被提及需放入鍋中；(C) chocolate desserts 是名詞片語，不符合 them 的代詞用法；(D) small pieces of chocolate 已用 them 代稱過，不會再用 them 指代。",
+      "second_why": "too_long(314)",
+      "second_text": "根據文中「Usually when making chocolate desserts, you'll need to mix chocolate with butter and sugar. So if you do, put them in the pot too.」，them 指的是前句提到的 butter and sugar，故 (B) 正確。(A) 錯誤因為 bain-marie 是工具名稱，不符合 them 的複數代名詞用法；(C) chocolate desserts 是名詞片語，不是 them 所代指的對象；(D) small pieces of chocolate 已在前句放入鍋中，不需再放，邏輯不符。"
+    },
+    "21": {
+      "reason": "validation_failed",
+      "first_why": "too_long(368)",
+      "first_text": "Sammy 現有 7 張圖片，要取得 Sunny Cup。根據廣告「Collect 12 pictures, and you can get a Sunny Cup for free」，她需要 12 張圖片才能免費獲得；或根據「Collect 6 pictures, and you can buy a Sunny Cup for $200」，她可用 6 張圖片加付 $200 購買。Sammy 有 7 張圖片，超過 6 張的要求，故 (B) 正確。(A) 錯誤因為用 6 張圖片購買 Sunny Cup 需付 $200 而非 $100；(C) 和 (D) 雖能增加圖片數，但不是最直接的方式，且 (C) 花費 $150 只得 3 張（共 10 張仍不足 12 張），(D) 花費 $200 得 4 張（共 11 張仍不足 12 張）。",
+      "second_why": "too_long(309)",
+      "second_text": "Sammy現有7張圖片，要獲得Sunny Cup。根據廣告「Collect 12 pictures, and you can get a Sunny Cup for free」，她需要12張圖片才能免費獲得；或者根據「Collect 6 pictures, and you can buy a Sunny Cup for $200」，她可以用6張圖片加$200購買。由於Sammy已有7張圖片（超過6張），她可以直接用其中6張圖片加$200購買Sunny Cup，故(B)正確。(A)錯誤因為用6張圖片只能花$200買杯子，不是$100；(C)和(D)都是花錢買更多圖片的方案，但Sammy已有足夠圖片，無需額外購買。"
+    },
+    "24": {
+      "reason": "validation_failed",
+      "first_why": "too_long(329)",
+      "first_text": "材料明確指出「Keep the water under 50ºC, or the chocolate may lose its shine」，表示水溫不應超過50°C，故(B)正確。(A)錯誤，因為「bain-marie」和「water bath」是同一種方法的不同名稱，材料說「some people call it 'water bath'」，並無優劣之分。(C)錯誤，材料建議「Keep mixing for about five to ten minutes」，表示需要5至10分鐘，不是越快越好。(D)錯誤，材料說「you'll need to mix chocolate with butter and sugar」，表示可以同時混合這三種材料。",
+      "second_why": "too_long(331)",
+      "second_text": "材料明確指出「Keep the water under 50ºC, or the chocolate may lose its shine」，表示水溫不應超過50°C，故(B)正確。(A)錯誤，因為「bain-marie」和「water bath」是同一種方法的不同名稱，材料說「some people call it 'water bath'」，並無優劣之分。(C)錯誤，材料說「Keep mixing for about five to ten minutes」，表示需要5至10分鐘，不是少於5分鐘。(D)錯誤，材料明確提到「you'll need to mix chocolate with butter and sugar」，表示應同時混合這三種材料。"
+    },
+    "25": {
+      "reason": "validation_failed",
+      "first_why": "too_long(339)",
+      "first_text": "文章重點在於楊氏兄妹如何解決生意冷清的問題。材料明確指出「At first, business was slack」，但他們透過「painted their truck blue, and drew Taiwan's national flower, the plum blossom, on it. They also changed the food truck's name to 'bian-dang'」等策略改善，「Soon people started to notice them, and business finally got better」，故(D)正確。(A)只是提及菜單內容，非新聞重點；(B)文中未說明創業原因；(C)文章未討論烹飪方法，只列舉菜色。",
+      "second_why": "too_long(347)",
+      "second_text": "文章重點在於楊氏兄妹如何解決初期生意冷清的問題。材料明確指出「At first, business was slack」，人們誤認為是普通中餐車，後來他們「painted their truck blue, and drew Taiwan's national flower, the plum blossom, on it. They also changed the food truck's name to 'bian-dang'」，「Soon people started to notice them, and business finally got better」，故(D)正確。(A)只是提及菜單內容，非新聞重點；(B)文中未說明創業原因；(C)文章未討論烹飪方法，只列舉菜色。"
+    },
+    "27": {
+      "reason": "validation_failed",
+      "first_why": "too_long(310)",
+      "first_text": "題目問「that」在新聞故事中指什麼。根據文末段落，「they hope one day there will be a block with Taiwanese food in the city, just like there is a Chinatown, a Korea Town, and a Little Italy」，「that」指的是這個希望實現的願景，即「a block with Taiwanese food in the city」，故(C)正確。(A)混淆了餐廳與街區的概念；(B)文中未提及第二台食品車；(D)的「across the country」超出原文範圍，原文只談紐約市內的一個街區。",
+      "second_why": "too_long(299)",
+      "second_text": "題目問「that」在新聞故事中指什麼。根據文末段落，「they hope one day there will be a block with Taiwanese food in the city, just like there is a Chinatown, a Korea Town, and a Little Italy」，可知「that」指的是「a block with Taiwanese food」，故(C)正確。(A)錯誤因為文中已提及有幾家台灣餐廳存在，不是他們的願景；(B)錯誤因為他們已有一台食品車，不是希望有第二台；(D)錯誤因為「block」指的是城市街區，非全國性業務。"
+    },
+    "28": {
+      "reason": "validation_failed",
+      "first_why": "too_long(288)",
+      "first_text": "根據信件內容，Selena Bieber指出「We're asked to get to school by 7:30 a.m. That means we have to get up before 7, when our brains should still be sleeping」，並提出「If we can't change how our body works, why can't school start later?」，明確表示她要解決的問題是學校開始時間過早，故(B)正確。(A)文中未提及課程難度，(C)信件重點不在遲到問題，(D)完全未涉及午餐時間。",
+      "second_why": "too_long(298)",
+      "second_text": "根據信件內容，Selena Bieber指出「We're asked to get to school by 7:30 a.m. That means we have to get up before 7, when our brains should still be sleeping」，並提出「If we can't change how our body works, why can't school start later?」，清楚表明她要解決的問題是學校開始時間過早，故(B)正確。(A)信中未提及課程難度，(C)未涉及學生遲到問題，(D)完全未提及午餐休息時間，均與原文主旨無關。"
+    },
+    "31": {
+      "reason": "validation_failed",
+      "first_why": "too_long(315)",
+      "first_text": "文章指出Kivalina面臨海平面上升威脅，「their home will become uninhabitable because the island could be covered by the Chukchi Sea by 2025」，但同時提到「Groups like ReLocate are working together with the Inuit people to save Kivalina」，說明雖然處境困難，村民仍在努力爭取最後的希望，故(C)正確。(A)「等待閃耀」過於樂觀，不符合村莊面臨滅頂的現實；(B)「已成歷史」錯誤，村莊仍存在且在抵抗；(D)「放棄上升機會」與文中積極救援的努力相悖。",
+      "second_why": "too_long(307)",
+      "second_text": "文章指出Kivalina面臨海平面上升威脅，「their home will become uninhabitable because the island could be covered by the Chukchi Sea by 2025」，但同時提到「Groups like ReLocate are working together with the Inuit people to save Kivalina」，說明雖然困境重重，村民仍在努力爭取最後的希望，故(C)正確。(A)「等待閃耀」過於樂觀，不符合文意；(B)「已成歷史」與事實不符，村莊仍存在；(D)「放棄上升機會」與文中提及的救援努力相悖。"
+    }
+  }
+}

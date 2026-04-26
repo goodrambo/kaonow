@@ -1,0 +1,57 @@
+{
+  "year": 108,
+  "subject": "english-reading",
+  "model": "claude-haiku-4-5-20251001",
+  "generated_at": "2026-04-26",
+  "failures": {
+    "18": {
+      "reason": "validation_failed",
+      "first_why": "too_long(305)",
+      "first_text": "根據閱讀材料中「Save 10% if you buy tickets on the Internet」，網路購票可享九折優惠，故(A)正確。(B)錯誤，因為材料明確指出「If you are taking your pet with you, please buy a seat for it at half price」，寵物票價為半價而非全價。(C)錯誤，票價表中Line A和Line B的價格固定，與季節無關，只有開放時間因季節而異。(D)錯誤，材料說的是「Save 10% if you buy tickets for both lines」，指購買兩條不同路線的票才享折扣，而非同一路線的兩張票。",
+      "second_why": "too_long(285)",
+      "second_text": "根據閱讀材料中「Save 10% if you buy tickets on the Internet」，網路購票可省10%，故(A)正確。(B)錯誤，因為材料明確指出「if you are taking your pet with you, please buy a seat for it at half price」，寵物只需半價；(C)錯誤，票價與季節無關，高低季只影響營業時間；(D)錯誤，「Save 10% if you buy tickets for both lines」指的是購買兩條線路的票（Line A和Line B各一張），而非同一線路的兩張票。"
+    },
+    "20": {
+      "reason": "validation_failed",
+      "first_why": "too_long(457)",
+      "first_text": "根據對話，Sarah提醒Mike「Yesterday was Friday」，Mike才意識到「I didn't pick up my soccer team's sport shirts from the shop」，而且「we're having this big game tomorrow」。Sarah進一步說明「they've tried. It's not open on the weekend」，並列舉來電者都是「Johnny, Ricky, Archie, Freddie…everyone on my team」。Mike最後說「I'm a dead man now」，Sarah回應「Yeah, that was what they said on the phone, seventeen times」。這表明十七通電話都來自他的隊友，他們因為Mike忘記領取球衣而感到憤怒，故(A)正確。(B)錯誤，因為他們不是粉絲而是隊友；(C)錯誤，遊戲是明天才進行；(D)無關，對話未提及名單問題。",
+      "second_why": "too_long(318)",
+      "second_text": "根據對話內容，Sarah 問 Mike「昨天是星期幾」，Mike 回答「Friday」後才意識到「我沒有從店裡取回我們足球隊的運動衫」，而且「店在週末不營業」。Sarah 最後說「他們試過了」且「他們是 Johnny、Ricky、Archie、Freddie……我知道，我知道，我隊上的每個人」，Mike 說「我現在死定了」。這些線索表明十七通電話來自 Mike 的隊友，因為 Mike 忘記取回比賽用的球衣，導致隊伍無法在重要比賽中使用，故 (A) 正確。(B) 錯誤，因為 Sarah 一開始說的「popular」是諷刺，實際上是隊友在生氣；(C) 錯誤，比賽是明天（Saturday），不是昨天；(D) 無關，對話未提及名單問題。"
+    },
+    "27": {
+      "reason": "validation_failed",
+      "first_why": "too_long(318)",
+      "first_text": "根據閱讀材料，「One of his most famous works is That Evening, We Performed Crosstalk (1985). It was such a smash hit that people became interested again in xiangsheng」，由於這部作品是 Stan Lai 最著名的作品之一，且因為它的成功而使人們重新對相聲產生興趣，可知 smash hit 指的是非常成功的作品，故 (B) 正確。(A) 錯誤因為文中未提及年代久遠；(C) 錯誤因為這是台灣的作品而非外國的；(D) 錯誤因為 useful 與文意無關，重點在於作品的成功程度而非實用性。",
+      "second_why": "too_long(330)",
+      "second_text": "根據閱讀材料，「One of his most famous works is That Evening, We Performed Crosstalk (1985). It was such a smash hit that people became interested again in xiangsheng」，由於這部作品是 Stan Lai 最著名的作品之一，且因為它的成功而使人們重新對相聲產生興趣，可知 smash hit 指的是非常成功的作品，故 (B) 正確。(A) 錯誤因為文中未提及年代久遠；(C) 錯誤因為這是台灣的作品而非外國的；(D) 錯誤因為 useful 與文意無關，smash hit 強調的是商業或藝術上的成功而非實用性。"
+    },
+    "30": {
+      "reason": "validation_failed",
+      "first_why": "too_long(400)",
+      "first_text": "題目問「think otherwise about something」的意思。根據閱讀材料第二句「But a report from Asap Science says otherwise」，此處 otherwise 表示與前述「having a cup of coffee right out of bed is the best way to start a day」相反的看法。otherwise 字面意為「另外地、不同地」，故 think otherwise 即「持不同看法、想法不同」，(C) They think differently about it 正確。(A) serious 與原意無關；(B) have no idea 表示完全不知道，過於絕對；(D) do not think it is a problem 只是不同看法的一種特例，不是 otherwise 的通用含義。",
+      "second_why": "too_long(330)",
+      "second_text": "題目問「think otherwise about something」的意思。根據閱讀材料第二句「But a report from Asap Science says otherwise」，表示與前述「having a cup of coffee right out of bed is the best way to start a day」的看法相反。Otherwise 意為「相反地、不同地」，故(C)「They think differently about it」正確。(A)serious 與原意無關；(B)no idea 表示完全不知道，過於絕對；(D)do not think it is a problem 只是不同看法的一種，不夠全面。"
+    },
+    "33": {
+      "reason": "validation_failed",
+      "first_why": "too_long(359)",
+      "first_text": "題目問報告「沒有」建議什麼。根據材料，報告明確建議三項：「move Weekend's Best Buy from Saturday evening to Saturday afternoon」（改變週末特賣時間），「having more free buses during the weekend」（增加免費巴士），以及「open half an hour longer during weekdays, until 10:30 p.m.」（延長平日營業時間）。材料提到「business is better on weekday evenings...than on weekend mornings」，但並未建議改善週日上午的生意，故(C)正確。(A)、(B)、(D)都在材料中明確提及，只有(C)沒有被建議。",
+      "second_why": "too_long(303)",
+      "second_text": "題目問報告「沒有」建議什麼。根據材料，報告明確建議三項：「move Weekend's Best Buy from Saturday evening to Saturday afternoon」（改變週末特賣時間），「having more free buses during the weekend」（增加免費巴士），以及「open half an hour longer during weekdays, until 10:30 p.m.」（延長平日營業時間）。材料指出平日晚間生意好，但對平日上午完全沒有提及任何改善建議，故(C)正確。(A)、(B)、(D)都在材料中明確提到，(C)則完全未被提及。"
+    },
+    "34": {
+      "reason": "validation_failed",
+      "first_why": "too_long(285)",
+      "first_text": "根據材料「Most of the shoppers then are people who live near or working parents who do their last-minute shopping. They together make up almost 60% of the business on weekday evenings」，說明工作父母是平日傍晚購物者的主要組成，故(D)正確。(A)材料未提及平日與去年同期比較；(B)材料只提議延長營業時間，未提及每日特賣；(C)材料說75%受訪者認為巴士班次不足，並未說大多數購物者搭乘免費巴士。",
+      "second_why": "too_long(293)",
+      "second_text": "根據材料「Most of the shoppers then are people who live near or working parents who do their last-minute shopping. They together make up almost 60% of the business on weekday evenings」，說明工作父母是平日晚間購物者的主要組成，故(D)正確。(A)材料未提及平日業績與去年同期比較；(B)材料只提議延長營業時間，未提及每日特賣；(C)材料提到75%受訪購物者認為巴士班次不足，反而說明免費巴士不足，非大多數人搭乘。"
+    },
+    "35": {
+      "reason": "validation_failed",
+      "first_why": "too_long(448)",
+      "first_text": "根據材料，「Most of the shoppers then are people who live near or working parents who do their last-minute shopping. They together make up almost 60% of the business on weekday evenings」，說明平日晚間佔週業務量約60%；材料也提到「About half the business of the week is done then」指週末下午佔約50%。選項(B)中週末下午(Weekend afternoon)為48%、平日晚間(Weekday evening)為24%，兩者相加約72%，最接近材料所述的60%加50%概念，且其他時段比例分配合理，故(B)正確。(A)項週末下午僅15%過低；(C)項週末晚間48%與材料「not as good as last season」的描述不符；(D)項週末下午15%同樣偏低。",
+      "second_why": "too_long(452)",
+      "second_text": "根據材料，「Most of the shoppers then are people who live near or working parents who do their last-minute shopping. They together make up almost 60% of the business on weekday evenings」，說明平日晚間佔約60%的業務量。檢視各選項的圓餅圖，只有(B)選項將Weekday evening標示為48%，最接近材料所述的「almost 60%」（考慮到圖表可能有四捨五入或其他因素）。(A)選項Weekday evening為48%但Weekend afternoon為15%，與材料描述不符；(C)選項Weekend evening為48%，與材料「Weekend evenings are second busiest」矛盾；(D)選項Weekend afternoon為48%，但材料強調平日晚間才是主要業務來源。故(B)正確。"
+    }
+  }
+}

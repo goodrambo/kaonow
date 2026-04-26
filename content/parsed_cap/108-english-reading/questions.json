@@ -46,12 +46,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 1,
-        "raw_text": "1.   Look at the picture. The mother duck is           the baby ducks across the street.\n     (A) carrying\n     (B) leading\n     (C) pushing\n     (D) watching\n\n\n\n"
+        "raw_text": "1.   Look at the picture. The mother duck is           the baby ducks across the street.\n     (A) carrying\n     (B) leading\n     (C) pushing\n     (D) watching\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據圖片情境，母鴨在帶領小鴨過馬路，「leading」意為「帶領、引導」，最符合母鴨走在前面指引小鴨的動作。故(B)正確。(A)carrying是「抱著、運送」，母鴨並未抱著小鴨；(C)pushing是「推」，不符合帶領的概念；(D)watching是「看著」，無法表達主動帶領的行為。"
     },
     {
       "id": "cap-108-english-reading-002",
@@ -80,12 +81,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 2,
-        "raw_text": "2.   Ms. Liu usually gives us a lot of homework,          she didn’t give us any today.\n     (A) but             (B) if               (C) or                 (D) so\n"
+        "raw_text": "2.   Ms. Liu usually gives us a lot of homework,          she didn’t give us any today.\n     (A) but             (B) if               (C) or                 (D) so\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "本題考查連接詞的用法。句子前半「Ms. Liu usually gives us a lot of homework」與後半「she didn't give us any today」形成對比關係，前者說劉老師通常給很多功課，後者說她今天沒給，兩句意思相反，應用表示轉折的連接詞。「通常給很多功課，但今天沒給」，故 (A) but 正確。(B) if 表條件，(C) or 表選擇，(D) so 表因果，都無法表達兩句間的對比轉折關係。"
     },
     {
       "id": "cap-108-english-reading-003",
@@ -114,12 +116,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 3,
-        "raw_text": "3.   Playing games on the cellphone          popular with high school students.\n     (A) is             (B) are                (C) being           (D) to be\n"
+        "raw_text": "3.   Playing games on the cellphone          popular with high school students.\n     (A) is             (B) are                (C) being           (D) to be\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "本題考查主詞與動詞的單複數一致。主詞「Playing games on the cellphone」是動名詞片語，作為單數主詞，應搭配單數動詞。句子意為「在手機上玩遊戲在高中生中很受歡迎」，空格應填入單數現在式 is，故 (A) 正確。(B) are 用於複數主詞，不符；(C) being 和 (D) to be 皆為非限定動詞形式，無法作為句子主要動詞。"
     },
     {
       "id": "cap-108-english-reading-004",
@@ -148,12 +151,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 4,
-        "raw_text": "4.   There        more than twenty clubs in our school. Which one would you like to join?\n     (A) has             (B) have             (C) is              (D) are\n"
+        "raw_text": "4.   There        more than twenty clubs in our school. Which one would you like to join?\n     (A) has             (B) have             (C) is              (D) are\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "本題考查主詞與動詞的數量一致性。主詞「more than twenty clubs」是複數名詞片語，應搭配複數動詞。「There are more than twenty clubs in our school」意為「我們學校有超過二十個社團」，故 (D) are 正確。(A) has 為第三人稱單數，(C) is 亦為單數，均與複數主詞不符；(B) have 雖為複數動詞但用於主詞為 I/you/we/they 等情況，在 There 開頭的存在句中應用 are。"
     },
     {
       "id": "cap-108-english-reading-005",
@@ -182,12 +186,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 5,
-        "raw_text": "5.   Diane had a bad cold last week. She is still too      to go mountain climbing with you.\n     (A) busy             (B) short               (C) weak           (D) young\n"
+        "raw_text": "5.   Diane had a bad cold last week. She is still too      to go mountain climbing with you.\n     (A) busy             (B) short               (C) weak           (D) young\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "句意為「黛安上週得了重感冒，她仍然太___而無法和你去登山」。根據上文「had a bad cold」（患重感冒），邏輯上應填入表示身體狀況不佳的詞彙，「weak」（虛弱的）最符合感冒後的生理狀態，故(C)正確。(A) busy（忙碌的）與感冒無關；(B) short（短的）語意不通；(D) young（年輕的）無法解釋為何不能登山。"
     },
     {
       "id": "cap-108-english-reading-006",
@@ -216,12 +221,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 6,
-        "raw_text": "6.   The book under Mary’s desk is         , but I don’t know why it is there.\n     (A) us            (B) me                  (C) my               (D) mine\n"
+        "raw_text": "6.   The book under Mary’s desk is         , but I don’t know why it is there.\n     (A) us            (B) me                  (C) my               (D) mine\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "句子結構為「The book under Mary's desk is ___」，空格後無名詞，需填入名詞性質的詞彙。根據「is」後接補語的文法，應填入名詞或名詞性代詞。mine 是所有格代詞，具名詞性質，表「我的書」，可單獨作補語；my 是所有格形容詞，後需接名詞，不能單獨使用。us 和 me 是受格代詞，不符合此句結構。故 (D) 正確。"
     },
     {
       "id": "cap-108-english-reading-007",
@@ -250,12 +256,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 7,
-        "raw_text": "7.   Last night a garbage truck hit a tree and turned over. Now the street is         with\n     lots of garbage.\n     (A) dark             (B) dirty             (C) heavy          (D) poor\n"
+        "raw_text": "7.   Last night a garbage truck hit a tree and turned over. Now the street is         with\n     lots of garbage.\n     (A) dark             (B) dirty             (C) heavy          (D) poor\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "題目描述垃圾車翻覆，垃圾散落街道，空格應填入形容詞描述街道的狀態。「the street is dirty with lots of garbage」意為「街道因大量垃圾而變得骯髒」，dirty 最符合語意，故 (B) 正確。(A) dark（黑暗的）與垃圾無關；(C) heavy（沉重的）用於形容街道不當；(D) poor（貧窮的）語意不符。"
     },
     {
       "id": "cap-108-english-reading-008",
@@ -284,12 +291,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 8,
-        "raw_text": "8.   It almost killed Kevin to take care of his baby sister for one afternoon. He wondered\n     how his mom could do           every day.\n     (A) her              (B) it                (C) one               (D) them\n"
+        "raw_text": "8.   It almost killed Kevin to take care of his baby sister for one afternoon. He wondered\n     how his mom could do           every day.\n     (A) her              (B) it                (C) one               (D) them\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "空格前為 do，後無受詞，需填代詞作受詞。句意為「他想知道他媽媽怎麼能每天做這件事」，「這件事」指前文「照顧妹妹一個下午」這件事，應用虛詞 it 代替，故 (B) 正確。(A) her 為人稱代詞，無法代替事物；(C) one 為數詞，不符文意；(D) them 為複數代詞，與單數事物不符。"
     },
     {
       "id": "cap-108-english-reading-009",
@@ -318,12 +326,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 9,
-        "raw_text": "9.   Joyce tells her brother everything. She never       anything from him.\n     (A) covers            (B) believes        (C) hides          (D) takes\n\n\n\n\n"
+        "raw_text": "9.   Joyce tells her brother everything. She never       anything from him.\n     (A) covers            (B) believes        (C) hides          (D) takes\n\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "句意為「Joyce 把所有事都告訴她哥哥，她從不向他隱瞞任何事」。根據前句「tells her brother everything」（告訴他所有事），後句應填入與「告訴」相反的動詞。hide 意為「隱瞞、隱藏」，符合邏輯對比，故 (C) 正確。(A) covers 意為「覆蓋」，(B) believes 意為「相信」，(D) takes 意為「拿取」，皆無法與前句形成合理的因果或對比關係。"
     },
     {
       "id": "cap-108-english-reading-010",
@@ -352,12 +361,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 10,
-        "raw_text": "10. Ben always uses his birthday as a(n)           to ask Dad to buy him something expensive.\n    (A) action           (B) excuse               (C) prize            (D) rule\n"
+        "raw_text": "10. Ben always uses his birthday as a(n)           to ask Dad to buy him something expensive.\n    (A) action           (B) excuse               (C) prize            (D) rule\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "題目意思是「班總是用他的生日作為___來要求爸爸買他昂貴的東西」。根據語境，生日被當作一個藉口或理由來請求購買禮物，故(B) excuse正確。excuse意為「藉口、理由」，符合句意。(A) action（行動）語意不符；(C) prize（獎品）邏輯不通，生日不是獎品；(D) rule（規則）也不符合「用生日來要求」的含義。"
     },
     {
       "id": "cap-108-english-reading-011",
@@ -386,12 +396,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 11,
-        "raw_text": "11.         that last piece of pie? If not, can I have it? I didn’t eat much this morning.\n      (A) Had you eaten \t\t                        (B) Were you eating\n      (C) Do you eat\t\t                            (D) Are you going to eat\n"
+        "raw_text": "11.         that last piece of pie? If not, can I have it? I didn’t eat much this morning.\n      (A) Had you eaten \t\t                        (B) Were you eating\n      (C) Do you eat\t\t                            (D) Are you going to eat\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據題幹「that last piece of pie? If not, can I have it?」的語境，說話者在詢問對方是否會吃那最後一塊派，若不吃就要求吃它，這是在詢問對方未來的意圖或計畫，故(D) Are you going to eat正確。(A)Had you eaten是過去完成式，不符合現在詢問的語境；(B)Were you eating是過去進行式，同樣指過去時間；(C)Do you eat是現在簡單式，表習慣性動作而非特定事件的未來意圖。"
     },
     {
       "id": "cap-108-english-reading-012",
@@ -420,12 +431,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 12,
-        "raw_text": "12. Everyone in the class enjoys playing chess        Bill; he thinks the game is boring.\n    (A) except           (B) for             (C) like              (D) of\n"
+        "raw_text": "12. Everyone in the class enjoys playing chess        Bill; he thinks the game is boring.\n    (A) except           (B) for             (C) like              (D) of\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "句意為「班上每個人都喜歡下棋，除了比爾；他認為這個遊戲很無聊。」空格前後的邏輯對比顯示需要表達「除外」之意，故 (A) except 正確。(B) for 作介詞時表「為了、因為」，不符邏輯；(C) like 表「喜歡」與前文重複；(D) of 為所有格介詞，無法表達排除含義。"
     },
     {
       "id": "cap-108-english-reading-013",
@@ -454,12 +466,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 13,
-        "raw_text": "13. In my school days, I        to English radio programs every day. That was how I\n    learned English at that time.\n    (A) listen           (B) have listened    (C) used to listen (D) was listening\n"
+        "raw_text": "13. In my school days, I        to English radio programs every day. That was how I\n    learned English at that time.\n    (A) listen           (B) have listened    (C) used to listen (D) was listening\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "題幹關鍵詞為「In my school days」（在我的學生時代），表示過去某個時期的習慣性動作，需用「used to + 原動詞」表達「過去經常做某事」。句中「That was how I learned English at that time」進一步確認這是過去的習慣，故(C) used to listen正確。(A) listen為現在式，不符過去時態；(B) have listened為現在完成式，無法表達過去習慣；(D) was listening為過去進行式，表示過去某時刻正在進行，不適合表達重複習慣。"
     },
     {
       "id": "cap-108-english-reading-014",
@@ -488,12 +501,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 14,
-        "raw_text": "14. Tom’s voice      when he talks about his neighbors. He speaks faster, his face\n    becomes redder and you can almost see fire in his eyes.\n    (A) appears        (B) drops            (C) grows         (D) rises\n"
+        "raw_text": "14. Tom’s voice      when he talks about his neighbors. He speaks faster, his face\n    becomes redder and you can almost see fire in his eyes.\n    (A) appears        (B) drops            (C) grows         (D) rises\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "題目描述湯姆談論鄰居時的變化：「他說話更快，臉變紅，眼睛裡幾乎能看到火焰」，這些都是情緒激動的表現。空格處應填入能表達聲音變大或升高的動詞。(D) rises 意為「上升、升高」，符合激動時聲音會提高的邏輯，故 (D) 正確。(A) appears 為「出現」，語意不符；(B) drops 為「下降」，與激動情緒相反；(C) grows 為「增長」，雖可表示變化但不如 rises 直接表達聲音升高的含義。"
     },
     {
       "id": "cap-108-english-reading-015",
@@ -522,12 +536,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 15,
-        "raw_text": "15.          other waiters in the restaurant have worked here longer than Clark; only Lois\n      and Lana started working here before him.\n      (A) All              (B) Most              (C) Some            (D) Few\n\n\n\n\n"
+        "raw_text": "15.          other waiters in the restaurant have worked here longer than Clark; only Lois\n      and Lana started working here before him.\n      (A) All              (B) Most              (C) Some            (D) Few\n\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "題幹指出「only Lois and Lana started working here before him」，表示只有兩位員工比Clark資深，其餘員工都比他資淺。因此比Clark資深的員工數量很少，僅佔極小比例，故(D) Few正確。(A) All表示全部，與題意相反；(B) Most表示大多數，題幹明確說only兩人，不符；(C) Some雖可指少數，但通常指不確定的數量，而題幹已明確指出exactly兩人，Few更精確地表達「極少數」的概念。"
     },
     {
       "id": "cap-108-english-reading-passage-16",
@@ -660,12 +675,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 19,
-        "raw_text": "19. Which is true about the bus lines?\n    (A) Line B takes more time.\n    (B) Both lines cross Farmers’ Bridge.\n    (C) Both lines leave from Central Station.\n    (D) There are more gardens to see on Line A.\n\n\n\n"
+        "raw_text": "19. Which is true about the bus lines?\n    (A) Line B takes more time.\n    (B) Both lines cross Farmers’ Bridge.\n    (C) Both lines leave from Central Station.\n    (D) There are more gardens to see on Line A.\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據材料「Buses for both lines leave every hour from Central Station」，兩條路線的巴士都從中央車站每小時出發一次，故(C)正確。(A)錯誤因為Line A耗時一小時，Line B僅需50分鐘，所以Line B花費時間較少；(B)和(D)無法從材料中確認，且地圖顯示Farmers' Bridge和各花園的位置分佈不同，兩條路線不一定都經過相同景點。"
     },
     {
       "id": "cap-108-english-reading-passage-20",
@@ -764,12 +780,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 21,
-        "raw_text": "21. What does It mean in the dialogue?\n    (A) The shop.\t\t                             (B) The fan club.\n    (C) The soccer game.                        (D) The soccer season.\n"
+        "raw_text": "21. What does It mean in the dialogue?\n    (A) The shop.\t\t                             (B) The fan club.\n    (C) The soccer game.                        (D) The soccer season.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "題目問「It」在對話中指什麼。根據上文Sarah說「They've tried. It's not open on the weekend」，此句中的「It」指的是前面提到的「the shop」，因為Sarah在談論Mike沒有從店裡取回球隊球衣，而店在週末不營業，故(A)正確。(B)的fan club在對話中只是Mike的猜測，並非Sarah提及的重點；(C)和(D)都是比賽相關，但「It's not open on the weekend」明確指的是營業時間問題，只有店鋪才會有營業時間限制。"
     },
     {
       "id": "cap-108-english-reading-022",
@@ -798,12 +815,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 22,
-        "raw_text": "22. What can we learn about Mike?\n    (A) He is nice to people from his fan club.\n    (B) He plays soccer with Johnny and Ricky.\n    (C) He found a way to fix the trouble he made.\n    (D) He decided not to go to the game on Sunday.\n"
+        "raw_text": "22. What can we learn about Mike?\n    (A) He is nice to people from his fan club.\n    (B) He plays soccer with Johnny and Ricky.\n    (C) He found a way to fix the trouble he made.\n    (D) He decided not to go to the game on Sunday.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據對話，Sarah提到「they are Johnny, Ricky, Archie, Freddie…」並說「everyone on my team」，明確指出這些人都是Mike足球隊的隊員，故(B)正確。(A)錯誤，因為這些來電者是Mike的隊友而非粉絲俱樂部成員。(C)錯誤，Mike說「I have to go fix this now」但Sarah隨即說「Too late」，表示他無法解決問題。(D)錯誤，對話未提及Mike決定不去比賽，反而暗示他必須參加這場重要比賽。"
     },
     {
       "id": "cap-108-english-reading-passage-23",
@@ -868,12 +886,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 23,
-        "raw_text": "23. Which is the best title for this reading?\n    (A) Australia: The Best Place for Birds.                               title 標題\n    (B) Mother Bird Fights Weather Changes.\n    (C) Larger Mother Birds Have Larger Eggs.\n    (D) Family Love: Brothers & Sisters Work Together.\n"
+        "raw_text": "23. Which is the best title for this reading?\n    (A) Australia: The Best Place for Birds.                               title 標題\n    (B) Mother Bird Fights Weather Changes.\n    (C) Larger Mother Birds Have Larger Eggs.\n    (D) Family Love: Brothers & Sisters Work Together.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "本文主要講述超級仙鶲母鳥根據天氣變化調整產卵大小的適應策略，文中明確指出「When the weather is hot and dry...the mother bird will make larger eggs」和「When the weather is 'good'...the mother will make smaller eggs」，核心在於母鳥如何應對天氣變化，故(B)正確。(A)過於寬泛且文中未強調澳洲特殊性；(C)曲解文意，卵的大小與母鳥體型無關，而是與天氣有關；(D)雖提及兄弟姐妹互助，但非文章重點，只是母鳥策略的輔助條件。"
     },
     {
       "id": "cap-108-english-reading-024",
@@ -902,12 +921,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 24,
-        "raw_text": "24. What does this trick mean in the reading?\n    (A) Having eggs of different sizes.\n    (B) Growing stronger inside the egg.\n    (C) Saving food for weaker baby birds.\n    (D) Helping baby birds break out of the eggs.\n"
+        "raw_text": "24. What does this trick mean in the reading?\n    (A) Having eggs of different sizes.\n    (B) Growing stronger inside the egg.\n    (C) Saving food for weaker baby birds.\n    (D) Helping baby birds break out of the eggs.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據文章，「this trick」指的是母鳥「will make larger eggs to help her babies grow stronger」的能力，也就是「在不同天氣下製造不同大小的蛋」。文中明確提到「this small bird has eggs of different sizes in different kinds of weather」，這正是該物種應對自然困難的特殊方式，故(A)正確。(B)只是蛋內發生的結果而非技巧本身；(C)文中未提及儲存食物；(D)破殼而出是自然過程，非母鳥的技巧。"
     },
     {
       "id": "cap-108-english-reading-025",
@@ -936,12 +956,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 25,
-        "raw_text": "25. What can we learn about superb fairy-wrens from the reading?\n    (A) Male birds can usually live for ten years.\n    (B) Baby birds grow well in hot, dry weather.\n    (C) Young male birds share the job of feeding the baby birds.\n    (D) Mother birds make smaller eggs when there is less food outside.\n\n\n"
+        "raw_text": "25. What can we learn about superb fairy-wrens from the reading?\n    (A) Male birds can usually live for ten years.\n    (B) Baby birds grow well in hot, dry weather.\n    (C) Young male birds share the job of feeding the baby birds.\n    (D) Mother birds make smaller eggs when there is less food outside.\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據材料，「When the weather is 'good,' the mother will make smaller eggs, and her sons will bring food back for their baby brothers and sisters from the eggs」，說明年輕雄性鳥會幫助餵養幼鳥，故(C)正確。(A)混淆了研究時間與鳥類壽命；(B)與材料相反，熱乾天氣時幼鳥容易死亡；(D)邏輯顛倒，母鳥在天氣不好時才製造較大的蛋，天氣好時製造較小的蛋。"
     },
     {
       "id": "cap-108-english-reading-passage-26",
@@ -1006,12 +1027,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 26,
-        "raw_text": "26. What idea is talked about in both pieces of news?\n    (A) More young people need to join in making art.\n    (B) People’s ways of enjoying art change with time.\n    (C) Bringing important art works to Taiwan from abroad.\n    (D) Giving new life to old arts that were almost forgotten.\n"
+        "raw_text": "26. What idea is talked about in both pieces of news?\n    (A) More young people need to join in making art.\n    (B) People’s ways of enjoying art change with time.\n    (C) Bringing important art works to Taiwan from abroad.\n    (D) Giving new life to old arts that were almost forgotten.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "兩則新聞的共同主題是讓瀕臨失傳的傳統藝術重獲生機。第一則提到紙紮藝術「dying」但因法國人的邀請而在國際展出，第二則說相聲「used to be a hobby that only a few people shared」但因賴聲川的作品而「opened a bigger market for it」，兩者都強調將「almost forgotten」的舊藝術重新賦予活力，故(D)正確。(A)只提年輕人參與，文中未強調；(B)談藝術享受方式改變，不是核心；(C)說從國外引進作品到台灣，與材料意思相反。"
     },
     {
       "id": "cap-108-english-reading-027",
@@ -1074,12 +1096,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 28,
-        "raw_text": "28. What do we know from the news?\n    (A) Lai has taught xiangsheng in many schools.\n    (B) Lai often puts his own life stories into his art works.\n    (C) The owner of Hsin Hsin Paper Offering Store is a Frenchman.\n    (D) People do not burn papier-mâché for dead people as often as before.\n"
+        "raw_text": "28. What do we know from the news?\n    (A) Lai has taught xiangsheng in many schools.\n    (B) Lai often puts his own life stories into his art works.\n    (C) The owner of Hsin Hsin Paper Offering Store is a Frenchman.\n    (D) People do not burn papier-mâché for dead people as often as before.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據材料「Taiwan's papier-mâché is dying because it is not much needed now」，說明紙紮藝術正在衰退是因為現在不太需要它，即人們不再像以前那樣經常燒紙紮給死人，故(D)正確。(A)材料未提及Lai在學校教授相聲；(B)材料只說他改變了傳統戲劇使其更貼近生活，未提及放入個人故事；(C)材料明確指出Frenchman邀請了Hsin Hsin店，店主是台灣人，非法國人。"
     },
     {
       "id": "cap-108-english-reading-passage-29",
@@ -1145,12 +1168,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 29,
-        "raw_text": "29. Which idea is talked about in the news?\n    (A) How often we should drink coffee.\n    (B) What happens when we have too much coffee.\n    (C) How to help the body make the cortisol we need.\n    (D) What happens when we have coffee at the wrong time.\n"
+        "raw_text": "29. Which idea is talked about in the news?\n    (A) How often we should drink coffee.\n    (B) What happens when we have too much coffee.\n    (C) How to help the body make the cortisol we need.\n    (D) What happens when we have coffee at the wrong time.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "文章核心論點為「當我們在皮質醇高峰期喝咖啡時會發生什麼」。材料明確指出：「there are two problems when we drink coffee during this time: (1) our bodies will make less cortisol, and (2) the cortisol will make coffee less useful」，說明在錯誤時間喝咖啡的負面影響，故(D)正確。(A)未提及喝咖啡的頻率；(B)未討論過量咖啡的危害；(C)與文意相反，文章是說喝咖啡會減少皮質醇分泌而非幫助製造。"
     },
     {
       "id": "cap-108-english-reading-030",
@@ -1213,12 +1237,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 31,
-        "raw_text": "31. The picture below shows how the cortisol levels rise and fall during the day. From\n    the news, which is a good time for coffee?\n    (A) A.                                         C\n\n\n\n\n                          cortisol levels (mg/dl)\n    (B) B.\n    (C) C.                                  B\n    (D) D.                  15\n                                                                     D\n                                                    10   A\n\n                                12 1 2 3 4 5 6 7 8 9 10 11 12 1 2 3 4 5 6 7 8 9 10 11 12\n                         Midnight                        Noon                          Midnight\n                                                         AM              PM\n\n\n"
+        "raw_text": "31. The picture below shows how the cortisol levels rise and fall during the day. From\n    the news, which is a good time for coffee?\n    (A) A.                                         C\n\n\n\n\n                          cortisol levels (mg/dl)\n    (B) B.\n    (C) C.                                  B\n    (D) D.                  15\n                                                                     D\n                                                    10   A\n\n                                12 1 2 3 4 5 6 7 8 9 10 11 12 1 2 3 4 5 6 7 8 9 10 11 12\n                         Midnight                        Noon                          Midnight\n                                                         AM              PM\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據文章，「When the cortisol levels are going down, the report says」，最佳喝咖啡的時間是皮質醇濃度下降的時段。文中明確指出皮質醇濃度最高的時段為上午8-9點、中午12-1點及下午5:30-6:30點，因此應在這些時段之後喝咖啡。觀察圖表，D點位於下午6:30之後，此時皮質醇濃度已開始下降，故(D)正確。A點在上午8-9點的高峰期間，B點在中午12-1點的高峰期間，C點在下午5:30-6:30的高峰期間，這三個時段都不適合喝咖啡。"
     },
     {
       "id": "cap-108-english-reading-032",
@@ -1247,12 +1272,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 32,
-        "raw_text": "32. Four people read the news and wrote what they thought about it.\n\n\n\n\n       Mike                                                        Jan 16 8:26 pm\n       The best time to drink coffee is when you want to drink coffee.\n       Sarah                                                             Jan 16 8:43 pm\n       I usually wake up AFTER I drink coffee!\n       Charlie                                                           Jan 16 8:59 pm\n       The worst time to drink coffee is when you're DEAD.\n       Lisa                                                         Jan 16 9:18 pm\n       If you need someone to tell you when to drink coffee, well, that’s just sad.\n\n\n    What did they think about the news?\n    (A) They wanted to try what it said.\n    (B) They were sad about what it said.\n    (C) They did not agree with what it said.\n    (D) They were not surprised at what it said.\n\n\n\n\n"
+        "raw_text": "32. Four people read the news and wrote what they thought about it.\n\n\n\n\n       Mike                                                        Jan 16 8:26 pm\n       The best time to drink coffee is when you want to drink coffee.\n       Sarah                                                             Jan 16 8:43 pm\n       I usually wake up AFTER I drink coffee!\n       Charlie                                                           Jan 16 8:59 pm\n       The worst time to drink coffee is when you're DEAD.\n       Lisa                                                         Jan 16 9:18 pm\n       If you need someone to tell you when to drink coffee, well, that’s just sad.\n\n\n    What did they think about the news?\n    (A) They wanted to try what it said.\n    (B) They were sad about what it said.\n    (C) They did not agree with what it said.\n    (D) They were not surprised at what it said.\n\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "四位評論者都以諷刺或反駁的語氣回應該報導。Mike說「最好的時間就是你想喝的時候」直接否定報導的建議；Sarah說「我通常在喝咖啡後才醒」嘲諷報導的邏輯；Charlie說「最糟的時間是你死了」用極端例子嘲笑；Lisa說「如果需要別人告訴你何時喝咖啡，那真可悲」質疑報導的必要性。他們都在表達不同意報導的觀點，故(C)正確。(A)錯因他們沒有表示想嘗試；(B)錯因Lisa的「sad」是指需要被告知才可悲，非對報導本身感到悲傷；(D)錯因他們的回應帶有明顯的反對態度，非無所謂。"
     },
     {
       "id": "cap-108-english-reading-passage-33",

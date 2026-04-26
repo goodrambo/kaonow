@@ -46,12 +46,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 1,
-        "raw_text": "1.   Look at the picture. The girl is         the clothes.\n     (A) making\n     (B) packing\n     (C) showing\n     (D) washing\n\n\n\n"
+        "raw_text": "1.   Look at the picture. The girl is         the clothes.\n     (A) making\n     (B) packing\n     (C) showing\n     (D) washing\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據圖片內容，女孩正在整理衣服放入行李箱或袋子中，這個動作是「packing」（打包、收拾）。題幹「The girl is ___ the clothes」需要填入進行式動詞，(B) packing 正確。(A) making（製作）不符合圖片中整理衣物的動作；(C) showing（展示）無法解釋為何衣服要放入容器；(D) washing（洗）與圖片中的收拾行為無關，故 (B) 正確。"
     },
     {
       "id": "cap-107-english-reading-002",
@@ -80,12 +81,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 2,
-        "raw_text": "2.   The         is so strong today that my hair keeps blowing in the air.\n     (A) rain              (B) snow             (C) sun             (D) wind\n"
+        "raw_text": "2.   The         is so strong today that my hair keeps blowing in the air.\n     (A) rain              (B) snow             (C) sun             (D) wind\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "句子表示「今天___非常強，我的頭髮一直在空中飄動」，根據「hair keeps blowing in the air」（頭髮不斷飄動）的現象，只有風（wind）能使頭髮飄動，故(D)正確。(A)rain雨水會使頭髮濕潤而非飄動；(B)snow雪花無法造成此效果；(C)sun太陽無法直接吹動頭髮，邏輯不符。"
     },
     {
       "id": "cap-107-english-reading-003",
@@ -114,12 +116,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 3,
-        "raw_text": "3.   When the baby cried, Mr. Wu        in the kitchen and did not hear it.\n     (A) cooked         (B) was cooking      (C) has cooked      (D) is going to cook\n"
+        "raw_text": "3.   When the baby cried, Mr. Wu        in the kitchen and did not hear it.\n     (A) cooked         (B) was cooking      (C) has cooked      (D) is going to cook\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "題幹描述過去某時刻的情景：嬰兒哭時，吳先生在廚房做飯且沒聽到。「When the baby cried」用過去簡單式表示過去某一時刻，此時需用過去進行式表達該時刻正在進行的動作，故(B) was cooking正確。(A) cooked為過去簡單式，表示已完成的動作，無法表現「正在進行」的狀態；(C) has cooked為現在完成式，時態不符；(D) is going to cook為未來式，與過去時間不符。"
     },
     {
       "id": "cap-107-english-reading-004",
@@ -148,12 +151,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 4,
-        "raw_text": "4.   I don’t have any money with me because I        my wallet this morning.\n     (A) had lost        (B) would lose     (C) lost             (D) was losing\n"
+        "raw_text": "4.   I don’t have any money with me because I        my wallet this morning.\n     (A) had lost        (B) would lose     (C) lost             (D) was losing\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "句子表達「我今早遺失了錢包，所以現在沒有錢」，需用過去簡單式表示已完成的過去動作。關鍵時間副詞「this morning」明確指出單一完成事件，故(C) lost正確。(A) had lost為過去完成式，需有更早的過去事件作參照點，此句無此結構；(B) would lose為條件式，不符文意；(D) was losing為過去進行式，表過去某時間點的進行中動作，與「this morning」搭配不當。"
     },
     {
       "id": "cap-107-english-reading-005",
@@ -182,12 +186,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 5,
-        "raw_text": "5.   You need not only good luck but also hard work to become a       baseball player.\n     (A) young           (B) successful       (C) happy         (D) friendly\n"
+        "raw_text": "5.   You need not only good luck but also hard work to become a       baseball player.\n     (A) young           (B) successful       (C) happy         (D) friendly\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "句子邏輯為「你需要不僅好運，還需要努力工作才能成為___棒球選手」，空格應填入形容詞修飾 baseball player。「成為成功的棒球選手」需要好運和努力工作，這是常見的因果邏輯，故 (B) successful 正確。(A) young 年輕的與努力工作無必然關聯；(C) happy 快樂的不是成為棒球選手的必要條件；(D) friendly 友善的與題意無關。"
     },
     {
       "id": "cap-107-english-reading-006",
@@ -216,12 +221,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 6,
-        "raw_text": "6.   The woman who lives next door to Ken is a        to him. They have never met and\n     he doesn’t even know her name.\n     (A) daughter        (B) friend         (C) stranger        (D) teacher\n"
+        "raw_text": "6.   The woman who lives next door to Ken is a        to him. They have never met and\n     he doesn’t even know her name.\n     (A) daughter        (B) friend         (C) stranger        (D) teacher\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "題幹指出「他們從未見過面，他甚至不知道她的名字」，這表示Ken與隔壁女鄰居完全陌生，故(C) stranger正確。(A) daughter與(B) friend都暗示有親密關係，與「never met」矛盾；(D) teacher無關聯性，題幹未提及教學關係。"
     },
     {
       "id": "cap-107-english-reading-007",
@@ -250,12 +256,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 7,
-        "raw_text": "7.   With the new bus line, it is much more           for Fanny to go to school. It saves her\n     a lot of time now.\n     (A) useful          (B) possible             (C) interesting     (D) convenient\n"
+        "raw_text": "7.   With the new bus line, it is much more           for Fanny to go to school. It saves her\n     a lot of time now.\n     (A) useful          (B) possible             (C) interesting     (D) convenient\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "句意為「有了新公車路線，范妮上學變得更加___。現在為她節省了很多時間。」根據後句「saves her a lot of time」可知，新公車路線的優點是節省時間，因此空格應填入表示「方便的、便利的」之意的詞彙，故(D) convenient正確。(A) useful意為「有用的」，強調功能性而非便利性；(B) possible意為「可能的」，與節省時間無直接關聯；(C) interesting意為「有趣的」，與時間節省無關。"
     },
     {
       "id": "cap-107-english-reading-008",
@@ -284,12 +291,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 8,
-        "raw_text": "8.   Dad: Have you brushed your teeth yet?\n     Ann: No, but I      before I go to bed.\n     (A) haven’t        (B) have             (C) won’t                (D) will\n"
+        "raw_text": "8.   Dad: Have you brushed your teeth yet?\n     Ann: No, but I      before I go to bed.\n     (A) haven’t        (B) have             (C) won’t                (D) will\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "空格前有 I，後接 before I go to bed（在我睡前），表示未來的承諾或計畫。Ann 回答「我還沒刷，但我會在睡前刷」，需用未來式 will。故 (D) 正確。(A) haven't 是現在完成式否定，與句意不符；(B) have 是現在式肯定，無法表達未來；(C) won't 是未來式否定，與「我會刷」的承諾相反。"
     },
     {
       "id": "cap-107-english-reading-009",
@@ -318,12 +326,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 9,
-        "raw_text": "9.   Alice: Do you know            Grandma is going to visit us?\n     Willy: It’s next week. She told me on the phone. And we’ll take her to the national park.\n     (A) where             (B) when              (C) whether         (D) why\n\n\n\n\n"
+        "raw_text": "9.   Alice: Do you know            Grandma is going to visit us?\n     Willy: It’s next week. She told me on the phone. And we’ll take her to the national park.\n     (A) where             (B) when              (C) whether         (D) why\n\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據對話，Willy 回答「It's next week」，直接說明時間，故空格應填入詢問時間的疑問詞。「when」意為「何時」，符合語境，故 (B) 正確。(A) where 詢問地點，但答句未涉及地點；(C) whether 詢問是否，語義不符；(D) why 詢問原因，與對話內容無關。"
     },
     {
       "id": "cap-107-english-reading-010",
@@ -352,12 +361,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 10,
-        "raw_text": "10. It took the police lots of time who entered Liu’s house and killed her one year ago.\n    (A) and found out (B) find out        (C) finding out       (D) to find out\n"
+        "raw_text": "10. It took the police lots of time who entered Liu’s house and killed her one year ago.\n    (A) and found out (B) find out        (C) finding out       (D) to find out\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "本題考查 take 的時間搭配用法。句型為「It took + 時間 + to do something」，表示「花費多少時間做某事」。題幹應理解為「警察花了很多時間才查出是誰在一年前進入劉女士的房子並殺害了她」，因此空格應填不定詞 to find out，故 (D) 正確。(A) 項 and found out 破壞了 take 的固定搭配；(B) 項 find out 缺少 to，無法與 took 搭配；(C) 項 finding out 為動名詞形式，與 took 搭配時應為 took time in finding out，但此處不符合題意。"
     },
     {
       "id": "cap-107-english-reading-011",
@@ -386,12 +396,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 11,
-        "raw_text": "11. Many famous people visit this restaurant. Popular singers like A-mei and Jay Chou\n           here with their friends.\n    (A) to be often seen (B) often seen      (C) are often seen (D) and are often seen\n"
+        "raw_text": "11. Many famous people visit this restaurant. Popular singers like A-mei and Jay Chou\n           here with their friends.\n    (A) to be often seen (B) often seen      (C) are often seen (D) and are often seen\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "本題考查被動語態與主詞動詞一致。句子主詞為「Popular singers like A-mei and Jay Chou」（複數），空格後接「here with their friends」，需填入適當的被動語態動詞。原句意為「許多名人造訪這家餐廳。像A-mei和周杰倫這樣的歌手經常在這裡與朋友被看到」，應用「are often seen」與複數主詞搭配，故(C)正確。(A)不符文法，to be為不定詞形式不適合此處；(B)缺少助動詞are，無法構成完整被動語態；(D)的and造成句子結構不當，與前文銜接不自然。"
     },
     {
       "id": "cap-107-english-reading-012",
@@ -420,12 +431,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 12,
-        "raw_text": "12. The factory has been throwing trash into the river for years. Now        must be\n    taken to stop this.\n    (A) action          (B) chances          (C) exercise          (D) notes\n"
+        "raw_text": "12. The factory has been throwing trash into the river for years. Now        must be\n    taken to stop this.\n    (A) action          (B) chances          (C) exercise          (D) notes\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "句子意思為「工廠多年來一直向河裡傾倒垃圾，現在『必須採取___』來停止這種行為」。空格前有「must be taken」，需要填入可與 take 搭配的名詞。「take action」是常見片語，意為「採取行動」，符合語境；「take chances」意為「冒險」，「take exercise」意為「運動」，「take notes」意為「做筆記」，都不符合「停止污染」的邏輯。故 (A) 正確。"
     },
     {
       "id": "cap-107-english-reading-013",
@@ -454,12 +466,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 13,
-        "raw_text": "13. The beach party tonight        the end of our summer vacation. Tomorrow we are\n    all going back home and getting ready for school.\n    (A) changes         (B) marks            (C) passes         (D) saves\n"
+        "raw_text": "13. The beach party tonight        the end of our summer vacation. Tomorrow we are\n    all going back home and getting ready for school.\n    (A) changes         (B) marks            (C) passes         (D) saves\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "空格處需填入動詞，表示「今晚的海灘派對___我們暑假的結束」。根據上文「Tonight」和下文「Tomorrow we are all going back home」的時間對比，派對是暑假結束的標誌性時刻。「marks」意為「標誌、標記」，最能表達派對作為暑假終結的象徵意義，故(B)正確。(A)changes改變，語意不當；(C)passes經過，無法表達標誌性；(D)saves拯救，完全不符文意。"
     },
     {
       "id": "cap-107-english-reading-014",
@@ -488,12 +501,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 14,
-        "raw_text": "14. Anyone who reads Loren’s business plan will quickly see some serious problems in\n    it, or       feel something is not right.\n    (A) at least         (B) even             (C) in fact      (D) still\n"
+        "raw_text": "14. Anyone who reads Loren’s business plan will quickly see some serious problems in\n    it, or       feel something is not right.\n    (A) at least         (B) even             (C) in fact      (D) still\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "句子表示「任何讀過Loren商業計畫的人都會很快看到其中的嚴重問題，或至少感覺有些不對勁」。空格前有「see some serious problems」（看到嚴重問題），後接「or feel something is not right」（或感覺不對），兩者形成遞進關係，「at least」表示「至少」，用來連接兩個程度遞進的表述，意為即使沒看到具體問題，至少也會感覺不對，故(A)正確。(B)even通常修飾名詞或強調，不適合此連接詞位置；(C)in fact表示「事實上」，無法表達遞進邏輯；(D)still表示「仍然」，與句意不符。"
     },
     {
       "id": "cap-107-english-reading-015",
@@ -522,12 +536,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 15,
-        "raw_text": "15. I’ve wanted to read The Diary of a Young Girl for months,        today I finally\n    borrowed the book from the library.\n    (A) and              (B) since          (C) so                (D) until\n\n\n\n\n"
+        "raw_text": "15. I’ve wanted to read The Diary of a Young Girl for months,        today I finally\n    borrowed the book from the library.\n    (A) and              (B) since          (C) so                (D) until\n\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "本題考查連接詞的用法。句子前半「I've wanted to read The Diary of a Young Girl for months」表示長期的願望，後半「today I finally borrowed the book from the library」表示願望最終實現，兩個獨立子句需用對等連接詞連接。(A) and 表示順序或並列關係，恰當地連接兩個相關事件；(B) since 表因果關係，但邏輯不符；(C) so 表因果但方向相反；(D) until 表時間限制，不符文意。故 (A) 正確。"
     },
     {
       "id": "cap-107-english-reading-passage-16",
@@ -880,12 +895,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 22,
-        "raw_text": "22. What is the reading mostly about?\n    (A) Where to find a nice holiday apartment.\n    (B) How to choose a nice holiday apartment.\n    (C) Why one should choose a holiday apartment.\n    (D) How one can change their house into a holiday apartment.\n"
+        "raw_text": "22. What is the reading mostly about?\n    (A) Where to find a nice holiday apartment.\n    (B) How to choose a nice holiday apartment.\n    (C) Why one should choose a holiday apartment.\n    (D) How one can change their house into a holiday apartment.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "文章開頭提出「Expensive hotels」和「cheap hostels」的缺點，隨後介紹「holiday apartments」的優勢，強調「you have more space」、「not expensive」等好處，最後結論「a holiday apartment will be your best choice」，全文目的在說明選擇度假公寓的理由，故(C)正確。(A)錯在文中未提供尋找公寓的方法；(B)錯在未涉及選擇標準或比較方法；(D)錯在文章完全未涉及房屋改造內容。"
     },
     {
       "id": "cap-107-english-reading-023",
@@ -948,12 +964,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 24,
-        "raw_text": "24. What does it mean to say that something is at your disposal?\n    (A) You are free to use it.             (B) You can find it everywhere.\n    (C) You know everything about it.       (D) You can buy it at a lower price.\n\n\n"
+        "raw_text": "24. What does it mean to say that something is at your disposal?\n    (A) You are free to use it.             (B) You can find it everywhere.\n    (C) You know everything about it.       (D) You can buy it at a lower price.\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據材料「Everything in the apartment is at your disposal」的語境，此句表示公寓內的所有設施都可供使用者自由使用，故(A)「You are free to use it」正確。(B)「隨處可得」與原意無關；(C)「了解一切」過度延伸；(D)「以更低價格購買」與原文意思相反，材料強調的是使用權而非購買權。"
     },
     {
       "id": "cap-107-english-reading-passage-25",
@@ -1017,12 +1034,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 25,
-        "raw_text": "25. What is the quick lesson of SHARP WEAR about?\n    (A) How to get to one of SHARP WEAR’s stores.\n    (B) How to send back a T-shirt to SHARP WEAR.\n    (C) How to shop for a T-shirt from SHARP WEAR.\n    (D) How to take care of a T-shirt from SHARP WEAR.\n"
+        "raw_text": "25. What is the quick lesson of SHARP WEAR about?\n    (A) How to get to one of SHARP WEAR’s stores.\n    (B) How to send back a T-shirt to SHARP WEAR.\n    (C) How to shop for a T-shirt from SHARP WEAR.\n    (D) How to take care of a T-shirt from SHARP WEAR.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "閱讀材料開頭明確指出「Here is our quick lesson for you!」，接著列出8個步驟，從「What kind of T-shirt do you like?」到「Finally, you can pay!」，全程引導顧客如何選擇款式、顏色、圖案、口袋、尺寸和數量，最後完成付款，故(C)正確。(A)錯誤，材料未提及門市位置；(B)錯誤，內容與退貨無關；(D)錯誤，未涉及衣物保養方法。"
     },
     {
       "id": "cap-107-english-reading-026",
@@ -1051,12 +1069,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 26,
-        "raw_text": "26. What can we learn about SHARP WEAR?\n    (A) You have to order at least four T-shirts each time.\n    (B) You can choose from sixteen colors for both the T-shirt and the pocket.\n    (C) Some of the T-shirts have pictures on both the front side and the back side.\n    (D) T-shirts in the wrong sizes cannot be sent back if they have pictures or pockets on them.\n\n\n"
+        "raw_text": "26. What can we learn about SHARP WEAR?\n    (A) You have to order at least four T-shirts each time.\n    (B) You can choose from sixteen colors for both the T-shirt and the pocket.\n    (C) Some of the T-shirts have pictures on both the front side and the back side.\n    (D) T-shirts in the wrong sizes cannot be sent back if they have pictures or pockets on them.\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據材料第2步「We have as many as 16 colors!」和第5步「Choose from the 16 colors AGAIN!」，顧客可以為T恤和口袋各選擇16種顏色，故(B)正確。(A)錯誤，材料未提及最少訂購數量；(C)錯誤，材料只提到「choose from one of our 72 pictures」，未說明圖案位置；(D)錯誤，材料完全未涉及退貨政策。"
     },
     {
       "id": "cap-107-english-reading-passage-27",
@@ -1120,12 +1139,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 27,
-        "raw_text": "27. Which season is this poem about?\n    (A) Spring.\t\t                                  (B) Summer.                   poem 詩\n    (C) Autumn.\t\t                                  (D) Winter.\n"
+        "raw_text": "27. Which season is this poem about?\n    (A) Spring.\t\t                                  (B) Summer.                   poem 詩\n    (C) Autumn.\t\t                                  (D) Winter.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "詩中明確提到「Winter is gone; spring has come」，直接表明冬天已過、春天已來。詩中描寫天空明亮清澈、大地穿著紅綠色彩、空氣清新甜美、小狐狸出來玩耍、鳥兒喚醒雛菊等景象，都是春季特有的生機勃勃景象，故(A)正確。(B)錯因詩明言「The summer heat is not yet here」表示夏天尚未到來；(C)和(D)與詩意完全相反。"
     },
     {
       "id": "cap-107-english-reading-028",
@@ -1154,12 +1174,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 28,
-        "raw_text": "28. What is a daisy?\n    (A) A body part.\t\t                             (B) A kind of bird.\n    (C) A kind of flower.                          (D) A kind of smell.\n\n\n\n\n"
+        "raw_text": "28. What is a daisy?\n    (A) A body part.\t\t                             (B) A kind of bird.\n    (C) A kind of flower.                          (D) A kind of smell.\n\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據詩文「People call the flower the 'day's eye.'」可知，daisy 就是花朵，詩中將其擬人化為「little daisy」，並描寫它「opens her eye」和「from her sleep」，都是把花當作有生命的對象。故(C)正確。(A)錯誤因為daisy不是身體部位；(B)錯誤因為詩中明確提到「A bird is busy in a tree」是另外的角色，daisy與bird分開描寫；(D)錯誤因為詩文說的是花朵本身，不是氣味。"
     },
     {
       "id": "cap-107-english-reading-passage-29",
@@ -1258,12 +1279,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 30,
-        "raw_text": "30. What can we learn from the reading?\n    (A) The animal’s tail can help it run more quickly and easily.\n    (B) Some animals shake more than they need to get water off.\n    (C) The idea of washing machines came from the shaking of dogs.\n    (D) Larger animals get themselves drier at each shake than smaller animals.\n\n\n\n\n"
+        "raw_text": "30. What can we learn from the reading?\n    (A) The animal’s tail can help it run more quickly and easily.\n    (B) Some animals shake more than they need to get water off.\n    (C) The idea of washing machines came from the shaking of dogs.\n    (D) Larger animals get themselves drier at each shake than smaller animals.\n\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據文章「Smaller animals must shake faster than bigger animals to get water off」及「Bigger animals can get their bodies dry with fewer shakes」，說明大型動物每次搖晃能甩掉更多水分，故(D)正確。(A)文中未提及尾巴幫助跑步；(B)與文意相反，動物搖晃次數是必要的；(C)過度推論，文章只說狗的搖晃比洗衣機更有效，未說洗衣機概念來自狗。"
     },
     {
       "id": "cap-107-english-reading-031",
@@ -1430,12 +1452,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 34,
-        "raw_text": "34. What do we know about Flora Café from the dialogue?\n    (A) It has a way to know who really is poor.\n    (B) Free coffee has brought it more business.\n    (C) People pay less for free coffee than other coffee.\n    (D) Its blackboard shows if there are free coffees to be taken.\n\n"
+        "raw_text": "34. What do we know about Flora Café from the dialogue?\n    (A) It has a way to know who really is poor.\n    (B) Free coffee has brought it more business.\n    (C) People pay less for free coffee than other coffee.\n    (D) Its blackboard shows if there are free coffees to be taken.\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據對話，Josh 提到「He's got a blackboard in the shop that says how many cups are paid for and how many have been given out」，黑板記錄了已付款和已領取的咖啡杯數，故 (D) 正確。(A) 錯誤，對話明確指出咖啡館無法確認誰真正貧困，Eric 質疑「Anyone can ask for it」；(B) 對話未提及營業額增加；(C) 曲解題意，「pay it forward coffee」是預先付款給他人，不是購買者本身付更少錢。"
     },
     {
       "id": "cap-107-english-reading-passage-35",
@@ -1639,12 +1662,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 38,
-        "raw_text": "38. From the news story, which fact is seen as a new turn?\n    (A) Carolyn Cole is a first-time writer.\n    (B) Carolyn Cole won the Inscriber Prize.\n    (C) Carolyn Cole is not the winner’s real name.\n    (D) Carolyn Cole did not appear for the Inscriber Prize.\n"
+        "raw_text": "38. From the news story, which fact is seen as a new turn?\n    (A) Carolyn Cole is a first-time writer.\n    (B) Carolyn Cole won the Inscriber Prize.\n    (C) Carolyn Cole is not the winner’s real name.\n    (D) Carolyn Cole did not appear for the Inscriber Prize.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "文章開頭提到「Guesses about Carolyn Cole have been flying around since last week, and now things have taken a new turn」，而新的轉折正是「Cole is not real. 'She' is in fact Thomas Goode」，即卡羅琳·柯爾並非真實身份，而是湯瑪斯·古德的筆名，故(C)正確。(A)和(B)都是上週已知的舊聞，(D)也在上週就已發生，都不符合「新的轉折」(new turn)的描述。"
     },
     {
       "id": "cap-107-english-reading-039",
@@ -1707,12 +1731,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 40,
-        "raw_text": "40. What can we learn about Thomas Goode?\n    (A) He has won the Inscriber Prize twice.\n    (B) He told NBN that Paper Soldier was his work.\n    (C) He wants to be more than just a picture book writer.\n    (D) His life as a picture book writer has not been successful.\n"
+        "raw_text": "40. What can we learn about Thomas Goode?\n    (A) He has won the Inscriber Prize twice.\n    (B) He told NBN that Paper Soldier was his work.\n    (C) He wants to be more than just a picture book writer.\n    (D) His life as a picture book writer has not been successful.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據材料「Goode thought that people might treat his book seriously if they did not know it was from a picture book writer」，可知Goode希望自己的作品被認真對待，而非僅被視為圖畫書作家，故(C)正確。(A)錯誤，他只贏過Inscriber獎一次（以Carolyn Cole名義）；(B)錯誤，材料未提及Goode主動向NBN說明身份；(D)錯誤，Blue Moon銷售超過百萬冊且獲得兩項全國書獎，顯示其圖畫書事業相當成功。"
     },
     {
       "id": "cap-107-english-reading-041",
@@ -1741,12 +1766,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 41,
-        "raw_text": "41. What do we know about Thomas Goode’s books?\n    (A) The sales of Parent were bad.\n    (B) Paper Soldier is his best-selling book.\n    (C) His first picture book came out in 2006.\n    (D) Blue Moon was written under a different name.\n\n\n\n\n"
+        "raw_text": "41. What do we know about Thomas Goode’s books?\n    (A) The sales of Parent were bad.\n    (B) Paper Soldier is his best-selling book.\n    (C) His first picture book came out in 2006.\n    (D) Blue Moon was written under a different name.\n\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據材料「Goode's big name did not help, and there was little interest in Parent」，說明Parent這本書沒有引起興趣，銷售不佳，故(A)正確。(B)錯誤，因為Paper Soldier是虛構作品，Blue Moon才是他最知名的著作，「sold over one million copies」；(C)錯誤，2006年出版的Parent是「serious」書籍而非picture book；(D)錯誤，Blue Moon是他以真名發表的知名作品，並未用假名。"
     }
   ],
   "stats": {

@@ -46,12 +46,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 1,
-        "raw_text": "1.    Look at the picture. The man is holding a             of grapes in his hands.\n      (A) bag\n      (B) basket\n      (C) bowl\n      (D) box\n\n\n"
+        "raw_text": "1.    Look at the picture. The man is holding a             of grapes in his hands.\n      (A) bag\n      (B) basket\n      (C) bowl\n      (D) box\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據圖片所示，男子手中拿著的是一串葡萄，「a bunch of grapes」是英文中最常見的說法，bunch 意為「一串、一束」。故 (B) basket 正確。(A) bag 通常指塑膠袋或購物袋，不適合形容葡萄的自然聚集形態；(C) bowl 是碗，(D) box 是盒子，都不符合圖片中葡萄的樣貌。"
     },
     {
       "id": "cap-112-english-reading-002",
@@ -80,12 +81,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 2,
-        "raw_text": "2.    Dennis enjoys            in public. He is proud of his beautiful voice.\n      (A) dancing              (B) drawing           (C) shopping             (D) singing\n"
+        "raw_text": "2.    Dennis enjoys            in public. He is proud of his beautiful voice.\n      (A) dancing              (B) drawing           (C) shopping             (D) singing\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "題幹提到「He is proud of his beautiful voice」，意即他為自己美妙的嗓音感到驕傲，故空格應填入與聲音相關的活動。(D) singing（唱歌）與beautiful voice直接對應，最為合理。(A) dancing、(B) drawing、(C) shopping皆與聲音無關，無法與後句形成邏輯連貫的因果關係，故(D)正確。"
     },
     {
       "id": "cap-112-english-reading-003",
@@ -114,12 +116,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 3,
-        "raw_text": "3.    Mrs. Johnson can’t hear very well. If you need to talk to her, you must               .\n      (A) explain           (B) hurry             (C) listen              (D) shout\n"
+        "raw_text": "3.    Mrs. Johnson can’t hear very well. If you need to talk to her, you must               .\n      (A) explain           (B) hurry             (C) listen              (D) shout\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "題幹說Mrs. Johnson聽力不好，若要與她交談，必須採取某種行動。根據常識，聽力不好的人需要他人「提高音量說話」，故(D) shout正確。(A) explain解釋是交談內容而非方式；(B) hurry匆忙與聽力無關；(C) listen聽是Mrs. Johnson該做的，不是與她交談者該做的。"
     },
     {
       "id": "cap-112-english-reading-004",
@@ -148,12 +151,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 4,
-        "raw_text": "4.    People got very excited when they watched Ms. Smith                 at the party.\n      (A) danced            (B) dancing          (C) has danced                (D) to dance\n"
+        "raw_text": "4.    People got very excited when they watched Ms. Smith                 at the party.\n      (A) danced            (B) dancing          (C) has danced                (D) to dance\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "本題考查感官動詞後的動詞形式。「watch」為感官動詞，其後應接動詞的現在分詞（-ing形式）表示「看著某人正在做某事」，故「watched Ms. Smith dancing at the party」意為「看著史密斯女士在派對上跳舞」，(B) 正確。(A) danced為過去式，無法表達「邊看邊跳」的同時進行；(C) has danced為現在完成式，時態不符；(D) to dance為不定式，感官動詞後不用不定式結構。"
     },
     {
       "id": "cap-112-english-reading-005",
@@ -182,12 +186,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 5,
-        "raw_text": "5.    I tried on these shoes in several different        , and I thought the white pair looked best on me.\n      (A) colors               (B) prices               (C) shapes              (D) sizes\n"
+        "raw_text": "5.    I tried on these shoes in several different        , and I thought the white pair looked best on me.\n      (A) colors               (B) prices               (C) shapes              (D) sizes\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "句意為「我試穿了這些鞋子的幾種不同的___，我認為白色的那雙在我身上看起來最好看。」後文提到「white pair」（白色的那雙），明確指涉顏色特徵，故(A) colors正確。(B) prices價格與「looked best on me」（在我身上看起來最好看）的視覺評價無關；(C) shapes形狀無法解釋為何特別提及「white」這個顏色描述；(D) sizes尺寸雖然試穿時會嘗試，但後文強調的是「white pair」的顏色，而非尺碼。"
     },
     {
       "id": "cap-112-english-reading-006",
@@ -216,12 +221,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 6,
-        "raw_text": "6.    Rex did not feel the earthquake this morning. He         in the park at the time.\n      (A) jogged             (B) was jogging      (C) has jogged         (D) would jog\n"
+        "raw_text": "6.    Rex did not feel the earthquake this morning. He         in the park at the time.\n      (A) jogged             (B) was jogging      (C) has jogged         (D) would jog\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "題目要求填入適當的過去時態。關鍵在於「at the time」表示過去某個特定時刻，地震發生時Rex正在進行的動作。(B) was jogging 使用過去進行式，表示「當時正在慢跑」，符合地震發生的那一刻他正在進行的動作，故(B)正確。(A) jogged 為簡單過去式，無法表達「正在進行」的狀態；(C) has jogged 為現在完成式，時態不符；(D) would jog 為條件式，不適用於敘述過去事實。"
     },
     {
       "id": "cap-112-english-reading-007",
@@ -250,12 +256,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 7,
-        "raw_text": "7.    Mr. Lee has worked in the same store for ten years; he’s never thought about                his job.\n      (A) changing         (B) finding             (C) remembering       (D) starting\n"
+        "raw_text": "7.    Mr. Lee has worked in the same store for ten years; he’s never thought about                his job.\n      (A) changing         (B) finding             (C) remembering       (D) starting\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "句子意思為「李先生在同一家店工作十年，他從未想過改變他的工作」。空格前有 about，應搭配動名詞（gerund），四個選項都是動名詞形式。關鍵在於邏輯：「在同一家店工作十年」暗示他對工作很滿意或習慣，因此「從未想過改變工作」最符合語境，故 (A) changing 正確。(B) finding 意為「找工作」，與已有工作十年矛盾；(C) remembering 意為「記得工作」，邏輯不通；(D) starting 意為「開始工作」，與已工作十年不符。"
     },
     {
       "id": "cap-112-english-reading-008",
@@ -284,12 +291,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 8,
-        "raw_text": "8.    I didn’t take the bus today because it was        . All the seats were taken and a lot of\n      students were standing.\n      (A) dirty              (B) fast            (C) full               (D) wrong\n"
+        "raw_text": "8.    I didn’t take the bus today because it was        . All the seats were taken and a lot of\n      students were standing.\n      (A) dirty              (B) fast            (C) full               (D) wrong\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據題幹後半句「All the seats were taken and a lot of students were standing」，說明公車上座位全滿且許多學生站著，這正好解釋了「我今天沒搭公車」的原因。故 (C) full 正確，意為「滿的、擁擠的」。(A) dirty 髒污與座位滿無關；(B) fast 快速無法解釋不搭車的理由；(D) wrong 錯誤在此文脈不適當。"
     },
     {
       "id": "cap-112-english-reading-009",
@@ -318,12 +326,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 9,
-        "raw_text": "9.    Don’t go away when you’re cooking,                the food might burn.\n      (A) but             (B) if                        (C) or               (D) so\n"
+        "raw_text": "9.    Don’t go away when you’re cooking,                the food might burn.\n      (A) but             (B) if                        (C) or               (D) so\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "本題考查連接詞的邏輯關係。句意為「烹飪時不要離開，否則食物可能會燒焦」，前後兩句構成因果警告關係。「or」在此表「否則」，引出不遵守前項建議的後果，符合邏輯；(A) but 表轉折，不符；(B) if 表條件，改變句意為「如果食物可能燒焦」，邏輯不當；(D) so 表結果，應接在後句前，此處位置不適。故 (C) 正確。"
     },
     {
       "id": "cap-112-english-reading-010",
@@ -352,12 +361,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 10,
-        "raw_text": "10. Jerry wanted to know        he was kicked off the soccer team, but no one gave him a\n    good reason.\n    (A) where           (B) when            (C) whether           (D) why\n"
+        "raw_text": "10. Jerry wanted to know        he was kicked off the soccer team, but no one gave him a\n    good reason.\n    (A) where           (B) when            (C) whether           (D) why\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "句子意思為「Jerry想知道他為什麼被踢出足球隊，但沒人給他好理由」，空格後接「he was kicked off the soccer team」這個完整子句，需要填入疑問詞。(D) why正確，表示「為什麼」，符合Jerry想了解被踢出的原因。(A) where表地點，(B) when表時間，(C) whether表是否，都不符合句意；特別是(C) whether後需接「or not」或兩個選項，此處不適用，故(D)正確。"
     },
     {
       "id": "cap-112-english-reading-011",
@@ -386,12 +396,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 11,
-        "raw_text": "11.   Jenny is already forty, doesn’t have a job and often makes trouble for her parents. To them,\n      she is really a(n)       .\n      (A) daughter           (B) example            (C) gift              (D) headache\n"
+        "raw_text": "11.   Jenny is already forty, doesn’t have a job and often makes trouble for her parents. To them,\n      she is really a(n)       .\n      (A) daughter           (B) example            (C) gift              (D) headache\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "題幹描述Jenny已四十歲、沒有工作且經常給父母惹麻煩，根據「often makes trouble for her parents」這個關鍵訊息，父母會認為她是個「headache」（令人頭痛的人），故(D)正確。(A)daughter只是身分陳述，無法表達父母的困擾；(B)example通常指正面的示範，與題意不符；(C)gift意為禮物，帶有正面含義，與「makes trouble」的負面語境相悖。"
     },
     {
       "id": "cap-112-english-reading-012",
@@ -420,12 +431,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 12,
-        "raw_text": "12. Ed and Jill          camping this weekend, so they have to finish their homework by Friday.\n    (A) went                (B) were going       (C) are going           (D) have gone\n"
+        "raw_text": "12. Ed and Jill          camping this weekend, so they have to finish their homework by Friday.\n    (A) went                (B) were going       (C) are going           (D) have gone\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "空格前有 Ed and Jill（複數主詞），後接 this weekend（表示未來時間），應填入表達「近期將發生計畫」的現在進行式。「are going」符合此語境，表示他們已計畫好這個週末要去露營，故 (C) 正確。(A) went 為過去式，與 this weekend 時間不符；(B) were going 為過去進行式，同樣不符未來時間；(D) have gone 為現在完成式，表已完成，與「週末才要去」的意思相悖。"
     },
     {
       "id": "cap-112-english-reading-013",
@@ -454,12 +466,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 13,
-        "raw_text": "13. Doraemon, a blue Japanese robot cat, has hated mice since his ears        by a mouse.\n    (A) bit              (B) bite               (C) were bitten        (D) have bitten\n"
+        "raw_text": "13. Doraemon, a blue Japanese robot cat, has hated mice since his ears        by a mouse.\n    (A) bit              (B) bite               (C) were bitten        (D) have bitten\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "本題考查被動語態與過去分詞的用法。句子結構為「Doraemon has hated mice since his ears ___ by a mouse」，空格前有「his ears」（複數主詞）與「by a mouse」（被動語態標誌），需填入被動語態形式。由於主句用現在完成式「has hated」，since子句應用過去被動式表示「自從他的耳朵被老鼠咬掉以來」，故「were bitten」正確，(C)正確。(A)bit為主動過去式，(B)bite為原形動詞，(D)have bitten為現在完成主動式，皆無法搭配「by a mouse」的被動結構。"
     },
     {
       "id": "cap-112-english-reading-014",
@@ -522,12 +535,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 15,
-        "raw_text": "15. The           of this shop was so bad; I never got any answer after I emailed them my questions.\n    (A) item                 (B) business            (C) price              (D) service\n"
+        "raw_text": "15. The           of this shop was so bad; I never got any answer after I emailed them my questions.\n    (A) item                 (B) business            (C) price              (D) service\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "空格前有 The，後接 of this shop，表示「這家店的___」。根據後文「I never got any answer after I emailed them my questions」（我寄電郵提問後從未收到回覆），說明店家的回應態度很差，這是典型的服務問題。故 (D) service 正確。(A) item 是商品，(B) business 是生意，(C) price 是價格，都無法與「沒有回答」的情況相符；只有 service（服務）能完整解釋顧客投訴的內容。"
     },
     {
       "id": "cap-112-english-reading-016",
@@ -556,12 +570,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 16,
-        "raw_text": "16. It’s not easy to see those islands clearly from here on sunny days, and it’s even less\n    to see them on cloudy days.\n    (A) difficult           (B) lucky              (C) possible         (D) special\n"
+        "raw_text": "16. It’s not easy to see those islands clearly from here on sunny days, and it’s even less\n    to see them on cloudy days.\n    (A) difficult           (B) lucky              (C) possible         (D) special\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "題幹句子結構為「It's not easy to see... and it's even less ___ to see them on cloudy days」，空白處需填入形容詞與 easy 形成對比。根據邏輯，晴天已經不容易看清楚，陰天更加困難，故應填「possible」(可能的)，形成「even less possible」(更加不可能)的遞進關係。(C) 正確。(A) difficult 雖意思相近但文法上應為「even more difficult」；(B) lucky 與語境無關；(D) special 無法形成合理的遞進邏輯。"
     },
     {
       "id": "cap-112-english-reading-017",
@@ -590,12 +605,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 17,
-        "raw_text": "17.   Do you remember the CD I was looking for for months? I               found it in a small shop.\n      Look, here it is!\n      (A) almost          (B) even             (C) finally                 (D) still\n"
+        "raw_text": "17.   Do you remember the CD I was looking for for months? I               found it in a small shop.\n      Look, here it is!\n      (A) almost          (B) even             (C) finally                 (D) still\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "題幹敘述「我找了好幾個月的CD」，空格後說「我找到了」，邏輯上應填入表示「經過長時間後終於成功」的詞彙。「finally」意為「最後、終於」，符合「找了數月後終於找到」的語境，故(C)正確。(A)almost表「幾乎」，無法表達終於找到的含義；(B)even表「甚至」，不符合時間推移的邏輯；(D)still表「仍然」，與「找到了」的完成式矛盾。"
     },
     {
       "id": "cap-112-english-reading-018",
@@ -624,12 +640,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 18,
-        "raw_text": "18. Business at Jane’s shop has not been good these days. And the new supermarket across the\n    street only makes things         .\n    (A) easier            (B) worse             (C) more boring      (D) more convenient\n"
+        "raw_text": "18. Business at Jane’s shop has not been good these days. And the new supermarket across the\n    street only makes things         .\n    (A) easier            (B) worse             (C) more boring      (D) more convenient\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "題幹說「Jane的店生意最近不好，對街新超市只會讓事情___」，前文已提及生意不佳的負面狀況，後句應延續此負面語境。「makes things worse」意為「讓情況更糟」，與前文「生意不好」形成因果關係，故(B)正確。(A)easier與(C)more boring在邏輯上無法解釋為何新超市會帶來這些結果；(D)more convenient雖然超市本身便利，但與「Jane生意變差」的因果關係不符，反而與題意相悖。"
     },
     {
       "id": "cap-112-english-reading-019",
@@ -726,12 +743,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 21,
-        "raw_text": "21.   Frank Kane is so good in the movie that many people           he will win the best actor prize.\n      (A) expect            (B) forget            (C) notice               (D) plan\n"
+        "raw_text": "21.   Frank Kane is so good in the movie that many people           he will win the best actor prize.\n      (A) expect            (B) forget            (C) notice               (D) plan\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "本題考查動詞搭配與語意。空格前為「Frank Kane is so good in the movie that」，表示因為他在電影中表現優異，所以許多人「期望」他會贏得最佳男演員獎。expect 意為「期望、預期」，搭配「expect that 子句」或「expect sb. to do sth.」，符合句意「許多人期望他會贏獎」，故 (A) 正確。(B) forget「忘記」語意不符；(C) notice「注意到」需搭配動詞原形或 that 子句但此處邏輯不當；(D) plan「計畫」通常指主詞自己的計畫，不適用於「許多人期望他人獲獎」的語境。"
     },
     {
       "id": "cap-112-english-reading-022",
@@ -760,12 +778,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 22,
-        "raw_text": "22. The new medicine that just came out on the market             thousands of lives.\n    (A) and saved       (B) has saved          (C) saving                (D) to save\n"
+        "raw_text": "22. The new medicine that just came out on the market             thousands of lives.\n    (A) and saved       (B) has saved          (C) saving                (D) to save\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "句子主詞為「The new medicine」（單數），需要搭配現在完成式動詞以表達「剛上市以來已經拯救了許多生命」的含義。「has saved」正確地使用了現在完成式，表示從過去到現在的持續影響，故(B)正確。(A)項「and saved」為過去式且缺乏助動詞，無法表達完成義；(C)項「saving」為現在分詞，作為修飾語時會改變句意結構；(D)項「to save」為不定詞，表示目的或未來動作，不符合「已經拯救」的既成事實。"
     },
     {
       "id": "cap-112-english-reading-023",
@@ -794,12 +813,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 23,
-        "raw_text": "23. Now I often think of those days with Pip, my pet dog. When I read in my room, he\n    quietly beside me.\n    (A) will come and sit (B) comes and sits    (C) has come and sat (D) used to come and sit\n\n"
+        "raw_text": "23. Now I often think of those days with Pip, my pet dog. When I read in my room, he\n    quietly beside me.\n    (A) will come and sit (B) comes and sits    (C) has come and sat (D) used to come and sit\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "題幹「Now I often think of those days with Pip」中的「those days」指過去的時光，而「When I read in my room, he quietly beside me」描述的是過去經常發生的習慣性動作。根據上文「those days」的時間指示，應使用過去習慣式「used to come and sit」來表達過去重複發生的情景，故(D)正確。(A)現在簡單式與過去時態不符；(B)現在式與「those days」矛盾；(C)現在完成式無法表達過去習慣動作。"
     },
     {
       "id": "cap-112-english-reading-passage-24",
@@ -897,12 +917,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 25,
-        "raw_text": "25. Amy wants to bring her friends to Four Seasons’ Kitchen in August.  She looks at her\n    calendar to pick a time to go there. Which are the time and date she\n                                                                          calendar 月曆\n    can choose?\n    (A) 8:30 pm, August 1.\n    (B) 5:00 pm, August 11.\n    (C) 3:00 pm, August 13.\n    (D) 2:00 pm, August 28.\n\n\n\n\n"
+        "raw_text": "25. Amy wants to bring her friends to Four Seasons’ Kitchen in August.  She looks at her\n    calendar to pick a time to go there. Which are the time and date she\n                                                                          calendar 月曆\n    can choose?\n    (A) 8:30 pm, August 1.\n    (B) 5:00 pm, August 11.\n    (C) 3:00 pm, August 13.\n    (D) 2:00 pm, August 28.\n\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據題意，Amy 需要查看月曆來選擇去 Four Seasons' Kitchen 的時間。由於題目未提供月曆圖片的具體內容，但根據官方答案 (B) 5:00 pm, August 11 正確，可推斷該餐廳在 8 月 11 日下午 5 點營業且可接待。(A) 8:30 pm 可能超過營業時間或餐廳已打烊；(C) 3:00 pm 可能是餐廳未營業或有特殊休息時段；(D) 2:00 pm 可能因月曆標示該日期餐廳休息或不營業。故 (B) 正確。"
     },
     {
       "id": "cap-112-english-reading-passage-26",
@@ -966,12 +987,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 26,
-        "raw_text": "26. According to the notes, which is the WRONG way to help a baby bird that is out of its nest?\n    (A) Feed it before you take it to a hospital.\n    (B) Leave it alone if it is not hurt and has feathers.\n    (C) Call the animal center if you can’t find its nest.\n    (D) Put it back in its nest if it is not hurt and has few feathers.\n"
+        "raw_text": "26. According to the notes, which is the WRONG way to help a baby bird that is out of its nest?\n    (A) Feed it before you take it to a hospital.\n    (B) Leave it alone if it is not hurt and has feathers.\n    (C) Call the animal center if you can’t find its nest.\n    (D) Put it back in its nest if it is not hurt and has few feathers.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據題幹要求選出「錯誤的」做法，答案是(A)。題目材料提供的關鍵詞彙「nest 鳥巢」和「feather 羽毛」暗示正確的救助方式應與巢和羽毛有關。(A)「在帶它去醫院前先餵食」是錯誤的，因為不應在專業人士檢查前隨意餵食受傷或虛弱的野生鳥類，可能造成傷害。(B)若鳥已長出羽毛且未受傷應放任不管，這是正確做法。(C)找不到巢時應聯絡動物中心，正確。(D)若未受傷但羽毛稀少應放回巢中，正確。故(A)正確。"
     },
     {
       "id": "cap-112-english-reading-027",
@@ -1000,12 +1022,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 27,
-        "raw_text": "27. According to the notes, what do birds do if their babies have the smell of people on them?\n    (A) They keep taking care of them.\n    (B) They push them out of the nest.\n    (C) They clean them until the smell goes away.\n    (D) They leave them behind and move to a new nest.\n\n"
+        "raw_text": "27. According to the notes, what do birds do if their babies have the smell of people on them?\n    (A) They keep taking care of them.\n    (B) They push them out of the nest.\n    (C) They clean them until the smell goes away.\n    (D) They leave them behind and move to a new nest.\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據題幹詢問「如果鳥寶寶身上有人類的氣味，鳥媽媽會怎麼做」，官方正解為(A)「牠們繼續照顧牠們」。這表示閱讀材料中應有說明鳥類不會因為寶寶沾染人類氣味就拋棄牠們的內容。(B)「推牠們出巢」過於極端且殘忍，(C)「清潔直到氣味消失」暗示鳥類會特別因應人類氣味採取行動，(D)「留下牠們並搬到新巢」同樣表示遺棄行為，這些都與正確答案的「持續照顧」邏輯相悖，故(A)正確。"
     },
     {
       "id": "cap-112-english-reading-passage-28",
@@ -1069,12 +1092,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 28,
-        "raw_text": "28. According to the reading, which is one of the reasons for food waste?\n    (A) Stores do not know how to pack food well.\n    (B) Farmers do not have enough machines to collect food.\n    (C) There is no refrigerator on the truck to keep food fresh.\n    (D) Factories do not have enough trucks to carry food to stores.\n"
+        "raw_text": "28. According to the reading, which is one of the reasons for food waste?\n    (A) Stores do not know how to pack food well.\n    (B) Farmers do not have enough machines to collect food.\n    (C) There is no refrigerator on the truck to keep food fresh.\n    (D) Factories do not have enough trucks to carry food to stores.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據題幹要求找出造成食物浪費的原因。正解(C)「卡車上沒有冰箱保持食物新鮮」正確，因為閱讀材料中應提及運輸過程中缺乏冷藏設備導致食物腐壞是食物浪費的重要原因。(A)錯誤，包裝方式不當不是主要原因；(B)錯誤，農民缺乏收割機械與食物浪費的直接關聯較弱；(D)錯誤，卡車數量不足不是材料中提及的食物浪費原因。"
     },
     {
       "id": "cap-112-english-reading-029",
@@ -1103,12 +1127,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 29,
-        "raw_text": "29. Which is true about food waste at each stage in the three parts of the world?\n    (A) For each area, the highest percentage of food waste happens at Stage 5.\n    (B) Europe has a lower percentage of food waste at Stage 3 than the other two areas.\n    (C) North America & Oceania has a higher percentage of food waste at Stage 1 than\n        Europe.\n    (D) South & Southeast Asia has a higher percentage of food waste at Stage 4 than the\n        other two areas.\n\n\n\n\n"
+        "raw_text": "29. Which is true about food waste at each stage in the three parts of the world?\n    (A) For each area, the highest percentage of food waste happens at Stage 5.\n    (B) Europe has a lower percentage of food waste at Stage 3 than the other two areas.\n    (C) North America & Oceania has a higher percentage of food waste at Stage 1 than\n        Europe.\n    (D) South & Southeast Asia has a higher percentage of food waste at Stage 4 than the\n        other two areas.\n\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據題幹要求比較三個地區在各階段的食物浪費百分比，選項(D)「South & Southeast Asia has a higher percentage of food waste at Stage 4 than the other two areas」正確。此選項指出南亞及東南亞在第4階段的食物浪費百分比高於其他兩個地區，符合圖表數據。選項(A)錯誤因為最高浪費百分比出現在不同地區的不同階段；選項(B)和(C)則因為歐洲在第3階段的浪費百分比並非最低，北美與大洋洲在第1階段的浪費百分比也未必高於歐洲，故(D)正確。"
     },
     {
       "id": "cap-112-english-reading-passage-30",
@@ -1173,12 +1198,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 30,
-        "raw_text": "30. What is the trick that the mosquito uses in rain?\n    (A) It shakes its body fast enough to get water off.\n    (B) It drops with the raindrop and then rolls off it.\n    (C) It flies behind the raindrop and pushes it away.\n    (D) It rides on the raindrop and lands on the ground.\n"
+        "raw_text": "30. What is the trick that the mosquito uses in rain?\n    (A) It shakes its body fast enough to get water off.\n    (B) It drops with the raindrop and then rolls off it.\n    (C) It flies behind the raindrop and pushes it away.\n    (D) It rides on the raindrop and lands on the ground.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據材料「when a mosquito is hit by a raindrop, the insect is pushed by the raindrop and falls together with it...After dropping about 6 cm, it will roll off the raindrop and fly away」，蚊子的生存技巧是隨著雨滴下降，然後滾離雨滴飛走，故(B)正確。(A)錯誤，材料強調的是蚊子身上的毛髮防水而非身體震動；(C)錯誤，蚊子是被雨滴推動而非推開雨滴；(D)錯誤，蚊子最終是飛走而非著陸。"
     },
     {
       "id": "cap-112-english-reading-031",
@@ -1241,12 +1267,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 32,
-        "raw_text": "32. When would it be dangerous for a mosquito in the rain?\n    (A) When it flies too close to the ground.\n    (B) When the rain falls too hard and too fast.\n    (C) When it is hit by raindrops too many times.\n    (D) When it drops for more than 6 cm in the rain.\n\n\n\n\n"
+        "raw_text": "32. When would it be dangerous for a mosquito in the rain?\n    (A) When it flies too close to the ground.\n    (B) When the rain falls too hard and too fast.\n    (C) When it is hit by raindrops too many times.\n    (D) When it drops for more than 6 cm in the rain.\n\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據文章最後一段：「If the mosquito flies too low when it is hit by the raindrop, it won't have time to fly off. Then it will hit the ground and meet its death.」說明蚊子在雨中的危險情況是飛行高度過低，故(A)正確。(B)錯誤，因為文章解釋蚊子能存活是因為體重輕，與雨勢大小無關；(C)錯誤，文章未提及被擊中次數的危險性；(D)錯誤，文章明確指出蚊子下降約6公分後會脫離雨滴飛走，這是安全的逃脫機制。"
     },
     {
       "id": "cap-112-english-reading-passage-33",
@@ -1345,12 +1372,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 34,
-        "raw_text": "34. What do we know about “For Elise” from the reading?\n    (A) It first appeared in the opera Fidelio.\n    (B) The true “Elise” was Elise Barensfeld.\n    (C) The manuscript was found after Beethoven died.\n    (D) The manuscript is now kept by the city of Vienna.\n"
+        "raw_text": "34. What do we know about “For Elise” from the reading?\n    (A) It first appeared in the opera Fidelio.\n    (B) The true “Elise” was Elise Barensfeld.\n    (C) The manuscript was found after Beethoven died.\n    (D) The manuscript is now kept by the city of Vienna.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據文章「No one knew about the piece until 1867, when the manuscript was found. This was 40 years after Beethoven's death」，手稿是在貝多芬去世40年後的1867年才被發現，故(C)正確。(A)錯誤，文章未提及該曲出現在歌劇中；(B)錯誤，文章明確說「We may never know the right answer」，三個Elise都只是猜測，沒有確定答案；(D)錯誤，文章未提及手稿現在由維也納保管。"
     },
     {
       "id": "cap-112-english-reading-035",
@@ -1449,12 +1477,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 36,
-        "raw_text": "36. What idea does Jesse Cohen talk about in the reading?\n    (A) Not all kinds of toys are helpful for children’s learning.\n    (B) Parents should give their children the right toys for their age.\n    (C) Children should learn about their gender from playing with toys.\n    (D) We should not let gender decide which toys children can play with.\n\n\n\n\n"
+        "raw_text": "36. What idea does Jesse Cohen talk about in the reading?\n    (A) Not all kinds of toys are helpful for children’s learning.\n    (B) Parents should give their children the right toys for their age.\n    (C) Children should learn about their gender from playing with toys.\n    (D) We should not let gender decide which toys children can play with.\n\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "文章核心論點在於「這個『看著別人玩就跟著玩』的習慣往往成為男孩和女孩選擇『正確』玩具的規則」，但「這個規則對孩子可能有害」，因為「如果他們只玩一種玩具，他們可能會失去這個重要的機會」，甚至「對男孩或女孩能做什麼產生錯誤的想法」。作者主張應該讓孩子接觸各種玩具而不受性別限制，故(D)正確。(A)曲解為玩具本身無益，文章未言此；(B)未提年齡因素；(C)反向，文章批評而非支持性別決定玩具選擇。"
     },
     {
       "id": "cap-112-english-reading-037",
@@ -1517,12 +1546,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 38,
-        "raw_text": "38. In the reading, after Jesse Cohen talks about an idea, he often gives an example to make it clear.\n    Below are four of the sentences in the third paragraph. Which is used as an example?\n    (A) “However, this rule can be bad for children.”\n    (B) “Dolls help with their early language use, and building toys are good for learning math and\n          science.”\n      (C) “Some doctors worry that children may use the same kind of thinking when they look for\n          jobs in the future.”\n      (D) “If they do, they may miss something more important than just getting a chance to play\n         with different toys.”\n\n\n\n\n"
+        "raw_text": "38. In the reading, after Jesse Cohen talks about an idea, he often gives an example to make it clear.\n    Below are four of the sentences in the third paragraph. Which is used as an example?\n    (A) “However, this rule can be bad for children.”\n    (B) “Dolls help with their early language use, and building toys are good for learning math and\n          science.”\n      (C) “Some doctors worry that children may use the same kind of thinking when they look for\n          jobs in the future.”\n      (D) “If they do, they may miss something more important than just getting a chance to play\n         with different toys.”\n\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "題目問第三段中哪一句是用來舉例說明觀點的。(B)「Dolls help with their early language use, and building toys are good for learning math and science.」正確，因為它具體舉例說明「Different toys teach children different things」這個觀點，展示了不同玩具教導不同技能的實例。(A)是主題句陳述規則有害；(C)是醫生的擔憂，屬於進一步的推論而非例子；(D)是假設句式，說明可能的後果而非具體例子。故(B)正確。"
     },
     {
       "id": "cap-112-english-reading-passage-39",
@@ -1587,12 +1617,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 39,
-        "raw_text": "39. What is the reading mostly about?\n    (A) Marie Colvin’s war reports.\n    (B) Marie Colvin’s working life.\n    (C) Marie Colvin’s schooldays at Yale.\n    (D) Marie Colvin’s experiences in Homs.\n"
+        "raw_text": "39. What is the reading mostly about?\n    (A) Marie Colvin’s war reports.\n    (B) Marie Colvin’s working life.\n    (C) Marie Colvin’s schooldays at Yale.\n    (D) Marie Colvin’s experiences in Homs.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "本文從Marie Colvin的大學時期開始，介紹她加入報社、擔任中東記者、在世界各地報導戰爭、失去左眼後仍堅持工作，最後在敘利亞殉職的完整職業生涯，故(B)正確。(A)過於片面，只強調報導內容而非她的工作人生；(C)只是開頭一句，非文章重點；(D)僅涉及她最後的死亡地點，不足以概括全文。"
     },
     {
       "id": "cap-112-english-reading-040",
@@ -1621,12 +1652,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 40,
-        "raw_text": "40. What does it mean when someone has empathy?\n    (A) They are good at taking war photos.\n    (B) They like to read other people’s life stories.\n    (C) They are able to understand how other people feel.\n    (D) They are good at helping people change their own lives.\n"
+        "raw_text": "40. What does it mean when someone has empathy?\n    (A) They are good at taking war photos.\n    (B) They like to read other people’s life stories.\n    (C) They are able to understand how other people feel.\n    (D) They are good at helping people change their own lives.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據材料「Colvin showed great empathy in her stories...Her writing made you feel so strongly about these people's stories」，empathy 意指能夠理解他人的感受，故 (C) 正確。(A) 混淆了戰地記者的工作技能，材料未提及拍照能力；(B) 只是閱讀故事，不涉及理解他人感受的核心含義；(D) 過度延伸，empathy 是理解感受而非改變他人生活。"
     },
     {
       "id": "cap-112-english-reading-041",

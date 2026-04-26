@@ -1,0 +1,85 @@
+{
+  "year": 111,
+  "subject": "english-reading",
+  "model": "claude-haiku-4-5-20251001",
+  "generated_at": "2026-04-26",
+  "failures": {
+    "8": {
+      "reason": "validation_failed",
+      "first_why": "too_long(313)",
+      "first_text": "本題考查動詞搭配用法。空格前為「took me lots of time」，此句型應搭配「take (someone) time to do something」的結構，表示「花費時間去做某事」，故空格應填入不定詞形式。(B) to prepare 正確。(A) prepare 為原形動詞但缺少 to，不符合 take...time 的搭配；(C) preparing 為動名詞形式，與 take...time 搭配時應為 take...time in preparing 或 take...time preparing，此處直接接在 time 後不合文法；(D) prepared 為過去分詞，無法表達「去做」的目的意義。",
+      "second_why": "too_long(308)",
+      "second_text": "本題考查動詞搭配。關鍵在於 take 與不定詞的搭配：「It took me lots of time to prepare a big meal」是固定用法，表示「花費時間去做某事」。題幹中「Although it took me lots of time ___ a big meal for ten people」缺少的動詞應為「to prepare」，故 (B) 正確。(A) prepare 缺少 to，違反 take time 的搭配規則；(C) preparing 為動名詞形式，不符合 it takes time to do 的句型；(D) prepared 為過去式，無法表達「花時間去做」的意思。"
+    },
+    "17": {
+      "reason": "validation_failed",
+      "first_why": "too_long(316)",
+      "first_text": "本題考查被動語態與現在完成式的用法。句意為「警察還沒找到在超市被帶走的小女孩」，小女孩是被帶走的對象，應用被動語態。空格前有「who」引導關係子句修飾「the little girl」，需填入謂語動詞。由於事件發生在過去但對現在有影響（警察仍在尋找），應用現在完成被動式「has been taken away」，但選項中無此形式，(D)「was taken away」為一般過去被動式，表示過去某時被帶走的事實，符合語境。(A)「took away」為主動語態，與句意不符；(B)「taken away」缺助動詞，文法不完整；(C)「has taken away」為主動現在完成式，與「小女孩被帶走」的被動意義矛盾，故(D)正確。",
+      "second_why": "too_long(313)",
+      "second_text": "本題考查被動語態與現在完成式的用法。空格前有關係代詞 who，指代 the little girl，應為被動主語。句意「警察還沒找到在超市被帶走的小女孩」，小女孩是被帶走的對象，故需用被動語態。又因事件發生在過去但影響持續到現在，應用現在完成被動式 has been taken away，但選項中無此形式，(D) was taken away 為一般過去被動式，在此語境中表示「曾被帶走」的事實，為最合適選項，故 (D) 正確。(A) took away 為主動語態，與 who 指代的被動主語不符；(B) taken away 缺助動詞，文法不完整；(C) has taken away 為主動現在完成式，與被動主語矛盾。"
+    },
+    "25": {
+      "reason": "validation_failed",
+      "first_why": "too_long(327)",
+      "first_text": "Darrell建議Marina使用Pinterest的原因在於「Many people share their works on Pinterest and tell you how they made them. I'm sure you can get some ideas there」，他強調Pinterest上有許多人分享作品和製作方法，Marina可以從中獲得靈感，故(A)正確。(B)錯誤因為Marina誤認為Pinterest是購物應用，但Darrell明確否定了「Not really」；(C)題目未提及交友目的；(D)是Pinterest的功能之一，但不是Darrell建議Marina去的原因，Marina是去尋找靈感而非分享作品。",
+      "second_why": "too_long(323)",
+      "second_text": "根據對話，Marina 為美術課需要畫一棟未來的房子但沒有想法，Darrell 建議她「try Pinterest」並解釋「Many people share their works on Pinterest and tell you how they made them. I'm sure you can get some ideas there」，說明 Pinterest 是用來獲取靈感和參考範例的平台，故 (A) 正確。(B) 錯誤因為 Darrell 明確否定「Not really」它是購物應用；(C) 和 (D) 都不符合 Darrell 的建議目的，他是要 Marina 去看別人的作品來獲得創意靈感，而非社交或分享自己的作品。"
+    },
+    "26": {
+      "reason": "validation_failed",
+      "first_why": "too_long(313)",
+      "first_text": "根據對話中Darrell的說法，「I found the A to Z of making chocolate cake—from choosing good chocolate to baking the cake to making sugar flowers on top」，這句話用「from...to...to...」列舉了製作巧克力蛋糕的各個步驟，說明「A to Z」涵蓋了從開始到結束的所有環節，故(C)「You learn everything about it」正確。(A)與時間無關；(B)文中未提及烘焙課程；(D)「all your life」過度誇大，「A to Z」只是表示完整全面，不代表終身學習。",
+      "second_why": "too_long(292)",
+      "second_text": "根據對話，Darrell 提到「the A to Z of making chocolate cake—from choosing good chocolate to baking the cake to making sugar flowers on top」，這個片語說明了從開始到結束的完整過程。「A to Z」是英文習語，表示「從頭到尾、全部、所有細節」，故(C)「You learn everything about it」正確。(A)「任何時間」與原文無關；(B)「烘焙課」只是例子，不是習語含義；(D)「終身學習」過度誇大，A to Z 只表示全面了解，不涉及時間長度。"
+    },
+    "28": {
+      "reason": "validation_failed",
+      "first_why": "too_long(335)",
+      "first_text": "根據材料最後一段：「But for people who enjoy exercising but are too busy to go to the gym, Tabata training might just be the answer.」這句話明確指出適合Tabata訓練的人是那些「enjoy exercising」（喜歡運動）但時間不足的人，故(D)正確。(B)錯誤因為材料明言「If you seldom exercise or have heart problems, this exercise may not be good for you」，不適合運動初學者；(C)錯誤因為材料是說有心臟問題的人不適合，而非用來治療心臟問題；(A)與材料內容無關。",
+      "second_why": "too_long(318)",
+      "second_text": "根據材料最後一段：「But for people who enjoy exercising but are too busy to go to the gym, Tabata training might just be the answer.」說明Tabata訓練適合已有運動習慣但時間不足的人，故(D)正確。(B)錯誤因為材料明確指出「If you seldom exercise or have heart problems, this exercise may not be good for you」，不適合少運動的初學者；(A)與材料無關，Tabata是個人訓練非團隊運動；(C)錯誤因為材料警告有心臟問題的人應避免此運動。"
+    },
+    "29": {
+      "reason": "validation_failed",
+      "first_why": "too_long(345)",
+      "first_text": "根據材料「The moves for the 20-second exercise are not difficult to learn」及「You can decide yourself what moves to do in your Tabata training」，說明動作容易學習且可自由選擇，故(B)正確。(A)錯誤，材料明確指出動作「not difficult to learn」；(C)錯誤，材料開頭強調「It doesn't take much time or space」；(D)錯誤，材料說明需要「exercise really hard during each 20 seconds」才能達到afterburn效果，但並未禁止休息，反而標準流程本身就包含10秒休息。",
+      "second_why": "too_long(339)",
+      "second_text": "根據材料「The moves for the 20-second exercise are not difficult to learn」及「You can decide yourself what moves to do in your Tabata training」，說明動作容易學習且可自由選擇，故(B)正確。(A)錯誤，材料明確指出動作「not difficult to learn」；(C)錯誤，材料開頭提到「It doesn't take much time or space」，不需大空間；(D)錯誤，材料說明需在「20 seconds」內努力運動才能達到「afterburn」效果，但仍有「rest for 10 seconds」的休息時間，並非完全不能休息。"
+    },
+    "32": {
+      "reason": "validation_failed",
+      "first_why": "too_long(385)",
+      "first_text": "根據材料「A study shows that workers who work more hours often have a bigger chance to get paid more and rise higher in their companies. This is true for both men and women」，Figure 2 應顯示男女工作時數與薪資升遷的關係。選項(D)指出當工作時數相同（2,200小時）時，男女獲得加薪升遷的機會幾乎相同，符合「This is true for both men and women」的敘述，故(D)正確。(A)無法從圖表推斷性別差異；(B)雖材料提及死亡人數，但題目問的是從兩張圖表能學到什麼，Figure 1應為年度數據而非趨勢；(C)錯誤，因為材料強調男女在相同工作時數下機會相等，而非男性優勢。",
+      "second_why": "too_long(395)",
+      "second_text": "根據材料「A study shows that workers who work more hours often have a bigger chance to get paid more and rise higher in their companies. This is true for both men and women」，Figure 2 應顯示男女工作時數與薪資升遷的關係。選項(D)指出當工作時數相同（2,200小時）時，男女獲得加薪升遷的機會幾乎相同，符合「This is true for both men and women」的說法，故(D)正確。(A)無法從圖表推斷性別差異；(B)雖材料提及死亡人數，但題目問的是從兩張圖表能學到什麼，Figure 1應顯示的是特定年份數據而非年年增加的趨勢；(C)錯誤，因為材料強調男女在相同工作時數下機會相等，而非男性優勢。"
+    },
+    "36": {
+      "reason": "validation_failed",
+      "first_why": "too_long(326)",
+      "first_text": "文章開頭指出「being able to speak English is often a way to get power. However, this is not true for English speakers in Cameroon」，接著說明歷史背景後解釋「the government has been in French speakers' hands since the two parts became one country」，故作者透過歷史說明英語使用者權力較少的原因，(B)正確。(A)與文意相反，文章恰恰說明英語在喀麥隆無法帶來權力；(C)只是歷史事實陳述，非作者主要目的；(D)雖文中提及此數據，但非透過歷史說明的重點。",
+      "second_why": "too_long(497)",
+      "second_text": "文章開頭提出「being able to speak English is often a way to get power. However, this is not true for English speakers in Cameroon」，接著說「To know why things are different in this African country, we need to go back one hundred years」，然後詳述歷史背景，最後解釋「the government has been in French speakers' hands since the two parts became one country」，說明英語使用者因此「have felt they are not welcome」且「very difficult for them to find jobs in the government」。作者透過歷史脈絡解釋英語使用者權力較小的原因，故(B)正確。(A)與文意相反；(C)只是歷史事實陳述，非作者論述重點；(D)未涉及權力議題。"
+    },
+    "34": {
+      "reason": "validation_failed",
+      "first_why": "too_long(301)",
+      "first_text": "根據文章內容，「For a long time, Cameroon's English speakers have felt they are not welcome in their own country」，他們難以找到政府工作，被迫在商業和官方場合說法語，因此「They have become more resentful at the government」。由於長期遭受不公平待遇和歧視，英語使用者對政府產生的情緒應是憤怒而非悲傷，故(B) Angry正確。(A) Sad雖涉及負面情緒但程度不足；(C) Careful和(D) Worried都與文脈中因被邊緣化而產生的強烈對抗情緒不符。",
+      "second_why": "too_long(342)",
+      "second_text": "根據文章內容，「For a long time, Cameroon's English speakers have felt they are not welcome in their own country」，他們難以找到政府工作，被迫在商業和官方場合說法語，因此「They have become more resentful at the government」。由於長期遭受不公平待遇和歧視，英語使用者對政府產生了強烈的負面情緒，這種情緒應是「憤怒」而非單純的「悲傷」，故(B) Angry正確。(A) Sad只表示難過，未能完整表達因被不公正對待而產生的強烈情緒；(C) Careful和(D) Worried與文意無關，文章強調的是英語使用者的憤怒和反抗，而非謹慎或擔憂。"
+    },
+    "37": {
+      "reason": "validation_failed",
+      "first_why": "too_long(301)",
+      "first_text": "根據材料「It's best to plan one day for one part of the trail and start your hike early in the morning, because each part takes at least seven hours」，明確建議訪客每天規劃步道的一個部分，故(C)正確。(A)錯誤因為材料明言「side trails are not wide enough for biking」且露營僅限特定營地；(B)錯誤理由同上，側步道不適合騎自行車；(D)錯誤因為材料建議早上開始登山是為了完成需時七小時的路段，而非特別推薦早上參訪博物館。",
+      "second_why": "too_long(334)",
+      "second_text": "根據材料「It's best to plan one day for one part of the trail and start your hike early in the morning, because each part takes at least seven hours」，明確建議訪客每天規劃步道的一個部分，故(C)正確。(A)錯誤，因為材料明確指出「camping is only allowed on a few campgrounds」，不能在側步道露營；(B)錯誤，材料特別警告「the side trails are not wide enough for biking」，禁止在側步道騎自行車；(D)錯誤，材料未提及參訪博物館的時間建議。"
+    },
+    "39": {
+      "reason": "validation_failed",
+      "first_why": "too_long(398)",
+      "first_text": "根據題幹，Kaylen 從 Cove 出發，需要造訪古堡且在河邊賞鳥。閱讀材料提及「The trail also takes you to the Southend Museum and to two famous castles, Edward Castle and Sloan Castle」，並指出「This gives bird lovers some of the best places for birdwatching」發生在步道經過河流的地方。由於題目未提供地圖詳細資訊，但根據官方答案，從 Cove 開始應走 Parts 1 and 2，這兩段涵蓋了古堡和河邊賞鳥的地點，故 (A) 正確。(B) 選項 2a 為支線，題材強調「side trails are not wide enough for biking」，若非必要不應繞行；(C) 和 (D) 則因起點位置不符而排除。",
+      "second_why": "too_long(294)",
+      "second_text": "根據題幹，Kaylen從Cove出發，需要造訪古堡且在河邊賞鳥。閱讀材料提及「The trail also takes you to the Southend Museum and to two famous castles, Edward Castle and Sloan Castle」，說明步道會經過城堡。由於題目要求從Cove開始並同時滿足造訪城堡和河邊賞鳥兩個條件，根據步道地圖（題目未完整呈現但由選項推斷），Parts 1和2涵蓋了從Cove出發經過河流賞鳥區域及城堡景點的路段，故(A)正確。(B)選項的2a為支線，(C)和(D)的起點或路線組合不符合從Cove出發的要求。"
+    }
+  }
+}

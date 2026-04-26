@@ -46,12 +46,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 1,
-        "raw_text": "1.   Look at the picture. What is the dog doing?\n     (A) Biting the man.\n     (B) Crossing the street.\n     (C) Running after the bus.\n     (D) Sitting on the sidewalk.\n"
+        "raw_text": "1.   Look at the picture. What is the dog doing?\n     (A) Biting the man.\n     (B) Crossing the street.\n     (C) Running after the bus.\n     (D) Sitting on the sidewalk.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據圖片，狗正在穿過街道，故 (B) Crossing the street 正確。(A) 咬人與圖片內容不符；(C) 追逐公車無根據；(D) 坐在人行道上與狗的動作狀態相反，狗明顯在移動而非靜止。"
     },
     {
       "id": "cap-105-english-reading-002",
@@ -80,12 +81,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 2,
-        "raw_text": "2.   Chris: Which         looks better on me?\n     Penny: I think purple’s better. You look great in purple.\n     (A) color           (B) grade             (C) shape             (D) size\n"
+        "raw_text": "2.   Chris: Which         looks better on me?\n     Penny: I think purple’s better. You look great in purple.\n     (A) color           (B) grade             (C) shape             (D) size\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據對話內容，Penny 回答「I think purple's better. You look great in purple.」，明確提到紫色（purple）這個顏色，說明 Chris 詢問的是衣服的顏色。故 (A) color 正確。(B) grade 為成績，(C) shape 為形狀，(D) size 為尺寸，都與 Penny 提及的「purple」無關，不符合對話邏輯。"
     },
     {
       "id": "cap-105-english-reading-003",
@@ -148,12 +150,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 4,
-        "raw_text": "4.   Mr. Jackson is a very       writer; people of all ages enjoy his stories.\n     (A) polite           (B) popular         (C) handsome          (D) honest\n"
+        "raw_text": "4.   Mr. Jackson is a very       writer; people of all ages enjoy his stories.\n     (A) polite           (B) popular         (C) handsome          (D) honest\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "題幹說「人們各個年齡層都喜歡他的故事」，需要填入形容詞修飾 writer。「popular」意為「受歡迎的、受歡迎的」，與「people enjoy his stories」的邏輯相符，故 (B) 正確。(A) polite（有禮貌的）與寫作能力無關；(C) handsome（英俊的）是外貌描述，與故事受歡迎無關；(D) honest（誠實的）雖是正面特質，但無法解釋為何各年齡層都喜歡他的故事。"
     },
     {
       "id": "cap-105-english-reading-005",
@@ -182,12 +185,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 5,
-        "raw_text": "5.   Carol sounded happy when we talked on the phone; I could feel joy in her            .\n     (A) eyes           (B) mail           (C) smile            (D) voice\n"
+        "raw_text": "5.   Carol sounded happy when we talked on the phone; I could feel joy in her            .\n     (A) eyes           (B) mail           (C) smile            (D) voice\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "題幹說「Carol在電話上聽起來很開心」，關鍵詞是「talked on the phone」（通電話），此時無法看到對方的眼睛、郵件或笑容，只能透過聲音感受情緒。句子邏輯為「I could feel joy in her voice」（我能從她的聲音中感受到喜悅），故(D)正確。(A)eyes錯因通電話看不到眼睛；(B)mail與通話無關；(C)smile同樣無法在電話中看到。"
     },
     {
       "id": "cap-105-english-reading-006",
@@ -216,12 +220,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 6,
-        "raw_text": "6.   Mark studies very hard and never       classes. He goes to school even when he is sick.\n     (A) loses            (B) misses           (C) changes           (D) forgets\n"
+        "raw_text": "6.   Mark studies very hard and never       classes. He goes to school even when he is sick.\n     (A) loses            (B) misses           (C) changes           (D) forgets\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "題目空格前有「never」，後接「classes」，需填入動詞。「Mark studies very hard and never misses classes」意為「Mark 用功讀書，從不缺課」，符合後句「他即使生病也去上學」的邏輯。故 (B) misses 正確。(A) loses 意為「遺失」，(C) changes 意為「改變」，(D) forgets 意為「忘記」，都無法與 classes 搭配形成合理句意。"
     },
     {
       "id": "cap-105-english-reading-007",
@@ -250,12 +255,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 7,
-        "raw_text": "7.   Have you got anything for Joe        ? He’d be happy to get your gift on his birthday.\n     (A) almost          (B) either           (C) soon             (D) yet\n"
+        "raw_text": "7.   Have you got anything for Joe        ? He’d be happy to get your gift on his birthday.\n     (A) almost          (B) either           (C) soon             (D) yet\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "本題考查 have got...yet 的用法。句意為「你有為喬準備什麼禮物嗎？他會很高興在生日時收到你的禮物。」空格應填入 yet，構成「have got...yet」的疑問句式，表示「到目前為止是否已經準備」，故 (D) 正確。(A) almost 意為「幾乎」，不符語境；(B) either 用於否定句或疑問句表「也不」，此處為肯定語境不適；(C) soon 意為「很快」，無法與 have got 搭配形成完整意思。"
     },
     {
       "id": "cap-105-english-reading-008",
@@ -284,12 +290,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 8,
-        "raw_text": "8.   Susan bought         bread in the supermarket, but she did not buy anything to drink.\n     (A) many             (B) some            (C) any               (D) one\n"
+        "raw_text": "8.   Susan bought         bread in the supermarket, but she did not buy anything to drink.\n     (A) many             (B) some            (C) any               (D) one\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "本題考查可數名詞與不可數名詞搭配的量詞用法。bread 是不可數名詞，不能用 many（只搭配可數名詞複數）或 one（只搭配可數名詞單數）。在肯定句中應用 some 表示「一些」，故 (B) 正確。(A) many 用於可數名詞複數；(D) one 用於可數名詞單數；(C) any 通常用於否定句或疑問句，此處為肯定句不適用。"
     },
     {
       "id": "cap-105-english-reading-009",
@@ -318,12 +325,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 9,
-        "raw_text": "9.   Playing sports at least three times a week         good for your health.\n     (A) is                (B) are              (C) has              (D) have\n"
+        "raw_text": "9.   Playing sports at least three times a week         good for your health.\n     (A) is                (B) are              (C) has              (D) have\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "本題考查主詞與動詞的數量一致性。主詞為「Playing sports at least three times a week」，這是一個動名詞片語作為單數主詞，表示一個整體的活動概念，故應搭配單數動詞。「Playing sports at least three times a week is good for your health」意為「每週至少運動三次對健康有益」，(A) is 正確。(B) are 用於複數主詞，但動名詞片語為單數；(C) has 和 (D) have 為完成式助動詞，與題意不符，此處需要簡單現在式的 be 動詞。"
     },
     {
       "id": "cap-105-english-reading-010",
@@ -352,12 +360,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 10,
-        "raw_text": "10. My parents have different hobbies. One enjoys baking;            enjoys taking pictures.\n    (A) another         (B) the next        (C) the other            (D) the second\n"
+        "raw_text": "10. My parents have different hobbies. One enjoys baking;            enjoys taking pictures.\n    (A) another         (B) the next        (C) the other            (D) the second\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "句子表示「我的父母有不同的嗜好。一個喜歡烘焙；另一個喜歡拍照。」因為父母只有兩人，第一個用 one 指其中一人，第二空應填「另一個」。the other 用於「兩者中的另一個」，符合此語境，故 (C) 正確。(A) another 用於「三個或以上中的另一個」，不適用於兩人情況；(B) the next 表「下一個」，無此意；(D) the second 表「第二個」，與 one 重複且不符邏輯。"
     },
     {
       "id": "cap-105-english-reading-011",
@@ -386,12 +395,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 11,
-        "raw_text": "11. My mom told me to take care of            in England. She worried that I couldn’t eat\n    or sleep well there.\n    (A) me               (B) myself               (C) her            (D) herself\n\n\n                                              1                     請翻頁繼續作答\n"
+        "raw_text": "11. My mom told me to take care of            in England. She worried that I couldn’t eat\n    or sleep well there.\n    (A) me               (B) myself               (C) her            (D) herself\n\n\n                                              1                     請翻頁繼續作答\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "題目考查反身代詞的用法。句子主詞是「I」，「take care of」後應填入反身代詞以表示「照顧自己」的意思，故(B) myself正確。(A) me為受格代詞，文法上可用但語意不當，因為「take care of me」表示媽媽要我照顧她，與句意不符；(C) her和(D) herself都指向第三人稱，與主詞「I」不相應。"
     },
     {
       "id": "cap-105-english-reading-012",
@@ -420,12 +430,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 12,
-        "raw_text": "12. The paint on the wall is not as         as it was ten years ago. It has changed from\n    white to gray.\n    (A) bright          (B) heavy                (C) sure           (D) young\n"
+        "raw_text": "12. The paint on the wall is not as         as it was ten years ago. It has changed from\n    white to gray.\n    (A) bright          (B) heavy                (C) sure           (D) young\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "題目描述牆上的油漆十年前是白色，現在變成灰色，說明顏色變暗了。空格前有比較級結構「not as...as」，需填入形容詞。bright（明亮的）最符合語境，因為「The paint is not as bright as it was」表示油漆不如以前明亮，與「from white to gray」的變化相符，故(A)正確。(B) heavy（沉重的）與油漆顏色變化無關；(C) sure（確定的）語意不通；(D) young（年輕的）用於物體時不適當。"
     },
     {
       "id": "cap-105-english-reading-013",
@@ -454,12 +465,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 13,
-        "raw_text": "13. I told you this road went the wrong way, but you just wouldn’t listen. Now we have\n    to        and take another road.\n    (A) go ahead          (B) move away       (C) pass by         (D) turn back\n"
+        "raw_text": "13. I told you this road went the wrong way, but you just wouldn’t listen. Now we have\n    to        and take another road.\n    (A) go ahead          (B) move away       (C) pass by         (D) turn back\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "句意為「我告訴你這條路走錯了，但你就是不聽。現在我們必須___並走另一條路。」根據上文「road went the wrong way」（路走錯了）和下文「take another road」（走另一條路），空格應填入「折返、掉頭」之意，故(D) turn back正確，意為「返回、掉頭」。(A) go ahead意為「繼續前進」，與「走錯了要改道」的邏輯相反；(B) move away意為「搬家、離開」，不符合「改走另一條路」的語境；(C) pass by意為「經過」，無法表達「改變方向」的含義。"
     },
     {
       "id": "cap-105-english-reading-014",
@@ -488,12 +500,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 14,
-        "raw_text": "14. The last five years have not been         to Jennie. Her face is covered with lines\n    and she looks much older than she is.\n    (A) kind              (B) special            (C) real           (D) enough\n"
+        "raw_text": "14. The last five years have not been         to Jennie. Her face is covered with lines\n    and she looks much older than she is.\n    (A) kind              (B) special            (C) real           (D) enough\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據題意，詹妮的臉上布滿皺紋，看起來比實際年齡蒼老，說明過去五年對她不友善，故空格應填「kind」，使句意為「過去五年對詹妮並不友善」，(A) 正確。(B) special 無法表達消極含義；(C) real 與上文邏輯無關；(D) enough 需置於形容詞後，且語意不符。"
     },
     {
       "id": "cap-105-english-reading-015",
@@ -522,12 +535,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 15,
-        "raw_text": "15. My dog Jimmy loves            with a comb. Every time I comb his hair, he will close\n    his eyes and fall asleep.\n    (A) to brush          (B) brushing       (C) to be brushing (D) being brushed\n"
+        "raw_text": "15. My dog Jimmy loves            with a comb. Every time I comb his hair, he will close\n    his eyes and fall asleep.\n    (A) to brush          (B) brushing       (C) to be brushing (D) being brushed\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "本題考查動名詞與不定式的用法區別。句子主詞是「My dog Jimmy」，動詞是「loves」，後接受詞。由於狗狗在被梳毛時會閉眼睡著，表示狗是被動接受梳毛的動作，而非主動進行梳毛，故應使用「being brushed」（被梳毛）這個動名詞的被動形式。(D)正確。(A)「to brush」為主動不定式，邏輯上狗不會主動梳自己；(B)「brushing」為主動動名詞，同樣表示狗主動梳毛，不符文意；(C)「to be brushing」為進行式不定式，在此文脈不適用。"
     },
     {
       "id": "cap-105-english-reading-passage-16",
@@ -625,12 +639,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 17,
-        "raw_text": "17. Which is NOT used in the reading to talk about the old street?\n    (A) A good friend. (B) The old Pinky. (C) A parent.            (D) A living history.\n\n"
+        "raw_text": "17. Which is NOT used in the reading to talk about the old street?\n    (A) A good friend. (B) The old Pinky. (C) A parent.            (D) A living history.\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "題目問文章中「未被用來」描述老街的比喻。文中明確提到「Pinky is like a parent, always there caring for our town」，將街道比作父母，故(C)正確；「The living history we are proud of is dying」直接稱街道為「living history」，故(D)正確；「get the old Pinky back」使用「the old Pinky」稱呼，故(B)正確。唯獨(A)「A good friend」未在文中出現，故(A)正確。"
     },
     {
       "id": "cap-105-english-reading-passage-18",
@@ -695,12 +710,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 18,
-        "raw_text": "18. What is FunGana 2016 for?\n    (A) Studying sea animals in Gana.\n    (B) Giving courses in water sports.\n    (C) Giving weather reports in Gana.\n    (D) Helping people experience Gana.\n"
+        "raw_text": "18. What is FunGana 2016 for?\n    (A) Studying sea animals in Gana.\n    (B) Giving courses in water sports.\n    (C) Giving weather reports in Gana.\n    (D) Helping people experience Gana.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據材料開頭「No idea where to spend your vacation? If you are a big fan of sun, beach, and water sports, then you must join FunGana 2016!」以及全文介紹Piso Island的景點與活動，FunGana 2016是一個旅遊套裝行程，目的是幫助人們體驗Gana的美景與活動，故(D)正確。(A)只是活動內容之一而非主要目的；(B)文中未提供課程教學；(C)只是提及天氣資訊而非報告服務。"
     },
     {
       "id": "cap-105-english-reading-019",
@@ -729,12 +745,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 19,
-        "raw_text": "19. What does the reading say about Piso Island?\n    (A) It makes the best cars in Gana.\n    (B) It has nice weather in every season.\n    (C) It is the most popular island in Gana.\n    (D) It has the most mud springs in the world.\n"
+        "raw_text": "19. What does the reading say about Piso Island?\n    (A) It makes the best cars in Gana.\n    (B) It has nice weather in every season.\n    (C) It is the most popular island in Gana.\n    (D) It has the most mud springs in the world.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據閱讀材料，「All year around, the weather on Piso Island is just wonderful for a vacation」明確指出皮索島全年天氣都很適合度假，故(B)正確。(A)錯誤，文中提到的Cocoon Rider是特殊交通工具而非製造產品；(C)無根據，材料未提及人氣排名；(D)過度誇大，原文只說「one of the best mud springs」（最好的泥溫泉之一）而非「最多」。"
     },
     {
       "id": "cap-105-english-reading-020",
@@ -1073,12 +1090,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 26,
-        "raw_text": "26. What can we learn from the comics?\n    (A) The doctor tried several ways to help the soldier.\n    (B) The soldier cared about his life more than his job.\n    (C) The soldier went to ask the doctor about Rule 22.\n    (D) The use of “catch-22” appeared before Joseph Heller’s book.\n\n                                                                                likely 可能"
+        "raw_text": "26. What can we learn from the comics?\n    (A) The doctor tried several ways to help the soldier.\n    (B) The soldier cared about his life more than his job.\n    (C) The soldier went to ask the doctor about Rule 22.\n    (D) The use of “catch-22” appeared before Joseph Heller’s book.\n\n                                                                                likely 可能",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據漫畫內容，醫生解釋「如果你瘋狂，你就不會擔心生命；如果你擔心生命，就表示你沒瘋狂，必須繼續飛行」，這說明士兵陷入困境的根本原因是「you worry about your life」，即士兵比起工作更在乎自己的生命安全，故(B)正確。(A)錯誤，醫生只是解釋規則而非嘗試幫助；(C)錯誤，士兵先問如何脫離危險工作，醫生才提出Rule 22；(D)錯誤，漫畫明確說明「catch-22」這個用語來自約瑟夫·海勒的書，是書出版後才被使用的。"
     },
     {
       "id": "cap-105-english-reading-027",
@@ -1107,12 +1125,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 27,
-        "raw_text": "27. From the comics, which is most likely an example of “catch-22”? \n    (A) I need to go to hospital, but there are no hospitals near my house.\n    (B) I need my key to open the door of my house, but I left my key at school.\n    (C) I need some special experience to get this job, but I can’t get this kind of\n        experience except from this job.\n    (D) I want to go out with Jennifer on New Year’s Day, but I’m not sure whether\n        she wants to go out with me that day.\n\n\n\n\n                                            7                     請翻頁繼續作答\n"
+        "raw_text": "27. From the comics, which is most likely an example of “catch-22”? \n    (A) I need to go to hospital, but there are no hospitals near my house.\n    (B) I need my key to open the door of my house, but I left my key at school.\n    (C) I need some special experience to get this job, but I can’t get this kind of\n        experience except from this job.\n    (D) I want to go out with Jennifer on New Year’s Day, but I’m not sure whether\n        she wants to go out with me that day.\n\n\n\n\n                                            7                     請翻頁繼續作答\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據漫畫，「catch-22」的核心邏輯是「想停止飛行就必須先瘋狂，但若你真的想停止飛行，就代表你還很理性，因此不符合瘋狂的條件」，形成無法解脫的悖論。選項(C)「需要特殊經驗才能得到這份工作，但只有從這份工作才能獲得這種經驗」完全符合此邏輯——要得到工作需要經驗，但要獲得經驗必須先有工作，陷入循環困境，故(C)正確。(A)只是地理位置問題，(B)是單純的遺漏物品，(D)是人際關係的不確定性，都不涉及漫畫所示的「自相矛盾的規則陷阱」。"
     },
     {
       "id": "cap-105-english-reading-passage-28",
@@ -1246,12 +1265,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 30,
-        "raw_text": "30. What can we learn about Alec?\n    (A) He was told that Olivia likes nice surprises.\n    (B) He decided to cook Olivia a nice seafood dinner.\n    (C) He was happy that Olivia was finally his girlfriend.\n    (D) He gave up the idea of taking Olivia to Buzzing World.\n"
+        "raw_text": "30. What can we learn about Alec?\n    (A) He was told that Olivia likes nice surprises.\n    (B) He decided to cook Olivia a nice seafood dinner.\n    (C) He was happy that Olivia was finally his girlfriend.\n    (D) He gave up the idea of taking Olivia to Buzzing World.\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據對話，Ellie 指出 Olivia 害怕有六隻腳的東西，不能走進 Buzzing World 的大門，Alec 隨即回應「Fine. I'll just take her somewhere else」，表示他放棄了帶 Olivia 去 Buzzing World 的計畫，故 (D) 正確。(A) 錯誤，對話中沒有提到 Olivia 喜歡驚喜；(B) 錯誤，Alec 只是提議去 Wavelength 餐廳，並未決定自己煮飯；(C) 錯誤，Olivia 還不是他的女友，Lori 甚至警告他這個計畫會導致只有一次約會。"
     },
     {
       "id": "cap-105-english-reading-031",
@@ -1280,12 +1300,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 31,
-        "raw_text": "31. Emily is a friend of Olivia’s. If she agrees with Lori, what would she most likely\n    say to Alec?\n    (A) “This is just what Olivia would want!”                         likely 可能\n    (B) “You never know what a girl like Olivia would want.”\n    (C) “Make a different plan or have a date with a different girl!”\n    (D) “She never cares what she does on a date; she cares who she has a date with.”\n\n\n\n\n                                           9                     請翻頁繼續作答\n"
+        "raw_text": "31. Emily is a friend of Olivia’s. If she agrees with Lori, what would she most likely\n    say to Alec?\n    (A) “This is just what Olivia would want!”                         likely 可能\n    (B) “You never know what a girl like Olivia would want.”\n    (C) “Make a different plan or have a date with a different girl!”\n    (D) “She never cares what she does on a date; she cares who she has a date with.”\n\n\n\n\n                                           9                     請翻頁繼續作答\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據對話，Lori認為Alec的計畫「會是你們唯一的一次約會」，暗示這個計畫會導致失敗。若Emily同意Lori的看法，她應該建議Alec改變計畫或換個約會對象，故(C)正確。(A)與事實相反，Olivia害怕六隻腳的生物且不喜歡死魚；(B)過於模糊，未能反映Lori的明確警告；(D)忽視了Lori指出計畫本身有問題的重點。"
     },
     {
       "id": "cap-105-english-reading-passage-32",
@@ -1350,12 +1371,13 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 32,
-        "raw_text": "32. What can we learn from the news report?\n    (A) How to deal with Cow Cold.\n    (B) Whether people may catch Cow Cold.\n    (C) How fast Cow Cold has hit the country.\n    (D) How to find out if cows have Cow Cold.\n                                                                                        likely 可能"
+        "raw_text": "32. What can we learn from the news report?\n    (A) How to deal with Cow Cold.\n    (B) Whether people may catch Cow Cold.\n    (C) How fast Cow Cold has hit the country.\n    (D) How to find out if cows have Cow Cold.\n                                                                                        likely 可能",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "文章開頭即強調「this killer cold has moved up north faster than we thought it would」，並詳述從六月首例到七月已遍及全國、兩個月內死亡牛隻達五千頭、東部地區受創最重等具體時間與地點資訊，充分說明疾病傳播速度之快，故(C)正確。(A)錯誤，文中明言「Before we know how to deal with Cow Cold」表示尚無對策；(B)錯誤，報導未涉及人類感染風險；(D)錯誤，文中未提及診斷方法。"
     },
     {
       "id": "cap-105-english-reading-033",

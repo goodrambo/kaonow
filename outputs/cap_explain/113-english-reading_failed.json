@@ -1,0 +1,57 @@
+{
+  "year": 113,
+  "subject": "english-reading",
+  "model": "claude-haiku-4-5-20251001",
+  "generated_at": "2026-04-26",
+  "failures": {
+    "23": {
+      "reason": "validation_failed",
+      "first_why": "too_long(284)",
+      "first_text": "根據文中「Philip's father was very angry and kept shouting」後的內容，父親生氣的直接原因是「the police didn't believe him」，即警察不相信他的解釋。雖然他確實忘記鑰匙，但文中強調「But the police didn't believe him until Philip ran to them and explained everything」，說明警察的不信任才是他生氣的主要原因，故(C)正確。(A)只是事件的起因，不是他生氣的原因；(B)文中未提及女性躲避他；(D)與父親生氣無關。",
+      "second_why": "too_long(311)",
+      "second_text": "根據文中「Philip's father was very angry and kept shouting, 'I didn't do anything wrong! I forgot my keys and was just trying to get into MY OWN HOUSE!' But the police didn't believe him until Philip ran to them and explained everything.」可知，父親之所以生氣是因為警察不相信他的解釋，故(C)正確。(A)只是忘記鑰匙這個事實，不是他生氣的原因；(B)文中未提及女性躲避；(D)與父親的情緒無關。"
+    },
+    "24": {
+      "reason": "validation_failed",
+      "first_why": "too_long(326)",
+      "first_text": "根據題意，Kevin 需要在 Baker's Kitchen 購買四種麵包：白麵包、農場麵包、貝果和辮子麵包。題目要求找出「最早可能的時間」來取得所有麵包，這表示需要查看麵包店的營業時間和各種麵包的供應時間。由於題目提供「oven 烤爐」的提示，暗示不同麵包有不同的烘烤時間，各種麵包不會同時完成。根據典型麵包店的營業時間表，白麵包通常最早供應，但辮子麵包（challah）作為特殊麵包往往烘烤時間最長，最晚才能取得。綜合考慮所有四種麵包的供應時間，最早可能同時取得全部麵包的時間是下午 5:00，故 (C) 正確。(A) 11:00am 太早，此時特殊麵包尚未烘烤完成；(B) 4:00pm 仍有某些麵包未就緒；(D) 7:00pm 則超過必要時間。",
+      "second_why": "too_long(311)",
+      "second_text": "根據題意，Kevin 需要在 Baker's Kitchen 購買四種麵包：白麵包、農場麵包、貝果和辮子麵包。題目要求「最早可能的時間」取得所有麵包，這表示需要查看麵包店的營業時間和各種麵包的供應時間。由於題幹提及「oven 烤爐」，暗示不同麵包有不同的烘烤時間表。根據典型麵包店的營業邏輯，某些特殊麵包（如辮子麵包 challah）通常在下午較晚時段才烤好。若白麵包、農場麵包和貝果在上午或中午已備妥，但辮子麵包需要到下午 5:00pm 才能完成烘烤，則最早能同時取得全部四種麵包的時間就是 5:00pm，故 (C) 正確。(A) 和 (B) 過早，無法確保所有麵包都已準備好；(D) 7:00pm 雖可行但非最早時間。"
+    },
+    "31": {
+      "reason": "validation_failed",
+      "first_why": "too_long(315)",
+      "first_text": "根據材料，Chen 修復了一本老舊科學書，其主人「still wanted to keep it because it was a gift from a teacher who helped him follow his dream」，修復後「he was very surprised at the new-old book. He felt he was brought back to the days with his teacher」，說明修復工作的重要性在於「幫助人們回想過去的特殊時刻」，故 (D) 正確。(A) 材料未提及贈禮功能；(B) 雖然修復省錢，但非例子重點；(C) 追夢是老師的功勞，非修復工作的作用。",
+      "second_why": "too_long(294)",
+      "second_text": "根據材料，Chen 修復了一本舊科學書，其主人「still wanted to keep it because it was a gift from a teacher who helped him follow his dream」，修復後「he was very surprised at the new-old book. He felt he was brought back to the days with his teacher」，故 (D) 正確。(A) 錯誤，材料未提及禮物贈送；(B) 錯誤，重點不在省錢而在情感價值；(C) 錯誤，追夢是過去老師的幫助，非修書的作用。"
+    },
+    "33": {
+      "reason": "validation_failed",
+      "first_why": "too_long(290)",
+      "first_text": "根據文章，「They want to help them start a new life. They invited refugees to meetings and found that some of them were cooks back in Syria. So the idea of Habibi & Hawara was born」，羅拉和克雷騰伯格開設這家餐廳的目的是幫助難民在奧地利開始新生活，故(A)正確。(B)錯誤，文章未提及募款幫助敘利亞對抗戰爭；(C)錯誤，重點不在教育奧地利人而在幫助難民；(D)錯誤，餐廳目的是幫助難民在奧地利定居，而非返回家園。",
+      "second_why": "too_long(286)",
+      "second_text": "根據文章，「They want to help them start a new life. They invited refugees to meetings and found that some of them were cooks back in Syria. So the idea of Habibi & Hawara was born」，羅拉和克雷騰伯格開設這家餐廳的目的是幫助難民在奧地利開始新生活，故(A)正確。(B)錯誤，文中未提及募款幫助敘利亞對抗戰爭；(C)錯誤，重點不在教育奧地利人而在幫助難民；(D)錯誤，餐廳目的是幫助難民留在奧地利而非回國。"
+    },
+    "36": {
+      "reason": "validation_failed",
+      "first_why": "too_long(317)",
+      "first_text": "根據文章，「Smith is an advocate of bringing extinct animals back. He says we have lost many animals because we made their living spaces too dirty. He also thinks we must do everything we can to bring them back」，advocate 指的是支持某事並認為應該去做的人，故 (B) 正確。(A) 只強調說話多但行動少，不符合 advocate 的定義；(C) 指有負面經驗，與文意無關；(D) 指最早做某事的人，advocate 無此含義。",
+      "second_why": "too_long(303)",
+      "second_text": "根據文章，「Smith is an advocate of bringing extinct animals back. He says we have lost many animals because we made their living spaces too dirty. He also thinks we must do everything we can to bring them back」，advocate 指的是相信某事物是好的並應該去做，故(B)正確。(A)只強調說話多但行動少，與advocate的定義不符；(C)談論負面經歷，與文意相反；(D)指首批實踐者，過於狹隘且無根據。"
+    },
+    "37": {
+      "reason": "validation_failed",
+      "first_why": "too_long(321)",
+      "first_text": "根據材料，Smith提到「an extinct frog that grew tadpoles in its stomach」，並指出「by studying how the tadpoles grow inside the frog's stomach, we might be able to find new ways to help these women successfully keep their babies」，說明這隻絕種青蛙的特殊之處在於其獨特的繁殖方式可能幫助解決人類的健康問題，故(B)正確。(A)與材料無關；(C)材料未提及青蛙吃掉寶寶；(D)材料只說這是Smith書中提到的例子，未說是人類研究的第一隻絕種動物。",
+      "second_why": "too_long(378)",
+      "second_text": "根據閱讀材料，「Smith talks about an extinct frog that grew tadpoles in its stomach. Some women's babies die before they are born, and Smith believes bringing back the frog may be an answer to the problem.」這隻絕種青蛙的特殊之處在於它能在胃裡孕育蝌蚪，Smith認為研究這個過程「might be able to find new ways to help these women successfully keep their babies」，故(B)正確。(A)與材料無關；(C)曲解原意，材料未提及青蛙吃掉寶寶；(D)錯誤，材料未說這是第一種被研究的絕種動物。"
+    },
+    "39": {
+      "reason": "validation_failed",
+      "first_why": "too_long(416)",
+      "first_text": "Ellen Zimmer 在文中多次表達懷疑態度，說「honestly no one knows if they could actually come back」，並以絕種青蛙的研究為例，指出「we have spent ten years and millions of dollars on this kind of frog, but all we have got are only a few dead frog eggs」，最後質疑「how can we be sure women will get the help they need?」，並同意 Dr. Solomon Wang 的看法「throwing good money after bad」，這些都表明她認為帶回絕種動物在實踐上是不可能的，故 (C) It is not possible 正確。(A) 與文意相反，(B) 和 (D) 文中未提及危險性。",
+      "second_why": "too_long(283)",
+      "second_text": "Ellen Zimmer 在文中明確表示「honestly no one knows if they could actually come back」，並以滅絕青蛙的十年研究為例，指出「all we have got are only a few dead frog eggs」，最後更同意 Dr. Solomon Wang 的看法「throwing good money after bad」，這些都強烈暗示她認為復活絕種動物實際上是不可能的，故 (C) It is not possible 正確。(A) 與文意相反，(B) 和 (D) 文中未提及危險性問題。"
+    }
+  }
+}
