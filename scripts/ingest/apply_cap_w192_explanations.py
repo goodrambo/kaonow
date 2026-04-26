@@ -26,7 +26,7 @@ API_URL = f"https://api.supabase.com/v1/projects/{PROJECT_REF}/database/query"
 REPO_ROOT = Path(__file__).resolve().parents[2]
 
 YEARS = [104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114]
-SUBJECTS = ["chinese", "society", "english-reading", "math"]
+SUBJECTS = ["chinese", "society", "english-reading", "math", "nature"]
 
 
 def execute_sql(sql, token, retries=3):

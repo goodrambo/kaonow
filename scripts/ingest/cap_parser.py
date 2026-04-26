@@ -282,6 +282,20 @@ class Parser:
 
             # question start
             m_q = RE_QUESTION_START.match(ln)
+            if m_q:
+                qnum = int(m_q.group(1))
+                # W1.9.4 fix: 部分卷（如 nature）無 section header；
+                # 看到 col-0 「1.」就視為 body 開始 + 隱式建立 「單題」 section
+                if not self._started_body and qnum == 1:
+                    self._cur_section = {
+                        "label": "單題",
+                        "range": None,
+                        "line_idx": i,
+                        "implicit": True,
+                    }
+                    self._sections_seen.append(self._cur_section)
+                    self._started_body = True
+                    self.log(f"[L{i}] implicit section start (no header before Q1)")
             if m_q and self._started_body:
                 qnum = int(m_q.group(1))
                 if 1 <= qnum <= 120:

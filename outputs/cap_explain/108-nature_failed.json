@@ -1,0 +1,15 @@
+{
+  "year": 108,
+  "subject": "nature",
+  "model": "claude-haiku-4-5-20251001",
+  "generated_at": "2026-04-26",
+  "failures": {
+    "19": {
+      "reason": "validation_failed",
+      "first_why": "empty",
+      "first_text": null,
+      "second_why": "empty",
+      "second_text": null
+    }
+  }
+}

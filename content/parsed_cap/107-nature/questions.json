@@ -1,0 +1,2143 @@
+{
+  "paper": {
+    "id": "cap-107-nature",
+    "exam_id": "cap",
+    "subject_id": "sub-cap-science",
+    "roc_year": 107,
+    "year": 2018,
+    "paper_title": "107 年國中教育會考自然科",
+    "source_family": "cap-rcpet-edu-tw",
+    "source_ref": {
+      "pdf_path": "content/sources/_inbox/openclaw-data/cap-rcpet-edu-tw/study/cap/main/questions/by-year/107/107P_Nature.pdf",
+      "pdf_sha1": "a067ab8d61ca",
+      "answer_pdf_sha1": "05a67d1d6082"
+    },
+    "meta": {
+      "parser_version": "cap_v0.1",
+      "merger_version": "cap_merger_v0.2",
+      "parsed_at": "2026-04-26T03:38:01+00:00"
+    }
+  },
+  "questions": [
+    {
+      "id": "cap-107-nature-001",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "小瑩想以量筒量取 30.0 mL 的溶液，圖(一)虛線箭頭所指的位置為\n量筒中目前已量取的溶液體積。小瑩使用下列哪一種器材裝取溶液\n後，再加入量筒內，最能避免體積超出 30.0 mL？",
+      "options": [
+        "",
+        "",
+        "",
+        "圖(一)"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [
+          "needs_image",
+          "option_incomplete"
+        ],
+        "parse_confidence": 0.6,
+        "original_question_number": 1,
+        "section_label": "單題",
+        "raw_text": "1.   小瑩想以量筒量取 30.0 mL 的溶液，圖(一)虛線箭頭所指的位置為\n     量筒中目前已量取的溶液體積。小瑩使用下列哪一種器材裝取溶液\n     後，再加入量筒內，最能避免體積超出 30.0 mL？\n     (A)    (B)         (C)     (D)\n\n\n                                             圖(一)\n\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-107-nature-002",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "圖(二)是某日東亞的地面天氣簡圖，數字代表\n該等壓線的氣壓值，單位為百帕。圖中以黑點\n標示的甲地，其海拔高度約為 0 m。下列是甲\n地已知的天氣現象敘述，何者無法從此天氣簡\n圖中得知？",
+      "options": [
+        "氣溫為 35℃",
+        "風向大致為南風",
+        "氣壓值高於 1008 百帕 (D)天氣主要受高氣壓影響                    圖(二) 表(一)",
+        ""
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [
+          "needs_image",
+          "option_incomplete"
+        ],
+        "parse_confidence": 0.6,
+        "original_question_number": 2,
+        "section_label": "單題",
+        "raw_text": "2.   圖(二)是某日東亞的地面天氣簡圖，數字代表\n     該等壓線的氣壓值，單位為百帕。圖中以黑點\n     標示的甲地，其海拔高度約為 0 m。下列是甲\n     地已知的天氣現象敘述，何者無法從此天氣簡\n     圖中得知？\n     (A)氣溫為 35℃\n     (B)風向大致為南風\n     (C)氣壓值高於 1008 百帕\n     (D)天氣主要受高氣壓影響                    圖(二)\n\n                                             表(一)"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-107-nature-003",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "某次地震發生後，測站甲、乙、丙、丁測得的震度如表(一)\n所示。已知測站與震央距離的大小關係為丁＞丙＞乙＞甲，\n若將此次地震的震央位置以 表示，甲、乙、丙、丁代表其\n測站位置，下列有關此次地震的震度分布及測站的位置圖，\n何者最合理？",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [
+          "needs_image",
+          "option_incomplete",
+          "option_image"
+        ],
+        "parse_confidence": 0.25,
+        "original_question_number": 3,
+        "section_label": "單題",
+        "raw_text": "3.   某次地震發生後，測站甲、乙、丙、丁測得的震度如表(一)\n     所示。已知測站與震央距離的大小關係為丁＞丙＞乙＞甲，\n     若將此次地震的震央位置以 表示，甲、乙、丙、丁代表其\n     測站位置，下列有關此次地震的震度分布及測站的位置圖，\n     何者最合理？\n     (A)      (B)      (C)       (D)\n\n\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-107-nature-004",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "某地區的樹林中棲息著一種蛾，依其體色可分成淺色蛾和深色蛾。當此林中的樹\n被某種真菌感染後，其樹皮顏色由深色變為淺色，多年以後樹林中淺色蛾的數量\n比例逐漸增多。根據天擇的理論，下列何者最可以解釋此區淺色蛾數量的變化？",
+      "options": [
+        "深色蛾因環境改變而突變為淺色蛾",
+        "樹皮顏色改變使淺色蛾比深色蛾存活率高",
+        "樹皮顏色改變使深色蛾突變為淺色蛾以躲避天敵",
+        "深色蛾吸食被真菌感染的樹皮汁液而突變為淺色蛾"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [],
+        "parse_confidence": 1.0,
+        "original_question_number": 4,
+        "section_label": "單題",
+        "raw_text": "4.   某地區的樹林中棲息著一種蛾，依其體色可分成淺色蛾和深色蛾。當此林中的樹\n     被某種真菌感染後，其樹皮顏色由深色變為淺色，多年以後樹林中淺色蛾的數量\n     比例逐漸增多。根據天擇的理論，下列何者最可以解釋此區淺色蛾數量的變化？\n     (A)深色蛾因環境改變而突變為淺色蛾\n     (B)樹皮顏色改變使淺色蛾比深色蛾存活率高\n     (C)樹皮顏色改變使深色蛾突變為淺色蛾以躲避天敵\n     (D)深色蛾吸食被真菌感染的樹皮汁液而突變為淺色蛾\n\n",
+        "explanation_source": "ai_v1"
+      },
+      "is_active": true,
+      "auto_gradable": true,
+      "difficulty": 3,
+      "explanation": "根據天擇理論，環境改變會對不同性狀的生物造成不同的生存壓力。題幹指出「樹皮顏色由深色變為淺色」後，「淺色蛾的數量比例逐漸增多」，這表示淺色蛾在新環境中更容易被保留下來。(B)「樹皮顏色改變使淺色蛾比深色蛾存活率高」最符合天擇原理——淺色蛾在淺色樹皮上更不易被天敵發現，存活率提高，因此數量增加，故(B)正確。(A)、(C)、(D)都涉及突變，但突變是隨機發生且不受環境影響的，不是天擇的機制；(C)更違反了「生物不會因需要而主動突變」的原則；(D)邏輯更不合理。"
+    },
+    {
+      "id": "cap-107-nature-005",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "「在常溫常壓下， 番茄紅素為紅色固體，是番茄、木瓜等蔬果中富含的色\n素， 為天然的抗氧化劑……」，上述畫底線所提到番茄紅素的性質，屬於下\n列何者？",
+      "options": [
+        "均為物理性質",
+        "均為化學性質",
+        "為物理性質、 為化學性質",
+        "為化學性質、 為物理性質"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [],
+        "parse_confidence": 1.0,
+        "original_question_number": 5,
+        "section_label": "單題",
+        "raw_text": "5.   「在常溫常壓下， 番茄紅素為紅色固體，是番茄、木瓜等蔬果中富含的色\n     素， 為天然的抗氧化劑……」，上述畫底線所提到番茄紅素的性質，屬於下\n     列何者？\n     (A)均為物理性質        (B)均為化學性質\n     (C) 為物理性質、 為化學性質 (D) 為化學性質、 為物理性質\n",
+        "explanation_source": "ai_v1"
+      },
+      "is_active": true,
+      "auto_gradable": true,
+      "difficulty": 3,
+      "explanation": "題幹畫底線處提到「紅色固體」和「天然的抗氧化劑」兩項性質。「紅色固體」是指番茄紅素在常溫常壓下呈現紅色且為固態，這是物理性質，不涉及物質本身的化學組成改變；「天然的抗氧化劑」則說明番茄紅素能與氧氣反應而失去電子，這是化學性質，涉及物質的化學變化。故(C)正確。(A)錯誤因為抗氧化劑性質屬化學性質；(B)錯誤因為顏色和物態屬物理性質；(D)順序相反。"
+    },
+    {
+      "id": "cap-107-nature-006",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "圖(三)為某園區內的標示牌。根據此圖，若管理員想將\n此組標示牌再加上「外溫動物區」及「內溫動物區」，\n關於此想法是否適當及其原因，下列說明何者最合理？",
+      "options": [
+        "適當，左方全為外溫動物，右方全為內溫動物",
+        "適當，左方全為內溫動物，右方全為外溫動物",
+        "不適當，左方全為外溫動物，但右方不全為內溫動物 圖(三)",
+        "不適當，左方全為內溫動物，但右方不全為外溫動物"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [
+          "needs_image"
+        ],
+        "parse_confidence": 0.85,
+        "original_question_number": 6,
+        "section_label": "單題",
+        "raw_text": "6.   圖(三)為某園區內的標示牌。根據此圖，若管理員想將\n     此組標示牌再加上「外溫動物區」及「內溫動物區」，\n     關於此想法是否適當及其原因，下列說明何者最合理？\n     (A)適當，左方全為外溫動物，右方全為內溫動物\n     (B)適當，左方全為內溫動物，右方全為外溫動物\n     (C)不適當，左方全為外溫動物，但右方不全為內溫動物\n                                    圖(三)\n     (D)不適當，左方全為內溫動物，但右方不全為外溫動物\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-107-nature-007",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "阿泉分別進行下列四種不同的運動，在哪一種運動過程中，阿泉由圖中\n狀態Ⅰ→狀態Ⅱ，他身體的重力位能變化最大？",
+      "options": [
+        "舉重",
+        "射箭 I",
+        "百米賽跑",
+        "高臺跳水"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [],
+        "parse_confidence": 1.0,
+        "original_question_number": 7,
+        "section_label": "單題",
+        "raw_text": "7.   阿泉分別進行下列四種不同的運動，在哪一種運動過程中，阿泉由圖中\n     狀態Ⅰ→狀態Ⅱ，他身體的重力位能變化最大？\n     (A)舉重          (B)射箭\n\n\n\n\n                I\n     (C)百米賽跑         (D)高臺跳水\n\n\n\n",
+        "explanation_source": "ai_v1"
+      },
+      "is_active": true,
+      "auto_gradable": true,
+      "difficulty": 3,
+      "explanation": "重力位能變化量取決於物體質量與高度變化的乘積（ΔEp = mgΔh），因此高度變化越大，重力位能變化越大。高臺跳水運動中，運動員從高臺（通常10公尺以上）跳入水中，高度變化最大，故(D)正確。舉重時身體上升高度有限，射箭和百米賽跑中身體高度變化更小，都不如跳水的高度落差大。"
+    },
+    {
+      "id": "cap-107-nature-008",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "瑋婷觀察爸爸在家中利用茶壺煮水時，茶壺內水量的多少似乎會影響水煮沸所\n需的時間，她假設當茶壺內水量越多，將水煮沸所需的時間也越多。若要驗證\n她的假設是否合理，下列哪一種實驗設計可直接用來驗證她的假設？",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [
+          "option_incomplete",
+          "option_image"
+        ],
+        "parse_confidence": 0.4,
+        "original_question_number": 8,
+        "section_label": "單題",
+        "raw_text": "8.   瑋婷觀察爸爸在家中利用茶壺煮水時，茶壺內水量的多少似乎會影響水煮沸所\n     需的時間，她假設當茶壺內水量越多，將水煮沸所需的時間也越多。若要驗證\n     她的假設是否合理，下列哪一種實驗設計可直接用來驗證她的假設？\n     (A)              (B)\n\n\n\n\n     (C)              (D)\n\n\n\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-107-nature-009",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "有一座四面環海的島嶼，其陸地面積隨時間變化          0.5\n的關係簡圖如圖(四)所示。根據圖中資料推測，         0.4\n下列何者可能是造成該島嶼一天中陸地面積會有          0.3\n變化的最主要原因？                      0.2",
+      "options": [
+        "全球暖化造成海平面的起伏          km2 0.1",
+        "海水漲退潮使水位高度改變                 0 1    2     3   4   5 (C)海水因日照而熱脹冷縮導致                          ਔ໔(Ϻ) (D)海陸風轉換使海水流向改變                          圖(四)",
+        "",
+        ""
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [
+          "needs_image",
+          "option_incomplete"
+        ],
+        "parse_confidence": 0.6,
+        "original_question_number": 9,
+        "section_label": "單題",
+        "raw_text": "9.   有一座四面環海的島嶼，其陸地面積隨時間變化          0.5\n     的關係簡圖如圖(四)所示。根據圖中資料推測，         0.4\n     下列何者可能是造成該島嶼一天中陸地面積會有          0.3\n     變化的最主要原因？                      0.2\n     (A)全球暖化造成海平面的起伏          km2\n                                    0.1\n     (B)海水漲退潮使水位高度改變                 0\n                                          1    2     3   4   5\n     (C)海水因日照而熱脹冷縮導致                          ਔ໔(Ϻ)\n     (D)海陸風轉換使海水流向改變                          圖(四)\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-107-nature-010",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "圖(五)列出四位科學家所提出的學說或發現，並依照年代順序排列，圖中以代號\n甲～丁來表示粒子或結構的名稱：\n圖(五)\n關於甲～丁的正確名稱，依序應為下列何者？",
+      "options": [
+        "原子核、電子、原子、質子",
+        "原子核、質子、電子、原子",
+        "原子、質子、原子核、電子",
+        "原子、電子、原子核、質子"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [
+          "needs_image"
+        ],
+        "parse_confidence": 0.85,
+        "original_question_number": 10,
+        "section_label": "單題",
+        "raw_text": "10. 圖(五)列出四位科學家所提出的學說或發現，並依照年代順序排列，圖中以代號\n    甲～丁來表示粒子或結構的名稱：\n\n\n\n\n                     圖(五)\n     關於甲～丁的正確名稱，依序應為下列何者？\n     (A)原子核、電子、原子、質子  (B)原子核、質子、電子、原子\n     (C)原子、質子、原子核、電子  (D)原子、電子、原子核、質子\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-107-nature-011",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "圖(六)為太陽、地球、月球相對位置示意圖。假\n設太陽、地球、月球在運行過程中皆位於同一\n平面上，月球位於圖中何處時，太陽受到地球\n的萬有引力作用方向及月球受到地球的萬有引\n力作用方向相同？",
+      "options": [
+        "甲",
+        "乙",
+        "丙",
+        "丁 圖(六)"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [
+          "needs_image"
+        ],
+        "parse_confidence": 0.85,
+        "original_question_number": 11,
+        "section_label": "單題",
+        "raw_text": "11. 圖(六)為太陽、地球、月球相對位置示意圖。假\n    設太陽、地球、月球在運行過程中皆位於同一\n    平面上，月球位於圖中何處時，太陽受到地球\n    的萬有引力作用方向及月球受到地球的萬有引\n    力作用方向相同？\n    (A)甲       (B)乙\n    (C)丙       (D)丁\n                                          圖(六)\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-107-nature-012",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "圖(七)為一發芽番薯的示意圖，甲為番薯的塊根，\n乙、丙為塊根上不同的新芽。下列關於甲、乙、丙的\n敘述，何者最合理？",
+      "options": [
+        "甲與丙的基因型不同",
+        "乙與丙的基因型相同",
+        "甲為番薯的生殖器官 (D)甲與乙細胞內的染色體數不同                           圖(七)",
+        ""
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [
+          "needs_image",
+          "option_incomplete"
+        ],
+        "parse_confidence": 0.6,
+        "original_question_number": 12,
+        "section_label": "單題",
+        "raw_text": "12. 圖(七)為一發芽番薯的示意圖，甲為番薯的塊根，\n    乙、丙為塊根上不同的新芽。下列關於甲、乙、丙的\n    敘述，何者最合理？\n    (A)甲與丙的基因型不同\n    (B)乙與丙的基因型相同\n    (C)甲為番薯的生殖器官\n    (D)甲與乙細胞內的染色體數不同                           圖(七)\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-107-nature-013",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "「真金不怕火煉」在字面上的意思是指純正的黃金不怕被火烤，這是因為黃金\n不易與氧發生反應。依上述對黃金性質的描述判斷，下列哪一類元素對氧的活\n性與黃金對氧的活性最接近？",
+      "options": [
+        "放入水中能與水反應而產生氫氣的元素",
+        "在自然界中，多以氧化物狀態存在的元素",
+        "在自然界中，多以元素狀態存在的金屬元素",
+        "在煉鐵過程中，可使氧化鐵還原成鐵的元素"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [],
+        "parse_confidence": 1.0,
+        "original_question_number": 13,
+        "section_label": "單題",
+        "raw_text": "13. 「真金不怕火煉」在字面上的意思是指純正的黃金不怕被火烤，這是因為黃金\n    不易與氧發生反應。依上述對黃金性質的描述判斷，下列哪一類元素對氧的活\n    性與黃金對氧的活性最接近？\n    (A)放入水中能與水反應而產生氫氣的元素\n    (B)在自然界中，多以氧化物狀態存在的元素\n    (C)在自然界中，多以元素狀態存在的金屬元素\n    (D)在煉鐵過程中，可使氧化鐵還原成鐵的元素\n",
+        "explanation_source": "ai_v1"
+      },
+      "is_active": true,
+      "auto_gradable": true,
+      "difficulty": 3,
+      "explanation": "黃金不易與氧發生反應，說明黃金對氧的活性很低。題幹指出「真金不怕火煉」正是因為黃金具有這種低活性，故應選擇對氧活性同樣很低的元素。(C)正確，因為在自然界中多以元素狀態存在的金屬元素（如金、銀、鉑等）正是因為對氧活性低，才不易被氧化，能以單質形式保存在自然界中。(A)錯誤，放入水中能與水反應產生氫氣的元素（如鈉、鉀）對氧活性很強，與黃金相反。(B)錯誤，多以氧化物狀態存在的元素（如鐵、鋁）對氧活性強，容易被氧化。(D)錯誤，能使氧化鐵還原的元素（如碳、一氧化碳）本身活性強，與黃金的低活性不符。"
+    },
+    {
+      "id": "cap-107-nature-014",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "下列為某網頁上的一則問與答：\n問：煮蟹肉棒時，外包裝的塑膠套是否需要拆掉？\n答：市售蟹肉棒外包裝的塑膠套，其材質多屬於熱塑性聚合物，不建議長\n時間置於高溫環境下烹煮，建議料理前拆掉塑膠套是最保險的做法。\n根據上述，下列關於外包裝塑膠套材質的性質敘述和結構示意圖，何者正確？",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [
+          "option_incomplete",
+          "option_image"
+        ],
+        "parse_confidence": 0.4,
+        "original_question_number": 14,
+        "section_label": "單題",
+        "raw_text": "14. 下列為某網頁上的一則問與答：\n   問：煮蟹肉棒時，外包裝的塑膠套是否需要拆掉？\n   答：市售蟹肉棒外包裝的塑膠套，其材質多屬於熱塑性聚合物，不建議長\n     時間置於高溫環境下烹煮，建議料理前拆掉塑膠套是最保險的做法。\n  根據上述，下列關於外包裝塑膠套材質的性質敘述和結構示意圖，何者正確？\n\n\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-107-nature-015",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "某岩層在形成後未受地殼變動影響，且岩層中有大量完整的三葉蟲化石及其活\n動痕跡，該岩層的形成過程最有可能為下列何者？",
+      "options": [
+        "此岩層在陸地的環境沉積而成",
+        "此岩層在海洋的環境沉積而成",
+        "由岩漿在陸地噴發後冷卻而成",
+        "由岩漿在海底噴發後冷卻而成"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [],
+        "parse_confidence": 1.0,
+        "original_question_number": 15,
+        "section_label": "單題",
+        "raw_text": "15. 某岩層在形成後未受地殼變動影響，且岩層中有大量完整的三葉蟲化石及其活\n    動痕跡，該岩層的形成過程最有可能為下列何者？\n    (A)此岩層在陸地的環境沉積而成\n    (B)此岩層在海洋的環境沉積而成\n    (C)由岩漿在陸地噴發後冷卻而成\n    (D)由岩漿在海底噴發後冷卻而成\n",
+        "explanation_source": "ai_v1"
+      },
+      "is_active": true,
+      "auto_gradable": true,
+      "difficulty": 3,
+      "explanation": "三葉蟲是古生代海洋生物，「岩層中有大量完整的三葉蟲化石及其活動痕跡」表示該岩層形成時三葉蟲大量生活其中，故此岩層在海洋環境沉積而成，(B)正確。(A)錯誤因陸地環境不會有大量海洋生物；(C)和(D)為火成岩，不是沉積岩，且岩漿高溫會破壞化石，不符合「大量完整化石」的特徵。"
+    },
+    {
+      "id": "cap-107-nature-016",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "圖(八)是學生整理的宇宙組織關係圖，甲、乙、丙代表三個不同層級的結構，且\n三者在空間中的大小關係為甲＞乙＞丙。下列有關三者的敘述，何者最合理？",
+      "options": [
+        "若甲是太陽系，則乙可填入星系",
+        "若甲是銀河系，則乙可填入太陽 (C)若乙是行星，則丙可填入恆星          圖(八)",
+        "",
+        "若乙是銀河系，則丙可填入星系"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [
+          "needs_image",
+          "option_incomplete"
+        ],
+        "parse_confidence": 0.6,
+        "original_question_number": 16,
+        "section_label": "單題",
+        "raw_text": "16. 圖(八)是學生整理的宇宙組織關係圖，甲、乙、丙代表三個不同層級的結構，且\n    三者在空間中的大小關係為甲＞乙＞丙。下列有關三者的敘述，何者最合理？\n    (A)若甲是太陽系，則乙可填入星系\n    (B)若甲是銀河系，則乙可填入太陽\n    (C)若乙是行星，則丙可填入恆星          圖(八)\n    (D)若乙是銀河系，則丙可填入星系\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-107-nature-017",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "若將兩根相同的條形磁鐵靜止擺放如圖(九)\n所示，則圖中虛線區域中磁力線分布及磁\n場方向，下列何者最合理？\n圖(九)",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [
+          "needs_image",
+          "option_incomplete",
+          "option_image"
+        ],
+        "parse_confidence": 0.25,
+        "original_question_number": 17,
+        "section_label": "單題",
+        "raw_text": "17. 若將兩根相同的條形磁鐵靜止擺放如圖(九)\n    所示，則圖中虛線區域中磁力線分布及磁\n    場方向，下列何者最合理？\n                                 圖(九)\n  (A)     (B)        (C)   (D)\n\n\n\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-107-nature-018",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "將酵素甲和澱粉溶液在試管中混合均勻，並定時測量試\n管內的澱粉濃度。已知試管內澱粉濃度會隨著時間而改\n變，如圖(十)所示，下列關於甲的敘述，何者正確？",
+      "options": [
+        "甲主要由葡萄糖組成",
+        "甲與澱粉反應後，會被分解成胺基酸",
+        "若降低甲的活性，會使澱粉的合成速率變快 (D)若提高甲的活性，會使澱粉的分解速率變快                圖(十)",
+        ""
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [
+          "needs_image",
+          "option_incomplete"
+        ],
+        "parse_confidence": 0.6,
+        "original_question_number": 18,
+        "section_label": "單題",
+        "raw_text": "18. 將酵素甲和澱粉溶液在試管中混合均勻，並定時測量試\n    管內的澱粉濃度。已知試管內澱粉濃度會隨著時間而改\n    變，如圖(十)所示，下列關於甲的敘述，何者正確？\n    (A)甲主要由葡萄糖組成\n    (B)甲與澱粉反應後，會被分解成胺基酸\n    (C)若降低甲的活性，會使澱粉的合成速率變快\n    (D)若提高甲的活性，會使澱粉的分解速率變快                圖(十)\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-107-nature-019",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "圖(十一)為植物葉肉細胞的構造示意圖，甲、乙、丙、\n丁分別代表細胞內不同的構造，則下列何者主要負責\n產生能量供細胞使用？",
+      "options": [
+        "甲",
+        "乙",
+        "丙",
+        "丁 圖(十一)"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [
+          "needs_image"
+        ],
+        "parse_confidence": 0.85,
+        "original_question_number": 19,
+        "section_label": "單題",
+        "raw_text": "19. 圖(十一)為植物葉肉細胞的構造示意圖，甲、乙、丙、\n    丁分別代表細胞內不同的構造，則下列何者主要負責\n    產生能量供細胞使用？\n    (A)甲\n    (B)乙\n    (C)丙\n    (D)丁\n\n                                          圖(十一)\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-107-nature-020",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "有一個以密度為 2.5 g/cm 3 的材質製成之容器甲，將其置入另一\n盛水容器中，容器甲會浮在水面上，如圖(十二)所示。若用手\n扶住容器甲，並在容器甲內倒滿水，釋放之，待靜止平衡後，\n容器甲的浮沉情形最可能為下列何者？",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [
+          "needs_image",
+          "option_incomplete",
+          "option_image"
+        ],
+        "parse_confidence": 0.25,
+        "original_question_number": 20,
+        "section_label": "單題",
+        "raw_text": "20. 有一個以密度為 2.5 g/cm 3 的材質製成之容器甲，將其置入另一\n    盛水容器中，容器甲會浮在水面上，如圖(十二)所示。若用手\n    扶住容器甲，並在容器甲內倒滿水，釋放之，待靜止平衡後，\n    容器甲的浮沉情形最可能為下列何者？\n\n  (A)       (B)       (C)       (D)         圖(十二)\n\n\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-107-nature-021",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "小花在實驗室中找到一份舊實驗紀錄簿，紀錄簿中有一頁單擺實驗的紀錄表，\n此表因蟲蛀而使部分資料無法判讀，如圖(十三)所示。若製作此表時的實驗步驟\n正確且結果合理，則由可辨識的資料來判斷，下列何者最可能為組別丙的擺長\n長度？",
+      "options": [
+        "25.0 公分",
+        "50.0 公分",
+        "100.0 公分",
+        "200.0 公分 圖(十三)"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [
+          "needs_image"
+        ],
+        "parse_confidence": 0.85,
+        "original_question_number": 21,
+        "section_label": "單題",
+        "raw_text": "21. 小花在實驗室中找到一份舊實驗紀錄簿，紀錄簿中有一頁單擺實驗的紀錄表，\n    此表因蟲蛀而使部分資料無法判讀，如圖(十三)所示。若製作此表時的實驗步驟\n    正確且結果合理，則由可辨識的資料來判斷，下列何者最可能為組別丙的擺長\n    長度？\n    (A) 25.0 公分\n    (B) 50.0 公分\n    (C) 100.0 公分\n    (D) 200.0 公分\n\n                             圖(十三)\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-107-nature-022",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "圖(十四)為小瑞依據物質組成來分類，畫出數種物質的\n相互關係，被包含在大範圍者，亦屬於大範圍的一種\n物質，例如：氧化物(被包含者)亦屬於純物質的一種。\n圖中灰色範圍最可能為下列哪一類？",
+      "options": [
+        "元素",
+        "",
+        "混合物",
+        "聚合物"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [
+          "needs_image",
+          "option_incomplete"
+        ],
+        "parse_confidence": 0.6,
+        "original_question_number": 22,
+        "section_label": "單題",
+        "raw_text": "22. 圖(十四)為小瑞依據物質組成來分類，畫出數種物質的\n    相互關係，被包含在大範圍者，亦屬於大範圍的一種\n    物質，例如：氧化物(被包含者)亦屬於純物質的一種。\n    圖中灰色範圍最可能為下列哪一類？\n    (A)元素           (B)化合物                      圖(十四)\n    (C)混合物          (D)聚合物\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-107-nature-023",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "實驗課時，阿文一組四人取分別充滿 1 大氣壓甲、乙、丙氣體的三支試管，倒\n插入盛有 100 mL 水的相同燒杯中，拔開橡皮塞，經一段時間後觀察試管的情\n況，如圖(十五)所示。若不考慮水的蒸發，則表(二)內四人對於甲、乙、丙三種\n氣體在水中溶解度的比較，與收集氣體方法的判斷，何者正確？\n\u001b\u001a\u0019\n\u0010\u000f \u000e\n\u0018 \u0017100 mL               表(二)\n\u0016\u001b\u0015\u0014\n\u0013\n\u0012\n\u0011\n圖(十五)",
+      "options": [
+        "阿文",
+        "阿明",
+        "小薰",
+        "小玉"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [
+          "needs_image"
+        ],
+        "parse_confidence": 0.85,
+        "original_question_number": 23,
+        "section_label": "單題",
+        "raw_text": "23. 實驗課時，阿文一組四人取分別充滿 1 大氣壓甲、乙、丙氣體的三支試管，倒\n    插入盛有 100 mL 水的相同燒杯中，拔開橡皮塞，經一段時間後觀察試管的情\n    況，如圖(十五)所示。若不考慮水的蒸發，則表(二)內四人對於甲、乙、丙三種\n    氣體在水中溶解度的比較，與收集氣體方法的判斷，何者正確？\n\n             \u001f\n\n\n\n              \u001b\u001a\u0019\n   \u0010\u000f \u000e\n              \u0018 \u0017100 mL               表(二)\n               \u0016\u001b\u0015\u0014\n\n  \u0013\n\n \u0012 \n \n       \u0011\n\n\n\n\n\n\n          圖(十五)\n  (A)阿文           (B)阿明       (C)小薰          (D)小玉\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-107-nature-024",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "小湘在街上看到久違的好朋友，興奮地立即揮手打招呼。下列與上述過程相關\n的神經系統運作之敘述，何者正確？",
+      "options": [
+        "立即揮手是屬於反射作用",
+        "此過程的受器是在手部肌肉",
+        "興奮的感覺是由感覺神經產生",
+        "揮手的命令是由運動神經傳遞"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [],
+        "parse_confidence": 1.0,
+        "original_question_number": 24,
+        "section_label": "單題",
+        "raw_text": "24. 小湘在街上看到久違的好朋友，興奮地立即揮手打招呼。下列與上述過程相關\n    的神經系統運作之敘述，何者正確？\n    (A)立即揮手是屬於反射作用\n    (B)此過程的受器是在手部肌肉\n    (C)興奮的感覺是由感覺神經產生\n    (D)揮手的命令是由運動神經傳遞\n\n",
+        "explanation_source": "ai_v1"
+      },
+      "is_active": true,
+      "auto_gradable": true,
+      "difficulty": 3,
+      "explanation": "小湘看到朋友後興奮地揮手，這是一個完整的神經反射弧過程：眼睛接收視覺刺激（受器）→感覺神經傳入→大腦皮層產生興奮感覺並做出決定→運動神經傳出→手部肌肉收縮揮手（效應器）。故(D)正確，揮手的命令確實由運動神經從中樞神經系統傳遞至手部肌肉。(A)錯誤，立即揮手是有意識的隨意運動，不屬於反射作用；(B)錯誤，受器應是眼睛等感覺器官，不是肌肉；(C)錯誤，感覺神經只負責傳遞刺激信號，興奮的感覺是由大腦皮層產生，不是由感覺神經產生。"
+    },
+    {
+      "id": "cap-107-nature-025",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "孝全在整理家中相簿時發現一張過去拍攝的月亮照片，如圖(十六)所示；照片背後\n有關於拍攝時間地點的紀錄，如圖(十七)所示，下列何者最有可能是當時月亮所\n在的方向？",
+      "options": [
+        "頭頂正上方",
+        "南方地平線附近",
+        "東方地平線附近",
+        "西方地平線附近 圖(十六)     圖(十七)"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [
+          "needs_image"
+        ],
+        "parse_confidence": 0.85,
+        "original_question_number": 25,
+        "section_label": "單題",
+        "raw_text": "25. 孝全在整理家中相簿時發現一張過去拍攝的月亮照片，如圖(十六)所示；照片背後\n    有關於拍攝時間地點的紀錄，如圖(十七)所示，下列何者最有可能是當時月亮所\n    在的方向？\n    (A)頭頂正上方\n    (B)南方地平線附近\n    (C)東方地平線附近\n    (D)西方地平線附近\n                         圖(十六)     圖(十七)\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-107-nature-026",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "圖(十八)為竹子與其鄰近竹筍的生長示意圖，圖\n中箭頭表示物質 X 由竹子到竹筍的運輸方向。\n已知物質 X 來自光合作用，則有關物質 X 及其\n由何種構造運輸的敘述，下列何者最合理？",
+      "options": [
+        "物質 X 為醣類，由韌皮部運輸",
+        "物質 X 為醣類，由木質部運輸",
+        "物質 X 為水分，由韌皮部運輸",
+        "物質 X 為水分，由木質部運輸 圖(十八)"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [
+          "needs_image"
+        ],
+        "parse_confidence": 0.85,
+        "original_question_number": 26,
+        "section_label": "單題",
+        "raw_text": "26. 圖(十八)為竹子與其鄰近竹筍的生長示意圖，圖\n    中箭頭表示物質 X 由竹子到竹筍的運輸方向。\n    已知物質 X 來自光合作用，則有關物質 X 及其\n    由何種構造運輸的敘述，下列何者最合理？\n    (A)物質 X 為醣類，由韌皮部運輸\n    (B)物質 X 為醣類，由木質部運輸\n    (C)物質 X 為水分，由韌皮部運輸\n    (D)物質 X 為水分，由木質部運輸\n\n                                   圖(十八)\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-107-nature-027",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "大瀚在整理野外記錄的地質資料，圖(十九)是根據資料用鉛筆初\n步繪製但尚未完成的地層剖面示意圖。此外，資料上還記載著該\n地層同時存在斷層與岩脈，且由斷層與岩脈的關係可知剖面中的\n岩脈是在斷層活動之後才形成。若岩脈以灰色表示，斷層以粗黑\n實線表示，則完成後的示意圖最接近下列何者？             圖(十九)",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [
+          "needs_image",
+          "option_incomplete",
+          "option_image"
+        ],
+        "parse_confidence": 0.25,
+        "original_question_number": 27,
+        "section_label": "單題",
+        "raw_text": "27. 大瀚在整理野外記錄的地質資料，圖(十九)是根據資料用鉛筆初\n    步繪製但尚未完成的地層剖面示意圖。此外，資料上還記載著該\n    地層同時存在斷層與岩脈，且由斷層與岩脈的關係可知剖面中的\n    岩脈是在斷層活動之後才形成。若岩脈以灰色表示，斷層以粗黑\n    實線表示，則完成後的示意圖最接近下列何者？             圖(十九)\n    (A)     (B)     (C)     (D)\n\n\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-107-nature-028",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "圖(二十)為甲、乙兩種細胞所含的染色體示意圖，此兩種細胞都是某一雌性動物\n個體內的正常細胞。根據此圖，下列相關推論或敘述何者最合理？",
+      "options": [
+        "甲總共含 8 個基因，乙總共含 4 個基因",
+        "若甲具有性染色體，則乙不具有性染色體",
+        "若甲具有成對的基因，則乙不具有成對的基因",
+        "甲有 4 對成對的染色體，乙有 2 對成對的染色體 圖(二十)"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [
+          "needs_image"
+        ],
+        "parse_confidence": 0.85,
+        "original_question_number": 28,
+        "section_label": "單題",
+        "raw_text": "28. 圖(二十)為甲、乙兩種細胞所含的染色體示意圖，此兩種細胞都是某一雌性動物\n    個體內的正常細胞。根據此圖，下列相關推論或敘述何者最合理？\n    (A)甲總共含 8 個基因，乙總共含 4 個基因\n    (B)若甲具有性染色體，則乙不具有性染色體\n    (C)若甲具有成對的基因，則乙不具有成對的基因\n    (D)甲有 4 對成對的染色體，乙有 2 對成對的染色體\n                               \u001f            \n\n                                   圖(二十)\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-107-nature-029",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "有一個裝水的玻璃魚缸，內部的水保持靜止，魚缸內有一點 X，其位置如\n圖(二十一)所示。若 X 點所受來自上、下、左、右四個方向的液體壓力分\n別為 P 上 、P 下 、P 左 、P 右 ，則其關係應為下列何者？",
+      "options": [
+        "P 上 ＝P 下 ＝P 左 ＝P 右",
+        "P 右 ＞P 上 ＞P 下 ＝P 左",
+        "P 上 ＞P 下 ＝P 左 ＝P 右",
+        "P 上 ＜P 下 ＝P 左 ＝P 右 圖(二十一)"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [
+          "needs_image"
+        ],
+        "parse_confidence": 0.85,
+        "original_question_number": 29,
+        "section_label": "單題",
+        "raw_text": "29. 有一個裝水的玻璃魚缸，內部的水保持靜止，魚缸內有一點 X，其位置如\n    圖(二十一)所示。若 X 點所受來自上、下、左、右四個方向的液體壓力分\n    別為 P 上 、P 下 、P 左 、P 右 ，則其關係應為下列何者？\n    (A) P 上 ＝P 下 ＝P 左 ＝P 右\n    (B) P 右 ＞P 上 ＞P 下 ＝P 左\n    (C) P 上 ＞P 下 ＝P 左 ＝P 右\n    (D) P 上 ＜P 下 ＝P 左 ＝P 右\n\n\n                                   圖(二十一)\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-107-nature-030",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "在一般標準大氣狀況下，關於對流層常見特性的敘述，下列何者正確？",
+      "options": [
+        "頂端臭氧含量最高，又名臭氧層",
+        "依溫度變化可以細分為四個分層",
+        "氣溫與氣壓皆隨高度升高而降低",
+        "此層的大氣僅有垂直向上的運動"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [],
+        "parse_confidence": 1.0,
+        "original_question_number": 30,
+        "section_label": "單題",
+        "raw_text": "30. 在一般標準大氣狀況下，關於對流層常見特性的敘述，下列何者正確？\n    (A)頂端臭氧含量最高，又名臭氧層\n    (B)依溫度變化可以細分為四個分層\n    (C)氣溫與氣壓皆隨高度升高而降低\n    (D)此層的大氣僅有垂直向上的運動\n\n",
+        "explanation_source": "ai_v1"
+      },
+      "is_active": true,
+      "auto_gradable": true,
+      "difficulty": 3,
+      "explanation": "對流層是距地表最近的大氣層，其特性為「氣溫與氣壓皆隨高度升高而降低」，故(C)正確。(A)錯誤，臭氧層位於平流層而非對流層；(B)錯誤，對流層依溫度變化細分為對流層下部、中部、上部三個分層，不是四個；(D)錯誤，對流層中大氣運動包括垂直對流和水平風等多種方向的運動，不僅有垂直向上的運動。"
+    },
+    {
+      "id": "cap-107-nature-031",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "圖(二十二)為小玟進行水溶液混合實驗的步驟示意圖：\nǻ\n以 pH 計測量甲、乙二   把乙杯溶液都    混合後   溶液溫度回到 25℃\n杯溫度都為 25℃ 溶液    倒入甲杯中   立刻測量   後，以 pH 計測量混\n的 pH 值             溶液溫度    合後溶液的 pH 值\n圖(二十二)\n她在步驟三和步驟四所測得數據，依序應為下列何者才合理？",
+      "options": [
+        "小於 25℃；大於 10.6 或小於 0.8",
+        "小於 25℃；在 0.8～10.6 之間",
+        "大於 25℃；大於 10.6 或小於 0.8",
+        "大於 25℃；在 0.8～10.6 之間"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [
+          "needs_image"
+        ],
+        "parse_confidence": 0.85,
+        "original_question_number": 31,
+        "section_label": "單題",
+        "raw_text": "31. 圖(二十二)為小玟進行水溶液混合實驗的步驟示意圖：\n\n\n\n\n                                        ǻ\n\n\n\n\n      以 pH 計測量甲、乙二   把乙杯溶液都    混合後   溶液溫度回到 25℃\n      杯溫度都為 25℃ 溶液    倒入甲杯中   立刻測量   後，以 pH 計測量混\n           的 pH 值             溶液溫度    合後溶液的 pH 值\n                            圖(二十二)\n      她在步驟三和步驟四所測得數據，依序應為下列何者才合理？\n      (A)小於 25℃；大於 10.6 或小於 0.8\n      (B)小於 25℃；在 0.8～10.6 之間\n      (C)大於 25℃；大於 10.6 或小於 0.8\n      (D)大於 25℃；在 0.8～10.6 之間\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-107-nature-032",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "表(三)為兩種動物所能聽見聲音的頻率範圍。在空氣溫度為 15℃，聲波波速\n為34000 cm/s 的環境下，若發出波長為 1000 cm，且音量足夠大的聲波，則\n參閱表中的資訊，下列有關此兩種動物是否能聽到此聲波的敘述何者最合理？\n(A)兩種動物都聽得到此聲波                       表(三)",
+      "options": [
+        "",
+        "兩種動物都聽不到此聲波",
+        "此聲波大象聽得到，而兔子聽不到",
+        "此聲波兔子聽得到，而大象聽不到"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [
+          "needs_image",
+          "option_incomplete"
+        ],
+        "parse_confidence": 0.6,
+        "original_question_number": 32,
+        "section_label": "單題",
+        "raw_text": "32. 表(三)為兩種動物所能聽見聲音的頻率範圍。在空氣溫度為 15℃，聲波波速\n    為34000 cm/s 的環境下，若發出波長為 1000 cm，且音量足夠大的聲波，則\n    參閱表中的資訊，下列有關此兩種動物是否能聽到此聲波的敘述何者最合理？\n    (A)兩種動物都聽得到此聲波                       表(三)\n    (B)兩種動物都聽不到此聲波\n    (C)此聲波大象聽得到，而兔子聽不到\n    (D)此聲波兔子聽得到，而大象聽不到\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-107-nature-033",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "一電路裝置如圖(二十三)所示，圖中導線電阻與電池內電阻忽略\n不計，甲、乙兩個燈泡皆正常發亮。若因燈泡甲燒毀而使電流\n無法通過燈泡甲，則有關燈泡乙在燈泡甲燒毀後的敘述，下列\n何者最合理？",
+      "options": [
+        "因電路發生斷路而使燈泡乙在未燒毀的情況下熄滅",
+        "因電路發生短路而使燈泡乙在未燒毀的情況下熄滅 (C)流經燈泡乙的電流變為原本的 2 倍而使其亮度增加   圖(二十三)",
+        "",
+        "燈泡乙仍正常發亮且流經燈泡乙的電流大小仍不變"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [
+          "needs_image",
+          "option_incomplete"
+        ],
+        "parse_confidence": 0.6,
+        "original_question_number": 33,
+        "section_label": "單題",
+        "raw_text": "33.   一電路裝置如圖(二十三)所示，圖中導線電阻與電池內電阻忽略\n      不計，甲、乙兩個燈泡皆正常發亮。若因燈泡甲燒毀而使電流\n      無法通過燈泡甲，則有關燈泡乙在燈泡甲燒毀後的敘述，下列\n      何者最合理？\n      (A)因電路發生斷路而使燈泡乙在未燒毀的情況下熄滅\n      (B)因電路發生短路而使燈泡乙在未燒毀的情況下熄滅\n      (C)流經燈泡乙的電流變為原本的 2 倍而使其亮度增加   圖(二十三)\n      (D)燈泡乙仍正常發亮且流經燈泡乙的電流大小仍不變\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-107-nature-034",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "有甲、乙、丙三杯水，將三杯水混合，當混合後的水達熱平衡時，水溫為\n50℃。若混合過程中，水與外界無熱量的吸收與散失，則下列四組何者最有可\n能是甲、乙、丙三杯水混合前的溫度？",
+      "options": [
+        "0℃、50℃、50℃",
+        "20℃、90℃、95℃",
+        "10℃、15℃、25℃",
+        "50℃、60℃、70℃"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [],
+        "parse_confidence": 1.0,
+        "original_question_number": 34,
+        "section_label": "單題",
+        "raw_text": "34. 有甲、乙、丙三杯水，將三杯水混合，當混合後的水達熱平衡時，水溫為\n    50℃。若混合過程中，水與外界無熱量的吸收與散失，則下列四組何者最有可\n    能是甲、乙、丙三杯水混合前的溫度？\n    (A) 0℃、50℃、50℃   (B) 20℃、90℃、95℃\n    (C) 10℃、15℃、25℃  (D) 50℃、60℃、70℃\n",
+        "explanation_source": "ai_v1"
+      },
+      "is_active": true,
+      "auto_gradable": true,
+      "difficulty": 3,
+      "explanation": "根據熱平衡原理，混合後的平衡溫度應介於三杯水的最高溫與最低溫之間，且靠近溫度較高或質量較大的水。檢驗各選項：(A) 最高50℃、最低0℃，平衡溫度應在0～50℃間，但題目要求50℃，表示需要高溫水補償，此組不合理；(C) 最高25℃、最低10℃，平衡溫度應在10～25℃間，遠低於50℃，明顯錯誤；(D) 最高70℃、最低50℃，平衡溫度應在50～70℃間，不會正好是50℃；(B) 最高95℃、最低20℃，平衡溫度在20～95℃間，當高溫水（90℃、95℃）與低溫水（20℃）混合時，高溫水散失的熱量可使平衡溫度達到50℃，符合熱量守恆，故(B)正確。"
+    },
+    {
+      "id": "cap-107-nature-035",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "白白分別在夏至(6/22)當天與冬至(12/22)當天到\n同一處海邊遊玩，在正午時她看見懸崖邊的燈\n塔影子分別如圖(二十四)所示。根據圖中燈塔\n影子的長度與方位判斷，此燈塔最可能位於下\n列何處的海邊？",
+      "options": [
+        "南緯 40 度",
+        "北緯 40 度",
+        "南緯 20 度 (D)北緯 20 度                     圖(二十四)",
+        ""
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [
+          "needs_image",
+          "option_incomplete"
+        ],
+        "parse_confidence": 0.6,
+        "original_question_number": 35,
+        "section_label": "單題",
+        "raw_text": "35. 白白分別在夏至(6/22)當天與冬至(12/22)當天到\n    同一處海邊遊玩，在正午時她看見懸崖邊的燈\n    塔影子分別如圖(二十四)所示。根據圖中燈塔\n    影子的長度與方位判斷，此燈塔最可能位於下\n    列何處的海邊？\n    (A)南緯 40 度\n    (B)北緯 40 度\n    (C)南緯 20 度\n    (D)北緯 20 度                     圖(二十四)\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-107-nature-036",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "欣如進行電解水的實驗，其裝置及收集到 X、Y 二種氣體的體積，如圖(二十五)\n所示。若將此直流電源改接到圖(二十六)的電鍍裝置進行銅片鍍鎳，應如何正確連接\n和選用電鍍液？\n圖(二十六)\n圖(二十五)",
+      "options": [
+        "甲極接銅片，乙極接鎳片，電鍍液選用硫酸鎳溶液",
+        "甲極接銅片，乙極接鎳片，電鍍液選用硫酸銅溶液",
+        "甲極接鎳片，乙極接銅片，電鍍液選用硫酸鎳溶液",
+        "甲極接鎳片，乙極接銅片，電鍍液選用硫酸銅溶液"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [
+          "needs_image"
+        ],
+        "parse_confidence": 0.85,
+        "original_question_number": 36,
+        "section_label": "單題",
+        "raw_text": "36. 欣如進行電解水的實驗，其裝置及收集到 X、Y 二種氣體的體積，如圖(二十五)\n    所示。若將此直流電源改接到圖(二十六)的電鍍裝置進行銅片鍍鎳，應如何正確連接\n    和選用電鍍液？\n\n\n\n\n                                    圖(二十六)\n\n                  圖(二十五)\n   (A)甲極接銅片，乙極接鎳片，電鍍液選用硫酸鎳溶液\n   (B)甲極接銅片，乙極接鎳片，電鍍液選用硫酸銅溶液\n   (C)甲極接鎳片，乙極接銅片，電鍍液選用硫酸鎳溶液\n   (D)甲極接鎳片，乙極接銅片，電鍍液選用硫酸銅溶液\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-107-nature-037",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "圖(二十七)為人體注射藥劑的部位示意圖，關於藥劑從甲\n部位或乙部位注入人體的靜脈後，經由血液循環最先進\n入心臟腔室的敘述，下列何者最合理？",
+      "options": [
+        "甲、乙部位的藥劑皆先進入右心房",
+        "甲、乙部位的藥劑皆先進入左心房",
+        "甲部位的藥劑先進入右心房，乙部位的藥劑先進入左心房",
+        "甲部位的藥劑先進入左心房，乙部位的藥劑先進入右心房 圖(二十七)"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [
+          "needs_image"
+        ],
+        "parse_confidence": 0.85,
+        "original_question_number": 37,
+        "section_label": "單題",
+        "raw_text": "37. 圖(二十七)為人體注射藥劑的部位示意圖，關於藥劑從甲\n    部位或乙部位注入人體的靜脈後，經由血液循環最先進\n    入心臟腔室的敘述，下列何者最合理？\n    (A)甲、乙部位的藥劑皆先進入右心房\n    (B)甲、乙部位的藥劑皆先進入左心房\n    (C)甲部位的藥劑先進入右心房，乙部位的藥劑先進入左心房\n    (D)甲部位的藥劑先進入左心房，乙部位的藥劑先進入右心房\n                                      圖(二十七)\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-107-nature-038",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "甲、乙兩個質量同為 1 kg 的木塊靜置於水平\n桌面上，兩木塊分別受水平外力作直線運\n動，其速度(v)與時間(t)的關係如圖(二十八)所\n示。若 t＝25 s 時，甲、乙兩木塊所受的合力\n分別為 F甲、F乙，則 F甲：F乙 應為下列何者？",
+      "options": [
+        "1：1",
+        "2：1",
+        "4：1",
+        "7：4 圖(二十八)"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [
+          "needs_image"
+        ],
+        "parse_confidence": 0.85,
+        "original_question_number": 38,
+        "section_label": "單題",
+        "raw_text": "38. 甲、乙兩個質量同為 1 kg 的木塊靜置於水平\n    桌面上，兩木塊分別受水平外力作直線運\n    動，其速度(v)與時間(t)的關係如圖(二十八)所\n    示。若 t＝25 s 時，甲、乙兩木塊所受的合力\n    分別為 F甲、F乙，則 F甲：F乙 應為下列何者？\n    (A) 1：1\n    (B) 2：1\n    (C) 4：1\n    (D) 7：4\n\n\n                                 圖(二十八)\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-107-nature-039",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "老師在課堂上提到：「銅與稀硝酸反應，會產生無色的一氧化氮氣體；銅與濃硝\n酸反應，會產生紅棕色的二氧化氮氣體。」小勳上網查詢並在便條紙抄下此二\n種化學反應式，再次取出便條紙時，卻發現紙條右端破損，如圖(二十九)所示。\n已知甲、乙二反應式中缺少的產物各只有一種，關於甲、乙二反應式應補上的\n部分，下列敘述何者正確？",
+      "options": [
+        "甲反應式應補上 2 NO 2",
+        "甲反應式應補上 4 NO (C)乙反應式應補上 5 NO 2      圖(二十九)",
+        "",
+        "乙反應式應補上 6 NO"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [
+          "needs_image",
+          "option_incomplete"
+        ],
+        "parse_confidence": 0.6,
+        "original_question_number": 39,
+        "section_label": "單題",
+        "raw_text": "39. 老師在課堂上提到：「銅與稀硝酸反應，會產生無色的一氧化氮氣體；銅與濃硝\n    酸反應，會產生紅棕色的二氧化氮氣體。」小勳上網查詢並在便條紙抄下此二\n    種化學反應式，再次取出便條紙時，卻發現紙條右端破損，如圖(二十九)所示。\n    已知甲、乙二反應式中缺少的產物各只有一種，關於甲、乙二反應式應補上的\n    部分，下列敘述何者正確？\n    (A)甲反應式應補上 2 NO 2\n    (B)甲反應式應補上 4 NO\n    (C)乙反應式應補上 5 NO 2      圖(二十九)\n    (D)乙反應式應補上 6 NO\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-107-nature-040",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "圖(三十)為全球板塊分布示意圖。\n已知甲和乙位於同一種類型的板塊\n邊界上，則依照板塊構造學說，下\n列何者通常不會在甲處出現？",
+      "options": [
+        "海溝",
+        "地震",
+        "火山",
+        "斷層 圖(三十)"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [
+          "needs_image"
+        ],
+        "parse_confidence": 0.85,
+        "original_question_number": 40,
+        "section_label": "單題",
+        "raw_text": "40. 圖(三十)為全球板塊分布示意圖。\n    已知甲和乙位於同一種類型的板塊\n    邊界上，則依照板塊構造學說，下\n    列何者通常不會在甲處出現？\n    (A)海溝\n    (B)地震\n    (C)火山\n    (D)斷層\n\n                                圖(三十)\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-107-nature-041",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "圖(三十一)為某兩條食物鏈依生物各階層所含能量的關係繪製成甲、乙能量塔之\n示意圖(面積不代表實際能量大小)。已知兩能量塔最高階層的生物總能量皆相\n同，則下列推測何者最合理？",
+      "options": [
+        "消費者的總能量：甲＞乙",
+        "生產者的總能量：乙＞甲",
+        "甲的初級消費者總能量大於乙的初級消費者",
+        "甲的初級消費者總能量小於乙的三級消費者 圖(三十一)"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [
+          "needs_image"
+        ],
+        "parse_confidence": 0.85,
+        "original_question_number": 41,
+        "section_label": "單題",
+        "raw_text": "41. 圖(三十一)為某兩條食物鏈依生物各階層所含能量的關係繪製成甲、乙能量塔之\n    示意圖(面積不代表實際能量大小)。已知兩能量塔最高階層的生物總能量皆相\n    同，則下列推測何者最合理？\n    (A)消費者的總能量：甲＞乙\n    (B)生產者的總能量：乙＞甲\n    (C)甲的初級消費者總能量大於乙的初級消費者\n    (D)甲的初級消費者總能量小於乙的三級消費者\n                                 圖(三十一)\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-107-nature-042",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "圖(三十二)為小樺與媽媽某一天在牛排館用餐的對話：\n......\n圖(三十二)\n圖中小樺的敘述「……」最可能是下列何者？",
+      "options": [
+        "酸鹼中和實驗中會加入『酚酞』",
+        "製造肥皂實驗中會加入『氫氧化鈉』",
+        "製造乙酸乙酯實驗中會加入『濃硫酸』",
+        "碳酸鈣製造二氧化碳實驗中會加入『鹽酸』"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [
+          "needs_image"
+        ],
+        "parse_confidence": 0.85,
+        "original_question_number": 42,
+        "section_label": "單題",
+        "raw_text": "42. 圖(三十二)為小樺與媽媽某一天在牛排館用餐的對話：\n\n                           ......\n\n\n\n\n                  圖(三十二)\n  圖中小樺的敘述「……」最可能是下列何者？\n  (A)酸鹼中和實驗中會加入『酚酞』\n  (B)製造肥皂實驗中會加入『氫氧化鈉』\n  (C)製造乙酸乙酯實驗中會加入『濃硫酸』\n  (D)碳酸鈣製造二氧化碳實驗中會加入『鹽酸』\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-107-nature-043",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "圖(三十三)為小芸作凸透鏡成像觀察的實驗\n裝置圖，凸透鏡的焦距為 10 cm。她將原本\n擺放在甲區的蠟燭，移至丙區的位置，若\n她想觀察移動位置後蠟燭所成的像，則以\n下列哪一個方式進行最可能達成目的？",
+      "options": [
+        "將紙屏移動至丁區，找尋蠟燭所成的像 (B)將紙屏移動至己區，找尋蠟燭所成的像      圖(三十三)",
+        "",
+        "將紙屏移動至甲區或乙區，找尋蠟燭所成的像",
+        "移除紙屏，由丁區、戊區或己區以眼睛透過透鏡觀察蠟燭所成的像"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [
+          "needs_image",
+          "option_incomplete"
+        ],
+        "parse_confidence": 0.6,
+        "original_question_number": 43,
+        "section_label": "單題",
+        "raw_text": "43. 圖(三十三)為小芸作凸透鏡成像觀察的實驗\n    裝置圖，凸透鏡的焦距為 10 cm。她將原本\n    擺放在甲區的蠟燭，移至丙區的位置，若\n    她想觀察移動位置後蠟燭所成的像，則以\n    下列哪一個方式進行最可能達成目的？\n    (A)將紙屏移動至丁區，找尋蠟燭所成的像\n    (B)將紙屏移動至己區，找尋蠟燭所成的像      圖(三十三)\n    (C)將紙屏移動至甲區或乙區，找尋蠟燭所成的像\n    (D)移除紙屏，由丁區、戊區或己區以眼睛透過透鏡觀察蠟燭所成的像\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-107-nature-044",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "東太平洋赤道附近的祕魯漁民，因應表層海水溫度的變化，發展出不同時間\n區段的不同生活型態，如圖(三十四)與圖(三十五)所示。\n圖(三十四)           圖(三十五)\n根據漫畫中的內容判斷，下列關於二者海水溫度變化的敘述，何者正確？\n(A)圖(三十四)的沿岸湧升流增強，導致表層海水溫度上升\n(B)圖(三十四)的沿岸湧升流減弱，導致表層海水溫度下降\n(C)圖(三十五)的沿岸湧升流增強，導致表層海水溫度下降\n(D)圖(三十五)的沿岸湧升流減弱，導致表層海水溫度上升",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [
+          "needs_image",
+          "option_incomplete",
+          "option_image"
+        ],
+        "parse_confidence": 0.25,
+        "original_question_number": 44,
+        "section_label": "單題",
+        "raw_text": "44. 東太平洋赤道附近的祕魯漁民，因應表層海水溫度的變化，發展出不同時間\n    區段的不同生活型態，如圖(三十四)與圖(三十五)所示。\n\n\n\n\n            圖(三十四)           圖(三十五)\n  根據漫畫中的內容判斷，下列關於二者海水溫度變化的敘述，何者正確？\n  (A)圖(三十四)的沿岸湧升流增強，導致表層海水溫度上升\n  (B)圖(三十四)的沿岸湧升流減弱，導致表層海水溫度下降\n  (C)圖(三十五)的沿岸湧升流增強，導致表層海水溫度下降\n  (D)圖(三十五)的沿岸湧升流減弱，導致表層海水溫度上升\n\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-107-nature-045",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "甲、乙、丙三地位於同一條筆直的道路上，且乙地位於甲、丙之間，甲、乙二\n地的距離為 S 1 ，乙、丙二地的距離為 S 2 。小明沿著道路由甲地出發經乙地到達\n丙地後再折返回乙地，其路線即甲→乙→丙→乙，已知此過程小明的平均速度\n大小為每小時 3 公里，平均速率為每小時 15 公里，則 S1 ：S2 為下列何者？",
+      "options": [
+        "1：1",
+        "1：2",
+        "1：4",
+        "1：5"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [],
+        "parse_confidence": 1.0,
+        "original_question_number": 45,
+        "section_label": "單題",
+        "raw_text": "45. 甲、乙、丙三地位於同一條筆直的道路上，且乙地位於甲、丙之間，甲、乙二\n    地的距離為 S 1 ，乙、丙二地的距離為 S 2 。小明沿著道路由甲地出發經乙地到達\n    丙地後再折返回乙地，其路線即甲→乙→丙→乙，已知此過程小明的平均速度\n    大小為每小時 3 公里，平均速率為每小時 15 公里，則 S1 ：S2 為下列何者？\n    (A) 1：1             (B) 1：2\n    (C) 1：4             (D) 1：5\n",
+        "explanation_source": "ai_v1"
+      },
+      "is_active": true,
+      "auto_gradable": true,
+      "difficulty": 3,
+      "explanation": "平均速度是位移除以時間，平均速率是路程除以時間。設總時間為 t，小明的位移為 S₂-S₁（從甲到乙距離 S₁，再到丙距離 S₂，最後回到乙距離 S₂，終點在乙地，故位移為 S₂-S₁），總路程為 S₁+S₂+S₂=S₁+2S₂。由平均速度公式：(S₂-S₁)/t=3，由平均速率公式：(S₁+2S₂)/t=15。兩式相除得 (S₁+2S₂)/(S₂-S₁)=5，展開得 S₁+2S₂=5S₂-5S₁，即 6S₁=3S₂，故 S₁：S₂=1：2，(B) 正確。(A) 代入會得平均速度為 5 公里/小時，不符；(C)(D) 同理不符合兩個條件。"
+    },
+    {
+      "id": "cap-107-nature-046",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "將種有植株的兩相同盆栽，分別放在甲、乙兩個獨立的黑暗房間內，且將光源擺放在\n不同位置照射植株，經一段時間後，其生長狀況如圖(三十六)所示。若此時把光源移\n開，再經一段時間後，觀察莖的生長方向。若圖(三十七)為預測莖生長方向的示意圖，\n則下列有關甲、乙兩處的莖生長之敘述，何者最合理？\n˗\n˗\n圖(三十六)           圖(三十七)",
+      "options": [
+        "兩處的莖皆如 生長",
+        "兩處的莖皆如 生長",
+        "甲處的莖如 生長；乙處的莖如 生長",
+        "甲處的莖如 生長；乙處的莖如 生長"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [
+          "needs_image"
+        ],
+        "parse_confidence": 0.85,
+        "original_question_number": 46,
+        "section_label": "單題",
+        "raw_text": "46. 將種有植株的兩相同盆栽，分別放在甲、乙兩個獨立的黑暗房間內，且將光源擺放在\n    不同位置照射植株，經一段時間後，其生長狀況如圖(三十六)所示。若此時把光源移\n    開，再經一段時間後，觀察莖的生長方向。若圖(三十七)為預測莖生長方向的示意圖，\n    則下列有關甲、乙兩處的莖生長之敘述，何者最合理？\n                           ˗\n\n\n\n\n                 ˗\n\n\n\n\n                圖(三十六)           圖(三十七)\n  (A)兩處的莖皆如 生長\n  (B)兩處的莖皆如 生長\n  (C)甲處的莖如 生長；乙處的莖如 生長\n  (D)甲處的莖如 生長；乙處的莖如 生長\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-107-nature-047",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "某一性狀由體染色體上的一對等位基因所控制，A 為顯性，a 為隱性。今有一對\n夫妻此性狀的基因型皆為 Aa，在不考慮突變的情況下，他們小孩的此種性狀可\n能會有幾種表現型？",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [],
+        "parse_confidence": 1.0,
+        "original_question_number": 47,
+        "section_label": "單題",
+        "raw_text": "47. 某一性狀由體染色體上的一對等位基因所控制，A 為顯性，a 為隱性。今有一對\n    夫妻此性狀的基因型皆為 Aa，在不考慮突變的情況下，他們小孩的此種性狀可\n    能會有幾種表現型？\n    (A) 1    (B) 2     (C) 3   (D) 4\n",
+        "explanation_source": "ai_v1"
+      },
+      "is_active": true,
+      "auto_gradable": true,
+      "difficulty": 3,
+      "explanation": "父母基因型皆為Aa，進行遺傳雜交，根據分離定律，子代基因型為AA、Aa、aa，其中AA和Aa都表現為顯性性狀，aa表現為隱性性狀，故子代只有2種表現型，(B)正確。選項(A)錯誤，因為Aa×Aa不會只產生一種表現型；(C)和(D)錯誤，因為只有顯性和隱性兩種表現型，不會有三種或四種。"
+    },
+    {
+      "id": "cap-107-nature-048",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "曉萱進行滲透作用的實驗，其步驟和說明如圖(三十八)所示：\n甲、乙和丙為三種不同濃度的蔗糖水溶液。         將丙小袋分別放入甲、\n甲杯：體積莫耳濃度0.5 M，             乙二杯水溶液中，觀察\n乙杯：重量百分濃度0.5%，              變化並記錄結果。\n丙小袋×2：以薄膜製成的小袋，袋內裝有相\n同但未知濃度的蔗糖水溶液。\n圖(三十八)\n已知水可以自由進出丙小袋的薄膜而蔗糖不行，結果其中一杯內的小袋保持原\n形狀且體積幾乎不變，另一杯內的小袋形狀萎縮且體積變小。若各溶液的密度\n均約為 1 g/cm 3，則步驟一中甲、乙和丙三種溶液濃度的關係，應為下列何者？\n(1莫耳的蔗糖質量為 342 g)",
+      "options": [
+        "乙最小，甲與丙相近",
+        "乙最大，甲與丙相近",
+        "甲最小，乙與丙相近",
+        "甲最大，乙與丙相近"
+      ],
+      "correct_answer": 3,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [
+          "needs_image"
+        ],
+        "parse_confidence": 0.85,
+        "original_question_number": 48,
+        "section_label": "單題",
+        "raw_text": "48. 曉萱進行滲透作用的實驗，其步驟和說明如圖(三十八)所示：\n\n\n\n\n   甲、乙和丙為三種不同濃度的蔗糖水溶液。         將丙小袋分別放入甲、\n   甲杯：體積莫耳濃度0.5 M，             乙二杯水溶液中，觀察\n   乙杯：重量百分濃度0.5%，              變化並記錄結果。\n   丙小袋×2：以薄膜製成的小袋，袋內裝有相\n         同但未知濃度的蔗糖水溶液。\n                       圖(三十八)\n  已知水可以自由進出丙小袋的薄膜而蔗糖不行，結果其中一杯內的小袋保持原\n  形狀且體積幾乎不變，另一杯內的小袋形狀萎縮且體積變小。若各溶液的密度\n  均約為 1 g/cm 3，則步驟一中甲、乙和丙三種溶液濃度的關係，應為下列何者？\n  (1莫耳的蔗糖質量為 342 g)\n  (A)乙最小，甲與丙相近          (B)乙最大，甲與丙相近\n  (C)甲最小，乙與丙相近          (D)甲最大，乙與丙相近\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-107-nature-passage-49",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "reading_passage",
+      "question_text": "請閱讀下列敘述後，回答49～50題",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": {
+        "passage_text": "偏側蛇蟲草菌可感染特定種類的螞蟻，\n被感染的螞蟻會逐漸死去，而蟻屍的外殼將會\n保護偏側蛇蟲草菌的生長。在螞蟻死後，此菌\n將會繼續在螞蟻體內生長，並從蟻屍的某些部\n位長出菌絲，如圖(三十九)所示，待成熟後即\n釋放孢子，繼續感染附近的螞蟻。\n圖(三十九)",
+        "kind_hint": "single"
+      },
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [],
+        "parse_confidence": null,
+        "intro_line": "請閱讀下列敘述後，回答49～50題",
+        "child_qnums": [
+          49,
+          50
+        ]
+      },
+      "is_active": true,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-107-nature-049",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "根據本文，推測下列何者最可能為偏側蛇蟲草菌與螞蟻間的關係？",
+      "options": [
+        "寄生",
+        "合作",
+        "競爭空間",
+        "競爭食物"
+      ],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "parent_question_id": "cap-107-nature-passage-49",
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [],
+        "parse_confidence": 1.0,
+        "original_question_number": 49,
+        "section_label": "單題",
+        "raw_text": "49. 根據本文，推測下列何者最可能為偏側蛇蟲草菌與螞蟻間的關係？\n    (A)寄生            (B)合作\n    (C)競爭空間          (D)競爭食物\n",
+        "explanation_source": "ai_v1"
+      },
+      "is_active": true,
+      "auto_gradable": true,
+      "difficulty": 3,
+      "explanation": "根據題文「被感染的螞蟻會逐漸死去」且「蟻屍的外殼將會保護偏側蛇蟲草菌的生長」，偏側蛇蟲草菌以螞蟻為宿主，從中獲取養分而使螞蟻死亡，這是典型的寄生關係，故(A)正確。(B)合作是雙方互利，但螞蟻被感染後死亡，並未獲益。(C)和(D)競爭關係需要雙方爭奪相同資源，但菌類與螞蟻並無此互動。"
+    },
+    {
+      "id": "cap-107-nature-050",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "根據本文，推測偏側蛇蟲草菌與下列何者的親緣關係最接近？",
+      "options": [
+        "蕨類",
+        "藍綠菌",
+        "酵母菌",
+        "節肢動物"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "parent_question_id": "cap-107-nature-passage-49",
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [],
+        "parse_confidence": 1.0,
+        "original_question_number": 50,
+        "section_label": "單題",
+        "raw_text": "50. 根據本文，推測偏側蛇蟲草菌與下列何者的親緣關係最接近？\n    (A)蕨類    (B)藍綠菌  (C)酵母菌   (D)節肢動物\n",
+        "explanation_source": "ai_v1"
+      },
+      "is_active": true,
+      "auto_gradable": true,
+      "difficulty": 3,
+      "explanation": "偏側蛇蟲草菌具有「從蟻屍的某些部位長出菌絲」的特徵，這是真菌的典型結構，說明它屬於真菌界。酵母菌是單細胞真菌，與偏側蛇蟲草菌同屬真菌界，親緣關係最接近，故(C)正確。(A)蕨類是植物，(B)藍綠菌是原核生物，(D)節肢動物是動物，三者與真菌的親緣關係都較遠。"
+    },
+    {
+      "id": "cap-107-nature-passage-51",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "reading_passage",
+      "question_text": "請閱讀下列敘述後，回答51～52題",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": {
+        "passage_text": "阿勝看到一篇有關節能減碳的文宣，\n決定將工廠裡的白熾燈全部改為某種較\n省電的燈具，圖(四十)為該文宣的部分內\n容，文宣中的白熾燈可以用下方同一欄中\n的較省電燈具來取代。阿勝利用此文宣，\n計算出他更換 300 盞相同的白熾燈，一個\n月可節省電能 2700 度，同時可減少相當於\n1447公斤的 CO 2 排放量。\n圖(四十)",
+        "kind_hint": "single"
+      },
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [],
+        "parse_confidence": null,
+        "intro_line": "請閱讀下列敘述後，回答51～52題",
+        "child_qnums": [
+          51,
+          52
+        ]
+      },
+      "is_active": true,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-107-nature-051",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "已知阿勝的計算方式為燈具共 300 盞，每天皆使用 10 小時，一個月使用 30 天\n來計算，且他的計算結果無誤，則根據他計算的結果來推論，工廠裡的燈具將\n由何種白熾燈更換為哪一種較省電燈具？",
+      "options": [
+        "將 40 W 的白熾燈改為 7 W 的 LED 燈泡",
+        "將 40 W 的白熾燈改為 10 W 的省電燈泡",
+        "將 60 W 的白熾燈改為 9 W 的 LED 燈泡",
+        "將 60 W 的白熾燈改為 13W 的省電燈泡"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "parent_question_id": "cap-107-nature-passage-51",
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [],
+        "parse_confidence": 1.0,
+        "original_question_number": 51,
+        "section_label": "單題",
+        "raw_text": "51. 已知阿勝的計算方式為燈具共 300 盞，每天皆使用 10 小時，一個月使用 30 天\n    來計算，且他的計算結果無誤，則根據他計算的結果來推論，工廠裡的燈具將\n    由何種白熾燈更換為哪一種較省電燈具？\n    (A)將 40 W 的白熾燈改為 7 W 的 LED 燈泡\n    (B)將 40 W 的白熾燈改為 10 W 的省電燈泡\n    (C)將 60 W 的白熾燈改為 9 W 的 LED 燈泡\n    (D)將 60 W 的白熾燈改為 13W 的省電燈泡\n",
+        "explanation_source": "ai_v1"
+      },
+      "is_active": true,
+      "auto_gradable": true,
+      "difficulty": 3,
+      "explanation": "根據題目條件，300盞燈每天使用10小時、一個月30天，總用電時間為300×10×30=90000小時。若一個月節省2700度電，則每盞燈節省的功率差為2700÷90000=0.03千瓦=30瓦。檢驗各選項：(A)40W-7W=33W，節省電能應為33×90000÷1000=2970度，不符；(B)40W-10W=30W，節省電能為30×90000÷1000=2700度，符合題意，故(B)正確；(C)60W-9W=51W，節省電能為51×90000÷1000=4590度，過多；(D)60W-13W=47W，節省電能為47×90000÷1000=4230度，亦過多。"
+    },
+    {
+      "id": "cap-107-nature-052",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "根據阿勝的計算，更換 300 盞白熾燈後，相當於一個月約減少排放多少數量的\nCO 2 分子？( C 和 O 的原子量分別為 12 和 16 )\n1447                            1447000",
+      "options": [
+        "× 6 × 10 2 3 個 CO 2 分子",
+        "× 6 × 10 2 3個 CO 2 分子 44                                44 1447                             1447000",
+        "× 6 × 10 2 3莫耳的 CO 2 分子",
+        "× 6 × 10 2 3莫耳的 CO 2 分子 44                                 44"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "parent_question_id": "cap-107-nature-passage-51",
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [],
+        "parse_confidence": 1.0,
+        "original_question_number": 52,
+        "section_label": "單題",
+        "raw_text": "52. 根據阿勝的計算，更換 300 盞白熾燈後，相當於一個月約減少排放多少數量的\n    CO 2 分子？( C 和 O 的原子量分別為 12 和 16 )\n         1447                            1447000\n    (A)       × 6 × 10 2 3 個 CO 2 分子 (B)         × 6 × 10 2 3個 CO 2 分子\n          44                                44\n         1447                             1447000\n   (C)        × 6 × 10 2 3莫耳的 CO 2 分子 (D)         × 6 × 10 2 3莫耳的 CO 2 分子\n          44                                 44\n",
+        "explanation_source": "ai_v1"
+      },
+      "is_active": true,
+      "auto_gradable": true,
+      "difficulty": 3,
+      "explanation": "根據題意，減少排放1447公斤CO₂，需先將質量轉換為克（1447×1000=1447000克），再計算分子數。CO₂的莫耳質量為12+16×2=44 g/mol，因此莫耳數為1447000÷44，分子數為(1447000÷44)×6×10²³個，故(B)正確。(A)誤將1447公斤直接用克數計算，未乘以1000；(C)和(D)混淆了莫耳與分子的概念，莫耳是物質的量單位，不是分子個數的單位。"
+    },
+    {
+      "id": "cap-107-nature-passage-53",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "reading_passage",
+      "question_text": "請閱讀下列敘述後，回答53～54題",
+      "options": [],
+      "correct_answer": 0,
+      "correct_answer_json": null,
+      "parent_question_id": null,
+      "media": {
+        "passage_text": "人體真正感受到的溫度稱為體感溫度，而酷熱指數是其中一種綜合氣溫和溼度\n來代表體感溫度的指數。人體透過排汗來降溫，過程中水分會蒸發並從人體帶走熱\n量，當環境未能及時將人體多餘熱量帶走時，可能會使人出現中暑等症狀，故從事\n戶外活動時可參考酷熱指數，以避免中暑。表(四)為不同氣溫與溼度下的體感溫度對\n照表，而體感溫度對人體的影響又可分為四個不同酷熱指數等級。\n表(四)",
+        "kind_hint": "single"
+      },
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [],
+        "parse_confidence": null,
+        "intro_line": "請閱讀下列敘述後，回答53～54題",
+        "child_qnums": [
+          53,
+          54
+        ]
+      },
+      "is_active": true,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-107-nature-053",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "根據表(四)，下列敘述何者正確？",
+      "options": [
+        "不管外界氣溫與溼度如何變化，體感溫度都會比當時的氣溫還高",
+        "不管氣溫如何變化，當溼度為 100%，酷熱指數皆屬極度危險等級",
+        "當氣溫為 30℃ 且溼度超過 50% 時，體感溫度都會比當時的氣溫高",
+        "當氣溫為 31℃ 且溼度很高時，酷熱指數可能會達到極度危險等級"
+      ],
+      "correct_answer": 2,
+      "correct_answer_json": null,
+      "parent_question_id": "cap-107-nature-passage-53",
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [
+          "needs_image"
+        ],
+        "parse_confidence": 0.85,
+        "original_question_number": 53,
+        "section_label": "單題",
+        "raw_text": "53. 根據表(四)，下列敘述何者正確？\n    (A)不管外界氣溫與溼度如何變化，體感溫度都會比當時的氣溫還高\n    (B)不管氣溫如何變化，當溼度為 100%，酷熱指數皆屬極度危險等級\n    (C)當氣溫為 30℃ 且溼度超過 50% 時，體感溫度都會比當時的氣溫高\n    (D)當氣溫為 31℃ 且溼度很高時，酷熱指數可能會達到極度危險等級\n"
+      },
+      "is_active": false,
+      "auto_gradable": false,
+      "difficulty": 3,
+      "explanation": null
+    },
+    {
+      "id": "cap-107-nature-054",
+      "exam_id": "cap",
+      "subject_id": "sub-cap-science",
+      "paper_id": "cap-107-nature",
+      "question_type": "single_choice",
+      "question_text": "關於文中畫有雙底線處所提到的現象，下列敘述何者正確？",
+      "options": [
+        "為吸熱的變化，水分子內的原子會重新排列",
+        "為吸熱的變化，水分子內的原子不會重新排列",
+        "為放熱的變化，水分子內的原子會重新排列",
+        "為放熱的變化，水分子內的原子不會重新排列"
+      ],
+      "correct_answer": 1,
+      "correct_answer_json": null,
+      "parent_question_id": "cap-107-nature-passage-53",
+      "media": null,
+      "source": "official",
+      "source_meta": {
+        "parser_version": "cap_v0.1",
+        "merger_version": "cap_merger_v0.2",
+        "parsed_at": "2026-04-26T03:38:01+00:00",
+        "source_pdf_sha1": "a067ab8d61ca",
+        "answer_pdf_sha1": "05a67d1d6082",
+        "flags": [],
+        "parse_confidence": 1.0,
+        "original_question_number": 54,
+        "section_label": "單題",
+        "raw_text": "54. 關於文中畫有雙底線處所提到的現象，下列敘述何者正確？\n    (A)為吸熱的變化，水分子內的原子會重新排列\n    (B)為吸熱的變化，水分子內的原子不會重新排列\n    (C)為放熱的變化，水分子內的原子會重新排列\n    (D)為放熱的變化，水分子內的原子不會重新排列\n\n",
+        "explanation_source": "ai_v1"
+      },
+      "is_active": true,
+      "auto_gradable": true,
+      "difficulty": 3,
+      "explanation": "文中雙底線處指「水分蒸發並從人體帶走熱量」，此為蒸發現象。蒸發是液態水變為氣態水的物理變化，需要吸收環境熱量才能進行，故為吸熱變化；且蒸發過程中水分子只是相互分離，分子內H-O化學鍵不破裂，原子排列不改變，仍為H₂O，故(B)正確。(A)錯在蒸發是物理變化，原子不重新排列；(C)、(D)錯在蒸發為吸熱而非放熱。"
+    }
+  ],
+  "stats": {
+    "total_records": 57,
+    "passage_parents": 3,
+    "single_questions": 54,
+    "active": 18,
+    "inactive": 39,
+    "no_answer": 0
+  }
+}
