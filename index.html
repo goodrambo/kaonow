@@ -1960,7 +1960,7 @@ const cloud = (() => {
   }
 
   // ── 題庫載入（含快取，24h TTL） ─────────────────────────
-  const Q_CACHE_PREFIX = 'kaonow_q12_';  // bump 2026-04-26 W1.9.4：nature 11 paper / 233 active 上線
+  const Q_CACHE_PREFIX = 'kaonow_q13_';  // bump 2026-04-26 W1.9.5-fix：loadQuestions 加 paginate（PostgREST 1000-row cap），refreshTier 改 fetch 不卡 supa.from
   const Q_CACHE_TTL = 24 * 3600 * 1000;
   const qMemCache = {};  // 記憶體快取，避免同一 session 重複打
 
@@ -2048,14 +2048,25 @@ const cloud = (() => {
     }
 
     // 3. 從 Supabase 取（questions_published view：已過濾未審核的 AI 題）
-    const r = await request(
-      'questions_published?exam_id=eq.' + examId + '&order=id.asc&select=id,exam_id,subject_id,chapter_id,question_text,options,correct_answer,correct_answer_json,question_type,explanation,source,difficulty,image_url,auto_gradable,parent_question_id,paper_id,media,source_meta'
-    );
-    if (!r.ok || !Array.isArray(r.data)) {
-      warn('loadQuestions failed', examId, r);
-      return [];
+    //    注意：PostgREST 預設 max-rows=1000；cap exam 含 5 科共 ~1,645 published rows
+    //    必須 paginate，否則最後幾科會被截掉導致「此年度題庫暫無題目」
+    const PAGE = 1000;
+    let allRows = [];
+    for (let offset = 0; offset < 20000; offset += PAGE) {
+      const r = await request(
+        'questions_published?exam_id=eq.' + examId +
+        '&offset=' + offset + '&limit=' + PAGE +
+        '&order=id.asc&select=id,exam_id,subject_id,chapter_id,question_text,options,correct_answer,correct_answer_json,question_type,explanation,source,difficulty,image_url,auto_gradable,parent_question_id,paper_id,media,source_meta'
+      );
+      if (!r.ok || !Array.isArray(r.data)) {
+        warn('loadQuestions page failed', { examId, offset, r });
+        if (offset === 0) return [];
+        break;
+      }
+      allRows = allRows.concat(r.data);
+      if (r.data.length < PAGE) break;
     }
-    const mapped = _attachPassagesAndFilter(r.data.map(_mapDbQuestion));
+    const mapped = _attachPassagesAndFilter(allRows.map(_mapDbQuestion));
     qMemCache[examId] = mapped;
     try {
       localStorage.setItem(Q_CACHE_PREFIX + examId, JSON.stringify({
@@ -2639,16 +2650,15 @@ const billing = (() => {
       return { tier: 'free' };
     }
     try {
-      const { data: prof } = await supa.from('profiles')
-        .select('current_tier, current_subscription_id, trial_expires_at, trial_questions_used')
-        .eq('id', currentUser.id).maybeSingle();
+      // W1.9.5 fix: 改用 cloud request() 走 fetch，避免 supa.from 卡死導致 tier 永遠 'free'
+      const r1 = await request('profiles?select=current_tier,current_subscription_id,trial_expires_at,trial_questions_used&id=eq.' + currentUser.id);
+      const prof = (r1.ok && Array.isArray(r1.data) && r1.data[0]) ? r1.data[0] : null;
       const tier = prof?.current_tier || 'free';
       let unlocked_exams = [];
       let current_period_end = null;
       if (prof?.current_subscription_id) {
-        const { data: sub } = await supa.from('subscriptions')
-          .select('tier, current_period_end, meta, status')
-          .eq('id', prof.current_subscription_id).maybeSingle();
+        const r2 = await request('subscriptions?select=tier,current_period_end,meta,status&id=eq.' + prof.current_subscription_id);
+        const sub = (r2.ok && Array.isArray(r2.data) && r2.data[0]) ? r2.data[0] : null;
         if (sub && sub.status === 'active') {
           current_period_end = sub.current_period_end;
           unlocked_exams = sub.meta?.unlocked_exams || [];
