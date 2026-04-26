@@ -46,6 +46,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 1,
+        "section_label": "單題",
         "raw_text": "1.   下列文句中的連詞，何者使用最恰當？\n     (A)即使生活變得富裕，也不應該浪費\n     (B)除非是很小的錯誤，也可能釀成大害\n     (C)只有從根本解決，就能為人民改善生活\n     (D)與其老師怎樣費心勸說，他還是我行我素\n",
         "explanation_source": "ai_v1"
       },
@@ -81,6 +82,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 2,
+        "section_label": "單題",
         "raw_text": "2. 「人生是短暫的，死亡是自然的，認清了這點，活著的時候才可以真正的投入。」\n   這句話的涵義，與下列何者最接近？\n   (A)經歷死亡幽谷，才能發現活著的可貴\n   (B)能將死亡置之度外的人往往雖死猶生\n   (C)生命的價值在於不斷挑戰自我，安於現狀等於死亡\n   (D)了解生命的限制，坦然面對死亡，就能盡情地活著\n",
         "explanation_source": "ai_v1"
       },
@@ -116,6 +118,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 3,
+        "section_label": "單題",
         "raw_text": "3.   這是某相機使用說明書的一部分：\n     對於以下主體，可能無法成功自動對焦：\n      與背景色彩相近的主體\n      自動對焦點同時覆蓋遠近主體\n      重複的圖案\n     根據以上說明，這臺相機在相同的設定下，下列哪一個景物最容易自動對焦？\n     (A)雪地上的雪人 (B)欄杆後的盆栽 (C)沙漠中的綠色 (D)花色相同的馬\n                            仙人掌       賽克磁磚\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -151,6 +154,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 4,
+        "section_label": "單題",
         "raw_text": "4.   下列選項「」中的字，何組讀音相同？\n     (A)「恪」守本分／獨創一「格」\n     (B)「抵」死不從／蒞臨府「邸」\n     (C)字「斟」句酌／「勘」正訛誤\n     (D)鍾靈「毓」秀／才「疏」學淺\n",
         "explanation_source": "ai_v1"
       },
@@ -186,6 +190,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 5,
+        "section_label": "單題",
         "raw_text": "5. 「山田汽車成立於西元1916年。高橋汽車在山田汽車成立100週年時發表一段\n   賀詞：『感謝100年來的競爭，沒有你的那30年有點孤獨。』」根據這段文\n   字，高橋汽車最可能成立於西元哪一年？\n   (A)1816 (B)1846 (C)1886 (D)1946\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -221,6 +226,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 6,
+        "section_label": "單題",
         "raw_text": "6.\n                      ਼ࣶ    Ӫ໩\n       ୉਼࣐ࣶȂуϑញሴ࣐ᅗཏ        યӶೞߴៗ‫ޠ‬ๆጣȂу㊆ᅉ\n       ӶР༬ԥ४‫ࣶޠ‬၈Ȃу᐀ԥ        ኅᚂณᜟ‫ޠ‬ЉӵȂᢛႷॴኹ\n       Սϐ‫ޠ‬ስ஀Ȃ᐀ԥ໩ӏȃЬ        ႫႬϟֶᝌȄՅᄈܼೞᄪ‫׸‬\n       пІޫ੊Ȅйၷ፞ӤᏕ۸ၽ        ႈӵ‫߇ޠ‬૪ᐚФࠍ༣ϟпቆ\n       ࣐ณិܼЙѵ‫ߧॴޠ‬уᡆൊ        ၷ፞ಘߺȂуᄀ‫ࣶڦ‬Ϝߞᆧ\n\n     這首詩中「盆栽」對生活的態度，與下列何者最接近？\n     (A)安守現實，自得其樂 (B)享受挑戰，追求卓越\n     (C)突破藩籬，渴望自由 (D)寧為玉碎，不為瓦全\n",
         "explanation_source": "ai_v1"
       },
@@ -256,6 +262,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 7,
+        "section_label": "單題",
         "raw_text": "7.   愛爾蘭文學家喬哀思流亡海外多年，其創作大多根植於早年在愛爾蘭 都柏林\n     的生活。他曾說：「有一天，都柏林這座城市毀了，人們也可以憑藉我的小\n     說，一磚一瓦的將之重建。」透過這句話可看出小說具有什麼作用？\n     (A)記錄地方文史風物  (B)勾勒未來生活圖象\n     (C)重振戰後失落的人心 (D)展現社區營造的力量\n",
         "explanation_source": "ai_v1"
       },
@@ -291,6 +298,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 8,
+        "section_label": "單題",
         "raw_text": "8.   「昔人未見麟，問嘗見者：『麟何類乎？』見者曰：『麟如麟也。』問者曰：\n     『若吾嘗見麟，則不問子矣。而云麟如麟，寧可解哉？』見者曰：『麟者，麇1\n     身牛尾，鹿蹄馬背。』問者豁然而解。」根據這則故事，下列敘述何者最恰當？\n     (A)問者蓄意為難，明知故問\n                         \n     (B)見者實未曾見麟，信口開河     1.麇：音ㄐㄩㄣ，形體似鹿之獸\n     (C)問者終不得其解，寧可自尋答案\n     (D)見者最後以具體事物為喻，輔助說明\n",
         "explanation_source": "ai_v1"
       },
@@ -326,6 +334,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 9,
+        "section_label": "單題",
         "raw_text": "9.   「落帆逗淮鎮，停舫臨孤驛。浩浩風起波，冥冥日沉夕。人歸山郭暗，雁下蘆洲\n     白。獨夜憶秦關，聽鐘未眠客。」關於這首詩的分析，下列敘述何者最恰當？\n     (A)首兩句寫出與友餞別的地點與時間\n     (B)以「風起」、「日沉」自喻懷才不遇\n     (C)以「雁下蘆洲白」表示太陽將升起\n     (D)末兩句點出客因心有所思而不成眠\n",
         "explanation_source": "ai_v1"
       },
@@ -361,6 +370,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 10,
+        "section_label": "單題",
         "raw_text": "10. 「獨創不代表完全嶄新，更非與傳統和過去截然無關。相反地，所有藝術的\n    起點都來自於模仿與學習。什麼才是獨創？我們一生下來，世界就開始影響\n    我們，而這種影響一直持續，直到我們過完此生。除了精力、氣力和意志以\n    外，還有什麼是屬於我們自己的呢？」這段話的觀點與下列何者最接近？\n    (A)精力、氣力和意志有助於獨創\n    (B)獨創並不意味與傳統全然無關\n    (C)每件藝術品都必須以獨創為起點\n    (D)擺脫世界對我們的影響才能獨創\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -396,6 +406,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 11,
+        "section_label": "單題",
         "raw_text": "11. 下列文句「」中的稱謂，何者使用最恰當？\n    (A)謝謝您的蒞臨，「貴校」蓬蓽生輝\n    (B)「小女」的于歸之宴，請您務必賞光\n    (C)「家弟」近期要搬家，忙得不可開交\n    (D)為了準備求職面試，「舍姐」緊張不已\n",
         "explanation_source": "ai_v1"
       },
@@ -431,6 +442,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 12,
+        "section_label": "單題",
         "raw_text": "12. 「樹型直挺高壯的，無一不被畫上記號，陸續走向腰斬的命運。唯獨畸形虛\n    弱的劣木，有的彎曲不直，有的枝枒過多，有的菌蟲蛀洞，有的矮小窄細，\n    幸運地逃過一劫，殘喘至今，成了旅客心中敬畏的神木。」這段文字所要表\n    達的意旨，與下列何者最接近？\n    (A)前事不忘，後事之師\n    (B)無用之用，是為大用\n    (C)一沙一世界，一花一天堂\n    (D)出淤泥而不染，濯清漣而不妖\n",
         "explanation_source": "ai_v1"
       },
@@ -468,6 +480,7 @@
         ],
         "parse_confidence": 0.75,
         "original_question_number": 13,
+        "section_label": "單題",
         "raw_text": "13.         小楓在古玩店看到一枚仿古錢幣，仔細一看，發現這是將\n        ϥ\n       ү    「唯」、「吾」、「知」、「足」四字字體共用「口」形，\n            所合成的一個圖象。下列圖象何者也是用類似的方式合成？\n\n      (A)     (B)       (C)      (D)\n                                        ሻ\n                                       ‫ ڎ‬Κ\n                                        ማ"
       },
       "is_active": false,
@@ -502,6 +515,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 14,
+        "section_label": "單題",
         "raw_text": "14. 「許多科技大廠致力發展AI產業，但在支援中文化系統卻遇到困難。原因是\n    中文的同音異字令語音辨識難度增加，而中文常與外語混用，以及次文化用\n    語等都成為系統干擾。」根據這段文字，下列文句語音辨識錯誤的原因，何\n    者未被提及？\n    (A)他是個勢利眼 → 他是個視力眼\n    (B)他在床上睡著了 → 他在船上睡著了\n    (C)班導要求按時交作業 → 扳倒要求按時交作業\n    (D)Facebook的用戶眾多 → 非死不可的用戶眾多\n",
         "explanation_source": "ai_v1"
       },
@@ -537,6 +551,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 15,
+        "section_label": "單題",
         "raw_text": "15. 下列文句「」中的詞語，何者使用最恰當？\n    (A)既然每個人選都很優秀，不如「兩害相權取其輕」\n    (B)窮困之際竟幸運中了頭獎，真是有如「雨後春筍」\n    (C)他把這些事混為一談，其實根本是「風馬牛不相及」\n    (D)比賽中就算占上風也要保持謹慎，以免「轉悲為喜」\n\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -572,6 +587,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 16,
+        "section_label": "單題",
         "raw_text": "16.\n                   ୯ύλཥՐ҇ηζᆶߚཥՐ҇ηζΓኧ಍ीკ\n      )Γ*\n      3,000,0000                                    ୯λཥ\n                                                    ୯λཥՐ҇ηζ\n                                                    ୯ύཥՐ҇ηζ\n                                                    ୯ύཥ\n      2,500,0000                                    ߚཥՐ҇ηζ\n                                                    ߚཥՐ\n\n      2,000,0000\n\n      1,500,0000\n\n      1,000,0000\n\n       500,0000\n\n                   93Ꮲԃ   96Ꮲ\n                          96Ꮲԃ\n                            Ꮲԃ   99Ꮲ\n                                 99Ꮲԃ 102Ꮲ\n                                   Ꮲԃ 102Ꮲԃ 105Ꮲ\n                                         Ꮲԃ 105Ꮲԃ\n                                               Ꮲԃ\n\n      根據這張圖表，下列敘述何者錯誤？\n      (A)國中小學生總人數漸趨下降\n      (B)國小新住民子女人數漸趨上升\n      (C)國中新住民子女所占比例漸趨上升\n      (D)國中小非新住民子女所占比例漸趨下降\n",
         "explanation_source": "ai_v1"
       },
@@ -607,6 +623,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 17,
+        "section_label": "單題",
         "raw_text": "17. 「洛陽之俗，大抵好牡丹，春時城中無分貴賤皆插花，雖負擔者亦然。花開\n    時，士庶競為遊遨，至花落乃罷。洛陽至東京六驛，舊不進花，自今歲遣衙\n    校一員，乘驛馬，一日一夕至京師。所進不過姚黃魏紫三數朵。以菜葉實竹\n    籠子，藉1 覆之使馬上不動搖，以蠟封蒂，乃數日不落。」根據這段文字，下\n    列關於牡丹的敘述何者最恰當？\n    (A)姚黃魏紫指的皆是牡丹                 \n    (B)洛陽權貴才有資格買牡丹                1.藉：鋪墊\n    (C)牡丹運送前須以蠟整株封存\n    (D)牡丹運送時以菜葉提供其養分\n",
         "explanation_source": "ai_v1"
       },
@@ -642,6 +659,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 18,
+        "section_label": "單題",
         "raw_text": "18. 「臺灣海峽黑水溝的形成是受地形影響，使水流加速，最快可達每秒四公尺。\n    當湍急的水流帶走水中的沉積與雜屑，海水少了許多反射陽光的雜質，使光\n    線能貫穿深處，所呈現的色澤就如墨黑般的深藍。」根據這段文字，下列敘\n    述何者最恰當？\n    (A)海水的雜質含量與水流速度無關\n    (B)海水的流速變慢，顏色就會變深\n    (C)黑水溝的流速至少為每秒四公尺\n    (D)黑水溝的水較清澈，透光性較佳\n",
         "explanation_source": "ai_v1"
       },
@@ -677,6 +695,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 19,
+        "section_label": "單題",
         "raw_text": "19. 「         。所以，我們寧願放掉功課而選擇看漫畫、滑手機，因後者\n    帶來的快樂往往是立即的。此外，開心時大腦會分泌多巴胺，讓人容易重複\n    相同的行為，難怪我們會不斷看漫畫、滑手機，直到考試時間逼近，才開始\n    熬夜抱佛腳。」根據文意脈絡，畫線處填入下列何者最恰當？\n    (A)距離考試越近，讀書的效果越好\n    (B)時間越晚，大腦分泌的多巴胺越多\n    (C)人類等待報酬的時間越短，動力越強\n    (D)重複相同行為的次數越多，人們越快樂\n",
         "explanation_source": "ai_v1"
       },
@@ -712,6 +731,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 20,
+        "section_label": "單題",
         "raw_text": "20. 「旅行沒有公式，更沒有所謂必看、必玩或必吃。這個世界很大，擺脫行程\n    的綑綁，我們會感受更多的驚喜。」這段文字的涵義，與下列何者最接近？\n    (A)事先規劃才算深度旅遊\n    (B)人們要有實踐壯遊的夢想\n    (C)人生就像是一趟未知的旅程\n    (D)無目的的漫遊會有意外的收穫\n",
         "explanation_source": "ai_v1"
       },
@@ -747,6 +767,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 21,
+        "section_label": "單題",
         "raw_text": "21.    下列文句，何者詞語使用最恰當？\n      (A)他為人謙和有禮，總是前倨後恭\n      (B)曾幾何時，家鄉景物已完全改變\n      (C)他一進車廂，就先入為主搶了靠窗座位\n      (D)體育課後教室變得汗牛充棟，又臭又悶\n",
         "explanation_source": "ai_v1"
       },
@@ -782,6 +803,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 22,
+        "section_label": "單題",
         "raw_text": "22. 「有些人才，只是放錯了位置，就成了庸才。」這句話的涵義，與下列何者\n    最接近？\n    (A)天才與瘋子往往只有一線之隔\n    (B)平凡人透過努力也能變得傑出\n    (C)人須自知自愛，方能獲得尊重\n    (D)天地無棄物，用人當取其所長\n",
         "explanation_source": "ai_v1"
       },
@@ -817,6 +839,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 23,
+        "section_label": "單題",
         "raw_text": "23. 下列詞語「」中的注音寫成國字後，何者兩兩相同？\n    (A)無「ㄨㄤˋ」之災／自大狂「ㄨㄤˋ」\n    (B)信筆「ㄊㄨˊ」鴉／如火如「ㄊㄨˊ」\n    (C)勞而無「ㄍㄨㄥ」／分「ㄍㄨㄥ」合作\n    (D)遺珠之「ㄏㄢˋ」／震「ㄏㄢˋ」人心\n",
         "explanation_source": "ai_v1"
       },
@@ -852,6 +875,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 24,
+        "section_label": "單題",
         "raw_text": "24. 「讀書若是□□□□，便把活潑的讀書心性束縛了。窮研細究，把通篇文章分\n    析得支離破碎，結果往往化甘旨為嚼蠟，脫離了意境，『甚解』卻變成撿了\n    芝麻丟西瓜，因小失大。」根據文意脈絡，空格處填入下列何者最恰當？\n    (A)茫然不解   (B)一知半解  (C)不求甚解  (D)逐字求解\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -887,6 +911,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 25,
+        "section_label": "單題",
         "raw_text": "25.   辛棄疾〈西江月〉江行采石岸，戲作漁夫詞\n        千丈懸崖削翠，一川落日鎔金。白鷗來往本無心。選甚風波一任。   別浦\n      魚肥堪膾，前村酒美重斟。千年往事已沉沉。閒管興亡則甚。\n      關於這闋詞的分析，下列敘述何者最恰當？\n      (A)題目為〈西江月〉，後附小序\n      (B)上、下片的首二句皆為對仗句\n      (C)上片先情後景，下片先景後情\n      (D)結尾寫出以天下為己任的抱負\n",
         "explanation_source": "ai_v1"
       },
@@ -922,6 +947,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 26,
+        "section_label": "單題",
         "raw_text": "26.     彭玉麟任江南巡按時，有人告訴他武昌知府靠逢迎拍馬才能升官。彭公\n      聽了大怒，召知府來斥責，武昌知府恭謹地說：「卑職奉承的對象，都是喜\n      歡被奉承的人，像大人您這樣公正嚴明，卑職再會奉承也沒有用啊！」彭公\n      聽了得意地笑說：「我就知道你拍不了我的馬屁。」\n      根據這則故事，關於彭公和武昌知府的敘述何者最不恰當？\n      (A)彭公自認不喜歡被人奉承\n      (B)彭公被拍了馬屁還不自知\n      (C)武昌知府不會對公正之人逢迎\n      (D)武昌知府逢迎拍馬的能力極佳\n",
         "explanation_source": "ai_v1"
       },
@@ -957,6 +983,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 27,
+        "section_label": "單題",
         "raw_text": "27. 王國維評姜白石詞：「古今詞人格調之高，無如白石。惜不於意境上用力，\n    故覺無言外之味、弦外之響。終不能與於第一流之作者也。」下列何者最符\n    合這段文字的觀點？\n    (A)白石非第一流之作者\n    (B)白石之詞善於經營意境\n    (C)有弦外之響者必是第一流詞作\n    (D)詞有言外之意方顯作者格調之高\n",
         "explanation_source": "ai_v1"
       },
@@ -992,6 +1019,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 28,
+        "section_label": "單題",
         "raw_text": "28.    「淳于恭，字孟孫，北海人。人有盜刈 1恭禾者，恭見之，念其愧，因伏草\n      中，至去乃起。」根據這則故事，下列敘述何者最恰當？\n      (A)當時五穀歉收，盜賊四處搶糧\n      (B)淳于恭個性溫厚寬容，能體恤他人        \n      (C)北海地區盜賊兇悍，人民不敢與之對抗      1.刈：音ㄧˋ，割取\n      (D)淳于恭伏於草中，乃因心中有愧，不欲見人\n\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1027,6 +1055,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 29,
+        "section_label": "單題",
         "raw_text": "29. 「夫山之異於眾者，尚能待人而自見，而況人之異於眾者哉！天於詭奇之地不\n    多設，人於登臨之樂不常遇。有其地而非其人，有其人而非其地，皆不足以\n    盡夫遊觀之樂也。今靈巖為名山，諸公為名士，蓋必相須而適相值，夫豈偶\n    然哉！宜其目領而心解，景會而理得也。」下列敘述何者與這段文字中的觀\n    點最接近？\n    (A)若能保持心靈的澄淨，所到之處都會是美景\n    (B)徜徉於大自然中，可洗滌世俗的汙濁與煩憂\n    (C)只要有名士登臨，無論怎樣的山水都可成為名勝\n    (D)要盡遊觀之樂，須有特別的景致與懂得欣賞的人\n",
         "explanation_source": "ai_v1"
       },
@@ -1062,6 +1091,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 30,
+        "section_label": "單題",
         "raw_text": "30.\n        胡旦晚年病目，閉門閒居。一日，史館共議作一貴侯傳，其人少賤，嘗\n      屠豕豬。史官以為諱之即非實錄，書之即難為辭。相與見旦，旦曰：「何不曰\n      『某少嘗操刀以割』，示有宰天下之志。」莫不嘆服。\n      根據這則故事，下列關於胡旦的敘述何者最恰當？\n      (A)年少時曾操刀殺豬\n      (B)史官共議為其立傳\n      (C)史官因不知如何記實而登門求教\n      (D)眾人因其有宰割天下之志而嘆服\n",
         "explanation_source": "ai_v1"
       },
@@ -1097,6 +1127,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 31,
+        "section_label": "單題",
         "raw_text": "31. 「有覆於上者如天，載於下者如地，而百姓不之知。有恩信及一物，教化及\n    一夫，民則歸之。其猶豐年與旱歲也：豐年之民，不知甘雨柔風之力，不知\n    生育長養之仁，而曰：『我耕作以時，倉廩以實』。旱歲之民，則野枯苗\n    縮，然後決川以灌之。然則一川之仁豈深於四時也哉？」下列何者最能與這\n    段文字的意旨相呼應？\n    (A)對感情的得失順其自然，不執著強求\n    (B)平日砥礪心志，災禍發生時才能處變不驚\n    (C)購買生產過剩的農產品，幫助農民度過難關\n    (D)對外人的一時之助充滿感謝，卻忽略父母深恩\n",
         "explanation_source": "ai_v1"
       },
@@ -1132,6 +1163,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 32,
+        "section_label": "單題",
         "raw_text": "32.    「必備匙箸兩副，食前多品。擇取欲食者，以別箸取之，置一器中，食之必\n      盡。飯前以別匙分而另置，始膳。吳后嘗問其故，曰：『不欲以殘食與宮人食\n      也。』」這段文字記載宋高宗的用膳習慣，據此可看出他具備什麼樣的特質？\n      (A)用餐講究排場\n      (B)飲食注重養生\n      (C)對妻言聽計從\n      (D)待下體貼細心\n\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1202,6 +1234,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 33,
+        "section_label": "題組",
         "raw_text": "33. 根據本文，下列何者最可能是以前英國勞動階級的喝茶方式？\n         ૡ‫ڀ‬     ᐚ఩    ૡᅿ   ࢂցуᑗ\n   (A)   ౠᏔ      ఩   ߓᙓ‫ۅ‬     ࢂ\n   (B)   ౠᏔ     ᐚ    դᕄૡ    ࢂ\n   (C)   ଭլ݆    ఩    ߓᙓ‫ۅ‬    ց\n   (D)   ଭլ݆    ᐚ    ߓᙓ‫ۅ‬    ࢂ\n",
         "explanation_source": "ai_v1"
       },
@@ -1237,6 +1270,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 34,
+        "section_label": "題組",
         "raw_text": "34. 根據本文，可以推知下列何者？\n    (A)美國人喝茶習慣不加糖\n    (B)美國人使用的茶具較為高級\n    (C)英國人喝紅茶大多會加牛奶\n    (D)英國的高級茶具不能直接注入熱茶\n\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1307,6 +1341,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 35,
+        "section_label": "題組",
         "raw_text": "35.   根據本文，下列「」中詞語所指的內容何者最不恰當？\n      (A)其他「質數」的孤獨：個人\n      (B)在「數列」裡：眾人\n      (C)孤絕丁零的「餘數」：作品\n      (D)不會離開自我的「一」：寫作\n",
         "explanation_source": "ai_v1"
       },
@@ -1342,6 +1377,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 36,
+        "section_label": "題組",
         "raw_text": "36.   根據本文，下列何者最符合作者的觀點？\n      (A)孤獨是一種救贖\n      (B)藉由寫作可以肯定自我\n      (C)閱讀使人感到更加孤獨\n      (D)不受他人干擾才能專心創作\n\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1412,6 +1448,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 37,
+        "section_label": "題組",
         "raw_text": "37. 根據本文，下列關於「饑荒」的敘述，何者最恰當？\n    (A)按IPC標準，「緊急」的情況比「饑荒」的情況嚴重\n    (B)在國際社會中，「饑荒」一詞受到重視而且具影響力\n    (C)「饑荒」這個詞會影響國家的形象，故不能隨意使用\n    (D)南蘇丹於2017年發布「饑荒」，被視為「放羊的孩子」\n",
         "explanation_source": "ai_v1"
       },
@@ -1447,6 +1484,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 38,
+        "section_label": "題組",
         "raw_text": "38. 某一總家戶數2萬、總人口數10萬的地區發生糧食短缺，根據「糧食安全階段\n    綜合分類」的標準，該區在下列何種狀態時達到「饑荒」的標準？\n\n       १‫ࡋཱུނ‬อલЪคΚ   ࡚‫܄‬ᔼᎦό‫ޑؼ‬Γα   ‫؂‬ϺӢᔼᎦό‫ؼ‬Զԝ\n       ӆኖΠѐ‫ޑ‬ৎЊኧ    К‫ٯ‬          Ϋ‫ޑ‬Γኧ\n   (A)    5000Њ       35%          25Γ\n   (B)    4500Њ       35%          15Γ\n   (C)    3500Њ       40%           20Γ\n   (D)    3000Њ       40%           10Γ\n\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1518,6 +1556,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 39,
+        "section_label": "題組",
         "raw_text": "39.   根據本文最後一段的文意脈絡，空格處依序應填入下列何者最恰當？\n      (A)狂奔／傾／爆\n      (B)散步／堆／綻\n      (C)輕掠／鋪／澆\n      (D)灌溉／搖／開\n",
         "explanation_source": "ai_v1"
       },
@@ -1553,6 +1592,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 40,
+        "section_label": "題組",
         "raw_text": "40. 根據本文，下列敘述何者最恰當？\n    (A)颱風來臨前，山川草木變得模糊不清\n    (B)颱風之夜雷電交加，讓動物驚慌亂竄\n    (C)藉由聽到的聲音可以想像颱風的威力\n    (D)岸邊的風球升起就表示颱風已經遠離\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1588,6 +1628,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 41,
+        "section_label": "題組",
         "raw_text": "41. 關於本文的寫作手法，下列敘述何者最恰當？\n    (A)用颱風的狂暴象徵作者內心的憤怒\n    (B)以細筆表現颱風將至到離去的種種景象\n    (C)模仿孩童的語氣來描寫心中對颱風的恐懼\n    (D)藉由誇飾的筆法描述颱風肆虐後造成的災害\n",
         "explanation_source": "ai_v1"
       },
@@ -1658,6 +1699,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 42,
+        "section_label": "題組",
         "raw_text": "42. 根據本文，黃蓉提議的優點不包含下列何者？\n    (A)減少比賽的場次\n    (B)顧及比賽的公平性\n    (C)毋須等待，可立刻開戰\n    (D)不必直接對戰，不傷和氣\n",
         "explanation_source": "ai_v1"
       },
@@ -1693,6 +1735,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 43,
+        "section_label": "題組",
         "raw_text": "43. 根據黃蓉所提的賽制，假設比武結果最後是黃藥師天下第一，下列哪件事一\n    定會發生？\n    (A)郭靖打贏洪七公\n    (B)黃藥師打贏郭靖\n    (C)洪七公打贏黃藥師\n    (D)黃藥師打贏洪七公\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1763,6 +1806,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 44,
+        "section_label": "題組",
         "raw_text": "44. 根據本文，下列敘述何者最恰當？            \n    (A)張又新將天下的水按水質分成二十種        1.渟浸：水停止不動\n    (B)歐陽脩按水源的遠近和高低評定水質\n    (C)在《煎茶水記》中，張又新反駁劉伯芻看法\n    (D)依《茶經》論水的標準，揚子江優於虎丘井\n",
         "explanation_source": "ai_v1"
       },
@@ -1798,6 +1842,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 45,
+        "section_label": "題組",
         "raw_text": "45. 關於本文的寫作手法，下列敘述何者最恰當？\n    (A)首段提出各家之說，末段表明作者的觀點\n    (B)首段評比水質高下，末段以各家之說佐證\n    (C)首段引述《茶經》的說法，末段舉各家之說駁斥\n    (D)首段分論不同水源的特性，末段以取水標準總結\n\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1870,6 +1915,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 46,
+        "section_label": "題組",
         "raw_text": "46.    下列文句「」中字的意義說明，何者最恰當？\n      (A)駭眾取「名」――姓名\n      (B)嗜學「尤」力――尚且\n      (C)「悉」出家書予之――明白\n      (D)使「如」京師――前往\n",
         "explanation_source": "ai_v1"
       },
@@ -1905,6 +1951,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 47,
+        "section_label": "題組",
         "raw_text": "47.    關於甲、乙兩文的內容，下列說明何者最不恰當？\n      (A)甲文比較柳開、張景才華的高下\n      (B)乙文敘述張景投靠柳開後的際遇\n      (C)兩文皆凸顯柳開自大的形象\n      (D)兩文皆肯定張景不凡的文才\n",
         "explanation_source": "ai_v1"
       },
@@ -1940,6 +1987,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 48,
+        "section_label": "題組",
         "raw_text": "48.    根據丙表所列舉的年分，對照甲、乙兩文內容，下列推論何者最合理？\n      (A)柳開中舉前已受張景愛戴\n      (B)宋祁跟柳開兩人頗有交情\n      (C)甲文的寫作時間早於乙文\n      (D)乙文所述內容較甲文可信\n\n\n\n\n                     14             試題結束\n",
         "explanation_source": "ai_v1"
       },

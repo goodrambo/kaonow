@@ -46,6 +46,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 1,
+        "section_label": "單題",
         "raw_text": "1. 「世間有思想的人應當先想到事情的終局，隨後著手去做。」這句話的涵義，\n   與下列何者最接近？\n   (A)該歇腳時，就不要趕路\n   (B)先看好路，然後邁出腳步\n   (C)只要邁步，自能達到千里遠\n   (D)要大步前進，就得甩掉包袱\n\n",
         "explanation_source": "ai_v1"
       },
@@ -81,6 +82,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 2,
+        "section_label": "單題",
         "raw_text": "2.   「寫詩就像在幫□□造字，把每個當下拉住，所以回看舊作我感到不後悔，很慶幸\n     把年輕的心情都留下來！」根據文意，句中□□處填入下列何者最恰當？\n     (A)文學 (B)世界 (C)知音 (D)時間\n\n",
         "explanation_source": "ai_v1"
       },
@@ -116,6 +118,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 3,
+        "section_label": "單題",
         "raw_text": "3.   下列文句「」中的語詞，何者使用最恰當？\n     (A)這家餐廳以「無線」暢飲、「無限」上網來吸引顧客\n     (B)「身首」矯捷的他，如今竟然因車禍而「身手」異處\n     (C)放下「報仇」的想法，就是給予靈魂最大的「報酬」\n     (D)「權利」再大的人，也不能隨意侵犯他人的「權力」\n\n",
         "explanation_source": "ai_v1"
       },
@@ -151,6 +154,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 4,
+        "section_label": "單題",
         "raw_text": "4.   莎士比亞曾以三流喜劇演員為業，當時觀眾可把石子丟在他身上取樂。他曾寫道：\n     「唉！這竟是真的，我曾經走遍各地，讓自己在世人面前穿上彩衣，割裂自己\n     的思想，廉價出賣最貴重的東西。」文中「最貴重的東西」最可能是下列何者？\n     (A)才華 (B)見聞 (C)尊嚴 (D)歡笑\n\n",
         "explanation_source": "ai_v1"
       },
@@ -186,6 +190,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 5,
+        "section_label": "單題",
         "raw_text": "5.    下列文句，何者旨在強調學習的樂趣？\n     (A)學而時習之，不亦說乎\n     (B)凡事不宜刻，若讀書則不可不刻\n     (C)不自限其昏與庸而力學不倦，自立者也\n     (D)吾材之庸，不逮人也。旦旦而學之，久而不怠焉\n\n",
         "explanation_source": "ai_v1"
       },
@@ -221,6 +226,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 6,
+        "section_label": "單題",
         "raw_text": "6.   「一般十月懷胎，吃盡辛苦，不論男女，總是骨血，何忍淹棄。為父者你自想，\n     若不收女，你妻從何而來？為母者你自想，若不收女，你身從何而活？且生男\n     未必孝順，生女未必忤逆。」這段文字主要是說明下列何者？\n     (A)父母養育子女的辛勞\n     (B)婦女懷胎十月的辛苦\n     (C)重男輕女乃不智之舉\n     (D)養兒防老乃過時觀念\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -256,6 +262,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 7,
+        "section_label": "單題",
         "raw_text": "7. 「獅頭山、貢丸湯雖然不能盡如我意，但意外造訪的城隍廟，熱鬧非凡，街邊隨興吃\n   的豬血糕，分量大、糯米香，反倒有了意外驚喜。人生就是這樣吧，無心插柳的事多\n   了，正好提供期待之外的另一番樂趣。」作者在這段文字中透露了哪一種觀點？\n   (A)美好的事物總是需要等待       (B)機會只留給做好準備的人\n   (C)凡事無須強求，順其自然就好     (D)豈能盡如人意，但求無愧我心\n\n",
         "explanation_source": "ai_v1"
       },
@@ -291,6 +298,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 8,
+        "section_label": "單題",
         "raw_text": "8.   下列文句，何者用字最為精簡？\n     (A)人生的際遇好比像似潮水般起起落落\n     (B)此起彼落的鳥鳴彷彿一場露天音樂會\n     (C)天空的顏色似乎像是一幅未乾的水墨畫\n     (D)串串葡萄煥發著彷若水晶一般似的光澤\n",
         "explanation_source": "ai_v1"
       },
@@ -326,6 +334,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 9,
+        "section_label": "單題",
         "raw_text": "9.   根據下列文字的結構說明，判斷何者是指事字？\n     (A)肉            (B)山\n\n\n\n\n     (C)牛             (D)末\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -364,6 +373,7 @@
         ],
         "parse_confidence": 0.4,
         "original_question_number": 10,
+        "section_label": "單題",
         "raw_text": "10. 「秦 漢之間，正體的篆字太過繁複，實際從事書寫的書吏為了記錄的快速，破圓\n     為方，把曲線的筆畫斷開，建立漢字隸書橫平豎直的方形結構。」根據這段文\n     字，下列表格內的敘述何者正確？\n\n\n\n"
       },
       "is_active": false,
@@ -398,6 +408,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 11,
+        "section_label": "單題",
         "raw_text": "11. 「我最佩服的，便是那些喜歡開會、善於開會的人。他們在會場上總是意氣風發，\n     滔滔雄辯，甚至獨攬話題，一再舉手發言，有時更單挑主席纏鬥不休，陷議事\n     於瓶頸，置眾人於不顧，像唱針在溝紋裡不斷反覆，轉不過去。」關於這段文\n     字的分析，下列敘述何者最恰當？\n     (A)行文用語帶有嘲諷的風格\n     (B)運用對比技巧凸顯作者的觀點\n     (C)作者對在會議中滔滔雄辯的人給予肯定\n     (D)作者無法忍受口吃卻老在會議中發言的人\n\n",
         "explanation_source": "ai_v1"
       },
@@ -433,6 +444,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 12,
+        "section_label": "單題",
         "raw_text": "12. 「能讓全世界都叫得出名字的法國歌手，大概只有香頌天后伊迪絲•琵雅芙。\n    她出身於社會底層，十五歲即在街頭賣唱維生。因此，她的歌總能真實表達社\n    會底層百姓的心聲，引起多數人的共鳴。現在一提到香頌音樂就想到法國，這\n    都歸功於琵雅芙。她的歌已超越音樂本身的影響力，其歌詞優美，反映時代背\n    景，成為重要的音樂文化指標，不但風靡歐 美，也啟發許多後輩歌手。」這段\n    文字主要是在強調琵雅芙的哪一項貢獻？\n    (A)擴大香頌音樂的影響力\n    (B)帶動街頭藝術的表演風氣\n    (C)關懷弱勢，為底層百姓爭取福利\n    (D)投身香頌音樂教育，培養後輩歌手\n\n",
         "explanation_source": "ai_v1"
       },
@@ -468,6 +480,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 13,
+        "section_label": "單題",
         "raw_text": "13. 曾國藩自述：「早歲有志著述，自馳驅戎馬，此念久廢，然亦不敢遂置詩書於不問\n    也。每日稍閑，則取班、馬、韓、歐 1 諸家文，舊日所酷好者，一溫習之，用此以養\n    吾心而凝吾神。」根據這段話，下列關於曾國藩的說明何者最恰當？\n    (A)認為養心凝神之道，就是與舊友切磋溫習詩文\n    (B)每日仿效班、馬、韓、歐等名家的文章來寫作 \n                              1.班、馬、韓、歐：指班固、\n    (C)在戎馬之際仍堅持創作，終於成就不朽的著作\n                               司馬遷、韓愈、歐陽脩\n    (D)即便工作繁忙，依舊趁暇閱覽詩書，修養心性\n\n",
         "explanation_source": "ai_v1"
       },
@@ -503,6 +516,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 14,
+        "section_label": "單題",
         "raw_text": "14. 「天才是不足恃的，聰明是不可靠的，順手揀來的偉大科學發明是不可想像的。」\n     這段文字最可能是在傳達下列何者的重要性？\n     (A)務實 (B)機會 (C)想像力 (D)創造力\n\n",
         "explanation_source": "ai_v1"
       },
@@ -538,6 +552,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 15,
+        "section_label": "單題",
         "raw_text": "15. 「 1 冷淡是秋花，更比秋花冷淡些。 2 到處芙蓉供醉賞，從他。自有幽人處士\n    誇。    \u0001 3 寂寞兩三葩，晝日無風也帶斜。 4 一片西窗殘照裡，誰家。捲卻湘\n    裙薄薄紗。」詞中畫線處，何者最能表達作者不隨流俗、終能獲得賞識的想法？\n    (A) 1\n    (B) 2\n    (C) 3\n    (D) 4\n\n",
         "explanation_source": "ai_v1"
       },
@@ -573,6 +588,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 16,
+        "section_label": "單題",
         "raw_text": "16. 「友情如一罈醇酒，愈陳愈濃郁醉人。」句中以「醇酒」比喻「友情」的恆久動人。\n     下列文句，何者也是用具體事物來比喻抽象概念？\n     (A)沿岸的楓葉以血掌印證，船頭是水雲的故鄉\n     (B)圍牆邊綻放的繁花，是造物主所設下的美麗陷阱\n     (C)孤獨是一匹衰老的獸，潛伏在我亂石磊磊的心裡\n     (D)那蓬鬆的髮，如天空的亂雲，把她襯托得更具風情\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -608,6 +624,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 17,
+        "section_label": "單題",
         "raw_text": "17.     有客語：「馬肝大毒，能殺人，故漢武帝云：『文成食馬肝而死。』」迂公\n      適聞之，發笑曰：「客誑語耳，肝故在馬腹中，馬何以不死？」客戲曰：「馬無\n      百年之壽，以有肝故也。」公大悟，家有畜馬，便刳其肝，馬立斃。公擲刀歎\n      曰：「信哉，毒也。去之尚不可活，況留肝乎？」\n\n      根據這則笑話，下列敘述何者正確？\n      (A)漢武帝因食馬肝而死\n      (B)馬肝很毒，所以馬不長壽\n      (C)迂公原本不相信客人所說的話\n      (D)從迂公殺馬的結果可知客人所言不虛\n",
         "explanation_source": "ai_v1"
       },
@@ -643,6 +660,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 18,
+        "section_label": "單題",
         "raw_text": "18. 「豔冶之貌，代有之矣；潔朗之操，則人鮮聞。故士矜才則德薄，女衒 1 色則情私。若\n     能如執盈，如臨深，則皆為端士淑女矣。」這段文字的觀點，與下列何者最接近？\n     (A)端士淑女應才色兼備\n                                 \n     (B)人宜謹飭德操，莫炫耀才色             1.衒：炫示、誇耀\n     (C)美貌女子與高潔端士均屬少見\n     (D)端士不近美色，淑女不矜才德\n",
         "explanation_source": "ai_v1"
       },
@@ -678,6 +696,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 19,
+        "section_label": "單題",
         "raw_text": "19. 「在國內的醫療系統，所謂的安寧照護還是偏重於生理層面□如何讓一個人在生病與\n     往生過程中不要受到太多生理折磨。然而，一個即將往生□面臨生命最後一段歲月的\n     人，他們的心理狀態是如何？我們如何從身心靈成長的角度幫助這樣的人？這種心理\n     層面上的考慮更是必要。」這段文字□中的標點符號，依序填入下列何者最恰當？\n     (A) …… ，\n     (B) ―― 、\n     (C) ； ――\n     (D) 。  ：\n",
         "explanation_source": "ai_v1"
       },
@@ -713,6 +732,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 20,
+        "section_label": "單題",
         "raw_text": "20.   下列文句，何者用字完全正確？\n      (A)這款保養品的效果極佳，才剛上市，名聲便不逕而走\n      (B)實驗已接近完成，卻因一時疏忽而功虧一簣，令人惋惜\n      (C)廢寢忘食地苦練後，他的演出果然不同反響，贏得滿堂喝采\n      (D)昏睡中的乘客面對電車突如奇來的警鈴聲，一時間有些不知所措\n",
         "explanation_source": "ai_v1"
       },
@@ -748,6 +768,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 21,
+        "section_label": "單題",
         "raw_text": "21. 「文學雖然具有普遍性，但因讀者體驗的不同而有變化，讀者倘若沒有類似的\n     體驗，它也就失去了效力。」根據這句話，作者認為文學的普遍性要有效力，\n     前提最可能是下列何者？\n     (A)讀者的體驗各自不同\n     (B)讀者的分布普及各階層\n     (C)讀者有類似於作品的經驗\n     (D)讀者與作者有相同的喜好\n\n",
         "explanation_source": "ai_v1"
       },
@@ -786,6 +807,7 @@
         ],
         "parse_confidence": 0.4,
         "original_question_number": 22,
+        "section_label": "單題",
         "raw_text": "22. 周老師在黑板上寫道：「天下沒有一個人從不羨慕別人，只有少數人從沒被別人羨\n    慕過。」她請學生以圖表來表示這句話，下列哪一張圖表最恰當？\n    (A)               (B)\n\n\n\n\n      (C)                  (D)\n\n\n\n"
       },
       "is_active": false,
@@ -820,6 +842,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 23,
+        "section_label": "單題",
         "raw_text": "23.      唐宣宗時，相國令狐綯以故事訪於溫岐，對以「其事出《南華》1。」\n       且曰：「非僻書也。或冀相公燮理 2 之暇，時宜覽古。」綯怒。\n\n      根據這段文字，下列敘述何者正確？\n                                 \n      (A)令狐綯向溫岐求問無解，故勃然大怒        1.《南華》：指《莊子》\n      (B)令狐綯因施政遇到困難，找溫岐商量        2.燮理：治理國事\n      (C)溫岐回答問題後，勸令狐綯要多讀書\n      (D)溫岐以《南華》中的故事指正令狐綯\n\n",
         "explanation_source": "ai_v1"
       },
@@ -855,6 +878,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 24,
+        "section_label": "單題",
         "raw_text": "24. 臺北的王小姐要以右列信封寄信給高雄的陳先生，\n    其中格式有誤，下列修改何者正確？\n    (A)郵票應貼在信封右上角\n    (B)左右欄書寫的地址應對調\n    (C)左欄的「王緘」二字應改為「王寄」\n    (D)中欄的啟封詞「大啟」應改為「敬啟」\n\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -890,6 +914,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 25,
+        "section_label": "單題",
         "raw_text": "25.   下列文句中的「如」字，何者與「如期完成」的「如」字意思相同？\n      (A)坐須臾，沛公起「如」廁\n      (B)弗如也！吾與汝弗「如」也\n      (C)朝與下大夫言，侃侃「如」也\n      (D)有不「如」法者，以付廷尉，依律治之\n",
         "explanation_source": "ai_v1"
       },
@@ -925,6 +950,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 26,
+        "section_label": "單題",
         "raw_text": "26. 蘇東坡自述 ：「自今日以往，不過一爵一肉。有尊客，盛饌則三之，可損不可增。\n    有召我者，預以此先之，主人不從而過是者，乃止。一曰安分以養福，二曰寬胃以\n    養氣，三曰省費以養財。」根據這段文字，下列何者最符合東坡的飲食原則？\n    (A)對己待客，飲食皆須有所節制\n    (B)招待尊客，最少須準備三道盛饌\n    (C)受邀作客時，抱持客隨主便的態度\n    (D)宴請賓客前，必先告知自家飲食原則\n",
         "explanation_source": "ai_v1"
       },
@@ -960,6 +986,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 27,
+        "section_label": "單題",
         "raw_text": "27.   下列文句，何者有語病？\n      (A)車子駛向這塊久別之地，我不禁有近鄉情怯之感\n      (B)昂首望去，眼前是一片萬丈深淵，令人心生畏懼\n      (C)忙碌的現代人無暇尋幽訪勝，更不可能遁跡深山\n      (D)黑暗中，漫長的靜默裡，父親長長地嘆了一口氣\n",
         "explanation_source": "ai_v1"
       },
@@ -995,6 +1022,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 28,
+        "section_label": "單題",
         "raw_text": "28.   下列選項「」中的字，何者讀音前後相同？\n      (A)青雲直「上」／平「上」去入\n      (B)個性倔「強」／「強」弩之末\n      (C)「伺」機而動／茶水「伺」候\n      (D)不堪負「荷」／「荷」槍實彈\n",
         "explanation_source": "ai_v1"
       },
@@ -1030,6 +1058,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 29,
+        "section_label": "單題",
         "raw_text": "29.   下列詩句前後兩句的關係，何者說明正確？\n      (A)美酒飲教微醉後，好花看到半開時――前句為因，後句為果\n      (B)戲掬清泉灑蕉葉，兒童誤認雨聲來――前句泉灑蕉葉的假設引發後句的雨聲\n      (C)書冊埋頭無了日，不如拋卻去尋春――將前句的讀書與後句的尋春互作比較\n      (D)梅須遜雪三分白，雪卻輸梅一段香――前句由梅至雪，後句由雪至香，層層遞進\n",
         "explanation_source": "ai_v1"
       },
@@ -1065,6 +1094,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 30,
+        "section_label": "單題",
         "raw_text": "30. 右列是某小說中的謎語，其中哪一句未使用\n    代詞？\n    (A)古老智慧之謎可解於此           \u001f\n\n\n\u001b\u001a\u0019\u0018\u0017\u0016，\n    (B)力助吾輩保伊全家團圓           \u0014\u0013\u0012\u0011\u0010\u000f\u000e   ，\n    (C)聖殿騎士之碑是為關鍵             \b\u0007\u001b\u0006\u0005\u0004\u0003\u0002，\n    (D)阿特巴希為汝真相展現           \u0001\u0004 ­。\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1100,6 +1130,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 31,
+        "section_label": "單題",
         "raw_text": "31. 「我曾經踮起腳尖遠望，結果遠不如登上高處看得廣；我登上高處向人招手，胳臂\n    並沒有加長，但遠處的人也能看得見；順著風呼喊，聲音沒有更加激昂，但聽的人\n    卻能聽得很清楚。因此，在學習的道路上，要______________________。」文中\n    畫線處最適合填入下列何者？\n    (A)善用周遭資源，以收事半功倍之效\n    (B)立定遠大目標，確立人生未來方向\n    (C)勇於多方嘗試，才能激發自我潛能\n    (D)慎選學習夥伴，以免日後誤入歧途\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1135,6 +1166,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 32,
+        "section_label": "單題",
         "raw_text": "32. 「桃符仰視艾人而罵曰：『汝何等草芥，輒居我上？』艾人俯而應曰：『自元日\n    至端午以來，汝已半截入土，猶爭高下乎？』桃符怒，往復紛然不已。門神解\n    之曰：『吾輩不肖，方傍人門戶，何暇爭閒氣耶？』」根據這段文字，下列敘\n    述何者正確？\n    (A)艾人以「半截入土」暗譏桃符有過時之嫌\n    (B)門神指責桃符愛爭閒氣，所以只能傍人門戶\n    (C)三者位置由高而低依序是：門神、桃符、艾人\n    (D)桃符與艾人為了元日、端午的重要性而爭吵不休\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1170,6 +1202,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 33,
+        "section_label": "單題",
         "raw_text": "33. 「以往許多民生用品都以農作物製成，取之於大自然，還之於大自然，不會造\n    成地球負擔、環境汙染。若更用心研發，一定可以製作得更精良、推廣得更普\n    及。很可惜在工業產品的衝擊下，這些用品一一被取代而消失。」根據這段文\n    字，下列何者最符合作者的觀點？\n    (A)近代快速工業化導致農作物大量消失\n    (B)用心研發的農作物不會造成地球負擔\n    (C)以農作物製成的產品較工業產品更為精良\n    (D)將農作物轉加利用更能夠保護我們的地球\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1205,6 +1238,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 34,
+        "section_label": "單題",
         "raw_text": "34. 下列文句，何者詞語使用正確？\n    (A)放學後學生們各自返家，殊途同歸\n    (B)母親過世後，她傷心欲絕，如喪考妣\n    (C)她對這次的展覽品如數家珍，十分熟悉\n    (D)這對雙胞胎謙和有禮，情同手足，令人稱羨\n\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1275,6 +1309,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 35,
+        "section_label": "題組",
         "raw_text": "35.   下列對於ADHD者的敘述，何者最符合作者原意？\n      (A)發明家往往是ADHD者\n      (B)不宜以異類眼光看待ADHD者\n      (C) ADHD者擁有比一般人優秀的基因\n      (D)缺乏打獵機會是現代ADHD者的悲哀\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1310,6 +1345,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 36,
+        "section_label": "題組",
         "raw_text": "36.   下列敘述，何者與本文內涵最不相關？\n      (A)強調現代人應培養多元能力，以順應社會趨勢\n      (B)推測ADHD者的特徵可上溯自遠古人類的行為\n      (C)引述學者意見，說明注意力缺失者的行為特徵\n      (D)呼籲教育者應以寬廣的視角引領孩子適性發展\n\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1380,6 +1416,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 37,
+        "section_label": "題組",
         "raw_text": "37.   根據本文，莫那魯道在接受紋面前，心情有種難以抑止的澎湃，其原因最不可能為\n      下列何者？\n      (A)通過種種考驗之後的欣慰\n      (B)即將成為勇士的興奮感受\n      (C)為即將執行出草任務而期待\n      (D)將承擔部落重任而覺得驕傲\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1415,6 +1452,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 38,
+        "section_label": "題組",
         "raw_text": "38.   根據本文，下列敘述何者正確？\n      (A)在賽德克族內，男女戀愛及婚嫁須經過頭目的准許\n      (B)賽德克族人的額紋，象徵著生命的至高尊嚴與榮耀\n      (C)已屆婚齡卻不結婚的賽德克•巴萊，被視為一種恥辱\n      (D)女性想成為賽德克•巴萊，須精通編織的知識與技術\n\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1495,6 +1533,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 39,
+        "section_label": "題組",
         "raw_text": "39.   根據本文，讀書人與統治者的關係，下列敘述何者正確？\n      (A)建安文人多數成為有權的府主\n      (B)中唐文人多在華貴階級中作客\n      (C)五代文人以文章推翻世族社會\n      (D)北宋文人以寫詩晉身統治階層\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1530,6 +1569,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 40,
+        "section_label": "題組",
         "raw_text": "40.   關於本文的寫作手法，下列敘述何者正確？\n      (A)以唐和五代文人做對比，凸顯唐代文人的風骨\n      (B)透過細膩的空間描寫，以呈現社會組織的變遷\n      (C)援引李白、杜甫為例，說明科舉與文人的關係\n      (D)按歷史朝代先後次序進行論述，鋪陳文章主旨\n\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1600,6 +1640,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 41,
+        "section_label": "題組",
         "raw_text": "41.   下列針對手足關係的描述，何者最符合本文的觀點？\n      (A)兄弟姊妹是世上少數可以共享兒時記憶的人\n      (B)因共同的成長背景，手足間的命運緊緊纏繞\n      (C)照顧年邁雙親的責任，必須由兄弟共同承擔\n      (D)手足不宜分家獨立，以免相忘於人生的荒漠\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1635,6 +1676,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 42,
+        "section_label": "題組",
         "raw_text": "42.   關於本文的寫作手法，下列敘述何者錯誤？\n      (A)首段由朋友、情人、夫妻的關係起筆，帶出手足間的情誼\n      (B)第二段連用兩個反詰句，強調兄弟間深厚的情誼不可磨滅\n      (C)前兩段多處使用重複的字詞與類似的句型，可以強化語氣\n      (D)末段以雨樹為喻，描寫手足間看似疏離卻同根相連的關係\n\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1705,6 +1747,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 43,
+        "section_label": "題組",
         "raw_text": "43.   關於「藍月」的訊息，下列何者本文並未提及？\n      (A)名稱的由來\n      (B)周期的間隔\n      (C)觀測的時機\n      (D)實際的定義\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1740,6 +1783,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 44,
+        "section_label": "題組",
         "raw_text": "44.   根據本文，可推論出下列何者？\n      (A)本文可能刊登在星期二\n      (B)閏年的二月可能出現藍月\n      (C)藍月可能只是一種「月亮錯覺」的效應\n      (D)火山灰顆粒大小可能左右月亮看起來的顏色\n\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1810,6 +1854,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 45,
+        "section_label": "題組",
         "raw_text": "45. 「佟中丞鳳彩巡撫河南」句中「巡撫」二字\n                        \n    的詞性，與下列何者相同？        1.矍然：驚視貌。矍，音ㄐㄩㄝˊ\n    (A)燃「燭」治文書\n    (B)皆汝「肩」之\n    (C)輒以手批「頰」數四\n    (D)侍者「為」之悚慄\n",
         "explanation_source": "ai_v1"
       },
@@ -1845,6 +1890,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 46,
+        "section_label": "題組",
         "raw_text": "46.   根據本文的敘述，可推知佟中丞的為人如何？\n      (A)自許甚高，治事嚴謹\n      (B)嫉惡如仇，律下嚴厲\n      (C)貧賤不移，威武不屈\n      (D)豁達大度，不拘小節\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1915,6 +1961,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 47,
+        "section_label": "題組",
         "raw_text": "47.   關於這兩首詩的內容，下列敘述何者正確？\n                                \n      (A)甲詩描寫時間為晚上，乙詩描寫時間是清晨    1.扶桑：相傳東海外有神木名\n      (B)甲詩送別地點在扶桑，乙詩分別地點在揚子江        為扶桑，是日出之\n      (C)甲詩作者將與友人同行，乙詩作者送友人獨往        地。亦為日本別名\n      (D)甲詩友人以船為交通工具，乙詩友人亦是如此\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1950,6 +1997,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 48,
+        "section_label": "題組",
         "raw_text": "48.   關於這兩首詩的寫作手法，下列敘述何者正確？\n      (A)甲乙兩詩皆遲至末句才點出友人前行的目的地\n      (B)甲乙兩詩各自重複某些字詞，增添詩的節奏感\n      (C)甲詩由眼前景寫到想像景，乙詩從想像景寫到眼前景\n      (D)甲詩只有二、四句用韻，乙詩是一、二、四句皆用韻\n\n                      13               試題結束\n",
         "explanation_source": "ai_v1"
       },

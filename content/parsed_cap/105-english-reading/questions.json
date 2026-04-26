@@ -46,6 +46,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 1,
+        "section_label": "單題",
         "raw_text": "1.   Look at the picture. What is the dog doing?\n     (A) Biting the man.\n     (B) Crossing the street.\n     (C) Running after the bus.\n     (D) Sitting on the sidewalk.\n",
         "explanation_source": "ai_v1"
       },
@@ -81,6 +82,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 2,
+        "section_label": "單題",
         "raw_text": "2.   Chris: Which         looks better on me?\n     Penny: I think purple’s better. You look great in purple.\n     (A) color           (B) grade             (C) shape             (D) size\n",
         "explanation_source": "ai_v1"
       },
@@ -116,6 +118,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 3,
+        "section_label": "單題",
         "raw_text": "3.   My cat got excited when it saw the boy            the birds.\n     (A) catches         (B) catching             (C) to catch       (D) caught\n",
         "explanation_source": "ai_v1"
       },
@@ -151,6 +154,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 4,
+        "section_label": "單題",
         "raw_text": "4.   Mr. Jackson is a very       writer; people of all ages enjoy his stories.\n     (A) polite           (B) popular         (C) handsome          (D) honest\n",
         "explanation_source": "ai_v1"
       },
@@ -186,6 +190,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 5,
+        "section_label": "單題",
         "raw_text": "5.   Carol sounded happy when we talked on the phone; I could feel joy in her            .\n     (A) eyes           (B) mail           (C) smile            (D) voice\n",
         "explanation_source": "ai_v1"
       },
@@ -221,6 +226,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 6,
+        "section_label": "單題",
         "raw_text": "6.   Mark studies very hard and never       classes. He goes to school even when he is sick.\n     (A) loses            (B) misses           (C) changes           (D) forgets\n",
         "explanation_source": "ai_v1"
       },
@@ -256,6 +262,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 7,
+        "section_label": "單題",
         "raw_text": "7.   Have you got anything for Joe        ? He’d be happy to get your gift on his birthday.\n     (A) almost          (B) either           (C) soon             (D) yet\n",
         "explanation_source": "ai_v1"
       },
@@ -291,6 +298,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 8,
+        "section_label": "單題",
         "raw_text": "8.   Susan bought         bread in the supermarket, but she did not buy anything to drink.\n     (A) many             (B) some            (C) any               (D) one\n",
         "explanation_source": "ai_v1"
       },
@@ -326,6 +334,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 9,
+        "section_label": "單題",
         "raw_text": "9.   Playing sports at least three times a week         good for your health.\n     (A) is                (B) are              (C) has              (D) have\n",
         "explanation_source": "ai_v1"
       },
@@ -361,6 +370,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 10,
+        "section_label": "單題",
         "raw_text": "10. My parents have different hobbies. One enjoys baking;            enjoys taking pictures.\n    (A) another         (B) the next        (C) the other            (D) the second\n",
         "explanation_source": "ai_v1"
       },
@@ -396,6 +406,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 11,
+        "section_label": "單題",
         "raw_text": "11. My mom told me to take care of            in England. She worried that I couldn’t eat\n    or sleep well there.\n    (A) me               (B) myself               (C) her            (D) herself\n\n\n                                              1                     請翻頁繼續作答\n",
         "explanation_source": "ai_v1"
       },
@@ -431,6 +442,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 12,
+        "section_label": "單題",
         "raw_text": "12. The paint on the wall is not as         as it was ten years ago. It has changed from\n    white to gray.\n    (A) bright          (B) heavy                (C) sure           (D) young\n",
         "explanation_source": "ai_v1"
       },
@@ -466,6 +478,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 13,
+        "section_label": "單題",
         "raw_text": "13. I told you this road went the wrong way, but you just wouldn’t listen. Now we have\n    to        and take another road.\n    (A) go ahead          (B) move away       (C) pass by         (D) turn back\n",
         "explanation_source": "ai_v1"
       },
@@ -501,6 +514,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 14,
+        "section_label": "單題",
         "raw_text": "14. The last five years have not been         to Jennie. Her face is covered with lines\n    and she looks much older than she is.\n    (A) kind              (B) special            (C) real           (D) enough\n",
         "explanation_source": "ai_v1"
       },
@@ -536,6 +550,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 15,
+        "section_label": "單題",
         "raw_text": "15. My dog Jimmy loves            with a comb. Every time I comb his hair, he will close\n    his eyes and fall asleep.\n    (A) to brush          (B) brushing       (C) to be brushing (D) being brushed\n",
         "explanation_source": "ai_v1"
       },
@@ -606,6 +621,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 16,
+        "section_label": "題組",
         "raw_text": "16. What is the reading for?\n    (A) Finding out why the old street was on fire.\n    (B) Inviting people to do business on the old street.\n    (C) Getting people to find ways to save the old street.\n    (D) Asking for help for people who got hurt in the fire.\n",
         "explanation_source": "ai_v1"
       },
@@ -641,6 +657,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 17,
+        "section_label": "題組",
         "raw_text": "17. Which is NOT used in the reading to talk about the old street?\n    (A) A good friend. (B) The old Pinky. (C) A parent.            (D) A living history.\n\n",
         "explanation_source": "ai_v1"
       },
@@ -712,6 +729,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 18,
+        "section_label": "題組",
         "raw_text": "18. What is FunGana 2016 for?\n    (A) Studying sea animals in Gana.\n    (B) Giving courses in water sports.\n    (C) Giving weather reports in Gana.\n    (D) Helping people experience Gana.\n",
         "explanation_source": "ai_v1"
       },
@@ -747,6 +765,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 19,
+        "section_label": "題組",
         "raw_text": "19. What does the reading say about Piso Island?\n    (A) It makes the best cars in Gana.\n    (B) It has nice weather in every season.\n    (C) It is the most popular island in Gana.\n    (D) It has the most mud springs in the world.\n",
         "explanation_source": "ai_v1"
       },
@@ -782,6 +801,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 20,
+        "section_label": "題組",
         "raw_text": "20. What does adjacent to mean?\n    (A) Like.\n    (B) Near.\n    (C) Bigger than.\n    (D) Warmer than.\n\n\n\n\n                                           3                 請翻頁繼續作答\n",
         "explanation_source": "ai_v1"
       },
@@ -852,6 +872,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 21,
+        "section_label": "題組",
         "raw_text": "21. What do we know from the notice?\n    (A) The summer school is three weeks long.\n    (B) Students can order lunch from the school restaurant.\n    (C) There are basketball classes in the gym every week except the third week.\n    (D) Those who need to borrow dancing shoes must tell Mr. Shum the day before.\n",
         "explanation_source": "ai_v1"
       },
@@ -887,6 +908,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 22,
+        "section_label": "題組",
         "raw_text": "22. Below is what Tina told her friends about the classes in her summer school schedule.\n\n       Mr. Reed was really crazy to give us so many new words at one time. Who can\n possibly remember all of them in a night? In our art class, when Ms. Grant asked us\n to draw a picture, I just drew a mad me looking at Mr. Reed. But then I totally forgot\n about Mr. Reed after two hours of PE classes in the afternoon. I was just too tired\n to think! Luckily, there was no computer class today to make it a really bad day.\n\n    Which day was Tina talking about?\n    (A) Monday.          (B) Tuesday.           (C) Wednesday.       (D) Thursday.\n\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -957,6 +979,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 23,
+        "section_label": "題組",
         "raw_text": "23. Which is most likely true about the speaker in the reading?\n    (A) He thinks a black cat is hiding somewhere in the house.          likely 可能\n    (B) He feels lonely because he is the only child in his family.\n    (C) He is looking for something he left somewhere in the house.\n    (D) He is afraid of being by himself when he feels ghosts around.\n",
         "explanation_source": "ai_v1"
       },
@@ -992,6 +1015,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 24,
+        "section_label": "題組",
         "raw_text": "24. What can we learn about Lucy in the reading?\n    (A) She keeps opening the door.\n    (B) Her voice makes the speaker feel safe.\n    (C) Her candy was hidden in the kitchen.\n    (D) She was away from home last Halloween.\n\n                                           5                    請翻頁繼續作答\n",
         "explanation_source": "ai_v1"
       },
@@ -1063,6 +1087,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 25,
+        "section_label": "題組",
         "raw_text": "25. What does IT in picture 7 mean?\n    (A) Rule 22 is easy to follow.\n    (B) Anyone can die at any time.\n    (C) Flying airplanes is dangerous.\n    (D) The soldier has become crazy.\n",
         "explanation_source": "ai_v1"
       },
@@ -1098,6 +1123,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 26,
+        "section_label": "題組",
         "raw_text": "26. What can we learn from the comics?\n    (A) The doctor tried several ways to help the soldier.\n    (B) The soldier cared about his life more than his job.\n    (C) The soldier went to ask the doctor about Rule 22.\n    (D) The use of “catch-22” appeared before Joseph Heller’s book.\n\n                                                                                likely 可能",
         "explanation_source": "ai_v1"
       },
@@ -1133,6 +1159,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 27,
+        "section_label": "題組",
         "raw_text": "27. From the comics, which is most likely an example of “catch-22”? \n    (A) I need to go to hospital, but there are no hospitals near my house.\n    (B) I need my key to open the door of my house, but I left my key at school.\n    (C) I need some special experience to get this job, but I can’t get this kind of\n        experience except from this job.\n    (D) I want to go out with Jennifer on New Year’s Day, but I’m not sure whether\n        she wants to go out with me that day.\n\n\n\n\n                                            7                     請翻頁繼續作答\n",
         "explanation_source": "ai_v1"
       },
@@ -1205,6 +1232,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 28,
+        "section_label": "題組",
         "raw_text": "28. What does it in the first line mean?  \n    (A) The gate of Buzzing World.\n    (B) Alec’s butterfly photo.\n    (C) Alec’s plan for his date.\n    (D) Anything with six legs.\n\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1240,6 +1268,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 29,
+        "section_label": "題組",
         "raw_text": "29. What does this one mean in the dialogue?\n    (A) What food Wavelength sells.\n    (B) Why Olivia does not like seafood.\n    (C) What Alec thinks about Wavelength.\n    (D) What food Olivia does not like to eat.\n",
         "explanation_source": "ai_v1"
       },
@@ -1275,6 +1304,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 30,
+        "section_label": "題組",
         "raw_text": "30. What can we learn about Alec?\n    (A) He was told that Olivia likes nice surprises.\n    (B) He decided to cook Olivia a nice seafood dinner.\n    (C) He was happy that Olivia was finally his girlfriend.\n    (D) He gave up the idea of taking Olivia to Buzzing World.\n",
         "explanation_source": "ai_v1"
       },
@@ -1310,6 +1340,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 31,
+        "section_label": "題組",
         "raw_text": "31. Emily is a friend of Olivia’s. If she agrees with Lori, what would she most likely\n    say to Alec?\n    (A) “This is just what Olivia would want!”                         likely 可能\n    (B) “You never know what a girl like Olivia would want.”\n    (C) “Make a different plan or have a date with a different girl!”\n    (D) “She never cares what she does on a date; she cares who she has a date with.”\n\n\n\n\n                                           9                     請翻頁繼續作答\n",
         "explanation_source": "ai_v1"
       },
@@ -1381,6 +1412,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 32,
+        "section_label": "題組",
         "raw_text": "32. What can we learn from the news report?\n    (A) How to deal with Cow Cold.\n    (B) Whether people may catch Cow Cold.\n    (C) How fast Cow Cold has hit the country.\n    (D) How to find out if cows have Cow Cold.\n                                                                                        likely 可能",
         "explanation_source": "ai_v1"
       },
@@ -1418,6 +1450,7 @@
         ],
         "parse_confidence": 0.75,
         "original_question_number": 33,
+        "section_label": "題組",
         "raw_text": "33. Which map will most likely appear with the above news report? \n    (A)                (B)                   (C)                 (D)\n\n\n\n\n          : more than 1000 dead   : more than 1000 dead   : more than 1000 dead   : more than 1000 dead\n          : more than 500 dead    : more than 500 dead    : more than 500 dead    : more than 500 dead\n          : more than 100 dead    : more than 100 dead    : more than 100 dead    : more than 100 dead\n          : more than 50 dead     : more than 50 dead     : more than 50 dead     : more than 50 dead\n\n\n"
       },
       "is_active": false,
@@ -1454,6 +1487,7 @@
         ],
         "parse_confidence": 0.75,
         "original_question_number": 34,
+        "section_label": "題組",
         "raw_text": "34. If a store’s sales keep slumping, what would the sales chart look like?\n\n                                                                               chart 圖表\n    (A)                                          (B)\n                       Sales                                       Sales\n          $100,000                                     $100,000\n           $75,000                                      $75,000\n           $50,000                                      $50,000\n           $25,000                                      $25,000\n                $0                                           $0\n                     Aug. Sept. Oct. Nov.                         Aug. Sept. Oct. Nov.\n                         Sales                                        Sales\n\n\n    (C)                                          (D)\n                       Sales                                       Sales\n          $100,000                                     $100,000\n           $75,000                                      $75,000\n           $50,000                                      $50,000\n           $25,000                                      $25,000\n                $0                                           $0\n                     Aug. Sept. Oct. Nov.                         Aug. Sept. Oct. Nov.\n                         Sales                                        Sales\n\n\n\n\n                                            11                      請翻頁繼續作答\n"
       },
       "is_active": false,
@@ -1528,6 +1562,7 @@
         ],
         "parse_confidence": 0.4,
         "original_question_number": 35,
+        "section_label": "題組",
         "raw_text": "35. (A) had looked like     (B) looked like    (C) would look like     (D) has looked like\n"
       },
       "is_active": false,
@@ -1565,6 +1600,7 @@
         ],
         "parse_confidence": 0.4,
         "original_question_number": 36,
+        "section_label": "題組",
         "raw_text": "36. (A) had changed         (B) changed        (C) was going to change (D) has changed\n"
       },
       "is_active": false,
@@ -1602,6 +1638,7 @@
         ],
         "parse_confidence": 0.4,
         "original_question_number": 37,
+        "section_label": "題組",
         "raw_text": "37. (A) used to be          (B) would be       (C) has been            (D) is\n"
       },
       "is_active": false,
@@ -1639,6 +1676,7 @@
         ],
         "parse_confidence": 0.4,
         "original_question_number": 38,
+        "section_label": "題組",
         "raw_text": "38. (A) had wanted          (B) has wanted     (C) would want          (D) will want\n\n\n\n\n"
       },
       "is_active": false,
@@ -1711,6 +1749,7 @@
         ],
         "parse_confidence": 0.75,
         "original_question_number": 39,
+        "section_label": "題組",
         "raw_text": "39. (A) think differently about when to start a family\n    (B) do not find family as important as their parents did\n    (C) want many different things when they start a family\n    (D) have several different ideas about what makes a family\n"
       },
       "is_active": false,
@@ -1747,6 +1786,7 @@
         ],
         "parse_confidence": 0.75,
         "original_question_number": 40,
+        "section_label": "題組",
         "raw_text": "40. (A) whether people are married or not\n    (B) whether people have a child or not\n    (C) whether people live together or not\n    (D) whether people love each other or not\n"
       },
       "is_active": false,
@@ -1783,6 +1823,7 @@
         ],
         "parse_confidence": 0.75,
         "original_question_number": 41,
+        "section_label": "題組",
         "raw_text": "41. (A) This is not surprising\n    (B) This is not possible everywhere\n    (C) It is no good news for everyone\n    (D) It cannot be this way for very long\n\n\n\n\n                                              13                           試題結束\n"
       },
       "is_active": false,

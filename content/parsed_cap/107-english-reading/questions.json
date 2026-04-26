@@ -46,6 +46,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 1,
+        "section_label": "單題",
         "raw_text": "1.   Look at the picture. The girl is         the clothes.\n     (A) making\n     (B) packing\n     (C) showing\n     (D) washing\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -81,6 +82,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 2,
+        "section_label": "單題",
         "raw_text": "2.   The         is so strong today that my hair keeps blowing in the air.\n     (A) rain              (B) snow             (C) sun             (D) wind\n",
         "explanation_source": "ai_v1"
       },
@@ -116,6 +118,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 3,
+        "section_label": "單題",
         "raw_text": "3.   When the baby cried, Mr. Wu        in the kitchen and did not hear it.\n     (A) cooked         (B) was cooking      (C) has cooked      (D) is going to cook\n",
         "explanation_source": "ai_v1"
       },
@@ -151,6 +154,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 4,
+        "section_label": "單題",
         "raw_text": "4.   I don’t have any money with me because I        my wallet this morning.\n     (A) had lost        (B) would lose     (C) lost             (D) was losing\n",
         "explanation_source": "ai_v1"
       },
@@ -186,6 +190,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 5,
+        "section_label": "單題",
         "raw_text": "5.   You need not only good luck but also hard work to become a       baseball player.\n     (A) young           (B) successful       (C) happy         (D) friendly\n",
         "explanation_source": "ai_v1"
       },
@@ -221,6 +226,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 6,
+        "section_label": "單題",
         "raw_text": "6.   The woman who lives next door to Ken is a        to him. They have never met and\n     he doesn’t even know her name.\n     (A) daughter        (B) friend         (C) stranger        (D) teacher\n",
         "explanation_source": "ai_v1"
       },
@@ -256,6 +262,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 7,
+        "section_label": "單題",
         "raw_text": "7.   With the new bus line, it is much more           for Fanny to go to school. It saves her\n     a lot of time now.\n     (A) useful          (B) possible             (C) interesting     (D) convenient\n",
         "explanation_source": "ai_v1"
       },
@@ -291,6 +298,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 8,
+        "section_label": "單題",
         "raw_text": "8.   Dad: Have you brushed your teeth yet?\n     Ann: No, but I      before I go to bed.\n     (A) haven’t        (B) have             (C) won’t                (D) will\n",
         "explanation_source": "ai_v1"
       },
@@ -326,6 +334,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 9,
+        "section_label": "單題",
         "raw_text": "9.   Alice: Do you know            Grandma is going to visit us?\n     Willy: It’s next week. She told me on the phone. And we’ll take her to the national park.\n     (A) where             (B) when              (C) whether         (D) why\n\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -361,6 +370,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 10,
+        "section_label": "單題",
         "raw_text": "10. It took the police lots of time who entered Liu’s house and killed her one year ago.\n    (A) and found out (B) find out        (C) finding out       (D) to find out\n",
         "explanation_source": "ai_v1"
       },
@@ -396,6 +406,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 11,
+        "section_label": "單題",
         "raw_text": "11. Many famous people visit this restaurant. Popular singers like A-mei and Jay Chou\n           here with their friends.\n    (A) to be often seen (B) often seen      (C) are often seen (D) and are often seen\n",
         "explanation_source": "ai_v1"
       },
@@ -431,6 +442,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 12,
+        "section_label": "單題",
         "raw_text": "12. The factory has been throwing trash into the river for years. Now        must be\n    taken to stop this.\n    (A) action          (B) chances          (C) exercise          (D) notes\n",
         "explanation_source": "ai_v1"
       },
@@ -466,6 +478,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 13,
+        "section_label": "單題",
         "raw_text": "13. The beach party tonight        the end of our summer vacation. Tomorrow we are\n    all going back home and getting ready for school.\n    (A) changes         (B) marks            (C) passes         (D) saves\n",
         "explanation_source": "ai_v1"
       },
@@ -501,6 +514,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 14,
+        "section_label": "單題",
         "raw_text": "14. Anyone who reads Loren’s business plan will quickly see some serious problems in\n    it, or       feel something is not right.\n    (A) at least         (B) even             (C) in fact      (D) still\n",
         "explanation_source": "ai_v1"
       },
@@ -536,6 +550,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 15,
+        "section_label": "單題",
         "raw_text": "15. I’ve wanted to read The Diary of a Young Girl for months,        today I finally\n    borrowed the book from the library.\n    (A) and              (B) since          (C) so                (D) until\n\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -609,6 +624,7 @@
         ],
         "parse_confidence": 0.75,
         "original_question_number": 16,
+        "section_label": "題組",
         "raw_text": "16. (A) like a snake\n    (B) that could move\n    (C) except a little snake\n    (D) that could make noise\n"
       },
       "is_active": false,
@@ -645,6 +661,7 @@
         ],
         "parse_confidence": 0.75,
         "original_question_number": 17,
+        "section_label": "題組",
         "raw_text": "17. (A) climbing up the bench\n    (B) running after a woman\n    (C) stopping beside his feet\n    (D) falling down from a tree\n"
       },
       "is_active": false,
@@ -681,6 +698,7 @@
         ],
         "parse_confidence": 0.75,
         "original_question_number": 18,
+        "section_label": "題組",
         "raw_text": "18. (A) The bench is broken\n    (B) The seat has been taken\n    (C) People will be scared by you\n    (D) The paint of the bench is still wet\n\n\n\n\n"
       },
       "is_active": false,
@@ -753,6 +771,7 @@
         ],
         "parse_confidence": 0.75,
         "original_question_number": 19,
+        "section_label": "題組",
         "raw_text": "19. (A) to make traffic lighter\n    (B) to invite people to visit\n    (C) to make itself a famous city\n    (D) to build more parking spaces\n"
       },
       "is_active": false,
@@ -789,6 +808,7 @@
         ],
         "parse_confidence": 0.75,
         "original_question_number": 20,
+        "section_label": "題組",
         "raw_text": "20. (A) This way\n    (B) However\n    (C) For example\n    (D) Also\n"
       },
       "is_active": false,
@@ -825,6 +845,7 @@
         ],
         "parse_confidence": 0.75,
         "original_question_number": 21,
+        "section_label": "題組",
         "raw_text": "21. (A) why Zurich is doing this\n    (B) what all this has cost Zurich\n    (C) if Zurich should try other ways\n    (D) if Zurich can deal with angry drivers\n\n\n\n\n"
       },
       "is_active": false,
@@ -895,6 +916,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 22,
+        "section_label": "題組",
         "raw_text": "22. What is the reading mostly about?\n    (A) Where to find a nice holiday apartment.\n    (B) How to choose a nice holiday apartment.\n    (C) Why one should choose a holiday apartment.\n    (D) How one can change their house into a holiday apartment.\n",
         "explanation_source": "ai_v1"
       },
@@ -930,6 +952,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 23,
+        "section_label": "題組",
         "raw_text": "23. From the reading, what can we learn about holiday apartments?\n    (A) They are good for people who like to take one-day trips.\n    (B) They are good for people who travel in a group of three or more.\n    (C) They are good for people who want to make new friends when traveling.\n    (D) They are good for people who like to spend their holidays in the country.\n",
         "explanation_source": "ai_v1"
       },
@@ -965,6 +988,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 24,
+        "section_label": "題組",
         "raw_text": "24. What does it mean to say that something is at your disposal?\n    (A) You are free to use it.             (B) You can find it everywhere.\n    (C) You know everything about it.       (D) You can buy it at a lower price.\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1035,6 +1059,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 25,
+        "section_label": "題組",
         "raw_text": "25. What is the quick lesson of SHARP WEAR about?\n    (A) How to get to one of SHARP WEAR’s stores.\n    (B) How to send back a T-shirt to SHARP WEAR.\n    (C) How to shop for a T-shirt from SHARP WEAR.\n    (D) How to take care of a T-shirt from SHARP WEAR.\n",
         "explanation_source": "ai_v1"
       },
@@ -1070,6 +1095,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 26,
+        "section_label": "題組",
         "raw_text": "26. What can we learn about SHARP WEAR?\n    (A) You have to order at least four T-shirts each time.\n    (B) You can choose from sixteen colors for both the T-shirt and the pocket.\n    (C) Some of the T-shirts have pictures on both the front side and the back side.\n    (D) T-shirts in the wrong sizes cannot be sent back if they have pictures or pockets on them.\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1140,6 +1166,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 27,
+        "section_label": "題組",
         "raw_text": "27. Which season is this poem about?\n    (A) Spring.\t\t                                  (B) Summer.                   poem 詩\n    (C) Autumn.\t\t                                  (D) Winter.\n",
         "explanation_source": "ai_v1"
       },
@@ -1175,6 +1202,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 28,
+        "section_label": "題組",
         "raw_text": "28. What is a daisy?\n    (A) A body part.\t\t                             (B) A kind of bird.\n    (C) A kind of flower.                          (D) A kind of smell.\n\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1246,6 +1274,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 29,
+        "section_label": "題組",
         "raw_text": "29. What does the reading say about shaking?\n    (A) Different animals’ shaking begins with different body parts.\n    (B) Shaking is a way that animals use to make other animals scared.\n    (C) Animals that are not kept as pets do the shaking better than those that are.\n    (D) Shaking themselves dry may help animals run faster in dangerous moments.\n",
         "explanation_source": "ai_v1"
       },
@@ -1281,6 +1310,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 30,
+        "section_label": "題組",
         "raw_text": "30. What can we learn from the reading?\n    (A) The animal’s tail can help it run more quickly and easily.\n    (B) Some animals shake more than they need to get water off.\n    (C) The idea of washing machines came from the shaking of dogs.\n    (D) Larger animals get themselves drier at each shake than smaller animals.\n\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1316,6 +1346,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 31,
+        "section_label": "題組",
         "raw_text": "31. The four pictures below show how fast tigers, cats and mice can shake. From the\n    reading, which picture is most likely correct?\n                                                                     likely 可能\n    (A)\t\t\n        How fast can animals shake?\n          Number of shakes\n\n            in a second\n\n\n                                  tiger     cat      mouse\n\n    (B)                           How fast can animals shake?\n          Number of shakes\n\n\n\n\n            in a second\n\n\n\n\n\n                                  tiger     cat     mouse\n\n    (C)\t\t\n        How fast can animals shake?\n          Number of shakes\n\n\n\n\n            in a second\n\n\n\n\n\n                                  tiger     cat      mouse\n\n\n    (D)                           How fast can animals shake?\n          Number of shakes\n\n\n\n\n            in a second\n\n\n\n\n\n                                  tiger     cat      mouse\n\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1387,6 +1418,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 32,
+        "section_label": "題組",
         "raw_text": "32. What does things like that mean?\n    (A) Problems about the free coffee plan.\n    (B) Trouble for people who go to Flora Café.\n    (C) Ways to make the free coffee plan successful.\n    (D) Good things free coffee will bring to Flora Café.\n",
         "explanation_source": "ai_v1"
       },
@@ -1422,6 +1454,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 33,
+        "section_label": "題組",
         "raw_text": "33. What can we learn about Josh and Eric?\n    (A) Josh was not able to change Eric’s mind about free coffee.\n    (B) Eric has more hope for the free coffee plan than Josh does.\n    (C) They found a way to make people feel OK to take free coffee.\n    (D) They do not know whether Flora Café will do business honestly.\n",
         "explanation_source": "ai_v1"
       },
@@ -1457,6 +1490,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 34,
+        "section_label": "題組",
         "raw_text": "34. What do we know about Flora Café from the dialogue?\n    (A) It has a way to know who really is poor.\n    (B) Free coffee has brought it more business.\n    (C) People pay less for free coffee than other coffee.\n    (D) Its blackboard shows if there are free coffees to be taken.\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1528,6 +1562,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 35,
+        "section_label": "題組",
         "raw_text": "35. Below are the writer’s points in the reading:\n       a. Whether we should stop tribespeople whaling\n       b. The problem of whaling\n       c. Whaling as a way of life\n    In what order does the writer talk about his points?                order 順序\n    (A) a c b.           (B) b c a.            (C) c a b.         (D) c   b   a.\n",
         "explanation_source": "ai_v1"
       },
@@ -1563,6 +1598,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 36,
+        "section_label": "題組",
         "raw_text": "36. Which idea may the writer agree with?\n    (A) We should stop all kinds of whale hunting.\n    (B) We should not worry about the number of whales.\n    (C) Tribespeople’s way of living is as important as animal lives.\n    (D) Working with the whaling business can make tribespeople’s lives better.\n",
         "explanation_source": "ai_v1"
       },
@@ -1598,6 +1634,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 37,
+        "section_label": "題組",
         "raw_text": "37. What can we learn from the reading?\n    (A) Tribespeople believe whales bring good luck.\n    (B) Tribespeople become rich by selling whale oil.\n    (C) Whaling was not a problem until 1,500 years ago.\n    (D) Whaling helped tribespeople’s lives in different ways.\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1670,6 +1707,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 38,
+        "section_label": "題組",
         "raw_text": "38. From the news story, which fact is seen as a new turn?\n    (A) Carolyn Cole is a first-time writer.\n    (B) Carolyn Cole won the Inscriber Prize.\n    (C) Carolyn Cole is not the winner’s real name.\n    (D) Carolyn Cole did not appear for the Inscriber Prize.\n",
         "explanation_source": "ai_v1"
       },
@@ -1705,6 +1743,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 39,
+        "section_label": "題組",
         "raw_text": "39. Which is most likely true about the Inscriber Prize?\n    (A) It was started by NBN News.                                 likely 可能\n    (B) It is a new prize for picture books.\n    (C) It is a prize only for first-time writers.\n    (D) It is treated seriously by writers in the country.\n\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1740,6 +1779,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 40,
+        "section_label": "題組",
         "raw_text": "40. What can we learn about Thomas Goode?\n    (A) He has won the Inscriber Prize twice.\n    (B) He told NBN that Paper Soldier was his work.\n    (C) He wants to be more than just a picture book writer.\n    (D) His life as a picture book writer has not been successful.\n",
         "explanation_source": "ai_v1"
       },
@@ -1775,6 +1815,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 41,
+        "section_label": "題組",
         "raw_text": "41. What do we know about Thomas Goode’s books?\n    (A) The sales of Parent were bad.\n    (B) Paper Soldier is his best-selling book.\n    (C) His first picture book came out in 2006.\n    (D) Blue Moon was written under a different name.\n\n\n\n\n",
         "explanation_source": "ai_v1"
       },

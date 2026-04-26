@@ -46,6 +46,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 1,
+        "section_label": "單題",
         "raw_text": "1.   In the picture, the boy is       the old man.\n     (A) smiling at\n     (B) dancing with\n     (C) cheering for\n     (D) bowing to\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -81,6 +82,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 2,
+        "section_label": "單題",
         "raw_text": "2.   Listen! The baby          in the bedroom. Why don’t you go in and take a look?\n     (A) cried             (B) cries           (C) is crying      (D) will cry\n",
         "explanation_source": "ai_v1"
       },
@@ -116,6 +118,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 3,
+        "section_label": "單題",
         "raw_text": "3.   Jill is     that the city park is closed for the music festival because now she can’t\n     jog there.\n     (A) excited          (B) proud             (C) scared            (D) unhappy\n",
         "explanation_source": "ai_v1"
       },
@@ -151,6 +154,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 4,
+        "section_label": "單題",
         "raw_text": "4.   Steven wants to be a      , because he loves to watch people enjoy the food he prepares.\n     (A) cook             (B) doctor           (C) driver            (D) farmer\n",
         "explanation_source": "ai_v1"
       },
@@ -186,6 +190,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 5,
+        "section_label": "單題",
         "raw_text": "5.   Paul misses his parents a lot. He        them since he came to work in Taiwan a\n     year ago.\n     (A) didn’t see      (B) doesn’t see         (C) hasn’t seen        (D) won’t see\n",
         "explanation_source": "ai_v1"
       },
@@ -221,6 +226,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 6,
+        "section_label": "單題",
         "raw_text": "6.   Our teacher Ms. Wu seldom laughs, but when she                , everyone in the same\n     building can hear her.\n     (A) can              (B) does          (C) has                     (D) will\n",
         "explanation_source": "ai_v1"
       },
@@ -256,6 +262,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 7,
+        "section_label": "單題",
         "raw_text": "7.   My sister is coming to my home today. She        with me for a week.\n     (A) stays            (B) stayed        (C) has stayed      (D) will stay\n",
         "explanation_source": "ai_v1"
       },
@@ -291,6 +298,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 8,
+        "section_label": "單題",
         "raw_text": "8.   Edward had worked as a computer engineer for ten years. This       helped him a\n     lot when he started his own computer shop.\n     (A) chance           (B) experience     (C) hobby          (D) knowledge\n",
         "explanation_source": "ai_v1"
       },
@@ -326,6 +334,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 9,
+        "section_label": "單題",
         "raw_text": "9.   If you’re interested in our business plan,       this number and ask for Ms. Lee.\n     She’ll answer your questions.\n     (A) calling           (B) call             (C) and call        (D) to call\n\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -361,6 +370,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 10,
+        "section_label": "單題",
         "raw_text": "10. Jimmy would not get up for breakfast,             his dad had already tried to pull him\n    from his bed several times.\n    (A) although          (B) because             (C) if               (D) until\n",
         "explanation_source": "ai_v1"
       },
@@ -396,6 +406,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 11,
+        "section_label": "單題",
         "raw_text": "11. Duncan spent all his money trying to          the bookstore his mom left him. Sadly,\n    the business never got better, and he had to close it in the end.\n    (A) build            (B) buy               (C) save               (D) start\n",
         "explanation_source": "ai_v1"
       },
@@ -431,6 +442,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 12,
+        "section_label": "單題",
         "raw_text": "12. Fiona loves listening to her children sing songs         at school.\n    (A) are learned      (B) that learned      (C) they learned      (D) that they are learned\n",
         "explanation_source": "ai_v1"
       },
@@ -466,6 +478,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 13,
+        "section_label": "單題",
         "raw_text": "13. Beverly eats lots of snacks       meals. That’s why she is often too full to eat\n    anything at mealtimes.\n    (A) after             (B) between        (C) during           (D) from\n",
         "explanation_source": "ai_v1"
       },
@@ -501,6 +514,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 14,
+        "section_label": "單題",
         "raw_text": "14. Nora: Can I check your drawer for some tools we can use?\n    Matt: Sure.  Take a look.  See if you can find        in there.\n    (A) any              (B) it                (C) others           (D) those\n\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -571,6 +585,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 15,
+        "section_label": "題組",
         "raw_text": "15. What is this ad for?\n    (A) Teaching people how to use their BeautiMed points.\n    (B) Telling people they can shop at BeautiMed on the Internet now.\n    (C) Inviting people to share their shopping experience at e-BeautiMed.\n    (D) Letting people know what is on sale at e-BeautiMed from 7/1 to 8/31.\n",
         "explanation_source": "ai_v1"
       },
@@ -606,6 +621,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 16,
+        "section_label": "題組",
         "raw_text": "16. What will NOT get you BeautiMed points?\n    (A) Shopping at e-BeautiMed.\n    (B) Joining “BeautiMed Friend” online.\n    (C) Inviting a friend to join “BeautiMed Friend.”\n    (D) Entering the “BeautiMed Friend” card number.\n\n",
         "explanation_source": "ai_v1"
       },
@@ -678,6 +694,7 @@
         ],
         "parse_confidence": 0.75,
         "original_question_number": 17,
+        "section_label": "題組",
         "raw_text": "17. Lynn took some photos at Tom’s party. Which is most likely one of them?\n    (A)                            (B)\n                                                                      likely 可能\n\n\n\n\n    (C)                              (D)\n\n\n\n"
       },
       "is_active": false,
@@ -712,6 +729,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 18,
+        "section_label": "題組",
         "raw_text": "18. What can we learn about Lynn from the dialogue?\n    (A) She does not cook.\n    (B) She likes to try new food.\n    (C) She did not enjoy the food at Caldron.\n    (D) She changed Joey’s idea about Caldron.\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -783,6 +801,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 19,
+        "section_label": "題組",
         "raw_text": "19. What do we know about Woollie from Katie’s diary?\n    (A) Woollie was older than Katie.\n    (B) Woollie was taken to visit sick kids.\n    (C) Woollie was sick when he ran away.\n    (D) Woollie looked strange without his fleece.\n",
         "explanation_source": "ai_v1"
       },
@@ -821,6 +840,7 @@
         ],
         "parse_confidence": 0.4,
         "original_question_number": 20,
+        "section_label": "題組",
         "raw_text": "20. Which picture of Woollie and Ms. Clark did Katie talk about in her diary?\n    (A)                (B)                  (C)                   (D)\n\n\n\n"
       },
       "is_active": false,
@@ -855,6 +875,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 21,
+        "section_label": "題組",
         "raw_text": "21. What happened when Woollie was put down?\n    (A) He was sold.\t\t                   (B) He couldn’t be found.\n    (C) He died.\t\t                       (D) He became famous.\n\n",
         "explanation_source": "ai_v1"
       },
@@ -926,6 +947,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 22,
+        "section_label": "題組",
         "raw_text": "22. What can we learn about The Piano Lesson from the reading?\n    (A) Matisse painted it when his son was away from home.\n    (B) The woman who sits on a seat behind the boy is his mother.\n    (C) Matisse uses yellow and red to show that his son was happy.\n    (D) The candle on the piano shows that the piano lesson has just begun.\n",
         "explanation_source": "ai_v1"
       },
@@ -961,6 +983,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 23,
+        "section_label": "題組",
         "raw_text": "23. What does do that mean in the reading?\n    (A) Put his family in his paintings.\n    (B) Paint to remember the good old days.\n    (C) Use a lot of fun colors in his art works.\n    (D) Put his earlier art work in a new painting.\n",
         "explanation_source": "ai_v1"
       },
@@ -996,6 +1019,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 24,
+        "section_label": "題組",
         "raw_text": "24. What is NOT used in the reading to refer to Henri Matisse?             refer to 指稱\n    (A) The artist.\t\t                        (B) The painter.\n    (C) The poor kid. \t\t                     (D) A worried father.\n",
         "explanation_source": "ai_v1"
       },
@@ -1068,6 +1092,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 25,
+        "section_label": "題組",
         "raw_text": "25. What idea is talked about in the reading?\n    (A) How Teachers’ Day is celebrated now.\n    (B) Why Teachers’ Day was celebrated at first.\n    (C) Why Confucius was seen as a great teacher.\n    (D) How teachers today feel about Teachers’ Day.\n",
         "explanation_source": "ai_v1"
       },
@@ -1103,6 +1128,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 26,
+        "section_label": "題組",
         "raw_text": "26. Which is true about Teachers’ Day from the reading?\n    (A) It used to be celebrated on different dates.\n    (B) It was started by students for their teachers.\n    (C) It has been celebrated in Nanjing for over 2,500 years.\n    (D) Teachers decided to celebrate it on Confucius’s birthday.\n",
         "explanation_source": "ai_v1"
       },
@@ -1138,6 +1164,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 27,
+        "section_label": "題組",
         "raw_text": "27. What does “not everyone hailed this decision” mean in the reading?\n    (A) Not everyone cared about the decision. (B) Not everyone welcomed the decision.\n    (C) Not everyone heard about the decision. (D) Not everyone remembered the decision.\n",
         "explanation_source": "ai_v1"
       },
@@ -1173,6 +1200,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 28,
+        "section_label": "題組",
         "raw_text": "28. What does the writer try to do with this reading?\n     (A) To talk about a problem that no one notices.\n     (B) To share a fun experience that was not common.\n     (C) To tell a piece of history that few people know about.\n     (D) To give an example of an idea that is hard to understand.\n",
         "explanation_source": "ai_v1"
       },
@@ -1244,6 +1272,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 29,
+        "section_label": "題組",
         "raw_text": "29. Why does National Formosa Railway write this letter?\n    (A) There is a train ticket sale.\n    (B) A train line will be closed in July.\n    (C) It will open a new train line in August.\n    (D) Some of its trains will run on different lines.\n",
         "explanation_source": "ai_v1"
       },
@@ -1279,6 +1308,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 30,
+        "section_label": "題組",
         "raw_text": "30. What is true about NFR’s trains between August 14 and 28 2016?\n    (A) No trains will stop at Spring Town.\n    (B) Trains that change lines will all stop at Cloud City.\n    (C) People can take the free buses to any station on the Sand Town - Spring Town line.\n    (D) People can go to Hill Town on any train that runs between Green City and Cloud City.\n",
         "explanation_source": "ai_v1"
       },
@@ -1314,6 +1344,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 31,
+        "section_label": "題組",
         "raw_text": "31. James lives in Smoke Town. He wants to go to Black Town on August 19. How can\n    he get there?\n    (A) Take Train RL202 to Green City, get off there, and take the free bus.\n    (B) Take Train RL103 to Green City, get off there, and take the free bus.\n    (C) Take Train RL102 to Spring Town, get off there, and take Train RL201.\n    (D) Take Train RL101 to Cloud City, get off there, and take the free bus.\n\n\n\n\n"
       },
       "is_active": true,
@@ -1384,6 +1415,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 32,
+        "section_label": "題組",
         "raw_text": "32. Below are the ideas that are talked about in the reading.\n       a. The problems Darayya has.\n       b. How Darayya’s library was started.\n       c. What makes Darayya’s library special.\n       d. How Darayya’s library helps people there.\n    In what order does the writer put his ideas in the reading?          order 順序\n    (A) c b a d.         (B) b a d c.          (C) a c b d.        (D) c a b d.\n",
         "explanation_source": "ai_v1"
       },
@@ -1419,6 +1451,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 33,
+        "section_label": "題組",
         "raw_text": "33. Why do people in Darayya go to the library even during the war?\n    (A) They can get free food.\n    (B) They find joy and hope in reading.\n    (C) They want to learn how to win the war.\n    (D) Their school teachers give lessons there.\n",
         "explanation_source": "ai_v1"
       },
@@ -1454,6 +1487,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 34,
+        "section_label": "題組",
         "raw_text": "34. What do we know about Darayya’s library?\n    (A) It was built during the war.\t\t\t\t\n    (B) It has been bombed many times.\n    (C) It was built to remember people who died in the war.\n    (D) Most of its books are collected from outside of Darayya.\n",
         "explanation_source": "ai_v1"
       },
@@ -1527,6 +1561,7 @@
         ],
         "parse_confidence": 0.75,
         "original_question_number": 35,
+        "section_label": "題組",
         "raw_text": "35. (A) Victor Zoo\t\t\t\n    (B) Carlton City\t\t\n    (C) Mosman Garden\t\t\n    (D) Northbank Park\n"
       },
       "is_active": false,
@@ -1563,6 +1598,7 @@
         ],
         "parse_confidence": 0.75,
         "original_question_number": 36,
+        "section_label": "題組",
         "raw_text": "36. (A) we have a plan if this happens\n    (B) we could just wait for the rain to stop\n    (C) we should be fine if the rain isn’t too heavy\n    (D) we will let you know if we’ll still have the party\n"
       },
       "is_active": false,
@@ -1599,6 +1635,7 @@
         ],
         "parse_confidence": 0.75,
         "original_question_number": 37,
+        "section_label": "題組",
         "raw_text": "37. (A) crazy\t\t\t\t\n    (B) good\t\t\n    (C) lucky\t\t\t\t\n    (D) strong\n\n"
       },
       "is_active": false,
@@ -1673,6 +1710,7 @@
         ],
         "parse_confidence": 0.4,
         "original_question_number": 38,
+        "section_label": "題組",
         "raw_text": "38. (A) are all coming     (B) have all come     (C) were all coming (D) would all come\n"
       },
       "is_active": false,
@@ -1710,6 +1748,7 @@
         ],
         "parse_confidence": 0.4,
         "original_question_number": 39,
+        "section_label": "題組",
         "raw_text": "39. (A) another\t\t          (B) one\t\t             (C) the last\t\t       (D) the other\n"
       },
       "is_active": false,
@@ -1747,6 +1786,7 @@
         ],
         "parse_confidence": 0.4,
         "original_question_number": 40,
+        "section_label": "題組",
         "raw_text": "40. (A) have\t\t\t            (B) did\t\t             (C) had\t\t            (D) would\n"
       },
       "is_active": false,
@@ -1784,6 +1824,7 @@
         ],
         "parse_confidence": 0.4,
         "original_question_number": 41,
+        "section_label": "題組",
         "raw_text": "41. (A) was trying\t\t       (B) try\t\t\t            (C) would try        (D) will try\n\n\n\n\n"
       },
       "is_active": false,

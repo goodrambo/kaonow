@@ -178,22 +178,32 @@ def merge(year: int, subject: str) -> Dict:
 
         # single / passage_child
         qnum = r["qnum"]
-        qid = f"cap-{year}-{subject}-{qnum:03d}"
+        # W1.9.3 fix: 非選擇題（essay）section 與選擇題共用 qnum，加 -essay- prefix 避免 id collision
+        # 適用 math 卷的「非選擇題」與其他卷的同類 section
+        section_label = r.get("section_label", "") or ""
+        is_essay_section = "非選擇題" in section_label or "essay" in section_label.lower()
+        if is_essay_section:
+            qid = f"cap-{year}-{subject}-essay-{qnum:03d}"
+        else:
+            qid = f"cap-{year}-{subject}-{qnum:03d}"
         flags = r.get("flags", [])
-        ans_letter = answers_map.get(qnum)
-        explanation = explanations_map.get(qnum)
+        # essay section 用獨立 answers map（如有），目前都是 None → essay 自動 inactive
+        ans_letter = None if is_essay_section else answers_map.get(qnum)
+        explanation = None if is_essay_section else explanations_map.get(qnum)
         common_meta["original_question_number"] = qnum
+        common_meta["section_label"] = section_label
         common_meta["raw_text"] = r.get("raw_text")
         if explanation and explanation_source:
             common_meta["explanation_source"] = explanation_source
 
         # is_active 規則
         has_inactive_flag = any(f in INACTIVE_FLAGS for f in flags)
-        is_active = not has_inactive_flag and ans_letter is not None
+        # essay 永遠 inactive（無 letter 答案、需 model_answer）
+        is_active = (not has_inactive_flag and ans_letter is not None and not is_essay_section)
         # auto_gradable
         auto_gradable = is_active  # 同步：能 active 才 auto-grade
 
-        if not has_inactive_flag and ans_letter is None:
+        if not has_inactive_flag and ans_letter is None and not is_essay_section:
             no_answer_count += 1
             common_meta["flags"] = list(flags) + ["no_answer"]
         if not is_active:

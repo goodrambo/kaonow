@@ -46,6 +46,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 1,
+        "section_label": "單題",
         "raw_text": "1.   Look at the picture. A         is flying over the houses.\n     (A) bird\n     (B) butterfly\n     (C) kite\n     (D) plane\n\n\n\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -81,6 +82,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 2,
+        "section_label": "單題",
         "raw_text": "2. \t When I was a teenager, I was very          .  But now, it’s easier for me to talk to people.\n     (A) happy            (B) lazy                 (C) popular             (D) shy\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -116,6 +118,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 3,
+        "section_label": "單題",
         "raw_text": "3. \t Lena doesn’t want to go         with John because she is afraid of water.\n     (A) dancing           (B) hiking            (C) sailing            (D) shopping\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -151,6 +154,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 4,
+        "section_label": "單題",
         "raw_text": "4. \t Cindy enjoys         her dad read stories to her before bed.\n     (A) to listen to      (B) listening to        (C) listen to           (D) listens to\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -186,6 +190,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 5,
+        "section_label": "單題",
         "raw_text": "5. \t Dad is busy cooking in the kitchen.  Dinner will be            in ten minutes.\n     (A) free             (B) full               (C) medium                 (D) ready\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -221,6 +226,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 6,
+        "section_label": "單題",
         "raw_text": "6. \t There are so many new          in the office.  It’ll take me some time to remember who is\n     who.\n     (A) faces            (B) ideas                (C) rules              (D) tools\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -256,6 +262,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 7,
+        "section_label": "單題",
         "raw_text": "7. \t I feel like a       .  I was looking for my keys for hours but they have been in my pocket\n     the whole time.\n     (A) fool               (B) ghost               (C) king               (D) stranger\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -291,6 +298,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 8,
+        "section_label": "單題",
         "raw_text": "8. \t Mr. and Mrs. Wu have three daughters.  Two are in high school, and        is in\n     elementary school.\n     (A) each           (B) the other        (C) the one          (D) the next\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -326,6 +334,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 9,
+        "section_label": "單題",
         "raw_text": "9. \t It is hard for trees to       along this beach because of the strong winds from the sea.\n     (A) blow                (B) build             (C) follow             (D) grow\n\n\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -361,6 +370,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 10,
+        "section_label": "單題",
         "raw_text": "10. Christmas            and I want to visit my aunt abroad.  Do you have any plans yet?\n    (A) came                (B) comes              (C) is coming         (D) was coming\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -396,6 +406,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 11,
+        "section_label": "單題",
         "raw_text": "11.   Jo won’t be happy if you’re late for his party tonight, so      sure that you arrive on time.  \n      (A) make              (B) makes                (C) to make          (D) is making\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -431,6 +442,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 12,
+        "section_label": "單題",
         "raw_text": "12. You may have a long drive because of the terrible       .  There are usually a lot of cars\n    and buses during this time.\n    (A) experience         (B) machine          (C) service           (D) traffic\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -466,6 +478,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 13,
+        "section_label": "單題",
         "raw_text": "13. In the future, there will         be greater basketball players than Stephen Curry, but now\n    we believe he is the best!\n    (A) again               (B) already            (C) never              (D) perhaps\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -501,6 +514,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 14,
+        "section_label": "單題",
         "raw_text": "14. I guess the rainwater has come in from the kitchen.  See?           of the windows are closed\n    except the one in the kitchen.\n    (A) All                (B) Both              (C) Most                 (D) Some\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -536,6 +550,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 15,
+        "section_label": "單題",
         "raw_text": "15.\t        machines have been used to pick fruits for a long time, they were not used on\n    strawberry farms until several years ago.\n    (A) Although          (B) Because          (C) Before              (D) If\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -571,6 +586,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 16,
+        "section_label": "單題",
         "raw_text": "16. There are online videos that teach you exercises you can do at home.  They’ll            you a\n    trip to the gym, and some money too.\n    (A) cost               (B) give              (C) keep             (D) save\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -606,6 +622,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 17,
+        "section_label": "單題",
         "raw_text": "17.   Jane’s parents are always happy to see their grandchildren, but mine        less so when I\n      visit them with my kids.\n      (A) is                 (B) are                (C) do               (D) does\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -641,6 +658,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 18,
+        "section_label": "單題",
         "raw_text": "18. Before she           about it, you should tell Daphne you broke her favorite cup.\n    (A) asks                (B) asked               (C) was asking        (D) will ask\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -676,6 +694,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 19,
+        "section_label": "單題",
         "raw_text": "19. It was very windy this morning.   Some of the shirts on the balcony were blown away\n             in the pond.\n    (A) fell              (B) and fell       (C) fallen            (D) and fallen\n\n\n\n\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -746,6 +765,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 20,
+        "section_label": "題組",
         "raw_text": "20. What happened to Rex?\n    (A) He got lost.\n    (B) He got hurt.\n    (C) He bit people.\n    (D) He ate too much.\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -781,6 +801,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 21,
+        "section_label": "題組",
         "raw_text": "21.     How did the writer help Rex?\n        (A) By calling the police.\n        (B) By making him exercise.\n        (C) By taking him to see a doctor.\n        (D) By looking for a new home for him.\n\n\n\n\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -851,6 +872,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 22,
+        "section_label": "題組",
         "raw_text": "22. What do we know about Mark from the dialogue?\n    (A) He made Linda unhappy.\n    (B) He is looking for a new job.\n    (C) He did not like Linda’s cake.\n    (D) He is getting married to Jenny.\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -886,6 +908,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 23,
+        "section_label": "題組",
         "raw_text": "23. Which is most likely an example of stealing someone＇     s thunder?           likely 可能\n    (A) Dennis never changes his mind except when his wife tells him to.\n    (B) Melisa tells Tom she’ll go to the party but tells her mom she’ll stay home.\n    (C) Jeff tells everyone he’ll move abroad when Ivy is still telling them about her baby.\n    (D) \u0007Alisa says she doesn’t care what we have for lunch but also doesn’t like the restaurant\n        we chose.\n\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -956,6 +979,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 24,
+        "section_label": "題組",
         "raw_text": "24. What can you do with a White Lake City Card?\n    (A) Save 20% on children’s train tickets.   \n    (B) Visit any public museum in the city for free.  \n    (C) Take a train to places out of the three zones.  \n    (D) Move around the city by metro as much as you want.  \n",
         "explanation_source": "ai_v1_inline"
       },
@@ -991,6 +1015,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 25,
+        "section_label": "題組",
         "raw_text": "25. Stacy is going to White Lake City and is staying at a hotel near the White Lake Main\n    Station.  She wants to visit the Museum of White Lake City History on Friday and see\n    White Lake on Saturday.  If she plans to buy (a) White Lake City Card(s), which of the four\n    choices will be best for her and cost her the least?\n    (A) A 3-day Card for Zone 1.\n    (B) A Weekend Card for Zones 1-3.\n    (C) A 1-day Card for Zone 1 and a Weekend Card for Zones 1-2.\n    (D) A 1-day Card for Zones 1-2 and a Weekend Card for Zones 1-2.\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -1062,6 +1087,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 26,
+        "section_label": "題組",
         "raw_text": "26. What is Rolling Acres?\n    (A) A zoo.\n    (B) A campground.\n    (C) A vacation farm.\n    (D) A family restaurant.\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -1097,6 +1123,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 27,
+        "section_label": "題組",
         "raw_text": "27. What do we learn from the first paragraph?                             paragraph 段落\n    (A) What Libby does at Rolling Acres.\n    (B) What visitors think of Rolling Acres.\n    (C) Why Libby’s grandparents started Rolling Acres.\n    (D) What the Larson family’s plans are for Rolling Acres.\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -1132,6 +1159,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 28,
+        "section_label": "題組",
         "raw_text": "28. What does making sacrifices mean?\n    (A) Learning to make money and use it wisely.\n    (B) Getting to know different sides of your family.\n    (C) Making excuses for failing to do something difficult.\n    (D) Giving up something important to do something else.\n\n\n\n\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -1203,6 +1231,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 29,
+        "section_label": "題組",
         "raw_text": "29. What do the comics tell us?\n    (A) Enjoy life while we can.\n    (B) Follow the old ways of life.\n    (C) Save our planet before it’s too late.\n    (D) Treat others the way we want to be treated.\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -1238,6 +1267,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 30,
+        "section_label": "題組",
         "raw_text": "30. What can we learn about the people in the comics?\n    (A) They made fire before starting a fight.\n    (B) They fought for land and plants all the time.\n    (C) They prayed to the statues beside a large fire.\n    (D) They used statues to show how strong they were.\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -1273,6 +1303,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 31,
+        "section_label": "題組",
         "raw_text": "31.    What does did it in Picture 7 mean?\n       (A) Fall to the ground.\n       (B) Cut down the last trees.\n       (C) Move the statues to fighting grounds.\n       (D) Understand how important trees were.\n\n\n\n\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -1344,6 +1375,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 32,
+        "section_label": "題組",
         "raw_text": "32. What did Ariely try to find out in the origami study?\n    (A) If he could stop the IKEA effect.\n    (B) Why people love making origami.\n    (C) Why IKEA furniture is so famous.\n    (D) If anyone shared his IKEA experience.\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -1379,6 +1411,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 33,
+        "section_label": "題組",
         "raw_text": "33. Which is true about the origami study?\n    (A) Buyers would spend less on builders’ origami than builders would.\n    (B) Builders and buyers needed to decide a price on the origami they made.\n    (C) Builders knew others would not pay as much for the origami as they would.\n    (D) Buyers would spend more on builders’ origami after knowing how they were made.\n\n\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -1414,6 +1447,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 34,
+        "section_label": "題組",
         "raw_text": "34. Jerry just can’t get his daughter Mia to eat more vegetables at dinner.  Every time he tries\n    to do so, there is always a lot of shouting and crying.  If Jerry wants to have Mia eat more\n    vegetables by using the IKEA effect, what should he do?\n    (A) Tell Mia that he cooks the vegetables just for her.\n    (B) Ask Mia to help him cook vegetables for her meal.\n    (C) Give Mia her favorite candy after she eats vegetables.\n    (D) Ask Mia what vegetables she likes and cook them for her.\n\n\n\n\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -1485,6 +1519,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 35,
+        "section_label": "題組",
         "raw_text": "35. What is the reading mainly about?\n    (A) The tips on using a picture to tell a story.\n    (B) The change that electricity brought to people’s lives.\n    (C) The history behind the picture of a UK electricity worker.\n    (D) The story of a famous UK electricity worker from the 1970s.\n\n\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -1520,6 +1555,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 36,
+        "section_label": "題組",
         "raw_text": "36. In the UK in the 1970s, what did people most likely think of the UK electricity workers?\n    (A) They were not brave enough to fix their problems.\n    (B) They worked like robots and never learned to change.                   likely 可能\n    (C) They were asking too much and did not know when to stop.\n    (D) They did not care whether their job might hurt people’s health.\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -1555,6 +1591,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 37,
+        "section_label": "題組",
         "raw_text": "37.   Why does the writer put the “ ” mark around the word dark in the last sentence?\n      (A) To say that the “dark” time was actually not dark.\n      (B) To tell people that the word was said by the government.\n      (C) To mean both the days without lights and the difficult lives people lived.\n      (D) To show that the government and the electricity workers both lost their fights.\n\n\n\n\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -1632,6 +1669,7 @@
         ],
         "parse_confidence": 0.4,
         "original_question_number": 38,
+        "section_label": "題組",
         "raw_text": "38. (A) starts             (B) started              (C) has started      (D) will start\n"
       },
       "is_active": false,
@@ -1668,6 +1706,7 @@
         ],
         "parse_confidence": 0.75,
         "original_question_number": 39,
+        "section_label": "題組",
         "raw_text": "39. (A) he got quite scared of two things\n    (B) he still couldn’t understand two things\n    (C) he couldn’t stop thinking about two things\n    (D) he did two things that would change his life\n"
       },
       "is_active": false,
@@ -1704,6 +1743,7 @@
         ],
         "parse_confidence": 0.75,
         "original_question_number": 40,
+        "section_label": "題組",
         "raw_text": "40. (A) should be spent helping his mom\n    (B) should be a time of welcoming a new start\n    (C) should not be about him, but about his mom\n    (D) should not be celebrated for just one day, but for nine months\n"
       },
       "is_active": false,
@@ -1741,6 +1781,7 @@
         ],
         "parse_confidence": 0.4,
         "original_question_number": 41,
+        "section_label": "題組",
         "raw_text": "41. (A) first              (B) last                 (C) only             (D) other\n"
       },
       "is_active": false,
@@ -1777,6 +1818,7 @@
         ],
         "parse_confidence": 0.75,
         "original_question_number": 42,
+        "section_label": "題組",
         "raw_text": "42. (A) made his head hurt                          (B) made his heart sing\n    (C) made him change his mind \t                  (D) made him give up baking\n"
       },
       "is_active": false,
@@ -1814,6 +1856,7 @@
         ],
         "parse_confidence": 0.4,
         "original_question_number": 43,
+        "section_label": "題組",
         "raw_text": "43. (A) is going to give   (B) gives                (C) has given        (D) gave\n\n\n\n"
       },
       "is_active": false,

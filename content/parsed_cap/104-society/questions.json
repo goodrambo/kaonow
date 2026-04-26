@@ -48,6 +48,7 @@
         ],
         "parse_confidence": 0.85,
         "original_question_number": 1,
+        "section_label": "單題",
         "raw_text": "1.   圖(一)為臺灣1980年、2010年及推估2040年的扶養比示意圖，依據年代先後順\n     序排列應為下列何者？\n     (A)甲乙丙        䏰            ᴗ        ᳗\n     (B)甲丙乙\n     (C)乙甲丙\n     (D)乙丙甲\n                           圖(一)"
       },
       "is_active": false,
@@ -82,6 +83,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 2,
+        "section_label": "單題",
         "raw_text": "2.   根據聯合國《海洋法公約》規定，各國擁有在其經濟海域內資源的使用權。臺灣\n     因四面環海，島嶼眾多，擁有廣大的經濟海域，但因與鄰近國家的經濟海域重\n     疊，經常有漁業上的糾紛。上文所述的鄰近國家不包含下列何者？\n     (A)中國\n     (B)日本\n     (C)南韓\n     (D)菲律賓\n\n\n\n\n                                                   \u0018㗆\n                                         \u0016㗆\n                                              \u0017㗆\n\n\n                                                        \u0019㗆\n                                                             \u001a㗆\n                                                                  \u001b㗆\n                                                                       \n㗆\n                                    \u0015㗆",
         "explanation_source": "ai_v1"
       },
@@ -120,6 +122,7 @@
         ],
         "parse_confidence": 0.6,
         "original_question_number": 3,
+        "section_label": "單題",
         "raw_text": "3.   圖(二)為颱風、梅雨、寒害、乾旱在臺灣西     \u0014㗆                                        \u0014\u0013 \u0014\u0014 \u0014\u0015\n                                                                        㗆 㗆 㗆\n     南部主要發生的月分，下列配對何者正確？      䏰\n     (A)甲為梅雨                                       ᴗ\n                                                              ᳗\n     (B)乙為颱風                            Ჿ\n     (C)丙為寒害                                            圖(二)\n     (D)丁為乾旱\n"
       },
       "is_active": false,
@@ -154,6 +157,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 4,
+        "section_label": "單題",
         "raw_text": "4.   「新加坡的土地面積雖然不大，但因具有某項優越的條件，加上政府政策的\n     指導，成功地讓新加坡的煉油產業快速發展，現已成為世界第三大煉油中\n     心。」文中所述的優越條件應是指下列何者？\n     (A)為主要石油生產國\n     (B)人口多且勞力充足\n     (C)地理位置佳且海運便利\n     (D)國內重工業市場需求大\n                              ԭ(࿤ѳБϦٚ\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -191,6 +195,7 @@
         ],
         "parse_confidence": 0.85,
         "original_question_number": 5,
+        "section_label": "單題",
         "raw_text": "5.   圖(三)顯示歷年2月分北極海冰範圍變化情           17.0\n     形，該變化趨勢與下列同時期何者的變化趨            16.5\n     勢最為相似？                         16.0\n     (A)全球淡水資源需求                    15.5\n                              )\n\n\n\n\n     (B)全球海平面的高度                    15.0\n     (C)全球熱帶雨林面積                    14.5\n     (D)全球二氧化碳濃度\n                                    14.0\n                                               1985          1995           2005 (ԃ)\n                                                    圖(三)\n\n"
       },
       "is_active": false,
@@ -228,6 +233,7 @@
         ],
         "parse_confidence": 0.6,
         "original_question_number": 6,
+        "section_label": "單題",
         "raw_text": "6.   圖(四)為某雜誌上刊載的紀念戳章及其簡介，根據內\n     容判斷，此紀念章最可能是描繪下列何時臺灣的景\n     象？\n     (A)荷蘭統治時期\n     (B)清朝統治前期\n     (C)清朝統治後期                     圖(四)\n     (D)日本統治時期\n                                                          Ҙ"
       },
       "is_active": false,
@@ -265,6 +271,7 @@
         ],
         "parse_confidence": 0.6,
         "original_question_number": 7,
+        "section_label": "單題",
         "raw_text": "7.   以下是一段十七世紀的文獻記載：「西班牙人每年向該地\n     的已婚原住民課徵二隻雞和三甘當米的稅，原住民感到無\n     法忍受，所以襲擊該地的西班牙城堡，殺了三十個西班牙\n                                   Ό\n     人。」此段記載最可能是描繪圖(五)中何處的情況？\n     (A)甲\n                  & 甘當：一種量米的容器。    Ч\n     (B)乙                                             ΍\n     (C)丙\n     (D)丁                                     圖(五)"
       },
       "is_active": false,
@@ -302,6 +309,7 @@
         ],
         "parse_confidence": 0.4,
         "original_question_number": 8,
+        "section_label": "單題",
         "raw_text": "8.   十六世紀時，馬丁路德批判羅馬教會，揭開宗教改革的序幕。下列資料中何者\n     最可能是馬丁路德的主張？\n     (A)             (B)\n\n\n\n     (C)             (D)\n\n\n\n"
       },
       "is_active": false,
@@ -336,6 +344,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 9,
+        "section_label": "單題",
         "raw_text": "9.   某書提及：「清廷想收回民間集資興建鐵路的權利，所以針對民間已投資者\n     提出補償：在湖南、湖北，投資金額全數償還；在廣東，僅償還 60%，其餘\n     40%由政府股票支付；在四川，政府僅發給股票。這種處置引起四川士紳激\n     憤，朝廷為控制騷亂，將部分湖北軍隊調往四川。」上述情況最可能為下列\n     何者的發生提供了機會？\n     (A)自強運動         (B)戊戌政變\n     (C)武昌起義         (D)義和團事變\n",
         "explanation_source": "ai_v1"
       },
@@ -373,6 +382,7 @@
         ],
         "parse_confidence": 0.85,
         "original_question_number": 10,
+        "section_label": "單題",
         "raw_text": "10. 圖(六)描繪中國某一朝代的官員正在接待來訪\n    使節的情況，根據圖片內容判斷，此朝代最可\n                                                榖浕ピ㑮乃ḽ仃\n\n\n                                                              㘯⇕⫏㐶㫏㒍ḽ仃\n                                    ㆚∞⵫ⳛ◉ḽ仃\n\n\n\n\n    能是下列何者？\n    (A)周朝\n    (B)漢朝\n    (C)唐朝\n    (D)清朝\n                                  圖(六)\n"
       },
       "is_active": false,
@@ -407,6 +417,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 11,
+        "section_label": "單題",
         "raw_text": "11. 公民老師在課堂上說明關於「價值觀念變遷」的主題，並請四位同學舉出適\n    當的例子加以說明。下列哪一位同學舉出的例子，最符合上述主題？\n    (A)阿智：網際網路科技發達\n    (B)小強：性別平等意識抬頭\n    (C)美美：立法委員席次調整\n    (D)小明：大眾捷運系統普及\n\n",
         "explanation_source": "ai_v1"
       },
@@ -444,6 +455,7 @@
         ],
         "parse_confidence": 0.85,
         "original_question_number": 12,
+        "section_label": "單題",
         "raw_text": "12. 表(一)是大榮家一年來理財投資結果的分析         表(一)\n    表。根據表中內容判斷，大榮家所選擇的各         投入金額 獲利金額\n                           投資工具\n    項投資工具中，何者的投資報酬率最高？          ( 萬元 ) ( 萬元 )\n    (A)股票                   股票      50    1\n    (B)債券                   債券    100     2\n    (C)基金                   基金       20   1\n    (D)存款                   存款       25   0.5\n\n"
       },
       "is_active": false,
@@ -478,6 +490,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 13,
+        "section_label": "單題",
         "raw_text": "13. 發生刑事案件時，偵查人員蒐集、鑑定相關證據，並研判嫌疑人的心態、動\n    機等，以呈現犯罪事實，其目的在提供下列何人作為「判決」的依據？\n    (A)法官\n    (B)檢察官\n    (C)原告律師\n    (D)刑事警察\n\n",
         "explanation_source": "ai_v1"
       },
@@ -513,6 +526,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 14,
+        "section_label": "單題",
         "raw_text": "14. 過去大家總認為「法不入家門」，但近年來家庭暴力問題逐漸受到重視，因\n    此政府制定《家庭暴力防治法》，以處理相關問題。下列何者屬於上述法規\n    處理此類問題的作法？\n    (A)以感化教育處理少年暴力問題\n    (B)禁止兒童及少年出入不良場所\n    (C)法院核發保護令保障受害者安全\n    (D)由法院宣告剝奪不適任父母親權\n\n",
         "explanation_source": "ai_v1"
       },
@@ -548,6 +562,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 15,
+        "section_label": "單題",
         "raw_text": "15. 右列是小諭舉例說明某一概念的部分內容，\n    根據內容判斷，這應是在探討《憲法》中的  皮皮辦理簽證，利用假期到國\n    哪一項人民基本權利？           外旅遊。\n    (A)平等權               毛毛關心政治，經常在報紙上\n    (B)自由權               投稿發表對政治議題的看法。\n    (C)受益權\n    (D)參政權\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -585,6 +600,7 @@
         ],
         "parse_confidence": 0.85,
         "original_question_number": 16,
+        "section_label": "單題",
         "raw_text": "16. 圖(七)為臺灣某一縣市的海岸地形特徵          N\n    示意圖，根據圖中資訊判斷，最有可能          ザ⯔⮫❿ 䛀䟩◝宨                 ⭧䚱㰵⭶\n    是顯示下列哪一縣市的海岸地形特徵？\n\n\n\n\n                                ᑜѱࣚ\n\n\n                                         ྛࢬ\n\n\n                                                   ྛࢬ\n\n\n\n\n                                                                     ᑜѱࣚ\n    (A)新北市   (B)臺南市\n    (C)屏東縣   (D)花蓮縣\n                                                  圖(七)\n"
       },
       "is_active": false,
@@ -621,6 +637,7 @@
         ],
         "parse_confidence": 0.85,
         "original_question_number": 17,
+        "section_label": "單題",
         "raw_text": "17. 近年來，鳳梨酥成為國人及外國遊客          䣬㟋Ʊ㉟㏴       弉庿        垻ḚƱ⇃垛        慵⏬\n    喜愛的伴手禮之一，產值逐年上升。           Ҙ              Ό          Ч       ΍\n    圖(八)為鳳梨酥產銷過程的示意圖，                         圖(八)\n    甲、乙、丙、丁哪些屬於第三級產業？\n    (A)甲乙    (B)甲丙\n    (C)乙丁    (D)丙丁                    䏰\n\n"
       },
       "is_active": false,
@@ -657,6 +674,7 @@
         ],
         "parse_confidence": 0.85,
         "original_question_number": 18,
+        "section_label": "單題",
         "raw_text": "18. 某位旅行家從北非乾燥地區出發，向北經地中\n    海到達北歐，圖(九)是他記錄途中民宅常見的             ᴗ\n    窗戶形式。在他的旅途中依序記錄的窗戶形式\n    應為下列何者？\n    (A)甲→乙→丙\n    (B)甲→丙→乙                          ᳗\n    (C)丙→甲→乙\n    (D)丙→乙→甲\n                                                    圖(九)\n"
       },
       "is_active": false,
@@ -693,6 +711,7 @@
         ],
         "parse_confidence": 0.85,
         "original_question_number": 19,
+        "section_label": "單題",
         "raw_text": "19. 圖(十)為中國某一氣候資料的等值線分布圖，\n    圖中甲＜乙＜丙＜丁，則該氣候資料應為下列\n    何者？\n                                              䏰\n    (A)年雨量                                    ᴗ              ᳗\n    (B)年溫差\n    (C)七月均溫                                                  Ჿ\n    (D)年雨量變率 & 年雨量變率＝年降水量變率\n                                                    圖(十)\n"
       },
       "is_active": false,
@@ -729,6 +748,7 @@
         ],
         "parse_confidence": 0.85,
         "original_question_number": 20,
+        "section_label": "單題",
         "raw_text": "20. 圖(十一)是北美洲沿35°N的地形剖面圖。圖中甲、乙、丙、丁何處的年降水\n    量最少？\n           (m)\n    (A)甲  3000\n          2500\n    (B)乙  2000\n    (C)丙  1500\n          1000\n    (D)丁   500\n         Ҙ   Ό   1000km         2000km            Ч 3000km       ΍\n                              圖(十一)\n\n"
       },
       "is_active": false,
@@ -763,6 +783,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 21,
+        "section_label": "單題",
         "raw_text": "21. 一份歷史文告寫道：「自宋朝覆亡，北方外族入主中原，百年不到，天下大亂。\n    我本是平民，被眾人推舉，率軍攻占金陵(今南京)，再北上驅逐胡虜。色目等雖為\n    異族，但若衷心歸順，仍是中華子民。」以上敘述與下列哪一史事關係最密切？\n    (A)朱元璋起兵反元       (B)鄭成功反清復明\n    (C)孫中山創建中華民國     (D)洪秀全建立太平天國\n",
         "explanation_source": "ai_v1"
       },
@@ -801,6 +822,7 @@
         ],
         "parse_confidence": 0.6,
         "original_question_number": 22,
+        "section_label": "單題",
         "raw_text": "22. 圖(十二)為臺灣\n    某一史前文化遺\n    址的圖片，根據\n    其內容判斷，此\n    一文化應為下列\n    何者？\n    (A)長濱文化                 圖(十二)\n    (B)圓山文化\n    (C)大坌坑文化\n    (D)十三行文化\n"
       },
       "is_active": false,
@@ -838,6 +860,7 @@
         ],
         "parse_confidence": 0.6,
         "original_question_number": 23,
+        "section_label": "單題",
         "raw_text": "23. 圖(十三)呈現某時期中華民國政府對於一本辭典的審查結\n    果，根據圖片內容判斷，此辭典最可能是在下列何時接受\n    政府單位的審查？\n    (A)聯俄容共時期\n    (B)寧 漢分裂時期\n    (C)八年抗戰時期\n    (D)臺灣戒嚴時期                          圖(十三)\n"
       },
       "is_active": false,
@@ -874,6 +897,7 @@
         ],
         "parse_confidence": 0.85,
         "original_question_number": 24,
+        "section_label": "單題",
         "raw_text": "24. 圖(十四)是歷史上某人宣誓的內容，該宣誓和下列何者最有關係？\n\n\n\n\n                    圖(十四)\n  (A)上古印度的種姓制度        (B)古典希臘的民主政治\n  (C)中古西歐的封建制度        (D)近代法國的君權神授\n"
       },
       "is_active": false,
@@ -908,6 +932,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 25,
+        "section_label": "單題",
         "raw_text": "25. 右列是某次美國外交聲明的概要，根據\n                           我國政府希望各國在中國的商業\n    內容判斷，美國為何發表此一聲明？       和航運能享受平等待遇，我國人民\n    (A)闡明門戶開放政策，維護在華利益     的利益，也不得因列強在華畫分勢\n    (B)要求中國開港通商，發動鴉片戰爭     力範圍而受到損害，故反對列強在\n    (C)參與瓜分中國領土，確保勢力範圍     大清帝國領土內的獨占權利，或對\n    (D)議定《天津條約》內容，保護僑民安全   土地的控制權。\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -943,6 +968,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 26,
+        "section_label": "單題",
         "raw_text": "26. 據報載，我國某縣的財政狀況長期入不敷出，導致當地政府的財政問題日益\n    嚴重，恐將出現延遲發放基層公務人員薪水的情形。為了解決上述問題，下\n    列何者最可能是該縣政府依法採行的方法？\n    (A)調高所得稅的課徵稅率\n    (B)發展地方特色產業活動\n    (C)維持市場上的交易秩序\n    (D)提高社會福利支出比例\n\n",
         "explanation_source": "ai_v1"
       },
@@ -978,6 +1004,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 27,
+        "section_label": "單題",
         "raw_text": "27. 某黨主席在一場選舉活動中，為該黨候選人李大同拉票的發言內容如下：\n    「李大同已多次連任，具有豐富的經驗，相信他一定能為大家好好的監督政\n    府，請各位選民繼續給他連任的機會。」李大同所參選的公職人員最可能是\n    下列何者？\n    (A)市長          (B)鎮長\n    (C)監察委員        (D)立法委員\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1013,6 +1040,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 28,
+        "section_label": "單題",
         "raw_text": "28. 右列是阿平上課報告時所舉的例子，\n                         汽車駕駛人於開車時，使用手持式\n    根據其內容判斷，下列何者最可能是     行動電話進行撥接或通話者，處新\n    該報告的主題？              臺幣 3,000 元罰款。\n    (A)政府可透過刑事處罰減少犯罪事件   不良場所業者應拒絕兒童及少年進\n    (B)政府可藉由行政處分處理外部效果   入，違者將被主管機關處以罰款，並\n    (C)政府可制定民事法規解決民事糾紛   公告負責人姓名。\n    (D)政府可修改相關法規增加國家稅收\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1050,6 +1078,7 @@
         ],
         "parse_confidence": 0.85,
         "original_question_number": 29,
+        "section_label": "單題",
         "raw_text": "29. 小英和阿泉一起編製竹筐和斗笠，依比較利益法則進行分     表(二)\n    工，阿泉被分配去製作竹筐，表(二)是他們每小時所能製作   竹筐 斗笠\n    數量的部分數據。根據上述內容判斷，下列敘述何者正確？ 小英 6\n    (A)小英在製作斗笠上具有絕對利益\n                                阿泉 3   乙\n    (B)阿泉在製作斗笠上具有絕對利益\n                                   單位：個\n    (C)小英製作斗笠的機會成本比較高\n    (D)阿泉製作斗笠的機會成本比較低\n\n"
       },
       "is_active": false,
@@ -1084,6 +1113,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 30,
+        "section_label": "單題",
         "raw_text": "30. 新聞節目製作了藝人林小花的專題報導，而小花在看完報導後認為內容有\n    誤，造成她的困擾。律師告訴小花，其實她有權要求該節目給予答辯之機\n    會，且電視臺不得拒絕。下列何者最符合上述內容的意涵？\n    (A)公民享有接受媒體採訪與否的自由\n    (B)媒體工作者有報導社會事件的自由\n    (C)媒體經營者有選擇報導內容的權利\n    (D)大眾享有公平接近使用媒體的權利\n",
         "explanation_source": "ai_v1"
       },
@@ -1122,6 +1152,7 @@
         ],
         "parse_confidence": 0.6,
         "original_question_number": 31,
+        "section_label": "單題",
         "raw_text": "31. 在古代，由於沒有電話和無線電等通訊設\n    備，烽火臺成為傳遞軍情的最好設施之一，\n    傳遞的方法是白天燃煙，夜間舉火。為使軍\n    情能快速傳遞，烽火臺通常設置在視野極佳\n    的位置。圖(十五)中甲、乙、丙、丁哪一地\n\n\n\n\n\n\n\n\n                                       40              0m\n\n\n\n\n    點最適合設置烽火臺？                                       10\n    (A)甲     (B)乙\n    (C)丙     (D)丁                     圖(十五)\n"
       },
       "is_active": false,
@@ -1156,6 +1187,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 32,
+        "section_label": "單題",
         "raw_text": "32. 近年來，中國許多內陸的民工不願再到沿海地區工作，反而留在家鄉就業，\n    使沿海地區爆發嚴重的「缺工潮」，沿海工廠只好不斷放寬條件限制，或以\n    其他誘因來吸引員工。下列何者最可能是造成上述缺工潮的原因？\n    (A)沿海地區的工廠外移    (B)內陸地區的物價高漲\n    (C)沿海地區薪資所得降低   (D)內陸地區就業機會增加\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1191,6 +1223,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 33,
+        "section_label": "單題",
         "raw_text": "33. 希臘的海岸線曲折、多海灣，這是因陸地丘陵延伸至海岸，受海面相對上升的\n    影響，沿海谷地被海水淹沒，使得各處都有深入內陸的海灣。依上文所描述的\n    海岸特性，下列何處的海岸類型與希臘最為相似？\n    (A)臺灣東部海岸       (B)埃及 尼羅河口\n    (C)中國 華南沿海      (D)大洋洲 吐瓦魯海岸\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1229,6 +1262,7 @@
         ],
         "parse_confidence": 0.6,
         "original_question_number": 34,
+        "section_label": "單題",
         "raw_text": "34. 圖(十六)呈現2000年某一地理現象在不同   60°N\n    緯度的分布差異。已知縱坐標為緯度，       30°N\n    橫坐標代表該現象的數據。根據該現象          0°\n                            30°S\n    在不同緯度的數據大小判斷，此一地理\n                            60°S\n    現象最可能是指下列何者？\n    (A)人口數     (B)年降水量               圖(十六)\n    (C)森林面積    (D)人均GDP\n"
       },
       "is_active": false,
@@ -1265,6 +1299,7 @@
         ],
         "parse_confidence": 0.85,
         "original_question_number": 35,
+        "section_label": "單題",
         "raw_text": "35. 德國由於生育率低，人口結構老化，總                表(三)\n    人口數多年呈現負成長。2011年，該國             年度\n                                       2010 年 2011 年\n    總人口數較前一年成長0.1%，是近年      人口資料\n    來首度正成長。表(三)是該國2010年和    總人口數        8170.8      8180.0\n    2011年的部分人口資料，根據表中資料     新生兒人口數           67.8     66.3\n    推論，下列何者最可能是德國該年總人       死亡人口數            85.8  85.2\n    口數增加的主要原因？                                  單位：萬人\n    (A)政府鼓勵生育的政策奏效\n    (B)大幅開放東歐國家的移民\n    (C)老人慢性病獲得明顯控制\n    (D)給予多國觀光免簽證待遇\n"
       },
       "is_active": false,
@@ -1301,6 +1336,7 @@
         ],
         "parse_confidence": 0.85,
         "original_question_number": 36,
+        "section_label": "單題",
         "raw_text": "36. 圖(十七)中甲、乙、丙三張照片，分別與某戰爭中的三個重要事件有關，若依這\n    些事件發生的時間先後順序排列，下列何者正確？\n\n\n\n\n      䏰Ʊ搵⯌≝⨎⸆䃄㽶弸岟   ᴗƱ䊋䊞㳭ᵉ婈䮾⺳柦     ᳗Ʊ妼㖺䧪䔹收攡ᵟ⫅➩䮾⺳䝏\n\n                       圖(十七)\n  (A)乙甲丙\n  (B)乙丙甲\n  (C)丙甲乙\n  (D)丙乙甲\n"
       },
       "is_active": false,
@@ -1338,6 +1374,7 @@
         ],
         "parse_confidence": 0.6,
         "original_question_number": 37,
+        "section_label": "單題",
         "raw_text": "37. 歷史學者曾指出：「西周的封建，乃是一種侵略性\n    的武裝移民與軍事占領。」上述朝代的封建擴張，\n    主要是向圖(十八)中哪一方向？\n    (A)甲\n    (B)乙\n    (C)丙\n    (D)丁                                        圖(十八)\n"
       },
       "is_active": false,
@@ -1374,6 +1411,7 @@
         ],
         "parse_confidence": 0.85,
         "original_question_number": 38,
+        "section_label": "單題",
         "raw_text": "38. 表(四)是歷史上某人在臺灣旅遊的部分行                    表(四)\n    程，依內容判斷，此人最可能是下列何             時間   地點       參觀行程\n    者？                                        孔廟、赤崁樓、\n                                 2/22-2/23 臺南\n    (A)日本統治下訪臺的國會議員                           嘉南大圳\n    (B)清代開港時來臺的外國商人                           西子灣海水浴場、\n                                 2/23-2/24 高雄\n    (C)跟隨鄭成功來臺的明朝文人                           臺糖製糖廠\n    (D)荷蘭 聯合東印度公司的駐臺牧師              2/24   屏東 鵝鑾鼻燈塔\n                                              紅毛城、英國領\n                                    2/27   臺北\n                                              事館\n\n"
       },
       "is_active": false,
@@ -1410,6 +1448,7 @@
         ],
         "parse_confidence": 0.85,
         "original_question_number": 39,
+        "section_label": "單題",
         "raw_text": "39. 圖(十九)呈現在1500年與1913年，某一洲的國家因政           70\n    治、軍事、經濟力量的轉變，所掌控的世界陸地面                 60\n    積比例的變化。此一洲最可能是下列何者？                    50\n    (A)非洲                                  40\n    (B)美洲                                  30\n    (C)亞洲                                  20\n    (D)歐洲                              %\n                                                1500ԃ 1913ԃ\n                                                圖(十九)\n"
       },
       "is_active": false,
@@ -1444,6 +1483,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 40,
+        "section_label": "單題",
         "raw_text": "40. 某國因強烈颶風侵襲，導致各地發生嚴重災情、民眾傷亡無數。若這樣的情\n    況發生在我國，而政府認為應發布緊急命令加以因應，下列何者是其生效的\n    必要條件之一？\n    (A)經行政院發布      (B)經立法院追認\n    (C)經憲法法庭審理     (D)經公民投票複決\n",
         "explanation_source": "ai_v1"
       },
@@ -1481,6 +1521,7 @@
         ],
         "parse_confidence": 0.85,
         "original_question_number": 41,
+        "section_label": "單題",
         "raw_text": "41. 圖(二十)是上公民課時使用的教                                      圊㏽売壝\n                              㫏ᵉ㜆ᶴ\n    具，根據圖中的相對關係判斷，                                        㜆ᶴ\n    該「權利救濟機關」應為下列何\n                                       㧈⃧㐏㺝㤝撚\n    者？\n    (A)地方法院                   ⌈売ᴁ妔                      昜⌈売ᴁ妔\n    (B)行政法院                    㜆ᶴ                         㜆ᶴ\n\n    (C)調解委員會                       ᶡ圦⊭⋏夰㤝撚⫉㬀㧈⃧㐏㺝\n    (D)上級主管機關                      ᶡ圦᳋⊭⋏夰㤝撚⫉㬀㧈⃧㐏㺝\n                                           圖(二十)\n"
       },
       "is_active": false,
@@ -1518,6 +1559,7 @@
         ],
         "parse_confidence": 0.6,
         "original_question_number": 42,
+        "section_label": "單題",
         "raw_text": "42. 飯店業者常運用需求法則，針對不同時段                   表(五)\n    的來客數量設定不同的價格，希望盡可能 時段 原本房價(元) 優惠後房價(元)\n    提高住房率。表(五)為某飯店原本房價及 甲            4000     2800\n    優惠後房價，根據表中資料判斷，若不考 乙             4000     2000\n    慮其他條件，下列何者最可能是該飯店推\n                                 丙   4000     3600\n    出優惠方案之前的住房情況？\n    (A)        (B)        (C)        (D)\n        時段 住房率     時段 住房率     時段 住房率     時段 住房率\n     甲   40%    甲   70%        甲     70%      甲      90%\n     乙   90%    乙   40%        乙     90%      乙      40%\n     丙   70%    丙   90%        丙     40%      丙      70%\n\n"
       },
       "is_active": false,
@@ -1555,6 +1597,7 @@
         ],
         "parse_confidence": 0.6,
         "original_question_number": 43,
+        "section_label": "單題",
         "raw_text": "43. 圖(二十一)是依某店家招牌商品的市場供需狀況所繪\n    製的圖形，根據圖中訊息判斷，此項招牌商品在下\n    列四種定價時，何者為店家帶來的銷貨收入最高？                   60\n    (A) 20                                   20\n    (B) 40                                    0    20 40 55 75\n    (C) 60\n    (D) 110                                       圖(二十一)\n"
       },
       "is_active": false,
@@ -1589,6 +1632,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 44,
+        "section_label": "單題",
         "raw_text": "44. 基於家庭倫理及優生學的考量，我國《民法》規定具有近親關係的血親及姻\n    親間不得結婚。根據上述內容判斷，下列何種組合若登記結婚，其婚姻最可\n    能是有效的？\n    (A)愛美與哥哥的養子    (B)曉華與伯父的兒子\n    (C)大明與大嫂的妹妹    (D)英俊與姑姑的女兒\n",
         "explanation_source": "ai_v1"
       },
@@ -1624,6 +1668,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 45,
+        "section_label": "單題",
         "raw_text": "45. 從十六世紀哥白尼的「地球繞日說」，到十七世紀伽利略主張「太陽中心\n    說」、牛頓發表「萬有引力定律」，這些學說的提出，在歷史上最可能具有\n    下列何種意義？\n    (A)嘗試改變生產方式，使用機器取代人力\n    (B)宣揚社會福利概念，解決貧富差距問題\n    (C)試圖用理性態度，了解宇宙的自然法則\n    (D)強調個性解放，重視人類的情感與直覺\n",
         "explanation_source": "ai_v1"
       },
@@ -1659,6 +1704,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 46,
+        "section_label": "單題",
         "raw_text": "46. 新聞報導：「少子化問題日益嚴重，我國的自然增加率恐將成為負值，政府\n    已把此問題視為危及國家安全的國安議題，交由各部會擬定妥善的因應政\n    策。」上述內容最可能是在關切下列哪一項國家組成要素的變化？\n    (A)主權           (B)人民\n    (C)政府           (D)領土\n",
         "explanation_source": "ai_v1"
       },
@@ -1696,6 +1742,7 @@
         ],
         "parse_confidence": 0.85,
         "original_question_number": 47,
+        "section_label": "單題",
         "raw_text": "47. 公民老師為介紹歷史上某一重要事件所使用的簡圖，如圖(二十二)，其中甲、乙\n    最可能為下列何者？\n             ≝▞            ⸯ暽\n                     ╲悋\n             䏰             ᴗ\n                    廘学偦俷\n\n                 圖(二十二)\n  (A)甲：政府持續大量發行貨幣，乙：人民生活水準上升\n  (B)甲：政府持續大量發行貨幣，乙：人民生活水準下降\n  (C)甲：政府減少貨幣流通數量，乙：人民生活水準上升\n  (D)甲：政府減少貨幣流通數量，乙：人民生活水準下降\n"
       },
       "is_active": false,
@@ -1730,6 +1777,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 48,
+        "section_label": "單題",
         "raw_text": "48. 18歲的小蔡買了新房子，並完成相關手續，父母知情後雖不同意，但買賣契\n    約仍然有效；19歲的雯雯買了昂貴的名牌包，但因某些原因，此交易行為無\n    效。根據上述內容判斷，文中二人的情形最不可能是下列何者？\n    (A)雯雯遭受了監護宣告\n    (B)小蔡的婚姻狀況為已婚\n    (C)雯雯屬於限制行為能力人\n    (D)小蔡屬於限制行為能力人\n",
         "explanation_source": "ai_v1"
       },
@@ -1768,6 +1816,7 @@
         ],
         "parse_confidence": 0.6,
         "original_question_number": 49,
+        "section_label": "單題",
         "raw_text": "49. 圖(二十三)呈現某一歷史事\n    件前後，清朝治臺措施的差\n    異。從圖中內容判斷，此一\n    事件應是下列何者？\n    (A)甲午戰爭\n    (B)中 法戰爭\n    (C)林爽文事件\n    (D)牡丹社事件                圖(二十三)\n\n\n"
       },
       "is_active": false,
@@ -1805,6 +1854,7 @@
         ],
         "parse_confidence": 0.6,
         "original_question_number": 50,
+        "section_label": "單題",
         "raw_text": "50. 中國某電視臺舉辦旅遊路線設計比賽，其中有一\n    路線的行程安排如圖(二十四)所示。若要寫出呈       䉇搾撚\n    現該路線特色的介紹詞句，下列何者最合適？                   怐㮇\n                                  㐤䀊\n    (A)走近黃河源頭，探訪生命禁區\n    (B)重走絲綢之路，再現大漠風光                        ⷳ㉔\n                                                 㨤⢿\n    (C)豪情塞上威風鼓，黃土高原信天游\n    (D)甘甜瓜果齒留香，維族姑娘裙飛揚                  圖(二十四)\n\n              & 維族：此處指維吾爾族。\n"
       },
       "is_active": false,
@@ -1839,6 +1889,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 51,
+        "section_label": "單題",
         "raw_text": "51. 2013年，巴西幣貶值，幣值創四年來低點，連帶影響該國的進出口貿易。若\n    其他條件不變的情況下，此幣值波動對巴西咖啡產業造成的影響，下列何者\n    正確？\n    (A)巴西為出口國，此種波動有利咖啡出口\n    (B)巴西為出口國，此種波動不利咖啡出口\n    (C)巴西為進口國，此種波動有利咖啡進口\n    (D)巴西為進口國，此種波動不利咖啡進口\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1876,6 +1927,7 @@
         ],
         "parse_confidence": 0.85,
         "original_question_number": 52,
+        "section_label": "單題",
         "raw_text": "52. 圖(二十五)是某旅遊手冊的部分內\n    容，此手冊最可能是介紹圖(二十六)\n    中的何地？\n    (A)甲                                         䏰\n    (B)乙                    怀⺎⅟❲䙫⾞⻶⏋⠈⻡䮰Ə          ᴗ\n                            㘖⾞⛲䵘㲢㭋✗㘩㈧凯䮰䙫\n    (C)丙                    两䝊⭿悟˛䬓ᷧ㬈᷽䔳⤎㈗             ᳗\n    (D)丁                    㘩Ə㗌㜓怙⅜㭋✗Ə俳⽳⎽\n                            Ịṭ⾞⛲✏㭋䙫䵘㲢㫱Ə怀\n                            ⺎⻡䮰Ṇㇷ䂡㗌㜓⭯₀庴⏟\n                            ị䙫⭿悟üü˛\n                                                 Ჿ\n\n                               圖(二十五)       圖(二十六)\n"
       },
       "is_active": false,
@@ -1912,6 +1964,7 @@
         ],
         "parse_confidence": 0.85,
         "original_question_number": 53,
+        "section_label": "單題",
         "raw_text": "53. 假設身為監察委員的大佑，在某                 表(六)\n    段期間看到媒體揭露的四則新聞     新聞          報導內容\n    報導，如表(六)所示。根據大佑的         民調顯示，民眾對於內閣官員的滿\n    職權判斷，表中哪一則新聞的報      甲\n                             意度大幅下滑。\n    導對象，最可能被他提出彈劾？           幫派分子製毒，警方破獲史上最大\n                        乙\n    (A)甲                     毒品販賣集團。\n    (B)乙                     現任總統疑似洩漏國家機密，影響\n                        丙\n    (C)丙                     國家安全。\n    (D)丁                     中央政府部會首長涉嫌官商勾結，\n                        丁\n                             從中舞弊。\n\n\n\n"
       },
       "is_active": false,
@@ -1946,6 +1999,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 54,
+        "section_label": "單題",
         "raw_text": "54. 崇明島是位於中國第一大河出海口的島嶼，大部分隸屬於上海市。在某一段時\n    期，由於居民在島嶼周邊圍河造田，加上該大河流域內其他地區的人為活動，\n    使得島嶼面積逐漸增加。下列哪項人為活動與上文描述的島嶼面積變化關連最\n    密切？\n    (A)興築長江三峽大壩\n    (B)砍伐長江流域的森林\n    (C)在河套地區引水灌溉\n    (D)在黃河下游修築堤防\n",
         "explanation_source": "ai_v1"
       },
@@ -1981,6 +2035,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 55,
+        "section_label": "單題",
         "raw_text": "55. 秧秧至某城市旅遊，發現此城市曾歷經亞歷山大帝國、羅馬帝國、阿拉伯帝國、\n    鄂圖曼土耳其帝國的統治。秧秧最可能至下列哪一城市旅遊？\n    (A)埃及 開羅\n    (B)希臘 雅典\n    (C)義大利 羅馬\n    (D)沙烏地阿拉伯 麥加\n",
         "explanation_source": "ai_v1"
       },
@@ -2016,6 +2071,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 56,
+        "section_label": "題組",
         "raw_text": "56. 上文所述社會動盪不安的年代，主要是指下列何者？\n    (A)1910年代       (B)1930年代\n    (C)1940年代       (D)1960年代\n",
         "explanation_source": "ai_v1"
       },
@@ -2054,6 +2110,7 @@
         ],
         "parse_confidence": 0.4,
         "original_question_number": 57,
+        "section_label": "題組",
         "raw_text": "57. 下列哪一組經緯度坐標，最接近上述內陸國家所在位置？\n    (A) (60°W，23.5°N)\n    (B) (60°W，23.5°S)\n    (C) (120°W，23.5°N)\n    (D) (120°W，23.5°S)\n"
       },
       "is_active": false,
@@ -2088,6 +2145,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 58,
+        "section_label": "題組",
         "raw_text": "58. 上述內陸國家境內的山區，應屬於下列哪一座山脈？\n    (A)落磯山脈\n                 & 落磯山脈＝洛磯山脈\n    (B)安地斯山脈\n    (C)阿帕拉契山脈\n    (D)喀爾巴阡山脈\n\n\n閱讀下列選文，回答第 59 至 60 題：\n  隨著現代人生活愈來愈富足，養寵物已成為一種風潮，再加上單身貴族及\n不生育子女的雙薪家庭戶數增加，這些需要陪伴的族群常會飼養寵物作伴，使\n得臺灣寵物的數量，漸漸地比0～6歲的嬰幼兒人數還多，也帶動了寵物市場龐\n大的商機。但養寵物除了經濟上的支出外，還要注意相關的法律問題，像是許\n多人不知道寵物用剩的藥品不可任意上網販售，否則會被主管機關處以高額罰\n款。飼養寵物的主人，除了花時間照顧寵物外，可能也要多費心思了解相關規\n定，以免觸法。\n",
         "explanation_source": "ai_v1"
       },
@@ -2126,6 +2184,7 @@
         ],
         "parse_confidence": 0.4,
         "original_question_number": 59,
+        "section_label": "題組",
         "raw_text": "59. 根據上述內容判斷，下列哪種社會變遷的趨勢最可能符合文中敘述？\n    (A)     (B)     (C)    (D)"
       },
       "is_active": false,
@@ -2160,6 +2219,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 60,
+        "section_label": "題組",
         "raw_text": "60. 文中所提及違法行為應受到的處罰，與下列何者所應負起的法律責任類型相同？\n    (A)未依契約規定完成施工   (B)拒絕酒測遭到吊銷駕照\n    (C)未盡兵役義務遭到起訴   (D)酒後駕車造成公共危險",
         "explanation_source": "ai_v1"
       },
@@ -2197,6 +2257,7 @@
         ],
         "parse_confidence": 1.0,
         "original_question_number": 61,
+        "section_label": "題組",
         "raw_text": "61. 上文中美國國會通過的「法案」，最可能呈現下列哪一概念？\n    (A)地方自治的展現      (B)民意機關的建立\n    (C)基本人權的保障      (D)分權制衡的設計"
       },
       "is_active": false,
@@ -2233,6 +2294,7 @@
         ],
         "parse_confidence": 1.0,
         "original_question_number": 62,
+        "section_label": "題組",
         "raw_text": "62. 根據上文對中國的描述，當時中國最可能出現下列哪一景象？\n    (A)政府鼓勵民眾交出鐵製品，供國家煉鋼\n    (B)派遣軍隊前往朝鮮半島，援助北韓作戰\n    (C)國家推動改革開放，在深圳設經濟特區\n    (D)紅衛兵四處鬥爭，毀損歷史文物和書籍"
       },
       "is_active": false,
@@ -2269,6 +2331,7 @@
         ],
         "parse_confidence": 1.0,
         "original_question_number": 63,
+        "section_label": "題組",
         "raw_text": "63. 上文所述的「老大哥」，最可能是下列何者？\n    (A)蘇聯           (B)美國\n    (C)中國           (D)英國\n\n\n                        13        試題結束"
       },
       "is_active": false,

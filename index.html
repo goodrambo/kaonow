@@ -1960,7 +1960,7 @@ const cloud = (() => {
   }
 
   // ── 題庫載入（含快取，24h TTL） ─────────────────────────
-  const Q_CACHE_PREFIX = 'kaonow_q10_';  // bump 2026-04-26 W1.9.2：cap 國中會考 + renderSubjectYearPanel subject filter fix
+  const Q_CACHE_PREFIX = 'kaonow_q11_';  // bump 2026-04-26 W1.9.3：math parser id collision fix + 11 paper 上線
   const Q_CACHE_TTL = 24 * 3600 * 1000;
   const qMemCache = {};  // 記憶體快取，避免同一 session 重複打
 
@@ -2355,7 +2355,7 @@ const cloud = (() => {
   // ║ v6 subjects 架構：exam_subjects / subjects / chapters ║
   // ║ 跟題庫一樣用「記憶體 + localStorage」雙層快取 ─ 6h TTL   ║
   // ╚══════════════════════════════════════════════════════╝
-  const V6_CACHE_PREFIX = 'kaonow_v12_';  // bump 2026-04-26 W1.9.2-fix：renderSubjectYearPanel 加 subject filter，舊 subq cache 失效
+  const V6_CACHE_PREFIX = 'kaonow_v13_';  // bump 2026-04-26 W1.9.3：math 11 paper + parser fix，舊 subq cache 失效
   const V6_CACHE_TTL = 6 * 3600 * 1000;
   const v6MemCache = {};
 

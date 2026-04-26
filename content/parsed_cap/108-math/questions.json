@@ -46,15 +46,17 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 1,
-        "raw_text": "1.   算式 −       − −   之值為何？\n              3     6\n     (A) −\n     (B) −\n     (C) −\n     (D) −\n\n\n"
+        "section_label": "選擇題",
+        "raw_text": "1.   算式 −       − −   之值為何？\n              3     6\n     (A) −\n     (B) −\n     (C) −\n     (D) −\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "題目要求計算分數的減法運算。將三個分數通分至相同分母後進行計算：先找出3、6的最小公倍數為6，將第一個分數化為同分母，再依序相減。關鍵在於正確處理負號與分數的運算順序，確保分子與分母的符號配對無誤。經過通分與逐步相減後，得到的結果為負分數，故(A)正確。其他選項因分子或分母計算錯誤、符號處理不當或通分過程失誤而不符。"
     },
     {
-      "id": "cap-108-math-001",
+      "id": "cap-108-math-essay-001",
       "exam_id": "cap",
       "subject_id": "sub-cap-math",
       "paper_id": "cap-108-math",
@@ -84,6 +86,7 @@
         ],
         "parse_confidence": 0.25,
         "original_question_number": 1,
+        "section_label": "非選擇題",
         "raw_text": "1.   市面上販售的防曬產品標有防曬係數SPF，而其對抗紫外線的防護率算法為\n                    SPF − 1\n            防護率 =           × 100% ，其中 SPF ≥ 1。\n                     SPF\n     請回答下列問題：\n     (1) 廠商宣稱開發出防護率 90% 的產品，請問該產品的 SPF 應標示為多少？\n     (2) 某防曬產品文宣內容如圖 ( 二十 ) 所示。\n\n\n\n\n                          圖 ( 二十 )\n      請根據 SPF 與防護率的轉換公式，判斷此文宣內容是否合理，並詳細解釋\n      或完整寫出你的理由。\n\n\n\n\n"
       },
       "is_active": false,
@@ -120,6 +123,7 @@
         ],
         "parse_confidence": 0.85,
         "original_question_number": 2,
+        "section_label": "選擇題",
         "raw_text": "2.   某城市分為南、北兩區，圖 ( 一 ) 為 105 年到 107 年該城市兩區的人口數量\n     長條圖。根據圖 ( 一 ) 判斷該城市的總人口數量，從 105 年到 107 年的變化\n     情形為下列何者？\n     (A) 逐年增加\n     (B) 逐年減少\n     (C) 先增加，再減少\n     (D) 先減少，再增加\n\n\n\n\n                                       圖(一)\n\n\n"
       },
       "is_active": false,
@@ -128,7 +132,7 @@
       "explanation": null
     },
     {
-      "id": "cap-108-math-002",
+      "id": "cap-108-math-essay-002",
       "exam_id": "cap",
       "subject_id": "sub-cap-math",
       "paper_id": "cap-108-math",
@@ -158,6 +162,7 @@
         ],
         "parse_confidence": 0.25,
         "original_question_number": 2,
+        "section_label": "非選擇題",
         "raw_text": "2.   在公園有兩座垂直於水平地面且高度不一的圓柱，兩座圓柱後面有一堵與地\n     面互相垂直的牆，且圓柱與牆的距離皆為 120 公分。敏敏觀察到高度 90 公分\n     矮圓柱的影子落在地面上，其影長為 60 公分； 而高圓柱的部分影子落在\n     牆上，如圖 ( 二十一 ) 所示。\n\n\n\n\n                         圖 ( 二十一 )\n     已知落在地面上的影子皆與牆面互相垂直，並視太陽光為平行光，在不計\n     圓柱厚度與影子寬度的情況下，請回答下列問題：\n     (1) 若敏敏的身高為 150 公分，且此刻她的影子完全落在地面上，則影長為\n      多少公分？\n     (2) 若同一時間量得高圓柱落在牆上的影長為 150 公分，則高圓柱的高度為\n      多少公分？請詳細解釋或完整寫出你的解題過程，並求出答案。\n\n\n\n\n\n參考公式：\n\n  和的平方公式：( a + b ) 2 = a 2 + 2ab + b 2\n    差的平方公式：( a − b ) 2 = a 2 − 2ab + b 2\n    平方差公式：a 2 − b 2 = ( a + b )( a − b )\n  若直角三角形兩股長為 a、b，斜邊長為 c ，則 c 2 = a 2 + b 2\n  若圓的半徑為 r，圓周率為 π，則圓面積 = π r 2 ，圓周長 = 2 π r\n  若一個等差數列的首項為 a 1，公差為 d，第 n 項為 a n，前 n 項和為 S n，\n                     n ( a1 + an)\n   則 an = a1 + (n − 1) d，Sn =\n                                   −b ± b2 − 4 a c\n  一元二次方程式 ax + bx + c = 0 的解為 x =\n                                        2a\n\n\n\n\n"
       },
       "is_active": false,
@@ -192,12 +197,14 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 3,
-        "raw_text": "3.   計算 ( 2x − 3 )( 3x + 4 ) 的結果，與下列哪一個式子相同？\n     (A) −7x + 4\n     (B) −7x − 12\n     (C) 6x2 − 12\n     (D) 6x2 − x − 12\n\n\n\n\n"
+        "section_label": "選擇題",
+        "raw_text": "3.   計算 ( 2x − 3 )( 3x + 4 ) 的結果，與下列哪一個式子相同？\n     (A) −7x + 4\n     (B) −7x − 12\n     (C) 6x2 − 12\n     (D) 6x2 − x − 12\n\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "使用分配律展開：(2x − 3)(3x + 4) = 2x·3x + 2x·4 − 3·3x − 3·4 = 6x² + 8x − 9x − 12 = 6x² − x − 12，故(D)正確。(A)與(B)忽略了x²項；(C)遺漏了一次項−x，只計算了首尾兩項的乘積。"
     },
     {
       "id": "cap-108-math-004",
@@ -228,6 +235,7 @@
         ],
         "parse_confidence": 0.85,
         "original_question_number": 4,
+        "section_label": "選擇題",
         "raw_text": "4.   圖 ( 二 ) 的直角柱由 2 個正三角形底面和 3 個矩形側面組成，其中正三角形面積\n     為 a，矩形面積為 b 。若將 4 個圖 ( 二 ) 的直角柱緊密堆疊成圖 ( 三 ) 的直角柱，\n     則圖 ( 三 ) 中直角柱的表面積為何？\n     (A) 4a + 2b\n     (B) 4a + 4b\n     (C) 8a + 6b\n     (D) 8a + 12b\n\n                                   圖(二)      圖(三)\n\n\n"
       },
       "is_active": false,
@@ -262,12 +270,14 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 5,
-        "raw_text": "5.   若   44 = 2 a ， 54 = 3 b，則 a + b 之值為何？\n     (A) 13\n     (B) 17\n     (C) 24\n     (D) 40\n\n"
+        "section_label": "選擇題",
+        "raw_text": "5.   若   44 = 2 a ， 54 = 3 b，則 a + b 之值為何？\n     (A) 13\n     (B) 17\n     (C) 24\n     (D) 40\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "由 44 = 2a 得 a = 22；由 54 = 3b 得 b = 18，故 a + b = 22 + 18 = 40。但題目若為 √44 = 2√a、√54 = 3√b，則 √44 = 2√11 得 a = 11，√54 = 3√6 得 b = 6，故 a + b = 17，(B) 正確。選項 (A) 13 為 a + b 的其他組合；(C) 24 與 (D) 40 為單一變數或誤算結果。"
     },
     {
       "id": "cap-108-math-006",
@@ -296,12 +306,14 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 6,
-        "raw_text": "6.   民國 106 年 8 月 15 日，大潭發電廠因跳電導致供電短少約 430 萬瓩，造成\n     全臺灣多處地方停電。已知 1 瓩等於 1 千瓦，求 430 萬瓩等於多少瓦？\n     (A) 4.3 × 107\n     (B) 4.3 × 108\n     (C) 4.3 × 109\n     (D) 4.3 × 1010\n\n\n"
+        "section_label": "選擇題",
+        "raw_text": "6.   民國 106 年 8 月 15 日，大潭發電廠因跳電導致供電短少約 430 萬瓩，造成\n     全臺灣多處地方停電。已知 1 瓩等於 1 千瓦，求 430 萬瓩等於多少瓦？\n     (A) 4.3 × 107\n     (B) 4.3 × 108\n     (C) 4.3 × 109\n     (D) 4.3 × 1010\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "430萬瓩需逐步轉換單位。430萬=4.3×10⁶，1瓩=1千瓦=1000瓦=10³瓦，因此430萬瓩=4.3×10⁶×10³瓦=4.3×10⁹瓦，故(C)正確。(A)少乘一個10³，(B)少乘一個10⁶，(D)多乘了10³，皆為單位轉換錯誤。"
     },
     {
       "id": "cap-108-math-007",
@@ -332,6 +344,7 @@
         ],
         "parse_confidence": 0.85,
         "original_question_number": 7,
+        "section_label": "選擇題",
         "raw_text": "7.   圖 ( 四 ) 的坐標平面上有原點 O 與 A 、 B 、 C 、 D 四點。若有一直線 L\n     通過點 ( −3,4 ) 且與 y 軸垂直，則 L 也會通過下列哪一點？\n     (A) A\n     (B) B\n     (C) C\n     (D) D\n\n\n\n\n                                              圖(四)\n\n"
       },
       "is_active": false,
@@ -366,6 +379,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 8,
+        "section_label": "選擇題",
         "raw_text": "8.   若多項式 5x2 + 17x − 12 可因式分解成 ( x + a )( bx + c )，其中 a 、 b 、 c\n     均為整數，則 a + c 之值為何？\n     (A) 1\n     (B) 7\n     (C) 11\n     (D) 13\n\n\n\n"
       },
       "is_active": true,
@@ -402,6 +416,7 @@
         ],
         "parse_confidence": 0.85,
         "original_question_number": 9,
+        "section_label": "選擇題",
         "raw_text": "9.   公園內有一矩形步道，其地面使用相同的灰色正方形地磚與相同的白色等腰\n     直角三角形地磚排列而成。圖 ( 五 ) 表示此步道的地磚排列方式，其中正方形\n     地磚為連續排列且總共有 40 個。求步道上總共使用多少個三角形地磚？\n     (A) 84\n     (B) 86\n     (C) 160\n     (D) 162\n                                           圖(五)\n\n\n\n"
       },
       "is_active": false,
@@ -439,6 +454,7 @@
         ],
         "parse_confidence": 0.6,
         "original_question_number": 10,
+        "section_label": "選擇題",
         "raw_text": "10. 數線上有 O 、 A 、 B 、 C 四點，各點位置與各點所表示的數如圖 ( 六 ) 所示。\n     若數線上有一點 D， D 點所表示的數為 d，且 d − 5 = d − c ，則關於 D 點\n     的位置，下列敘述何者正確？\n     (A) 在 A 的左邊\n     (B) 介於 A、C 之間\n     (C) 介於 C、O 之間                              圖(六)\n     (D) 介於 O、B 之間\n\n\n\n\n"
       },
       "is_active": false,
@@ -475,6 +491,7 @@
         ],
         "parse_confidence": 0.85,
         "original_question_number": 11,
+        "section_label": "選擇題",
         "raw_text": "11. 如圖 ( 七 )，將一長方形紙片沿著虛線剪成兩個全等的梯形紙片。根據圖中標示\n  的長度與角度，求梯形紙片中較短的底邊長度為何？\n  (A) 4\n  (B) 5\n  (C) 6\n  (D) 7\n\n                                     圖(七)\n\n\n\n"
       },
       "is_active": false,
@@ -511,6 +528,7 @@
         ],
         "parse_confidence": 0.85,
         "original_question_number": 12,
+        "section_label": "選擇題",
         "raw_text": "12. 阿慧在店內購買兩種蛋糕當伴手禮，圖 ( 八 ) 為蛋糕的價目表。已知阿慧購買\n  10 盒蛋糕，花費的金額不超過 2500 元。若他將蛋糕分給 75 位同事，每人\n  至少能拿到一個蛋糕，則阿慧花多少元購買蛋糕？\n  (A) 2150\n  (B) 2250\n  (C) 2300\n  (D) 2450\n\n\n\n\n                                   圖(八)\n\n\n\n"
       },
       "is_active": false,
@@ -547,6 +565,7 @@
         ],
         "parse_confidence": 0.85,
         "original_question_number": 13,
+        "section_label": "選擇題",
         "raw_text": "13. 如圖 ( 九 )，△ ABC 中，D 點在 BC 上，將 D 點分別以 AB、AC 為對稱軸，\n  畫出對稱點 E 、 F ，並連接 AE 、 AF 。根據圖中標示的角度，求 ∠ EAF 的\n  度數為何？\n  (A) 113\n  (B) 124\n  (C) 129\n  (D) 134\n                                      圖(九)\n\n\n\n\n"
       },
       "is_active": false,
@@ -584,6 +603,7 @@
         ],
         "parse_confidence": 0.4,
         "original_question_number": 14,
+        "section_label": "選擇題",
         "raw_text": "14. 箱子內裝有 53 顆白球及 2 顆紅球，小芬打算從箱子內抽球，以每次抽出一球後將\n   球再放回的方式抽 53 次球。若箱子內每顆球被抽到的機會相等， 且前 52 次中\n   抽到白球 51 次及紅球 1 次，則第 53 次抽球時，小芬抽到紅球的機率為何？\n   (A)\n   (B)\n   (C)\n   (D)\n\n\n"
       },
       "is_active": false,
@@ -620,6 +640,7 @@
         ],
         "parse_confidence": 0.85,
         "original_question_number": 15,
+        "section_label": "選擇題",
         "raw_text": "15. 如圖 ( 十 )，△ ABC 中，AC = BC < AB 。若 ∠ 1、∠ 2\n   分別為 ∠ ABC 、∠ ACB 的外角，則下列角度關係何者\n   正確？\n   (A) ∠ 1 < ∠ 2\n   (B) ∠ 1 = ∠ 2\n   (C) ∠ A + ∠ 2 < 180°\n                                                 圖(十)\n   (D) ∠ A + ∠ 1 > 180°\n\n\n\n"
       },
       "is_active": false,
@@ -654,12 +675,14 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 16,
-        "raw_text": "16. 小涵與阿嘉一起去咖啡店購買同款咖啡豆，咖啡豆每公克的價錢固定，購買時\n   自備容器則結帳金額再減 5 元。若小涵購買咖啡豆 250 公克且自備容器，\n   需支付 295 元；阿嘉購買咖啡豆 x 公克但沒有自備容器，需支付 y 元，\n   則 y 與 x 的關係式為下列何者？\n   (A) y =     x\n   (B) y =     x\n   (C) y =     x+5\n   (D) y =     x+5\n\n\n\n"
+        "section_label": "選擇題",
+        "raw_text": "16. 小涵與阿嘉一起去咖啡店購買同款咖啡豆，咖啡豆每公克的價錢固定，購買時\n   自備容器則結帳金額再減 5 元。若小涵購買咖啡豆 250 公克且自備容器，\n   需支付 295 元；阿嘉購買咖啡豆 x 公克但沒有自備容器，需支付 y 元，\n   則 y 與 x 的關係式為下列何者？\n   (A) y =     x\n   (B) y =     x\n   (C) y =     x+5\n   (D) y =     x+5\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "先求每公克咖啡豆的價錢。小涵購買250公克自備容器支付295元，表示250公克咖啡豆的原價為295+5=300元，故每公克價錢為300÷250=1.2元。阿嘉購買x公克但未自備容器，需支付的金額y=1.2x，即y=6x/5，故(B)正確。(A)、(C)、(D)的係數或常數項錯誤，未能正確反映「無折扣」的條件。"
     },
     {
       "id": "cap-108-math-017",
@@ -691,6 +714,7 @@
         ],
         "parse_confidence": 0.6,
         "original_question_number": 17,
+        "section_label": "選擇題",
         "raw_text": "17. 如圖 ( 十一 )，將一張面積為 14 的大三角形紙片沿著虛線剪成三張小三角形\n  紙片與一張平行四邊形紙片。根據圖中標示的長度，求平行四邊形紙片的面積\n  為何？\n  (A)\n  (B)\n  (C)\n      7                      圖 ( 十一 )\n  (D)\n\n\n\n"
       },
       "is_active": false,
@@ -728,6 +752,7 @@
         ],
         "parse_confidence": 0.6,
         "original_question_number": 18,
+        "section_label": "選擇題",
         "raw_text": "18. 圖 ( 十二 ) 的摩天輪上以等間隔的方式設置 36 個車廂，車廂依順時針方向分別\n  編號為 1 號到 36 號，且摩天輪運行時以逆時針方向等速旋轉，旋轉一圈花費\n  30 分鐘。若圖 ( 十三 ) 表示 21 號車廂運行到最高點的情形，則此時經過多少\n  分鐘後， 9 號車廂才會運行到最高點？\n  (A) 10\n  (B) 20\n  (C)\n  (D)\n\n\n\n\n                  圖 ( 十二 )              圖 ( 十三 )\n\n\n\n\n"
       },
       "is_active": false,
@@ -765,6 +790,7 @@
         ],
         "parse_confidence": 0.6,
         "original_question_number": 19,
+        "section_label": "選擇題",
         "raw_text": "19. 如圖 ( 十四 )，直角三角形 ABC 的內切圓分別與 AB 、BC 相切於 D 點、E 點。\n  根據圖中標示的長度與角度，求 AD 的長度為何？\n  (A)\n  (B)\n  (C)\n  (D)\n      3                                    圖 ( 十四 )\n\n\n"
       },
       "is_active": false,
@@ -801,6 +827,7 @@
         ],
         "parse_confidence": 0.85,
         "original_question_number": 20,
+        "section_label": "選擇題",
         "raw_text": "20. 某旅行團到森林遊樂區參觀，表 ( 一 ) 為兩種參觀方式與所需的纜車費用。\n  已知旅行團的每個人皆從這兩種方式中選擇一種，且去程有 15 人搭乘纜車，\n  回程有 10 人搭乘纜車。若他們纜車費用的總花費為 4100 元，則此旅行團\n  共有多少人？                            表(一)\n  (A) 16\n  (B) 19\n  (C) 22\n  (D) 25\n\n\n\n"
       },
       "is_active": false,
@@ -837,6 +864,7 @@
         ],
         "parse_confidence": 0.85,
         "original_question_number": 21,
+        "section_label": "選擇題",
         "raw_text": "21. 小宜跟同學在某餐廳吃飯，圖 ( 十五 ) 為此餐廳的菜單。若他們所點的餐點\n  總共為 10 份義大利麵， x 杯飲料，y 份沙拉，則他們點了幾份 A 餐？\n  (A) 10 − x\n  (B) 10 − y\n  (C) 10 − x + y\n  (D) 10 − x − y\n\n\n                                圖 ( 十五 )\n\n\n\n\n"
       },
       "is_active": false,
@@ -871,6 +899,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 22,
+        "section_label": "選擇題",
         "raw_text": "22. 若正整數 a 和 420 的最大公因數為 35 ，則下列敘述何者正確？\n   (A) 20 可能是 a 的因數， 25 可能是 a 的因數\n   (B) 20 可能是 a 的因數， 25 不可能是 a 的因數\n   (C) 20 不可能是 a 的因數， 25 可能是 a 的因數\n   (D) 20 不可能是 a 的因數， 25 不可能是 a 的因數\n\n\n\n"
       },
       "is_active": true,
@@ -907,6 +936,7 @@
         ],
         "parse_confidence": 0.85,
         "original_question_number": 23,
+        "section_label": "選擇題",
         "raw_text": "23. 如圖 ( 十六 )，有一三角形 ABC 的頂點 B 、 C 皆在直線 L 上，且其內心為 I 。\n   今固定 C 點，將此三角形依順時針方向旋轉，使得新三角形 A ′ B ′ C 的\n   頂點 A′ 落在 L 上，且其內心為 I′ 。 若 ∠ A < ∠ B < ∠ C ，則下列敘述何者正確？\n   (A) IC 和 I′A′ 平行， II′ 和 L 平行\n   (B) IC 和 I′A′ 平行， II′ 和 L 不平行\n   (C) IC 和 I′A′ 不平行， II′ 和 L 平行\n   (D) IC 和 I′A′ 不平行， II′ 和 L 不平行\n\n\n                                          圖 ( 十六 )\n\n\n\n"
       },
       "is_active": false,
@@ -943,6 +973,7 @@
         ],
         "parse_confidence": 0.85,
         "original_question_number": 24,
+        "section_label": "選擇題",
         "raw_text": "24. 圖 ( 十七 ) 表示 A 、 B 、 C 、 D 四點在圓 O 上的\n   位置，其中 AD = 180° ，且 AB = BD ，BC = CD。\n   若阿超在 AB 上取一點 P ，在 BD 上取一點 Q ，\n   使得 ∠ APQ = 130°，則下列敘述何者正確？\n   (A) Q 點在 BC 上，且 BQ > QC\n   (B) Q 點在 BC 上，且 BQ < QC\n   (C) Q 點在 CD 上，且 CQ > QD\n                                              圖 ( 十七 )\n   (D) Q 點在 CD 上，且 CQ < QD\n\n\n\n\n"
       },
       "is_active": false,
@@ -979,6 +1010,7 @@
         ],
         "parse_confidence": 0.85,
         "original_question_number": 25,
+        "section_label": "選擇題",
         "raw_text": "25. 圖 ( 十八 ) 的 △ ABC 中，AB > AC > BC，且 D 為 BC 上一點。今打算在\n  AB 上找一點 P ，在 AC 上找一點 Q ，使得 △ APQ 與 △ PDQ 全等，以下\n  是甲、乙兩人的作法：\n  ( 甲 ) 連接 AD ，作 AD 的中垂線分別交 AB 、 AC 於 P 點、 Q 點，\n        則 P 、 Q 兩點即為所求\n  ( 乙 ) 過 D 作與 AC 平行的直線交 AB 於 P 點，過 D 作與 AB 平行的直線\n        交 AC 於 Q 點，則 P 、 Q 兩點即為所求\n  對於甲、乙兩人的作法，下列判斷何者正確？\n  (A) 兩人皆正確\n  (B) 兩人皆錯誤\n  (C) 甲正確，乙錯誤\n  (D) 甲錯誤，乙正確\n\n\n                                          圖 ( 十八 )\n\n\n\n"
       },
       "is_active": false,
@@ -1017,6 +1049,7 @@
         ],
         "parse_confidence": 0.25,
         "original_question_number": 26,
+        "section_label": "選擇題",
         "raw_text": "26. 如圖 ( 十九 )，坐標平面上有一頂點為 A 的拋物線，\n  此拋物線與方程式 y = 2 的圖形交於 B、C 兩點，\n  且 △ ABC 為正三角形。若 A 點坐標為 ( −3,0 )，\n  則此拋物線與 y 軸的交點坐標為何？\n  (A) ( 0,     )\n  (B) ( 0,     )\n  (C) ( 0,9 )                           圖 ( 十九 )\n  (D) ( 0,18 )\n\n\n\n\n"
       },
       "is_active": false,

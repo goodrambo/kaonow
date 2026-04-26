@@ -46,6 +46,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 1,
+        "section_label": "單題",
         "raw_text": "1.   Look at the picture. The dog is sitting       .\n     (A) on the bag\n     (B) next to the woman\n     (C) inside the bag\n     (D) between the woman and the bag\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -81,6 +82,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 2,
+        "section_label": "單題",
         "raw_text": "2.   My sister wants to buy a car        she doesn’t have enough money.\n     (A) because         (B) but               (C) if             (D) or\n",
         "explanation_source": "ai_v1"
       },
@@ -116,6 +118,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 3,
+        "section_label": "單題",
         "raw_text": "3.   Jim always forgets my birthday. He has asked me many times and still can’t      it.\n     (A) answer          (B) celebrate        (C) remember       (D) understand\n",
         "explanation_source": "ai_v1"
       },
@@ -151,6 +154,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 4,
+        "section_label": "單題",
         "raw_text": "4.   The little girl was        by a truck on her way home and was badly hurt.\n     (A) hit               (B) led              (C) lost          (D) paid\n",
         "explanation_source": "ai_v1"
       },
@@ -186,6 +190,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 5,
+        "section_label": "單題",
         "raw_text": "5.   Excuse me. I really need to go now. My kids           for me at school.\n     (A) are waiting     (B) were waiting   (C) wait                (D) waited\n",
         "explanation_source": "ai_v1"
       },
@@ -221,6 +226,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 6,
+        "section_label": "單題",
         "raw_text": "6.   Amy’s father is very sick. The doctors can do nothing for him, so Amy went to the\n     temple to        for him.\n     (A) care             (B) count           (C) look            (D) pray\n",
         "explanation_source": "ai_v1"
       },
@@ -256,6 +262,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 7,
+        "section_label": "單題",
         "raw_text": "7.   I’m glad that my school has students wear       . I don’t have to worry about what\n     clothes to wear to school.\n     (A) belts            (B) caps            (C) gloves           (D) uniforms\n",
         "explanation_source": "ai_v1"
       },
@@ -291,6 +298,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 8,
+        "section_label": "單題",
         "raw_text": "8.   We are surprised that Sally and Ray decided to get married. No one knows         .\n     They often fight with each other and are unhappy together.\n     (A) why              (B) where            (C) when           (D) how\t\t\n",
         "explanation_source": "ai_v1"
       },
@@ -326,6 +334,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 9,
+        "section_label": "單題",
         "raw_text": "9.   I don’t think Katie will read any one of the books you’ve picked out for her:\n     look(s) very boring.\n     (A) it               (B) one               (C) some            (D) they\n\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -361,6 +370,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 10,
+        "section_label": "單題",
         "raw_text": "10. Jenny’s bag is very heavy because              filled with toy cars.\n    (A) it is            (B) they are              (C) there is          (D) there are\n",
         "explanation_source": "ai_v1"
       },
@@ -396,6 +406,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 11,
+        "section_label": "單題",
         "raw_text": "11.         a map with you when you go to a place for the first time.\n      (A) Have taken     (B) Take            (C) Taking             (D) To take\n",
         "explanation_source": "ai_v1"
       },
@@ -431,6 +442,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 12,
+        "section_label": "單題",
         "raw_text": "12. The weather          rainy and cloudy in the last few days. I hope the sun will come\n    out soon.\n    (A) has been          (B) had been             (C) will be          (D) would be\n",
         "explanation_source": "ai_v1"
       },
@@ -466,6 +478,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 13,
+        "section_label": "單題",
         "raw_text": "13. All the excuses Nick made            a lot about how much he hates to do the job.\n    (A) say             (B) saying               (C) which say      (D) to say\n",
         "explanation_source": "ai_v1"
       },
@@ -501,6 +514,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 14,
+        "section_label": "單題",
         "raw_text": "14. Sabine walks so        in the apartment that sometimes you don’t even know she’s\n    just passed by. You wonder if her feet ever touch the floor.\n    (A) freely          (B) lightly           (C) shyly          (D) slowly\n",
         "explanation_source": "ai_v1"
       },
@@ -536,6 +550,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 15,
+        "section_label": "單題",
         "raw_text": "15. In the past, people thought it was a           idea to send e-mails and read news online,\n    but now it is part of our everyday life.\n    (A) simple            (B) popular              (C) good             (D) fresh\n\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -607,6 +622,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 16,
+        "section_label": "題組",
         "raw_text": "16. What is the book festival for?\n    (A) Selling second-hand books.\n    (B) Telling people how to choose books.\n    (C) Inviting people to change books with each other.\n    (D) Knowing what kinds of books are the most popular.\n",
         "explanation_source": "ai_v1"
       },
@@ -642,6 +658,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 17,
+        "section_label": "題組",
         "raw_text": "17. Sonja is busy packing some books for the book festival. Which is most likely one of them?\n    (A) An old dictionary of medicine.\t\t\n    (B) A book of short stories in English.                                 likely 可能\n    (C) A picture book with her own notes.\n    (D) A workbook she used in her math class.\n",
         "explanation_source": "ai_v1"
       },
@@ -677,6 +694,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 18,
+        "section_label": "題組",
         "raw_text": "18. Look at the calendar. If Sean has a book festival card,              calendar 月曆\n    when can he use it?\n    (A) March 3.\n    (B) March 14.\n    (C) March 23.\n    (D) March 29.\n\n",
         "explanation_source": "ai_v1"
       },
@@ -748,6 +766,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 19,
+        "section_label": "題組",
         "raw_text": "19. What happened in the story?\n    (A) A killer was caught by the police.\n    (B) The writer’s family invited a stranger to dinner.\n    (C) The writer’s brother ran to their parents for help.\n    (D) A man ran away after he heard the writer’s mother’s voice.\n",
         "explanation_source": "ai_v1"
       },
@@ -783,6 +802,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 20,
+        "section_label": "題組",
         "raw_text": "20. What can we learn about the writer and the man with a bag?\n    (A) The man attacked the writer.\n    (B) The writer followed the man into the dark.\n    (C) The writer did not find out who the man was in the end.\n    (D) The man did not want the writer to see things in his bag.\n",
         "explanation_source": "ai_v1"
       },
@@ -818,6 +838,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 21,
+        "section_label": "題組",
         "raw_text": "21. How do people feel when they experience something horrendous?\n    (A) Angry.\n    (B) Sad.\n    (C) Scared.\n    (D) Tired.\n\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -889,6 +910,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 22,
+        "section_label": "題組",
         "raw_text": "22. What does the catch mean in the dialogue?\n    (A) A plan that starts well but ends badly.\n    (B) A fact that everyone knows but never talks about.\n    (C) A problem that is hidden behind something good.\n    (D) An action that is right in one way but wrong in another.\n",
         "explanation_source": "ai_v1"
       },
@@ -924,6 +946,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 23,
+        "section_label": "題組",
         "raw_text": "23. What does it mean in the dialogue?\n    (A) Taking care of Charlie.\n    (B) Having dinner with Jessica.\n    (C) Going to the football game.\n    (D) Going to London for vacation.\n",
         "explanation_source": "ai_v1"
       },
@@ -959,6 +982,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 24,
+        "section_label": "題組",
         "raw_text": "24. What do we know from the dialogue?\n    (A) Ruth will go to London next Saturday.\n    (B) Ruth had trouble booking a hotel room in London.\n    (C) Nate is the first person that Ruth thought of for help.\n    (D) Nate is surprised that Ruth was able to book a table at Leeds.\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1029,6 +1053,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 25,
+        "section_label": "題組",
         "raw_text": "25. What is this reading for?\n    (A) Telling people rules about hospital visits.\n    (B) Getting people to stand up and speak for doctors.\n    (C) Telling people how to find a good doctor for themselves.\n    (D) Getting doctors to share their experiences in saving lives.\n",
         "explanation_source": "ai_v1"
       },
@@ -1064,6 +1089,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 26,
+        "section_label": "題組",
         "raw_text": "26. What does this problem mean in the reading?\n    (A) Doctors’ long working hours.\n    (B) Doctors’ problems with nurses.\n    (C) Doctors do not see enough people a day.\n    (D) Doctors are not paid enough for their work.\n\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1140,6 +1166,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 27,
+        "section_label": "題組",
         "raw_text": "27. What does Wonky Markt care about?\n    (A) Supermarkets often sell “seconds” at a lower price.\n    (B) Farmers don’t know how to grow fewer “seconds.”\n    (C) “Seconds” are thrown away because of how they look.\n    (D) People don’t know much about picking fresh “seconds.”\n",
         "explanation_source": "ai_v1"
       },
@@ -1175,6 +1202,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 28,
+        "section_label": "題組",
         "raw_text": "28. What do we know about buying the “seconds” from Wonky Markt?\n    (A) You can save 20-40% if you shop for a second time.\n    (B) If you buy three boxes, you will need to pay NT$900.\n    (C) You can choose not only their size but also their shape.\n    (D) To win the cookbook, you need to buy at least six boxes.\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1245,6 +1273,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 29,
+        "section_label": "題組",
         "raw_text": "29. What can we learn from the reading?\n    (A) No buses go from Apple City to Orange Island before the bus line changes.\n    (B) Before July 1, those who want to visit Mango Island have to take a bus at Berry City.\n    (C) Traveling from Apple City to Grape Town will take less time after the bus line changes.\n    (D) Before July 1, Dashing Shuttle does not have buses from Apple City to Peach City.\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1282,6 +1311,7 @@
         ],
         "parse_confidence": 0.75,
         "original_question_number": 30,
+        "section_label": "題組",
         "raw_text": "30. Which is most likely Dashing Shuttle’s map of bus lines before July 1?\n    (A)\t\t                                     (B)\n                                                                                                          likely 可能\n          Dashing Shuttle ♦ Map of bus lines                         Dashing Shuttle ♦ Map of bus lines\n\n\n                                                                                                  2UDQJH\u0003,VODQG\n      3HDFK\u0003&LW\\                                               3HDFK\u0003&LW\\\n\n\n\n      %HDQ\u00037RZQ              $SSOH\u0003&LW\\                                   %HDQ\u0003         $SSOH\u0003&LW\\\n                                                                          7RZQ\n\n      /HPRQ\u0003&LW\\                                               /HPRQ\u0003&LW\\\n\n\n\n\n                                               0HORQ\u0003                                                     0HORQ\u0003\n            %DQDQD                              &LW\\                                                       &LW\\\n                                                               %DQDQD\n             7RZQ\n                                                                7RZQ                3DSD\\D\n                                                                                     &LW\\\n\n                      *XDYD                                                  *XDYD\n                      7RZQ                                                   7RZQ\n\n      *UDSH\u00037RZQ        %HUU\\\u0003&LW\\ 0DQJR\u0003,VODQG                *UDSH\u00037RZQ           %HUU\\\u0003&LW\\ 0DQJR\u0003,VODQG\n\n         (DFK\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003PHDQV\u0003D\u0003GLIIHUHQW\u0003EXV\u0003OLQH\u0011             (DFK\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003PHDQV\u0003D\u0003GLIIHUHQW\u0003EXV\u0003OLQH\u0011\n\n    (C)\t\t                                                     (D)\n          Dashing Shuttle ♦ Map of bus lines                         Dashing Shuttle ♦ Map of bus lines\n\n\n      3HDFK\u0003&LW\\                                               3HDFK\u0003&LW\\\n\n\n\n               %HDQ\u0003         $SSOH\u0003&LW\\                                    %HDQ\u0003        $SSOH\u0003&LW\\\n               7RZQ                                                        7RZQ\n\n      /HPRQ\u0003&LW\\                                               /HPRQ\u0003&LW\\\n\n\n\n\n                                               0HORQ\u0003                                                     0HORQ\u0003\n                                                &LW\\                                                       &LW\\\n      %DQDQD                                                   %DQDQD\n       7RZQ                                                     7RZQ\n                         3DSD\\D                                                     3DSD\\D\n                          &LW\\                                                       &LW\\\n\n                  *XDYD                                                          *XDYD\n                  7RZQ                                                           7RZQ\n\n      *UDSH\u00037RZQ         %HUU\\\u0003&LW\\ 0DQJR\u0003,VODQG               *UDSH\u00037RZQ          %HUU\\\u0003&LW\\ 0DQJR\u0003,VODQG\n\n         (DFK\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003PHDQV\u0003D\u0003GLIIHUHQW\u0003EXV\u0003OLQH\u0011             (DFK\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003PHDQV\u0003D\u0003GLIIHUHQW\u0003EXV\u0003OLQH\u0011\n\n\n"
       },
       "is_active": false,
@@ -1352,6 +1382,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 31,
+        "section_label": "題組",
         "raw_text": "31. What does the report say about globalization’s influence on the movie world?\n    (A) It has changed the way of making movies.\n                                                                     influence 影響\n    (B) It has changed a country’s domestic market for movies.\n    (C) It has brought together movie makers from around the world.\n    (D) It has helped US movies make more money abroad than in the US.\n",
         "explanation_source": "ai_v1"
       },
@@ -1387,6 +1418,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 32,
+        "section_label": "題組",
         "raw_text": "32. What can we learn from the report?\n    (A) The American way of thinking may be changed when it is brought to other countries.\n    (B) More and more people are asking their country to help their domestic movie business.\n    (C) US movies are popular in foreign markets because English is spoken in many countries.\n    (D) The fact that US movies are popular may mean the American way of thinking is popular.\n",
         "explanation_source": "ai_v1"
       },
@@ -1425,6 +1457,7 @@
         ],
         "parse_confidence": 0.4,
         "original_question_number": 33,
+        "section_label": "題組",
         "raw_text": "33. From the charts, which is true?\n    (A) The percentage (%) of US movies has changed the least in Spain.\n    (B) In each of the five countries, the percentage (%) of domestic movies has fallen.\n    (C) Of all five countries, UK’s domestic movies have the smallest drop in percentage (%).\n    (D) When the percentage (%) of domestic movies drops, the percentage of US\n        movies rises.\n\n\n\n\n"
       },
       "is_active": false,
@@ -1498,6 +1531,7 @@
         ],
         "parse_confidence": 0.75,
         "original_question_number": 34,
+        "section_label": "題組",
         "raw_text": "34. (A) is\t\t\t\t\t(B) has been \t\t\t\n    (C) used to be\t\t\t\t (D) was going to be\n"
       },
       "is_active": false,
@@ -1534,6 +1568,7 @@
         ],
         "parse_confidence": 0.75,
         "original_question_number": 35,
+        "section_label": "題組",
         "raw_text": "35. (A) things didn’t get better\n    (B) he was ready to give up\n    (C) the sales of shaved ice finally started to rise\n    (D) the cookie shop was not successful for long\n"
       },
       "is_active": false,
@@ -1570,6 +1605,7 @@
         ],
         "parse_confidence": 0.75,
         "original_question_number": 36,
+        "section_label": "題組",
         "raw_text": "36. (A) his only hope died \t\t              (B) good news arrived\n    (C) worse trouble came \t\t              (D) the hard time passed\n"
       },
       "is_active": false,
@@ -1606,6 +1642,7 @@
         ],
         "parse_confidence": 0.75,
         "original_question_number": 37,
+        "section_label": "題組",
         "raw_text": "37. (A) used to look for\t\t\t                (B) has looked for\t\t\n    (C) was looking for\t\t\t                 (D) had looked for\n\n\n\n\n"
       },
       "is_active": false,
@@ -1679,6 +1716,7 @@
         ],
         "parse_confidence": 0.75,
         "original_question_number": 38,
+        "section_label": "題組",
         "raw_text": "38. (A) hurt his health\n    (B) opened his eyes\n    (C) cost him his life\n    (D) made his dream come true\n"
       },
       "is_active": false,
@@ -1715,6 +1753,7 @@
         ],
         "parse_confidence": 0.75,
         "original_question_number": 39,
+        "section_label": "題組",
         "raw_text": "39. (A) he didn’t want to take this trip with others\n    (B) he wasn’t the only one who had this dream\n    (C) he wouldn’t let anyone else take his prize away\n    (D) he couldn’t miss the chance to make his country proud\n"
       },
       "is_active": false,
@@ -1751,6 +1790,7 @@
         ],
         "parse_confidence": 0.75,
         "original_question_number": 40,
+        "section_label": "題組",
         "raw_text": "40. (A) And Scott used a popular way for his men to travel fast\n    (B) But there were problems to deal with before they traveled\n    (C) But Amundsen didn’t know better about animals than Scott\n    (D) And their ways of traveling decided which team would win\n"
       },
       "is_active": false,
@@ -1787,6 +1827,7 @@
         ],
         "parse_confidence": 0.75,
         "original_question_number": 41,
+        "section_label": "題組",
         "raw_text": "41. (A) there was still hope\n    (B) no one ever believed him\n    (C) the worst had not come yet\n    (D) Amundsen had not been honest\n\n"
       },
       "is_active": false,

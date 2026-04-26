@@ -46,6 +46,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 1,
+        "section_label": "單題",
         "raw_text": "1.   Look at the picture. The mother duck is           the baby ducks across the street.\n     (A) carrying\n     (B) leading\n     (C) pushing\n     (D) watching\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -81,6 +82,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 2,
+        "section_label": "單題",
         "raw_text": "2.   Ms. Liu usually gives us a lot of homework,          she didn’t give us any today.\n     (A) but             (B) if               (C) or                 (D) so\n",
         "explanation_source": "ai_v1"
       },
@@ -116,6 +118,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 3,
+        "section_label": "單題",
         "raw_text": "3.   Playing games on the cellphone          popular with high school students.\n     (A) is             (B) are                (C) being           (D) to be\n",
         "explanation_source": "ai_v1"
       },
@@ -151,6 +154,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 4,
+        "section_label": "單題",
         "raw_text": "4.   There        more than twenty clubs in our school. Which one would you like to join?\n     (A) has             (B) have             (C) is              (D) are\n",
         "explanation_source": "ai_v1"
       },
@@ -186,6 +190,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 5,
+        "section_label": "單題",
         "raw_text": "5.   Diane had a bad cold last week. She is still too      to go mountain climbing with you.\n     (A) busy             (B) short               (C) weak           (D) young\n",
         "explanation_source": "ai_v1"
       },
@@ -221,6 +226,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 6,
+        "section_label": "單題",
         "raw_text": "6.   The book under Mary’s desk is         , but I don’t know why it is there.\n     (A) us            (B) me                  (C) my               (D) mine\n",
         "explanation_source": "ai_v1"
       },
@@ -256,6 +262,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 7,
+        "section_label": "單題",
         "raw_text": "7.   Last night a garbage truck hit a tree and turned over. Now the street is         with\n     lots of garbage.\n     (A) dark             (B) dirty             (C) heavy          (D) poor\n",
         "explanation_source": "ai_v1"
       },
@@ -291,6 +298,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 8,
+        "section_label": "單題",
         "raw_text": "8.   It almost killed Kevin to take care of his baby sister for one afternoon. He wondered\n     how his mom could do           every day.\n     (A) her              (B) it                (C) one               (D) them\n",
         "explanation_source": "ai_v1"
       },
@@ -326,6 +334,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 9,
+        "section_label": "單題",
         "raw_text": "9.   Joyce tells her brother everything. She never       anything from him.\n     (A) covers            (B) believes        (C) hides          (D) takes\n\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -361,6 +370,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 10,
+        "section_label": "單題",
         "raw_text": "10. Ben always uses his birthday as a(n)           to ask Dad to buy him something expensive.\n    (A) action           (B) excuse               (C) prize            (D) rule\n",
         "explanation_source": "ai_v1"
       },
@@ -396,6 +406,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 11,
+        "section_label": "單題",
         "raw_text": "11.         that last piece of pie? If not, can I have it? I didn’t eat much this morning.\n      (A) Had you eaten \t\t                        (B) Were you eating\n      (C) Do you eat\t\t                            (D) Are you going to eat\n",
         "explanation_source": "ai_v1"
       },
@@ -431,6 +442,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 12,
+        "section_label": "單題",
         "raw_text": "12. Everyone in the class enjoys playing chess        Bill; he thinks the game is boring.\n    (A) except           (B) for             (C) like              (D) of\n",
         "explanation_source": "ai_v1"
       },
@@ -466,6 +478,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 13,
+        "section_label": "單題",
         "raw_text": "13. In my school days, I        to English radio programs every day. That was how I\n    learned English at that time.\n    (A) listen           (B) have listened    (C) used to listen (D) was listening\n",
         "explanation_source": "ai_v1"
       },
@@ -501,6 +514,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 14,
+        "section_label": "單題",
         "raw_text": "14. Tom’s voice      when he talks about his neighbors. He speaks faster, his face\n    becomes redder and you can almost see fire in his eyes.\n    (A) appears        (B) drops            (C) grows         (D) rises\n",
         "explanation_source": "ai_v1"
       },
@@ -536,6 +550,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 15,
+        "section_label": "單題",
         "raw_text": "15.          other waiters in the restaurant have worked here longer than Clark; only Lois\n      and Lana started working here before him.\n      (A) All              (B) Most              (C) Some            (D) Few\n\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -641,6 +656,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 18,
+        "section_label": "題組",
         "raw_text": "18. Which is true about City Sight Bus tickets?\n    (A) It costs less to buy tickets on the Internet.\n    (B) People must pay the full ticket price for a pet.\n    (C) Tickets are more expensive in the high season.\n    (D) People save 10% if they buy two tickets for the same line.\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -676,6 +692,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 19,
+        "section_label": "題組",
         "raw_text": "19. Which is true about the bus lines?\n    (A) Line B takes more time.\n    (B) Both lines cross Farmers’ Bridge.\n    (C) Both lines leave from Central Station.\n    (D) There are more gardens to see on Line A.\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -747,6 +764,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 20,
+        "section_label": "題組",
         "raw_text": "20. Why were there seventeen calls asking for Mike?\n    (A) His team was angry at him.\n    (B) He is a popular soccer player.\n    (C) He did not show up for the game on Friday.\n    (D) His name did not appear on the list of players.\n",
         "explanation_source": "ai_v1"
       },
@@ -782,6 +800,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 21,
+        "section_label": "題組",
         "raw_text": "21. What does It mean in the dialogue?\n    (A) The shop.\t\t                             (B) The fan club.\n    (C) The soccer game.                        (D) The soccer season.\n",
         "explanation_source": "ai_v1"
       },
@@ -817,6 +836,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 22,
+        "section_label": "題組",
         "raw_text": "22. What can we learn about Mike?\n    (A) He is nice to people from his fan club.\n    (B) He plays soccer with Johnny and Ricky.\n    (C) He found a way to fix the trouble he made.\n    (D) He decided not to go to the game on Sunday.\n",
         "explanation_source": "ai_v1"
       },
@@ -888,6 +908,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 23,
+        "section_label": "題組",
         "raw_text": "23. Which is the best title for this reading?\n    (A) Australia: The Best Place for Birds.                               title 標題\n    (B) Mother Bird Fights Weather Changes.\n    (C) Larger Mother Birds Have Larger Eggs.\n    (D) Family Love: Brothers & Sisters Work Together.\n",
         "explanation_source": "ai_v1"
       },
@@ -923,6 +944,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 24,
+        "section_label": "題組",
         "raw_text": "24. What does this trick mean in the reading?\n    (A) Having eggs of different sizes.\n    (B) Growing stronger inside the egg.\n    (C) Saving food for weaker baby birds.\n    (D) Helping baby birds break out of the eggs.\n",
         "explanation_source": "ai_v1"
       },
@@ -958,6 +980,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 25,
+        "section_label": "題組",
         "raw_text": "25. What can we learn about superb fairy-wrens from the reading?\n    (A) Male birds can usually live for ten years.\n    (B) Baby birds grow well in hot, dry weather.\n    (C) Young male birds share the job of feeding the baby birds.\n    (D) Mother birds make smaller eggs when there is less food outside.\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1029,6 +1052,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 26,
+        "section_label": "題組",
         "raw_text": "26. What idea is talked about in both pieces of news?\n    (A) More young people need to join in making art.\n    (B) People’s ways of enjoying art change with time.\n    (C) Bringing important art works to Taiwan from abroad.\n    (D) Giving new life to old arts that were almost forgotten.\n",
         "explanation_source": "ai_v1"
       },
@@ -1064,6 +1088,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 27,
+        "section_label": "題組",
         "raw_text": "27. What does it mean when something is a smash hit?\n    (A) It is old.\t\t                       (B) It is successful.\n    (C) It is foreign.\t\t                   (D) It is useful.\n",
         "explanation_source": "ai_v1"
       },
@@ -1099,6 +1124,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 28,
+        "section_label": "題組",
         "raw_text": "28. What do we know from the news?\n    (A) Lai has taught xiangsheng in many schools.\n    (B) Lai often puts his own life stories into his art works.\n    (C) The owner of Hsin Hsin Paper Offering Store is a Frenchman.\n    (D) People do not burn papier-mâché for dead people as often as before.\n",
         "explanation_source": "ai_v1"
       },
@@ -1171,6 +1197,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 29,
+        "section_label": "題組",
         "raw_text": "29. Which idea is talked about in the news?\n    (A) How often we should drink coffee.\n    (B) What happens when we have too much coffee.\n    (C) How to help the body make the cortisol we need.\n    (D) What happens when we have coffee at the wrong time.\n",
         "explanation_source": "ai_v1"
       },
@@ -1206,6 +1233,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 30,
+        "section_label": "題組",
         "raw_text": "30. What does it mean when someone thinks otherwise about something?\n    (A) They are serious about it.\n    (B) They have no idea about it.\n    (C) They think differently about it.\n    (D) They do not think it is a problem.\n\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1241,6 +1269,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 31,
+        "section_label": "題組",
         "raw_text": "31. The picture below shows how the cortisol levels rise and fall during the day. From\n    the news, which is a good time for coffee?\n    (A) A.                                         C\n\n\n\n\n                          cortisol levels (mg/dl)\n    (B) B.\n    (C) C.                                  B\n    (D) D.                  15\n                                                                     D\n                                                    10   A\n\n                                12 1 2 3 4 5 6 7 8 9 10 11 12 1 2 3 4 5 6 7 8 9 10 11 12\n                         Midnight                        Noon                          Midnight\n                                                         AM              PM\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1276,6 +1305,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 32,
+        "section_label": "題組",
         "raw_text": "32. Four people read the news and wrote what they thought about it.\n\n\n\n\n       Mike                                                        Jan 16 8:26 pm\n       The best time to drink coffee is when you want to drink coffee.\n       Sarah                                                             Jan 16 8:43 pm\n       I usually wake up AFTER I drink coffee!\n       Charlie                                                           Jan 16 8:59 pm\n       The worst time to drink coffee is when you're DEAD.\n       Lisa                                                         Jan 16 9:18 pm\n       If you need someone to tell you when to drink coffee, well, that’s just sad.\n\n\n    What did they think about the news?\n    (A) They wanted to try what it said.\n    (B) They were sad about what it said.\n    (C) They did not agree with what it said.\n    (D) They were not surprised at what it said.\n\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1347,6 +1377,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 33,
+        "section_label": "題組",
         "raw_text": "33. What does the report NOT suggest?\n    (A) Having more free buses for shoppers.\n                                                                    suggest 建議\n    (B) Changing the opening hours on weekdays.\n    (C) Making plans to help weekday morning business.\n    (D) Changing the time of the special sale on weekends.\n",
         "explanation_source": "ai_v1"
       },
@@ -1382,6 +1413,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 34,
+        "section_label": "題組",
         "raw_text": "34. What does the report say about the shopping center?\n    (A) Its business on weekdays is not as good as last season.\n    (B) It has a special sale one hour before closing every day.\n    (C) Most of the shoppers take the free buses to the shopping center.\n    (D) A large part of its shoppers on weekday evenings are working parents.\n\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1417,6 +1449,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 35,
+        "section_label": "題組",
         "raw_text": "35. Which picture is most likely used in the report?\n    (A)\t\t\n                                                             likely 可能\n\n                 3%   15%             Weekday evening\n       48%                            Weekend morning\n                           10%        Weekend afternoon\n                                      Weekend evening\n                                      Others\n                          24%\n                  Business done during a week\n\n    (B)\n\n                 3% 15%\n                                      Weekday evening\n          24%                         Weekend morning\n                           10%        Weekend afternoon\n                                      Weekend evening\n                                      Others\n                         48%\n                  Business done during a week\n\n    (C)\t\t\n\n                 3%\n           15%           24%          Weekday evening\n                                      Weekend morning\n                                      Weekend afternoon\n                           10%        Weekend evening\n          48%                         Others\n\n                  Business done during a week\n\n    (D)\n\n                 3% 10%\n                                      Weekday evening\n       24%                 15%        Weekend morning\n                                      Weekend afternoon\n                                      Weekend evening\n                         48%          Others\n\n                  Business done during a week\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1489,6 +1522,7 @@
         ],
         "parse_confidence": 0.75,
         "original_question_number": 36,
+        "section_label": "題組",
         "raw_text": "36. (A) change the way you are\n    (B) give up being an actress\n    (C) travel with a theater group\n    (D) run away from your friends\n"
       },
       "is_active": false,
@@ -1525,6 +1559,7 @@
         ],
         "parse_confidence": 0.75,
         "original_question_number": 37,
+        "section_label": "題組",
         "raw_text": "37. (A) you’re too shy to talk with people\n    (B) you just don’t want to be like others\n    (C) you don’t think you’re good enough\n    (D) you don’t know what you’ve missed\n\n\n\n\n"
       },
       "is_active": false,
@@ -1599,6 +1634,7 @@
         ],
         "parse_confidence": 0.4,
         "original_question_number": 38,
+        "section_label": "題組",
         "raw_text": "38. (A) has become\t\t         (B) became\t\t          (C) had become       (D) would become\n"
       },
       "is_active": false,
@@ -1636,6 +1672,7 @@
         ],
         "parse_confidence": 0.4,
         "original_question_number": 39,
+        "section_label": "題組",
         "raw_text": "39. (A) has fallen\t\t         (B) is falling        (C) had fallen       (D) would fall\n"
       },
       "is_active": false,
@@ -1672,6 +1709,7 @@
         ],
         "parse_confidence": 0.75,
         "original_question_number": 40,
+        "section_label": "題組",
         "raw_text": "40. (A) This changed Elizabeth’s life\n    (B) It was not easy to give up the throne\n    (C) It was good news to Elizabeth and her family\n    (D) This part of history made the UK a strong country\n"
       },
       "is_active": false,
@@ -1708,6 +1746,7 @@
         ],
         "parse_confidence": 0.75,
         "original_question_number": 41,
+        "section_label": "題組",
         "raw_text": "41. (A) has worked hard for the UK\n    (B) has been popular with the people of the UK\n    (C) has been the queen of the UK for a long time\n    (D) has brought the people of the UK much closer\n\n"
       },
       "is_active": false,

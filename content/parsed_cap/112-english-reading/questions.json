@@ -46,6 +46,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 1,
+        "section_label": "單題",
         "raw_text": "1.    Look at the picture. The man is holding a             of grapes in his hands.\n      (A) bag\n      (B) basket\n      (C) bowl\n      (D) box\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -81,6 +82,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 2,
+        "section_label": "單題",
         "raw_text": "2.    Dennis enjoys            in public. He is proud of his beautiful voice.\n      (A) dancing              (B) drawing           (C) shopping             (D) singing\n",
         "explanation_source": "ai_v1"
       },
@@ -116,6 +118,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 3,
+        "section_label": "單題",
         "raw_text": "3.    Mrs. Johnson can’t hear very well. If you need to talk to her, you must               .\n      (A) explain           (B) hurry             (C) listen              (D) shout\n",
         "explanation_source": "ai_v1"
       },
@@ -151,6 +154,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 4,
+        "section_label": "單題",
         "raw_text": "4.    People got very excited when they watched Ms. Smith                 at the party.\n      (A) danced            (B) dancing          (C) has danced                (D) to dance\n",
         "explanation_source": "ai_v1"
       },
@@ -186,6 +190,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 5,
+        "section_label": "單題",
         "raw_text": "5.    I tried on these shoes in several different        , and I thought the white pair looked best on me.\n      (A) colors               (B) prices               (C) shapes              (D) sizes\n",
         "explanation_source": "ai_v1"
       },
@@ -221,6 +226,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 6,
+        "section_label": "單題",
         "raw_text": "6.    Rex did not feel the earthquake this morning. He         in the park at the time.\n      (A) jogged             (B) was jogging      (C) has jogged         (D) would jog\n",
         "explanation_source": "ai_v1"
       },
@@ -256,6 +262,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 7,
+        "section_label": "單題",
         "raw_text": "7.    Mr. Lee has worked in the same store for ten years; he’s never thought about                his job.\n      (A) changing         (B) finding             (C) remembering       (D) starting\n",
         "explanation_source": "ai_v1"
       },
@@ -291,6 +298,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 8,
+        "section_label": "單題",
         "raw_text": "8.    I didn’t take the bus today because it was        . All the seats were taken and a lot of\n      students were standing.\n      (A) dirty              (B) fast            (C) full               (D) wrong\n",
         "explanation_source": "ai_v1"
       },
@@ -326,6 +334,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 9,
+        "section_label": "單題",
         "raw_text": "9.    Don’t go away when you’re cooking,                the food might burn.\n      (A) but             (B) if                        (C) or               (D) so\n",
         "explanation_source": "ai_v1"
       },
@@ -361,6 +370,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 10,
+        "section_label": "單題",
         "raw_text": "10. Jerry wanted to know        he was kicked off the soccer team, but no one gave him a\n    good reason.\n    (A) where           (B) when            (C) whether           (D) why\n",
         "explanation_source": "ai_v1"
       },
@@ -396,6 +406,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 11,
+        "section_label": "單題",
         "raw_text": "11.   Jenny is already forty, doesn’t have a job and often makes trouble for her parents. To them,\n      she is really a(n)       .\n      (A) daughter           (B) example            (C) gift              (D) headache\n",
         "explanation_source": "ai_v1"
       },
@@ -431,6 +442,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 12,
+        "section_label": "單題",
         "raw_text": "12. Ed and Jill          camping this weekend, so they have to finish their homework by Friday.\n    (A) went                (B) were going       (C) are going           (D) have gone\n",
         "explanation_source": "ai_v1"
       },
@@ -466,6 +478,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 13,
+        "section_label": "單題",
         "raw_text": "13. Doraemon, a blue Japanese robot cat, has hated mice since his ears        by a mouse.\n    (A) bit              (B) bite               (C) were bitten        (D) have bitten\n",
         "explanation_source": "ai_v1"
       },
@@ -501,6 +514,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 14,
+        "section_label": "單題",
         "raw_text": "14. If we play some interesting games in class, there         more fun in learning English.\n    (A) are               (B) has                 (C) will be           (D) will have\n",
         "explanation_source": "ai_v1"
       },
@@ -536,6 +550,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 15,
+        "section_label": "單題",
         "raw_text": "15. The           of this shop was so bad; I never got any answer after I emailed them my questions.\n    (A) item                 (B) business            (C) price              (D) service\n",
         "explanation_source": "ai_v1"
       },
@@ -571,6 +586,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 16,
+        "section_label": "單題",
         "raw_text": "16. It’s not easy to see those islands clearly from here on sunny days, and it’s even less\n    to see them on cloudy days.\n    (A) difficult           (B) lucky              (C) possible         (D) special\n",
         "explanation_source": "ai_v1"
       },
@@ -606,6 +622,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 17,
+        "section_label": "單題",
         "raw_text": "17.   Do you remember the CD I was looking for for months? I               found it in a small shop.\n      Look, here it is!\n      (A) almost          (B) even             (C) finally                 (D) still\n",
         "explanation_source": "ai_v1"
       },
@@ -641,6 +658,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 18,
+        "section_label": "單題",
         "raw_text": "18. Business at Jane’s shop has not been good these days. And the new supermarket across the\n    street only makes things         .\n    (A) easier            (B) worse             (C) more boring      (D) more convenient\n",
         "explanation_source": "ai_v1"
       },
@@ -676,6 +694,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 19,
+        "section_label": "單題",
         "raw_text": "19. Scott wasn’t sure if the young woman before him was         pulled him out of a car on fire.\n    (A) who                 (B) the one         (C) the one she       (D) the one who\n",
         "explanation_source": "ai_v1"
       },
@@ -711,6 +730,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 20,
+        "section_label": "單題",
         "raw_text": "20. I        swimming for several years before I went to this high school. I gave it up because of\n    heavy schoolwork.\n    (A) have practiced  (B) am practicing        (C) practiced          (D) would practice\n",
         "explanation_source": "ai_v1"
       },
@@ -746,6 +766,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 21,
+        "section_label": "單題",
         "raw_text": "21.   Frank Kane is so good in the movie that many people           he will win the best actor prize.\n      (A) expect            (B) forget            (C) notice               (D) plan\n",
         "explanation_source": "ai_v1"
       },
@@ -781,6 +802,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 22,
+        "section_label": "單題",
         "raw_text": "22. The new medicine that just came out on the market             thousands of lives.\n    (A) and saved       (B) has saved          (C) saving                (D) to save\n",
         "explanation_source": "ai_v1"
       },
@@ -816,6 +838,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 23,
+        "section_label": "單題",
         "raw_text": "23. Now I often think of those days with Pip, my pet dog. When I read in my room, he\n    quietly beside me.\n    (A) will come and sit (B) comes and sits    (C) has come and sat (D) used to come and sit\n\n",
         "explanation_source": "ai_v1"
       },
@@ -886,6 +909,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 24,
+        "section_label": "題組",
         "raw_text": "24. Amy went to Four Seasons’ Kitchen with her mother after she collected 15 stars.  They\n    ordered two Garden Sandwiches, an Autumn Wind, and a Winter Snow. After using the\n    stars, how much did they pay for their meals?\n    (A) $290.             (B) $230.              (C) $220.       (D) $160.\n",
         "explanation_source": "ai_v1"
       },
@@ -921,6 +945,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 25,
+        "section_label": "題組",
         "raw_text": "25. Amy wants to bring her friends to Four Seasons’ Kitchen in August.  She looks at her\n    calendar to pick a time to go there. Which are the time and date she\n                                                                          calendar 月曆\n    can choose?\n    (A) 8:30 pm, August 1.\n    (B) 5:00 pm, August 11.\n    (C) 3:00 pm, August 13.\n    (D) 2:00 pm, August 28.\n\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -991,6 +1016,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 26,
+        "section_label": "題組",
         "raw_text": "26. According to the notes, which is the WRONG way to help a baby bird that is out of its nest?\n    (A) Feed it before you take it to a hospital.\n    (B) Leave it alone if it is not hurt and has feathers.\n    (C) Call the animal center if you can’t find its nest.\n    (D) Put it back in its nest if it is not hurt and has few feathers.\n",
         "explanation_source": "ai_v1"
       },
@@ -1026,6 +1052,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 27,
+        "section_label": "題組",
         "raw_text": "27. According to the notes, what do birds do if their babies have the smell of people on them?\n    (A) They keep taking care of them.\n    (B) They push them out of the nest.\n    (C) They clean them until the smell goes away.\n    (D) They leave them behind and move to a new nest.\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1096,6 +1123,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 28,
+        "section_label": "題組",
         "raw_text": "28. According to the reading, which is one of the reasons for food waste?\n    (A) Stores do not know how to pack food well.\n    (B) Farmers do not have enough machines to collect food.\n    (C) There is no refrigerator on the truck to keep food fresh.\n    (D) Factories do not have enough trucks to carry food to stores.\n",
         "explanation_source": "ai_v1"
       },
@@ -1131,6 +1159,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 29,
+        "section_label": "題組",
         "raw_text": "29. Which is true about food waste at each stage in the three parts of the world?\n    (A) For each area, the highest percentage of food waste happens at Stage 5.\n    (B) Europe has a lower percentage of food waste at Stage 3 than the other two areas.\n    (C) North America & Oceania has a higher percentage of food waste at Stage 1 than\n        Europe.\n    (D) South & Southeast Asia has a higher percentage of food waste at Stage 4 than the\n        other two areas.\n\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1202,6 +1231,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 30,
+        "section_label": "題組",
         "raw_text": "30. What is the trick that the mosquito uses in rain?\n    (A) It shakes its body fast enough to get water off.\n    (B) It drops with the raindrop and then rolls off it.\n    (C) It flies behind the raindrop and pushes it away.\n    (D) It rides on the raindrop and lands on the ground.\n",
         "explanation_source": "ai_v1"
       },
@@ -1237,6 +1267,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 31,
+        "section_label": "題組",
         "raw_text": "31.   What keeps a mosquito safe in the rain?\n      (A) It is very light.\n      (B) It has no body hairs.\n      (C) It is as big as a raindrop.\n      (D) It is strong enough to fight the force of a raindrop.\n",
         "explanation_source": "ai_v1"
       },
@@ -1272,6 +1303,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 32,
+        "section_label": "題組",
         "raw_text": "32. When would it be dangerous for a mosquito in the rain?\n    (A) When it flies too close to the ground.\n    (B) When the rain falls too hard and too fast.\n    (C) When it is hit by raindrops too many times.\n    (D) When it drops for more than 6 cm in the rain.\n\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1343,6 +1375,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 33,
+        "section_label": "題組",
         "raw_text": "33. What do the three stories in the reading all talk about?\n    (A) Who Beethoven’s true love was.\n    (B) Who played “For Elise” the best.\n    (C) How “For Elise” became popular.\n    (D) Why Beethoven wrote “For Elise.”\n",
         "explanation_source": "ai_v1"
       },
@@ -1378,6 +1411,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 34,
+        "section_label": "題組",
         "raw_text": "34. What do we know about “For Elise” from the reading?\n    (A) It first appeared in the opera Fidelio.\n    (B) The true “Elise” was Elise Barensfeld.\n    (C) The manuscript was found after Beethoven died.\n    (D) The manuscript is now kept by the city of Vienna.\n",
         "explanation_source": "ai_v1"
       },
@@ -1413,6 +1447,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 35,
+        "section_label": "題組",
         "raw_text": "35. What can we learn about the three women from the stories?\n    (A) They were called “Elise” by their friends.\n    (B) Elisabeth Röckel was a close friend of Beethoven’s.\n    (C) Therese Malfatti changed “For Elise” to “For Therese.”\n    (D) Elise Barensfeld was Beethoven’s student.\n\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1484,6 +1519,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 36,
+        "section_label": "題組",
         "raw_text": "36. What idea does Jesse Cohen talk about in the reading?\n    (A) Not all kinds of toys are helpful for children’s learning.\n    (B) Parents should give their children the right toys for their age.\n    (C) Children should learn about their gender from playing with toys.\n    (D) We should not let gender decide which toys children can play with.\n\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1519,6 +1555,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 37,
+        "section_label": "題組",
         "raw_text": "37.   In the third paragraph, why does Jesse Cohen think “this rule can be bad for children”?\n      (A) Children may not want to share their toys with others.\n                                                                            paragraph 段落\n      (B) Children may have the wrong idea about following rules.\n      (C) Children may not be able to learn from playing with toys.\n      (D) Children may miss the chance to find out what they really like.\n",
         "explanation_source": "ai_v1"
       },
@@ -1554,6 +1591,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 38,
+        "section_label": "題組",
         "raw_text": "38. In the reading, after Jesse Cohen talks about an idea, he often gives an example to make it clear.\n    Below are four of the sentences in the third paragraph. Which is used as an example?\n    (A) “However, this rule can be bad for children.”\n    (B) “Dolls help with their early language use, and building toys are good for learning math and\n          science.”\n      (C) “Some doctors worry that children may use the same kind of thinking when they look for\n          jobs in the future.”\n      (D) “If they do, they may miss something more important than just getting a chance to play\n         with different toys.”\n\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1625,6 +1663,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 39,
+        "section_label": "題組",
         "raw_text": "39. What is the reading mostly about?\n    (A) Marie Colvin’s war reports.\n    (B) Marie Colvin’s working life.\n    (C) Marie Colvin’s schooldays at Yale.\n    (D) Marie Colvin’s experiences in Homs.\n",
         "explanation_source": "ai_v1"
       },
@@ -1660,6 +1699,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 40,
+        "section_label": "題組",
         "raw_text": "40. What does it mean when someone has empathy?\n    (A) They are good at taking war photos.\n    (B) They like to read other people’s life stories.\n    (C) They are able to understand how other people feel.\n    (D) They are good at helping people change their own lives.\n",
         "explanation_source": "ai_v1"
       },
@@ -1695,6 +1735,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 41,
+        "section_label": "題組",
         "raw_text": "41.   Which is true about Marie Colvin?\n      (A) The chance to study at Yale made her leave her job in the Middle East.\n      (B) The experience in Sri Lanka did not change her way of reporting news.\n      (C) She was killed in Homs when she was interviewing soldiers there for her report.\n      (D) She was not sure what to do in the future until she worked for the Sunday Times.\n\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1767,6 +1808,7 @@
         ],
         "parse_confidence": 0.75,
         "original_question_number": 42,
+        "section_label": "題組",
         "raw_text": "42. (A) what things are called\n    (B) how sports are played\n    (C) why different languages are spoken\n    (D) what words are often spelled differently\n"
       },
       "is_active": false,
@@ -1803,6 +1845,7 @@
         ],
         "parse_confidence": 0.75,
         "original_question_number": 43,
+        "section_label": "題組",
         "raw_text": "43. (A) how old they are\n    (B) who they speak to\n    (C) where they grew up\n    (D) whether they are men or women\n\n\n\n\n"
       },
       "is_active": false,

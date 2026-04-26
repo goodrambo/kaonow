@@ -46,6 +46,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 1,
+        "section_label": "單題",
         "raw_text": "1.   Look at the picture. The woman is putting       on the\n     cake.\n     (A) candles\n     (B) forks\n     (C) plates\n     (D) strawberries\n",
         "explanation_source": "ai_v1"
       },
@@ -81,6 +82,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 2,
+        "section_label": "單題",
         "raw_text": "2.   The movie starts at two o’clock,       let’s meet at the theater at one forty-five.\n     (A) so               (B) or              (C) if                (D) because\n",
         "explanation_source": "ai_v1"
       },
@@ -116,6 +118,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 3,
+        "section_label": "單題",
         "raw_text": "3.   Peter is afraid of the dark. He even leaves the       on when sleeping.\n     (A) computer           (B) fans           (C) lights          (D) music\n",
         "explanation_source": "ai_v1"
       },
@@ -151,6 +154,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 4,
+        "section_label": "單題",
         "raw_text": "4.   Pam is a       baseball player; she has more fans than any other player on her team.\n     (A) boring          (B) heavy            (C) popular          (D) rich\n",
         "explanation_source": "ai_v1"
       },
@@ -186,6 +190,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 5,
+        "section_label": "單題",
         "raw_text": "5.   I did not do my homework, so my teacher said I       stay after school to finish it.\n     (A) failed to      (B) had to         (C) hoped to         (D) used to\n",
         "explanation_source": "ai_v1"
       },
@@ -221,6 +226,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 6,
+        "section_label": "單題",
         "raw_text": "6.   Kevin has only enough money for the bag or the shoes. That is a hard       to\n     make because he likes them both.\n     (A) choice         (B) gift         (C) rule           (D) trick\n",
         "explanation_source": "ai_v1"
       },
@@ -256,6 +262,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 7,
+        "section_label": "單題",
         "raw_text": "7.   It was       for us to answer the math question because we’ve done the same kind\n     of questions many times.\n     (A) common           (B) easy           (C) safe           (D) special\n",
         "explanation_source": "ai_v1"
       },
@@ -291,6 +298,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 8,
+        "section_label": "單題",
         "raw_text": "8.   Although it took me lots of time       a big meal for ten people, I was happy that\n     everyone enjoyed it.\n     (A) prepare          (B) to prepare     (C) preparing       (D) prepared\n",
         "explanation_source": "ai_v1"
       },
@@ -326,6 +334,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 9,
+        "section_label": "單題",
         "raw_text": "9.   Don’t let the children swim in the river. We don’t know how       it is. It could be\n     dangerous.\n     (A) deep             (B) far              (C) long           (D) thick\n",
         "explanation_source": "ai_v1"
       },
@@ -361,6 +370,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 10,
+        "section_label": "單題",
         "raw_text": "10. Bob is       of the boys in the family. He never does any housework. His brothers\n    at least take out the garbage sometimes.\n    (A) lazier             (B) the lazy      (C) the lazier     (D) the laziest\n",
         "explanation_source": "ai_v1"
       },
@@ -396,6 +406,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 11,
+        "section_label": "單題",
         "raw_text": "11. Aunt Gina has lived in this town for more than sixty years, so she       it very well.\n    (A) will know       (B) knew             (C) knows             (D) was going to know\n",
         "explanation_source": "ai_v1"
       },
@@ -431,6 +442,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 12,
+        "section_label": "單題",
         "raw_text": "12. We won’t see the sun even after the typhoon leaves, because the news said that\n    heavier rain will soon      .\n    (A) catch            (B) follow       (C) move           (D) stop\n",
         "explanation_source": "ai_v1"
       },
@@ -466,6 +478,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 13,
+        "section_label": "單題",
         "raw_text": "13. Yesterday when I got home from work, my brother       for dinner, so he invited me\n    to join him.\n    (A) goes out        (B) went out      (C) has gone out     (D) was going out\n",
         "explanation_source": "ai_v1"
       },
@@ -501,6 +514,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 14,
+        "section_label": "單題",
         "raw_text": "14. You were       not to lend Amy money. She never gives back what she borrows.\n    (A) crazy          (B) helpful        (C) wise           (D) wrong\n",
         "explanation_source": "ai_v1"
       },
@@ -536,6 +550,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 15,
+        "section_label": "單題",
         "raw_text": "15. Have you found a summer job yet? Mr. Firth       someone to take care of his kids\n    during the vacation. Maybe you can talk to him.\n    (A) has looked for (B) is looking for (C) looks for      (D) was looking for\n",
         "explanation_source": "ai_v1"
       },
@@ -571,6 +586,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 16,
+        "section_label": "單題",
         "raw_text": "16. David looked out of the balcony window and saw a woman get in his car       away.\n    (A) drive           (B) drove          (C) and drive      (D) and drove\n",
         "explanation_source": "ai_v1"
       },
@@ -606,6 +622,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 17,
+        "section_label": "單題",
         "raw_text": "17. The police haven’t found the little girl who       at a supermarket. They’ll keep\n    doing all they can to find her.\n    (A) took away        (B) taken away      (C) has taken away (D) was taken away\n",
         "explanation_source": "ai_v1"
       },
@@ -641,6 +658,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 18,
+        "section_label": "單題",
         "raw_text": "18. Buses to the airport only come once every hour, and we just missed      . Why don’t\n    we take a taxi?\n    (A) another           (B) it              (C) one             (D) them\n",
         "explanation_source": "ai_v1"
       },
@@ -676,6 +694,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 19,
+        "section_label": "單題",
         "raw_text": "19. Ariel       every night for a week before her Chinese test and got a very good grade.\n    (A) studied          (B) studies         (C) has studied      (D) was going to study\n",
         "explanation_source": "ai_v1"
       },
@@ -711,6 +730,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 20,
+        "section_label": "單題",
         "raw_text": "20. While reading this story, Brad saw the word “trolling” and didn’t know what it meant.\n      Josh turned off the screen and sat back. “Why are they trolling me like this?” He didn’t\n      understand. They wanted him to share what he thought about the show, and he did.\n      And now look what he got. In the end, all they wanted was nice words.\n    He found several meanings of the word in a dictionary. Which one should Brad\n    choose?\n    (A) To celebrate in song.\n    (B) To make someone or something move around.\n    (C) To pull a fishing line through the water, often from a boat.\n    (D) To write something on the Internet to hurt someone or make them angry.\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -781,6 +801,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 21,
+        "section_label": "題組",
         "raw_text": "21. What does Tea-Rock celebrate?\n    (A) Their sales in 20 countries.     (B) The coming out of their 20th kind of tea.\n    (C) Their 20th year of business.     (D) The opening of their 20th store in the USA.\n",
         "explanation_source": "ai_v1"
       },
@@ -816,6 +837,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 22,
+        "section_label": "題組",
         "raw_text": "22. Here is the postcard Jason is going to send to Tea-Rock 20. What else does he need to\n    put on the postcard before he sends it?\n    (A) His age.\n    (B) His address.\n    (C) His birthday.\n    (D) Another picture of the tea cup.\n\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -886,6 +908,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 23,
+        "section_label": "題組",
         "raw_text": "23. What can we learn about sugar from the infographic?\n    (A) There are 4 g of sugar in 66 g of ice cream.\n    (B) A woman can eat as much sugar a day as a man can.\n    (C) Taiwan eats more sugar for each person than the US does.\n    (D) 400 ml of rice milk has less sugar than 400 ml of grape juice.\n",
         "explanation_source": "ai_v1"
       },
@@ -921,6 +944,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 24,
+        "section_label": "題組",
         "raw_text": "24. What can be a reason why the list of “Sugar that is hidden in foods and drinks”\n    is put in the infographic?\n    (A) To help us understand how sugar hurts our body.\n    (B) To show what kinds of foods and drinks are popular with children.\n    (C) To tell us that we often have more sugar than we can without knowing it.\n    (D) To let us know how much sugar is enough to make foods and drinks taste good.\n\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -991,6 +1015,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 25,
+        "section_label": "題組",
         "raw_text": "25. Why did Darrell tell Marina to go to Pinterest?\n    (A) To find some examples for her homework.\n    (B) To shop for things that are needed for art classes.\n    (C) To meet new friends who have the same interests.\n    (D) To share her works and tell people how they are made.\n",
         "explanation_source": "ai_v1"
       },
@@ -1026,6 +1051,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 26,
+        "section_label": "題組",
         "raw_text": "26. What does it mean when you learn something from A to Z?\n    (A) You can learn it at any time.\n    (B) You learn it in a baking class.\n    (C) You learn everything about it.\n    (D) You spend all your life learning it.\n\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1097,6 +1123,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 27,
+        "section_label": "題組",
         "raw_text": "27. Which idea is talked about in the first paragraph of the reading?\n    (A) How you should do Tabata training.\n    (B) What is the best time for Tabata training.                  paragraph 段落\n    (C) Who first had the idea of Tabata training.\n    (D) How often you should do Tabata training.\n",
         "explanation_source": "ai_v1"
       },
@@ -1132,6 +1159,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 28,
+        "section_label": "題組",
         "raw_text": "28. Who might find that Tabata training is right for them?\n    (A) People who enjoy team sports.\n    (B) People who want to start exercising.\n    (C) People who want to fix their heart problems.\n    (D) People who already have a habit of exercising.\n",
         "explanation_source": "ai_v1"
       },
@@ -1167,6 +1195,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 29,
+        "section_label": "題組",
         "raw_text": "29. Which is true about Tabata training?\n    (A) It is difficult to learn the moves.\n    (B) You are free to choose your own moves.\n    (C) You need a large space to do the exercises.\n    (D) You cannot rest between moves if you want the afterburn.\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1238,6 +1267,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 30,
+        "section_label": "題組",
         "raw_text": "30. There are four important points in the report:\n    a. What “No Overtime Day” is\n    b. Why “No Overtime Day” fails\n    c. Why there is “No Overtime Day” in the country\n    d. How workers deal with “No Overtime Day”\n    How are they ordered in the report?                        order 排序\n    (A) acdb.        (B) adcb.          (C) cabd.     (D) cadb.\n",
         "explanation_source": "ai_v1"
       },
@@ -1273,6 +1303,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 31,
+        "section_label": "題組",
         "raw_text": "31. What does this mean in the report?\n    (A) The way workers show they are hard-working.\n    (B) Restaurants and coffee shops open until very late at night.\n    (C) Workers do not go home when they walk out of the office.\n    (D) \u0007The number of workers who get paid more and rise higher in the company.\n",
         "explanation_source": "ai_v1"
       },
@@ -1308,6 +1339,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 32,
+        "section_label": "題組",
         "raw_text": "32. What can we learn from Figure 1 and Figure 2?\n    (A) Long working hours killed more women than men in 2014.\n    (B) Long working hours kills more and more workers every year.\n    (C) \u0007Men usually have a bigger chance to get paid more and rise higher when they\n         work the same hours as women.\n    (D) \u0007Men and women have almost the same chance to get paid more and rise higher\n         when they work 2,200 hours.\n\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1383,6 +1415,7 @@
         ],
         "parse_confidence": 0.4,
         "original_question_number": 33,
+        "section_label": "題組",
         "raw_text": "33. Which map is most likely the map of Cameroon in 1962?\n                                                           likely 可能\n    (A)\t\t(B)\n\n\n\n\n    (C)\t\t(D)\n\n\n\n"
       },
       "is_active": false,
@@ -1417,6 +1450,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 34,
+        "section_label": "題組",
         "raw_text": "34. What does resentful mean in the reading?\n    (A) Sad.\t\t                    (B) Angry.\n    (C) Careful.\t\t                (D) Worried.\n",
         "explanation_source": "ai_v1"
       },
@@ -1452,6 +1486,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 35,
+        "section_label": "題組",
         "raw_text": "35. What does Cameroon’s government most likely think of Ambazonia?\n    (A) It plans to do business with Ambazonia.\n    (B) It needs Ambazonia for money and help.\n    (C) It does not want to be part of Ambazonia.\n    (D) It does not agree that Ambazonia is a country.\n",
         "explanation_source": "ai_v1"
       },
@@ -1487,6 +1522,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 36,
+        "section_label": "題組",
         "raw_text": "36. What does Elisa Grant try to tell readers by talking about the history of Cameroon?\n    (A) Why speaking English is a way to get power.\n    (B) Why English speakers in Cameroon have less power.\n    (C) Why the two parts of Cameroon became one country.\n    (D) Why only 20% of the people in Cameroon speak English.\n\n\n\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1558,6 +1594,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 37,
+        "section_label": "題組",
         "raw_text": "37. What is recommended to people who are visiting the Southend Trail?\n    (A) Camping on the side trails.\n    (B) Biking along the side trails.\n                                                              recommend 推薦\n    (C) Hiking one part of the trail a day.\n    (D) Visiting the museum in the morning.\n",
         "explanation_source": "ai_v1"
       },
@@ -1593,6 +1630,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 38,
+        "section_label": "題組",
         "raw_text": "38. What does lodging mean in the reading?\n    (A) A meal to have.\t\t                  (B) A place to stay in.\n    (C) A time for visiting.               (D) A way of moving around.\n",
         "explanation_source": "ai_v1"
       },
@@ -1628,6 +1666,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 39,
+        "section_label": "題組",
         "raw_text": "39. Kaylen will start his trip from Cove. He plans to visit one of the old castles. He also\n    wants to go birdwatching near the river. Which parts of the trail should Kaylen go on?\n    (A) Parts 1 and 2.\t\t                      (B) Parts 1 and 2a.\n    (C) Parts 2 and 3.\t\t                      (D) Parts 4 and 4a.\n\n",
         "explanation_source": "ai_v1"
       },
@@ -1703,6 +1742,7 @@
         ],
         "parse_confidence": 0.4,
         "original_question_number": 40,
+        "section_label": "題組",
         "raw_text": "40. (A) in fact        (B) at first      (C) of course     (D) for example\n"
       },
       "is_active": false,
@@ -1740,6 +1780,7 @@
         ],
         "parse_confidence": 0.4,
         "original_question_number": 41,
+        "section_label": "題組",
         "raw_text": "41. (A) take sit       (B) Ms Easy       (C) it makes      (D) me steak\n"
       },
       "is_active": false,
@@ -1777,6 +1818,7 @@
         ],
         "parse_confidence": 0.4,
         "original_question_number": 42,
+        "section_label": "題組",
         "raw_text": "42. (A) strange        (B) difficult     (C) delicious     (D) important\n"
       },
       "is_active": false,
@@ -1813,6 +1855,7 @@
         ],
         "parse_confidence": 0.75,
         "original_question_number": 43,
+        "section_label": "題組",
         "raw_text": "43. (A) more than just games             (B) often played in public\n    (C) not so popular as before         (D) not first used to learn words\n\n\n\n\n"
       },
       "is_active": false,

@@ -46,6 +46,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 1,
+        "section_label": "單題",
         "raw_text": "1.\n\n\n\n\n     這則粉絲專頁貼文的用意，最可能是下列何者？\n     (A)徵求粉絲專頁新小編\n     (B)預告直播促銷的期程\n     (C)暗示秋刀魚產季將近\n     (D)宣布調漲秋刀魚價格\n\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -81,6 +82,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 2,
+        "section_label": "單題",
         "raw_text": "2.   下列文句，何者用字完全正確？\n     (A)那張字畫的真跡被竊後，至今不知所衷\n     (B)他只知言襲前人作法，完全不懂得變通\n     (C)你去失誤招領處詢問，也許能找回錢包\n     (D)樹欲靜而風不止，為人子女盡孝要及時\n\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -116,6 +118,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 3,
+        "section_label": "單題",
         "raw_text": "3.   下列文句中的謙詞，何者使用最恰當？\n     (A)足球賽後，亞軍隊伍向冠軍隊伍道賀：「承讓了，恭喜！」\n     (B)同樂會時，班長自告奮勇：「如果大家不嫌棄，我就獻醜了。」\n     (C)主席在會議的結語：「感謝各位提供的淺見，我們會審慎評估。」\n     (D)對宴會的主人說：「謝謝你準備的薄酌，讓大家吃得非常滿足。」\n\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -151,6 +154,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 4,
+        "section_label": "單題",
         "raw_text": "4.   某些問卷使用了否定詞，受訪者有時不易理解內容，感到混淆。根據下列問卷\n     題目，阿寶的立場與其選擇相符的是哪一個？\n\n               問卷題目         阿寶的立場   阿寶的選擇\n     (A) 您是否同意廢除最低工資的設立？  最低工資要受到保障   同意\n     (B) 您是否同意禁止種植基因改造植物？  反對基因改造     同意\n         您是否同意政府不應全面禁止動物 人類福祉應優先於\n     (C)                             不同意\n         實驗？                 其他動物\n         您是否同意政府不可為了國家建設而\n     (D)                    不想多繳稅    不同意\n         提高稅率？\n\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -186,6 +190,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 5,
+        "section_label": "單題",
         "raw_text": "5.   右側是某書店開幕的廣告文\n     案。根據內容，下列敘述何\n     者錯誤？\n     (A)融合節慶的元素\n     (B)邀請民眾蒞店同樂\n     (C)說明終身學習的重要\n     (D)點出書店開幕日晚上營業\n\n\n\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -221,6 +226,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 6,
+        "section_label": "單題",
         "raw_text": "6.   下列詞語中的「落」字，何者與「月落星沉」的「落」字意義相同？\n     (A)下「落」不明        (B)草木疏 「落」\n     (C)丟三「落」四        (D)水「落」石出\n\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -256,6 +262,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 7,
+        "section_label": "單題",
         "raw_text": "7.   「人生，其實像一條從寬闊的平原走進森林的路。在平原上同伴可以結夥而行，\n     歡樂地前推後擠、相濡以沫。一旦進入森林，草叢和荊棘擋路，情形就變了，\n     各人專心走各人的路，尋找各人的方向。」這段文字的觀點與下列何者相去最遠？\n     (A)人生總有坎坷，不會永遠是平順坦途\n     (B)不論結伴或是獨行，皆應樂觀面對人生\n     (C)天下無不散的筵席，朋友總有分離的時候\n     (D)人的選擇不同，每個人都得自己去創造未來\n\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -291,6 +298,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 8,
+        "section_label": "單題",
         "raw_text": "8.   下列文句「」中的字，何者讀音正確？\n     (A)在賣場集滿點數就可「兌」換商品：ㄩㄝˋ\n     (B)一望無「垠」的海面上漂流著幾艘小船：ㄍㄣ\n     (C)這場音樂會的門票開賣不久就售「罄」：ㄑㄧㄥˋ\n     (D)櫃檯上的花瓶插了一束紫色的「桔」梗花：ㄓㄜˊ\n\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -326,6 +334,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 9,
+        "section_label": "單題",
         "raw_text": "9.   「由國家出資的遠征計畫，經費較高，卻少有重大發現。官方的主事者常\n     攜帶大批補給裝備，而非輕裝簡從。且受制於政治考量，無法自行選拔合適\n     的成員。反觀私人支持的遠征隊較能達成目標，主事者專心致志，可主導成\n     員的挑選，每個人都有擅長的領域。」根據本文，私人支持的遠征隊較能達\n     成目標的原因不包含下列何者？\n     (A)政治考量較少       (B)補給裝備較多\n     (C)主事者權限較大      (D)計畫成員較專業\n\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -364,6 +373,7 @@
         ],
         "parse_confidence": 0.4,
         "original_question_number": 10,
+        "section_label": "單題",
         "raw_text": "10. 〈瑯琊臺刻石〉是秦代的篆刻文字，其特點在於：用筆圓轉，結構勻稱，筆畫粗\n    細均勻。根據字體特徵，下列何者最可能是〈瑯琊臺刻石〉？\n\n\n\n"
       },
       "is_active": false,
@@ -398,6 +408,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 11,
+        "section_label": "單題",
         "raw_text": "11. 下列各項比賽優勝的獎牌題辭，何者搭配最恰當？\n        比賽項目      題辭\n  (A)    演說      妙筆生花\n  (B)    作文      新鶯出谷\n  (C)    書法      鐵畫銀鉤\n  (D)    歌唱      口若懸河\n\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -433,6 +444,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 12,
+        "section_label": "單題",
         "raw_text": "12. 「老農家貧在山住，耕種山田三四畝。苗疏稅多不得食，輸入官倉化為土。歲暮\n    鋤犁傍空室，呼兒登山收橡實。西江賈客珠百斛，船中養犬長食肉。」關於這首\n    詩的說明，下列敘述何者最恰當？\n    (A)就形式而言，是一首七言律詩\n    (B)就類別而言，是一首山居躬耕的閒適詩\n    (C)就內涵而言，描繪農民於繁重稅賦下艱困的生活\n    (D)就技巧而言，以農家與商賈對比，凸顯人情的可貴\n\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -468,6 +480,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 13,
+        "section_label": "單題",
         "raw_text": "13. 「遺忘就像舞臺打燈後的暗處，漆黑越大片，就越能凸顯光照的明亮。遺忘幫我\n    們揀選人生最值得珍惜的過往片段。因此，遺忘是無須哀悼的，忘的越多，就\n    越應該把眼光投向光照的所在，那才是值得留戀的人事代謝。」下列何者最接近\n    本文作者的觀點？\n    (A)生命中的人事代謝無須遺忘\n    (B)遺忘如同舞臺上光照的所在\n    (C)不被遺忘的事物才最值得珍惜\n    (D)遺忘越多越能看見人生光明面\n\n\n\n\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -503,6 +516,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 14,
+        "section_label": "單題",
         "raw_text": "14. 「玉慘花愁出鳳城，蓮花樓下柳青青。尊前一唱〈陽關曲〉，別個人人第五\n    程？    尋好夢，夢難成。有誰知我此時情？枕前淚共階前雨，隔個窗兒滴到\n    明。」關於這闋詞的分析，下列敘述何者錯誤？\n    (A)首句情景交融，「慘」、「愁」二字點出別情\n    (B)下闋首句點出「我」為了追尋理想而遠離佳人\n    (C)末尾二句暗示「我」滿懷離情別緒，一夜未眠\n    (D)上闋描寫分別時的情景，下闋描寫別後的思情\n\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -538,6 +552,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 15,
+        "section_label": "單題",
         "raw_text": "15. 「溝通包含了三要素：內容、語調、非語言行為。若某人說話時的語調、手勢、\n    表情，和他所說的內容不一致或情境模糊時，人們比較容易受到語調和非語言\n    行為的影響。」下列情境，何者最符合這段文字的內容？\n    (A)說話用字過度簡潔，會讓人覺得沒有禮貌\n    (B)同樣的內容，由嚴肅的老師說出來比較具有說服力\n    (C)朋友收到禮物時臭著臉說「謝謝」，會覺得他其實並不開心\n    (D)聽廣播時，因看不到主持人的表情、手勢，無法判斷內容的真實性\n\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -573,6 +588,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 16,
+        "section_label": "單題",
         "raw_text": "16. 下列文句中的詞語，何者使用最恰當？\n    (A)飲食應注重營養均衡，五穀不分才健康\n    (B)這房子經歷風災依然堅固，真是不愧屋漏\n    (C)使用儀器以蠡測海後，他終於得到準確數據\n    (D)對於行將就木之人，世間的一切已無須牽掛\n\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -608,6 +624,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 17,
+        "section_label": "單題",
         "raw_text": "17. 下列選項中的文字，旨在強調求學必須先立定志向。依據文意判斷，何者斷句\n    最恰當？\n    (A)夫學者之欲至於聖賢猶射者，之求中夫正鵠也。不以聖賢為準的而學者是，\n       不立正鵠而射者也。\n    (B)夫學者之欲至於聖賢，猶射者之求中夫正鵠也。不以聖賢為準的而學者，\n       是不立正鵠而射者也。\n    (C)夫學者之欲，至於聖賢猶射者之求中。夫正鵠也，不以聖賢為準的，而學者\n       是不立正鵠而射者也。\n    (D)夫學者之欲至，於聖賢猶射者之求。中夫正鵠也不以聖賢為準，的而學者是\n       不，立正鵠而射者也。\n\n\n\n\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -643,6 +660,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 18,
+        "section_label": "單題",
         "raw_text": "18.     漢靈帝時，陳留 蔡邕，以數上書陳奏，忤上旨意，又內寵惡之，慮不\n      免，乃亡命江海，遠跡吳郡。吳有燒桐以爨1 者，邕聞火烈聲，曰：「此良材\n      也。」因請之，削之以琴，果有美音。而其尾焦，因名「焦尾琴」。\n\n      根據這則故事，下列敘述何者最恰當？\n                           \n      (A)焦尾琴因蔡邕識材而製成       1.爨：音ㄘㄨㄢˋ，升火煮食\n      (B)吳人向來以燒桐製琴聞名\n      (C)焦尾琴製成後經火烤而音色優美\n      (D)蔡邕因忤逆上意而遭流放至吳郡\n\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -678,6 +696,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 19,
+        "section_label": "單題",
         "raw_text": "19. 「蝸以涎見覓，蟬以聲見黏，螢以光見獲。故愛身者，不貴赫赫之名。」這句話\n    的涵義與下列何者最接近？\n    (A)人過留名，雁過留聲\n    (B)所榮者善行，所恥者惡名\n    (C)名不可簡而成，譽不可巧而立\n    (D)樹大招風風損樹，人為名高傷喪身\n\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -716,6 +735,7 @@
         ],
         "parse_confidence": 0.4,
         "original_question_number": 20,
+        "section_label": "單題",
         "raw_text": "20. 在象形字上附加符號表示抽象概念，是指事的造字方法之一。下列何者屬於這\n    種造字方法？\n\n\n\n"
       },
       "is_active": false,
@@ -750,6 +770,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 21,
+        "section_label": "單題",
         "raw_text": "21. 鞠武〈報燕太子丹書〉曰：「臣聞快於意者虧於行，甘於心者傷於性。今太子欲\n    滅悁悁1 之恥，除久久之恨，此實臣所當糜軀碎首而不避也。私以為智者不冀僥\n    倖以要功，明者不苟從志以順心。事必成，然後舉；身必安，而後行。故發無\n    失舉之尤，動無蹉跌2 之愧也。太子貴匹夫之勇，信一劍之任，而欲望功，臣以\n    為疏。」關於這段文字的寫作分析，下列敘述何者最恰當？\n    (A)分析個中利害關係，鼓勵太子須建功立業\n                                  \n    (B)採取先抑後揚筆法，肯定太子能獨當一面         1.悁悁：憤怒\n    (C)以工整句式加強文氣，勸諫太子應謀定而後動       2.蹉跌：失誤\n    (D)列舉前人失敗的事例，提醒太子不宜心存僥倖\n\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -785,6 +806,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 22,
+        "section_label": "單題",
         "raw_text": "22.     賈人某，至直隸界，忽大雨雹，伏禾中。聞空中云：「此張不量田，勿傷\n      其稼。」天霽，他田偃壞，張田獨無恙。蓋張氏積粟甚富，每春間貧民皆就貸\n      焉。償時多寡不較，悉納之，未嘗執概取盈，故鄉人名之「不量」。\n\n      根據本文，「張田獨無恙」的原因最可能是下列何者？\n      (A)張氏行善積德，得到護佑\n      (B)貧民虔誠祈願，感動上天\n      (C)張氏田產甚多無法丈量，看不出損失\n      (D)賈人福澤深厚，連帶使張田倖免於難\n\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -820,6 +842,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 23,
+        "section_label": "單題",
         "raw_text": "23.\n        目前因鰲鼓溼地水位升高，使黑面琵鷺棲息處距離賞鳥亭長達300多公\n      尺。往年低水位時，會浮出大片沙洲，黑面琵鷺棲息在賞鳥亭前約50公尺處。\n      今年若要觀賞牠們，務必攜帶高倍望遠鏡。\n        賞鳥期從11月1日到明年2月18日，期間逢假日8時至16時將實施管制，\n      進入溼地的車輛從原本可自由進出南、北閘門，改為北閘門進，南閘門出。\n\n      根據本文，下列關於鰲鼓溼地賞鳥的敘述，何者最恰當？\n      (A)水位越低時，越需要使用高倍望遠鏡觀察\n      (B)黑面琵鷺的棲地會隨著賞鳥亭的位置改變\n      (C)賞鳥期間進入溼地的車輛全天候均須管制\n      (D)非假日到溼地賞鳥，車輛可從南閘門進入\n\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -855,6 +878,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 24,
+        "section_label": "單題",
         "raw_text": "24. 「夫繭，捨而不治，則腐蠹而棄。使女工繅1 之，以為美錦，國君服而朝之。\n    身者，繭也，捨而不治，則智行腐蠹。使賢者教之，以為世士，則天下諸侯莫\n    敢不敬。」關於本文的分析，下列敘述何者最恰當？\n    (A)以繭為喻，說明教化對修身的重要\n                            \n    (B)以身著美錦，暗指上位者奢靡誤國      1.繅：音ㄙㄠ，煮繭抽絲\n    (C)以女工與賢者對照，強調環境的影響\n    (D)以腐蠹的蠶繭，嘲諷國政的敗壞衰頹\n\n\n\n\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -925,6 +949,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 25,
+        "section_label": "題組",
         "raw_text": "25. 關於文中的「我」，下列敘述何者最恰當？\n    (A)在愛丁堡的期間是帶有目的性的停留\n    (B)認為去大象咖啡館是一種偏頗的決定\n    (C)因沉浸在老圖書館的氛圍裡而忘卻時間\n    (D)討厭愛丁堡的寒冷而不願回想留學時光\n\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -960,6 +985,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 26,
+        "section_label": "題組",
         "raw_text": "26. 文末「那個尖銳的姿態，同時也是狹窄的。」這句話的意思，最可能是下列何者？\n    (A)粗心大意，挂一漏萬的情況一再出現\n    (B)年少時個性尖銳，只想處處與人爭鋒\n    (C)器量狹小，容不下別人一丁點的錯誤\n    (D)眼前只有單一的目標，視野不夠開闊\n\n\n\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -1030,6 +1056,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 27,
+        "section_label": "題組",
         "raw_text": "27. 根據本文，出版社把原書絲線的顏色改掉，造成的影響最可能是下列何者？\n    (A)失去原本的隱喻，使讀者無法感受作者諷刺的用意\n    (B)混淆勳章的配色，使讀者誤解不同貴族的代表顏色\n    (C)過度渲染舞蹈的功能，以為是貴族階層流行的風尚\n    (D)刻意淡化階級的對立，營造出社會繁榮和諧的假象\n\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -1065,6 +1092,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 28,
+        "section_label": "題組",
         "raw_text": "28. 根據本文，關於綏夫特《格理弗遊記》的敘述，下列何者最恰當？\n    (A)作者致力於創作兒童奇幻文學作品\n    (B)作者以虛構的情節反映現實的醜惡\n    (C)早期中文譯者將原書的四冊內容濃縮為兩冊\n    (D)早期譯者用「格物學」一詞是為免得罪當道\n\n\n\n\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -1135,6 +1163,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 29,
+        "section_label": "題組",
         "raw_text": "29. 根據本文，關於人類對地球資源的消耗，下列敘述何者最恰當？\n    (A)1990年之前，人類並未透支地球資源\n    (B)2022年人類耗用的地球資源是前一年的1.75倍\n    (C)每年的地球超載日之後，全球資源就會消耗殆盡\n    (D)美國人的生活方式比多數國家的人對地球造成更大的負擔\n\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -1170,6 +1199,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 30,
+        "section_label": "題組",
         "raw_text": "30. 根據本文，下列何者最可能使地球超載日延後？\n    (A)提升畜牧業整體產量\n    (B)加強野生動物保育工作\n    (C)增加飲食中蔬食的比例\n    (D)嚴防Covid-19疫情再爆發\n\n\n\n\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -1240,6 +1270,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 31,
+        "section_label": "題組",
         "raw_text": "31. 根據展覽概述，下列推論何者最恰當？\n    (A)北宋時期的畫作可繪於絲織品上\n    (B)范寬、郭熙、李唐三人係師出同門\n    (C)北宋山水畫的典範首重全然描繪實景\n    (D)三者中〈萬壑松風〉的成畫年代最早\n\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -1277,6 +1308,7 @@
         ],
         "parse_confidence": 0.85,
         "original_question_number": 32,
+        "section_label": "題組",
         "raw_text": "32. 右圖是阿燦根據資料繪製的美術作\n    業，同學小群核對後發現有疏失處，\n    最可能是下列何者？\n    (A)展出的起迄日期有誤\n    (B)應該標明是首次合體展覽\n    (C)沒有按照畫家出生年分先後排序\n    (D)未得官方核定不宜以「國寶」稱之\n\n\n\n\n"
       },
       "is_active": false,
@@ -1350,6 +1382,7 @@
         ],
         "parse_confidence": 0.4,
         "original_question_number": 33,
+        "section_label": "題組",
         "raw_text": "33. 根據本文，下列圖表何者最適合用來呈現「人工智慧」、「機器學習」、\n    「深度學習」三者之間的關係？\n\n\n\n"
       },
       "is_active": false,
@@ -1384,6 +1417,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 34,
+        "section_label": "題組",
         "raw_text": "34. 根據畫線處的文句，下列關係的說明，何者最接近文中「偽造影像的生成」與\n    「偽造影像的辨識」兩者之間的競爭？\n    (A)就像是光源和影子，透過光源的運用可使影子出現各種變化\n    (B)就像是投影機和螢幕，投影機投射的影像須藉螢幕顯示出來\n    (C)就像是自來水和水龍頭，當水龍頭開得越大，自來水的出水量就越大\n    (D)就像是駭客與防毒軟體，當駭客發展出新病毒，防毒軟體就會再更新\n\n\n\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -1419,6 +1453,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 35,
+        "section_label": "題組",
         "raw_text": "35. 根據本文，下列關於深偽技術或深偽影片的敘述，何者最恰當？\n    (A)美國媒體藉由皮爾模仿的深偽影片操縱民主\n    (B)演員可以透過深偽技術增進自己的表演技巧\n    (C)氾濫的深偽影片將導致民眾對社會的信任度下降\n    (D)深偽技術的爭議在人類的創意會被人工智慧取代\n\n\n\n\n以下小說節錄自鍾肇政《魯冰花》，主角古阿明是來自貧困茶農家庭的小學生。請閱\n讀並回答36 ～ 37題：\n  古阿明昨天在茶園裡畫的作品，郭雲天認為是近一個月以來最好的一幅，也\n是最使他滿意的一幅。\n  古阿明畫的是茶蟲。那真是個奇異的幻想世界。在一面圖案化的綠色畫面\n上，各種各樣的大小茶蟲畫得猙獰可怖。此外還有幾個人物——古阿明曾向郭雲天\n說那三個人是姊姊，小弟弟和他自己。茶蟲有的在拼命地啃茶葉，有的在吃畫面上\n的一個人物手裡捧著的飯，有的在吃另一個人物的衣服。古阿明那小小的心靈裡的\n憤恨與恐懼，靠著他那獨特的，大膽的筆觸，毫無遺漏地表露出來。\n  郭雲天只有暗嘆的份兒，幾乎沒有提供意見的餘地，因為古阿明一開始作\n畫，就好像已忘了周遭的一切，連他所尊敬的師長在身旁也都似乎渾然忘卻，手不\n停揮地畫下去。直到畫好後，郭雲天才得到機會提出他的修改意見。他指示他哪裡\n的顏色還不夠鮮明，哪一筆線條還要加強。\n  事實上，郭雲天的意見也不多。他不忍破壞掉那純潔的心靈裡所流露出來\n的，敏銳得就如電流一般的感覺。甚至他明知畫裡的一條蟲在生卵是錯誤的，也還\n是讓他保持原來的面目。他認為與其改正過來，倒毋寧這個樣子較合他的年歲。\n\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -1454,6 +1489,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 36,
+        "section_label": "題組",
         "raw_text": "36. 根據本文，古阿明想透過畫作表達的意義，最可能是下列何者？\n    (A)以茶蟲代表大自然對人類開發的反撲\n    (B)以茶蟲象徵政府官員對老百姓的監控\n    (C)茶蟲不僅啃食茶葉，也啃食了古阿明一家日常生活所需\n    (D)茶蟲為了生存無所不吃，就像古阿明為了學畫多方嘗試\n\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -1489,6 +1525,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 37,
+        "section_label": "題組",
         "raw_text": "37. 根據本文，郭雲天對古阿明的畫作意見不多，原因最可能是下列何者？\n    (A)希望古阿明能自己發現缺失\n    (B)想要保留古阿明特有的創意\n    (C)古阿明作畫時太專注，給意見也聽不進去\n    (D)古阿明的畫作太完美，無法再提更多建議\n\n\n\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -1560,6 +1597,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 38,
+        "section_label": "題組",
         "raw_text": "38. 下列關於甲、乙二文文句的說明，何者最恰當？\n    (A)「一旦遇事，便與里巷人無異」是因書讀得不夠多\n    (B)「見一事則止知一事」意謂對事情的理解不夠全面\n    (C)「如何氣象」其意是思索今人當前所處的環境氛圍\n    (D)「我自己任性為之」意謂今人比古人更加不受拘束\n\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -1595,6 +1633,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 39,
+        "section_label": "題組",
         "raw_text": "39. 關於甲、乙二文的說明與比較，下列何者最恰當？\n    (A)甲文認為耳熟能詳的淺近道理，更勝於聖賢之言\n    (B)乙文以古人處事的標準，評斷自身舉措是否合宜\n    (C)二者都認為讀書應活用，不應拘泥於古人的看法\n    (D)二者都覺得古人讀書講究方法，比今人更有效率\n\n\n\n\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -1666,6 +1705,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 40,
+        "section_label": "題組",
         "raw_text": "40. 根據本文，下列文句「」中的字義，何者說明最恰當？\n    (A)妾夜「亡」布八匹：損壞\n    (B)令尹「信」盜之：隨意\n    (C)妾子「坐」而黜：受罰\n    (D)王「其」察之：難道\n\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -1701,6 +1741,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 41,
+        "section_label": "題組",
         "raw_text": "41. 根據本文，下列關於令尹與楚王的敘述何者最恰當？\n    (A)令尹打算偷盜布匹再將罪責嫁禍給他人\n    (B)令尹主張楚國盜賊橫行是須正視的問題\n    (C)楚王覺得宮中之物被盜應是令尹的責任\n    (D)楚王認為不論身分地位都應該遵守法律\n\n",
         "explanation_source": "ai_v1_inline"
       },
@@ -1736,6 +1777,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 42,
+        "section_label": "題組",
         "raw_text": "42. 根據本文，江母見楚王的目的最可能是下列何者？\n    (A)想要替兒子江乙頂罪\n    (B)表達江乙被懲處的不公\n    (C)向楚王告發郢大夫的罪行\n    (D)建議楚王再用孫叔敖為令尹\n\n\n\n\n                       14          試題結束\n",
         "explanation_source": "ai_v1_inline"
       },

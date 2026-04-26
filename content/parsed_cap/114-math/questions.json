@@ -46,15 +46,17 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 1,
-        "raw_text": "1.   算式 710 × 72 ÷ 74 之值可用下列何者表示？\n     (A) 73\n     (B) 75\n     (C) 78\n     (D) 716\n\n\n\n"
+        "section_label": "選擇題",
+        "raw_text": "1.   算式 710 × 72 ÷ 74 之值可用下列何者表示？\n     (A) 73\n     (B) 75\n     (C) 78\n     (D) 716\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據指數律，同底數的乘除運算遵循「乘法指數相加、除法指數相減」的規則。710 × 72 ÷ 74 = 7^(10+2-4) = 7^8，故 (C) 正確。(A) 73 是指數計算錯誤；(B) 75 誤將除法當加法；(D) 716 則是將所有數字直接相加而非運用指數律。"
     },
     {
-      "id": "cap-114-math-001",
+      "id": "cap-114-math-essay-001",
       "exam_id": "cap",
       "subject_id": "sub-cap-math",
       "paper_id": "cap-114-math",
@@ -66,7 +68,7 @@
         "",
         ""
       ],
-      "correct_answer": 2,
+      "correct_answer": 0,
       "correct_answer_json": null,
       "parent_question_id": null,
       "media": null,
@@ -84,6 +86,7 @@
         ],
         "parse_confidence": 0.25,
         "original_question_number": 1,
+        "section_label": "非選擇題",
         "raw_text": "1.   某民調公司訪問 A 市的成年民眾對於某項政策的態度，並依年齡分成 3 組。因\n     受訪者的年齡分布與全體成年人口的年齡分布有落差，於是利用「調整倍率」\n     讓調整後的結果更接近全體的民意，如表 ( 二 ) 所示。\n                   表(二)\n\n\n\n\n     其中，\n             該組人口總數\n     人口占比 =               × 100%\n            全體成年人口總數\n             該組受訪者數\n     調查比率 =             × 100%\n             所有受訪者數\n             該組人口占比\n     調整倍率 =\n             該組調查比率\n                           該組受訪者中贊成(反對)人數\n     調整前贊成 ( 反對 ) 的比率 =                      × 100%\n                                 所有受訪者數\n     調整後贊成 ( 反對 ) 的比率 = 該組調整前贊成 ( 反對 ) 的比率 × 調整倍率\n\n     表 ( 二 ) 中，全體成年人口有 40% 為 18 ～ 39 歲組，但受訪者中只有 20% 為\n     18 ～ 39 歲組，算出調整倍率為 2。因此，分別將贊成與反對的比率 8%、12%\n     乘以 2，變成 16%、24%。整體結果調整前為贊成大於反對，調整後卻變成反對\n     大於贊成。\n\n     請根據上述資訊回答下列問題，完整寫出你的解題過程並詳細解釋：\n     (1) 計算 60 歲以上組的調整倍率為何？\n     (2) 求 40 ～ 59 歲組與 60 歲以上組的調整前贊成比率分別為何？\n\n\n\n\n"
       },
       "is_active": false,
@@ -118,15 +121,17 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 2,
-        "raw_text": "2.   計算 ( 5x2 − 2x ) − ( 4 − 3x ) 的結果，與下列何者相同？\n     (A) 5x2 − 3x\n     (B) 5x2 + x − 4\n     (C) 5x2 − 5x + 4\n     (D) 5x2 − 5x − 4\n\n\n\n"
+        "section_label": "選擇題",
+        "raw_text": "2.   計算 ( 5x2 − 2x ) − ( 4 − 3x ) 的結果，與下列何者相同？\n     (A) 5x2 − 3x\n     (B) 5x2 + x − 4\n     (C) 5x2 − 5x + 4\n     (D) 5x2 − 5x − 4\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "計算(5x²−2x)−(4−3x)，先去括號：5x²−2x−4+3x，再合併同類項得5x²+(−2x+3x)−4=5x²+x−4，故(B)正確。(A)項合併同類項錯誤；(C)項去括號時未正確處理第二個括號前的負號，導致3x變成−5x；(D)項同樣是括號處理錯誤且常數項符號反了。"
     },
     {
-      "id": "cap-114-math-002",
+      "id": "cap-114-math-essay-002",
       "exam_id": "cap",
       "subject_id": "sub-cap-math",
       "paper_id": "cap-114-math",
@@ -138,7 +143,7 @@
         "",
         ""
       ],
-      "correct_answer": 1,
+      "correct_answer": 0,
       "correct_answer_json": null,
       "parent_question_id": null,
       "media": null,
@@ -156,6 +161,7 @@
         ],
         "parse_confidence": 0.25,
         "original_question_number": 2,
+        "section_label": "非選擇題",
         "raw_text": "2.   商店中販賣一款包含 A、B 兩種圖案的藝術紙片組合包，形狀分別為\n     16 公分 × 5 公分、18 公分 × 5 公分的長方形，如圖 ( 十七 ) 所示。\n\n\n\n\n                          圖 ( 十七 )\n     小燦打算在不裁切紙片的情況下，將這兩種藝術紙片以緊密相鄰的方式貼成\n     圖 ( 十八 ) 的長方形，其中奇數層為 A 圖案，偶數層為 B 圖案，且最後一層\n     為 A 圖案，而相同圖案的藝術紙片皆為相同的方向。\n\n\n\n\n                          圖 ( 十八 )\n     請根據上述資訊回答下列問題，完整寫出你的解題過程並詳細解釋：\n     (1) 以上述方式貼成的長方形，第一層最少有幾個 A 圖案？\n     (2) 已知每個組合包中 A、B 兩種圖案的藝術紙片數量比為 4：3，若小燦想購\n       買一些組合包，貼成圖 ( 十八 ) 的長方形，其中第一層的 A 圖案數量與 (1) 求出\n       之值相同，判斷他是否可能恰好把購買的藝術紙片用完？請說明理由。\n\n\n\n\n                            11                試題結束\n\n參考公式：\n\n  和的平方公式：( a + b ) 2 = a 2 + 2ab + b 2\n    差的平方公式：( a − b ) 2 = a 2 − 2ab + b 2\n    平方差公式：a 2 − b 2 = ( a + b )( a − b )\n  若直角三角形兩股長為 a、b，斜邊長為 c ，則 c 2 = a 2 + b 2\n  若圓的半徑為 r，圓周率為 π，則圓面積 = π r 2 ，圓周長 = 2 π r\n  凸 n 邊形的內角和為 (n − 2) × 180° ， n ≥ 3\n  若一個等差數列的首項為 a1，公差為 d，第 n 項為 an，前 n 項和為 Sn，\n                                n ( a1 + an)\n   則 an = a1 + (n − 1) d，Sn =\n  若一個等比數列的首項為 a1，公比為 r ，第 n 項為 an，則 an = a1r n − 1\n\n                                   −b ± b2 − 4 a c\n  一元二次方程式 ax + bx + c = 0 的解為 x =\n                                        2a\n\n\n\n\n"
       },
       "is_active": false,
@@ -193,6 +199,7 @@
         ],
         "parse_confidence": 0.6,
         "original_question_number": 3,
+        "section_label": "選擇題",
         "raw_text": "3.   圖 ( 一 ) 方格紙格線上的八條等長線段形成一個\n     線對稱圖形。圖中有四條線段標示上號碼，判斷\n     擦去下列哪個選項中的兩條線段後，剩下的圖形\n     不是線對稱圖形？\n     (A)      和2\n     (B) 和 3\n     (C) 2 和 3\n     (D) 2 和 4                                   圖(一)\n\n\n\n\n"
       },
       "is_active": false,
@@ -227,12 +234,14 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 4,
-        "raw_text": "4.\n                    +\n     若二元一次聯立方程式 37x 2y = 81 的解為\n                                x = a ，則 a + 2b 之值為何？\n                23x − 2y = 39   y=b\n     (A) 33\n     (B) 9\n     (C) −3\n     (D) −27\n\n\n\n"
+        "section_label": "選擇題",
+        "raw_text": "4.\n                    +\n     若二元一次聯立方程式 37x 2y = 81 的解為\n                                x = a ，則 a + 2b 之值為何？\n                23x − 2y = 39   y=b\n     (A) 33\n     (B) 9\n     (C) −3\n     (D) −27\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "將兩式相加消去 y：(37x + 2y) + (23x − 2y) = 81 + 39，得 60x = 120，故 x = 2，即 a = 2。代入第一式 37(2) + 2y = 81，得 74 + 2y = 81，2y = 7，y = 3.5，即 b = 3.5。因此 a + 2b = 2 + 2(3.5) = 2 + 7 = 9，故 (B) 正確。選項 (A) 33 是誤算 a + 2b 時加法錯誤；(C) −3 和 (D) −27 為計算過程中符號或數值錯誤。"
     },
     {
       "id": "cap-114-math-005",
@@ -263,6 +272,7 @@
         ],
         "parse_confidence": 0.85,
         "original_question_number": 5,
+        "section_label": "選擇題",
         "raw_text": "5.   如圖 ( 二 )， ∆ABC 中有 AD ，D 點在 BC 上。根據\n     圖中標示的度數，求 p + q + r 之值是多少？\n     (A) 140\n     (B) 150\n     (C) 160\n     (D) 180\n\n\n                                            圖(二)\n\n\n\n"
       },
       "is_active": false,
@@ -301,6 +311,7 @@
         ],
         "parse_confidence": 0.25,
         "original_question_number": 6,
+        "section_label": "選擇題",
         "raw_text": "6.   圖 ( 三 ) 為一坐標平面，若從平面上的點 ( −1 , 2 )\n     出發，向下移動再向右移動，則可能移動到下列\n     哪一點？\n     (A) ( 4 , 1 )\n     (B) ( 4 , 3 )\n     (C) ( −4 , 1 )\n     (D) ( −4 , 3 )\n\n                                           圖(三)\n\n\n\n\n"
       },
       "is_active": false,
@@ -337,6 +348,7 @@
         ],
         "parse_confidence": 0.85,
         "original_question_number": 7,
+        "section_label": "選擇題",
         "raw_text": "7.   圖 ( 四 ) 為某國預估 50 年後的人口變動數直方圖，各組的數值若為正數表示\n     該組人口 50 年後會增加，若為負數表示該組人口 50 年後會減少。根據此圖預估\n     該國 60 歲以上的人口，50 年後會增加或減少多少人？\n\n\n\n\n                         圖(四)\n     (A) 增加 207 萬人\n     (B) 增加 425 萬人\n     (C) 減少 109 萬人\n     (D) 減少 271 萬人\n\n\n\n"
       },
       "is_active": false,
@@ -371,12 +383,14 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 8,
-        "raw_text": "8.   計算 ( 2 3 + 6 ) × 2 的結果，與下列何者相同？\n     (A) 4 3\n     (B) 6 3\n     (C) 2 3 + 2 6\n     (D) 4 3 + 2 6\n\n\n\n\n"
+        "section_label": "選擇題",
+        "raw_text": "8.   計算 ( 2 3 + 6 ) × 2 的結果，與下列何者相同？\n     (A) 4 3\n     (B) 6 3\n     (C) 2 3 + 2 6\n     (D) 4 3 + 2 6\n\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "計算(2√3 + √6) × 2，將2分配給括號內的每一項：2√3 × 2 + √6 × 2 = 4√3 + 2√6，故(C)正確。(A)和(B)只計算了前項2√3 × 2的結果，忽略了√6 × 2的部分；(D)則是將係數計算錯誤，應為4√3而非6√3。"
     },
     {
       "id": "cap-114-math-009",
@@ -407,6 +421,7 @@
         ],
         "parse_confidence": 0.85,
         "original_question_number": 9,
+        "section_label": "選擇題",
         "raw_text": "9.   某園區想將 20 個無障礙停車位設置在出入口附近，為了符合規定，規劃每個\n     停車位的長度為 600 公分，寬度為 200 公分，並且停車位旁需設置寬度為 150 公分\n     的下車區，相鄰的停車位可以共用下車區。若以圖 ( 五 ) 的方式讓這些停車位\n     相鄰，且兩個相鄰的停車位之間皆有下車區，則圖中的停車位及下車區的總寬度\n     是多少公分？\n     (A) 6850\n     (B) 7000\n     (C) 7150\n     (D) 7200\n\n\n\n\n                                                 圖(五)\n"
       },
       "is_active": false,
@@ -444,6 +459,7 @@
         ],
         "parse_confidence": 0.4,
         "original_question_number": 10,
+        "section_label": "選擇題",
         "raw_text": "10. 利用乘法公式判斷，下列算式之值，何者與其他不相同？\n    (A) ( 1062 − 42 ) × ( 1082 − 22 )\n     (B) ( 1072 − 32 ) × ( 1072 − 12 )\n     (C) ( 1082 − 22 ) × ( 1062 − 22 )\n     (D) ( 1092 − 12 ) × ( 1052 − 12 )\n\n\n"
       },
       "is_active": false,
@@ -481,6 +497,7 @@
         ],
         "parse_confidence": 0.6,
         "original_question_number": 11,
+        "section_label": "選擇題",
         "raw_text": "11. 阿嘉和小楊都有 5 張分別標示數字 1、2、3、4、5 的紙牌，圖 ( 六 ) 表示兩人\n     的牌中皆有三張牌被自己蓋住的情形。今兩人打算從自己蓋住的紙牌中翻\n     開一張牌，若阿嘉蓋住的牌中每張牌被翻開的機會相等，小楊蓋住的牌中每\n     張牌被翻開的機會相等，則比較兩人翻開的那張牌上的數字，阿嘉比小楊大\n     的機率為何？\n         1                                        1        3\n     (A)\n     (B) 2                                   5             2\n     (C) 1                                              圖(六)\n     (D) 2\n\n\n"
       },
       "is_active": false,
@@ -517,6 +534,7 @@
         ],
         "parse_confidence": 0.85,
         "original_question_number": 12,
+        "section_label": "選擇題",
         "raw_text": "12. 有甲、乙、丙三種三角形木片，其邊長如圖 ( 七 ) 所示，阿林、小博打算利\n   用這三種木片各自組合成一個正三角錐。首先兩人皆選一片甲當作底面，\n   接著阿林選三片乙當作側面，小博選三片丙當作側面，關於兩人選的木片\n   能不能組合成一個正三角錐，下列判斷何者正確？\n   (A) 兩人皆能\n   (B) 兩人皆不能\n   (C) 阿林能，小博不能\n   (D) 阿林不能，小博能\n\n                                   圖(七)\n\n\n\n"
       },
       "is_active": false,
@@ -551,12 +569,14 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 13,
-        "raw_text": "13. 已知甲方程式為 ( x − 4 )2 = 9，乙方程式為 ( x + 9 )2 = −4。關於甲、乙兩\n   方程式的解的情形，下列敘述何者正確？\n   (A) 甲有兩個相異的解，乙無解\n   (B) 甲有兩個相異的解，乙有兩個相異的解\n   (C) 甲有兩個相同的解，乙無解\n   (D) 甲有兩個相同的解，乙有兩個相異的解\n\n\n\n"
+        "section_label": "選擇題",
+        "raw_text": "13. 已知甲方程式為 ( x − 4 )2 = 9，乙方程式為 ( x + 9 )2 = −4。關於甲、乙兩\n   方程式的解的情形，下列敘述何者正確？\n   (A) 甲有兩個相異的解，乙無解\n   (B) 甲有兩個相異的解，乙有兩個相異的解\n   (C) 甲有兩個相同的解，乙無解\n   (D) 甲有兩個相同的解，乙有兩個相異的解\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "甲方程式(x−4)²=9，兩邊開平方得x−4=±3，解得x=7或x=1，故甲有兩個相異的解。乙方程式(x+9)²=−4，因為任何實數的平方都非負，不可能等於負數−4，故乙無解。因此(A)正確。(B)錯誤因乙無解；(C)錯誤因甲有兩個相異解而非相同解；(D)錯誤因乙無解而非有兩個相異解。"
     },
     {
       "id": "cap-114-math-014",
@@ -587,6 +607,7 @@
         ],
         "parse_confidence": 0.85,
         "original_question_number": 14,
+        "section_label": "選擇題",
         "raw_text": "14. 圖 ( 八 ) 為貝可咖啡店的菜單，店家今日\n   準備了 120 杯咖啡和 100 個三明治販售。\n   若今日準備的餐點全部售出且收入共為\n   8700 元，則售出早餐組合的收入在下列\n   哪一個範圍？\n   (A) 4300 ～ 4399 元\n   (B) 4400 ～ 4499 元\n   (C) 4500 ～ 4599 元\n   (D) 4600 ～ 4699 元\n                                          圖(八)\n\n\n\n\n"
       },
       "is_active": false,
@@ -624,6 +645,7 @@
         ],
         "parse_confidence": 0.6,
         "original_question_number": 15,
+        "section_label": "選擇題",
         "raw_text": "15. 如圖 ( 九 )，數線上由左至右有 A(a)、B(b)、C(c)、D(d)、E(e) 五點，且\n  AB = BC = CD = DE。若原點在 AE 上，且 a + b = e ，則下列關於原點\n  位置的敘述，何者正確？\n  (A) 在 BC 上且較接近 B 點\n  (B) 在 BC 上且較接近 C 點\n  (C) 在 CD 上且較接近 C 點                  圖(九)\n  (D) 在 CD 上且較接近 D 點\n\n\n\n"
       },
       "is_active": false,
@@ -660,6 +682,7 @@
         ],
         "parse_confidence": 0.85,
         "original_question_number": 16,
+        "section_label": "選擇題",
         "raw_text": "16. 如圖 ( 十 )，∆ABC 中，D 點為 AB 的中點，E 點在 AB 上，F 點在 AC 上，\n  且 EF // BC。若 AF = 7，FC = 3，則下列敘述何者正確？\n  (A) DE > EB，DF 與 EC 平行\n  (B) DE > EB，DF 與 EC 不平行\n  (C) DE < EB，DF 與 EC 平行\n  (D) DE < EB，DF 與 EC 不平行\n\n\n\n                                           圖(十)\n\n\n\n"
       },
       "is_active": false,
@@ -697,6 +720,7 @@
         ],
         "parse_confidence": 0.6,
         "original_question_number": 17,
+        "section_label": "選擇題",
         "raw_text": "17. 圖 ( 十一 ) 是某種螺絲釘上螺紋的示意圖，圖中的虛線皆為水平線或鉛垂線，\n  圖上標示出角度，也標示出水平線間或鉛垂線間的距離。根據圖中的標示，\n  判斷此種螺絲釘的螺紋深度是螺紋間距的多少倍？\n\n  (A)\n  (B) 5\n  (C)\n      5 3\n      5 3\n  (D)\n\n\n                                圖 ( 十一 )\n\n\n"
       },
       "is_active": false,
@@ -731,6 +755,7 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 18,
+        "section_label": "選擇題",
         "raw_text": "18. 已知 a、b、c 皆為正整數，且 a、b 兩數的最大公因數與最小公倍數分別為\n  11 與 88。關於 a、b、c 三數的最大公因數與最小公倍數，甲、乙兩人分別\n  提出看法如下：\n    甲：a、b、c 三數的最大公因數可能比 11 大\n    乙：a、b、c 三數的最小公倍數可能比 88 小\n  對於甲、乙兩人的看法，下列判斷何者正確？\n  (A) 甲、乙皆正確\n  (B) 甲、乙皆錯誤\n  (C) 甲正確，乙錯誤\n  (D) 甲錯誤，乙正確\n\n"
       },
       "is_active": true,
@@ -767,6 +792,7 @@
         ],
         "parse_confidence": 0.85,
         "original_question_number": 19,
+        "section_label": "選擇題",
         "raw_text": "19. 圖 ( 十二 ) 為金銀河影城的價目表。某\n  社團 16 人去此影城看電影，打算以比賽\n  獎金 6000 元購買電影票、爆米花與\n  飲料。若要讓每人拿到一張電影票和\n  一杯飲料，則最多可買多少盒爆米花？\n  (A) 3\n  (B) 4\n  (C) 5\n                                            圖 ( 十二 )\n  (D) 6\n\n"
       },
       "is_active": false,
@@ -803,6 +829,7 @@
         ],
         "parse_confidence": 0.85,
         "original_question_number": 20,
+        "section_label": "選擇題",
         "raw_text": "20. 圖 ( 十三 ) 為一張五邊形紙片 ABCDE，F 點在 CD 上，且以 BE、BF、FE 為\n  摺線將紙片向內摺至同一平面後，A、C、D 恰重疊在同一點 P，如圖 ( 十四 ) 所\n  示。若 BE > FE > BF，則根據圖 ( 十四 ) 中標示的角，判斷下列敘述何者正確？\n\n\n\n\n\n\n                      圖 ( 十三 )          圖 ( 十四 )\n  (A) ∠3 + ∠4 = 90°，∠1 + ∠2 > ∠5 + ∠6\n  (B) ∠3 + ∠4 = 90°，∠1 + ∠2 < ∠5 + ∠6\n  (C) ∠3 + ∠4 ≠ 90°，∠1 + ∠2 > ∠5 + ∠6\n  (D) ∠3 + ∠4 ≠ 90°，∠1 + ∠2 < ∠5 + ∠6\n\n"
       },
       "is_active": false,
@@ -837,12 +864,14 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 21,
-        "raw_text": "21. 坐標平面上有二次函數 y = −( x + 7 )2 + 12 的圖形，今將此圖形向右平移 10\n  單位，平移過程中此圖形與 y 軸的交點也會跟著變化。假設此圖形與 y 軸的\n  交點為 P，判斷在平移過程中，P 點位置的變化情形為下列何者？\n  (A) 持續向下\n  (B) 持續向上\n  (C) 先向下再向上\n  (D) 先向上再向下\n\n\n\n"
+        "section_label": "選擇題",
+        "raw_text": "21. 坐標平面上有二次函數 y = −( x + 7 )2 + 12 的圖形，今將此圖形向右平移 10\n  單位，平移過程中此圖形與 y 軸的交點也會跟著變化。假設此圖形與 y 軸的\n  交點為 P，判斷在平移過程中，P 點位置的變化情形為下列何者？\n  (A) 持續向下\n  (B) 持續向上\n  (C) 先向下再向上\n  (D) 先向上再向下\n\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "原函數為 y = −(x + 7)² + 12，向右平移 t 單位（0 ≤ t ≤ 10）後得 y = −(x + 7 − t)² + 12。與 y 軸交點時 x = 0，故 P 點縱坐標為 f(t) = −(7 − t)² + 12 = −(t − 7)² + 12。對 t 求導：f'(t) = −2(t − 7) = 2(7 − t)，當 t < 7 時 f'(t) > 0（向上），當 t > 7 時 f'(t) < 0（向下），故 P 點先向上再向下，(D) 正確。(A)(B) 忽視了導數變號；(C) 方向相反。"
     },
     {
       "id": "cap-114-math-022",
@@ -874,6 +903,7 @@
         ],
         "parse_confidence": 0.6,
         "original_question_number": 22,
+        "section_label": "選擇題",
         "raw_text": "22. 如圖 ( 十五 )，∆ADG 的頂點 G 為 ∆ABC 的重心，DG 與 AB 相交於 E 點。\n  若 DE：EG = 3：2，AE：EB = 3：4，則 ∆ADG 面積為 ∆ABC 面積的多少倍？\n\n  (A)\n  (B) 5\n  (C) 5\n  (D) 5\n                                             圖 ( 十五 )\n\n\n"
       },
       "is_active": false,
@@ -910,6 +940,7 @@
         ],
         "parse_confidence": 0.85,
         "original_question_number": 23,
+        "section_label": "選擇題",
         "raw_text": "23. 如圖 ( 十六 )，∆ABC 的三個頂點都在一圓上，固定 A 點將 ∆ABC 依順時針\n    方向旋轉，旋轉後的三角形為 ∆AB′C′，且 B′ 會落在同一圓上，其中 AB 與\n  AC′ 的夾角為 x°。若 BC = 54°，CA = 62°，則 x 值為何？\n  (A) 27\n  (B) 31\n  (C) 32\n  (D) 37\n\n\n\n\n                                             圖 ( 十六 )\n\n\n\n"
       },
       "is_active": false,
@@ -979,12 +1010,14 @@
         "flags": [],
         "parse_confidence": 1.0,
         "original_question_number": 24,
-        "raw_text": "24. 小桃騎乘該自行車時， 原本使用的前齒輪為 33 齒， 後齒輪為 21 齒。根據上\n  文，他從原本的前後齒輪組合切換成下列四種組合中的哪一種後，踩起來最\n  費力？\n  (A) 前齒輪不變，後齒輪切換為 18 齒\n  (B) 前齒輪不變，後齒輪切換為 24 齒\n  (C) 前齒輪切換為 22 齒，後齒輪不變\n  (D) 前齒輪切換為 44 齒，後齒輪不變\n\n\n"
+        "section_label": "選擇題",
+        "raw_text": "24. 小桃騎乘該自行車時， 原本使用的前齒輪為 33 齒， 後齒輪為 21 齒。根據上\n  文，他從原本的前後齒輪組合切換成下列四種組合中的哪一種後，踩起來最\n  費力？\n  (A) 前齒輪不變，後齒輪切換為 18 齒\n  (B) 前齒輪不變，後齒輪切換為 24 齒\n  (C) 前齒輪切換為 22 齒，後齒輪不變\n  (D) 前齒輪切換為 44 齒，後齒輪不變\n\n\n",
+        "explanation_source": "ai_v1"
       },
       "is_active": true,
       "auto_gradable": true,
       "difficulty": 3,
-      "explanation": null
+      "explanation": "根據題意，「齒輪比越大，自行車踩起來越費力」，原本齒輪比為33÷21≈1.57。計算各選項：(A)33÷18≈1.83、(B)33÷24=1.375、(C)22÷21≈1.05、(D)44÷21≈2.10。由於(D)的齒輪比2.10最大，故(D)正確。(A)雖然齒輪比也增大，但增幅不如(D)；(B)反而使齒輪比變小，踩起來更輕鬆；(C)齒輪比大幅下降，最輕鬆。"
     },
     {
       "id": "cap-114-math-025",
@@ -1015,6 +1048,7 @@
         ],
         "parse_confidence": 0.75,
         "original_question_number": 25,
+        "section_label": "選擇題",
         "raw_text": "25. 即使是不同的前齒輪齒數與後齒輪齒數的組合，仍可能產生相同的齒輪比，\n  因此小桃這輛 18 段變速自行車實際上只能夠產生 14 種不同的齒輪比。根據\n  上文，判斷這輛自行車切換前齒輪齒數與後齒輪齒數的組合時，下列哪一個\n  齒輪比有最多種組合？\n\n  (A)\n  (B) 11\n  (C) 11\n  (D) 11\n\n\n\n\n"
       },
       "is_active": false,

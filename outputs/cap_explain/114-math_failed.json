@@ -1,0 +1,15 @@
+{
+  "year": 114,
+  "subject": "math",
+  "model": "claude-haiku-4-5-20251001",
+  "generated_at": "2026-04-26",
+  "failures": {
+    "18": {
+      "reason": "validation_failed",
+      "first_why": "too_long(316)",
+      "first_text": "由 gcd(a,b)=11 與 lcm(a,b)=88 可知，a=11m、b=11n，其中 gcd(m,n)=1 且 mn=8。因此 (m,n) 只能是 (1,8) 或 (8,1)，即 a、b 必為 {11,88}。甲說「a、b、c 三數的最大公因數可能比 11 大」，但 gcd(a,b,c)=gcd(gcd(a,b),c)=gcd(11,c)，由於 11 是質數，gcd(11,c) 只能是 1 或 11，不可能大於 11，故甲錯誤。乙說「a、b、c 三數的最小公倍數可能比 88 小」，但 lcm(a,b,c)=lcm(lcm(a,b),c)=lcm(88,c)，而 lcm(88,c)≥88 恆成立，故乙錯誤。(B) 正確。",
+      "second_why": "too_long(295)",
+      "second_text": "由 gcd(a,b)=11 與 lcm(a,b)=88，可知 a=11m、b=11n，其中 gcd(m,n)=1 且 mn=8。因此 (m,n) 只能是 (1,8) 或 (8,1)，即 a、b 必為 {11,88}。甲說「a、b、c 三數的最大公因數可能比 11 大」是錯誤的，因為 gcd(a,b,c) 必整除 gcd(a,b)=11，故 gcd(a,b,c)≤11，不可能比 11 大。乙說「a、b、c 三數的最小公倍數可能比 88 小」也是錯誤的，因為 lcm(a,b,c) 必為 lcm(a,b)=88 的倍數，故 lcm(a,b,c)≥88，不可能比 88 小。故 (B) 正確。"
+    }
+  }
+}
